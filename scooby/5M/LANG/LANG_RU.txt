@@ -1,8 +1,17 @@
 # Scooby-Op Translation — Russian (Русский)
 # Auth data_var name: LANG_RU
-# Total strings: 1052
+# Total strings: 1550
 # Format: JOAAT_HASH=translated text
 #
+
+# EN:   Max
+814719606=  Макс
+
+# EN:   Min
+311586748=  Мин
+
+# EN: (none)
+556434450=(нет)
 
 # EN: .lua
 4105145103=.lua
@@ -10,8 +19,20 @@
 # EN: 0 = auto height
 11004445=0 = авто высота
 
+# EN: 0 = feet, 0.9 = center, 1.8 = head
+3348539186=0 = ноги, 0.9 = центр, 1.8 = голова
+
+# EN: 3D Box
+94557236=3D Бокс
+
+# EN: AC Overlay
+2376138547=Оверлей AC
+
 # EN: Abilities
 2653368607=Способности
+
+# EN: Accel Curve
+2943028526=Кривая ускорения
 
 # EN: Acceleration
 3788879299=Ускорение
@@ -19,11 +40,17 @@
 # EN: Accent
 4264995109=Акцент
 
-# EN: Accent = Primary
-2408952048=Акцент = Основной
+# EN: Accent / Graph
+4064112843=Акцент / График
 
 # EN: Accent Color
 289657549=Цвет акцента
+
+# EN: Accent Colors
+1583477585=Цвета акцента
+
+# EN: Accent Line
+3861962259=Линия акцента
 
 # EN: Accent Text
 2203008932=Текст акцента
@@ -43,26 +70,80 @@
 # EN: Active Only
 3026641013=Только активные
 
+# EN: Active Opacity
+2342129632=Прозрачность активного
+
 # EN: Active Style
 3006353922=Активный стиль
+
+# EN: Active Style##sb
+1226024826=Активный стиль##sb
+
+# EN: Active Text
+2273182661=Активный текст
+
+# EN: Active Windows
+1847726038=Активные окна
+
+# EN: Adaptive Smoothing
+1841848259=Адаптивное сглаживание
+
+# EN: Adder
+3078201489=Adder
+
+# EN: Adjusts Z to ground level after teleport
+1956583967=Корректирует Z до уровня земли после телепорта
+
+# EN: Admin
+394765392=Админ
+
+# EN: Admin List
+3041029138=Список админов
+
+# EN: Admins
+2040182826=Админы
 
 # EN: Advanced
 191998119=Расширенные
 
+# EN: Advanced##sa
+1146831031=Расширенные##sa
+
 # EN: Aim Alert
 2286335061=Оповещение о прицеле
+
+# EN: Aim Assist
+3166330447=Помощь прицеливания
+
+# EN: Aim FOV
+2343825128=FOV прицела
 
 # EN: Aim Key
 2127464103=Клавиша прицела
 
-# EN: Aimbot
-4049715360=Aimbot
-
 # EN: Air Control
 216375879=Управление в воздухе
 
+# EN: Airdrop
+35122248=Аирдроп
+
+# EN: Alert Color
+3709827158=Цвет оповещения
+
+# EN: Alien Green
+961017976=Зелёный инопланетянин
+
 # EN: All
 1166234150=Все
+
+# EN: All Nearby Peds
+2228825073=Все ближайшие NPC
+
+# EN: All Peds
+1665670656=Все NPC
+
+# EN: All Players
+1249477044=Все игроки
 
 # EN: All Resources
 3003973313=Все ресурсы
@@ -76,9 +157,6 @@
 # EN: Alpha
 767087018=Альфа
 
-# EN: Amber
-552717805=Янтарный
-
 # EN: Ammo
 307971639=Патроны
 
@@ -88,14 +166,35 @@
 # EN: Anchor
 1880738441=Якорь
 
+# EN: Animate Entries
+2777997914=Анимировать записи
+
+# EN: Animated GIF
+336645484=Анимированный GIF
+
 # EN: Animation
 1176408751=Анимация
 
 # EN: Animations
 490102724=Анимации
 
+# EN: Anti-Cheat
+1651501873=Античит
+
+# EN: Anti-Detection
+1577423134=Антиобнаружение
+
+# EN: Any target in range
+3516261591=Любая цель в зоне
+
 # EN: Appearance
 3647733735=Внешний вид
+
+# EN: Apply Model
+2794752200=Применить модель
+
+# EN: Apply Preset
+3793427380=Применить пресет
 
 # EN: Apply To
 3114722325=Применить к
@@ -103,14 +202,29 @@
 # EN: Armor Bar
 1640301539=Полоса брони
 
-# EN: Armour
-3908443768=Броня
+# EN: Arrow
+182494798=Стрелка
 
-# EN: Arrow Size
-976748805=Размер стрелки
+# EN: Attach
+3601695277=Прикрепить
 
 # EN: Attach to Self
 1600135536=Прикрепить к себе
+
+# EN: Attachments
+2740828529=Навесное
+
+# EN: Attack
+3265681955=Атака
+
+# EN: Auto
+3043925626=Авто
+
+# EN: Auto Detect Anti-Cheat
+3303598959=Автоопределение античита
+
+# EN: Auto Fire
+3918303945=Автоматический огонь
 
 # EN: Auto Godmode
 2673570143=Авто Godmode
@@ -121,11 +235,38 @@
 # EN: Auto Heal on Kill
 38124947=Авто лечение при убийстве
 
+# EN: Auto Hit
+252819216=Автоудар
+
+# EN: Auto Pilot
+1235508069=Автопилот
+
+# EN: Auto Punch
+4126830016=Автоудар кулаком
+
+# EN: Auto Repair
+173214996=Авторемонт
+
+# EN: Auto Select
+1270725521=Автовыбор
+
+# EN: Auto Switch on Kill
+1282152805=Автопереключение при убийстве
+
+# EN: Auto Switch on Kill##sa
+2174464398=Автопереключение при убийстве##sa
+
 # EN: Auto-detect fonts from Windows
 2577479103=Автоопределение шрифтов из Windows
 
+# EN: Auto-disable aimbot when holding RPG, grenade launcher, or throwables
+1054006449=Автоотключение аимбота при использовании RPG, гранатомёта или метательного
+
 # EN: Auto-saves your position. Press [B] to rewind to previous locations.
 611200981=Автосохранение позиции. Нажмите [B] для возврата к предыдущим точкам.
+
+# EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
+4247923858=Автомасштабирование FOV, сглаживания и предсказания при прицеливании через снайперский прицел
 
 # EN: Auto-zigzag while sprinting to dodge bullets
 1713564836=Автоматический зигзаг при спринте для уклонения от пуль
@@ -133,17 +274,23 @@
 # EN: Automatically heals when HP drops below threshold
 758450938=Автоматически лечит, когда HP падает ниже порога
 
-# EN: Avg
-2230851251=Сред
+# EN: Automatically punches when close enough to a target
+3378891542=Автоматически бьёт, когда достаточно близко к цели
+
+# EN: Avg FT
+2437122580=Средн. FT
+
+# EN: Avoid Traffic
+4077019646=Избегать трафика
 
 # EN: Awareness
 4120293697=Осведомлённость
 
+# EN: BG Color
+291191935=Цвет фона
+
 # EN: BG Opacity
 1722675452=Прозрачность фона
-
-# EN: BINDS
-448417639=ПРИВЯЗКИ
 
 # EN: BMX
 1131912276=BMX
@@ -153,6 +300,15 @@
 
 # EN: Background##cp
 987508231=Фон##cp
+
+# EN: Background##dist
+1223813313=Фон##dist
+
+# EN: Background##name
+2864637074=Фон##name
+
+# EN: Background##notif
+412198823=Фон##notif
 
 # EN: Background##pnl
 3123866823=Фон##pnl
@@ -165,6 +321,12 @@
 
 # EN: Background##tt
 1824343556=Фон##tt
+
+# EN: Background##weapon
+1937834289=Фон##weapon
+
+# EN: Basic
+4281242592=Базовый
 
 # EN: Beast Fall
 3610673836=Звериное падение
@@ -181,17 +343,35 @@
 # EN: Behavior
 3330951414=Поведение
 
+# EN: Behind
+1902609056=Сзади
+
+# EN: Behind Box
+1375740222=Бокс сзади
+
 # EN: Behind Player TP
 2362883765=TP за игрока
 
-# EN: Bind List
-910109241=Список привязок
+# EN: Blackout
+1180381498=Затемнение
 
 # EN: Blazer
 2166734073=Blazer
 
+# EN: Blend
+3933447691=Смешивание
+
+# EN: Blend: 0=Add to default, 1=Replace
+618049516=Смешивание: 0=Добавить к стандарту, 1=Заменить
+
 # EN: Blink / Dash
 2181400004=Blink / Dash
+
+# EN: Blizzard
+669657108=Метель
+
+# EN: Blood Red
+3933943680=Кроваво-красный
 
 # EN: Blur
 1103389357=Размытие
@@ -205,11 +385,8 @@
 # EN: Body Gradient
 706368864=Градиент тела
 
-# EN: Bone
-282216227=Кость
-
-# EN: Bone Pulse
-1869331695=Пульсация кости
+# EN: Bomb Drop
+986082614=Сброс бомбы
 
 # EN: Boost
 3475208003=Ускорение
@@ -232,8 +409,8 @@
 # EN: Border Color
 3690621973=Цвет рамки
 
-# EN: Border Opacity
-3890151403=Прозрачность рамки
+# EN: Border Disabled
+2462330118=Рамка выключена
 
 # EN: Border Style
 350757194=Стиль рамки
@@ -241,11 +418,11 @@
 # EN: Border Thickness
 3884077482=Толщина рамки
 
-# EN: Border Visible
-235715641=Рамка видима
-
 # EN: Border##cp
 216211181=Рамка##cp
+
+# EN: Border##notif
+336356185=Рамка##notif
 
 # EN: Border##sp
 192186828=Рамка##sp
@@ -259,38 +436,65 @@
 # EN: Bottom
 4007699126=Снизу
 
-# EN: Bottom Nav##preset
-1071958404=Нижняя навигация##preset
+# EN: Bottom Left
+694931044=Снизу слева
+
+# EN: Bottom Right
+3752329730=Снизу справа
 
 # EN: Box
 391302943=Бокс
 
-# EN: Box Color
-257928250=Цвет бокса
+# EN: Box + Skeleton
+2701857720=Бокс + Скелет
 
-# EN: Bracket Color
-3374770840=Цвет скобок
+# EN: Box Only
+2220777776=Только бокс
 
-# EN: Bracket Size
-3189318212=Размер скобок
-
-# EN: Brackets
-1918830564=Скобки
+# EN: Brake Force
+864573685=Сила тормоза
 
 # EN: Branding
 637151929=Брендинг
 
-# EN: Breathing
-521954926=Дыхание
-
 # EN: Brightness
 26603225=Яркость
+
+# EN: Bring to Me
+4191259033=Притянуть ко мне
+
+# EN: Bug Player
+3083359930=Сломать игрока
+
+# EN: Bug Vehicle
+1797714447=Сломать транспорт
+
+# EN: Bulk Actions
+2405283306=Массовые действия
 
 # EN: Bullet Proof
 1262983692=Защита от пуль
 
+# EN: Bullet Redirect##sa
+2808025987=Перенаправление пуль##sa
+
 # EN: Bullet Tracers
 2673625274=Трассеры пуль
+
+# EN: Bullet spawn (visible tracer)
+210089287=Появление пули (видимый трассер)
+
+# EN: Burn
+2096267097=Поджечь
+
+# EN: Burn Loop
+1482052064=Цикл поджога
+
+# EN: Burst Fire
+207152447=Очередной огонь
+
+# EN: Burst Pause
+2929660808=Пауза очереди
 
 # EN: Button Background
 2334259758=Фон кнопки
@@ -304,14 +508,32 @@
 # EN: Buttons
 2668497503=Кнопки
 
-# EN: Cage
-884503551=Клетка
+# EN: Bypassed
+716678219=Обойдён
+
+# EN: CPU time for frame animation.
+2221402083=Время CPU для анимации кадра.
+
+# EN: Cage All
+382838472=Заключить всех
+
+# EN: Cage Player
+94667905=Заключить игрока
+
+# EN: Camera FOV
+3127376300=FOV камеры
 
 # EN: Cancel
 3692849629=Отмена
 
+# EN: Careful
+3082188318=Осторожный
+
 # EN: Cartoon Gun
 2219465205=Мультяшное оружие
+
+# EN: Catapult
+3396715056=Катапульта
 
 # EN: Center
 2590249447=Центр
@@ -328,26 +550,44 @@
 # EN: Circle
 3333310803=Круг
 
+# EN: Circle Color
+2748157626=Цвет круга
+
 # EN: Circle+Dot
 2897117632=Круг+Точка
+
+# EN: Clean
+1640993750=Чистый
 
 # EN: Clear
 916995460=Очистить
 
+# EN: Clear Blue
+1120199508=Ясно-голубой
+
 # EN: Clear Console
 1742492619=Очистить консоль
 
-# EN: Click a preset to apply:
-3328559022=Нажмите на пресет для применения:
+# EN: Click UI
+1200896506=Click UI
 
 # EN: Click key button to rebind. ESC to cancel.
 939410858=Нажмите кнопку клавиши для переназначения. ESC для отмены.
 
-# EN: Click to give
-1050717596=Нажмите, чтобы выдать
+# EN: Click to apply model
+1083648646=Нажмите для применения модели
 
-# EN: Click to spawn pickup
-3017013977=Нажмите для спавна подбора
+# EN: Click to spawn
+4007395385=Нажмите для спавна
+
+# EN: Click to spawn & enter
+1772688706=Нажмите для спавна и посадки
+
+# EN: Click: give & equip
+985047108=Нажмите: выдать и экипировать
+
+# EN: Click: spawn pickup
+1945981735=Нажмите: создать подбор
 
 # EN: ClickUI
 2475899823=ClickUI
@@ -358,20 +598,23 @@
 # EN: Clockwise
 3064165560=По часовой стрелке
 
-# EN: Clone
-3147039946=Клонировать
+# EN: Clone Army
+3077970079=Армия клонов
+
+# EN: Clone Ped
+1932656883=Клонировать NPC
 
 # EN: Close
 1204344681=Закрыть
+
+# EN: Closest to Crosshair
+1908711443=Ближайший к прицелу
 
 # EN: Collision Proof
 821592069=Защита от столкновений
 
 # EN: Color
 3914595625=Цвет
-
-# EN: Color Mode
-1895414762=Режим цвета
 
 # EN: Color Picker
 1734248191=Палитра цветов
@@ -385,20 +628,17 @@
 # EN: Color Pickers
 967634097=Палитры цветов
 
-# EN: Color Scheme
-3513332763=Цветовая схема
-
 # EN: Colors
 140995175=Цвета
+
+# EN: Columns
+3313586012=Колонки
 
 # EN: Combat
 1467455271=Бой
 
 # EN: Combat Utility
 3560879723=Боевые утилиты
-
-# EN: Compact Bar
-2784628199=Компактная полоса
 
 # EN: Compass
 3738173000=Компас
@@ -439,20 +679,23 @@
 # EN: Console output appears here...
 2378588289=Вывод консоли появится здесь...
 
+# EN: Constant
+3907938741=Постоянный
+
 # EN: Constant##skid
 1199242396=Постоянный##skid
 
-# EN: Content Columns
-1830802331=Колонки контента
+# EN: Content Only##bgco
+1042370066=Только контент##bgco
 
-# EN: Content Indent
-813499353=Отступ контента
-
-# EN: Content Padding
-1059773031=Поля контента
+# EN: Content Pad
+2392358571=Отступ контента
 
 # EN: Controls
 594033165=Управление
+
+# EN: Cool
+1695531110=Прохладный
 
 # EN: Cooldown
 1178968787=Перезарядка
@@ -469,17 +712,23 @@
 # EN: Cooldowns
 1907140606=Перезарядки
 
+# EN: Coordinates
+2789151618=Координаты
+
 # EN: Copied event name to clipboard
 3300867=Имя события скопировано в буфер обмена
 
 # EN: Copy
 393356872=Копировать
 
+# EN: Copy ID
+3639484515=Копировать ID
+
 # EN: Copy Name
 4181535183=Копировать имя
 
-# EN: Copy Server ID
-17985942=Копировать Server ID
+# EN: Corner Length
+2709775814=Длина угла
 
 # EN: Corners
 1329770163=Углы
@@ -487,14 +736,20 @@
 # EN: Counter-CW
 424479239=Против час. стрелки
 
+# EN: Create
+1654067888=Создать
+
+# EN: Crit Color
+1554513421=Цвет крита
+
 # EN: Cross
 2228701122=Крест
 
 # EN: Crosshair
 1991267050=Прицел
 
-# EN: Cursor
-951965218=Курсор
+# EN: Crosshair Numbers
+3190854118=Числа прицела
 
 # EN: Cursor Color
 1006036086=Цвет курсора
@@ -505,6 +760,9 @@
 # EN: Custom
 3136040996=Своё
 
+# EN: Custom AC
+703041167=Свой AC
+
 # EN: Custom Crosshair
 3384202717=Свой прицел
 
@@ -514,17 +772,26 @@
 # EN: Custom Folder Name (optional):
 3844090700=Имя папки (необязательно):
 
-# EN: Cyan
-1595739919=Голубой
-
 # EN: Damage
 1125348833=Урон
 
 # EN: Damage Indicator
 1385629032=Индикатор урона
 
+# EN: Damage Log
+1288883294=Журнал урона
+
+# EN: Damage Multiplier
+403675709=Множитель урона
+
+# EN: Damage Numbers
+901708624=Числа урона
+
 # EN: Damage Override
 722912324=Переопределение урона
+
+# EN: Damage Player
+393364144=Нанести урон игроку
 
 # EN: Darkness
 1749136079=Темнота
@@ -532,8 +799,23 @@
 # EN: Dashed
 1168445324=Пунктирный
 
-# EN: Dashed Snapline
-3389583445=Пунктирная линия
+# EN: Dashed Lines
+3217330410=Пунктирные линии
+
+# EN: Dashed##tt
+3897605696=Пунктирный##tt
+
+# EN: Dawn
+4259095408=Рассвет
+
+# EN: Dead Zone
+2069969159=Мёртвая зона
+
+# EN: Decal Index
+464765481=Индекс декали
+
+# EN: Decal##skid
+64187937=Декаль##skid
 
 # EN: Deceleration
 27121731=Замедление
@@ -541,11 +823,14 @@
 # EN: Default
 3839837909=По умолчанию
 
-# EN: Default style uses the feature toggles above.
-3363866816=Стиль по умолчанию использует переключатели выше.
-
 # EN: Delay
 1491124644=Задержка
+
+# EN: Delay Max
+354802780=Макс задержка
+
+# EN: Delay Min
+3146529669=Мин задержка
 
 # EN: Delete
 891743516=Удалить
@@ -556,8 +841,14 @@
 # EN: Delete Gun
 441024924=Удаляющее оружие
 
+# EN: Delete Last
+2335943020=Удалить последний
+
 # EN: Delete Theme
 4219254986=Удалить тему
+
+# EN: Delete Veh
+895942370=Удалить транспорт
 
 # EN: Delete this config?
 2115476497=Удалить этот конфиг?
@@ -571,14 +862,17 @@
 # EN: Density
 3843932311=Плотность
 
-# EN: Designator
-3976929111=Указатель
-
 # EN: Detach
 4291111140=Отсоединить
 
 # EN: Detach camera and fly around freely
 2017641408=Отсоединить камеру и свободно летать
+
+# EN: Detail Text##notif
+2416834241=Текст деталей##notif
+
+# EN: Detected
+1404062231=Обнаружен
 
 # EN: Diagonal
 1180516370=Диагональ
@@ -586,14 +880,41 @@
 # EN: Diamond
 2796235871=Ромб
 
+# EN: Different color for headshot kills
+2883796557=Другой цвет для убийств в голову
+
+# EN: Dim
+295795085=Затемнение
+
+# EN: Dim Amount
+1388938324=Степень затемнения
+
+# EN: Direct damage (more reliable)
+11698873=Прямой урон (более надёжно)
+
 # EN: Direction
 887068712=Направление
 
 # EN: Direction Arrows
 1959535538=Стрелки направления
 
+# EN: Direction##brd
+4244919206=Направление##brd
+
+# EN: Direction##grp
+2633968279=Направление##grp
+
+# EN: Disable Anti-Cheat
+3713723029=Отключить античит
+
+# EN: Disable ElectronAC
+3852262134=Отключить ElectronAC
+
 # EN: Disable NM Fall
 3649142862=Отключить NM падение
+
+# EN: Disable for Explosives
+1184164823=Отключить для взрывчатки
 
 # EN: Disabled
 2572083169=Выключено
@@ -616,8 +937,14 @@
 # EN: Display Mode
 200820562=Режим отображения
 
+# EN: Dist
+3531260757=Дист
+
 # EN: Distance
 3607074178=Дистанция
+
+# EN: Distance Bone
+1749124048=Кость дистанции
 
 # EN: Distance Labels
 462378492=Метки дистанции
@@ -634,11 +961,23 @@
 # EN: Distance##strafe
 1540802006=Дистанция##strafe
 
+# EN: Distance##tpfwd
+673033664=Дистанция##tpfwd
+
+# EN: Distance##veh
+3820228410=Дистанция##veh
+
 # EN: Distance##wall
 2273036223=Дистанция##wall
 
 # EN: Dive Jump
 2731982236=Прыжок с нырком
+
+# EN: Divider Opacity
+1443594631=Прозрачность разделителя
+
+# EN: Dividers
+4266747014=Разделители
 
 # EN: Done Scream
 2791358581=Без крика
@@ -655,14 +994,32 @@
 # EN: Dot Spacing
 3608568270=Расстояние между точками
 
+# EN: Dotted
+2579778033=Точечный
+
 # EN: Dotted Line
 3435322722=Точечная линия
 
 # EN: Draggable
 3287744767=Перетаскиваемый
 
-# EN: Draw Line To
-956987556=Рисовать линию к
+# EN: Draw Calls
+610979268=Вызовы отрисовки
+
+# EN: Draws a circle showing the melee target selection area
+4093610293=Рисует круг, показывающий зону выбора цели ближнего боя
+
+# EN: Draws a line from crosshair to the locked melee target
+2699968102=Рисует линию от прицела до захваченной цели ближнего боя
+
+# EN: Drive Style
+3330668057=Стиль вождения
+
+# EN: Drive to Waypoint
+53776605=Ехать к метке
+
+# EN: Drop Shadow
+362604306=Тень
 
 # EN: Dropdown
 953915820=Выпадающий список
@@ -673,8 +1030,14 @@
 # EN: Dropdown Hover
 7476142=Наведение выпадающего списка
 
+# EN: Dropdown Sub-Tabs
+914167550=Подвкладки выпадающего списка
+
 # EN: Dropdowns
 51766618=Выпадающие списки
+
+# EN: Dual UI mode is not yet available.
+1792964426=Режим двойного UI пока недоступен.
 
 # EN: Dump
 2164484578=Дамп
@@ -712,17 +1075,35 @@
 # EN: Duration##burst
 1617674729=Длительность##burst
 
+# EN: Duration##dmglog
+2155043513=Длительность##dmglog
+
+# EN: Duration##dmgnum
+1606858786=Длительность##dmgnum
+
 # EN: Duration##phase
 416318694=Длительность##phase
+
+# EN: Duration##pt
+2015408410=Длительность##pt
+
+# EN: Duration##tt
+301031845=Длительность##tt
+
+# EN: Dusk
+2177164377=Сумерки
+
+# EN: Dynamic Light
+3938333546=Динамический свет
+
+# EN: Dynamic Light##pedl
+3802256390=Динамический свет##pedl
 
 # EN: E
 286663184=E
 
 # EN: ESP
 3007444226=ESP
-
-# EN: ESP Features
-1779658189=Функции ESP
 
 # EN: Edge Arrows
 3739190029=Стрелки на краях
@@ -742,41 +1123,98 @@
 # EN: Effects
 3222754290=Эффекты
 
+# EN: ElectronAC heartbeat — may be kicked in 2-5 min.
+3667341283=Пульс ElectronAC — возможен кик через 2-5 мин.
+
 # EN: Elements
 2120029714=Элементы
 
 # EN: Embedded
 2292057362=Встроенный
 
+# EN: Empty
+3151330285=Пустой
+
+# EN: Empty Only
+335310304=Только пустые
+
 # EN: Enable Abilities
 1740941838=Включить способности
 
-# EN: Enable##pred
-3031240550=Включить##pred
+# EN: Enable##grpimg
+4123962691=Включить##grpimg
+
+# EN: Enable##hbg
+3025446437=Включить##hbg
+
+# EN: Enable##logo
+4138177973=Включить##logo
+
+# EN: Enable##sbg
+3268039885=Включить##sbg
 
 # EN: Enable##trig
 2791649621=Включить##trig
 
+# EN: Enable##wbg
+4197006742=Включить##wbg
+
 # EN: Enabled
 1527945487=Включено
 
-# EN: Enabled##tracers
-2046599060=Включено##tracers
+# EN: Enabled##silent
+697079411=Включено##silent
+
+# EN: Enabled##veh
+2924172026=Включено##veh
+
+# EN: End
+2965669335=Конец
 
 # EN: End Color
 376581466=Конечный цвет
 
+# EN: Endpoint
+693206863=Конечная точка
+
+# EN: Endpoint Marker##pt
+782785200=Маркер конечной точки##pt
+
+# EN: Endpoint Marker##tt
+3578768512=Маркер конечной точки##tt
+
+# EN: Engine Health
+3323537364=Здоровье двигателя
+
+# EN: Enhanced Stars
+751095042=Улучшенные звёзды
+
 # EN: Enlarge
 3831153069=Увеличить
+
+# EN: Enter Mode
+3168137480=Режим посадки
 
 # EN: Enter name...
 3545940642=Введите имя...
 
+# EN: Entity Count
+495352207=Количество объектов
+
+# EN: Error##notif
+3944622010=Ошибка##notif
+
+# EN: Expand Sub-Tabs
+788906364=Развернуть подвкладки
+
 # EN: Explode
 1152024837=Взорвать
 
-# EN: Explode Vehicle
-2721901462=Взорвать транспорт
+# EN: Explode All
+979167410=Взорвать всех
+
+# EN: Explode Loop
+2859847721=Цикл взрыва
 
 # EN: Explosion Proof
 1687470245=Защита от взрывов
@@ -796,6 +1234,9 @@
 # EN: Extended parachute blend
 2346391276=Расширенное сведение парашюта
 
+# EN: Extras
+2099753448=Дополнительно
+
 # EN: Eye Lasers
 2648065578=Лазеры из глаз
 
@@ -808,14 +1249,23 @@
 # EN: FOV Circle
 3437618946=Круг FOV
 
+# EN: FOV Circle##sa
+1684241733=Круг FOV##sa
+
 # EN: FOV Color
 1369551578=Цвет FOV
 
 # EN: FOV Cone
 3855747913=Конус FOV
 
+# EN: FOV Override
+660796900=Переопределение FOV
+
 # EN: FOV Radius
 577842563=Радиус FOV
+
+# EN: FOV Scaling
+1352560597=Масштабирование FOV
 
 # EN: FPS
 1188151419=FPS
@@ -823,11 +1273,23 @@
 # EN: FPS Graph
 1211596683=График FPS
 
+# EN: FPS drops while the GUI is open.
+1329427269=Падение FPS при открытом GUI.
+
 # EN: Factor
 2062570087=Коэффициент
 
 # EN: Fade Out
 88300072=Затухание
+
+# EN: Fade Out##pt
+723949415=Затухание##pt
+
+# EN: Fade Out##tt
+1486429023=Затухание##tt
+
+# EN: Fade Over Time
+721809131=Затухание со временем
 
 # EN: Faggio
 2452219115=Faggio
@@ -838,17 +1300,23 @@
 # EN: Failed to load
 4017223651=Ошибка загрузки
 
+# EN: Fake Crouch
+2499659129=Ложное приседание
+
 # EN: Fall Modifiers
 1566384241=Модификаторы падения
 
 # EN: Falloff
 3429369576=Затухание
 
-# EN: Far
-699460870=Далеко
-
 # EN: Fast Climb
 1192867602=Быстрое лазание
+
+# EN: Fast Punch
+4255767614=Быстрый удар
+
+# EN: Fast Reload
+1854971811=Быстрая перезарядка
 
 # EN: Fast Run
 1518054783=Быстрый бег
@@ -856,8 +1324,14 @@
 # EN: Features
 1642194290=Функции
 
+# EN: Feet
+411685808=Ноги
+
 # EN: Fetching...
 3018912354=Загрузка...
+
+# EN: File
+2993965316=Файл
 
 # EN: Files
 4208545539=Файлы
@@ -871,6 +1345,18 @@
 # EN: Fill Color
 1891090697=Цвет заливки
 
+# EN: Fill Gradient
+680514559=Градиент заливки
+
+# EN: Fill##sa
+2438217271=Заливка##sa
+
+# EN: Fill##veh
+2738212985=Заливка##veh
+
+# EN: Filled
+238956158=Заполненный
+
 # EN: Filled Circle
 1999419602=Заполненный круг
 
@@ -879,6 +1365,15 @@
 
 # EN: Filter by event name or type...
 764300805=Фильтр по имени или типу события...
+
+# EN: Filter##mb
+982138645=Фильтр##mb
+
+# EN: Filter##sa
+2082915633=Фильтр##sa
+
+# EN: Filter##trig
+1506659606=Фильтр##trig
 
 # EN: Filter:
 585229116=Фильтр:
@@ -889,8 +1384,14 @@
 # EN: Fire
 3540648811=Огонь
 
+# EN: Fire All
+2874134581=Поджечь всех
+
 # EN: Fire Ammo
 3091308747=Зажигательные патроны
+
+# EN: Fire Delay
+425570614=Задержка огня
 
 # EN: Fire Proof
 2377383169=Защита от огня
@@ -898,14 +1399,14 @@
 # EN: Fire Rate
 3724661835=Скорострельность
 
+# EN: Firework Launcher, Compact GL
+1025450837=Ракетница, Компактный гранатомёт
+
 # EN: Fit
 1780184594=По размеру
 
-# EN: Flags
-1741842546=Флаги
-
-# EN: Flashed, Scoped, Planting
-3435288843=Ослеплён, В прицеле, Установка
+# EN: Flame Effect
+979047845=Эффект пламени
 
 # EN: Flashing warning when another player is aiming at you
 2760353598=Мигающее предупреждение, когда другой игрок целится в вас
@@ -925,11 +1426,20 @@
 # EN: Fog Override
 530321426=Переопределение тумана
 
+# EN: Foggy
+2926802500=Туманный
+
+# EN: Follow Nearest Player
+687010905=Следовать за ближайшим игроком
+
 # EN: Font Settings
 3544698146=Настройки шрифтов
 
 # EN: Font Size
 1304943144=Размер шрифта
+
+# EN: Font Size##dmglog
+1349856237=Размер шрифта##dmglog
 
 # EN: Font names not ready
 1640246123=Названия шрифтов не готовы
@@ -946,11 +1456,23 @@
 # EN: Foot Sync
 2409374700=Синхронизация ног
 
+# EN: Footsteps
+1786517141=Шаги
+
 # EN: Force
 727102967=Сила
 
 # EN: Force Dive
 108539846=Принудительное пикирование
+
+# EN: Force Engine On
+2163633562=Принудительный запуск двигателя
+
+# EN: Force Fall
+3890711908=Принудительное падение
+
+# EN: Force In Hand
+1631447953=Принудительно в руку
 
 # EN: Force Skydive
 351881956=Принудительное свободное падение
@@ -982,11 +1504,20 @@
 # EN: Frametime Graph
 3749077224=График времени кадра
 
+# EN: Frametime Stats
+3723639030=Статистика времени кадра
+
 # EN: Freecam
 3443129427=Свободная камера
 
-# EN: Freeze
-3175262865=Заморозить
+# EN: Freeze All
+562972110=Заморозить всех
+
+# EN: Freeze Player
+4081821340=Заморозить игрока
+
+# EN: Freeze Time
+1098673979=Заморозить время
 
 # EN: Freeze When Stopped
 1338390017=Заморозить при остановке
@@ -996,6 +1527,15 @@
 
 # EN: Frequency
 838802376=Частота
+
+# EN: Friend
+2041158560=Друг
+
+# EN: Friends
+3722820035=Друзья
+
+# EN: Friends are excluded
+3097198968=Друзья исключены
 
 # EN: Full
 2467592022=Полный
@@ -1021,14 +1561,29 @@
 # EN: Ghost Mode
 2792783542=Режим призрака
 
-# EN: Give
-1203194894=Выдать
+# EN: Give Armour
+732468916=Выдать броню
+
+# EN: Give Heal
+3229301673=Вылечить
+
+# EN: Give Pistol
+2345187216=Выдать пистолет
+
+# EN: Give Weapon
+2626989742=Выдать оружие
+
+# EN: Give with All
+4101948860=Выдать со всем
+
+# EN: Give with Selected
+2307401698=Выдать с выбранным
+
+# EN: Glass
+3656960447=Стекло
 
 # EN: Glide
 4179664184=Планирование
-
-# EN: Global
-3684180594=Глобально
 
 # EN: Global Controls
 535742188=Глобальное управление
@@ -1039,14 +1594,35 @@
 # EN: Glow Color
 4274301606=Цвет свечения
 
+# EN: Glow Intensity
+3297137805=Интенсивность свечения
+
 # EN: Glow Outline
 3647583653=Светящаяся обводка
 
 # EN: Glow Radius
 3087836290=Радиус свечения
 
+# EN: Glow Radius##pt
+4004376189=Радиус свечения##pt
+
+# EN: Glow Radius##tt
+1810956257=Радиус свечения##tt
+
+# EN: Glow##head
+3142243301=Свечение##head
+
 # EN: Glow##outline
 2470917910=Свечение##outline
+
+# EN: Glow##pt
+329084185=Свечение##pt
+
+# EN: Glow##snap
+3584938764=Свечение##snap
+
+# EN: Glow##tt
+231761347=Свечение##tt
 
 # EN: Go
 3678454391=Перейти
@@ -1078,17 +1654,41 @@
 # EN: Gradient Color
 1499581797=Цвет градиента
 
+# EN: Gradient End
+2363959488=Конец градиента
+
+# EN: Gradient##skel
+4185602752=Градиент##skel
+
+# EN: Gradient##snap
+996503281=Градиент##snap
+
+# EN: Gradually repairs damage to avoid detection
+1785104480=Постепенно ремонтирует урон для избежания обнаружения
+
+# EN: Graph
+4061756894=График
+
+# EN: Graph Height
+2433600852=Высота графика
+
+# EN: Graph Line
+2499037406=Линия графика
+
 # EN: Gravity Gun
 593196728=Гравитационное оружие
-
-# EN: Green
-1439605128=Зелёный
 
 # EN: Grenade
 3058715602=Граната
 
+# EN: Grenades, Sticky Bombs, Molotovs,
+1157284636=Гранаты, липкие бомбы, молотовы,
+
 # EN: Grid Lines
 608131623=Линии сетки
+
+# EN: Ground Check
+559870402=Проверка земли
 
 # EN: Ground Only
 3975676203=Только на земле
@@ -1117,23 +1717,26 @@
 # EN: Groups
 2437998540=Группы
 
+# EN: HP
+1833919794=HP
+
 # EN: HUD
 2488248793=HUD
 
 # EN: HUD Panels
 2229228524=Панели HUD
 
+# EN: Hands
+1613305285=Руки
+
 # EN: Head
 2220048209=Голова
 
+# EN: Head Circle
+2951016669=Круг головы
+
 # EN: Head Dot
 3444598130=Точка на голове
-
-# EN: Head Dot Size
-4064447689=Размер точки на голове
-
-# EN: Head Marker
-1077302339=Маркер головы
 
 # EN: Head Offset
 935525727=Смещение головы
@@ -1143,9 +1746,6 @@
 
 # EN: Header BG
 204066829=Фон заголовка
-
-# EN: Header BG Alpha
-3301977545=Альфа фона заголовка
 
 # EN: Header Bar
 1471898286=Полоса заголовка
@@ -1159,6 +1759,15 @@
 # EN: Header Font
 3385559894=Шрифт заголовка
 
+# EN: Header Gradient
+2818942757=Градиент заголовка
+
+# EN: Header Gradient Colors
+3729684505=Цвета градиента заголовка
+
+# EN: Header H
+2985475078=Высота заголовка H
+
 # EN: Header Height
 1726695865=Высота заголовка
 
@@ -1171,11 +1780,17 @@
 # EN: Header##pnl
 2800582941=Заголовок##pnl
 
+# EN: Headshot Chance
+1279076512=Шанс хедшота
+
+# EN: Headshot Color
+3745724835=Цвет хедшота
+
+# EN: Headshot Highlight
+3490981979=Подсветка хедшота
+
 # EN: Heal Self
 1837308584=Вылечить себя
-
-# EN: Health
-3645570614=Здоровье
 
 # EN: Health / Armor
 1392506828=Здоровье / Броня
@@ -1186,23 +1801,14 @@
 # EN: Health Bars
 3573032106=Полосы здоровья
 
-# EN: Health Dot
-459240732=Точка здоровья
-
 # EN: Health Dots
 1895157285=Точки здоровья
 
 # EN: Health Regen
 2428261713=Регенерация здоровья
 
-# EN: Health Segments
-2013203282=Сегменты здоровья
-
-# EN: Health Text
-2699831745=Текст здоровья
-
-# EN: Health-based
-3492407359=На основе здоровья
+# EN: Heartbeat active — expect kick in 2-5 min
+1880003566=Пульс активен — ожидайте кик через 2-5 мин
 
 # EN: Heavy
 2981019142=Тяжёлое
@@ -1213,17 +1819,50 @@
 # EN: Height Multiplier
 1812340136=Множитель высоты
 
+# EN: Height Offset
+599202244=Смещение высоты
+
 # EN: Height##jh
 4205595266=Высота##jh
 
 # EN: Hex
 3544636510=Hex
 
+# EN: Hidden
+1280145277=Скрытый
+
+# EN: Hide Background
+1550833432=Скрыть фон
+
 # EN: High Ground
 3194084088=Возвышенность
 
+# EN: Highlight Headshots
+1100352321=Подсвечивать хедшоты
+
+# EN: Hijack
+1669002447=Угон
+
 # EN: Hill Jump
 327623110=Прыжок с горки
+
+# EN: Hit Chance
+3254221308=Шанс попадания
+
+# EN: Hit Color
+3909493061=Цвет попадания
+
+# EN: Hit Range
+3630651289=Дальность удара
+
+# EN: Hitbox
+2448535733=Хитбокс
+
+# EN: Hitmarker
+610964850=Хитмаркер
+
+# EN: Hitmarkers
+3918708223=Хитмаркеры
 
 # EN: Hold
 2552174939=Удержание
@@ -1240,20 +1879,29 @@
 # EN: Hold [V] to lean sideways (camera right). Release to snap back.
 4221385416=Удерживайте [V] для наклона вбок (камера вправо). Отпустите для возврата.
 
-# EN: Holo Skeleton
-3557439060=Голо-скелет
+# EN: Horizon
+3479812369=Горизонт
 
-# EN: Holo-HUD
-3406245895=Голо-HUD
+# EN: Horizon Color
+603434929=Цвет горизонта
 
 # EN: Horizontal
 1700296974=Горизонтально
 
-# EN: Hostile
-978650306=Враждебный
+# EN: Hour
+1605056896=Час
 
-# EN: Hover Intensity
-924099734=Интенсивность наведения
+# EN: Hover
+2507715838=Наведение
+
+# EN: Hover Color
+1011978101=Цвет наведения
+
+# EN: Hover Highlight
+67858353=Подсветка наведения
+
+# EN: Hover Names
+3795685632=Имена при наведении
 
 # EN: Hovered
 3101980699=Наведено
@@ -1264,11 +1912,20 @@
 # EN: Humanization
 2824293924=Имитация человека
 
+# EN: ID
+459292749=ID
+
 # EN: Icon / Accent
 1566350195=Иконка / Акцент
 
+# EN: Icon Below Text
+1121926930=Иконка под текстом
+
 # EN: Icon Color
 303976957=Цвет иконки
+
+# EN: Icon Position
+2104468322=Позиция иконки
 
 # EN: Icon Size
 3757913751=Размер иконки
@@ -1279,8 +1936,14 @@
 # EN: Icons Only
 1254349454=Только иконки
 
+# EN: Ignore Lights
+3890512130=Игнорировать светофоры
+
 # EN: Image
 3582756407=Изображение
+
+# EN: Image ESP
+392959137=ESP изображения
 
 # EN: Image Info
 3041469441=Информация об изображении
@@ -1321,11 +1984,23 @@
 # EN: Increase sprint speed multiplier
 583768203=Увеличить множитель скорости спринта
 
+# EN: Indent
+3670931990=Отступ
+
+# EN: Indices
+3921649453=Индексы
+
 # EN: Infinite Ammo
 2366586192=Бесконечные патроны
 
 # EN: Infinite Clip
 285282101=Бесконечный магазин
+
+# EN: Infinite Combat Roll
+3081757037=Бесконечный боевой кувырок
+
+# EN: Infinite Fuel
+636826216=Бесконечное топливо
 
 # EN: Infinite Jump
 3027646004=Бесконечный прыжок
@@ -1336,11 +2011,8 @@
 # EN: Info
 1745727664=Инфо
 
-# EN: Info Card
-3649195241=Инфо-карточка
-
-# EN: Inner Circle
-3697123713=Внутренний круг
+# EN: Info##notif
+3630429841=Инфо##notif
 
 # EN: Input
 3018672514=Ввод
@@ -1357,6 +2029,15 @@
 # EN: Instant Blend
 2839309838=Мгновенное сведение
 
+# EN: Instant Brake
+619407322=Мгновенное торможение
+
+# EN: Instant Enter
+574114141=Мгновенная посадка
+
+# EN: Instant Exit
+2719539579=Мгновенный выход
+
 # EN: Instant Jump Charge
 3576884201=Мгновенный заряд прыжка
 
@@ -1368,6 +2049,15 @@
 
 # EN: Intensity
 4023228733=Интенсивность
+
+# EN: Intensity##pedl
+778732463=Интенсивность##pedl
+
+# EN: Interval
+640635350=Интервал
+
+# EN: Into Vehicle
+780818818=В транспорт
 
 # EN: Invisible
 4238958260=Невидимый
@@ -1387,17 +2077,17 @@
 # EN: JATO Boost
 959701148=JATO Boost
 
-# EN: Jew Bomber
-1983748711=Jew Bomber
-
-# EN: Jitter##human
-4232165471=Дрожание##human
+# EN: Jitter
+2175396620=Дрожание
 
 # EN: Joint Size
 2337031930=Размер сустава
 
 # EN: Joints
 2543302730=Суставы
+
+# EN: Joints + Head Ring
+3407280952=Суставы + Кольцо головы
 
 # EN: Jump
 781239765=Прыжок
@@ -1411,11 +2101,17 @@
 # EN: Jump again while mid-air (press Space)
 1784704847=Прыжок в воздухе (нажмите Space)
 
-# EN: Keeps wanted level at 0
-2356453974=Удерживает уровень розыска на 0
+# EN: KEYBINDS
+1174365445=Привязки клавиш
+
+# EN: Keeps engine running when you exit the vehicle
+3947995004=Двигатель продолжает работать при выходе из транспорта
 
 # EN: Key Pill / Accent
 254348757=Кнопка клавиши / Акцент
+
+# EN: Keybind List
+1074682821=Список привязок
 
 # EN: Keybind Settings
 3375296113=Настройки привязок
@@ -1423,14 +2119,35 @@
 # EN: Keybinds
 1174365445=Привязки клавиш
 
-# EN: Kick From Vehicle
-3826948535=Выкинуть из транспорта
+# EN: Kick
+2221159044=Кикнуть
+
+# EN: Kill (Fire)
+47557797=Убить (Огонь)
+
+# EN: Kill (Launch)
+2177202703=Убить (Подбросить)
+
+# EN: Kill Color
+2587993530=Цвет убийства
 
 # EN: Kill Counter HUD
 3558074372=HUD счётчика убийств
 
+# EN: Kill Delay
+1295888804=Задержка убийства
+
+# EN: Kill Effect
+3695467159=Эффект убийства
+
+# EN: Kill Player
+3126423747=Убить игрока
+
 # EN: Knob
 3174489586=Ручка
+
+# EN: Kuruma
+2922118804=Kuruma
 
 # EN: LMB = Grab, RMB = Throw
 3198042721=ЛКМ = Захват, ПКМ = Бросок
@@ -1444,14 +2161,17 @@
 # EN: Large
 3306821048=Большой
 
+# EN: Large GIFs with many frames use more VRAM and
+1677371317=Большие GIF с множеством кадров используют больше VRAM и
+
 # EN: Laser Kill Speed
 3536074409=Скорость лазерного убийства
 
+# EN: Launch All
+2200616639=Подбросить всех
+
 # EN: Launch Up
 3341920784=Подбросить вверх
-
-# EN: Layers
-197915343=Слои
 
 # EN: Layout
 790219145=Макет
@@ -1465,8 +2185,11 @@
 # EN: Left
 1872971840=Лево
 
-# EN: Left Nav##preset
-2843921169=Левая навигация##preset
+# EN: Left Color
+3335264713=Левый цвет
+
+# EN: Length
+2508072249=Длина
 
 # EN: Library
 3519106789=Библиотека
@@ -1483,11 +2206,32 @@
 # EN: Lights - Glow
 486333628=Свет - Свечение
 
+# EN: Line
+2053992847=Линия
+
+# EN: Line Color
+3393959997=Цвет линии
+
 # EN: Line Opacity
 670408965=Прозрачность линии
 
 # EN: Line Thickness
 3321288925=Толщина линии
+
+# EN: Line of Sight
+3600102520=Линия видимости
+
+# EN: Lines
+3759251173=Линии
+
+# EN: Links
+4048857167=Ссылки
+
+# EN: List UI
+2974715443=Список UI
+
+# EN: List UI is coming soon and not yet available.
+3836961011=Список UI скоро появится и пока недоступен.
 
 # EN: Load
 837451790=Загрузить
@@ -1498,14 +2242,23 @@
 # EN: Loading fonts...
 742296178=Загрузка шрифтов...
 
-# EN: Loading...
-3089557982=Загрузка...
+# EN: Loading peds...
+104529968=Загрузка NPC...
+
+# EN: Loading vehicles...
+996350047=Загрузка транспорта...
 
 # EN: Local
 1196138662=Локальный
 
 # EN: Local Only
 1718906169=Только локальный
+
+# EN: Lock On
+3927233622=Захват цели
+
+# EN: Logo
+661613880=Логотип
 
 # EN: Logo / Scooby text
 2326944458=Логотип / Текст Scooby
@@ -1516,6 +2269,12 @@
 # EN: Logo Size
 2185178672=Размер логотипа
 
+# EN: Logo X
+1379849515=Логотип X
+
+# EN: Logo Y
+1810761865=Логотип Y
+
 # EN: Long Blend High Falls
 1586511569=Длинное сведение при высоких падениях
 
@@ -1524,6 +2283,12 @@
 
 # EN: Longer blend on high falls
 2594425733=Более длинное сведение при высоких падениях
+
+# EN: Look at a player and hold E to pull yourself to them and melee them.
+1495046615=Посмотрите на игрока и удерживайте E, чтобы притянуться и ударить его.
+
+# EN: Loops
+3264076679=Циклы
 
 # EN: Lowest HP
 890079348=Наименьшее HP
@@ -1552,8 +2317,23 @@
 # EN: MGs
 2564243601=Пулемёты
 
+# EN: Magic Bullet
+2156396594=Магическая пуля
+
+# EN: Magic Bullet — Being worked on, stay tuned!
+861480969=Магическая пуля — В разработке, следите за обновлениями!
+
+# EN: Magnet
+959551543=Магнит
+
+# EN: Magnet Vehicles
+442534206=Притягивание транспорта
+
 # EN: Main body and widget text
 1866800756=Основной текст и текст виджетов
+
+# EN: Maintenance
+1970712939=Обслуживание
 
 # EN: Makes you invincible. Right-click for keybind.
 3031350692=Делает вас неуязвимым. ПКМ для привязки клавиши.
@@ -1576,23 +2356,23 @@
 # EN: Map Min Y
 2893949292=Мин Y карты
 
-# EN: Margin
-3834294781=Отступ
-
 # EN: Marker Duration
 3550132583=Длительность маркера
 
 # EN: Marker Size
 1608809912=Размер маркера
 
+# EN: Marker Size##pt
+2286249506=Размер маркера##pt
+
+# EN: Marker Size##tt
+1410759241=Размер маркера##tt
+
 # EN: Match Accent
 2004835312=Совпадение акцента
 
 # EN: Matrix
 837004614=Матрица
-
-# EN: Max
-1616931012=Макс
 
 # EN: Max Armor
 1642775380=Макс броня
@@ -1606,20 +2386,44 @@
 # EN: Max Distance
 1098241997=Макс дистанция
 
+# EN: Max Distance##mb
+3059089789=Макс дистанция##mb
+
 # EN: Max File Size (MB)
 3754775838=Макс размер файла (МБ)
 
 # EN: Max GIF Frames
 768173607=Макс кадров GIF
 
+# EN: Max Kills/Min
+2248378999=Макс убийств/мин
+
 # EN: Max Offset
 1479160603=Макс смещение
+
+# EN: Max Performance
+1814444695=Макс производительность
+
+# EN: Max Points
+3799697306=Макс точек
 
 # EN: Max Positions
 2396407764=Макс позиций
 
+# EN: Max Range
+1390137351=Макс дальность
+
+# EN: Max Range Filter
+2461467509=Фильтр макс дальности
+
 # EN: Max Resolution
 2928541794=Макс разрешение
+
+# EN: Max Speed
+2051389565=Макс скорость
+
+# EN: Max Upgrade
+2942694297=Макс улучшение
 
 # EN: Medium
 1960865708=Средний
@@ -1633,14 +2437,20 @@
 # EN: Melee Proof
 3978744557=Защита от ближнего боя
 
-# EN: Min
-4264617715=Мин
+# EN: Memory
+3010803161=Память
+
+# EN: Memory Usage
+3562636674=Использование памяти
 
 # EN: Min Color
 1271198994=Мин цвет
 
-# EN: Min/Max/Avg
-4004106028=Мин/Макс/Сред
+# EN: Min Scale
+4136179093=Мин масштаб
+
+# EN: Min/Max Values
+1093866158=Мин/Макс значения
 
 # EN: Mini Tank
 3327445812=Мини танк
@@ -1648,8 +2458,14 @@
 # EN: Minimal
 2190409216=Минимальный
 
+# EN: Minute
+3134348697=Минута
+
 # EN: Misc
 3888475804=Разное
+
+# EN: Mod
+2389054143=Мод
 
 # EN: Mode
 1746230403=Режим
@@ -1660,14 +2476,29 @@
 # EN: Mode##glow
 1534494585=Режим##glow
 
+# EN: Modules
+2096891096=Модули
+
 # EN: Molotov
 4233768403=Молотов
+
+# EN: Moon Glow
+214814360=Свечение луны
+
+# EN: Morning
+852964312=Утро
 
 # EN: Movement
 2799785395=Передвижение
 
 # EN: Movement Extras
 3064802169=Доп. передвижение
+
+# EN: Movement Prediction##sa
+598861308=Предсказание движения##sa
+
+# EN: Multiple rings stack from feet to head
+1361975713=Несколько колец от ног до головы
 
 # EN: Multiplier
 3903859967=Множитель
@@ -1687,8 +2518,14 @@
 # EN: Name
 3873537812=Имя
 
+# EN: Name Position
+1309262417=Позиция имени
+
 # EN: Name Size
 847030063=Размер имени
+
+# EN: Name##veh
+501997998=Имя##veh
 
 # EN: Name:
 2913015549=Имя:
@@ -1726,20 +2563,32 @@
 # EN: Nearby Only
 4115480667=Только рядом
 
+# EN: Nearest
+775913483=Ближайший
+
+# EN: Nearest Distance
+1000483901=Ближайшая дистанция
+
 # EN: Neck
 996632005=Шея
 
-# EN: Neon Glow
-2470772255=Неоновое свечение
+# EN: Neon Border
+1220884655=Неоновая рамка
 
 # EN: Network
 2981967937=Сеть
 
-# EN: Never Wanted
-1665229505=Без розыска
-
 # EN: Never run out of stamina while sprinting
 3367150289=Бесконечная выносливость при спринте
+
+# EN: New
+3355354829=Новый
+
+# EN: New Color
+2772632083=Новый цвет
+
+# EN: Night
+1417207314=Ночь
 
 # EN: Nitrous
 2348569964=Нитро
@@ -1759,6 +2608,9 @@
 # EN: No Ragdoll
 336613235=Без рэгдолла
 
+# EN: No Range Limit
+88900175=Без ограничения дальности
+
 # EN: No Recoil
 4238116519=Без отдачи
 
@@ -1773,6 +2625,12 @@
 
 # EN: No Spread
 3427132305=Без разброса
+
+# EN: No anti-cheat found on this server
+653618892=Античит на этом сервере не найден
+
+# EN: No attachments available
+504616852=Навесное недоступно
 
 # EN: No dump in progress.
 2622343018=Дамп не выполняется.
@@ -1816,8 +2674,14 @@
 # EN: None
 493038497=Нет
 
+# EN: Noon
+863197981=Полдень
+
 # EN: Normal
 1330140418=Обычный
+
+# EN: North Indicator
+3723643215=Индикатор севера
 
 # EN: Not Bound
 2075514545=Не назначено
@@ -1825,11 +2689,23 @@
 # EN: Not connected
 3609921055=Не подключено
 
+# EN: Not scanned yet — click Scan or enable Auto Detect
+2639677942=Ещё не просканировано — нажмите Сканировать или включите Автоопределение
+
+# EN: Notification
+391984250=Уведомление
+
+# EN: Notifications
+3527871691=Уведомления
+
 # EN: OFF Time
 2870256580=Время ВЫКЛ
 
 # EN: ON Time
 2066901124=Время ВКЛ
+
+# EN: Objects / Walls
+3327894545=Объекты / Стены
 
 # EN: Ocean
 2123236799=Океан
@@ -1837,8 +2713,17 @@
 # EN: Off
 125735237=Выкл
 
-# EN: Off-screen Arrows
-1941423062=Стрелки за экраном
+# EN: Offset
+2705095151=Смещение
+
+# EN: Offset X
+526453136=Смещение X
+
+# EN: Offset Y
+816360479=Смещение Y
+
+# EN: Old Color
+902168331=Старый цвет
 
 # EN: On
 2297599112=Вкл
@@ -1849,14 +2734,29 @@
 # EN: One-hit KO melee punches
 4059201057=Нокаут ближним боем с одного удара
 
+# EN: Only While ADS
+1639662579=Только при ADS
+
+# EN: Only While ADS##trig
+1546980182=Только при ADS##trig
+
+# EN: Only targets behind walls
+2146794671=Только цели за стенами
+
 # EN: Opacity
 3644411688=Прозрачность
+
+# EN: Opacity##dmglog
+2914177699=Прозрачность##dmglog
 
 # EN: Open Folder
 615535440=Открыть папку
 
 # EN: Open Key
 35305217=Клавиша открытия
+
+# EN: Open Welcome Screen
+1894661895=Открыть экран приветствия
 
 # EN: Operator Icons
 180367755=Иконки операторов
@@ -1873,20 +2773,20 @@
 # EN: Other
 1378233051=Другое
 
+# EN: Other players see you crouching but you run normally on your screen
+3894010745=Другие игроки видят вас присевшим, но на вашем экране вы бежите нормально
+
 # EN: Out of range
 170898955=Вне зоны действия
 
-# EN: Outer Ring
-3684560347=Внешнее кольцо
+# EN: Outer Ring Color
+2790912397=Цвет внешнего кольца
 
 # EN: Outline
 1787568582=Обводка
 
 # EN: Outline Color
 609267903=Цвет обводки
-
-# EN: Outline Thickness
-2367310334=Толщина обводки
 
 # EN: Outline Width
 1689303532=Ширина обводки
@@ -1900,14 +2800,26 @@
 # EN: Overlay
 943450718=Оверлей
 
+# EN: Overlay Settings
+4243667563=Настройки оверлея
+
 # EN: Overlays
 3524909301=Оверлеи
+
+# EN: Override Time
+385966227=Переопределить время
+
+# EN: Override Weather
+2440079673=Переопределить погоду
 
 # EN: Override fall flags for custom fall behavior
 2407830915=Переопределить флаги падения для своего поведения
 
 # EN: Override jump flags for custom jump behavior
 3362934371=Переопределить флаги прыжка для своего поведения
+
+# EN: PANIC MODE ACTIVE
+1272225111=ПАНИК-РЕЖИМ АКТИВЕН
 
 # EN: PERFORMANCE
 681794815=Производительность
@@ -1917,6 +2829,9 @@
 
 # EN: Padding
 625300402=Поля
+
+# EN: Page Title
+2169432593=Заголовок страницы
 
 # EN: Panel Colors
 1735835670=Цвета панели
@@ -1929,6 +2844,9 @@
 
 # EN: Panels
 2476289820=Панели
+
+# EN: Panic Mode
+2310882466=Паник-режим
 
 # EN: Panto
 3863274624=Panto
@@ -1944,6 +2862,9 @@
 
 # EN: Particle FX Color
 894474043=Цвет эффектов частиц
+
+# EN: Pass Through
+3173995589=Проникновение
 
 # EN: Passively regenerate health over time
 240888173=Пассивная регенерация здоровья со временем
@@ -1963,14 +2884,17 @@
 # EN: Ped Lighting
 826428540=Освещение NPC
 
+# EN: Peds
+2376147223=NPC
+
+# EN: Peds / NPCs
+1876490144=NPC / Персонажи
+
 # EN: Peek
 1159958869=Выглядывание
 
 # EN: Per-Feature Binds
 2900791157=Привязки по функциям
-
-# EN: Performance
-681794815=Производительность
 
 # EN: Performance Limits
 1215680916=Лимиты производительности
@@ -1980,9 +2904,6 @@
 
 # EN: Phase Shift
 2620975702=Фазовый сдвиг
-
-# EN: Pickup
-3163816904=Подбор
 
 # EN: Pill
 2294717198=Кнопка
@@ -1996,23 +2917,29 @@
 # EN: Pill Pad Y
 352596684=Отступ Y кнопки
 
+# EN: Pipe Bombs, Proximity Mines, Flares
+1693538821=Бомбы, мины, сигнальные ракеты
+
 # EN: Pistols
 1837167641=Пистолеты
 
 # EN: Place .lua files in:
 3888411723=Поместите .lua файлы в:
 
-# EN: Place images in:
-1844287689=Поместите изображения в:
-
 # EN: Player
 1862763509=Игрок
+
+# EN: Player Trail
+536495684=След игрока
 
 # EN: Playerlist
 341220623=Список игроков
 
 # EN: Players
 591508004=Игроки
+
+# EN: Players ESP
+4197193239=ESP игроков
 
 # EN: Players Only
 766737098=Только игроки
@@ -2029,23 +2956,32 @@
 # EN: Position History
 3857144579=История позиций
 
+# EN: Position##hdr
+1381185122=Позиция##hdr
+
+# EN: Position##notif
+2851408764=Позиция##notif
+
 # EN: Power
 2673791500=Мощность
 
 # EN: Prediction
 796153596=Предсказание
 
+# EN: Prediction##sa
+43230462=Предсказание##sa
+
 # EN: Preset
 2973707311=Пресет
+
+# EN: Press END to instantly disable all visuals, menu, overlays, ESP. Press END again to restore.
+477737018=Нажмите END для мгновенного отключения визуала, меню, оверлеев, ESP. Нажмите END снова для восстановления.
 
 # EN: Press [B] to rewind
 851379740=Нажмите [B] для возврата
 
 # EN: Press [E] for a timed sprint speed boost with cooldown
 1635903237=Нажмите [E] для временного ускорения спринта с перезарядкой
-
-# EN: Press [F5] to save position. Press again to teleport back.
-1530617779=Нажмите [F5] для сохранения позиции. Нажмите снова для телепортации назад.
 
 # EN: Press [G] to teleport forward in camera direction
 2203837878=Нажмите [G] для телепортации вперёд в направлении камеры
@@ -2059,6 +2995,9 @@
 # EN: Press [Space] while falling to instantly teleport to ground level
 1826113543=Нажмите [Space] при падении для мгновенной телепортации на землю
 
+# EN: Press [U] to save position. Press again to teleport back.
+1036979568=Нажмите [U] для сохранения позиции. Нажмите снова для телепортации обратно.
+
 # EN: Press [X] for brief invincibility + no collision + translucency
 4262347464=Нажмите [X] для кратковременной неуязвимости + без столкновений + прозрачность
 
@@ -2070,6 +3009,9 @@
 
 # EN: Press the open key to toggle the menu anytime
 3803410397=Нажмите клавишу открытия для переключения меню в любое время
+
+# EN: Prevents fuel from draining on fuel-enabled servers
+857983888=Предотвращает расход топлива на серверах с топливной системой
 
 # EN: Prevents your ped from ragdolling
 2111679765=Предотвращает рэгдолл вашего персонажа
@@ -2083,8 +3025,17 @@
 # EN: Priority
 342945216=Приоритет
 
+# EN: Priority##melee
+3850166085=Приоритет##melee
+
+# EN: Priority##sa
+796836409=Приоритет##sa
+
 # EN: Progress
 1089828659=Прогресс
+
+# EN: Projectile Tracers
+272599090=Трассеры снарядов
 
 # EN: Proximity Alert
 1493469578=Оповещение о приближении
@@ -2092,14 +3043,29 @@
 # EN: Pulse
 2572624287=Импульс
 
+# EN: Pulse Animation
+3608662053=Анимация пульсации
+
 # EN: Pulse Speed
 605064609=Скорость импульса
 
+# EN: Pulse##glow
+231851092=Пульсация##glow
+
+# EN: Pulse##pedl
+4225047266=Пульсация##pedl
+
+# EN: Punch Loop
+913715001=Цикл удара
+
+# EN: Punch Once
+1924701628=Ударить один раз
+
+# EN: Punch Rate
+1186403142=Частота ударов
+
 # EN: Quick Dump
 3771659481=Быстрый дамп
-
-# EN: Quick Set
-2044037423=Быстрая настройка
 
 # EN: Quick Settings
 924049236=Быстрые настройки
@@ -2107,8 +3073,8 @@
 # EN: Quick Setup
 2627885725=Быстрая установка
 
-# EN: Quick apply a layout style:
-3884490162=Быстро применить стиль макета:
+# EN: Quick Teleport
+326609558=Быстрый телепорт
 
 # EN: Quick dump started...
 1452873798=Быстрый дамп начат...
@@ -2122,6 +3088,9 @@
 # EN: RC Type
 707884177=Тип RC
 
+# EN: RPG, Homing Launcher, Grenade Launcher,
+2954220142=RPG, самонаводящаяся ракетница, гранатомёт,
+
 # EN: Radar
 3103374064=Радар
 
@@ -2131,11 +3100,20 @@
 # EN: Ragdoll
 540944468=Рэгдолл
 
+# EN: Ragdoll All
+1649746280=Рэгдолл всех
+
+# EN: Ragdoll Loop
+2541994190=Цикл рэгдолла
+
 # EN: Rain
 1420204096=Дождь
 
 # EN: Rain Angle
 479969225=Угол дождя
+
+# EN: Rain Vehicles
+772656295=Дождь из транспорта
 
 # EN: Rainbow
 2057945528=Радуга
@@ -2148,6 +3126,9 @@
 
 # EN: Rainbow Speed
 830484880=Скорость радуги
+
+# EN: Rainbow Speed##pt
+461725058=Скорость радуги##pt
 
 # EN: Rainbow##fog
 3074789384=Радуга##fog
@@ -2170,14 +3151,23 @@
 # EN: Rainbow##tl
 2474153670=Радуга##tl
 
+# EN: Ram Distance
+2300880066=Дистанция тарана
+
+# EN: Ram Nearest Player
+3914507451=Таранить ближайшего игрока
+
+# EN: Ram Type
+4066399942=Тип тарана
+
 # EN: Ramp
 2775957121=Рампа
 
+# EN: Random Driving
+651903587=Случайное вождение
+
 # EN: Range
 332484516=Дальность
-
-# EN: Range Card
-2671139270=Карточка дальности
 
 # EN: Range Override
 3669016494=Переопределение дальности
@@ -2188,11 +3178,17 @@
 # EN: Rapid Fire
 4034658405=Скорострельность
 
+# EN: Rapid punching — spams attack input for maximum DPS
+1255462882=Быстрые удары — спамит атаку для максимального DPS
+
 # EN: Rate
 2120794248=Скорость
 
 # EN: Ready
 2084256605=Готово
+
+# EN: Recoil Comp
+3498445003=Компенсация отдачи
 
 # EN: Recommended image sizes:
 2704497521=Рекомендуемые размеры изображений:
@@ -2224,14 +3220,17 @@
 # EN: Reload
 1571056488=Перезарядка
 
-# EN: Remote Punch
-1753771086=Удалённый удар
+# EN: Removes combat roll cooldown
+1447874427=Убирает перезарядку боевого кувырка
 
 # EN: Rendering
 2948493975=Рендеринг
 
-# EN: Rendering settings are controlled by the game.
-3825863051=Настройки рендеринга контролируются игрой.
+# EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
+2465448157=Настройки рендеринга контролируются игрой. VSync, синхронизация кадров и бэкенд не настраиваются в FiveM.
+
+# EN: Repair Vehicle
+2429933431=Починить транспорт
 
 # EN: Reset
 3559176682=Сброс
@@ -2244,6 +3243,9 @@
 
 # EN: Reset Fonts
 2389856026=Сбросить шрифты
+
+# EN: Reset Position
+1118816545=Сбросить позицию
 
 # EN: Reset Stats
 2240252868=Сбросить статистику
@@ -2263,6 +3265,9 @@
 # EN: Reset to defaults
 3361422027=Сбросить по умолчанию
 
+# EN: Resource
+1411351736=Ресурс
+
 # EN: Resource Details
 2210156775=Детали ресурса
 
@@ -2278,11 +3283,11 @@
 # EN: Restore Position on Disable
 152322992=Восстановить позицию при отключении
 
-# EN: Retro
-2418868453=Ретро
-
 # EN: Revenge Tracker
 315468113=Трекер мести
+
+# EN: Revive
+327204845=Воскресить
 
 # EN: Rifles
 3712947327=Винтовки
@@ -2290,11 +3295,38 @@
 # EN: Right
 3100427065=Право
 
+# EN: Right Color
+2599168357=Правый цвет
+
 # EN: Right Foot Land
 3267278232=Приземление на правую ногу
 
+# EN: Right-click: attachments
+905043959=ПКМ: навесное
+
+# EN: Ring
+897759444=Кольцо
+
+# EN: Ring Color
+3655670189=Цвет кольца
+
+# EN: Ring Count
+3319444267=Количество колец
+
+# EN: Ring ESP
+3540339487=ESP кольца
+
 # EN: Ring Offset
 1784623860=Смещение кольца
+
+# EN: Ring pulses when player is standing still
+2848360984=Кольцо пульсирует, когда игрок стоит на месте
+
+# EN: Rise Speed
+3267963830=Скорость подъёма
+
+# EN: Risk: May result in kick/ban
+863799803=Риск: возможен кик/бан
 
 # EN: Risky
 1413260749=Рискованно
@@ -2308,14 +3340,32 @@
 # EN: Rounding
 947963291=Скругление
 
+# EN: Rounding##distbg
+4161243031=Скругление##distbg
+
+# EN: Rounding##namebg
+3182791864=Скругление##namebg
+
+# EN: Rounding##wepbg
+2546121190=Скругление##wepbg
+
 # EN: Row Height
 1759174565=Высота строки
 
 # EN: Run
 285848937=Бег
 
+# EN: Run Script
+2843942484=Запустить скрипт
+
+# EN: Running
+1756071093=Бег
+
 # EN: Running Land
 2731731835=Приземление с бегом
+
+# EN: Rush
+1956547955=Рывок
 
 # EN: S
 331032406=S
@@ -2329,14 +3379,26 @@
 # EN: SPECTATORS
 2185765281=НАБЛЮДАТЕЛИ
 
+# EN: Sample Rate
+1680169433=Частота выборки
+
 # EN: Saturation
 432935425=Насыщенность
+
+# EN: Saturation##btrbow
+1340760551=Насыщенность##btrbow
 
 # EN: Save
 3357008648=Сохранить
 
+# EN: Save Here
+2753091722=Сохранить здесь
+
 # EN: Save Interval
 269707535=Интервал сохранения
+
+# EN: Save your current position and teleport back later
+4024909457=Сохраните текущую позицию и телепортируйтесь обратно позже
 
 # EN: Saved
 2978706416=Сохранено
@@ -2344,11 +3406,20 @@
 # EN: Saved Configs
 860699809=Сохранённые конфиги
 
+# EN: Saved Locations
+676178533=Сохранённые точки
+
 # EN: Saved Themes
 2236251465=Сохранённые темы
 
 # EN: Scale
 1342385372=Масштаб
+
+# EN: Scale Effect
+633475164=Эффект масштаба
+
+# EN: Scale by Distance
+3110684322=Масштаб по дистанции
 
 # EN: Scaling
 2369776673=Масштабирование
@@ -2356,17 +3427,29 @@
 # EN: Scan Triggers
 917870278=Сканировать триггеры
 
-# EN: Scanlines
-3365381122=Линии развёртки
+# EN: Scan for Anti-Cheat
+3069664885=Сканировать на античит
 
 # EN: Scanning for triggers...
 3267756685=Сканирование триггеров...
 
-# EN: Scheme
-3059054229=Схема
+# EN: Scans for anti-cheat modules every 10 seconds
+3500340240=Сканирует модули античита каждые 10 секунд
+
+# EN: Scope Awareness
+3358794078=Осведомлённость прицела
+
+# EN: Scope FOV
+1562648207=FOV прицела
+
+# EN: Scope Zoom Comp
+3688902947=Компенсация зума прицела
 
 # EN: Screen Effect
 2081639106=Экранный эффект
+
+# EN: Script Name:
+395819186=Имя скрипта:
 
 # EN: Script Panels
 20599938=Панели скриптов
@@ -2380,20 +3463,29 @@
 # EN: Scripts Only
 989894930=Только скрипты
 
+# EN: Scroll Rnd
+3194337460=Скругление прокрутки
+
 # EN: Scrollbar
 1128947819=Полоса прокрутки
+
+# EN: Scrollbar Color
+331403800=Цвет прокрутки
 
 # EN: Scrollbar Grab
 3484051837=Захват прокрутки
 
-# EN: Scrollbar Rounding
-1216980504=Скругление прокрутки
+# EN: Scrollbar W
+4067235894=Ширина прокрутки
 
-# EN: Scrollbar Width
-1359758980=Ширина прокрутки
+# EN: Search
+4166004673=Поиск
 
 # EN: Search files...
 2743520297=Поиск файлов...
+
+# EN: Search peds...
+3129217742=Поиск NPC...
 
 # EN: Search resources...
 1910280218=Поиск ресурсов...
@@ -2403,6 +3495,9 @@
 
 # EN: Search scripts...
 2760915522=Поиск скриптов...
+
+# EN: Search vehicles...
+2834434051=Поиск транспорта...
 
 # EN: Search weapons...
 3633895952=Поиск оружия...
@@ -2416,11 +3511,20 @@
 # EN: Secondary
 3384035740=Вторичный
 
-# EN: Secondary Color
-2176084867=Вторичный цвет
+# EN: Section Font
+2820653597=Шрифт раздела
 
 # EN: Section Header
 2349583176=Заголовок раздела
+
+# EN: Section Headers
+2327016931=Заголовки разделов
+
+# EN: Section Opacity
+1502378754=Прозрачность раздела
+
+# EN: Segments
+390045222=Сегменты
 
 # EN: Select Resource:
 2084042239=Выберите ресурс:
@@ -2434,20 +3538,23 @@
 # EN: Select a resource from the list to view details.
 1234177780=Выберите ресурс из списка для просмотра деталей.
 
+# EN: Self
+660087492=Себя
+
+# EN: Send Crash
+4127490903=Отправить краш
+
 # EN: Sensitivity
 1563795609=Чувствительность
+
+# EN: Sep Alpha
+307689876=Альфа разделителя
 
 # EN: Separator
 600342395=Разделитель
 
-# EN: Separator Alpha
-3812982663=Альфа разделителя
-
 # EN: Serpentine
 2010529308=Серпантин
-
-# EN: Server ID
-3544973090=Server ID
 
 # EN: Server IP:
 3217114240=IP сервера:
@@ -2455,14 +3562,14 @@
 # EN: Set Model
 2741786040=Задать модель
 
-# EN: Set On Fire
-1113552959=Поджечь
-
 # EN: Set per-feature keybinds via the gear icon
 438153059=Задайте привязки клавиш через иконку шестерёнки
 
 # EN: Settings
 2768156407=Настройки
+
+# EN: Settings Icon
+1138567279=Иконка настроек
 
 # EN: Settings Popup
 3291697507=Всплывающее окно настроек
@@ -2473,8 +3580,23 @@
 # EN: Settings Popup Border
 901123421=Рамка всплывающего окна настроек
 
+# EN: Shadow
+1921357778=Тень
+
+# EN: Shadow Color
+1888230042=Цвет тени
+
 # EN: Shadow Light
 2468923299=Теневой свет
+
+# EN: Shadow##dist
+1556818514=Тень##dist
+
+# EN: Shadow##name
+1583130157=Тень##name
+
+# EN: Shadow##weapon
+559319637=Тень##weapon
 
 # EN: Shape
 3829206493=Форма
@@ -2482,23 +3604,35 @@
 # EN: Shape & Size
 1482294196=Форма и размер
 
-# EN: Shoot Through Walls
-4153386978=Стрельба сквозь стены
-
 # EN: Shoot laser beams from your eyes while flying
 1927972254=Стреляйте лазерами из глаз в полёте
 
 # EN: Shotguns
 3978331987=Дробовики
 
-# EN: Show Bind List
-2224633592=Показать список привязок
+# EN: Shots Max
+1545419862=Макс выстрелов
+
+# EN: Shots Min
+4101905516=Мин выстрелов
+
+# EN: Show Advanced
+2451177577=Показать расширенные
+
+# EN: Show Bar
+2024828132=Показать полосу
+
+# EN: Show Category
+966325046=Показать категорию
 
 # EN: Show Coordinates
 3389512578=Показать координаты
 
 # EN: Show Date
 3033026641=Показать дату
+
+# EN: Show Dealt
+2111762275=Показать нанесённый
 
 # EN: Show Distance
 1253886722=Показать дистанцию
@@ -2509,11 +3643,29 @@
 # EN: Show FPS
 2817813522=Показать FPS
 
+# EN: Show Graph
+2534847582=Показать график
+
+# EN: Show Header
+645770246=Показать заголовок
+
+# EN: Show Hints Overlay
+4000101783=Показать оверлей подсказок
+
 # EN: Show Icon
 1657507605=Показать иконку
 
+# EN: Show Line
+1200799385=Показать линию
+
 # EN: Show Logo
 395333305=Показать логотип
+
+# EN: Show Marker
+3497215950=Показать маркер
+
+# EN: Show Modules
+2174968335=Показать модули
 
 # EN: Show Name
 2286872380=Показать имя
@@ -2521,11 +3673,26 @@
 # EN: Show Names
 1773671442=Показать имена
 
-# EN: Show Performance Stats
-64857044=Показать статистику производительности
+# EN: Show Preview
+1262585563=Показать предпросмотр
+
+# EN: Show Self
+1908654534=Показать себя
+
+# EN: Show Server ID
+2968435685=Показать ID сервера
 
 # EN: Show Speed
 3666823772=Показать скорость
+
+# EN: Show Status
+3333637862=Показать статус
+
+# EN: Show Taken
+2937268981=Показать полученный
+
+# EN: Show Text
+1575008906=Показать текст
 
 # EN: Show Time
 2222431568=Показать время
@@ -2536,8 +3703,14 @@
 # EN: Show Unarmed
 288151846=Показать безоружного
 
-# EN: Show Watermark
-776838397=Показать водяной знак
+# EN: Show Vehicles
+1292300392=Показать транспорт
+
+# EN: Show keybind hints for active movement extras on screen
+3465261614=Показывать подсказки привязок для активных доп. передвижений на экране
+
+# EN: Show on Startup
+1110455679=Показать при запуске
 
 # EN: Shows Kills / Deaths / K/D ratio in top-right corner
 1707224720=Показывает Убийства / Смерти / K/D в правом верхнем углу
@@ -2545,8 +3718,11 @@
 # EN: Shows a directional wedge on screen when you take damage
 1772815089=Показывает направленный индикатор при получении урона
 
-# EN: Shows: Bomb, Defuse Kit,
-1267015010=Показывает: Бомба, Набор разминирования,
+# EN: Shows current speed on screen while boosting
+657043655=Показывает текущую скорость на экране при ускорении
+
+# EN: Shows exhaust flame visual when NOS is active
+588827996=Показывает визуальное пламя из выхлопа при активном NOS
 
 # EN: Shrink
 3226637854=Сжатие
@@ -2560,14 +3736,17 @@
 # EN: Sidebar Hover
 3848358493=Наведение боковой панели
 
-# EN: Sidebar Items
-1783545894=Элементы боковой панели
-
 # EN: Sidebar Separator
 3087006103=Разделитель боковой панели
 
 # EN: Sidebar tab labels
 1912982437=Надписи вкладок боковой панели
+
+# EN: Silent Aim
+283398155=Тихий прицел
+
+# EN: Silent Kill
+797641779=Тихое убийство
 
 # EN: Single Resource
 3904755329=Один ресурс
@@ -2581,8 +3760,23 @@
 # EN: Skeleton
 1816727634=Скелет
 
+# EN: Skeleton Only
+1732653347=Только скелет
+
 # EN: Skid Marks
 3990791696=Следы шин
+
+# EN: Skip Friends
+1109959189=Пропустить друзей
+
+# EN: Skip Friends##mb
+1619604810=Пропустить друзей##mb
+
+# EN: Skip Friends##sa
+1651665136=Пропустить друзей##sa
+
+# EN: Skip Friends##trig
+2028490315=Пропустить друзей##trig
 
 # EN: Skips falling scream
 2453340543=Пропускает крик при падении
@@ -2593,8 +3787,14 @@
 # EN: Sky
 159192176=Небо
 
+# EN: Sky Color
+1840203098=Цвет неба
+
 # EN: Sky Intensity
 2101263467=Интенсивность неба
+
+# EN: Slide Animation
+1430582691=Анимация скольжения
 
 # EN: Slider
 338352108=Ползунок
@@ -2605,8 +3805,8 @@
 # EN: Slider Grab
 1603827939=Захват ползунка
 
-# EN: Slider Height
-367548467=Высота ползунка
+# EN: Slider H
+2750911631=Высота ползунка
 
 # EN: Slider Track
 1630077971=Дорожка ползунка
@@ -2614,8 +3814,17 @@
 # EN: Sliders
 2297082388=Ползунки
 
+# EN: Slot
+933689839=Слот
+
 # EN: Small
 3085983008=Маленький
+
+# EN: Smooth Animation
+2305435949=Плавная анимация
+
+# EN: Smooth Curves
+3976333954=Плавные кривые
 
 # EN: Smooth Movement
 4220516200=Плавное передвижение
@@ -2623,8 +3832,14 @@
 # EN: Smoothing
 980522697=Сглаживание
 
+# EN: Snap
+3320192477=Привязка
+
 # EN: Snaplines
 3234673257=Линии привязки
+
+# EN: Snaplines##veh
+4155083255=Линии привязки##veh
 
 # EN: Snipers
 453460956=Снайперские
@@ -2635,11 +3850,23 @@
 # EN: Solid
 2667043969=Сплошной
 
+# EN: Sort by Distance
+698443985=Сортировка по дистанции
+
 # EN: Spacing
 370899326=Отступы
 
-# EN: Spawn RC Vehicle
-1282026008=Заспавнить RC транспорт
+# EN: Spawn Inside
+2094277891=Заспавнить внутри
+
+# EN: Spawn Pickup
+4182113963=Создать подбор
+
+# EN: Spawn RC
+626071120=Заспавнить RC
+
+# EN: Spawn Safe
+2872385090=Безопасный спавн
 
 # EN: Spawner
 1388279330=Спавнер
@@ -2662,6 +3889,15 @@
 # EN: Speed Burst
 3918175031=Рывок скорости
 
+# EN: Speed Overlay
+4009411811=Оверлей скорости
+
+# EN: Speed##btrbow
+1185079655=Скорость##btrbow
+
+# EN: Speed##hpsmooth
+2272127628=Скорость##hpsmooth
+
 # EN: Speeds up climbing and vaulting animations
 884886740=Ускоряет анимации лазания и перепрыгивания
 
@@ -2671,6 +3907,9 @@
 # EN: Spin Speed
 2064253717=Скорость вращения
 
+# EN: Spoof Weapon
+1397032680=Подменить оружие
+
 # EN: Sprint Multiplier
 1215352304=Множитель спринта
 
@@ -2679,9 +3918,6 @@
 
 # EN: Start
 2229020447=Старт
-
-# EN: Start Color
-2836109591=Начальный цвет
 
 # EN: State:
 635892118=Состояние:
@@ -2695,14 +3931,17 @@
 # EN: Statistics
 3866636803=Статистика
 
-# EN: Status
-1711913059=Статус
+# EN: Stats
+3337185076=Статистика
 
 # EN: Status Dots
 1792226764=Точки статуса
 
-# EN: Steal Vehicle
-1468344584=Угнать транспорт
+# EN: Steal
+4209706760=Украсть
+
+# EN: Steal Outfit
+2382281041=Украсть одежду
 
 # EN: Steam Proof
 3475233767=Защита от пара
@@ -2710,17 +3949,17 @@
 # EN: Sticky Target
 128465133=Липкая цель
 
+# EN: Sticky Target##sa
+4029734851=Липкая цель##sa
+
 # EN: Stop
 2467080178=Стоп
 
 # EN: Stop All
 2685914560=Остановить всё
 
-# EN: Stop Remote Punch
-2977326358=Остановить удалённый удар
-
-# EN: Stop Spectate
-4280033283=Прекратить наблюдение
+# EN: Stop at Destination
+3456158729=Остановиться у цели
 
 # EN: Strafe Teleport
 736882111=Боковая телепортация
@@ -2728,17 +3967,35 @@
 # EN: Streak Length
 3266569970=Длина полосы
 
+# EN: Stream Proof
+3106534202=Защита от стрима
+
+# EN: Stream Proof Mode
+3011027665=Режим защиты от стрима
+
+# EN: Stream Proof is currently unavailable in FiveM. Enabling it may cause crashes.
+2952089962=Защита от стрима недоступна в FiveM. Включение может вызвать вылеты.
+
+# EN: Streamer
+322333922=Стример
+
 # EN: Stretch
 2333339779=Растянуть
 
 # EN: Style
 2840017588=Стиль
 
-# EN: Style Settings
-2096067170=Настройки стиля
+# EN: Sub-Tabs
+4235856483=Подвкладки
+
+# EN: Success##notif
+124336157=Успех##notif
 
 # EN: Suicide
 2547813608=Самоубийство
+
+# EN: Sunset
+2621324973=Закат
 
 # EN: Super Jump
 3347387969=Суперпрыжок
@@ -2755,6 +4012,12 @@
 # EN: Superman
 3383293034=Супермен
 
+# EN: Suspicious
+1438524565=Подозрительный
+
+# EN: Suspicious Modules
+3476759237=Подозрительные модули
+
 # EN: Swastika
 1143073821=Свастика
 
@@ -2763,6 +4026,9 @@
 
 # EN: Switch Delay
 2176114960=Задержка переключения
+
+# EN: Sync Colors
+3592090493=Синхронизация цветов
 
 # EN: Sync Rotation
 2224402641=Синхронизация вращения
@@ -2779,8 +4045,8 @@
 # EN: T-Shape
 3695503273=Т-Форма
 
-# EN: TEAM
-1413636062=КОМАНДА
+# EN: T20
+1663218586=T20
 
 # EN: Tab Bar Style
 4174884294=Стиль панели вкладок
@@ -2788,50 +4054,86 @@
 # EN: Tab Offset
 3402227718=Смещение вкладки
 
-# EN: Table
-2874532228=Таблица
-
 # EN: Tabs
 42551280=Вкладки
 
-# EN: Tactical
-2601457066=Тактический
+# EN: Tag
+451731021=Метка
+
+# EN: Tagged
+3712235179=Помечен
+
+# EN: Taper Width
+3042212273=Ширина сужения
+
+# EN: Taper Width##pt
+3926039349=Ширина сужения##pt
 
 # EN: Target
 2720140041=Цель
 
-# EN: Target Brackets
-1656826073=Скобки цели
+# EN: Target Info Overlay##sa
+1911780673=Оверлей инфо о цели##sa
+
+# EN: Target Line
+2375968002=Линия цели
+
+# EN: Target Line##sa
+71772006=Линия цели##sa
+
+# EN: Target Marker
+2135859714=Маркер цели
+
+# EN: Target Marker##sa
+3230599266=Маркер цели##sa
 
 # EN: Targeting
 2771652631=Наведение
 
+# EN: Targets
+4017618224=Цели
+
+# EN: Tazer
+1018685068=Тейзер
+
+# EN: Tazer Loop
+1526625777=Цикл тейзера
+
+# EN: Tazo Loop
+1738443387=Цикл Tazo
+
 # EN: Teleport
 825270086=Телепорт
 
-# EN: Teleport Behind
-3957505801=Телепорт за спину
+# EN: Teleport Forward
+329923835=Телепорт вперёд
+
+# EN: Teleport Forward Distance
+1561225=Дистанция телепорта вперёд
 
 # EN: Teleport Gun
 1763910974=Телепорт-оружие
 
-# EN: Teleport Into Vehicle
-2977836822=Телепорт в транспорт
+# EN: Teleport to Coords
+3551972134=Телепорт к координатам
 
-# EN: Teleport To
-1887426362=Телепортироваться к
+# EN: Teleport to Crosshair
+3582907225=Телепорт к прицелу
+
+# EN: Teleport to Nearest Vehicle
+1222747355=Телепорт к ближайшему транспорту
 
 # EN: Teleport to Waypoint
 3908877611=Телепорт к метке
+
+# EN: Teleport vehicle with you
+2332352547=Телепортировать транспорт с собой
 
 # EN: Text
 2134593963=Текст
 
 # EN: Text Color
 2909489414=Цвет текста
-
-# EN: Text Colors
-2428686285=Цвета текста
 
 # EN: Text Font
 1277029574=Шрифт текста
@@ -2845,11 +4147,14 @@
 # EN: Text Size
 2196789760=Размер текста
 
+# EN: Text Size##btdist
+3467531750=Размер текста##btdist
+
+# EN: Text##notif
+2810058654=Текст##notif
+
 # EN: Text##tt
 4146431772=Текст##tt
-
-# EN: Texture Manager
-1350186219=Менеджер текстур
 
 # EN: Textures larger than
 2812383153=Текстуры больше чем
@@ -2890,23 +4195,29 @@
 # EN: Thickness
 4285237432=Толщина
 
+# EN: Thickness##pt
+1365574739=Толщина##pt
+
+# EN: Thickness##tt
+3534806773=Толщина##tt
+
+# EN: This feature is currently in development.
+2985474122=Эта функция находится в разработке.
+
 # EN: This feature requires a paid subscription.
 3394398001=Эта функция требует платную подписку.
 
 # EN: This will reset ALL fonts, colors, images, and layout settings to their defaults.\n\nAre you sure?
 2684530542=Это сбросит ВСЕ шрифты, цвета, изображения и настройки макета по умолчанию.\n\nВы уверены?
 
-# EN: Threat Level
-224215045=Уровень угрозы
-
-# EN: Threat Ring
-3842551955=Кольцо угрозы
-
 # EN: Threshold
 1573986338=Порог
 
 # EN: Throw Force
 3461652194=Сила броска
+
+# EN: Throwable Tracers
+2494953445=Трассеры метательного
 
 # EN: Throwables
 748292176=Метательное
@@ -2917,23 +4228,53 @@
 # EN: Thunder Override
 3360298467=Переопределение грома
 
-# EN: Tick Size
-3495585414=Размер галочки
-
 # EN: Tile
 1337127750=Плитка
+
+# EN: Time
+258444835=Время
+
+# EN: Time & Weather
+1757582708=Время и погода
+
+# EN: Timing
+4122073465=Тайминг
 
 # EN: Tire Lights
 3627926876=Свет шин
 
+# EN: Title (Scooby)
+4250394732=Заголовок (Scooby)
+
 # EN: Title Font
 4023667508=Шрифт заголовка
+
+# EN: Title Gradient
+265407355=Градиент заголовка
+
+# EN: Title Gradient Colors
+1766434517=Цвета градиента заголовка
+
+# EN: Title Size
+1301071436=Размер заголовка
+
+# EN: Title Text
+1233135823=Текст заголовка
+
+# EN: Title X
+127176138=Заголовок X
+
+# EN: Title Y
+3107320078=Заголовок Y
+
+# EN: To Player
+3032305965=К игроку
 
 # EN: Toggle
 625679385=Переключатель
 
-# EN: Toggle Height
-2034811372=Высота переключателя
+# EN: Toggle H
+688703646=Высота переключателя
 
 # EN: Toggle Knob
 2816486915=Ручка переключателя
@@ -2944,8 +4285,8 @@
 # EN: Toggle On Color
 2294168537=Цвет включённого
 
-# EN: Toggle Width
-2767287267=Ширина переключателя
+# EN: Toggle W
+2205449588=Ширина переключателя
 
 # EN: Toggles
 2207180161=Переключатели
@@ -2965,11 +4306,26 @@
 # EN: Top
 1281216666=Сверху
 
-# EN: Top Nav##preset
-2559930952=Верхняя навигация##preset
+# EN: Top Left
+3111925763=Сверху слева
+
+# EN: Top Right
+3678979058=Сверху справа
+
+# EN: Tracer gets thinner from start to end
+3848411216=Трассер сужается от начала к концу
+
+# EN: Tracers
+1857463969=Трассеры
 
 # EN: Track
 875912051=Дорожка
+
+# EN: Track Opacity
+902824788=Прозрачность дорожки
+
+# EN: Tracks
+794089857=Дорожки
 
 # EN: Tracks the player who killed you with an on-screen arrow
 1609296522=Отслеживает убившего вас игрока стрелкой на экране
@@ -2980,8 +4336,14 @@
 # EN: Trail Length
 308472983=Длина следа
 
+# EN: Trail gets thinner towards the tip
+354830891=След сужается к кончику
+
 # EN: Transparent Ocean
 2138197132=Прозрачный океан
+
+# EN: Triangle
+2990077322=Треугольник
 
 # EN: Trigger Bot
 1558371298=Trigger Bot
@@ -2989,14 +4351,26 @@
 # EN: Trigger FOV
 3216427474=FOV триггера
 
+# EN: Triggerbot
+1477138198=Триггербот
+
 # EN: Triggers
 489495302=Триггеры
 
 # EN: Troll
 1328763896=Тролль
 
+# EN: Trusted
+2045336469=Доверенный
+
+# EN: Type
+828747869=Тип
+
 # EN: Type Settings
 4191027218=Настройки типа
+
+# EN: UI Mode
+63923237=Режим UI
 
 # EN: Unbind
 2907191925=Отвязать
@@ -3004,20 +4378,23 @@
 # EN: Underline
 1892791043=Подчёркивание
 
-# EN: Unfreeze
-1744759624=Разморозить
+# EN: Update Rate
+1699227283=Частота обновления
 
 # EN: Upgrade at scoobymenu.xyz to unlock all features.
 2859334871=Обновитесь на scoobymenu.xyz чтобы разблокировать все функции.
 
-# EN: Upgrade to unlock aim key, smoothing, prediction, humanization, and more.
-3686921449=Обновитесь чтобы разблокировать клавишу прицеливания, сглаживание, предсказание, гуманизацию и другое.
-
-# EN: Upgrade to unlock all ESP styles, skeleton, weapon display, glow, tracers, and more.
-943925499=Обновитесь для разблокировки всех стилей ESP, скелета, отображения оружия, свечения, трассеров и др.
+# EN: Use Anyway
+2296300728=Использовать всё равно
 
 # EN: Use Camera Direction
 2733983925=Использовать направление камеры
+
+# EN: Use Damage Event
+1180278030=Использовать событие урона
+
+# EN: Use Fill mode for best results.
+1995125884=Используйте режим Заливка для лучших результатов.
 
 # EN: Use Horn Key
 1328307925=Использовать клавишу сигнала
@@ -3025,20 +4402,44 @@
 # EN: Use Player List to target players
 1992352066=Используйте список игроков для выбора цели
 
+# EN: Uses rainbow cycling
+3374547008=Использует радужный цикл
+
+# EN: Using an animated GIF as a background may cause
+63761567=Использование анимированного GIF в качестве фона может вызвать
+
+# EN: Using any of these features could result in an instant server kick/ban. You have been warned.
+1391022290=Использование любой из этих функций может привести к мгновенному кику/бану. Вы предупреждены.
+
+# EN: Using synced colors (Watermark)
+704020902=Используются синхронизированные цвета (Водяной знак)
+
 # EN: VFX
 2796127065=VFX
 
-# EN: VSync, frame pacing, and backend are not configurable in FiveM.
-2299547670=VSync, пейсинг кадров и бэкенд не настраиваются в FiveM.
+# EN: Vaporwave
+1600384401=Vaporwave
 
 # EN: Vehicle
 3710147484=Транспорт
+
+# EN: Vehicle Drop
+2827750317=Сброс транспорта
+
+# EN: Vehicle ESP
+791175684=ESP транспорта
 
 # EN: Vehicle Grabber
 2317560408=Захват транспорта
 
 # EN: Vehicle NoClip
 1762582941=NoClip транспорта
+
+# EN: Vehicle Ram
+3560309762=Таран транспортом
+
+# EN: Vehicle Teleport
+524718268=Телепорт транспорта
 
 # EN: Vehicles
 1957895139=Транспорт
@@ -3052,11 +4453,26 @@
 # EN: Vertical Lock
 1336772165=Вертикальная блокировка
 
+# EN: Vertical Style
+1181443880=Вертикальный стиль
+
+# EN: Vertices
+3260108856=Вершины
+
 # EN: View
 2604534539=Вид
 
 # EN: Visibility Check
 2235775772=Проверка видимости
+
+# EN: Visibility Check##sa
+2765187843=Проверка видимости##sa
+
+# EN: Visibility Check##trig
+1367619524=Проверка видимости##trig
+
+# EN: Visible
+2529664305=Видимый
 
 # EN: Visual VFX
 3080442719=Визуальные VFX
@@ -3064,20 +4480,38 @@
 # EN: Visuals
 2427332638=Визуал
 
+# EN: Visuals##lockon
+4093507657=Визуал##lockon
+
+# EN: Visuals##sa
+2764419376=Визуал##sa
+
 # EN: W
 1486926112=W
 
 # EN: Walk Through
 1411964451=Проход сквозь
 
-# EN: Walk through walls, objects and vehicles
-4081827981=Проходите сквозь стены, объекты и транспорт
+# EN: Walk through walls, objects and vehicles. Click gear for options.
+273559267=Проходите сквозь стены, объекты и транспорт. Нажмите шестерёнку для настроек.
+
+# EN: Walking
+921688979=Ходьба
 
 # EN: Wall Bounce
 3276303643=Отскок от стен
 
-# EN: Wall Penetration
-3923162286=Пробивание стен
+# EN: Walls Only
+613995149=Только стены
+
+# EN: Wander
+1288903733=Бродить
+
+# EN: Warning
+3911129148=Предупреждение
+
+# EN: Warning##notif
+496177476=Предупреждение##notif
 
 # EN: Water Height
 2028138289=Высота воды
@@ -3094,8 +4528,14 @@
 # EN: Watermark Settings
 2927022022=Настройки водяного знака
 
+# EN: Waypoint Trail
+827159393=След метки
+
 # EN: Weapon
 3867822744=Оружие
+
+# EN: Weapon Filter
+189061761=Фильтр оружия
 
 # EN: Weapon Height
 2229993953=Высота оружия
@@ -3112,11 +4552,20 @@
 # EN: Weapons
 2151561516=Оружие
 
+# EN: Weather
+1578688043=Погода
+
+# EN: Welcome Screen
+3174111086=Экран приветствия
+
 # EN: Welcome! Let's get you set up.
 2895282766=Добро пожаловать! Давайте настроим всё.
 
 # EN: What's New
 2022498171=Что нового
+
+# EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
+3837149149=При включении Список привязок, Статистика, Список игроков и Наблюдатель используют цвета водяного знака.
 
 # EN: While aiming (RMB), press A/D to instantly teleport left/right
 1256253770=При прицеливании (ПКМ) нажмите A/D для мгновенной телепортации влево/вправо
@@ -3142,8 +4591,44 @@
 # EN: Window Rounding
 1994493044=Скругление окна
 
+# EN: Windows
+3212692547=Окна
+
 # EN: Wireframe
 1554823340=Каркас
+
+# EN: World
+2425990116=Мир
+
+# EN: World Hitmarkers
+592011120=Мировые хитмаркеры
+
+# EN: World Markers
+475901803=Мировые маркеры
+
+# EN: World Numbers
+1304260375=Мировые числа
+
+# EN: World Size
+1252315730=Размер мира
+
+# EN: X
+2466489829=X
+
+# EN: Y
+2157248776=Y
+
+# EN: Y Offset
+2470303010=Смещение Y
+
+# EN: Z
+3059772574=Z
+
+# EN: Zenith Color
+513484685=Цвет зенита
+
+# EN: Zentorno
+2891838741=Zentorno
 
 # EN: [DIR]
 981194033=[ПАП]
@@ -3153,6 +4638,15 @@
 
 # EN: fonts loaded
 3620721009=шрифты загружены
+
+# EN: frames
+580974885=кадров
+
+# EN: image(s)
+2727625699=изображение(й)
+
+# EN: joined the server
+2662745418=присоединился к серверу
 
 # EN: on each feature row (right-click or click gear).
 3640762816=на каждой строке функции (ПКМ или нажмите шестерёнку).

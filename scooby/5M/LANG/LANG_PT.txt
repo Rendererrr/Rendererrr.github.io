@@ -1,8 +1,17 @@
 # Scooby-Op Translation — Portuguese (Português)
 # Auth data_var name: LANG_PT
-# Total strings: 1052
+# Total strings: 1550
 # Format: JOAAT_HASH=translated text
 #
+
+# EN:   Max
+814719606=  Máx
+
+# EN:   Min
+311586748=  Mín
+
+# EN: (none)
+556434450=(nenhum)
 
 # EN: .lua
 4105145103=.lua
@@ -10,8 +19,20 @@
 # EN: 0 = auto height
 11004445=0 = altura automática
 
+# EN: 0 = feet, 0.9 = center, 1.8 = head
+3348539186=0 = pés, 0.9 = centro, 1.8 = cabeça
+
+# EN: 3D Box
+94557236=Caixa 3D
+
+# EN: AC Overlay
+2376138547=Sobreposição AC
+
 # EN: Abilities
 2653368607=Habilidades
+
+# EN: Accel Curve
+2943028526=Curva de Aceleração
 
 # EN: Acceleration
 3788879299=Aceleração
@@ -19,11 +40,17 @@
 # EN: Accent
 4264995109=Destaque
 
-# EN: Accent = Primary
-2408952048=Destaque = Primário
+# EN: Accent / Graph
+4064112843=Destaque / Gráfico
 
 # EN: Accent Color
 289657549=Cor de Destaque
+
+# EN: Accent Colors
+1583477585=Cores de Destaque
+
+# EN: Accent Line
+3861962259=Linha de Destaque
 
 # EN: Accent Text
 2203008932=Texto de Destaque
@@ -43,26 +70,80 @@
 # EN: Active Only
 3026641013=Apenas Ativos
 
+# EN: Active Opacity
+2342129632=Opacidade Ativa
+
 # EN: Active Style
 3006353922=Estilo Ativo
+
+# EN: Active Style##sb
+1226024826=Estilo Ativo##sb
+
+# EN: Active Text
+2273182661=Texto Ativo
+
+# EN: Active Windows
+1847726038=Janelas Ativas
+
+# EN: Adaptive Smoothing
+1841848259=Suavização Adaptativa
+
+# EN: Adder
+3078201489=Adder
+
+# EN: Adjusts Z to ground level after teleport
+1956583967=Ajusta Z ao nível do chão após teleporte
+
+# EN: Admin
+394765392=Admin
+
+# EN: Admin List
+3041029138=Lista de Admins
+
+# EN: Admins
+2040182826=Admins
 
 # EN: Advanced
 191998119=Avançado
 
+# EN: Advanced##sa
+1146831031=Avançado##sa
+
 # EN: Aim Alert
 2286335061=Alerta de Mira
+
+# EN: Aim Assist
+3166330447=Assistência de Mira
+
+# EN: Aim FOV
+2343825128=FOV de Mira
 
 # EN: Aim Key
 2127464103=Tecla de Mira
 
-# EN: Aimbot
-4049715360=Aimbot
-
 # EN: Air Control
 216375879=Controle Aéreo
 
+# EN: Airdrop
+35122248=Airdrop
+
+# EN: Alert Color
+3709827158=Cor de Alerta
+
+# EN: Alien Green
+961017976=Verde Alien
+
 # EN: All
 1166234150=Todos
+
+# EN: All Nearby Peds
+2228825073=Todos os Peds Próximos
+
+# EN: All Peds
+1665670656=Todos os Peds
+
+# EN: All Players
+1249477044=Todos os Jogadores
 
 # EN: All Resources
 3003973313=Todos os Recursos
@@ -76,9 +157,6 @@
 # EN: Alpha
 767087018=Alpha
 
-# EN: Amber
-552717805=Âmbar
-
 # EN: Ammo
 307971639=Munição
 
@@ -88,14 +166,35 @@
 # EN: Anchor
 1880738441=Âncora
 
+# EN: Animate Entries
+2777997914=Animar Entradas
+
+# EN: Animated GIF
+336645484=GIF Animado
+
 # EN: Animation
 1176408751=Animação
 
 # EN: Animations
 490102724=Animações
 
+# EN: Anti-Cheat
+1651501873=Anti-Cheat
+
+# EN: Anti-Detection
+1577423134=Anti-Detecção
+
+# EN: Any target in range
+3516261591=Qualquer alvo no alcance
+
 # EN: Appearance
 3647733735=Aparência
+
+# EN: Apply Model
+2794752200=Aplicar Modelo
+
+# EN: Apply Preset
+3793427380=Aplicar Preset
 
 # EN: Apply To
 3114722325=Aplicar Em
@@ -103,14 +202,29 @@
 # EN: Armor Bar
 1640301539=Barra de Colete
 
-# EN: Armour
-3908443768=Colete
+# EN: Arrow
+182494798=Seta
 
-# EN: Arrow Size
-976748805=Tamanho da Seta
+# EN: Attach
+3601695277=Anexar
 
 # EN: Attach to Self
 1600135536=Anexar a Si Mesmo
+
+# EN: Attachments
+2740828529=Acessórios
+
+# EN: Attack
+3265681955=Atacar
+
+# EN: Auto
+3043925626=Auto
+
+# EN: Auto Detect Anti-Cheat
+3303598959=Detectar Anti-Cheat Automaticamente
+
+# EN: Auto Fire
+3918303945=Tiro Automático
 
 # EN: Auto Godmode
 2673570143=Auto Godmode
@@ -121,11 +235,38 @@
 # EN: Auto Heal on Kill
 38124947=Auto Cura ao Matar
 
+# EN: Auto Hit
+252819216=Acerto Automático
+
+# EN: Auto Pilot
+1235508069=Piloto Automático
+
+# EN: Auto Punch
+4126830016=Soco Automático
+
+# EN: Auto Repair
+173214996=Reparo Automático
+
+# EN: Auto Select
+1270725521=Seleção Automática
+
+# EN: Auto Switch on Kill
+1282152805=Trocar Automaticamente ao Matar
+
+# EN: Auto Switch on Kill##sa
+2174464398=Trocar Automaticamente ao Matar##sa
+
 # EN: Auto-detect fonts from Windows
 2577479103=Detectar fontes do Windows automaticamente
 
+# EN: Auto-disable aimbot when holding RPG, grenade launcher, or throwables
+1054006449=Desativar aimbot automaticamente ao segurar RPG, lança-granadas ou arremessáveis
+
 # EN: Auto-saves your position. Press [B] to rewind to previous locations.
 611200981=Salva sua posição automaticamente. Pressione [B] para voltar a locais anteriores.
+
+# EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
+4247923858=Ajusta automaticamente FOV, suavização e predição ao usar mira de sniper
 
 # EN: Auto-zigzag while sprinting to dodge bullets
 1713564836=Zigzag automático ao correr para desviar de balas
@@ -133,17 +274,23 @@
 # EN: Automatically heals when HP drops below threshold
 758450938=Cura automaticamente quando o HP cai abaixo do limite
 
-# EN: Avg
-2230851251=Méd
+# EN: Automatically punches when close enough to a target
+3378891542=Soca automaticamente quando perto o suficiente de um alvo
+
+# EN: Avg FT
+2437122580=FT Médio
+
+# EN: Avoid Traffic
+4077019646=Evitar Trânsito
 
 # EN: Awareness
 4120293697=Percepção
 
+# EN: BG Color
+291191935=Cor do Fundo
+
 # EN: BG Opacity
 1722675452=Opacidade do Fundo
-
-# EN: BINDS
-448417639=ATALHOS
 
 # EN: BMX
 1131912276=BMX
@@ -153,6 +300,15 @@
 
 # EN: Background##cp
 987508231=Fundo##cp
+
+# EN: Background##dist
+1223813313=Fundo##dist
+
+# EN: Background##name
+2864637074=Fundo##name
+
+# EN: Background##notif
+412198823=Fundo##notif
 
 # EN: Background##pnl
 3123866823=Fundo##pnl
@@ -165,6 +321,12 @@
 
 # EN: Background##tt
 1824343556=Fundo##tt
+
+# EN: Background##weapon
+1937834289=Fundo##weapon
+
+# EN: Basic
+4281242592=Básico
 
 # EN: Beast Fall
 3610673836=Queda Bestial
@@ -181,17 +343,35 @@
 # EN: Behavior
 3330951414=Comportamento
 
+# EN: Behind
+1902609056=Atrás
+
+# EN: Behind Box
+1375740222=Caixa Atrás
+
 # EN: Behind Player TP
 2362883765=TP Atrás do Jogador
 
-# EN: Bind List
-910109241=Lista de Atalhos
+# EN: Blackout
+1180381498=Apagão
 
 # EN: Blazer
 2166734073=Blazer
 
+# EN: Blend
+3933447691=Mistura
+
+# EN: Blend: 0=Add to default, 1=Replace
+618049516=Mistura: 0=Adicionar ao padrão, 1=Substituir
+
 # EN: Blink / Dash
 2181400004=Blink / Dash
+
+# EN: Blizzard
+669657108=Nevasca
+
+# EN: Blood Red
+3933943680=Vermelho Sangue
 
 # EN: Blur
 1103389357=Desfoque
@@ -205,11 +385,8 @@
 # EN: Body Gradient
 706368864=Gradiente do Corpo
 
-# EN: Bone
-282216227=Osso
-
-# EN: Bone Pulse
-1869331695=Pulso do Osso
+# EN: Bomb Drop
+986082614=Soltar Bomba
 
 # EN: Boost
 3475208003=Boost
@@ -232,8 +409,8 @@
 # EN: Border Color
 3690621973=Cor da Borda
 
-# EN: Border Opacity
-3890151403=Opacidade da Borda
+# EN: Border Disabled
+2462330118=Borda Desativada
 
 # EN: Border Style
 350757194=Estilo da Borda
@@ -241,11 +418,11 @@
 # EN: Border Thickness
 3884077482=Espessura da Borda
 
-# EN: Border Visible
-235715641=Borda Visível
-
 # EN: Border##cp
 216211181=Borda##cp
+
+# EN: Border##notif
+336356185=Borda##notif
 
 # EN: Border##sp
 192186828=Borda##sp
@@ -259,38 +436,65 @@
 # EN: Bottom
 4007699126=Inferior
 
-# EN: Bottom Nav##preset
-1071958404=Nav Inferior##preset
+# EN: Bottom Left
+694931044=Inferior Esquerdo
+
+# EN: Bottom Right
+3752329730=Inferior Direito
 
 # EN: Box
 391302943=Caixa
 
-# EN: Box Color
-257928250=Cor da Caixa
+# EN: Box + Skeleton
+2701857720=Caixa + Esqueleto
 
-# EN: Bracket Color
-3374770840=Cor do Colchete
+# EN: Box Only
+2220777776=Apenas Caixa
 
-# EN: Bracket Size
-3189318212=Tamanho do Colchete
-
-# EN: Brackets
-1918830564=Colchetes
+# EN: Brake Force
+864573685=Força de Freio
 
 # EN: Branding
 637151929=Marca
 
-# EN: Breathing
-521954926=Respiração
-
 # EN: Brightness
 26603225=Brilho
+
+# EN: Bring to Me
+4191259033=Trazer até Mim
+
+# EN: Bug Player
+3083359930=Bugar Jogador
+
+# EN: Bug Vehicle
+1797714447=Bugar Veículo
+
+# EN: Bulk Actions
+2405283306=Ações em Massa
 
 # EN: Bullet Proof
 1262983692=Prova de Balas
 
+# EN: Bullet Redirect##sa
+2808025987=Redirecionamento de Bala##sa
+
 # EN: Bullet Tracers
 2673625274=Rastro de Balas
+
+# EN: Bullet spawn (visible tracer)
+210089287=Spawn de bala (traçante visível)
+
+# EN: Burn
+2096267097=Queimar
+
+# EN: Burn Loop
+1482052064=Loop de Queimadura
+
+# EN: Burst Fire
+207152447=Tiro em Rajada
+
+# EN: Burst Pause
+2929660808=Pausa da Rajada
 
 # EN: Button Background
 2334259758=Fundo do Botão
@@ -304,14 +508,32 @@
 # EN: Buttons
 2668497503=Botões
 
-# EN: Cage
-884503551=Gaiola
+# EN: Bypassed
+716678219=Contornado
+
+# EN: CPU time for frame animation.
+2221402083=Tempo de CPU para animação de quadro.
+
+# EN: Cage All
+382838472=Enjaular Todos
+
+# EN: Cage Player
+94667905=Enjaular Jogador
+
+# EN: Camera FOV
+3127376300=FOV da Câmera
 
 # EN: Cancel
 3692849629=Cancelar
 
+# EN: Careful
+3082188318=Cuidadoso
+
 # EN: Cartoon Gun
 2219465205=Arma Cartoon
+
+# EN: Catapult
+3396715056=Catapulta
 
 # EN: Center
 2590249447=Centro
@@ -328,26 +550,44 @@
 # EN: Circle
 3333310803=Círculo
 
+# EN: Circle Color
+2748157626=Cor do Círculo
+
 # EN: Circle+Dot
 2897117632=Círculo+Ponto
+
+# EN: Clean
+1640993750=Limpo
 
 # EN: Clear
 916995460=Limpar
 
+# EN: Clear Blue
+1120199508=Azul Limpo
+
 # EN: Clear Console
 1742492619=Limpar Console
 
-# EN: Click a preset to apply:
-3328559022=Clique em um preset para aplicar:
+# EN: Click UI
+1200896506=Click UI
 
 # EN: Click key button to rebind. ESC to cancel.
 939410858=Clique no botão da tecla para reconfigurar. ESC para cancelar.
 
-# EN: Click to give
-1050717596=Clique para dar
+# EN: Click to apply model
+1083648646=Clique para aplicar modelo
 
-# EN: Click to spawn pickup
-3017013977=Clique para criar pickup
+# EN: Click to spawn
+4007395385=Clique para spawnar
+
+# EN: Click to spawn & enter
+1772688706=Clique para spawnar e entrar
+
+# EN: Click: give & equip
+985047108=Clique: dar e equipar
+
+# EN: Click: spawn pickup
+1945981735=Clique: spawnar pickup
 
 # EN: ClickUI
 2475899823=ClickUI
@@ -358,20 +598,23 @@
 # EN: Clockwise
 3064165560=Horário
 
-# EN: Clone
-3147039946=Clonar
+# EN: Clone Army
+3077970079=Exército de Clones
+
+# EN: Clone Ped
+1932656883=Clonar Ped
 
 # EN: Close
 1204344681=Fechar
+
+# EN: Closest to Crosshair
+1908711443=Mais Próximo da Mira
 
 # EN: Collision Proof
 821592069=Prova de Colisão
 
 # EN: Color
 3914595625=Cor
-
-# EN: Color Mode
-1895414762=Modo de Cor
 
 # EN: Color Picker
 1734248191=Seletor de Cor
@@ -385,20 +628,17 @@
 # EN: Color Pickers
 967634097=Seletores de Cor
 
-# EN: Color Scheme
-3513332763=Esquema de Cores
-
 # EN: Colors
 140995175=Cores
+
+# EN: Columns
+3313586012=Colunas
 
 # EN: Combat
 1467455271=Combate
 
 # EN: Combat Utility
 3560879723=Utilidades de Combate
-
-# EN: Compact Bar
-2784628199=Barra Compacta
 
 # EN: Compass
 3738173000=Bússola
@@ -439,20 +679,23 @@
 # EN: Console output appears here...
 2378588289=A saída do console aparece aqui...
 
+# EN: Constant
+3907938741=Constante
+
 # EN: Constant##skid
 1199242396=Constante##skid
 
-# EN: Content Columns
-1830802331=Colunas de Conteúdo
+# EN: Content Only##bgco
+1042370066=Apenas Conteúdo##bgco
 
-# EN: Content Indent
-813499353=Recuo de Conteúdo
-
-# EN: Content Padding
-1059773031=Preenchimento de Conteúdo
+# EN: Content Pad
+2392358571=Preenchimento do Conteúdo
 
 # EN: Controls
 594033165=Controles
+
+# EN: Cool
+1695531110=Frio
 
 # EN: Cooldown
 1178968787=Cooldown
@@ -469,17 +712,23 @@
 # EN: Cooldowns
 1907140606=Cooldowns
 
+# EN: Coordinates
+2789151618=Coordenadas
+
 # EN: Copied event name to clipboard
 3300867=Nome do evento copiado para a área de transferência
 
 # EN: Copy
 393356872=Copiar
 
+# EN: Copy ID
+3639484515=Copiar ID
+
 # EN: Copy Name
 4181535183=Copiar Nome
 
-# EN: Copy Server ID
-17985942=Copiar ID do Servidor
+# EN: Corner Length
+2709775814=Comprimento do Canto
 
 # EN: Corners
 1329770163=Cantos
@@ -487,14 +736,20 @@
 # EN: Counter-CW
 424479239=Anti-Horário
 
+# EN: Create
+1654067888=Criar
+
+# EN: Crit Color
+1554513421=Cor de Crítico
+
 # EN: Cross
 2228701122=Cruz
 
 # EN: Crosshair
 1991267050=Mira
 
-# EN: Cursor
-951965218=Cursor
+# EN: Crosshair Numbers
+3190854118=Números da Mira
 
 # EN: Cursor Color
 1006036086=Cor do Cursor
@@ -505,6 +760,9 @@
 # EN: Custom
 3136040996=Personalizado
 
+# EN: Custom AC
+703041167=AC Personalizado
+
 # EN: Custom Crosshair
 3384202717=Mira Personalizada
 
@@ -514,17 +772,26 @@
 # EN: Custom Folder Name (optional):
 3844090700=Nome da Pasta Personalizado (opcional):
 
-# EN: Cyan
-1595739919=Ciano
-
 # EN: Damage
 1125348833=Dano
 
 # EN: Damage Indicator
 1385629032=Indicador de Dano
 
+# EN: Damage Log
+1288883294=Registro de Dano
+
+# EN: Damage Multiplier
+403675709=Multiplicador de Dano
+
+# EN: Damage Numbers
+901708624=Números de Dano
+
 # EN: Damage Override
 722912324=Substituir Dano
+
+# EN: Damage Player
+393364144=Causar Dano ao Jogador
 
 # EN: Darkness
 1749136079=Escuridão
@@ -532,8 +799,23 @@
 # EN: Dashed
 1168445324=Tracejado
 
-# EN: Dashed Snapline
-3389583445=Snapline Tracejada
+# EN: Dashed Lines
+3217330410=Linhas Tracejadas
+
+# EN: Dashed##tt
+3897605696=Tracejado##tt
+
+# EN: Dawn
+4259095408=Amanhecer
+
+# EN: Dead Zone
+2069969159=Zona Morta
+
+# EN: Decal Index
+464765481=Índice de Decalque
+
+# EN: Decal##skid
+64187937=Decalque##skid
 
 # EN: Deceleration
 27121731=Desaceleração
@@ -541,11 +823,14 @@
 # EN: Default
 3839837909=Padrão
 
-# EN: Default style uses the feature toggles above.
-3363866816=O estilo padrão usa os toggles de funcionalidade acima.
-
 # EN: Delay
 1491124644=Atraso
+
+# EN: Delay Max
+354802780=Atraso Máximo
+
+# EN: Delay Min
+3146529669=Atraso Mínimo
 
 # EN: Delete
 891743516=Excluir
@@ -556,8 +841,14 @@
 # EN: Delete Gun
 441024924=Arma de Deletar
 
+# EN: Delete Last
+2335943020=Excluir Último
+
 # EN: Delete Theme
 4219254986=Excluir Tema
+
+# EN: Delete Veh
+895942370=Excluir Veículo
 
 # EN: Delete this config?
 2115476497=Excluir esta config?
@@ -571,14 +862,17 @@
 # EN: Density
 3843932311=Densidade
 
-# EN: Designator
-3976929111=Designador
-
 # EN: Detach
 4291111140=Desanexar
 
 # EN: Detach camera and fly around freely
 2017641408=Desanexar câmera e voar livremente
+
+# EN: Detail Text##notif
+2416834241=Texto de Detalhe##notif
+
+# EN: Detected
+1404062231=Detectado
 
 # EN: Diagonal
 1180516370=Diagonal
@@ -586,14 +880,41 @@
 # EN: Diamond
 2796235871=Diamante
 
+# EN: Different color for headshot kills
+2883796557=Cor diferente para kills de headshot
+
+# EN: Dim
+295795085=Escurecer
+
+# EN: Dim Amount
+1388938324=Quantidade de Escurecimento
+
+# EN: Direct damage (more reliable)
+11698873=Dano direto (mais confiável)
+
 # EN: Direction
 887068712=Direção
 
 # EN: Direction Arrows
 1959535538=Setas de Direção
 
+# EN: Direction##brd
+4244919206=Direção##brd
+
+# EN: Direction##grp
+2633968279=Direção##grp
+
+# EN: Disable Anti-Cheat
+3713723029=Desativar Anti-Cheat
+
+# EN: Disable ElectronAC
+3852262134=Desativar ElectronAC
+
 # EN: Disable NM Fall
 3649142862=Desativar Queda NM
+
+# EN: Disable for Explosives
+1184164823=Desativar para Explosivos
 
 # EN: Disabled
 2572083169=Desativado
@@ -616,8 +937,14 @@
 # EN: Display Mode
 200820562=Modo de Exibição
 
+# EN: Dist
+3531260757=Dist
+
 # EN: Distance
 3607074178=Distância
+
+# EN: Distance Bone
+1749124048=Bone de Distância
 
 # EN: Distance Labels
 462378492=Rótulos de Distância
@@ -634,11 +961,23 @@
 # EN: Distance##strafe
 1540802006=Distância##strafe
 
+# EN: Distance##tpfwd
+673033664=Distância##tpfwd
+
+# EN: Distance##veh
+3820228410=Distância##veh
+
 # EN: Distance##wall
 2273036223=Distância##wall
 
 # EN: Dive Jump
 2731982236=Pulo Mergulho
+
+# EN: Divider Opacity
+1443594631=Opacidade do Divisor
+
+# EN: Dividers
+4266747014=Divisores
 
 # EN: Done Scream
 2791358581=Sem Grito
@@ -655,14 +994,32 @@
 # EN: Dot Spacing
 3608568270=Espaçamento do Ponto
 
+# EN: Dotted
+2579778033=Pontilhado
+
 # EN: Dotted Line
 3435322722=Linha Pontilhada
 
 # EN: Draggable
 3287744767=Arrastável
 
-# EN: Draw Line To
-956987556=Desenhar Linha Até
+# EN: Draw Calls
+610979268=Draw Calls
+
+# EN: Draws a circle showing the melee target selection area
+4093610293=Desenha um círculo mostrando a área de seleção de alvo corpo a corpo
+
+# EN: Draws a line from crosshair to the locked melee target
+2699968102=Desenha uma linha da mira até o alvo corpo a corpo travado
+
+# EN: Drive Style
+3330668057=Estilo de Direção
+
+# EN: Drive to Waypoint
+53776605=Dirigir até o Marcador
+
+# EN: Drop Shadow
+362604306=Sombra Projetada
 
 # EN: Dropdown
 953915820=Dropdown
@@ -673,8 +1030,14 @@
 # EN: Dropdown Hover
 7476142=Dropdown ao Passar
 
+# EN: Dropdown Sub-Tabs
+914167550=Sub-Abas do Dropdown
+
 # EN: Dropdowns
 51766618=Dropdowns
+
+# EN: Dual UI mode is not yet available.
+1792964426=O modo UI duplo ainda não está disponível.
 
 # EN: Dump
 2164484578=Dump
@@ -712,17 +1075,35 @@
 # EN: Duration##burst
 1617674729=Duração##burst
 
+# EN: Duration##dmglog
+2155043513=Duração##dmglog
+
+# EN: Duration##dmgnum
+1606858786=Duração##dmgnum
+
 # EN: Duration##phase
 416318694=Duração##phase
+
+# EN: Duration##pt
+2015408410=Duração##pt
+
+# EN: Duration##tt
+301031845=Duração##tt
+
+# EN: Dusk
+2177164377=Entardecer
+
+# EN: Dynamic Light
+3938333546=Luz Dinâmica
+
+# EN: Dynamic Light##pedl
+3802256390=Luz Dinâmica##pedl
 
 # EN: E
 286663184=E
 
 # EN: ESP
 3007444226=ESP
-
-# EN: ESP Features
-1779658189=Funcionalidades ESP
 
 # EN: Edge Arrows
 3739190029=Setas de Borda
@@ -742,41 +1123,98 @@
 # EN: Effects
 3222754290=Efeitos
 
+# EN: ElectronAC heartbeat — may be kicked in 2-5 min.
+3667341283=Heartbeat do ElectronAC — pode ser expulso em 2-5 min.
+
 # EN: Elements
 2120029714=Elementos
 
 # EN: Embedded
 2292057362=Embutido
 
+# EN: Empty
+3151330285=Vazio
+
+# EN: Empty Only
+335310304=Apenas Vazios
+
 # EN: Enable Abilities
 1740941838=Ativar Habilidades
 
-# EN: Enable##pred
-3031240550=Ativar##pred
+# EN: Enable##grpimg
+4123962691=Ativar##grpimg
+
+# EN: Enable##hbg
+3025446437=Ativar##hbg
+
+# EN: Enable##logo
+4138177973=Ativar##logo
+
+# EN: Enable##sbg
+3268039885=Ativar##sbg
 
 # EN: Enable##trig
 2791649621=Ativar##trig
 
+# EN: Enable##wbg
+4197006742=Ativar##wbg
+
 # EN: Enabled
 1527945487=Ativado
 
-# EN: Enabled##tracers
-2046599060=Ativado##tracers
+# EN: Enabled##silent
+697079411=Ativado##silent
+
+# EN: Enabled##veh
+2924172026=Ativado##veh
+
+# EN: End
+2965669335=Fim
 
 # EN: End Color
 376581466=Cor Final
 
+# EN: Endpoint
+693206863=Ponto Final
+
+# EN: Endpoint Marker##pt
+782785200=Marcador de Ponto Final##pt
+
+# EN: Endpoint Marker##tt
+3578768512=Marcador de Ponto Final##tt
+
+# EN: Engine Health
+3323537364=Saúde do Motor
+
+# EN: Enhanced Stars
+751095042=Estrelas Aprimoradas
+
 # EN: Enlarge
 3831153069=Ampliar
+
+# EN: Enter Mode
+3168137480=Modo de Entrada
 
 # EN: Enter name...
 3545940642=Digite o nome...
 
+# EN: Entity Count
+495352207=Contagem de Entidades
+
+# EN: Error##notif
+3944622010=Erro##notif
+
+# EN: Expand Sub-Tabs
+788906364=Expandir Sub-Abas
+
 # EN: Explode
 1152024837=Explodir
 
-# EN: Explode Vehicle
-2721901462=Explodir Veículo
+# EN: Explode All
+979167410=Explodir Todos
+
+# EN: Explode Loop
+2859847721=Loop de Explosão
 
 # EN: Explosion Proof
 1687470245=Prova de Explosão
@@ -796,6 +1234,9 @@
 # EN: Extended parachute blend
 2346391276=Transição de paraquedas estendida
 
+# EN: Extras
+2099753448=Extras
+
 # EN: Eye Lasers
 2648065578=Lasers Oculares
 
@@ -808,14 +1249,23 @@
 # EN: FOV Circle
 3437618946=Círculo do FOV
 
+# EN: FOV Circle##sa
+1684241733=Círculo do FOV##sa
+
 # EN: FOV Color
 1369551578=Cor do FOV
 
 # EN: FOV Cone
 3855747913=Cone do FOV
 
+# EN: FOV Override
+660796900=Substituir FOV
+
 # EN: FOV Radius
 577842563=Raio do FOV
+
+# EN: FOV Scaling
+1352560597=Escalonamento do FOV
 
 # EN: FPS
 1188151419=FPS
@@ -823,11 +1273,23 @@
 # EN: FPS Graph
 1211596683=Gráfico de FPS
 
+# EN: FPS drops while the GUI is open.
+1329427269=Queda de FPS enquanto a GUI está aberta.
+
 # EN: Factor
 2062570087=Fator
 
 # EN: Fade Out
 88300072=Desvanecer
+
+# EN: Fade Out##pt
+723949415=Desvanecer##pt
+
+# EN: Fade Out##tt
+1486429023=Desvanecer##tt
+
+# EN: Fade Over Time
+721809131=Desvanecer com o Tempo
 
 # EN: Faggio
 2452219115=Faggio
@@ -838,17 +1300,23 @@
 # EN: Failed to load
 4017223651=Falha ao carregar
 
+# EN: Fake Crouch
+2499659129=Agachamento Falso
+
 # EN: Fall Modifiers
 1566384241=Modificadores de Queda
 
 # EN: Falloff
 3429369576=Atenuação
 
-# EN: Far
-699460870=Longe
-
 # EN: Fast Climb
 1192867602=Escalada Rápida
+
+# EN: Fast Punch
+4255767614=Soco Rápido
+
+# EN: Fast Reload
+1854971811=Recarga Rápida
 
 # EN: Fast Run
 1518054783=Corrida Rápida
@@ -856,8 +1324,14 @@
 # EN: Features
 1642194290=Funcionalidades
 
+# EN: Feet
+411685808=Pés
+
 # EN: Fetching...
 3018912354=Buscando...
+
+# EN: File
+2993965316=Arquivo
 
 # EN: Files
 4208545539=Arquivos
@@ -871,6 +1345,18 @@
 # EN: Fill Color
 1891090697=Cor do Preenchimento
 
+# EN: Fill Gradient
+680514559=Gradiente do Preenchimento
+
+# EN: Fill##sa
+2438217271=Preenchimento##sa
+
+# EN: Fill##veh
+2738212985=Preenchimento##veh
+
+# EN: Filled
+238956158=Preenchido
+
 # EN: Filled Circle
 1999419602=Círculo Preenchido
 
@@ -879,6 +1365,15 @@
 
 # EN: Filter by event name or type...
 764300805=Filtrar por nome ou tipo de evento...
+
+# EN: Filter##mb
+982138645=Filtro##mb
+
+# EN: Filter##sa
+2082915633=Filtro##sa
+
+# EN: Filter##trig
+1506659606=Filtro##trig
 
 # EN: Filter:
 585229116=Filtro:
@@ -889,8 +1384,14 @@
 # EN: Fire
 3540648811=Fogo
 
+# EN: Fire All
+2874134581=Incendiar Todos
+
 # EN: Fire Ammo
 3091308747=Munição Incendiária
+
+# EN: Fire Delay
+425570614=Atraso de Tiro
 
 # EN: Fire Proof
 2377383169=Prova de Fogo
@@ -898,14 +1399,14 @@
 # EN: Fire Rate
 3724661835=Taxa de Tiro
 
+# EN: Firework Launcher, Compact GL
+1025450837=Lançador de Fogos, GL Compacto
+
 # EN: Fit
 1780184594=Ajustar
 
-# EN: Flags
-1741842546=Flags
-
-# EN: Flashed, Scoped, Planting
-3435288843=Flashado, Com Mira, Plantando
+# EN: Flame Effect
+979047845=Efeito de Chama
 
 # EN: Flashing warning when another player is aiming at you
 2760353598=Aviso piscando quando outro jogador está mirando em você
@@ -925,11 +1426,20 @@
 # EN: Fog Override
 530321426=Substituir Névoa
 
+# EN: Foggy
+2926802500=Nebuloso
+
+# EN: Follow Nearest Player
+687010905=Seguir Jogador Mais Próximo
+
 # EN: Font Settings
 3544698146=Configurações de Fonte
 
 # EN: Font Size
 1304943144=Tamanho da Fonte
+
+# EN: Font Size##dmglog
+1349856237=Tamanho da Fonte##dmglog
 
 # EN: Font names not ready
 1640246123=Nomes das fontes não estão prontos
@@ -946,11 +1456,23 @@
 # EN: Foot Sync
 2409374700=Sincronizar Pé
 
+# EN: Footsteps
+1786517141=Pegadas
+
 # EN: Force
 727102967=Força
 
 # EN: Force Dive
 108539846=Forçar Mergulho
+
+# EN: Force Engine On
+2163633562=Forçar Motor Ligado
+
+# EN: Force Fall
+3890711908=Forçar Queda
+
+# EN: Force In Hand
+1631447953=Forçar na Mão
 
 # EN: Force Skydive
 351881956=Forçar Skydive
@@ -982,11 +1504,20 @@
 # EN: Frametime Graph
 3749077224=Gráfico de Frametime
 
+# EN: Frametime Stats
+3723639030=Estatísticas de Frametime
+
 # EN: Freecam
 3443129427=Freecam
 
-# EN: Freeze
-3175262865=Congelar
+# EN: Freeze All
+562972110=Congelar Todos
+
+# EN: Freeze Player
+4081821340=Congelar Jogador
+
+# EN: Freeze Time
+1098673979=Congelar Tempo
 
 # EN: Freeze When Stopped
 1338390017=Congelar Quando Parado
@@ -996,6 +1527,15 @@
 
 # EN: Frequency
 838802376=Frequência
+
+# EN: Friend
+2041158560=Amigo
+
+# EN: Friends
+3722820035=Amigos
+
+# EN: Friends are excluded
+3097198968=Amigos são excluídos
 
 # EN: Full
 2467592022=Completo
@@ -1021,14 +1561,29 @@
 # EN: Ghost Mode
 2792783542=Modo Fantasma
 
-# EN: Give
-1203194894=Dar
+# EN: Give Armour
+732468916=Dar Colete
+
+# EN: Give Heal
+3229301673=Dar Cura
+
+# EN: Give Pistol
+2345187216=Dar Pistola
+
+# EN: Give Weapon
+2626989742=Dar Arma
+
+# EN: Give with All
+4101948860=Dar com Todas
+
+# EN: Give with Selected
+2307401698=Dar com Selecionada
+
+# EN: Glass
+3656960447=Vidro
 
 # EN: Glide
 4179664184=Planar
-
-# EN: Global
-3684180594=Global
 
 # EN: Global Controls
 535742188=Controles Globais
@@ -1039,14 +1594,35 @@
 # EN: Glow Color
 4274301606=Cor do Brilho
 
+# EN: Glow Intensity
+3297137805=Intensidade do Brilho
+
 # EN: Glow Outline
 3647583653=Contorno Brilhante
 
 # EN: Glow Radius
 3087836290=Raio do Brilho
 
+# EN: Glow Radius##pt
+4004376189=Raio do Brilho##pt
+
+# EN: Glow Radius##tt
+1810956257=Raio do Brilho##tt
+
+# EN: Glow##head
+3142243301=Brilho##head
+
 # EN: Glow##outline
 2470917910=Brilho##outline
+
+# EN: Glow##pt
+329084185=Brilho##pt
+
+# EN: Glow##snap
+3584938764=Brilho##snap
+
+# EN: Glow##tt
+231761347=Brilho##tt
 
 # EN: Go
 3678454391=Ir
@@ -1078,17 +1654,41 @@
 # EN: Gradient Color
 1499581797=Cor do Gradiente
 
+# EN: Gradient End
+2363959488=Fim do Gradiente
+
+# EN: Gradient##skel
+4185602752=Gradiente##skel
+
+# EN: Gradient##snap
+996503281=Gradiente##snap
+
+# EN: Gradually repairs damage to avoid detection
+1785104480=Repara dano gradualmente para evitar detecção
+
+# EN: Graph
+4061756894=Gráfico
+
+# EN: Graph Height
+2433600852=Altura do Gráfico
+
+# EN: Graph Line
+2499037406=Linha do Gráfico
+
 # EN: Gravity Gun
 593196728=Arma Gravitacional
-
-# EN: Green
-1439605128=Verde
 
 # EN: Grenade
 3058715602=Granada
 
+# EN: Grenades, Sticky Bombs, Molotovs,
+1157284636=Granadas, Bombas Adesivas, Molotovs,
+
 # EN: Grid Lines
 608131623=Linhas de Grade
+
+# EN: Ground Check
+559870402=Verificação de Chão
 
 # EN: Ground Only
 3975676203=Apenas no Chão
@@ -1117,23 +1717,26 @@
 # EN: Groups
 2437998540=Grupos
 
+# EN: HP
+1833919794=HP
+
 # EN: HUD
 2488248793=HUD
 
 # EN: HUD Panels
 2229228524=Painéis do HUD
 
+# EN: Hands
+1613305285=Mãos
+
 # EN: Head
 2220048209=Cabeça
 
+# EN: Head Circle
+2951016669=Círculo da Cabeça
+
 # EN: Head Dot
 3444598130=Ponto da Cabeça
-
-# EN: Head Dot Size
-4064447689=Tamanho do Ponto da Cabeça
-
-# EN: Head Marker
-1077302339=Marcador da Cabeça
 
 # EN: Head Offset
 935525727=Offset da Cabeça
@@ -1143,9 +1746,6 @@
 
 # EN: Header BG
 204066829=Fundo do Cabeçalho
-
-# EN: Header BG Alpha
-3301977545=Alpha do Fundo do Cabeçalho
 
 # EN: Header Bar
 1471898286=Barra do Cabeçalho
@@ -1159,6 +1759,15 @@
 # EN: Header Font
 3385559894=Fonte do Cabeçalho
 
+# EN: Header Gradient
+2818942757=Gradiente do Cabeçalho
+
+# EN: Header Gradient Colors
+3729684505=Cores do Gradiente do Cabeçalho
+
+# EN: Header H
+2985475078=Altura do Cabeçalho H
+
 # EN: Header Height
 1726695865=Altura do Cabeçalho
 
@@ -1171,11 +1780,17 @@
 # EN: Header##pnl
 2800582941=Cabeçalho##pnl
 
+# EN: Headshot Chance
+1279076512=Chance de Headshot
+
+# EN: Headshot Color
+3745724835=Cor de Headshot
+
+# EN: Headshot Highlight
+3490981979=Destaque de Headshot
+
 # EN: Heal Self
 1837308584=Curar-se
-
-# EN: Health
-3645570614=Vida
 
 # EN: Health / Armor
 1392506828=Vida / Colete
@@ -1186,23 +1801,14 @@
 # EN: Health Bars
 3573032106=Barras de Vida
 
-# EN: Health Dot
-459240732=Ponto de Vida
-
 # EN: Health Dots
 1895157285=Pontos de Vida
 
 # EN: Health Regen
 2428261713=Regeneração de Vida
 
-# EN: Health Segments
-2013203282=Segmentos de Vida
-
-# EN: Health Text
-2699831745=Texto de Vida
-
-# EN: Health-based
-3492407359=Baseado em Vida
+# EN: Heartbeat active — expect kick in 2-5 min
+1880003566=Heartbeat ativo — espere expulsão em 2-5 min
 
 # EN: Heavy
 2981019142=Pesadas
@@ -1213,17 +1819,50 @@
 # EN: Height Multiplier
 1812340136=Multiplicador de Altura
 
+# EN: Height Offset
+599202244=Offset de Altura
+
 # EN: Height##jh
 4205595266=Altura##jh
 
 # EN: Hex
 3544636510=Hex
 
+# EN: Hidden
+1280145277=Oculto
+
+# EN: Hide Background
+1550833432=Ocultar Fundo
+
 # EN: High Ground
 3194084088=Terreno Elevado
 
+# EN: Highlight Headshots
+1100352321=Destacar Headshots
+
+# EN: Hijack
+1669002447=Sequestrar
+
 # EN: Hill Jump
 327623110=Pulo em Colina
+
+# EN: Hit Chance
+3254221308=Chance de Acerto
+
+# EN: Hit Color
+3909493061=Cor de Acerto
+
+# EN: Hit Range
+3630651289=Alcance de Acerto
+
+# EN: Hitbox
+2448535733=Hitbox
+
+# EN: Hitmarker
+610964850=Hitmarker
+
+# EN: Hitmarkers
+3918708223=Hitmarkers
 
 # EN: Hold
 2552174939=Segurar
@@ -1240,20 +1879,29 @@
 # EN: Hold [V] to lean sideways (camera right). Release to snap back.
 4221385416=Segure [V] para inclinar para o lado (câmera direita). Solte para voltar.
 
-# EN: Holo Skeleton
-3557439060=Esqueleto Holo
+# EN: Horizon
+3479812369=Horizonte
 
-# EN: Holo-HUD
-3406245895=Holo-HUD
+# EN: Horizon Color
+603434929=Cor do Horizonte
 
 # EN: Horizontal
 1700296974=Horizontal
 
-# EN: Hostile
-978650306=Hostil
+# EN: Hour
+1605056896=Hora
 
-# EN: Hover Intensity
-924099734=Intensidade ao Passar
+# EN: Hover
+2507715838=Pairar
+
+# EN: Hover Color
+1011978101=Cor ao Passar
+
+# EN: Hover Highlight
+67858353=Destaque ao Passar
+
+# EN: Hover Names
+3795685632=Nomes ao Passar
 
 # EN: Hovered
 3101980699=Sob o Cursor
@@ -1264,11 +1912,20 @@
 # EN: Humanization
 2824293924=Humanização
 
+# EN: ID
+459292749=ID
+
 # EN: Icon / Accent
 1566350195=Ícone / Destaque
 
+# EN: Icon Below Text
+1121926930=Ícone Abaixo do Texto
+
 # EN: Icon Color
 303976957=Cor do Ícone
+
+# EN: Icon Position
+2104468322=Posição do Ícone
 
 # EN: Icon Size
 3757913751=Tamanho do Ícone
@@ -1279,8 +1936,14 @@
 # EN: Icons Only
 1254349454=Apenas Ícones
 
+# EN: Ignore Lights
+3890512130=Ignorar Luzes
+
 # EN: Image
 3582756407=Imagem
+
+# EN: Image ESP
+392959137=ESP de Imagem
 
 # EN: Image Info
 3041469441=Info da Imagem
@@ -1321,11 +1984,23 @@
 # EN: Increase sprint speed multiplier
 583768203=Aumentar multiplicador de velocidade de corrida
 
+# EN: Indent
+3670931990=Recuo
+
+# EN: Indices
+3921649453=Índices
+
 # EN: Infinite Ammo
 2366586192=Munição Infinita
 
 # EN: Infinite Clip
 285282101=Pente Infinito
+
+# EN: Infinite Combat Roll
+3081757037=Rolamento de Combate Infinito
+
+# EN: Infinite Fuel
+636826216=Combustível Infinito
 
 # EN: Infinite Jump
 3027646004=Pulo Infinito
@@ -1336,11 +2011,8 @@
 # EN: Info
 1745727664=Info
 
-# EN: Info Card
-3649195241=Cartão de Info
-
-# EN: Inner Circle
-3697123713=Círculo Interno
+# EN: Info##notif
+3630429841=Info##notif
 
 # EN: Input
 3018672514=Entrada
@@ -1357,6 +2029,15 @@
 # EN: Instant Blend
 2839309838=Transição Instantânea
 
+# EN: Instant Brake
+619407322=Freio Instantâneo
+
+# EN: Instant Enter
+574114141=Entrada Instantânea
+
+# EN: Instant Exit
+2719539579=Saída Instantânea
+
 # EN: Instant Jump Charge
 3576884201=Carga de Pulo Instantânea
 
@@ -1368,6 +2049,15 @@
 
 # EN: Intensity
 4023228733=Intensidade
+
+# EN: Intensity##pedl
+778732463=Intensidade##pedl
+
+# EN: Interval
+640635350=Intervalo
+
+# EN: Into Vehicle
+780818818=Para o Veículo
 
 # EN: Invisible
 4238958260=Invisível
@@ -1387,17 +2077,17 @@
 # EN: JATO Boost
 959701148=JATO Boost
 
-# EN: Jew Bomber
-1983748711=Jew Bomber
-
-# EN: Jitter##human
-4232165471=Tremor##human
+# EN: Jitter
+2175396620=Jitter
 
 # EN: Joint Size
 2337031930=Tamanho da Junta
 
 # EN: Joints
 2543302730=Juntas
+
+# EN: Joints + Head Ring
+3407280952=Juntas + Anel da Cabeça
 
 # EN: Jump
 781239765=Pulo
@@ -1411,11 +2101,17 @@
 # EN: Jump again while mid-air (press Space)
 1784704847=Pule novamente no ar (pressione Space)
 
-# EN: Keeps wanted level at 0
-2356453974=Mantém o nível de procurado em 0
+# EN: KEYBINDS
+1174365445=Atalhos
+
+# EN: Keeps engine running when you exit the vehicle
+3947995004=Mantém o motor ligado quando você sai do veículo
 
 # EN: Key Pill / Accent
 254348757=Pílula de Tecla / Destaque
+
+# EN: Keybind List
+1074682821=Lista de Atalhos
 
 # EN: Keybind Settings
 3375296113=Configurações de Atalhos
@@ -1423,14 +2119,35 @@
 # EN: Keybinds
 1174365445=Atalhos
 
-# EN: Kick From Vehicle
-3826948535=Expulsar do Veículo
+# EN: Kick
+2221159044=Expulsar
+
+# EN: Kill (Fire)
+47557797=Matar (Fogo)
+
+# EN: Kill (Launch)
+2177202703=Matar (Lançar)
+
+# EN: Kill Color
+2587993530=Cor de Kill
 
 # EN: Kill Counter HUD
 3558074372=HUD Contador de Kills
 
+# EN: Kill Delay
+1295888804=Atraso de Kill
+
+# EN: Kill Effect
+3695467159=Efeito de Kill
+
+# EN: Kill Player
+3126423747=Matar Jogador
+
 # EN: Knob
 3174489586=Botão
+
+# EN: Kuruma
+2922118804=Kuruma
 
 # EN: LMB = Grab, RMB = Throw
 3198042721=LMB = Agarrar, RMB = Lançar
@@ -1444,14 +2161,17 @@
 # EN: Large
 3306821048=Grande
 
+# EN: Large GIFs with many frames use more VRAM and
+1677371317=GIFs grandes com muitos quadros usam mais VRAM e
+
 # EN: Laser Kill Speed
 3536074409=Velocidade do Laser
 
+# EN: Launch All
+2200616639=Lançar Todos
+
 # EN: Launch Up
 3341920784=Lançar para Cima
-
-# EN: Layers
-197915343=Camadas
 
 # EN: Layout
 790219145=Layout
@@ -1465,8 +2185,11 @@
 # EN: Left
 1872971840=Esquerda
 
-# EN: Left Nav##preset
-2843921169=Nav Esquerda##preset
+# EN: Left Color
+3335264713=Cor Esquerda
+
+# EN: Length
+2508072249=Comprimento
 
 # EN: Library
 3519106789=Biblioteca
@@ -1483,11 +2206,32 @@
 # EN: Lights - Glow
 486333628=Luzes - Brilho
 
+# EN: Line
+2053992847=Linha
+
+# EN: Line Color
+3393959997=Cor da Linha
+
 # EN: Line Opacity
 670408965=Opacidade da Linha
 
 # EN: Line Thickness
 3321288925=Espessura da Linha
+
+# EN: Line of Sight
+3600102520=Linha de Visão
+
+# EN: Lines
+3759251173=Linhas
+
+# EN: Links
+4048857167=Links
+
+# EN: List UI
+2974715443=UI de Lista
+
+# EN: List UI is coming soon and not yet available.
+3836961011=UI de Lista estará disponível em breve.
 
 # EN: Load
 837451790=Carregar
@@ -1498,14 +2242,23 @@
 # EN: Loading fonts...
 742296178=Carregando fontes...
 
-# EN: Loading...
-3089557982=Carregando...
+# EN: Loading peds...
+104529968=Carregando peds...
+
+# EN: Loading vehicles...
+996350047=Carregando veículos...
 
 # EN: Local
 1196138662=Local
 
 # EN: Local Only
 1718906169=Apenas Local
+
+# EN: Lock On
+3927233622=Travar Alvo
+
+# EN: Logo
+661613880=Logo
 
 # EN: Logo / Scooby text
 2326944458=Logo / Texto Scooby
@@ -1516,6 +2269,12 @@
 # EN: Logo Size
 2185178672=Tamanho do Logo
 
+# EN: Logo X
+1379849515=Logo X
+
+# EN: Logo Y
+1810761865=Logo Y
+
 # EN: Long Blend High Falls
 1586511569=Transição Longa em Quedas Altas
 
@@ -1524,6 +2283,12 @@
 
 # EN: Longer blend on high falls
 2594425733=Transição mais longa em quedas altas
+
+# EN: Look at a player and hold E to pull yourself to them and melee them.
+1495046615=Olhe para um jogador e segure E para se puxar até ele e atacá-lo corpo a corpo.
+
+# EN: Loops
+3264076679=Loops
 
 # EN: Lowest HP
 890079348=Menor HP
@@ -1552,8 +2317,23 @@
 # EN: MGs
 2564243601=MGs
 
+# EN: Magic Bullet
+2156396594=Bala Mágica
+
+# EN: Magic Bullet — Being worked on, stay tuned!
+861480969=Bala Mágica — Em desenvolvimento, fique ligado!
+
+# EN: Magnet
+959551543=Ímã
+
+# EN: Magnet Vehicles
+442534206=Veículos Ímã
+
 # EN: Main body and widget text
 1866800756=Texto principal do corpo e widgets
+
+# EN: Maintenance
+1970712939=Manutenção
 
 # EN: Makes you invincible. Right-click for keybind.
 3031350692=Te torna invencível. Clique direito para atalho.
@@ -1576,23 +2356,23 @@
 # EN: Map Min Y
 2893949292=Mapa Min Y
 
-# EN: Margin
-3834294781=Margem
-
 # EN: Marker Duration
 3550132583=Duração do Marcador
 
 # EN: Marker Size
 1608809912=Tamanho do Marcador
 
+# EN: Marker Size##pt
+2286249506=Tamanho do Marcador##pt
+
+# EN: Marker Size##tt
+1410759241=Tamanho do Marcador##tt
+
 # EN: Match Accent
 2004835312=Combinar Destaque
 
 # EN: Matrix
 837004614=Matrix
-
-# EN: Max
-1616931012=Máx
 
 # EN: Max Armor
 1642775380=Colete Máximo
@@ -1606,20 +2386,44 @@
 # EN: Max Distance
 1098241997=Distância Máxima
 
+# EN: Max Distance##mb
+3059089789=Distância Máxima##mb
+
 # EN: Max File Size (MB)
 3754775838=Tamanho Máximo do Arquivo (MB)
 
 # EN: Max GIF Frames
 768173607=Máximo de Frames GIF
 
+# EN: Max Kills/Min
+2248378999=Máx Kills/Min
+
 # EN: Max Offset
 1479160603=Offset Máximo
+
+# EN: Max Performance
+1814444695=Performance Máxima
+
+# EN: Max Points
+3799697306=Pontos Máximos
 
 # EN: Max Positions
 2396407764=Posições Máximas
 
+# EN: Max Range
+1390137351=Alcance Máximo
+
+# EN: Max Range Filter
+2461467509=Filtro de Alcance Máximo
+
 # EN: Max Resolution
 2928541794=Resolução Máxima
+
+# EN: Max Speed
+2051389565=Velocidade Máxima
+
+# EN: Max Upgrade
+2942694297=Upgrade Máximo
 
 # EN: Medium
 1960865708=Médio
@@ -1633,14 +2437,20 @@
 # EN: Melee Proof
 3978744557=Prova de Corpo a Corpo
 
-# EN: Min
-4264617715=Mín
+# EN: Memory
+3010803161=Memória
+
+# EN: Memory Usage
+3562636674=Uso de Memória
 
 # EN: Min Color
 1271198994=Cor Mínima
 
-# EN: Min/Max/Avg
-4004106028=Mín/Máx/Méd
+# EN: Min Scale
+4136179093=Escala Mínima
+
+# EN: Min/Max Values
+1093866158=Valores Mín/Máx
 
 # EN: Mini Tank
 3327445812=Mini Tank
@@ -1648,8 +2458,14 @@
 # EN: Minimal
 2190409216=Mínimo
 
+# EN: Minute
+3134348697=Minuto
+
 # EN: Misc
 3888475804=Diversos
+
+# EN: Mod
+2389054143=Mod
 
 # EN: Mode
 1746230403=Modo
@@ -1660,14 +2476,29 @@
 # EN: Mode##glow
 1534494585=Modo##glow
 
+# EN: Modules
+2096891096=Módulos
+
 # EN: Molotov
 4233768403=Molotov
+
+# EN: Moon Glow
+214814360=Brilho da Lua
+
+# EN: Morning
+852964312=Manhã
 
 # EN: Movement
 2799785395=Movimento
 
 # EN: Movement Extras
 3064802169=Extras de Movimento
+
+# EN: Movement Prediction##sa
+598861308=Predição de Movimento##sa
+
+# EN: Multiple rings stack from feet to head
+1361975713=Múltiplos anéis empilham dos pés à cabeça
 
 # EN: Multiplier
 3903859967=Multiplicador
@@ -1687,8 +2518,14 @@
 # EN: Name
 3873537812=Nome
 
+# EN: Name Position
+1309262417=Posição do Nome
+
 # EN: Name Size
 847030063=Tamanho do Nome
+
+# EN: Name##veh
+501997998=Nome##veh
 
 # EN: Name:
 2913015549=Nome:
@@ -1726,20 +2563,32 @@
 # EN: Nearby Only
 4115480667=Apenas Próximos
 
+# EN: Nearest
+775913483=Mais Próximo
+
+# EN: Nearest Distance
+1000483901=Distância Mais Próxima
+
 # EN: Neck
 996632005=Pescoço
 
-# EN: Neon Glow
-2470772255=Brilho Neon
+# EN: Neon Border
+1220884655=Borda Neon
 
 # EN: Network
 2981967937=Rede
 
-# EN: Never Wanted
-1665229505=Nunca Procurado
-
 # EN: Never run out of stamina while sprinting
 3367150289=Nunca ficar sem stamina ao correr
+
+# EN: New
+3355354829=Novo
+
+# EN: New Color
+2772632083=Nova Cor
+
+# EN: Night
+1417207314=Noite
 
 # EN: Nitrous
 2348569964=Nitro
@@ -1759,6 +2608,9 @@
 # EN: No Ragdoll
 336613235=Sem Ragdoll
 
+# EN: No Range Limit
+88900175=Sem Limite de Alcance
+
 # EN: No Recoil
 4238116519=Sem Recuo
 
@@ -1773,6 +2625,12 @@
 
 # EN: No Spread
 3427132305=Sem Dispersão
+
+# EN: No anti-cheat found on this server
+653618892=Nenhum anti-cheat encontrado neste servidor
+
+# EN: No attachments available
+504616852=Nenhum acessório disponível
 
 # EN: No dump in progress.
 2622343018=Nenhum dump em andamento.
@@ -1816,8 +2674,14 @@
 # EN: None
 493038497=Nenhum
 
+# EN: Noon
+863197981=Meio-dia
+
 # EN: Normal
 1330140418=Normal
+
+# EN: North Indicator
+3723643215=Indicador Norte
 
 # EN: Not Bound
 2075514545=Não Vinculado
@@ -1825,11 +2689,23 @@
 # EN: Not connected
 3609921055=Não conectado
 
+# EN: Not scanned yet — click Scan or enable Auto Detect
+2639677942=Ainda não escaneado — clique em Escanear ou ative Detecção Automática
+
+# EN: Notification
+391984250=Notificação
+
+# EN: Notifications
+3527871691=Notificações
+
 # EN: OFF Time
 2870256580=Tempo OFF
 
 # EN: ON Time
 2066901124=Tempo ON
+
+# EN: Objects / Walls
+3327894545=Objetos / Paredes
 
 # EN: Ocean
 2123236799=Oceano
@@ -1837,8 +2713,17 @@
 # EN: Off
 125735237=Desligado
 
-# EN: Off-screen Arrows
-1941423062=Setas Fora da Tela
+# EN: Offset
+2705095151=Offset
+
+# EN: Offset X
+526453136=Offset X
+
+# EN: Offset Y
+816360479=Offset Y
+
+# EN: Old Color
+902168331=Cor Anterior
 
 # EN: On
 2297599112=Ligado
@@ -1849,14 +2734,29 @@
 # EN: One-hit KO melee punches
 4059201057=Socos corpo a corpo que nocauteiam com um golpe
 
+# EN: Only While ADS
+1639662579=Apenas com Mira
+
+# EN: Only While ADS##trig
+1546980182=Apenas com Mira##trig
+
+# EN: Only targets behind walls
+2146794671=Apenas alvos atrás de paredes
+
 # EN: Opacity
 3644411688=Opacidade
+
+# EN: Opacity##dmglog
+2914177699=Opacidade##dmglog
 
 # EN: Open Folder
 615535440=Abrir Pasta
 
 # EN: Open Key
 35305217=Tecla de Abrir
+
+# EN: Open Welcome Screen
+1894661895=Abrir Tela de Boas-Vindas
 
 # EN: Operator Icons
 180367755=Ícones de Operador
@@ -1873,20 +2773,20 @@
 # EN: Other
 1378233051=Outro
 
+# EN: Other players see you crouching but you run normally on your screen
+3894010745=Outros jogadores te veem agachado, mas você corre normalmente na sua tela
+
 # EN: Out of range
 170898955=Fora de alcance
 
-# EN: Outer Ring
-3684560347=Anel Externo
+# EN: Outer Ring Color
+2790912397=Cor do Anel Externo
 
 # EN: Outline
 1787568582=Contorno
 
 # EN: Outline Color
 609267903=Cor do Contorno
-
-# EN: Outline Thickness
-2367310334=Espessura do Contorno
 
 # EN: Outline Width
 1689303532=Largura do Contorno
@@ -1900,14 +2800,26 @@
 # EN: Overlay
 943450718=Sobreposição
 
+# EN: Overlay Settings
+4243667563=Configurações de Sobreposição
+
 # EN: Overlays
 3524909301=Sobreposições
+
+# EN: Override Time
+385966227=Substituir Tempo
+
+# EN: Override Weather
+2440079673=Substituir Clima
 
 # EN: Override fall flags for custom fall behavior
 2407830915=Substituir flags de queda para comportamento personalizado
 
 # EN: Override jump flags for custom jump behavior
 3362934371=Substituir flags de pulo para comportamento personalizado
+
+# EN: PANIC MODE ACTIVE
+1272225111=MODO PÂNICO ATIVO
 
 # EN: PERFORMANCE
 681794815=Performance
@@ -1917,6 +2829,9 @@
 
 # EN: Padding
 625300402=Preenchimento
+
+# EN: Page Title
+2169432593=Título da Página
 
 # EN: Panel Colors
 1735835670=Cores do Painel
@@ -1929,6 +2844,9 @@
 
 # EN: Panels
 2476289820=Painéis
+
+# EN: Panic Mode
+2310882466=Modo Pânico
 
 # EN: Panto
 3863274624=Panto
@@ -1944,6 +2862,9 @@
 
 # EN: Particle FX Color
 894474043=Cor do Particle FX
+
+# EN: Pass Through
+3173995589=Atravessar
 
 # EN: Passively regenerate health over time
 240888173=Regenera vida passivamente ao longo do tempo
@@ -1963,14 +2884,17 @@
 # EN: Ped Lighting
 826428540=Iluminação do Ped
 
+# EN: Peds
+2376147223=Peds
+
+# EN: Peds / NPCs
+1876490144=Peds / NPCs
+
 # EN: Peek
 1159958869=Espiar
 
 # EN: Per-Feature Binds
 2900791157=Atalhos por Funcionalidade
-
-# EN: Performance
-681794815=Performance
 
 # EN: Performance Limits
 1215680916=Limites de Performance
@@ -1980,9 +2904,6 @@
 
 # EN: Phase Shift
 2620975702=Mudança de Fase
-
-# EN: Pickup
-3163816904=Pickup
 
 # EN: Pill
 2294717198=Pílula
@@ -1996,23 +2917,29 @@
 # EN: Pill Pad Y
 352596684=Pad Y da Pílula
 
+# EN: Pipe Bombs, Proximity Mines, Flares
+1693538821=Bombas Caseiras, Minas de Proximidade, Sinalizadores
+
 # EN: Pistols
 1837167641=Pistolas
 
 # EN: Place .lua files in:
 3888411723=Coloque arquivos .lua em:
 
-# EN: Place images in:
-1844287689=Coloque imagens em:
-
 # EN: Player
 1862763509=Jogador
+
+# EN: Player Trail
+536495684=Rastro do Jogador
 
 # EN: Playerlist
 341220623=Lista de Jogadores
 
 # EN: Players
 591508004=Jogadores
+
+# EN: Players ESP
+4197193239=ESP de Jogadores
 
 # EN: Players Only
 766737098=Apenas Jogadores
@@ -2029,23 +2956,32 @@
 # EN: Position History
 3857144579=Histórico de Posição
 
+# EN: Position##hdr
+1381185122=Posição##hdr
+
+# EN: Position##notif
+2851408764=Posição##notif
+
 # EN: Power
 2673791500=Potência
 
 # EN: Prediction
 796153596=Predição
 
+# EN: Prediction##sa
+43230462=Predição##sa
+
 # EN: Preset
 2973707311=Preset
+
+# EN: Press END to instantly disable all visuals, menu, overlays, ESP. Press END again to restore.
+477737018=Pressione END para desativar instantaneamente todos os visuais, menu, sobreposições, ESP. Pressione END novamente para restaurar.
 
 # EN: Press [B] to rewind
 851379740=Pressione [B] para voltar
 
 # EN: Press [E] for a timed sprint speed boost with cooldown
 1635903237=Pressione [E] para um boost de velocidade temporário com cooldown
-
-# EN: Press [F5] to save position. Press again to teleport back.
-1530617779=Pressione [F5] para salvar posição. Pressione novamente para teleportar de volta.
 
 # EN: Press [G] to teleport forward in camera direction
 2203837878=Pressione [G] para teleportar para frente na direção da câmera
@@ -2059,6 +2995,9 @@
 # EN: Press [Space] while falling to instantly teleport to ground level
 1826113543=Pressione [Space] durante a queda para teleportar instantaneamente ao nível do chão
 
+# EN: Press [U] to save position. Press again to teleport back.
+1036979568=Pressione [U] para salvar posição. Pressione novamente para teleportar de volta.
+
 # EN: Press [X] for brief invincibility + no collision + translucency
 4262347464=Pressione [X] para invencibilidade breve + sem colisão + translucidez
 
@@ -2070,6 +3009,9 @@
 
 # EN: Press the open key to toggle the menu anytime
 3803410397=Pressione a tecla de abrir para alternar o menu a qualquer momento
+
+# EN: Prevents fuel from draining on fuel-enabled servers
+857983888=Impede o combustível de acabar em servidores com combustível
 
 # EN: Prevents your ped from ragdolling
 2111679765=Impede que seu ped faça ragdoll
@@ -2083,8 +3025,17 @@
 # EN: Priority
 342945216=Prioridade
 
+# EN: Priority##melee
+3850166085=Prioridade##melee
+
+# EN: Priority##sa
+796836409=Prioridade##sa
+
 # EN: Progress
 1089828659=Progresso
+
+# EN: Projectile Tracers
+272599090=Traçantes de Projétil
 
 # EN: Proximity Alert
 1493469578=Alerta de Proximidade
@@ -2092,14 +3043,29 @@
 # EN: Pulse
 2572624287=Pulso
 
+# EN: Pulse Animation
+3608662053=Animação de Pulso
+
 # EN: Pulse Speed
 605064609=Velocidade do Pulso
 
+# EN: Pulse##glow
+231851092=Pulso##glow
+
+# EN: Pulse##pedl
+4225047266=Pulso##pedl
+
+# EN: Punch Loop
+913715001=Loop de Soco
+
+# EN: Punch Once
+1924701628=Socar Uma Vez
+
+# EN: Punch Rate
+1186403142=Taxa de Soco
+
 # EN: Quick Dump
 3771659481=Dump Rápido
-
-# EN: Quick Set
-2044037423=Config Rápida
 
 # EN: Quick Settings
 924049236=Configurações Rápidas
@@ -2107,8 +3073,8 @@
 # EN: Quick Setup
 2627885725=Setup Rápido
 
-# EN: Quick apply a layout style:
-3884490162=Aplicar rapidamente um estilo de layout:
+# EN: Quick Teleport
+326609558=Teleporte Rápido
 
 # EN: Quick dump started...
 1452873798=Dump rápido iniciado...
@@ -2122,6 +3088,9 @@
 # EN: RC Type
 707884177=Tipo de RC
 
+# EN: RPG, Homing Launcher, Grenade Launcher,
+2954220142=RPG, Lançador Teleguiado, Lança-Granadas,
+
 # EN: Radar
 3103374064=Radar
 
@@ -2131,11 +3100,20 @@
 # EN: Ragdoll
 540944468=Ragdoll
 
+# EN: Ragdoll All
+1649746280=Ragdoll em Todos
+
+# EN: Ragdoll Loop
+2541994190=Loop de Ragdoll
+
 # EN: Rain
 1420204096=Chuva
 
 # EN: Rain Angle
 479969225=Ângulo da Chuva
+
+# EN: Rain Vehicles
+772656295=Chuva de Veículos
 
 # EN: Rainbow
 2057945528=Arco-íris
@@ -2148,6 +3126,9 @@
 
 # EN: Rainbow Speed
 830484880=Velocidade do Arco-íris
+
+# EN: Rainbow Speed##pt
+461725058=Velocidade do Arco-íris##pt
 
 # EN: Rainbow##fog
 3074789384=Arco-íris##fog
@@ -2170,14 +3151,23 @@
 # EN: Rainbow##tl
 2474153670=Arco-íris##tl
 
+# EN: Ram Distance
+2300880066=Distância de Abalroamento
+
+# EN: Ram Nearest Player
+3914507451=Abalroar Jogador Mais Próximo
+
+# EN: Ram Type
+4066399942=Tipo de Abalroamento
+
 # EN: Ramp
 2775957121=Rampa
 
+# EN: Random Driving
+651903587=Direção Aleatória
+
 # EN: Range
 332484516=Alcance
-
-# EN: Range Card
-2671139270=Cartão de Alcance
 
 # EN: Range Override
 3669016494=Substituir Alcance
@@ -2188,11 +3178,17 @@
 # EN: Rapid Fire
 4034658405=Tiro Rápido
 
+# EN: Rapid punching — spams attack input for maximum DPS
+1255462882=Socos rápidos — spam de ataque para DPS máximo
+
 # EN: Rate
 2120794248=Taxa
 
 # EN: Ready
 2084256605=Pronto
+
+# EN: Recoil Comp
+3498445003=Compensação de Recuo
 
 # EN: Recommended image sizes:
 2704497521=Tamanhos de imagem recomendados:
@@ -2224,14 +3220,17 @@
 # EN: Reload
 1571056488=Recarregar
 
-# EN: Remote Punch
-1753771086=Soco Remoto
+# EN: Removes combat roll cooldown
+1447874427=Remove cooldown do rolamento de combate
 
 # EN: Rendering
 2948493975=Renderização
 
-# EN: Rendering settings are controlled by the game.
-3825863051=As configurações de renderização são controladas pelo jogo.
+# EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
+2465448157=Configurações de renderização são controladas pelo jogo. VSync, ritmo de quadros e backend não são configuráveis no FiveM.
+
+# EN: Repair Vehicle
+2429933431=Reparar Veículo
 
 # EN: Reset
 3559176682=Redefinir
@@ -2244,6 +3243,9 @@
 
 # EN: Reset Fonts
 2389856026=Redefinir Fontes
+
+# EN: Reset Position
+1118816545=Redefinir Posição
 
 # EN: Reset Stats
 2240252868=Redefinir Estatísticas
@@ -2263,6 +3265,9 @@
 # EN: Reset to defaults
 3361422027=Redefinir para o padrão
 
+# EN: Resource
+1411351736=Recurso
+
 # EN: Resource Details
 2210156775=Detalhes do Recurso
 
@@ -2278,11 +3283,11 @@
 # EN: Restore Position on Disable
 152322992=Restaurar Posição ao Desativar
 
-# EN: Retro
-2418868453=Retro
-
 # EN: Revenge Tracker
 315468113=Rastreador de Vingança
+
+# EN: Revive
+327204845=Reviver
 
 # EN: Rifles
 3712947327=Rifles
@@ -2290,11 +3295,38 @@
 # EN: Right
 3100427065=Direita
 
+# EN: Right Color
+2599168357=Cor Direita
+
 # EN: Right Foot Land
 3267278232=Pouso Pé Direito
 
+# EN: Right-click: attachments
+905043959=Clique direito: acessórios
+
+# EN: Ring
+897759444=Anel
+
+# EN: Ring Color
+3655670189=Cor do Anel
+
+# EN: Ring Count
+3319444267=Quantidade de Anéis
+
+# EN: Ring ESP
+3540339487=ESP de Anel
+
 # EN: Ring Offset
 1784623860=Offset do Anel
+
+# EN: Ring pulses when player is standing still
+2848360984=Anel pulsa quando o jogador está parado
+
+# EN: Rise Speed
+3267963830=Velocidade de Subida
+
+# EN: Risk: May result in kick/ban
+863799803=Risco: Pode resultar em expulsão/banimento
 
 # EN: Risky
 1413260749=Arriscado
@@ -2308,14 +3340,32 @@
 # EN: Rounding
 947963291=Arredondamento
 
+# EN: Rounding##distbg
+4161243031=Arredondamento##distbg
+
+# EN: Rounding##namebg
+3182791864=Arredondamento##namebg
+
+# EN: Rounding##wepbg
+2546121190=Arredondamento##wepbg
+
 # EN: Row Height
 1759174565=Altura da Linha
 
 # EN: Run
 285848937=Correr
 
+# EN: Run Script
+2843942484=Executar Script
+
+# EN: Running
+1756071093=Correndo
+
 # EN: Running Land
 2731731835=Pouso Correndo
+
+# EN: Rush
+1956547955=Investida
 
 # EN: S
 331032406=S
@@ -2329,14 +3379,26 @@
 # EN: SPECTATORS
 2185765281=ESPECTADORES
 
+# EN: Sample Rate
+1680169433=Taxa de Amostragem
+
 # EN: Saturation
 432935425=Saturação
+
+# EN: Saturation##btrbow
+1340760551=Saturação##btrbow
 
 # EN: Save
 3357008648=Salvar
 
+# EN: Save Here
+2753091722=Salvar Aqui
+
 # EN: Save Interval
 269707535=Intervalo de Salvamento
+
+# EN: Save your current position and teleport back later
+4024909457=Salve sua posição atual e teleporte de volta depois
 
 # EN: Saved
 2978706416=Salvo
@@ -2344,11 +3406,20 @@
 # EN: Saved Configs
 860699809=Configs Salvas
 
+# EN: Saved Locations
+676178533=Locais Salvos
+
 # EN: Saved Themes
 2236251465=Temas Salvos
 
 # EN: Scale
 1342385372=Escala
+
+# EN: Scale Effect
+633475164=Efeito de Escala
+
+# EN: Scale by Distance
+3110684322=Escalar por Distância
 
 # EN: Scaling
 2369776673=Escalonamento
@@ -2356,17 +3427,29 @@
 # EN: Scan Triggers
 917870278=Escanear Triggers
 
-# EN: Scanlines
-3365381122=Scanlines
+# EN: Scan for Anti-Cheat
+3069664885=Escanear Anti-Cheat
 
 # EN: Scanning for triggers...
 3267756685=Escaneando triggers...
 
-# EN: Scheme
-3059054229=Esquema
+# EN: Scans for anti-cheat modules every 10 seconds
+3500340240=Escaneia módulos anti-cheat a cada 10 segundos
+
+# EN: Scope Awareness
+3358794078=Percepção de Mira Telescópica
+
+# EN: Scope FOV
+1562648207=FOV da Mira Telescópica
+
+# EN: Scope Zoom Comp
+3688902947=Compensação de Zoom da Mira
 
 # EN: Screen Effect
 2081639106=Efeito de Tela
+
+# EN: Script Name:
+395819186=Nome do Script:
 
 # EN: Script Panels
 20599938=Painéis de Script
@@ -2380,20 +3463,29 @@
 # EN: Scripts Only
 989894930=Apenas Scripts
 
+# EN: Scroll Rnd
+3194337460=Arredondamento da Rolagem
+
 # EN: Scrollbar
 1128947819=Barra de Rolagem
+
+# EN: Scrollbar Color
+331403800=Cor da Barra de Rolagem
 
 # EN: Scrollbar Grab
 3484051837=Alça da Barra de Rolagem
 
-# EN: Scrollbar Rounding
-1216980504=Arredondamento da Barra de Rolagem
+# EN: Scrollbar W
+4067235894=Largura da Barra de Rolagem
 
-# EN: Scrollbar Width
-1359758980=Largura da Barra de Rolagem
+# EN: Search
+4166004673=Buscar
 
 # EN: Search files...
 2743520297=Buscar arquivos...
+
+# EN: Search peds...
+3129217742=Buscar peds...
 
 # EN: Search resources...
 1910280218=Buscar recursos...
@@ -2403,6 +3495,9 @@
 
 # EN: Search scripts...
 2760915522=Buscar scripts...
+
+# EN: Search vehicles...
+2834434051=Buscar veículos...
 
 # EN: Search weapons...
 3633895952=Buscar armas...
@@ -2416,11 +3511,20 @@
 # EN: Secondary
 3384035740=Secundário
 
-# EN: Secondary Color
-2176084867=Cor Secundária
+# EN: Section Font
+2820653597=Fonte de Seção
 
 # EN: Section Header
 2349583176=Cabeçalho de Seção
+
+# EN: Section Headers
+2327016931=Cabeçalhos de Seção
+
+# EN: Section Opacity
+1502378754=Opacidade da Seção
+
+# EN: Segments
+390045222=Segmentos
 
 # EN: Select Resource:
 2084042239=Selecionar Recurso:
@@ -2434,20 +3538,23 @@
 # EN: Select a resource from the list to view details.
 1234177780=Selecione um recurso da lista para ver detalhes.
 
+# EN: Self
+660087492=Próprio
+
+# EN: Send Crash
+4127490903=Enviar Crash
+
 # EN: Sensitivity
 1563795609=Sensibilidade
+
+# EN: Sep Alpha
+307689876=Alpha do Separador
 
 # EN: Separator
 600342395=Separador
 
-# EN: Separator Alpha
-3812982663=Alpha do Separador
-
 # EN: Serpentine
 2010529308=Serpentina
-
-# EN: Server ID
-3544973090=ID do Servidor
 
 # EN: Server IP:
 3217114240=IP do Servidor:
@@ -2455,14 +3562,14 @@
 # EN: Set Model
 2741786040=Definir Modelo
 
-# EN: Set On Fire
-1113552959=Atear Fogo
-
 # EN: Set per-feature keybinds via the gear icon
 438153059=Defina atalhos por funcionalidade pelo ícone de engrenagem
 
 # EN: Settings
 2768156407=Configurações
+
+# EN: Settings Icon
+1138567279=Ícone de Configurações
 
 # EN: Settings Popup
 3291697507=Popup de Configurações
@@ -2473,8 +3580,23 @@
 # EN: Settings Popup Border
 901123421=Borda do Popup de Configurações
 
+# EN: Shadow
+1921357778=Sombra
+
+# EN: Shadow Color
+1888230042=Cor da Sombra
+
 # EN: Shadow Light
 2468923299=Luz de Sombra
+
+# EN: Shadow##dist
+1556818514=Sombra##dist
+
+# EN: Shadow##name
+1583130157=Sombra##name
+
+# EN: Shadow##weapon
+559319637=Sombra##weapon
 
 # EN: Shape
 3829206493=Forma
@@ -2482,23 +3604,35 @@
 # EN: Shape & Size
 1482294196=Forma e Tamanho
 
-# EN: Shoot Through Walls
-4153386978=Atirar Através de Paredes
-
 # EN: Shoot laser beams from your eyes while flying
 1927972254=Dispara lasers dos seus olhos enquanto voa
 
 # EN: Shotguns
 3978331987=Escopetas
 
-# EN: Show Bind List
-2224633592=Mostrar Lista de Atalhos
+# EN: Shots Max
+1545419862=Tiros Máx
+
+# EN: Shots Min
+4101905516=Tiros Mín
+
+# EN: Show Advanced
+2451177577=Mostrar Avançado
+
+# EN: Show Bar
+2024828132=Mostrar Barra
+
+# EN: Show Category
+966325046=Mostrar Categoria
 
 # EN: Show Coordinates
 3389512578=Mostrar Coordenadas
 
 # EN: Show Date
 3033026641=Mostrar Data
+
+# EN: Show Dealt
+2111762275=Mostrar Causado
 
 # EN: Show Distance
 1253886722=Mostrar Distância
@@ -2509,11 +3643,29 @@
 # EN: Show FPS
 2817813522=Mostrar FPS
 
+# EN: Show Graph
+2534847582=Mostrar Gráfico
+
+# EN: Show Header
+645770246=Mostrar Cabeçalho
+
+# EN: Show Hints Overlay
+4000101783=Mostrar Sobreposição de Dicas
+
 # EN: Show Icon
 1657507605=Mostrar Ícone
 
+# EN: Show Line
+1200799385=Mostrar Linha
+
 # EN: Show Logo
 395333305=Mostrar Logo
+
+# EN: Show Marker
+3497215950=Mostrar Marcador
+
+# EN: Show Modules
+2174968335=Mostrar Módulos
 
 # EN: Show Name
 2286872380=Mostrar Nome
@@ -2521,11 +3673,26 @@
 # EN: Show Names
 1773671442=Mostrar Nomes
 
-# EN: Show Performance Stats
-64857044=Mostrar Estatísticas de Performance
+# EN: Show Preview
+1262585563=Mostrar Pré-visualização
+
+# EN: Show Self
+1908654534=Mostrar Próprio
+
+# EN: Show Server ID
+2968435685=Mostrar ID do Servidor
 
 # EN: Show Speed
 3666823772=Mostrar Velocidade
+
+# EN: Show Status
+3333637862=Mostrar Status
+
+# EN: Show Taken
+2937268981=Mostrar Recebido
+
+# EN: Show Text
+1575008906=Mostrar Texto
 
 # EN: Show Time
 2222431568=Mostrar Hora
@@ -2536,8 +3703,14 @@
 # EN: Show Unarmed
 288151846=Mostrar Desarmado
 
-# EN: Show Watermark
-776838397=Mostrar Marca d'Água
+# EN: Show Vehicles
+1292300392=Mostrar Veículos
+
+# EN: Show keybind hints for active movement extras on screen
+3465261614=Mostrar dicas de atalhos para extras de movimento ativos na tela
+
+# EN: Show on Startup
+1110455679=Mostrar ao Iniciar
 
 # EN: Shows Kills / Deaths / K/D ratio in top-right corner
 1707224720=Mostra Kills / Mortes / K/D no canto superior direito
@@ -2545,8 +3718,11 @@
 # EN: Shows a directional wedge on screen when you take damage
 1772815089=Mostra uma cunha direcional na tela quando você recebe dano
 
-# EN: Shows: Bomb, Defuse Kit,
-1267015010=Mostra: Bomba, Kit de Desarme,
+# EN: Shows current speed on screen while boosting
+657043655=Mostra a velocidade atual na tela durante o boost
+
+# EN: Shows exhaust flame visual when NOS is active
+588827996=Mostra visual de chama no escapamento quando o NOS está ativo
 
 # EN: Shrink
 3226637854=Encolher
@@ -2560,14 +3736,17 @@
 # EN: Sidebar Hover
 3848358493=Barra Lateral ao Passar
 
-# EN: Sidebar Items
-1783545894=Itens da Barra Lateral
-
 # EN: Sidebar Separator
 3087006103=Separador da Barra Lateral
 
 # EN: Sidebar tab labels
 1912982437=Rótulos das abas da barra lateral
+
+# EN: Silent Aim
+283398155=Mira Silenciosa
+
+# EN: Silent Kill
+797641779=Kill Silencioso
 
 # EN: Single Resource
 3904755329=Recurso Único
@@ -2581,8 +3760,23 @@
 # EN: Skeleton
 1816727634=Esqueleto
 
+# EN: Skeleton Only
+1732653347=Apenas Esqueleto
+
 # EN: Skid Marks
 3990791696=Marcas de Derrapagem
+
+# EN: Skip Friends
+1109959189=Pular Amigos
+
+# EN: Skip Friends##mb
+1619604810=Pular Amigos##mb
+
+# EN: Skip Friends##sa
+1651665136=Pular Amigos##sa
+
+# EN: Skip Friends##trig
+2028490315=Pular Amigos##trig
 
 # EN: Skips falling scream
 2453340543=Pula o grito de queda
@@ -2593,8 +3787,14 @@
 # EN: Sky
 159192176=Céu
 
+# EN: Sky Color
+1840203098=Cor do Céu
+
 # EN: Sky Intensity
 2101263467=Intensidade do Céu
+
+# EN: Slide Animation
+1430582691=Animação de Deslize
 
 # EN: Slider
 338352108=Slider
@@ -2605,8 +3805,8 @@
 # EN: Slider Grab
 1603827939=Alça do Slider
 
-# EN: Slider Height
-367548467=Altura do Slider
+# EN: Slider H
+2750911631=Altura do Slider
 
 # EN: Slider Track
 1630077971=Trilho do Slider
@@ -2614,8 +3814,17 @@
 # EN: Sliders
 2297082388=Sliders
 
+# EN: Slot
+933689839=Slot
+
 # EN: Small
 3085983008=Pequeno
+
+# EN: Smooth Animation
+2305435949=Animação Suave
+
+# EN: Smooth Curves
+3976333954=Curvas Suaves
 
 # EN: Smooth Movement
 4220516200=Movimento Suave
@@ -2623,8 +3832,14 @@
 # EN: Smoothing
 980522697=Suavização
 
+# EN: Snap
+3320192477=Snap
+
 # EN: Snaplines
 3234673257=Snaplines
+
+# EN: Snaplines##veh
+4155083255=Snaplines##veh
 
 # EN: Snipers
 453460956=Snipers
@@ -2635,11 +3850,23 @@
 # EN: Solid
 2667043969=Sólido
 
+# EN: Sort by Distance
+698443985=Ordenar por Distância
+
 # EN: Spacing
 370899326=Espaçamento
 
-# EN: Spawn RC Vehicle
-1282026008=Spawnar Veículo RC
+# EN: Spawn Inside
+2094277891=Spawnar Dentro
+
+# EN: Spawn Pickup
+4182113963=Spawnar Pickup
+
+# EN: Spawn RC
+626071120=Spawnar RC
+
+# EN: Spawn Safe
+2872385090=Spawn Seguro
 
 # EN: Spawner
 1388279330=Spawner
@@ -2662,6 +3889,15 @@
 # EN: Speed Burst
 3918175031=Burst de Velocidade
 
+# EN: Speed Overlay
+4009411811=Sobreposição de Velocidade
+
+# EN: Speed##btrbow
+1185079655=Velocidade##btrbow
+
+# EN: Speed##hpsmooth
+2272127628=Velocidade##hpsmooth
+
 # EN: Speeds up climbing and vaulting animations
 884886740=Acelera animações de escalada e salto
 
@@ -2671,6 +3907,9 @@
 # EN: Spin Speed
 2064253717=Velocidade de Giro
 
+# EN: Spoof Weapon
+1397032680=Falsificar Arma
+
 # EN: Sprint Multiplier
 1215352304=Multiplicador de Sprint
 
@@ -2679,9 +3918,6 @@
 
 # EN: Start
 2229020447=Iniciar
-
-# EN: Start Color
-2836109591=Cor Inicial
 
 # EN: State:
 635892118=Estado:
@@ -2695,14 +3931,17 @@
 # EN: Statistics
 3866636803=Estatísticas
 
-# EN: Status
-1711913059=Status
+# EN: Stats
+3337185076=Estatísticas
 
 # EN: Status Dots
 1792226764=Pontos de Status
 
-# EN: Steal Vehicle
-1468344584=Roubar Veículo
+# EN: Steal
+4209706760=Roubar
+
+# EN: Steal Outfit
+2382281041=Roubar Roupa
 
 # EN: Steam Proof
 3475233767=Prova de Vapor
@@ -2710,17 +3949,17 @@
 # EN: Sticky Target
 128465133=Alvo Fixo
 
+# EN: Sticky Target##sa
+4029734851=Alvo Fixo##sa
+
 # EN: Stop
 2467080178=Parar
 
 # EN: Stop All
 2685914560=Parar Tudo
 
-# EN: Stop Remote Punch
-2977326358=Parar Soco Remoto
-
-# EN: Stop Spectate
-4280033283=Parar de Assistir
+# EN: Stop at Destination
+3456158729=Parar no Destino
 
 # EN: Strafe Teleport
 736882111=Teleporte Lateral
@@ -2728,17 +3967,35 @@
 # EN: Streak Length
 3266569970=Comprimento do Rastro
 
+# EN: Stream Proof
+3106534202=Prova de Stream
+
+# EN: Stream Proof Mode
+3011027665=Modo Prova de Stream
+
+# EN: Stream Proof is currently unavailable in FiveM. Enabling it may cause crashes.
+2952089962=Prova de Stream não está disponível no FiveM. Ativar pode causar crashes.
+
+# EN: Streamer
+322333922=Streamer
+
 # EN: Stretch
 2333339779=Esticar
 
 # EN: Style
 2840017588=Estilo
 
-# EN: Style Settings
-2096067170=Configurações de Estilo
+# EN: Sub-Tabs
+4235856483=Sub-Abas
+
+# EN: Success##notif
+124336157=Sucesso##notif
 
 # EN: Suicide
 2547813608=Suicídio
+
+# EN: Sunset
+2621324973=Pôr do Sol
 
 # EN: Super Jump
 3347387969=Super Jump
@@ -2755,6 +4012,12 @@
 # EN: Superman
 3383293034=Superman
 
+# EN: Suspicious
+1438524565=Suspeito
+
+# EN: Suspicious Modules
+3476759237=Módulos Suspeitos
+
 # EN: Swastika
 1143073821=Suástica
 
@@ -2763,6 +4026,9 @@
 
 # EN: Switch Delay
 2176114960=Atraso de Troca
+
+# EN: Sync Colors
+3592090493=Sincronizar Cores
 
 # EN: Sync Rotation
 2224402641=Sincronizar Rotação
@@ -2779,8 +4045,8 @@
 # EN: T-Shape
 3695503273=Formato T
 
-# EN: TEAM
-1413636062=TIME
+# EN: T20
+1663218586=T20
 
 # EN: Tab Bar Style
 4174884294=Estilo da Barra de Abas
@@ -2788,50 +4054,86 @@
 # EN: Tab Offset
 3402227718=Offset da Aba
 
-# EN: Table
-2874532228=Tabela
-
 # EN: Tabs
 42551280=Abas
 
-# EN: Tactical
-2601457066=Tático
+# EN: Tag
+451731021=Tag
+
+# EN: Tagged
+3712235179=Marcado
+
+# EN: Taper Width
+3042212273=Largura Afunilada
+
+# EN: Taper Width##pt
+3926039349=Largura Afunilada##pt
 
 # EN: Target
 2720140041=Alvo
 
-# EN: Target Brackets
-1656826073=Colchetes do Alvo
+# EN: Target Info Overlay##sa
+1911780673=Sobreposição de Info do Alvo##sa
+
+# EN: Target Line
+2375968002=Linha do Alvo
+
+# EN: Target Line##sa
+71772006=Linha do Alvo##sa
+
+# EN: Target Marker
+2135859714=Marcador do Alvo
+
+# EN: Target Marker##sa
+3230599266=Marcador do Alvo##sa
 
 # EN: Targeting
 2771652631=Mira
 
+# EN: Targets
+4017618224=Alvos
+
+# EN: Tazer
+1018685068=Taser
+
+# EN: Tazer Loop
+1526625777=Loop de Taser
+
+# EN: Tazo Loop
+1738443387=Loop de Taser
+
 # EN: Teleport
 825270086=Teleporte
 
-# EN: Teleport Behind
-3957505801=Teleportar Atrás
+# EN: Teleport Forward
+329923835=Teleporte para Frente
+
+# EN: Teleport Forward Distance
+1561225=Distância do Teleporte para Frente
 
 # EN: Teleport Gun
 1763910974=Arma de Teleporte
 
-# EN: Teleport Into Vehicle
-2977836822=Teleportar para Veículo
+# EN: Teleport to Coords
+3551972134=Teleportar para Coordenadas
 
-# EN: Teleport To
-1887426362=Teleportar Para
+# EN: Teleport to Crosshair
+3582907225=Teleportar para a Mira
+
+# EN: Teleport to Nearest Vehicle
+1222747355=Teleportar para o Veículo Mais Próximo
 
 # EN: Teleport to Waypoint
 3908877611=Teleportar para Marcador
+
+# EN: Teleport vehicle with you
+2332352547=Teleportar veículo com você
 
 # EN: Text
 2134593963=Texto
 
 # EN: Text Color
 2909489414=Cor do Texto
-
-# EN: Text Colors
-2428686285=Cores do Texto
 
 # EN: Text Font
 1277029574=Fonte do Texto
@@ -2845,11 +4147,14 @@
 # EN: Text Size
 2196789760=Tamanho do Texto
 
+# EN: Text Size##btdist
+3467531750=Tamanho do Texto##btdist
+
+# EN: Text##notif
+2810058654=Texto##notif
+
 # EN: Text##tt
 4146431772=Texto##tt
-
-# EN: Texture Manager
-1350186219=Gerenciador de Texturas
 
 # EN: Textures larger than
 2812383153=Texturas maiores que
@@ -2890,23 +4195,29 @@
 # EN: Thickness
 4285237432=Espessura
 
+# EN: Thickness##pt
+1365574739=Espessura##pt
+
+# EN: Thickness##tt
+3534806773=Espessura##tt
+
+# EN: This feature is currently in development.
+2985474122=Esta funcionalidade está em desenvolvimento.
+
 # EN: This feature requires a paid subscription.
 3394398001=Esta funcionalidade requer uma assinatura paga.
 
 # EN: This will reset ALL fonts, colors, images, and layout settings to their defaults.\n\nAre you sure?
 2684530542=Isso vai redefinir TODAS as fontes, cores, imagens e configurações de layout para o padrão.\n\nTem certeza?
 
-# EN: Threat Level
-224215045=Nível de Ameaça
-
-# EN: Threat Ring
-3842551955=Anel de Ameaça
-
 # EN: Threshold
 1573986338=Limite
 
 # EN: Throw Force
 3461652194=Força de Arremesso
+
+# EN: Throwable Tracers
+2494953445=Traçantes de Arremessáveis
 
 # EN: Throwables
 748292176=Arremessáveis
@@ -2917,23 +4228,53 @@
 # EN: Thunder Override
 3360298467=Substituir Trovão
 
-# EN: Tick Size
-3495585414=Tamanho do Tick
-
 # EN: Tile
 1337127750=Ladrilho
+
+# EN: Time
+258444835=Tempo
+
+# EN: Time & Weather
+1757582708=Tempo e Clima
+
+# EN: Timing
+4122073465=Temporização
 
 # EN: Tire Lights
 3627926876=Luzes dos Pneus
 
+# EN: Title (Scooby)
+4250394732=Título (Scooby)
+
 # EN: Title Font
 4023667508=Fonte do Título
+
+# EN: Title Gradient
+265407355=Gradiente do Título
+
+# EN: Title Gradient Colors
+1766434517=Cores do Gradiente do Título
+
+# EN: Title Size
+1301071436=Tamanho do Título
+
+# EN: Title Text
+1233135823=Texto do Título
+
+# EN: Title X
+127176138=Título X
+
+# EN: Title Y
+3107320078=Título Y
+
+# EN: To Player
+3032305965=Para o Jogador
 
 # EN: Toggle
 625679385=Alternar
 
-# EN: Toggle Height
-2034811372=Altura do Toggle
+# EN: Toggle H
+688703646=Altura do Toggle
 
 # EN: Toggle Knob
 2816486915=Botão do Toggle
@@ -2944,8 +4285,8 @@
 # EN: Toggle On Color
 2294168537=Cor do Toggle Ligado
 
-# EN: Toggle Width
-2767287267=Largura do Toggle
+# EN: Toggle W
+2205449588=Largura do Toggle
 
 # EN: Toggles
 2207180161=Toggles
@@ -2965,11 +4306,26 @@
 # EN: Top
 1281216666=Superior
 
-# EN: Top Nav##preset
-2559930952=Nav Superior##preset
+# EN: Top Left
+3111925763=Superior Esquerdo
+
+# EN: Top Right
+3678979058=Superior Direito
+
+# EN: Tracer gets thinner from start to end
+3848411216=Traçante fica mais fino do início ao fim
+
+# EN: Tracers
+1857463969=Traçantes
 
 # EN: Track
 875912051=Trilha
+
+# EN: Track Opacity
+902824788=Opacidade da Trilha
+
+# EN: Tracks
+794089857=Trilhas
 
 # EN: Tracks the player who killed you with an on-screen arrow
 1609296522=Rastreia o jogador que te matou com uma seta na tela
@@ -2980,8 +4336,14 @@
 # EN: Trail Length
 308472983=Comprimento do Rastro
 
+# EN: Trail gets thinner towards the tip
+354830891=Rastro fica mais fino em direção à ponta
+
 # EN: Transparent Ocean
 2138197132=Oceano Transparente
+
+# EN: Triangle
+2990077322=Triângulo
 
 # EN: Trigger Bot
 1558371298=Trigger Bot
@@ -2989,14 +4351,26 @@
 # EN: Trigger FOV
 3216427474=FOV do Trigger
 
+# EN: Triggerbot
+1477138198=Triggerbot
+
 # EN: Triggers
 489495302=Triggers
 
 # EN: Troll
 1328763896=Troll
 
+# EN: Trusted
+2045336469=Confiável
+
+# EN: Type
+828747869=Tipo
+
 # EN: Type Settings
 4191027218=Configurações de Tipo
+
+# EN: UI Mode
+63923237=Modo UI
 
 # EN: Unbind
 2907191925=Desvincular
@@ -3004,20 +4378,23 @@
 # EN: Underline
 1892791043=Sublinhado
 
-# EN: Unfreeze
-1744759624=Descongelar
+# EN: Update Rate
+1699227283=Taxa de Atualização
 
 # EN: Upgrade at scoobymenu.xyz to unlock all features.
 2859334871=Atualize em scoobymenu.xyz para desbloquear todos os recursos.
 
-# EN: Upgrade to unlock aim key, smoothing, prediction, humanization, and more.
-3686921449=Atualize para desbloquear tecla de mira, suavização, predição, humanização e mais.
-
-# EN: Upgrade to unlock all ESP styles, skeleton, weapon display, glow, tracers, and more.
-943925499=Atualize para desbloquear todos os estilos ESP, esqueleto, exibição de arma, brilho, rastros e mais.
+# EN: Use Anyway
+2296300728=Usar Mesmo Assim
 
 # EN: Use Camera Direction
 2733983925=Usar Direção da Câmera
+
+# EN: Use Damage Event
+1180278030=Usar Evento de Dano
+
+# EN: Use Fill mode for best results.
+1995125884=Use o modo Preenchimento para melhores resultados.
 
 # EN: Use Horn Key
 1328307925=Usar Tecla da Buzina
@@ -3025,20 +4402,44 @@
 # EN: Use Player List to target players
 1992352066=Use a Lista de Jogadores para mirar em jogadores
 
+# EN: Uses rainbow cycling
+3374547008=Usa ciclo arco-íris
+
+# EN: Using an animated GIF as a background may cause
+63761567=Usar um GIF animado como fundo pode causar
+
+# EN: Using any of these features could result in an instant server kick/ban. You have been warned.
+1391022290=Usar qualquer uma dessas funcionalidades pode resultar em expulsão/banimento instantâneo do servidor. Você foi avisado.
+
+# EN: Using synced colors (Watermark)
+704020902=Usando cores sincronizadas (Marca d'Água)
+
 # EN: VFX
 2796127065=VFX
 
-# EN: VSync, frame pacing, and backend are not configurable in FiveM.
-2299547670=VSync, frame pacing e backend não são configuráveis no FiveM.
+# EN: Vaporwave
+1600384401=Vaporwave
 
 # EN: Vehicle
 3710147484=Veículo
+
+# EN: Vehicle Drop
+2827750317=Soltar Veículo
+
+# EN: Vehicle ESP
+791175684=ESP de Veículo
 
 # EN: Vehicle Grabber
 2317560408=Agarrador de Veículo
 
 # EN: Vehicle NoClip
 1762582941=NoClip de Veículo
+
+# EN: Vehicle Ram
+3560309762=Abalroar Veículo
+
+# EN: Vehicle Teleport
+524718268=Teleporte de Veículo
 
 # EN: Vehicles
 1957895139=Veículos
@@ -3052,11 +4453,26 @@
 # EN: Vertical Lock
 1336772165=Trava Vertical
 
+# EN: Vertical Style
+1181443880=Estilo Vertical
+
+# EN: Vertices
+3260108856=Vértices
+
 # EN: View
 2604534539=Visualizar
 
 # EN: Visibility Check
 2235775772=Verificação de Visibilidade
+
+# EN: Visibility Check##sa
+2765187843=Verificação de Visibilidade##sa
+
+# EN: Visibility Check##trig
+1367619524=Verificação de Visibilidade##trig
+
+# EN: Visible
+2529664305=Visível
 
 # EN: Visual VFX
 3080442719=VFX Visual
@@ -3064,20 +4480,38 @@
 # EN: Visuals
 2427332638=Visuais
 
+# EN: Visuals##lockon
+4093507657=Visuais##lockon
+
+# EN: Visuals##sa
+2764419376=Visuais##sa
+
 # EN: W
 1486926112=W
 
 # EN: Walk Through
 1411964451=Atravessar
 
-# EN: Walk through walls, objects and vehicles
-4081827981=Atravesse paredes, objetos e veículos
+# EN: Walk through walls, objects and vehicles. Click gear for options.
+273559267=Atravesse paredes, objetos e veículos. Clique na engrenagem para opções.
+
+# EN: Walking
+921688979=Andando
 
 # EN: Wall Bounce
 3276303643=Rebote na Parede
 
-# EN: Wall Penetration
-3923162286=Penetração de Parede
+# EN: Walls Only
+613995149=Apenas Paredes
+
+# EN: Wander
+1288903733=Vagar
+
+# EN: Warning
+3911129148=Aviso
+
+# EN: Warning##notif
+496177476=Aviso##notif
 
 # EN: Water Height
 2028138289=Altura da Água
@@ -3094,8 +4528,14 @@
 # EN: Watermark Settings
 2927022022=Configurações da Marca d'Água
 
+# EN: Waypoint Trail
+827159393=Rastro do Marcador
+
 # EN: Weapon
 3867822744=Arma
+
+# EN: Weapon Filter
+189061761=Filtro de Arma
 
 # EN: Weapon Height
 2229993953=Altura da Arma
@@ -3112,11 +4552,20 @@
 # EN: Weapons
 2151561516=Armas
 
+# EN: Weather
+1578688043=Clima
+
+# EN: Welcome Screen
+3174111086=Tela de Boas-Vindas
+
 # EN: Welcome! Let's get you set up.
 2895282766=Bem-vindo! Vamos configurar tudo.
 
 # EN: What's New
 2022498171=Novidades
+
+# EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
+3837149149=Quando ativado, Lista de Atalhos, Estatísticas de Performance, Lista de Jogadores e Espectador usam cores da Marca d'Água.
 
 # EN: While aiming (RMB), press A/D to instantly teleport left/right
 1256253770=Enquanto mira (RMB), pressione A/D para teleportar instantaneamente esquerda/direita
@@ -3142,8 +4591,44 @@
 # EN: Window Rounding
 1994493044=Arredondamento da Janela
 
+# EN: Windows
+3212692547=Janelas
+
 # EN: Wireframe
 1554823340=Wireframe
+
+# EN: World
+2425990116=Mundo
+
+# EN: World Hitmarkers
+592011120=Hitmarkers do Mundo
+
+# EN: World Markers
+475901803=Marcadores do Mundo
+
+# EN: World Numbers
+1304260375=Números do Mundo
+
+# EN: World Size
+1252315730=Tamanho do Mundo
+
+# EN: X
+2466489829=X
+
+# EN: Y
+2157248776=Y
+
+# EN: Y Offset
+2470303010=Offset Y
+
+# EN: Z
+3059772574=Z
+
+# EN: Zenith Color
+513484685=Cor do Zênite
+
+# EN: Zentorno
+2891838741=Zentorno
 
 # EN: [DIR]
 981194033=[DIR]
@@ -3153,6 +4638,15 @@
 
 # EN: fonts loaded
 3620721009=fontes carregadas
+
+# EN: frames
+580974885=quadros
+
+# EN: image(s)
+2727625699=imagem(ns)
+
+# EN: joined the server
+2662745418=entrou no servidor
 
 # EN: on each feature row (right-click or click gear).
 3640762816=em cada linha de funcionalidade (clique direito ou clique na engrenagem).
