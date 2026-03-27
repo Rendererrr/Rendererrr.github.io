@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Turkish (Türkçe)
 # Auth data_var name: LANG_TR
-# Total strings: 1550
+# Total strings: 1652
 # Format: JOAAT_HASH=translated text
 #
 
@@ -22,11 +22,23 @@
 # EN: 0 = feet, 0.9 = center, 1.8 = head
 3348539186=0 = ayak, 0.9 = merkez, 1.8 = kafa
 
+# EN: 1% Low
+499497665=1% Düşük
+
 # EN: 3D Box
 94557236=3D Kutu
 
 # EN: AC Overlay
 2376138547=AC Kaplamasi
+
+# EN: AI
+182200381=AI
+
+# EN: AI Script
+3105376127=AI Script
+
+# EN: API key saved locally
+3499322037=API anahtari yerel olarak kaydedildi
 
 # EN: Abilities
 2653368607=Yetenekler
@@ -157,6 +169,9 @@
 # EN: Alpha
 767087018=Alpha
 
+# EN: Also While Running
+2264771198=Kosarken de
+
 # EN: Ammo
 307971639=Mermi
 
@@ -268,6 +283,9 @@
 # EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
 4247923858=Keskin nisanci durbunuyle bakilirken FOV, yumusatma ve tahmini otomatik olcekler
 
+# EN: Auto-scan events
+710508198=Olaylari otomatik tara
+
 # EN: Auto-zigzag while sprinting to dodge bullets
 1713564836=Koşarken mermilerden kaçınmak için otomatik zikzak
 
@@ -325,6 +343,9 @@
 # EN: Background##weapon
 1937834289=Arka Plan##weapon
 
+# EN: Bar
+2151715081=Cubuk
+
 # EN: Basic
 4281242592=Temel
 
@@ -369,6 +390,12 @@
 
 # EN: Blizzard
 669657108=Kar Firtinasi
+
+# EN: Block
+3828602749=Engelle
+
+# EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
+366586212=Engelle, olaylari CancelEvent() ile yakalar. Engeli Kaldir olayi yeniden kaydeder.
 
 # EN: Blood Red
 3933943680=Kan Kirmizisi
@@ -460,6 +487,9 @@
 # EN: Brightness
 26603225=Parlaklık
 
+# EN: Bring Vehicle
+1548014332=Araci Getir
+
 # EN: Bring to Me
 4191259033=Yanima Getir
 
@@ -475,14 +505,8 @@
 # EN: Bullet Proof
 1262983692=Mermi Geçirmez
 
-# EN: Bullet Redirect##sa
-2808025987=Mermi Yonlendirme##sa
-
 # EN: Bullet Tracers
 2673625274=Mermi İzleri
-
-# EN: Bullet spawn (visible tracer)
-210089287=Mermi olusumu (gorunur izleyici)
 
 # EN: Burn
 2096267097=Yak
@@ -507,6 +531,9 @@
 
 # EN: Buttons
 2668497503=Düğmeler
+
+# EN: By Type
+132944993=Ture Gore
 
 # EN: Bypassed
 716678219=Atlatildi
@@ -547,6 +574,9 @@
 # EN: Change Rate
 949770967=Değişim Hızı
 
+# EN: China
+3307270334=Cin
+
 # EN: Circle
 3333310803=Daire
 
@@ -567,6 +597,18 @@
 
 # EN: Clear Console
 1742492619=Konsolu Temizle
+
+# EN: Clear History
+3502477242=Gecmisi Temizle
+
+# EN: Clear Key
+1838276207=Tusu Temizle
+
+# EN: Clear on Teleport
+1659055056=Isinlanmada Temizle
+
+# EN: Click Start to scan server resources for events.
+2559388892=Sunucu kaynaklarini olaylar icin taramak icin Baslat'a tiklayin.
 
 # EN: Click UI
 1200896506=Tiklama Arayuzu
@@ -640,6 +682,9 @@
 # EN: Combat Utility
 3560879723=Savaş Araçları
 
+# EN: Coming Soon
+3566187245=Yakinda
+
 # EN: Compass
 3738173000=Pusula
 
@@ -673,6 +718,9 @@
 # EN: Connect Distance
 2509032464=Bağlantı Mesafesi
 
+# EN: Connected Players
+3406740022=Bagli Oyuncular
+
 # EN: Console
 716138132=Konsol
 
@@ -700,12 +748,6 @@
 # EN: Cooldown
 1178968787=Bekleme Süresi
 
-# EN: Cooldown##burst
-1055026799=Bekleme Süresi##burst
-
-# EN: Cooldown##phase
-3556912950=Bekleme Süresi##phase
-
 # EN: Cooldown##strafe
 1574937247=Bekleme Süresi##strafe
 
@@ -718,8 +760,14 @@
 # EN: Copied event name to clipboard
 3300867=Olay adı panoya kopyalandı
 
+# EN: Copied to clipboard
+1053518268=Panoya kopyalandi
+
 # EN: Copy
 393356872=Kopyala
+
+# EN: Copy All
+4085295539=Tumunu Kopyala
 
 # EN: Copy ID
 3639484515=ID Kopyala
@@ -808,6 +856,9 @@
 # EN: Dawn
 4259095408=Safak
 
+# EN: Dead
+3384366314=Olu
+
 # EN: Dead Zone
 2069969159=Olu Bolge
 
@@ -850,17 +901,26 @@
 # EN: Delete Veh
 895942370=Araci Sil
 
+# EN: Delete Vehicle
+37332959=Araci Sil
+
 # EN: Delete this config?
 2115476497=Bu yapılandırmayı silmek istiyor musunuz?
 
 # EN: Delete this theme?
 2754582444=Bu temayı silmek istiyor musunuz?
 
+# EN: Deleted:
+3394613473=Silindi:
+
 # EN: Deluxo Mode
 4200523197=Deluxo Modu
 
 # EN: Density
 3843932311=Yoğunluk
+
+# EN: Describe what you want:
+1226247808=Ne istediginizi tanimlayin:
 
 # EN: Detach
 4291111140=Ayır
@@ -888,9 +948,6 @@
 
 # EN: Dim Amount
 1388938324=Karartma Miktari
-
-# EN: Direct damage (more reliable)
-11698873=Dogrudan hasar (daha guvenilir)
 
 # EN: Direction
 887068712=Yön
@@ -937,9 +994,6 @@
 # EN: Display Mode
 200820562=Görüntüleme Modu
 
-# EN: Dist
-3531260757=Mesafe
-
 # EN: Distance
 3607074178=Mesafe
 
@@ -966,9 +1020,6 @@
 
 # EN: Distance##veh
 3820228410=Mesafe##veh
-
-# EN: Distance##wall
-2273036223=Mesafe##wall
 
 # EN: Dive Jump
 2731982236=Dalış Zıplaması
@@ -999,6 +1050,9 @@
 
 # EN: Dotted Line
 3435322722=Noktalı Çizgi
+
+# EN: Double-click an event in the Logger to copy its name here.
+847266517=Adini buraya kopyalamak icin Gunlukteki bir olaya cift tiklayin.
 
 # EN: Draggable
 3287744767=Sürüklenebilir
@@ -1072,17 +1126,11 @@
 # EN: Duration
 3674968789=Süre
 
-# EN: Duration##burst
-1617674729=Süre##burst
-
 # EN: Duration##dmglog
 2155043513=Sure##dmglog
 
 # EN: Duration##dmgnum
 1606858786=Sure##dmgnum
-
-# EN: Duration##phase
-416318694=Süre##phase
 
 # EN: Duration##pt
 2015408410=Sure##pt
@@ -1105,6 +1153,9 @@
 # EN: ESP
 3007444226=ESP
 
+# EN: ESP Settings
+3361209094=ESP Ayarlari
+
 # EN: Edge Arrows
 3739190029=Kenar Okları
 
@@ -1113,6 +1164,12 @@
 
 # EN: Editor
 1766080170=Editör
+
+# EN: Editor is empty
+2785403049=Editor bos
+
+# EN: Editor is empty. Write or generate code first.
+2617489156=Editor bos. Once kod yazin veya olusturun.
 
 # EN: Effect
 860884915=Efekt
@@ -1131,9 +1188,6 @@
 
 # EN: Embedded
 2292057362=Gömülü
-
-# EN: Empty
-3151330285=Bos
 
 # EN: Empty Only
 335310304=Yalnizca Bos
@@ -1198,11 +1252,35 @@
 # EN: Enter name...
 3545940642=Ad girin...
 
+# EN: Entities
+3433796359=Varliklar
+
 # EN: Entity Count
 495352207=Varlik Sayisi
 
+# EN: Error
+3374345388=Hata
+
+# EN: Error notification
+280995787=Hata bildirimi
+
 # EN: Error##notif
 3944622010=Hata##notif
+
+# EN: Event Blocker
+2348049901=Olay Engelleyici
+
+# EN: Event Logger
+4055111064=Olay Gunlugu
+
+# EN: Event name...
+1453694419=Olay adi...
+
+# EN: Event to block...
+3761220325=Engellenecek olay...
+
+# EN: Events
+3674287931=Olaylar
 
 # EN: Expand Sub-Tabs
 788906364=Alt Sekmeleri Genislet
@@ -1357,14 +1435,14 @@
 # EN: Filled
 238956158=Dolu
 
-# EN: Filled Circle
-1999419602=Dolgulu Daire
-
 # EN: Filter
 1239184307=Filtre
 
-# EN: Filter by event name or type...
-764300805=Olay adı veya türüne göre filtrele...
+# EN: Filter by event name...
+3189816270=Olay adina gore filtrele...
+
+# EN: Filter events / resources...
+2239256256=Olaylari / kaynaklari filtrele...
 
 # EN: Filter##mb
 982138645=Filtre##mb
@@ -1374,6 +1452,9 @@
 
 # EN: Filter##trig
 1506659606=Filtre##trig
+
+# EN: Filter...
+384945571=Filtrele...
 
 # EN: Filter:
 585229116=Filtre:
@@ -1392,6 +1473,9 @@
 
 # EN: Fire Delay
 425570614=Ates Gecikmesi
+
+# EN: Fire Event
+2661019027=Olayi Tetikle
 
 # EN: Fire Proof
 2377383169=Ateş Geçirmez
@@ -1501,11 +1585,17 @@
 # EN: Forces uphill jump animation
 1929062318=Yokuş yukarı zıplama animasyonunu zorlar
 
+# EN: Forward Speed
+1876555102=Ileri Hiz
+
 # EN: Frametime Graph
 3749077224=Kare Süresi Grafiği
 
 # EN: Frametime Stats
 3723639030=Kare Suresi Istatistikleri
+
+# EN: Free Menus
+2609200059=Ucretsiz Menuler
 
 # EN: Freecam
 3443129427=Serbest Kamera
@@ -1543,6 +1633,9 @@
 # EN: Fully heals HP + gives 50 armor when you kill a player
 2096177985=Bir oyuncuyu öldürdüğünüzde HP'yi tamamen iyileştirir + 50 zırh verir
 
+# EN: GPU
+591383768=GPU
+
 # EN: Gamma
 1617619096=Gamma
 
@@ -1551,6 +1644,9 @@
 
 # EN: General
 1798635104=Genel
+
+# EN: Generate
+1864538988=Olustur
 
 # EN: Get Started
 1434685453=Başla
@@ -1717,9 +1813,6 @@
 # EN: Groups
 2437998540=Gruplar
 
-# EN: HP
-1833919794=HP
-
 # EN: HUD
 2488248793=HUD
 
@@ -1728,6 +1821,15 @@
 
 # EN: Hands
 1613305285=Eller
+
+# EN: Hat
+2537416713=Sapka
+
+# EN: Hat Color
+2197204917=Sapka Rengi
+
+# EN: Hat Style
+3968368516=Sapka Stili
 
 # EN: Head
 2220048209=Kafa
@@ -1834,8 +1936,23 @@
 # EN: Hide Background
 1550833432=Arka Plani Gizle
 
-# EN: High Ground
-3194084088=Yüksek Zemin
+# EN: Hide Crosshair / FOV
+2570807650=Nisangahi / FOV Gizle
+
+# EN: Hide ESP
+3489105641=ESP Gizle
+
+# EN: Hide Key
+1973484404=Gizleme Tusu
+
+# EN: Hide Menu
+1560947015=Menuyu Gizle
+
+# EN: Hide Overlays
+1525934716=Kaplamalari Gizle
+
+# EN: Hide Tracers / Lines
+425240012=Izleyicileri / Cizgileri Gizle
 
 # EN: Highlight Headshots
 1100352321=Kafa Vuruslarini Vurgula
@@ -1845,6 +1962,9 @@
 
 # EN: Hill Jump
 327623110=Tepe Zıplaması
+
+# EN: History
+2023011857=Gecmis
 
 # EN: Hit Chance
 3254221308=Vurus Sansi
@@ -1875,9 +1995,6 @@
 
 # EN: Hold Mode
 200873681=Basılı Tutma Modu
-
-# EN: Hold [V] to lean sideways (camera right). Release to snap back.
-4221385416=Yana eğilmek için [V] basılı tut (kamera sağı). Geri dönmek için bırak.
 
 # EN: Horizon
 3479812369=Ufuk
@@ -1918,6 +2035,9 @@
 # EN: Icon / Accent
 1566350195=Simge / Vurgu
 
+# EN: Icon Active Color
+4093685107=Simge Aktif Rengi
+
 # EN: Icon Below Text
 1121926930=Metnin Altinda Simge
 
@@ -1929,6 +2049,9 @@
 
 # EN: Icon Size
 3757913751=Simge Boyutu
+
+# EN: Icon Spacing
+4004566715=Simge Araligi
 
 # EN: Icons + Text
 2093021283=Simgeler + Metin
@@ -2011,6 +2134,9 @@
 # EN: Info
 1745727664=Bilgi
 
+# EN: Info notification
+15919856=Bilgi bildirimi
+
 # EN: Info##notif
 3630429841=Bilgi##notif
 
@@ -2025,6 +2151,9 @@
 
 # EN: Input Text
 4135476111=Giriş Metni
+
+# EN: Insert
+3380657922=Insert
 
 # EN: Instant Blend
 2839309838=Anında Geçiş
@@ -2077,8 +2206,14 @@
 # EN: JATO Boost
 959701148=JATO Boost
 
+# EN: JSON
+1493832359=JSON
+
 # EN: Jitter
 2175396620=Titresim
+
+# EN: Joint Color
+1649662583=Eklem Rengi
 
 # EN: Joint Size
 2337031930=Eklem Boyutu
@@ -2118,6 +2253,9 @@
 
 # EN: Keybinds
 1174365445=Tuş Atamaları
+
+# EN: Keys
+748271464=Tuslar
 
 # EN: Kick
 2221159044=At
@@ -2239,6 +2377,9 @@
 # EN: Loaded
 538484865=Yüklendi
 
+# EN: Loaded from history
+1954185637=Gecmisten yuklendi
+
 # EN: Loading fonts...
 742296178=Yazı tipleri yükleniyor...
 
@@ -2253,6 +2394,9 @@
 
 # EN: Local Only
 1718906169=Yalnızca Yerel
+
+# EN: Local Player
+3579097795=Yerel Oyuncu
 
 # EN: Lock On
 3927233622=Kilitle
@@ -2320,9 +2464,6 @@
 # EN: Magic Bullet
 2156396594=Sihirli Mermi
 
-# EN: Magic Bullet — Being worked on, stay tuned!
-861480969=Sihirli Mermi — Uzerinde calisiliyor, takipte kalin!
-
 # EN: Magnet
 959551543=Miknatis
 
@@ -2341,20 +2482,11 @@
 # EN: Makes you invisible to other players
 4237882355=Diğer oyunculara görünmez yapar
 
+# EN: Manifest copied to clipboard
+4150163724=Manifest panoya kopyalandi
+
 # EN: Map Image
 2485108282=Harita Görseli
-
-# EN: Map Max X
-1163433574=Harita Max X
-
-# EN: Map Max Y
-3076815488=Harita Max Y
-
-# EN: Map Min X
-1971207017=Harita Min X
-
-# EN: Map Min Y
-2893949292=Harita Min Y
 
 # EN: Marker Duration
 3550132583=İşaretçi Süresi
@@ -2476,6 +2608,9 @@
 # EN: Mode##glow
 1534494585=Mod##glow
 
+# EN: Model
+1816327236=Model
+
 # EN: Modules
 2096891096=Moduller
 
@@ -2487,6 +2622,9 @@
 
 # EN: Morning
 852964312=Sabah
+
+# EN: Most Referenced Events
+962784570=En Cok Referans Edilen Olaylar
 
 # EN: Movement
 2799785395=Hareket
@@ -2500,9 +2638,6 @@
 # EN: Multiple rings stack from feet to head
 1361975713=Birden fazla halka ayaklardan kafaya yigilir
 
-# EN: Multiplier
-3903859967=Çarpan
-
 # EN: N
 3649581809=N
 
@@ -2511,6 +2646,9 @@
 
 # EN: NPC
 3921142999=NPC
+
+# EN: NPCs
+1186745040=NPC'ler
 
 # EN: NPCs Only
 3543922621=Yalnızca NPC'ler
@@ -2587,6 +2725,9 @@
 # EN: New Color
 2772632083=Yeni Renk
 
+# EN: New Script
+1417129088=Yeni Betik
+
 # EN: Night
 1417207314=Gece
 
@@ -2634,6 +2775,9 @@
 
 # EN: No dump in progress.
 2622343018=Devam eden dump yok.
+
+# EN: No events blocked
+656685112=Engellenen olay yok
 
 # EN: No fall damage from any height
 951215153=Herhangi bir yükseklikten düşme hasarı yok
@@ -2791,6 +2935,9 @@
 # EN: Outline Width
 1689303532=Dış Çizgi Genişliği
 
+# EN: Outline##head
+1915029405=Dis Cizgi##head
+
 # EN: Output Directory:
 3566541914=Çıkış Dizini:
 
@@ -2817,6 +2964,9 @@
 
 # EN: Override jump flags for custom jump behavior
 3362934371=Özel zıplama davranışı için zıplama bayraklarını geçersiz kıl
+
+# EN: Overview
+118778200=Genel Bakis
 
 # EN: PANIC MODE ACTIVE
 1272225111=PANIK MODU AKTIF
@@ -2857,17 +3007,29 @@
 # EN: Parachute Jump
 3658517243=Paraşüt Zıplaması
 
+# EN: Parse
+1004532644=Ayristir
+
 # EN: Particle FX
 2124068847=Parçacık FX
 
 # EN: Particle FX Color
 894474043=Parçacık FX Rengi
 
+# EN: Party
+1132658614=Parti
+
 # EN: Pass Through
 3173995589=Icinden Gec
 
 # EN: Passively regenerate health over time
 240888173=Zamanla pasif olarak sağlık yeniler
+
+# EN: Paste
+569442244=Yapistir
+
+# EN: Paste your API key here...
+261626132=API anahtarinizi buraya yapistirin...
 
 # EN: Path:
 507121814=Yol:
@@ -2890,9 +3052,6 @@
 # EN: Peds / NPCs
 1876490144=Pedler / NPC'ler
 
-# EN: Peek
-1159958869=Gözetleme
-
 # EN: Per-Feature Binds
 2900791157=Özellik Başına Tuş Atamaları
 
@@ -2901,9 +3060,6 @@
 
 # EN: Performance Stats
 4260591683=Performans İstatistikleri
-
-# EN: Phase Shift
-2620975702=Faz Kayması
 
 # EN: Pill
 2294717198=Hap
@@ -2917,6 +3073,9 @@
 # EN: Pill Pad Y
 352596684=Hap Dolgu Y
 
+# EN: Ping
+1218843674=Ping
+
 # EN: Pipe Bombs, Proximity Mines, Flares
 1693538821=Boru Bombalari, Yakinlik Mayinlari, Isaret Fisekleri
 
@@ -2928,6 +3087,9 @@
 
 # EN: Player
 1862763509=Oyuncu
+
+# EN: Player Index
+607652568=Oyuncu Indeksi
 
 # EN: Player Trail
 536495684=Oyuncu Izi
@@ -2971,6 +3133,9 @@
 # EN: Prediction##sa
 43230462=Tahmin##sa
 
+# EN: Premium Menus
+4177668372=Premium Menuler
+
 # EN: Preset
 2973707311=Ön Ayar
 
@@ -2980,26 +3145,11 @@
 # EN: Press [B] to rewind
 851379740=[B] tuşuna basarak geri sar
 
-# EN: Press [E] for a timed sprint speed boost with cooldown
-1635903237=Bekleme süreli hız artışı için [E] tuşuna bas
-
 # EN: Press [G] to teleport forward in camera direction
 2203837878=Kamera yönünde ileri ışınlanmak için [G] tuşuna bas
 
-# EN: Press [G] while facing a wall to teleport through it (when Behind TP is off)
-3732057729=Bir duvara bakarken [G] tuşuna basarak duvarın içinden ışınlan (Arkasına TP kapalıyken)
-
-# EN: Press [H] to teleport onto the nearest rooftop above you
-2986434624=Üstünüzdeki en yakın çatıya ışınlanmak için [H] tuşuna bas
-
 # EN: Press [Space] while falling to instantly teleport to ground level
 1826113543=Düşerken anında yere ışınlanmak için [Space] tuşuna bas
-
-# EN: Press [U] to save position. Press again to teleport back.
-1036979568=Konumu kaydetmek icin [U] tusuna basin. Geri isinlanmak icin tekrar basin.
-
-# EN: Press [X] for brief invincibility + no collision + translucency
-4262347464=Kısa süreli yenilmezlik + çarpışmasızlık + saydamlık için [X] tuşuna bas
 
 # EN: Press a mouse button...
 3765670479=Bir fare düğmesine basın...
@@ -3036,6 +3186,12 @@
 
 # EN: Projectile Tracers
 272599090=Mermi Izleyicileri
+
+# EN: Prompt
+1703604247=Istem
+
+# EN: Provider
+1958232576=Saglayici
 
 # EN: Proximity Alert
 1493469578=Yakınlık Uyarısı
@@ -3184,6 +3340,9 @@
 # EN: Rate
 2120794248=Oran
 
+# EN: Rate##serp
+1131381918=Oran##serp
+
 # EN: Ready
 2084256605=Hazır
 
@@ -3202,6 +3361,12 @@
 # EN: Reduction
 3286779414=Azaltma
 
+# EN: Refine
+415231836=Iyilestir
+
+# EN: Refine instruction:
+1983823845=Iyilestirme talimati:
+
 # EN: Reflection
 1920016807=Yansıma
 
@@ -3217,6 +3382,9 @@
 # EN: Refreshing resources...
 3699535925=Kaynaklar yenileniyor...
 
+# EN: Registered But Not Triggered
+774818613=Kayitli Ama Tetiklenmemis
+
 # EN: Reload
 1571056488=Yeniden Yükle
 
@@ -3229,8 +3397,14 @@
 # EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
 2465448157=Goruntuleme ayarlari oyun tarafindan kontrol edilir. VSync, kare hizi ve arka uc FiveM'de yapilandirilamaz.
 
+# EN: Repair
+3327385526=Tamir
+
 # EN: Repair Vehicle
 2429933431=Araci Tamir Et
+
+# EN: Rescan
+764993821=Yeniden Tara
 
 # EN: Reset
 3559176682=Sıfırla
@@ -3264,6 +3438,9 @@
 
 # EN: Reset to defaults
 3361422027=Varsayılana sıfırla
+
+# EN: Resolution
+324784860=Cozunurluk
 
 # EN: Resource
 1411351736=Kaynak
@@ -3391,14 +3568,14 @@
 # EN: Save
 3357008648=Kaydet
 
-# EN: Save Here
-2753091722=Buraya Kaydet
+# EN: Save Current as Snippet
+2323029386=Mevcut Kodu Snippet Olarak Kaydet
 
 # EN: Save Interval
 269707535=Kaydetme Aralığı
 
-# EN: Save your current position and teleport back later
-4024909457=Mevcut konumunuzu kaydedin ve daha sonra geri isinlanin
+# EN: Save Key
+579473751=Kaydetme Tusu
 
 # EN: Saved
 2978706416=Kaydedildi
@@ -3406,11 +3583,11 @@
 # EN: Saved Configs
 860699809=Kayıtlı Yapılandırmalar
 
-# EN: Saved Locations
-676178533=Kayitli Konumlar
-
 # EN: Saved Themes
 2236251465=Kayıtlı Temalar
+
+# EN: Saved:
+2514999957=Kaydedildi:
 
 # EN: Scale
 1342385372=Ölçek
@@ -3424,14 +3601,26 @@
 # EN: Scaling
 2369776673=Ölçekleme
 
-# EN: Scan Triggers
-917870278=Tetikleyicileri Tara
+# EN: Scan
+3540220634=Tara
+
+# EN: Scan All
+826028443=Tumunu Tara
 
 # EN: Scan for Anti-Cheat
 3069664885=Hile Korumasi Icin Tara
 
+# EN: Scanning all resources...
+2180117493=Tum kaynaklar taraniyor...
+
 # EN: Scanning for triggers...
 3267756685=Tetikleyiciler taranıyor...
+
+# EN: Scanning resources...
+3847585475=Kaynaklar taraniyor...
+
+# EN: Scanning...
+850446987=Taraniyor...
 
 # EN: Scans for anti-cheat modules every 10 seconds
 3500340240=Her 10 saniyede hile korumasi modullerini tarar
@@ -3456,6 +3645,15 @@
 
 # EN: Script dump complete!
 2694683063=Betik dump tamamlandı!
+
+# EN: Script executed
+2428283588=Betik calistirildi
+
+# EN: Script generated! Check the Editor tab.
+3624086178=Betik olusturuldu! Editor sekmesini kontrol edin.
+
+# EN: Script stopped
+3609081985=Betik durduruldu
 
 # EN: Scripts
 1044661261=Betikler
@@ -3486,6 +3684,9 @@
 
 # EN: Search peds...
 3129217742=Ped ara...
+
+# EN: Search players...
+3669430630=Oyuncu ara...
 
 # EN: Search resources...
 1910280218=Kaynak ara...
@@ -3523,6 +3724,9 @@
 # EN: Section Opacity
 1502378754=Bolum Opakligi
 
+# EN: Segmented
+1119367178=Parcali
+
 # EN: Segments
 390045222=Segmentler
 
@@ -3532,8 +3736,8 @@
 # EN: Select a player
 1427174365=Bir oyuncu seçin
 
-# EN: Select a resource and click Scan Triggers to analyze event triggers.
-367930095=Bir kaynak seçin ve olay tetikleyicilerini analiz etmek için Tetikleyicileri Tara'ya tıklayın.
+# EN: Select a resource and click Scan to analyze, or Scan All for every resource.
+2327128316=Analiz etmek icin bir kaynak secin ve Tara'ya tiklayin veya tum kaynaklar icin Tumunu Tara'yi kullanin.
 
 # EN: Select a resource from the list to view details.
 1234177780=Detayları görüntülemek için listeden bir kaynak seçin.
@@ -3547,6 +3751,9 @@
 # EN: Sensitivity
 1563795609=Hassasiyet
 
+# EN: Sent to Event Parser (Events tab)
+3692631674=Olay Ayristiricisina gonderildi (Olaylar sekmesi)
+
 # EN: Sep Alpha
 307689876=Ayirici Alpha
 
@@ -3556,14 +3763,29 @@
 # EN: Serpentine
 2010529308=Yılan Hareketi
 
+# EN: Server
+581657549=Sunucu
+
 # EN: Server IP:
 3217114240=Sunucu IP:
+
+# EN: Server Info
+1790325725=Sunucu Bilgisi
+
+# EN: Set Key
+2397500189=Tus Ata
 
 # EN: Set Model
 2741786040=Model Ayarla
 
-# EN: Set per-feature keybinds via the gear icon
-438153059=Dişli simgesi aracılığıyla özellik başına tuş atamaları ayarlayın
+# EN: Set alpha to 0 to use the text color instead.
+796381545=Bunun yerine metin rengini kullanmak icin alpha'yi 0 yapin.
+
+# EN: Set anchor + teleport to it with separate keys
+2852415891=Ayri tuslarla capa koy + capaya isinlan
+
+# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
+1002208503=Her ozellik satirindaki disli simgesiyle ozellik basi tus atamalari yapin (sag tik veya disliye tikla).
 
 # EN: Settings
 2768156407=Ayarlar
@@ -3616,11 +3838,11 @@
 # EN: Shots Min
 4101905516=Min Atis
 
+# EN: Show
+4237361361=Goster
+
 # EN: Show Advanced
 2451177577=Gelismisi Goster
-
-# EN: Show Bar
-2024828132=Cubugu Goster
 
 # EN: Show Category
 966325046=Kategoriyi Goster
@@ -3654,6 +3876,12 @@
 
 # EN: Show Icon
 1657507605=Simgeyi Göster
+
+# EN: Show Icons
+2900082090=Simgeleri Goster
+
+# EN: Show Key
+477177816=Gosterme Tusu
 
 # EN: Show Line
 1200799385=Cizgiyi Goster
@@ -3760,6 +3988,12 @@
 # EN: Skeleton
 1816727634=İskelet
 
+# EN: Skeleton 1
+663554603=Iskelet 1
+
+# EN: Skeleton 2
+911943623=Iskelet 2
+
 # EN: Skeleton Only
 1732653347=Yalnizca Iskelet
 
@@ -3780,9 +4014,6 @@
 
 # EN: Skips falling scream
 2453340543=Düşme çığlığını atlar
-
-# EN: Skull
-4060956970=Kafatası
 
 # EN: Sky
 159192176=Gökyüzü
@@ -3814,9 +4045,6 @@
 # EN: Sliders
 2297082388=Kaydırıcılar
 
-# EN: Slot
-933689839=Yuva
-
 # EN: Small
 3085983008=Küçük
 
@@ -3843,6 +4071,12 @@
 
 # EN: Snipers
 453460956=Keskin Nişancılar
+
+# EN: Snippet name:
+1640117038=Snippet adi:
+
+# EN: Snippets
+2837387043=Snippet'ler
 
 # EN: Snow
 4021743606=Kar
@@ -3886,9 +4120,6 @@
 # EN: Speed
 4187447851=Hız
 
-# EN: Speed Burst
-3918175031=Hız Patlaması
-
 # EN: Speed Overlay
 4009411811=Hiz Kaplamasi
 
@@ -3897,6 +4128,9 @@
 
 # EN: Speed##hpsmooth
 2272127628=Hiz##hpsmooth
+
+# EN: Speed##serp
+3668104492=Hiz##serp
 
 # EN: Speeds up climbing and vaulting animations
 884886740=Tırmanma ve atlama animasyonlarını hızlandırır
@@ -3970,11 +4204,14 @@
 # EN: Stream Proof
 3106534202=Yayin Korumasi
 
+# EN: Stream Proof ACTIVE
+2348867233=Yayin Korumasi AKTIF
+
 # EN: Stream Proof Mode
 3011027665=Yayin Korumasi Modu
 
-# EN: Stream Proof is currently unavailable in FiveM. Enabling it may cause crashes.
-2952089962=Yayin Korumasi su anda FiveM'de kullanilamiyor. Etkinlestirmek cokmelere neden olabilir.
+# EN: Stream Proof is experimental - may cause issues on some systems.
+1371944424=Yayin Korumasi deneyseldir - bazi sistemlerde sorunlara yol acabilir.
 
 # EN: Streamer
 322333922=Yayinci
@@ -3985,8 +4222,20 @@
 # EN: Style
 2840017588=Stil
 
+# EN: Style##hp
+2155290340=Stil##hp
+
+# EN: Sub-Tab Icons
+2125121217=Alt Sekme Simgeleri
+
 # EN: Sub-Tabs
 4235856483=Alt Sekmeler
+
+# EN: Success
+975994832=Basarili
+
+# EN: Success notification
+3286108452=Basari bildirimi
 
 # EN: Success##notif
 124336157=Basarili##notif
@@ -4047,6 +4296,9 @@
 
 # EN: T20
 1663218586=T20
+
+# EN: TXT
+2010905253=TXT
 
 # EN: Tab Bar Style
 4174884294=Sekme Çubuğu Stili
@@ -4114,6 +4366,15 @@
 # EN: Teleport Gun
 1763910974=Işınlanma Silahı
 
+# EN: Teleport Into
+2286719768=Icine Isinlan
+
+# EN: Teleport Key
+268016086=Isinlanma Tusu
+
+# EN: Teleport To
+1887426362=Isinlan
+
 # EN: Teleport to Coords
 3551972134=Koordinatlara Isinlan
 
@@ -4128,6 +4389,12 @@
 
 # EN: Teleport vehicle with you
 2332352547=Araci da isinla
+
+# EN: Templates
+3044988383=Sablonlar
+
+# EN: Test
+1064684737=Test
 
 # EN: Text
 2134593963=Metin
@@ -4201,9 +4468,6 @@
 # EN: Thickness##tt
 3534806773=Kalinlik##tt
 
-# EN: This feature is currently in development.
-2985474122=Bu ozellik su anda gelistirme asamasindadir.
-
 # EN: This feature requires a paid subscription.
 3394398001=Bu özellik ücretli abonelik gerektirir.
 
@@ -4234,11 +4498,11 @@
 # EN: Time
 258444835=Zaman
 
-# EN: Time & Weather
-1757582708=Zaman ve Hava
-
 # EN: Timing
 4122073465=Zamanlama
+
+# EN: Tip Color
+520645681=Uc Rengi
 
 # EN: Tire Lights
 3627926876=Lastik Işıkları
@@ -4309,6 +4573,9 @@
 # EN: Top Left
 3111925763=Sol Ust
 
+# EN: Top Resources
+670453582=En Cok Kaynak
+
 # EN: Top Right
 3678979058=Sag Ust
 
@@ -4323,6 +4590,9 @@
 
 # EN: Track Opacity
 902824788=Iz Opakligi
+
+# EN: Tracked Players
+1590211961=Takip Edilen Oyuncular
 
 # EN: Tracks
 794089857=Izler
@@ -4342,17 +4612,23 @@
 # EN: Transparent Ocean
 2138197132=Saydam Okyanus
 
-# EN: Triangle
-2990077322=Ucgen
+# EN: Trigger & Block
+4206134730=Tetikle ve Engelle
 
 # EN: Trigger Bot
 1558371298=Trigger Bot
+
+# EN: Trigger Event
+4138217246=Olayi Tetikle
 
 # EN: Trigger FOV
 3216427474=Trigger FOV
 
 # EN: Triggerbot
 1477138198=Triggerbot
+
+# EN: Triggered Without Handler
+3055780408=Isleyici Olmadan Tetiklendi
 
 # EN: Triggers
 489495302=Tetikleyiciler
@@ -4362,6 +4638,9 @@
 
 # EN: Trusted
 2045336469=Guvenilir
+
+# EN: Tuning##sa
+2759235521=Ayar##sa
 
 # EN: Type
 828747869=Tur
@@ -4375,8 +4654,17 @@
 # EN: Unbind
 2907191925=Atamayı Kaldır
 
+# EN: Unblock
+1287977995=Engeli Kaldir
+
+# EN: Unblock All
+3468373934=Tum Engelleri Kaldir
+
 # EN: Underline
 1892791043=Alt Çizgi
+
+# EN: Unlock
+2562373009=Kilidi Ac
 
 # EN: Update Rate
 1699227283=Guncelleme Hizi
@@ -4384,14 +4672,14 @@
 # EN: Upgrade at scoobymenu.xyz to unlock all features.
 2859334871=Tüm özellikleri açmak için scoobymenu.xyz'den yükseltin.
 
+# EN: Uptime
+3436261580=Calisma Suresi
+
 # EN: Use Anyway
 2296300728=Yine de Kullan
 
 # EN: Use Camera Direction
 2733983925=Kamera Yönünü Kullan
-
-# EN: Use Damage Event
-1180278030=Hasar Olayi Kullan
 
 # EN: Use Fill mode for best results.
 1995125884=En iyi sonuclar icin Dolgu modunu kullanin.
@@ -4435,6 +4723,9 @@
 # EN: Vehicle NoClip
 1762582941=Araç NoClip
 
+# EN: Vehicle Radar
+2113603547=Arac Radari
+
 # EN: Vehicle Ram
 3560309762=Arac Carpmasi
 
@@ -4461,6 +4752,9 @@
 
 # EN: View
 2604534539=Görünüm
+
+# EN: View Manifest
+3821572149=Manifesti Goruntule
 
 # EN: Visibility Check
 2235775772=Görünürlük Kontrolü
@@ -4489,6 +4783,9 @@
 # EN: W
 1486926112=W
 
+# EN: Waiting for scan...
+4212713308=Tarama bekleniyor...
+
 # EN: Walk Through
 1411964451=İçinden Geç
 
@@ -4497,9 +4794,6 @@
 
 # EN: Walking
 921688979=Yurume
-
-# EN: Wall Bounce
-3276303643=Duvar Sekmesi
 
 # EN: Walls Only
 613995149=Yalnizca Duvarlar
@@ -4510,8 +4804,14 @@
 # EN: Warning
 3911129148=Uyari
 
+# EN: Warning notification
+1083834536=Uyari bildirimi
+
 # EN: Warning##notif
 496177476=Uyari##notif
+
+# EN: Warning: Using free menus may result in an instant kick or ban from the server. Use at your own risk.
+2630775189=Uyari: Ucretsiz menuleri kullanmak sunucudan aninda atilma veya yasaklanma ile sonuclanabilir. Riski kendiniz ustlenirsiniz.
 
 # EN: Water Height
 2028138289=Su Yüksekliği
@@ -4561,11 +4861,17 @@
 # EN: Welcome! Let's get you set up.
 2895282766=Hoş geldiniz! Sizi ayarlayalım.
 
+# EN: What to Hide
+894456580=Gizlenecekler
+
 # EN: What's New
 2022498171=Yenilikler
 
 # EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
 3837149149=Etkinlestirildiginde, Tus Listesi, Performans Istatistikleri, Oyuncu Listesi ve Izleyici filigran renklerini kullanir.
+
+# EN: When enabled, overlays use Watermark colors.
+445204605=Etkinlestirildiginde kaplamalar Filigran renklerini kullanir.
 
 # EN: While aiming (RMB), press A/D to instantly teleport left/right
 1256253770=Nişan alırken (RMB), anında sola/sağa ışınlanmak için A/D tuşlarına bas
@@ -4581,6 +4887,9 @@
 
 # EN: Width Ratio
 257781133=Genişlik Oranı
+
+# EN: Width##serp
+3651645440=Genislik##serp
 
 # EN: Window
 1722301922=Pencere
@@ -4647,9 +4956,6 @@
 
 # EN: joined the server
 2662745418=sunucuya katildi
-
-# EN: on each feature row (right-click or click gear).
-3640762816=her özellik satırında (sağ tıklayın veya dişli simgesine tıklayın).
 
 # EN: result(s)
 1448839259=sonuç

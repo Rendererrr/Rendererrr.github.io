@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Thai (ไทย)
 # Auth data_var name: LANG_TH
-# Total strings: 1550
+# Total strings: 1652
 # Format: JOAAT_HASH=translated text
 #
 
@@ -22,11 +22,23 @@
 # EN: 0 = feet, 0.9 = center, 1.8 = head
 3348539186=0 = เท้า, 0.9 = กลาง, 1.8 = หัว
 
+# EN: 1% Low
+499497665=1% ต่ำ
+
 # EN: 3D Box
 94557236=กล่อง 3D
 
 # EN: AC Overlay
 2376138547=AC Overlay
+
+# EN: AI
+182200381=AI
+
+# EN: AI Script
+3105376127=สคริปต์ AI
+
+# EN: API key saved locally
+3499322037=บันทึก API key ในเครื่องแล้ว
 
 # EN: Abilities
 2653368607=ความสามารถ
@@ -157,6 +169,9 @@
 # EN: Alpha
 767087018=อัลฟา
 
+# EN: Also While Running
+2264771198=ขณะวิ่งด้วย
+
 # EN: Ammo
 307971639=กระสุน
 
@@ -268,6 +283,9 @@
 # EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
 4247923858=ปรับ FOV, ความเรียบ และการคาดการณ์อัตโนมัติเมื่อส่องกล้องสไนเปอร์
 
+# EN: Auto-scan events
+710508198=สแกนเหตุการณ์อัตโนมัติ
+
 # EN: Auto-zigzag while sprinting to dodge bullets
 1713564836=ซิกแซกอัตโนมัติขณะวิ่งเพื่อหลบกระสุน
 
@@ -325,6 +343,9 @@
 # EN: Background##weapon
 1937834289=พื้นหลัง##weapon
 
+# EN: Bar
+2151715081=แถบ
+
 # EN: Basic
 4281242592=พื้นฐาน
 
@@ -369,6 +390,12 @@
 
 # EN: Blizzard
 669657108=พายุหิมะ
+
+# EN: Block
+3828602749=บล็อก
+
+# EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
+366586212=บล็อกดักจับเหตุการณ์ด้วย CancelEvent() ปลดบล็อกจะลงทะเบียนเหตุการณ์ใหม่
 
 # EN: Blood Red
 3933943680=แดงเลือด
@@ -460,6 +487,9 @@
 # EN: Brightness
 26603225=ความสว่าง
 
+# EN: Bring Vehicle
+1548014332=นำยานพาหนะมา
+
 # EN: Bring to Me
 4191259033=นำมาหาฉัน
 
@@ -475,14 +505,8 @@
 # EN: Bullet Proof
 1262983692=กันกระสุน
 
-# EN: Bullet Redirect##sa
-2808025987=เปลี่ยนทิศกระสุน##sa
-
 # EN: Bullet Tracers
 2673625274=รอยกระสุน
-
-# EN: Bullet spawn (visible tracer)
-210089287=จุดเกิดกระสุน (รอยที่มองเห็นได้)
 
 # EN: Burn
 2096267097=เผา
@@ -507,6 +531,9 @@
 
 # EN: Buttons
 2668497503=ปุ่ม
+
+# EN: By Type
+132944993=ตามประเภท
 
 # EN: Bypassed
 716678219=ผ่านได้แล้ว
@@ -547,6 +574,9 @@
 # EN: Change Rate
 949770967=อัตราเปลี่ยน
 
+# EN: China
+3307270334=จีน
+
 # EN: Circle
 3333310803=วงกลม
 
@@ -567,6 +597,18 @@
 
 # EN: Clear Console
 1742492619=ล้างคอนโซล
+
+# EN: Clear History
+3502477242=ล้างประวัติ
+
+# EN: Clear Key
+1838276207=ปุ่มล้าง
+
+# EN: Clear on Teleport
+1659055056=ล้างเมื่อเทเลพอร์ต
+
+# EN: Click Start to scan server resources for events.
+2559388892=คลิกเริ่มเพื่อสแกนรีซอร์สเซิร์ฟเวอร์สำหรับเหตุการณ์
 
 # EN: Click UI
 1200896506=Click UI
@@ -640,6 +682,9 @@
 # EN: Combat Utility
 3560879723=เครื่องมือต่อสู้
 
+# EN: Coming Soon
+3566187245=เร็วๆ นี้
+
 # EN: Compass
 3738173000=เข็มทิศ
 
@@ -673,6 +718,9 @@
 # EN: Connect Distance
 2509032464=ระยะเชื่อมต่อ
 
+# EN: Connected Players
+3406740022=ผู้เล่นที่เชื่อมต่อ
+
 # EN: Console
 716138132=คอนโซล
 
@@ -700,12 +748,6 @@
 # EN: Cooldown
 1178968787=เวลารอ
 
-# EN: Cooldown##burst
-1055026799=เวลารอ##burst
-
-# EN: Cooldown##phase
-3556912950=เวลารอ##phase
-
 # EN: Cooldown##strafe
 1574937247=เวลารอ##strafe
 
@@ -718,8 +760,14 @@
 # EN: Copied event name to clipboard
 3300867=คัดลอกชื่อเหตุการณ์ไปยังคลิปบอร์ดแล้ว
 
+# EN: Copied to clipboard
+1053518268=คัดลอกไปยังคลิปบอร์ดแล้ว
+
 # EN: Copy
 393356872=คัดลอก
+
+# EN: Copy All
+4085295539=คัดลอกทั้งหมด
 
 # EN: Copy ID
 3639484515=คัดลอก ID
@@ -808,6 +856,9 @@
 # EN: Dawn
 4259095408=รุ่งอรุณ
 
+# EN: Dead
+3384366314=ตาย
+
 # EN: Dead Zone
 2069969159=เขตตาย
 
@@ -850,17 +901,26 @@
 # EN: Delete Veh
 895942370=ลบยานพาหนะ
 
+# EN: Delete Vehicle
+37332959=ลบยานพาหนะ
+
 # EN: Delete this config?
 2115476497=ลบการตั้งค่านี้?
 
 # EN: Delete this theme?
 2754582444=ลบธีมนี้?
 
+# EN: Deleted:
+3394613473=ลบแล้ว:
+
 # EN: Deluxo Mode
 4200523197=โหมด Deluxo
 
 # EN: Density
 3843932311=ความหนาแน่น
+
+# EN: Describe what you want:
+1226247808=อธิบายสิ่งที่คุณต้องการ:
 
 # EN: Detach
 4291111140=ถอด
@@ -888,9 +948,6 @@
 
 # EN: Dim Amount
 1388938324=ระดับหรี่
-
-# EN: Direct damage (more reliable)
-11698873=ความเสียหายตรง (เสถียรกว่า)
 
 # EN: Direction
 887068712=ทิศทาง
@@ -937,9 +994,6 @@
 # EN: Display Mode
 200820562=โหมดแสดงผล
 
-# EN: Dist
-3531260757=ระยะ
-
 # EN: Distance
 3607074178=ระยะทาง
 
@@ -966,9 +1020,6 @@
 
 # EN: Distance##veh
 3820228410=ระยะทาง##veh
-
-# EN: Distance##wall
-2273036223=ระยะทาง##wall
 
 # EN: Dive Jump
 2731982236=กระโดดดิ่ง
@@ -999,6 +1050,9 @@
 
 # EN: Dotted Line
 3435322722=เส้นจุด
+
+# EN: Double-click an event in the Logger to copy its name here.
+847266517=ดับเบิลคลิกเหตุการณ์ใน Logger เพื่อคัดลอกชื่อมาที่นี่
 
 # EN: Draggable
 3287744767=ลากได้
@@ -1072,17 +1126,11 @@
 # EN: Duration
 3674968789=ระยะเวลา
 
-# EN: Duration##burst
-1617674729=ระยะเวลา##burst
-
 # EN: Duration##dmglog
 2155043513=ระยะเวลา##dmglog
 
 # EN: Duration##dmgnum
 1606858786=ระยะเวลา##dmgnum
-
-# EN: Duration##phase
-416318694=ระยะเวลา##phase
 
 # EN: Duration##pt
 2015408410=ระยะเวลา##pt
@@ -1105,6 +1153,9 @@
 # EN: ESP
 3007444226=ESP
 
+# EN: ESP Settings
+3361209094=ตั้งค่า ESP
+
 # EN: Edge Arrows
 3739190029=ลูกศรขอบ
 
@@ -1113,6 +1164,12 @@
 
 # EN: Editor
 1766080170=ตัวแก้ไข
+
+# EN: Editor is empty
+2785403049=ตัวแก้ไขว่างเปล่า
+
+# EN: Editor is empty. Write or generate code first.
+2617489156=ตัวแก้ไขว่างเปล่า เขียนหรือสร้างโค้ดก่อน
 
 # EN: Effect
 860884915=เอฟเฟกต์
@@ -1131,9 +1188,6 @@
 
 # EN: Embedded
 2292057362=ฝังตัว
-
-# EN: Empty
-3151330285=ว่าง
 
 # EN: Empty Only
 335310304=ว่างเท่านั้น
@@ -1198,11 +1252,35 @@
 # EN: Enter name...
 3545940642=ใส่ชื่อ...
 
+# EN: Entities
+3433796359=เอนทิตี
+
 # EN: Entity Count
 495352207=จำนวนเอนทิตี
 
+# EN: Error
+3374345388=ข้อผิดพลาด
+
+# EN: Error notification
+280995787=การแจ้งเตือนข้อผิดพลาด
+
 # EN: Error##notif
 3944622010=ข้อผิดพลาด##notif
+
+# EN: Event Blocker
+2348049901=ตัวบล็อกเหตุการณ์
+
+# EN: Event Logger
+4055111064=บันทึกเหตุการณ์
+
+# EN: Event name...
+1453694419=ชื่อเหตุการณ์...
+
+# EN: Event to block...
+3761220325=เหตุการณ์ที่จะบล็อก...
+
+# EN: Events
+3674287931=เหตุการณ์
 
 # EN: Expand Sub-Tabs
 788906364=ขยายแท็บย่อย
@@ -1357,14 +1435,14 @@
 # EN: Filled
 238956158=เต็ม
 
-# EN: Filled Circle
-1999419602=วงกลมเต็ม
-
 # EN: Filter
 1239184307=ตัวกรอง
 
-# EN: Filter by event name or type...
-764300805=กรองตามชื่อเหตุการณ์หรือประเภท...
+# EN: Filter by event name...
+3189816270=กรองตามชื่อเหตุการณ์...
+
+# EN: Filter events / resources...
+2239256256=กรองเหตุการณ์ / รีซอร์ส...
 
 # EN: Filter##mb
 982138645=ตัวกรอง##mb
@@ -1374,6 +1452,9 @@
 
 # EN: Filter##trig
 1506659606=ตัวกรอง##trig
+
+# EN: Filter...
+384945571=กรอง...
 
 # EN: Filter:
 585229116=ตัวกรอง:
@@ -1392,6 +1473,9 @@
 
 # EN: Fire Delay
 425570614=หน่วงเวลายิง
+
+# EN: Fire Event
+2661019027=ยิงเหตุการณ์
 
 # EN: Fire Proof
 2377383169=กันไฟ
@@ -1501,11 +1585,17 @@
 # EN: Forces uphill jump animation
 1929062318=บังคับแอนิเมชันกระโดดขึ้นเนิน
 
+# EN: Forward Speed
+1876555102=ความเร็วไปข้างหน้า
+
 # EN: Frametime Graph
 3749077224=กราฟ Frametime
 
 # EN: Frametime Stats
 3723639030=สถิติ Frametime
+
+# EN: Free Menus
+2609200059=เมนูฟรี
 
 # EN: Freecam
 3443129427=กล้องอิสระ
@@ -1543,6 +1633,9 @@
 # EN: Fully heals HP + gives 50 armor when you kill a player
 2096177985=รักษา HP เต็ม + ให้เกราะ 50 เมื่อฆ่าผู้เล่น
 
+# EN: GPU
+591383768=GPU
+
 # EN: Gamma
 1617619096=แกมม่า
 
@@ -1551,6 +1644,9 @@
 
 # EN: General
 1798635104=ทั่วไป
+
+# EN: Generate
+1864538988=สร้าง
 
 # EN: Get Started
 1434685453=เริ่มต้น
@@ -1717,9 +1813,6 @@
 # EN: Groups
 2437998540=กลุ่ม
 
-# EN: HP
-1833919794=HP
-
 # EN: HUD
 2488248793=HUD
 
@@ -1728,6 +1821,15 @@
 
 # EN: Hands
 1613305285=มือ
+
+# EN: Hat
+2537416713=หมวก
+
+# EN: Hat Color
+2197204917=สีหมวก
+
+# EN: Hat Style
+3968368516=สไตล์หมวก
 
 # EN: Head
 2220048209=หัว
@@ -1834,8 +1936,23 @@
 # EN: Hide Background
 1550833432=ซ่อนพื้นหลัง
 
-# EN: High Ground
-3194084088=พื้นที่สูง
+# EN: Hide Crosshair / FOV
+2570807650=ซ่อนเป้าเล็ง / FOV
+
+# EN: Hide ESP
+3489105641=ซ่อน ESP
+
+# EN: Hide Key
+1973484404=ปุ่มซ่อน
+
+# EN: Hide Menu
+1560947015=ซ่อนเมนู
+
+# EN: Hide Overlays
+1525934716=ซ่อนโอเวอร์เลย์
+
+# EN: Hide Tracers / Lines
+425240012=ซ่อนรอย / เส้น
 
 # EN: Highlight Headshots
 1100352321=ไฮไลท์เฮดช็อต
@@ -1845,6 +1962,9 @@
 
 # EN: Hill Jump
 327623110=กระโดดขึ้นเนิน
+
+# EN: History
+2023011857=ประวัติ
 
 # EN: Hit Chance
 3254221308=โอกาสโดน
@@ -1875,9 +1995,6 @@
 
 # EN: Hold Mode
 200873681=โหมดกดค้าง
-
-# EN: Hold [V] to lean sideways (camera right). Release to snap back.
-4221385416=กดค้าง [V] เพื่อเอนไปด้านข้าง (กล้องขวา) ปล่อยเพื่อกลับ
 
 # EN: Horizon
 3479812369=ขอบฟ้า
@@ -1918,6 +2035,9 @@
 # EN: Icon / Accent
 1566350195=ไอคอน / สีเน้น
 
+# EN: Icon Active Color
+4093685107=สีไอคอนขณะใช้งาน
+
 # EN: Icon Below Text
 1121926930=ไอคอนใต้ข้อความ
 
@@ -1929,6 +2049,9 @@
 
 # EN: Icon Size
 3757913751=ขนาดไอคอน
+
+# EN: Icon Spacing
+4004566715=ระยะห่างไอคอน
 
 # EN: Icons + Text
 2093021283=ไอคอน + ข้อความ
@@ -2011,6 +2134,9 @@
 # EN: Info
 1745727664=ข้อมูล
 
+# EN: Info notification
+15919856=การแจ้งเตือนข้อมูล
+
 # EN: Info##notif
 3630429841=ข้อมูล##notif
 
@@ -2025,6 +2151,9 @@
 
 # EN: Input Text
 4135476111=ข้อความช่องป้อนข้อมูล
+
+# EN: Insert
+3380657922=แทรก
 
 # EN: Instant Blend
 2839309838=ผสมทันที
@@ -2077,8 +2206,14 @@
 # EN: JATO Boost
 959701148=JATO Boost
 
+# EN: JSON
+1493832359=JSON
+
 # EN: Jitter
 2175396620=สั่น
+
+# EN: Joint Color
+1649662583=สีข้อต่อ
 
 # EN: Joint Size
 2337031930=ขนาดข้อต่อ
@@ -2118,6 +2253,9 @@
 
 # EN: Keybinds
 1174365445=ปุ่มลัด
+
+# EN: Keys
+748271464=ปุ่ม
 
 # EN: Kick
 2221159044=เตะ
@@ -2239,6 +2377,9 @@
 # EN: Loaded
 538484865=โหลดแล้ว
 
+# EN: Loaded from history
+1954185637=โหลดจากประวัติแล้ว
+
 # EN: Loading fonts...
 742296178=กำลังโหลดฟอนต์...
 
@@ -2253,6 +2394,9 @@
 
 # EN: Local Only
 1718906169=ท้องถิ่นเท่านั้น
+
+# EN: Local Player
+3579097795=ผู้เล่นในเครื่อง
 
 # EN: Lock On
 3927233622=ล็อกเป้า
@@ -2320,9 +2464,6 @@
 # EN: Magic Bullet
 2156396594=กระสุนวิเศษ
 
-# EN: Magic Bullet — Being worked on, stay tuned!
-861480969=กระสุนวิเศษ — กำลังพัฒนา คอยติดตาม!
-
 # EN: Magnet
 959551543=แม่เหล็ก
 
@@ -2341,20 +2482,11 @@
 # EN: Makes you invisible to other players
 4237882355=ทำให้คุณล่องหนจากผู้เล่นอื่น
 
+# EN: Manifest copied to clipboard
+4150163724=คัดลอก Manifest ไปยังคลิปบอร์ดแล้ว
+
 # EN: Map Image
 2485108282=รูปแผนที่
-
-# EN: Map Max X
-1163433574=แผนที่ X สูงสุด
-
-# EN: Map Max Y
-3076815488=แผนที่ Y สูงสุด
-
-# EN: Map Min X
-1971207017=แผนที่ X ต่ำสุด
-
-# EN: Map Min Y
-2893949292=แผนที่ Y ต่ำสุด
 
 # EN: Marker Duration
 3550132583=ระยะเวลาเครื่องหมาย
@@ -2476,6 +2608,9 @@
 # EN: Mode##glow
 1534494585=โหมด##glow
 
+# EN: Model
+1816327236=โมเดล
+
 # EN: Modules
 2096891096=โมดูล
 
@@ -2487,6 +2622,9 @@
 
 # EN: Morning
 852964312=เช้า
+
+# EN: Most Referenced Events
+962784570=เหตุการณ์ที่อ้างอิงมากที่สุด
 
 # EN: Movement
 2799785395=การเคลื่อนไหว
@@ -2500,9 +2638,6 @@
 # EN: Multiple rings stack from feet to head
 1361975713=วงแหวนหลายวงซ้อนจากเท้าถึงหัว
 
-# EN: Multiplier
-3903859967=ตัวคูณ
-
 # EN: N
 3649581809=N
 
@@ -2511,6 +2646,9 @@
 
 # EN: NPC
 3921142999=NPC
+
+# EN: NPCs
+1186745040=NPCs
 
 # EN: NPCs Only
 3543922621=NPC เท่านั้น
@@ -2587,6 +2725,9 @@
 # EN: New Color
 2772632083=สีใหม่
 
+# EN: New Script
+1417129088=สคริปต์ใหม่
+
 # EN: Night
 1417207314=กลางคืน
 
@@ -2634,6 +2775,9 @@
 
 # EN: No dump in progress.
 2622343018=ไม่มีการดัมพ์ที่กำลังทำงาน
+
+# EN: No events blocked
+656685112=ไม่มีเหตุการณ์ที่ถูกบล็อก
 
 # EN: No fall damage from any height
 951215153=ไม่มีความเสียหายจากการร่วงจากความสูงใดๆ
@@ -2791,6 +2935,9 @@
 # EN: Outline Width
 1689303532=ความกว้างเส้นขอบ
 
+# EN: Outline##head
+1915029405=เส้นขอบ##head
+
 # EN: Output Directory:
 3566541914=โฟลเดอร์ผลลัพธ์:
 
@@ -2817,6 +2964,9 @@
 
 # EN: Override jump flags for custom jump behavior
 3362934371=เขียนทับแฟล็กกระโดดสำหรับพฤติกรรมกระโดดกำหนดเอง
+
+# EN: Overview
+118778200=ภาพรวม
 
 # EN: PANIC MODE ACTIVE
 1272225111=โหมดตกใจเปิดอยู่
@@ -2857,17 +3007,29 @@
 # EN: Parachute Jump
 3658517243=กระโดดร่มชูชีพ
 
+# EN: Parse
+1004532644=แยกวิเคราะห์
+
 # EN: Particle FX
 2124068847=Particle FX
 
 # EN: Particle FX Color
 894474043=สี Particle FX
 
+# EN: Party
+1132658614=ปาร์ตี้
+
 # EN: Pass Through
 3173995589=ทะลุผ่าน
 
 # EN: Passively regenerate health over time
 240888173=ฟื้นฟูสุขภาพตามเวลาอัตโนมัติ
+
+# EN: Paste
+569442244=วาง
+
+# EN: Paste your API key here...
+261626132=วาง API key ของคุณที่นี่...
 
 # EN: Path:
 507121814=เส้นทาง:
@@ -2890,9 +3052,6 @@
 # EN: Peds / NPCs
 1876490144=ตัวละคร / NPC
 
-# EN: Peek
-1159958869=แอบดู
-
 # EN: Per-Feature Binds
 2900791157=ปุ่มลัดต่อฟีเจอร์
 
@@ -2901,9 +3060,6 @@
 
 # EN: Performance Stats
 4260591683=สถิติประสิทธิภาพ
-
-# EN: Phase Shift
-2620975702=เปลี่ยนเฟส
 
 # EN: Pill
 2294717198=เม็ด
@@ -2917,6 +3073,9 @@
 # EN: Pill Pad Y
 352596684=ระยะห่างเม็ด Y
 
+# EN: Ping
+1218843674=Ping
+
 # EN: Pipe Bombs, Proximity Mines, Flares
 1693538821=Pipe Bombs, Proximity Mines, Flares
 
@@ -2928,6 +3087,9 @@
 
 # EN: Player
 1862763509=ผู้เล่น
+
+# EN: Player Index
+607652568=ดัชนีผู้เล่น
 
 # EN: Player Trail
 536495684=เส้นทางผู้เล่น
@@ -2971,6 +3133,9 @@
 # EN: Prediction##sa
 43230462=การคาดการณ์##sa
 
+# EN: Premium Menus
+4177668372=เมนูพรีเมียม
+
 # EN: Preset
 2973707311=พรีเซ็ต
 
@@ -2980,26 +3145,11 @@
 # EN: Press [B] to rewind
 851379740=กด [B] เพื่อย้อนกลับ
 
-# EN: Press [E] for a timed sprint speed boost with cooldown
-1635903237=กด [E] เพื่อเร่งความเร็ววิ่งชั่วคราวพร้อมเวลารอ
-
 # EN: Press [G] to teleport forward in camera direction
 2203837878=กด [G] เพื่อเทเลพอร์ตไปข้างหน้าตามทิศกล้อง
 
-# EN: Press [G] while facing a wall to teleport through it (when Behind TP is off)
-3732057729=กด [G] ขณะหันหน้าเข้ากำแพงเพื่อเทเลพอร์ตทะลุ (เมื่อปิด Behind TP)
-
-# EN: Press [H] to teleport onto the nearest rooftop above you
-2986434624=กด [H] เพื่อเทเลพอร์ตไปหลังคาที่ใกล้สุดเหนือคุณ
-
 # EN: Press [Space] while falling to instantly teleport to ground level
 1826113543=กด [Space] ขณะร่วงเพื่อเทเลพอร์ตลงพื้นทันที
-
-# EN: Press [U] to save position. Press again to teleport back.
-1036979568=กด [U] เพื่อบันทึกตำแหน่ง กดอีกครั้งเพื่อเทเลพอร์ตกลับ
-
-# EN: Press [X] for brief invincibility + no collision + translucency
-4262347464=กด [X] เพื่ออมตะชั่วคราว + ไม่มีการชน + โปร่งแสง
 
 # EN: Press a mouse button...
 3765670479=กดปุ่มเมาส์...
@@ -3036,6 +3186,12 @@
 
 # EN: Projectile Tracers
 272599090=รอยกระสุนปืนใหญ่
+
+# EN: Prompt
+1703604247=พรอมต์
+
+# EN: Provider
+1958232576=ผู้ให้บริการ
 
 # EN: Proximity Alert
 1493469578=แจ้งเตือนใกล้
@@ -3184,6 +3340,9 @@
 # EN: Rate
 2120794248=อัตรา
 
+# EN: Rate##serp
+1131381918=อัตรา##serp
+
 # EN: Ready
 2084256605=พร้อม
 
@@ -3202,6 +3361,12 @@
 # EN: Reduction
 3286779414=การลด
 
+# EN: Refine
+415231836=ปรับปรุง
+
+# EN: Refine instruction:
+1983823845=คำสั่งปรับปรุง:
+
 # EN: Reflection
 1920016807=การสะท้อน
 
@@ -3217,6 +3382,9 @@
 # EN: Refreshing resources...
 3699535925=กำลังรีเฟรชรีซอร์ส...
 
+# EN: Registered But Not Triggered
+774818613=ลงทะเบียนแล้วแต่ยังไม่ถูกเรียก
+
 # EN: Reload
 1571056488=รีโหลด
 
@@ -3229,8 +3397,14 @@
 # EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
 2465448157=การตั้งค่าเรนเดอร์ควบคุมโดยเกม VSync, frame pacing และ backend ไม่สามารถปรับได้ใน FiveM
 
+# EN: Repair
+3327385526=ซ่อม
+
 # EN: Repair Vehicle
 2429933431=ซ่อมยานพาหนะ
+
+# EN: Rescan
+764993821=สแกนใหม่
 
 # EN: Reset
 3559176682=รีเซ็ต
@@ -3264,6 +3438,9 @@
 
 # EN: Reset to defaults
 3361422027=รีเซ็ตเป็นค่าเริ่มต้น
+
+# EN: Resolution
+324784860=ความละเอียด
 
 # EN: Resource
 1411351736=รีซอร์ส
@@ -3391,14 +3568,14 @@
 # EN: Save
 3357008648=บันทึก
 
-# EN: Save Here
-2753091722=บันทึกที่นี่
+# EN: Save Current as Snippet
+2323029386=บันทึกปัจจุบันเป็นสนิปเพ็ต
 
 # EN: Save Interval
 269707535=ช่วงเวลาบันทึก
 
-# EN: Save your current position and teleport back later
-4024909457=บันทึกตำแหน่งปัจจุบันและเทเลพอร์ตกลับทีหลัง
+# EN: Save Key
+579473751=ปุ่มบันทึก
 
 # EN: Saved
 2978706416=บันทึกแล้ว
@@ -3406,11 +3583,11 @@
 # EN: Saved Configs
 860699809=การตั้งค่าที่บันทึก
 
-# EN: Saved Locations
-676178533=ตำแหน่งที่บันทึก
-
 # EN: Saved Themes
 2236251465=ธีมที่บันทึก
+
+# EN: Saved:
+2514999957=บันทึกแล้ว:
 
 # EN: Scale
 1342385372=ขนาด
@@ -3424,14 +3601,26 @@
 # EN: Scaling
 2369776673=การปรับขนาด
 
-# EN: Scan Triggers
-917870278=สแกนทริกเกอร์
+# EN: Scan
+3540220634=สแกน
+
+# EN: Scan All
+826028443=สแกนทั้งหมด
 
 # EN: Scan for Anti-Cheat
 3069664885=สแกนหาป้องกันโกง
 
+# EN: Scanning all resources...
+2180117493=กำลังสแกนรีซอร์สทั้งหมด...
+
 # EN: Scanning for triggers...
 3267756685=กำลังสแกนทริกเกอร์...
+
+# EN: Scanning resources...
+3847585475=กำลังสแกนรีซอร์ส...
+
+# EN: Scanning...
+850446987=กำลังสแกน...
 
 # EN: Scans for anti-cheat modules every 10 seconds
 3500340240=สแกนโมดูลป้องกันโกงทุก 10 วินาที
@@ -3456,6 +3645,15 @@
 
 # EN: Script dump complete!
 2694683063=ดัมพ์สคริปต์เสร็จสิ้น!
+
+# EN: Script executed
+2428283588=รันสคริปต์แล้ว
+
+# EN: Script generated! Check the Editor tab.
+3624086178=สร้างสคริปต์แล้ว! ตรวจสอบแท็บตัวแก้ไข
+
+# EN: Script stopped
+3609081985=หยุดสคริปต์แล้ว
 
 # EN: Scripts
 1044661261=สคริปต์
@@ -3486,6 +3684,9 @@
 
 # EN: Search peds...
 3129217742=ค้นหาตัวละคร...
+
+# EN: Search players...
+3669430630=ค้นหาผู้เล่น...
 
 # EN: Search resources...
 1910280218=ค้นหารีซอร์ส...
@@ -3523,6 +3724,9 @@
 # EN: Section Opacity
 1502378754=ความทึบส่วน
 
+# EN: Segmented
+1119367178=แบ่งส่วน
+
 # EN: Segments
 390045222=ส่วน
 
@@ -3532,8 +3736,8 @@
 # EN: Select a player
 1427174365=เลือกผู้เล่น
 
-# EN: Select a resource and click Scan Triggers to analyze event triggers.
-367930095=เลือกรีซอร์สและคลิกสแกนทริกเกอร์เพื่อวิเคราะห์ทริกเกอร์เหตุการณ์
+# EN: Select a resource and click Scan to analyze, or Scan All for every resource.
+2327128316=เลือกรีซอร์สแล้วคลิกสแกนเพื่อวิเคราะห์ หรือสแกนทั้งหมดสำหรับทุกรีซอร์ส
 
 # EN: Select a resource from the list to view details.
 1234177780=เลือกรีซอร์สจากรายการเพื่อดูรายละเอียด
@@ -3547,6 +3751,9 @@
 # EN: Sensitivity
 1563795609=ความไว
 
+# EN: Sent to Event Parser (Events tab)
+3692631674=ส่งไปยังตัวแยกวิเคราะห์เหตุการณ์แล้ว (แท็บเหตุการณ์)
+
 # EN: Sep Alpha
 307689876=อัลฟาตัวคั่น
 
@@ -3556,14 +3763,29 @@
 # EN: Serpentine
 2010529308=คดเคี้ยว
 
+# EN: Server
+581657549=เซิร์ฟเวอร์
+
 # EN: Server IP:
 3217114240=IP เซิร์ฟเวอร์:
+
+# EN: Server Info
+1790325725=ข้อมูลเซิร์ฟเวอร์
+
+# EN: Set Key
+2397500189=ตั้งปุ่ม
 
 # EN: Set Model
 2741786040=ตั้งโมเดล
 
-# EN: Set per-feature keybinds via the gear icon
-438153059=ตั้งปุ่มลัดต่อฟีเจอร์ผ่านไอคอนเฟือง
+# EN: Set alpha to 0 to use the text color instead.
+796381545=ตั้งอัลฟาเป็น 0 เพื่อใช้สีข้อความแทน
+
+# EN: Set anchor + teleport to it with separate keys
+2852415891=ตั้งจุดยึด + เทเลพอร์ตไปด้วยปุ่มแยก
+
+# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
+1002208503=ตั้งปุ่มลัดต่อฟีเจอร์ผ่านไอคอนเฟืองในแต่ละแถวฟีเจอร์ (คลิกขวาหรือคลิกเฟือง)
 
 # EN: Settings
 2768156407=ตั้งค่า
@@ -3616,11 +3838,11 @@
 # EN: Shots Min
 4101905516=นัดต่ำสุด
 
+# EN: Show
+4237361361=แสดง
+
 # EN: Show Advanced
 2451177577=แสดงขั้นสูง
-
-# EN: Show Bar
-2024828132=แสดงแถบ
 
 # EN: Show Category
 966325046=แสดงหมวดหมู่
@@ -3654,6 +3876,12 @@
 
 # EN: Show Icon
 1657507605=แสดงไอคอน
+
+# EN: Show Icons
+2900082090=แสดงไอคอน
+
+# EN: Show Key
+477177816=ปุ่มแสดง
 
 # EN: Show Line
 1200799385=แสดงเส้น
@@ -3760,6 +3988,12 @@
 # EN: Skeleton
 1816727634=โครงกระดูก
 
+# EN: Skeleton 1
+663554603=โครงกระดูก 1
+
+# EN: Skeleton 2
+911943623=โครงกระดูก 2
+
 # EN: Skeleton Only
 1732653347=โครงกระดูกเท่านั้น
 
@@ -3780,9 +4014,6 @@
 
 # EN: Skips falling scream
 2453340543=ข้ามเสียงกรี๊ดตก
-
-# EN: Skull
-4060956970=กะโหลก
 
 # EN: Sky
 159192176=ท้องฟ้า
@@ -3814,9 +4045,6 @@
 # EN: Sliders
 2297082388=แถบเลื่อน
 
-# EN: Slot
-933689839=ช่อง
-
 # EN: Small
 3085983008=เล็ก
 
@@ -3843,6 +4071,12 @@
 
 # EN: Snipers
 453460956=สไนเปอร์
+
+# EN: Snippet name:
+1640117038=ชื่อสนิปเพ็ต:
+
+# EN: Snippets
+2837387043=สนิปเพ็ต
 
 # EN: Snow
 4021743606=หิมะ
@@ -3886,9 +4120,6 @@
 # EN: Speed
 4187447851=ความเร็ว
 
-# EN: Speed Burst
-3918175031=เร่งความเร็ว
-
 # EN: Speed Overlay
 4009411811=โอเวอร์เลย์ความเร็ว
 
@@ -3897,6 +4128,9 @@
 
 # EN: Speed##hpsmooth
 2272127628=ความเร็ว##hpsmooth
+
+# EN: Speed##serp
+3668104492=ความเร็ว##serp
 
 # EN: Speeds up climbing and vaulting animations
 884886740=เร่งแอนิเมชันปีนและกระโดดข้าม
@@ -3970,11 +4204,14 @@
 # EN: Stream Proof
 3106534202=ป้องกันสตรีม
 
+# EN: Stream Proof ACTIVE
+2348867233=ป้องกันสตรีม เปิดอยู่
+
 # EN: Stream Proof Mode
 3011027665=โหมดป้องกันสตรีม
 
-# EN: Stream Proof is currently unavailable in FiveM. Enabling it may cause crashes.
-2952089962=ป้องกันสตรีมยังไม่พร้อมใน FiveM การเปิดอาจทำให้แครช
+# EN: Stream Proof is experimental - may cause issues on some systems.
+1371944424=ป้องกันสตรีมเป็นฟีเจอร์ทดลอง - อาจเกิดปัญหาบนบางระบบ
 
 # EN: Streamer
 322333922=สตรีมเมอร์
@@ -3985,8 +4222,20 @@
 # EN: Style
 2840017588=สไตล์
 
+# EN: Style##hp
+2155290340=สไตล์##hp
+
+# EN: Sub-Tab Icons
+2125121217=ไอคอนแท็บย่อย
+
 # EN: Sub-Tabs
 4235856483=แท็บย่อย
+
+# EN: Success
+975994832=สำเร็จ
+
+# EN: Success notification
+3286108452=การแจ้งเตือนสำเร็จ
 
 # EN: Success##notif
 124336157=สำเร็จ##notif
@@ -4047,6 +4296,9 @@
 
 # EN: T20
 1663218586=T20
+
+# EN: TXT
+2010905253=TXT
 
 # EN: Tab Bar Style
 4174884294=สไตล์แถบแท็บ
@@ -4114,6 +4366,15 @@
 # EN: Teleport Gun
 1763910974=ปืนเทเลพอร์ต
 
+# EN: Teleport Into
+2286719768=เทเลพอร์ตเข้า
+
+# EN: Teleport Key
+268016086=ปุ่มเทเลพอร์ต
+
+# EN: Teleport To
+1887426362=เทเลพอร์ตไป
+
 # EN: Teleport to Coords
 3551972134=เทเลพอร์ตไปพิกัด
 
@@ -4128,6 +4389,12 @@
 
 # EN: Teleport vehicle with you
 2332352547=เทเลพอร์ตยานพาหนะไปด้วย
+
+# EN: Templates
+3044988383=เทมเพลต
+
+# EN: Test
+1064684737=ทดสอบ
 
 # EN: Text
 2134593963=ข้อความ
@@ -4201,9 +4468,6 @@
 # EN: Thickness##tt
 3534806773=ความหนา##tt
 
-# EN: This feature is currently in development.
-2985474122=ฟีเจอร์นี้กำลังพัฒนา
-
 # EN: This feature requires a paid subscription.
 3394398001=ฟีเจอร์นี้ต้องสมัครสมาชิก
 
@@ -4234,11 +4498,11 @@
 # EN: Time
 258444835=เวลา
 
-# EN: Time & Weather
-1757582708=เวลาและสภาพอากาศ
-
 # EN: Timing
 4122073465=จังหวะ
+
+# EN: Tip Color
+520645681=สีปลาย
 
 # EN: Tire Lights
 3627926876=ไฟยาง
@@ -4309,6 +4573,9 @@
 # EN: Top Left
 3111925763=บนซ้าย
 
+# EN: Top Resources
+670453582=รีซอร์สยอดนิยม
+
 # EN: Top Right
 3678979058=บนขวา
 
@@ -4323,6 +4590,9 @@
 
 # EN: Track Opacity
 902824788=ความทึบแทร็ก
+
+# EN: Tracked Players
+1590211961=ผู้เล่นที่ติดตาม
 
 # EN: Tracks
 794089857=แทร็ก
@@ -4342,17 +4612,23 @@
 # EN: Transparent Ocean
 2138197132=มหาสมุทรโปร่งใส
 
-# EN: Triangle
-2990077322=สามเหลี่ยม
+# EN: Trigger & Block
+4206134730=เรียก & บล็อก
 
 # EN: Trigger Bot
 1558371298=Trigger Bot
+
+# EN: Trigger Event
+4138217246=เรียกเหตุการณ์
 
 # EN: Trigger FOV
 3216427474=FOV ทริกเกอร์
 
 # EN: Triggerbot
 1477138198=Triggerbot
+
+# EN: Triggered Without Handler
+3055780408=ถูกเรียกโดยไม่มีตัวจัดการ
 
 # EN: Triggers
 489495302=ทริกเกอร์
@@ -4362,6 +4638,9 @@
 
 # EN: Trusted
 2045336469=น่าเชื่อถือ
+
+# EN: Tuning##sa
+2759235521=การปรับแต่ง##sa
 
 # EN: Type
 828747869=ประเภท
@@ -4375,8 +4654,17 @@
 # EN: Unbind
 2907191925=ยกเลิกผูก
 
+# EN: Unblock
+1287977995=ปลดบล็อก
+
+# EN: Unblock All
+3468373934=ปลดบล็อกทั้งหมด
+
 # EN: Underline
 1892791043=ขีดเส้นใต้
+
+# EN: Unlock
+2562373009=ปลดล็อก
 
 # EN: Update Rate
 1699227283=อัตราอัปเดต
@@ -4384,14 +4672,14 @@
 # EN: Upgrade at scoobymenu.xyz to unlock all features.
 2859334871=อัปเกรดที่ scoobymenu.xyz เพื่อปลดล็อกฟีเจอร์ทั้งหมด
 
+# EN: Uptime
+3436261580=เวลาทำงาน
+
 # EN: Use Anyway
 2296300728=ใช้ต่อ
 
 # EN: Use Camera Direction
 2733983925=ใช้ทิศทางกล้อง
-
-# EN: Use Damage Event
-1180278030=ใช้เหตุการณ์ความเสียหาย
 
 # EN: Use Fill mode for best results.
 1995125884=ใช้โหมดเติมเพื่อผลลัพธ์ที่ดีที่สุด
@@ -4435,6 +4723,9 @@
 # EN: Vehicle NoClip
 1762582941=NoClip ยานพาหนะ
 
+# EN: Vehicle Radar
+2113603547=เรดาร์ยานพาหนะ
+
 # EN: Vehicle Ram
 3560309762=พุ่งชนยานพาหนะ
 
@@ -4461,6 +4752,9 @@
 
 # EN: View
 2604534539=ดู
+
+# EN: View Manifest
+3821572149=ดู Manifest
 
 # EN: Visibility Check
 2235775772=ตรวจสอบการมองเห็น
@@ -4489,6 +4783,9 @@
 # EN: W
 1486926112=W
 
+# EN: Waiting for scan...
+4212713308=กำลังรอการสแกน...
+
 # EN: Walk Through
 1411964451=เดินทะลุ
 
@@ -4497,9 +4794,6 @@
 
 # EN: Walking
 921688979=เดิน
-
-# EN: Wall Bounce
-3276303643=กระดอนกำแพง
 
 # EN: Walls Only
 613995149=กำแพงเท่านั้น
@@ -4510,8 +4804,14 @@
 # EN: Warning
 3911129148=คำเตือน
 
+# EN: Warning notification
+1083834536=การแจ้งเตือนคำเตือน
+
 # EN: Warning##notif
 496177476=คำเตือน##notif
+
+# EN: Warning: Using free menus may result in an instant kick or ban from the server. Use at your own risk.
+2630775189=คำเตือน: การใช้เมนูฟรีอาจทำให้ถูกเตะหรือแบนจากเซิร์ฟเวอร์ทันที ใช้บนความเสี่ยงของคุณเอง
 
 # EN: Water Height
 2028138289=ความสูงน้ำ
@@ -4561,11 +4861,17 @@
 # EN: Welcome! Let's get you set up.
 2895282766=ยินดีต้อนรับ! มาตั้งค่ากันเถอะ
 
+# EN: What to Hide
+894456580=สิ่งที่จะซ่อน
+
 # EN: What's New
 2022498171=มีอะไรใหม่
 
 # EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
 3837149149=เมื่อเปิด รายการปุ่มลัด สถิติประสิทธิภาพ รายชื่อผู้เล่น และผู้ชมจะใช้สีลายน้ำ
+
+# EN: When enabled, overlays use Watermark colors.
+445204605=เมื่อเปิด โอเวอร์เลย์จะใช้สีลายน้ำ
 
 # EN: While aiming (RMB), press A/D to instantly teleport left/right
 1256253770=ขณะเล็ง (RMB) กด A/D เพื่อเทเลพอร์ตซ้าย/ขวาทันที
@@ -4581,6 +4887,9 @@
 
 # EN: Width Ratio
 257781133=อัตราส่วนความกว้าง
+
+# EN: Width##serp
+3651645440=ความกว้าง##serp
 
 # EN: Window
 1722301922=หน้าต่าง
@@ -4648,8 +4957,6 @@
 # EN: joined the server
 2662745418=เข้าเซิร์ฟเวอร์แล้ว
 
-# EN: on each feature row (right-click or click gear).
-3640762816=ในแต่ละแถวฟีเจอร์ (คลิกขวาหรือคลิกเฟือง)
-
 # EN: result(s)
 1448839259=ผลลัพธ์
+

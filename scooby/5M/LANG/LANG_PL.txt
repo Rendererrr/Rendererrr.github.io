@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Polish (Polski)
 # Auth data_var name: LANG_PL
-# Total strings: 1550
+# Total strings: 1652
 # Format: JOAAT_HASH=translated text
 #
 
@@ -22,11 +22,23 @@
 # EN: 0 = feet, 0.9 = center, 1.8 = head
 3348539186=0 = stopy, 0.9 = środek, 1.8 = głowa
 
+# EN: 1% Low
+499497665=1% Low
+
 # EN: 3D Box
 94557236=3D Box
 
 # EN: AC Overlay
 2376138547=AC Overlay
+
+# EN: AI
+182200381=AI
+
+# EN: AI Script
+3105376127=Skrypt AI
+
+# EN: API key saved locally
+3499322037=Klucz API zapisany lokalnie
 
 # EN: Abilities
 2653368607=Umiejętności
@@ -157,6 +169,9 @@
 # EN: Alpha
 767087018=Alpha
 
+# EN: Also While Running
+2264771198=Również podczas biegu
+
 # EN: Ammo
 307971639=Amunicja
 
@@ -268,6 +283,9 @@
 # EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
 4247923858=Automatycznie skaluje FOV, wygładzanie i predykcję przy celowaniu lunetą
 
+# EN: Auto-scan events
+710508198=Auto-skanowanie zdarzeń
+
 # EN: Auto-zigzag while sprinting to dodge bullets
 1713564836=Automatyczny zygzak podczas sprintu, aby unikać pocisków
 
@@ -325,6 +343,9 @@
 # EN: Background##weapon
 1937834289=Tło##weapon
 
+# EN: Bar
+2151715081=Pasek
+
 # EN: Basic
 4281242592=Podstawowy
 
@@ -369,6 +390,12 @@
 
 # EN: Blizzard
 669657108=Zamieć
+
+# EN: Block
+3828602749=Zablokuj
+
+# EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
+366586212=Blokowanie przechwytuje zdarzenia za pomocą CancelEvent(). Odblokowanie ponownie rejestruje zdarzenie.
 
 # EN: Blood Red
 3933943680=Krwista czerwień
@@ -460,6 +487,9 @@
 # EN: Brightness
 26603225=Jasność
 
+# EN: Bring Vehicle
+1548014332=Przywołaj pojazd
+
 # EN: Bring to Me
 4191259033=Przyciągnij do mnie
 
@@ -475,14 +505,8 @@
 # EN: Bullet Proof
 1262983692=Odporność na kule
 
-# EN: Bullet Redirect##sa
-2808025987=Przekierowanie pocisków##sa
-
 # EN: Bullet Tracers
 2673625274=Ślady pocisków
-
-# EN: Bullet spawn (visible tracer)
-210089287=Pocisk (widoczny ślad)
 
 # EN: Burn
 2096267097=Podpal
@@ -507,6 +531,9 @@
 
 # EN: Buttons
 2668497503=Przyciski
+
+# EN: By Type
+132944993=Wg typu
 
 # EN: Bypassed
 716678219=Ominięty
@@ -547,6 +574,9 @@
 # EN: Change Rate
 949770967=Częstotliwość zmian
 
+# EN: China
+3307270334=Chiny
+
 # EN: Circle
 3333310803=Okrąg
 
@@ -567,6 +597,18 @@
 
 # EN: Clear Console
 1742492619=Wyczyść konsolę
+
+# EN: Clear History
+3502477242=Wyczyść historię
+
+# EN: Clear Key
+1838276207=Klawisz czyszczenia
+
+# EN: Clear on Teleport
+1659055056=Wyczyść przy teleporcie
+
+# EN: Click Start to scan server resources for events.
+2559388892=Kliknij Start, aby przeskanować zasoby serwera w poszukiwaniu zdarzeń.
 
 # EN: Click UI
 1200896506=Click UI
@@ -640,6 +682,9 @@
 # EN: Combat Utility
 3560879723=Narzędzia walki
 
+# EN: Coming Soon
+3566187245=Wkrótce
+
 # EN: Compass
 3738173000=Kompas
 
@@ -673,6 +718,9 @@
 # EN: Connect Distance
 2509032464=Odległość połączenia
 
+# EN: Connected Players
+3406740022=Połączeni gracze
+
 # EN: Console
 716138132=Konsola
 
@@ -700,12 +748,6 @@
 # EN: Cooldown
 1178968787=Cooldown
 
-# EN: Cooldown##burst
-1055026799=Cooldown##burst
-
-# EN: Cooldown##phase
-3556912950=Cooldown##phase
-
 # EN: Cooldown##strafe
 1574937247=Cooldown##strafe
 
@@ -718,8 +760,14 @@
 # EN: Copied event name to clipboard
 3300867=Nazwa zdarzenia skopiowana do schowka
 
+# EN: Copied to clipboard
+1053518268=Skopiowano do schowka
+
 # EN: Copy
 393356872=Kopiuj
+
+# EN: Copy All
+4085295539=Kopiuj wszystko
 
 # EN: Copy ID
 3639484515=Kopiuj ID
@@ -808,6 +856,9 @@
 # EN: Dawn
 4259095408=Świt
 
+# EN: Dead
+3384366314=Martwy
+
 # EN: Dead Zone
 2069969159=Martwa strefa
 
@@ -850,17 +901,26 @@
 # EN: Delete Veh
 895942370=Usuń pojazd
 
+# EN: Delete Vehicle
+37332959=Usuń pojazd
+
 # EN: Delete this config?
 2115476497=Usunąć tę konfigurację?
 
 # EN: Delete this theme?
 2754582444=Usunąć ten motyw?
 
+# EN: Deleted:
+3394613473=Usunięto:
+
 # EN: Deluxo Mode
 4200523197=Tryb Deluxo
 
 # EN: Density
 3843932311=Gęstość
+
+# EN: Describe what you want:
+1226247808=Opisz, czego chcesz:
 
 # EN: Detach
 4291111140=Odłącz
@@ -888,9 +948,6 @@
 
 # EN: Dim Amount
 1388938324=Stopień przyciemnienia
-
-# EN: Direct damage (more reliable)
-11698873=Bezpośrednie obrażenia (bardziej niezawodne)
 
 # EN: Direction
 887068712=Kierunek
@@ -937,9 +994,6 @@
 # EN: Display Mode
 200820562=Tryb wyświetlania
 
-# EN: Dist
-3531260757=Odl.
-
 # EN: Distance
 3607074178=Odległość
 
@@ -966,9 +1020,6 @@
 
 # EN: Distance##veh
 3820228410=Odległość##veh
-
-# EN: Distance##wall
-2273036223=Odległość##wall
 
 # EN: Dive Jump
 2731982236=Skok z nurkiem
@@ -999,6 +1050,9 @@
 
 # EN: Dotted Line
 3435322722=Linia kropkowana
+
+# EN: Double-click an event in the Logger to copy its name here.
+847266517=Kliknij dwukrotnie zdarzenie w Loggerze, aby skopiować jego nazwę tutaj.
 
 # EN: Draggable
 3287744767=Przeciągalne
@@ -1072,17 +1126,11 @@
 # EN: Duration
 3674968789=Czas trwania
 
-# EN: Duration##burst
-1617674729=Czas trwania##burst
-
 # EN: Duration##dmglog
 2155043513=Czas trwania##dmglog
 
 # EN: Duration##dmgnum
 1606858786=Czas trwania##dmgnum
-
-# EN: Duration##phase
-416318694=Czas trwania##phase
 
 # EN: Duration##pt
 2015408410=Czas trwania##pt
@@ -1105,6 +1153,9 @@
 # EN: ESP
 3007444226=ESP
 
+# EN: ESP Settings
+3361209094=Ustawienia ESP
+
 # EN: Edge Arrows
 3739190029=Strzałki krawędziowe
 
@@ -1113,6 +1164,12 @@
 
 # EN: Editor
 1766080170=Edytor
+
+# EN: Editor is empty
+2785403049=Edytor jest pusty
+
+# EN: Editor is empty. Write or generate code first.
+2617489156=Edytor jest pusty. Najpierw napisz lub wygeneruj kod.
 
 # EN: Effect
 860884915=Efekt
@@ -1131,9 +1188,6 @@
 
 # EN: Embedded
 2292057362=Osadzony
-
-# EN: Empty
-3151330285=Pusty
 
 # EN: Empty Only
 335310304=Tylko puste
@@ -1198,11 +1252,35 @@
 # EN: Enter name...
 3545940642=Wpisz nazwę...
 
+# EN: Entities
+3433796359=Obiekty
+
 # EN: Entity Count
 495352207=Liczba obiektów
 
+# EN: Error
+3374345388=Błąd
+
+# EN: Error notification
+280995787=Powiadomienie o błędzie
+
 # EN: Error##notif
 3944622010=Błąd##notif
+
+# EN: Event Blocker
+2348049901=Blokowanie zdarzeń
+
+# EN: Event Logger
+4055111064=Dziennik zdarzeń
+
+# EN: Event name...
+1453694419=Nazwa zdarzenia...
+
+# EN: Event to block...
+3761220325=Zdarzenie do zablokowania...
+
+# EN: Events
+3674287931=Zdarzenia
 
 # EN: Expand Sub-Tabs
 788906364=Rozwiń pod-zakładki
@@ -1357,14 +1435,14 @@
 # EN: Filled
 238956158=Wypełniony
 
-# EN: Filled Circle
-1999419602=Wypełniony okrąg
-
 # EN: Filter
 1239184307=Filtr
 
-# EN: Filter by event name or type...
-764300805=Filtruj po nazwie zdarzenia lub typie...
+# EN: Filter by event name...
+3189816270=Filtruj wg nazwy zdarzenia...
+
+# EN: Filter events / resources...
+2239256256=Filtruj zdarzenia / zasoby...
 
 # EN: Filter##mb
 982138645=Filtr##mb
@@ -1374,6 +1452,9 @@
 
 # EN: Filter##trig
 1506659606=Filtr##trig
+
+# EN: Filter...
+384945571=Filtruj...
 
 # EN: Filter:
 585229116=Filtr:
@@ -1392,6 +1473,9 @@
 
 # EN: Fire Delay
 425570614=Opóźnienie ognia
+
+# EN: Fire Event
+2661019027=Wywołaj zdarzenie
 
 # EN: Fire Proof
 2377383169=Odporność na ogień
@@ -1501,11 +1585,17 @@
 # EN: Forces uphill jump animation
 1929062318=Wymusza animację skoku pod górkę
 
+# EN: Forward Speed
+1876555102=Prędkość do przodu
+
 # EN: Frametime Graph
 3749077224=Wykres czasu klatki
 
 # EN: Frametime Stats
 3723639030=Statystyki czasu klatki
+
+# EN: Free Menus
+2609200059=Darmowe menu
 
 # EN: Freecam
 3443129427=Freecam
@@ -1543,6 +1633,9 @@
 # EN: Fully heals HP + gives 50 armor when you kill a player
 2096177985=W pełni leczy HP + daje 50 pancerza po zabiciu gracza
 
+# EN: GPU
+591383768=GPU
+
 # EN: Gamma
 1617619096=Gamma
 
@@ -1551,6 +1644,9 @@
 
 # EN: General
 1798635104=Ogólne
+
+# EN: Generate
+1864538988=Generuj
 
 # EN: Get Started
 1434685453=Rozpocznij
@@ -1717,9 +1813,6 @@
 # EN: Groups
 2437998540=Grupy
 
-# EN: HP
-1833919794=HP
-
 # EN: HUD
 2488248793=HUD
 
@@ -1728,6 +1821,15 @@
 
 # EN: Hands
 1613305285=Ręce
+
+# EN: Hat
+2537416713=Czapka
+
+# EN: Hat Color
+2197204917=Kolor czapki
+
+# EN: Hat Style
+3968368516=Styl czapki
 
 # EN: Head
 2220048209=Głowa
@@ -1834,8 +1936,23 @@
 # EN: Hide Background
 1550833432=Ukryj tło
 
-# EN: High Ground
-3194084088=Wyżyna
+# EN: Hide Crosshair / FOV
+2570807650=Ukryj celownik / FOV
+
+# EN: Hide ESP
+3489105641=Ukryj ESP
+
+# EN: Hide Key
+1973484404=Klawisz ukrywania
+
+# EN: Hide Menu
+1560947015=Ukryj menu
+
+# EN: Hide Overlays
+1525934716=Ukryj nakładki
+
+# EN: Hide Tracers / Lines
+425240012=Ukryj ślady / linie
 
 # EN: Highlight Headshots
 1100352321=Podświetl strzały w głowę
@@ -1845,6 +1962,9 @@
 
 # EN: Hill Jump
 327623110=Skok na wzgórzu
+
+# EN: History
+2023011857=Historia
 
 # EN: Hit Chance
 3254221308=Szansa trafienia
@@ -1875,9 +1995,6 @@
 
 # EN: Hold Mode
 200873681=Tryb przytrzymania
-
-# EN: Hold [V] to lean sideways (camera right). Release to snap back.
-4221385416=Przytrzymaj [V], aby wychylić się na bok (kamera w prawo). Puść, aby wrócić.
 
 # EN: Horizon
 3479812369=Horyzont
@@ -1918,6 +2035,9 @@
 # EN: Icon / Accent
 1566350195=Ikona / Akcent
 
+# EN: Icon Active Color
+4093685107=Kolor aktywnej ikony
+
 # EN: Icon Below Text
 1121926930=Ikona pod tekstem
 
@@ -1929,6 +2049,9 @@
 
 # EN: Icon Size
 3757913751=Rozmiar ikony
+
+# EN: Icon Spacing
+4004566715=Odstęp ikon
 
 # EN: Icons + Text
 2093021283=Ikony + Tekst
@@ -2011,6 +2134,9 @@
 # EN: Info
 1745727664=Info
 
+# EN: Info notification
+15919856=Powiadomienie informacyjne
+
 # EN: Info##notif
 3630429841=Info##notif
 
@@ -2025,6 +2151,9 @@
 
 # EN: Input Text
 4135476111=Tekst pola
+
+# EN: Insert
+3380657922=Insert
 
 # EN: Instant Blend
 2839309838=Natychmiastowe mieszanie
@@ -2077,8 +2206,14 @@
 # EN: JATO Boost
 959701148=JATO Boost
 
+# EN: JSON
+1493832359=JSON
+
 # EN: Jitter
 2175396620=Jitter
+
+# EN: Joint Color
+1649662583=Kolor stawu
 
 # EN: Joint Size
 2337031930=Rozmiar stawu
@@ -2118,6 +2253,9 @@
 
 # EN: Keybinds
 1174365445=Przypisania klawiszy
+
+# EN: Keys
+748271464=Klawisze
 
 # EN: Kick
 2221159044=Wyrzuć
@@ -2239,6 +2377,9 @@
 # EN: Loaded
 538484865=Wczytano
 
+# EN: Loaded from history
+1954185637=Wczytano z historii
+
 # EN: Loading fonts...
 742296178=Ładowanie czcionek...
 
@@ -2253,6 +2394,9 @@
 
 # EN: Local Only
 1718906169=Tylko lokalne
+
+# EN: Local Player
+3579097795=Lokalny gracz
 
 # EN: Lock On
 3927233622=Namierzanie
@@ -2320,9 +2464,6 @@
 # EN: Magic Bullet
 2156396594=Magiczny pocisk
 
-# EN: Magic Bullet — Being worked on, stay tuned!
-861480969=Magiczny pocisk — W trakcie prac, bądź na bieżąco!
-
 # EN: Magnet
 959551543=Magnes
 
@@ -2341,20 +2482,11 @@
 # EN: Makes you invisible to other players
 4237882355=Czyni cię niewidzialnym dla innych graczy
 
+# EN: Manifest copied to clipboard
+4150163724=Manifest skopiowany do schowka
+
 # EN: Map Image
 2485108282=Obraz mapy
-
-# EN: Map Max X
-1163433574=Mapa Max X
-
-# EN: Map Max Y
-3076815488=Mapa Max Y
-
-# EN: Map Min X
-1971207017=Mapa Min X
-
-# EN: Map Min Y
-2893949292=Mapa Min Y
 
 # EN: Marker Duration
 3550132583=Czas trwania znacznika
@@ -2476,6 +2608,9 @@
 # EN: Mode##glow
 1534494585=Tryb##glow
 
+# EN: Model
+1816327236=Model
+
 # EN: Modules
 2096891096=Moduły
 
@@ -2487,6 +2622,9 @@
 
 # EN: Morning
 852964312=Rano
+
+# EN: Most Referenced Events
+962784570=Najczęściej przywoływane zdarzenia
 
 # EN: Movement
 2799785395=Ruch
@@ -2500,9 +2638,6 @@
 # EN: Multiple rings stack from feet to head
 1361975713=Wiele pierścieni nakłada się od stóp do głowy
 
-# EN: Multiplier
-3903859967=Mnożnik
-
 # EN: N
 3649581809=N
 
@@ -2511,6 +2646,9 @@
 
 # EN: NPC
 3921142999=NPC
+
+# EN: NPCs
+1186745040=NPC
 
 # EN: NPCs Only
 3543922621=Tylko NPC
@@ -2587,6 +2725,9 @@
 # EN: New Color
 2772632083=Nowy kolor
 
+# EN: New Script
+1417129088=Nowy skrypt
+
 # EN: Night
 1417207314=Noc
 
@@ -2634,6 +2775,9 @@
 
 # EN: No dump in progress.
 2622343018=Brak zrzutu w toku.
+
+# EN: No events blocked
+656685112=Brak zablokowanych zdarzeń
 
 # EN: No fall damage from any height
 951215153=Brak obrażeń od upadku z dowolnej wysokości
@@ -2791,6 +2935,9 @@
 # EN: Outline Width
 1689303532=Szerokość obrysu
 
+# EN: Outline##head
+1915029405=Obrys##head
+
 # EN: Output Directory:
 3566541914=Katalog wyjściowy:
 
@@ -2817,6 +2964,9 @@
 
 # EN: Override jump flags for custom jump behavior
 3362934371=Nadpisz flagi skoku dla niestandardowego zachowania
+
+# EN: Overview
+118778200=Przegląd
 
 # EN: PANIC MODE ACTIVE
 1272225111=TRYB PANIKI AKTYWNY
@@ -2857,17 +3007,29 @@
 # EN: Parachute Jump
 3658517243=Skok ze spadochronem
 
+# EN: Parse
+1004532644=Parsuj
+
 # EN: Particle FX
 2124068847=Particle FX
 
 # EN: Particle FX Color
 894474043=Kolor Particle FX
 
+# EN: Party
+1132658614=Impreza
+
 # EN: Pass Through
 3173995589=Przepuszczanie
 
 # EN: Passively regenerate health over time
 240888173=Pasywnie regeneruje zdrowie w czasie
+
+# EN: Paste
+569442244=Wklej
+
+# EN: Paste your API key here...
+261626132=Wklej swój klucz API tutaj...
 
 # EN: Path:
 507121814=Ścieżka:
@@ -2890,9 +3052,6 @@
 # EN: Peds / NPCs
 1876490144=Pedy / NPC
 
-# EN: Peek
-1159958869=Wychylenie
-
 # EN: Per-Feature Binds
 2900791157=Przypisania per funkcja
 
@@ -2901,9 +3060,6 @@
 
 # EN: Performance Stats
 4260591683=Statystyki wydajności
-
-# EN: Phase Shift
-2620975702=Phase Shift
 
 # EN: Pill
 2294717198=Pigułka
@@ -2917,6 +3073,9 @@
 # EN: Pill Pad Y
 352596684=Pigułka Pad Y
 
+# EN: Ping
+1218843674=Ping
+
 # EN: Pipe Bombs, Proximity Mines, Flares
 1693538821=Bomby rurowe, miny zbliżeniowe, flary
 
@@ -2928,6 +3087,9 @@
 
 # EN: Player
 1862763509=Gracz
+
+# EN: Player Index
+607652568=Indeks gracza
 
 # EN: Player Trail
 536495684=Ślad gracza
@@ -2971,6 +3133,9 @@
 # EN: Prediction##sa
 43230462=Predykcja##sa
 
+# EN: Premium Menus
+4177668372=Menu Premium
+
 # EN: Preset
 2973707311=Preset
 
@@ -2980,26 +3145,11 @@
 # EN: Press [B] to rewind
 851379740=Naciśnij [B], aby cofnąć
 
-# EN: Press [E] for a timed sprint speed boost with cooldown
-1635903237=Naciśnij [E], aby uzyskać tymczasowy boost prędkości sprintu z cooldownem
-
 # EN: Press [G] to teleport forward in camera direction
 2203837878=Naciśnij [G], aby teleportować się do przodu w kierunku kamery
 
-# EN: Press [G] while facing a wall to teleport through it (when Behind TP is off)
-3732057729=Naciśnij [G] patrząc na ścianę, aby teleportować się przez nią (gdy TP za gracza jest wył.)
-
-# EN: Press [H] to teleport onto the nearest rooftop above you
-2986434624=Naciśnij [H], aby teleportować się na najbliższy dach nad tobą
-
 # EN: Press [Space] while falling to instantly teleport to ground level
 1826113543=Naciśnij [Space] podczas spadania, aby natychmiast teleportować się na ziemię
-
-# EN: Press [U] to save position. Press again to teleport back.
-1036979568=Naciśnij [U], aby zapisać pozycję. Naciśnij ponownie, aby teleportować się z powrotem.
-
-# EN: Press [X] for brief invincibility + no collision + translucency
-4262347464=Naciśnij [X] dla krótkotrwałej nieśmiertelności + brak kolizji + przezroczystość
 
 # EN: Press a mouse button...
 3765670479=Naciśnij przycisk myszy...
@@ -3036,6 +3186,12 @@
 
 # EN: Projectile Tracers
 272599090=Ślady pocisków
+
+# EN: Prompt
+1703604247=Zapytanie
+
+# EN: Provider
+1958232576=Dostawca
 
 # EN: Proximity Alert
 1493469578=Alert zbliżeniowy
@@ -3184,6 +3340,9 @@
 # EN: Rate
 2120794248=Częstotliwość
 
+# EN: Rate##serp
+1131381918=Częstotliwość##serp
+
 # EN: Ready
 2084256605=Gotowy
 
@@ -3202,6 +3361,12 @@
 # EN: Reduction
 3286779414=Redukcja
 
+# EN: Refine
+415231836=Udoskonal
+
+# EN: Refine instruction:
+1983823845=Instrukcja udoskonalenia:
+
 # EN: Reflection
 1920016807=Odbicie
 
@@ -3217,6 +3382,9 @@
 # EN: Refreshing resources...
 3699535925=Odświeżanie zasobów...
 
+# EN: Registered But Not Triggered
+774818613=Zarejestrowane, ale nie wywołane
+
 # EN: Reload
 1571056488=Przeładuj
 
@@ -3229,8 +3397,14 @@
 # EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
 2465448157=Ustawienia renderowania są kontrolowane przez grę. VSync, pacing klatek i backend nie są konfigurowalne w FiveM.
 
+# EN: Repair
+3327385526=Napraw
+
 # EN: Repair Vehicle
 2429933431=Napraw pojazd
+
+# EN: Rescan
+764993821=Skanuj ponownie
 
 # EN: Reset
 3559176682=Resetuj
@@ -3264,6 +3438,9 @@
 
 # EN: Reset to defaults
 3361422027=Resetuj do domyślnych
+
+# EN: Resolution
+324784860=Rozdzielczość
 
 # EN: Resource
 1411351736=Zasób
@@ -3391,14 +3568,14 @@
 # EN: Save
 3357008648=Zapisz
 
-# EN: Save Here
-2753091722=Zapisz tutaj
+# EN: Save Current as Snippet
+2323029386=Zapisz bieżący jako snippet
 
 # EN: Save Interval
 269707535=Interwał zapisu
 
-# EN: Save your current position and teleport back later
-4024909457=Zapisz swoją pozycję i teleportuj się później
+# EN: Save Key
+579473751=Klawisz zapisu
 
 # EN: Saved
 2978706416=Zapisano
@@ -3406,11 +3583,11 @@
 # EN: Saved Configs
 860699809=Zapisane konfiguracje
 
-# EN: Saved Locations
-676178533=Zapisane lokalizacje
-
 # EN: Saved Themes
 2236251465=Zapisane motywy
+
+# EN: Saved:
+2514999957=Zapisano:
 
 # EN: Scale
 1342385372=Skala
@@ -3424,14 +3601,26 @@
 # EN: Scaling
 2369776673=Skalowanie
 
-# EN: Scan Triggers
-917870278=Skanuj triggery
+# EN: Scan
+3540220634=Skanuj
+
+# EN: Scan All
+826028443=Skanuj wszystko
 
 # EN: Scan for Anti-Cheat
 3069664885=Skanuj Anti-Cheat
 
+# EN: Scanning all resources...
+2180117493=Skanowanie wszystkich zasobów...
+
 # EN: Scanning for triggers...
 3267756685=Skanowanie triggerów...
+
+# EN: Scanning resources...
+3847585475=Skanowanie zasobów...
+
+# EN: Scanning...
+850446987=Skanowanie...
 
 # EN: Scans for anti-cheat modules every 10 seconds
 3500340240=Skanuje moduły anti-cheat co 10 sekund
@@ -3456,6 +3645,15 @@
 
 # EN: Script dump complete!
 2694683063=Zrzut skryptów zakończony!
+
+# EN: Script executed
+2428283588=Skrypt wykonany
+
+# EN: Script generated! Check the Editor tab.
+3624086178=Skrypt wygenerowany! Sprawdź zakładkę Edytor.
+
+# EN: Script stopped
+3609081985=Skrypt zatrzymany
 
 # EN: Scripts
 1044661261=Skrypty
@@ -3486,6 +3684,9 @@
 
 # EN: Search peds...
 3129217742=Szukaj pedów...
+
+# EN: Search players...
+3669430630=Szukaj graczy...
 
 # EN: Search resources...
 1910280218=Szukaj zasobów...
@@ -3523,6 +3724,9 @@
 # EN: Section Opacity
 1502378754=Przezroczystość sekcji
 
+# EN: Segmented
+1119367178=Segmentowy
+
 # EN: Segments
 390045222=Segmenty
 
@@ -3532,8 +3736,8 @@
 # EN: Select a player
 1427174365=Wybierz gracza
 
-# EN: Select a resource and click Scan Triggers to analyze event triggers.
-367930095=Wybierz zasób i kliknij Skanuj triggery, aby przeanalizować zdarzenia.
+# EN: Select a resource and click Scan to analyze, or Scan All for every resource.
+2327128316=Wybierz zasób i kliknij Skanuj, aby przeanalizować, lub Skanuj wszystko dla każdego zasobu.
 
 # EN: Select a resource from the list to view details.
 1234177780=Wybierz zasób z listy, aby zobaczyć szczegóły.
@@ -3547,6 +3751,9 @@
 # EN: Sensitivity
 1563795609=Czułość
 
+# EN: Sent to Event Parser (Events tab)
+3692631674=Wysłano do parsera zdarzeń (zakładka Zdarzenia)
+
 # EN: Sep Alpha
 307689876=Alpha separatora
 
@@ -3556,14 +3763,29 @@
 # EN: Serpentine
 2010529308=Serpentyna
 
+# EN: Server
+581657549=Serwer
+
 # EN: Server IP:
 3217114240=IP serwera:
+
+# EN: Server Info
+1790325725=Info o serwerze
+
+# EN: Set Key
+2397500189=Ustaw klawisz
 
 # EN: Set Model
 2741786040=Ustaw model
 
-# EN: Set per-feature keybinds via the gear icon
-438153059=Ustaw klawisze per funkcja przez ikonę koła zębatego
+# EN: Set alpha to 0 to use the text color instead.
+796381545=Ustaw alpha na 0, aby użyć koloru tekstu.
+
+# EN: Set anchor + teleport to it with separate keys
+2852415891=Ustaw kotwicę + teleportuj się do niej osobnymi klawiszami
+
+# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
+1002208503=Ustaw klawisze per funkcja przez ikonę koła zębatego w każdym wierszu (kliknij prawym lub koło zębate).
 
 # EN: Settings
 2768156407=Ustawienia
@@ -3616,11 +3838,11 @@
 # EN: Shots Min
 4101905516=Min. strzałów
 
+# EN: Show
+4237361361=Pokaż
+
 # EN: Show Advanced
 2451177577=Pokaż zaawansowane
-
-# EN: Show Bar
-2024828132=Pokaż pasek
 
 # EN: Show Category
 966325046=Pokaż kategorię
@@ -3654,6 +3876,12 @@
 
 # EN: Show Icon
 1657507605=Pokaż ikonę
+
+# EN: Show Icons
+2900082090=Pokaż ikony
+
+# EN: Show Key
+477177816=Klawisz pokazywania
 
 # EN: Show Line
 1200799385=Pokaż linię
@@ -3760,6 +3988,12 @@
 # EN: Skeleton
 1816727634=Szkielet
 
+# EN: Skeleton 1
+663554603=Szkielet 1
+
+# EN: Skeleton 2
+911943623=Szkielet 2
+
 # EN: Skeleton Only
 1732653347=Tylko szkielet
 
@@ -3780,9 +4014,6 @@
 
 # EN: Skips falling scream
 2453340543=Pomija krzyk podczas spadania
-
-# EN: Skull
-4060956970=Czaszka
 
 # EN: Sky
 159192176=Niebo
@@ -3814,9 +4045,6 @@
 # EN: Sliders
 2297082388=Suwaki
 
-# EN: Slot
-933689839=Slot
-
 # EN: Small
 3085983008=Mały
 
@@ -3843,6 +4071,12 @@
 
 # EN: Snipers
 453460956=Snajperki
+
+# EN: Snippet name:
+1640117038=Nazwa snippetu:
+
+# EN: Snippets
+2837387043=Snippety
 
 # EN: Snow
 4021743606=Śnieg
@@ -3886,9 +4120,6 @@
 # EN: Speed
 4187447851=Prędkość
 
-# EN: Speed Burst
-3918175031=Burst prędkości
-
 # EN: Speed Overlay
 4009411811=Nakładka prędkości
 
@@ -3897,6 +4128,9 @@
 
 # EN: Speed##hpsmooth
 2272127628=Prędkość##hpsmooth
+
+# EN: Speed##serp
+3668104492=Prędkość##serp
 
 # EN: Speeds up climbing and vaulting animations
 884886740=Przyspiesza animacje wspinaczki i przeskakiwania
@@ -3970,11 +4204,14 @@
 # EN: Stream Proof
 3106534202=Stream Proof
 
+# EN: Stream Proof ACTIVE
+2348867233=Stream Proof AKTYWNY
+
 # EN: Stream Proof Mode
 3011027665=Tryb Stream Proof
 
-# EN: Stream Proof is currently unavailable in FiveM. Enabling it may cause crashes.
-2952089962=Stream Proof jest obecnie niedostępny w FiveM. Włączenie może powodować crashe.
+# EN: Stream Proof is experimental - may cause issues on some systems.
+1371944424=Stream Proof jest eksperymentalny - może powodować problemy na niektórych systemach.
 
 # EN: Streamer
 322333922=Streamer
@@ -3985,8 +4222,20 @@
 # EN: Style
 2840017588=Styl
 
+# EN: Style##hp
+2155290340=Styl##hp
+
+# EN: Sub-Tab Icons
+2125121217=Ikony pod-zakładek
+
 # EN: Sub-Tabs
 4235856483=Pod-zakładki
+
+# EN: Success
+975994832=Sukces
+
+# EN: Success notification
+3286108452=Powiadomienie o sukcesie
 
 # EN: Success##notif
 124336157=Sukces##notif
@@ -4047,6 +4296,9 @@
 
 # EN: T20
 1663218586=T20
+
+# EN: TXT
+2010905253=TXT
 
 # EN: Tab Bar Style
 4174884294=Styl paska zakładek
@@ -4114,6 +4366,15 @@
 # EN: Teleport Gun
 1763910974=Broń teleportująca
 
+# EN: Teleport Into
+2286719768=Teleportuj do środka
+
+# EN: Teleport Key
+268016086=Klawisz teleportu
+
+# EN: Teleport To
+1887426362=Teleportuj do
+
 # EN: Teleport to Coords
 3551972134=Teleport do współrzędnych
 
@@ -4128,6 +4389,12 @@
 
 # EN: Teleport vehicle with you
 2332352547=Teleportuj pojazd z sobą
+
+# EN: Templates
+3044988383=Szablony
+
+# EN: Test
+1064684737=Test
 
 # EN: Text
 2134593963=Tekst
@@ -4201,9 +4468,6 @@
 # EN: Thickness##tt
 3534806773=Grubość##tt
 
-# EN: This feature is currently in development.
-2985474122=Ta funkcja jest obecnie w trakcie rozwoju.
-
 # EN: This feature requires a paid subscription.
 3394398001=Ta funkcja wymaga płatnej subskrypcji.
 
@@ -4234,11 +4498,11 @@
 # EN: Time
 258444835=Czas
 
-# EN: Time & Weather
-1757582708=Czas i pogoda
-
 # EN: Timing
 4122073465=Timing
+
+# EN: Tip Color
+520645681=Kolor końcówki
 
 # EN: Tire Lights
 3627926876=Światła opon
@@ -4309,6 +4573,9 @@
 # EN: Top Left
 3111925763=Lewy góra
 
+# EN: Top Resources
+670453582=Główne zasoby
+
 # EN: Top Right
 3678979058=Prawy góra
 
@@ -4323,6 +4590,9 @@
 
 # EN: Track Opacity
 902824788=Przezroczystość toru
+
+# EN: Tracked Players
+1590211961=Śledzeni gracze
 
 # EN: Tracks
 794089857=Tory
@@ -4342,17 +4612,23 @@
 # EN: Transparent Ocean
 2138197132=Przezroczysty ocean
 
-# EN: Triangle
-2990077322=Trójkąt
+# EN: Trigger & Block
+4206134730=Wywołaj i zablokuj
 
 # EN: Trigger Bot
 1558371298=Trigger Bot
+
+# EN: Trigger Event
+4138217246=Wywołaj zdarzenie
 
 # EN: Trigger FOV
 3216427474=FOV triggera
 
 # EN: Triggerbot
 1477138198=Triggerbot
+
+# EN: Triggered Without Handler
+3055780408=Wywołane bez obsługi
 
 # EN: Triggers
 489495302=Triggery
@@ -4362,6 +4638,9 @@
 
 # EN: Trusted
 2045336469=Zaufany
+
+# EN: Tuning##sa
+2759235521=Strojenie##sa
 
 # EN: Type
 828747869=Typ
@@ -4375,8 +4654,17 @@
 # EN: Unbind
 2907191925=Odwiąż
 
+# EN: Unblock
+1287977995=Odblokuj
+
+# EN: Unblock All
+3468373934=Odblokuj wszystko
+
 # EN: Underline
 1892791043=Podkreślenie
+
+# EN: Unlock
+2562373009=Odblokuj
 
 # EN: Update Rate
 1699227283=Częstotliwość aktualizacji
@@ -4384,14 +4672,14 @@
 # EN: Upgrade at scoobymenu.xyz to unlock all features.
 2859334871=Ulepsz na scoobymenu.xyz aby odblokować wszystkie funkcje.
 
+# EN: Uptime
+3436261580=Czas działania
+
 # EN: Use Anyway
 2296300728=Użyj mimo to
 
 # EN: Use Camera Direction
 2733983925=Użyj kierunku kamery
-
-# EN: Use Damage Event
-1180278030=Użyj zdarzenia obrażeń
 
 # EN: Use Fill mode for best results.
 1995125884=Użyj trybu wypełnienia dla najlepszych efektów.
@@ -4435,6 +4723,9 @@
 # EN: Vehicle NoClip
 1762582941=Pojazd NoClip
 
+# EN: Vehicle Radar
+2113603547=Radar pojazdów
+
 # EN: Vehicle Ram
 3560309762=Taranowanie pojazdem
 
@@ -4461,6 +4752,9 @@
 
 # EN: View
 2604534539=Widok
+
+# EN: View Manifest
+3821572149=Pokaż manifest
 
 # EN: Visibility Check
 2235775772=Sprawdzanie widoczności
@@ -4489,6 +4783,9 @@
 # EN: W
 1486926112=W
 
+# EN: Waiting for scan...
+4212713308=Oczekiwanie na skanowanie...
+
 # EN: Walk Through
 1411964451=Przechodzenie
 
@@ -4497,9 +4794,6 @@
 
 # EN: Walking
 921688979=Chodzenie
-
-# EN: Wall Bounce
-3276303643=Odbicie od ściany
 
 # EN: Walls Only
 613995149=Tylko ściany
@@ -4510,8 +4804,14 @@
 # EN: Warning
 3911129148=Ostrzeżenie
 
+# EN: Warning notification
+1083834536=Powiadomienie ostrzegawcze
+
 # EN: Warning##notif
 496177476=Ostrzeżenie##notif
+
+# EN: Warning: Using free menus may result in an instant kick or ban from the server. Use at your own risk.
+2630775189=Uwaga: Korzystanie z darmowych menu może skutkować natychmiastowym kickiem lub banem z serwera. Używasz na własne ryzyko.
 
 # EN: Water Height
 2028138289=Wysokość wody
@@ -4561,11 +4861,17 @@
 # EN: Welcome! Let's get you set up.
 2895282766=Witaj! Skonfigurujmy wszystko.
 
+# EN: What to Hide
+894456580=Co ukryć
+
 # EN: What's New
 2022498171=Co nowego
 
 # EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
 3837149149=Po włączeniu, Lista klawiszy, Statystyki wydajności, Lista graczy i Obserwator używają kolorów znaku wodnego.
+
+# EN: When enabled, overlays use Watermark colors.
+445204605=Po włączeniu nakładki używają kolorów znaku wodnego.
 
 # EN: While aiming (RMB), press A/D to instantly teleport left/right
 1256253770=Podczas celowania (RMB), naciśnij A/D, aby natychmiast teleportować się w lewo/prawo
@@ -4581,6 +4887,9 @@
 
 # EN: Width Ratio
 257781133=Proporcja szerokości
+
+# EN: Width##serp
+3651645440=Szerokość##serp
 
 # EN: Window
 1722301922=Okno
@@ -4648,8 +4957,6 @@
 # EN: joined the server
 2662745418=dołączył do serwera
 
-# EN: on each feature row (right-click or click gear).
-3640762816=na każdym wierszu funkcji (kliknij prawym lub kliknij koło zębate).
-
 # EN: result(s)
 1448839259=wynik(i)
+

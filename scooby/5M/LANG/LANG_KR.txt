@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Korean (한국어)
 # Auth data_var name: LANG_KR
-# Total strings: 1550
+# Total strings: 1652
 # Format: JOAAT_HASH=translated text
 #
 
@@ -22,11 +22,23 @@
 # EN: 0 = feet, 0.9 = center, 1.8 = head
 3348539186=0 = 발, 0.9 = 중심, 1.8 = 머리
 
+# EN: 1% Low
+499497665=1% 최저
+
 # EN: 3D Box
 94557236=3D 박스
 
 # EN: AC Overlay
 2376138547=AC 오버레이
+
+# EN: AI
+182200381=AI
+
+# EN: AI Script
+3105376127=AI 스크립트
+
+# EN: API key saved locally
+3499322037=API 키가 로컬에 저장됨
 
 # EN: Abilities
 2653368607=능력
@@ -157,6 +169,9 @@
 # EN: Alpha
 767087018=Alpha
 
+# EN: Also While Running
+2264771198=달리는 중에도
+
 # EN: Ammo
 307971639=탄약
 
@@ -268,6 +283,9 @@
 # EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
 4247923858=스나이퍼 스코프 사용 시 FOV, 스무딩, 예측 자동 조절
 
+# EN: Auto-scan events
+710508198=이벤트 자동 스캔
+
 # EN: Auto-zigzag while sprinting to dodge bullets
 1713564836=달리기 중 자동 지그재그로 총알 회피
 
@@ -325,6 +343,9 @@
 # EN: Background##weapon
 1937834289=배경##weapon
 
+# EN: Bar
+2151715081=바
+
 # EN: Basic
 4281242592=기본
 
@@ -369,6 +390,12 @@
 
 # EN: Blizzard
 669657108=블리자드
+
+# EN: Block
+3828602749=차단
+
+# EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
+366586212=차단은 CancelEvent()로 이벤트를 가로챕니다. 차단 해제는 이벤트를 다시 등록합니다.
 
 # EN: Blood Red
 3933943680=블러드 레드
@@ -460,6 +487,9 @@
 # EN: Brightness
 26603225=밝기
 
+# EN: Bring Vehicle
+1548014332=차량 가져오기
+
 # EN: Bring to Me
 4191259033=나에게 가져오기
 
@@ -475,14 +505,8 @@
 # EN: Bullet Proof
 1262983692=총알 방어
 
-# EN: Bullet Redirect##sa
-2808025987=탄환 리다이렉트##sa
-
 # EN: Bullet Tracers
 2673625274=탄도 추적선
-
-# EN: Bullet spawn (visible tracer)
-210089287=탄환 생성 (보이는 추적선)
 
 # EN: Burn
 2096267097=화상
@@ -507,6 +531,9 @@
 
 # EN: Buttons
 2668497503=버튼
+
+# EN: By Type
+132944993=유형별
 
 # EN: Bypassed
 716678219=우회됨
@@ -547,6 +574,9 @@
 # EN: Change Rate
 949770967=변경 속도
 
+# EN: China
+3307270334=중국
+
 # EN: Circle
 3333310803=원
 
@@ -567,6 +597,18 @@
 
 # EN: Clear Console
 1742492619=콘솔 지우기
+
+# EN: Clear History
+3502477242=기록 지우기
+
+# EN: Clear Key
+1838276207=키 지우기
+
+# EN: Clear on Teleport
+1659055056=텔레포트 시 지우기
+
+# EN: Click Start to scan server resources for events.
+2559388892=시작을 클릭하여 서버 리소스에서 이벤트를 스캔합니다.
 
 # EN: Click UI
 1200896506=클릭 UI
@@ -640,6 +682,9 @@
 # EN: Combat Utility
 3560879723=전투 유틸리티
 
+# EN: Coming Soon
+3566187245=곧 출시
+
 # EN: Compass
 3738173000=나침반
 
@@ -673,6 +718,9 @@
 # EN: Connect Distance
 2509032464=연결 거리
 
+# EN: Connected Players
+3406740022=접속 플레이어
+
 # EN: Console
 716138132=콘솔
 
@@ -700,12 +748,6 @@
 # EN: Cooldown
 1178968787=쿨다운
 
-# EN: Cooldown##burst
-1055026799=쿨다운##burst
-
-# EN: Cooldown##phase
-3556912950=쿨다운##phase
-
 # EN: Cooldown##strafe
 1574937247=쿨다운##strafe
 
@@ -718,8 +760,14 @@
 # EN: Copied event name to clipboard
 3300867=이벤트 이름이 클립보드에 복사됨
 
+# EN: Copied to clipboard
+1053518268=클립보드에 복사됨
+
 # EN: Copy
 393356872=복사
+
+# EN: Copy All
+4085295539=모두 복사
 
 # EN: Copy ID
 3639484515=ID 복사
@@ -808,6 +856,9 @@
 # EN: Dawn
 4259095408=새벽
 
+# EN: Dead
+3384366314=사망
+
 # EN: Dead Zone
 2069969159=데드 존
 
@@ -850,17 +901,26 @@
 # EN: Delete Veh
 895942370=차량 삭제
 
+# EN: Delete Vehicle
+37332959=차량 삭제
+
 # EN: Delete this config?
 2115476497=이 설정을 삭제하시겠습니까?
 
 # EN: Delete this theme?
 2754582444=이 테마를 삭제하시겠습니까?
 
+# EN: Deleted:
+3394613473=삭제됨:
+
 # EN: Deluxo Mode
 4200523197=Deluxo 모드
 
 # EN: Density
 3843932311=밀도
+
+# EN: Describe what you want:
+1226247808=원하는 것을 설명하세요:
 
 # EN: Detach
 4291111140=분리
@@ -888,9 +948,6 @@
 
 # EN: Dim Amount
 1388938324=어둡기 정도
-
-# EN: Direct damage (more reliable)
-11698873=직접 데미지 (더 안정적)
 
 # EN: Direction
 887068712=방향
@@ -937,9 +994,6 @@
 # EN: Display Mode
 200820562=디스플레이 모드
 
-# EN: Dist
-3531260757=거리
-
 # EN: Distance
 3607074178=거리
 
@@ -966,9 +1020,6 @@
 
 # EN: Distance##veh
 3820228410=거리##veh
-
-# EN: Distance##wall
-2273036223=거리##wall
 
 # EN: Dive Jump
 2731982236=다이브 점프
@@ -999,6 +1050,9 @@
 
 # EN: Dotted Line
 3435322722=점선
+
+# EN: Double-click an event in the Logger to copy its name here.
+847266517=Logger에서 이벤트를 더블클릭하여 여기에 이름을 복사합니다.
 
 # EN: Draggable
 3287744767=드래그 가능
@@ -1072,17 +1126,11 @@
 # EN: Duration
 3674968789=지속 시간
 
-# EN: Duration##burst
-1617674729=지속 시간##burst
-
 # EN: Duration##dmglog
 2155043513=지속 시간##dmglog
 
 # EN: Duration##dmgnum
 1606858786=지속 시간##dmgnum
-
-# EN: Duration##phase
-416318694=지속 시간##phase
 
 # EN: Duration##pt
 2015408410=지속 시간##pt
@@ -1105,6 +1153,9 @@
 # EN: ESP
 3007444226=ESP
 
+# EN: ESP Settings
+3361209094=ESP 설정
+
 # EN: Edge Arrows
 3739190029=가장자리 화살표
 
@@ -1113,6 +1164,12 @@
 
 # EN: Editor
 1766080170=에디터
+
+# EN: Editor is empty
+2785403049=에디터가 비어있습니다
+
+# EN: Editor is empty. Write or generate code first.
+2617489156=에디터가 비어있습니다. 먼저 코드를 작성하거나 생성하세요.
 
 # EN: Effect
 860884915=효과
@@ -1131,9 +1188,6 @@
 
 # EN: Embedded
 2292057362=내장
-
-# EN: Empty
-3151330285=비어있음
 
 # EN: Empty Only
 335310304=비어있는 것만
@@ -1198,11 +1252,35 @@
 # EN: Enter name...
 3545940642=이름 입력...
 
+# EN: Entities
+3433796359=엔티티
+
 # EN: Entity Count
 495352207=엔티티 수
 
+# EN: Error
+3374345388=오류
+
+# EN: Error notification
+280995787=오류 알림
+
 # EN: Error##notif
 3944622010=오류##notif
+
+# EN: Event Blocker
+2348049901=이벤트 차단기
+
+# EN: Event Logger
+4055111064=이벤트 로거
+
+# EN: Event name...
+1453694419=이벤트 이름...
+
+# EN: Event to block...
+3761220325=차단할 이벤트...
+
+# EN: Events
+3674287931=이벤트
 
 # EN: Expand Sub-Tabs
 788906364=서브탭 펼치기
@@ -1357,14 +1435,14 @@
 # EN: Filled
 238956158=채움
 
-# EN: Filled Circle
-1999419602=채워진 원
-
 # EN: Filter
 1239184307=필터
 
-# EN: Filter by event name or type...
-764300805=이벤트 이름 또는 유형으로 필터...
+# EN: Filter by event name...
+3189816270=이벤트 이름으로 필터...
+
+# EN: Filter events / resources...
+2239256256=이벤트 / 리소스 필터...
 
 # EN: Filter##mb
 982138645=필터##mb
@@ -1374,6 +1452,9 @@
 
 # EN: Filter##trig
 1506659606=필터##trig
+
+# EN: Filter...
+384945571=필터...
 
 # EN: Filter:
 585229116=필터:
@@ -1392,6 +1473,9 @@
 
 # EN: Fire Delay
 425570614=발사 지연
+
+# EN: Fire Event
+2661019027=이벤트 실행
 
 # EN: Fire Proof
 2377383169=화염 방어
@@ -1501,11 +1585,17 @@
 # EN: Forces uphill jump animation
 1929062318=오르막 점프 애니메이션 강제
 
+# EN: Forward Speed
+1876555102=전방 속도
+
 # EN: Frametime Graph
 3749077224=프레임타임 그래프
 
 # EN: Frametime Stats
 3723639030=프레임타임 통계
+
+# EN: Free Menus
+2609200059=무료 메뉴
 
 # EN: Freecam
 3443129427=Freecam
@@ -1543,6 +1633,9 @@
 # EN: Fully heals HP + gives 50 armor when you kill a player
 2096177985=플레이어 킬 시 HP 완전 회복 + 방어력 50 지급
 
+# EN: GPU
+591383768=GPU
+
 # EN: Gamma
 1617619096=감마
 
@@ -1551,6 +1644,9 @@
 
 # EN: General
 1798635104=일반
+
+# EN: Generate
+1864538988=생성
 
 # EN: Get Started
 1434685453=시작하기
@@ -1717,9 +1813,6 @@
 # EN: Groups
 2437998540=그룹
 
-# EN: HP
-1833919794=HP
-
 # EN: HUD
 2488248793=HUD
 
@@ -1728,6 +1821,15 @@
 
 # EN: Hands
 1613305285=손
+
+# EN: Hat
+2537416713=모자
+
+# EN: Hat Color
+2197204917=모자 색상
+
+# EN: Hat Style
+3968368516=모자 스타일
 
 # EN: Head
 2220048209=머리
@@ -1834,8 +1936,23 @@
 # EN: Hide Background
 1550833432=배경 숨기기
 
-# EN: High Ground
-3194084088=높은 지형
+# EN: Hide Crosshair / FOV
+2570807650=조준선 / FOV 숨기기
+
+# EN: Hide ESP
+3489105641=ESP 숨기기
+
+# EN: Hide Key
+1973484404=숨기기 키
+
+# EN: Hide Menu
+1560947015=메뉴 숨기기
+
+# EN: Hide Overlays
+1525934716=오버레이 숨기기
+
+# EN: Hide Tracers / Lines
+425240012=추적선 / 선 숨기기
 
 # EN: Highlight Headshots
 1100352321=헤드샷 하이라이트
@@ -1845,6 +1962,9 @@
 
 # EN: Hill Jump
 327623110=언덕 점프
+
+# EN: History
+2023011857=기록
 
 # EN: Hit Chance
 3254221308=적중 확률
@@ -1875,9 +1995,6 @@
 
 # EN: Hold Mode
 200873681=홀드 모드
-
-# EN: Hold [V] to lean sideways (camera right). Release to snap back.
-4221385416=[V]를 눌러 옆으로 기울이기 (카메라 오른쪽). 놓으면 원래로 복귀.
 
 # EN: Horizon
 3479812369=수평선
@@ -1918,6 +2035,9 @@
 # EN: Icon / Accent
 1566350195=아이콘 / 강조
 
+# EN: Icon Active Color
+4093685107=아이콘 활성 색상
+
 # EN: Icon Below Text
 1121926930=텍스트 아래 아이콘
 
@@ -1929,6 +2049,9 @@
 
 # EN: Icon Size
 3757913751=아이콘 크기
+
+# EN: Icon Spacing
+4004566715=아이콘 간격
 
 # EN: Icons + Text
 2093021283=아이콘 + 텍스트
@@ -2011,6 +2134,9 @@
 # EN: Info
 1745727664=정보
 
+# EN: Info notification
+15919856=정보 알림
+
 # EN: Info##notif
 3630429841=정보##notif
 
@@ -2025,6 +2151,9 @@
 
 # EN: Input Text
 4135476111=입력 텍스트
+
+# EN: Insert
+3380657922=Insert
 
 # EN: Instant Blend
 2839309838=즉시 블렌드
@@ -2077,8 +2206,14 @@
 # EN: JATO Boost
 959701148=JATO 부스트
 
+# EN: JSON
+1493832359=JSON
+
 # EN: Jitter
 2175396620=지터
+
+# EN: Joint Color
+1649662583=관절 색상
 
 # EN: Joint Size
 2337031930=관절 크기
@@ -2118,6 +2253,9 @@
 
 # EN: Keybinds
 1174365445=키 바인드
+
+# EN: Keys
+748271464=키
 
 # EN: Kick
 2221159044=킥
@@ -2239,6 +2377,9 @@
 # EN: Loaded
 538484865=불러옴
 
+# EN: Loaded from history
+1954185637=기록에서 불러옴
+
 # EN: Loading fonts...
 742296178=글꼴 로딩 중...
 
@@ -2253,6 +2394,9 @@
 
 # EN: Local Only
 1718906169=로컬만
+
+# EN: Local Player
+3579097795=로컬 플레이어
 
 # EN: Lock On
 3927233622=락온
@@ -2320,9 +2464,6 @@
 # EN: Magic Bullet
 2156396594=매직 불릿
 
-# EN: Magic Bullet — Being worked on, stay tuned!
-861480969=매직 불릿 — 개발 중, 기대해주세요!
-
 # EN: Magnet
 959551543=자석
 
@@ -2341,20 +2482,11 @@
 # EN: Makes you invisible to other players
 4237882355=다른 플레이어에게 보이지 않게 됩니다
 
+# EN: Manifest copied to clipboard
+4150163724=매니페스트가 클립보드에 복사됨
+
 # EN: Map Image
 2485108282=맵 이미지
-
-# EN: Map Max X
-1163433574=맵 최대 X
-
-# EN: Map Max Y
-3076815488=맵 최대 Y
-
-# EN: Map Min X
-1971207017=맵 최소 X
-
-# EN: Map Min Y
-2893949292=맵 최소 Y
 
 # EN: Marker Duration
 3550132583=마커 지속 시간
@@ -2476,6 +2608,9 @@
 # EN: Mode##glow
 1534494585=모드##glow
 
+# EN: Model
+1816327236=모델
+
 # EN: Modules
 2096891096=모듈
 
@@ -2487,6 +2622,9 @@
 
 # EN: Morning
 852964312=아침
+
+# EN: Most Referenced Events
+962784570=가장 많이 참조된 이벤트
 
 # EN: Movement
 2799785395=이동
@@ -2500,9 +2638,6 @@
 # EN: Multiple rings stack from feet to head
 1361975713=여러 링이 발에서 머리까지 쌓임
 
-# EN: Multiplier
-3903859967=배율
-
 # EN: N
 3649581809=N
 
@@ -2511,6 +2646,9 @@
 
 # EN: NPC
 3921142999=NPC
+
+# EN: NPCs
+1186745040=NPC
 
 # EN: NPCs Only
 3543922621=NPC만
@@ -2587,6 +2725,9 @@
 # EN: New Color
 2772632083=새 색상
 
+# EN: New Script
+1417129088=새 스크립트
+
 # EN: Night
 1417207314=밤
 
@@ -2634,6 +2775,9 @@
 
 # EN: No dump in progress.
 2622343018=진행 중인 덤프 없음.
+
+# EN: No events blocked
+656685112=차단된 이벤트 없음
 
 # EN: No fall damage from any height
 951215153=어떤 높이에서든 낙하 데미지 없음
@@ -2791,6 +2935,9 @@
 # EN: Outline Width
 1689303532=외곽선 너비
 
+# EN: Outline##head
+1915029405=외곽선##head
+
 # EN: Output Directory:
 3566541914=출력 디렉토리:
 
@@ -2817,6 +2964,9 @@
 
 # EN: Override jump flags for custom jump behavior
 3362934371=사용자 지정 점프 동작을 위한 점프 플래그 오버라이드
+
+# EN: Overview
+118778200=개요
 
 # EN: PANIC MODE ACTIVE
 1272225111=패닉 모드 활성
@@ -2857,17 +3007,29 @@
 # EN: Parachute Jump
 3658517243=낙하산 점프
 
+# EN: Parse
+1004532644=파싱
+
 # EN: Particle FX
 2124068847=파티클 FX
 
 # EN: Particle FX Color
 894474043=파티클 FX 색상
 
+# EN: Party
+1132658614=파티
+
 # EN: Pass Through
 3173995589=통과
 
 # EN: Passively regenerate health over time
 240888173=시간에 따라 체력을 자동 재생
+
+# EN: Paste
+569442244=붙여넣기
+
+# EN: Paste your API key here...
+261626132=API 키를 여기에 붙여넣으세요...
 
 # EN: Path:
 507121814=경로:
@@ -2890,9 +3052,6 @@
 # EN: Peds / NPCs
 1876490144=Ped / NPC
 
-# EN: Peek
-1159958869=엿보기
-
 # EN: Per-Feature Binds
 2900791157=기능별 바인드
 
@@ -2901,9 +3060,6 @@
 
 # EN: Performance Stats
 4260591683=성능 통계
-
-# EN: Phase Shift
-2620975702=Phase Shift
 
 # EN: Pill
 2294717198=필
@@ -2917,6 +3073,9 @@
 # EN: Pill Pad Y
 352596684=필 패딩 Y
 
+# EN: Ping
+1218843674=Ping
+
 # EN: Pipe Bombs, Proximity Mines, Flares
 1693538821=파이프 폭탄, 근접 지뢰, 조명탄
 
@@ -2928,6 +3087,9 @@
 
 # EN: Player
 1862763509=플레이어
+
+# EN: Player Index
+607652568=플레이어 인덱스
 
 # EN: Player Trail
 536495684=플레이어 궤적
@@ -2971,6 +3133,9 @@
 # EN: Prediction##sa
 43230462=예측##sa
 
+# EN: Premium Menus
+4177668372=프리미엄 메뉴
+
 # EN: Preset
 2973707311=프리셋
 
@@ -2980,26 +3145,11 @@
 # EN: Press [B] to rewind
 851379740=[B]를 눌러 되감기
 
-# EN: Press [E] for a timed sprint speed boost with cooldown
-1635903237=[E]를 눌러 쿨다운 있는 달리기 속도 부스트
-
 # EN: Press [G] to teleport forward in camera direction
 2203837878=[G]를 눌러 카메라 방향으로 텔레포트
 
-# EN: Press [G] while facing a wall to teleport through it (when Behind TP is off)
-3732057729=벽을 향해 [G]를 눌러 벽을 통과 텔레포트 (Behind TP 끄기 시)
-
-# EN: Press [H] to teleport onto the nearest rooftop above you
-2986434624=[H]를 눌러 가장 가까운 옥상으로 텔레포트
-
 # EN: Press [Space] while falling to instantly teleport to ground level
 1826113543=낙하 중 [Space]를 눌러 즉시 지면으로 텔레포트
-
-# EN: Press [U] to save position. Press again to teleport back.
-1036979568=[U]를 눌러 위치 저장. 다시 눌러 텔레포트.
-
-# EN: Press [X] for brief invincibility + no collision + translucency
-4262347464=[X]를 눌러 잠시 무적 + 충돌 없음 + 반투명
 
 # EN: Press a mouse button...
 3765670479=마우스 버튼을 누르세요...
@@ -3036,6 +3186,12 @@
 
 # EN: Projectile Tracers
 272599090=투사체 추적선
+
+# EN: Prompt
+1703604247=프롬프트
+
+# EN: Provider
+1958232576=제공자
 
 # EN: Proximity Alert
 1493469578=근접 경보
@@ -3184,6 +3340,9 @@
 # EN: Rate
 2120794248=비율
 
+# EN: Rate##serp
+1131381918=비율##serp
+
 # EN: Ready
 2084256605=준비됨
 
@@ -3202,6 +3361,12 @@
 # EN: Reduction
 3286779414=감소량
 
+# EN: Refine
+415231836=다듬기
+
+# EN: Refine instruction:
+1983823845=다듬기 지시:
+
 # EN: Reflection
 1920016807=반사
 
@@ -3217,6 +3382,9 @@
 # EN: Refreshing resources...
 3699535925=리소스 새로고침 중...
 
+# EN: Registered But Not Triggered
+774818613=등록되었지만 실행되지 않음
+
 # EN: Reload
 1571056488=재장전
 
@@ -3229,8 +3397,14 @@
 # EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
 2465448157=렌더링 설정은 게임에서 제어합니다. VSync, 프레임 페이싱, 백엔드는 FiveM에서 설정할 수 없습니다.
 
+# EN: Repair
+3327385526=수리
+
 # EN: Repair Vehicle
 2429933431=차량 수리
+
+# EN: Rescan
+764993821=재스캔
 
 # EN: Reset
 3559176682=초기화
@@ -3264,6 +3438,9 @@
 
 # EN: Reset to defaults
 3361422027=기본값으로 초기화
+
+# EN: Resolution
+324784860=해상도
 
 # EN: Resource
 1411351736=리소스
@@ -3391,14 +3568,14 @@
 # EN: Save
 3357008648=저장
 
-# EN: Save Here
-2753091722=여기에 저장
+# EN: Save Current as Snippet
+2323029386=현재 내용을 스니펫으로 저장
 
 # EN: Save Interval
 269707535=저장 간격
 
-# EN: Save your current position and teleport back later
-4024909457=현재 위치를 저장하고 나중에 텔레포트
+# EN: Save Key
+579473751=저장 키
 
 # EN: Saved
 2978706416=저장됨
@@ -3406,11 +3583,11 @@
 # EN: Saved Configs
 860699809=저장된 설정
 
-# EN: Saved Locations
-676178533=저장된 위치
-
 # EN: Saved Themes
 2236251465=저장된 테마
+
+# EN: Saved:
+2514999957=저장됨:
 
 # EN: Scale
 1342385372=크기
@@ -3424,14 +3601,26 @@
 # EN: Scaling
 2369776673=스케일링
 
-# EN: Scan Triggers
-917870278=트리거 스캔
+# EN: Scan
+3540220634=스캔
+
+# EN: Scan All
+826028443=전체 스캔
 
 # EN: Scan for Anti-Cheat
 3069664885=안티치트 스캔
 
+# EN: Scanning all resources...
+2180117493=모든 리소스 스캔 중...
+
 # EN: Scanning for triggers...
 3267756685=트리거 스캔 중...
+
+# EN: Scanning resources...
+3847585475=리소스 스캔 중...
+
+# EN: Scanning...
+850446987=스캔 중...
 
 # EN: Scans for anti-cheat modules every 10 seconds
 3500340240=10초마다 안티치트 모듈 스캔
@@ -3456,6 +3645,15 @@
 
 # EN: Script dump complete!
 2694683063=스크립트 덤프 완료!
+
+# EN: Script executed
+2428283588=스크립트 실행됨
+
+# EN: Script generated! Check the Editor tab.
+3624086178=스크립트 생성 완료! 에디터 탭을 확인하세요.
+
+# EN: Script stopped
+3609081985=스크립트 중지됨
 
 # EN: Scripts
 1044661261=스크립트
@@ -3486,6 +3684,9 @@
 
 # EN: Search peds...
 3129217742=Ped 검색...
+
+# EN: Search players...
+3669430630=플레이어 검색...
 
 # EN: Search resources...
 1910280218=리소스 검색...
@@ -3523,6 +3724,9 @@
 # EN: Section Opacity
 1502378754=섹션 불투명도
 
+# EN: Segmented
+1119367178=분할형
+
 # EN: Segments
 390045222=세그먼트
 
@@ -3532,8 +3736,8 @@
 # EN: Select a player
 1427174365=플레이어 선택
 
-# EN: Select a resource and click Scan Triggers to analyze event triggers.
-367930095=리소스를 선택하고 트리거 스캔을 클릭하여 이벤트 트리거를 분석하세요.
+# EN: Select a resource and click Scan to analyze, or Scan All for every resource.
+2327128316=리소스를 선택하고 스캔을 클릭하여 분석하거나, 전체 스캔으로 모든 리소스를 분석합니다.
 
 # EN: Select a resource from the list to view details.
 1234177780=목록에서 리소스를 선택하여 상세 보기.
@@ -3547,6 +3751,9 @@
 # EN: Sensitivity
 1563795609=감도
 
+# EN: Sent to Event Parser (Events tab)
+3692631674=이벤트 파서로 전송됨 (Events 탭)
+
 # EN: Sep Alpha
 307689876=구분 알파
 
@@ -3556,14 +3763,29 @@
 # EN: Serpentine
 2010529308=Serpentine
 
+# EN: Server
+581657549=서버
+
 # EN: Server IP:
 3217114240=서버 IP:
+
+# EN: Server Info
+1790325725=서버 정보
+
+# EN: Set Key
+2397500189=키 설정
 
 # EN: Set Model
 2741786040=모델 설정
 
-# EN: Set per-feature keybinds via the gear icon
-438153059=톱니바퀴 아이콘으로 기능별 키를 설정하세요
+# EN: Set alpha to 0 to use the text color instead.
+796381545=알파를 0으로 설정하면 텍스트 색상을 대신 사용합니다.
+
+# EN: Set anchor + teleport to it with separate keys
+2852415891=별도 키로 앵커 설정 + 앵커로 텔레포트
+
+# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
+1002208503=각 기능 행의 톱니바퀴 아이콘으로 기능별 키바인드를 설정합니다 (우클릭 또는 톱니바퀴 클릭).
 
 # EN: Settings
 2768156407=설정
@@ -3616,11 +3838,11 @@
 # EN: Shots Min
 4101905516=최소 사격
 
+# EN: Show
+4237361361=표시
+
 # EN: Show Advanced
 2451177577=고급 표시
-
-# EN: Show Bar
-2024828132=바 표시
 
 # EN: Show Category
 966325046=카테고리 표시
@@ -3654,6 +3876,12 @@
 
 # EN: Show Icon
 1657507605=아이콘 표시
+
+# EN: Show Icons
+2900082090=아이콘 표시
+
+# EN: Show Key
+477177816=표시 키
 
 # EN: Show Line
 1200799385=선 표시
@@ -3760,6 +3988,12 @@
 # EN: Skeleton
 1816727634=스켈레톤
 
+# EN: Skeleton 1
+663554603=스켈레톤 1
+
+# EN: Skeleton 2
+911943623=스켈레톤 2
+
 # EN: Skeleton Only
 1732653347=스켈레톤만
 
@@ -3780,9 +4014,6 @@
 
 # EN: Skips falling scream
 2453340543=낙하 비명 건너뛰기
-
-# EN: Skull
-4060956970=해골
 
 # EN: Sky
 159192176=하늘
@@ -3814,9 +4045,6 @@
 # EN: Sliders
 2297082388=슬라이더
 
-# EN: Slot
-933689839=슬롯
-
 # EN: Small
 3085983008=작게
 
@@ -3843,6 +4071,12 @@
 
 # EN: Snipers
 453460956=스나이퍼
+
+# EN: Snippet name:
+1640117038=스니펫 이름:
+
+# EN: Snippets
+2837387043=스니펫
 
 # EN: Snow
 4021743606=눈
@@ -3886,9 +4120,6 @@
 # EN: Speed
 4187447851=속도
 
-# EN: Speed Burst
-3918175031=속도 버스트
-
 # EN: Speed Overlay
 4009411811=속도 오버레이
 
@@ -3897,6 +4128,9 @@
 
 # EN: Speed##hpsmooth
 2272127628=속도##hpsmooth
+
+# EN: Speed##serp
+3668104492=속도##serp
 
 # EN: Speeds up climbing and vaulting animations
 884886740=등반 및 넘기 애니메이션 가속
@@ -3970,11 +4204,14 @@
 # EN: Stream Proof
 3106534202=방송 보호
 
+# EN: Stream Proof ACTIVE
+2348867233=방송 보호 활성
+
 # EN: Stream Proof Mode
 3011027665=방송 보호 모드
 
-# EN: Stream Proof is currently unavailable in FiveM. Enabling it may cause crashes.
-2952089962=방송 보호는 현재 FiveM에서 사용할 수 없습니다. 활성화하면 크래시가 발생할 수 있습니다.
+# EN: Stream Proof is experimental - may cause issues on some systems.
+1371944424=방송 보호는 실험적 기능입니다 - 일부 시스템에서 문제가 발생할 수 있습니다.
 
 # EN: Streamer
 322333922=스트리머
@@ -3985,8 +4222,20 @@
 # EN: Style
 2840017588=스타일
 
+# EN: Style##hp
+2155290340=스타일##hp
+
+# EN: Sub-Tab Icons
+2125121217=서브탭 아이콘
+
 # EN: Sub-Tabs
 4235856483=서브탭
+
+# EN: Success
+975994832=성공
+
+# EN: Success notification
+3286108452=성공 알림
 
 # EN: Success##notif
 124336157=성공##notif
@@ -4047,6 +4296,9 @@
 
 # EN: T20
 1663218586=T20
+
+# EN: TXT
+2010905253=TXT
 
 # EN: Tab Bar Style
 4174884294=탭 바 스타일
@@ -4114,6 +4366,15 @@
 # EN: Teleport Gun
 1763910974=텔레포트 건
 
+# EN: Teleport Into
+2286719768=텔레포트 탑승
+
+# EN: Teleport Key
+268016086=텔레포트 키
+
+# EN: Teleport To
+1887426362=텔레포트
+
 # EN: Teleport to Coords
 3551972134=좌표로 텔레포트
 
@@ -4128,6 +4389,12 @@
 
 # EN: Teleport vehicle with you
 2332352547=차량과 함께 텔레포트
+
+# EN: Templates
+3044988383=템플릿
+
+# EN: Test
+1064684737=테스트
 
 # EN: Text
 2134593963=텍스트
@@ -4201,9 +4468,6 @@
 # EN: Thickness##tt
 3534806773=두께##tt
 
-# EN: This feature is currently in development.
-2985474122=이 기능은 현재 개발 중입니다.
-
 # EN: This feature requires a paid subscription.
 3394398001=이 기능은 유료 구독이 필요합니다.
 
@@ -4234,11 +4498,11 @@
 # EN: Time
 258444835=시간
 
-# EN: Time & Weather
-1757582708=시간 및 날씨
-
 # EN: Timing
 4122073465=타이밍
+
+# EN: Tip Color
+520645681=팁 색상
 
 # EN: Tire Lights
 3627926876=타이어 라이트
@@ -4309,6 +4573,9 @@
 # EN: Top Left
 3111925763=좌측 상단
 
+# EN: Top Resources
+670453582=상위 리소스
+
 # EN: Top Right
 3678979058=우측 상단
 
@@ -4323,6 +4590,9 @@
 
 # EN: Track Opacity
 902824788=트랙 불투명도
+
+# EN: Tracked Players
+1590211961=추적 플레이어
 
 # EN: Tracks
 794089857=트랙
@@ -4342,17 +4612,23 @@
 # EN: Transparent Ocean
 2138197132=투명 바다
 
-# EN: Triangle
-2990077322=삼각형
+# EN: Trigger & Block
+4206134730=트리거 및 차단
 
 # EN: Trigger Bot
 1558371298=Trigger Bot
+
+# EN: Trigger Event
+4138217246=이벤트 트리거
 
 # EN: Trigger FOV
 3216427474=Trigger FOV
 
 # EN: Triggerbot
 1477138198=트리거봇
+
+# EN: Triggered Without Handler
+3055780408=핸들러 없이 실행됨
 
 # EN: Triggers
 489495302=트리거
@@ -4362,6 +4638,9 @@
 
 # EN: Trusted
 2045336469=신뢰됨
+
+# EN: Tuning##sa
+2759235521=튜닝##sa
 
 # EN: Type
 828747869=유형
@@ -4375,8 +4654,17 @@
 # EN: Unbind
 2907191925=바인드 해제
 
+# EN: Unblock
+1287977995=차단 해제
+
+# EN: Unblock All
+3468373934=모두 차단 해제
+
 # EN: Underline
 1892791043=밑줄
+
+# EN: Unlock
+2562373009=잠금 해제
 
 # EN: Update Rate
 1699227283=업데이트 속도
@@ -4384,14 +4672,14 @@
 # EN: Upgrade at scoobymenu.xyz to unlock all features.
 2859334871=scoobymenu.xyz에서 업그레이드하여 모든 기능을 잠금 해제하세요.
 
+# EN: Uptime
+3436261580=가동 시간
+
 # EN: Use Anyway
 2296300728=그래도 사용
 
 # EN: Use Camera Direction
 2733983925=카메라 방향 사용
-
-# EN: Use Damage Event
-1180278030=데미지 이벤트 사용
 
 # EN: Use Fill mode for best results.
 1995125884=최상의 결과를 위해 채우기 모드를 사용하세요.
@@ -4435,6 +4723,9 @@
 # EN: Vehicle NoClip
 1762582941=차량 NoClip
 
+# EN: Vehicle Radar
+2113603547=차량 레이더
+
 # EN: Vehicle Ram
 3560309762=차량 돌진
 
@@ -4461,6 +4752,9 @@
 
 # EN: View
 2604534539=보기
+
+# EN: View Manifest
+3821572149=매니페스트 보기
 
 # EN: Visibility Check
 2235775772=가시성 확인
@@ -4489,6 +4783,9 @@
 # EN: W
 1486926112=W
 
+# EN: Waiting for scan...
+4212713308=스캔 대기 중...
+
 # EN: Walk Through
 1411964451=벽 통과
 
@@ -4497,9 +4794,6 @@
 
 # EN: Walking
 921688979=걷기
-
-# EN: Wall Bounce
-3276303643=벽 튕기기
 
 # EN: Walls Only
 613995149=벽만
@@ -4510,8 +4804,14 @@
 # EN: Warning
 3911129148=경고
 
+# EN: Warning notification
+1083834536=경고 알림
+
 # EN: Warning##notif
 496177476=경고##notif
+
+# EN: Warning: Using free menus may result in an instant kick or ban from the server. Use at your own risk.
+2630775189=경고: 무료 메뉴 사용 시 서버에서 즉시 킥 또는 밴될 수 있습니다. 사용은 본인 책임입니다.
 
 # EN: Water Height
 2028138289=수면 높이
@@ -4561,11 +4861,17 @@
 # EN: Welcome! Let's get you set up.
 2895282766=환영합니다! 설정을 시작합시다.
 
+# EN: What to Hide
+894456580=숨길 항목
+
 # EN: What's New
 2022498171=새로운 소식
 
 # EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
 3837149149=활성화 시 바인드 목록, 성능 통계, 플레이어 목록, 관전자가 워터마크 색상을 사용합니다.
+
+# EN: When enabled, overlays use Watermark colors.
+445204605=활성화 시 오버레이가 워터마크 색상을 사용합니다.
 
 # EN: While aiming (RMB), press A/D to instantly teleport left/right
 1256253770=조준 중 (RMB) A/D를 눌러 즉시 좌/우 텔레포트
@@ -4581,6 +4887,9 @@
 
 # EN: Width Ratio
 257781133=너비 비율
+
+# EN: Width##serp
+3651645440=너비##serp
 
 # EN: Window
 1722301922=창
@@ -4647,9 +4956,6 @@
 
 # EN: joined the server
 2662745418=서버에 접속함
-
-# EN: on each feature row (right-click or click gear).
-3640762816=각 기능 행에서 (우클릭 또는 톱니바퀴 클릭).
 
 # EN: result(s)
 1448839259=결과

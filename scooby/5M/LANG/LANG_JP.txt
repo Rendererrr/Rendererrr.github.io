@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Japanese (日本語)
 # Auth data_var name: LANG_JP
-# Total strings: 1550
+# Total strings: 1652
 # Format: JOAAT_HASH=translated text
 #
 
@@ -22,11 +22,23 @@
 # EN: 0 = feet, 0.9 = center, 1.8 = head
 3348539186=0 = 足元, 0.9 = 中心, 1.8 = 頭
 
+# EN: 1% Low
+499497665=1% 最低値
+
 # EN: 3D Box
 94557236=3Dボックス
 
 # EN: AC Overlay
 2376138547=ACオーバーレイ
+
+# EN: AI
+182200381=AI
+
+# EN: AI Script
+3105376127=AIスクリプト
+
+# EN: API key saved locally
+3499322037=APIキーをローカルに保存しました
 
 # EN: Abilities
 2653368607=アビリティ
@@ -157,6 +169,9 @@
 # EN: Alpha
 767087018=アルファ
 
+# EN: Also While Running
+2264771198=走行中も有効
+
 # EN: Ammo
 307971639=弾薬
 
@@ -268,6 +283,9 @@
 # EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
 4247923858=スナイパースコープ使用時にFOV、スムージング、予測を自動調整
 
+# EN: Auto-scan events
+710508198=イベント自動スキャン
+
 # EN: Auto-zigzag while sprinting to dodge bullets
 1713564836=スプリント中に自動ジグザグで弾を回避
 
@@ -325,6 +343,9 @@
 # EN: Background##weapon
 1937834289=背景##weapon
 
+# EN: Bar
+2151715081=バー
+
 # EN: Basic
 4281242592=基本
 
@@ -369,6 +390,12 @@
 
 # EN: Blizzard
 669657108=吹雪
+
+# EN: Block
+3828602749=ブロック
+
+# EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
+366586212=ブロックはCancelEvent()でイベントを遮断します。ブロック解除でイベントを再登録します。
 
 # EN: Blood Red
 3933943680=ブラッドレッド
@@ -460,6 +487,9 @@
 # EN: Brightness
 26603225=明るさ
 
+# EN: Bring Vehicle
+1548014332=車両を呼び寄せ
+
 # EN: Bring to Me
 4191259033=自分の元に引き寄せ
 
@@ -475,14 +505,8 @@
 # EN: Bullet Proof
 1262983692=弾丸耐性
 
-# EN: Bullet Redirect##sa
-2808025987=弾丸リダイレクト##sa
-
 # EN: Bullet Tracers
 2673625274=弾道トレーサー
-
-# EN: Bullet spawn (visible tracer)
-210089287=弾丸スポーン（可視トレーサー）
 
 # EN: Burn
 2096267097=燃焼
@@ -507,6 +531,9 @@
 
 # EN: Buttons
 2668497503=ボタン
+
+# EN: By Type
+132944993=タイプ別
 
 # EN: Bypassed
 716678219=バイパス済み
@@ -547,6 +574,9 @@
 # EN: Change Rate
 949770967=変化率
 
+# EN: China
+3307270334=中国
+
 # EN: Circle
 3333310803=サークル
 
@@ -567,6 +597,18 @@
 
 # EN: Clear Console
 1742492619=コンソールをクリア
+
+# EN: Clear History
+3502477242=履歴をクリア
+
+# EN: Clear Key
+1838276207=キーをクリア
+
+# EN: Clear on Teleport
+1659055056=テレポート時にクリア
+
+# EN: Click Start to scan server resources for events.
+2559388892=開始をクリックしてサーバーリソースのイベントをスキャン。
 
 # EN: Click UI
 1200896506=クリックUI
@@ -640,6 +682,9 @@
 # EN: Combat Utility
 3560879723=戦闘ユーティリティ
 
+# EN: Coming Soon
+3566187245=近日公開
+
 # EN: Compass
 3738173000=コンパス
 
@@ -673,6 +718,9 @@
 # EN: Connect Distance
 2509032464=接続距離
 
+# EN: Connected Players
+3406740022=接続中のプレイヤー
+
 # EN: Console
 716138132=コンソール
 
@@ -700,12 +748,6 @@
 # EN: Cooldown
 1178968787=クールダウン
 
-# EN: Cooldown##burst
-1055026799=クールダウン##burst
-
-# EN: Cooldown##phase
-3556912950=クールダウン##phase
-
 # EN: Cooldown##strafe
 1574937247=クールダウン##strafe
 
@@ -718,8 +760,14 @@
 # EN: Copied event name to clipboard
 3300867=イベント名をクリップボードにコピーしました
 
+# EN: Copied to clipboard
+1053518268=クリップボードにコピーしました
+
 # EN: Copy
 393356872=コピー
+
+# EN: Copy All
+4085295539=すべてコピー
 
 # EN: Copy ID
 3639484515=IDをコピー
@@ -808,6 +856,9 @@
 # EN: Dawn
 4259095408=夜明け
 
+# EN: Dead
+3384366314=死亡
+
 # EN: Dead Zone
 2069969159=デッドゾーン
 
@@ -850,17 +901,26 @@
 # EN: Delete Veh
 895942370=車両を削除
 
+# EN: Delete Vehicle
+37332959=車両を削除
+
 # EN: Delete this config?
 2115476497=この設定を削除しますか？
 
 # EN: Delete this theme?
 2754582444=このテーマを削除しますか？
 
+# EN: Deleted:
+3394613473=削除済み:
+
 # EN: Deluxo Mode
 4200523197=Deluxoモード
 
 # EN: Density
 3843932311=密度
+
+# EN: Describe what you want:
+1226247808=やりたいことを入力:
 
 # EN: Detach
 4291111140=切り離し
@@ -888,9 +948,6 @@
 
 # EN: Dim Amount
 1388938324=暗さの量
-
-# EN: Direct damage (more reliable)
-11698873=直接ダメージ（より信頼性が高い）
 
 # EN: Direction
 887068712=方向
@@ -937,9 +994,6 @@
 # EN: Display Mode
 200820562=表示モード
 
-# EN: Dist
-3531260757=距離
-
 # EN: Distance
 3607074178=距離
 
@@ -966,9 +1020,6 @@
 
 # EN: Distance##veh
 3820228410=距離##veh
-
-# EN: Distance##wall
-2273036223=距離##wall
 
 # EN: Dive Jump
 2731982236=ダイブジャンプ
@@ -999,6 +1050,9 @@
 
 # EN: Dotted Line
 3435322722=点線
+
+# EN: Double-click an event in the Logger to copy its name here.
+847266517=ロガーでイベントをダブルクリックするとここに名前がコピーされます。
 
 # EN: Draggable
 3287744767=ドラッグ可能
@@ -1072,17 +1126,11 @@
 # EN: Duration
 3674968789=持続時間
 
-# EN: Duration##burst
-1617674729=持続時間##burst
-
 # EN: Duration##dmglog
 2155043513=持続時間##dmglog
 
 # EN: Duration##dmgnum
 1606858786=持続時間##dmgnum
-
-# EN: Duration##phase
-416318694=持続時間##phase
 
 # EN: Duration##pt
 2015408410=持続時間##pt
@@ -1105,6 +1153,9 @@
 # EN: ESP
 3007444226=ESP
 
+# EN: ESP Settings
+3361209094=ESP設定
+
 # EN: Edge Arrows
 3739190029=画面端矢印
 
@@ -1113,6 +1164,12 @@
 
 # EN: Editor
 1766080170=エディタ
+
+# EN: Editor is empty
+2785403049=エディタが空です
+
+# EN: Editor is empty. Write or generate code first.
+2617489156=エディタが空です。先にコードを記述または生成してください。
 
 # EN: Effect
 860884915=エフェクト
@@ -1131,9 +1188,6 @@
 
 # EN: Embedded
 2292057362=埋め込み
-
-# EN: Empty
-3151330285=空
 
 # EN: Empty Only
 335310304=空のみ
@@ -1198,11 +1252,35 @@
 # EN: Enter name...
 3545940642=名前を入力...
 
+# EN: Entities
+3433796359=エンティティ
+
 # EN: Entity Count
 495352207=エンティティ数
 
+# EN: Error
+3374345388=エラー
+
+# EN: Error notification
+280995787=エラー通知
+
 # EN: Error##notif
 3944622010=エラー##notif
+
+# EN: Event Blocker
+2348049901=イベントブロッカー
+
+# EN: Event Logger
+4055111064=イベントロガー
+
+# EN: Event name...
+1453694419=イベント名...
+
+# EN: Event to block...
+3761220325=ブロックするイベント...
+
+# EN: Events
+3674287931=イベント
 
 # EN: Expand Sub-Tabs
 788906364=サブタブを展開
@@ -1357,14 +1435,14 @@
 # EN: Filled
 238956158=塗りつぶし
 
-# EN: Filled Circle
-1999419602=塗りつぶしサークル
-
 # EN: Filter
 1239184307=フィルター
 
-# EN: Filter by event name or type...
-764300805=イベント名またはタイプで絞り込み...
+# EN: Filter by event name...
+3189816270=イベント名でフィルター...
+
+# EN: Filter events / resources...
+2239256256=イベント / リソースでフィルター...
 
 # EN: Filter##mb
 982138645=フィルター##mb
@@ -1374,6 +1452,9 @@
 
 # EN: Filter##trig
 1506659606=フィルター##trig
+
+# EN: Filter...
+384945571=フィルター...
 
 # EN: Filter:
 585229116=フィルター:
@@ -1392,6 +1473,9 @@
 
 # EN: Fire Delay
 425570614=発射遅延
+
+# EN: Fire Event
+2661019027=イベントを発火
 
 # EN: Fire Proof
 2377383169=火炎耐性
@@ -1501,11 +1585,17 @@
 # EN: Forces uphill jump animation
 1929062318=上り坂ジャンプアニメーションを強制
 
+# EN: Forward Speed
+1876555102=前進速度
+
 # EN: Frametime Graph
 3749077224=フレームタイムグラフ
 
 # EN: Frametime Stats
 3723639030=フレームタイム統計
+
+# EN: Free Menus
+2609200059=無料メニュー
 
 # EN: Freecam
 3443129427=フリーカメラ
@@ -1543,6 +1633,9 @@
 # EN: Fully heals HP + gives 50 armor when you kill a player
 2096177985=プレイヤーをキルするとHP全回復＋アーマー50付与
 
+# EN: GPU
+591383768=GPU
+
 # EN: Gamma
 1617619096=ガンマ
 
@@ -1551,6 +1644,9 @@
 
 # EN: General
 1798635104=全般
+
+# EN: Generate
+1864538988=生成
 
 # EN: Get Started
 1434685453=はじめに
@@ -1717,9 +1813,6 @@
 # EN: Groups
 2437998540=グループ
 
-# EN: HP
-1833919794=HP
-
 # EN: HUD
 2488248793=HUD
 
@@ -1728,6 +1821,15 @@
 
 # EN: Hands
 1613305285=手
+
+# EN: Hat
+2537416713=帽子
+
+# EN: Hat Color
+2197204917=帽子カラー
+
+# EN: Hat Style
+3968368516=帽子スタイル
 
 # EN: Head
 2220048209=頭
@@ -1834,8 +1936,23 @@
 # EN: Hide Background
 1550833432=背景を非表示
 
-# EN: High Ground
-3194084088=高台
+# EN: Hide Crosshair / FOV
+2570807650=クロスヘア / FOVを非表示
+
+# EN: Hide ESP
+3489105641=ESPを非表示
+
+# EN: Hide Key
+1973484404=非表示キー
+
+# EN: Hide Menu
+1560947015=メニューを非表示
+
+# EN: Hide Overlays
+1525934716=オーバーレイを非表示
+
+# EN: Hide Tracers / Lines
+425240012=トレーサー / ラインを非表示
 
 # EN: Highlight Headshots
 1100352321=ヘッドショットをハイライト
@@ -1845,6 +1962,9 @@
 
 # EN: Hill Jump
 327623110=ヒルジャンプ
+
+# EN: History
+2023011857=履歴
 
 # EN: Hit Chance
 3254221308=ヒット確率
@@ -1875,9 +1995,6 @@
 
 # EN: Hold Mode
 200873681=ホールドモード
-
-# EN: Hold [V] to lean sideways (camera right). Release to snap back.
-4221385416=[V]を長押しで横に傾く（カメラ右方向）。離すと元に戻る。
 
 # EN: Horizon
 3479812369=水平線
@@ -1918,6 +2035,9 @@
 # EN: Icon / Accent
 1566350195=アイコン / アクセント
 
+# EN: Icon Active Color
+4093685107=アイコン有効カラー
+
 # EN: Icon Below Text
 1121926930=テキスト下にアイコン
 
@@ -1929,6 +2049,9 @@
 
 # EN: Icon Size
 3757913751=アイコンサイズ
+
+# EN: Icon Spacing
+4004566715=アイコン間隔
 
 # EN: Icons + Text
 2093021283=アイコン + テキスト
@@ -2011,6 +2134,9 @@
 # EN: Info
 1745727664=情報
 
+# EN: Info notification
+15919856=情報通知
+
 # EN: Info##notif
 3630429841=情報##notif
 
@@ -2025,6 +2151,9 @@
 
 # EN: Input Text
 4135476111=入力テキスト
+
+# EN: Insert
+3380657922=Insert
 
 # EN: Instant Blend
 2839309838=即時ブレンド
@@ -2077,8 +2206,14 @@
 # EN: JATO Boost
 959701148=JATOブースト
 
+# EN: JSON
+1493832359=JSON
+
 # EN: Jitter
 2175396620=ジッター
+
+# EN: Joint Color
+1649662583=ジョイントカラー
 
 # EN: Joint Size
 2337031930=ジョイントサイズ
@@ -2118,6 +2253,9 @@
 
 # EN: Keybinds
 1174365445=キーバインド
+
+# EN: Keys
+748271464=キー
 
 # EN: Kick
 2221159044=キック
@@ -2239,6 +2377,9 @@
 # EN: Loaded
 538484865=読み込み完了
 
+# EN: Loaded from history
+1954185637=履歴から読み込みました
+
 # EN: Loading fonts...
 742296178=フォントを読み込み中...
 
@@ -2253,6 +2394,9 @@
 
 # EN: Local Only
 1718906169=ローカルのみ
+
+# EN: Local Player
+3579097795=ローカルプレイヤー
 
 # EN: Lock On
 3927233622=ロックオン
@@ -2320,9 +2464,6 @@
 # EN: Magic Bullet
 2156396594=マジックバレット
 
-# EN: Magic Bullet — Being worked on, stay tuned!
-861480969=マジックバレット — 開発中、お楽しみに！
-
 # EN: Magnet
 959551543=マグネット
 
@@ -2341,20 +2482,11 @@
 # EN: Makes you invisible to other players
 4237882355=他プレイヤーから見えなくなります
 
+# EN: Manifest copied to clipboard
+4150163724=マニフェストをクリップボードにコピーしました
+
 # EN: Map Image
 2485108282=マップ画像
-
-# EN: Map Max X
-1163433574=マップ最大X
-
-# EN: Map Max Y
-3076815488=マップ最大Y
-
-# EN: Map Min X
-1971207017=マップ最小X
-
-# EN: Map Min Y
-2893949292=マップ最小Y
 
 # EN: Marker Duration
 3550132583=マーカー持続時間
@@ -2476,6 +2608,9 @@
 # EN: Mode##glow
 1534494585=モード##glow
 
+# EN: Model
+1816327236=モデル
+
 # EN: Modules
 2096891096=モジュール
 
@@ -2487,6 +2622,9 @@
 
 # EN: Morning
 852964312=朝
+
+# EN: Most Referenced Events
+962784570=最も参照されたイベント
 
 # EN: Movement
 2799785395=移動
@@ -2500,9 +2638,6 @@
 # EN: Multiple rings stack from feet to head
 1361975713=足元から頭まで複数のリングが重なる
 
-# EN: Multiplier
-3903859967=倍率
-
 # EN: N
 3649581809=N
 
@@ -2511,6 +2646,9 @@
 
 # EN: NPC
 3921142999=NPC
+
+# EN: NPCs
+1186745040=NPC
 
 # EN: NPCs Only
 3543922621=NPCのみ
@@ -2587,6 +2725,9 @@
 # EN: New Color
 2772632083=新しいカラー
 
+# EN: New Script
+1417129088=新規スクリプト
+
 # EN: Night
 1417207314=夜
 
@@ -2634,6 +2775,9 @@
 
 # EN: No dump in progress.
 2622343018=ダンプは実行中ではありません。
+
+# EN: No events blocked
+656685112=ブロック中のイベントなし
 
 # EN: No fall damage from any height
 951215153=どの高さからも落下ダメージなし
@@ -2791,6 +2935,9 @@
 # EN: Outline Width
 1689303532=アウトラインの幅
 
+# EN: Outline##head
+1915029405=アウトライン##head
+
 # EN: Output Directory:
 3566541914=出力ディレクトリ:
 
@@ -2817,6 +2964,9 @@
 
 # EN: Override jump flags for custom jump behavior
 3362934371=カスタムジャンプ動作のためにジャンプフラグを上書き
+
+# EN: Overview
+118778200=概要
 
 # EN: PANIC MODE ACTIVE
 1272225111=パニックモード有効
@@ -2857,17 +3007,29 @@
 # EN: Parachute Jump
 3658517243=パラシュートジャンプ
 
+# EN: Parse
+1004532644=解析
+
 # EN: Particle FX
 2124068847=パーティクルFX
 
 # EN: Particle FX Color
 894474043=パーティクルFXカラー
 
+# EN: Party
+1132658614=パーティー
+
 # EN: Pass Through
 3173995589=パススルー
 
 # EN: Passively regenerate health over time
 240888173=時間経過で体力を自動再生
+
+# EN: Paste
+569442244=貼り付け
+
+# EN: Paste your API key here...
+261626132=ここにAPIキーを貼り付け...
 
 # EN: Path:
 507121814=パス:
@@ -2890,9 +3052,6 @@
 # EN: Peds / NPCs
 1876490144=Ped / NPC
 
-# EN: Peek
-1159958869=ピーク
-
 # EN: Per-Feature Binds
 2900791157=機能別バインド
 
@@ -2901,9 +3060,6 @@
 
 # EN: Performance Stats
 4260591683=パフォーマンス統計
-
-# EN: Phase Shift
-2620975702=フェイズシフト
 
 # EN: Pill
 2294717198=ピル
@@ -2917,6 +3073,9 @@
 # EN: Pill Pad Y
 352596684=ピルパッドY
 
+# EN: Ping
+1218843674=Ping
+
 # EN: Pipe Bombs, Proximity Mines, Flares
 1693538821=パイプ爆弾、近接地雷、フレア
 
@@ -2928,6 +3087,9 @@
 
 # EN: Player
 1862763509=プレイヤー
+
+# EN: Player Index
+607652568=プレイヤーインデックス
 
 # EN: Player Trail
 536495684=プレイヤートレイル
@@ -2971,6 +3133,9 @@
 # EN: Prediction##sa
 43230462=予測##sa
 
+# EN: Premium Menus
+4177668372=プレミアムメニュー
+
 # EN: Preset
 2973707311=プリセット
 
@@ -2980,26 +3145,11 @@
 # EN: Press [B] to rewind
 851379740=[B]で巻き戻し
 
-# EN: Press [E] for a timed sprint speed boost with cooldown
-1635903237=[E]で一定時間スプリント速度ブースト（クールダウンあり）
-
 # EN: Press [G] to teleport forward in camera direction
 2203837878=[G]でカメラ方向に前方テレポート
 
-# EN: Press [G] while facing a wall to teleport through it (when Behind TP is off)
-3732057729=壁に向かって[G]で壁を通り抜けてテレポート（背後TPオフ時）
-
-# EN: Press [H] to teleport onto the nearest rooftop above you
-2986434624=[H]で最寄りの屋上にテレポート
-
 # EN: Press [Space] while falling to instantly teleport to ground level
 1826113543=落下中に[Space]で地面に即座にテレポート
-
-# EN: Press [U] to save position. Press again to teleport back.
-1036979568=[U]で位置を保存。再度押すとテレポートで戻る。
-
-# EN: Press [X] for brief invincibility + no collision + translucency
-4262347464=[X]で短時間の無敵＋衝突なし＋半透明
 
 # EN: Press a mouse button...
 3765670479=マウスボタンを押してください...
@@ -3036,6 +3186,12 @@
 
 # EN: Projectile Tracers
 272599090=投射物トレーサー
+
+# EN: Prompt
+1703604247=プロンプト
+
+# EN: Provider
+1958232576=プロバイダー
 
 # EN: Proximity Alert
 1493469578=近接アラート
@@ -3184,6 +3340,9 @@
 # EN: Rate
 2120794248=レート
 
+# EN: Rate##serp
+1131381918=レート##serp
+
 # EN: Ready
 2084256605=準備完了
 
@@ -3202,6 +3361,12 @@
 # EN: Reduction
 3286779414=軽減
 
+# EN: Refine
+415231836=改良
+
+# EN: Refine instruction:
+1983823845=改良の指示:
+
 # EN: Reflection
 1920016807=反射
 
@@ -3217,6 +3382,9 @@
 # EN: Refreshing resources...
 3699535925=リソースを更新中...
 
+# EN: Registered But Not Triggered
+774818613=登録済みだが未発火
+
 # EN: Reload
 1571056488=リロード
 
@@ -3229,8 +3397,14 @@
 # EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
 2465448157=レンダリング設定はゲームによって制御されています。VSync、フレームペーシング、バックエンドはFiveMでは設定できません。
 
+# EN: Repair
+3327385526=修理
+
 # EN: Repair Vehicle
 2429933431=車両を修理
+
+# EN: Rescan
+764993821=再スキャン
 
 # EN: Reset
 3559176682=リセット
@@ -3264,6 +3438,9 @@
 
 # EN: Reset to defaults
 3361422027=初期値にリセット
+
+# EN: Resolution
+324784860=解像度
 
 # EN: Resource
 1411351736=リソース
@@ -3391,14 +3568,14 @@
 # EN: Save
 3357008648=保存
 
-# EN: Save Here
-2753091722=ここに保存
+# EN: Save Current as Snippet
+2323029386=現在の内容をスニペットとして保存
 
 # EN: Save Interval
 269707535=保存間隔
 
-# EN: Save your current position and teleport back later
-4024909457=現在の位置を保存して後でテレポートで戻る
+# EN: Save Key
+579473751=保存キー
 
 # EN: Saved
 2978706416=保存完了
@@ -3406,11 +3583,11 @@
 # EN: Saved Configs
 860699809=保存済み設定
 
-# EN: Saved Locations
-676178533=保存済みの場所
-
 # EN: Saved Themes
 2236251465=保存済みテーマ
+
+# EN: Saved:
+2514999957=保存済み:
 
 # EN: Scale
 1342385372=スケール
@@ -3424,14 +3601,26 @@
 # EN: Scaling
 2369776673=スケーリング
 
-# EN: Scan Triggers
-917870278=トリガーをスキャン
+# EN: Scan
+3540220634=スキャン
+
+# EN: Scan All
+826028443=すべてスキャン
 
 # EN: Scan for Anti-Cheat
 3069664885=アンチチートをスキャン
 
+# EN: Scanning all resources...
+2180117493=すべてのリソースをスキャン中...
+
 # EN: Scanning for triggers...
 3267756685=トリガーをスキャン中...
+
+# EN: Scanning resources...
+3847585475=リソースをスキャン中...
+
+# EN: Scanning...
+850446987=スキャン中...
 
 # EN: Scans for anti-cheat modules every 10 seconds
 3500340240=10秒ごとにアンチチートモジュールをスキャン
@@ -3456,6 +3645,15 @@
 
 # EN: Script dump complete!
 2694683063=スクリプトダンプ完了！
+
+# EN: Script executed
+2428283588=スクリプトを実行しました
+
+# EN: Script generated! Check the Editor tab.
+3624086178=スクリプトが生成されました！エディタタブを確認してください。
+
+# EN: Script stopped
+3609081985=スクリプトを停止しました
 
 # EN: Scripts
 1044661261=スクリプト
@@ -3486,6 +3684,9 @@
 
 # EN: Search peds...
 3129217742=Pedを検索...
+
+# EN: Search players...
+3669430630=プレイヤーを検索...
 
 # EN: Search resources...
 1910280218=リソースを検索...
@@ -3523,6 +3724,9 @@
 # EN: Section Opacity
 1502378754=セクションの不透明度
 
+# EN: Segmented
+1119367178=セグメント化
+
 # EN: Segments
 390045222=セグメント
 
@@ -3532,8 +3736,8 @@
 # EN: Select a player
 1427174365=プレイヤーを選択
 
-# EN: Select a resource and click Scan Triggers to analyze event triggers.
-367930095=リソースを選択してトリガーをスキャンをクリックしてイベントトリガーを分析。
+# EN: Select a resource and click Scan to analyze, or Scan All for every resource.
+2327128316=リソースを選択してスキャンをクリックして解析、またはすべてスキャンで全リソースを解析。
 
 # EN: Select a resource from the list to view details.
 1234177780=リストからリソースを選択して詳細を表示。
@@ -3547,6 +3751,9 @@
 # EN: Sensitivity
 1563795609=感度
 
+# EN: Sent to Event Parser (Events tab)
+3692631674=イベントパーサーに送信しました（イベントタブ）
+
 # EN: Sep Alpha
 307689876=セパレーターアルファ
 
@@ -3556,14 +3763,29 @@
 # EN: Serpentine
 2010529308=サーペンタイン
 
+# EN: Server
+581657549=サーバー
+
 # EN: Server IP:
 3217114240=サーバーIP:
+
+# EN: Server Info
+1790325725=サーバー情報
+
+# EN: Set Key
+2397500189=キーを設定
 
 # EN: Set Model
 2741786040=モデルを設定
 
-# EN: Set per-feature keybinds via the gear icon
-438153059=歯車アイコンから機能別キーバインドを設定
+# EN: Set alpha to 0 to use the text color instead.
+796381545=アルファを0にするとテキストカラーが代わりに使用されます。
+
+# EN: Set anchor + teleport to it with separate keys
+2852415891=アンカーを設定＋別キーでアンカーにテレポート
+
+# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
+1002208503=各機能行の歯車アイコンから機能別キーバインドを設定（右クリックまたは歯車をクリック）。
 
 # EN: Settings
 2768156407=設定
@@ -3616,11 +3838,11 @@
 # EN: Shots Min
 4101905516=最小発射数
 
+# EN: Show
+4237361361=表示
+
 # EN: Show Advanced
 2451177577=詳細を表示
-
-# EN: Show Bar
-2024828132=バーを表示
 
 # EN: Show Category
 966325046=カテゴリを表示
@@ -3654,6 +3876,12 @@
 
 # EN: Show Icon
 1657507605=アイコンを表示
+
+# EN: Show Icons
+2900082090=アイコンを表示
+
+# EN: Show Key
+477177816=表示キー
 
 # EN: Show Line
 1200799385=ラインを表示
@@ -3760,6 +3988,12 @@
 # EN: Skeleton
 1816727634=スケルトン
 
+# EN: Skeleton 1
+663554603=スケルトン 1
+
+# EN: Skeleton 2
+911943623=スケルトン 2
+
 # EN: Skeleton Only
 1732653347=スケルトンのみ
 
@@ -3780,9 +4014,6 @@
 
 # EN: Skips falling scream
 2453340543=落下時の叫びをスキップ
-
-# EN: Skull
-4060956970=スカル
 
 # EN: Sky
 159192176=空
@@ -3814,9 +4045,6 @@
 # EN: Sliders
 2297082388=スライダー
 
-# EN: Slot
-933689839=スロット
-
 # EN: Small
 3085983008=小
 
@@ -3843,6 +4071,12 @@
 
 # EN: Snipers
 453460956=スナイパー
+
+# EN: Snippet name:
+1640117038=スニペット名:
+
+# EN: Snippets
+2837387043=スニペット
 
 # EN: Snow
 4021743606=雪
@@ -3886,9 +4120,6 @@
 # EN: Speed
 4187447851=速度
 
-# EN: Speed Burst
-3918175031=スピードバースト
-
 # EN: Speed Overlay
 4009411811=速度オーバーレイ
 
@@ -3897,6 +4128,9 @@
 
 # EN: Speed##hpsmooth
 2272127628=速度##hpsmooth
+
+# EN: Speed##serp
+3668104492=速度##serp
 
 # EN: Speeds up climbing and vaulting animations
 884886740=登攀と乗り越えアニメーションを高速化
@@ -3970,11 +4204,14 @@
 # EN: Stream Proof
 3106534202=配信保護
 
+# EN: Stream Proof ACTIVE
+2348867233=配信保護 有効
+
 # EN: Stream Proof Mode
 3011027665=配信保護モード
 
-# EN: Stream Proof is currently unavailable in FiveM. Enabling it may cause crashes.
-2952089962=配信保護はFiveMでは現在利用できません。有効にするとクラッシュする可能性があります。
+# EN: Stream Proof is experimental - may cause issues on some systems.
+1371944424=配信保護は実験的機能です — 一部のシステムで問題が発生する可能性があります。
 
 # EN: Streamer
 322333922=ストリーマー
@@ -3985,8 +4222,20 @@
 # EN: Style
 2840017588=スタイル
 
+# EN: Style##hp
+2155290340=スタイル##hp
+
+# EN: Sub-Tab Icons
+2125121217=サブタブアイコン
+
 # EN: Sub-Tabs
 4235856483=サブタブ
+
+# EN: Success
+975994832=成功
+
+# EN: Success notification
+3286108452=成功通知
 
 # EN: Success##notif
 124336157=成功##notif
@@ -4047,6 +4296,9 @@
 
 # EN: T20
 1663218586=T20
+
+# EN: TXT
+2010905253=TXT
 
 # EN: Tab Bar Style
 4174884294=タブバースタイル
@@ -4114,6 +4366,15 @@
 # EN: Teleport Gun
 1763910974=テレポートガン
 
+# EN: Teleport Into
+2286719768=中にテレポート
+
+# EN: Teleport Key
+268016086=テレポートキー
+
+# EN: Teleport To
+1887426362=テレポート先
+
 # EN: Teleport to Coords
 3551972134=座標にテレポート
 
@@ -4128,6 +4389,12 @@
 
 # EN: Teleport vehicle with you
 2332352547=車両を一緒にテレポート
+
+# EN: Templates
+3044988383=テンプレート
+
+# EN: Test
+1064684737=テスト
 
 # EN: Text
 2134593963=テキスト
@@ -4201,9 +4468,6 @@
 # EN: Thickness##tt
 3534806773=太さ##tt
 
-# EN: This feature is currently in development.
-2985474122=この機能は現在開発中です。
-
 # EN: This feature requires a paid subscription.
 3394398001=この機能には有料サブスクリプションが必要です。
 
@@ -4234,11 +4498,11 @@
 # EN: Time
 258444835=時間
 
-# EN: Time & Weather
-1757582708=時間と天候
-
 # EN: Timing
 4122073465=タイミング
+
+# EN: Tip Color
+520645681=先端カラー
 
 # EN: Tire Lights
 3627926876=タイヤライト
@@ -4309,6 +4573,9 @@
 # EN: Top Left
 3111925763=左上
 
+# EN: Top Resources
+670453582=トップリソース
+
 # EN: Top Right
 3678979058=右上
 
@@ -4323,6 +4590,9 @@
 
 # EN: Track Opacity
 902824788=トラックの不透明度
+
+# EN: Tracked Players
+1590211961=追跡中のプレイヤー
 
 # EN: Tracks
 794089857=トラック
@@ -4342,17 +4612,23 @@
 # EN: Transparent Ocean
 2138197132=透明な海
 
-# EN: Triangle
-2990077322=三角形
+# EN: Trigger & Block
+4206134730=トリガー & ブロック
 
 # EN: Trigger Bot
 1558371298=トリガーBot
+
+# EN: Trigger Event
+4138217246=イベントをトリガー
 
 # EN: Trigger FOV
 3216427474=トリガーFOV
 
 # EN: Triggerbot
 1477138198=トリガーBot
+
+# EN: Triggered Without Handler
+3055780408=ハンドラーなしで発火
 
 # EN: Triggers
 489495302=トリガー
@@ -4362,6 +4638,9 @@
 
 # EN: Trusted
 2045336469=信頼済み
+
+# EN: Tuning##sa
+2759235521=チューニング##sa
 
 # EN: Type
 828747869=タイプ
@@ -4375,8 +4654,17 @@
 # EN: Unbind
 2907191925=バインド解除
 
+# EN: Unblock
+1287977995=ブロック解除
+
+# EN: Unblock All
+3468373934=すべてブロック解除
+
 # EN: Underline
 1892791043=下線
+
+# EN: Unlock
+2562373009=アンロック
 
 # EN: Update Rate
 1699227283=更新レート
@@ -4384,14 +4672,14 @@
 # EN: Upgrade at scoobymenu.xyz to unlock all features.
 2859334871=scoobymenu.xyzでアップグレードして全機能をアンロック。
 
+# EN: Uptime
+3436261580=稼働時間
+
 # EN: Use Anyway
 2296300728=それでも使用
 
 # EN: Use Camera Direction
 2733983925=カメラ方向を使用
-
-# EN: Use Damage Event
-1180278030=ダメージイベントを使用
 
 # EN: Use Fill mode for best results.
 1995125884=最適な結果にはFillモードを使用してください。
@@ -4435,6 +4723,9 @@
 # EN: Vehicle NoClip
 1762582941=車両NoClip
 
+# EN: Vehicle Radar
+2113603547=車両レーダー
+
 # EN: Vehicle Ram
 3560309762=車両ラム
 
@@ -4461,6 +4752,9 @@
 
 # EN: View
 2604534539=表示
+
+# EN: View Manifest
+3821572149=マニフェストを表示
 
 # EN: Visibility Check
 2235775772=可視性チェック
@@ -4489,6 +4783,9 @@
 # EN: W
 1486926112=W
 
+# EN: Waiting for scan...
+4212713308=スキャン待機中...
+
 # EN: Walk Through
 1411964451=すり抜け
 
@@ -4497,9 +4794,6 @@
 
 # EN: Walking
 921688979=歩行中
-
-# EN: Wall Bounce
-3276303643=壁バウンス
 
 # EN: Walls Only
 613995149=壁のみ
@@ -4510,8 +4804,14 @@
 # EN: Warning
 3911129148=警告
 
+# EN: Warning notification
+1083834536=警告通知
+
 # EN: Warning##notif
 496177476=警告##notif
+
+# EN: Warning: Using free menus may result in an instant kick or ban from the server. Use at your own risk.
+2630775189=警告: 無料メニューの使用はサーバーからの即キックまたはBANにつながる可能性があります。自己責任で使用してください。
 
 # EN: Water Height
 2028138289=水面の高さ
@@ -4561,11 +4861,17 @@
 # EN: Welcome! Let's get you set up.
 2895282766=ようこそ！セットアップを始めましょう。
 
+# EN: What to Hide
+894456580=非表示にする項目
+
 # EN: What's New
 2022498171=新着情報
 
 # EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
 3837149149=有効時、バインドリスト、パフォーマンス統計、プレイヤーリスト、観戦者がウォーターマークカラーを使用。
+
+# EN: When enabled, overlays use Watermark colors.
+445204605=有効時、オーバーレイがウォーターマークカラーを使用します。
 
 # EN: While aiming (RMB), press A/D to instantly teleport left/right
 1256253770=エイム中（RMB）にA/Dで左右に即座にテレポート
@@ -4581,6 +4887,9 @@
 
 # EN: Width Ratio
 257781133=幅の比率
+
+# EN: Width##serp
+3651645440=幅##serp
 
 # EN: Window
 1722301922=ウィンドウ
@@ -4647,9 +4956,6 @@
 
 # EN: joined the server
 2662745418=サーバーに参加しました
-
-# EN: on each feature row (right-click or click gear).
-3640762816=各機能行で（右クリックまたは歯車をクリック）。
 
 # EN: result(s)
 1448839259=件の結果
