@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Chinese (中文)
 # Auth data_var name: LANG_CN
-# Total strings: 1652
+# Total strings: 2189
 # Format: JOAAT_HASH=translated text
 #
 
@@ -10,8 +10,14 @@
 # EN:   Min
 311586748=  最小
 
+# EN: 'Extract RPF' also unpacks resource.rpf archives to get individual scripts/configs.
+4009724676='Extract RPF' 还会解包 resource.rpf 档案以获取单个脚本/配置。
+
 # EN: (none)
 556434450=（无）
+
+# EN: -1 = auto (style default)
+2960637834=-1 = 自动（样式默认）
 
 # EN: .lua
 4105145103=.lua
@@ -22,14 +28,35 @@
 # EN: 0 = feet, 0.9 = center, 1.8 = head
 3348539186=0 = 脚底, 0.9 = 中心, 1.8 = 头部
 
+# EN: 0 = invulnerable. Affects collision, deformation, and weapon damage.
+3951824150=0 = 无敌。影响碰撞、变形和武器伤害。
+
+# EN: 0 = pure RWD, 1 = stock, 2 = pure FWD
+1746313302=0 = 纯后驱，1 = 原厂，2 = 纯前驱
+
 # EN: 1% Low
 499497665=1% Low
+
+# EN: 360 Spin
+4231907563=360° 旋转
 
 # EN: 3D Box
 94557236=3D方框
 
+# EN: AC
+1410644661=反作弊
+
 # EN: AC Overlay
 2376138547=AC叠加层
+
+# EN: AC events found in resources
+374300160=在资源中发现的反作弊事件
+
+# EN: AC modules still loaded — bypass partial. Cancel handlers active but resource not stopped.
+503296528=反作弊模块仍已加载 — 绕过部分。取消处理程序活动但资源未停止。
+
+# EN: ADS FOV Mult##sa
+1553982631=ADS FOV 倍数##sa
 
 # EN: AI
 182200381=AI
@@ -73,6 +100,15 @@
 # EN: Accuracy
 2666427871=精准度
 
+# EN: Accuracy##sa
+531658286=精准度##sa
+
+# EN: Action Keybinds
+2725143580=操作按键绑定
+
+# EN: Action Menu Style
+2599844569=操作菜单样式
+
 # EN: Actions
 2200808865=操作
 
@@ -97,11 +133,20 @@
 # EN: Active Windows
 1847726038=活动窗口
 
+# EN: Adaptive
+2577319765=自适应
+
 # EN: Adaptive Smoothing
 1841848259=自适应平滑
 
+# EN: Adapts to error distance dynamically
+3942730446=动态适应误差距离
+
 # EN: Adder
 3078201489=Adder
+
+# EN: Additional bypasses
+129819345=其他绕过项
 
 # EN: Adjusts Z to ground level after teleport
 1956583967=传送后将Z轴调整到地面水平
@@ -117,9 +162,6 @@
 
 # EN: Advanced
 191998119=高级
-
-# EN: Advanced##sa
-1146831031=高级##sa
 
 # EN: Aim Alert
 2286335061=瞄准警报
@@ -145,8 +187,14 @@
 # EN: Alien Green
 961017976=外星绿
 
+# EN: Align
+3794667666=对齐
+
 # EN: All
 1166234150=全部
+
+# EN: All AC surfaces neutralised at last scan
+3233168002=最后扫描时所有反作弊表面均已中和
 
 # EN: All Nearby Peds
 2228825073=所有附近NPC
@@ -163,6 +211,9 @@
 # EN: All settings reset to defaults
 3117943394=所有设置已重置为默认值
 
+# EN: All sliders are multipliers vs. the vehicle's stock value, captured the first tick after Live Apply turns on. Multiplier 1.0 = stock.
+3766019252=所有滑块都是相对于车辆原厂值的倍数，在启用实时应用后的第一个刻度捕获。倍数 1.0 = 原厂。
+
 # EN: Allows movement while falling
 925957687=允许下落时移动
 
@@ -171,6 +222,12 @@
 
 # EN: Also While Running
 2264771198=奔跑时也生效
+
+# EN: Alternating
+2021620171=交替
+
+# EN: Always
+659733263=始终
 
 # EN: Ammo
 307971639=弹药
@@ -181,6 +238,9 @@
 # EN: Anchor
 1880738441=锚点
 
+# EN: Anim Type
+1164359232=动画类型
+
 # EN: Animate Entries
 2777997914=动画条目
 
@@ -190,23 +250,41 @@
 # EN: Animation
 1176408751=动画
 
+# EN: Animation Abuse
+2345679182=动画滥用
+
 # EN: Animations
 490102724=动画
+
+# EN: Anti-Aim
+538782377=反瞄准
 
 # EN: Anti-Cheat
 1651501873=反作弊
 
-# EN: Anti-Detection
-1577423134=反检测
+# EN: Anti-Detection##sa
+683255490=反检测##sa
 
-# EN: Any target in range
-3516261591=范围内任意目标
+# EN: Anti-Rollbar
+1746663933=防侧翻
 
 # EN: Appearance
 3647733735=外观
 
+# EN: Appearance is detached into its own window.
+152646341=外观已分离到自己的窗口中。
+
+# EN: Applies the matching bypass when a product is known, else fires every bypass in sequence
+3122665781=当识别出产品时应用匹配的绕过项，否则按顺序触发每个绕过项
+
+# EN: Apply All Bypasses
+3323601319=应用所有绕过
+
 # EN: Apply Model
 2794752200=应用模型
+
+# EN: Apply Once
+2523546706=仅应用一次
 
 # EN: Apply Preset
 3793427380=应用预设
@@ -214,11 +292,23 @@
 # EN: Apply To
 3114722325=应用到
 
+# EN: Arc Launch
+725540891=弧形发射
+
+# EN: Arc Strength
+3477155189=弧形强度
+
 # EN: Armor Bar
 1640301539=护甲条
 
 # EN: Arrow
 182494798=箭头
+
+# EN: Assets
+2845258552=资产
+
+# EN: Assets include models (.ydr), textures (.ytd), maps (.ymap), audio, scripts, etc.
+871503844=资产包括模型 (.ydr)、纹理 (.ytd)、地图 (.ymap)、音频、脚本等。
 
 # EN: Attach
 3601695277=附着
@@ -235,11 +325,23 @@
 # EN: Auto
 3043925626=自动
 
+# EN: Auto Bone by Distance
+1825046816=按距离自动选择骨骼
+
+# EN: Auto Detach
+2467019578=自动分离
+
+# EN: Auto Detect
+3732574150=自动检测
+
 # EN: Auto Detect Anti-Cheat
 3303598959=自动检测反作弊
 
 # EN: Auto Fire
 3918303945=自动开火
+
+# EN: Auto Fire##mb
+209012486=自动射击##mb
 
 # EN: Auto Godmode
 2673570143=自动无敌
@@ -250,14 +352,14 @@
 # EN: Auto Heal on Kill
 38124947=击杀自动回血
 
-# EN: Auto Hit
-252819216=自动命中
-
 # EN: Auto Pilot
 1235508069=自动驾驶
 
 # EN: Auto Punch
 4126830016=自动拳击
+
+# EN: Auto Release##grapple
+3777573760=自动释放##grapple
 
 # EN: Auto Repair
 173214996=自动修复
@@ -270,6 +372,15 @@
 
 # EN: Auto Switch on Kill##sa
 2174464398=击杀后自动切换##sa
+
+# EN: Auto Teleport to Waypoint
+3054113761=自动传送到路点
+
+# EN: Auto-Disable for Explosives##trig
+1277304267=炸药自动禁用##trig
+
+# EN: Auto-derive press/release timings from each weapon's native fire rate. Turn off for manual control.
+4100389573=从每种武器的原生射速自动推导按下/释放时间。关闭以进行手动控制。
 
 # EN: Auto-detect fonts from Windows
 2577479103=从Windows自动检测字体
@@ -292,8 +403,8 @@
 # EN: Automatically heals when HP drops below threshold
 758450938=HP低于阈值时自动回血
 
-# EN: Automatically punches when close enough to a target
-3378891542=足够接近目标时自动出拳
+# EN: Automatically teleports when you set a waypoint
+1231136245=设置路点时自动传送
 
 # EN: Avg FT
 2437122580=平均帧时间
@@ -312,6 +423,9 @@
 
 # EN: BMX
 1131912276=BMX
+
+# EN: Back
+927041140=返回
 
 # EN: Background
 4262714420=背景
@@ -343,11 +457,23 @@
 # EN: Background##weapon
 1937834289=背景##weapon
 
+# EN: Ban Player
+3035498839=封禁玩家
+
 # EN: Bar
 2151715081=条形
 
+# EN: Bars & Text
+3795115434=条形图和文本
+
 # EN: Basic
 4281242592=基础
+
+# EN: Beam Color
+2989953785=光束颜色
+
+# EN: Beam Thickness
+3961740012=光束厚度
 
 # EN: Beast Fall
 3610673836=野兽下落
@@ -373,8 +499,17 @@
 # EN: Behind Player TP
 2362883765=传送到玩家身后
 
+# EN: Bike
+3883417820=摩托车
+
+# EN: Blacklight
+810608065=黑光
+
 # EN: Blackout
 1180381498=停电
+
+# EN: Blame: ON (clear)
+2216872016=归咎：开（清除）
 
 # EN: Blazer
 2166734073=Blazer
@@ -394,11 +529,26 @@
 # EN: Block
 3828602749=阻止
 
+# EN: Block Game Input
+2568311256=阻止游戏输入
+
 # EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
 366586212=阻止通过CancelEvent()拦截事件。取消阻止会重新注册该事件。
 
 # EN: Blood Red
 3933943680=血红
+
+# EN: Blue
+2320856042=蓝色
+
+# EN: Blue/White
+861581190=蓝色/白色
+
+# EN: Blue/White 2
+2026258907=蓝色/白色 2
+
+# EN: Blue/White 3
+2391502181=蓝色/白色 3
 
 # EN: Blur
 1103389357=模糊
@@ -406,8 +556,14 @@
 # EN: Body
 2351258280=主体
 
+# EN: Body & Damage
+3333545826=车身和伤害
+
 # EN: Body BG
 2797276020=主体背景
+
+# EN: Body Border
+2027388166=车身边框
 
 # EN: Body Gradient
 706368864=主体渐变
@@ -430,6 +586,9 @@
 # EN: Boost Speed
 2314291611=加速速度
 
+# EN: Boost Strength
+2561393931=增压强度
+
 # EN: Border
 1453979255=边框
 
@@ -442,20 +601,32 @@
 # EN: Border Style
 350757194=边框样式
 
+# EN: Border Thick
+4263082925=边框厚度
+
 # EN: Border Thickness
 3884077482=边框粗细
 
 # EN: Border##cp
 216211181=边框##cp
 
+# EN: Border##dd
+1336714047=边框##dd
+
 # EN: Border##notif
 336356185=边框##notif
+
+# EN: Border##sl
+3865657270=边框##sl
 
 # EN: Border##sp
 192186828=边框##sp
 
 # EN: Border##tt
 3335618363=边框##tt
+
+# EN: Bordered
+3525280289=有边框
 
 # EN: Both
 3759669763=两者
@@ -478,11 +649,29 @@
 # EN: Box Only
 2220777776=仅方框
 
+# EN: Box and text fade with distance — far cars become subtle
+3475337068=方框和文本随距离褪色 — 远处的汽车变得微妙
+
+# EN: Box##obj
+2187178641=方框##obj
+
+# EN: Brake
+243491644=制动
+
+# EN: Brake Bias Front
+1166353899=前制动偏置
+
 # EN: Brake Force
 864573685=制动力
 
+# EN: Brakes
+975516570=制动器
+
 # EN: Branding
 637151929=品牌
+
+# EN: Break
+1663863439=中断
 
 # EN: Brightness
 26603225=亮度
@@ -508,6 +697,15 @@
 # EN: Bullet Tracers
 2673625274=弹道轨迹
 
+# EN: Bulletproof Tires
+145936881=防弹轮胎
+
+# EN: Bullets Per Shot
+170073245=每次射击的子弹数
+
+# EN: Bullseye
+2977736409=正中靶心
+
 # EN: Burn
 2096267097=燃烧
 
@@ -532,14 +730,32 @@
 # EN: Buttons
 2668497503=按钮
 
+# EN: Buttons (teleport, actions, etc.)
+1490120760=按钮（传送、操作等）
+
 # EN: By Type
 132944993=按类型
+
+# EN: Bypass Result
+396932726=绕过结果
 
 # EN: Bypassed
 716678219=已绕过
 
+# EN: Bypasses
+1667536244=绕过
+
+# EN: Bypasses stack and carry real ban risk — test on a throwaway account first.
+2077015=绕过会堆叠并带来真实的封禁风险 — 先在小号上测试。
+
 # EN: CPU time for frame animation.
 2221402083=CPU帧动画时间。
+
+# EN: Cache dump complete!
+1285465544=缓存转储完成！
+
+# EN: Cached Files
+889517808=缓存文件
 
 # EN: Cage All
 382838472=关笼所有
@@ -547,11 +763,32 @@
 # EN: Cage Player
 94667905=关笼玩家
 
+# EN: Camera
+626544054=摄像机
+
 # EN: Camera FOV
 3127376300=摄像机FOV
 
+# EN: Camera Only
+4032522243=仅摄像机
+
+# EN: Camera only — ped stays still. Invisible to server.
+1589156699=仅摄像机 — NPC保持静止。对服务器不可见。
+
 # EN: Cancel
 3692849629=取消
+
+# EN: Cancels *:ThnAC mirror events + sets thn_disabletrigger / creative_network convars
+923673445=取消 *:ThnAC 镜像事件 + 设置 thn_disabletrigger / creative_network convars
+
+# EN: Cancels likizao:* events
+3148036773=取消 likizao:* 事件
+
+# EN: Cancels reaper:* events + TriggerServerEvent filter + log-spam thread
+2385295508=取消 reaper:* 事件 + TriggerServerEvent 过滤器 + 日志刷屏线程
+
+# EN: Cap
+2482489232=上限
 
 # EN: Careful
 3082188318=谨慎
@@ -574,6 +811,12 @@
 # EN: Change Rate
 949770967=变化速率
 
+# EN: Chaos
+2793060944=混乱
+
+# EN: Cheatsheet (F1)
+402162894=作弊码表 (F1)
+
 # EN: China
 3307270334=中国
 
@@ -586,11 +829,20 @@
 # EN: Circle+Dot
 2897117632=圆形+点
 
+# EN: Class Coloring
+3721721673=类别着色
+
+# EN: Classic
+2458459502=经典
+
 # EN: Clean
 1640993750=清洁
 
 # EN: Clear
 916995460=清除
+
+# EN: Clear All
+1803284832=清除全部
 
 # EN: Clear Blue
 1120199508=晴蓝
@@ -604,8 +856,17 @@
 # EN: Clear Key
 1838276207=清除按键
 
+# EN: Clear Selection
+3954337100=清除选择
+
 # EN: Clear on Teleport
 1659055056=传送时清除
+
+# EN: Click 'Scan Cache' to read the FiveM cache database.
+3706823806=点击'扫描缓存'以读取FiveM缓存数据库。
+
+# EN: Click 'Scan Cache' to read the database. Files are organized by type, server, and resource.
+1445129018=点击'扫描缓存'以读取数据库。文件按类型、服务器和资源组织。
 
 # EN: Click Start to scan server resources for events.
 2559388892=点击开始扫描服务器资源中的事件。
@@ -613,11 +874,14 @@
 # EN: Click UI
 1200896506=点击UI
 
-# EN: Click key button to rebind. ESC to cancel.
-939410858=点击按键重新绑定。ESC取消。
+# EN: Click a player in the overlay (with menu open) to draw a line to them
+3041232413=在覆盖层中点击一个玩家（打开菜单）以画一条线到他们
 
 # EN: Click to apply model
 1083648646=点击应用模型
+
+# EN: Click to fire, click again to retarget
+2727610507=点击射击，再次点击重新瞄准
 
 # EN: Click to spawn
 4007395385=点击生成
@@ -649,14 +913,20 @@
 # EN: Close
 1204344681=关闭
 
-# EN: Closest to Crosshair
-1908711443=最近准星目标
+# EN: Closest
+3389338466=最近的
 
 # EN: Collision Proof
 821592069=防碰撞
 
 # EN: Color
 3914595625=颜色
+
+# EN: Color A
+4250468165=颜色 A
+
+# EN: Color B
+1995633279=颜色 B
 
 # EN: Color Picker
 1734248191=取色器
@@ -669,6 +939,15 @@
 
 # EN: Color Pickers
 967634097=取色器
+
+# EN: Color by Class
+3570899930=按类别着色
+
+# EN: Color##chamsi
+3247613901=颜色##chamsi
+
+# EN: Color##grpg
+4241090951=颜色##grpg
 
 # EN: Colors
 140995175=颜色
@@ -687,6 +966,9 @@
 
 # EN: Compass
 3738173000=指南针
+
+# EN: Conceal you from network sync — other players see you frozen at the entry spot, then desync entirely. Voice still works.
+2929301778=将你从网络同步中隐藏——其他玩家会看到你冻结在进入位置，然后完全不同步。语音仍可使用。
 
 # EN: Config
 1264390909=配置
@@ -730,6 +1012,9 @@
 # EN: Constant
 3907938741=恒定
 
+# EN: Constant rate — raw aim correction
+2155008193=恒定速率 — 原始瞄准校正
+
 # EN: Constant##skid
 1199242396=恒定##skid
 
@@ -738,6 +1023,12 @@
 
 # EN: Content Pad
 2392358571=内容边距
+
+# EN: Continuously detaches you from any parent entity and clears restraint animations every tick — cuffs and grabs can't stick
+3961499241=每个刻度都不断地将你从任何父实体分离并清除约束动画 — 手铐和抓取无法粘住
+
+# EN: Control Vehicle
+3891580591=控制载具
 
 # EN: Controls
 594033165=控制
@@ -757,6 +1048,9 @@
 # EN: Coordinates
 2789151618=坐标
 
+# EN: Coords
+917192739=坐标
+
 # EN: Copied event name to clipboard
 3300867=已复制事件名称到剪贴板
 
@@ -775,11 +1069,20 @@
 # EN: Copy Name
 4181535183=复制名称
 
+# EN: Copy Path
+2554133180=复制路径
+
+# EN: Core
+3262906017=核心
+
 # EN: Corner Length
 2709775814=角长度
 
 # EN: Corners
 1329770163=圆角
+
+# EN: Count
+1573697297=计数
 
 # EN: Counter-CW
 424479239=逆时针
@@ -799,6 +1102,21 @@
 # EN: Crosshair Numbers
 3190854118=准星数值
 
+# EN: Crouch Spam
+987224071=蹲伏刷屏
+
+# EN: Crouch Speed
+4131343827=蹲伏速度
+
+# EN: Crush
+2511841424=碾压
+
+# EN: Crush/Ram Mode
+2348735336=碾压/撞击模式
+
+# EN: Crush/Ram Player
+2810899241=碾压/撞击玩家
+
 # EN: Cursor Color
 1006036086=光标颜色
 
@@ -811,14 +1129,41 @@
 # EN: Custom AC
 703041167=自定义AC
 
-# EN: Custom Crosshair
-3384202717=自定义准星
-
 # EN: Custom Cursor
 1312703150=自定义光标
 
 # EN: Custom Folder Name (optional):
 3844090700=自定义文件夹名称（可选）：
+
+# EN: Custom Neon
+1060682944=自定义霓虹灯
+
+# EN: Custom RGB
+4256892969=自定义RGB
+
+# EN: Custom Tires
+544751089=自定义轮胎
+
+# EN: Customize##ddsty
+1466910820=自定义##ddsty
+
+# EN: Customize##grp
+1365816375=自定义##grp
+
+# EN: Customize##hbarsty
+2034804524=自定义##hbarsty
+
+# EN: Customize##nbsty
+1039221734=自定义##nbsty
+
+# EN: Customize##sl
+4220190893=自定义##sl
+
+# EN: Customize##spsty
+2752626057=自定义##spsty
+
+# EN: Customize##tgl
+2661039819=自定义##tgl
 
 # EN: Damage
 1125348833=伤害
@@ -829,8 +1174,14 @@
 # EN: Damage Log
 1288883294=伤害日志
 
+# EN: Damage Multi##mb2
+630170040=伤害倍数##mb2
+
 # EN: Damage Multiplier
 403675709=伤害倍率
+
+# EN: Damage Multiplier##mb
+1361489778=伤害倍数##mb
 
 # EN: Damage Numbers
 901708624=伤害数值
@@ -840,6 +1191,21 @@
 
 # EN: Damage Player
 393364144=伤害玩家
+
+# EN: Damage Taken
+701476604=受到的伤害
+
+# EN: Damage##laser
+1935586125=伤害##laser
+
+# EN: Damage##laserdmg
+3830742261=伤害##laserdmg
+
+# EN: Damage##mb
+2337379826=伤害##mb
+
+# EN: Dark Smoke
+142763422=深色烟雾
 
 # EN: Darkness
 1749136079=暗度
@@ -910,7 +1276,7 @@
 # EN: Delete this theme?
 2754582444=删除此主题？
 
-# EN: Deleted:
+# EN: Deleted: 
 3394613473=已删除:
 
 # EN: Deluxo Mode
@@ -922,14 +1288,23 @@
 # EN: Describe what you want:
 1226247808=描述你想要的内容：
 
+# EN: Desync Amount
+66128051=不同步量
+
 # EN: Detach
 4291111140=分离
+
+# EN: Detach From Entity
+2669760588=从实体分离
 
 # EN: Detach camera and fly around freely
 2017641408=分离摄像机并自由飞行
 
 # EN: Detail Text##notif
 2416834241=详细文本##notif
+
+# EN: Details
+2999341846=详情
 
 # EN: Detected
 1404062231=已检测
@@ -949,8 +1324,14 @@
 # EN: Dim Amount
 1388938324=变暗程度
 
+# EN: Direct Matrix
+2316365146=直接矩阵
+
 # EN: Direction
 887068712=方向
+
+# EN: Direction Arrow
+1352051813=方向箭头
 
 # EN: Direction Arrows
 1959535538=方向箭头
@@ -961,14 +1342,50 @@
 # EN: Direction##grp
 2633968279=方向##grp
 
+# EN: Direction##tglg
+2813082977=方向##tglg
+
+# EN: Dirt Level
+2097080762=污垢等级
+
 # EN: Disable Anti-Cheat
 3713723029=禁用反作弊
+
+# EN: Disable EagleAC
+3749989703=禁用 EagleAC
 
 # EN: Disable ElectronAC
 3852262134=禁用ElectronAC
 
+# EN: Disable FiniAC
+4027094632=禁用FiniAC
+
+# EN: Disable FireAC
+4172386454=禁用 FireAC
+
+# EN: Disable Fiveguard
+674576624=禁用Fiveguard
+
+# EN: Disable Likizao AC
+1769843243=禁用 Likizao AC
+
+# EN: Disable Long-Tail AC
+2408589976=禁用 Long-Tail AC
+
 # EN: Disable NM Fall
 3649142862=禁用NM下落
+
+# EN: Disable PhoenixAC
+4071712726=禁用 PhoenixAC
+
+# EN: Disable ReaperAC
+1788044941=禁用 ReaperAC
+
+# EN: Disable ThnAC
+306636585=禁用ThnAC
+
+# EN: Disable WaveShield
+633003215=禁用WaveShield
 
 # EN: Disable for Explosives
 1184164823=对爆炸物禁用
@@ -985,6 +1402,9 @@
 # EN: Disables natural motion fall
 2981961057=禁用自然运动下落
 
+# EN: Disables player lock-on and marks you as friendly for targeting + damage. Other players can't aim-assist or shoot you, but RP scripts may detect this.
+399655631=禁用玩家锁定并将你标记为友方目标和伤害。其他玩家无法自动瞄准或射击你，但 RP 脚本可能会检测到这一点。
+
 # EN: Disables skydive transition
 257734351=禁用跳伞过渡
 
@@ -999,6 +1419,9 @@
 
 # EN: Distance Bone
 1749124048=距离骨骼
+
+# EN: Distance Fade
+115233056=距离淡出
 
 # EN: Distance Labels
 462378492=距离标签
@@ -1030,17 +1453,38 @@
 # EN: Dividers
 4266747014=分割线
 
+# EN: Don't trigger on targets closer than this (anti point-blank wall-bang)
+769855118=不对距离较近的目标触发（防近距离穿墙）
+
+# EN: Don't trigger on targets farther than this (anti sniper-snap)
+2306830922=不对距离较远的目标触发（防狙击吸附）
+
+# EN: Don't trigger while holding RPG / grenade launcher / sticky bomb — prevents point-blank suicide
+2817569578=持有火箭筒/榴弹发射器/粘性炸弹时不触发 — 防止近距离自杀
+
 # EN: Done Scream
 2791358581=跳过尖叫
 
+# EN: Done!
+1499912973=完成！
+
+# EN: Doors
+2277806379=门
+
 # EN: Dot
 289406910=点
+
+# EN: Dot Color
+1433097755=点颜色
 
 # EN: Dot Outline
 1280327065=点轮廓
 
 # EN: Dot Size
 631688132=点大小
+
+# EN: Dot Size##grapple
+738962740=点大小##grapple
 
 # EN: Dot Spacing
 3608568270=点间距
@@ -1060,17 +1504,23 @@
 # EN: Draw Calls
 610979268=绘制调用
 
-# EN: Draws a circle showing the melee target selection area
-4093610293=绘制圆圈显示近战目标选择区域
+# EN: Draw ESP on dynamic world objects (props, dropped weapons, etc.)
+1797081634=在动态世界物体上绘制ESP（道具、掉落的武器等）
 
-# EN: Draws a line from crosshair to the locked melee target
-2699968102=从准星到锁定的近战目标绘制线条
+# EN: Draw a line from your crosshair to the currently selected vehicle
+2774106492=从你的准星到当前选定车辆画一条线
+
+# EN: Drive Bias
+4226445847=驾驶偏置
 
 # EN: Drive Style
 3330668057=驾驶风格
 
 # EN: Drive to Waypoint
 53776605=驾驶到标记点
+
+# EN: Drop Interval
+2449030008=投放间隔
 
 # EN: Drop Shadow
 362604306=投影
@@ -1084,11 +1534,20 @@
 # EN: Dropdown Hover
 7476142=下拉框悬停
 
+# EN: Dropdown Style
+933713766=下拉式样
+
 # EN: Dropdown Sub-Tabs
 914167550=下拉子标签
 
 # EN: Dropdowns
 51766618=下拉框
+
+# EN: Drops random vehicles around you from the sky
+3882522336=从天空向你周围投放随机车辆
+
+# EN: Drunk
+1071358210=醉酒
 
 # EN: Dual UI mode is not yet available.
 1792964426=双UI模式尚不可用。
@@ -1108,6 +1567,9 @@
 # EN: Dump All Scripts
 2383975502=转储所有脚本
 
+# EN: Dump Filtered
+1978498044=转储已过滤
+
 # EN: Dump Mode
 320906311=转储模式
 
@@ -1123,14 +1585,26 @@
 # EN: Dumping all resources...
 3090493905=正在转储所有资源...
 
+# EN: Dumping cache assets...
+2842862816=正在转储缓存资产...
+
+# EN: Dumping filtered assets...
+3351347782=正在转储已过滤的资产...
+
 # EN: Duration
 3674968789=持续时间
 
 # EN: Duration##dmglog
 2155043513=持续时间##dmglog
 
+# EN: Duration##dmglog2
+4242220220=持续时间##dmglog2
+
 # EN: Duration##dmgnum
 1606858786=持续时间##dmgnum
+
+# EN: Duration##mbtr
+2070453810=持续时间##mbtr
 
 # EN: Duration##pt
 2015408410=持续时间##pt
@@ -1140,6 +1614,12 @@
 
 # EN: Dusk
 2177164377=黄昏
+
+# EN: Dynamic
+1539023636=动态
+
+# EN: Dynamic FOV##sa
+156212456=动态视野##sa
 
 # EN: Dynamic Light
 3938333546=动态光源
@@ -1153,8 +1633,8 @@
 # EN: ESP
 3007444226=ESP
 
-# EN: ESP Settings
-3361209094=ESP设置
+# EN: Easy Handling
+752176618=简易操控
 
 # EN: Edge Arrows
 3739190029=边缘箭头
@@ -1180,6 +1660,9 @@
 # EN: Effects
 3222754290=效果
 
+# EN: Electric Blue
+290718067=电蓝色
+
 # EN: ElectronAC heartbeat — may be kicked in 2-5 min.
 3667341283=ElectronAC心跳 — 可能在2-5分钟内被踢出。
 
@@ -1189,11 +1672,20 @@
 # EN: Embedded
 2292057362=嵌入式
 
+# EN: Emergency Color
+1265670537=紧急颜色
+
 # EN: Empty Only
 335310304=仅空
 
 # EN: Enable Abilities
 1740941838=启用能力
+
+# EN: Enable Snapline
+2091316079=启用快照线
+
+# EN: Enable Vehicle ESP first
+3456228678=先启用车辆ESP
 
 # EN: Enable##grpimg
 4123962691=启用##grpimg
@@ -1216,11 +1708,29 @@
 # EN: Enabled
 1527945487=已启用
 
+# EN: Enabled##chams
+3153914251=已启用##chams
+
+# EN: Enabled##dlog
+2859054786=已启用##dlog
+
+# EN: Enabled##dmg
+2528055362=已启用##dmg
+
+# EN: Enabled##hm
+1214860466=已启用##hm
+
+# EN: Enabled##obj
+119737682=已启用##obj
+
 # EN: Enabled##silent
 697079411=已启用##silent
 
 # EN: Enabled##veh
 2924172026=已启用##veh
+
+# EN: Encrypted (Tebex escrow)
+1068505279=加密（Tebex第三方托管）
 
 # EN: End
 2965669335=末尾
@@ -1239,6 +1749,9 @@
 
 # EN: Engine Health
 3323537364=引擎耐久
+
+# EN: Engine State
+3910017357=引擎状态
 
 # EN: Enhanced Stars
 751095042=增强星星
@@ -1282,6 +1795,9 @@
 # EN: Events
 3674287931=事件
 
+# EN: ExecuteCommand stop fireac + cancel fireac:* events
+4133342422=ExecuteCommand 停止 fireac + 取消 fireac:* 事件
+
 # EN: Expand Sub-Tabs
 788906364=展开子标签
 
@@ -1297,11 +1813,20 @@
 # EN: Explosion Proof
 1687470245=防爆炸
 
+# EN: Explosion Size
+1777991272=爆炸大小
+
 # EN: Explosion Type
 330699093=爆炸类型
 
+# EN: Explosion on Hit
+2540577033=命中时爆炸
+
 # EN: Explosive Ammo
 2972685631=爆炸弹药
+
+# EN: Explosive##mb2
+914121166=爆炸##mb2
 
 # EN: Export
 677160269=导出
@@ -1312,8 +1837,17 @@
 # EN: Extended parachute blend
 2346391276=延长降落伞混合
 
+# EN: Extra
+2934273293=额外
+
+# EN: Extract RPF archives
+2384431469=提取RPF档案
+
 # EN: Extras
 2099753448=附加
+
+# EN: Extras##lockon
+1596163466=额外##lockon
 
 # EN: Eye Lasers
 2648065578=眼睛激光
@@ -1336,11 +1870,20 @@
 # EN: FOV Cone
 3855747913=FOV锥形
 
+# EN: FOV Limit##mb
+3932303542=视野限制##mb
+
 # EN: FOV Override
 660796900=FOV覆盖
 
 # EN: FOV Radius
 577842563=FOV半径
+
+# EN: FOV Radius##mb
+3586756969=视野半径##mb
+
+# EN: FOV Scale by Distance
+4020045898=按距离缩放视场
 
 # EN: FOV Scaling
 1352560597=FOV缩放
@@ -1378,6 +1921,9 @@
 # EN: Failed to load
 4017223651=加载失败
 
+# EN: Failed to open RPF archive
+1467477904=打开RPF档案失败
+
 # EN: Fake Crouch
 2499659129=假蹲
 
@@ -1390,6 +1936,9 @@
 # EN: Fast Climb
 1192867602=快速攀爬
 
+# EN: Fast Pullout
+91531864=快速拔枪
+
 # EN: Fast Punch
 4255767614=快速拳击
 
@@ -1398,6 +1947,12 @@
 
 # EN: Fast Run
 1518054783=快速奔跑
+
+# EN: Fast start, brakes near target
+1671645065=快速启动，目标附近制动
+
+# EN: Feature Keybinds
+2384437387=功能按键绑定
 
 # EN: Features
 1642194290=功能
@@ -1459,6 +2014,15 @@
 # EN: Filter:
 585229116=筛选：
 
+# EN: Filtered dump complete!
+4205511732=已过滤的转储完成！
+
+# EN: Filters
+3325143685=过滤器
+
+# EN: Filters gameEventTriggered for the GTA events the AC subscribes to + Ban/Kick/Check scrub
+2217272921=过滤 AC 订阅的 GTA gameEventTriggered 事件 + Ban/Kick/Check 清理
+
 # EN: Fine-Tuning
 3037120010=微调
 
@@ -1477,17 +2041,29 @@
 # EN: Fire Event
 2661019027=触发事件
 
+# EN: Fire Key
+1768177807=射击键
+
 # EN: Fire Proof
 2377383169=防火
 
 # EN: Fire Rate
 3724661835=射速
 
+# EN: Fire Rate##mb
+1343186129=射速##mb
+
+# EN: Fire Toolkit (LMB)
+449173871=开火工具包（LMB）
+
 # EN: Firework Launcher, Compact GL
 1025450837=烟花发射器、紧凑型榴弹发射器
 
 # EN: Fit
 1780184594=适应
+
+# EN: Fix
+281494355=修复
 
 # EN: Flame Effect
 979047845=火焰效果
@@ -1497,6 +2073,12 @@
 
 # EN: Flight Mode
 3303824494=飞行模式
+
+# EN: Flip Interval
+2923665449=翻转间隔
+
+# EN: Floating
+49814712=浮动
 
 # EN: Fly like Superman. WASD to move, Space to ascend, Shift to boost, Jump to ground pound.
 179929088=像超人一样飞行。WASD移动，Space上升，Shift加速，Jump地面冲击。
@@ -1524,6 +2106,9 @@
 
 # EN: Font Size##dmglog
 1349856237=字体大小##dmglog
+
+# EN: Font Size##dmglog2
+3170336878=字体大小##dmglog2
 
 # EN: Font names not ready
 1640246123=字体名称未就绪
@@ -1561,8 +2146,14 @@
 # EN: Force Skydive
 351881956=强制跳伞
 
+# EN: Force Weapon Wheel
+1719815463=强制武器转盘
+
 # EN: Force on Ped
 3779398860=对NPC施力
+
+# EN: Force-highlight police / EMT / fire vehicles regardless of class color setting
+849623759=无视职业颜色设置强制高亮警察/救护/消防车辆
 
 # EN: Forces dive animation
 2975166545=强制俯冲动画
@@ -1582,11 +2173,20 @@
 # EN: Forces skydive animation
 2019531610=强制跳伞动画
 
+# EN: Forces the native GTA weapon wheel even on servers that replace it with a custom inventory. Risk: some servers detect this; weapon access still depends on what's in your inventory.
+1435771926=在替换为自定义库存的服务器上强制使用本机GTA武器转盘。风险：某些服务器可能检测此操作；武器访问权限仍取决于库存中的内容。
+
 # EN: Forces uphill jump animation
 1929062318=强制上坡跳跃动画
 
+# EN: Forward
+854951812=前进
+
 # EN: Forward Speed
 1876555102=前进速度
+
+# EN: Frame This Player
+375330543=栽赃此玩家
 
 # EN: Frametime Graph
 3749077224=帧时间图表
@@ -1627,11 +2227,32 @@
 # EN: Friends are excluded
 3097198968=好友已排除
 
+# EN: Front
+2314350754=前
+
+# EN: Front Bias
+1673565011=前偏置
+
 # EN: Full
 2467592022=完整
 
+# EN: Full Pitch Rotation
+1312545797=完整俯仰旋转
+
+# EN: Full Rate While Moving
+29503458=移动时完整速率
+
+# EN: Full noclip — freeze + teleport. Most control, detectable.
+3610510432=完整夜视 — 冻结+传送。最多控制，可检测。
+
+# EN: Fullscreen key-bindings overlay — also toggleable with F1
+1568419146=全屏按键绑定覆盖 — 也可用F1切换
+
 # EN: Fully heals HP + gives 50 armor when you kill a player
 2096177985=击杀玩家时完全恢复HP并给予50护甲
+
+# EN: G: cancel tether
+3310409512=G: 取消绳索
 
 # EN: GPU
 591383768=GPU
@@ -1648,8 +2269,14 @@
 # EN: Generate
 1864538988=生成
 
+# EN: Generic event cancel sweep for vcac/venomac/wolfac/godzillaac/wolfshield/ultimateac/etc.
+3752519004=对 vcac/venomac/wolfac/godzillaac/wolfshield/ultimateac 等执行通用事件取消清扫
+
 # EN: Get Started
 1434685453=开始使用
+
+# EN: Get into a vehicle to use Los Santos Customs.
+3269752882=进入车辆以使用洛圣都改装店。
 
 # EN: Ghost Alpha
 1370266825=幽灵透明度
@@ -1680,6 +2307,9 @@
 
 # EN: Glide
 4179664184=滑翔
+
+# EN: Glitch Vehicle
+3263514815=使载具故障
 
 # EN: Global Controls
 535742188=全局控制
@@ -1714,6 +2344,9 @@
 # EN: Glow##pt
 329084185=发光##pt
 
+# EN: Glow##skel
+3909833531=发光##skel
+
 # EN: Glow##snap
 3584938764=发光##snap
 
@@ -1726,11 +2359,29 @@
 # EN: God Mode
 3602224294=无敌模式
 
+# EN: Golden Shower
+1383505900=金色淋浴
+
 # EN: Grab
 2936829358=抓取
 
 # EN: Grab Opacity
 1641363077=抓取透明度
+
+# EN: Grab Range
+2257887998=抓取范围
+
+# EN: Grab Shape
+3731252436=抓取形状
+
+# EN: Grab Size
+390888471=抓取大小
+
+# EN: Grab and throw peds. Works on players.
+3635339915=抓取和投掷行人。对玩家有效。
+
+# EN: Grab and throw vehicles. Works with players inside.
+1845135183=抓取和投掷车辆。适用于车内玩家。
 
 # EN: Grab##scr
 2129025338=抓取##scr
@@ -1744,6 +2395,9 @@
 # EN: Gradient
 3345778296=渐变
 
+# EN: Gradient (ON)
+145492381=渐变（开启）
+
 # EN: Gradient Accent
 375722623=渐变强调色
 
@@ -1753,8 +2407,14 @@
 # EN: Gradient End
 2363959488=渐变结束
 
+# EN: Gradient Fill
+1626977588=渐变填充
+
 # EN: Gradient##skel
 4185602752=渐变##skel
+
+# EN: Gradient##sl
+4056088422=渐变##sl
 
 # EN: Gradient##snap
 996503281=渐变##snap
@@ -1771,8 +2431,17 @@
 # EN: Graph Line
 2499037406=图表线条
 
+# EN: Grapple Hook
+3088883906=抓钩
+
 # EN: Gravity Gun
 593196728=重力枪
+
+# EN: Gravity##spider
+69796183=重力##spider
+
+# EN: Green
+1439605128=绿色
 
 # EN: Grenade
 3058715602=手雷
@@ -1819,8 +2488,20 @@
 # EN: HUD Panels
 2229228524=HUD面板
 
+# EN: HUD##grapple
+3437743643=抬头显示##grapple
+
+# EN: Handling
+4213145855=操控
+
 # EN: Hands
 1613305285=手部
+
+# EN: Hash##obj
+3284555243=哈希##obj
+
+# EN: Hash:
+713552469=哈希：
 
 # EN: Hat
 2537416713=帽子
@@ -1882,14 +2563,23 @@
 # EN: Header##pnl
 2800582941=标题栏##pnl
 
+# EN: Heading
+1140182852=标题
+
 # EN: Headshot Chance
 1279076512=爆头概率
+
+# EN: Headshot Chance##mb
+105036172=爆头几率##mb
 
 # EN: Headshot Color
 3745724835=爆头颜色
 
 # EN: Headshot Highlight
 3490981979=爆头高亮
+
+# EN: Headshot Only##trig
+2393271930=仅爆头##trig
 
 # EN: Heal Self
 1837308584=治疗自身
@@ -1927,6 +2617,9 @@
 # EN: Height##jh
 4205595266=高度##jh
 
+# EN: Height##tgl
+3237570541=高度##tgl
+
 # EN: Hex
 3544636510=Hex
 
@@ -1942,6 +2635,9 @@
 # EN: Hide ESP
 3489105641=隐藏ESP
 
+# EN: Hide From Others
+943693745=对其他人隐藏
+
 # EN: Hide Key
 1973484404=隐藏按键
 
@@ -1951,8 +2647,26 @@
 # EN: Hide Overlays
 1525934716=隐藏叠加层
 
+# EN: Hide Own Vehicle
+2520687793=隐藏自己的车辆
+
+# EN: Hide Player ESP In Vehicle
+1137983958=在车辆中隐藏玩家ESP
+
+# EN: Hide Preview
+3899698831=隐藏预览
+
 # EN: Hide Tracers / Lines
 425240012=隐藏弹道 / 线条
+
+# EN: Hide Vehicle ESP In Vehicle
+3498199106=在车辆中隐藏车辆ESP
+
+# EN: High End
+117532326=高端
+
+# EN: Highlight Emergency
+3503442503=高亮紧急
 
 # EN: Highlight Headshots
 1100352321=高亮爆头
@@ -1987,14 +2701,20 @@
 # EN: Hold
 2552174939=按住
 
-# EN: Hold LMB to grab nearest ped, RMB to throw. Must be unarmed.
-3981296497=按住左键抓取最近的NPC，右键投掷。必须徒手。
+# EN: Hold Distance
+646883769=保持距离
 
-# EN: Hold LMB to grab nearest vehicle, RMB to throw. Must be unarmed.
-966767189=按住左键抓取最近的载具，右键投掷。必须徒手。
+# EN: Hold E near a player to pull and punch
+4004346598=在玩家附近按住E以拉动和拳击
+
+# EN: Hold Key##trig
+1503355022=按住键##trig
 
 # EN: Hold Mode
 200873681=按住模式
+
+# EN: Honeypot suppression + entityDamaged silencer + screenshot stub + extended weapon clamp
+2152885364=蜜罐抑制+entityDamaged消音器+截图存根+扩展武器夹
 
 # EN: Horizon
 3479812369=地平线
@@ -2004,6 +2724,9 @@
 
 # EN: Horizontal
 1700296974=水平
+
+# EN: Hot Pink
+1224546404=热粉色
 
 # EN: Hour
 1605056896=小时
@@ -2028,6 +2751,12 @@
 
 # EN: Humanization
 2824293924=人性化
+
+# EN: Hybrid
+3907068470=混合动力
+
+# EN: Hybrid All
+1008496125=全部混合
 
 # EN: ID
 459292749=ID
@@ -2140,6 +2869,9 @@
 # EN: Info##notif
 3630429841=信息##notif
 
+# EN: Injured
+3763007772=受伤
+
 # EN: Input
 3018672514=输入
 
@@ -2182,6 +2914,9 @@
 # EN: Intensity##pedl
 778732463=强度##pedl
 
+# EN: Interior Light
+1872217725=内部光线
+
 # EN: Interval
 640635350=间隔
 
@@ -2194,14 +2929,23 @@
 # EN: Item Active
 3806767807=项目激活
 
+# EN: Item Gap
+794979395=项目间隙
+
 # EN: Item Height
 1662290394=项目高度
 
 # EN: Item Hover
 3271408553=项目悬停
 
+# EN: Item Pad X
+1161658994=项目填充X
+
 # EN: Item Spacing
 3472915733=项目间距
+
+# EN: Items
+3308786431=项目
 
 # EN: JATO Boost
 959701148=JATO加速
@@ -2211,6 +2955,9 @@
 
 # EN: Jitter
 2175396620=抖动
+
+# EN: Jitter / Humanize
+3885455134=抖动/人类化
 
 # EN: Joint Color
 1649662583=关节颜色
@@ -2239,8 +2986,14 @@
 # EN: KEYBINDS
 1174365445=按键绑定
 
+# EN: Keep Momentum
+1501721584=保持动量
+
 # EN: Keeps engine running when you exit the vehicle
 3947995004=退出载具时保持引擎运转
+
+# EN: Key
+3917505287=键
 
 # EN: Key Pill / Accent
 254348757=按键标签 / 强调色
@@ -2269,6 +3022,9 @@
 # EN: Kill Color
 2587993530=击杀颜色
 
+# EN: Kill Cooldown
+2797216207=击杀冷却
+
 # EN: Kill Counter HUD
 3558074372=击杀计数HUD
 
@@ -2284,11 +3040,26 @@
 # EN: Knob
 3174489586=旋钮
 
+# EN: Knob Pad
+2773421388=旋钮垫
+
+# EN: Knob Scale
+993676257=旋钮刻度
+
+# EN: Knob Shape
+843089538=旋钮形状
+
 # EN: Kuruma
 2922118804=Kuruma
 
 # EN: LMB = Grab, RMB = Throw
 3198042721=左键 = 抓取，右键 = 投掷
+
+# EN: LMB Mode
+2469445833=LMB 模式
+
+# EN: LSC
+3420690284=低骑者改装厂
 
 # EN: Lag Switch
 1975962994=Lag Switch
@@ -2302,14 +3073,26 @@
 # EN: Large GIFs with many frames use more VRAM and
 1677371317=帧数多的大型GIF会使用更多显存并
 
+# EN: Laser Eyes
+1990442658=激光眼
+
 # EN: Laser Kill Speed
 3536074409=激光击杀速度
 
 # EN: Launch All
 2200616639=全部弹射
 
+# EN: Launch Player
+3612681718=发射玩家
+
+# EN: Launch Speed
+341258954=发射速度
+
 # EN: Launch Up
 3341920784=向上发射
+
+# EN: Launch Upward
+2068197786=向上发射
 
 # EN: Layout
 790219145=布局
@@ -2332,17 +3115,29 @@
 # EN: Library
 3519106789=库
 
+# EN: License Plate
+2703105969=车牌
+
 # EN: Light Cortana
 611147987=Light Cortana
 
 # EN: Light Glow
 1698708842=光辉
 
+# EN: Light Smoke
+3178245753=浅烟雾
+
 # EN: Lights - Cortana
 1092922240=灯光 - Cortana
 
 # EN: Lights - Glow
 486333628=灯光 - 光辉
+
+# EN: Lime Green
+3969499562=石灰绿
+
+# EN: Limo
+3830760436=豪华轿车
 
 # EN: Line
 2053992847=线条
@@ -2356,8 +3151,14 @@
 # EN: Line Thickness
 3321288925=线条粗细
 
+# EN: Line Thickness##grapple
+3569743401=线条粗度##grapple
+
 # EN: Line of Sight
 3600102520=视线
+
+# EN: Linear
+959610275=线性
 
 # EN: Lines
 3759251173=线条
@@ -2370,6 +3171,15 @@
 
 # EN: List UI is coming soon and not yet available.
 3836961011=列表UI即将推出，尚不可用。
+
+# EN: Live Apply
+2118212254=实时应用
+
+# EN: Live state — updates while triggerbot runs
+3789983802=实时状态 — 触发机器人运行时更新
+
+# EN: Livery
+2153615120=涂装
 
 # EN: Load
 837451790=加载
@@ -2398,6 +3208,9 @@
 # EN: Local Player
 3579097795=本地玩家
 
+# EN: Local View
+595432013=本地视图
+
 # EN: Lock On
 3927233622=锁定
 
@@ -2422,20 +3235,26 @@
 # EN: Long Blend High Falls
 1586511569=高空长混合
 
+# EN: Long-tail catch-all
+1393017772=长尾兜底
+
 # EN: Longer Parachute Blend
 1389515746=更长降落伞混合
 
 # EN: Longer blend on high falls
 2594425733=高空下落时更长混合
 
-# EN: Look at a player and hold E to pull yourself to them and melee them.
-1495046615=看着玩家并按住E将自己拉向他们并近战攻击。
-
 # EN: Loops
 3264076679=循环
 
+# EN: Lower release = faster fire (full-auto). Higher = semi-auto pace.
+3001053453=释放越低 = 射速越快（全自动）。越高 = 半自动节奏。
+
 # EN: Lowest HP
 890079348=最低HP
+
+# EN: Lowrider
+1141691757=低底盘车
 
 # EN: Lua
 379960767=Lua
@@ -2461,6 +3280,9 @@
 # EN: MGs
 2564243601=MGs
 
+# EN: MMB: shoot web | W: boost | S: brake
+763837915=中键：发射网络 | W：加速 | S：制动
+
 # EN: Magic Bullet
 2156396594=魔法子弹
 
@@ -2476,6 +3298,9 @@
 # EN: Maintenance
 1970712939=维护
 
+# EN: Makes you harder to hit by aimbots
+824366569=使您更难被瞄准机器人击中
+
 # EN: Makes you invincible. Right-click for keybind.
 3031350692=使你无敌。右键点击设置快捷键。
 
@@ -2487,6 +3312,9 @@
 
 # EN: Map Image
 2485108282=地图图片
+
+# EN: Margin
+3834294781=边距
 
 # EN: Marker Duration
 3550132583=标记持续时间
@@ -2500,11 +3328,26 @@
 # EN: Marker Size##tt
 1410759241=标记大小##tt
 
+# EN: Marker confirmed — bypass executed
+3122296175=标记已确认 — 绕过已执行
+
+# EN: Marker missing — Cfx rejected the inject
+3736917153=标记丢失 — Cfx拒绝了注入
+
+# EN: Mass
+1271239883=质量
+
 # EN: Match Accent
 2004835312=匹配强调色
 
 # EN: Matrix
 837004614=矩阵
+
+# EN: Matrix 2
+3998844046=矩阵2
+
+# EN: Matrix Update Pos
+294231992=矩阵更新位置
 
 # EN: Max Armor
 1642775380=最大护甲
@@ -2515,8 +3358,14 @@
 # EN: Max Connections
 2093456670=最大连接数
 
+# EN: Max Consec. Headshots
+1202996373=最大连续爆头
+
 # EN: Max Distance
 1098241997=最大距离
+
+# EN: Max Distance##esp
+113564246=最大距离##esp
 
 # EN: Max Distance##mb
 3059089789=最大距离##mb
@@ -2529,6 +3378,9 @@
 
 # EN: Max Kills/Min
 2248378999=最大击杀/分钟
+
+# EN: Max Kills/Min##mb
+3946597068=最大击杀/分##mb
 
 # EN: Max Offset
 1479160603=最大偏移
@@ -2547,6 +3399,12 @@
 
 # EN: Max Range Filter
 2461467509=最大范围筛选
+
+# EN: Max Range##grapple
+3685554316=最大范围##grapple
+
+# EN: Max Render##esp
+2059091760=最大渲染##esp
 
 # EN: Max Resolution
 2928541794=最大分辨率
@@ -2575,8 +3433,17 @@
 # EN: Memory Usage
 3562636674=内存使用
 
+# EN: Menu Position
+488308314=菜单位置
+
+# EN: Method
+3688351661=方法
+
 # EN: Min Color
 1271198994=最小颜色
+
+# EN: Min Distance
+1069235608=最小距离
 
 # EN: Min Scale
 4136179093=最小缩放
@@ -2589,6 +3456,9 @@
 
 # EN: Minimal
 2190409216=极简
+
+# EN: Mint Green
+1013459273=薄荷绿
 
 # EN: Minute
 3134348697=分钟
@@ -2611,14 +3481,26 @@
 # EN: Model
 1816327236=模型
 
+# EN: Mods
+3207858859=模组
+
 # EN: Modules
 2096891096=模块
 
 # EN: Molotov
 4233768403=燃烧瓶
 
+# EN: Momentum##grapple
+3843275369=动量##grapple
+
+# EN: Monkey-patches AddEventHandler to disable a.modules[*].enabled flags
+1593097459=对 AddEventHandler 打 monkey-patch 以禁用 a.modules[*].enabled 标志
+
 # EN: Moon Glow
 214814360=月光
+
+# EN: More
+3843409854=更多
 
 # EN: Morning
 852964312=早晨
@@ -2635,8 +3517,17 @@
 # EN: Movement Prediction##sa
 598861308=移动预测##sa
 
+# EN: Multi-Bullet
+3705725373=多子弹
+
+# EN: Multi-Target
+2095291306=多目标
+
 # EN: Multiple rings stack from feet to head
 1361975713=多个环从脚到头堆叠
+
+# EN: Muscle
+3124123546=肌肉车
 
 # EN: N
 3649581809=N
@@ -2653,6 +3544,9 @@
 # EN: NPCs Only
 3543922621=仅NPC
 
+# EN: NUI/CEF
+2526213452=NUI/CEF
+
 # EN: Name
 3873537812=名称
 
@@ -2662,11 +3556,17 @@
 # EN: Name Size
 847030063=名称大小
 
+# EN: Name##obj
+2714736600=名称##obj
+
 # EN: Name##veh
 501997998=名称##veh
 
 # EN: Name:
 2913015549=名称：
+
+# EN: Natural
+4292977478=自然
 
 # EN: Nav Bar Background
 75021814=导航栏背景
@@ -2676,6 +3576,9 @@
 
 # EN: Nav Logo Tint
 720450998=导航Logo色调
+
+# EN: Nav Matrix
+1950226930=导航矩阵
 
 # EN: Nav Pill Color
 2062752829=导航标签颜色
@@ -2704,17 +3607,26 @@
 # EN: Nearest
 775913483=最近
 
-# EN: Nearest Distance
-1000483901=最近距离
+# EN: Nearest Veh
+3801560300=最近的车
 
 # EN: Neck
 996632005=颈部
 
+# EN: Neon
+2445973230=霓虹灯
+
 # EN: Neon Border
 1220884655=霓虹边框
 
+# EN: Neon Color
+2835812883=霓虹灯颜色
+
 # EN: Network
 2981967937=网络
+
+# EN: Never draw vehicle ESP for your own car
+3365696195=从不为您的车绘制车辆ESP
 
 # EN: Never run out of stamina while sprinting
 3367150289=冲刺时永不耗尽体力
@@ -2767,6 +3679,9 @@
 # EN: No Spread
 3427132305=无散布
 
+# EN: No action keybinds set
+3967958661=未设置操作按键绑定
+
 # EN: No anti-cheat found on this server
 653618892=此服务器未发现反作弊
 
@@ -2782,8 +3697,8 @@
 # EN: No fall damage from any height
 951215153=任何高度无坠落伤害
 
-# EN: No feature binds set.
-1399384241=未设置功能绑定。
+# EN: No feature keybinds set
+1231463115=未设置功能按键绑定
 
 # EN: No features found matching
 849221076=未找到匹配的功能
@@ -2796,6 +3711,12 @@
 
 # EN: No image selected.
 3081214655=未选择图片。
+
+# EN: No matches
+3293291230=无匹配
+
+# EN: No one talking
+1795249198=无人说话
 
 # EN: No resources loaded. Click Refresh to scan.
 2609580651=未加载资源。点击刷新扫描。
@@ -2815,6 +3736,9 @@
 # EN: No triggers found in this resource.
 3107039142=此资源中未找到触发器。
 
+# EN: Noclip Mode
+488026672=无碰撞模式
+
 # EN: None
 493038497=无
 
@@ -2833,6 +3757,9 @@
 # EN: Not connected
 3609921055=未连接
 
+# EN: Not scanned
+1772111012=未扫描
+
 # EN: Not scanned yet — click Scan or enable Auto Detect
 2639677942=尚未扫描 — 点击扫描或启用自动检测
 
@@ -2842,11 +3769,23 @@
 # EN: Notifications
 3527871691=通知
 
+# EN: Npc Hijack
+756304747=劫持 NPC
+
+# EN: Numeric engine health value above box
+2839969393=框上方的数字引擎健康值
+
 # EN: OFF Time
 2870256580=关闭时间
 
 # EN: ON Time
 2066901124=开启时间
+
+# EN: Object
+966099553=对象
+
+# EN: Object ESP
+3149334266=物体ESP
 
 # EN: Objects / Walls
 3327894545=物体 / 墙壁
@@ -2856,6 +3795,9 @@
 
 # EN: Off
 125735237=关
+
+# EN: Offroad
+2897504452=越野
 
 # EN: Offset
 2705095151=偏移
@@ -2884,14 +3826,32 @@
 # EN: Only While ADS##trig
 1546980182=仅瞄准时##trig
 
-# EN: Only targets behind walls
-2146794671=仅墙后目标
+# EN: Only While Aiming
+11361291=仅在瞄准时
+
+# EN: Only While Shooting
+4036765638=仅在射击时
+
+# EN: Only fire when the head bone is in FOV — body shots are disabled regardless of hitbox setting
+3589621212=仅在头骨在FOV内时射击 — 无论碰撞箱设置如何，身体射击都被禁用
+
+# EN: Only fire while a key is held. Useful for legit-passing — full manual control.
+2261554339=仅在按住键时射击。用于合法通过 — 完全手动控制。
+
+# EN: Only show vehicles with no occupants
+804112822=仅显示无乘员的车辆
 
 # EN: Opacity
 3644411688=透明度
 
 # EN: Opacity##dmglog
 2914177699=透明度##dmglog
+
+# EN: Opacity##dmglog2
+2225663666=不透明度##dmglog2
+
+# EN: Open
+2625123096=打开
 
 # EN: Open Folder
 615535440=打开文件夹
@@ -2911,6 +3871,9 @@
 # EN: Options
 2704274338=选项
 
+# EN: Orange
+2379473940=橙色
+
 # EN: Origin
 2371626452=原点
 
@@ -2922,6 +3885,9 @@
 
 # EN: Out of range
 170898955=超出范围
+
+# EN: Outer Ring
+3684560347=外环
 
 # EN: Outer Ring Color
 2790912397=外环颜色
@@ -2937,6 +3903,9 @@
 
 # EN: Outline##head
 1915029405=轮廓##head
+
+# EN: Outline##skel
+3425843942=轮廓##skel
 
 # EN: Output Directory:
 3566541914=输出目录：
@@ -2976,6 +3945,21 @@
 
 # EN: PNG or JPG recommended.
 2646030720=推荐使用PNG或JPG。
+
+# EN: Pad X
+4090104508=垫X
+
+# EN: Pad X##dd
+1605964143=垫X##dd
+
+# EN: Pad X##sp
+976082529=垫X##sp
+
+# EN: Pad Y##dd
+4284433392=填充Y##dd
+
+# EN: Pad Y##sp
+2158836274=填充Y##sp
 
 # EN: Padding
 625300402=内边距
@@ -3022,6 +4006,12 @@
 # EN: Pass Through
 3173995589=穿透
 
+# EN: Passenger Count
+3042766986=乘客数
+
+# EN: Passive Mode
+2075178546=被动模式
+
 # EN: Passively regenerate health over time
 240888173=随时间被动恢复生命值
 
@@ -3031,8 +4021,20 @@
 # EN: Paste your API key here...
 261626132=在此处粘贴你的API密钥...
 
+# EN: Path copied!
+1491921977=路径已复制！
+
 # EN: Path:
 507121814=路径：
+
+# EN: Pause after a target dies (anti kill-chain detection)
+2053686850=目标死亡后暂停（反击杀链检测）
+
+# EN: Pearlescent
+3095366650=珍珠光泽
+
+# EN: Ped Chams
+1321244684=NPC透视
 
 # EN: Ped Follows Camera
 1872355422=NPC跟随摄像机
@@ -3052,14 +4054,23 @@
 # EN: Peds / NPCs
 1876490144=NPC / 行人
 
-# EN: Per-Feature Binds
-2900791157=每功能绑定
+# EN: Performance
+681794815=性能
 
 # EN: Performance Limits
 1215680916=性能限制
 
 # EN: Performance Stats
 4260591683=性能统计
+
+# EN: Phase 4: HTTP GET to 127.0.0.1:13172/json/list. Catches CEF-only ACs (FiniAC) but most server ACs flag this — kick/ban risk.
+940989757=阶段4：HTTP GET到127.0.0.1:13172/json/list。捕获仅CEF的反作弊（FiniAC），但大多数服务器反作弊标记此项 — 踢出/封禁风险。
+
+# EN: Physics
+582404775=物理
+
+# EN: Physics##grapple
+2646572249=物理##grapple
 
 # EN: Pill
 2294717198=标签
@@ -3079,11 +4090,23 @@
 # EN: Pipe Bombs, Proximity Mines, Flares
 1693538821=管状炸弹、接近地雷、信号弹
 
+# EN: Pistol
+2038363526=手枪
+
 # EN: Pistols
 1837167641=手枪
 
+# EN: Pitch Speed
+2860630765=俯仰速度
+
 # EN: Place .lua files in:
 3888411723=将.lua文件放入：
+
+# EN: Plate Style
+2052384119=车牌风格
+
+# EN: Plate Text
+999064755=车牌文字
 
 # EN: Player
 1862763509=玩家
@@ -3100,20 +4123,32 @@
 # EN: Players
 591508004=玩家
 
-# EN: Players ESP
-4197193239=玩家ESP
-
 # EN: Players Only
 766737098=仅玩家
 
 # EN: Plays a beep sound when a player gets within range
 1863429150=当玩家进入范围时播放提示音
 
+# EN: Plus-Dot
+1388012873=加号点
+
+# EN: Police = blue, Ambulance = red, Sports = orange, etc.
+98887342=警察 = 蓝色，救护车 = 红色，跑车 = 橙色，等等。
+
+# EN: Pony Pink
+3111469211=小马粉红
+
+# EN: Popup Style
+3924788302=弹出窗口风格
+
 # EN: Popups
 3713054092=弹窗
 
 # EN: Position
 18243940=位置
+
+# EN: Position Desync
+1269569986=位置不同步
 
 # EN: Position History
 3857144579=位置历史
@@ -3130,6 +4165,9 @@
 # EN: Prediction
 796153596=预测
 
+# EN: Prediction Factor
+53558502=预测因子
+
 # EN: Prediction##sa
 43230462=预测##sa
 
@@ -3138,6 +4176,12 @@
 
 # EN: Preset
 2973707311=预设
+
+# EN: Press C while sprinting to slide
+1716204492=冲刺时按C进行滑行
+
+# EN: Press Duration
+1411033764=按住时长
 
 # EN: Press END to instantly disable all visuals, menu, overlays, ESP. Press END again to restore.
 477737018=按END键立即禁用所有视觉效果、菜单、叠加层、ESP。再次按END恢复。
@@ -3160,6 +4204,9 @@
 # EN: Press the open key to toggle the menu anytime
 3803410397=随时按打开按键切换菜单
 
+# EN: Press/release auto-tuned per weapon group
+2721688304=按下/释放按武器组自动调整
+
 # EN: Prevents fuel from draining on fuel-enabled servers
 857983888=在启用燃料的服务器上防止燃料消耗
 
@@ -3172,14 +4219,26 @@
 # EN: Primary
 303108068=主要
 
+# EN: Primary Index
+1510988827=主要索引
+
+# EN: Primary/Secondary use factory paint chart indexes (with pearlescent undertone) instead of custom RGB
+75576912=主要/次要使用工厂油漆图表索引（带有珍珠光泽底色）而不是自定义RGB
+
 # EN: Priority
 342945216=优先级
 
-# EN: Priority##melee
-3850166085=优先级##melee
+# EN: Priority##mb
+331609036=优先级##mb
 
 # EN: Priority##sa
 796836409=优先级##sa
+
+# EN: Probe NUI Port
+565429198=探测NUI端口
+
+# EN: Product
+95185533=产品
 
 # EN: Progress
 1089828659=进度
@@ -3196,6 +4255,9 @@
 # EN: Proximity Alert
 1493469578=接近警报
 
+# EN: Pull Force
+3590688288=拉力
+
 # EN: Pulse
 2572624287=脉冲
 
@@ -3211,6 +4273,9 @@
 # EN: Pulse##pedl
 4225047266=脉冲##pedl
 
+# EN: Punch All
+2677617383=全部打孔
+
 # EN: Punch Loop
 913715001=拳击循环
 
@@ -3219,6 +4284,15 @@
 
 # EN: Punch Rate
 1186403142=拳击速率
+
+# EN: Pure Black
+1403493381=纯黑色
+
+# EN: Purple
+2665043236=紫色
+
+# EN: Quadratic ease-in — classic aimbot feel
+2151802289=二次缓入 — 经典瞄准机器人感觉
 
 # EN: Quick Dump
 3771659481=快速转储
@@ -3253,6 +4327,15 @@
 # EN: Radius
 1337695475=半径
 
+# EN: Radius##hbsty
+3794600950=半径##hbsty
+
+# EN: Radius##nbsty
+2105130560=半径##nbsty
+
+# EN: Radius##sp
+2876015957=半径##sp
+
 # EN: Ragdoll
 540944468=布娃娃
 
@@ -3286,6 +4369,12 @@
 # EN: Rainbow Speed##pt
 461725058=彩虹速度##pt
 
+# EN: Rainbow##chamsi
+3749707581=彩虹##chamsi
+
+# EN: Rainbow##chamsvfx
+3065634418=彩虹##chamsvfx
+
 # EN: Rainbow##fog
 3074789384=彩虹##fog
 
@@ -3307,6 +4396,9 @@
 # EN: Rainbow##tl
 2474153670=彩虹##tl
 
+# EN: Ram
+1357997983=撞击
+
 # EN: Ram Distance
 2300880066=冲撞距离
 
@@ -3319,8 +4411,14 @@
 # EN: Ramp
 2775957121=坡道
 
+# EN: Random
+3957470568=随机
+
 # EN: Random Driving
 651903587=随机驾驶
+
+# EN: Random Flip
+1035004639=随机翻转
 
 # EN: Range
 332484516=范围
@@ -3331,17 +4429,29 @@
 # EN: Range Rings
 102053550=范围环
 
+# EN: Range##laser
+1902577949=范围##laser
+
 # EN: Rapid Fire
 4034658405=速射
 
-# EN: Rapid punching — spams attack input for maximum DPS
-1255462882=快速拳击 — 连续攻击输入以获得最大DPS
+# EN: Rapid Fire##mb
+2271628892=连射##mb
 
 # EN: Rate
 2120794248=速率
 
 # EN: Rate##serp
 1131381918=速率##serp
+
+# EN: Re-scans every 10s when clean, 3s when AC detected, 2s after bypass
+1201033208=干净时每10秒重新扫描，检测到反作弊时3秒，绕过后2秒
+
+# EN: Read Resource Files
+3222843015=读取资源文件
+
+# EN: Reads FiveM's local cache database (LevelDB) to list all downloaded assets.
+2239289731=读取FiveM的本地缓存数据库（LevelDB）以列出所有下载的资产。
 
 # EN: Ready
 2084256605=就绪
@@ -3351,6 +4461,9 @@
 
 # EN: Recommended image sizes:
 2704497521=推荐图片尺寸：
+
+# EN: Red
+2557620812=红色
 
 # EN: Reduce incoming damage by a percentage. Click gear to adjust.
 2821777337=按百分比减少受到的伤害。点击齿轮调整。
@@ -3385,8 +4498,20 @@
 # EN: Registered But Not Triggered
 774818613=已注册但未触发
 
+# EN: Release Distance
+1257392546=释放距离
+
+# EN: Release Duration
+4222363843=释放时长
+
+# EN: Release##grapple
+1379360201=释放##grapple
+
 # EN: Reload
 1571056488=换弹
+
+# EN: Remove
+3336096321=移除
 
 # EN: Removes combat roll cooldown
 1447874427=移除战斗翻滚冷却
@@ -3396,6 +4521,9 @@
 
 # EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
 2465448157=渲染设置由游戏控制。VSync、帧节奏和后端在FiveM中不可配置。
+
+# EN: Renders an AC status indicator on screen even when menu is closed
+3367277342=即使菜单关闭也在屏幕上呈现反作弊状态指示器
 
 # EN: Repair
 3327385526=修复
@@ -3417,6 +4545,9 @@
 
 # EN: Reset Fonts
 2389856026=重置字体
+
+# EN: Reset Multipliers
+1050748381=重置倍数
 
 # EN: Reset Position
 1118816545=重置位置
@@ -3448,6 +4579,9 @@
 # EN: Resource Details
 2210156775=资源详情
 
+# EN: Resource sandboxing or escrow likely blocked execution. Try again — Cfx sometimes accepts the second attempt.
+2008215087=资源沙箱或代管可能阻止了执行。重试一下 — Cfx有时会接受第二次尝试。
+
 # EN: Resource:
 294397415=资源：
 
@@ -3460,11 +4594,17 @@
 # EN: Restore Position on Disable
 152322992=禁用时恢复位置
 
+# EN: Restore Smooth Legit Defaults
+865595512=恢复平顺合法默认值
+
 # EN: Revenge Tracker
 315468113=复仇追踪
 
 # EN: Revive
 327204845=复活
+
+# EN: Rifle
+2215287832=步枪
 
 # EN: Rifles
 3712947327=步枪
@@ -3505,23 +4645,47 @@
 # EN: Risk: May result in kick/ban
 863799803=风险：可能导致踢出/封禁
 
+# EN: Risk: bypass may trigger kick or ban — verify result below
+4189366338=风险：绕过可能触发踢除或禁禁 — 验证下面的结果
+
 # EN: Risky
 1413260749=高风险
 
 # EN: Rocket Boost
 298680161=火箭加速
 
+# EN: Roof Livery
+3636525120=车顶涂装
+
 # EN: Rotate with View
 4155635046=随视角旋转
+
+# EN: Rotation
+2010988560=旋转
 
 # EN: Rounding
 947963291=圆角
 
+# EN: Rounding##dd
+1251311131=圆角##dd
+
 # EN: Rounding##distbg
 4161243031=圆角##distbg
 
+# EN: Rounding##grp
+2835802707=圆角##grp
+
+# EN: Rounding##hbsty
+1472920854=圆角##hbsty
+
 # EN: Rounding##namebg
 3182791864=圆角##namebg
+
+# EN: Rounding##sl
+1227039286=圆角##sl
+
+# EN: Rounding##sp
+1851255963=圆角##sp
 
 # EN: Rounding##wepbg
 2546121190=圆角##wepbg
@@ -3547,6 +4711,9 @@
 # EN: S
 331032406=S
 
+# EN: S-curve — most human-like movement
+1272354739=S曲线 — 最像人类的运动
+
 # EN: SCOOBY
 2730510897=SCOOBY
 
@@ -3555,6 +4722,12 @@
 
 # EN: SPECTATORS
 2185765281=观战者
+
+# EN: SUV
+3112393926=运动型多用途车
+
+# EN: Safe
+3011768144=安全的
 
 # EN: Sample Rate
 1680169433=采样率
@@ -3586,7 +4759,7 @@
 # EN: Saved Themes
 2236251465=已保存主题
 
-# EN: Saved:
+# EN: Saved: 
 2514999957=已保存:
 
 # EN: Scale
@@ -3607,11 +4780,20 @@
 # EN: Scan All
 826028443=全部扫描
 
+# EN: Scan Cache
+986258638=扫描缓存
+
+# EN: Scan Now
+387338497=立即扫描
+
 # EN: Scan for Anti-Cheat
 3069664885=扫描反作弊
 
 # EN: Scanning all resources...
 2180117493=正在扫描所有资源...
+
+# EN: Scanning cache database...
+737610391=扫描缓存数据库...
 
 # EN: Scanning for triggers...
 3267756685=正在扫描触发器...
@@ -3679,8 +4861,14 @@
 # EN: Search
 4166004673=搜索
 
+# EN: Search by filename or resource...
+3599741119=按文件名或资源搜索...
+
 # EN: Search files...
 2743520297=搜索文件...
+
+# EN: Search keybinds...
+705152961=搜索按键绑定...
 
 # EN: Search peds...
 3129217742=搜索NPC...
@@ -3712,6 +4900,9 @@
 # EN: Secondary
 3384035740=次要
 
+# EN: Secondary Index
+3054904885=次要索引
+
 # EN: Section Font
 2820653597=分区字体
 
@@ -3732,6 +4923,9 @@
 
 # EN: Select Resource:
 2084042239=选择资源：
+
+# EN: Select a file to view details.
+2226688427=选择文件以查看详情。
 
 # EN: Select a player
 1427174365=选择一个玩家
@@ -3760,6 +4954,9 @@
 # EN: Separator
 600342395=分隔符
 
+# EN: Separators
+2951428768=分隔符
+
 # EN: Serpentine
 2010529308=蛇形走位
 
@@ -3772,6 +4969,12 @@
 # EN: Server Info
 1790325725=服务器信息
 
+# EN: Server:
+3443333975=服务器：
+
+# EN: Set Blame on Player
+2629605861=对玩家设置栽赃
+
 # EN: Set Key
 2397500189=设置按键
 
@@ -3783,9 +4986,6 @@
 
 # EN: Set anchor + teleport to it with separate keys
 2852415891=用不同按键设置锚点并传送到锚点
-
-# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
-1002208503=通过每个功能行的齿轮图标设置单独按键绑定（右键点击或点击齿轮）。
 
 # EN: Settings
 2768156407=设置
@@ -3814,8 +5014,17 @@
 # EN: Shadow##dist
 1556818514=阴影##dist
 
+# EN: Shadow##hbsty
+1178269524=阴影##hbsty
+
 # EN: Shadow##name
 1583130157=阴影##name
+
+# EN: Shadow##nbsty
+3639724956=阴影##nbsty
+
+# EN: Shadow##sp
+3975880048=阴影##sp
 
 # EN: Shadow##weapon
 559319637=阴影##weapon
@@ -3826,8 +5035,26 @@
 # EN: Shape & Size
 1482294196=形状和大小
 
+# EN: Shift Boost
+2042876936=Shift增压
+
+# EN: Shift Key Boost
+3148042217=Shift键增压
+
+# EN: Shift Speed
+478735772=Shift速度
+
+# EN: Shoot Player
+1650471470=射击玩家
+
+# EN: Shoot Weapon
+1384005609=射击武器
+
 # EN: Shoot laser beams from your eyes while flying
 1927972254=飞行时从眼睛射出激光
+
+# EN: Shotgun
+3028715589=霰弹枪
 
 # EN: Shotguns
 3978331987=霰弹枪
@@ -3841,14 +5068,20 @@
 # EN: Show
 4237361361=显示
 
-# EN: Show Advanced
-2451177577=显示高级
-
 # EN: Show Category
 966325046=显示分类
 
+# EN: Show Check (ON)
+3008117344=显示检查（打开）
+
+# EN: Show Chevron
+3167784853=显示箭头
+
 # EN: Show Coordinates
 3389512578=显示坐标
+
+# EN: Show Crosshair
+2503934774=显示十字准星
 
 # EN: Show Date
 3033026641=显示日期
@@ -3859,8 +5092,11 @@
 # EN: Show Distance
 1253886722=显示距离
 
-# EN: Show FOV Circle
-3127357124=显示FOV圆圈
+# EN: Show Driver Name
+1030284275=显示驾驶员名称
+
+# EN: Show FOV Circle##mb
+890908940=显示视野圆##mb
 
 # EN: Show FPS
 2817813522=显示FPS
@@ -3868,8 +5104,14 @@
 # EN: Show Graph
 2534847582=显示图表
 
+# EN: Show HUD
+2628490103=显示HUD
+
 # EN: Show Header
 645770246=显示标题
+
+# EN: Show Hint
+2676323835=显示提示
 
 # EN: Show Hints Overlay
 4000101783=显示提示叠加层
@@ -3886,6 +5128,9 @@
 # EN: Show Line
 1200799385=显示线条
 
+# EN: Show Lock Status
+1102037709=显示锁定状态
+
 # EN: Show Logo
 395333305=显示Logo
 
@@ -3901,8 +5146,14 @@
 # EN: Show Names
 1773671442=显示名称
 
+# EN: Show Overlay
+1125873616=显示覆盖层
+
 # EN: Show Preview
 1262585563=显示预览
+
+# EN: Show Progress Bar
+714598285=显示进度条
 
 # EN: Show Self
 1908654534=显示自身
@@ -3922,6 +5173,9 @@
 # EN: Show Text
 1575008906=显示文本
 
+# EN: Show Ticks
+2045038734=显示刻度
+
 # EN: Show Time
 2222431568=显示时间
 
@@ -3934,11 +5188,20 @@
 # EN: Show Vehicles
 1292300392=显示载具
 
+# EN: Show entity info for whatever is under the crosshair
+3715018311=显示十字准线下任何实体的信息
+
 # EN: Show keybind hints for active movement extras on screen
 3465261614=在屏幕上显示活动移动扩展的按键提示
 
+# EN: Show occupied/total seats — e.g. 1/4
+2640818363=显示已占用/总座位 — 例如 1/4
+
 # EN: Show on Startup
 1110455679=启动时显示
+
+# EN: Show the chrome / hubcap variant when picking wheel models
+3733798531=选择轮毂模型时显示镀铬/轮盖变体
 
 # EN: Shows Kills / Deaths / K/D ratio in top-right corner
 1707224720=在右上角显示击杀/死亡/K/D比
@@ -3954,6 +5217,9 @@
 
 # EN: Shrink
 3226637854=缩小
+
+# EN: Shut
+999940627=关闭
 
 # EN: Sidebar
 129041593=侧边栏
@@ -3976,23 +5242,23 @@
 # EN: Silent Kill
 797641779=静默击杀
 
+# EN: Simple
+2854970267=简单
+
 # EN: Single Resource
 3904755329=单个资源
 
 # EN: Size
 3226656423=大小
 
+# EN: Size:
+3605563786=大小:
+
 # EN: Sizing
 1486663079=尺寸
 
 # EN: Skeleton
 1816727634=骨架
-
-# EN: Skeleton 1
-663554603=骨架 1
-
-# EN: Skeleton 2
-911943623=骨架 2
 
 # EN: Skeleton Only
 1732653347=仅骨架
@@ -4027,6 +5293,15 @@
 # EN: Slide Animation
 1430582691=滑动动画
 
+# EN: Slide Duration
+3546124011=滑动持续时间
+
+# EN: Slide Run
+755888626=滑动运行
+
+# EN: Slide Speed
+3005432696=滑动速度
+
 # EN: Slider
 338352108=滑块
 
@@ -4048,6 +5323,15 @@
 # EN: Small
 3085983008=小
 
+# EN: Small [ENG] indicator when the engine is running
+3393880064=引擎运行时的小 [ENG] 指示器
+
+# EN: Small arrow at the front of the box showing forward heading
+2192285291=盒子前面显示前进方向的小箭头
+
+# EN: Smash
+3741264174=粉碎
+
 # EN: Smooth Animation
 2305435949=平滑动画
 
@@ -4060,8 +5344,17 @@
 # EN: Smoothing
 980522697=平滑
 
+# EN: Smoothing Curve
+3836268862=平滑曲线
+
 # EN: Snap
 3320192477=吸附
+
+# EN: Snapline
+2295862069=快照线
+
+# EN: Snapline to Selected
+1059631253=快照线到选中
 
 # EN: Snaplines
 3234673257=连接线
@@ -4126,29 +5419,71 @@
 # EN: Speed##btrbow
 1185079655=速度##btrbow
 
+# EN: Speed##chamsvfx
+1597739215=速度##chamsvfx
+
+# EN: Speed##grapple
+3686561716=速度##grapple
+
 # EN: Speed##hpsmooth
 2272127628=速度##hpsmooth
 
 # EN: Speed##serp
 3668104492=速度##serp
 
+# EN: Speed##tgl
+3045684305=速度##tgl
+
 # EN: Speeds up climbing and vaulting animations
 884886740=加速攀爬和翻越动画
+
+# EN: Spiderman
+2839799340=蜘蛛侠
+
+# EN: Spiderman Mode
+69796211=蜘蛛侠模式
 
 # EN: Spin
 3437710297=旋转
 
+# EN: Spin Bot
+2695269945=旋转机器人
+
 # EN: Spin Speed
 2064253717=旋转速度
 
+# EN: Spin in Vehicle
+865727437=在车辆中旋转
+
+# EN: Spins your ped visually — visible to other players
+1946831982=在视觉上旋转你的角色 — 对其他玩家可见
+
+# EN: Spins your ped while you fight. Uses the shared spin bot runtime.
+2091252658=在你战斗时旋转你的角色。使用共享旋转机器人运行时。
+
 # EN: Spoof Weapon
 1397032680=伪装武器
+
+# EN: Spoofs all 11 _WS:* state-bag keys @ 900ms + cancels all 9 __WaveShield:* events
+4254768349=以900ms为间隔欺骗所有11个 _WS:* 状态包键 + 取消所有9个 __WaveShield:* 事件
+
+# EN: Sport
+415441725=运动
+
+# EN: Spread
+3000203704=扩散
 
 # EN: Sprint Multiplier
 1215352304=冲刺倍率
 
 # EN: Square
 551846212=方形
+
+# EN: Standard
+3169861569=标准
+
+# EN: Star
+2620960594=星形
 
 # EN: Start
 2229020447=开始
@@ -4168,23 +5503,35 @@
 # EN: Stats
 3337185076=统计
 
+# EN: Status
+1711913059=状态
+
 # EN: Status Dots
 1792226764=状态点
 
-# EN: Steal
-4209706760=偷窃
+# EN: Status##trig
+3863974180=状态##trig
 
 # EN: Steal Outfit
 2382281041=偷窃服装
 
+# EN: Steal Vehicle
+1468344584=偷取载具
+
 # EN: Steam Proof
 3475233767=防蒸汽
+
+# EN: Steering Lock
+1302389977=方向盘锁定
 
 # EN: Sticky Target
 128465133=粘性目标
 
 # EN: Sticky Target##sa
 4029734851=粘性目标##sa
+
+# EN: Stock
+1007540054=原厂
 
 # EN: Stop
 2467080178=停止
@@ -4194,6 +5541,15 @@
 
 # EN: Stop at Destination
 3456158729=到达目的地停止
+
+# EN: Stops cam look, movement, sprint, jump, weapon and vehicle controls from registering while the menu is open
+2815977001=打开菜单时停止摄像机查看、移动、冲刺、跳跃、武器和车辆控制的注册
+
+# EN: Stops drawing player ESP when the target is inside a vehicle
+1225845371=当目标在车辆内时停止绘制玩家ESP
+
+# EN: Stops drawing vehicle ESP for vehicles you're inside
+3014293843=停止为你所在的车辆绘制车辆ESP
 
 # EN: Strafe Teleport
 736882111=横移传送
@@ -4213,17 +5569,50 @@
 # EN: Stream Proof is experimental - may cause issues on some systems.
 1371944424=直播防护为实验性功能 - 可能在某些系统上导致问题。
 
+# EN: Stream every setting to the vehicle each tick. Disable to freeze the current look.
+3597944676=每个刻度将每个设置流传输到车辆。禁用以冻结当前外观。
+
+# EN: Stream multipliers to the current vehicle each tick. Disable to restore stock values.
+613102007=每个刻度将倍数流传输到当前车辆。禁用以恢复原厂值。
+
 # EN: Streamer
 322333922=主播
 
 # EN: Stretch
 2333339779=拉伸
 
+# EN: Strip All Mods
+1531831026=移除所有改装
+
+# EN: Stubs the 3 documented FiniAC:* events. Real bypass needs NUI-side intervention.
+4173065376=存根3个已记录的 FiniAC:* 事件。真正的绕过需要NUI端干预。
+
+# EN: Stumble
+366734720=绊倒
+
 # EN: Style
 2840017588=样式
 
+# EN: Style##ddsty
+907347697=风格##ddsty
+
+# EN: Style##grp
+189469325=风格##grp
+
+# EN: Style##hbarsty
+1448214649=风格##hbarsty
+
 # EN: Style##hp
 2155290340=样式##hp
+
+# EN: Style##nbsty
+2949332535=风格##nbsty
+
+# EN: Style##sl
+1843843488=风格##sl
+
+# EN: Style##spsty
+2009239515=风格##spsty
 
 # EN: Sub-Tab Icons
 2125121217=子标签图标
@@ -4261,6 +5650,15 @@
 # EN: Superman
 3383293034=超人
 
+# EN: Susp. Compression
+2070049490=悬挂压缩
+
+# EN: Susp. Rebound
+407800247=悬挂回弹
+
+# EN: Suspension
+3873309071=悬挂
+
 # EN: Suspicious
 1438524565=可疑
 
@@ -4272,6 +5670,15 @@
 
 # EN: Sway Amount
 2679838369=摇摆幅度
+
+# EN: Swing Animations
+1658319860=摇摆动画
+
+# EN: Swing Speed
+1243007496=摇摆速度
+
+# EN: Swing##spider
+1759236626=摇摆##spider
 
 # EN: Switch Delay
 2176114960=切换延迟
@@ -4324,11 +5731,17 @@
 # EN: Target
 2720140041=目标
 
+# EN: Target Info Card
+2961879365=目标信息卡
+
 # EN: Target Info Overlay##sa
 1911780673=目标信息叠加层##sa
 
 # EN: Target Line
 2375968002=目标线
+
+# EN: Target Line##mb
+1311974672=目标线##mb
 
 # EN: Target Line##sa
 71772006=目标线##sa
@@ -4336,14 +5749,29 @@
 # EN: Target Marker
 2135859714=目标标记
 
+# EN: Target Marker##mb
+1328785461=目标标记##mb
+
 # EN: Target Marker##sa
 3230599266=目标标记##sa
 
 # EN: Targeting
 2771652631=瞄准
 
+# EN: Targeting##mb
+4168577893=瞄准##mb
+
+# EN: Targeting##sa
+1796398938=瞄准##sa
+
+# EN: Targeting##trig
+1079524230=瞄准##trig
+
 # EN: Targets
 4017618224=目标
+
+# EN: Taze
+2632453608=电击
 
 # EN: Tazer
 1018685068=电击枪
@@ -4356,9 +5784,6 @@
 
 # EN: Teleport
 825270086=传送
-
-# EN: Teleport Forward
-329923835=向前传送
 
 # EN: Teleport Forward Distance
 1561225=向前传送距离
@@ -4375,18 +5800,6 @@
 # EN: Teleport To
 1887426362=传送到
 
-# EN: Teleport to Coords
-3551972134=传送到坐标
-
-# EN: Teleport to Crosshair
-3582907225=传送到准星
-
-# EN: Teleport to Nearest Vehicle
-1222747355=传送到最近载具
-
-# EN: Teleport to Waypoint
-3908877611=传送到标记点
-
 # EN: Teleport vehicle with you
 2332352547=将载具一起传送
 
@@ -4396,6 +5809,9 @@
 # EN: Test
 1064684737=测试
 
+# EN: Tether Distance
+1682035094=系绳距离
+
 # EN: Text
 2134593963=文本
 
@@ -4404,6 +5820,9 @@
 
 # EN: Text Font
 1277029574=文本字体
+
+# EN: Text Offset X
+3940347344=文本偏移X
 
 # EN: Text Only
 1145625316=仅文本
@@ -4474,6 +5893,9 @@
 # EN: This will reset ALL fonts, colors, images, and layout settings to their defaults.\n\nAre you sure?
 2684530542=这将重置所有字体、颜色、图片和布局设置为默认值。\n\n确定吗？
 
+# EN: Threat Priority##sa
+2862792991=威胁优先级##sa
+
 # EN: Threshold
 1573986338=阈值
 
@@ -4492,20 +5914,41 @@
 # EN: Thunder Override
 3360298467=雷电覆盖
 
+# EN: Tick Color
+3218510901=刻度颜色
+
+# EN: Tick Count
+2223876868=刻度数
+
+# EN: Ticks
+2329192730=刻度
+
 # EN: Tile
 1337127750=平铺
+
+# EN: Tilt / Upside Down
+4149871201=倾斜/上下颠倒
 
 # EN: Time
 258444835=时间
 
+# EN: Time since bypass
+1704575500=自绕过以来的时间
+
 # EN: Timing
 4122073465=时序
+
+# EN: Timing##trig
+244175494=时序##trig
 
 # EN: Tip Color
 520645681=提示颜色
 
 # EN: Tire Lights
 3627926876=轮胎灯
+
+# EN: Tire Smoke
+3956651620=轮胎烟雾
 
 # EN: Title (Scooby)
 4250394732=标题 (Scooby)
@@ -4518,6 +5961,9 @@
 
 # EN: Title Gradient Colors
 1766434517=标题渐变颜色
+
+# EN: Title Pill
+1618050020=标题药丸
 
 # EN: Title Size
 1301071436=标题大小
@@ -4552,6 +5998,9 @@
 # EN: Toggle W
 2205449588=开关宽度
 
+# EN: Toggle features on/off
+364973416=切换功能开/关
+
 # EN: Toggles
 2207180161=开关
 
@@ -4579,14 +6028,29 @@
 # EN: Top Right
 3678979058=右上
 
+# EN: Top Speed
+2413417332=最高速度
+
+# EN: Tracer Color
+610370730=追踪器颜色
+
 # EN: Tracer gets thinner from start to end
 3848411216=弹道从起点到终点逐渐变细
 
 # EN: Tracers
 1857463969=弹道
 
+# EN: Tracers & Lines
+2523182477=追踪器和线条
+
+# EN: Tracers##mb2
+632130463=弹道线##mb2
+
 # EN: Track
 875912051=轨迹
+
+# EN: Track H
+3215466932=跟踪H
 
 # EN: Track Opacity
 902824788=轨迹透明度
@@ -4600,6 +6064,9 @@
 # EN: Tracks the player who killed you with an on-screen arrow
 1609296522=用屏幕箭头追踪击杀你的玩家
 
+# EN: Traction
+618917312=牵引力
+
 # EN: Trail
 2169668932=拖尾
 
@@ -4611,6 +6078,9 @@
 
 # EN: Transparent Ocean
 2138197132=透明海洋
+
+# EN: Triangle
+2990077322=三角形
 
 # EN: Trigger & Block
 4206134730=触发和拦截
@@ -4639,14 +6109,17 @@
 # EN: Trusted
 2045336469=受信任
 
-# EN: Tuning##sa
-2759235521=调校##sa
+# EN: Tuner
+2775294361=调谐器
 
 # EN: Type
 828747869=类型
 
 # EN: Type Settings
 4191027218=类型设置
+
+# EN: Type:
+927388673=类型：
 
 # EN: UI Mode
 63923237=UI模式
@@ -4662,6 +6135,12 @@
 
 # EN: Underline
 1892791043=下划线
+
+# EN: Underline H
+2037968543=下划线H
+
+# EN: Unit
+1660784057=单位
 
 # EN: Unlock
 2562373009=解锁
@@ -4687,8 +6166,17 @@
 # EN: Use Horn Key
 1328307925=使用喇叭键
 
+# EN: Use Paint Chart
+1403505331=使用油漆图表
+
 # EN: Use Player List to target players
 1992352066=使用玩家列表选择目标玩家
+
+# EN: Use SetTransform2
+620126414=使用SetTransform2
+
+# EN: Used by Filled / Outline / Underline
+1868533692=由填充/轮廓/下划线使用
 
 # EN: Uses rainbow cycling
 3374547008=使用彩虹循环
@@ -4705,6 +6193,9 @@
 # EN: VFX
 2796127065=VFX
 
+# EN: VOICE
+953116472=语音
+
 # EN: Vaporwave
 1600384401=蒸汽波
 
@@ -4720,20 +6211,29 @@
 # EN: Vehicle Grabber
 2317560408=载具抓取器
 
+# EN: Vehicle Info
+273062525=车辆信息
+
 # EN: Vehicle NoClip
 1762582941=载具穿墙
 
 # EN: Vehicle Radar
 2113603547=载具雷达
 
-# EN: Vehicle Ram
-3560309762=载具冲撞
-
 # EN: Vehicle Teleport
 524718268=载具传送
 
 # EN: Vehicles
 1957895139=载具
+
+# EN: Velocity (Stealth)
+17717835=速度（隐身）
+
+# EN: Velocity only — no freeze/teleport. Harder to detect.
+3261708528=仅速度 — 无冻结/传送。更难检测。
+
+# EN: Verifying injection...
+3587444625=正在验证注入...
 
 # EN: Vertical
 1605474394=垂直
@@ -4756,6 +6256,9 @@
 # EN: View Manifest
 3821572149=查看清单
 
+# EN: View RPF Contents
+2547117712=查看RPF内容
+
 # EN: Visibility Check
 2235775772=可见性检查
 
@@ -4765,20 +6268,38 @@
 # EN: Visibility Check##trig
 1367619524=可见性检查##trig
 
+# EN: Visibility##veh
+4266491054=可见性##veh
+
 # EN: Visible
 2529664305=可见
 
 # EN: Visual VFX
 3080442719=视觉特效
 
+# EN: Visual gradient bar (green→yellow→red)
+3192363247=视觉渐变条（绿→黄→红）
+
 # EN: Visuals
 2427332638=视觉
+
+# EN: Visuals##grapple
+685638513=视觉##grapple
+
+# EN: Visuals##laser
+2954165117=视觉##laser
 
 # EN: Visuals##lockon
 4093507657=视觉##lockon
 
+# EN: Visuals##mb
+570278843=视觉##mb
+
 # EN: Visuals##sa
 2764419376=视觉##sa
+
+# EN: Visuals##spider
+2283755059=视觉##spider
 
 # EN: W
 1486926112=W
@@ -4794,6 +6315,18 @@
 
 # EN: Walking
 921688979=步行
+
+# EN: Walks every file in every started resource via fiDevice for trigger-event counting. Visible to server-side AC bridges as a rapid VFS flood — kick/ban risk.
+3925955938=通过fiDevice遍历每个启动资源中的每个文件以进行触发事件计数。对服务器端反作弊桥接可见为快速VFS泛洪 — 踢出/封禁风险。
+
+# EN: Wall Run Speed
+1455916515=墙跑速度
+
+# EN: Wall Run##spider
+3213482543=墙面运行##spider
+
+# EN: Wall Running
+4278332197=墙跑
 
 # EN: Walls Only
 613995149=仅墙壁
@@ -4828,11 +6361,17 @@
 # EN: Watermark Settings
 2927022022=水印设置
 
+# EN: Waypoint
+3804315675=路点
+
 # EN: Waypoint Trail
 827159393=标记点轨迹
 
 # EN: Weapon
 3867822744=武器
+
+# EN: Weapon Aware##trig
+633914630=武器感知##trig
 
 # EN: Weapon Filter
 189061761=武器筛选
@@ -4855,6 +6394,21 @@
 # EN: Weather
 1578688043=天气
 
+# EN: Web Abilities##spider
+3978859934=网络能力##spider
+
+# EN: Web Color
+1642988642=网络颜色
+
+# EN: Web Pull (RMB)
+1381062790=网络拉动（右键）
+
+# EN: Web Range
+1407908047=网络范围
+
+# EN: Web Tether (E)
+350519734=网络绳索（E）
+
 # EN: Welcome Screen
 3174111086=欢迎界面
 
@@ -4866,6 +6420,15 @@
 
 # EN: What's New
 2022498171=最新动态
+
+# EN: Wheel Category
+1456271043=车轮类别
+
+# EN: Wheel Color
+821296217=车轮颜色
+
+# EN: Wheels & Plate
+812849528=车轮和车牌
 
 # EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
 3837149149=启用后绑定列表、性能统计、玩家列表和观战使用水印颜色。
@@ -4879,6 +6442,9 @@
 # EN: While aiming at a player, press [G] to teleport behind them
 2878535996=瞄准玩家时，按 [G] 传送到他们身后
 
+# EN: White
+2270822857=白色
+
 # EN: Width
 2529094816=宽度
 
@@ -4891,6 +6457,9 @@
 # EN: Width##serp
 3651645440=宽度##serp
 
+# EN: Width##tgl
+302003276=宽度##tgl
+
 # EN: Window
 1722301922=窗口
 
@@ -4899,6 +6468,9 @@
 
 # EN: Window Rounding
 1994493044=窗口圆角
+
+# EN: Window Tint
+19519404=车窗色度
 
 # EN: Windows
 3212692547=窗口
@@ -4921,14 +6493,35 @@
 # EN: World Size
 1252315730=世界大小
 
+# EN: Write Entity Matrix
+3070260254=写入实体矩阵
+
+# EN: Write Nav Matrix
+2135467020=写入导航矩阵
+
 # EN: X
 2466489829=X
+
+# EN: Xenon Color
+887041404=氙色
 
 # EN: Y
 2157248776=Y
 
 # EN: Y Offset
 2470303010=Y偏移
+
+# EN: Yankton
+2496524424=扬克顿
+
+# EN: Yellow
+2553037199=黄色
+
+# EN: Yellow/Black
+3452902812=黄色/黑色
+
+# EN: Yellow/Blue
+58011896=黄色/蓝色
 
 # EN: Z
 3059772574=Z
@@ -4938,6 +6531,15 @@
 
 # EN: Zentorno
 2891838741=Zentorno
+
+# EN: [ / ] cycle object
+4022290000=[ / ] 循环对象
+
+# EN: [ / ] cycle vehicle
+1877991998=[ / ] 循环载具
+
+# EN: [ / ] cycle weapon
+1279508429=[ / ] 循环武器
 
 # EN: [DIR]
 981194033=[目录]
@@ -4951,11 +6553,20 @@
 # EN: frames
 580974885=帧
 
+# EN: gameEventTriggered tap-cancel + Ban/Kick/Phoenix accessor scrub
+1140420826=gameEventTriggered 点按取消 + Ban/Kick/Phoenix 访问器清理
+
 # EN: image(s)
 2727625699=张图片
 
 # EN: joined the server
 2662745418=加入了服务器
+
+# EN: km/h
+1090892268=公里/小时
+
+# EN: mph
+2533466250=英里/小时
 
 # EN: result(s)
 1448839259=条结果

@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Turkish (Türkçe)
 # Auth data_var name: LANG_TR
-# Total strings: 1707
+# Total strings: 2252
 # Format: JOAAT_HASH=translated text
 #
 
@@ -20,16 +20,34 @@
 3348539186=0 = ayak, 0.9 = merkez, 1.8 = kafa
 
 # EN: 1% Low
-499497665=%1 Düşük
+499497665=1% Düşük
+
+# EN: 2D Box
+3217720265=2D Kutusu
 
 # EN: 3D Box
 94557236=3D Kutu
 
+# EN: 3D Box##vehtoggle
+2289970269=3D Kutusu##vehtoggle
+
+# EN: < Back
+3833783615=< Geri
+
+# EN: AC
+1410644661=AC
+
 # EN: AC Overlay
-2376138547=AC Overlay
+2376138547=AC Kaplamasi
+
+# EN: ADS FOV Mult##sa
+1553982631=ADS FOV Çarp##sa
+
+# EN: ATTACK = Grab, AIM = Throw
+512227915=ATTACK = Yakala, AIM = Fırlat
 
 # EN: Accel Curve
-2943028526=Hızlanma Eğrisi
+2943028526=Hizlanma Egrisi
 
 # EN: Acceleration
 3788879299=Hızlanma
@@ -47,7 +65,7 @@
 1583477585=Vurgu Renkleri
 
 # EN: Accent Line
-3861962259=Vurgu Çizgisi
+3861962259=Vurgu Cizgisi
 
 # EN: Accent Text
 2203008932=Vurgu Metni
@@ -58,17 +76,38 @@
 # EN: Accuracy
 2666427871=İsabet
 
+# EN: Accuracy##sa
+531658286=Doğruluk##sa
+
+# EN: Action Keybinds
+2725143580=Eylem Tuş Atamaları
+
+# EN: Action Menu Style
+2599844569=Eylem menüsü stili
+
 # EN: Actions
 2200808865=Eylemler
 
+# EN: Activates only while wielding the chosen projectile weapon
+2008035414=Yalnızca seçilen mermi silahını kullanırken etkinleştirilir
+
+# EN: Activation
+3361337240=Etkinleştirme
+
 # EN: Active
 411366740=Aktif
+
+# EN: Active Effects
+1391756409=Aktif Efektler
 
 # EN: Active Only
 3026641013=Yalnızca Aktif
 
 # EN: Active Opacity
-2342129632=Aktif Opaklık
+2342129632=Aktif Opaklik
+
+# EN: Active Particles
+276462465=Aktif Partiküller
 
 # EN: Active Style
 3006353922=Aktif Stil
@@ -82,59 +121,59 @@
 # EN: Active Windows
 1847726038=Aktif Pencereler
 
-# EN: Adaptive Smoothing
-1841848259=Uyarlanabilir Yumuşatma
+# EN: Adaptive
+2577319765=Uyarlanabilir
+
+# EN: Adapts to error distance
+1484452874=Hata mesafesine uyarlanır
+
+# EN: Add Effect
+1724601391=Efekt Ekle
+
+# EN: Add Particle
+1146618795=Partikül Ekle
 
 # EN: Add random offset to aim for a more natural look
 900296087=Daha doğal bir görünüm için nişana rastgele sapma ekle
 
-# EN: Adjust FOV size based on target distance
-1890066780=Hedef mesafesine göre FOV boyutunu ayarla
-
-# EN: Adjust smoothing speed based on distance to target
-4062250807=Hedefe olan mesafeye göre yumuşatma hızını ayarla
-
-# EN: Adjusts Z to ground level after teleport
-1956583967=Işınlanma sonrası Z'yi zemin seviyesine ayarlar
-
 # EN: Admin
-394765392=Yönetici
+394765392=Yonetici
 
 # EN: Admin List
-3041029138=Yönetici Listesi
+3041029138=Yonetici Listesi
 
 # EN: Admins
-2040182826=Yöneticiler
+2040182826=Yoneticiler
 
 # EN: Advanced
 191998119=Gelişmiş
 
-# EN: Advanced##sa
-1146831031=Gelişmiş##sa
+# EN: Aim + Shoot to fire grapple line. Auto-releases at target.
+4089255318=Kanca çizgisini atmak için Nişan + Ateş. Hedefte otomatik serbest bırakır.
 
 # EN: Aim Alert
 2286335061=Nişan Uyarısı
 
 # EN: Aim Assist
-3166330447=Nişan Yardımı
+3166330447=Nisan Yardimi
 
 # EN: Aim FOV
-2343825128=Nişan FOV
+2343825128=Nisan FOV
 
 # EN: Aim Key
 2127464103=Nişan Tuşu
 
-# EN: Aim and shoot to call in an airstrike at the target location
-3295469=Hedef konuma hava saldırısı çağırmak için nişan al ve ateş et
-
 # EN: Aim and shoot to delete any entity
 3148472461=Herhangi bir nesneyi silmek için nişan al ve ateş et
 
-# EN: Airstrike Gun
-2449908144=Hava Saldırısı Silahı
+# EN: Aims slightly higher to counter ballistic drop at range
+2600940727=Menzilde balistik düşüşü karşılamak için biraz yüksek nişan alır
 
 # EN: Alert Color
-3709827158=Uyarı Rengi
+3709827158=Uyari Rengi
+
+# EN: Align
+3794667666=Hizala
 
 # EN: Align vehicle rotation with movement direction
 2908889927=Araç dönüşünü hareket yönüne hizala
@@ -143,25 +182,34 @@
 1166234150=Tümü
 
 # EN: All Players
-1249477044=Tüm Oyuncular
+1249477044=Tum Oyuncular
 
 # EN: All nearby NPCs fight each other
 712234083=Yakındaki tüm NPC'ler birbirleriyle savaşır
 
 # EN: All settings reset to defaults
-3117943394=Tüm ayarlar varsayılanlara sıfırlandı
+3117943394=Tüm ayarlar varsayılana sıfırlandı
 
 # EN: Allow equipping two weapons at once
 1942896435=Aynı anda iki silah kuşanmaya izin ver
 
+# EN: Also Fill Deadeye Core
+578392169=Ayrıca Deadeye Çekirdeğini Doldur
+
 # EN: Also While Running
-2264771198=Koşarken de
+2264771198=Kosarken de
+
+# EN: Always
+659733263=Her Zaman
 
 # EN: Ammo
-307971639=Cephane
+307971639=Mermi
 
 # EN: Anchor
 1880738441=Çapa
+
+# EN: Angular tolerance treated as 'stable' — tighter = pickier
+3811956667=Açısal tolerans 'kararlı' olarak kabul edilir — dar = seçici
 
 # EN: Animal
 974042365=Hayvan
@@ -181,11 +229,17 @@
 # EN: Animal##stmp
 4257996986=Hayvan##stmp
 
+# EN: Animals
+1979337996=Hayvanlar
+
 # EN: Animate Entries
-2777997914=Girişleri Canlandır
+2777997914=Girisleri Animasyonla
 
 # EN: Animated GIF
-336645484=Hareketli GIF
+336645484=Animasyonlu GIF
+
+# EN: Animated ring around the impact marker — fills as the auto-fire timer charges
+47595763=Çarpma işaretçisi etrafında hareketli halka — otomatik ateş zamanlayıcısı şarj olurken doldurulur
 
 # EN: Animation
 1176408751=Animasyon
@@ -205,23 +259,32 @@
 # EN: Anti Melee
 1082795060=Anti Yakın Dövüş
 
-# EN: Anti-Cheat
-1651501873=Anti-Cheat
-
-# EN: Anti-Detection
-1577423134=Anti-Tespit
+# EN: Anti-Detection##sa
+683255490=Anti-Algılama##sa
 
 # EN: Anti-Grief
 4071343839=Anti-Grief
 
+# EN: Any
+3744729013=Herhangi
+
+# EN: Any shot peds instantly ragdoll
+922212082=Herhangi bir atış oyuncu karakteri anında bezir haline dönüştürür
+
 # EN: Appearance
 3647733735=Görünüm
 
+# EN: Appearance is detached into its own window.
+152646341=Görünüş kendi penceresine ayrıldı.
+
 # EN: Apply Model
-2794752200=Model Uygula
+2794752200=Modeli Uygula
 
 # EN: Apply Preset
-3793427380=Ön Ayar Uygula
+3793427380=On Ayari Uygula
+
+# EN: Apply Time
+596400142=Uygulama Zamanı
 
 # EN: Apply To
 3114722325=Uygula
@@ -235,9 +298,6 @@
 # EN: Apply extra knockback force to hit peds
 2161846635=Vurulan yayalara ekstra geri itme kuvveti uygula
 
-# EN: Apply speed boost while holding Shift
-1770376119=Shift basılıyken hız artışı uygula
-
 # EN: Apply speed boost while running
 3182944338=Koşarken hız artışı uygula
 
@@ -249,6 +309,12 @@
 
 # EN: Arc
 3197476941=Yay
+
+# EN: Arc Launch
+725540891=Ark Fırlatma
+
+# EN: Arc Strength
+3477155189=Ark Gücü
 
 # EN: Armed Clones
 1018974332=Silahlı Klonlar
@@ -265,11 +331,29 @@
 # EN: Arrow
 182494798=Ok
 
+# EN: Arrow Speed
+2295300562=Ok Hızı
+
+# EN: Attach
+3601695277=Iliştir
+
+# EN: Attach To
+4204732472=Iliştir
+
+# EN: Attached
+2002201701=Eklendi
+
+# EN: Attached to
+4172616088=Eklendi
+
+# EN: Attachment
+1125857072=Ek
+
 # EN: Attachments
 2740828529=Eklentiler
 
 # EN: Attack
-3265681955=Saldırı
+3265681955=Saldiri
 
 # EN: Attack FX Scale
 397421262=Saldırı FX Ölçeği
@@ -280,65 +364,83 @@
 # EN: Auto
 3043925626=Otomatik
 
+# EN: Auto Bone by Distance
+1825046816=Mesafeye Göre Otomatik Kemik
+
+# EN: Auto Detach
+2467019578=Otomatik ayır
+
 # EN: Auto Detect Anti-Cheat
-3303598959=Anti-Cheat Otomatik Algıla
+3303598959=Hile Korumasini Otomatik Algila
 
 # EN: Auto Fire
-3918303945=Otomatik Ateş
+3918303945=Otomatik Ates
+
+# EN: Auto Fire##mb
+209012486=Otomatik Ateş##mb
 
 # EN: Auto Flip
 1169747300=Otomatik Çevirme
 
 # EN: Auto Godmode
-2673570143=Otomatik Tanrı Modu
+2673570143=Otomatik Godmode
 
-# EN: Auto Select
-1270725521=Otomatik Seçim
+# EN: Auto Pilot
+1235508069=Oto pilot
+
+# EN: Auto Punch
+4126830016=Otomatik Yumruk
+
+# EN: Auto Release
+3908834324=Otomatik Serbest Bırak
+
+# EN: Auto Save
+810191057=Otomatik kaydet
 
 # EN: Auto Switch on Kill
-1282152805=Öldürmede Otomatik Geçiş
+1282152805=Oldurmede Otomatik Gecis
 
 # EN: Auto Switch on Kill##sa
-2174464398=Öldürmede Otomatik Geçiş##sa
+2174464398=Oldurmede Otomatik Gecis##sa
 
 # EN: Auto TP to Waypoint
 1867269096=İşaret Noktasına Otomatik Işınlanma
 
+# EN: Auto-Fire
+1322656523=Otomatik Ateş
+
+# EN: Auto-attack nearby peds as animal
+2754504626=Hayvan olarak yakındaki oyuncu karakterlerine otomatik saldır
+
+# EN: Auto-detaches you each tick from any ped/object/vehicle — counters Spank / Ride Shoulders / forced-attach griefs
+3267986387=Her tick'te seni herhangi bir Ped/nesne/araçtan otomatik ayırır - Spank / Ride Shoulders / zorla iliştirme saldırılarını engeller
+
 # EN: Auto-detect fonts from Windows
 2577479103=Windows'tan yazı tiplerini otomatik algıla
-
-# EN: Auto-disable aimbot when holding RPG, grenade launcher, or throwables
-1054006449=RPG, bomba atar veya atılabilir silah tutarken aimbot'u otomatik devre dışı bırak
 
 # EN: Auto-fire when crosshair is on a target
 1536605200=Nişangah hedefteyken otomatik ateş et
 
+# EN: Auto-fires when crosshair lines up with a target hitbox
+3095548043=Nişangah hedef çarpışma kutusuna hizalandığında otomatik ateş eder
+
 # EN: Auto-saves your position. Press [B] to rewind to previous locations.
 611200981=Konumunuzu otomatik kaydeder. Önceki konumlara dönmek için [B] tuşuna basın.
 
-# EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
-4247923858=Keskin nişancı dürbünündeyken FOV, yumuşatma ve tahminlemeyi otomatik ölçekler
-
 # EN: Auto-zigzag while sprinting to dodge bullets
-1713564836=Mermi savuşturmak için sprint yaparken otomatik zikzak yap
-
-# EN: Automatically fires bullets at the closest target to your crosshair
-4091225894=Nişangahınıza en yakın hedefe otomatik olarak mermi atar
+1713564836=Koşarken mermilerden kaçınmak için otomatik zikzak
 
 # EN: Automatically flip your vehicle upright
 2778904220=Aracınızı otomatik olarak düzeltin
-
-# EN: Automatically shoot when a target is in FOV
-3039832869=Hedef FOV'da olduğunda otomatik ateş et
-
-# EN: Automatically switch to next target after a kill
-227557248=Öldürmeden sonra otomatik olarak bir sonraki hedefe geç
 
 # EN: Automatically teleport when you set a waypoint
 2299293074=İşaret noktası koyduğunuzda otomatik ışınlan
 
 # EN: Avg FT
 2437122580=Ort FT
+
+# EN: Avoid Obstacles
+90274995=Engellerden kaçın
 
 # EN: Awareness
 4120293697=Farkındalık
@@ -379,23 +481,35 @@
 # EN: Background##weapon
 1937834289=Arka Plan##weapon
 
-# EN: Bar
-2151715081=Çubuk
+# EN: Ballistics
+2863365501=Balistik
 
-# EN: Basic
-4281242592=Temel
+# EN: Ban Player
+3035498839=Oyuncuyu banla
+
+# EN: Bar
+2151715081=Cubuk
+
+# EN: Bar Color
+2240601071=Çubuk Rengi
+
+# EN: Bears All Loop
+1068575853=Ayılar Tüm Döngü
+
+# EN: Bears on All
+1799741400=Ayılar Hepsinde
 
 # EN: Behavior
 3330951414=Davranış
 
 # EN: Behind
-1902609056=Arka
+1902609056=Arkada
 
 # EN: Behind Box
-1375740222=Arkadaki Kutu
+1375740222=Arka Kutu
 
 # EN: Behind Player TP
-2362883765=Oyuncu Arkasına Işınlanma
+2362883765=Oyuncunun Arkasına TP
 
 # EN: Big Cloud Type
 1189927252=Büyük Bulut Tipi
@@ -409,11 +523,17 @@
 # EN: Blackout Mode
 4106471165=Karartma Modu
 
+# EN: Blame: ON (clear)
+2216872016=Suçlama: AÇIK (temizle)
+
 # EN: Blink / Dash
-2181400004=Blink / Atılma
+2181400004=Blink / Dash
 
 # EN: Blizzard
-669657108=Kar Fırtınası
+669657108=Kar Firtinasi
+
+# EN: Block
+3828602749=Engelle
 
 # EN: Block Anim Scenes
 2019597832=Animasyon Sahnelerini Engelle
@@ -426,6 +546,12 @@
 
 # EN: Block Crashes
 1960058316=Çökmeleri Engelle
+
+# EN: Block Explosions
+1257724231=Patlamaları Engelle
+
+# EN: Block Freeze Entity
+1037856349=Varlığı Dondurmayı Engelle
 
 # EN: Block Invalid Models
 1656660069=Geçersiz Modelleri Engelle
@@ -445,8 +571,14 @@
 # EN: Block Task Fuzzer
 1274306167=Task Fuzzer'ı Engelle
 
+# EN: Block Weapon Drop
+2112316757=Silah Düşüşünü Engelle
+
 # EN: Block blacklisted forced animation scenes
 441848285=Kara listedeki zorunlu animasyon sahnelerini engelle
+
+# EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
+366586212=Blok CancelEvent() ile olayları yakalar. Engeli kaldır olayı yeniden kaydeder.
 
 # EN: Block invalid propset creation data
 1192749160=Geçersiz propset oluşturma verilerini engelle
@@ -466,11 +598,17 @@
 # EN: Block objects and peds being attached to you
 1904291971=Size nesne ve yaya eklenmesini engelle
 
+# EN: Block other players from freezing your ped
+936513135=Diğer oyuncuların oyuncu karakterinizi dondurmalarını engelle
+
 # EN: Block pickups with invalid type hashes
 4188199560=Geçersiz tür hash'li toplama nesnelerini engelle
 
 # EN: Block projectiles with invalid weapon or ammo
 4150216817=Geçersiz silah veya cephaneyle atılan mermileri engelle
+
+# EN: Block remote explosion sync from other players
+3154457541=Diğer oyunculardan gelen uzak patlama senkronizasyonunu engelle
 
 # EN: Block vehicle proximity migration teleports
 1390593613=Araç yakınlık geçişi ışınlanmalarını engelle
@@ -484,14 +622,23 @@
 # EN: Body BG
 2797276020=Gövde Arka Planı
 
+# EN: Body Border
+2027388166=Gövde Sınırı
+
 # EN: Body Gradient
 706368864=Gövde Gradyanı
 
+# EN: Bodyguard
+1043924630=Bedenin Koruyucusu
+
+# EN: Bone
+282216227=Kemik
+
 # EN: Boost
-3475208003=Hız Artışı
+3475208003=Boost
 
 # EN: Boost Multiplier
-3031898780=Hız Artış Çarpanı
+3031898780=Boost Çarpanı
 
 # EN: Boost Vehicle
 2953382450=Araç Hızlandırma
@@ -503,10 +650,13 @@
 3690621973=Kenarlık Rengi
 
 # EN: Border Disabled
-2462330118=Kenarlık Devre Dışı
+2462330118=Kenarlik Devre Disi
 
 # EN: Border Style
 350757194=Kenarlık Stili
+
+# EN: Border Thick
+4263082925=Sınır Kalınlığı
 
 # EN: Border Thickness
 3884077482=Kenarlık Kalınlığı
@@ -514,14 +664,23 @@
 # EN: Border##cp
 216211181=Kenarlık##cp
 
+# EN: Border##dd
+1336714047=Sınır##dd
+
 # EN: Border##notif
-336356185=Kenarlık##notif
+336356185=Kenarlik##notif
+
+# EN: Border##sl
+3865657270=Sınır##sl
 
 # EN: Border##sp
 192186828=Kenarlık##sp
 
 # EN: Border##tt
 3335618363=Kenarlık##tt
+
+# EN: Bordered
+3525280289=Sınırlı
 
 # EN: Both
 3759669763=Her İkisi
@@ -533,16 +692,37 @@
 694931044=Sol Alt
 
 # EN: Bottom Right
-3752329730=Sağ Alt
+3752329730=Sag Alt
+
+# EN: Bounding box around animals
+2898555025=Hayvanların etrafındaki sınırlayıcı kutu
+
+# EN: Bow
+3710900954=Yay
+
+# EN: Bow / Arrows##proj
+2165966942=Yay / Oklar##proj
 
 # EN: Box
 391302943=Kutu
 
 # EN: Box + Skeleton
-2701857720=Kutu + İskelet
+2701857720=Kutu + Iskelet
+
+# EN: Box Color##animal
+2528050181=Kutu Rengi##animal
 
 # EN: Box Only
-2220777776=Yalnızca Kutu
+2220777776=Yalnizca Kutu
+
+# EN: Box##animalboxtoggle
+769174659=Kutu##animalboxtoggle
+
+# EN: Boxed
+2238860081=Kutulanmış
+
+# EN: Brake
+243491644=Fren
 
 # EN: Branding
 637151929=Marka
@@ -550,8 +730,11 @@
 # EN: Bring Horse to Me
 4186539904=Atı Yanıma Getir
 
+# EN: Browser
+3354537412=Tarayıcı
+
 # EN: Bug Player
-3083359930=Oyuncuyu Rahatsız Et
+3083359930=Oyuncuyu Bug'la
 
 # EN: Bulk Actions
 2405283306=Toplu Eylemler
@@ -559,17 +742,11 @@
 # EN: Bullet Proof
 1262983692=Mermi Geçirmez
 
-# EN: Bullet Redirect##sa
-2808025987=Mermi Yönlendirme##sa
-
 # EN: Bullet Tracers
-2673625274=Mermi İzleyiciler
+2673625274=Mermi İzleri
 
-# EN: Bullets automatically track the nearest enemy
-1616432867=Mermiler otomatik olarak en yakın düşmanı takip eder
-
-# EN: Bullets electrocute and ragdoll nearby peds
-2126550957=Mermiler yakındaki yayaları elektrik çarpar ve savrulmasına neden olur
+# EN: Bullets deal no visible damage
+1812658852=Mermi görünür hasar vermez
 
 # EN: Bullets explode on impact
 3711735807=Mermiler çarpmada patlar
@@ -583,14 +760,14 @@
 # EN: Bullets start fires on impact
 1414863151=Mermiler çarpmada yangın başlatır
 
-# EN: Burn Gun
-2300647213=Yakma Silahı
-
 # EN: Burst Fire
-207152447=Seri Ateş
+207152447=Seri Ates
 
 # EN: Burst Pause
-2929660808=Seri Ateş Duraklaması
+2929660808=Seri Duraklatma
+
+# EN: Bury
+3795077595=Gömü
 
 # EN: Button Background
 2334259758=Düğme Arka Planı
@@ -604,17 +781,35 @@
 # EN: Buttons
 2668497503=Düğmeler
 
+# EN: Buttons (teleport, actions, etc.)
+1490120760=Düğmeler (ışınla, eylemler, vb.)
+
+# EN: Buy
+2060555271=Satın Al
+
+# EN: By Type
+132944993=Tür'e Göre
+
+# EN: Bypass All Detections
+2578652746=Tüm tespitleri atlat
+
 # EN: Bypassed
-716678219=Atlatıldı
+716678219=Atlatildi
 
 # EN: CPU time for frame animation.
-2221402083=Kare animasyonu için CPU süresi.
+2221402083=Kare animasyonu icin CPU suresi.
 
 # EN: Cage
 884503551=Kafes
 
 # EN: Cage All
 382838472=Hepsini Kafesle
+
+# EN: Cam
+2714329907=Kamera
+
+# EN: Camera
+626544054=Kamera
 
 # EN: Camera Direction
 3642623253=Kamera Yönü
@@ -628,11 +823,23 @@
 # EN: Cancel
 3692849629=İptal
 
+# EN: Cancel on Target Lost
+1414621167=Hedef Kaybedildi Zaman İptal Et
+
+# EN: Caps how far ahead we predict — prevents wild leads at long range
+87020140=Önceden ne kadar ileri tahmin ettiğimizi sınırlar — uzun menzilde vahşi açıları önler
+
+# EN: Card
+3007636313=Kart
+
 # EN: Carpet FX Scale
 2956741907=Halı FX Ölçeği
 
 # EN: Catapult Gun
 4229999919=Mancınık Silahı
+
+# EN: Category
+2052871693=Kategori
 
 # EN: Center
 2590249447=Merkez
@@ -646,9 +853,6 @@
 # EN: Chain Range
 2003227318=Zincir Menzili
 
-# EN: Chance to redirect hit to the head
-1154716085=Vuruşu kafaya yönlendirme şansı
-
 # EN: Change Rate
 949770967=Değişim Hızı
 
@@ -658,17 +862,35 @@
 # EN: Change your walking animation
 2519588705=Yürüyüş animasyonunuzu değiştirin
 
+# EN: Charge
+895242042=Şarj
+
+# EN: Charge Ring
+2533561053=Şarj Halka
+
+# EN: Check
+3076878442=Kontrol Et
+
+# EN: Check Ownership
+2254116048=Sahipliği Kontrol Et
+
+# EN: Checkbox
+3774301889=Onay Kutusu
+
+# EN: Checking...
+250388835=Kontrol ediliyor...
+
+# EN: Checks:
+2320191415=Kontroller:
+
 # EN: China
-3307270334=Çin
+3307270334=Cin
 
 # EN: Circle
 3333310803=Daire
 
 # EN: Circle Color
 2748157626=Daire Rengi
-
-# EN: Circle Color##mb
-1303923968=Daire Rengi##mb
 
 # EN: Circle+Dot
 2897117632=Daire+Nokta
@@ -679,11 +901,20 @@
 # EN: Clarity
 574828251=Netlik
 
-# EN: Clean
-1640993750=Temiz
+# EN: Classic
+2458459502=Klasik
 
 # EN: Clear
 916995460=Temizle
+
+# EN: Clear All
+1803284832=Tümünü Temizle
+
+# EN: Clear All##ptfx
+1087140651=Tümünü Temizle##ptfx
+
+# EN: Clear Blood
+1733871903=Kanı Temizle
 
 # EN: Clear Bounties
 3723483613=Ödülleri Temizle
@@ -698,22 +929,28 @@
 1560365182=Açık Hava
 
 # EN: Clear on Teleport
-1659055056=Işınlanmada Temizle
+1659055056=Isinlanmada Temizle
+
+# EN: Click Start to scan server resources for events.
+2559388892=Sunucu kaynaklarını olaylar için taramak üzere Başlat'ı tıkla.
 
 # EN: Click UI
-1200896506=Tıklama Arayüzü
+1200896506=Tiklama Arayuzu
 
-# EN: Click key button to rebind. ESC to cancel.
-939410858=Yeniden atamak için tuşa tıklayın. İptal için ESC.
+# EN: Click UI: standard window menu. List UI: controller-friendly list. Dual UI: render both at once. INSERT toggles whichever is active.
+3730496475=Click UI: standart pencere menüsü. List UI: kontrolcü dostu liste. Dual UI: ikisini aynı anda render eder. INSERT aktif olanı değiştirir.
 
 # EN: Click to apply model
-1083648646=Modeli uygulamak için tıklayın
+1083648646=Modeli uygulamak icin tiklayin
 
 # EN: Click to give weapon
 576007568=Silah vermek için tıklayın
 
-# EN: Click to spawn
-4007395385=Oluşturmak için tıklayın
+# EN: Click to spawn as wild horse
+3426986118=Vahşi at olarak yakalamak için tıkla
+
+# EN: Click to spawn to database
+816468823=Veritabanına yakalamak için tıkla
 
 # EN: ClickUI
 2475899823=ClickUI
@@ -723,6 +960,12 @@
 
 # EN: Climb Steep Slopes
 2721325895=Dik Yamaçlara Tırman
+
+# EN: Clip
+3877360426=Klip
+
+# EN: Clip##anim_name
+1338454230=Klip##anim_name
 
 # EN: Clockwise
 3064165560=Saat Yönünde
@@ -735,6 +978,9 @@
 
 # EN: Close (5m)
 2185614558=Yakın (5m)
+
+# EN: Closest
+3389338466=En Yakın
 
 # EN: Cloud Glow
 1003829203=Bulut Parıltısı
@@ -757,11 +1003,20 @@
 # EN: Cock Weapon
 3058038059=Silahı Kur
 
+# EN: Collision
+2254540305=Çarpışma
+
 # EN: Collision Proof
 821592069=Çarpışma Geçirmez
 
 # EN: Color
 3914595625=Renk
+
+# EN: Color A
+4250468165=Renk A
+
+# EN: Color B
+1995633279=Renk B
 
 # EN: Color Overrides
 2615415427=Renk Geçersiz Kılmaları
@@ -785,16 +1040,22 @@
 140995175=Renkler
 
 # EN: Columns
-3313586012=Sütunlar
+3313586012=Sutunlar
 
 # EN: Combat
 1467455271=Savaş
 
+# EN: Compact
+3024861904=Kompakt
+
 # EN: Compass
 3738173000=Pusula
 
-# EN: Compensate for weapon recoil while aiming
-2749716703=Nişan alırken silah geri tepmesini telafi et
+# EN: Conceal you from network sync — other players see you frozen at the entry spot, then desync entirely. Voice still works at that location.
+2591682140=Seni ağ senkronizasyonundan gizler - diğer oyuncular seni giriş noktasında donmuş görür, sonra tamamen desync olursun. Ses o konumda çalışmaya devam eder.
+
+# EN: Cone
+1799025940=Koni
 
 # EN: Config
 1264390909=Yapılandırma
@@ -827,7 +1088,7 @@
 2509032464=Bağlantı Mesafesi
 
 # EN: Connected Players
-3406740022=Bağlı Oyuncular
+3406740022=Bagli Oyuncular
 
 # EN: Console
 716138132=Konsol
@@ -838,20 +1099,26 @@
 # EN: Console output appears here...
 2378588289=Konsol çıktısı burada görünür...
 
+# EN: Constant rate
+3437995936=Constant rate
+
 # EN: Content Only##bgco
-1042370066=Yalnızca İçerik##bgco
+1042370066=Yalnizca Icerik##bgco
 
 # EN: Content Pad
-2392358571=İçerik Dolgusu
+2392358571=Icerik Dolgusu
 
 # EN: Controls
 594033165=Kontroller
 
-# EN: Cool
-1695531110=Serin
+# EN: Cool Face
+3854545123=Havalı yüz
 
 # EN: Cooldown
 1178968787=Bekleme Süresi
+
+# EN: Cooldown (ms)
+500526488=Cooldown (ms)
 
 # EN: Cooldown##strafe
 1574937247=Bekleme Süresi##strafe
@@ -859,14 +1126,23 @@
 # EN: Coordinates
 2789151618=Koordinatlar
 
+# EN: Coords
+917192739=Koordinatlar
+
 # EN: Copy
 393356872=Kopyala
+
+# EN: Copy All
+4085295539=Tumunu Kopyala
 
 # EN: Copy ID
 3639484515=ID Kopyala
 
 # EN: Copy Name
-4181535183=İsim Kopyala
+4181535183=Adı Kopyala
+
+# EN: Core
+3262906017=Core
 
 # EN: Core Effect
 331657178=Çekirdek Efekti
@@ -878,7 +1154,7 @@
 1537142839=Çekirdekler
 
 # EN: Corner Length
-2709775814=Köşe Uzunluğu
+2709775814=Kose Uzunlugu
 
 # EN: Corners
 1329770163=Köşeler
@@ -887,16 +1163,19 @@
 1573697297=Sayı
 
 # EN: Counter-CW
-424479239=Saat Yönü Tersi
+424479239=Saat Yönü Tersine
 
 # EN: Coverage
 37271744=Kaplama
+
+# EN: Crash Player
+290401442=Crash Player
 
 # EN: Crash Protections
 1615778111=Çökme Korumaları
 
 # EN: Create
-1654067888=Oluştur
+1654067888=Olustur
 
 # EN: Creates a vortex that pulls nearby peds in and kills them
 2779469395=Yakındaki yayaları çeken ve öldüren bir girdap oluşturur
@@ -905,13 +1184,16 @@
 1554513421=Kritik Renk
 
 # EN: Cross
-2228701122=Çapraz
+2228701122=Artı
 
 # EN: Crosshair
 1991267050=Nişangah
 
-# EN: Crosshair Numbers
-3190854118=Nişangah Sayıları
+# EN: Crosshair Numbers##dmg
+1598516579=Crosshair Numbers##dmg
+
+# EN: Crosshair-style dot at the predicted impact point
+2920343593=Crosshair-style dot at the predicted impact point
 
 # EN: Cursor Color
 1006036086=İmleç Rengi
@@ -923,7 +1205,10 @@
 3136040996=Özel
 
 # EN: Custom AC
-703041167=Özel AC
+703041167=Ozel AC
+
+# EN: Custom Animation
+1823607424=Custom Animation
 
 # EN: Custom Crosshair
 3384202717=Özel Nişangah
@@ -931,8 +1216,41 @@
 # EN: Custom Cursor
 1312703150=Özel İmleç
 
+# EN: Custom Model Spawn
+4176462159=Custom Model Spawn
+
+# EN: Custom##db
+95206452=Custom##db
+
 # EN: Customize your whistle pitch, clarity, and shape
 2070241274=Islık perdenizi, netliğinizi ve şeklini özelleştirin
+
+# EN: Customize##ddsty
+1466910820=Customize##ddsty
+
+# EN: Customize##grp
+1365816375=Customize##grp
+
+# EN: Customize##hbarsty
+2034804524=Customize##hbarsty
+
+# EN: Customize##nbsty
+1039221734=Customize##nbsty
+
+# EN: Customize##sl
+4220190893=Customize##sl
+
+# EN: Customize##spsty
+2752626057=Customize##spsty
+
+# EN: Customize##tgl
+2661039819=Customize##tgl
+
+# EN: Cylinder
+883073064=Cylinder
+
+# EN: DATE
+629830659=DATE
 
 # EN: Damage
 1125348833=Hasar
@@ -941,13 +1259,16 @@
 1385629032=Hasar Göstergesi
 
 # EN: Damage Log
-1288883294=Hasar Günlüğü
+1288883294=Hasar Kaydi
 
 # EN: Damage Multiplier
-403675709=Hasar Çarpanı
+403675709=Hasar Carpani
+
+# EN: Damage Multiplier##mb
+1361489778=Damage Multiplier##mb
 
 # EN: Damage Numbers
-901708624=Hasar Sayıları
+901708624=Hasar Sayilari
 
 # EN: Damage Override
 722912324=Hasar Geçersiz Kılma
@@ -955,32 +1276,47 @@
 # EN: Damage Scale
 500530899=Hasar Ölçeği
 
+# EN: Damage any target regardless of walls or cover
+2699807098=Damage any target regardless of walls or cover
+
 # EN: Damage targets behind cover and walls
 605603680=Siper ve duvarların arkasındaki hedeflere hasar ver
+
+# EN: Damage##mb
+2337379826=Damage##mb
 
 # EN: Dashed
 1168445324=Kesikli
 
 # EN: Dashed Lines
-3217330410=Kesikli Çizgiler
+3217330410=Kesikli Cizgiler
 
-# EN: Dashed##tt
-3897605696=Kesikli##tt
+# EN: Database
+3279406008=Database
 
 # EN: Dawn
-4259095408=Şafak
+4259095408=Safak
+
+# EN: Dead
+3384366314=Olu
 
 # EN: Dead Eye meter never drains
 3137623279=Dead Eye göstergesi asla tükenmez
 
 # EN: Dead Zone
-2069969159=Ölü Bölge
+2069969159=Olu Bolge
 
 # EN: Deceleration
 27121731=Yavaşlama
 
+# EN: Decoration
+2330753538=Decoration
+
 # EN: Decreased Capsule
 2031166102=Küçültülmüş Kapsül
+
+# EN: Decrypt failed
+905566243=Decrypt failed
 
 # EN: Deep Shadow
 1704534583=Derin Gölge
@@ -1006,11 +1342,11 @@
 # EN: Delete Config
 3129736374=Yapılandırmayı Sil
 
-# EN: Delete Gun
-441024924=Silme Silahı
+# EN: Delete Entity
+1044265419=Delete Entity
 
-# EN: Delete Last
-2335943020=Sonuncuyu Sil
+# EN: Delete Gun
+441024924=Silah Sil
 
 # EN: Delete Mount
 1874940830=Bineği Sil
@@ -1019,13 +1355,13 @@
 4219254986=Temayı Sil
 
 # EN: Delete Vehicle
-37332959=Aracı Sil
+37332959=Araci Sil
 
 # EN: Delete this config?
-2115476497=Bu yapılandırmayı sil?
+2115476497=Bu yapılandırmayı silmek istiyor musunuz?
 
 # EN: Delete this theme?
-2754582444=Bu temayı sil?
+2754582444=Bu temayı silmek istiyor musunuz?
 
 # EN: Density
 3843932311=Yoğunluk
@@ -1036,14 +1372,17 @@
 # EN: Detach
 4291111140=Ayır
 
-# EN: Detach camera and fly around freely
-2017641408=Kamerayı ayır ve serbestçe uç
+# EN: Detach Now
+3545604601=Şimdi ayır
 
 # EN: Detail Text##notif
 2416834241=Detay Metni##notif
 
 # EN: Detected
-1404062231=Algılandı
+1404062231=Tespit Edildi
+
+# EN: Detector
+3221100445=Dedektör
 
 # EN: Diagonal
 1180516370=Çapraz
@@ -1051,14 +1390,17 @@
 # EN: Diamond
 2796235871=Elmas
 
-# EN: Different color for headshot kills
-2883796557=Headshot öldürmeler için farklı renk
+# EN: Dict##anim_dict
+470133403=Dict##anim_dict
+
+# EN: Dictionary
+1214558348=Dictionary
 
 # EN: Dim
 295795085=Karart
 
 # EN: Dim Amount
-1388938324=Karartma Miktarı
+1388938324=Karartma Miktari
 
 # EN: Direction
 887068712=Yön
@@ -1067,28 +1409,43 @@
 1959535538=Yön Okları
 
 # EN: Direction##brd
-4244919206=Yön##brd
+4244919206=Yon##brd
 
 # EN: Direction##grp
-2633968279=Yön##grp
+2633968279=Yon##grp
+
+# EN: Direction##tglg
+2813082977=Direction##tglg
+
+# EN: Disable All Protections
+517409660=Disable All Protections
 
 # EN: Disable Anti-Cheat
-3713723029=Anti-Cheat'i Devre Dışı Bırak
+3713723029=Hile Korumasini Devre Disi Birak
 
 # EN: Disable Controls When Open
 854714314=Açıkken Kontrolleri Devre Dışı Bırak
 
 # EN: Disable ElectronAC
-3852262134=ElectronAC'yi Devre Dışı Bırak
+3852262134=ElectronAC'yi Devre Disi Birak
+
+# EN: Disable Outsider AC
+925341067=Disable Outsider AC
+
+# EN: Disable Tasks
+2285629350=Disable Tasks
 
 # EN: Disable for Explosives
-1184164823=Patlayıcılar İçin Devre Dışı Bırak
+1184164823=Patlayicilar Icin Devre Disi Birak
 
 # EN: Disabled
 2572083169=Devre Dışı
 
 # EN: Disabled Text
 658823609=Devre Dışı Metin
+
+# EN: Disabler
+2396801800=Devre dışı bırakıcı
 
 # EN: Disables all artificial lights in the world
 1865168868=Dünyadaki tüm yapay ışıkları devre dışı bırakır
@@ -1097,7 +1454,10 @@
 400042567=Ekran
 
 # EN: Display Mode
-200820562=Ekran Modu
+200820562=Görüntüleme Modu
+
+# EN: Display model hash of entity under crosshair
+379808138=Display model hash of entity under crosshair
 
 # EN: Dist
 3531260757=Mesafe
@@ -1105,11 +1465,17 @@
 # EN: Distance
 3607074178=Mesafe
 
-# EN: Distance Bone
-1749124048=Mesafe Kemiği
+# EN: Distance / Lead Readout
+1138383586=Distance / Lead Readout
+
+# EN: Distance Fade
+115233056=Distance Fade
 
 # EN: Distance Labels
 462378492=Mesafe Etiketleri
+
+# EN: Distance##animal
+3973735636=Distance##animal
 
 # EN: Distance##atk
 692812083=Mesafe##atk
@@ -1129,35 +1495,56 @@
 # EN: Distance##tpfwd
 673033664=Mesafe##tpfwd
 
+# EN: Distance##veh
+3820228410=Mesafe##veh
+
+# EN: Divided
+2391534534=Divided
+
 # EN: Divider Opacity
-1443594631=Ayırıcı Opaklığı
+1443594631=Ayirici Opakligi
 
 # EN: Dividers
-4266747014=Ayırıcılar
+4266747014=Ayiricilar
 
-# EN: Don't target players marked as friends
-1529406783=Arkadaş olarak işaretlenen oyuncuları hedef alma
+# EN: Don't fire while wielding melee weapons, bow, or lasso
+2492797133=Don't fire while wielding melee weapons, bow, or lasso
+
+# EN: Don't show ESP on your own horse
+2855475825=Don't show ESP on your own horse
+
+# EN: Don't target other animals
+2443518263=Don't target other animals
 
 # EN: Dot
 289406910=Nokta
 
+# EN: Dot Color
+1433097755=Dot Color
+
 # EN: Dot Outline
-1280327065=Nokta Çerçevesi
+1280327065=Nokta Dış Çizgisi
 
 # EN: Dot Size
 631688132=Nokta Boyutu
 
-# EN: Dot Spacing
-3608568270=Nokta Aralığı
+# EN: Dot Spacing##bt2
+2609380175=Dot Spacing##bt2
 
 # EN: Dotted
-2579778033=Noktalı
+2579778033=Noktali
 
-# EN: Dotted Line
-3435322722=Noktalı Çizgi
+# EN: Dotted Line##bt2
+2402778555=Dotted Line##bt2
+
+# EN: Double-click an event in the Logger to copy its name here.
+847266517=Adini buraya kopyalamak icin Gunlukteki bir olaya cift tiklayin.
 
 # EN: Doubles the size of the targeted ped
 112049375=Hedeflenen yayanın boyutunu ikiye katlar
+
+# EN: Download failed
+998536=Download failed
 
 # EN: Draft Flaming Hooves
 2175949334=Koşum Atları Alev Toynakları
@@ -1169,25 +1556,22 @@
 3287744767=Sürüklenebilir
 
 # EN: Draw Calls
-610979268=Draw Call'lar
-
-# EN: Draw a circle around the current target
-874232396=Mevcut hedefin etrafına bir daire çiz
-
-# EN: Draw a line from crosshair to current target
-2567747378=Nişangahtan mevcut hedefe bir çizgi çiz
+610979268=Cizim Cagrilari
 
 # EN: Draw a line from your vehicle to the waypoint
 1677064399=Aracınızdan işaret noktasına bir çizgi çiz
 
-# EN: Draw targeting circle on screen
-887579382=Ekranda hedefleme dairesi çiz
+# EN: Draw a ring + slot label at every saved position so you can find them in the world
+3813781237=Dünyada bulabilmen için her kayıtlı pozisyona halka + slot etiketi çizer
 
 # EN: Draw the aimbot targeting circle on screen
 383559352=Aimbot hedefleme dairesini ekranda çiz
 
-# EN: Draw the silent aim targeting circle on screen
-1366447032=Silent aim hedefleme dairesini ekranda çiz
+# EN: Draws a line from the target's bone to the predicted lead point
+3573936851=Draws a line from the target's bone to the predicted lead point
+
+# EN: Draws a line showing the path of every bullet fired in the world
+296242023=Draws a line showing the path of every bullet fired in the world
 
 # EN: Drive Modes
 1204710938=Sürüş Modları
@@ -1195,11 +1579,20 @@
 # EN: Drive through the air like a plane
 2789300348=Uçak gibi havada sür
 
+# EN: Drive to Coords
+3454400388=Koordinatlara sür
+
+# EN: Drive to Waypoint
+53776605=Yol noktasına sür
+
 # EN: Drive toward where the camera is looking
 4214413949=Kameranın baktığı yöne doğru sür
 
 # EN: Drop Shadow
-362604306=Gölge Düşürme
+362604306=Golge
+
+# EN: Drop Weapon
+1076854088=Drop Weapon
 
 # EN: Dropdown
 953915820=Açılır Menü
@@ -1210,11 +1603,17 @@
 # EN: Dropdown Hover
 7476142=Açılır Menü Üzerine Gelme
 
+# EN: Dropdown Style
+933713766=Dropdown Style
+
 # EN: Dropdown Sub-Tabs
-914167550=Açılır Menü Alt Sekmeleri
+914167550=Acilir Alt Sekmeler
 
 # EN: Dropdowns
 51766618=Açılır Menüler
+
+# EN: Drunk All
+1338339533=Herkesi sarhoş et
 
 # EN: Drunk Gun
 2509752085=Sarhoş Silahı
@@ -1225,8 +1624,8 @@
 # EN: Drunk Mode
 3041909067=Sarhoş Modu
 
-# EN: Dual UI mode is not yet available.
-1792964426=Çift arayüz modu henüz kullanılamıyor.
+# EN: Dual UI
+163752098=Çift UI
 
 # EN: Dual Wield
 1207650416=Çift Silah
@@ -1237,26 +1636,44 @@
 # EN: Duration (ms)
 655786122=Süre (ms)
 
-# EN: Duration##dmglog
-2155043513=Süre##dmglog
+# EN: Duration##bt2
+345056605=Duration##bt2
 
-# EN: Duration##dmgnum
-1606858786=Süre##dmgnum
+# EN: Duration##dlog2
+1816813723=Duration##dlog2
 
-# EN: Duration##pt
-2015408410=Süre##pt
+# EN: Duration##dmg
+225476226=Duration##dmg
 
-# EN: Duration##tt
-301031845=Süre##tt
+# EN: Duration##hm
+839593440=Duration##hm
 
 # EN: Dusk
-2177164377=Alacakaranlık
+2177164377=Aksam Karanligi
+
+# EN: Dynamic
+1539023636=Dynamic
+
+# EN: Dynamic FOV##sa
+156212456=Dynamic FOV##sa
+
+# EN: Dynamite
+3125318994=Dynamite
+
+# EN: Dynamite Arrow
+196789071=Dynamite Arrow
+
+# EN: Dynamite, throwing knives, etc. — disabled by default (drop is more dramatic)
+1780595305=Dynamite, throwing knives, etc. — disabled by default (drop is more dramatic)
 
 # EN: E
-286663184=D
+286663184=E
 
 # EN: ESP
 3007444226=ESP
+
+# EN: ESP fades out at long range
+1243683337=ESP fades out at long range
 
 # EN: Eagle Eye
 1477228707=Kartal Gözü
@@ -1270,20 +1687,23 @@
 # EN: Editor
 1766080170=Editör
 
+# EN: Editor is empty
+2785403049=Editor bos
+
+# EN: Effect
+860884915=Efekt
+
 # EN: Effect Type
-2321899216=Efekt Tipi
+2321899216=Efekt Türü
 
 # EN: Effects
 3222754290=Efektler
 
-# EN: Electric Ammo
-4256644546=Elektrik Cephanesi
-
 # EN: ElectronAC heartbeat — may be kicked in 2-5 min.
-3667341283=ElectronAC kalp atışı — 2-5 dk içinde atılabilirsiniz.
+3667341283=ElectronAC kalp atisi — 2-5 dk icinde atilabilirsiniz.
 
 # EN: Elements
-2120029714=Öğeler
+2120029714=Elemanlar
 
 # EN: Eliminates weapon recoil
 3161502511=Silah geri tepmesini ortadan kaldırır
@@ -1291,68 +1711,86 @@
 # EN: Embedded
 2292057362=Gömülü
 
-# EN: Empty
-3151330285=Boş
+# EN: Emote
+2644719629=Emote
+
+# EN: Emotes
+2110610439=Emotes
+
+# EN: Enable All Protections
+255460132=Enable All Protections
 
 # EN: Enable Striker
 2724500409=Striker'ı Etkinleştir
 
 # EN: Enable##grpimg
-4123962691=Etkinleştir##grpimg
+4123962691=Etkinlestir##grpimg
 
 # EN: Enable##hbg
-3025446437=Etkinleştir##hbg
+3025446437=Etkinlestir##hbg
 
 # EN: Enable##logo
-4138177973=Etkinleştir##logo
+4138177973=Etkinlestir##logo
 
 # EN: Enable##pred
 3031240550=Etkinleştir##pred
 
+# EN: Enable##proj
+1677195569=Enable##proj
+
 # EN: Enable##sbg
-3268039885=Etkinleştir##sbg
+3268039885=Etkinlestir##sbg
 
 # EN: Enable##trig
 2791649621=Etkinleştir##trig
 
 # EN: Enable##wbg
-4197006742=Etkinleştir##wbg
+4197006742=Etkinlestir##wbg
 
 # EN: Enabled
 1527945487=Etkin
 
+# EN: Enabled##animal
+1998270356=Enabled##animal
+
+# EN: Enabled##bt
+4088978414=Enabled##bt
+
+# EN: Enabled##dlog
+2859054786=Enabled##dlog
+
+# EN: Enabled##dmg
+2528055362=Enabled##dmg
+
+# EN: Enabled##hm
+1214860466=Enabled##hm
+
 # EN: Enabled##silent
 697079411=Etkin##silent
+
+# EN: Enabled##veh
+2924172026=Etkin##veh
 
 # EN: End
 2965669335=Son
 
 # EN: End Color
-376581466=Son Renk
+376581466=Bitiş Rengi
 
 # EN: Endpoint
-693206863=Bitiş Noktası
-
-# EN: Endpoint Marker##pt
-782785200=Bitiş Noktası İşareti##pt
-
-# EN: Endpoint Marker##tt
-3578768512=Bitiş Noktası İşareti##tt
+693206863=Bitis Noktasi
 
 # EN: Enlarge Gun
 2576154054=Büyütme Silahı
 
 # EN: Enter name...
-3545940642=İsim girin...
+3545940642=Ad girin...
 
 # EN: Entities
-3433796359=Varlıklar
+3433796359=Varliklar
 
 # EN: Entity Count
-495352207=Varlık Sayısı
-
-# EN: Entity ESP
-2237057752=Varlık ESP
+495352207=Varlik Sayisi
 
 # EN: Error
 3374345388=Hata
@@ -1363,8 +1801,23 @@
 # EN: Error##notif
 3944622010=Hata##notif
 
+# EN: Event Blocker
+2348049901=Olay Engelleyici
+
+# EN: Event Logger
+4055111064=Olay Gunlugu
+
+# EN: Event name...
+1453694419=Olay adi...
+
+# EN: Event to block...
+3761220325=Engellenecek olay...
+
+# EN: Events Blocked: %d
+1639179143=Events Blocked: %d
+
 # EN: Expand Sub-Tabs
-788906364=Alt Sekmeleri Genişlet
+788906364=Alt Sekmeleri Genislet
 
 # EN: Expanding shockwave at bullet impact
 3208468219=Mermi çarpmasında genişleyen şok dalgası
@@ -1375,17 +1828,26 @@
 # EN: Explode All
 979167410=Hepsini Patlat
 
+# EN: Explode All Loop
+4143022776=Explode All Loop
+
 # EN: Explode Loop
-2859847721=Patlama Döngüsü
+2859847721=Patlama Dongusu
+
+# EN: Explode Vehicle
+2721901462=Explode Vehicle
 
 # EN: Explosion Proof
 1687470245=Patlama Geçirmez
 
+# EN: Explosion Scale##ff
+2974608460=Explosion Scale##ff
+
 # EN: Explosion Type
-330699093=Patlama Tipi
+330699093=Patlama Türü
 
 # EN: Explosive Ammo
-2972685631=Patlayıcı Cephane
+2972685631=Patlayıcı Mermi
 
 # EN: Export
 677160269=Dışa Aktar
@@ -1393,8 +1855,14 @@
 # EN: Exported
 3145593980=Dışa Aktarıldı
 
+# EN: Extra
+2934273293=Extra
+
 # EN: Extras
 2099753448=Ekstralar
+
+# EN: Extras##lockon
+1596163466=Extras##lockon
 
 # EN: FOV
 1783694977=FOV
@@ -1405,6 +1873,9 @@
 # EN: FOV Circle
 3437618946=FOV Dairesi
 
+# EN: FOV Circle##projvis
+3268196155=FOV Circle##projvis
+
 # EN: FOV Circle##sa
 1684241733=FOV Dairesi##sa
 
@@ -1414,8 +1885,11 @@
 # EN: FOV Cone
 3855747913=FOV Konisi
 
+# EN: FOV Limit##mb
+3932303542=FOV Limit##mb
+
 # EN: FOV Override
-660796900=FOV Geçersiz Kılma
+660796900=FOV Gecersiz Kilma
 
 # EN: FOV Radius
 577842563=FOV Yarıçapı
@@ -1423,8 +1897,11 @@
 # EN: FOV Radius##mb
 3586756969=FOV Yarıçapı##mb
 
-# EN: FOV Scaling
-1352560597=FOV Ölçekleme
+# EN: FOV Radius##proj
+55660565=FOV Radius##proj
+
+# EN: FOV Scale by Distance
+4020045898=FOV Scale by Distance
 
 # EN: FPS
 1188151419=FPS
@@ -1433,7 +1910,7 @@
 1211596683=FPS Grafiği
 
 # EN: FPS drops while the GUI is open.
-1329427269=Arayüz açıkken FPS düşer.
+1329427269=Arayuz acikken FPS duser.
 
 # EN: Factor
 2062570087=Faktör
@@ -1441,14 +1918,14 @@
 # EN: Fade Out
 88300072=Solma
 
-# EN: Fade Out##pt
-723949415=Solma##pt
-
-# EN: Fade Out##tt
-1486429023=Solma##tt
+# EN: Fade Out##bt2
+2502754614=Fade Out##bt2
 
 # EN: Fade Over Time
 721809131=Zamanla Solma
+
+# EN: Fade by Distance
+310763781=Fade by Distance
 
 # EN: Failed to import
 3610834696=İçe aktarma başarısız
@@ -1465,23 +1942,32 @@
 # EN: Fast Climb
 1192867602=Hızlı Tırmanma
 
+# EN: Fast Punch
+4255767614=Hizli Yumruk
+
 # EN: Fast Reload
-1854971811=Hızlı Şarjör
+1854971811=Hizli Sarjor
 
 # EN: Fast Run
 1518054783=Hızlı Koşu
 
+# EN: Fast start, brakes near target
+1671645065=Fast start, brakes near target
+
 # EN: Fast-forward time at a custom speed
 1951095642=Zamanı özel bir hızda ileri sar
+
+# EN: Feature Keybinds
+2384437387=Feature Keybinds
 
 # EN: Features
 1642194290=Özellikler
 
 # EN: Feet
-411685808=Ayak
+411685808=Ayaklar
 
 # EN: Fetching...
-3018912354=Getiriliyor...
+3018912354=Alınıyor...
 
 # EN: File
 2993965316=Dosya
@@ -1490,19 +1976,25 @@
 4208545539=Dosyalar
 
 # EN: Fill
-2745871209=Doldur
+2745871209=Dolgu
 
 # EN: Fill Alpha
-335227331=Dolgu Alfa
+335227331=Dolgu Alpha
 
 # EN: Fill Color
 1891090697=Dolgu Rengi
+
+# EN: Fill Color##animal
+670630670=Fill Color##animal
+
+# EN: Fill Color##veh
+3176782488=Fill Color##veh
 
 # EN: Fill Deadeye Core
 2679437180=Deadeye Çekirdeğini Doldur
 
 # EN: Fill Gradient
-680514559=Dolgu Gradyanı
+680514559=Dolgu Gradyani
 
 # EN: Fill Health Core
 3620033653=Sağlık Çekirdeğini Doldur
@@ -1516,14 +2008,17 @@
 # EN: Filled
 238956158=Dolu
 
-# EN: Filled Circle
-1999419602=Dolu Daire
-
 # EN: Filter
 1239184307=Filtre
 
+# EN: Filter events / resources...
+2239256256=Olaylari / kaynaklari filtrele...
+
 # EN: Filter##mb
 982138645=Filtre##mb
+
+# EN: Filter##proj
+1693281521=Filter##proj
 
 # EN: Filter##sa
 2082915633=Filtre##sa
@@ -1531,26 +2026,50 @@
 # EN: Filter##trig
 1506659606=Filtre##trig
 
+# EN: Filters
+3325143685=Filters
+
 # EN: Fine-Tuning
 3037120010=İnce Ayar
 
+# EN: Fire All
+2874134581=Hepsini Atesle
+
+# EN: Fire All Loop
+2371634047=Fire All Loop
+
 # EN: Fire Ammo
-3091308747=Ateş Cephanesi
+3091308747=Ateşli Mermi
+
+# EN: Fire Arrow
+1489326154=Fire Arrow
 
 # EN: Fire Delay
-425570614=Ateş Gecikmesi
+425570614=Ates Gecikmesi
+
+# EN: Fire Event
+2661019027=Olayi Tetikle
+
+# EN: Fire Loop
+3821399314=Fire Loop
 
 # EN: Fire Proof
 2377383169=Ateş Geçirmez
 
 # EN: Fire Rate
-3724661835=Ateş Hızı
+3724661835=Atış Hızı
 
-# EN: Firework Launcher, Compact GL
-1025450837=Havai Fişek Fırlatıcı, Kompakt Bomba Atar
+# EN: Fire Rate##mb
+1343186129=Fire Rate##mb
+
+# EN: Fire explosive projectile from muzzle
+3794635436=Fire explosive projectile from muzzle
 
 # EN: Fit
 1780184594=Sığdır
+
+# EN: Flags
+1741842546=Flags
 
 # EN: Flaming Hooves
 246169199=Alev Toynakları
@@ -1561,23 +2080,29 @@
 # EN: Flashing warning when another player is aiming at you
 2760353598=Başka bir oyuncu size nişan aldığında yanıp sönen uyarı
 
+# EN: Flat
+628418783=Flat
+
+# EN: Fling thrown projectiles at high speed
+871183867=Fling thrown projectiles at high speed
+
+# EN: Flip Vehicle
+2529232516=Flip Vehicle
+
+# EN: Flips Config.disable*Detection flags + absorbs NUI tripwire.
+3653173931=Flips Config.disable*Detection flags + absorbs NUI tripwire.
+
+# EN: Floating
+49814712=Floating
+
+# EN: Floating shape above animal head
+1095761944=Floating shape above animal head
+
 # EN: Fly Mode
 2546767316=Uçuş Modu
 
 # EN: Fly Mount
 3095471503=Uçan Binek
-
-# EN: Fly freely, ignoring world geometry
-2682006472=Dünya geometrisini yok sayarak serbestçe uç
-
-# EN: Fly on a floating carpet with WASD/Space/Ctrl
-691261970=WASD/Space/Ctrl ile uçan halıda uç
-
-# EN: Fly on your horse with WASD/Space/Ctrl
-2052440713=WASD/Space/Ctrl ile atınızda uçun
-
-# EN: Fly through the map freely. Click gear for settings.
-2829494518=Haritada serbestçe uçun. Ayarlar için dişli simgesine tıklayın.
 
 # EN: Flying Speed
 2419263387=Uçuş Hızı
@@ -1585,14 +2110,23 @@
 # EN: Fog
 3592150529=Sis
 
+# EN: Follow Nearest Player
+687010905=En yakın oyuncuyu takip et
+
 # EN: Font Settings
 3544698146=Yazı Tipi Ayarları
 
 # EN: Font Size
 1304943144=Yazı Tipi Boyutu
 
-# EN: Font Size##dmglog
-1349856237=Yazı Tipi Boyutu##dmglog
+# EN: Font Size##adist
+2586262393=Font Size##adist
+
+# EN: Font Size##dlog2
+1871772931=Font Size##dlog2
+
+# EN: Font Size##dmg
+3330545899=Font Size##dmg
 
 # EN: Font names not ready
 1640246123=Yazı tipi adları hazır değil
@@ -1601,19 +2135,25 @@
 741941735=Yazı Tipleri
 
 # EN: Footsteps
-1786517141=Ayak İzleri
+1786517141=Ayak Sesleri
 
 # EN: Force
-727102967=Kuvvet
+727102967=Güç
+
+# EN: Force Detach
+322280687=Force Detach
 
 # EN: Force Field
 3674789465=Kuvvet Alanı
 
-# EN: Force a specific weather type
-785757655=Belirli bir hava durumunu zorla
+# EN: Force Gun
+2320811497=Force Gun
+
+# EN: Force Vomit
+3570371821=Kustur
 
 # EN: Force on Ped
-3779398860=Yayaya Kuvvet
+3779398860=Ped Üzerine Güç
 
 # EN: Force weapon into cocked state
 2805055768=Silahı kurulu duruma zorla
@@ -1621,17 +2161,32 @@
 # EN: Forces
 4287958825=Kuvvetler
 
+# EN: Forward
+854951812=Forward
+
 # EN: Forward Speed
-1876555102=İleri Hız
+1876555102=Ileri Hiz
+
+# EN: Frame This Player
+375330543=Bu oyuncuya suç at
 
 # EN: Frametime Graph
 3749077224=Kare Süresi Grafiği
 
 # EN: Frametime Stats
-3723639030=Kare Süresi İstatistikleri
+3723639030=Kare Suresi Istatistikleri
+
+# EN: Free Menus
+2609200059=Ucretsiz Menuler
 
 # EN: Freecam
 3443129427=Serbest Kamera
+
+# EN: Freeze
+3175262865=Freeze
+
+# EN: Freeze All
+562972110=Herkesi dondur
 
 # EN: Freeze All Peds
 1623902237=Tüm Yayaları Dondur
@@ -1640,7 +2195,7 @@
 393488921=Dondurma Silahı
 
 # EN: Freeze Time
-1098673979=Zamanı Dondur
+1098673979=Zamani Dondur
 
 # EN: Freeze When Stopped
 1338390017=Durduğunda Dondur
@@ -1652,16 +2207,28 @@
 383177035=Hedeflenen varlığı yerinde dondurur
 
 # EN: Friend
-2041158560=Arkadaş
+2041158560=Arkadas
 
 # EN: Friends
-3722820035=Arkadaşlar
+3722820035=Arkadaslar
 
 # EN: Friends are excluded
-3097198968=Arkadaşlar hariç tutuluyor
+3097198968=Arkadaslar haric tutulur
+
+# EN: Frosted
+4021177151=Frosted
 
 # EN: Full
 2467592022=Tam
+
+# EN: Full Changelog
+2892240987=Full Changelog
+
+# EN: Full Opacity
+3932230364=Full Opacity
+
+# EN: Fun
+4088589830=Fun
 
 # EN: Fun Ammo
 574668198=Eğlenceli Cephane
@@ -1694,10 +2261,13 @@
 1434685453=Başla
 
 # EN: Ghost Alpha
-1370266825=Hayalet Alfa
+1370266825=Hayalet Alpha
 
 # EN: Ghost Mode
 2792783542=Hayalet Modu
+
+# EN: Give Carbine
+2118885684=Give Carbine
 
 # EN: Glass
 3656960447=Cam
@@ -1715,58 +2285,67 @@
 4274301606=Parıltı Rengi
 
 # EN: Glow Outline
-3647583653=Parıltı Çerçevesi
+3647583653=Parıltı Dış Çizgisi
 
 # EN: Glow Radius
 3087836290=Parıltı Yarıçapı
 
-# EN: Glow Radius##pt
-4004376189=Parıltı Yarıçapı##pt
+# EN: Glow Radius##bt2
+2560990833=Glow Radius##bt2
 
-# EN: Glow Radius##tt
-1810956257=Parıltı Yarıçapı##tt
+# EN: Glow##bt2
+420923737=Glow##bt2
 
 # EN: Glow##head
-3142243301=Parıltı##head
+3142243301=Parilti##head
 
 # EN: Glow##outline
 2470917910=Parıltı##outline
-
-# EN: Glow##pt
-329084185=Parıltı##pt
 
 # EN: Glow##skel
 3909833531=Parıltı##skel
 
 # EN: Glow##snap
-3584938764=Parıltı##snap
-
-# EN: Glow##tt
-231761347=Parıltı##tt
+3584938764=Parilti##snap
 
 # EN: Go
 3678454391=Git
 
 # EN: God Mode
-3602224294=Tanrı Modu
+3602224294=God Mode
 
 # EN: Godmode
 3195275854=Tanrı Modu
 
 # EN: Grab
-2936829358=Tutma
+2936829358=Yakala
 
 # EN: Grab Opacity
-1641363077=Tutma Opaklığı
+1641363077=Yakalama Opaklığı
+
+# EN: Grab Range
+2257887998=Yakalama mesafesi
+
+# EN: Grab Shape
+3731252436=Grab Shape
+
+# EN: Grab Size
+390888471=Grab Size
 
 # EN: Grab##scr
-2129025338=Tutma##scr
+2129025338=Yakala##scr
+
+# EN: Grabber
+3519731721=Yakalayıcı
 
 # EN: Graceful Landing
 2418029094=Yumuşak İniş
 
 # EN: Gradient
 3345778296=Gradyan
+
+# EN: Gradient (ON)
+145492381=Gradient (ON)
 
 # EN: Gradient Accent
 375722623=Gradyan Vurgusu
@@ -1777,8 +2356,14 @@
 # EN: Gradient End
 2363959488=Gradyan Sonu
 
+# EN: Gradient Fill
+1626977588=Gradient Fill
+
 # EN: Gradient##skel
 4185602752=Gradyan##skel
+
+# EN: Gradient##sl
+4056088422=Gradient##sl
 
 # EN: Gradient##snap
 996503281=Gradyan##snap
@@ -1787,10 +2372,16 @@
 4061756894=Grafik
 
 # EN: Graph Height
-2433600852=Grafik Yüksekliği
+2433600852=Grafik Yuksekligi
 
 # EN: Graph Line
-2499037406=Grafik Çizgisi
+2499037406=Grafik Cizgisi
+
+# EN: Grapple Hook
+3088883906=Grapple Hook
+
+# EN: Gravity Compensation
+3413356985=Gravity Compensation
 
 # EN: Gravity Flip
 1328387907=Yerçekimi Çevirme
@@ -1798,29 +2389,29 @@
 # EN: Gravity Gun
 593196728=Yerçekimi Silahı
 
+# EN: Gravity Swap
+2900137701=Gravity Swap
+
 # EN: Greatly increases weapon fire rate
 3075330173=Silah ateş hızını büyük ölçüde artırır
 
 # EN: Greatly speeds up reload animations
 1665048634=Şarjör doldurma animasyonlarını büyük ölçüde hızlandırır
 
-# EN: Grenades, Sticky Bombs, Molotovs,
-1157284636=El Bombaları, Yapışkan Bombalar, Molotof,
-
 # EN: Grid Lines
-608131623=Izgara Çizgileri
+608131623=Kılavuz Çizgileri
 
 # EN: Ground Check
-559870402=Zemin Kontrolü
+559870402=Zemin Kontrolu
 
 # EN: Ground Cloud Intensity
 3235526852=Yer Bulutu Yoğunluğu
 
 # EN: Ground Only
-3975676203=Yalnızca Zemin
+3975676203=Yalnızca Yerde
 
 # EN: Ground Shrink
-78897148=Zemin Küçültme
+78897148=Yere Küçültme
 
 # EN: Group Body Background
 334341745=Grup Gövde Arka Planı
@@ -1829,10 +2420,10 @@
 3941049695=Grup Kenarlığı
 
 # EN: Group Header Background
-3023489822=Grup Başlığı Arka Planı
+3023489822=Grup Başlık Arka Planı
 
 # EN: Group Header Text
-2805262350=Grup Başlığı Metni
+2805262350=Grup Başlık Metni
 
 # EN: Group Headers
 2326738084=Grup Başlıkları
@@ -1849,6 +2440,12 @@
 # EN: HP
 1833919794=HP
 
+# EN: HP Mode
+2196479797=HP Mode
+
+# EN: HP Threshold
+1334698493=HP Threshold
+
 # EN: HUD
 2488248793=HUD
 
@@ -1858,14 +2455,20 @@
 # EN: Hands
 1613305285=Eller
 
+# EN: Hash Gun
+217018978=Hash Gun
+
 # EN: Hat
-2537416713=Şapka
+2537416713=Sapka
 
 # EN: Hat Color
-2197204917=Şapka Rengi
+2197204917=Sapka Rengi
+
+# EN: Hat ESP##animalhat
+904027355=Hat ESP##animalhat
 
 # EN: Hat Style
-3968368516=Şapka Stili
+3968368516=Sapka Stili
 
 # EN: Head
 2220048209=Kafa
@@ -1898,16 +2501,19 @@
 3385559894=Başlık Yazı Tipi
 
 # EN: Header Gradient
-2818942757=Başlık Gradyanı
+2818942757=Baslik Gradyani
 
 # EN: Header Gradient Colors
-3729684505=Başlık Gradyan Renkleri
+3729684505=Baslik Gradyan Renkleri
 
 # EN: Header H
-2985475078=Başlık Y
+2985475078=Baslik Y
 
 # EN: Header Height
 1726695865=Başlık Yüksekliği
+
+# EN: Header Only
+1079959356=Header Only
 
 # EN: Header Opacity
 3337976026=Başlık Opaklığı
@@ -1919,13 +2525,16 @@
 2800582941=Başlık##pnl
 
 # EN: Headshot Chance
-1279076512=Headshot Şansı
+1279076512=Kafa Vurusu Sansi
 
-# EN: Headshot Color
-3745724835=Headshot Rengi
+# EN: Headshot Chance##mb
+105036172=Headshot Chance##mb
 
-# EN: Headshot Highlight
-3490981979=Headshot Vurgusu
+# EN: Heal
+213766180=Heal
+
+# EN: Heal All
+694888403=Heal All
 
 # EN: Heal Gun
 3522316062=İyileştirme Silahı
@@ -1933,11 +2542,20 @@
 # EN: Heals the targeted ped to full health or repairs vehicles
 1348684421=Hedeflenen yayayı tam sağlığa iyileştirir veya araçları onarır
 
+# EN: Health
+3645570614=Health
+
 # EN: Health / Armor
 1392506828=Sağlık / Zırh
 
 # EN: Health Bar
 238354258=Sağlık Çubuğu
+
+# EN: Health Bar##animal
+1043723384=Health Bar##animal
+
+# EN: Health Bar##veh
+2888284525=Health Bar##veh
 
 # EN: Health Bars
 3573032106=Sağlık Çubukları
@@ -1945,14 +2563,20 @@
 # EN: Health Dots
 1895157285=Sağlık Noktaları
 
+# EN: Health Filter
+3797968681=Health Filter
+
 # EN: Health Regen
 2428261713=Sağlık Yenilenmesi
 
 # EN: Health and stamina bars stay full
 1580284707=Sağlık ve dayanıklılık çubukları dolu kalır
 
-# EN: Heartbeat active — expect kick in 2-5 min
-1880003566=Kalp atışı aktif — 2-5 dk içinde atılma bekleniyor
+# EN: Health bar alongside the box
+42303962=Health bar alongside the box
+
+# EN: Health bar below the box
+3233771946=Health bar below the box
 
 # EN: Height
 1392374582=Yükseklik
@@ -1961,7 +2585,16 @@
 1812340136=Yükseklik Çarpanı
 
 # EN: Height Offset
-599202244=Yükseklik Ofseti
+599202244=Yukseklik Ofseti
+
+# EN: Height##animalhat
+2353146170=Height##animalhat
+
+# EN: Height##tgl
+3237570541=Height##tgl
+
+# EN: Hero
+1055943436=Hero
 
 # EN: Hex
 3544636510=Hex
@@ -1970,55 +2603,106 @@
 1280145277=Gizli
 
 # EN: Hide Background
-1550833432=Arka Planı Gizle
+1550833432=Arka Plani Gizle
 
 # EN: Hide Crosshair / FOV
-2570807650=Nişangah / FOV Gizle
+2570807650=Nisangahi / FOV Gizle
 
 # EN: Hide ESP
 3489105641=ESP Gizle
 
+# EN: Hide From Others
+943693745=Diğerlerinden gizle
+
 # EN: Hide Menu
-1560947015=Menüyü Gizle
+1560947015=Menuyu Gizle
 
 # EN: Hide Overlays
-1525934716=Katmanları Gizle
+1525934716=Kaplamalari Gizle
+
+# EN: Hide Own Mount
+4250645748=Hide Own Mount
+
+# EN: Hide Preview
+3899698831=Hide Preview
 
 # EN: Hide Tracers / Lines
-425240012=İzleyicileri / Çizgileri Gizle
+425240012=Izleyicileri / Cizgileri Gizle
 
-# EN: Highlight Headshots
-1100352321=Headshot'ları Vurgula
+# EN: Hide weapon model while aiming
+2699460846=Hide weapon model while aiming
+
+# EN: Higher = clings to current target longer
+2780806627=Higher = clings to current target longer
+
+# EN: Higher = slower / less aggressive nudge
+83817398=Higher = slower / less aggressive nudge
+
+# EN: Hijack Horse
+1532813097=Hijack Horse
 
 # EN: Hit Chance
-3254221308=Vuruş Şansı
+3254221308=Vurus Sansi
 
 # EN: Hit Color
-3909493061=Vuruş Rengi
+3909493061=Vurus Rengi
 
 # EN: Hit Effect
 3650015191=Vuruş Efekti
 
+# EN: Hit Range
+3630651289=Vurus Menzili
+
 # EN: Hitbox
 2448535733=Hitbox
 
+# EN: Hitbox Priority##trig
+797160922=Hitbox Priority##trig
+
 # EN: Hitmarker
-610964850=Hitmarker
+610964850=Vurus Isareti
 
 # EN: Hitmarkers
-3918708223=Hitmarker'lar
+3918708223=Vurus Isaretleri
 
 # EN: Hold
 2552174939=Basılı Tut
 
-# EN: Homing Ammo
-2847338131=Güdümlü Cephane
+# EN: Hold ATTACK to grab the closest wagon / coach / boat (riders/drivers come along). AIM throws it forward.
+3528287593=En yakın vagon / fayton / tekneyi yakalamak için ATTACK basılı tut (biniciler/sürücüler birlikte gelir). AIM ileri fırlatır.
+
+# EN: Hold ATTACK while unarmed + on foot to grab the closest ped (humans / horses / animals — works even when riders are mounted). Press AIM to throw forward.
+1892316222=Silahsız + yaya iken en yakın Ped'i yakalamak için ATTACK basılı tut (insanlar / atlar / hayvanlar - biniciler üstündeyken bile çalışır). İleri fırlatmak için AIM bas.
+
+# EN: Hold Attack (Left Mouse Button) to strike lightning at your aim point
+3787356728=Hold Attack (Left Mouse Button) to strike lightning at your aim point
+
+# EN: Hold Distance
+646883769=Mesafeyi koru
+
+# EN: Hold E near a player to pull and punch
+4004346598=Hold E near a player to pull and punch
+
+# EN: Hold Shift to boost, release to stop
+1354780119=Hold Shift to boost, release to stop
+
+# EN: Hold Time##proj
+1312533915=Hold Time##proj
+
+# EN: Hold aim key to snap onto nearest target
+2268590838=Hold aim key to snap onto nearest target
+
+# EN: Hold jump for super jump — launches higher and further with configurable force
+1132539105=Hold jump for super jump — launches higher and further with configurable force
 
 # EN: Horizontal
 1700296974=Yatay
 
 # EN: Horse
 2510745927=At
+
+# EN: Horse Teleport
+3703692753=Horse Teleport
 
 # EN: Horse can climb steep terrain without sliding
 3061925845=At kayma olmadan dik araziye tırmanabilir
@@ -2029,8 +2713,8 @@
 # EN: Horse cores stay full at all times
 778780251=At çekirdekleri her zaman dolu kalır
 
-# EN: Horse floats in the air
-793231407=At havada süzülür
+# EN: Horse floats in the air — disables gravity on mount
+2873733082=Horse floats in the air — disables gravity on mount
 
 # EN: Horse jumps much higher
 2736353125=At çok daha yükseğe zıplar
@@ -2056,29 +2740,38 @@
 # EN: Horses
 717108105=Atlar
 
+# EN: Horses Only
+3605620776=Horses Only
+
 # EN: Horses won't detach from your wagon
 984148264=Atlar vagonunuzdan ayrılmaz
+
+# EN: Horses, deer, bears, wolves, dogs, etc.
+1864697964=Horses, deer, bears, wolves, dogs, etc.
 
 # EN: Hour
 1605056896=Saat
 
 # EN: Hover
-2507715838=Üzerine Gelme
+2507715838=Uzerine Gelme
 
 # EN: Hover Color
-1011978101=Üzerine Gelme Rengi
+1011978101=Uzerine Gelme Rengi
 
 # EN: Hover Highlight
-67858353=Üzerine Gelme Vurgusu
+67858353=Uzerine Gelme Vurgusu
 
 # EN: Hover Names
-3795685632=İsimleri Göster (Üzerine Gelme)
+3795685632=Isimleri Goster (Uzerine Gelme)
 
 # EN: Hovered
-3101980699=Üzerinde
+3101980699=Üzerine Gelinmiş
 
 # EN: Humanization
 2824293924=İnsansılaştırma
+
+# EN: Hurl physics-driven flaming meteorites at aim location
+3415013775=Hurl physics-driven flaming meteorites at aim location
 
 # EN: ID
 459292749=ID
@@ -2090,7 +2783,7 @@
 4093685107=Simge Aktif Rengi
 
 # EN: Icon Below Text
-1121926930=Simge Metnin Altında
+1121926930=Metnin Altinda Simge
 
 # EN: Icon Color
 303976957=Simge Rengi
@@ -2102,7 +2795,7 @@
 3757913751=Simge Boyutu
 
 # EN: Icon Spacing
-4004566715=Simge Aralığı
+4004566715=Simge Araligi
 
 # EN: Icons + Text
 2093021283=Simgeler + Metin
@@ -2117,7 +2810,7 @@
 3582756407=Görsel
 
 # EN: Image ESP
-392959137=Görsel ESP
+392959137=Gorsel ESP
 
 # EN: Image Info
 3041469441=Görsel Bilgisi
@@ -2143,14 +2836,29 @@
 # EN: Immune to steam damage
 1461376638=Buhar hasarına bağışık
 
+# EN: Impact Duration##bt2
+2663960831=Impact Duration##bt2
+
 # EN: Impact Marker
-2096517014=Çarpma İşareti
+2096517014=Çarpma İşaretçisi
+
+# EN: Impact Marker##bt2
+1905069574=Impact Marker##bt2
+
+# EN: Impact Size##bt2
+458394527=Impact Size##bt2
 
 # EN: Import
 1878035063=İçe Aktar
 
 # EN: Imported
 477398127=İçe Aktarıldı
+
+# EN: Include dead animals in ESP
+2744616645=Include dead animals in ESP
+
+# EN: Include deadeye attribute core
+2029741933=Include deadeye attribute core
 
 # EN: Increase movement speed while on foot
 1805528141=Yaya hızını artır
@@ -2164,29 +2872,38 @@
 # EN: Indent
 3670931990=Girinti
 
+# EN: Independent of Lock On — uses its own toggle and key
+714451620=Independent of Lock On — uses its own toggle and key
+
 # EN: Indices
-3921649453=İndeksler
+3921649453=Indeksler
 
 # EN: Infinite Ammo
-2366586192=Sonsuz Cephane
+2366586192=Sınırsız Mermi
 
 # EN: Infinite Clip
-285282101=Sonsuz Şarjör
+285282101=Sınırsız Şarjör
 
 # EN: Infinite Deadeye
 4050398639=Sonsuz Deadeye
 
 # EN: Infinite Stamina
-2084339006=Sonsuz Dayanıklılık
+2084339006=Sınırsız Dayanıklılık
 
 # EN: Info
 1745727664=Bilgi
+
+# EN: Info box near crosshair when aiming at a player
+3071048165=Info box near crosshair when aiming at a player
 
 # EN: Info notification
 15919856=Bilgi bildirimi
 
 # EN: Info##notif
 3630429841=Bilgi##notif
+
+# EN: Initial upward boost for natural swing
+629750290=Initial upward boost for natural swing
 
 # EN: Inner Circle
 3697123713=İç Daire
@@ -2204,10 +2921,13 @@
 4135476111=Giriş Metni
 
 # EN: Insert
-3380657922=Ekle
+3380657922=Insert
 
 # EN: Instant Accuracy
 4029560167=Anında İsabet
+
+# EN: Instant Knockdown NPC
+2211158252=Instant Knockdown NPC
 
 # EN: Instant Respawn
 1986336922=Anında Yeniden Doğma
@@ -2224,8 +2944,14 @@
 # EN: Intensity
 4023228733=Yoğunluk
 
+# EN: Inter-Shot Jitter
+711221323=Inter-Shot Jitter
+
 # EN: Interval
-640635350=Aralık
+640635350=Aralik
+
+# EN: Interval##all
+2217342454=Interval##all
 
 # EN: Interval##mr
 2231230793=Aralık##mr
@@ -2233,11 +2959,17 @@
 # EN: Interval##ms
 3903498393=Aralık##ms
 
+# EN: Invalid key
+2656583890=Invalid key
+
 # EN: Invisible
 4238958260=Görünmez
 
 # EN: Item Active
 3806767807=Öğe Aktif
+
+# EN: Item Gap
+794979395=Item Gap
 
 # EN: Item Height
 1662290394=Öğe Yüksekliği
@@ -2245,14 +2977,26 @@
 # EN: Item Hover
 3271408553=Öğe Üzerine Gelme
 
+# EN: Item Pad X
+1161658994=Item Pad X
+
 # EN: Item Spacing
 3472915733=Öğe Aralığı
 
-# EN: Jitter
-2175396620=Titreşim
+# EN: Items
+3308786431=Items
+
+# EN: JSON
+1493832359=JSON
+
+# EN: Jitter / Humanize
+3885455134=Jitter / Humanize
 
 # EN: Jitter##human
 4232165471=Titreşim##human
+
+# EN: Joint Color
+1649662583=Eklem Rengi
 
 # EN: Joint Size
 2337031930=Eklem Boyutu
@@ -2260,17 +3004,11 @@
 # EN: Joints
 2543302730=Eklemler
 
-# EN: Joints + Head Ring
-3407280952=Eklemler + Kafa Halkası
-
 # EN: Jump Glow
 3124076406=Zıplama Parıltısı
 
-# EN: Jump higher and further with configurable force
-2202635590=Ayarlanabilir kuvvetle daha yükseğe ve uzağa zıpla
-
 # EN: KEYBINDS
-1174365445=TUŞLAR
+1174365445=Tuş Atamaları
 
 # EN: Keep Agitation Low
 2828370887=Ajitasyonu Düşük Tut
@@ -2299,11 +3037,17 @@
 # EN: Keep targeting the same player until they die
 3940874244=Aynı oyuncuyu ölene kadar hedeflemeye devam et
 
+# EN: Keep tracking the same target between frames unless score worsens significantly
+506866646=Keep tracking the same target between frames unless score worsens significantly
+
 # EN: Key Pill / Accent
 254348757=Tuş Hapı / Vurgu
 
+# EN: Key redeemed
+871295478=Key redeemed
+
 # EN: Keybind List
-1074682821=Tuş Atama Listesi
+1074682821=Tus Atama Listesi
 
 # EN: Keybind Settings
 3375296113=Tuş Atama Ayarları
@@ -2312,10 +3056,13 @@
 1174365445=Tuş Atamaları
 
 # EN: Keys
-748271464=Tuşlar
+748271464=Tuslar
 
 # EN: Kick Mount
 2704406811=Bineği Tekmeyle
+
+# EN: Kick the rider off when teleporting to an occupied horse
+4002632872=Kick the rider off when teleporting to an occupied horse
 
 # EN: Kill All Animals
 1086619057=Tüm Hayvanları Öldür
@@ -2324,19 +3071,43 @@
 3140947025=Tüm Yayaları Öldür
 
 # EN: Kill Color
-2587993530=Öldürme Rengi
+2587993530=Oldurme Rengi
 
 # EN: Kill Delay
-1295888804=Öldürme Gecikmesi
+1295888804=Oldurme Gecikmesi
 
 # EN: Kill Effect
-3695467159=Öldürme Efekti
+3695467159=Oldurme Efekti
+
+# EN: Kill Effect##hm
+878885828=Kill Effect##hm
+
+# EN: Kill Horse
+2615268342=Kill Horse
 
 # EN: Kill any target with a single bullet
 3530122630=Tek kurşunla herhangi bir hedefi öldür
 
 # EN: Knob
 3174489586=Düğme
+
+# EN: Knob Pad
+2773421388=Knob Pad
+
+# EN: Knob Scale
+993676257=Knob Scale
+
+# EN: Knob Shape
+843089538=Knob Shape
+
+# EN: LMB Throw | RMB Recall | Jump Fly to hammer
+4100900380=LMB Throw | RMB Recall | Jump Fly to hammer
+
+# EN: LOS raycast — won't lead a target into a wall when its predicted path is blocked
+3723847969=LOS raycast — won't lead a target into a wall when its predicted path is blocked
+
+# EN: Labels
+523099886=Labels
 
 # EN: Language
 1264767922=Dil
@@ -2345,7 +3116,28 @@
 488850792=Büyük Kafes
 
 # EN: Large GIFs with many frames use more VRAM and
-1677371317=Çok kareli büyük GIF'ler daha fazla VRAM kullanır ve
+1677371317=Cok kareli buyuk GIF'ler daha fazla VRAM kullanir ve
+
+# EN: Lasso
+705179744=Lasso
+
+# EN: Lasso##proj
+483909808=Lasso##proj
+
+# EN: Launch All
+2200616639=Hepsini Firlat
+
+# EN: Launch Horse
+4070026433=Launch Horse
+
+# EN: Launch Up
+3341920784=Yukarı Fırlat
+
+# EN: Launch Upward
+2068197786=Yukarı fırlat
+
+# EN: Launch entities away with physics force
+1048481584=Launch entities away with physics force
 
 # EN: Launches the targeted ped or vehicle into the air in an arc
 3918789542=Hedeflenen yaya veya aracı yay şeklinde havaya fırlatır
@@ -2358,6 +3150,9 @@
 
 # EN: Lead Distance
 3027328764=Öncülük Mesafesi
+
+# EN: Lead Line
+600709582=Lead Line
 
 # EN: Left
 1872971840=Sol
@@ -2374,6 +3169,9 @@
 # EN: Library
 3519106789=Kütüphane
 
+# EN: Lift Distance
+3039571348=Lift Distance
+
 # EN: Lighting Color
 581343090=Aydınlatma Rengi
 
@@ -2389,8 +3187,17 @@
 # EN: Lightning
 3342970541=Yıldırım
 
+# EN: Lightning All
+2329977748=Lightning All
+
+# EN: Lightning All Loop
+3513476951=Lightning All Loop
+
 # EN: Lightning Gun
 421822385=Yıldırım Silahı
+
+# EN: Lightning Loop
+3675505188=Lightning Loop
 
 # EN: Lightning Strike
 3898028188=Yıldırım Çarpması
@@ -2402,7 +3209,10 @@
 1739431003=Yıldırım çarpmaları vurulan yayaları öldürür
 
 # EN: Line
-2053992847=Çizgi
+2053992847=Cizgi
+
+# EN: Line Color
+3393959997=Cizgi Rengi
 
 # EN: Line Opacity
 670408965=Çizgi Opaklığı
@@ -2411,22 +3221,37 @@
 3321288925=Çizgi Kalınlığı
 
 # EN: Line of Sight
-3600102520=Görüş Hattı
+3600102520=Gorus Hatti
+
+# EN: Linear
+959610275=Linear
 
 # EN: Lines
-3759251173=Çizgiler
+3759251173=Cizgiler
+
+# EN: Lines from screen to animal
+887884222=Lines from screen to animal
+
+# EN: Lines from screen to vehicle
+2856687034=Lines from screen to vehicle
 
 # EN: Links
-4048857167=Bağlantılar
+4048857167=Baglantilar
 
 # EN: List UI
-2974715443=Liste Arayüzü
+2974715443=Liste Arayuzu
 
-# EN: List UI is coming soon and not yet available.
-3836961011=Liste arayüzü yakında gelecek ve henüz kullanılamıyor.
+# EN: ListUI
+4099801258=ListUI
+
+# EN: Live text next to the impact marker — distance in meters and arrow flight time
+2205632688=Live text next to the impact marker — distance in meters and arrow flight time
 
 # EN: Load
 837451790=Yükle
+
+# EN: Load Script
+3976028888=Load Script
 
 # EN: Loaded
 538484865=Yüklendi
@@ -2438,13 +3263,16 @@
 3745748549=Atlar yükleniyor...
 
 # EN: Loading peds...
-104529968=Yayalar yükleniyor...
+104529968=Pedler yukleniyor...
 
 # EN: Loading vehicles...
-996350047=Araçlar yükleniyor...
+996350047=Araclar yukleniyor...
 
 # EN: Loading weapons...
 2489159571=Silahlar yükleniyor...
+
+# EN: Loading...
+3089557982=Loading...
 
 # EN: Local
 1196138662=Yerel
@@ -2459,10 +3287,16 @@
 643054312=Kapıları Kilitle
 
 # EN: Lock On
-3927233622=Kilitlen
+3927233622=Kilitle
+
+# EN: Log Blocked Detections
+4183931454=Engellenen tespitleri günlüğe yaz
 
 # EN: Log blocked sync events to the console
 1714725780=Engellenen senkronizasyon olaylarını konsola kaydet
+
+# EN: Logging
+1266327033=Günlükleme
 
 # EN: Logo
 661613880=Logo
@@ -2485,6 +3319,21 @@
 # EN: Loop
 1281572103=Döngü
 
+# EN: Loop All
+207237705=Loop All
+
+# EN: Looped
+541157799=Looped
+
+# EN: Looped##db_ptfx
+4194316736=Looped##db_ptfx
+
+# EN: Loose the bow / let fly the throwable when lock holds steady
+1911010072=Loose the bow / let fly the throwable when lock holds steady
+
+# EN: Low HP Only
+405816121=Low HP Only
+
 # EN: Lower Cloud Intensity
 3666602646=Alt Bulut Yoğunluğu
 
@@ -2500,8 +3349,8 @@
 # EN: Lua scripting engine (not yet ported)
 2088386079=Lua betik motoru (henüz taşınmadı)
 
-# EN: Lua scripting not yet ported to FiveM.
-2144415292=Lua betikleri henüz FiveM'e taşınmadı.
+# EN: Lua scripting not yet ported to RedM.
+1933613976=Lua scripting not yet ported to RedM.
 
 # EN: Magazine never empties
 1421871892=Şarjör asla boşalmaz
@@ -2519,7 +3368,7 @@
 1866800756=Ana gövde ve widget metni
 
 # EN: Maintenance
-1970712939=Bakım
+1970712939=Bakim
 
 # EN: Make your character stumble around drunk
 3463861183=Karakterinizi sarhoş gibi sendeleterek yürütün
@@ -2531,7 +3380,7 @@
 396911908=Hedeflenen yayayı sarhoş gibi sendeletir
 
 # EN: Makes you invincible. Right-click for keybind.
-3031350692=Sizi yenilmez yapar. Tuş ataması için sağ tıklayın.
+3031350692=Sizi yenilmez yapar. Tuş atamak için sağ tıklayın.
 
 # EN: Makes you invisible to other players
 4237882355=Diğer oyunculara görünmez yapar
@@ -2539,26 +3388,26 @@
 # EN: Makes your horse invincible
 1572829119=Atınızı yenilmez yapar
 
-# EN: Manually set the in-game time of day
-18590843=Oyun içi günün saatini manuel olarak ayarlayın
+# EN: Manually scan loaded modules for known anti-cheat DLLs
+1486356233=Manually scan loaded modules for known anti-cheat DLLs
 
 # EN: Map Image
 2485108282=Harita Görseli
 
-# EN: Marker Duration
-3550132583=İşaret Süresi
+# EN: Margin
+3834294781=Margin
+
+# EN: Marker Color
+1413834926=Marker Color
 
 # EN: Marker Size
-1608809912=İşaret Boyutu
+1608809912=İşaretçi Boyutu
 
-# EN: Marker Size##pt
-2286249506=İşaret Boyutu##pt
-
-# EN: Marker Size##tt
-1410759241=İşaret Boyutu##tt
+# EN: Master switch — flips every Outsider detection category in one toggle: Infinite Ammo, Suspicious Revive, Stamina God (Player + Horse), Teleport, Resource Scan, Animal Spawn, Weapon + Ammo Blacklists, NUI DevTools tripwire, and the offline Network Lock.
+735880372=Ana anahtar - tüm Outsider tespit kategorilerini tek düğmeyle değiştirir: sonsuz cephane, şüpheli canlandırma, stamina god (oyuncu + at), teleport, kaynak tarama, hayvan spawn, silah + cephane kara listeleri, NUI DevTools tuzağı ve çevrimdışı Network Lock.
 
 # EN: Match Accent
-2004835312=Vurguyu Eşle
+2004835312=Vurguyu Eşleştir
 
 # EN: Matrix
 837004614=Matrix
@@ -2566,11 +3415,32 @@
 # EN: Max Connections
 2093456670=Maks Bağlantı
 
+# EN: Max Consec. Headshots
+1202996373=Max Consec. Headshots
+
+# EN: Max Cores
+222121208=Max Cores
+
 # EN: Max Distance
 1098241997=Maks Mesafe
 
+# EN: Max Distance##animal
+2487564573=Max Distance##animal
+
+# EN: Max Distance##esp
+113564246=Max Distance##esp
+
 # EN: Max Distance##mb
 3059089789=Maks Mesafe##mb
+
+# EN: Max Distance##proj
+3357916410=Max Distance##proj
+
+# EN: Max Distance##trig
+3943077587=Max Distance##trig
+
+# EN: Max Distance##veh
+1144611207=Max Distance##veh
 
 # EN: Max File Size (MB)
 3754775838=Maks Dosya Boyutu (MB)
@@ -2579,7 +3449,19 @@
 768173607=Maks GIF Karesi
 
 # EN: Max Kills/Min
-2248378999=Maks Öldürme/Dk
+2248378999=Maks Oldurme/Dk
+
+# EN: Max Kills/Min##mb
+3946597068=Max Kills/Min##mb
+
+# EN: Max Lead Time
+4201150276=Max Lead Time
+
+# EN: Max Lock Error##proj
+456769390=Max Lock Error##proj
+
+# EN: Max Nudge / Tick
+4268040976=Max Nudge / Tick
 
 # EN: Max Offset
 1479160603=Maks Ofset
@@ -2596,14 +3478,26 @@
 # EN: Max Range Filter
 2461467509=Maks Menzil Filtresi
 
+# EN: Max Render##esp
+2059091760=Max Render##esp
+
 # EN: Max Resolution
 2928541794=Maks Çözünürlük
 
 # EN: Max Speed
-2051389565=Maks Hız
+2051389565=Maks Hiz
+
+# EN: Max Target Speed
+2229440381=Max Target Speed
 
 # EN: Medium (15m)
 2324846004=Orta (15m)
+
+# EN: Melee
+999229322=Yakın Dövüş
+
+# EN: Melee Bot
+1190352797=Yakın Dövüş Botu
 
 # EN: Melee Proof
 3978744557=Yakın Dövüş Geçirmez
@@ -2612,13 +3506,13 @@
 3010803161=Bellek
 
 # EN: Memory Usage
-3562636674=Bellek Kullanımı
+3562636674=Bellek Kullanimi
 
 # EN: Menu
 3305016052=Menü
 
-# EN: Meteor Gun
-1561453207=Meteor Silahı
+# EN: Menu Position
+488308314=Menu Position
 
 # EN: Meteor Rain
 3841084365=Meteor Yağmuru
@@ -2632,11 +3526,14 @@
 # EN: Meteorite Rain
 3057240388=Meteorit Yağmuru
 
+# EN: Milliseconds the lock must stay stable before firing
+669053473=Milliseconds the lock must stay stable before firing
+
 # EN: Min Scale
-4136179093=Min Ölçek
+4136179093=Min Olcek
 
 # EN: Min/Max Values
-1093866158=Min/Maks Değerler
+1093866158=Min/Maks Degerler
 
 # EN: Minimal
 2190409216=Minimal
@@ -2646,6 +3543,9 @@
 
 # EN: Misc
 3888475804=Çeşitli
+
+# EN: Missing file id
+3301067073=Missing file id
 
 # EN: Misty
 1500834021=Sisli
@@ -2659,17 +3559,23 @@
 # EN: Mode
 1746230403=Mod
 
+# EN: Model Name / Hash
+1935523304=Model Name / Hash
+
+# EN: Modern
+1004805855=Modern
+
 # EN: Modules
-2096891096=Modüller
+2096891096=Moduller
+
+# EN: Momentum
+830361429=Momentum
 
 # EN: Moon
 2385442906=Ay
 
 # EN: Moon Color
 3543452926=Ay Rengi
-
-# EN: Moon Gravity
-1378348743=Ay Yerçekimi
 
 # EN: Moon Light Color
 3558736022=Ay Işığı Rengi
@@ -2686,8 +3592,17 @@
 # EN: Moonlight Color
 314148051=Ay Işığı Rengi
 
+# EN: More iterations = tighter ballistic convergence (3 is plenty)
+3294213253=More iterations = tighter ballistic convergence (3 is plenty)
+
 # EN: Morning
 852964312=Sabah
+
+# EN: Most Referenced Events
+962784570=En Cok Referans Edilen Olaylar
+
+# EN: Motivation States
+2457102115=Motivation States
 
 # EN: Mount
 2692356500=Binek
@@ -2698,11 +3613,17 @@
 # EN: Mount Extras
 1038207876=Binek Ekstraları
 
+# EN: Mount Scale
+2730502113=Mount Scale
+
 # EN: Movement
 2799785395=Hareket
 
 # EN: Movement Extras
 3064802169=Hareket Ekstraları
+
+# EN: Movement Prediction
+1187418797=Movement Prediction
 
 # EN: Movement Prediction##sa
 598861308=Hareket Tahmini##sa
@@ -2710,17 +3631,23 @@
 # EN: Movement Smoother
 1516594648=Hareket Yumuşatıcı
 
+# EN: Multi-Target
+2095291306=Multi-Target
+
 # EN: Multiple rings stack from feet to head
-1361975713=Birden fazla halka ayaktan kafaya yığılır
+1361975713=Birden fazla halka ayaklardan kafaya yigilir
 
 # EN: Multiplies the speed of lighting transitions
 2066858050=Aydınlatma geçişlerinin hızını çarpar
 
 # EN: N
-3649581809=K
+3649581809=N
 
 # EN: NPC
 3921142999=NPC
+
+# EN: NPC Hijack
+756304747=NPC ele geçirme
 
 # EN: NPC Ignore
 2361767225=NPC Yok Sayma
@@ -2737,17 +3664,41 @@
 # EN: Name
 3873537812=İsim
 
+# EN: Name Color
+2559614666=Name Color
+
 # EN: Name Position
-1309262417=İsim Konumu
+1309262417=Isim Konumu
 
 # EN: Name Size
 847030063=İsim Boyutu
+
+# EN: Name Size##animal
+940197598=Name Size##animal
+
+# EN: Name Size##veh
+3414166273=Name Size##veh
+
+# EN: Name##animal
+3355670016=Name##animal
+
+# EN: Name##ptfx_save
+3911945655=Name##ptfx_save
+
+# EN: Name##save_name
+1033300409=Name##save_name
+
+# EN: Name##veh
+501997998=Isim##veh
+
+# EN: Natural
+4292977478=Natural
 
 # EN: Nav Bar Background
 75021814=Gezinme Çubuğu Arka Planı
 
 # EN: Nav Icon Color
-283490650=Gezinme Simgesi Rengi
+283490650=Gezinme Simge Rengi
 
 # EN: Nav Logo Tint
 720450998=Gezinme Logo Tonu
@@ -2771,22 +3722,28 @@
 384228432=Gezinme Yazı Tipi
 
 # EN: Nearby
-3849228195=Yakın
+3849228195=Yakında
 
 # EN: Nearby NPCs become hostile, unarmed, and stumble toward you. Only affects peds already in the world.
 1941145572=Yakındaki NPC'ler düşmanca, silahsız hale gelir ve size doğru sendeler. Yalnızca dünyada mevcut olan yayaları etkiler.
 
 # EN: Nearby Only
-4115480667=Yalnızca Yakın
+4115480667=Yalnızca Yakındakiler
+
+# EN: Nearby Players
+1754941383=Nearby Players
 
 # EN: Nearest
-775913483=En Yakın
+775913483=En Yakin
 
 # EN: Neck
 996632005=Boyun
 
 # EN: Neon Border
-1220884655=Neon Kenarlık
+1220884655=Neon Kenarlik
+
+# EN: Network
+2981967937=Ağ
 
 # EN: Never Buck
 1892380368=Asla Şahlanma
@@ -2795,7 +3752,7 @@
 1922342076=Cephane asla tükenmesin
 
 # EN: Never run out of stamina while sprinting
-3367150289=Sprint yaparken dayanıklılık asla tükenmesin
+3367150289=Koşarken asla dayanıklılığınız bitmez
 
 # EN: New
 3355354829=Yeni
@@ -2828,10 +3785,10 @@
 2786478273=Yerçekimi Yok
 
 # EN: No Ragdoll
-336613235=Savrulma Yok
+336613235=Ragdoll Yok
 
 # EN: No Range Limit
-88900175=Menzil Sınırı Yok
+88900175=Menzil Siniri Yok
 
 # EN: No Recoil
 4238116519=Geri Tepme Yok
@@ -2843,19 +3800,25 @@
 2249800585=Dürbün Yok
 
 # EN: No Spinup
-1443584851=Hazırlık Süresi Yok
+1443584851=Spinup Yok
 
 # EN: No Spread
 3427132305=Saçılma Yok
 
+# EN: No action keybinds set
+3967958661=No action keybinds set
+
 # EN: No anti-cheat found on this server
-653618892=Bu sunucuda anti-cheat bulunamadı
+653618892=Bu sunucuda hile korumasi bulunamadi
+
+# EN: No events blocked
+656685112=Engellenen olay yok
 
 # EN: No fall damage from any height
 951215153=Herhangi bir yükseklikten düşme hasarı yok
 
-# EN: No feature binds set.
-1399384241=Özellik tuş ataması ayarlanmadı.
+# EN: No feature keybinds set
+1231463115=No feature keybinds set
 
 # EN: No features found matching
 849221076=Eşleşen özellik bulunamadı
@@ -2866,6 +3829,21 @@
 # EN: No image selected.
 3081214655=Görsel seçilmedi.
 
+# EN: No matches
+3293291230=No matches
+
+# EN: No one talking
+1795249198=Kimse konuşmuyor
+
+# EN: No paid scripts available.
+1253891300=No paid scripts available.
+
+# EN: No particle data loaded.
+702386897=No particle data loaded.
+
+# EN: No saved files.
+1038587172=No saved files.
+
 # EN: No script panels registered.
 2121200581=Kayıtlı betik paneli yok.
 
@@ -2875,23 +3853,38 @@
 # EN: No snippets saved yet.
 650550231=Henüz kaydedilmiş kod parçacığı yok.
 
+# EN: No spawned entities.
+1191902316=No spawned entities.
+
+# EN: No spectators
+1921058372=İzleyici yok
+
+# EN: Non-Looped
+1478626200=Non-Looped
+
+# EN: Non-Looped##db_ptfx
+2475766753=Non-Looped##db_ptfx
+
 # EN: None
 493038497=Hiçbiri
 
 # EN: Noon
-863197981=Öğle
+863197981=Ogle
 
 # EN: Normal
 1330140418=Normal
 
 # EN: North Indicator
-3723643215=Kuzey Göstergesi
+3723643215=Kuzey Gostergesi
 
 # EN: Not Bound
 2075514545=Atanmamış
 
 # EN: Not scanned yet — click Scan or enable Auto Detect
-2639677942=Henüz taranmadı — Tara'ya tıklayın veya Otomatik Algıla'yı etkinleştirin
+2639677942=Henuz taranmadi — Tara'ya tiklayin veya Otomatik Algila'yi etkinlestirin
+
+# EN: Notch
+831383367=Notch
 
 # EN: Notification
 391984250=Bildirim
@@ -2901,6 +3894,12 @@
 
 # EN: Nuke
 2543577859=Nükleer
+
+# EN: OK
+2067953960=OK
+
+# EN: Objects / Walls
+3327894545=Nesneler / Duvarlar
 
 # EN: Off
 125735237=Kapalı
@@ -2920,35 +3919,50 @@
 # EN: On
 2297599112=Açık
 
+# EN: On-screen indicator showing anti-cheat detection status
+2418591715=On-screen indicator showing anti-cheat detection status
+
+# EN: On-screen list of nearby players with distance and info
+11197036=On-screen list of nearby players with distance and info
+
+# EN: On-screen list of players currently spectating you
+337358072=On-screen list of players currently spectating you
+
+# EN: On-screen log listing recent damage dealt and taken with timestamps
+4217479471=On-screen log listing recent damage dealt and taken with timestamps
+
 # EN: One Hit Kill
 2789919291=Tek Vuruş Öldürme
 
 # EN: One-hit KO melee punches
-4059201057=Tek vuruşluk yakın dövüş yumrukları
+4059201057=Tek vuruşta nakavt yumrukları
 
 # EN: Only When Aiming
 2355363676=Yalnızca Nişan Alırken
 
+# EN: Only When Mounted
+366662471=Only When Mounted
+
 # EN: Only While ADS
-1639662579=Yalnızca Dürbünle
+1639662579=Yalnizca Nisan Alirken
 
 # EN: Only While ADS##trig
-1546980182=Yalnızca Dürbünle##trig
+1546980182=Yalnizca Nisan Alirken##trig
+
+# EN: Only While Aim Key Held
+558637835=Only While Aim Key Held
 
 # EN: Only activate slow motion while aiming
 2666653046=Yalnızca nişan alırken ağır çekim etkinleştir
 
-# EN: Only activate when aiming down sights
-2670842741=Yalnızca dürbünle nişan alırken etkinleştir
+# EN: Only active while you are riding
+3443929884=Only active while you are riding
 
 # EN: Only boost while on the ground
 518638339=Yalnızca yerdeyken hızlandır
 
-# EN: Only fire at targets you can see
-1838854184=Yalnızca görebildiğiniz hedeflere ateş et
-
-# EN: Only hit targets behind cover
-2160035176=Yalnızca siperdeki hedeflere isabet ettir
+# EN: Only show horses, hide other animals
+3176518525=Only show horses, hide other animals
 
 # EN: Only target players you can see
 851968866=Yalnızca görebildiğiniz oyuncuları hedef al
@@ -2956,17 +3970,23 @@
 # EN: Opacity
 3644411688=Opaklık
 
-# EN: Opacity##dmglog
-2914177699=Opaklık##dmglog
+# EN: Opacity##animalhat
+4123815116=Opacity##animalhat
 
 # EN: Open Folder
 615535440=Klasörü Aç
+
+# EN: Open Folder##ptfx
+3971452229=Open Folder##ptfx
+
+# EN: Open Folder##spn
+1814632044=Open Folder##spn
 
 # EN: Open Key
 35305217=Açma Tuşu
 
 # EN: Open Welcome Screen
-1894661895=Karşılama Ekranını Aç
+1894661895=Karsilama Ekranini Ac
 
 # EN: Operator Icons
 180367755=Operatör Simgeleri
@@ -2974,8 +3994,14 @@
 # EN: Options
 2704274338=Seçenekler
 
+# EN: Oriented 3D bounding box with fill
+3783395943=Oriented 3D bounding box with fill
+
 # EN: Origin
 2371626452=Başlangıç Noktası
+
+# EN: Origin##asnap
+1061055714=Origin##asnap
 
 # EN: Other
 1378233051=Diğer
@@ -2987,31 +4013,43 @@
 3684560347=Dış Halka
 
 # EN: Outer Ring Color
-2790912397=Dış Halka Rengi
+2790912397=Dis Halka Rengi
 
 # EN: Outline
-1787568582=Çerçeve
+1787568582=Dış Çizgi
 
 # EN: Outline Color
-609267903=Çerçeve Rengi
+609267903=Dış Çizgi Rengi
 
 # EN: Outline Width
-1689303532=Çerçeve Genişliği
+1689303532=Dış Çizgi Genişliği
+
+# EN: Outline##animalbox
+2848025225=Outline##animalbox
+
+# EN: Outline##dmg
+4062650815=Outline##dmg
 
 # EN: Outline##skel
 3425843942=Çerçeve##skel
+
+# EN: Outline##vehbox
+1794015250=Outline##vehbox
+
+# EN: Outsider Bypass
+1528800486=Outsider baypas
 
 # EN: Overcast
 3146353965=Kapalı Hava
 
 # EN: Overlay
-943450718=Overlay
+943450718=Kaplama
 
 # EN: Overlay Settings
-4243667563=Overlay Ayarları
+4243667563=Kaplama Ayarlari
 
 # EN: Overlays
-3524909301=Overlay'ler
+3524909301=Kaplamalar
 
 # EN: Overpower Deadeye
 501707072=Deadeye Aşırı Güç
@@ -3022,32 +4060,50 @@
 # EN: Overpower Stamina
 2874431915=Dayanıklılık Aşırı Güç
 
-# EN: Override Time
-385966227=Zamanı Geçersiz Kıl
-
-# EN: Override Weather
-2440079673=Hava Durumunu Geçersiz Kıl
-
 # EN: Override camera, aim, and scope field of view
 1121952939=Kamera, nişan ve dürbün görüş alanını geçersiz kıl
 
 # EN: Override the ground snow coverage style
 3224058556=Yer karı kaplama stilini geçersiz kıl
 
+# EN: Overview
+118778200=Genel Bakis
+
 # EN: PANIC MODE ACTIVE
-1272225111=PANİK MODU AKTİF
+1272225111=PANIK MODU AKTIF
 
 # EN: PERFORMANCE
-681794815=PERFORMANS
+681794815=Performans
 
 # EN: PNG or JPG recommended.
 2646030720=PNG veya JPG önerilir.
+
+# EN: Pad X
+4090104508=Pad X
+
+# EN: Pad X##dd
+1605964143=Pad X##dd
+
+# EN: Pad X##sp
+976082529=Pad X##sp
+
+# EN: Pad Y##dd
+4284433392=Pad Y##dd
+
+# EN: Pad Y##sp
+2158836274=Pad Y##sp
 
 # EN: Padding
 625300402=Dolgu
 
 # EN: Page Title
-2169432593=Sayfa Başlığı
+2169432593=Sayfa Basligi
+
+# EN: Paid Scripts
+2150830199=Paid Scripts
+
+# EN: Panel Color
+1687163973=Panel Color
 
 # EN: Panel Colors
 1735835670=Panel Renkleri
@@ -3064,20 +4120,29 @@
 # EN: Panic Mode
 2310882466=Panik Modu
 
+# EN: Particles
+1078194169=Particles
+
 # EN: Party
 1132658614=Parti
 
+# EN: Pass Through
+3173995589=Icinden Gec
+
 # EN: Passively regenerate health over time
-240888173=Zamanla pasif olarak sağlık yenile
+240888173=Zamanla pasif olarak sağlık yeniler
 
 # EN: Paste
-569442244=Yapıştır
+569442244=Yapistir
 
 # EN: Ped Chaos
 2965422126=Yaya Kaosu
 
 # EN: Ped Follows Camera
-1872355422=Yaya Kamerayı Takip Eder
+1872355422=Ped Kamerayı Takip Eder
+
+# EN: Ped Grabber
+422588753=Ped yakalayıcı
 
 # EN: Ped Light Color
 1724512580=Yaya Işık Rengi
@@ -3086,19 +4151,22 @@
 3952505355=Yaya Ölçeği
 
 # EN: Peds
-2376147223=Yayalar
+2376147223=Pedler
+
+# EN: Peds / NPCs
+1876490144=Pedler / NPC'ler
 
 # EN: Per Wave
 2167931403=Dalga Başına
 
-# EN: Per-Feature Binds
-2900791157=Özellik Başına Tuş Atamaları
+# EN: Per-frame angular cap — keeps motion natural
+974119255=Per-frame angular cap — keeps motion natural
 
 # EN: Perfect bullet accuracy with zero spread
 772440268=Sıfır saçılmayla mükemmel mermi isabeti
 
 # EN: Performance Limits
-1215680916=Performans Sınırları
+1215680916=Performans Limitleri
 
 # EN: Performance Stats
 4260591683=Performans İstatistikleri
@@ -3111,6 +4179,12 @@
 
 # EN: Permanently enables Eagle Eye vision mode
 2869054927=Kartal Gözü görüş modunu kalıcı olarak etkinleştirir
+
+# EN: Phantom Bullets
+4034865972=Phantom Bullets
+
+# EN: Phantom Weapon
+2103417705=Phantom Weapon
 
 # EN: Pick up and throw objects with your weapon
 4137019370=Silahınızla nesneleri kaldır ve fırlat
@@ -3127,11 +4201,11 @@
 # EN: Pill Pad Y
 352596684=Hap Dolgu Y
 
+# EN: Pin
+1279834816=Pin
+
 # EN: Ping
 1218843674=Ping
-
-# EN: Pipe Bombs, Proximity Mines, Flares
-1693538821=Boru Bombaları, Yakınlık Mayınları, Işıklandırma Fişekleri
 
 # EN: Pitch
 1061927116=Perde
@@ -3145,17 +4219,38 @@
 # EN: Place .lua files in:
 3888411723=.lua dosyalarını buraya yerleştirin:
 
+# EN: Place on Ground
+3034990287=Place on Ground
+
+# EN: Play
+966373365=Play
+
+# EN: Play Custom
+144710895=Play Custom
+
+# EN: Play Emote
+673125076=Play Emote
+
+# EN: Play Emote##db
+3178399800=Play Emote##db
+
+# EN: Play Scenario
+1053894634=Play Scenario
+
+# EN: Playback
+1432818572=Playback
+
 # EN: Player
 1862763509=Oyuncu
 
 # EN: Player Index
-607652568=Oyuncu İndeksi
+607652568=Oyuncu Indeksi
 
 # EN: Player Scale
 792755030=Oyuncu Ölçeği
 
 # EN: Player Trail
-536495684=Oyuncu İzi
+536495684=Oyuncu Izi
 
 # EN: Playerlist
 341220623=Oyuncu Listesi
@@ -3166,11 +4261,23 @@
 # EN: Players Only
 766737098=Yalnızca Oyuncular
 
+# EN: Players##hm
+2760884608=Players##hm
+
 # EN: Plays a beep sound when a player gets within range
 1863429150=Bir oyuncu menzile girdiğinde bip sesi çalar
 
+# EN: Plays a brief frontend tick when auto-fire releases — useful in third-person
+2628603186=Plays a brief frontend tick when auto-fire releases — useful in third-person
+
 # EN: Poison Ammo
 600661915=Zehirli Cephane
+
+# EN: Pops floating damage values at hit locations — critical hits highlighted
+2822050342=Pops floating damage values at hit locations — critical hits highlighted
+
+# EN: Popup Style
+3924788302=Popup Style
 
 # EN: Popups
 3713054092=Açılır Pencereler
@@ -3187,6 +4294,9 @@
 # EN: Position History
 3857144579=Konum Geçmişi
 
+# EN: Position##ahp
+707344821=Position##ahp
+
 # EN: Position##hdr
 1381185122=Konum##hdr
 
@@ -3196,29 +4306,44 @@
 # EN: Power
 2673791500=Güç
 
+# EN: Powers
+2081402664=Güçler
+
+# EN: Predator
+3806844075=Predator
+
 # EN: Predict target movement for better accuracy
 3415767592=Daha iyi isabet için hedef hareketini tahmin et
 
 # EN: Prediction
 796153596=Tahmin
 
+# EN: Prediction Factor
+53558502=Prediction Factor
+
 # EN: Prediction##sa
 43230462=Tahmin##sa
+
+# EN: Predictive aim assist for arrows, lasso, and throwables — leads moving targets
+4223113178=Predictive aim assist for arrows, lasso, and throwables — leads moving targets
+
+# EN: Prefer Head > Neck > Body > Hands > Feet over first-match
+2220375626=Prefer Head > Neck > Body > Hands > Feet over first-match
+
+# EN: Premium Menus
+4177668372=Premium Menuler
 
 # EN: Preset
 2973707311=Ön Ayar
 
 # EN: Press END to instantly disable all visuals, menu, overlays, ESP. Press END again to restore.
-477737018=Tüm görselleri, menüyü, katmanları, ESP'yi anında devre dışı bırakmak için END tuşuna basın. Geri yüklemek için tekrar END tuşuna basın.
-
-# EN: Press [B] to rewind
-851379740=[B] tuşuna basarak geri sar
+477737018=Tum gorselleri, menuyu, kaplamalari, ESP'yi aninda devre disi birakmak icin END'e basin. Geri yuklemek icin tekrar END'e basin.
 
 # EN: Press [G] to teleport forward in camera direction
-2203837878=Kamera yönünde ileriye ışınlanmak için [G] tuşuna basın
+2203837878=Kamera yönünde ileri ışınlanmak için [G] tuşuna bas
 
 # EN: Press [Space] while falling to instantly teleport to ground level
-1826113543=Düşerken zemine anında ışınlanmak için [Space] tuşuna basın
+1826113543=Düşerken anında yere ışınlanmak için [Space] tuşuna bas
 
 # EN: Press a mouse button...
 3765670479=Bir fare düğmesine basın...
@@ -3227,7 +4352,10 @@
 769119810=Tuşa basın...
 
 # EN: Press the open key to toggle the menu anytime
-3803410397=Menüyü istediğiniz zaman açıp kapatmak için açma tuşuna basın
+3803410397=Menüyü açıp kapatmak için istediğiniz zaman açma tuşuna basın
+
+# EN: Prevent forced weapon drops from other players
+2940149982=Prevent forced weapon drops from other players
 
 # EN: Prevent ragdolling on landing
 2011576314=İnişte savrulmayı önle
@@ -3257,22 +4385,37 @@
 2427018493=Atınızın savrulmasını önler
 
 # EN: Prevents your ped from ragdolling
-2111679765=Karakterinizin savrulmasını önler
+2111679765=Karakterinizin ragdoll olmasını engeller
 
 # EN: Preview
-3337831515=Ön İzleme
+3337831515=Önizleme
 
 # EN: Primary
 303108068=Birincil
 
+# EN: Print blocked detection events to the local console
+1221152482=Engellenen tespit olaylarını yerel konsola yazdır
+
 # EN: Priority
 342945216=Öncelik
 
-# EN: Priority##sa
-796836409=Öncelik##sa
+# EN: Priority##mb
+331609036=Priority##mb
 
-# EN: Projectile Tracers
-272599090=Mermi İzleyiciler
+# EN: Priority##sa
+796836409=Oncelik##sa
+
+# EN: Projectile
+1255019530=Projectile
+
+# EN: Projectile Aim
+2644418183=Projectile Aim
+
+# EN: Projectile Ammo
+1297019655=Projectile Ammo
+
+# EN: Properties
+3865410327=Properties
 
 # EN: Protection
 3683844256=Koruma
@@ -3290,22 +4433,43 @@
 2572624287=Nabız
 
 # EN: Pulse Animation
-3608662053=Nabız Animasyonu
+3608662053=Nabiz Animasyonu
 
 # EN: Pulse Speed
 605064609=Nabız Hızı
 
 # EN: Pulse##glow
-231851092=Nabız##glow
+231851092=Nabiz##glow
+
+# EN: Punch
+642573388=Yumruk
+
+# EN: Punch Loop
+913715001=Yumruk döngüsü
+
+# EN: Punch Rate
+1186403142=Yumruk Hizi
 
 # EN: Push Gun
 3537155612=İtme Silahı
+
+# EN: Push Over
+1823912937=Yere it
+
+# EN: Push Over Loop
+952204192=Yere itme döngüsü
+
+# EN: Push shot entities upward/down
+3168225453=Push shot entities upward/down
 
 # EN: Pushes nearby entities away from you
 936093937=Yakındaki varlıkları sizden uzaklaştırır
 
 # EN: Pushes the targeted entity away from you
 1985670088=Hedeflenen varlığı sizden uzaklaştırır
+
+# EN: Quadratic ease-in
+4213450626=Quadratic ease-in
 
 # EN: Quick Draw
 3130845513=Hızlı Çekme
@@ -3317,19 +4481,16 @@
 2627885725=Hızlı Kurulum
 
 # EN: Quick Teleport
-326609558=Hızlı Işınlanma
+326609558=Hizli Isinlanma
 
 # EN: Quick Weather
 3783532552=Hızlı Hava Durumu
 
 # EN: RADAR
-3103374064=RADAR
+3103374064=Radar
 
 # EN: RDR2 Locations
 3060405866=RDR2 Konumları
-
-# EN: RPG, Homing Launcher, Grenade Launcher,
-2954220142=RPG, Güdümlü Fırlatıcı, Bomba Atar,
 
 # EN: Radar
 3103374064=Radar
@@ -3340,17 +4501,41 @@
 # EN: Radius##ff
 2121319983=Yarıçap##ff
 
+# EN: Radius##hbsty
+3794600950=Radius##hbsty
+
 # EN: Radius##ls
 534187969=Yarıçap##ls
 
 # EN: Radius##ms
 4216898969=Yarıçap##ms
 
+# EN: Radius##nbsty
+2105130560=Radius##nbsty
+
+# EN: Radius##sp
+2876015957=Radius##sp
+
 # EN: Radius##zm
 3051501832=Yarıçap##zm
 
+# EN: Ragdoll
+540944468=Ragdoll
+
+# EN: Ragdoll All
+1649746280=Hepsini Ragdoll Yap
+
+# EN: Ragdoll All Loop
+3008212771=Ragdoll All Loop
+
 # EN: Ragdoll Gun
 531559925=Savrulma Silahı
+
+# EN: Ragdoll Loop
+2541994190=Ragdoll Dongusu
+
+# EN: Ragdoll Peds
+3839008814=Ragdoll Peds
 
 # EN: Rain
 1420204096=Yağmur
@@ -3361,26 +4546,26 @@
 # EN: Rain Cloud
 191054983=Yağmur Bulutu
 
-# EN: Rain explosive meteors at aim location
-4086413341=Nişan alınan konuma patlayıcı meteorlar yağdır
-
 # EN: Rainbow
 2057945528=Gökkuşağı
-
-# EN: Rainbow Speed##pt
-461725058=Gökkuşağı Hızı##pt
-
-# EN: Rains explosive meteors at the target location
-437820255=Hedef konuma patlayıcı meteorlar yağdırır
 
 # EN: Rains explosive meteors from the sky
 3405325154=Gökten patlayıcı meteorlar yağdırır
 
+# EN: Random
+3957470568=Random
+
+# EN: Random Face
+3252986575=Rastgele yüz
+
+# EN: Random Outfit
+3482610871=Rastgele kıyafet
+
+# EN: Random Outfit All
+966771604=Herkese rastgele kıyafet
+
 # EN: Random meteors fall from the sky around you
 3946730977=Çevrenizde rastgele meteorlar gökten düşer
-
-# EN: Randomize whether each shot hits
-1173304963=Her atışın isabet edip etmeyeceğini rastgele belirle
 
 # EN: Range
 332484516=Menzil
@@ -3394,11 +4579,20 @@
 # EN: Rapid Fire
 4034658405=Hızlı Ateş
 
+# EN: Rapid Fire##mb
+2271628892=Rapid Fire##mb
+
 # EN: Rate
 2120794248=Oran
 
 # EN: Rate##serp
 1131381918=Oran##serp
+
+# EN: Raycast from local ped to bone — won't fire through walls
+652655731=Raycast from local ped to bone — won't fire through walls
+
+# EN: Reaction
+2976050821=Reaction
 
 # EN: Real Sky Aura
 1300461090=Gerçek Gökyüzü Aurası
@@ -3409,23 +4603,47 @@
 # EN: Recommended image sizes:
 2704497521=Önerilen görsel boyutları:
 
-# EN: Redirect bullets mid-flight to hit target
-58070485=Uçuş sırasında mermileri hedefe yönlendir
+# EN: Redeem
+2198251026=Redeem
 
-# EN: Reduces gravity for all entities
-1827518302=Tüm varlıklar için yerçekimini azaltır
+# EN: Redeem Key
+2073547104=Redeem Key
+
+# EN: Redeemed but entitlement not visible
+612475581=Redeemed but entitlement not visible
+
+# EN: Redirects bullets to hit targets without moving your crosshair
+1032402041=Redirects bullets to hit targets without moving your crosshair
 
 # EN: Refresh
 1589753738=Yenile
 
+# EN: Refresh##ptfx_files
+2857539168=Refresh##ptfx_files
+
 # EN: Refreshing fonts...
 652474694=Yazı tipleri yenileniyor...
+
+# EN: Registered But Not Triggered
+774818613=Kayitli Ama Tetiklenmemis
+
+# EN: Relative
+3434279696=Relative
+
+# EN: Release Distance
+1257392546=Release Distance
 
 # EN: Reload
 1571056488=Yeniden Yükle
 
 # EN: Remote Bolas
 3609547991=Uzaktan Bolas
+
+# EN: Remote Lasso
+1093031269=Uzaktan kement
+
+# EN: Remove
+3336096321=Remove
 
 # EN: Remove All
 1178209108=Tümünü Kaldır
@@ -3442,17 +4660,23 @@
 # EN: Removes weapon spinup delay
 1557267726=Silah hazırlık gecikmesini kaldırır
 
+# EN: Render Distance
+2670369238=Render mesafesi
+
 # EN: Rendering
 2948493975=Görüntüleme
 
-# EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
-2465448157=Görüntüleme ayarları oyun tarafından kontrol edilir. VSync, kare hızı ve arka uç FiveM'de yapılandırılamaz.
+# EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in RedM.
+467056905=Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in RedM.
 
 # EN: Repair Vehicle
-2429933431=Aracı Onar
+2429933431=Araci Tamir Et
 
-# EN: Repeatedly strike lightning near your position
-2641990793=Konumunuzun yakınına tekrar tekrar yıldırım düşürün
+# EN: Requires the Lock On aim key (RMB by default) to be held
+3241941881=Requires the Lock On aim key (RMB by default) to be held
+
+# EN: Rescan
+764993821=Yeniden Tara
 
 # EN: Reset
 3559176682=Sıfırla
@@ -3463,17 +4687,23 @@
 # EN: Reset Appearance
 3776689734=Görünümü Sıfırla
 
+# EN: Reset Counter
+1911047124=Reset Counter
+
 # EN: Reset Fonts
 2389856026=Yazı Tiplerini Sıfırla
 
+# EN: Reset Offsets
+1581388633=Reset Offsets
+
 # EN: Reset Position
-1118816545=Konumu Sıfırla
+1118816545=Konumu Sifirla
 
 # EN: Reset Theme
 2144729292=Temayı Sıfırla
 
 # EN: Reset all font selections to defaults?
-2051311733=Tüm yazı tipi seçimlerini varsayılanlara sıfırla?
+2051311733=Tüm yazı tipi seçimlerini varsayılana sıfırlansın mı?
 
 # EN: Reset theme to current preset?
 3245023396=Tema mevcut ön ayara sıfırlansın mı?
@@ -3482,10 +4712,13 @@
 3354827909=Ön Ayara Sıfırla
 
 # EN: Reset to defaults
-3361422027=Varsayılanlara sıfırla
+3361422027=Varsayılana sıfırla
+
+# EN: Resize your horse
+3068208654=Resize your horse
 
 # EN: Resolution
-324784860=Çözünürlük
+324784860=Cozunurluk
 
 # EN: Resource
 1411351736=Kaynak
@@ -3496,8 +4729,17 @@
 # EN: Resources
 2745027072=Kaynaklar
 
+# EN: Restore Delay (ms)
+739418898=Restore Delay (ms)
+
 # EN: Restore Position on Disable
 152322992=Devre Dışı Bırakıldığında Konumu Geri Yükle
+
+# EN: Restore Time
+2494277967=Restore Time
+
+# EN: Restore Weather
+1986242669=Restore Weather
 
 # EN: Resurrects dead peds and restores their health
 510568185=Ölü yayaları diriltir ve sağlıklarını geri yükler
@@ -3511,14 +4753,23 @@
 # EN: Revive Horse
 2429511813=Atı Dirilt
 
+# EN: Revive Self
+192774351=Revive Self
+
+# EN: Revive your character — works on most servers (RESURRECT_PED + NETWORK_RESURRECT_LOCAL_PLAYER + cores/damage clear)
+4215743740=Revive your character — works on most servers (RESURRECT_PED + NETWORK_RESURRECT_LOCAL_PLAYER + cores/damage clear)
+
 # EN: Ride Shoulders
 16024939=Omuzlara Bin
+
+# EN: Ride your horse to a destination automatically (mounted or on foot)
+3116606014=Atını bir hedefe otomatik götür (binili veya yaya)
 
 # EN: Right
 3100427065=Sağ
 
 # EN: Right Color
-2599168357=Sağ Renk
+2599168357=Sag Renk
 
 # EN: Ring
 897759444=Halka
@@ -3527,7 +4778,7 @@
 3655670189=Halka Rengi
 
 # EN: Ring Count
-3319444267=Halka Sayısı
+3319444267=Halka Sayisi
 
 # EN: Ring ESP
 3540339487=Halka ESP
@@ -3536,16 +4787,16 @@
 1784623860=Halka Ofseti
 
 # EN: Ring pulses when player is standing still
-2848360984=Oyuncu hareketsizken halka nabız atar
+2848360984=Oyuncu hareketsiz dururken halka nabiz atar
 
 # EN: Riot Mode
 4247338201=İsyan Modu
 
-# EN: Rise Speed
-3267963830=Yükselme Hızı
-
 # EN: Risk: May result in kick/ban
-863799803=Risk: Atılma/yasaklanma ile sonuçlanabilir
+863799803=Risk: Atilma/yasaklanma ile sonuclanabilir
+
+# EN: Risks:
+760312729=Risks:
 
 # EN: Risky
 1413260749=Riskli
@@ -3554,34 +4805,61 @@
 4198788124=Yuvarlanma##arrot
 
 # EN: Rotate with View
-4155635046=Görüşle Döndür
+4155635046=Görünümle Döndür
 
 # EN: Rotation
 2010988560=Döndürme
 
+# EN: Rounded
+2055970482=Rounded
+
 # EN: Rounding
 947963291=Yuvarlaklık
 
+# EN: Rounding##dd
+1251311131=Rounding##dd
+
 # EN: Rounding##distbg
-4161243031=Yuvarlaklık##distbg
+4161243031=Yuvarlaklik##distbg
+
+# EN: Rounding##grp
+2835802707=Rounding##grp
+
+# EN: Rounding##hbsty
+1472920854=Rounding##hbsty
 
 # EN: Rounding##namebg
-3182791864=Yuvarlaklık##namebg
+3182791864=Yuvarlaklik##namebg
+
+# EN: Rounding##sl
+1227039286=Rounding##sl
+
+# EN: Rounding##sp
+1851255963=Rounding##sp
 
 # EN: Rounding##wepbg
-2546121190=Yuvarlaklık##wepbg
+2546121190=Yuvarlaklik##wepbg
 
 # EN: Row Height
 1759174565=Satır Yüksekliği
 
 # EN: Run
-285848937=Çalıştır
+285848937=Koşu
+
+# EN: Run Force
+1892809888=Run Force
+
+# EN: Run Script
+2843942484=Betigi Calistir
 
 # EN: Running
-1756071093=Koşuyor
+1756071093=Calisiyor
 
 # EN: S
-331032406=G
+331032406=S
+
+# EN: S-curve — most human-like
+1234934489=S-curve — most human-like
 
 # EN: SCOOBY
 2730510897=SCOOBY
@@ -3589,29 +4867,32 @@
 # EN: SPECTATORS
 2185765281=İZLEYİCİLER
 
+# EN: Sad Face
+3008714121=Üzgün yüz
+
 # EN: Safety
 3988627175=Güvenlik
 
 # EN: Sample Rate
-1680169433=Örnekleme Hızı
-
-# EN: Saturation##btrbow
-1340760551=Doygunluk##btrbow
+1680169433=Ornekleme Hizi
 
 # EN: Save
 3357008648=Kaydet
 
-# EN: Save Current as Snippet
-2323029386=Mevcut Kodu Parçacık Olarak Kaydet
+# EN: Save / Load
+3375253150=Save / Load
 
-# EN: Save Here
-2753091722=Buraya Kaydet
+# EN: Save Current as Snippet
+2323029386=Mevcut Kodu Snippet Olarak Kaydet
+
+# EN: Save Database
+882232976=Save Database
 
 # EN: Save Interval
-269707535=Kayıt Aralığı
+269707535=Kaydetme Aralığı
 
-# EN: Save your current position and teleport back later
-4024909457=Mevcut konumunuzu kaydedin ve daha sonra geri ışınlanın
+# EN: Save your position automatically every interval. Disable to only save manually with the Set key.
+435540341=Konumunu her aralıkta otomatik kaydeder. Sadece Set tuşuyla manuel kaydetmek için devre dışı bırak.
 
 # EN: Saved
 2978706416=Kaydedildi
@@ -3619,23 +4900,14 @@
 # EN: Saved Configs
 860699809=Kayıtlı Yapılandırmalar
 
-# EN: Saved Locations
-676178533=Kayıtlı Konumlar
-
 # EN: Saved Themes
 2236251465=Kayıtlı Temalar
 
-# EN: Saved:
+# EN: Saved: 
 2514999957=Kaydedildi:
 
 # EN: Scale
 1342385372=Ölçek
-
-# EN: Scale Effect
-633475164=Ölçek Efekti
-
-# EN: Scale by Distance
-3110684322=Mesafeye Göre Ölçekle
 
 # EN: Scale##self
 2751809400=Ölçek##self
@@ -3644,58 +4916,79 @@
 2369776673=Ölçekleme
 
 # EN: Scan for Anti-Cheat
-3069664885=Anti-Cheat Tara
+3069664885=Hile Korumasi Icin Tara
+
+# EN: Scanning resources...
+3847585475=Kaynaklar taraniyor...
+
+# EN: Scanning...
+850446987=Taraniyor...
 
 # EN: Scans for anti-cheat modules every 10 seconds
-3500340240=Her 10 saniyede anti-cheat modüllerini tarar
+3500340240=Her 10 saniyede hile korumasi modullerini tarar
 
-# EN: Scope Awareness
-3358794078=Dürbün Farkındalığı
+# EN: Scenario
+3843626595=Scenario
+
+# EN: Scenarios
+1863574033=Scenarios
 
 # EN: Scope FOV
-1562648207=Dürbün FOV
+1562648207=Durbun FOV
 
 # EN: Scope Zoom Comp
-3688902947=Dürbün Yakınlaştırma Telafisi
+3688902947=Durbun Yakinlastirma Telafisi
 
 # EN: Screen Light
 976608215=Ekran Işığı
 
 # EN: Script Name:
-395819186=Betik Adı:
+395819186=Betik Adi:
 
 # EN: Script Panels
 20599938=Betik Panelleri
 
 # EN: Script executed
-2428283588=Betik çalıştırıldı
+2428283588=Betik calistirildi
+
+# EN: Script loaded
+1071575077=Script loaded
+
+# EN: Script stopped
+3609081985=Betik durduruldu
 
 # EN: Scripts
 1044661261=Betikler
 
 # EN: Scroll Rnd
-3194337460=Kaydırma Yuvarlaklığı
+3194337460=Kaydirma Yuvarlikligi
 
 # EN: Scrollbar
 1128947819=Kaydırma Çubuğu
 
 # EN: Scrollbar Color
-331403800=Kaydırma Çubuğu Rengi
+331403800=Kaydirma Cubugu Rengi
 
 # EN: Scrollbar Grab
-3484051837=Kaydırma Çubuğu Tutma
+3484051837=Kaydırma Çubuğu Tutacağı
 
 # EN: Scrollbar W
-4067235894=Kaydırma Çubuğu G
+4067235894=Kaydirma Cubugu G
 
 # EN: Search
 4166004673=Ara
 
+# EN: Search emotes...
+3375446970=Search emotes...
+
 # EN: Search horses...
 1448928248=At ara...
 
+# EN: Search keybinds...
+705152961=Search keybinds...
+
 # EN: Search peds...
-3129217742=Yaya ara...
+3129217742=Ped ara...
 
 # EN: Search results for
 3675628746=Arama sonuçları:
@@ -3704,7 +4997,7 @@
 2760915522=Betik ara...
 
 # EN: Search vehicles...
-2834434051=Araç ara...
+2834434051=Arac ara...
 
 # EN: Search weapons...
 3633895952=Silah ara...
@@ -3718,29 +5011,32 @@
 # EN: Secondary
 3384035740=İkincil
 
+# EN: Section
+3044466341=Section
+
 # EN: Section Font
-2820653597=Bölüm Yazı Tipi
+2820653597=Bolum Yazi Tipi
 
 # EN: Section Header
 2349583176=Bölüm Başlığı
 
 # EN: Section Headers
-2327016931=Bölüm Başlıkları
+2327016931=Bolum Basliklari
 
 # EN: Section Opacity
-1502378754=Bölüm Opaklığı
+1502378754=Bolum Opakligi
 
 # EN: Segmented
-1119367178=Bölümlü
+1119367178=Parcali
 
 # EN: Segments
-390045222=Bölümler
+390045222=Segmentler
 
 # EN: Select a player
 1427174365=Bir oyuncu seçin
 
 # EN: Self
-660087492=Kendim
+660087492=Kendin
 
 # EN: Send Animal
 2887906257=Hayvan Gönder
@@ -3749,13 +5045,16 @@
 1563795609=Hassasiyet
 
 # EN: Sep Alpha
-307689876=Ayırıcı Alfa
+307689876=Ayirici Alpha
 
 # EN: Separator
 600342395=Ayırıcı
 
+# EN: Separators
+2951428768=Separators
+
 # EN: Serpentine
-2010529308=Yılan Hareketli
+2010529308=Yılan Hareketi
 
 # EN: Server
 581657549=Sunucu
@@ -3763,17 +5062,23 @@
 # EN: Server Info
 1790325725=Sunucu Bilgisi
 
+# EN: Set Blame on Player
+2629605861=Suçu oyuncuya ata
+
+# EN: Set Drunk
+3266733982=Set Drunk
+
 # EN: Set Key
-2397500189=Tuş Ata
+2397500189=Tus Ata
 
 # EN: Set a custom distance for forward teleport
 1206098592=İleri ışınlanma için özel mesafe ayarla
 
 # EN: Set alpha to 0 to use the text color instead.
-796381545=Bunun yerine metin rengini kullanmak için alfa değerini 0 yapın.
+796381545=Bunun yerine metin rengini kullanmak icin alpha'yi 0 yapin.
 
 # EN: Set anchor + teleport to it with separate keys
-2852415891=Ayrı tuşlarla çapa koy + çapaya ışınlan
+2852415891=Ayri tuslarla capa koy + capaya isinlan
 
 # EN: Set custom weapon damage value
 3508035390=Özel silah hasar değeri ayarla
@@ -3781,11 +5086,11 @@
 # EN: Set custom weapon effective range
 855693184=Özel silah etkili menzili ayarla
 
-# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
-1002208503=Her özellik satırındaki dişli simgesi üzerinden özellik başına tuş atamaları ayarlayın (sağ tıklayın veya dişliye tıklayın).
+# EN: Set on Fire
+1113552959=Set on Fire
 
-# EN: Sets the targeted entity on fire
-3761901351=Hedeflenen varlığı ateşe verir
+# EN: Set: drop marker  |  B: rewind
+652205383=Set: marker bırak  |  B: geri sar
 
 # EN: Settings
 2768156407=Ayarlar
@@ -3803,19 +5108,28 @@
 901123421=Ayarlar Açılır Pencere Kenarlığı
 
 # EN: Shadow
-1921357778=Gölge
+1921357778=Golge
 
 # EN: Shadow Color
-1888230042=Gölge Rengi
+1888230042=Golge Rengi
 
 # EN: Shadow##dist
-1556818514=Gölge##dist
+1556818514=Golge##dist
+
+# EN: Shadow##hbsty
+1178269524=Shadow##hbsty
 
 # EN: Shadow##name
-1583130157=Gölge##name
+1583130157=Golge##name
+
+# EN: Shadow##nbsty
+3639724956=Shadow##nbsty
+
+# EN: Shadow##sp
+3975880048=Shadow##sp
 
 # EN: Shadow##weapon
-559319637=Gölge##weapon
+559319637=Golge##weapon
 
 # EN: Shape
 3829206493=Şekil
@@ -3836,16 +5150,19 @@
 1537283777=Varlıkların yerçekimini yukarı çevirmek için ateş et
 
 # EN: Shots Max
-1545419862=Maks Atış
+1545419862=Maks Atis
 
 # EN: Shots Min
-4101905516=Min Atış
+4101905516=Min Atis
 
 # EN: Show
-4237361361=Göster
+4237361361=Goster
 
-# EN: Show Advanced
-2451177577=Gelişmişi Göster
+# EN: Show Check (ON)
+3008117344=Show Check (ON)
+
+# EN: Show Chevron
+3167784853=Show Chevron
 
 # EN: Show Coordinates
 3389512578=Koordinatları Göster
@@ -3853,11 +5170,20 @@
 # EN: Show Date
 3033026641=Tarihi Göster
 
+# EN: Show Dead
+698700059=Show Dead
+
 # EN: Show Dealt
-2111762275=Verilen Hasarı Göster
+2111762275=Verilen Hasari Goster
+
+# EN: Show Dealt##dlog
+1334284877=Show Dealt##dlog
 
 # EN: Show Distance
 1253886722=Mesafeyi Göster
+
+# EN: Show Distance##bt2
+1623820001=Show Distance##bt2
 
 # EN: Show FOV Circle
 3127357124=FOV Dairesini Göster
@@ -3869,31 +5195,34 @@
 2817813522=FPS Göster
 
 # EN: Show Graph
-2534847582=Grafiği Göster
+2534847582=Grafigi Goster
 
 # EN: Show Header
-645770246=Başlığı Göster
+645770246=Basligi Goster
+
+# EN: Show Hint
+2676323835=Show Hint
 
 # EN: Show Hints Overlay
-4000101783=İpuçları Katmanını Göster
+4000101783=Ipuclari Kaplamasini Goster
 
 # EN: Show Icon
 1657507605=Simgeyi Göster
 
 # EN: Show Icons
-2900082090=Simgeleri Göster
+2900082090=Simgeleri Goster
 
 # EN: Show Line
-1200799385=Çizgiyi Göster
+1200799385=Cizgiyi Goster
 
 # EN: Show Logo
 395333305=Logoyu Göster
 
 # EN: Show Marker
-3497215950=İşareti Göster
+3497215950=Isaretciyi Goster
 
 # EN: Show Modules
-2174968335=Modülleri Göster
+2174968335=Modulleri Goster
 
 # EN: Show Name
 2286872380=İsmi Göster
@@ -3905,25 +5234,37 @@
 636017983=Bildirimleri Göster
 
 # EN: Show Preview
-1262585563=Ön İzlemeyi Göster
+1262585563=Onizlemeyi Goster
+
+# EN: Show Progress
+4217199704=Show Progress
+
+# EN: Show Rider##veh
+3817984120=Show Rider##veh
 
 # EN: Show Self
-1908654534=Kendimi Göster
+1908654534=Kendini Goster
 
 # EN: Show Server ID
-2968435685=Sunucu ID Göster
+2968435685=Sunucu ID'sini Goster
 
 # EN: Show Speed
 3666823772=Hızı Göster
 
 # EN: Show Status
-3333637862=Durumu Göster
+3333637862=Durumu Goster
 
 # EN: Show Taken
-2937268981=Alınan Hasarı Göster
+2937268981=Alinan Hasari Goster
+
+# EN: Show Taken##dlog
+1988723062=Show Taken##dlog
 
 # EN: Show Text
-1575008906=Metni Göster
+1575008906=Metni Goster
+
+# EN: Show Ticks
+2045038734=Show Ticks
 
 # EN: Show Time
 2222431568=Saati Göster
@@ -3932,31 +5273,46 @@
 3874224782=Başlığı Göster
 
 # EN: Show Unarmed
-288151846=Silahsızları Göster
+288151846=Silahsızı Göster
 
 # EN: Show Vehicles
-1292300392=Araçları Göster
+1292300392=Araclari Goster
 
-# EN: Show a dot on the current target
-3764166595=Mevcut hedefe bir nokta göster
+# EN: Show World Markers
+2279977362=Dünya markerlarını göster
 
 # EN: Show a notification when something is blocked
 1256445615=Bir şey engellendiğinde bildirim göster
 
-# EN: Show advanced aimbot tuning options
-1262633640=Gelişmiş aimbot ayarlama seçeneklerini göster
+# EN: Show distance in meters
+1294074528=Show distance in meters
+
+# EN: Show driver/rider name if occupied
+3740054372=Show driver/rider name if occupied
 
 # EN: Show keybind hints for active movement extras on screen
-3465261614=Aktif hareket ekstraları için tuş atama ipuçlarını ekranda göster
+3465261614=Aktif hareket ekstralari icin tus atama ipuclarini ekranda goster
 
 # EN: Show on Startup
-1110455679=Başlangıçta Göster
+1110455679=Baslangicta Goster
 
-# EN: Show target name, distance, and health on screen
-774147915=Hedef adını, mesafesini ve sağlığını ekranda göster
+# EN: Show species label above animal
+3847257753=Show species label above animal
+
+# EN: Show the targeting FOV ring around the crosshair
+2773675712=Show the targeting FOV ring around the crosshair
+
+# EN: Show vehicle type label
+927164715=Show vehicle type label
+
+# EN: Shows a crosshair marker when your shots land on a target
+2712575620=Shows a crosshair marker when your shots land on a target
 
 # EN: Shows a directional wedge on screen when you take damage
-1772815089=Hasar aldığınızda ekranda yönlü bir kama gösterir
+1772815089=Hasar aldığınızda ekranda yönlü bir gösterge gösterir
+
+# EN: Shows players you've tagged as Admin/Mod/Trusted/Streamer/Suspicious when they're nearby. Tag players from the Players tab.
+4026120554=Shows players you've tagged as Admin/Mod/Trusted/Streamer/Suspicious when they're nearby. Tag players from the Players tab.
 
 # EN: Shrink Gun
 698308174=Küçültme Silahı
@@ -3983,16 +5339,28 @@
 3848358493=Kenar Çubuğu Üzerine Gelme
 
 # EN: Sidebar Separator
-3087006103=Kenar Çubuğu Ayırıcısı
+3087006103=Kenar Çubuğu Ayırıcı
 
 # EN: Sidebar tab labels
 1912982437=Kenar çubuğu sekme etiketleri
 
 # EN: Silent Aim
-283398155=Silent Aim
+283398155=Sessiz Nisan
+
+# EN: Silent Mode
+204875588=Sessiz mod
+
+# EN: Simple
+2854970267=Simple
 
 # EN: Size
 3226656423=Boyut
+
+# EN: Size##animalhat
+550948123=Size##animalhat
+
+# EN: Size##hm
+1998713813=Size##hm
 
 # EN: Size##ms
 2741062528=Boyut##ms
@@ -4004,19 +5372,34 @@
 1816727634=İskelet
 
 # EN: Skeleton Only
-1732653347=Yalnızca İskelet
+1732653347=Yalnizca Iskelet
+
+# EN: Skip Animals
+2221057938=Skip Animals
 
 # EN: Skip Friends
-1109959189=Arkadaşları Atla
+1109959189=Arkadaslari Atla
 
 # EN: Skip Friends##mb
-1619604810=Arkadaşları Atla##mb
+1619604810=Arkadaslari Atla##mb
+
+# EN: Skip Friends##proj
+949166622=Skip Friends##proj
 
 # EN: Skip Friends##sa
-1651665136=Arkadaşları Atla##sa
+1651665136=Arkadaslari Atla##sa
 
 # EN: Skip Friends##trig
-2028490315=Arkadaşları Atla##trig
+2028490315=Arkadaslari Atla##trig
+
+# EN: Skip Full HP
+3641936216=Skip Full HP
+
+# EN: Skip Melee/Bow##trig
+3381716061=Skip Melee/Bow##trig
+
+# EN: Skip Near-Death
+2896726875=Skip Near-Death
 
 # EN: Skip reload animations
 871293787=Şarjör doldurma animasyonlarını atla
@@ -4024,14 +5407,14 @@
 # EN: Skip the death screen and respawn immediately
 2983756551=Ölüm ekranını atla ve hemen yeniden doğ
 
-# EN: Skull
-4060956970=Kuru Kafa
+# EN: Skip your own currently mounted horse
+3187739778=Skip your own currently mounted horse
 
 # EN: Sky Aura
 4195663934=Gökyüzü Aurası
 
 # EN: Sky Color
-1840203098=Gökyüzü Rengi
+1840203098=Gokyuzu Rengi
 
 # EN: Sky Colors & Aura
 3012839540=Gökyüzü Renkleri ve Aura
@@ -4061,28 +5444,28 @@
 1430582691=Kayma Animasyonu
 
 # EN: Slider
-338352108=Sürgü
+338352108=Kaydırıcı
 
 # EN: Slider Fill
-3953875025=Sürgü Dolgusu
+3953875025=Kaydırıcı Dolgusu
 
 # EN: Slider Grab
-1603827939=Sürgü Tutma
+1603827939=Kaydırıcı Tutacağı
 
 # EN: Slider H
-2750911631=Sürgü Y
+2750911631=Kaydirici Y
 
 # EN: Slider Track
-1630077971=Sürgü İzi
+1630077971=Kaydırıcı İzi
 
 # EN: Sliders
-2297082388=Sürgüler
-
-# EN: Slot
-933689839=Yuva
+2297082388=Kaydırıcılar
 
 # EN: Slow Motion
 3565967334=Ağır Çekim
+
+# EN: Slow Motion Aiming
+3286174914=Slow Motion Aiming
 
 # EN: Slows down game time for easier aiming
 3990662640=Daha kolay nişan almak için oyun zamanını yavaşlatır
@@ -4094,10 +5477,10 @@
 3143784038=Küçük Bulut Tipi
 
 # EN: Smooth Animation
-2305435949=Yumuşak Animasyon
+2305435949=Yumusak Animasyon
 
 # EN: Smooth Curves
-3976333954=Yumuşak Eğriler
+3976333954=Yumusak Egriler
 
 # EN: Smooth Movement
 4220516200=Yumuşak Hareket
@@ -4105,20 +5488,32 @@
 # EN: Smoothing
 980522697=Yumuşatma
 
+# EN: Smoothing Curve
+3836268862=Smoothing Curve
+
+# EN: Smoothness
+1580294097=Smoothness
+
 # EN: Snap
-3320192477=Yapış
+3320192477=Yapis
 
 # EN: Snap to ground level after teleporting
 1576285428=Işınlanma sonrası zemin seviyesine yapış
 
 # EN: Snaplines
-3234673257=Bağlantı Çizgileri
+3234673257=Çizgiler
+
+# EN: Snaplines##animal
+2600041801=Snaplines##animal
+
+# EN: Snaplines##veh
+4155083255=Cizgiler##veh
 
 # EN: Snippet name:
-1640117038=Parçacık adı:
+1640117038=Snippet adi:
 
 # EN: Snippets
-2837387043=Kod Parçacıkları
+2837387043=Snippet'ler
 
 # EN: Snow
 4021743606=Kar
@@ -4135,14 +5530,26 @@
 # EN: Solid
 2667043969=Düz
 
+# EN: Solver Iterations
+2033101457=Solver Iterations
+
 # EN: Sort by Distance
-698443985=Mesafeye Göre Sırala
+698443985=Mesafeye Gore Sirala
 
 # EN: Sound
 3255258383=Ses
 
+# EN: Sound on Fire
+1899492921=Sound on Fire
+
 # EN: Spacing
 370899326=Aralık
+
+# EN: Spam Bears
+923236784=Spam Bears
+
+# EN: Spam Wolves
+2825695012=Spam Wolves
 
 # EN: Spank
 2519979771=Şaplak
@@ -4165,11 +5572,23 @@
 # EN: Spawn Lightning
 4090761949=Yıldırım Oluştur
 
+# EN: Spawn Object
+3773875983=Spawn Object
+
+# EN: Spawn Ped
+1240441382=Spawn Ped
+
 # EN: Spawn Ped Army
 842659871=Yaya Ordusu Oluştur
 
+# EN: Spawn Vehicle
+836867042=Spawn Vehicle
+
 # EN: Spawn and ride a wild animal
 2456270008=Vahşi bir hayvan oluştur ve bin
+
+# EN: Spawn as Wild
+1140516403=Spawn as Wild
 
 # EN: Spawner
 1388279330=Oluşturucu
@@ -4177,14 +5596,11 @@
 # EN: Spawners
 463473003=Oluşturucular
 
-# EN: Spawns a swirling vortex that flings entities
-4120638530=Varlıkları fırlatan dönen bir girdap oluşturur
-
 # EN: Spawns clones of the targeted ped around them
 1852821607=Hedeflenen yayanın etrafında klonlarını oluşturur
 
 # EN: Special Ammo
-1199710937=Özel Cephane
+1199710937=Özel Mermi
 
 # EN: Special Guns
 1317104589=Özel Silahlar
@@ -4204,23 +5620,29 @@
 # EN: Speed Multiplier
 1815972746=Hız Çarpanı
 
-# EN: Speed##btrbow
-1185079655=Hız##btrbow
+# EN: Speed locked by preset — pick Custom to override
+1944470596=Speed locked by preset — pick Custom to override
+
+# EN: Speed##btr2
+3233031999=Speed##btr2
 
 # EN: Speed##hpsmooth
-2272127628=Hız##hpsmooth
+2272127628=Hiz##hpsmooth
 
 # EN: Speed##serp
-3668104492=Hız##serp
+3668104492=Hiz##serp
+
+# EN: Speed##tgl
+3045684305=Speed##tgl
 
 # EN: Speeds up climbing and vaulting animations
 884886740=Tırmanma ve atlama animasyonlarını hızlandırır
 
 # EN: Spin
-3437710297=Dönme
+3437710297=Dönüş
 
 # EN: Spin Speed
-2064253717=Dönme Hızı
+2064253717=Dönüş Hızı
 
 # EN: Spread
 3000203704=Saçılma
@@ -4232,7 +5654,7 @@
 212048196=Saçılma Yönü 2
 
 # EN: Sprint Multiplier
-1215352304=Sprint Çarpanı
+1215352304=Koşu Çarpanı
 
 # EN: Square
 551846212=Kare
@@ -4242,6 +5664,12 @@
 
 # EN: Stampede!
 1850896990=İzdiham!
+
+# EN: Standard arrow ≈ 55 m/s — raise for fire/dynamite
+604571309=Standard arrow ≈ 55 m/s — raise for fire/dynamite
+
+# EN: Star
+2620960594=Star
 
 # EN: Star Smoothing
 239201736=Yıldız Yumuşatma
@@ -4262,7 +5690,10 @@
 2229020447=Başlat
 
 # EN: Stats
-3337185076=İstatistikler
+3337185076=Istatistikler
+
+# EN: Status
+1711913059=Status
 
 # EN: Status Dots
 1792226764=Durum Noktaları
@@ -4270,14 +5701,29 @@
 # EN: Steady Aim
 3871115537=Sabit Nişan
 
+# EN: Steal Horse
+429825119=Steal Horse
+
 # EN: Steam Proof
 3475233767=Buhar Geçirmez
+
+# EN: Stepped
+2777726412=Stepped
+
+# EN: Sticky Projectile
+3464587768=Sticky Projectile
 
 # EN: Sticky Target
 128465133=Yapışkan Hedef
 
+# EN: Sticky Target##proj
+1336135198=Sticky Target##proj
+
 # EN: Sticky Target##sa
-4029734851=Yapışkan Hedef##sa
+4029734851=Yapiskan Hedef##sa
+
+# EN: Sticky Tolerance
+2519023589=Sticky Tolerance
 
 # EN: Stomp Glow
 276297078=Ezme Parıltısı
@@ -4286,10 +5732,25 @@
 2467080178=Durdur
 
 # EN: Stop All
-2685914560=Hepsini Durdur
+2685914560=Tümünü Durdur
+
+# EN: Stop All Animations
+1911203614=Stop All Animations
+
+# EN: Stop Radius
+3336260136=Durma yarıçapı
+
+# EN: Stop Script
+258033556=Stop Script
 
 # EN: Stop Vehicle
 668048780=Aracı Durdur
+
+# EN: Stop the burst mid-way if the target leaves your FOV
+4211592849=Stop the burst mid-way if the target leaves your FOV
+
+# EN: Stop##db_anim
+2384158241=Stop##db_anim
 
 # EN: Stops the in-game clock
 2226049145=Oyun içi saati durdurur
@@ -4298,43 +5759,70 @@
 4100106249=Fırtına
 
 # EN: Strafe Teleport
-736882111=Yan Işınlanma
+736882111=Yana Işınlanma
 
 # EN: Streak Length
 3266569970=İz Uzunluğu
 
 # EN: Stream Proof
-3106534202=Yayın Koruması
+3106534202=Yayin Korumasi
 
 # EN: Stream Proof ACTIVE
-2348867233=Yayın Koruması AKTİF
+2348867233=Yayin Korumasi AKTIF
 
 # EN: Stream Proof Mode
-3011027665=Yayın Koruması Modu
+3011027665=Yayin Korumasi Modu
 
 # EN: Stream Proof is experimental - may cause issues on some systems.
-1371944424=Yayın Koruması deneyseldir - bazı sistemlerde sorunlara yol açabilir.
+1371944424=Yayin Korumasi deneyseldir - bazi sistemlerde sorunlara yol acabilir.
 
 # EN: Streamer
-322333922=Yayıncı
-
-# EN: Strength
-4280043047=Güç
+322333922=Yayinci
 
 # EN: Strength##ff
 1068364437=Güç##ff
 
 # EN: Stretch
-2333339779=Esnet
+2333339779=Ger
 
 # EN: Strikes the target with lightning, can chain to nearby peds
 3365637662=Hedefe yıldırım çarpar, yakındaki yayalara zincirleme yapabilir
 
+# EN: Strip Weapons
+1824115397=Strip Weapons
+
+# EN: Strip Weapons All
+320021689=Herkesin silahlarını al
+
 # EN: Style
 2840017588=Stil
 
+# EN: Style##animalboxstyle
+1783688992=Style##animalboxstyle
+
+# EN: Style##ddsty
+907347697=Style##ddsty
+
+# EN: Style##grp
+189469325=Style##grp
+
+# EN: Style##hbarsty
+1448214649=Style##hbarsty
+
 # EN: Style##hp
 2155290340=Stil##hp
+
+# EN: Style##nbsty
+2949332535=Style##nbsty
+
+# EN: Style##sl
+1843843488=Style##sl
+
+# EN: Style##spsty
+2009239515=Style##spsty
+
+# EN: Style##tgl
+4197475269=Style##tgl
 
 # EN: Sub-Tab Icons
 2125121217=Alt Sekme Simgeleri
@@ -4343,16 +5831,13 @@
 4235856483=Alt Sekmeler
 
 # EN: Success
-975994832=Başarılı
+975994832=Basarili
 
 # EN: Success notification
-3286108452=Başarı bildirimi
+3286108452=Basari bildirimi
 
 # EN: Success##notif
-124336157=Başarılı##notif
-
-# EN: Summon a hammer that orbits you. LMB=throw, RMB=recall, Jump=fly to it
-566008167=Etrafınızda dönen bir çekiç çağırın. Sol Tık=fırlat, Sağ Tık=geri çağır, Zıpla=çekice uç
+124336157=Basarili##notif
 
 # EN: Sun Direction
 4043279483=Güneş Yönü
@@ -4370,7 +5855,7 @@
 1632247697=Güneşli
 
 # EN: Sunset
-2621324973=Gün Batımı
+2621324973=Gun Batimi
 
 # EN: Sunset Light Color
 254000732=Gün Batımı Işık Rengi
@@ -4383,6 +5868,9 @@
 
 # EN: Super Jump
 3347387969=Süper Zıplama
+
+# EN: Super Projectile
+945156108=Super Projectile
 
 # EN: Super Punch
 1003680074=Süper Yumruk
@@ -4408,11 +5896,14 @@
 # EN: Supercharge stamina beyond max
 2931388462=Dayanıklılığı maksimumun ötesine aşırı güçlendir
 
+# EN: Suppress in-game notifications and Discord reports
+4183095205=Oyun içi bildirimleri ve Discord raporlarını bastır
+
 # EN: Suspicious
-1438524565=Şüpheli
+1438524565=Supheli
 
 # EN: Suspicious Modules
-3476759237=Şüpheli Modüller
+3476759237=Supheli Moduller
 
 # EN: Swap positions with whoever you shoot
 2909124654=Ateş ettiğiniz kişiyle konum değiştir
@@ -4429,17 +5920,17 @@
 # EN: Swim Speed
 2577385437=Yüzme Hızı
 
+# EN: Switch Bar
+1621739297=Switch Bar
+
 # EN: Switch Delay
 2176114960=Geçiş Gecikmesi
 
-# EN: Switch bone target based on distance to target
-1109298263=Hedefe olan mesafeye göre kemik hedefini değiştir
-
 # EN: Sync Colors
-3592090493=Renkleri Senkronla
+3592090493=Renkleri Senkronize Et
 
 # EN: Sync Rotation
-2224402641=Dönüşü Senkronla
+2224402641=Rotasyonu Senkronize Et
 
 # EN: System Fonts
 2749836525=Sistem Yazı Tipleri
@@ -4448,10 +5939,16 @@
 3044785142=Sistem+Özel
 
 # EN: T-Shape
-3695503273=T-Şekil
+3695503273=T-Şekli
+
+# EN: TIME
+258444835=Zaman
 
 # EN: TP to Train Track
 1601079484=Tren Rayına Işınlan
+
+# EN: TXT
+2010905253=TXT
 
 # EN: Tab Bar Style
 4174884294=Sekme Çubuğu Stili
@@ -4466,43 +5963,52 @@
 451731021=Etiket
 
 # EN: Tagged
-3712235179=Etiketli
+3712235179=Etiketlenmis
 
 # EN: Take no damage from falling
 1834496042=Düşmeden hasar alma
 
 # EN: Taper Width
-3042212273=Daralma Genişliği
-
-# EN: Taper Width##pt
-3926039349=Daralma Genişliği##pt
+3042212273=Daralma Genisligi
 
 # EN: Target
 2720140041=Hedef
 
-# EN: Target Circle
-1842946907=Hedef Dairesi
-
-# EN: Target Circle##sa
-1752837941=Hedef Dairesi##sa
+# EN: Target Info
+325971528=Target Info
 
 # EN: Target Info Overlay##sa
-1911780673=Hedef Bilgi Katmanı##sa
+1911780673=Hedef Bilgi Kaplamasi##sa
+
+# EN: Target Info Panel
+3398335395=Target Info Panel
 
 # EN: Target Line
-2375968002=Hedef Çizgisi
+2375968002=Hedef Cizgisi
+
+# EN: Target Line##mb
+1311974672=Target Line##mb
 
 # EN: Target Line##sa
-71772006=Hedef Çizgisi##sa
+71772006=Hedef Cizgisi##sa
 
 # EN: Target Marker
-2135859714=Hedef İşareti
+2135859714=Hedef Isaretcisi
+
+# EN: Target Marker##mb
+1328785461=Target Marker##mb
 
 # EN: Target Marker##sa
-3230599266=Hedef İşareti##sa
+3230599266=Hedef Isaretcisi##sa
 
 # EN: Targeting
 2771652631=Hedefleme
+
+# EN: Targeting##mb
+4168577893=Targeting##mb
+
+# EN: Targeting##sa
+1796398938=Targeting##sa
 
 # EN: Targets
 4017618224=Hedefler
@@ -4514,13 +6020,16 @@
 329923835=İleri Işınlanma
 
 # EN: Teleport Forward Distance
-1561225=İleri Işınlanma Mesafesi
+1561225=Ileri Isinlanma Mesafesi
 
 # EN: Teleport Gun
 1763910974=Işınlanma Silahı
 
 # EN: Teleport Key
-268016086=Işınlanma Tuşu
+268016086=Isinlanma Tusu
+
+# EN: Teleport Player To Horse
+4073409808=Teleport Player To Horse
 
 # EN: Teleport Swap
 681439259=Işınlanma Takası
@@ -4534,6 +6043,9 @@
 # EN: Teleport to Horse
 3443626366=Ata Işınlan
 
+# EN: Teleport to Nearest Horse
+1023909820=Teleport to Nearest Horse
+
 # EN: Teleport to Nearest Vehicle
 1222747355=En Yakın Araca Işınlan
 
@@ -4542,9 +6054,6 @@
 
 # EN: Teleport to where your bullet lands
 3763820109=Merminin düştüğü yere ışınlan
-
-# EN: Teleport vehicle with you
-2332352547=Aracı da yanınızda ışınlayın
 
 # EN: Teleport your vehicle along with you
 2369149234=Aracınızı da yanınızda ışınlayın
@@ -4561,17 +6070,17 @@
 # EN: Text Font
 1277029574=Metin Yazı Tipi
 
+# EN: Text Offset X
+3940347344=Text Offset X
+
 # EN: Text Only
 1145625316=Yalnızca Metin
 
 # EN: Text Outline
-3204177866=Metin Çerçevesi
+3204177866=Metin Dış Çizgisi
 
 # EN: Text Size
 2196789760=Metin Boyutu
-
-# EN: Text Size##btdist
-3467531750=Metin Boyutu##btdist
 
 # EN: Text##notif
 2810058654=Metin##notif
@@ -4615,35 +6124,68 @@
 # EN: Themes
 1075582417=Temalar
 
+# EN: Thick
+439301469=Thick
+
 # EN: Thickness
 4285237432=Kalınlık
 
-# EN: Thickness##pt
-1365574739=Kalınlık##pt
+# EN: Thickness##animalbox
+2443857049=Thickness##animalbox
 
-# EN: Thickness##tt
-3534806773=Kalınlık##tt
+# EN: Thickness##asnap
+2094046171=Thickness##asnap
+
+# EN: Thickness##bt2
+3776330762=Thickness##bt2
+
+# EN: Thickness##hm
+1611888078=Thickness##hm
+
+# EN: Thickness##vehbox
+587069964=Thickness##vehbox
 
 # EN: This feature is currently in development.
 2985474122=Bu özellik şu anda geliştirme aşamasında.
 
 # EN: This will reset ALL fonts, colors, images, and layout settings to their defaults.\n\nAre you sure?
-2684530542=Bu işlem TÜM yazı tiplerini, renkleri, görselleri ve düzen ayarlarını varsayılanlarına sıfırlayacak.\n\nEmin misiniz?
+2684530542=Bu işlem TÜM yazı tiplerini, renkleri, görselleri ve düzen ayarlarını varsayılana sıfırlayacaktır.\n\nEmin misiniz?
 
 # EN: Thor's Hammer
 1085597256=Thor'un Çekici
 
-# EN: Threshold
-1573986338=Eşik
+# EN: Threat Priority##sa
+2862792991=Threat Priority##sa
 
-# EN: Throwable Tracers
-2494953445=Atılabilir İzleyiciler
+# EN: Threshold
+1573986338=Eşik Değeri
+
+# EN: Throw Force
+3461652194=Fırlatma gücü
+
+# EN: Throwables stick where they hit
+3650246939=Throwables stick where they hit
+
+# EN: Throwables##proj
+3927400989=Throwables##proj
+
+# EN: Throwing Knife
+1542547301=Throwing Knife
 
 # EN: Thunder Storm
 2253725275=Gök Gürültülü Fırtına
 
+# EN: Tick Color
+3218510901=Tick Color
+
+# EN: Tick Count
+2223876868=Tick Count
+
+# EN: Ticks
+2329192730=Ticks
+
 # EN: Tile
-1337127750=Döşe
+1337127750=Döşeme
 
 # EN: Time
 258444835=Zaman
@@ -4653,6 +6195,9 @@
 
 # EN: Time Scale
 2843709841=Zaman Ölçeği
+
+# EN: Time slows when aiming/shooting
+3077100695=Time slows when aiming/shooting
 
 # EN: Timecycle
 1739838145=Zaman Döngüsü
@@ -4664,31 +6209,34 @@
 4122073465=Zamanlama
 
 # EN: Tip Color
-520645681=Uç Rengi
+520645681=Uc Rengi
 
 # EN: Title (Scooby)
-4250394732=Başlık (Scooby)
+4250394732=Baslik (Scooby)
 
 # EN: Title Font
 4023667508=Başlık Yazı Tipi
 
 # EN: Title Gradient
-265407355=Başlık Gradyanı
+265407355=Baslik Gradyani
 
 # EN: Title Gradient Colors
-1766434517=Başlık Gradyan Renkleri
+1766434517=Baslik Gradyan Renkleri
+
+# EN: Title Pill
+1618050020=Title Pill
 
 # EN: Title Size
-1301071436=Başlık Boyutu
+1301071436=Baslik Boyutu
 
 # EN: Title Text
-1233135823=Başlık Metni
+1233135823=Baslik Metni
 
 # EN: Title X
-127176138=Başlık X
+127176138=Baslik X
 
 # EN: Title Y
-3107320078=Başlık Y
+3107320078=Baslik Y
 
 # EN: To Jail
 552166249=Hapse
@@ -4700,13 +6248,13 @@
 1401764170=İşaret Noktasına
 
 # EN: Toggle
-625679385=Aç/Kapat
+625679385=Aç/Kapa
 
 # EN: Toggle H
-688703646=Aç/Kapat Y
+688703646=Ac/Kapa Y
 
 # EN: Toggle Knob
-2816486915=Aç/Kapat Düğmesi
+2816486915=Aç/Kapa Düğmesi
 
 # EN: Toggle Off Color
 2036375624=Kapalı Rengi
@@ -4715,22 +6263,28 @@
 2294168537=Açık Rengi
 
 # EN: Toggle W
-2205449588=Aç/Kapat G
+2205449588=Ac/Kapa G
+
+# EN: Toggle features on/off
+364973416=Toggle features on/off
 
 # EN: Toggles
-2207180161=Aç/Kapat Düğmeleri
+2207180161=Aç/Kapalar
+
+# EN: Tomahawk
+3689329093=Tomahawk
 
 # EN: Tooltip
-2918806632=Araç İpucu
+2918806632=İpucu
 
 # EN: Tooltip Border
-3287365057=Araç İpucu Kenarlığı
+3287365057=İpucu Kenarlığı
 
 # EN: Tooltip Colors
-1879865382=Araç İpucu Renkleri
+1879865382=İpucu Renkleri
 
 # EN: Tooltip Text
-3433991792=Araç İpucu Metni
+3433991792=İpucu Metni
 
 # EN: Top
 1281216666=Üst
@@ -4739,37 +6293,34 @@
 3248802982=Üst Parıltı
 
 # EN: Top Left
-3111925763=Sol Üst
+3111925763=Sol Ust
+
+# EN: Top Resources
+670453582=En Cok Kaynak
 
 # EN: Top Right
-3678979058=Sağ Üst
+3678979058=Sag Ust
 
 # EN: Top-screen compass with cardinal directions
 2354047396=Ana yönlerle ekranın üstünde pusula
 
-# EN: Tornado
-464687292=Kasırga
-
 # EN: Touch
 500423453=Dokunma
-
-# EN: Tracer gets thinner from start to end
-3848411216=İzleyici baştan sona incelerek ilerler
-
-# EN: Tracers
-1857463969=İzleyiciler
 
 # EN: Track
 875912051=İz
 
+# EN: Track H
+3215466932=Track H
+
 # EN: Track Opacity
-902824788=İz Opaklığı
+902824788=Iz Opakligi
 
 # EN: Tracked Players
 1590211961=Takip Edilen Oyuncular
 
-# EN: Tracks
-794089857=İzler
+# EN: Tracking
+1727167966=Tracking
 
 # EN: Tracks the player who killed you with an on-screen arrow
 1609296522=Sizi öldüren oyuncuyu ekrandaki bir okla takip eder
@@ -4780,17 +6331,17 @@
 # EN: Trail Length
 308472983=İz Uzunluğu
 
-# EN: Trail gets thinner towards the tip
-354830891=İz uca doğru incelir
-
 # EN: Tranquilizer Ammo
 2868990001=Uyuşturucu Cephane
 
-# EN: Triangle
-2990077322=Üçgen
+# EN: Trigger & Block
+4206134730=Tetikle ve Engelle
 
 # EN: Trigger Bot
 1558371298=Trigger Bot
+
+# EN: Trigger Event
+4138217246=Olayi Tetikle
 
 # EN: Trigger FOV
 3216427474=Trigger FOV
@@ -4798,14 +6349,23 @@
 # EN: Triggerbot
 1477138198=Triggerbot
 
+# EN: Triggered Without Handler
+3055780408=Isleyici Olmadan Tetiklendi
+
 # EN: Triggers a continuous thunderstorm
 3647443157=Sürekli bir gök gürültülü fırtına tetikler
 
 # EN: Troll
 1328763896=Troll
 
+# EN: True LOS Raycast
+3709800198=True LOS Raycast
+
 # EN: Trusted
-2045336469=Güvenilir
+2045336469=Guvenilir
+
+# EN: Tuning
+365438231=Tuning
 
 # EN: Turn Speed
 348709466=Dönüş Hızı
@@ -4813,23 +6373,35 @@
 # EN: Turns off all lights across the map
 3503813760=Haritadaki tüm ışıkları kapatır
 
+# EN: Type
+828747869=Tur
+
 # EN: Type Settings
-4191027218=Tip Ayarları
+4191027218=Tür Ayarları
 
 # EN: UI Mode
-63923237=Arayüz Modu
+63923237=Arayuz Modu
 
 # EN: Unbind
 2907191925=Atamayı Kaldır
 
+# EN: Unblock
+1287977995=Engeli Kaldir
+
+# EN: Unblock All
+3468373934=Tum Engelleri Kaldir
+
 # EN: Underline
 1892791043=Alt Çizgi
 
+# EN: Underline H
+2037968543=Underline H
+
 # EN: Update Rate
-1699227283=Güncelleme Hızı
+1699227283=Guncelleme Hizi
 
 # EN: Uptime
-3436261580=Çalışma Süresi
+3436261580=Calisma Suresi
 
 # EN: Use Anyway
 2296300728=Yine de Kullan
@@ -4838,37 +6410,40 @@
 2733983925=Kamera Yönünü Kullan
 
 # EN: Use Fill mode for best results.
-1995125884=En iyi sonuç için Doldurma modunu kullanın.
+1995125884=En iyi sonuclar icin Dolgu modunu kullanin.
 
-# EN: Use Game Lightning VFX
-639680466=Oyun Yıldırım VFX'ini Kullan
+# EN: Use nav-mesh pathing instead of straight-line
+258662226=Düz çizgi yerine nav-mesh yolu kullan
 
-# EN: Use the native lightning effect instead of explosions
-3341586251=Patlamalar yerine yerel yıldırım efektini kullan
-
-# EN: Uses rainbow cycling
-3374547008=Gökkuşağı döngüsü kullanır
+# EN: Used by Filled / Outline / Underline
+1868533692=Used by Filled / Outline / Underline
 
 # EN: Using an animated GIF as a background may cause
-63761567=Hareketli GIF'i arka plan olarak kullanmak şunlara neden olabilir:
+63761567=Arka plan olarak animasyonlu GIF kullanmak suna neden olabilir
 
 # EN: Using any of these features could result in an instant server kick/ban. You have been warned.
-1391022290=Bu özelliklerden herhangi birini kullanmak anında sunucudan atılma/yasaklanma ile sonuçlanabilir. Uyarıldınız.
+1391022290=Bu ozelliklerden herhangi birini kullanmak aninda sunucudan atilma/yasaklanma ile sonuclanabilir. Uyarildiniz.
 
 # EN: Using synced colors (Watermark)
-704020902=Senkronlu renkler kullanılıyor (Filigran)
+704020902=Senkronize renkler kullaniliyor (Filigran)
 
 # EN: VFX
 2796127065=VFX
 
+# EN: VOICE
+953116472=SES
+
 # EN: Vehicle
 3710147484=Araç
+
+# EN: Vehicle Grabber
+2317560408=Araç yakalayıcı
 
 # EN: Vehicle NoClip
 1762582941=Araç NoClip
 
 # EN: Vehicle Teleport
-524718268=Araç Işınlanma
+524718268=Arac Isinlanma
 
 # EN: Vehicle passes through objects
 2629672021=Araç nesnelerin içinden geçer
@@ -4878,6 +6453,9 @@
 
 # EN: Vehicles
 1957895139=Araçlar
+
+# EN: Velocity sanity cap — rejects teleports / desync spikes
+1438254902=Velocity sanity cap — rejects teleports / desync spikes
 
 # EN: Vertical
 1605474394=Dikey
@@ -4889,34 +6467,67 @@
 1181443880=Dikey Stil
 
 # EN: Vertices
-3260108856=Köşe Noktaları
+3260108856=Kose Noktalari
+
+# EN: View
+2604534539=Görünüm
 
 # EN: Visibility Check
 2235775772=Görünürlük Kontrolü
 
+# EN: Visibility Check##proj
+4022619840=Visibility Check##proj
+
 # EN: Visibility Check##sa
-2765187843=Görünürlük Kontrolü##sa
+2765187843=Gorunurluk Kontrolu##sa
 
 # EN: Visibility Check##trig
-1367619524=Görünürlük Kontrolü##trig
+1367619524=Gorunurluk Kontrolu##trig
 
 # EN: Visible
-2529664305=Görünür
+2529664305=Gorunur
 
 # EN: Visuals
 2427332638=Görseller
 
 # EN: Visuals##lockon
-4093507657=Görseller##lockon
+4093507657=Gorseller##lockon
+
+# EN: Visuals##mb
+570278843=Visuals##mb
+
+# EN: Visuals##proj
+798121920=Visuals##proj
 
 # EN: Visuals##sa
-2764419376=Görseller##sa
+2764419376=Gorseller##sa
 
 # EN: W
-1486926112=B
+1486926112=W
+
+# EN: W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Boost
+1095441189=W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Boost
+
+# EN: W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Fast
+1963384160=W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Fast
+
+# EN: WASD Move | Space Up | Ctrl Down | Shift Fast
+3029152723=WASD Move | Space Up | Ctrl Down | Shift Fast
+
+# EN: WASD Move | Space Up | Ctrl Down | Shift Fast | Mouse Look
+4018819059=WASD Move | Space Up | Ctrl Down | Shift Fast | Mouse Look
+
+# EN: Wagons, stagecoaches, boats, carts
+3851371312=Wagons, stagecoaches, boats, carts
+
+# EN: Waiting for scan...
+4212713308=Tarama bekleniyor...
 
 # EN: Walk Style
 578957394=Yürüyüş Stili
+
+# EN: Walk Through
+1411964451=İçinden Geç
 
 # EN: Walk like you're injured
 1217395480=Yaralıymış gibi yürü
@@ -4924,20 +6535,32 @@
 # EN: Walk on Water
 176950591=Suda Yürüme
 
+# EN: Walk through peds, vehicles and objects
+2962431570=Walk through peds, vehicles and objects
+
 # EN: Walking
-921688979=Yürüyüş
+921688979=Yurume
 
 # EN: Walls Only
-613995149=Yalnızca Duvarlar
+613995149=Yalnizca Duvarlar
+
+# EN: Wander
+1288903733=Gezin
+
+# EN: Warn
+2116410155=Warn
 
 # EN: Warning
-3911129148=Uyarı
+3911129148=Uyari
 
 # EN: Warning notification
-1083834536=Uyarı bildirimi
+1083834536=Uyari bildirimi
 
 # EN: Warning##notif
-496177476=Uyarı##notif
+496177476=Uyari##notif
+
+# EN: Warning: Using free menus may result in an instant kick or ban from the server. Use at your own risk.
+2630775189=Uyari: Ucretsiz menuleri kullanmak sunucudan aninda atilma veya yasaklanma ile sonuclanabilir. Riski kendiniz ustlenirsiniz.
 
 # EN: Water Fog Blueness
 1563462767=Su Sisi Maviliği
@@ -4955,13 +6578,13 @@
 2927022022=Filigran Ayarları
 
 # EN: Waypoint Trail
-827159393=İşaret Noktası İzi
+827159393=Isaret Noktasi Izi
 
 # EN: Weapon
 3867822744=Silah
 
-# EN: Weapon Filter
-189061761=Silah Filtresi
+# EN: Weapon Preset
+1722975727=Weapon Preset
 
 # EN: Weapons
 2151561516=Silahlar
@@ -4972,9 +6595,6 @@
 # EN: Weather
 1578688043=Hava Durumu
 
-# EN: Weather & Time
-3108003216=Hava Durumu ve Zaman
-
 # EN: Weather Chaos
 697326802=Hava Kaosu
 
@@ -4982,13 +6602,13 @@
 425622204=Hava Tipi
 
 # EN: Welcome Screen
-3174111086=Karşılama Ekranı
+3174111086=Karsilama Ekrani
 
 # EN: Welcome! Let's get you set up.
-2895282766=Hoş geldiniz! Sizi hazırlayalım.
+2895282766=Hoş geldiniz! Sizi ayarlayalım.
 
 # EN: What to Hide
-894456580=Neleri Gizle
+894456580=Gizlenecekler
 
 # EN: What's New
 2022498171=Yenilikler
@@ -5002,17 +6622,14 @@
 # EN: When Walking
 2685570395=Yürürken
 
-# EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
-3837149149=Etkinleştirildiğinde, Tuş Listesi, Performans İstatistikleri, Oyuncu Listesi ve İzleyici Filigran renklerini kullanır.
-
 # EN: When enabled, overlays use Watermark colors.
-445204605=Etkinleştirildiğinde, katmanlar Filigran renklerini kullanır.
+445204605=Etkinlestirildiginde kaplamalar Filigran renklerini kullanir.
 
 # EN: While aiming (RMB), press A/D to instantly teleport left/right
-1256253770=Nişan alırken (Sağ Tık), anında sola/sağa ışınlanmak için A/D tuşlarına basın
+1256253770=Nişan alırken (RMB), anında sola/sağa ışınlanmak için A/D tuşlarına bas
 
 # EN: While aiming at a player, press [G] to teleport behind them
-2878535996=Bir oyuncuya nişan alırken, arkasına ışınlanmak için [G] tuşuna basın
+2878535996=Bir oyuncuya nişan alırken arkasına ışınlanmak için [G] tuşuna bas
 
 # EN: Whistle Modifier
 3193714604=Islık Değiştirici
@@ -5023,8 +6640,14 @@
 # EN: Width Ratio
 257781133=Genişlik Oranı
 
+# EN: Width##ahp
+2465347234=Width##ahp
+
 # EN: Width##serp
-3651645440=Genişlik##serp
+3651645440=Genislik##serp
+
+# EN: Width##tgl
+302003276=Width##tgl
 
 # EN: Wind Speed
 103025343=Rüzgar Hızı
@@ -5044,8 +6667,11 @@
 # EN: Wireframe
 1554823340=Tel Kafes
 
+# EN: Wizard
+2686629872=Wizard
+
 # EN: World
-2425990116=Dünya
+2425990116=Dunya
 
 # EN: World Actions
 3296029827=Dünya Eylemleri
@@ -5054,16 +6680,16 @@
 2032641668=Dünya Kaosu
 
 # EN: World Hitmarkers
-592011120=Dünya Hitmarker'ları
+592011120=Dunya Vurus Isaretleri
 
-# EN: World Markers
-475901803=Dünya İşaretleri
+# EN: World Markers##hm
+2561115369=World Markers##hm
 
-# EN: World Numbers
-1304260375=Dünya Sayıları
+# EN: World Numbers##dmg
+626968892=World Numbers##dmg
 
 # EN: World Size
-1252315730=Dünya Boyutu
+1252315730=Dunya Boyutu
 
 # EN: Write code in the Editor, then click 'Save Current as Snippet'.
 2915426656=Editörde kod yazın, ardından 'Mevcut Kodu Parçacık Olarak Kaydet'e tıklayın.
@@ -5078,7 +6704,7 @@
 2157248776=Y
 
 # EN: Y Offset
-2470303010=Y Ofseti
+2470303010=Y Ofset
 
 # EN: Y##aroff
 3249575190=Y##aroff
@@ -5098,6 +6724,9 @@
 # EN: Z##aroff
 3442733937=Z##aroff
 
+# EN: Zero Opacity
+490446338=Zero Opacity
+
 # EN: Zero spread, no sway, no sprint penalty
 290191302=Sıfır saçılma, sallanma yok, sprint cezası yok
 
@@ -5110,17 +6739,23 @@
 # EN: downloading...
 2010819150=indiriliyor...
 
+# EN: entries
+934859523=entries
+
 # EN: fonts loaded
 3620721009=yazı tipleri yüklendi
 
 # EN: frames
 580974885=kare
 
+# EN: iOS
+1766186487=iOS
+
 # EN: image(s)
-2727625699=görsel
+2727625699=gorsel
 
 # EN: joined the server
-2662745418=sunucuya katıldı
+2662745418=sunucuya katildi
 
 # EN: result(s)
 1448839259=sonuç

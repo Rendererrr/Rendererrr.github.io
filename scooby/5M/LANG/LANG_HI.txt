@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Hindi (हिन्दी)
 # Auth data_var name: LANG_HI
-# Total strings: 1652
+# Total strings: 2189
 # Format: JOAAT_HASH=translated text
 #
 
@@ -10,8 +10,14 @@
 # EN:   Min
 311586748=  न्यूनतम
 
+# EN: 'Extract RPF' also unpacks resource.rpf archives to get individual scripts/configs.
+4009724676=कॉन्फिग (आंशिक)
+
 # EN: (none)
 556434450=(कोई नहीं)
+
+# EN: -1 = auto (style default)
+2960637834=डिफ़ॉल्ट
 
 # EN: .lua
 4105145103=.lua
@@ -22,14 +28,35 @@
 # EN: 0 = feet, 0.9 = center, 1.8 = head
 3348539186=0 = पैर, 0.9 = केंद्र, 1.8 = सिर
 
+# EN: 0 = invulnerable. Affects collision, deformation, and weapon damage.
+3951824150=नुकसान (आंशिक)
+
+# EN: 0 = pure RWD, 1 = stock, 2 = pure FWD
+1746313302=0 = विशुद्ध RWD, 1 = स्टॉक, 2 = विशुद्ध FWD
+
 # EN: 1% Low
 499497665=1% निम्न
+
+# EN: 360 Spin
+4231907563=360 घुमाव
 
 # EN: 3D Box
 94557236=3D बॉक्स
 
+# EN: AC
+1410644661=AC
+
 # EN: AC Overlay
 2376138547=AC ओवरले
+
+# EN: AC events found in resources
+374300160=इवेंट (आंशिक)
+
+# EN: AC modules still loaded — bypass partial. Cancel handlers active but resource not stopped.
+503296528=सक्रिय (आंशिक)
+
+# EN: ADS FOV Mult##sa
+1553982631=ADS दृष्टि क्षेत्र गुणक
 
 # EN: AI
 182200381=AI
@@ -73,6 +100,15 @@
 # EN: Accuracy
 2666427871=सटीकता
 
+# EN: Accuracy##sa
+531658286=सटीकता (आंशिक)
+
+# EN: Action Keybinds
+2725143580=कीबाइंड (आंशिक)
+
+# EN: Action Menu Style
+2599844569=एक्शन मेनू स्टाइल
+
 # EN: Actions
 2200808865=कार्य
 
@@ -97,11 +133,20 @@
 # EN: Active Windows
 1847726038=सक्रिय विंडोज़
 
+# EN: Adaptive
+2577319765=अनुकूली
+
 # EN: Adaptive Smoothing
 1841848259=अनुकूली स्मूदिंग
 
+# EN: Adapts to error distance dynamically
+3942730446=दूरी (आंशिक)
+
 # EN: Adder
 3078201489=Adder
+
+# EN: Additional bypasses
+129819345=अतिरिक्त बाइपास
 
 # EN: Adjusts Z to ground level after teleport
 1956583967=टेलीपोर्ट के बाद Z को ज़मीनी स्तर पर समायोजित करता है
@@ -117,9 +162,6 @@
 
 # EN: Advanced
 191998119=उन्नत
-
-# EN: Advanced##sa
-1146831031=उन्नत##sa
 
 # EN: Aim Alert
 2286335061=एम अलर्ट
@@ -145,8 +187,14 @@
 # EN: Alien Green
 961017976=एलियन हरा
 
+# EN: Align
+3794667666=संरेखित करें
+
 # EN: All
 1166234150=सभी
+
+# EN: All AC surfaces neutralised at last scan
+3233168002=अंतिम स्कैन में सभी AC सतहें तटस्थ
 
 # EN: All Nearby Peds
 2228825073=सभी नज़दीकी पेड
@@ -163,6 +211,9 @@
 # EN: All settings reset to defaults
 3117943394=सभी सेटिंग्स डिफ़ॉल्ट पर रीसेट हो गईं
 
+# EN: All sliders are multipliers vs. the vehicle's stock value, captured the first tick after Live Apply turns on. Multiplier 1.0 = stock.
+3766019252=स्लाइडर (आंशिक)
+
 # EN: Allows movement while falling
 925957687=गिरते समय चलने की अनुमति देता है
 
@@ -171,6 +222,12 @@
 
 # EN: Also While Running
 2264771198=दौड़ते समय भी
+
+# EN: Alternating
+2021620171=वैकल्पिक
+
+# EN: Always
+659733263=हमेशा
 
 # EN: Ammo
 307971639=गोला-बारूद
@@ -181,6 +238,9 @@
 # EN: Anchor
 1880738441=एंकर
 
+# EN: Anim Type
+1164359232=Anim प्रकार
+
 # EN: Animate Entries
 2777997914=एंट्री एनिमेट करें
 
@@ -190,23 +250,41 @@
 # EN: Animation
 1176408751=एनिमेशन
 
+# EN: Animation Abuse
+2345679182=एनिमेशन (आंशिक)
+
 # EN: Animations
 490102724=एनिमेशन
+
+# EN: Anti-Aim
+538782377=विरोधी-Aim
 
 # EN: Anti-Cheat
 1651501873=एंटी-चीट
 
-# EN: Anti-Detection
-1577423134=एंटी-डिटेक्शन
+# EN: Anti-Detection##sa
+683255490=विरोधी-Detection
 
-# EN: Any target in range
-3516261591=रेंज में कोई भी लक्ष्य
+# EN: Anti-Rollbar
+1746663933=विरोधी-Rollbar
 
 # EN: Appearance
 3647733735=दिखावट
 
+# EN: Appearance is detached into its own window.
+152646341=दिखावट (आंशिक)
+
+# EN: Applies the matching bypass when a product is known, else fires every bypass in sequence
+3122665781=जब उत्पाद ज्ञात हो तो मिलान वाला बाइपास लागू करता है, नहीं तो हर बाइपास को क्रम से चलाता है
+
+# EN: Apply All Bypasses
+3323601319=सभी बायपास लागू करें
+
 # EN: Apply Model
 2794752200=मॉडल लागू करें
+
+# EN: Apply Once
+2523546706=एक बार लागू करें
 
 # EN: Apply Preset
 3793427380=प्रीसेट लागू करें
@@ -214,11 +292,23 @@
 # EN: Apply To
 3114722325=पर लागू करें
 
+# EN: Arc Launch
+725540891=चाप लॉन्च
+
+# EN: Arc Strength
+3477155189=Arc शक्ति
+
 # EN: Armor Bar
 1640301539=कवच बार
 
 # EN: Arrow
 182494798=तीर
+
+# EN: Assets
+2845258552=संपत्ति
+
+# EN: Assets include models (.ydr), textures (.ytd), maps (.ymap), audio, scripts, etc.
+871503844=स्क्रिप्ट
 
 # EN: Attach
 3601695277=जोड़ें
@@ -235,11 +325,23 @@
 # EN: Auto
 3043925626=ऑटो
 
+# EN: Auto Bone by Distance
+1825046816=दूरी (आंशिक)
+
+# EN: Auto Detach
+2467019578=अलग करें (आंशिक)
+
+# EN: Auto Detect
+3732574150=स्वचालित Detect
+
 # EN: Auto Detect Anti-Cheat
 3303598959=एंटी-चीट ऑटो पहचान
 
 # EN: Auto Fire
 3918303945=ऑटो फ़ायर
+
+# EN: Auto Fire##mb
+209012486=ऑटो फायर (आंशिक)
 
 # EN: Auto Godmode
 2673570143=ऑटो गॉडमोड
@@ -250,14 +352,14 @@
 # EN: Auto Heal on Kill
 38124947=किल पर ऑटो हील
 
-# EN: Auto Hit
-252819216=ऑटो हिट
-
 # EN: Auto Pilot
 1235508069=ऑटो पायलट
 
 # EN: Auto Punch
 4126830016=ऑटो पंच
+
+# EN: Auto Release##grapple
+3777573760=स्वचालित Release
 
 # EN: Auto Repair
 173214996=ऑटो मरम्मत
@@ -270,6 +372,15 @@
 
 # EN: Auto Switch on Kill##sa
 2174464398=किल पर ऑटो स्विच##sa
+
+# EN: Auto Teleport to Waypoint
+3054113761=टेलीपोर्ट (आंशिक)
+
+# EN: Auto-Disable for Explosives##trig
+1277304267=विस्फोटकों के लिए अक्षम करें (आंशिक)
+
+# EN: Auto-derive press/release timings from each weapon's native fire rate. Turn off for manual control.
+4100389573=फायर रेट (आंशिक)
 
 # EN: Auto-detect fonts from Windows
 2577479103=Windows से फ़ॉन्ट ऑटो-पहचान
@@ -292,8 +403,8 @@
 # EN: Automatically heals when HP drops below threshold
 758450938=HP सीमा से नीचे गिरने पर ऑटो हील
 
-# EN: Automatically punches when close enough to a target
-3378891542=लक्ष्य के काफ़ी क़रीब होने पर ऑटो पंच
+# EN: Automatically teleports when you set a waypoint
+1231136245=टेलीपोर्ट (आंशिक)
 
 # EN: Avg FT
 2437122580=औसत FT
@@ -312,6 +423,9 @@
 
 # EN: BMX
 1131912276=BMX
+
+# EN: Back
+927041140=पीछे
 
 # EN: Background
 4262714420=पृष्ठभूमि
@@ -343,11 +457,23 @@
 # EN: Background##weapon
 1937834289=पृष्ठभूमि##weapon
 
+# EN: Ban Player
+3035498839=प्लेयर बैन करें
+
 # EN: Bar
 2151715081=बार
 
+# EN: Bars & Text
+3795115434=बार और पाठ
+
 # EN: Basic
 4281242592=बेसिक
+
+# EN: Beam Color
+2989953785=Beam रंग
+
+# EN: Beam Thickness
+3961740012=मोटाई (आंशिक)
 
 # EN: Beast Fall
 3610673836=बीस्ट फ़ॉल
@@ -373,8 +499,17 @@
 # EN: Behind Player TP
 2362883765=खिलाड़ी के पीछे TP
 
+# EN: Bike
+3883417820=बाइक
+
+# EN: Blacklight
+810608065=काली रोशनी
+
 # EN: Blackout
 1180381498=ब्लैकआउट
+
+# EN: Blame: ON (clear)
+2216872016=ब्लेम: चालू (क्लियर)
 
 # EN: Blazer
 2166734073=Blazer
@@ -394,11 +529,26 @@
 # EN: Block
 3828602749=ब्लॉक
 
+# EN: Block Game Input
+2568311256=गेम इनपुट ब्लॉक करें
+
 # EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
 366586212=Block CancelEvent() से इवेंट रोकता है। Unblock इवेंट को दोबारा पंजीकृत करता है।
 
 # EN: Blood Red
 3933943680=ख़ूनी लाल
+
+# EN: Blue
+2320856042=नीला
+
+# EN: Blue/White
+861581190=नीला/सफेद
+
+# EN: Blue/White 2
+2026258907=नीला/सफेद 2
+
+# EN: Blue/White 3
+2391502181=नीला/सफेद 3
 
 # EN: Blur
 1103389357=धुंधला
@@ -406,8 +556,14 @@
 # EN: Body
 2351258280=बॉडी
 
+# EN: Body & Damage
+3333545826=नुकसान (आंशिक)
+
 # EN: Body BG
 2797276020=बॉडी BG
+
+# EN: Body Border
+2027388166=बॉर्डर (आंशिक)
 
 # EN: Body Gradient
 706368864=बॉडी ग्रेडिएंट
@@ -430,6 +586,9 @@
 # EN: Boost Speed
 2314291611=बूस्ट गति
 
+# EN: Boost Strength
+2561393931=Boost शक्ति
+
 # EN: Border
 1453979255=बॉर्डर
 
@@ -442,20 +601,32 @@
 # EN: Border Style
 350757194=बॉर्डर शैली
 
+# EN: Border Thick
+4263082925=बॉर्डर (आंशिक)
+
 # EN: Border Thickness
 3884077482=बॉर्डर मोटाई
 
 # EN: Border##cp
 216211181=बॉर्डर##cp
 
+# EN: Border##dd
+1336714047=बॉर्डर (आंशिक)
+
 # EN: Border##notif
 336356185=बॉर्डर##notif
+
+# EN: Border##sl
+3865657270=बॉर्डर (आंशिक)
 
 # EN: Border##sp
 192186828=बॉर्डर##sp
 
 # EN: Border##tt
 3335618363=बॉर्डर##tt
+
+# EN: Bordered
+3525280289=बॉर्डर (आंशिक)
 
 # EN: Both
 3759669763=दोनों
@@ -478,11 +649,29 @@
 # EN: Box Only
 2220777776=केवल बॉक्स
 
+# EN: Box and text fade with distance — far cars become subtle
+3475337068=दूरी (आंशिक)
+
+# EN: Box##obj
+2187178641=बॉक्स
+
+# EN: Brake
+243491644=ब्रेक
+
+# EN: Brake Bias Front
+1166353899=ब्रेक पूर्वाग्रह सामने
+
 # EN: Brake Force
 864573685=ब्रेक बल
 
+# EN: Brakes
+975516570=ब्रेक
+
 # EN: Branding
 637151929=ब्रांडिंग
+
+# EN: Break
+1663863439=विराम
 
 # EN: Brightness
 26603225=चमक
@@ -508,6 +697,15 @@
 # EN: Bullet Tracers
 2673625274=बुलेट ट्रेसर
 
+# EN: Bulletproof Tires
+145936881=बुलेटप्रूफ टायर
+
+# EN: Bullets Per Shot
+170073245=प्रति शॉट गोलियाँ
+
+# EN: Bullseye
+2977736409=बिल्कुल सही
+
 # EN: Burn
 2096267097=जलाएँ
 
@@ -532,14 +730,32 @@
 # EN: Buttons
 2668497503=बटन
 
+# EN: Buttons (teleport, actions, etc.)
+1490120760=कार्य
+
 # EN: By Type
 132944993=प्रकार से
+
+# EN: Bypass Result
+396932726=परिणाम बायपास करें
 
 # EN: Bypassed
 716678219=बायपास हो गया
 
+# EN: Bypasses
+1667536244=बायपास
+
+# EN: Bypasses stack and carry real ban risk — test on a throwaway account first.
+2077015=बायपास
+
 # EN: CPU time for frame animation.
 2221402083=फ़्रेम एनिमेशन के लिए CPU समय।
+
+# EN: Cache dump complete!
+1285465544=कैश डंप पूर्ण!
+
+# EN: Cached Files
+889517808=कैश की गई फ़ाइलें
 
 # EN: Cage All
 382838472=सभी को पिंजरे में डालें
@@ -547,11 +763,32 @@
 # EN: Cage Player
 94667905=खिलाड़ी को पिंजरे में डालें
 
+# EN: Camera
+626544054=कैमरा
+
 # EN: Camera FOV
 3127376300=कैमरा FOV
 
+# EN: Camera Only
+4032522243=केवल कैमरा
+
+# EN: Camera only — ped stays still. Invisible to server.
+1589156699=अदृश्य (आंशिक)
+
 # EN: Cancel
 3692849629=रद्द करें
+
+# EN: Cancels *:ThnAC mirror events + sets thn_disabletrigger / creative_network convars
+923673445=रद्द करें (आंशिक)
+
+# EN: Cancels likizao:* events
+3148036773=likizao:* इवेंट रद्द करता है
+
+# EN: Cancels reaper:* events + TriggerServerEvent filter + log-spam thread
+2385295508=reaper:* इवेंट रद्द करता है + TriggerServerEvent फ़िल्टर + लॉग-स्पैम थ्रेड
+
+# EN: Cap
+2482489232=टोपी
 
 # EN: Careful
 3082188318=सावधान
@@ -574,6 +811,12 @@
 # EN: Change Rate
 949770967=बदलाव दर
 
+# EN: Chaos
+2793060944=अराजकता
+
+# EN: Cheatsheet (F1)
+402162894=चीटशीट (F1)
+
 # EN: China
 3307270334=चीन
 
@@ -586,11 +829,20 @@
 # EN: Circle+Dot
 2897117632=वृत्त+बिंदु
 
+# EN: Class Coloring
+3721721673=क्लास रंग
+
+# EN: Classic
+2458459502=क्लासिक
+
 # EN: Clean
 1640993750=साफ़
 
 # EN: Clear
 916995460=साफ़ करें
+
+# EN: Clear All
+1803284832=सभी साफ करें
 
 # EN: Clear Blue
 1120199508=साफ़ नीला
@@ -604,8 +856,17 @@
 # EN: Clear Key
 1838276207=कुंजी साफ़ करें
 
+# EN: Clear Selection
+3954337100=चयन साफ करें
+
 # EN: Clear on Teleport
 1659055056=टेलीपोर्ट पर साफ़ करें
+
+# EN: Click 'Scan Cache' to read the FiveM cache database.
+3706823806=FiveM कैश डेटाबेस पढ़ने के लिए 'कैश स्कैन करें' पर क्लिक करें।
+
+# EN: Click 'Scan Cache' to read the database. Files are organized by type, server, and resource.
+1445129018=प्रकार से (आंशिक)
 
 # EN: Click Start to scan server resources for events.
 2559388892=इवेंट के लिए सर्वर रिसोर्स स्कैन करने के लिए Start क्लिक करें।
@@ -613,11 +874,14 @@
 # EN: Click UI
 1200896506=क्लिक UI
 
-# EN: Click key button to rebind. ESC to cancel.
-939410858=रीबाइंड करने के लिए कुंजी बटन दबाएँ। रद्द करने के लिए ESC।
+# EN: Click a player in the overlay (with menu open) to draw a line to them
+3041232413=ओवरले
 
 # EN: Click to apply model
 1083648646=मॉडल लागू करने के लिए क्लिक करें
+
+# EN: Click to fire, click again to retarget
+2727610507=लक्ष्य (आंशिक)
 
 # EN: Click to spawn
 4007395385=स्पॉन करने के लिए क्लिक करें
@@ -649,14 +913,20 @@
 # EN: Close
 1204344681=बंद करें
 
-# EN: Closest to Crosshair
-1908711443=क्रॉसहेयर के सबसे नज़दीक
+# EN: Closest
+3389338466=बंद करें
 
 # EN: Collision Proof
 821592069=टक्कर-रोधी
 
 # EN: Color
 3914595625=रंग
+
+# EN: Color A
+4250468165=रंग A
+
+# EN: Color B
+1995633279=रंग B
 
 # EN: Color Picker
 1734248191=रंग चयनकर्ता
@@ -669,6 +939,15 @@
 
 # EN: Color Pickers
 967634097=रंग चयनकर्ता
+
+# EN: Color by Class
+3570899930=वर्ग द्वारा रंग
+
+# EN: Color##chamsi
+3247613901=रंग##chamsi
+
+# EN: Color##grpg
+4241090951=रंग##grpg
 
 # EN: Colors
 140995175=रंग
@@ -687,6 +966,9 @@
 
 # EN: Compass
 3738173000=दिशा-सूचक
+
+# EN: Conceal you from network sync — other players see you frozen at the entry spot, then desync entirely. Voice still works.
+2929301778=आपको नेटवर्क सिंक से छिपाता है — दूसरे प्लेयर आपको प्रवेश स्थान पर जमे हुए देखते हैं, फिर आप पूरी तरह डिसिंक हो जाते हैं। वॉइस अभी भी काम करती है।
 
 # EN: Config
 1264390909=कॉन्फ़िग
@@ -730,6 +1012,9 @@
 # EN: Constant
 3907938741=स्थिर
 
+# EN: Constant rate — raw aim correction
+2155008193=स्थिर (आंशिक)
+
 # EN: Constant##skid
 1199242396=स्थिर##skid
 
@@ -738,6 +1023,12 @@
 
 # EN: Content Pad
 2392358571=सामग्री पैड
+
+# EN: Continuously detaches you from any parent entity and clears restraint animations every tick — cuffs and grabs can't stick
+3961499241=एनिमेशन (आंशिक)
+
+# EN: Control Vehicle
+3891580591=वाहन नियंत्रित करें
 
 # EN: Controls
 594033165=नियंत्रण
@@ -757,6 +1048,9 @@
 # EN: Coordinates
 2789151618=निर्देशांक
 
+# EN: Coords
+917192739=रंग
+
 # EN: Copied event name to clipboard
 3300867=इवेंट नाम क्लिपबोर्ड पर कॉपी हुआ
 
@@ -775,11 +1069,20 @@
 # EN: Copy Name
 4181535183=नाम कॉपी करें
 
+# EN: Copy Path
+2554133180=पथ कॉपी करें
+
+# EN: Core
+3262906017=कोर
+
 # EN: Corner Length
 2709775814=कोने की लंबाई
 
 # EN: Corners
 1329770163=कोने
+
+# EN: Count
+1573697297=संख्या
 
 # EN: Counter-CW
 424479239=वामावर्त
@@ -799,6 +1102,21 @@
 # EN: Crosshair Numbers
 3190854118=क्रॉसहेयर नंबर
 
+# EN: Crouch Spam
+987224071=क्राउच स्पैम
+
+# EN: Crouch Speed
+4131343827=Crouch गति
+
+# EN: Crush
+2511841424=कुचलें
+
+# EN: Crush/Ram Mode
+2348735336=कुचल/राम मोड
+
+# EN: Crush/Ram Player
+2810899241=प्लेयर को कुचलें/राम करें
+
 # EN: Cursor Color
 1006036086=कर्सर रंग
 
@@ -811,14 +1129,41 @@
 # EN: Custom AC
 703041167=कस्टम AC
 
-# EN: Custom Crosshair
-3384202717=कस्टम क्रॉसहेयर
-
 # EN: Custom Cursor
 1312703150=कस्टम कर्सर
 
 # EN: Custom Folder Name (optional):
 3844090700=कस्टम फ़ोल्डर नाम (वैकल्पिक):
+
+# EN: Custom Neon
+1060682944=कस्टम (आंशिक)
+
+# EN: Custom RGB
+4256892969=कस्टम (आंशिक)
+
+# EN: Custom Tires
+544751089=कस्टम (आंशिक)
+
+# EN: Customize##ddsty
+1466910820=कस्टम (आंशिक)
+
+# EN: Customize##grp
+1365816375=कस्टम (आंशिक)
+
+# EN: Customize##hbarsty
+2034804524=कस्टम (आंशिक)
+
+# EN: Customize##nbsty
+1039221734=कस्टम (आंशिक)
+
+# EN: Customize##sl
+4220190893=कस्टम (आंशिक)
+
+# EN: Customize##spsty
+2752626057=कस्टम (आंशिक)
+
+# EN: Customize##tgl
+2661039819=कस्टम (आंशिक)
 
 # EN: Damage
 1125348833=नुकसान
@@ -829,8 +1174,14 @@
 # EN: Damage Log
 1288883294=नुकसान लॉग
 
+# EN: Damage Multi##mb2
+630170040=नुकसान (आंशिक)
+
 # EN: Damage Multiplier
 403675709=नुकसान गुणक
+
+# EN: Damage Multiplier##mb
+1361489778=नुकसान (आंशिक)
 
 # EN: Damage Numbers
 901708624=नुकसान संख्या
@@ -840,6 +1191,21 @@
 
 # EN: Damage Player
 393364144=खिलाड़ी को नुकसान
+
+# EN: Damage Taken
+701476604=नुकसान (आंशिक)
+
+# EN: Damage##laser
+1935586125=नुकसान (आंशिक)
+
+# EN: Damage##laserdmg
+3830742261=नुकसान (आंशिक)
+
+# EN: Damage##mb
+2337379826=नुकसान (आंशिक)
+
+# EN: Dark Smoke
+142763422=गहरा धुआं
 
 # EN: Darkness
 1749136079=अंधेरा
@@ -910,7 +1276,7 @@
 # EN: Delete this theme?
 2754582444=यह थीम हटाएँ?
 
-# EN: Deleted:
+# EN: Deleted: 
 3394613473=हटाया गया:
 
 # EN: Deluxo Mode
@@ -922,14 +1288,23 @@
 # EN: Describe what you want:
 1226247808=वर्णन करें कि आप क्या चाहते हैं:
 
+# EN: Desync Amount
+66128051=असिंक्रोनाइजेशन राशि
+
 # EN: Detach
 4291111140=अलग करें
+
+# EN: Detach From Entity
+2669760588=अलग करें (आंशिक)
 
 # EN: Detach camera and fly around freely
 2017641408=कैमरा अलग करें और स्वतंत्र रूप से उड़ें
 
 # EN: Detail Text##notif
 2416834241=विवरण टेक्स्ट##notif
+
+# EN: Details
+2999341846=विस्तार
 
 # EN: Detected
 1404062231=पहचाना गया
@@ -949,8 +1324,14 @@
 # EN: Dim Amount
 1388938324=मंदता मात्रा
 
+# EN: Direct Matrix
+2316365146=मैट्रिक्स (आंशिक)
+
 # EN: Direction
 887068712=दिशा
+
+# EN: Direction Arrow
+1352051813=दिशा (आंशिक)
 
 # EN: Direction Arrows
 1959535538=दिशा तीर
@@ -961,14 +1342,50 @@
 # EN: Direction##grp
 2633968279=दिशा##grp
 
+# EN: Direction##tglg
+2813082977=दिशा (आंशिक)
+
+# EN: Dirt Level
+2097080762=धूल स्तर
+
 # EN: Disable Anti-Cheat
 3713723029=एंटी-चीट अक्षम करें
+
+# EN: Disable EagleAC
+3749989703=EagleAC अक्षम करें
 
 # EN: Disable ElectronAC
 3852262134=ElectronAC अक्षम करें
 
+# EN: Disable FiniAC
+4027094632=FiniAC अक्षम करें
+
+# EN: Disable FireAC
+4172386454=FireAC अक्षम करें
+
+# EN: Disable Fiveguard
+674576624=Fiveguard अक्षम करें
+
+# EN: Disable Likizao AC
+1769843243=Likizao AC अक्षम करें
+
+# EN: Disable Long-Tail AC
+2408589976=Long-Tail AC अक्षम करें
+
 # EN: Disable NM Fall
 3649142862=NM फ़ॉल अक्षम करें
+
+# EN: Disable PhoenixAC
+4071712726=PhoenixAC अक्षम करें
+
+# EN: Disable ReaperAC
+1788044941=ReaperAC अक्षम करें
+
+# EN: Disable ThnAC
+306636585=ThnAC अक्षम करें
+
+# EN: Disable WaveShield
+633003215=WaveShield अक्षम करें
 
 # EN: Disable for Explosives
 1184164823=विस्फोटकों के लिए अक्षम करें
@@ -985,6 +1402,9 @@
 # EN: Disables natural motion fall
 2981961057=प्राकृतिक गति गिरावट अक्षम करता है
 
+# EN: Disables player lock-on and marks you as friendly for targeting + damage. Other players can't aim-assist or shoot you, but RP scripts may detect this.
+399655631=प्लेयर लॉक-ऑन अक्षम करता है और लक्ष्यीकरण + डैमेज के लिए आपको मित्रवत चिह्नित करता है। दूसरे प्लेयर आप पर aim-assist या शूट नहीं कर सकते, लेकिन RP स्क्रिप्ट इसे पहचान सकती हैं।
+
 # EN: Disables skydive transition
 257734351=स्काइडाइव ट्रांज़िशन अक्षम करता है
 
@@ -999,6 +1419,9 @@
 
 # EN: Distance Bone
 1749124048=दूरी बोन
+
+# EN: Distance Fade
+115233056=दूरी (आंशिक)
 
 # EN: Distance Labels
 462378492=दूरी लेबल
@@ -1030,17 +1453,38 @@
 # EN: Dividers
 4266747014=विभाजक
 
+# EN: Don't trigger on targets closer than this (anti point-blank wall-bang)
+769855118=लक्ष्य
+
+# EN: Don't trigger on targets farther than this (anti sniper-snap)
+2306830922=लक्ष्य
+
+# EN: Don't trigger while holding RPG / grenade launcher / sticky bomb — prevents point-blank suicide
+2817569578=इवेंट (आंशिक)
+
 # EN: Done Scream
 2791358581=चीख़ ख़त्म
 
+# EN: Done!
+1499912973=पूरा!
+
+# EN: Doors
+2277806379=दरवाजे
+
 # EN: Dot
 289406910=बिंदु
+
+# EN: Dot Color
+1433097755=Dot रंग
 
 # EN: Dot Outline
 1280327065=बिंदु आउटलाइन
 
 # EN: Dot Size
 631688132=बिंदु आकार
+
+# EN: Dot Size##grapple
+738962740=बिंदु आकार (आंशिक)
 
 # EN: Dot Spacing
 3608568270=बिंदु अंतर
@@ -1060,17 +1504,23 @@
 # EN: Draw Calls
 610979268=ड्रॉ कॉल्स
 
-# EN: Draws a circle showing the melee target selection area
-4093610293=मेली लक्ष्य चयन क्षेत्र दिखाने वाला वृत्त बनाता है
+# EN: Draw ESP on dynamic world objects (props, dropped weapons, etc.)
+1797081634=हथियार
 
-# EN: Draws a line from crosshair to the locked melee target
-2699968102=क्रॉसहेयर से लॉक किए गए मेली लक्ष्य तक रेखा खींचता है
+# EN: Draw a line from your crosshair to the currently selected vehicle
+2774106492=क्रॉसहेयर (आंशिक)
+
+# EN: Drive Bias
+4226445847=ड्राइव पूर्वाग्रह
 
 # EN: Drive Style
 3330668057=ड्राइव शैली
 
 # EN: Drive to Waypoint
 53776605=वेपॉइंट तक ड्राइव करें
+
+# EN: Drop Interval
+2449030008=अंतराल (आंशिक)
 
 # EN: Drop Shadow
 362604306=ड्रॉप शैडो
@@ -1084,11 +1534,20 @@
 # EN: Dropdown Hover
 7476142=ड्रॉपडाउन होवर
 
+# EN: Dropdown Style
+933713766=ड्रॉपडाउन (आंशिक)
+
 # EN: Dropdown Sub-Tabs
 914167550=ड्रॉपडाउन सब-टैब
 
 # EN: Dropdowns
 51766618=ड्रॉपडाउन
+
+# EN: Drops random vehicles around you from the sky
+3882522336=वाहन (आंशिक)
+
+# EN: Drunk
+1071358210=नशे में
 
 # EN: Dual UI mode is not yet available.
 1792964426=ड्यूअल UI मोड अभी उपलब्ध नहीं है।
@@ -1108,6 +1567,9 @@
 # EN: Dump All Scripts
 2383975502=सभी स्क्रिप्ट डंप करें
 
+# EN: Dump Filtered
+1978498044=फिल्टर (आंशिक)
+
 # EN: Dump Mode
 320906311=डंप मोड
 
@@ -1123,14 +1585,26 @@
 # EN: Dumping all resources...
 3090493905=सभी रिसोर्स डंप हो रहे हैं...
 
+# EN: Dumping cache assets...
+2842862816=कैश एसेट डंप किए जा रहे हैं...
+
+# EN: Dumping filtered assets...
+3351347782=फिल्टर (आंशिक)
+
 # EN: Duration
 3674968789=अवधि
 
 # EN: Duration##dmglog
 2155043513=अवधि##dmglog
 
+# EN: Duration##dmglog2
+4242220220=अवधि (आंशिक)
+
 # EN: Duration##dmgnum
 1606858786=अवधि##dmgnum
+
+# EN: Duration##mbtr
+2070453810=अवधि (आंशिक)
 
 # EN: Duration##pt
 2015408410=अवधि##pt
@@ -1140,6 +1614,12 @@
 
 # EN: Dusk
 2177164377=संध्या
+
+# EN: Dynamic
+1539023636=गतिशील
+
+# EN: Dynamic FOV##sa
+156212456=गतिशील
 
 # EN: Dynamic Light
 3938333546=गतिशील प्रकाश
@@ -1153,8 +1633,8 @@
 # EN: ESP
 3007444226=ESP
 
-# EN: ESP Settings
-3361209094=ESP सेटिंग्स
+# EN: Easy Handling
+752176618=आसान संचालन
 
 # EN: Edge Arrows
 3739190029=किनारे के तीर
@@ -1180,6 +1660,9 @@
 # EN: Effects
 3222754290=प्रभाव
 
+# EN: Electric Blue
+290718067=विद्युत नीला
+
 # EN: ElectronAC heartbeat — may be kicked in 2-5 min.
 3667341283=ElectronAC हार्टबीट — 2-5 मिनट में किक हो सकता है।
 
@@ -1189,11 +1672,20 @@
 # EN: Embedded
 2292057362=एम्बेडेड
 
+# EN: Emergency Color
+1265670537=Emergency रंग
+
 # EN: Empty Only
 335310304=केवल खाली
 
 # EN: Enable Abilities
 1740941838=क्षमताएँ सक्षम करें
+
+# EN: Enable Snapline
+2091316079=स्नैपलाइन सक्षम करें
+
+# EN: Enable Vehicle ESP first
+3456228678=वाहन (आंशिक)
 
 # EN: Enable##grpimg
 4123962691=सक्षम करें##grpimg
@@ -1216,11 +1708,29 @@
 # EN: Enabled
 1527945487=सक्षम
 
+# EN: Enabled##chams
+3153914251=सक्षम (आंशिक)
+
+# EN: Enabled##dlog
+2859054786=सक्षम (आंशिक)
+
+# EN: Enabled##dmg
+2528055362=सक्षम (आंशिक)
+
+# EN: Enabled##hm
+1214860466=सक्षम (आंशिक)
+
+# EN: Enabled##obj
+119737682=सक्षम (आंशिक)
+
 # EN: Enabled##silent
 697079411=सक्षम##silent
 
 # EN: Enabled##veh
 2924172026=सक्षम##veh
+
+# EN: Encrypted (Tebex escrow)
+1068505279=एन्क्रिप्ट (Tebex एस्क्रो)
 
 # EN: End
 2965669335=अंत
@@ -1239,6 +1749,9 @@
 
 # EN: Engine Health
 3323537364=इंजन स्वास्थ्य
+
+# EN: Engine State
+3910017357=इंजन की स्थिति
 
 # EN: Enhanced Stars
 751095042=उन्नत तारे
@@ -1282,6 +1795,9 @@
 # EN: Events
 3674287931=इवेंट
 
+# EN: ExecuteCommand stop fireac + cancel fireac:* events
+4133342422=ExecuteCommand stop fireac + fireac:* इवेंट रद्द करें
+
 # EN: Expand Sub-Tabs
 788906364=सब-टैब विस्तारित करें
 
@@ -1297,11 +1813,20 @@
 # EN: Explosion Proof
 1687470245=विस्फोट-रोधी
 
+# EN: Explosion Size
+1777991272=Explosion आकार
+
 # EN: Explosion Type
 330699093=विस्फोट प्रकार
 
+# EN: Explosion on Hit
+2540577033=टकराव पर विस्फोट
+
 # EN: Explosive Ammo
 2972685631=विस्फोटक गोला-बारूद
+
+# EN: Explosive##mb2
+914121166=विस्फोटक##mb2
 
 # EN: Export
 677160269=निर्यात
@@ -1312,8 +1837,17 @@
 # EN: Extended parachute blend
 2346391276=विस्तारित पैराशूट ब्लेंड
 
+# EN: Extra
+2934273293=अतिरिक्त
+
+# EN: Extract RPF archives
+2384431469=RPF संग्रह निकालें
+
 # EN: Extras
 2099753448=अतिरिक्त
+
+# EN: Extras##lockon
+1596163466=अतिरिक्त (आंशिक)
 
 # EN: Eye Lasers
 2648065578=आँखों से लेज़र
@@ -1336,11 +1870,20 @@
 # EN: FOV Cone
 3855747913=FOV शंकु
 
+# EN: FOV Limit##mb
+3932303542=दृष्टि क्षेत्र सीमा##mb
+
 # EN: FOV Override
 660796900=FOV ओवरराइड
 
 # EN: FOV Radius
 577842563=FOV त्रिज्या
+
+# EN: FOV Radius##mb
+3586756969=FOV त्रिज्या##mb
+
+# EN: FOV Scale by Distance
+4020045898=दूरी (आंशिक)
 
 # EN: FOV Scaling
 1352560597=FOV स्केलिंग
@@ -1378,6 +1921,9 @@
 # EN: Failed to load
 4017223651=लोड विफल
 
+# EN: Failed to open RPF archive
+1467477904=RPF संग्रह खोलने में विफल
+
 # EN: Fake Crouch
 2499659129=नकली झुकना
 
@@ -1390,6 +1936,9 @@
 # EN: Fast Climb
 1192867602=तेज़ चढ़ाई
 
+# EN: Fast Pullout
+91531864=तेजी से निकालें
+
 # EN: Fast Punch
 4255767614=तेज़ मुक्का
 
@@ -1398,6 +1947,12 @@
 
 # EN: Fast Run
 1518054783=तेज़ दौड़
+
+# EN: Fast start, brakes near target
+1671645065=लक्ष्य (आंशिक)
+
+# EN: Feature Keybinds
+2384437387=कीबाइंड (आंशिक)
 
 # EN: Features
 1642194290=फ़ीचर्स
@@ -1459,6 +2014,15 @@
 # EN: Filter:
 585229116=फ़िल्टर:
 
+# EN: Filtered dump complete!
+4205511732=फिल्टर (आंशिक)
+
+# EN: Filters
+3325143685=फिल्टर (आंशिक)
+
+# EN: Filters gameEventTriggered for the GTA events the AC subscribes to + Ban/Kick/Check scrub
+2217272921=AC द्वारा सब्सक्राइब किए गए GTA इवेंट्स के लिए gameEventTriggered फ़िल्टर करता है + Ban/Kick/Check सफाई
+
 # EN: Fine-Tuning
 3037120010=फ़ाइन-ट्यूनिंग
 
@@ -1477,17 +2041,29 @@
 # EN: Fire Event
 2661019027=इवेंट फ़ायर करें
 
+# EN: Fire Key
+1768177807=आग की कुंजी
+
 # EN: Fire Proof
 2377383169=आग-रोधी
 
 # EN: Fire Rate
 3724661835=फ़ायर दर
 
+# EN: Fire Rate##mb
+1343186129=फायर रेट (आंशिक)
+
+# EN: Fire Toolkit (LMB)
+449173871=फायर टूलकिट (LMB)
+
 # EN: Firework Launcher, Compact GL
 1025450837=Firework Launcher, Compact GL
 
 # EN: Fit
 1780184594=फ़िट
+
+# EN: Fix
+281494355=ठीक करें
 
 # EN: Flame Effect
 979047845=लौ प्रभाव
@@ -1497,6 +2073,12 @@
 
 # EN: Flight Mode
 3303824494=उड़ान मोड
+
+# EN: Flip Interval
+2923665449=अंतराल (आंशिक)
+
+# EN: Floating
+49814712=तैरता हुआ
 
 # EN: Fly like Superman. WASD to move, Space to ascend, Shift to boost, Jump to ground pound.
 179929088=सुपरमैन की तरह उड़ें। WASD चलने के लिए, Space ऊपर जाने के लिए, Shift बूस्ट के लिए, Jump ग्राउंड पाउंड के लिए।
@@ -1524,6 +2106,9 @@
 
 # EN: Font Size##dmglog
 1349856237=फ़ॉन्ट आकार##dmglog
+
+# EN: Font Size##dmglog2
+3170336878=फॉन्ट आकार (आंशिक)
 
 # EN: Font names not ready
 1640246123=फ़ॉन्ट नाम तैयार नहीं
@@ -1561,8 +2146,14 @@
 # EN: Force Skydive
 351881956=ज़बरदस्ती स्काइडाइव
 
+# EN: Force Weapon Wheel
+1719815463=हथियार (आंशिक)
+
 # EN: Force on Ped
 3779398860=पेड पर बल
+
+# EN: Force-highlight police / EMT / fire vehicles regardless of class color setting
+849623759=वाहन (आंशिक)
 
 # EN: Forces dive animation
 2975166545=डाइव एनिमेशन ज़बरदस्ती चलाता है
@@ -1582,11 +2173,20 @@
 # EN: Forces skydive animation
 2019531610=स्काइडाइव एनिमेशन ज़बरदस्ती चलाता है
 
+# EN: Forces the native GTA weapon wheel even on servers that replace it with a custom inventory. Risk: some servers detect this; weapon access still depends on what's in your inventory.
+1435771926=कस्टम (आंशिक)
+
 # EN: Forces uphill jump animation
 1929062318=चढ़ाई वाला जंप एनिमेशन ज़बरदस्ती चलाता है
 
+# EN: Forward
+854951812=आगे
+
 # EN: Forward Speed
 1876555102=आगे की गति
+
+# EN: Frame This Player
+375330543=इस प्लेयर को फँसाएँ
 
 # EN: Frametime Graph
 3749077224=फ़्रेमटाइम ग्राफ
@@ -1627,11 +2227,32 @@
 # EN: Friends are excluded
 3097198968=मित्रों को छोड़ दिया गया है
 
+# EN: Front
+2314350754=सामने
+
+# EN: Front Bias
+1673565011=सामने पूर्वाग्रह
+
 # EN: Full
 2467592022=पूर्ण
 
+# EN: Full Pitch Rotation
+1312545797=रोटेशन (आंशिक)
+
+# EN: Full Rate While Moving
+29503458=चलते समय पूर्ण दर
+
+# EN: Full noclip — freeze + teleport. Most control, detectable.
+3610510432=टेलीपोर्ट (आंशिक)
+
+# EN: Fullscreen key-bindings overlay — also toggleable with F1
+1568419146=ओवरले (आंशिक)
+
 # EN: Fully heals HP + gives 50 armor when you kill a player
 2096177985=खिलाड़ी को मारने पर HP पूरा भरता है + 50 कवच देता है
+
+# EN: G: cancel tether
+3310409512=रद्द करें (आंशिक)
 
 # EN: GPU
 591383768=GPU
@@ -1648,8 +2269,14 @@
 # EN: Generate
 1864538988=जनरेट करें
 
+# EN: Generic event cancel sweep for vcac/venomac/wolfac/godzillaac/wolfshield/ultimateac/etc.
+3752519004=vcac/venomac/wolfac/godzillaac/wolfshield/ultimateac आदि के लिए सामान्य इवेंट-कैंसल स्वीप
+
 # EN: Get Started
 1434685453=शुरू करें
+
+# EN: Get into a vehicle to use Los Santos Customs.
+3269752882=कस्टम (आंशिक)
 
 # EN: Ghost Alpha
 1370266825=भूत अल्फ़ा
@@ -1680,6 +2307,9 @@
 
 # EN: Glide
 4179664184=ग्लाइड
+
+# EN: Glitch Vehicle
+3263514815=वाहन ग्लिच करें
 
 # EN: Global Controls
 535742188=वैश्विक नियंत्रण
@@ -1714,6 +2344,9 @@
 # EN: Glow##pt
 329084185=चमक##pt
 
+# EN: Glow##skel
+3909833531=चमक##skel
+
 # EN: Glow##snap
 3584938764=चमक##snap
 
@@ -1726,11 +2359,29 @@
 # EN: God Mode
 3602224294=गॉड मोड
 
+# EN: Golden Shower
+1383505900=सुनहरी वर्षा
+
 # EN: Grab
 2936829358=पकड़ें
 
 # EN: Grab Opacity
 1641363077=पकड़ अपारदर्शिता
+
+# EN: Grab Range
+2257887998=पकड़ की रेंज
+
+# EN: Grab Shape
+3731252436=आकृति पकड़ें
+
+# EN: Grab Size
+390888471=Grab आकार
+
+# EN: Grab and throw peds. Works on players.
+3635339915=खिलाड़ी (आंशिक)
+
+# EN: Grab and throw vehicles. Works with players inside.
+1845135183=खिलाड़ी (आंशिक)
 
 # EN: Grab##scr
 2129025338=पकड़##scr
@@ -1744,6 +2395,9 @@
 # EN: Gradient
 3345778296=ग्रेडिएंट
 
+# EN: Gradient (ON)
+145492381=ग्रेडिएंट
+
 # EN: Gradient Accent
 375722623=ग्रेडिएंट एक्सेंट
 
@@ -1753,8 +2407,14 @@
 # EN: Gradient End
 2363959488=ग्रेडिएंट अंत
 
+# EN: Gradient Fill
+1626977588=ग्रेडिएंट (आंशिक)
+
 # EN: Gradient##skel
 4185602752=ग्रेडिएंट##skel
+
+# EN: Gradient##sl
+4056088422=ग्रेडिएंट (आंशिक)
 
 # EN: Gradient##snap
 996503281=ग्रेडिएंट##snap
@@ -1771,8 +2431,17 @@
 # EN: Graph Line
 2499037406=ग्राफ रेखा
 
+# EN: Grapple Hook
+3088883906=हुक पकड़ें
+
 # EN: Gravity Gun
 593196728=ग्रेविटी गन
+
+# EN: Gravity##spider
+69796183=गुरुत्वाकर्षण##spider
+
+# EN: Green
+1439605128=हरा
 
 # EN: Grenade
 3058715602=ग्रेनेड
@@ -1819,8 +2488,20 @@
 # EN: HUD Panels
 2229228524=HUD पैनल
 
+# EN: HUD##grapple
+3437743643=HUD##grapple
+
+# EN: Handling
+4213145855=संचालन
+
 # EN: Hands
 1613305285=हाथ
+
+# EN: Hash##obj
+3284555243=हैश##obj
+
+# EN: Hash:
+713552469=हैश:
 
 # EN: Hat
 2537416713=टोपी
@@ -1882,14 +2563,23 @@
 # EN: Header##pnl
 2800582941=हेडर##pnl
 
+# EN: Heading
+1140182852=शीर्षक
+
 # EN: Headshot Chance
 1279076512=हेडशॉट संभावना
+
+# EN: Headshot Chance##mb
+105036172=हेडशॉट संभावना (आंशिक)
 
 # EN: Headshot Color
 3745724835=हेडशॉट रंग
 
 # EN: Headshot Highlight
 3490981979=हेडशॉट हाइलाइट
+
+# EN: Headshot Only##trig
+2393271930=केवल हेडशॉट##trig
 
 # EN: Heal Self
 1837308584=खुद को हील करें
@@ -1927,6 +2617,9 @@
 # EN: Height##jh
 4205595266=ऊँचाई##jh
 
+# EN: Height##tgl
+3237570541=ऊँचाई (आंशिक)
+
 # EN: Hex
 3544636510=Hex
 
@@ -1942,6 +2635,9 @@
 # EN: Hide ESP
 3489105641=ESP छुपाएँ
 
+# EN: Hide From Others
+943693745=दूसरों से छिपाएँ
+
 # EN: Hide Key
 1973484404=छुपाने की कुंजी
 
@@ -1951,8 +2647,26 @@
 # EN: Hide Overlays
 1525934716=ओवरले छुपाएँ
 
+# EN: Hide Own Vehicle
+2520687793=वाहन (आंशिक)
+
+# EN: Hide Player ESP In Vehicle
+1137983958=खिलाड़ी (आंशिक)
+
+# EN: Hide Preview
+3899698831=पूर्वावलोकन (आंशिक)
+
 # EN: Hide Tracers / Lines
 425240012=ट्रेसर / रेखाएँ छुपाएँ
+
+# EN: Hide Vehicle ESP In Vehicle
+3498199106=वाहन (आंशिक)
+
+# EN: High End
+117532326=उच्च अंत
+
+# EN: Highlight Emergency
+3503442503=आपातकाल हाइलाइट करें
 
 # EN: Highlight Headshots
 1100352321=हेडशॉट हाइलाइट करें
@@ -1987,14 +2701,20 @@
 # EN: Hold
 2552174939=होल्ड
 
-# EN: Hold LMB to grab nearest ped, RMB to throw. Must be unarmed.
-3981296497=निकटतम पेड पकड़ने के लिए LMB दबाए रखें, फेंकने के लिए RMB। निहत्था होना ज़रूरी है।
+# EN: Hold Distance
+646883769=दूरी (आंशिक)
 
-# EN: Hold LMB to grab nearest vehicle, RMB to throw. Must be unarmed.
-966767189=निकटतम वाहन पकड़ने के लिए LMB दबाए रखें, फेंकने के लिए RMB। निहत्था होना ज़रूरी है।
+# EN: Hold E near a player to pull and punch
+4004346598=खिलाड़ी (आंशिक)
+
+# EN: Hold Key##trig
+1503355022=कुंजी दबाएं##trig
 
 # EN: Hold Mode
 200873681=होल्ड मोड
+
+# EN: Honeypot suppression + entityDamaged silencer + screenshot stub + extended weapon clamp
+2152885364=नुकसान (आंशिक)
 
 # EN: Horizon
 3479812369=क्षितिज
@@ -2004,6 +2724,9 @@
 
 # EN: Horizontal
 1700296974=क्षैतिज
+
+# EN: Hot Pink
+1224546404=गर्म गुलाबी
 
 # EN: Hour
 1605056896=घंटा
@@ -2028,6 +2751,12 @@
 
 # EN: Humanization
 2824293924=मानवीकरण
+
+# EN: Hybrid
+3907068470=संकर
+
+# EN: Hybrid All
+1008496125=सभी संकर
 
 # EN: ID
 459292749=ID
@@ -2140,6 +2869,9 @@
 # EN: Info##notif
 3630429841=जानकारी##notif
 
+# EN: Injured
+3763007772=घायल
+
 # EN: Input
 3018672514=इनपुट
 
@@ -2182,6 +2914,9 @@
 # EN: Intensity##pedl
 778732463=तीव्रता##pedl
 
+# EN: Interior Light
+1872217725=आंतरिक प्रकाश
+
 # EN: Interval
 640635350=अंतराल
 
@@ -2194,14 +2929,23 @@
 # EN: Item Active
 3806767807=आइटम सक्रिय
 
+# EN: Item Gap
+794979395=आइटम अंतराल
+
 # EN: Item Height
 1662290394=आइटम ऊँचाई
 
 # EN: Item Hover
 3271408553=आइटम होवर
 
+# EN: Item Pad X
+1161658994=आइटम पैड X
+
 # EN: Item Spacing
 3472915733=आइटम अंतर
+
+# EN: Items
+3308786431=वस्तु
 
 # EN: JATO Boost
 959701148=JATO बूस्ट
@@ -2211,6 +2955,9 @@
 
 # EN: Jitter
 2175396620=जिटर
+
+# EN: Jitter / Humanize
+3885455134=जिटर (आंशिक)
 
 # EN: Joint Color
 1649662583=जॉइंट रंग
@@ -2239,8 +2986,14 @@
 # EN: KEYBINDS
 1174365445=कीबाइंड
 
+# EN: Keep Momentum
+1501721584=गति बनाए रखें
+
 # EN: Keeps engine running when you exit the vehicle
 3947995004=वाहन से बाहर निकलने पर इंजन चालू रखता है
+
+# EN: Key
+3917505287=कुंजी
 
 # EN: Key Pill / Accent
 254348757=कुंजी पिल / एक्सेंट
@@ -2269,6 +3022,9 @@
 # EN: Kill Color
 2587993530=किल रंग
 
+# EN: Kill Cooldown
+2797216207=कूलडाउन (आंशिक)
+
 # EN: Kill Counter HUD
 3558074372=किल काउंटर HUD
 
@@ -2284,11 +3040,26 @@
 # EN: Knob
 3174489586=नॉब
 
+# EN: Knob Pad
+2773421388=नॉब पैड
+
+# EN: Knob Scale
+993676257=नॉब स्केल
+
+# EN: Knob Shape
+843089538=नॉब आकृति
+
 # EN: Kuruma
 2922118804=Kuruma
 
 # EN: LMB = Grab, RMB = Throw
 3198042721=LMB = पकड़ें, RMB = फेंकें
+
+# EN: LMB Mode
+2469445833=LMB मोड
+
+# EN: LSC
+3420690284=LSC
 
 # EN: Lag Switch
 1975962994=लैग स्विच
@@ -2302,14 +3073,26 @@
 # EN: Large GIFs with many frames use more VRAM and
 1677371317=कई फ़्रेम वाली बड़ी GIF अधिक VRAM उपयोग करती हैं और
 
+# EN: Laser Eyes
+1990442658=लेजर आँखें
+
 # EN: Laser Kill Speed
 3536074409=लेज़र किल गति
 
 # EN: Launch All
 2200616639=सभी को लॉन्च करें
 
+# EN: Launch Player
+3612681718=प्लेयर लॉन्च करें
+
+# EN: Launch Speed
+341258954=लॉन्च स्पीड
+
 # EN: Launch Up
 3341920784=ऊपर लॉन्च करें
+
+# EN: Launch Upward
+2068197786=ऊपर लॉन्च करें (आंशिक)
 
 # EN: Layout
 790219145=लेआउट
@@ -2332,17 +3115,29 @@
 # EN: Library
 3519106789=लाइब्रेरी
 
+# EN: License Plate
+2703105969=लाइसेंस प्लेट
+
 # EN: Light Cortana
 611147987=लाइट Cortana
 
 # EN: Light Glow
 1698708842=हल्की चमक
 
+# EN: Light Smoke
+3178245753=हल्का धुआं
+
 # EN: Lights - Cortana
 1092922240=लाइट्स - Cortana
 
 # EN: Lights - Glow
 486333628=लाइट्स - चमक
+
+# EN: Lime Green
+3969499562=नीबू हरा
+
+# EN: Limo
+3830760436=लिमोसिन
 
 # EN: Line
 2053992847=रेखा
@@ -2356,8 +3151,14 @@
 # EN: Line Thickness
 3321288925=रेखा मोटाई
 
+# EN: Line Thickness##grapple
+3569743401=रेखा मोटाई (आंशिक)
+
 # EN: Line of Sight
 3600102520=दृष्टि रेखा
+
+# EN: Linear
+959610275=रैखिक
 
 # EN: Lines
 3759251173=रेखाएँ
@@ -2370,6 +3171,15 @@
 
 # EN: List UI is coming soon and not yet available.
 3836961011=सूची UI जल्द आ रही है और अभी उपलब्ध नहीं है।
+
+# EN: Live Apply
+2118212254=लाइव लागू करें
+
+# EN: Live state — updates while triggerbot runs
+3789983802=ट्रिगरबॉट (आंशिक)
+
+# EN: Livery
+2153615120=लाइवरी
 
 # EN: Load
 837451790=लोड करें
@@ -2398,6 +3208,9 @@
 # EN: Local Player
 3579097795=स्थानीय खिलाड़ी
 
+# EN: Local View
+595432013=स्थानीय दृश्य
+
 # EN: Lock On
 3927233622=लॉक ऑन
 
@@ -2422,20 +3235,26 @@
 # EN: Long Blend High Falls
 1586511569=ऊँची गिरावट में लंबा ब्लेंड
 
+# EN: Long-tail catch-all
+1393017772=Long-tail कैच-ऑल
+
 # EN: Longer Parachute Blend
 1389515746=लंबा पैराशूट ब्लेंड
 
 # EN: Longer blend on high falls
 2594425733=ऊँची गिरावट पर लंबा ब्लेंड
 
-# EN: Look at a player and hold E to pull yourself to them and melee them.
-1495046615=किसी खिलाड़ी को देखें और उनकी ओर खींचने और मेली करने के लिए E दबाए रखें।
-
 # EN: Loops
 3264076679=लूप
 
+# EN: Lower release = faster fire (full-auto). Higher = semi-auto pace.
+3001053453=कम रिलीज = तेजी से आग (पूर्ण-स्वचालित)। अधिक = अर्ध-स्वचालित गति।
+
 # EN: Lowest HP
 890079348=सबसे कम HP
+
+# EN: Lowrider
+1141691757=निम्न सवारी
 
 # EN: Lua
 379960767=Lua
@@ -2461,6 +3280,9 @@
 # EN: MGs
 2564243601=MGs
 
+# EN: MMB: shoot web | W: boost | S: brake
+763837915=MMB: वेब शूट करें | W: बूस्ट | S: ब्रेक
+
 # EN: Magic Bullet
 2156396594=जादुई गोली
 
@@ -2476,6 +3298,9 @@
 # EN: Maintenance
 1970712939=रखरखाव
 
+# EN: Makes you harder to hit by aimbots
+824366569=आपको एमबॉट्स से मारना कठिन बनाता है
+
 # EN: Makes you invincible. Right-click for keybind.
 3031350692=आपको अजेय बनाता है। कीबाइंड के लिए राइट-क्लिक करें।
 
@@ -2487,6 +3312,9 @@
 
 # EN: Map Image
 2485108282=मैप छवि
+
+# EN: Margin
+3834294781=मार्जिन
 
 # EN: Marker Duration
 3550132583=मार्कर अवधि
@@ -2500,11 +3328,26 @@
 # EN: Marker Size##tt
 1410759241=मार्कर आकार##tt
 
+# EN: Marker confirmed — bypass executed
+3122296175=पुष्टि करें (आंशिक)
+
+# EN: Marker missing — Cfx rejected the inject
+3736917153=मार्कर लापता है — Cfx ने इंजेक्शन को खारिज कर दिया
+
+# EN: Mass
+1271239883=द्रव्यमान
+
 # EN: Match Accent
 2004835312=एक्सेंट मिलाएँ
 
 # EN: Matrix
 837004614=मैट्रिक्स
+
+# EN: Matrix 2
+3998844046=मैट्रिक्स (आंशिक)
+
+# EN: Matrix Update Pos
+294231992=मैट्रिक्स (आंशिक)
 
 # EN: Max Armor
 1642775380=अधिकतम कवच
@@ -2515,8 +3358,14 @@
 # EN: Max Connections
 2093456670=अधिकतम कनेक्शन
 
+# EN: Max Consec. Headshots
+1202996373=अधिकतम लगातार हेडशॉट
+
 # EN: Max Distance
 1098241997=अधिकतम दूरी
+
+# EN: Max Distance##esp
+113564246=दूरी (आंशिक)
 
 # EN: Max Distance##mb
 3059089789=अधिकतम दूरी##mb
@@ -2529,6 +3378,9 @@
 
 # EN: Max Kills/Min
 2248378999=अधिकतम किल/मिनट
+
+# EN: Max Kills/Min##mb
+3946597068=अधिकतम किल/मिनट (आंशिक)
 
 # EN: Max Offset
 1479160603=अधिकतम ऑफ़सेट
@@ -2547,6 +3399,12 @@
 
 # EN: Max Range Filter
 2461467509=अधिकतम रेंज फ़िल्टर
+
+# EN: Max Range##grapple
+3685554316=अधिकतम रेंज (आंशिक)
+
+# EN: Max Render##esp
+2059091760=अधिकतम रेंडर##esp
 
 # EN: Max Resolution
 2928541794=अधिकतम रिज़ॉल्यूशन
@@ -2575,8 +3433,17 @@
 # EN: Memory Usage
 3562636674=मेमोरी उपयोग
 
+# EN: Menu Position
+488308314=स्थिति (आंशिक)
+
+# EN: Method
+3688351661=विधि
+
 # EN: Min Color
 1271198994=न्यूनतम रंग
+
+# EN: Min Distance
+1069235608=दूरी (आंशिक)
 
 # EN: Min Scale
 4136179093=न्यूनतम स्केल
@@ -2589,6 +3456,9 @@
 
 # EN: Minimal
 2190409216=न्यूनतम
+
+# EN: Mint Green
+1013459273=पुदीना हरा
 
 # EN: Minute
 3134348697=मिनट
@@ -2611,14 +3481,26 @@
 # EN: Model
 1816327236=मॉडल
 
+# EN: Mods
+3207858859=संशोधन
+
 # EN: Modules
 2096891096=मॉड्यूल
 
 # EN: Molotov
 4233768403=मोलोटोव
 
+# EN: Momentum##grapple
+3843275369=गति##grapple
+
+# EN: Monkey-patches AddEventHandler to disable a.modules[*].enabled flags
+1593097459=a.modules[*].enabled फ़्लैग अक्षम करने के लिए AddEventHandler को monkey-patch करता है
+
 # EN: Moon Glow
 214814360=चंद्र चमक
+
+# EN: More
+3843409854=और
 
 # EN: Morning
 852964312=सुबह
@@ -2635,8 +3517,17 @@
 # EN: Movement Prediction##sa
 598861308=चलन पूर्वानुमान##sa
 
+# EN: Multi-Bullet
+3705725373=बहु-गोली
+
+# EN: Multi-Target
+2095291306=लक्ष्य (आंशिक)
+
 # EN: Multiple rings stack from feet to head
 1361975713=पैरों से सिर तक कई रिंग्स
+
+# EN: Muscle
+3124123546=मांसपेशी
 
 # EN: N
 3649581809=N
@@ -2653,6 +3544,9 @@
 # EN: NPCs Only
 3543922621=केवल NPC
 
+# EN: NUI/CEF
+2526213452=NUI/CEF
+
 # EN: Name
 3873537812=नाम
 
@@ -2662,11 +3556,17 @@
 # EN: Name Size
 847030063=नाम आकार
 
+# EN: Name##obj
+2714736600=नाम##obj
+
 # EN: Name##veh
 501997998=नाम##veh
 
 # EN: Name:
 2913015549=नाम:
+
+# EN: Natural
+4292977478=प्राकृतिक
 
 # EN: Nav Bar Background
 75021814=नेव बार पृष्ठभूमि
@@ -2676,6 +3576,9 @@
 
 # EN: Nav Logo Tint
 720450998=नेव लोगो टिंट
+
+# EN: Nav Matrix
+1950226930=मैट्रिक्स (आंशिक)
 
 # EN: Nav Pill Color
 2062752829=नेव पिल रंग
@@ -2704,17 +3607,26 @@
 # EN: Nearest
 775913483=निकटतम
 
-# EN: Nearest Distance
-1000483901=निकटतम दूरी
+# EN: Nearest Veh
+3801560300=निकटतम (आंशिक)
 
 # EN: Neck
 996632005=गर्दन
 
+# EN: Neon
+2445973230=नियॉन
+
 # EN: Neon Border
 1220884655=नियॉन बॉर्डर
 
+# EN: Neon Color
+2835812883=Neon रंग
+
 # EN: Network
 2981967937=नेटवर्क
+
+# EN: Never draw vehicle ESP for your own car
+3365696195=वाहन (आंशिक)
 
 # EN: Never run out of stamina while sprinting
 3367150289=दौड़ते समय स्टैमिना कभी ख़त्म नहीं होता
@@ -2767,6 +3679,9 @@
 # EN: No Spread
 3427132305=कोई स्प्रेड नहीं
 
+# EN: No action keybinds set
+3967958661=कीबाइंड (आंशिक)
+
 # EN: No anti-cheat found on this server
 653618892=इस सर्वर पर कोई एंटी-चीट नहीं मिला
 
@@ -2782,8 +3697,8 @@
 # EN: No fall damage from any height
 951215153=किसी भी ऊँचाई से गिरने पर कोई नुकसान नहीं
 
-# EN: No feature binds set.
-1399384241=कोई फ़ीचर बाइंड सेट नहीं।
+# EN: No feature keybinds set
+1231463115=कीबाइंड (आंशिक)
 
 # EN: No features found matching
 849221076=कोई मेल खाने वाले फ़ीचर नहीं मिले
@@ -2796,6 +3711,12 @@
 
 # EN: No image selected.
 3081214655=कोई छवि चयनित नहीं।
+
+# EN: No matches
+3293291230=कोई मेल नहीं
+
+# EN: No one talking
+1795249198=कोई बात नहीं कर रहा
 
 # EN: No resources loaded. Click Refresh to scan.
 2609580651=कोई रिसोर्स लोड नहीं। स्कैन करने के लिए रीफ़्रेश क्लिक करें।
@@ -2815,6 +3736,9 @@
 # EN: No triggers found in this resource.
 3107039142=इस रिसोर्स में कोई ट्रिगर नहीं मिले।
 
+# EN: Noclip Mode
+488026672=Noclip मोड
+
 # EN: None
 493038497=कोई नहीं
 
@@ -2833,6 +3757,9 @@
 # EN: Not connected
 3609921055=कनेक्ट नहीं
 
+# EN: Not scanned
+1772111012=स्कैन नहीं किया गया
+
 # EN: Not scanned yet — click Scan or enable Auto Detect
 2639677942=अभी स्कैन नहीं हुआ — Scan क्लिक करें या Auto Detect सक्षम करें
 
@@ -2842,11 +3769,23 @@
 # EN: Notifications
 3527871691=सूचनाएँ
 
+# EN: Npc Hijack
+756304747=NPC हाईजैक
+
+# EN: Numeric engine health value above box
+2839969393=इंजन स्वास्थ्य (आंशिक)
+
 # EN: OFF Time
 2870256580=OFF समय
 
 # EN: ON Time
 2066901124=ON समय
+
+# EN: Object
+966099553=ऑब्जेक्ट
+
+# EN: Object ESP
+3149334266=वस्तु ESP
 
 # EN: Objects / Walls
 3327894545=वस्तुएँ / दीवारें
@@ -2856,6 +3795,9 @@
 
 # EN: Off
 125735237=बंद
+
+# EN: Offroad
+2897504452=ऑफ-रोड
 
 # EN: Offset
 2705095151=ऑफ़सेट
@@ -2884,14 +3826,32 @@
 # EN: Only While ADS##trig
 1546980182=केवल ADS में##trig
 
-# EN: Only targets behind walls
-2146794671=केवल दीवारों के पीछे के लक्ष्य
+# EN: Only While Aiming
+11361291=केवल निशाना लगाते समय
+
+# EN: Only While Shooting
+4036765638=केवल शूट करते समय
+
+# EN: Only fire when the head bone is in FOV — body shots are disabled regardless of hitbox setting
+3589621212=अक्षम (आंशिक)
+
+# EN: Only fire while a key is held. Useful for legit-passing — full manual control.
+2261554339=केवल कुंजी दबाते समय आग लगाएं। वैध पास के लिए उपयोगी — पूर्ण मैनुअल नियंत्रण।
+
+# EN: Only show vehicles with no occupants
+804112822=वाहन दिखाएं (आंशिक)
 
 # EN: Opacity
 3644411688=अपारदर्शिता
 
 # EN: Opacity##dmglog
 2914177699=अपारदर्शिता##dmglog
+
+# EN: Opacity##dmglog2
+2225663666=अपारदर्शिता (आंशिक)
+
+# EN: Open
+2625123096=खोलें
 
 # EN: Open Folder
 615535440=फ़ोल्डर खोलें
@@ -2911,6 +3871,9 @@
 # EN: Options
 2704274338=विकल्प
 
+# EN: Orange
+2379473940=नारंगी
+
 # EN: Origin
 2371626452=मूल
 
@@ -2922,6 +3885,9 @@
 
 # EN: Out of range
 170898955=रेंज से बाहर
+
+# EN: Outer Ring
+3684560347=बाहरी रिंग
 
 # EN: Outer Ring Color
 2790912397=बाहरी रिंग रंग
@@ -2937,6 +3903,9 @@
 
 # EN: Outline##head
 1915029405=आउटलाइन##head
+
+# EN: Outline##skel
+3425843942=आउटलाइन##skel
 
 # EN: Output Directory:
 3566541914=आउटपुट डायरेक्टरी:
@@ -2976,6 +3945,21 @@
 
 # EN: PNG or JPG recommended.
 2646030720=PNG या JPG अनुशंसित।
+
+# EN: Pad X
+4090104508=पैड X
+
+# EN: Pad X##dd
+1605964143=पैड X##dd
+
+# EN: Pad X##sp
+976082529=पैड X##sp
+
+# EN: Pad Y##dd
+4284433392=पैड Y##dd
+
+# EN: Pad Y##sp
+2158836274=पैड Y##sp
 
 # EN: Padding
 625300402=पैडिंग
@@ -3022,6 +4006,12 @@
 # EN: Pass Through
 3173995589=आर-पार
 
+# EN: Passenger Count
+3042766986=यात्री गणना
+
+# EN: Passive Mode
+2075178546=पैसिव मोड
+
 # EN: Passively regenerate health over time
 240888173=समय के साथ निष्क्रिय रूप से स्वास्थ्य पुनर्जनन
 
@@ -3031,8 +4021,20 @@
 # EN: Paste your API key here...
 261626132=अपनी API कुंजी यहाँ पेस्ट करें...
 
+# EN: Path copied!
+1491921977=पथ कॉपी किया गया!
+
 # EN: Path:
 507121814=पथ:
+
+# EN: Pause after a target dies (anti kill-chain detection)
+2053686850=लक्ष्य
+
+# EN: Pearlescent
+3095366650=मोती जैसा
+
+# EN: Ped Chams
+1321244684=पेड चैम्स
 
 # EN: Ped Follows Camera
 1872355422=पेड कैमरा का अनुसरण करता है
@@ -3052,14 +4054,23 @@
 # EN: Peds / NPCs
 1876490144=पेड / NPC
 
-# EN: Per-Feature Binds
-2900791157=प्रति-फ़ीचर बाइंड
+# EN: Performance
+681794815=प्रदर्शन
 
 # EN: Performance Limits
 1215680916=प्रदर्शन सीमाएँ
 
 # EN: Performance Stats
 4260591683=प्रदर्शन आँकड़े
+
+# EN: Phase 4: HTTP GET to 127.0.0.1:13172/json/list. Catches CEF-only ACs (FiniAC) but most server ACs flag this — kick/ban risk.
+940989757=सर्वर
+
+# EN: Physics
+582404775=भौतिकी
+
+# EN: Physics##grapple
+2646572249=भौतिकी##grapple
 
 # EN: Pill
 2294717198=पिल
@@ -3079,11 +4090,23 @@
 # EN: Pipe Bombs, Proximity Mines, Flares
 1693538821=पाइप बम, प्रॉक्सिमिटी माइन, फ़्लेयर
 
+# EN: Pistol
+2038363526=पिस्टल
+
 # EN: Pistols
 1837167641=पिस्तौल
 
+# EN: Pitch Speed
+2860630765=Pitch गति
+
 # EN: Place .lua files in:
 3888411723=.lua फ़ाइलें यहाँ रखें:
+
+# EN: Plate Style
+2052384119=प्लेट शैली
+
+# EN: Plate Text
+999064755=प्लेट पाठ
 
 # EN: Player
 1862763509=खिलाड़ी
@@ -3100,20 +4123,32 @@
 # EN: Players
 591508004=खिलाड़ी
 
-# EN: Players ESP
-4197193239=खिलाड़ी ESP
-
 # EN: Players Only
 766737098=केवल खिलाड़ी
 
 # EN: Plays a beep sound when a player gets within range
 1863429150=जब कोई खिलाड़ी रेंज में आता है तो बीप ध्वनि बजाता है
 
+# EN: Plus-Dot
+1388012873=प्लस-बिंदु
+
+# EN: Police = blue, Ambulance = red, Sports = orange, etc.
+98887342=पुलिस = नीला, एम्बुलेंस = लाल, खेल = नारंगी, आदि।
+
+# EN: Pony Pink
+3111469211=घोड़ी गुलाबी
+
+# EN: Popup Style
+3924788302=पॉपअप शैली
+
 # EN: Popups
 3713054092=पॉपअप
 
 # EN: Position
 18243940=स्थिति
+
+# EN: Position Desync
+1269569986=स्थिति (आंशिक)
 
 # EN: Position History
 3857144579=स्थिति इतिहास
@@ -3130,6 +4165,9 @@
 # EN: Prediction
 796153596=पूर्वानुमान
 
+# EN: Prediction Factor
+53558502=गुणांक (आंशिक)
+
 # EN: Prediction##sa
 43230462=पूर्वानुमान##sa
 
@@ -3138,6 +4176,12 @@
 
 # EN: Preset
 2973707311=प्रीसेट
+
+# EN: Press C while sprinting to slide
+1716204492=स्प्रिंट करते समय स्लाइड करने के लिए C दबाएं
+
+# EN: Press Duration
+1411033764=अवधि (आंशिक)
 
 # EN: Press END to instantly disable all visuals, menu, overlays, ESP. Press END again to restore.
 477737018=सभी विज़ुअल, मेनू, ओवरले, ESP तुरंत बंद करने के लिए END दबाएँ। वापस लाने के लिए फिर END दबाएँ।
@@ -3160,6 +4204,9 @@
 # EN: Press the open key to toggle the menu anytime
 3803410397=मेनू कभी भी टॉगल करने के लिए ओपन कुंजी दबाएँ
 
+# EN: Press/release auto-tuned per weapon group
+2721688304=हथियार (आंशिक)
+
 # EN: Prevents fuel from draining on fuel-enabled servers
 857983888=ईंधन-सक्षम सर्वर पर ईंधन ख़त्म होने से रोकता है
 
@@ -3172,14 +4219,26 @@
 # EN: Primary
 303108068=प्राथमिक
 
+# EN: Primary Index
+1510988827=प्राथमिक (आंशिक)
+
+# EN: Primary/Secondary use factory paint chart indexes (with pearlescent undertone) instead of custom RGB
+75576912=कस्टम
+
 # EN: Priority
 342945216=प्राथमिकता
 
-# EN: Priority##melee
-3850166085=प्राथमिकता##melee
+# EN: Priority##mb
+331609036=प्राथमिकता (आंशिक)
 
 # EN: Priority##sa
 796836409=प्राथमिकता##sa
+
+# EN: Probe NUI Port
+565429198=जांच NUI पोर्ट
+
+# EN: Product
+95185533=उत्पाद
 
 # EN: Progress
 1089828659=प्रगति
@@ -3196,6 +4255,9 @@
 # EN: Proximity Alert
 1493469578=निकटता अलर्ट
 
+# EN: Pull Force
+3590688288=खींचने की शक्ति
+
 # EN: Pulse
 2572624287=पल्स
 
@@ -3211,6 +4273,9 @@
 # EN: Pulse##pedl
 4225047266=पल्स##pedl
 
+# EN: Punch All
+2677617383=सभी को घूंसा मारें
+
 # EN: Punch Loop
 913715001=पंच लूप
 
@@ -3219,6 +4284,15 @@
 
 # EN: Punch Rate
 1186403142=पंच दर
+
+# EN: Pure Black
+1403493381=शुद्ध काला
+
+# EN: Purple
+2665043236=बैंगनी
+
+# EN: Quadratic ease-in — classic aimbot feel
+2151802289=द्विघातीय शुरुआत — क्लासिक एम्बॉट अनुभव
 
 # EN: Quick Dump
 3771659481=त्वरित डंप
@@ -3253,6 +4327,15 @@
 # EN: Radius
 1337695475=त्रिज्या
 
+# EN: Radius##hbsty
+3794600950=त्रिज्या (आंशिक)
+
+# EN: Radius##nbsty
+2105130560=त्रिज्या (आंशिक)
+
+# EN: Radius##sp
+2876015957=त्रिज्या (आंशिक)
+
 # EN: Ragdoll
 540944468=रैगडॉल
 
@@ -3286,6 +4369,12 @@
 # EN: Rainbow Speed##pt
 461725058=इंद्रधनुष गति##pt
 
+# EN: Rainbow##chamsi
+3749707581=इंद्रधनुष (आंशिक)
+
+# EN: Rainbow##chamsvfx
+3065634418=इंद्रधनुष (आंशिक)
+
 # EN: Rainbow##fog
 3074789384=इंद्रधनुष##fog
 
@@ -3307,6 +4396,9 @@
 # EN: Rainbow##tl
 2474153670=इंद्रधनुष##tl
 
+# EN: Ram
+1357997983=राम
+
 # EN: Ram Distance
 2300880066=राम दूरी
 
@@ -3319,8 +4411,14 @@
 # EN: Ramp
 2775957121=रैंप
 
+# EN: Random
+3957470568=यादृच्छिक
+
 # EN: Random Driving
 651903587=यादृच्छिक ड्राइविंग
+
+# EN: Random Flip
+1035004639=यादृच्छिक फ्लिप
 
 # EN: Range
 332484516=रेंज
@@ -3331,17 +4429,29 @@
 # EN: Range Rings
 102053550=रेंज रिंग
 
+# EN: Range##laser
+1902577949=श्रेणी
+
 # EN: Rapid Fire
 4034658405=तेज़ फ़ायर
 
-# EN: Rapid punching — spams attack input for maximum DPS
-1255462882=तेज़ मुक्के — अधिकतम DPS के लिए हमला इनपुट स्पैम करता है
+# EN: Rapid Fire##mb
+2271628892=रैपिड फायर (आंशिक)
 
 # EN: Rate
 2120794248=दर
 
 # EN: Rate##serp
 1131381918=दर##serp
+
+# EN: Re-scans every 10s when clean, 3s when AC detected, 2s after bypass
+1201033208=पता चला (आंशिक)
+
+# EN: Read Resource Files
+3222843015=रिसोर्स (आंशिक)
+
+# EN: Reads FiveM's local cache database (LevelDB) to list all downloaded assets.
+2239289731=लोड हुआ
 
 # EN: Ready
 2084256605=तैयार
@@ -3351,6 +4461,9 @@
 
 # EN: Recommended image sizes:
 2704497521=अनुशंसित छवि आकार:
+
+# EN: Red
+2557620812=लाल
 
 # EN: Reduce incoming damage by a percentage. Click gear to adjust.
 2821777337=आने वाले नुकसान को प्रतिशत से कम करें। समायोजित करने के लिए गियर क्लिक करें।
@@ -3385,8 +4498,20 @@
 # EN: Registered But Not Triggered
 774818613=पंजीकृत लेकिन ट्रिगर नहीं हुआ
 
+# EN: Release Distance
+1257392546=दूरी (आंशिक)
+
+# EN: Release Duration
+4222363843=अवधि (आंशिक)
+
+# EN: Release##grapple
+1379360201=रिलीज##grapple
+
 # EN: Reload
 1571056488=रीलोड
+
+# EN: Remove
+3336096321=हटाएं
 
 # EN: Removes combat roll cooldown
 1447874427=कॉम्बैट रोल कूलडाउन हटाता है
@@ -3396,6 +4521,9 @@
 
 # EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
 2465448157=रेंडरिंग सेटिंग्स गेम द्वारा नियंत्रित होती हैं। VSync, फ़्रेम पेसिंग, और बैकएंड FiveM में कॉन्फ़िगर करने योग्य नहीं हैं।
+
+# EN: Renders an AC status indicator on screen even when menu is closed
+3367277342=मेनू बंद होने पर भी स्क्रीन पर AC स्टेटस इंडिकेटर रेंडर करता है
 
 # EN: Repair
 3327385526=मरम्मत
@@ -3417,6 +4545,9 @@
 
 # EN: Reset Fonts
 2389856026=फ़ॉन्ट रीसेट
+
+# EN: Reset Multipliers
+1050748381=गुणकों को रीसेट करें
 
 # EN: Reset Position
 1118816545=स्थिति रीसेट
@@ -3448,6 +4579,9 @@
 # EN: Resource Details
 2210156775=रिसोर्स विवरण
 
+# EN: Resource sandboxing or escrow likely blocked execution. Try again — Cfx sometimes accepts the second attempt.
+2008215087=रिसोर्स (आंशिक)
+
 # EN: Resource:
 294397415=रिसोर्स:
 
@@ -3460,11 +4594,17 @@
 # EN: Restore Position on Disable
 152322992=अक्षम करने पर स्थिति बहाल करें
 
+# EN: Restore Smooth Legit Defaults
+865595512=डिफ़ॉल्ट (आंशिक)
+
 # EN: Revenge Tracker
 315468113=बदला ट्रैकर
 
 # EN: Revive
 327204845=पुनर्जीवित करें
+
+# EN: Rifle
+2215287832=राइफल
 
 # EN: Rifles
 3712947327=राइफ़ल
@@ -3505,23 +4645,47 @@
 # EN: Risk: May result in kick/ban
 863799803=जोखिम: किक/बैन हो सकता है
 
+# EN: Risk: bypass may trigger kick or ban — verify result below
+4189366338=जोखिम: बायपास किक या बैन ट्रिगर कर सकता है — नीचे परिणाम सत्यापित करें
+
 # EN: Risky
 1413260749=जोखिमपूर्ण
 
 # EN: Rocket Boost
 298680161=रॉकेट बूस्ट
 
+# EN: Roof Livery
+3636525120=छत की लाइवरी
+
 # EN: Rotate with View
 4155635046=व्यू के साथ घुमाएँ
+
+# EN: Rotation
+2010988560=रोटेशन
 
 # EN: Rounding
 947963291=राउंडिंग
 
+# EN: Rounding##dd
+1251311131=राउंडिंग (आंशिक)
+
 # EN: Rounding##distbg
 4161243031=राउंडिंग##distbg
 
+# EN: Rounding##grp
+2835802707=राउंडिंग (आंशिक)
+
+# EN: Rounding##hbsty
+1472920854=राउंडिंग (आंशिक)
+
 # EN: Rounding##namebg
 3182791864=राउंडिंग##namebg
+
+# EN: Rounding##sl
+1227039286=राउंडिंग (आंशिक)
+
+# EN: Rounding##sp
+1851255963=राउंडिंग (आंशिक)
 
 # EN: Rounding##wepbg
 2546121190=राउंडिंग##wepbg
@@ -3547,6 +4711,9 @@
 # EN: S
 331032406=S
 
+# EN: S-curve — most human-like movement
+1272354739=गति (आंशिक)
+
 # EN: SCOOBY
 2730510897=SCOOBY
 
@@ -3555,6 +4722,12 @@
 
 # EN: SPECTATORS
 2185765281=दर्शक
+
+# EN: SUV
+3112393926=SUV
+
+# EN: Safe
+3011768144=सुरक्षित
 
 # EN: Sample Rate
 1680169433=सैंपल दर
@@ -3586,7 +4759,7 @@
 # EN: Saved Themes
 2236251465=सहेजी गई थीम
 
-# EN: Saved:
+# EN: Saved: 
 2514999957=सहेजा गया:
 
 # EN: Scale
@@ -3607,11 +4780,20 @@
 # EN: Scan All
 826028443=सभी स्कैन करें
 
+# EN: Scan Cache
+986258638=कैश स्कैन करें
+
+# EN: Scan Now
+387338497=अभी स्कैन करें
+
 # EN: Scan for Anti-Cheat
 3069664885=एंटी-चीट स्कैन करें
 
 # EN: Scanning all resources...
 2180117493=सभी रिसोर्स स्कैन हो रहे हैं...
+
+# EN: Scanning cache database...
+737610391=कैश डेटाबेस स्कैन किया जा रहा है...
 
 # EN: Scanning for triggers...
 3267756685=ट्रिगर स्कैन हो रहे हैं...
@@ -3679,8 +4861,14 @@
 # EN: Search
 4166004673=खोजें
 
+# EN: Search by filename or resource...
+3599741119=रिसोर्स (आंशिक)
+
 # EN: Search files...
 2743520297=फ़ाइलें खोजें...
+
+# EN: Search keybinds...
+705152961=कीबाइंड (आंशिक)
 
 # EN: Search peds...
 3129217742=पेड खोजें...
@@ -3712,6 +4900,9 @@
 # EN: Secondary
 3384035740=द्वितीयक
 
+# EN: Secondary Index
+3054904885=द्वितीयक (आंशिक)
+
 # EN: Section Font
 2820653597=सेक्शन फ़ॉन्ट
 
@@ -3732,6 +4923,9 @@
 
 # EN: Select Resource:
 2084042239=रिसोर्स चुनें:
+
+# EN: Select a file to view details.
+2226688427=विवरण देखने के लिए एक फाइल चुनें।
 
 # EN: Select a player
 1427174365=एक खिलाड़ी चुनें
@@ -3760,6 +4954,9 @@
 # EN: Separator
 600342395=विभाजक
 
+# EN: Separators
+2951428768=विभाजक (आंशिक)
+
 # EN: Serpentine
 2010529308=सर्पेंटाइन
 
@@ -3772,6 +4969,12 @@
 # EN: Server Info
 1790325725=सर्वर जानकारी
 
+# EN: Server:
+3443333975=सर्वर (आंशिक)
+
+# EN: Set Blame on Player
+2629605861=प्लेयर पर ब्लेम सेट करें
+
 # EN: Set Key
 2397500189=कुंजी सेट करें
 
@@ -3783,9 +4986,6 @@
 
 # EN: Set anchor + teleport to it with separate keys
 2852415891=अलग कुंजियों से एंकर सेट करें + उस पर टेलीपोर्ट करें
-
-# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
-1002208503=प्रत्येक फ़ीचर पंक्ति पर गियर आइकन से प्रति-फ़ीचर कीबाइंड सेट करें (राइट-क्लिक या गियर क्लिक करें)।
 
 # EN: Settings
 2768156407=सेटिंग्स
@@ -3814,8 +5014,17 @@
 # EN: Shadow##dist
 1556818514=छाया##dist
 
+# EN: Shadow##hbsty
+1178269524=छाया (आंशिक)
+
 # EN: Shadow##name
 1583130157=छाया##name
+
+# EN: Shadow##nbsty
+3639724956=छाया (आंशिक)
+
+# EN: Shadow##sp
+3975880048=छाया (आंशिक)
 
 # EN: Shadow##weapon
 559319637=छाया##weapon
@@ -3826,8 +5035,26 @@
 # EN: Shape & Size
 1482294196=आकार और साइज़
 
+# EN: Shift Boost
+2042876936=शिफ्ट बूस्ट
+
+# EN: Shift Key Boost
+3148042217=शिफ्ट कुंजी बूस्ट
+
+# EN: Shift Speed
+478735772=Shift गति
+
+# EN: Shoot Player
+1650471470=प्लेयर पर शूट करें
+
+# EN: Shoot Weapon
+1384005609=शूट वेपन
+
 # EN: Shoot laser beams from your eyes while flying
 1927972254=उड़ते समय आँखों से लेज़र बीम दागें
+
+# EN: Shotgun
+3028715589=शॉटगन
 
 # EN: Shotguns
 3978331987=शॉटगन
@@ -3841,14 +5068,20 @@
 # EN: Show
 4237361361=दिखाएँ
 
-# EN: Show Advanced
-2451177577=उन्नत दिखाएँ
-
 # EN: Show Category
 966325046=श्रेणी दिखाएँ
 
+# EN: Show Check (ON)
+3008117344=दिखाएं जांच
+
+# EN: Show Chevron
+3167784853=शेवरॉन दिखाएं
+
 # EN: Show Coordinates
 3389512578=निर्देशांक दिखाएँ
+
+# EN: Show Crosshair
+2503934774=क्रॉसहेयर (आंशिक)
 
 # EN: Show Date
 3033026641=तारीख़ दिखाएँ
@@ -3859,8 +5092,11 @@
 # EN: Show Distance
 1253886722=दूरी दिखाएँ
 
-# EN: Show FOV Circle
-3127357124=FOV वृत्त दिखाएँ
+# EN: Show Driver Name
+1030284275=ड्राइवर का नाम दिखाएं
+
+# EN: Show FOV Circle##mb
+890908940=FOV वृत्त दिखाएं##mb
 
 # EN: Show FPS
 2817813522=FPS दिखाएँ
@@ -3868,8 +5104,14 @@
 # EN: Show Graph
 2534847582=ग्राफ दिखाएँ
 
+# EN: Show HUD
+2628490103=HUD दिखाएं
+
 # EN: Show Header
 645770246=हेडर दिखाएँ
+
+# EN: Show Hint
+2676323835=संकेत दिखाएं
 
 # EN: Show Hints Overlay
 4000101783=संकेत ओवरले दिखाएँ
@@ -3886,6 +5128,9 @@
 # EN: Show Line
 1200799385=रेखा दिखाएँ
 
+# EN: Show Lock Status
+1102037709=लॉक स्थिति दिखाएं
+
 # EN: Show Logo
 395333305=लोगो दिखाएँ
 
@@ -3901,8 +5146,14 @@
 # EN: Show Names
 1773671442=नाम दिखाएँ
 
+# EN: Show Overlay
+1125873616=ओवरले (आंशिक)
+
 # EN: Show Preview
 1262585563=पूर्वावलोकन दिखाएँ
+
+# EN: Show Progress Bar
+714598285=प्रगति (आंशिक)
 
 # EN: Show Self
 1908654534=खुद को दिखाएँ
@@ -3922,6 +5173,9 @@
 # EN: Show Text
 1575008906=टेक्स्ट दिखाएँ
 
+# EN: Show Ticks
+2045038734=टिक दिखाएं
+
 # EN: Show Time
 2222431568=समय दिखाएँ
 
@@ -3934,11 +5188,20 @@
 # EN: Show Vehicles
 1292300392=वाहन दिखाएँ
 
+# EN: Show entity info for whatever is under the crosshair
+3715018311=क्रॉसहेयर (आंशिक)
+
 # EN: Show keybind hints for active movement extras on screen
 3465261614=स्क्रीन पर सक्रिय चलन अतिरिक्त के लिए कीबाइंड संकेत दिखाएँ
 
+# EN: Show occupied/total seats — e.g. 1/4
+2640818363=कब्जे वाली/कुल सीटें दिखाएं — जैसे 1/4
+
 # EN: Show on Startup
 1110455679=स्टार्टअप पर दिखाएँ
+
+# EN: Show the chrome / hubcap variant when picking wheel models
+3733798531=व्हील मॉडल चुनते समय क्रोम / हबकैप वेरिएंट दिखाएं
 
 # EN: Shows Kills / Deaths / K/D ratio in top-right corner
 1707224720=ऊपर-दाएँ कोने में किल / डेथ / K/D अनुपात दिखाता है
@@ -3954,6 +5217,9 @@
 
 # EN: Shrink
 3226637854=सिकुड़ें
+
+# EN: Shut
+999940627=बंद करें
 
 # EN: Sidebar
 129041593=साइडबार
@@ -3976,23 +5242,23 @@
 # EN: Silent Kill
 797641779=साइलेंट किल
 
+# EN: Simple
+2854970267=सरल
+
 # EN: Single Resource
 3904755329=एकल रिसोर्स
 
 # EN: Size
 3226656423=आकार
 
+# EN: Size:
+3605563786=आकार:
+
 # EN: Sizing
 1486663079=आकार निर्धारण
 
 # EN: Skeleton
 1816727634=कंकाल
-
-# EN: Skeleton 1
-663554603=कंकाल 1
-
-# EN: Skeleton 2
-911943623=कंकाल 2
 
 # EN: Skeleton Only
 1732653347=केवल कंकाल
@@ -4027,6 +5293,15 @@
 # EN: Slide Animation
 1430582691=स्लाइड एनिमेशन
 
+# EN: Slide Duration
+3546124011=अवधि (आंशिक)
+
+# EN: Slide Run
+755888626=स्लाइड दौड़
+
+# EN: Slide Speed
+3005432696=Slide गति
+
 # EN: Slider
 338352108=स्लाइडर
 
@@ -4048,6 +5323,15 @@
 # EN: Small
 3085983008=छोटा
 
+# EN: Small [ENG] indicator when the engine is running
+3393880064=दौड़ रहा है (आंशिक)
+
+# EN: Small arrow at the front of the box showing forward heading
+2192285291=आगे
+
+# EN: Smash
+3741264174=तोड़ो
+
 # EN: Smooth Animation
 2305435949=स्मूद एनिमेशन
 
@@ -4060,8 +5344,17 @@
 # EN: Smoothing
 980522697=स्मूदिंग
 
+# EN: Smoothing Curve
+3836268862=स्मूथिंग (आंशिक)
+
 # EN: Snap
 3320192477=स्नैप
+
+# EN: Snapline
+2295862069=स्नैपलाइन
+
+# EN: Snapline to Selected
+1059631253=चयनित के लिए स्नैपलाइन
 
 # EN: Snaplines
 3234673257=स्नैपलाइन
@@ -4126,29 +5419,71 @@
 # EN: Speed##btrbow
 1185079655=गति##btrbow
 
+# EN: Speed##chamsvfx
+1597739215=गति##chamsvfx
+
+# EN: Speed##grapple
+3686561716=गति##grapple
+
 # EN: Speed##hpsmooth
 2272127628=गति##hpsmooth
 
 # EN: Speed##serp
 3668104492=गति##serp
 
+# EN: Speed##tgl
+3045684305=गति##tgl
+
 # EN: Speeds up climbing and vaulting animations
 884886740=चढ़ाई और वॉल्टिंग एनिमेशन तेज़ करता है
+
+# EN: Spiderman
+2839799340=स्पाइडरमैन
+
+# EN: Spiderman Mode
+69796211=Spiderman मोड
 
 # EN: Spin
 3437710297=घूमना
 
+# EN: Spin Bot
+2695269945=स्पिन बॉट
+
 # EN: Spin Speed
 2064253717=घूमने की गति
 
+# EN: Spin in Vehicle
+865727437=वाहन (आंशिक)
+
+# EN: Spins your ped visually — visible to other players
+1946831982=खिलाड़ी (आंशिक)
+
+# EN: Spins your ped while you fight. Uses the shared spin bot runtime.
+2091252658=लड़ाई के दौरान आपके पेड को घुमाता है। साझा स्पिन बॉट रनटाइम का उपयोग करता है।
+
 # EN: Spoof Weapon
 1397032680=हथियार स्पूफ़
+
+# EN: Spoofs all 11 _WS:* state-bag keys @ 900ms + cancels all 9 __WaveShield:* events
+4254768349=रद्द करें (आंशिक)
+
+# EN: Sport
+415441725=खेल
+
+# EN: Spread
+3000203704=स्प्रेड
 
 # EN: Sprint Multiplier
 1215352304=दौड़ गुणक
 
 # EN: Square
 551846212=वर्ग
+
+# EN: Standard
+3169861569=मानक
+
+# EN: Star
+2620960594=तारा
 
 # EN: Start
 2229020447=शुरू
@@ -4168,23 +5503,35 @@
 # EN: Stats
 3337185076=आँकड़े
 
+# EN: Status
+1711913059=स्थिति
+
 # EN: Status Dots
 1792226764=स्थिति बिंदु
 
-# EN: Steal
-4209706760=चुराएँ
+# EN: Status##trig
+3863974180=स्थिति##trig
 
 # EN: Steal Outfit
 2382281041=पोशाक चुराएँ
 
+# EN: Steal Vehicle
+1468344584=वाहन चुराएँ
+
 # EN: Steam Proof
 3475233767=भाप-रोधी
+
+# EN: Steering Lock
+1302389977=स्टीयरिंग लॉक
 
 # EN: Sticky Target
 128465133=स्टिकी लक्ष्य
 
 # EN: Sticky Target##sa
 4029734851=स्टिकी लक्ष्य##sa
+
+# EN: Stock
+1007540054=स्टॉक
 
 # EN: Stop
 2467080178=रोकें
@@ -4194,6 +5541,15 @@
 
 # EN: Stop at Destination
 3456158729=गंतव्य पर रुकें
+
+# EN: Stops cam look, movement, sprint, jump, weapon and vehicle controls from registering while the menu is open
+2815977001=नियंत्रण (आंशिक)
+
+# EN: Stops drawing player ESP when the target is inside a vehicle
+1225845371=खिलाड़ी (आंशिक)
+
+# EN: Stops drawing vehicle ESP for vehicles you're inside
+3014293843=वाहन (आंशिक)
 
 # EN: Strafe Teleport
 736882111=स्ट्रेफ़ टेलीपोर्ट
@@ -4213,17 +5569,50 @@
 # EN: Stream Proof is experimental - may cause issues on some systems.
 1371944424=स्ट्रीम प्रूफ़ प्रयोगात्मक है - कुछ सिस्टम पर समस्या हो सकती है।
 
+# EN: Stream every setting to the vehicle each tick. Disable to freeze the current look.
+3597944676=वाहन (आंशिक)
+
+# EN: Stream multipliers to the current vehicle each tick. Disable to restore stock values.
+613102007=वाहन (आंशिक)
+
 # EN: Streamer
 322333922=स्ट्रीमर
 
 # EN: Stretch
 2333339779=स्ट्रेच
 
+# EN: Strip All Mods
+1531831026=सभी मॉड्स हटाएं
+
+# EN: Stubs the 3 documented FiniAC:* events. Real bypass needs NUI-side intervention.
+4173065376=इवेंट (आंशिक)
+
+# EN: Stumble
+366734720=ठोकर खाना
+
 # EN: Style
 2840017588=शैली
 
+# EN: Style##ddsty
+907347697=शैली##ddsty
+
+# EN: Style##grp
+189469325=शैली##grp
+
+# EN: Style##hbarsty
+1448214649=शैली##hbarsty
+
 # EN: Style##hp
 2155290340=शैली##hp
+
+# EN: Style##nbsty
+2949332535=शैली##nbsty
+
+# EN: Style##sl
+1843843488=शैली##sl
+
+# EN: Style##spsty
+2009239515=शैली##spsty
 
 # EN: Sub-Tab Icons
 2125121217=सब-टैब आइकन
@@ -4261,6 +5650,15 @@
 # EN: Superman
 3383293034=सुपरमैन
 
+# EN: Susp. Compression
+2070049490=सस्पेंशन। संपीड़न
+
+# EN: Susp. Rebound
+407800247=सस्पेंशन। रिबाउंड
+
+# EN: Suspension
+3873309071=सस्पेंशन
+
 # EN: Suspicious
 1438524565=संदिग्ध
 
@@ -4272,6 +5670,15 @@
 
 # EN: Sway Amount
 2679838369=हिलने की मात्रा
+
+# EN: Swing Animations
+1658319860=एनिमेशन (आंशिक)
+
+# EN: Swing Speed
+1243007496=Swing गति
+
+# EN: Swing##spider
+1759236626=झूला##spider
 
 # EN: Switch Delay
 2176114960=स्विच देरी
@@ -4324,11 +5731,17 @@
 # EN: Target
 2720140041=लक्ष्य
 
+# EN: Target Info Card
+2961879365=लक्ष्य (आंशिक)
+
 # EN: Target Info Overlay##sa
 1911780673=लक्ष्य जानकारी ओवरले##sa
 
 # EN: Target Line
 2375968002=लक्ष्य रेखा
+
+# EN: Target Line##mb
+1311974672=लक्ष्य (आंशिक)
 
 # EN: Target Line##sa
 71772006=लक्ष्य रेखा##sa
@@ -4336,14 +5749,29 @@
 # EN: Target Marker
 2135859714=लक्ष्य मार्कर
 
+# EN: Target Marker##mb
+1328785461=लक्ष्य (आंशिक)
+
 # EN: Target Marker##sa
 3230599266=लक्ष्य मार्कर##sa
 
 # EN: Targeting
 2771652631=लक्ष्यीकरण
 
+# EN: Targeting##mb
+4168577893=लक्ष्य (आंशिक)
+
+# EN: Targeting##sa
+1796398938=लक्ष्य (आंशिक)
+
+# EN: Targeting##trig
+1079524230=लक्ष्य (आंशिक)
+
 # EN: Targets
 4017618224=लक्ष्य
+
+# EN: Taze
+2632453608=टेज़
 
 # EN: Tazer
 1018685068=टेज़र
@@ -4356,9 +5784,6 @@
 
 # EN: Teleport
 825270086=टेलीपोर्ट
-
-# EN: Teleport Forward
-329923835=आगे टेलीपोर्ट
 
 # EN: Teleport Forward Distance
 1561225=आगे टेलीपोर्ट दूरी
@@ -4375,18 +5800,6 @@
 # EN: Teleport To
 1887426362=पर टेलीपोर्ट
 
-# EN: Teleport to Coords
-3551972134=निर्देशांक पर टेलीपोर्ट
-
-# EN: Teleport to Crosshair
-3582907225=क्रॉसहेयर पर टेलीपोर्ट
-
-# EN: Teleport to Nearest Vehicle
-1222747355=निकटतम वाहन पर टेलीपोर्ट
-
-# EN: Teleport to Waypoint
-3908877611=वेपॉइंट पर टेलीपोर्ट
-
 # EN: Teleport vehicle with you
 2332352547=वाहन को अपने साथ टेलीपोर्ट करें
 
@@ -4396,6 +5809,9 @@
 # EN: Test
 1064684737=परीक्षण
 
+# EN: Tether Distance
+1682035094=दूरी (आंशिक)
+
 # EN: Text
 2134593963=टेक्स्ट
 
@@ -4404,6 +5820,9 @@
 
 # EN: Text Font
 1277029574=टेक्स्ट फ़ॉन्ट
+
+# EN: Text Offset X
+3940347344=ऑफसेट (आंशिक)
 
 # EN: Text Only
 1145625316=केवल टेक्स्ट
@@ -4474,6 +5893,9 @@
 # EN: This will reset ALL fonts, colors, images, and layout settings to their defaults.\n\nAre you sure?
 2684530542=यह सभी फ़ॉन्ट, रंग, छवियाँ और लेआउट सेटिंग्स को उनके डिफ़ॉल्ट पर रीसेट कर देगा।\n\nक्या आप सुनिश्चित हैं?
 
+# EN: Threat Priority##sa
+2862792991=प्राथमिकता (आंशिक)
+
 # EN: Threshold
 1573986338=सीमा
 
@@ -4492,20 +5914,41 @@
 # EN: Thunder Override
 3360298467=गरज ओवरराइड
 
+# EN: Tick Color
+3218510901=Tick रंग
+
+# EN: Tick Count
+2223876868=टिक गिनती
+
+# EN: Ticks
+2329192730=टिक
+
 # EN: Tile
 1337127750=टाइल
+
+# EN: Tilt / Upside Down
+4149871201=झुकाव / उल्टा
 
 # EN: Time
 258444835=समय
 
+# EN: Time since bypass
+1704575500=बायपास के बाद से समय
+
 # EN: Timing
 4122073465=समय
+
+# EN: Timing##trig
+244175494=समयन (आंशिक)
 
 # EN: Tip Color
 520645681=टिप रंग
 
 # EN: Tire Lights
 3627926876=टायर लाइट
+
+# EN: Tire Smoke
+3956651620=टायर का धुआं
 
 # EN: Title (Scooby)
 4250394732=शीर्षक (Scooby)
@@ -4518,6 +5961,9 @@
 
 # EN: Title Gradient Colors
 1766434517=शीर्षक ग्रेडिएंट रंग
+
+# EN: Title Pill
+1618050020=शीर्षक गोली
 
 # EN: Title Size
 1301071436=शीर्षक आकार
@@ -4552,6 +5998,9 @@
 # EN: Toggle W
 2205449588=टॉगल W
 
+# EN: Toggle features on/off
+364973416=सुविधाएं (आंशिक)
+
 # EN: Toggles
 2207180161=टॉगल
 
@@ -4579,14 +6028,29 @@
 # EN: Top Right
 3678979058=ऊपर दाएँ
 
+# EN: Top Speed
+2413417332=Top गति
+
+# EN: Tracer Color
+610370730=Tracer रंग
+
 # EN: Tracer gets thinner from start to end
 3848411216=ट्रेसर शुरू से अंत तक पतला होता जाता है
 
 # EN: Tracers
 1857463969=ट्रेसर
 
+# EN: Tracers & Lines
+2523182477=ट्रेसर (आंशिक)
+
+# EN: Tracers##mb2
+632130463=ट्रेसर (आंशिक)
+
 # EN: Track
 875912051=ट्रैक
+
+# EN: Track H
+3215466932=ट्रैक H
 
 # EN: Track Opacity
 902824788=ट्रैक अपारदर्शिता
@@ -4600,6 +6064,9 @@
 # EN: Tracks the player who killed you with an on-screen arrow
 1609296522=जिस खिलाड़ी ने आपको मारा उसे स्क्रीन पर तीर से ट्रैक करता है
 
+# EN: Traction
+618917312=कमी
+
 # EN: Trail
 2169668932=ट्रेल
 
@@ -4611,6 +6078,9 @@
 
 # EN: Transparent Ocean
 2138197132=पारदर्शी समुद्र
+
+# EN: Triangle
+2990077322=त्रिभुज
 
 # EN: Trigger & Block
 4206134730=ट्रिगर और ब्लॉक
@@ -4639,14 +6109,17 @@
 # EN: Trusted
 2045336469=विश्वसनीय
 
-# EN: Tuning##sa
-2759235521=ट्यूनिंग##sa
+# EN: Tuner
+2775294361=ट्यूनर
 
 # EN: Type
 828747869=प्रकार
 
 # EN: Type Settings
 4191027218=प्रकार सेटिंग्स
+
+# EN: Type:
+927388673=प्रकार:
 
 # EN: UI Mode
 63923237=UI मोड
@@ -4662,6 +6135,12 @@
 
 # EN: Underline
 1892791043=अंडरलाइन
+
+# EN: Underline H
+2037968543=अंडरलाइन (आंशिक)
+
+# EN: Unit
+1660784057=यूनिट
 
 # EN: Unlock
 2562373009=अनलॉक
@@ -4687,8 +6166,17 @@
 # EN: Use Horn Key
 1328307925=हॉर्न कुंजी उपयोग करें
 
+# EN: Use Paint Chart
+1403505331=पेंट चार्ट का उपयोग करें
+
 # EN: Use Player List to target players
 1992352066=खिलाड़ियों को लक्षित करने के लिए Player List उपयोग करें
+
+# EN: Use SetTransform2
+620126414=SetTransform2 का उपयोग करें
+
+# EN: Used by Filled / Outline / Underline
+1868533692=भरा हुआ (आंशिक)
 
 # EN: Uses rainbow cycling
 3374547008=इंद्रधनुष साइकलिंग उपयोग करता है
@@ -4705,6 +6193,9 @@
 # EN: VFX
 2796127065=VFX
 
+# EN: VOICE
+953116472=वॉइस
+
 # EN: Vaporwave
 1600384401=वेपरवेव
 
@@ -4720,20 +6211,29 @@
 # EN: Vehicle Grabber
 2317560408=वाहन ग्रैबर
 
+# EN: Vehicle Info
+273062525=वाहन (आंशिक)
+
 # EN: Vehicle NoClip
 1762582941=वाहन NoClip
 
 # EN: Vehicle Radar
 2113603547=वाहन रडार
 
-# EN: Vehicle Ram
-3560309762=वाहन टक्कर
-
 # EN: Vehicle Teleport
 524718268=वाहन टेलीपोर्ट
 
 # EN: Vehicles
 1957895139=वाहन
+
+# EN: Velocity (Stealth)
+17717835=वेग (स्टेल्थ)
+
+# EN: Velocity only — no freeze/teleport. Harder to detect.
+3261708528=टेलीपोर्ट (आंशिक)
+
+# EN: Verifying injection...
+3587444625=इंजेक्शन सत्यापित किया जा रहा है...
 
 # EN: Vertical
 1605474394=लंबवत
@@ -4756,6 +6256,9 @@
 # EN: View Manifest
 3821572149=मेनिफ़ेस्ट देखें
 
+# EN: View RPF Contents
+2547117712=RPF सामग्री देखें
+
 # EN: Visibility Check
 2235775772=दृश्यता जाँच
 
@@ -4765,20 +6268,38 @@
 # EN: Visibility Check##trig
 1367619524=दृश्यता जाँच##trig
 
+# EN: Visibility##veh
+4266491054=दृश्यता##veh
+
 # EN: Visible
 2529664305=दृश्य
 
 # EN: Visual VFX
 3080442719=विज़ुअल VFX
 
+# EN: Visual gradient bar (green→yellow→red)
+3192363247=ग्रेडिएंट
+
 # EN: Visuals
 2427332638=विज़ुअल
+
+# EN: Visuals##grapple
+685638513=विज़ुअल (आंशिक)
+
+# EN: Visuals##laser
+2954165117=विज़ुअल (आंशिक)
 
 # EN: Visuals##lockon
 4093507657=विज़ुअल##lockon
 
+# EN: Visuals##mb
+570278843=विज़ुअल (आंशिक)
+
 # EN: Visuals##sa
 2764419376=विज़ुअल##sa
+
+# EN: Visuals##spider
+2283755059=विज़ुअल (आंशिक)
 
 # EN: W
 1486926112=W
@@ -4794,6 +6315,18 @@
 
 # EN: Walking
 921688979=चलना
+
+# EN: Walks every file in every started resource via fiDevice for trigger-event counting. Visible to server-side AC bridges as a rapid VFS flood — kick/ban risk.
+3925955938=रिसोर्स (आंशिक)
+
+# EN: Wall Run Speed
+1455916515=Wall Run गति
+
+# EN: Wall Run##spider
+3213482543=दीवार दौड़##spider
+
+# EN: Wall Running
+4278332197=दौड़ रहा है (आंशिक)
 
 # EN: Walls Only
 613995149=केवल दीवारें
@@ -4828,11 +6361,17 @@
 # EN: Watermark Settings
 2927022022=वॉटरमार्क सेटिंग्स
 
+# EN: Waypoint
+3804315675=वेपॉइंट
+
 # EN: Waypoint Trail
 827159393=वेपॉइंट ट्रेल
 
 # EN: Weapon
 3867822744=हथियार
+
+# EN: Weapon Aware##trig
+633914630=हथियार (आंशिक)
 
 # EN: Weapon Filter
 189061761=हथियार फ़िल्टर
@@ -4855,6 +6394,21 @@
 # EN: Weather
 1578688043=मौसम
 
+# EN: Web Abilities##spider
+3978859934=क्षमताएँ (आंशिक)
+
+# EN: Web Color
+1642988642=Web रंग
+
+# EN: Web Pull (RMB)
+1381062790=वेब पुल (RMB)
+
+# EN: Web Range
+1407908047=वेब श्रेणी
+
+# EN: Web Tether (E)
+350519734=वेब टेदर (E)
+
 # EN: Welcome Screen
 3174111086=स्वागत स्क्रीन
 
@@ -4866,6 +6420,15 @@
 
 # EN: What's New
 2022498171=नया क्या है
+
+# EN: Wheel Category
+1456271043=व्हील श्रेणी
+
+# EN: Wheel Color
+821296217=Wheel रंग
+
+# EN: Wheels & Plate
+812849528=व्हील और प्लेट
 
 # EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
 3837149149=सक्षम होने पर, Bind List, Perf Stats, Playerlist, और Spectator वॉटरमार्क रंगों का उपयोग करते हैं।
@@ -4879,6 +6442,9 @@
 # EN: While aiming at a player, press [G] to teleport behind them
 2878535996=किसी खिलाड़ी पर निशाना लगाते समय, उनके पीछे टेलीपोर्ट करने के लिए [G] दबाएँ
 
+# EN: White
+2270822857=सफेद
+
 # EN: Width
 2529094816=चौड़ाई
 
@@ -4891,6 +6457,9 @@
 # EN: Width##serp
 3651645440=चौड़ाई##serp
 
+# EN: Width##tgl
+302003276=चौड़ाई##tgl
+
 # EN: Window
 1722301922=विंडो
 
@@ -4899,6 +6468,9 @@
 
 # EN: Window Rounding
 1994493044=विंडो राउंडिंग
+
+# EN: Window Tint
+19519404=विंडो (आंशिक)
 
 # EN: Windows
 3212692547=विंडोज़
@@ -4921,14 +6493,35 @@
 # EN: World Size
 1252315730=दुनिया आकार
 
+# EN: Write Entity Matrix
+3070260254=मैट्रिक्स (आंशिक)
+
+# EN: Write Nav Matrix
+2135467020=मैट्रिक्स (आंशिक)
+
 # EN: X
 2466489829=X
+
+# EN: Xenon Color
+887041404=Xenon रंग
 
 # EN: Y
 2157248776=Y
 
 # EN: Y Offset
 2470303010=Y ऑफ़सेट
+
+# EN: Yankton
+2496524424=यैंकटन
+
+# EN: Yellow
+2553037199=पीला
+
+# EN: Yellow/Black
+3452902812=पीला/काला
+
+# EN: Yellow/Blue
+58011896=पीला/नीला
 
 # EN: Z
 3059772574=Z
@@ -4938,6 +6531,15 @@
 
 # EN: Zentorno
 2891838741=Zentorno
+
+# EN: [ / ] cycle object
+4022290000=[ / ] ऑब्जेक्ट बदलें
+
+# EN: [ / ] cycle vehicle
+1877991998=[ / ] वाहन बदलें
+
+# EN: [ / ] cycle weapon
+1279508429=[ / ] हथियार बदलें
 
 # EN: [DIR]
 981194033=[DIR]
@@ -4951,11 +6553,20 @@
 # EN: frames
 580974885=फ़्रेम
 
+# EN: gameEventTriggered tap-cancel + Ban/Kick/Phoenix accessor scrub
+1140420826=gameEventTriggered tap-cancel + Ban/Kick/Phoenix accessor सफाई
+
 # EN: image(s)
 2727625699=छवि(याँ)
 
 # EN: joined the server
 2662745418=सर्वर से जुड़ गया
+
+# EN: km/h
+1090892268=किमी/घंटा
+
+# EN: mph
+2533466250=मील प्रति घंटा
 
 # EN: result(s)
 1448839259=परिणाम

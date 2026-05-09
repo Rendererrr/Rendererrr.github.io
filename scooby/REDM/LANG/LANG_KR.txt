@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Korean (한국어)
 # Auth data_var name: LANG_KR
-# Total strings: 1707
+# Total strings: 2252
 # Format: JOAAT_HASH=translated text
 #
 
@@ -22,11 +22,29 @@
 # EN: 1% Low
 499497665=1% Low
 
+# EN: 2D Box
+3217720265=2D Box
+
 # EN: 3D Box
 94557236=3D 박스
 
+# EN: 3D Box##vehtoggle
+2289970269=3D Box##vehtoggle
+
+# EN: < Back
+3833783615=< Back
+
+# EN: AC
+1410644661=AC
+
 # EN: AC Overlay
 2376138547=AC Overlay
+
+# EN: ADS FOV Mult##sa
+1553982631=ADS 시야각 배수##sa
+
+# EN: ATTACK = Grab, AIM = Throw
+512227915=ATTACK = 잡기, AIM = 던지기
 
 # EN: Accel Curve
 2943028526=가속 커브
@@ -58,17 +76,38 @@
 # EN: Accuracy
 2666427871=정확도
 
+# EN: Accuracy##sa
+531658286=정확도##sa
+
+# EN: Action Keybinds
+2725143580=액션 키 바인딩
+
+# EN: Action Menu Style
+2599844569=액션 메뉴 스타일
+
 # EN: Actions
 2200808865=동작
 
+# EN: Activates only while wielding the chosen projectile weapon
+2008035414=Activates only while wielding the chosen projectile weapon
+
+# EN: Activation
+3361337240=Activation
+
 # EN: Active
 411366740=활성
+
+# EN: Active Effects
+1391756409=Active Effects
 
 # EN: Active Only
 3026641013=활성만
 
 # EN: Active Opacity
 2342129632=활성 불투명도
+
+# EN: Active Particles
+276462465=Active Particles
 
 # EN: Active Style
 3006353922=활성 스타일
@@ -82,20 +121,20 @@
 # EN: Active Windows
 1847726038=활성 창
 
-# EN: Adaptive Smoothing
-1841848259=적응형 스무딩
+# EN: Adaptive
+2577319765=적응형
+
+# EN: Adapts to error distance
+1484452874=Adapts to error distance
+
+# EN: Add Effect
+1724601391=Add Effect
+
+# EN: Add Particle
+1146618795=Add Particle
 
 # EN: Add random offset to aim for a more natural look
 900296087=더 자연스러운 조준을 위해 무작위 오프셋 추가
-
-# EN: Adjust FOV size based on target distance
-1890066780=대상 거리에 따라 FOV 크기 조정
-
-# EN: Adjust smoothing speed based on distance to target
-4062250807=대상까지의 거리에 따라 스무딩 속도 조정
-
-# EN: Adjusts Z to ground level after teleport
-1956583967=텔레포트 후 Z를 지면 높이로 조정
 
 # EN: Admin
 394765392=관리자
@@ -109,8 +148,8 @@
 # EN: Advanced
 191998119=고급
 
-# EN: Advanced##sa
-1146831031=고급##sa
+# EN: Aim + Shoot to fire grapple line. Auto-releases at target.
+4089255318=Aim + Shoot to fire grapple line. Auto-releases at target.
 
 # EN: Aim Alert
 2286335061=조준 경고
@@ -124,17 +163,17 @@
 # EN: Aim Key
 2127464103=조준 키
 
-# EN: Aim and shoot to call in an airstrike at the target location
-3295469=조준하고 발사하여 대상 위치에 공습 요청
-
 # EN: Aim and shoot to delete any entity
 3148472461=조준하고 발사하여 엔티티 삭제
 
-# EN: Airstrike Gun
-2449908144=공습 총
+# EN: Aims slightly higher to counter ballistic drop at range
+2600940727=Aims slightly higher to counter ballistic drop at range
 
 # EN: Alert Color
 3709827158=경고 색상
+
+# EN: Align
+3794667666=정렬
 
 # EN: Align vehicle rotation with movement direction
 2908889927=차량 회전을 이동 방향에 맞춤
@@ -154,14 +193,23 @@
 # EN: Allow equipping two weapons at once
 1942896435=두 개의 무기를 동시에 장착 허용
 
+# EN: Also Fill Deadeye Core
+578392169=Also Fill Deadeye Core
+
 # EN: Also While Running
 2264771198=달리는 중에도
+
+# EN: Always
+659733263=항상
 
 # EN: Ammo
 307971639=탄약
 
 # EN: Anchor
 1880738441=앵커
+
+# EN: Angular tolerance treated as 'stable' — tighter = pickier
+3811956667=Angular tolerance treated as 'stable' — tighter = pickier
 
 # EN: Animal
 974042365=동물
@@ -181,11 +229,17 @@
 # EN: Animal##stmp
 4257996986=동물##stmp
 
+# EN: Animals
+1979337996=Animals
+
 # EN: Animate Entries
 2777997914=항목 애니메이션
 
 # EN: Animated GIF
 336645484=애니메이션 GIF
+
+# EN: Animated ring around the impact marker — fills as the auto-fire timer charges
+47595763=Animated ring around the impact marker — fills as the auto-fire timer charges
 
 # EN: Animation
 1176408751=애니메이션
@@ -205,23 +259,32 @@
 # EN: Anti Melee
 1082795060=근접 방지
 
-# EN: Anti-Cheat
-1651501873=Anti-Cheat
-
-# EN: Anti-Detection
-1577423134=탐지 방지
+# EN: Anti-Detection##sa
+683255490=탐지 방지##sa
 
 # EN: Anti-Grief
 4071343839=그리핑 방지
 
+# EN: Any
+3744729013=Any
+
+# EN: Any shot peds instantly ragdoll
+922212082=Any shot peds instantly ragdoll
+
 # EN: Appearance
 3647733735=외형
+
+# EN: Appearance is detached into its own window.
+152646341=Appearance is detached into its own window.
 
 # EN: Apply Model
 2794752200=모델 적용
 
 # EN: Apply Preset
 3793427380=프리셋 적용
+
+# EN: Apply Time
+596400142=Apply Time
 
 # EN: Apply To
 3114722325=적용 대상
@@ -235,9 +298,6 @@
 # EN: Apply extra knockback force to hit peds
 2161846635=타격한 보행자에게 추가 넉백 힘 적용
 
-# EN: Apply speed boost while holding Shift
-1770376119=Shift를 누르고 있는 동안 속도 부스트 적용
-
 # EN: Apply speed boost while running
 3182944338=달리는 동안 속도 부스트 적용
 
@@ -249,6 +309,12 @@
 
 # EN: Arc
 3197476941=아크
+
+# EN: Arc Launch
+725540891=호 발사
+
+# EN: Arc Strength
+3477155189=호 강도
 
 # EN: Armed Clones
 1018974332=무장 클론
@@ -265,6 +331,24 @@
 # EN: Arrow
 182494798=화살표
 
+# EN: Arrow Speed
+2295300562=Arrow Speed
+
+# EN: Attach
+3601695277=Attach
+
+# EN: Attach To
+4204732472=Attach To
+
+# EN: Attached
+2002201701=Attached
+
+# EN: Attached to
+4172616088=Attached to
+
+# EN: Attachment
+1125857072=Attachment
+
 # EN: Attachments
 2740828529=부착물
 
@@ -280,11 +364,20 @@
 # EN: Auto
 3043925626=자동
 
+# EN: Auto Bone by Distance
+1825046816=거리별 자동 뼈
+
+# EN: Auto Detach
+2467019578=자동 분리
+
 # EN: Auto Detect Anti-Cheat
 3303598959=Anti-Cheat 자동 감지
 
 # EN: Auto Fire
 3918303945=자동 발사
+
+# EN: Auto Fire##mb
+209012486=자동 사격##mb
 
 # EN: Auto Flip
 1169747300=자동 뒤집기
@@ -292,8 +385,17 @@
 # EN: Auto Godmode
 2673570143=자동 갓모드
 
-# EN: Auto Select
-1270725521=자동 선택
+# EN: Auto Pilot
+1235508069=자동 조종
+
+# EN: Auto Punch
+4126830016=Auto Punch
+
+# EN: Auto Release
+3908834324=자동 해제
+
+# EN: Auto Save
+810191057=자동 저장
 
 # EN: Auto Switch on Kill
 1282152805=킬 시 자동 전환
@@ -304,41 +406,41 @@
 # EN: Auto TP to Waypoint
 1867269096=웨이포인트로 자동 텔레포트
 
+# EN: Auto-Fire
+1322656523=Auto-Fire
+
+# EN: Auto-attack nearby peds as animal
+2754504626=Auto-attack nearby peds as animal
+
+# EN: Auto-detaches you each tick from any ped/object/vehicle — counters Spank / Ride Shoulders / forced-attach griefs
+3267986387=매 tick마다 모든 Ped/오브젝트/차량에서 자동으로 분리 - Spank / Ride Shoulders / 강제 부착 방해를 대응
+
 # EN: Auto-detect fonts from Windows
 2577479103=Windows에서 폰트 자동 감지
-
-# EN: Auto-disable aimbot when holding RPG, grenade launcher, or throwables
-1054006449=RPG, 유탄 발사기 또는 투척류 소지 시 Aimbot 자동 비활성화
 
 # EN: Auto-fire when crosshair is on a target
 1536605200=조준선이 대상 위에 있을 때 자동 발사
 
+# EN: Auto-fires when crosshair lines up with a target hitbox
+3095548043=Auto-fires when crosshair lines up with a target hitbox
+
 # EN: Auto-saves your position. Press [B] to rewind to previous locations.
 611200981=위치를 자동 저장합니다. [B]를 눌러 이전 위치로 되돌아갑니다.
-
-# EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
-4247923858=스나이퍼 스코프 사용 시 FOV, 스무딩, 예측을 자동 조정
 
 # EN: Auto-zigzag while sprinting to dodge bullets
 1713564836=전력 질주 중 자동 지그재그로 총알 회피
 
-# EN: Automatically fires bullets at the closest target to your crosshair
-4091225894=조준선에 가장 가까운 대상에게 자동으로 총알 발사
-
 # EN: Automatically flip your vehicle upright
 2778904220=차량을 자동으로 바로 뒤집기
-
-# EN: Automatically shoot when a target is in FOV
-3039832869=대상이 FOV 내에 있을 때 자동 발사
-
-# EN: Automatically switch to next target after a kill
-227557248=킬 후 자동으로 다음 대상으로 전환
 
 # EN: Automatically teleport when you set a waypoint
 2299293074=웨이포인트 설정 시 자동 텔레포트
 
 # EN: Avg FT
 2437122580=평균 FT
+
+# EN: Avoid Obstacles
+90274995=장애물 피하기
 
 # EN: Awareness
 4120293697=인식
@@ -379,11 +481,23 @@
 # EN: Background##weapon
 1937834289=배경##weapon
 
+# EN: Ballistics
+2863365501=Ballistics
+
+# EN: Ban Player
+3035498839=플레이어 밴
+
 # EN: Bar
 2151715081=바
 
-# EN: Basic
-4281242592=기본
+# EN: Bar Color
+2240601071=Bar Color
+
+# EN: Bears All Loop
+1068575853=Bears All Loop
+
+# EN: Bears on All
+1799741400=Bears on All
 
 # EN: Behavior
 3330951414=동작
@@ -409,11 +523,17 @@
 # EN: Blackout Mode
 4106471165=정전 모드
 
+# EN: Blame: ON (clear)
+2216872016=누명: 켜짐 (해제)
+
 # EN: Blink / Dash
 2181400004=블링크 / 대시
 
 # EN: Blizzard
 669657108=눈보라
+
+# EN: Block
+3828602749=Block
 
 # EN: Block Anim Scenes
 2019597832=애니메이션 씬 차단
@@ -426,6 +546,12 @@
 
 # EN: Block Crashes
 1960058316=크래시 차단
+
+# EN: Block Explosions
+1257724231=Block Explosions
+
+# EN: Block Freeze Entity
+1037856349=Block Freeze Entity
 
 # EN: Block Invalid Models
 1656660069=잘못된 모델 차단
@@ -445,8 +571,14 @@
 # EN: Block Task Fuzzer
 1274306167=태스크 퍼저 차단
 
+# EN: Block Weapon Drop
+2112316757=Block Weapon Drop
+
 # EN: Block blacklisted forced animation scenes
 441848285=블랙리스트된 강제 애니메이션 씬 차단
+
+# EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
+366586212=Block intercepts events with CancelEvent(). Unblock re-registers the event.
 
 # EN: Block invalid propset creation data
 1192749160=잘못된 propset 생성 데이터 차단
@@ -466,11 +598,17 @@
 # EN: Block objects and peds being attached to you
 1904291971=오브젝트 및 보행자가 당신에게 부착되는 것을 차단
 
+# EN: Block other players from freezing your ped
+936513135=Block other players from freezing your ped
+
 # EN: Block pickups with invalid type hashes
 4188199560=잘못된 유형 해시를 가진 픽업 차단
 
 # EN: Block projectiles with invalid weapon or ammo
 4150216817=잘못된 무기 또는 탄약을 가진 투사체 차단
+
+# EN: Block remote explosion sync from other players
+3154457541=Block remote explosion sync from other players
 
 # EN: Block vehicle proximity migration teleports
 1390593613=차량 근접 마이그레이션 텔레포트 차단
@@ -484,8 +622,17 @@
 # EN: Body BG
 2797276020=본문 배경
 
+# EN: Body Border
+2027388166=Body Border
+
 # EN: Body Gradient
 706368864=본문 그라데이션
+
+# EN: Bodyguard
+1043924630=Bodyguard
+
+# EN: Bone
+282216227=Bone
 
 # EN: Boost
 3475208003=부스트
@@ -508,20 +655,32 @@
 # EN: Border Style
 350757194=테두리 스타일
 
+# EN: Border Thick
+4263082925=Border Thick
+
 # EN: Border Thickness
 3884077482=테두리 두께
 
 # EN: Border##cp
 216211181=테두리##cp
 
+# EN: Border##dd
+1336714047=Border##dd
+
 # EN: Border##notif
 336356185=테두리##notif
+
+# EN: Border##sl
+3865657270=Border##sl
 
 # EN: Border##sp
 192186828=테두리##sp
 
 # EN: Border##tt
 3335618363=테두리##tt
+
+# EN: Bordered
+3525280289=Bordered
 
 # EN: Both
 3759669763=둘 다
@@ -535,20 +694,44 @@
 # EN: Bottom Right
 3752329730=우하단
 
+# EN: Bounding box around animals
+2898555025=Bounding box around animals
+
+# EN: Bow
+3710900954=Bow
+
+# EN: Bow / Arrows##proj
+2165966942=Bow / Arrows##proj
+
 # EN: Box
 391302943=박스
 
 # EN: Box + Skeleton
 2701857720=박스 + 스켈레톤
 
+# EN: Box Color##animal
+2528050181=Box Color##animal
+
 # EN: Box Only
 2220777776=박스만
+
+# EN: Box##animalboxtoggle
+769174659=Box##animalboxtoggle
+
+# EN: Boxed
+2238860081=Boxed
+
+# EN: Brake
+243491644=Brake
 
 # EN: Branding
 637151929=브랜딩
 
 # EN: Bring Horse to Me
 4186539904=말 불러오기
+
+# EN: Browser
+3354537412=Browser
 
 # EN: Bug Player
 3083359930=플레이어 버그
@@ -559,17 +742,11 @@
 # EN: Bullet Proof
 1262983692=총알 방어
 
-# EN: Bullet Redirect##sa
-2808025987=총알 리다이렉트##sa
-
 # EN: Bullet Tracers
 2673625274=총알 궤적
 
-# EN: Bullets automatically track the nearest enemy
-1616432867=총알이 자동으로 가장 가까운 적을 추적
-
-# EN: Bullets electrocute and ragdoll nearby peds
-2126550957=총알이 주변 보행자를 감전시키고 래그돌 적용
+# EN: Bullets deal no visible damage
+1812658852=Bullets deal no visible damage
 
 # EN: Bullets explode on impact
 3711735807=총알이 충돌 시 폭발
@@ -583,14 +760,14 @@
 # EN: Bullets start fires on impact
 1414863151=총알이 충돌 시 화재 발생
 
-# EN: Burn Gun
-2300647213=화염 총
-
 # EN: Burst Fire
 207152447=점사
 
 # EN: Burst Pause
 2929660808=점사 간격
+
+# EN: Bury
+3795077595=Bury
 
 # EN: Button Background
 2334259758=버튼 배경
@@ -604,6 +781,18 @@
 # EN: Buttons
 2668497503=버튼
 
+# EN: Buttons (teleport, actions, etc.)
+1490120760=Buttons (teleport, actions, etc.)
+
+# EN: Buy
+2060555271=Buy
+
+# EN: By Type
+132944993=By Type
+
+# EN: Bypass All Detections
+2578652746=모든 감지 우회
+
 # EN: Bypassed
 716678219=우회됨
 
@@ -615,6 +804,12 @@
 
 # EN: Cage All
 382838472=모두 가두기
+
+# EN: Cam
+2714329907=카메라
+
+# EN: Camera
+626544054=Camera
 
 # EN: Camera Direction
 3642623253=카메라 방향
@@ -628,11 +823,23 @@
 # EN: Cancel
 3692849629=취소
 
+# EN: Cancel on Target Lost
+1414621167=Cancel on Target Lost
+
+# EN: Caps how far ahead we predict — prevents wild leads at long range
+87020140=Caps how far ahead we predict — prevents wild leads at long range
+
+# EN: Card
+3007636313=Card
+
 # EN: Carpet FX Scale
 2956741907=카펫 효과 크기
 
 # EN: Catapult Gun
 4229999919=투석기 총
+
+# EN: Category
+2052871693=카테고리
 
 # EN: Center
 2590249447=중앙
@@ -646,9 +853,6 @@
 # EN: Chain Range
 2003227318=연쇄 범위
 
-# EN: Chance to redirect hit to the head
-1154716085=헤드샷으로 리다이렉트될 확률
-
 # EN: Change Rate
 949770967=변경 속도
 
@@ -657,6 +861,27 @@
 
 # EN: Change your walking animation
 2519588705=걷기 애니메이션 변경
+
+# EN: Charge
+895242042=Charge
+
+# EN: Charge Ring
+2533561053=Charge Ring
+
+# EN: Check
+3076878442=Check
+
+# EN: Check Ownership
+2254116048=Check Ownership
+
+# EN: Checkbox
+3774301889=Checkbox
+
+# EN: Checking...
+250388835=Checking...
+
+# EN: Checks:
+2320191415=Checks:
 
 # EN: China
 3307270334=중국
@@ -667,9 +892,6 @@
 # EN: Circle Color
 2748157626=원 색상
 
-# EN: Circle Color##mb
-1303923968=원 색상##mb
-
 # EN: Circle+Dot
 2897117632=원+점
 
@@ -679,11 +901,20 @@
 # EN: Clarity
 574828251=선명도
 
-# EN: Clean
-1640993750=깨끗한
+# EN: Classic
+2458459502=Classic
 
 # EN: Clear
 916995460=지우기
+
+# EN: Clear All
+1803284832=Clear All
+
+# EN: Clear All##ptfx
+1087140651=Clear All##ptfx
+
+# EN: Clear Blood
+1733871903=Clear Blood
 
 # EN: Clear Bounties
 3723483613=현상금 제거
@@ -700,11 +931,14 @@
 # EN: Clear on Teleport
 1659055056=텔레포트 시 초기화
 
+# EN: Click Start to scan server resources for events.
+2559388892=Click Start to scan server resources for events.
+
 # EN: Click UI
 1200896506=클릭 UI
 
-# EN: Click key button to rebind. ESC to cancel.
-939410858=키 버튼을 클릭하여 재설정. ESC로 취소.
+# EN: Click UI: standard window menu. List UI: controller-friendly list. Dual UI: render both at once. INSERT toggles whichever is active.
+3730496475=Click UI: 표준 창 메뉴. List UI: 컨트롤러 친화 목록. Dual UI: 둘 다 동시에 렌더링. INSERT로 활성 UI를 전환합니다.
 
 # EN: Click to apply model
 1083648646=클릭하여 모델 적용
@@ -712,8 +946,11 @@
 # EN: Click to give weapon
 576007568=클릭하여 무기 지급
 
-# EN: Click to spawn
-4007395385=클릭하여 스폰
+# EN: Click to spawn as wild horse
+3426986118=Click to spawn as wild horse
+
+# EN: Click to spawn to database
+816468823=Click to spawn to database
 
 # EN: ClickUI
 2475899823=클릭UI
@@ -723,6 +960,12 @@
 
 # EN: Climb Steep Slopes
 2721325895=급경사 등반
+
+# EN: Clip
+3877360426=Clip
+
+# EN: Clip##anim_name
+1338454230=Clip##anim_name
 
 # EN: Clockwise
 3064165560=시계 방향
@@ -735,6 +978,9 @@
 
 # EN: Close (5m)
 2185614558=가까움 (5m)
+
+# EN: Closest
+3389338466=Closest
 
 # EN: Cloud Glow
 1003829203=구름 빛
@@ -757,11 +1003,20 @@
 # EN: Cock Weapon
 3058038059=무기 장전
 
+# EN: Collision
+2254540305=Collision
+
 # EN: Collision Proof
 821592069=충돌 방어
 
 # EN: Color
 3914595625=색상
+
+# EN: Color A
+4250468165=Color A
+
+# EN: Color B
+1995633279=Color B
 
 # EN: Color Overrides
 2615415427=색상 재정의
@@ -790,11 +1045,17 @@
 # EN: Combat
 1467455271=전투
 
+# EN: Compact
+3024861904=Compact
+
 # EN: Compass
 3738173000=나침반
 
-# EN: Compensate for weapon recoil while aiming
-2749716703=조준 중 무기 반동 보상
+# EN: Conceal you from network sync — other players see you frozen at the entry spot, then desync entirely. Voice still works at that location.
+2591682140=네트워크 동기화에서 자신을 숨깁니다 - 다른 플레이어에게는 진입 지점에 멈춘 것처럼 보이고 이후 완전히 비동기화됩니다. 음성은 그 위치에서 계속 작동합니다.
+
+# EN: Cone
+1799025940=Cone
 
 # EN: Config
 1264390909=설정
@@ -838,6 +1099,9 @@
 # EN: Console output appears here...
 2378588289=콘솔 출력이 여기에 표시됩니다...
 
+# EN: Constant rate
+3437995936=Constant rate
+
 # EN: Content Only##bgco
 1042370066=컨텐츠만##bgco
 
@@ -847,11 +1111,14 @@
 # EN: Controls
 594033165=조작
 
-# EN: Cool
-1695531110=쿨
+# EN: Cool Face
+3854545123=멋진 얼굴
 
 # EN: Cooldown
 1178968787=쿨다운
+
+# EN: Cooldown (ms)
+500526488=Cooldown (ms)
 
 # EN: Cooldown##strafe
 1574937247=쿨다운##strafe
@@ -859,14 +1126,23 @@
 # EN: Coordinates
 2789151618=좌표
 
+# EN: Coords
+917192739=좌표
+
 # EN: Copy
 393356872=복사
+
+# EN: Copy All
+4085295539=Copy All
 
 # EN: Copy ID
 3639484515=ID 복사
 
 # EN: Copy Name
 4181535183=이름 복사
+
+# EN: Core
+3262906017=Core
 
 # EN: Core Effect
 331657178=코어 효과
@@ -892,6 +1168,9 @@
 # EN: Coverage
 37271744=적용 범위
 
+# EN: Crash Player
+290401442=Crash Player
+
 # EN: Crash Protections
 1615778111=크래시 보호
 
@@ -910,8 +1189,11 @@
 # EN: Crosshair
 1991267050=조준선
 
-# EN: Crosshair Numbers
-3190854118=조준선 숫자
+# EN: Crosshair Numbers##dmg
+1598516579=Crosshair Numbers##dmg
+
+# EN: Crosshair-style dot at the predicted impact point
+2920343593=Crosshair-style dot at the predicted impact point
 
 # EN: Cursor Color
 1006036086=커서 색상
@@ -925,14 +1207,50 @@
 # EN: Custom AC
 703041167=사용자 정의 AC
 
+# EN: Custom Animation
+1823607424=Custom Animation
+
 # EN: Custom Crosshair
 3384202717=사용자 정의 조준선
 
 # EN: Custom Cursor
 1312703150=사용자 정의 커서
 
+# EN: Custom Model Spawn
+4176462159=Custom Model Spawn
+
+# EN: Custom##db
+95206452=사용자 지정##db
+
 # EN: Customize your whistle pitch, clarity, and shape
 2070241274=호루라기 음높이, 선명도, 형태 사용자 정의
+
+# EN: Customize##ddsty
+1466910820=Customize##ddsty
+
+# EN: Customize##grp
+1365816375=Customize##grp
+
+# EN: Customize##hbarsty
+2034804524=Customize##hbarsty
+
+# EN: Customize##nbsty
+1039221734=Customize##nbsty
+
+# EN: Customize##sl
+4220190893=Customize##sl
+
+# EN: Customize##spsty
+2752626057=Customize##spsty
+
+# EN: Customize##tgl
+2661039819=Customize##tgl
+
+# EN: Cylinder
+883073064=Cylinder
+
+# EN: DATE
+629830659=DATE
 
 # EN: Damage
 1125348833=피해
@@ -946,6 +1264,9 @@
 # EN: Damage Multiplier
 403675709=피해 배수
 
+# EN: Damage Multiplier##mb
+1361489778=Damage Multiplier##mb
+
 # EN: Damage Numbers
 901708624=피해 숫자
 
@@ -955,8 +1276,14 @@
 # EN: Damage Scale
 500530899=피해 규모
 
+# EN: Damage any target regardless of walls or cover
+2699807098=Damage any target regardless of walls or cover
+
 # EN: Damage targets behind cover and walls
 605603680=엄폐물과 벽 뒤의 대상에게 피해
+
+# EN: Damage##mb
+2337379826=데미지##mb
 
 # EN: Dashed
 1168445324=대시선
@@ -964,11 +1291,14 @@
 # EN: Dashed Lines
 3217330410=대시 선
 
-# EN: Dashed##tt
-3897605696=대시선##tt
+# EN: Database
+3279406008=Database
 
 # EN: Dawn
 4259095408=새벽
+
+# EN: Dead
+3384366314=Dead
 
 # EN: Dead Eye meter never drains
 3137623279=데드아이 게이지가 소모되지 않음
@@ -979,8 +1309,14 @@
 # EN: Deceleration
 27121731=감속
 
+# EN: Decoration
+2330753538=Decoration
+
 # EN: Decreased Capsule
 2031166102=축소된 캡슐
+
+# EN: Decrypt failed
+905566243=Decrypt failed
 
 # EN: Deep Shadow
 1704534583=짙은 그림자
@@ -1006,11 +1342,11 @@
 # EN: Delete Config
 3129736374=설정 삭제
 
+# EN: Delete Entity
+1044265419=Delete Entity
+
 # EN: Delete Gun
 441024924=삭제 총
-
-# EN: Delete Last
-2335943020=마지막 삭제
 
 # EN: Delete Mount
 1874940830=탈것 삭제
@@ -1036,8 +1372,8 @@
 # EN: Detach
 4291111140=분리
 
-# EN: Detach camera and fly around freely
-2017641408=카메라를 분리하고 자유롭게 비행
+# EN: Detach Now
+3545604601=지금 분리
 
 # EN: Detail Text##notif
 2416834241=상세 텍스트##notif
@@ -1045,14 +1381,20 @@
 # EN: Detected
 1404062231=감지됨
 
+# EN: Detector
+3221100445=감지기
+
 # EN: Diagonal
 1180516370=대각선
 
 # EN: Diamond
 2796235871=다이아몬드
 
-# EN: Different color for headshot kills
-2883796557=헤드샷 킬에 다른 색상
+# EN: Dict##anim_dict
+470133403=Dict##anim_dict
+
+# EN: Dictionary
+1214558348=Dictionary
 
 # EN: Dim
 295795085=어둡게
@@ -1072,6 +1414,12 @@
 # EN: Direction##grp
 2633968279=방향##grp
 
+# EN: Direction##tglg
+2813082977=Direction##tglg
+
+# EN: Disable All Protections
+517409660=Disable All Protections
+
 # EN: Disable Anti-Cheat
 3713723029=Anti-Cheat 비활성화
 
@@ -1080,6 +1428,12 @@
 
 # EN: Disable ElectronAC
 3852262134=ElectronAC 비활성화
+
+# EN: Disable Outsider AC
+925341067=Disable Outsider AC
+
+# EN: Disable Tasks
+2285629350=Disable Tasks
 
 # EN: Disable for Explosives
 1184164823=폭발물에 대해 비활성화
@@ -1090,6 +1444,9 @@
 # EN: Disabled Text
 658823609=비활성화 텍스트
 
+# EN: Disabler
+2396801800=비활성화기
+
 # EN: Disables all artificial lights in the world
 1865168868=세계의 모든 인공 조명 비활성화
 
@@ -1099,17 +1456,26 @@
 # EN: Display Mode
 200820562=표시 모드
 
+# EN: Display model hash of entity under crosshair
+379808138=Display model hash of entity under crosshair
+
 # EN: Dist
 3531260757=거리
 
 # EN: Distance
 3607074178=거리
 
-# EN: Distance Bone
-1749124048=거리 본
+# EN: Distance / Lead Readout
+1138383586=Distance / Lead Readout
+
+# EN: Distance Fade
+115233056=Distance Fade
 
 # EN: Distance Labels
 462378492=거리 라벨
+
+# EN: Distance##animal
+3973735636=거리##animal
 
 # EN: Distance##atk
 692812083=거리##atk
@@ -1129,17 +1495,32 @@
 # EN: Distance##tpfwd
 673033664=거리##tpfwd
 
+# EN: Distance##veh
+3820228410=거리##veh
+
+# EN: Divided
+2391534534=Divided
+
 # EN: Divider Opacity
 1443594631=구분선 불투명도
 
 # EN: Dividers
 4266747014=구분선
 
-# EN: Don't target players marked as friends
-1529406783=친구로 표시된 플레이어를 대상으로 하지 않음
+# EN: Don't fire while wielding melee weapons, bow, or lasso
+2492797133=Don't fire while wielding melee weapons, bow, or lasso
+
+# EN: Don't show ESP on your own horse
+2855475825=Don't show ESP on your own horse
+
+# EN: Don't target other animals
+2443518263=Don't target other animals
 
 # EN: Dot
 289406910=점
+
+# EN: Dot Color
+1433097755=Dot Color
 
 # EN: Dot Outline
 1280327065=점 외곽선
@@ -1147,17 +1528,23 @@
 # EN: Dot Size
 631688132=점 크기
 
-# EN: Dot Spacing
-3608568270=점 간격
+# EN: Dot Spacing##bt2
+2609380175=Dot Spacing##bt2
 
 # EN: Dotted
 2579778033=점선
 
-# EN: Dotted Line
-3435322722=점선
+# EN: Dotted Line##bt2
+2402778555=Dotted Line##bt2
+
+# EN: Double-click an event in the Logger to copy its name here.
+847266517=Double-click an event in the Logger to copy its name here.
 
 # EN: Doubles the size of the targeted ped
 112049375=대상 보행자의 크기를 2배로
+
+# EN: Download failed
+998536=Download failed
 
 # EN: Draft Flaming Hooves
 2175949334=마차말 화염 발굽
@@ -1171,23 +1558,20 @@
 # EN: Draw Calls
 610979268=Draw Calls
 
-# EN: Draw a circle around the current target
-874232396=현재 대상 주위에 원 그리기
-
-# EN: Draw a line from crosshair to current target
-2567747378=조준선에서 현재 대상까지 선 그리기
-
 # EN: Draw a line from your vehicle to the waypoint
 1677064399=차량에서 웨이포인트까지 선 그리기
 
-# EN: Draw targeting circle on screen
-887579382=화면에 타겟팅 원 그리기
+# EN: Draw a ring + slot label at every saved position so you can find them in the world
+3813781237=저장된 모든 위치에 링 + 슬롯 라벨을 그려 월드에서 찾기 쉽게 합니다
 
 # EN: Draw the aimbot targeting circle on screen
 383559352=화면에 Aimbot 타겟팅 원 그리기
 
-# EN: Draw the silent aim targeting circle on screen
-1366447032=화면에 Silent Aim 타겟팅 원 그리기
+# EN: Draws a line from the target's bone to the predicted lead point
+3573936851=Draws a line from the target's bone to the predicted lead point
+
+# EN: Draws a line showing the path of every bullet fired in the world
+296242023=Draws a line showing the path of every bullet fired in the world
 
 # EN: Drive Modes
 1204710938=주행 모드
@@ -1195,11 +1579,20 @@
 # EN: Drive through the air like a plane
 2789300348=비행기처럼 공중에서 주행
 
+# EN: Drive to Coords
+3454400388=좌표로 운전
+
+# EN: Drive to Waypoint
+53776605=웨이포인트로 운전
+
 # EN: Drive toward where the camera is looking
 4214413949=카메라가 바라보는 방향으로 주행
 
 # EN: Drop Shadow
 362604306=드롭 쉐도우
+
+# EN: Drop Weapon
+1076854088=Drop Weapon
 
 # EN: Dropdown
 953915820=드롭다운
@@ -1210,11 +1603,17 @@
 # EN: Dropdown Hover
 7476142=드롭다운 호버
 
+# EN: Dropdown Style
+933713766=Dropdown Style
+
 # EN: Dropdown Sub-Tabs
 914167550=드롭다운 서브탭
 
 # EN: Dropdowns
 51766618=드롭다운
+
+# EN: Drunk All
+1338339533=모두 취하게 만들기
 
 # EN: Drunk Gun
 2509752085=취한 총
@@ -1225,8 +1624,8 @@
 # EN: Drunk Mode
 3041909067=취한 모드
 
-# EN: Dual UI mode is not yet available.
-1792964426=듀얼 UI 모드는 아직 사용할 수 없습니다.
+# EN: Dual UI
+163752098=듀얼 UI
 
 # EN: Dual Wield
 1207650416=이중 장착
@@ -1237,26 +1636,44 @@
 # EN: Duration (ms)
 655786122=지속 시간 (ms)
 
-# EN: Duration##dmglog
-2155043513=지속 시간##dmglog
+# EN: Duration##bt2
+345056605=지속 시간##bt2
 
-# EN: Duration##dmgnum
-1606858786=지속 시간##dmgnum
+# EN: Duration##dlog2
+1816813723=지속 시간##dlog2
 
-# EN: Duration##pt
-2015408410=지속 시간##pt
+# EN: Duration##dmg
+225476226=지속 시간##dmg
 
-# EN: Duration##tt
-301031845=지속 시간##tt
+# EN: Duration##hm
+839593440=지속 시간##hm
 
 # EN: Dusk
 2177164377=황혼
+
+# EN: Dynamic
+1539023636=Dynamic
+
+# EN: Dynamic FOV##sa
+156212456=Dynamic FOV##sa
+
+# EN: Dynamite
+3125318994=Dynamite
+
+# EN: Dynamite Arrow
+196789071=Dynamite Arrow
+
+# EN: Dynamite, throwing knives, etc. — disabled by default (drop is more dramatic)
+1780595305=Dynamite, throwing knives, etc. — disabled by default (drop is more dramatic)
 
 # EN: E
 286663184=E
 
 # EN: ESP
 3007444226=ESP
+
+# EN: ESP fades out at long range
+1243683337=ESP fades out at long range
 
 # EN: Eagle Eye
 1477228707=이글 아이
@@ -1270,14 +1687,17 @@
 # EN: Editor
 1766080170=에디터
 
+# EN: Editor is empty
+2785403049=Editor is empty
+
+# EN: Effect
+860884915=Effect
+
 # EN: Effect Type
 2321899216=효과 유형
 
 # EN: Effects
 3222754290=효과
-
-# EN: Electric Ammo
-4256644546=전기 탄약
 
 # EN: ElectronAC heartbeat — may be kicked in 2-5 min.
 3667341283=ElectronAC 하트비트 — 2-5분 내 추방될 수 있습니다.
@@ -1291,8 +1711,14 @@
 # EN: Embedded
 2292057362=임베디드
 
-# EN: Empty
-3151330285=비어 있음
+# EN: Emote
+2644719629=Emote
+
+# EN: Emotes
+2110610439=Emotes
+
+# EN: Enable All Protections
+255460132=Enable All Protections
 
 # EN: Enable Striker
 2724500409=스트라이커 활성화
@@ -1309,6 +1735,9 @@
 # EN: Enable##pred
 3031240550=활성화##pred
 
+# EN: Enable##proj
+1677195569=활성화##proj
+
 # EN: Enable##sbg
 3268039885=활성화##sbg
 
@@ -1321,8 +1750,26 @@
 # EN: Enabled
 1527945487=활성화됨
 
+# EN: Enabled##animal
+1998270356=활성화됨##animal
+
+# EN: Enabled##bt
+4088978414=활성화됨##bt
+
+# EN: Enabled##dlog
+2859054786=활성화됨##dlog
+
+# EN: Enabled##dmg
+2528055362=활성화됨##dmg
+
+# EN: Enabled##hm
+1214860466=활성화됨##hm
+
 # EN: Enabled##silent
 697079411=활성화됨##silent
+
+# EN: Enabled##veh
+2924172026=활성화됨##veh
 
 # EN: End
 2965669335=끝
@@ -1332,12 +1779,6 @@
 
 # EN: Endpoint
 693206863=끝점
-
-# EN: Endpoint Marker##pt
-782785200=끝점 마커##pt
-
-# EN: Endpoint Marker##tt
-3578768512=끝점 마커##tt
 
 # EN: Enlarge Gun
 2576154054=확대 총
@@ -1351,9 +1792,6 @@
 # EN: Entity Count
 495352207=엔티티 수
 
-# EN: Entity ESP
-2237057752=엔티티 ESP
-
 # EN: Error
 3374345388=오류
 
@@ -1362,6 +1800,21 @@
 
 # EN: Error##notif
 3944622010=오류##notif
+
+# EN: Event Blocker
+2348049901=Event Blocker
+
+# EN: Event Logger
+4055111064=Event Logger
+
+# EN: Event name...
+1453694419=Event name...
+
+# EN: Event to block...
+3761220325=Event to block...
+
+# EN: Events Blocked: %d
+1639179143=Events Blocked: %d
 
 # EN: Expand Sub-Tabs
 788906364=서브탭 펼치기
@@ -1375,11 +1828,20 @@
 # EN: Explode All
 979167410=모두 폭발
 
+# EN: Explode All Loop
+4143022776=Explode All Loop
+
 # EN: Explode Loop
 2859847721=폭발 반복
 
+# EN: Explode Vehicle
+2721901462=Explode Vehicle
+
 # EN: Explosion Proof
 1687470245=폭발 방어
+
+# EN: Explosion Scale##ff
+2974608460=Explosion Scale##ff
 
 # EN: Explosion Type
 330699093=폭발 유형
@@ -1393,8 +1855,14 @@
 # EN: Exported
 3145593980=내보내기 완료
 
+# EN: Extra
+2934273293=Extra
+
 # EN: Extras
 2099753448=추가 기능
+
+# EN: Extras##lockon
+1596163466=Extras##lockon
 
 # EN: FOV
 1783694977=FOV
@@ -1405,6 +1873,9 @@
 # EN: FOV Circle
 3437618946=FOV 원
 
+# EN: FOV Circle##projvis
+3268196155=FOV Circle##projvis
+
 # EN: FOV Circle##sa
 1684241733=FOV 원##sa
 
@@ -1413,6 +1884,9 @@
 
 # EN: FOV Cone
 3855747913=FOV 콘
+
+# EN: FOV Limit##mb
+3932303542=FOV Limit##mb
 
 # EN: FOV Override
 660796900=FOV 재정의
@@ -1423,8 +1897,11 @@
 # EN: FOV Radius##mb
 3586756969=FOV 반경##mb
 
-# EN: FOV Scaling
-1352560597=FOV 스케일링
+# EN: FOV Radius##proj
+55660565=FOV Radius##proj
+
+# EN: FOV Scale by Distance
+4020045898=FOV Scale by Distance
 
 # EN: FPS
 1188151419=FPS
@@ -1441,14 +1918,14 @@
 # EN: Fade Out
 88300072=페이드 아웃
 
-# EN: Fade Out##pt
-723949415=페이드 아웃##pt
-
-# EN: Fade Out##tt
-1486429023=페이드 아웃##tt
+# EN: Fade Out##bt2
+2502754614=Fade Out##bt2
 
 # EN: Fade Over Time
 721809131=시간에 따른 페이드
+
+# EN: Fade by Distance
+310763781=Fade by Distance
 
 # EN: Failed to import
 3610834696=가져오기 실패
@@ -1465,14 +1942,23 @@
 # EN: Fast Climb
 1192867602=빠른 등반
 
+# EN: Fast Punch
+4255767614=Fast Punch
+
 # EN: Fast Reload
 1854971811=빠른 재장전
 
 # EN: Fast Run
 1518054783=빠른 달리기
 
+# EN: Fast start, brakes near target
+1671645065=Fast start, brakes near target
+
 # EN: Fast-forward time at a custom speed
 1951095642=사용자 정의 속도로 시간 빨리 감기
+
+# EN: Feature Keybinds
+2384437387=Feature Keybinds
 
 # EN: Features
 1642194290=기능
@@ -1498,6 +1984,12 @@
 # EN: Fill Color
 1891090697=채우기 색상
 
+# EN: Fill Color##animal
+670630670=Fill Color##animal
+
+# EN: Fill Color##veh
+3176782488=Fill Color##veh
+
 # EN: Fill Deadeye Core
 2679437180=데드아이 코어 채우기
 
@@ -1516,14 +2008,17 @@
 # EN: Filled
 238956158=채워짐
 
-# EN: Filled Circle
-1999419602=채워진 원
-
 # EN: Filter
 1239184307=필터
 
+# EN: Filter events / resources...
+2239256256=Filter events / resources...
+
 # EN: Filter##mb
 982138645=필터##mb
+
+# EN: Filter##proj
+1693281521=필터##proj
 
 # EN: Filter##sa
 2082915633=필터##sa
@@ -1531,14 +2026,32 @@
 # EN: Filter##trig
 1506659606=필터##trig
 
+# EN: Filters
+3325143685=Filters
+
 # EN: Fine-Tuning
 3037120010=미세 조정
+
+# EN: Fire All
+2874134581=Fire All
+
+# EN: Fire All Loop
+2371634047=Fire All Loop
 
 # EN: Fire Ammo
 3091308747=화염 탄약
 
+# EN: Fire Arrow
+1489326154=Fire Arrow
+
 # EN: Fire Delay
 425570614=발사 지연
+
+# EN: Fire Event
+2661019027=Fire Event
+
+# EN: Fire Loop
+3821399314=Fire Loop
 
 # EN: Fire Proof
 2377383169=화재 방어
@@ -1546,11 +2059,17 @@
 # EN: Fire Rate
 3724661835=발사 속도
 
-# EN: Firework Launcher, Compact GL
-1025450837=불꽃놀이 발사기, 소형 유탄 발사기
+# EN: Fire Rate##mb
+1343186129=Fire Rate##mb
+
+# EN: Fire explosive projectile from muzzle
+3794635436=Fire explosive projectile from muzzle
 
 # EN: Fit
 1780184594=맞추기
+
+# EN: Flags
+1741842546=Flags
 
 # EN: Flaming Hooves
 246169199=화염 발굽
@@ -1561,23 +2080,29 @@
 # EN: Flashing warning when another player is aiming at you
 2760353598=다른 플레이어가 당신을 조준할 때 깜빡이는 경고
 
+# EN: Flat
+628418783=Flat
+
+# EN: Fling thrown projectiles at high speed
+871183867=Fling thrown projectiles at high speed
+
+# EN: Flip Vehicle
+2529232516=Flip Vehicle
+
+# EN: Flips Config.disable*Detection flags + absorbs NUI tripwire.
+3653173931=Flips Config.disable*Detection flags + absorbs NUI tripwire.
+
+# EN: Floating
+49814712=Floating
+
+# EN: Floating shape above animal head
+1095761944=Floating shape above animal head
+
 # EN: Fly Mode
 2546767316=비행 모드
 
 # EN: Fly Mount
 3095471503=탈것 비행
-
-# EN: Fly freely, ignoring world geometry
-2682006472=월드 지형을 무시하고 자유롭게 비행
-
-# EN: Fly on a floating carpet with WASD/Space/Ctrl
-691261970=WASD/Space/Ctrl로 떠다니는 양탄자 비행
-
-# EN: Fly on your horse with WASD/Space/Ctrl
-2052440713=WASD/Space/Ctrl로 말 타고 비행
-
-# EN: Fly through the map freely. Click gear for settings.
-2829494518=맵을 자유롭게 비행합니다. 설정은 기어를 클릭하세요.
 
 # EN: Flying Speed
 2419263387=비행 속도
@@ -1585,14 +2110,23 @@
 # EN: Fog
 3592150529=안개
 
+# EN: Follow Nearest Player
+687010905=가장 가까운 플레이어 따라가기
+
 # EN: Font Settings
 3544698146=폰트 설정
 
 # EN: Font Size
 1304943144=폰트 크기
 
-# EN: Font Size##dmglog
-1349856237=폰트 크기##dmglog
+# EN: Font Size##adist
+2586262393=Font Size##adist
+
+# EN: Font Size##dlog2
+1871772931=Font Size##dlog2
+
+# EN: Font Size##dmg
+3330545899=Font Size##dmg
 
 # EN: Font names not ready
 1640246123=폰트 이름이 준비되지 않음
@@ -1606,11 +2140,17 @@
 # EN: Force
 727102967=힘
 
+# EN: Force Detach
+322280687=Force Detach
+
 # EN: Force Field
 3674789465=역장
 
-# EN: Force a specific weather type
-785757655=특정 날씨 유형 강제 적용
+# EN: Force Gun
+2320811497=Force Gun
+
+# EN: Force Vomit
+3570371821=강제 구토
 
 # EN: Force on Ped
 3779398860=보행자에게 힘 적용
@@ -1621,8 +2161,14 @@
 # EN: Forces
 4287958825=힘
 
+# EN: Forward
+854951812=앞
+
 # EN: Forward Speed
 1876555102=전진 속도
+
+# EN: Frame This Player
+375330543=이 플레이어에게 누명 씌우기
 
 # EN: Frametime Graph
 3749077224=프레임타임 그래프
@@ -1630,8 +2176,17 @@
 # EN: Frametime Stats
 3723639030=프레임타임 통계
 
+# EN: Free Menus
+2609200059=Free Menus
+
 # EN: Freecam
 3443129427=프리캠
+
+# EN: Freeze
+3175262865=고정
+
+# EN: Freeze All
+562972110=모두 얼리기
 
 # EN: Freeze All Peds
 1623902237=모든 보행자 동결
@@ -1660,8 +2215,20 @@
 # EN: Friends are excluded
 3097198968=친구는 제외됨
 
+# EN: Frosted
+4021177151=Frosted
+
 # EN: Full
 2467592022=전체
+
+# EN: Full Changelog
+2892240987=Full Changelog
+
+# EN: Full Opacity
+3932230364=Full Opacity
+
+# EN: Fun
+4088589830=Fun
 
 # EN: Fun Ammo
 574668198=재미 탄약
@@ -1699,6 +2266,9 @@
 # EN: Ghost Mode
 2792783542=고스트 모드
 
+# EN: Give Carbine
+2118885684=Give Carbine
+
 # EN: Glass
 3656960447=유리
 
@@ -1720,11 +2290,11 @@
 # EN: Glow Radius
 3087836290=빛남 반경
 
-# EN: Glow Radius##pt
-4004376189=빛남 반경##pt
+# EN: Glow Radius##bt2
+2560990833=Glow Radius##bt2
 
-# EN: Glow Radius##tt
-1810956257=빛남 반경##tt
+# EN: Glow##bt2
+420923737=Glow##bt2
 
 # EN: Glow##head
 3142243301=빛남##head
@@ -1732,17 +2302,11 @@
 # EN: Glow##outline
 2470917910=빛남##outline
 
-# EN: Glow##pt
-329084185=빛남##pt
-
 # EN: Glow##skel
 3909833531=빛남##skel
 
 # EN: Glow##snap
 3584938764=빛남##snap
-
-# EN: Glow##tt
-231761347=빛남##tt
 
 # EN: Go
 3678454391=이동
@@ -1759,14 +2323,29 @@
 # EN: Grab Opacity
 1641363077=잡기 불투명도
 
+# EN: Grab Range
+2257887998=잡기 범위
+
+# EN: Grab Shape
+3731252436=Grab Shape
+
+# EN: Grab Size
+390888471=Grab Size
+
 # EN: Grab##scr
 2129025338=잡기##scr
+
+# EN: Grabber
+3519731721=그래버
 
 # EN: Graceful Landing
 2418029094=부드러운 착지
 
 # EN: Gradient
 3345778296=그라데이션
+
+# EN: Gradient (ON)
+145492381=Gradient (ON)
 
 # EN: Gradient Accent
 375722623=그라데이션 강조
@@ -1777,8 +2356,14 @@
 # EN: Gradient End
 2363959488=그라데이션 끝
 
+# EN: Gradient Fill
+1626977588=Gradient Fill
+
 # EN: Gradient##skel
 4185602752=그라데이션##skel
+
+# EN: Gradient##sl
+4056088422=Gradient##sl
 
 # EN: Gradient##snap
 996503281=그라데이션##snap
@@ -1792,20 +2377,26 @@
 # EN: Graph Line
 2499037406=그래프 선
 
+# EN: Grapple Hook
+3088883906=Grapple Hook
+
+# EN: Gravity Compensation
+3413356985=Gravity Compensation
+
 # EN: Gravity Flip
 1328387907=중력 뒤집기
 
 # EN: Gravity Gun
 593196728=중력 총
 
+# EN: Gravity Swap
+2900137701=Gravity Swap
+
 # EN: Greatly increases weapon fire rate
 3075330173=무기 발사 속도 대폭 증가
 
 # EN: Greatly speeds up reload animations
 1665048634=재장전 애니메이션 대폭 가속
-
-# EN: Grenades, Sticky Bombs, Molotovs,
-1157284636=수류탄, 접착 폭탄, 화염병,
 
 # EN: Grid Lines
 608131623=격자선
@@ -1849,6 +2440,12 @@
 # EN: HP
 1833919794=HP
 
+# EN: HP Mode
+2196479797=HP Mode
+
+# EN: HP Threshold
+1334698493=HP Threshold
+
 # EN: HUD
 2488248793=HUD
 
@@ -1858,11 +2455,17 @@
 # EN: Hands
 1613305285=손
 
+# EN: Hash Gun
+217018978=Hash Gun
+
 # EN: Hat
 2537416713=모자
 
 # EN: Hat Color
 2197204917=모자 색상
+
+# EN: Hat ESP##animalhat
+904027355=Hat ESP##animalhat
 
 # EN: Hat Style
 3968368516=모자 스타일
@@ -1909,6 +2512,9 @@
 # EN: Header Height
 1726695865=헤더 높이
 
+# EN: Header Only
+1079959356=Header Only
+
 # EN: Header Opacity
 3337976026=헤더 불투명도
 
@@ -1921,11 +2527,14 @@
 # EN: Headshot Chance
 1279076512=헤드샷 확률
 
-# EN: Headshot Color
-3745724835=헤드샷 색상
+# EN: Headshot Chance##mb
+105036172=Headshot Chance##mb
 
-# EN: Headshot Highlight
-3490981979=헤드샷 하이라이트
+# EN: Heal
+213766180=Heal
+
+# EN: Heal All
+694888403=Heal All
 
 # EN: Heal Gun
 3522316062=치유 총
@@ -1933,11 +2542,20 @@
 # EN: Heals the targeted ped to full health or repairs vehicles
 1348684421=대상 보행자를 완전 체력으로 치유하거나 차량 수리
 
+# EN: Health
+3645570614=체력
+
 # EN: Health / Armor
 1392506828=체력 / 방어력
 
 # EN: Health Bar
 238354258=체력 바
+
+# EN: Health Bar##animal
+1043723384=Health Bar##animal
+
+# EN: Health Bar##veh
+2888284525=Health Bar##veh
 
 # EN: Health Bars
 3573032106=체력 바
@@ -1945,14 +2563,20 @@
 # EN: Health Dots
 1895157285=체력 점
 
+# EN: Health Filter
+3797968681=Health Filter
+
 # EN: Health Regen
 2428261713=체력 재생
 
 # EN: Health and stamina bars stay full
 1580284707=체력과 스태미나 바가 항상 가득 참
 
-# EN: Heartbeat active — expect kick in 2-5 min
-1880003566=하트비트 활성 — 2-5분 내 추방 예상
+# EN: Health bar alongside the box
+42303962=Health bar alongside the box
+
+# EN: Health bar below the box
+3233771946=Health bar below the box
 
 # EN: Height
 1392374582=높이
@@ -1962,6 +2586,15 @@
 
 # EN: Height Offset
 599202244=높이 오프셋
+
+# EN: Height##animalhat
+2353146170=높이##animalhat
+
+# EN: Height##tgl
+3237570541=높이##tgl
+
+# EN: Hero
+1055943436=영웅
 
 # EN: Hex
 3544636510=Hex
@@ -1978,17 +2611,35 @@
 # EN: Hide ESP
 3489105641=ESP 숨기기
 
+# EN: Hide From Others
+943693745=다른 사람에게 숨기기
+
 # EN: Hide Menu
 1560947015=메뉴 숨기기
 
 # EN: Hide Overlays
 1525934716=오버레이 숨기기
 
+# EN: Hide Own Mount
+4250645748=Hide Own Mount
+
+# EN: Hide Preview
+3899698831=Hide Preview
+
 # EN: Hide Tracers / Lines
 425240012=궤적 / 선 숨기기
 
-# EN: Highlight Headshots
-1100352321=헤드샷 하이라이트
+# EN: Hide weapon model while aiming
+2699460846=Hide weapon model while aiming
+
+# EN: Higher = clings to current target longer
+2780806627=Higher = clings to current target longer
+
+# EN: Higher = slower / less aggressive nudge
+83817398=Higher = slower / less aggressive nudge
+
+# EN: Hijack Horse
+1532813097=Hijack Horse
 
 # EN: Hit Chance
 3254221308=적중 확률
@@ -1999,8 +2650,14 @@
 # EN: Hit Effect
 3650015191=적중 효과
 
+# EN: Hit Range
+3630651289=Hit Range
+
 # EN: Hitbox
 2448535733=히트박스
+
+# EN: Hitbox Priority##trig
+797160922=Hitbox Priority##trig
 
 # EN: Hitmarker
 610964850=히트마커
@@ -2011,14 +2668,41 @@
 # EN: Hold
 2552174939=유지
 
-# EN: Homing Ammo
-2847338131=유도 탄약
+# EN: Hold ATTACK to grab the closest wagon / coach / boat (riders/drivers come along). AIM throws it forward.
+3528287593=ATTACK을 길게 눌러 가장 가까운 마차 / 객차 / 보트를 잡습니다(탑승자/운전자도 함께 이동). AIM으로 앞으로 던집니다.
+
+# EN: Hold ATTACK while unarmed + on foot to grab the closest ped (humans / horses / animals — works even when riders are mounted). Press AIM to throw forward.
+1892316222=비무장 + 도보 상태에서 ATTACK을 길게 눌러 가장 가까운 Ped를 잡습니다(사람 / 말 / 동물 - 탑승자가 탄 상태여도 작동). AIM을 눌러 앞으로 던집니다.
+
+# EN: Hold Attack (Left Mouse Button) to strike lightning at your aim point
+3787356728=Hold Attack (Left Mouse Button) to strike lightning at your aim point
+
+# EN: Hold Distance
+646883769=거리 유지
+
+# EN: Hold E near a player to pull and punch
+4004346598=Hold E near a player to pull and punch
+
+# EN: Hold Shift to boost, release to stop
+1354780119=Hold Shift to boost, release to stop
+
+# EN: Hold Time##proj
+1312533915=Hold Time##proj
+
+# EN: Hold aim key to snap onto nearest target
+2268590838=Hold aim key to snap onto nearest target
+
+# EN: Hold jump for super jump — launches higher and further with configurable force
+1132539105=Hold jump for super jump — launches higher and further with configurable force
 
 # EN: Horizontal
 1700296974=수평
 
 # EN: Horse
 2510745927=말
+
+# EN: Horse Teleport
+3703692753=Horse Teleport
 
 # EN: Horse can climb steep terrain without sliding
 3061925845=말이 미끄러지지 않고 급경사 지형을 등반
@@ -2029,8 +2713,8 @@
 # EN: Horse cores stay full at all times
 778780251=말 코어가 항상 가득 참
 
-# EN: Horse floats in the air
-793231407=말이 공중에 뜸
+# EN: Horse floats in the air — disables gravity on mount
+2873733082=Horse floats in the air — disables gravity on mount
 
 # EN: Horse jumps much higher
 2736353125=말이 훨씬 높이 점프
@@ -2056,8 +2740,14 @@
 # EN: Horses
 717108105=말
 
+# EN: Horses Only
+3605620776=Horses Only
+
 # EN: Horses won't detach from your wagon
 984148264=말이 마차에서 분리되지 않음
+
+# EN: Horses, deer, bears, wolves, dogs, etc.
+1864697964=Horses, deer, bears, wolves, dogs, etc.
 
 # EN: Hour
 1605056896=시간
@@ -2079,6 +2769,9 @@
 
 # EN: Humanization
 2824293924=인간화
+
+# EN: Hurl physics-driven flaming meteorites at aim location
+3415013775=Hurl physics-driven flaming meteorites at aim location
 
 # EN: ID
 459292749=ID
@@ -2143,14 +2836,29 @@
 # EN: Immune to steam damage
 1461376638=증기 피해 면역
 
+# EN: Impact Duration##bt2
+2663960831=Impact Duration##bt2
+
 # EN: Impact Marker
 2096517014=충격 마커
+
+# EN: Impact Marker##bt2
+1905069574=Impact Marker##bt2
+
+# EN: Impact Size##bt2
+458394527=Impact Size##bt2
 
 # EN: Import
 1878035063=가져오기
 
 # EN: Imported
 477398127=가져오기 완료
+
+# EN: Include dead animals in ESP
+2744616645=Include dead animals in ESP
+
+# EN: Include deadeye attribute core
+2029741933=Include deadeye attribute core
 
 # EN: Increase movement speed while on foot
 1805528141=도보 시 이동 속도 증가
@@ -2163,6 +2871,9 @@
 
 # EN: Indent
 3670931990=들여쓰기
+
+# EN: Independent of Lock On — uses its own toggle and key
+714451620=Independent of Lock On — uses its own toggle and key
 
 # EN: Indices
 3921649453=인덱스
@@ -2182,11 +2893,17 @@
 # EN: Info
 1745727664=정보
 
+# EN: Info box near crosshair when aiming at a player
+3071048165=Info box near crosshair when aiming at a player
+
 # EN: Info notification
 15919856=정보 알림
 
 # EN: Info##notif
 3630429841=정보##notif
+
+# EN: Initial upward boost for natural swing
+629750290=Initial upward boost for natural swing
 
 # EN: Inner Circle
 3697123713=내부 원
@@ -2209,6 +2926,9 @@
 # EN: Instant Accuracy
 4029560167=즉시 정확도
 
+# EN: Instant Knockdown NPC
+2211158252=Instant Knockdown NPC
+
 # EN: Instant Respawn
 1986336922=즉시 리스폰
 
@@ -2224,8 +2944,14 @@
 # EN: Intensity
 4023228733=강도
 
+# EN: Inter-Shot Jitter
+711221323=Inter-Shot Jitter
+
 # EN: Interval
 640635350=간격
+
+# EN: Interval##all
+2217342454=Interval##all
 
 # EN: Interval##mr
 2231230793=간격##mr
@@ -2233,11 +2959,17 @@
 # EN: Interval##ms
 3903498393=간격##ms
 
+# EN: Invalid key
+2656583890=Invalid key
+
 # EN: Invisible
 4238958260=투명
 
 # EN: Item Active
 3806767807=항목 활성
+
+# EN: Item Gap
+794979395=Item Gap
 
 # EN: Item Height
 1662290394=항목 높이
@@ -2245,14 +2977,26 @@
 # EN: Item Hover
 3271408553=항목 호버
 
+# EN: Item Pad X
+1161658994=Item Pad X
+
 # EN: Item Spacing
 3472915733=항목 간격
 
-# EN: Jitter
-2175396620=지터
+# EN: Items
+3308786431=아이템
+
+# EN: JSON
+1493832359=JSON
+
+# EN: Jitter / Humanize
+3885455134=Jitter / Humanize
 
 # EN: Jitter##human
 4232165471=지터##human
+
+# EN: Joint Color
+1649662583=Joint Color
 
 # EN: Joint Size
 2337031930=관절 크기
@@ -2260,14 +3004,8 @@
 # EN: Joints
 2543302730=관절
 
-# EN: Joints + Head Ring
-3407280952=관절 + 머리 링
-
 # EN: Jump Glow
 3124076406=점프 빛
-
-# EN: Jump higher and further with configurable force
-2202635590=설정 가능한 힘으로 더 높고 멀리 점프
 
 # EN: KEYBINDS
 1174365445=키 설정
@@ -2299,8 +3037,14 @@
 # EN: Keep targeting the same player until they die
 3940874244=대상이 죽을 때까지 같은 플레이어를 계속 타겟팅
 
+# EN: Keep tracking the same target between frames unless score worsens significantly
+506866646=Keep tracking the same target between frames unless score worsens significantly
+
 # EN: Key Pill / Accent
 254348757=키 필 / 강조
+
+# EN: Key redeemed
+871295478=Key redeemed
 
 # EN: Keybind List
 1074682821=키 설정 목록
@@ -2317,6 +3061,9 @@
 # EN: Kick Mount
 2704406811=탈것 발차기
 
+# EN: Kick the rider off when teleporting to an occupied horse
+4002632872=Kick the rider off when teleporting to an occupied horse
+
 # EN: Kill All Animals
 1086619057=모든 동물 죽이기
 
@@ -2332,11 +3079,35 @@
 # EN: Kill Effect
 3695467159=킬 효과
 
+# EN: Kill Effect##hm
+878885828=Kill Effect##hm
+
+# EN: Kill Horse
+2615268342=Kill Horse
+
 # EN: Kill any target with a single bullet
 3530122630=한 발로 대상 사살
 
 # EN: Knob
 3174489586=노브
+
+# EN: Knob Pad
+2773421388=Knob Pad
+
+# EN: Knob Scale
+993676257=Knob Scale
+
+# EN: Knob Shape
+843089538=Knob Shape
+
+# EN: LMB Throw | RMB Recall | Jump Fly to hammer
+4100900380=LMB Throw | RMB Recall | Jump Fly to hammer
+
+# EN: LOS raycast — won't lead a target into a wall when its predicted path is blocked
+3723847969=LOS raycast — won't lead a target into a wall when its predicted path is blocked
+
+# EN: Labels
+523099886=Labels
 
 # EN: Language
 1264767922=언어
@@ -2346,6 +3117,27 @@
 
 # EN: Large GIFs with many frames use more VRAM and
 1677371317=프레임이 많은 큰 GIF는 더 많은 VRAM을 사용하며
+
+# EN: Lasso
+705179744=Lasso
+
+# EN: Lasso##proj
+483909808=Lasso##proj
+
+# EN: Launch All
+2200616639=Launch All
+
+# EN: Launch Horse
+4070026433=Launch Horse
+
+# EN: Launch Up
+3341920784=Launch Up
+
+# EN: Launch Upward
+2068197786=위로 발사
+
+# EN: Launch entities away with physics force
+1048481584=Launch entities away with physics force
 
 # EN: Launches the targeted ped or vehicle into the air in an arc
 3918789542=대상 보행자나 차량을 아크 궤도로 공중 발사
@@ -2358,6 +3150,9 @@
 
 # EN: Lead Distance
 3027328764=리드 거리
+
+# EN: Lead Line
+600709582=Lead Line
 
 # EN: Left
 1872971840=왼쪽
@@ -2374,6 +3169,9 @@
 # EN: Library
 3519106789=라이브러리
 
+# EN: Lift Distance
+3039571348=Lift Distance
+
 # EN: Lighting Color
 581343090=조명 색상
 
@@ -2389,8 +3187,17 @@
 # EN: Lightning
 3342970541=번개
 
+# EN: Lightning All
+2329977748=Lightning All
+
+# EN: Lightning All Loop
+3513476951=Lightning All Loop
+
 # EN: Lightning Gun
 421822385=번개 총
+
+# EN: Lightning Loop
+3675505188=Lightning Loop
 
 # EN: Lightning Strike
 3898028188=번개 타격
@@ -2404,6 +3211,9 @@
 # EN: Line
 2053992847=선
 
+# EN: Line Color
+3393959997=Line Color
+
 # EN: Line Opacity
 670408965=선 불투명도
 
@@ -2413,8 +3223,17 @@
 # EN: Line of Sight
 3600102520=시선
 
+# EN: Linear
+959610275=Linear
+
 # EN: Lines
 3759251173=선
+
+# EN: Lines from screen to animal
+887884222=Lines from screen to animal
+
+# EN: Lines from screen to vehicle
+2856687034=Lines from screen to vehicle
 
 # EN: Links
 4048857167=링크
@@ -2422,11 +3241,17 @@
 # EN: List UI
 2974715443=목록 UI
 
-# EN: List UI is coming soon and not yet available.
-3836961011=목록 UI가 곧 출시되며 아직 사용할 수 없습니다.
+# EN: ListUI
+4099801258=ListUI
+
+# EN: Live text next to the impact marker — distance in meters and arrow flight time
+2205632688=Live text next to the impact marker — distance in meters and arrow flight time
 
 # EN: Load
 837451790=불러오기
+
+# EN: Load Script
+3976028888=Load Script
 
 # EN: Loaded
 538484865=로드됨
@@ -2446,6 +3271,9 @@
 # EN: Loading weapons...
 2489159571=무기 로딩 중...
 
+# EN: Loading...
+3089557982=Loading...
+
 # EN: Local
 1196138662=로컬
 
@@ -2461,8 +3289,14 @@
 # EN: Lock On
 3927233622=록온
 
+# EN: Log Blocked Detections
+4183931454=차단된 감지 기록
+
 # EN: Log blocked sync events to the console
 1714725780=차단된 동기화 이벤트를 콘솔에 기록
+
+# EN: Logging
+1266327033=로깅
 
 # EN: Logo
 661613880=로고
@@ -2485,6 +3319,21 @@
 # EN: Loop
 1281572103=반복
 
+# EN: Loop All
+207237705=Loop All
+
+# EN: Looped
+541157799=Looped
+
+# EN: Looped##db_ptfx
+4194316736=Looped##db_ptfx
+
+# EN: Loose the bow / let fly the throwable when lock holds steady
+1911010072=Loose the bow / let fly the throwable when lock holds steady
+
+# EN: Low HP Only
+405816121=Low HP Only
+
 # EN: Lower Cloud Intensity
 3666602646=하단 구름 강도
 
@@ -2500,8 +3349,8 @@
 # EN: Lua scripting engine (not yet ported)
 2088386079=Lua 스크립팅 엔진 (아직 이식되지 않음)
 
-# EN: Lua scripting not yet ported to FiveM.
-2144415292=Lua 스크립팅이 아직 FiveM으로 이식되지 않음.
+# EN: Lua scripting not yet ported to RedM.
+1933613976=Lua scripting not yet ported to RedM.
 
 # EN: Magazine never empties
 1421871892=탄창이 비지 않음
@@ -2539,23 +3388,23 @@
 # EN: Makes your horse invincible
 1572829119=당신의 말을 무적 상태로 만듦
 
-# EN: Manually set the in-game time of day
-18590843=게임 내 시간을 수동으로 설정
+# EN: Manually scan loaded modules for known anti-cheat DLLs
+1486356233=Manually scan loaded modules for known anti-cheat DLLs
 
 # EN: Map Image
 2485108282=맵 이미지
 
-# EN: Marker Duration
-3550132583=마커 지속 시간
+# EN: Margin
+3834294781=Margin
+
+# EN: Marker Color
+1413834926=Marker Color
 
 # EN: Marker Size
 1608809912=마커 크기
 
-# EN: Marker Size##pt
-2286249506=마커 크기##pt
-
-# EN: Marker Size##tt
-1410759241=마커 크기##tt
+# EN: Master switch — flips every Outsider detection category in one toggle: Infinite Ammo, Suspicious Revive, Stamina God (Player + Horse), Teleport, Resource Scan, Animal Spawn, Weapon + Ammo Blacklists, NUI DevTools tripwire, and the offline Network Lock.
+735880372=마스터 스위치 - Outsider 감지 카테고리를 한 번에 전환: 무한 탄약, 의심스러운 부활, 스태미나 무적(플레이어 + 말), 텔레포트, 리소스 스캔, 동물 스폰, 무기 + 탄약 블랙리스트, NUI DevTools 트립와이어, 오프라인 Network Lock.
 
 # EN: Match Accent
 2004835312=강조 색 맞춤
@@ -2566,11 +3415,32 @@
 # EN: Max Connections
 2093456670=최대 연결 수
 
+# EN: Max Consec. Headshots
+1202996373=Max Consec. Headshots
+
+# EN: Max Cores
+222121208=Max Cores
+
 # EN: Max Distance
 1098241997=최대 거리
 
+# EN: Max Distance##animal
+2487564573=Max Distance##animal
+
+# EN: Max Distance##esp
+113564246=Max Distance##esp
+
 # EN: Max Distance##mb
 3059089789=최대 거리##mb
+
+# EN: Max Distance##proj
+3357916410=Max Distance##proj
+
+# EN: Max Distance##trig
+3943077587=Max Distance##trig
+
+# EN: Max Distance##veh
+1144611207=Max Distance##veh
 
 # EN: Max File Size (MB)
 3754775838=최대 파일 크기 (MB)
@@ -2580,6 +3450,18 @@
 
 # EN: Max Kills/Min
 2248378999=최대 킬/분
+
+# EN: Max Kills/Min##mb
+3946597068=Max Kills/Min##mb
+
+# EN: Max Lead Time
+4201150276=Max Lead Time
+
+# EN: Max Lock Error##proj
+456769390=Max Lock Error##proj
+
+# EN: Max Nudge / Tick
+4268040976=Max Nudge / Tick
 
 # EN: Max Offset
 1479160603=최대 오프셋
@@ -2596,14 +3478,26 @@
 # EN: Max Range Filter
 2461467509=최대 범위 필터
 
+# EN: Max Render##esp
+2059091760=Max Render##esp
+
 # EN: Max Resolution
 2928541794=최대 해상도
 
 # EN: Max Speed
 2051389565=최대 속도
 
+# EN: Max Target Speed
+2229440381=Max Target Speed
+
 # EN: Medium (15m)
 2324846004=보통 (15m)
+
+# EN: Melee
+999229322=Melee
+
+# EN: Melee Bot
+1190352797=Melee Bot
 
 # EN: Melee Proof
 3978744557=근접 방어
@@ -2617,8 +3511,8 @@
 # EN: Menu
 3305016052=메뉴
 
-# EN: Meteor Gun
-1561453207=유성 총
+# EN: Menu Position
+488308314=Menu Position
 
 # EN: Meteor Rain
 3841084365=유성 비
@@ -2631,6 +3525,9 @@
 
 # EN: Meteorite Rain
 3057240388=운석 비
+
+# EN: Milliseconds the lock must stay stable before firing
+669053473=Milliseconds the lock must stay stable before firing
 
 # EN: Min Scale
 4136179093=최소 크기
@@ -2647,6 +3544,9 @@
 # EN: Misc
 3888475804=기타
 
+# EN: Missing file id
+3301067073=Missing file id
+
 # EN: Misty
 1500834021=안개낀
 
@@ -2659,17 +3559,23 @@
 # EN: Mode
 1746230403=모드
 
+# EN: Model Name / Hash
+1935523304=Model Name / Hash
+
+# EN: Modern
+1004805855=Modern
+
 # EN: Modules
 2096891096=모듈
+
+# EN: Momentum
+830361429=Momentum
 
 # EN: Moon
 2385442906=달
 
 # EN: Moon Color
 3543452926=달 색상
-
-# EN: Moon Gravity
-1378348743=달 중력
 
 # EN: Moon Light Color
 3558736022=달 빛 색상
@@ -2686,8 +3592,17 @@
 # EN: Moonlight Color
 314148051=달빛 색상
 
+# EN: More iterations = tighter ballistic convergence (3 is plenty)
+3294213253=More iterations = tighter ballistic convergence (3 is plenty)
+
 # EN: Morning
 852964312=아침
+
+# EN: Most Referenced Events
+962784570=Most Referenced Events
+
+# EN: Motivation States
+2457102115=Motivation States
 
 # EN: Mount
 2692356500=탈것
@@ -2698,17 +3613,26 @@
 # EN: Mount Extras
 1038207876=탈것 추가
 
+# EN: Mount Scale
+2730502113=Mount Scale
+
 # EN: Movement
 2799785395=이동
 
 # EN: Movement Extras
 3064802169=이동 추가
 
+# EN: Movement Prediction
+1187418797=Movement Prediction
+
 # EN: Movement Prediction##sa
 598861308=이동 예측##sa
 
 # EN: Movement Smoother
 1516594648=이동 부드럽게
+
+# EN: Multi-Target
+2095291306=Multi-Target
 
 # EN: Multiple rings stack from feet to head
 1361975713=여러 링이 발부터 머리까지 쌓임
@@ -2721,6 +3645,9 @@
 
 # EN: NPC
 3921142999=NPC
+
+# EN: NPC Hijack
+756304747=NPC 하이재킹
 
 # EN: NPC Ignore
 2361767225=NPC 무시
@@ -2737,11 +3664,35 @@
 # EN: Name
 3873537812=이름
 
+# EN: Name Color
+2559614666=Name Color
+
 # EN: Name Position
 1309262417=이름 위치
 
 # EN: Name Size
 847030063=이름 크기
+
+# EN: Name Size##animal
+940197598=Name Size##animal
+
+# EN: Name Size##veh
+3414166273=Name Size##veh
+
+# EN: Name##animal
+3355670016=이름##animal
+
+# EN: Name##ptfx_save
+3911945655=이름##ptfx_save
+
+# EN: Name##save_name
+1033300409=이름##save_name
+
+# EN: Name##veh
+501997998=이름##veh
+
+# EN: Natural
+4292977478=Natural
 
 # EN: Nav Bar Background
 75021814=내비게이션 바 배경
@@ -2779,6 +3730,9 @@
 # EN: Nearby Only
 4115480667=근처만
 
+# EN: Nearby Players
+1754941383=Nearby Players
+
 # EN: Nearest
 775913483=가장 가까운
 
@@ -2787,6 +3741,9 @@
 
 # EN: Neon Border
 1220884655=네온 테두리
+
+# EN: Network
+2981967937=네트워크
 
 # EN: Never Buck
 1892380368=절대 떨어뜨리지 않음
@@ -2848,14 +3805,20 @@
 # EN: No Spread
 3427132305=탄 퍼짐 없음
 
+# EN: No action keybinds set
+3967958661=No action keybinds set
+
 # EN: No anti-cheat found on this server
 653618892=이 서버에서 Anti-Cheat를 찾을 수 없음
+
+# EN: No events blocked
+656685112=No events blocked
 
 # EN: No fall damage from any height
 951215153=어떤 높이에서도 낙하 피해 없음
 
-# EN: No feature binds set.
-1399384241=설정된 기능 키가 없습니다.
+# EN: No feature keybinds set
+1231463115=No feature keybinds set
 
 # EN: No features found matching
 849221076=일치하는 기능을 찾을 수 없음
@@ -2866,6 +3829,21 @@
 # EN: No image selected.
 3081214655=선택된 이미지 없음.
 
+# EN: No matches
+3293291230=No matches
+
+# EN: No one talking
+1795249198=말하는 사람 없음
+
+# EN: No paid scripts available.
+1253891300=No paid scripts available.
+
+# EN: No particle data loaded.
+702386897=No particle data loaded.
+
+# EN: No saved files.
+1038587172=No saved files.
+
 # EN: No script panels registered.
 2121200581=등록된 스크립트 패널 없음.
 
@@ -2874,6 +3852,18 @@
 
 # EN: No snippets saved yet.
 650550231=아직 저장된 스니펫 없음.
+
+# EN: No spawned entities.
+1191902316=No spawned entities.
+
+# EN: No spectators
+1921058372=관전자 없음
+
+# EN: Non-Looped
+1478626200=Non-Looped
+
+# EN: Non-Looped##db_ptfx
+2475766753=Non-Looped##db_ptfx
 
 # EN: None
 493038497=없음
@@ -2893,6 +3883,9 @@
 # EN: Not scanned yet — click Scan or enable Auto Detect
 2639677942=아직 스캔되지 않음 — 스캔을 클릭하거나 자동 감지를 활성화하세요
 
+# EN: Notch
+831383367=Notch
+
 # EN: Notification
 391984250=알림
 
@@ -2901,6 +3894,12 @@
 
 # EN: Nuke
 2543577859=핵폭탄
+
+# EN: OK
+2067953960=확인
+
+# EN: Objects / Walls
+3327894545=Objects / Walls
 
 # EN: Off
 125735237=끄기
@@ -2920,6 +3919,18 @@
 # EN: On
 2297599112=켜기
 
+# EN: On-screen indicator showing anti-cheat detection status
+2418591715=On-screen indicator showing anti-cheat detection status
+
+# EN: On-screen list of nearby players with distance and info
+11197036=On-screen list of nearby players with distance and info
+
+# EN: On-screen list of players currently spectating you
+337358072=On-screen list of players currently spectating you
+
+# EN: On-screen log listing recent damage dealt and taken with timestamps
+4217479471=On-screen log listing recent damage dealt and taken with timestamps
+
 # EN: One Hit Kill
 2789919291=원킬
 
@@ -2929,26 +3940,29 @@
 # EN: Only When Aiming
 2355363676=조준 시에만
 
+# EN: Only When Mounted
+366662471=Only When Mounted
+
 # EN: Only While ADS
 1639662579=조준경 사용 시에만
 
 # EN: Only While ADS##trig
 1546980182=조준경 사용 시에만##trig
 
+# EN: Only While Aim Key Held
+558637835=Only While Aim Key Held
+
 # EN: Only activate slow motion while aiming
 2666653046=조준 중에만 슬로우 모션 활성화
 
-# EN: Only activate when aiming down sights
-2670842741=조준경 사용 시에만 활성화
+# EN: Only active while you are riding
+3443929884=Only active while you are riding
 
 # EN: Only boost while on the ground
 518638339=지면에 있을 때만 부스트
 
-# EN: Only fire at targets you can see
-1838854184=보이는 대상에게만 발사
-
-# EN: Only hit targets behind cover
-2160035176=엄폐물 뒤의 대상만 타격
+# EN: Only show horses, hide other animals
+3176518525=Only show horses, hide other animals
 
 # EN: Only target players you can see
 851968866=보이는 플레이어만 타겟팅
@@ -2956,11 +3970,17 @@
 # EN: Opacity
 3644411688=불투명도
 
-# EN: Opacity##dmglog
-2914177699=불투명도##dmglog
+# EN: Opacity##animalhat
+4123815116=Opacity##animalhat
 
 # EN: Open Folder
 615535440=폴더 열기
+
+# EN: Open Folder##ptfx
+3971452229=Open Folder##ptfx
+
+# EN: Open Folder##spn
+1814632044=Open Folder##spn
 
 # EN: Open Key
 35305217=열기 키
@@ -2974,8 +3994,14 @@
 # EN: Options
 2704274338=옵션
 
+# EN: Oriented 3D bounding box with fill
+3783395943=Oriented 3D bounding box with fill
+
 # EN: Origin
 2371626452=원점
+
+# EN: Origin##asnap
+1061055714=Origin##asnap
 
 # EN: Other
 1378233051=기타
@@ -2998,8 +4024,20 @@
 # EN: Outline Width
 1689303532=외곽선 너비
 
+# EN: Outline##animalbox
+2848025225=Outline##animalbox
+
+# EN: Outline##dmg
+4062650815=Outline##dmg
+
 # EN: Outline##skel
 3425843942=외곽선##skel
+
+# EN: Outline##vehbox
+1794015250=Outline##vehbox
+
+# EN: Outsider Bypass
+1528800486=Outsider 우회
 
 # EN: Overcast
 3146353965=흐린 날씨
@@ -3022,17 +4060,14 @@
 # EN: Overpower Stamina
 2874431915=스태미나 초과 충전
 
-# EN: Override Time
-385966227=시간 재정의
-
-# EN: Override Weather
-2440079673=날씨 재정의
-
 # EN: Override camera, aim, and scope field of view
 1121952939=카메라, 조준, 스코프 시야각 재정의
 
 # EN: Override the ground snow coverage style
 3224058556=지면 눈 덮임 스타일 재정의
+
+# EN: Overview
+118778200=Overview
 
 # EN: PANIC MODE ACTIVE
 1272225111=패닉 모드 활성
@@ -3043,11 +4078,32 @@
 # EN: PNG or JPG recommended.
 2646030720=PNG 또는 JPG 권장.
 
+# EN: Pad X
+4090104508=Pad X
+
+# EN: Pad X##dd
+1605964143=Pad X##dd
+
+# EN: Pad X##sp
+976082529=Pad X##sp
+
+# EN: Pad Y##dd
+4284433392=Pad Y##dd
+
+# EN: Pad Y##sp
+2158836274=Pad Y##sp
+
 # EN: Padding
 625300402=패딩
 
 # EN: Page Title
 2169432593=페이지 제목
+
+# EN: Paid Scripts
+2150830199=Paid Scripts
+
+# EN: Panel Color
+1687163973=Panel Color
 
 # EN: Panel Colors
 1735835670=패널 색상
@@ -3064,8 +4120,14 @@
 # EN: Panic Mode
 2310882466=패닉 모드
 
+# EN: Particles
+1078194169=Particles
+
 # EN: Party
 1132658614=파티
+
+# EN: Pass Through
+3173995589=Pass Through
 
 # EN: Passively regenerate health over time
 240888173=시간에 따라 체력 자동 재생
@@ -3079,6 +4141,9 @@
 # EN: Ped Follows Camera
 1872355422=보행자 카메라 따라가기
 
+# EN: Ped Grabber
+422588753=Ped 그래버
+
 # EN: Ped Light Color
 1724512580=보행자 조명 색상
 
@@ -3088,11 +4153,14 @@
 # EN: Peds
 2376147223=보행자
 
+# EN: Peds / NPCs
+1876490144=Peds / NPCs
+
 # EN: Per Wave
 2167931403=웨이브당
 
-# EN: Per-Feature Binds
-2900791157=기능별 키 설정
+# EN: Per-frame angular cap — keeps motion natural
+974119255=Per-frame angular cap — keeps motion natural
 
 # EN: Perfect bullet accuracy with zero spread
 772440268=탄 퍼짐 없는 완벽한 총알 정확도
@@ -3112,6 +4180,12 @@
 # EN: Permanently enables Eagle Eye vision mode
 2869054927=이글 아이 시야 모드 영구 활성화
 
+# EN: Phantom Bullets
+4034865972=Phantom Bullets
+
+# EN: Phantom Weapon
+2103417705=Phantom Weapon
+
 # EN: Pick up and throw objects with your weapon
 4137019370=무기로 물체를 집어서 던지기
 
@@ -3127,11 +4201,11 @@
 # EN: Pill Pad Y
 352596684=필 패딩 Y
 
+# EN: Pin
+1279834816=Pin
+
 # EN: Ping
 1218843674=핑
-
-# EN: Pipe Bombs, Proximity Mines, Flares
-1693538821=파이프 폭탄, 근접 지뢰, 조명탄
 
 # EN: Pitch
 1061927116=음높이
@@ -3144,6 +4218,27 @@
 
 # EN: Place .lua files in:
 3888411723=.lua 파일을 다음 위치에 넣으세요:
+
+# EN: Place on Ground
+3034990287=Place on Ground
+
+# EN: Play
+966373365=Play
+
+# EN: Play Custom
+144710895=Play Custom
+
+# EN: Play Emote
+673125076=Play Emote
+
+# EN: Play Emote##db
+3178399800=Play Emote##db
+
+# EN: Play Scenario
+1053894634=Play Scenario
+
+# EN: Playback
+1432818572=Playback
 
 # EN: Player
 1862763509=플레이어
@@ -3166,11 +4261,23 @@
 # EN: Players Only
 766737098=플레이어만
 
+# EN: Players##hm
+2760884608=Players##hm
+
 # EN: Plays a beep sound when a player gets within range
 1863429150=플레이어가 범위 내에 들어오면 비프음 재생
 
+# EN: Plays a brief frontend tick when auto-fire releases — useful in third-person
+2628603186=Plays a brief frontend tick when auto-fire releases — useful in third-person
+
 # EN: Poison Ammo
 600661915=독 탄약
+
+# EN: Pops floating damage values at hit locations — critical hits highlighted
+2822050342=Pops floating damage values at hit locations — critical hits highlighted
+
+# EN: Popup Style
+3924788302=Popup Style
 
 # EN: Popups
 3713054092=팝업
@@ -3187,6 +4294,9 @@
 # EN: Position History
 3857144579=위치 기록
 
+# EN: Position##ahp
+707344821=위치##ahp
+
 # EN: Position##hdr
 1381185122=위치##hdr
 
@@ -3196,23 +4306,38 @@
 # EN: Power
 2673791500=파워
 
+# EN: Powers
+2081402664=능력
+
+# EN: Predator
+3806844075=Predator
+
 # EN: Predict target movement for better accuracy
 3415767592=더 나은 정확도를 위해 대상 이동 예측
 
 # EN: Prediction
 796153596=예측
 
+# EN: Prediction Factor
+53558502=Prediction Factor
+
 # EN: Prediction##sa
 43230462=예측##sa
+
+# EN: Predictive aim assist for arrows, lasso, and throwables — leads moving targets
+4223113178=Predictive aim assist for arrows, lasso, and throwables — leads moving targets
+
+# EN: Prefer Head > Neck > Body > Hands > Feet over first-match
+2220375626=Prefer Head > Neck > Body > Hands > Feet over first-match
+
+# EN: Premium Menus
+4177668372=Premium Menus
 
 # EN: Preset
 2973707311=프리셋
 
 # EN: Press END to instantly disable all visuals, menu, overlays, ESP. Press END again to restore.
 477737018=END를 눌러 모든 시각 효과, 메뉴, 오버레이, ESP를 즉시 비활성화. END를 다시 누르면 복원.
-
-# EN: Press [B] to rewind
-851379740=[B]를 눌러 되감기
 
 # EN: Press [G] to teleport forward in camera direction
 2203837878=[G]를 눌러 카메라 방향으로 전방 텔레포트
@@ -3228,6 +4353,9 @@
 
 # EN: Press the open key to toggle the menu anytime
 3803410397=열기 키를 눌러 언제든 메뉴를 전환하세요
+
+# EN: Prevent forced weapon drops from other players
+2940149982=Prevent forced weapon drops from other players
 
 # EN: Prevent ragdolling on landing
 2011576314=착지 시 래그돌 방지
@@ -3265,14 +4393,29 @@
 # EN: Primary
 303108068=기본
 
+# EN: Print blocked detection events to the local console
+1221152482=차단된 감지 이벤트를 로컬 콘솔에 출력
+
 # EN: Priority
 342945216=우선순위
+
+# EN: Priority##mb
+331609036=Priority##mb
 
 # EN: Priority##sa
 796836409=우선순위##sa
 
-# EN: Projectile Tracers
-272599090=투사체 궤적
+# EN: Projectile
+1255019530=Projectile
+
+# EN: Projectile Aim
+2644418183=Projectile Aim
+
+# EN: Projectile Ammo
+1297019655=Projectile Ammo
+
+# EN: Properties
+3865410327=Properties
 
 # EN: Protection
 3683844256=보호
@@ -3298,14 +4441,35 @@
 # EN: Pulse##glow
 231851092=펄스##glow
 
+# EN: Punch
+642573388=펀치
+
+# EN: Punch Loop
+913715001=펀치 루프
+
+# EN: Punch Rate
+1186403142=Punch Rate
+
 # EN: Push Gun
 3537155612=밀기 총
+
+# EN: Push Over
+1823912937=밀어 넘어뜨리기
+
+# EN: Push Over Loop
+952204192=밀어 넘어뜨리기 루프
+
+# EN: Push shot entities upward/down
+3168225453=Push shot entities upward/down
 
 # EN: Pushes nearby entities away from you
 936093937=주변 엔티티를 당신에게서 밀어냄
 
 # EN: Pushes the targeted entity away from you
 1985670088=대상 엔티티를 당신에게서 밀어냄
+
+# EN: Quadratic ease-in
+4213450626=Quadratic ease-in
 
 # EN: Quick Draw
 3130845513=퀵 드로우
@@ -3328,9 +4492,6 @@
 # EN: RDR2 Locations
 3060405866=RDR2 장소
 
-# EN: RPG, Homing Launcher, Grenade Launcher,
-2954220142=RPG, 유도 발사기, 유탄 발사기,
-
 # EN: Radar
 3103374064=레이더
 
@@ -3340,17 +4501,41 @@
 # EN: Radius##ff
 2121319983=반경##ff
 
+# EN: Radius##hbsty
+3794600950=Radius##hbsty
+
 # EN: Radius##ls
 534187969=반경##ls
 
 # EN: Radius##ms
 4216898969=반경##ms
 
+# EN: Radius##nbsty
+2105130560=Radius##nbsty
+
+# EN: Radius##sp
+2876015957=Radius##sp
+
 # EN: Radius##zm
 3051501832=반경##zm
 
+# EN: Ragdoll
+540944468=Ragdoll
+
+# EN: Ragdoll All
+1649746280=Ragdoll All
+
+# EN: Ragdoll All Loop
+3008212771=Ragdoll All Loop
+
 # EN: Ragdoll Gun
 531559925=래그돌 총
+
+# EN: Ragdoll Loop
+2541994190=Ragdoll Loop
+
+# EN: Ragdoll Peds
+3839008814=Ragdoll Peds
 
 # EN: Rain
 1420204096=비
@@ -3361,26 +4546,26 @@
 # EN: Rain Cloud
 191054983=비구름
 
-# EN: Rain explosive meteors at aim location
-4086413341=조준 위치에 폭발 유성 비
-
 # EN: Rainbow
 2057945528=무지개
-
-# EN: Rainbow Speed##pt
-461725058=무지개 속도##pt
-
-# EN: Rains explosive meteors at the target location
-437820255=대상 위치에 폭발 유성 비
 
 # EN: Rains explosive meteors from the sky
 3405325154=하늘에서 폭발 유성 비
 
+# EN: Random
+3957470568=Random
+
+# EN: Random Face
+3252986575=무작위 얼굴
+
+# EN: Random Outfit
+3482610871=무작위 의상
+
+# EN: Random Outfit All
+966771604=모두 무작위 의상
+
 # EN: Random meteors fall from the sky around you
 3946730977=당신 주변으로 하늘에서 무작위 유성 낙하
-
-# EN: Randomize whether each shot hits
-1173304963=각 발사의 적중 여부를 무작위화
 
 # EN: Range
 332484516=범위
@@ -3394,11 +4579,20 @@
 # EN: Rapid Fire
 4034658405=연사
 
+# EN: Rapid Fire##mb
+2271628892=Rapid Fire##mb
+
 # EN: Rate
 2120794248=속도
 
 # EN: Rate##serp
 1131381918=속도##serp
+
+# EN: Raycast from local ped to bone — won't fire through walls
+652655731=Raycast from local ped to bone — won't fire through walls
+
+# EN: Reaction
+2976050821=Reaction
 
 # EN: Real Sky Aura
 1300461090=실제 하늘 오라
@@ -3409,23 +4603,47 @@
 # EN: Recommended image sizes:
 2704497521=권장 이미지 크기:
 
-# EN: Redirect bullets mid-flight to hit target
-58070485=비행 중인 총알을 리다이렉트하여 대상 타격
+# EN: Redeem
+2198251026=Redeem
 
-# EN: Reduces gravity for all entities
-1827518302=모든 엔티티의 중력 감소
+# EN: Redeem Key
+2073547104=Redeem Key
+
+# EN: Redeemed but entitlement not visible
+612475581=Redeemed but entitlement not visible
+
+# EN: Redirects bullets to hit targets without moving your crosshair
+1032402041=Redirects bullets to hit targets without moving your crosshair
 
 # EN: Refresh
 1589753738=새로고침
 
+# EN: Refresh##ptfx_files
+2857539168=새로 고침##ptfx_files
+
 # EN: Refreshing fonts...
 652474694=폰트 새로고침 중...
+
+# EN: Registered But Not Triggered
+774818613=Registered But Not Triggered
+
+# EN: Relative
+3434279696=Relative
+
+# EN: Release Distance
+1257392546=Release Distance
 
 # EN: Reload
 1571056488=재장전
 
 # EN: Remote Bolas
 3609547991=원격 볼라스
+
+# EN: Remote Lasso
+1093031269=원격 올가미
+
+# EN: Remove
+3336096321=제거
 
 # EN: Remove All
 1178209108=모두 제거
@@ -3442,17 +4660,23 @@
 # EN: Removes weapon spinup delay
 1557267726=무기 스핀업 지연 제거
 
+# EN: Render Distance
+2670369238=렌더 거리
+
 # EN: Rendering
 2948493975=렌더링
 
-# EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
-2465448157=렌더링 설정은 게임에서 제어됩니다. VSync, 프레임 페이싱, 백엔드는 FiveM에서 설정할 수 없습니다.
+# EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in RedM.
+467056905=Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in RedM.
 
 # EN: Repair Vehicle
 2429933431=차량 수리
 
-# EN: Repeatedly strike lightning near your position
-2641990793=당신의 위치 근처에 반복적으로 번개 타격
+# EN: Requires the Lock On aim key (RMB by default) to be held
+3241941881=Requires the Lock On aim key (RMB by default) to be held
+
+# EN: Rescan
+764993821=Rescan
 
 # EN: Reset
 3559176682=초기화
@@ -3463,8 +4687,14 @@
 # EN: Reset Appearance
 3776689734=외형 초기화
 
+# EN: Reset Counter
+1911047124=Reset Counter
+
 # EN: Reset Fonts
 2389856026=폰트 초기화
+
+# EN: Reset Offsets
+1581388633=Reset Offsets
 
 # EN: Reset Position
 1118816545=위치 초기화
@@ -3484,6 +4714,9 @@
 # EN: Reset to defaults
 3361422027=기본값으로 초기화
 
+# EN: Resize your horse
+3068208654=Resize your horse
+
 # EN: Resolution
 324784860=해상도
 
@@ -3496,8 +4729,17 @@
 # EN: Resources
 2745027072=리소스
 
+# EN: Restore Delay (ms)
+739418898=Restore Delay (ms)
+
 # EN: Restore Position on Disable
 152322992=비활성화 시 위치 복원
+
+# EN: Restore Time
+2494277967=Restore Time
+
+# EN: Restore Weather
+1986242669=Restore Weather
 
 # EN: Resurrects dead peds and restores their health
 510568185=죽은 보행자를 부활시키고 체력 복원
@@ -3511,8 +4753,17 @@
 # EN: Revive Horse
 2429511813=말 부활
 
+# EN: Revive Self
+192774351=Revive Self
+
+# EN: Revive your character — works on most servers (RESURRECT_PED + NETWORK_RESURRECT_LOCAL_PLAYER + cores/damage clear)
+4215743740=Revive your character — works on most servers (RESURRECT_PED + NETWORK_RESURRECT_LOCAL_PLAYER + cores/damage clear)
+
 # EN: Ride Shoulders
 16024939=어깨 타기
+
+# EN: Ride your horse to a destination automatically (mounted or on foot)
+3116606014=목적지까지 말을 자동으로 이동시킵니다(탑승 또는 도보)
 
 # EN: Right
 3100427065=오른쪽
@@ -3541,11 +4792,11 @@
 # EN: Riot Mode
 4247338201=폭동 모드
 
-# EN: Rise Speed
-3267963830=상승 속도
-
 # EN: Risk: May result in kick/ban
 863799803=위험: 추방/밴 될 수 있음
+
+# EN: Risks:
+760312729=Risks:
 
 # EN: Risky
 1413260749=위험
@@ -3559,14 +4810,32 @@
 # EN: Rotation
 2010988560=회전
 
+# EN: Rounded
+2055970482=Rounded
+
 # EN: Rounding
 947963291=둥글기
+
+# EN: Rounding##dd
+1251311131=Rounding##dd
 
 # EN: Rounding##distbg
 4161243031=둥글기##distbg
 
+# EN: Rounding##grp
+2835802707=Rounding##grp
+
+# EN: Rounding##hbsty
+1472920854=Rounding##hbsty
+
 # EN: Rounding##namebg
 3182791864=둥글기##namebg
+
+# EN: Rounding##sl
+1227039286=Rounding##sl
+
+# EN: Rounding##sp
+1851255963=Rounding##sp
 
 # EN: Rounding##wepbg
 2546121190=둥글기##wepbg
@@ -3577,11 +4846,20 @@
 # EN: Run
 285848937=실행
 
+# EN: Run Force
+1892809888=Run Force
+
+# EN: Run Script
+2843942484=Run Script
+
 # EN: Running
 1756071093=달리기
 
 # EN: S
 331032406=S
+
+# EN: S-curve — most human-like
+1234934489=S-curve — most human-like
 
 # EN: SCOOBY
 2730510897=SCOOBY
@@ -3589,29 +4867,32 @@
 # EN: SPECTATORS
 2185765281=관전자
 
+# EN: Sad Face
+3008714121=슬픈 얼굴
+
 # EN: Safety
 3988627175=안전
 
 # EN: Sample Rate
 1680169433=샘플 레이트
 
-# EN: Saturation##btrbow
-1340760551=채도##btrbow
-
 # EN: Save
 3357008648=저장
+
+# EN: Save / Load
+3375253150=Save / Load
 
 # EN: Save Current as Snippet
 2323029386=현재 내용을 스니펫으로 저장
 
-# EN: Save Here
-2753091722=여기에 저장
+# EN: Save Database
+882232976=Save Database
 
 # EN: Save Interval
 269707535=저장 간격
 
-# EN: Save your current position and teleport back later
-4024909457=현재 위치를 저장하고 나중에 텔레포트
+# EN: Save your position automatically every interval. Disable to only save manually with the Set key.
+435540341=매 간격마다 위치를 자동으로 저장합니다. Set 키로만 수동 저장하려면 비활성화하세요.
 
 # EN: Saved
 2978706416=저장됨
@@ -3619,23 +4900,14 @@
 # EN: Saved Configs
 860699809=저장된 설정
 
-# EN: Saved Locations
-676178533=저장된 위치
-
 # EN: Saved Themes
 2236251465=저장된 테마
 
-# EN: Saved:
+# EN: Saved: 
 2514999957=저장됨:
 
 # EN: Scale
 1342385372=크기
-
-# EN: Scale Effect
-633475164=크기 효과
-
-# EN: Scale by Distance
-3110684322=거리에 따른 크기 조정
 
 # EN: Scale##self
 2751809400=크기##self
@@ -3646,11 +4918,20 @@
 # EN: Scan for Anti-Cheat
 3069664885=Anti-Cheat 스캔
 
+# EN: Scanning resources...
+3847585475=Scanning resources...
+
+# EN: Scanning...
+850446987=Scanning...
+
 # EN: Scans for anti-cheat modules every 10 seconds
 3500340240=10초마다 Anti-Cheat 모듈 스캔
 
-# EN: Scope Awareness
-3358794078=스코프 인식
+# EN: Scenario
+3843626595=Scenario
+
+# EN: Scenarios
+1863574033=Scenarios
 
 # EN: Scope FOV
 1562648207=스코프 FOV
@@ -3669,6 +4950,12 @@
 
 # EN: Script executed
 2428283588=스크립트 실행됨
+
+# EN: Script loaded
+1071575077=Script loaded
+
+# EN: Script stopped
+3609081985=Script stopped
 
 # EN: Scripts
 1044661261=스크립트
@@ -3691,8 +4978,14 @@
 # EN: Search
 4166004673=검색
 
+# EN: Search emotes...
+3375446970=Search emotes...
+
 # EN: Search horses...
 1448928248=말 검색...
+
+# EN: Search keybinds...
+705152961=Search keybinds...
 
 # EN: Search peds...
 3129217742=보행자 검색...
@@ -3717,6 +5010,9 @@
 
 # EN: Secondary
 3384035740=보조
+
+# EN: Section
+3044466341=Section
 
 # EN: Section Font
 2820653597=섹션 폰트
@@ -3754,6 +5050,9 @@
 # EN: Separator
 600342395=구분선
 
+# EN: Separators
+2951428768=Separators
+
 # EN: Serpentine
 2010529308=사행
 
@@ -3762,6 +5061,12 @@
 
 # EN: Server Info
 1790325725=서버 정보
+
+# EN: Set Blame on Player
+2629605861=플레이어에게 누명 설정
+
+# EN: Set Drunk
+3266733982=Set Drunk
 
 # EN: Set Key
 2397500189=키 설정
@@ -3781,11 +5086,11 @@
 # EN: Set custom weapon effective range
 855693184=사용자 정의 무기 유효 범위 설정
 
-# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
-1002208503=각 기능 행의 기어 아이콘으로 기능별 키를 설정하세요 (우클릭 또는 기어 클릭).
+# EN: Set on Fire
+1113552959=Set on Fire
 
-# EN: Sets the targeted entity on fire
-3761901351=대상 엔티티에 불을 붙임
+# EN: Set: drop marker  |  B: rewind
+652205383=Set: 마커 놓기  |  B: 되감기
 
 # EN: Settings
 2768156407=설정
@@ -3811,8 +5116,17 @@
 # EN: Shadow##dist
 1556818514=그림자##dist
 
+# EN: Shadow##hbsty
+1178269524=Shadow##hbsty
+
 # EN: Shadow##name
 1583130157=그림자##name
+
+# EN: Shadow##nbsty
+3639724956=Shadow##nbsty
+
+# EN: Shadow##sp
+3975880048=Shadow##sp
 
 # EN: Shadow##weapon
 559319637=그림자##weapon
@@ -3844,8 +5158,11 @@
 # EN: Show
 4237361361=표시
 
-# EN: Show Advanced
-2451177577=고급 표시
+# EN: Show Check (ON)
+3008117344=Show Check (ON)
+
+# EN: Show Chevron
+3167784853=Show Chevron
 
 # EN: Show Coordinates
 3389512578=좌표 표시
@@ -3853,11 +5170,20 @@
 # EN: Show Date
 3033026641=날짜 표시
 
+# EN: Show Dead
+698700059=Show Dead
+
 # EN: Show Dealt
 2111762275=가한 피해 표시
 
+# EN: Show Dealt##dlog
+1334284877=Show Dealt##dlog
+
 # EN: Show Distance
 1253886722=거리 표시
+
+# EN: Show Distance##bt2
+1623820001=Show Distance##bt2
 
 # EN: Show FOV Circle
 3127357124=FOV 원 표시
@@ -3873,6 +5199,9 @@
 
 # EN: Show Header
 645770246=헤더 표시
+
+# EN: Show Hint
+2676323835=Show Hint
 
 # EN: Show Hints Overlay
 4000101783=힌트 오버레이 표시
@@ -3907,6 +5236,12 @@
 # EN: Show Preview
 1262585563=미리보기 표시
 
+# EN: Show Progress
+4217199704=Show Progress
+
+# EN: Show Rider##veh
+3817984120=Show Rider##veh
+
 # EN: Show Self
 1908654534=자신 표시
 
@@ -3922,8 +5257,14 @@
 # EN: Show Taken
 2937268981=받은 피해 표시
 
+# EN: Show Taken##dlog
+1988723062=Show Taken##dlog
+
 # EN: Show Text
 1575008906=텍스트 표시
+
+# EN: Show Ticks
+2045038734=Show Ticks
 
 # EN: Show Time
 2222431568=시간 표시
@@ -3937,14 +5278,17 @@
 # EN: Show Vehicles
 1292300392=차량 표시
 
-# EN: Show a dot on the current target
-3764166595=현재 대상에 점 표시
+# EN: Show World Markers
+2279977362=월드 마커 표시
 
 # EN: Show a notification when something is blocked
 1256445615=차단 시 알림 표시
 
-# EN: Show advanced aimbot tuning options
-1262633640=고급 Aimbot 튜닝 옵션 표시
+# EN: Show distance in meters
+1294074528=Show distance in meters
+
+# EN: Show driver/rider name if occupied
+3740054372=Show driver/rider name if occupied
 
 # EN: Show keybind hints for active movement extras on screen
 3465261614=활성 이동 추가 기능의 키 설정 힌트를 화면에 표시
@@ -3952,11 +5296,23 @@
 # EN: Show on Startup
 1110455679=시작 시 표시
 
-# EN: Show target name, distance, and health on screen
-774147915=대상 이름, 거리, 체력을 화면에 표시
+# EN: Show species label above animal
+3847257753=Show species label above animal
+
+# EN: Show the targeting FOV ring around the crosshair
+2773675712=Show the targeting FOV ring around the crosshair
+
+# EN: Show vehicle type label
+927164715=Show vehicle type label
+
+# EN: Shows a crosshair marker when your shots land on a target
+2712575620=Shows a crosshair marker when your shots land on a target
 
 # EN: Shows a directional wedge on screen when you take damage
 1772815089=피해를 받을 때 화면에 방향 표시기 표시
+
+# EN: Shows players you've tagged as Admin/Mod/Trusted/Streamer/Suspicious when they're nearby. Tag players from the Players tab.
+4026120554=Shows players you've tagged as Admin/Mod/Trusted/Streamer/Suspicious when they're nearby. Tag players from the Players tab.
 
 # EN: Shrink Gun
 698308174=축소 총
@@ -3991,8 +5347,20 @@
 # EN: Silent Aim
 283398155=Silent Aim
 
+# EN: Silent Mode
+204875588=무음 모드
+
+# EN: Simple
+2854970267=간단함
+
 # EN: Size
 3226656423=크기
+
+# EN: Size##animalhat
+550948123=크기##animalhat
+
+# EN: Size##hm
+1998713813=크기##hm
 
 # EN: Size##ms
 2741062528=크기##ms
@@ -4006,11 +5374,17 @@
 # EN: Skeleton Only
 1732653347=스켈레톤만
 
+# EN: Skip Animals
+2221057938=Skip Animals
+
 # EN: Skip Friends
 1109959189=친구 건너뛰기
 
 # EN: Skip Friends##mb
 1619604810=친구 건너뛰기##mb
+
+# EN: Skip Friends##proj
+949166622=Skip Friends##proj
 
 # EN: Skip Friends##sa
 1651665136=친구 건너뛰기##sa
@@ -4018,14 +5392,23 @@
 # EN: Skip Friends##trig
 2028490315=친구 건너뛰기##trig
 
+# EN: Skip Full HP
+3641936216=Skip Full HP
+
+# EN: Skip Melee/Bow##trig
+3381716061=Skip Melee/Bow##trig
+
+# EN: Skip Near-Death
+2896726875=Skip Near-Death
+
 # EN: Skip reload animations
 871293787=재장전 애니메이션 건너뛰기
 
 # EN: Skip the death screen and respawn immediately
 2983756551=사망 화면을 건너뛰고 즉시 리스폰
 
-# EN: Skull
-4060956970=해골
+# EN: Skip your own currently mounted horse
+3187739778=Skip your own currently mounted horse
 
 # EN: Sky Aura
 4195663934=하늘 오라
@@ -4078,11 +5461,11 @@
 # EN: Sliders
 2297082388=슬라이더
 
-# EN: Slot
-933689839=슬롯
-
 # EN: Slow Motion
 3565967334=슬로우 모션
+
+# EN: Slow Motion Aiming
+3286174914=Slow Motion Aiming
 
 # EN: Slows down game time for easier aiming
 3990662640=더 쉬운 조준을 위해 게임 시간 느리게
@@ -4105,6 +5488,12 @@
 # EN: Smoothing
 980522697=스무딩
 
+# EN: Smoothing Curve
+3836268862=Smoothing Curve
+
+# EN: Smoothness
+1580294097=Smoothness
+
 # EN: Snap
 3320192477=스냅
 
@@ -4113,6 +5502,12 @@
 
 # EN: Snaplines
 3234673257=스냅라인
+
+# EN: Snaplines##animal
+2600041801=Snaplines##animal
+
+# EN: Snaplines##veh
+4155083255=Snaplines##veh
 
 # EN: Snippet name:
 1640117038=스니펫 이름:
@@ -4135,14 +5530,26 @@
 # EN: Solid
 2667043969=단색
 
+# EN: Solver Iterations
+2033101457=Solver Iterations
+
 # EN: Sort by Distance
 698443985=거리순 정렬
 
 # EN: Sound
 3255258383=소리
 
+# EN: Sound on Fire
+1899492921=Sound on Fire
+
 # EN: Spacing
 370899326=간격
+
+# EN: Spam Bears
+923236784=Spam Bears
+
+# EN: Spam Wolves
+2825695012=Spam Wolves
 
 # EN: Spank
 2519979771=찰싹
@@ -4165,20 +5572,29 @@
 # EN: Spawn Lightning
 4090761949=번개 스폰
 
+# EN: Spawn Object
+3773875983=Spawn Object
+
+# EN: Spawn Ped
+1240441382=Spawn Ped
+
 # EN: Spawn Ped Army
 842659871=보행자 군대 스폰
 
+# EN: Spawn Vehicle
+836867042=Spawn Vehicle
+
 # EN: Spawn and ride a wild animal
 2456270008=야생 동물을 스폰하고 탑승
+
+# EN: Spawn as Wild
+1140516403=Spawn as Wild
 
 # EN: Spawner
 1388279330=스포너
 
 # EN: Spawners
 463473003=스포너
-
-# EN: Spawns a swirling vortex that flings entities
-4120638530=엔티티를 날리는 소용돌이 스폰
 
 # EN: Spawns clones of the targeted ped around them
 1852821607=대상 보행자 주변에 클론 스폰
@@ -4204,14 +5620,20 @@
 # EN: Speed Multiplier
 1815972746=속도 배수
 
-# EN: Speed##btrbow
-1185079655=속도##btrbow
+# EN: Speed locked by preset — pick Custom to override
+1944470596=Speed locked by preset — pick Custom to override
+
+# EN: Speed##btr2
+3233031999=속도##btr2
 
 # EN: Speed##hpsmooth
 2272127628=속도##hpsmooth
 
 # EN: Speed##serp
 3668104492=속도##serp
+
+# EN: Speed##tgl
+3045684305=속도##tgl
 
 # EN: Speeds up climbing and vaulting animations
 884886740=등반 및 뛰어넘기 애니메이션 가속
@@ -4243,6 +5665,12 @@
 # EN: Stampede!
 1850896990=돌진!
 
+# EN: Standard arrow ≈ 55 m/s — raise for fire/dynamite
+604571309=Standard arrow ≈ 55 m/s — raise for fire/dynamite
+
+# EN: Star
+2620960594=Star
+
 # EN: Star Smoothing
 239201736=별 스무딩
 
@@ -4264,20 +5692,38 @@
 # EN: Stats
 3337185076=통계
 
+# EN: Status
+1711913059=상태
+
 # EN: Status Dots
 1792226764=상태 점
 
 # EN: Steady Aim
 3871115537=안정 조준
 
+# EN: Steal Horse
+429825119=Steal Horse
+
 # EN: Steam Proof
 3475233767=증기 방어
+
+# EN: Stepped
+2777726412=Stepped
+
+# EN: Sticky Projectile
+3464587768=Sticky Projectile
 
 # EN: Sticky Target
 128465133=고정 대상
 
+# EN: Sticky Target##proj
+1336135198=Sticky Target##proj
+
 # EN: Sticky Target##sa
 4029734851=고정 대상##sa
+
+# EN: Sticky Tolerance
+2519023589=Sticky Tolerance
 
 # EN: Stomp Glow
 276297078=밟기 빛
@@ -4288,8 +5734,23 @@
 # EN: Stop All
 2685914560=모두 정지
 
+# EN: Stop All Animations
+1911203614=Stop All Animations
+
+# EN: Stop Radius
+3336260136=정지 반경
+
+# EN: Stop Script
+258033556=Stop Script
+
 # EN: Stop Vehicle
 668048780=차량 정지
+
+# EN: Stop the burst mid-way if the target leaves your FOV
+4211592849=Stop the burst mid-way if the target leaves your FOV
+
+# EN: Stop##db_anim
+2384158241=Stop##db_anim
 
 # EN: Stops the in-game clock
 2226049145=게임 내 시계 정지
@@ -4318,9 +5779,6 @@
 # EN: Streamer
 322333922=스트리머
 
-# EN: Strength
-4280043047=강도
-
 # EN: Strength##ff
 1068364437=강도##ff
 
@@ -4330,11 +5788,41 @@
 # EN: Strikes the target with lightning, can chain to nearby peds
 3365637662=대상에 번개를 타격하고 근처 보행자에게 연쇄 가능
 
+# EN: Strip Weapons
+1824115397=Strip Weapons
+
+# EN: Strip Weapons All
+320021689=모두의 무기 제거
+
 # EN: Style
 2840017588=스타일
 
+# EN: Style##animalboxstyle
+1783688992=Style##animalboxstyle
+
+# EN: Style##ddsty
+907347697=Style##ddsty
+
+# EN: Style##grp
+189469325=Style##grp
+
+# EN: Style##hbarsty
+1448214649=Style##hbarsty
+
 # EN: Style##hp
 2155290340=스타일##hp
+
+# EN: Style##nbsty
+2949332535=Style##nbsty
+
+# EN: Style##sl
+1843843488=Style##sl
+
+# EN: Style##spsty
+2009239515=Style##spsty
+
+# EN: Style##tgl
+4197475269=Style##tgl
 
 # EN: Sub-Tab Icons
 2125121217=서브탭 아이콘
@@ -4350,9 +5838,6 @@
 
 # EN: Success##notif
 124336157=성공##notif
-
-# EN: Summon a hammer that orbits you. LMB=throw, RMB=recall, Jump=fly to it
-566008167=당신 주위를 도는 망치 소환. LMB=던지기, RMB=회수, 점프=날아가기
 
 # EN: Sun Direction
 4043279483=태양 방향
@@ -4384,6 +5869,9 @@
 # EN: Super Jump
 3347387969=슈퍼 점프
 
+# EN: Super Projectile
+945156108=Super Projectile
+
 # EN: Super Punch
 1003680074=슈퍼 펀치
 
@@ -4408,6 +5896,9 @@
 # EN: Supercharge stamina beyond max
 2931388462=스태미나를 최대 이상으로 초과 충전
 
+# EN: Suppress in-game notifications and Discord reports
+4183095205=게임 내 알림과 Discord 보고 억제
+
 # EN: Suspicious
 1438524565=의심스러운
 
@@ -4429,11 +5920,11 @@
 # EN: Swim Speed
 2577385437=수영 속도
 
+# EN: Switch Bar
+1621739297=Switch Bar
+
 # EN: Switch Delay
 2176114960=전환 지연
-
-# EN: Switch bone target based on distance to target
-1109298263=대상까지의 거리에 따라 뼈 대상 전환
 
 # EN: Sync Colors
 3592090493=색상 동기화
@@ -4450,8 +5941,14 @@
 # EN: T-Shape
 3695503273=T자형
 
+# EN: TIME
+258444835=시간
+
 # EN: TP to Train Track
 1601079484=기차 선로로 텔레포트
+
+# EN: TXT
+2010905253=TXT
 
 # EN: Tab Bar Style
 4174884294=탭 바 스타일
@@ -4474,23 +5971,23 @@
 # EN: Taper Width
 3042212273=테이퍼 너비
 
-# EN: Taper Width##pt
-3926039349=테이퍼 너비##pt
-
 # EN: Target
 2720140041=대상
 
-# EN: Target Circle
-1842946907=대상 원
-
-# EN: Target Circle##sa
-1752837941=대상 원##sa
+# EN: Target Info
+325971528=Target Info
 
 # EN: Target Info Overlay##sa
 1911780673=대상 정보 오버레이##sa
 
+# EN: Target Info Panel
+3398335395=Target Info Panel
+
 # EN: Target Line
 2375968002=대상 선
+
+# EN: Target Line##mb
+1311974672=Target Line##mb
 
 # EN: Target Line##sa
 71772006=대상 선##sa
@@ -4498,11 +5995,20 @@
 # EN: Target Marker
 2135859714=대상 마커
 
+# EN: Target Marker##mb
+1328785461=Target Marker##mb
+
 # EN: Target Marker##sa
 3230599266=대상 마커##sa
 
 # EN: Targeting
 2771652631=타겟팅
+
+# EN: Targeting##mb
+4168577893=Targeting##mb
+
+# EN: Targeting##sa
+1796398938=Targeting##sa
 
 # EN: Targets
 4017618224=대상
@@ -4522,6 +6028,9 @@
 # EN: Teleport Key
 268016086=텔레포트 키
 
+# EN: Teleport Player To Horse
+4073409808=Teleport Player To Horse
+
 # EN: Teleport Swap
 681439259=텔레포트 교환
 
@@ -4534,6 +6043,9 @@
 # EN: Teleport to Horse
 3443626366=말에게 텔레포트
 
+# EN: Teleport to Nearest Horse
+1023909820=Teleport to Nearest Horse
+
 # EN: Teleport to Nearest Vehicle
 1222747355=가장 가까운 차량으로 텔레포트
 
@@ -4542,9 +6054,6 @@
 
 # EN: Teleport to where your bullet lands
 3763820109=총알이 착탄한 곳으로 텔레포트
-
-# EN: Teleport vehicle with you
-2332352547=차량과 함께 텔레포트
 
 # EN: Teleport your vehicle along with you
 2369149234=차량을 당신과 함께 텔레포트
@@ -4561,6 +6070,9 @@
 # EN: Text Font
 1277029574=텍스트 폰트
 
+# EN: Text Offset X
+3940347344=Text Offset X
+
 # EN: Text Only
 1145625316=텍스트만
 
@@ -4569,9 +6081,6 @@
 
 # EN: Text Size
 2196789760=텍스트 크기
-
-# EN: Text Size##btdist
-3467531750=텍스트 크기##btdist
 
 # EN: Text##notif
 2810058654=텍스트##notif
@@ -4615,14 +6124,26 @@
 # EN: Themes
 1075582417=테마
 
+# EN: Thick
+439301469=Thick
+
 # EN: Thickness
 4285237432=두께
 
-# EN: Thickness##pt
-1365574739=두께##pt
+# EN: Thickness##animalbox
+2443857049=Thickness##animalbox
 
-# EN: Thickness##tt
-3534806773=두께##tt
+# EN: Thickness##asnap
+2094046171=Thickness##asnap
+
+# EN: Thickness##bt2
+3776330762=Thickness##bt2
+
+# EN: Thickness##hm
+1611888078=Thickness##hm
+
+# EN: Thickness##vehbox
+587069964=Thickness##vehbox
 
 # EN: This feature is currently in development.
 2985474122=이 기능은 현재 개발 중입니다.
@@ -4633,14 +6154,35 @@
 # EN: Thor's Hammer
 1085597256=토르의 망치
 
+# EN: Threat Priority##sa
+2862792991=Threat Priority##sa
+
 # EN: Threshold
 1573986338=임계값
 
-# EN: Throwable Tracers
-2494953445=투척물 궤적
+# EN: Throw Force
+3461652194=던지기 힘
+
+# EN: Throwables stick where they hit
+3650246939=Throwables stick where they hit
+
+# EN: Throwables##proj
+3927400989=Throwables##proj
+
+# EN: Throwing Knife
+1542547301=Throwing Knife
 
 # EN: Thunder Storm
 2253725275=뇌우
+
+# EN: Tick Color
+3218510901=Tick Color
+
+# EN: Tick Count
+2223876868=Tick Count
+
+# EN: Ticks
+2329192730=Ticks
 
 # EN: Tile
 1337127750=타일
@@ -4653,6 +6195,9 @@
 
 # EN: Time Scale
 2843709841=시간 규모
+
+# EN: Time slows when aiming/shooting
+3077100695=Time slows when aiming/shooting
 
 # EN: Timecycle
 1739838145=타임사이클
@@ -4677,6 +6222,9 @@
 
 # EN: Title Gradient Colors
 1766434517=제목 그라데이션 색상
+
+# EN: Title Pill
+1618050020=Title Pill
 
 # EN: Title Size
 1301071436=제목 크기
@@ -4717,8 +6265,14 @@
 # EN: Toggle W
 2205449588=토글 너비
 
+# EN: Toggle features on/off
+364973416=Toggle features on/off
+
 # EN: Toggles
 2207180161=토글
+
+# EN: Tomahawk
+3689329093=Tomahawk
 
 # EN: Tooltip
 2918806632=툴팁
@@ -4741,26 +6295,23 @@
 # EN: Top Left
 3111925763=좌상단
 
+# EN: Top Resources
+670453582=Top Resources
+
 # EN: Top Right
 3678979058=우상단
 
 # EN: Top-screen compass with cardinal directions
 2354047396=방위가 표시된 상단 나침반
 
-# EN: Tornado
-464687292=토네이도
-
 # EN: Touch
 500423453=터치
 
-# EN: Tracer gets thinner from start to end
-3848411216=궤적이 시작에서 끝으로 갈수록 얇아짐
-
-# EN: Tracers
-1857463969=궤적
-
 # EN: Track
 875912051=트랙
+
+# EN: Track H
+3215466932=Track H
 
 # EN: Track Opacity
 902824788=트랙 불투명도
@@ -4768,8 +6319,8 @@
 # EN: Tracked Players
 1590211961=추적된 플레이어
 
-# EN: Tracks
-794089857=트랙
+# EN: Tracking
+1727167966=Tracking
 
 # EN: Tracks the player who killed you with an on-screen arrow
 1609296522=당신을 죽인 플레이어를 화면 화살표로 추적
@@ -4780,17 +6331,17 @@
 # EN: Trail Length
 308472983=궤적 길이
 
-# EN: Trail gets thinner towards the tip
-354830891=궤적이 끝으로 갈수록 얇아짐
-
 # EN: Tranquilizer Ammo
 2868990001=마취 탄약
 
-# EN: Triangle
-2990077322=삼각형
+# EN: Trigger & Block
+4206134730=Trigger & Block
 
 # EN: Trigger Bot
 1558371298=트리거 봇
+
+# EN: Trigger Event
+4138217246=Trigger Event
 
 # EN: Trigger FOV
 3216427474=트리거 FOV
@@ -4798,20 +6349,32 @@
 # EN: Triggerbot
 1477138198=트리거봇
 
+# EN: Triggered Without Handler
+3055780408=Triggered Without Handler
+
 # EN: Triggers a continuous thunderstorm
 3647443157=지속적인 뇌우 발생
 
 # EN: Troll
 1328763896=트롤
 
+# EN: True LOS Raycast
+3709800198=True LOS Raycast
+
 # EN: Trusted
 2045336469=신뢰됨
+
+# EN: Tuning
+365438231=Tuning
 
 # EN: Turn Speed
 348709466=회전 속도
 
 # EN: Turns off all lights across the map
 3503813760=맵 전체의 모든 조명 끄기
+
+# EN: Type
+828747869=유형
 
 # EN: Type Settings
 4191027218=유형 설정
@@ -4822,8 +6385,17 @@
 # EN: Unbind
 2907191925=키 해제
 
+# EN: Unblock
+1287977995=Unblock
+
+# EN: Unblock All
+3468373934=Unblock All
+
 # EN: Underline
 1892791043=밑줄
+
+# EN: Underline H
+2037968543=Underline H
 
 # EN: Update Rate
 1699227283=업데이트 속도
@@ -4840,14 +6412,11 @@
 # EN: Use Fill mode for best results.
 1995125884=최상의 결과를 위해 채우기 모드를 사용하세요.
 
-# EN: Use Game Lightning VFX
-639680466=게임 번개 VFX 사용
+# EN: Use nav-mesh pathing instead of straight-line
+258662226=직선 대신 nav-mesh 경로 사용
 
-# EN: Use the native lightning effect instead of explosions
-3341586251=폭발 대신 기본 번개 효과 사용
-
-# EN: Uses rainbow cycling
-3374547008=무지개 순환 사용
+# EN: Used by Filled / Outline / Underline
+1868533692=Used by Filled / Outline / Underline
 
 # EN: Using an animated GIF as a background may cause
 63761567=애니메이션 GIF를 배경으로 사용하면
@@ -4861,8 +6430,14 @@
 # EN: VFX
 2796127065=VFX
 
+# EN: VOICE
+953116472=음성
+
 # EN: Vehicle
 3710147484=차량
+
+# EN: Vehicle Grabber
+2317560408=차량 그래버
 
 # EN: Vehicle NoClip
 1762582941=차량 노클립
@@ -4879,6 +6454,9 @@
 # EN: Vehicles
 1957895139=차량
 
+# EN: Velocity sanity cap — rejects teleports / desync spikes
+1438254902=Velocity sanity cap — rejects teleports / desync spikes
+
 # EN: Vertical
 1605474394=수직
 
@@ -4891,8 +6469,14 @@
 # EN: Vertices
 3260108856=버텍스
 
+# EN: View
+2604534539=View
+
 # EN: Visibility Check
 2235775772=가시성 확인
+
+# EN: Visibility Check##proj
+4022619840=Visibility Check##proj
 
 # EN: Visibility Check##sa
 2765187843=가시성 확인##sa
@@ -4909,14 +6493,41 @@
 # EN: Visuals##lockon
 4093507657=시각 효과##lockon
 
+# EN: Visuals##mb
+570278843=Visuals##mb
+
+# EN: Visuals##proj
+798121920=Visuals##proj
+
 # EN: Visuals##sa
 2764419376=시각 효과##sa
 
 # EN: W
 1486926112=W
 
+# EN: W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Boost
+1095441189=W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Boost
+
+# EN: W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Fast
+1963384160=W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Fast
+
+# EN: WASD Move | Space Up | Ctrl Down | Shift Fast
+3029152723=WASD Move | Space Up | Ctrl Down | Shift Fast
+
+# EN: WASD Move | Space Up | Ctrl Down | Shift Fast | Mouse Look
+4018819059=WASD Move | Space Up | Ctrl Down | Shift Fast | Mouse Look
+
+# EN: Wagons, stagecoaches, boats, carts
+3851371312=Wagons, stagecoaches, boats, carts
+
+# EN: Waiting for scan...
+4212713308=Waiting for scan...
+
 # EN: Walk Style
 578957394=걷기 스타일
+
+# EN: Walk Through
+1411964451=Walk Through
 
 # EN: Walk like you're injured
 1217395480=부상당한 것처럼 걷기
@@ -4924,11 +6535,20 @@
 # EN: Walk on Water
 176950591=수면 위 걷기
 
+# EN: Walk through peds, vehicles and objects
+2962431570=Walk through peds, vehicles and objects
+
 # EN: Walking
 921688979=걷기
 
 # EN: Walls Only
 613995149=벽만
+
+# EN: Wander
+1288903733=배회
+
+# EN: Warn
+2116410155=Warn
 
 # EN: Warning
 3911129148=경고
@@ -4938,6 +6558,9 @@
 
 # EN: Warning##notif
 496177476=경고##notif
+
+# EN: Warning: Using free menus may result in an instant kick or ban from the server. Use at your own risk.
+2630775189=Warning: Using free menus may result in an instant kick or ban from the server. Use at your own risk.
 
 # EN: Water Fog Blueness
 1563462767=수중 안개 파란색
@@ -4960,8 +6583,8 @@
 # EN: Weapon
 3867822744=무기
 
-# EN: Weapon Filter
-189061761=무기 필터
+# EN: Weapon Preset
+1722975727=Weapon Preset
 
 # EN: Weapons
 2151561516=무기
@@ -4971,9 +6594,6 @@
 
 # EN: Weather
 1578688043=날씨
-
-# EN: Weather & Time
-3108003216=날씨 & 시간
 
 # EN: Weather Chaos
 697326802=날씨 혼란
@@ -5002,9 +6622,6 @@
 # EN: When Walking
 2685570395=걷기 시
 
-# EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
-3837149149=활성화 시, 키 목록, 성능 통계, 플레이어 목록 및 관전이 워터마크 색상을 사용합니다.
-
 # EN: When enabled, overlays use Watermark colors.
 445204605=활성화 시, 오버레이가 워터마크 색상을 사용합니다.
 
@@ -5023,8 +6640,14 @@
 # EN: Width Ratio
 257781133=너비 비율
 
+# EN: Width##ahp
+2465347234=너비##ahp
+
 # EN: Width##serp
 3651645440=너비##serp
+
+# EN: Width##tgl
+302003276=너비##tgl
 
 # EN: Wind Speed
 103025343=바람 속도
@@ -5044,6 +6667,9 @@
 # EN: Wireframe
 1554823340=와이어프레임
 
+# EN: Wizard
+2686629872=Wizard
+
 # EN: World
 2425990116=월드
 
@@ -5056,11 +6682,11 @@
 # EN: World Hitmarkers
 592011120=월드 히트마커
 
-# EN: World Markers
-475901803=월드 마커
+# EN: World Markers##hm
+2561115369=World Markers##hm
 
-# EN: World Numbers
-1304260375=월드 숫자
+# EN: World Numbers##dmg
+626968892=World Numbers##dmg
 
 # EN: World Size
 1252315730=월드 크기
@@ -5098,6 +6724,9 @@
 # EN: Z##aroff
 3442733937=Z##aroff
 
+# EN: Zero Opacity
+490446338=Zero Opacity
+
 # EN: Zero spread, no sway, no sprint penalty
 290191302=탄 퍼짐 없음, 흔들림 없음, 전력 질주 패널티 없음
 
@@ -5110,11 +6739,17 @@
 # EN: downloading...
 2010819150=다운로드 중...
 
+# EN: entries
+934859523=entries
+
 # EN: fonts loaded
 3620721009=폰트 로드됨
 
 # EN: frames
 580974885=프레임
+
+# EN: iOS
+1766186487=iOS
 
 # EN: image(s)
 2727625699=이미지

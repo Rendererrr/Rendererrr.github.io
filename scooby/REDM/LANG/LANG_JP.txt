@@ -1,6 +1,6 @@
 # Scooby-Op Translation — Japanese (日本語)
 # Auth data_var name: LANG_JP
-# Total strings: 1707
+# Total strings: 2252
 # Format: JOAAT_HASH=translated text
 #
 
@@ -22,11 +22,29 @@
 # EN: 1% Low
 499497665=1% Low
 
+# EN: 2D Box
+3217720265=2D ボックス
+
 # EN: 3D Box
 94557236=3Dボックス
 
+# EN: 3D Box##vehtoggle
+2289970269=3D ボックス##vehtoggle
+
+# EN: < Back
+3833783615=< 戻る
+
+# EN: AC
+1410644661=AC
+
 # EN: AC Overlay
 2376138547=ACオーバーレイ
+
+# EN: ADS FOV Mult##sa
+1553982631=ADS FOV 倍率##sa
+
+# EN: ATTACK = Grab, AIM = Throw
+512227915=ATTACK = つかむ, AIM = 投げる
 
 # EN: Accel Curve
 2943028526=加速カーブ
@@ -58,17 +76,38 @@
 # EN: Accuracy
 2666427871=精度
 
+# EN: Accuracy##sa
+531658286=命中精度##sa
+
+# EN: Action Keybinds
+2725143580=アクションキーバインド
+
+# EN: Action Menu Style
+2599844569=アクションメニュースタイル
+
 # EN: Actions
 2200808865=アクション
 
+# EN: Activates only while wielding the chosen projectile weapon
+2008035414=選択した投射武器を装備中のみアクティブ化
+
+# EN: Activation
+3361337240=起動
+
 # EN: Active
 411366740=アクティブ
+
+# EN: Active Effects
+1391756409=アクティブエフェクト
 
 # EN: Active Only
 3026641013=アクティブのみ
 
 # EN: Active Opacity
 2342129632=アクティブ時の不透明度
+
+# EN: Active Particles
+276462465=アクティブパーティクル
 
 # EN: Active Style
 3006353922=アクティブスタイル
@@ -82,20 +121,20 @@
 # EN: Active Windows
 1847726038=アクティブウィンドウ
 
-# EN: Adaptive Smoothing
-1841848259=適応スムージング
+# EN: Adaptive
+2577319765=適応型
+
+# EN: Adapts to error distance
+1484452874=エラー距離に適応
+
+# EN: Add Effect
+1724601391=エフェクト追加
+
+# EN: Add Particle
+1146618795=パーティクル追加
 
 # EN: Add random offset to aim for a more natural look
 900296087=より自然な見た目のためにエイムにランダムオフセットを追加
-
-# EN: Adjust FOV size based on target distance
-1890066780=ターゲットまでの距離に基づいてFOVサイズを調整
-
-# EN: Adjust smoothing speed based on distance to target
-4062250807=ターゲットまでの距離に基づいてスムージング速度を調整
-
-# EN: Adjusts Z to ground level after teleport
-1956583967=テレポート後にZを地面レベルに調整
 
 # EN: Admin
 394765392=管理者
@@ -109,8 +148,8 @@
 # EN: Advanced
 191998119=詳細
 
-# EN: Advanced##sa
-1146831031=詳細##sa
+# EN: Aim + Shoot to fire grapple line. Auto-releases at target.
+4089255318=エイム+射撃でグラップルラインを発火。ターゲットで自動解放。
 
 # EN: Aim Alert
 2286335061=エイムアラート
@@ -124,17 +163,17 @@
 # EN: Aim Key
 2127464103=エイムキー
 
-# EN: Aim and shoot to call in an airstrike at the target location
-3295469=エイムして撃つとターゲット位置に空爆を呼び出す
-
 # EN: Aim and shoot to delete any entity
 3148472461=エイムして撃つと任意のエンティティを削除
 
-# EN: Airstrike Gun
-2449908144=空爆ガン
+# EN: Aims slightly higher to counter ballistic drop at range
+2600940727=距離での弾道落下に対抗するため若干高く狙う
 
 # EN: Alert Color
 3709827158=アラートカラー
+
+# EN: Align
+3794667666=配置
 
 # EN: Align vehicle rotation with movement direction
 2908889927=車両の回転を移動方向に合わせる
@@ -154,14 +193,23 @@
 # EN: Allow equipping two weapons at once
 1942896435=武器を同時に2つ装備可能にする
 
+# EN: Also Fill Deadeye Core
+578392169=デッドアイコアも満たす
+
 # EN: Also While Running
 2264771198=走行中も適用
+
+# EN: Always
+659733263=常に
 
 # EN: Ammo
 307971639=弾薬
 
 # EN: Anchor
 1880738441=アンカー
+
+# EN: Angular tolerance treated as 'stable' — tighter = pickier
+3811956667=角度許容値を'安定'として扱う — より厳しい = より厳密
 
 # EN: Animal
 974042365=動物
@@ -181,11 +229,17 @@
 # EN: Animal##stmp
 4257996986=動物##stmp
 
+# EN: Animals
+1979337996=動物
+
 # EN: Animate Entries
 2777997914=エントリーをアニメーション
 
 # EN: Animated GIF
 336645484=アニメーションGIF
+
+# EN: Animated ring around the impact marker — fills as the auto-fire timer charges
+47595763=インパクトマーカー周辺の動くリングが自動射撃タイマーでチャージされていく
 
 # EN: Animation
 1176408751=アニメーション
@@ -205,23 +259,32 @@
 # EN: Anti Melee
 1082795060=アンチ近接攻撃
 
-# EN: Anti-Cheat
-1651501873=アンチチート
-
-# EN: Anti-Detection
-1577423134=アンチ検出
+# EN: Anti-Detection##sa
+683255490=検出防止##sa
 
 # EN: Anti-Grief
 4071343839=アンチグリーフ
 
+# EN: Any
+3744729013=任意
+
+# EN: Any shot peds instantly ragdoll
+922212082=すべてのショットがNPCをインスタンラグドール化する
+
 # EN: Appearance
 3647733735=外見
+
+# EN: Appearance is detached into its own window.
+152646341=外観は独立したウィンドウに分離されています。
 
 # EN: Apply Model
 2794752200=モデルを適用
 
 # EN: Apply Preset
 3793427380=プリセットを適用
+
+# EN: Apply Time
+596400142=適用時間
 
 # EN: Apply To
 3114722325=適用先
@@ -235,9 +298,6 @@
 # EN: Apply extra knockback force to hit peds
 2161846635=攻撃した歩行者に追加のノックバック力を加える
 
-# EN: Apply speed boost while holding Shift
-1770376119=Shift長押しで速度ブーストを適用
-
 # EN: Apply speed boost while running
 3182944338=走行中に速度ブーストを適用
 
@@ -249,6 +309,12 @@
 
 # EN: Arc
 3197476941=アーク
+
+# EN: Arc Launch
+725540891=アークローンチ
+
+# EN: Arc Strength
+3477155189=アーク強度
 
 # EN: Armed Clones
 1018974332=武装クローン
@@ -265,6 +331,24 @@
 # EN: Arrow
 182494798=矢印
 
+# EN: Arrow Speed
+2295300562=矢速度
+
+# EN: Attach
+3601695277=アタッチ
+
+# EN: Attach To
+4204732472=アタッチ先
+
+# EN: Attached
+2002201701=アタッチ済み
+
+# EN: Attached to
+4172616088=アタッチ先
+
+# EN: Attachment
+1125857072=アタッチメント
+
 # EN: Attachments
 2740828529=アタッチメント
 
@@ -280,11 +364,20 @@
 # EN: Auto
 3043925626=自動
 
+# EN: Auto Bone by Distance
+1825046816=距離による自動ボーン
+
+# EN: Auto Detach
+2467019578=自動解除
+
 # EN: Auto Detect Anti-Cheat
 3303598959=アンチチート自動検出
 
 # EN: Auto Fire
 3918303945=オートファイア
+
+# EN: Auto Fire##mb
+209012486=自動射撃##mb
 
 # EN: Auto Flip
 1169747300=自動反転
@@ -292,8 +385,17 @@
 # EN: Auto Godmode
 2673570143=自動ゴッドモード
 
-# EN: Auto Select
-1270725521=自動選択
+# EN: Auto Pilot
+1235508069=オートパイロット
+
+# EN: Auto Punch
+4126830016=自動パンチ
+
+# EN: Auto Release
+3908834324=自動リリース
+
+# EN: Auto Save
+810191057=自動保存
 
 # EN: Auto Switch on Kill
 1282152805=キル時に自動切り替え
@@ -304,41 +406,41 @@
 # EN: Auto TP to Waypoint
 1867269096=ウェイポイントへ自動TP
 
+# EN: Auto-Fire
+1322656523=自動射撃
+
+# EN: Auto-attack nearby peds as animal
+2754504626=動物として近くのNPCに自動攻撃
+
+# EN: Auto-detaches you each tick from any ped/object/vehicle — counters Spank / Ride Shoulders / forced-attach griefs
+3267986387=毎 tick ごとに任意の Ped/オブジェクト/乗り物から自動で解除 - Spank / Ride Shoulders / 強制アタッチ荒らしを対策
+
 # EN: Auto-detect fonts from Windows
 2577479103=Windowsからフォントを自動検出
-
-# EN: Auto-disable aimbot when holding RPG, grenade launcher, or throwables
-1054006449=RPG、グレネードランチャー、投擲武器使用時にAimbotを自動無効化
 
 # EN: Auto-fire when crosshair is on a target
 1536605200=クロスヘアがターゲット上にあるとき自動射撃
 
+# EN: Auto-fires when crosshair lines up with a target hitbox
+3095548043=クロスヘアーがターゲットヒットボックスに合わせられると自動発火
+
 # EN: Auto-saves your position. Press [B] to rewind to previous locations.
 611200981=位置を自動保存。[B]を押すと以前の位置に巻き戻し。
-
-# EN: Auto-scales FOV, smoothing, and prediction when scoped with snipers
-4247923858=スナイパースコープ使用時にFOV、スムージング、予測を自動調整
 
 # EN: Auto-zigzag while sprinting to dodge bullets
 1713564836=スプリント中に自動ジグザグで弾丸を回避
 
-# EN: Automatically fires bullets at the closest target to your crosshair
-4091225894=クロスヘアに最も近いターゲットに自動射撃
-
 # EN: Automatically flip your vehicle upright
 2778904220=車両を自動的に正位置に戻す
-
-# EN: Automatically shoot when a target is in FOV
-3039832869=ターゲットがFOV内にいるとき自動射撃
-
-# EN: Automatically switch to next target after a kill
-227557248=キル後に次のターゲットへ自動切り替え
 
 # EN: Automatically teleport when you set a waypoint
 2299293074=ウェイポイントを設定すると自動テレポート
 
 # EN: Avg FT
 2437122580=平均FT
+
+# EN: Avoid Obstacles
+90274995=障害物を避ける
 
 # EN: Awareness
 4120293697=感知
@@ -379,11 +481,23 @@
 # EN: Background##weapon
 1937834289=背景##weapon
 
+# EN: Ballistics
+2863365501=弾道学
+
+# EN: Ban Player
+3035498839=プレイヤーをBAN
+
 # EN: Bar
 2151715081=バー
 
-# EN: Basic
-4281242592=基本
+# EN: Bar Color
+2240601071=バーの色
+
+# EN: Bears All Loop
+1068575853=ループをすべて負担
+
+# EN: Bears on All
+1799741400=すべてを負担
 
 # EN: Behavior
 3330951414=挙動
@@ -409,11 +523,17 @@
 # EN: Blackout Mode
 4106471165=ブラックアウトモード
 
+# EN: Blame: ON (clear)
+2216872016=責任転嫁: ON (クリア)
+
 # EN: Blink / Dash
 2181400004=ブリンク / ダッシュ
 
 # EN: Blizzard
 669657108=ブリザード
+
+# EN: Block
+3828602749=ブロック
 
 # EN: Block Anim Scenes
 2019597832=アニメーションシーンをブロック
@@ -426,6 +546,12 @@
 
 # EN: Block Crashes
 1960058316=クラッシュをブロック
+
+# EN: Block Explosions
+1257724231=爆発をブロック
+
+# EN: Block Freeze Entity
+1037856349=フリーズエンティティをブロック
 
 # EN: Block Invalid Models
 1656660069=無効なモデルをブロック
@@ -445,8 +571,14 @@
 # EN: Block Task Fuzzer
 1274306167=タスクファザーをブロック
 
+# EN: Block Weapon Drop
+2112316757=武器ドロップをブロック
+
 # EN: Block blacklisted forced animation scenes
 441848285=ブラックリストの強制アニメーションシーンをブロック
+
+# EN: Block intercepts events with CancelEvent(). Unblock re-registers the event.
+366586212=BlockはCancelEvent()でイベントをインターセプト。Unblockはイベントを再登録します。
 
 # EN: Block invalid propset creation data
 1192749160=無効なpropset作成データをブロック
@@ -466,11 +598,17 @@
 # EN: Block objects and peds being attached to you
 1904291971=オブジェクトやpedが自分にアタッチされるのをブロック
 
+# EN: Block other players from freezing your ped
+936513135=他のプレイヤーがあなたのNPCをフリーズするのをブロック
+
 # EN: Block pickups with invalid type hashes
 4188199560=無効なタイプハッシュのピックアップをブロック
 
 # EN: Block projectiles with invalid weapon or ammo
 4150216817=無効な武器や弾薬の飛び道具をブロック
+
+# EN: Block remote explosion sync from other players
+3154457541=他のプレイヤーからのリモート爆発同期をブロック
 
 # EN: Block vehicle proximity migration teleports
 1390593613=車両近接マイグレーションテレポートをブロック
@@ -484,8 +622,17 @@
 # EN: Body BG
 2797276020=ボディ背景
 
+# EN: Body Border
+2027388166=ボディボーダー
+
 # EN: Body Gradient
 706368864=ボディグラデーション
+
+# EN: Bodyguard
+1043924630=ボディーガード
+
+# EN: Bone
+282216227=ボーン
 
 # EN: Boost
 3475208003=ブースト
@@ -508,20 +655,32 @@
 # EN: Border Style
 350757194=ボーダースタイル
 
+# EN: Border Thick
+4263082925=ボーダー厚さ
+
 # EN: Border Thickness
 3884077482=ボーダーの太さ
 
 # EN: Border##cp
 216211181=ボーダー##cp
 
+# EN: Border##dd
+1336714047=ボーダー##dd
+
 # EN: Border##notif
 336356185=ボーダー##notif
+
+# EN: Border##sl
+3865657270=ボーダー##sl
 
 # EN: Border##sp
 192186828=ボーダー##sp
 
 # EN: Border##tt
 3335618363=ボーダー##tt
+
+# EN: Bordered
+3525280289=ボーダー付き
 
 # EN: Both
 3759669763=両方
@@ -535,20 +694,44 @@
 # EN: Bottom Right
 3752329730=右下
 
+# EN: Bounding box around animals
+2898555025=動物周辺のバウンディングボックス
+
+# EN: Bow
+3710900954=弓
+
+# EN: Bow / Arrows##proj
+2165966942=弓/矢##proj
+
 # EN: Box
 391302943=ボックス
 
 # EN: Box + Skeleton
 2701857720=ボックス + スケルトン
 
+# EN: Box Color##animal
+2528050181=ボックス色##animal
+
 # EN: Box Only
 2220777776=ボックスのみ
+
+# EN: Box##animalboxtoggle
+769174659=ボックス##animalboxtoggle
+
+# EN: Boxed
+2238860081=ボックス化
+
+# EN: Brake
+243491644=ブレーキ
 
 # EN: Branding
 637151929=ブランディング
 
 # EN: Bring Horse to Me
 4186539904=馬を呼び寄せる
+
+# EN: Browser
+3354537412=ブラウザー
 
 # EN: Bug Player
 3083359930=プレイヤーをバグらせる
@@ -559,17 +742,11 @@
 # EN: Bullet Proof
 1262983692=防弾
 
-# EN: Bullet Redirect##sa
-2808025987=弾丸リダイレクト##sa
-
 # EN: Bullet Tracers
 2673625274=弾丸トレーサー
 
-# EN: Bullets automatically track the nearest enemy
-1616432867=弾丸が最も近い敵を自動追尾
-
-# EN: Bullets electrocute and ragdoll nearby peds
-2126550957=弾丸が付近のpedを感電させてラグドール化
+# EN: Bullets deal no visible damage
+1812658852=弾丸は目に見える損傷を与えない
 
 # EN: Bullets explode on impact
 3711735807=弾丸が着弾時に爆発
@@ -583,14 +760,14 @@
 # EN: Bullets start fires on impact
 1414863151=弾丸が着弾時に火災を発生
 
-# EN: Burn Gun
-2300647213=バーンガン
-
 # EN: Burst Fire
 207152447=バーストファイア
 
 # EN: Burst Pause
 2929660808=バースト間隔
+
+# EN: Bury
+3795077595=埋める
 
 # EN: Button Background
 2334259758=ボタン背景
@@ -604,6 +781,18 @@
 # EN: Buttons
 2668497503=ボタン
 
+# EN: Buttons (teleport, actions, etc.)
+1490120760=ボタン（テレポート、アクション等）
+
+# EN: Buy
+2060555271=買う
+
+# EN: By Type
+132944993=タイプ別
+
+# EN: Bypass All Detections
+2578652746=すべての検出をバイパス
+
 # EN: Bypassed
 716678219=バイパス済み
 
@@ -615,6 +804,12 @@
 
 # EN: Cage All
 382838472=全員をケージに入れる
+
+# EN: Cam
+2714329907=カメラ
+
+# EN: Camera
+626544054=カメラ
 
 # EN: Camera Direction
 3642623253=カメラ方向
@@ -628,11 +823,23 @@
 # EN: Cancel
 3692849629=キャンセル
 
+# EN: Cancel on Target Lost
+1414621167=ターゲット喪失時にキャンセル
+
+# EN: Caps how far ahead we predict — prevents wild leads at long range
+87020140=予測の先行距離を制限 — 長距離での暴走を防止
+
+# EN: Card
+3007636313=カード
+
 # EN: Carpet FX Scale
 2956741907=カーペットエフェクトスケール
 
 # EN: Catapult Gun
 4229999919=カタパルトガン
+
+# EN: Category
+2052871693=カテゴリー
 
 # EN: Center
 2590249447=中央
@@ -646,9 +853,6 @@
 # EN: Chain Range
 2003227318=チェイン範囲
 
-# EN: Chance to redirect hit to the head
-1154716085=ヒットを頭にリダイレクトする確率
-
 # EN: Change Rate
 949770967=変化率
 
@@ -657,6 +861,27 @@
 
 # EN: Change your walking animation
 2519588705=歩行アニメーションを変更
+
+# EN: Charge
+895242042=チャージ
+
+# EN: Charge Ring
+2533561053=チャージリング
+
+# EN: Check
+3076878442=チェック
+
+# EN: Check Ownership
+2254116048=所有権を確認
+
+# EN: Checkbox
+3774301889=チェックボックス
+
+# EN: Checking...
+250388835=確認中...
+
+# EN: Checks:
+2320191415=確認:
 
 # EN: China
 3307270334=中国
@@ -667,9 +892,6 @@
 # EN: Circle Color
 2748157626=円の色
 
-# EN: Circle Color##mb
-1303923968=円の色##mb
-
 # EN: Circle+Dot
 2897117632=円+ドット
 
@@ -679,11 +901,20 @@
 # EN: Clarity
 574828251=クラリティ
 
-# EN: Clean
-1640993750=クリーン
+# EN: Classic
+2458459502=クラシック
 
 # EN: Clear
 916995460=クリア
+
+# EN: Clear All
+1803284832=すべてクリア
+
+# EN: Clear All##ptfx
+1087140651=すべてクリア##ptfx
+
+# EN: Clear Blood
+1733871903=血液をクリア
 
 # EN: Clear Bounties
 3723483613=賞金をクリア
@@ -700,11 +931,14 @@
 # EN: Clear on Teleport
 1659055056=テレポート時にクリア
 
+# EN: Click Start to scan server resources for events.
+2559388892=クリックしてスタートしてサーバーリソースのイベントをスキャン。
+
 # EN: Click UI
 1200896506=クリックUI
 
-# EN: Click key button to rebind. ESC to cancel.
-939410858=キーボタンをクリックしてリバインド。ESCでキャンセル。
+# EN: Click UI: standard window menu. List UI: controller-friendly list. Dual UI: render both at once. INSERT toggles whichever is active.
+3730496475=Click UI: 標準ウィンドウメニュー。List UI: コントローラー向けリスト。Dual UI: 両方を同時に描画。INSERT でアクティブな UI を切り替え。
 
 # EN: Click to apply model
 1083648646=クリックしてモデルを適用
@@ -712,8 +946,11 @@
 # EN: Click to give weapon
 576007568=クリックして武器を付与
 
-# EN: Click to spawn
-4007395385=クリックしてスポーン
+# EN: Click to spawn as wild horse
+3426986118=クリックして野生馬としてスポーン
+
+# EN: Click to spawn to database
+816468823=クリックしてデータベースにスポーン
 
 # EN: ClickUI
 2475899823=クリックUI
@@ -723,6 +960,12 @@
 
 # EN: Climb Steep Slopes
 2721325895=急斜面を登る
+
+# EN: Clip
+3877360426=クリップ
+
+# EN: Clip##anim_name
+1338454230=クリップ##anim_name
 
 # EN: Clockwise
 3064165560=時計回り
@@ -735,6 +978,9 @@
 
 # EN: Close (5m)
 2185614558=近距離 (5m)
+
+# EN: Closest
+3389338466=最も近い
 
 # EN: Cloud Glow
 1003829203=雲の輝き
@@ -757,11 +1003,20 @@
 # EN: Cock Weapon
 3058038059=武器をコッキング
 
+# EN: Collision
+2254540305=衝突
+
 # EN: Collision Proof
 821592069=衝突耐性
 
 # EN: Color
 3914595625=カラー
+
+# EN: Color A
+4250468165=色 A
+
+# EN: Color B
+1995633279=色 B
 
 # EN: Color Overrides
 2615415427=カラーオーバーライド
@@ -790,11 +1045,17 @@
 # EN: Combat
 1467455271=戦闘
 
+# EN: Compact
+3024861904=コンパクト
+
 # EN: Compass
 3738173000=コンパス
 
-# EN: Compensate for weapon recoil while aiming
-2749716703=エイム中の武器のリコイルを補正
+# EN: Conceal you from network sync — other players see you frozen at the entry spot, then desync entirely. Voice still works at that location.
+2591682140=ネットワーク同期から自分を隠す - 他プレイヤーには侵入地点で停止して見え、その後完全に非同期になります。ボイスはその場所で引き続き動作します。
+
+# EN: Cone
+1799025940=コーン
 
 # EN: Config
 1264390909=設定
@@ -838,6 +1099,9 @@
 # EN: Console output appears here...
 2378588289=コンソール出力がここに表示されます...
 
+# EN: Constant rate
+3437995936=一定レート
+
 # EN: Content Only##bgco
 1042370066=コンテンツのみ##bgco
 
@@ -847,11 +1111,14 @@
 # EN: Controls
 594033165=コントロール
 
-# EN: Cool
-1695531110=クール
+# EN: Cool Face
+3854545123=クールな顔
 
 # EN: Cooldown
 1178968787=クールダウン
+
+# EN: Cooldown (ms)
+500526488=クールダウン（ミリ秒）
 
 # EN: Cooldown##strafe
 1574937247=クールダウン##strafe
@@ -859,14 +1126,23 @@
 # EN: Coordinates
 2789151618=座標
 
+# EN: Coords
+917192739=座標
+
 # EN: Copy
 393356872=コピー
+
+# EN: Copy All
+4085295539=すべてコピー
 
 # EN: Copy ID
 3639484515=IDをコピー
 
 # EN: Copy Name
 4181535183=名前をコピー
+
+# EN: Core
+3262906017=コア
 
 # EN: Core Effect
 331657178=コアエフェクト
@@ -892,6 +1168,9 @@
 # EN: Coverage
 37271744=カバー範囲
 
+# EN: Crash Player
+290401442=プレイヤーをクラッシュ
+
 # EN: Crash Protections
 1615778111=クラッシュ保護
 
@@ -910,8 +1189,11 @@
 # EN: Crosshair
 1991267050=クロスヘア
 
-# EN: Crosshair Numbers
-3190854118=クロスヘア数値
+# EN: Crosshair Numbers##dmg
+1598516579=クロスヘアー数字##dmg
+
+# EN: Crosshair-style dot at the predicted impact point
+2920343593=予測インパクトポイントのクロスヘアースタイルドット
 
 # EN: Cursor Color
 1006036086=カーソルカラー
@@ -925,14 +1207,50 @@
 # EN: Custom AC
 703041167=カスタムAC
 
+# EN: Custom Animation
+1823607424=カスタムアニメーション
+
 # EN: Custom Crosshair
 3384202717=カスタムクロスヘア
 
 # EN: Custom Cursor
 1312703150=カスタムカーソル
 
+# EN: Custom Model Spawn
+4176462159=カスタムモデルスポーン
+
+# EN: Custom##db
+95206452=カスタム##db
+
 # EN: Customize your whistle pitch, clarity, and shape
 2070241274=口笛のピッチ、クラリティ、形状をカスタマイズ
+
+# EN: Customize##ddsty
+1466910820=カスタマイズ##ddsty
+
+# EN: Customize##grp
+1365816375=カスタマイズ##grp
+
+# EN: Customize##hbarsty
+2034804524=カスタマイズ##hbarsty
+
+# EN: Customize##nbsty
+1039221734=カスタマイズ##nbsty
+
+# EN: Customize##sl
+4220190893=カスタマイズ##sl
+
+# EN: Customize##spsty
+2752626057=カスタマイズ##spsty
+
+# EN: Customize##tgl
+2661039819=カスタマイズ##tgl
+
+# EN: Cylinder
+883073064=シリンダー
+
+# EN: DATE
+629830659=日付
 
 # EN: Damage
 1125348833=ダメージ
@@ -946,6 +1264,9 @@
 # EN: Damage Multiplier
 403675709=ダメージ倍率
 
+# EN: Damage Multiplier##mb
+1361489778=ダメージ倍率##mb
+
 # EN: Damage Numbers
 901708624=ダメージ数値
 
@@ -955,8 +1276,14 @@
 # EN: Damage Scale
 500530899=ダメージスケール
 
+# EN: Damage any target regardless of walls or cover
+2699807098=壁や掩蔽を問わず任意のターゲットにダメージを与える
+
 # EN: Damage targets behind cover and walls
 605603680=遮蔽物や壁の背後のターゲットにダメージ
+
+# EN: Damage##mb
+2337379826=ダメージ##mb
 
 # EN: Dashed
 1168445324=破線
@@ -964,11 +1291,14 @@
 # EN: Dashed Lines
 3217330410=破線
 
-# EN: Dashed##tt
-3897605696=破線##tt
+# EN: Database
+3279406008=データベース
 
 # EN: Dawn
 4259095408=夜明け
+
+# EN: Dead
+3384366314=死亡
 
 # EN: Dead Eye meter never drains
 3137623279=デッドアイメーターが減少しない
@@ -979,8 +1309,14 @@
 # EN: Deceleration
 27121731=減速
 
+# EN: Decoration
+2330753538=装飾
+
 # EN: Decreased Capsule
 2031166102=縮小カプセル
+
+# EN: Decrypt failed
+905566243=復号化失敗
 
 # EN: Deep Shadow
 1704534583=深い影
@@ -1006,11 +1342,11 @@
 # EN: Delete Config
 3129736374=設定を削除
 
+# EN: Delete Entity
+1044265419=エンティティを削除
+
 # EN: Delete Gun
 441024924=削除ガン
-
-# EN: Delete Last
-2335943020=最後を削除
 
 # EN: Delete Mount
 1874940830=騎乗動物を削除
@@ -1036,8 +1372,8 @@
 # EN: Detach
 4291111140=切り離す
 
-# EN: Detach camera and fly around freely
-2017641408=カメラを切り離して自由に飛行
+# EN: Detach Now
+3545604601=今すぐ解除
 
 # EN: Detail Text##notif
 2416834241=詳細テキスト##notif
@@ -1045,14 +1381,20 @@
 # EN: Detected
 1404062231=検出済み
 
+# EN: Detector
+3221100445=検出器
+
 # EN: Diagonal
 1180516370=対角線
 
 # EN: Diamond
 2796235871=ダイヤモンド
 
-# EN: Different color for headshot kills
-2883796557=ヘッドショットキルに別の色を使用
+# EN: Dict##anim_dict
+470133403=辞書##anim_dict
+
+# EN: Dictionary
+1214558348=辞書
 
 # EN: Dim
 295795085=暗くする
@@ -1072,6 +1414,12 @@
 # EN: Direction##grp
 2633968279=方向##grp
 
+# EN: Direction##tglg
+2813082977=方向##tglg
+
+# EN: Disable All Protections
+517409660=すべての保護を無効化
+
 # EN: Disable Anti-Cheat
 3713723029=アンチチートを無効化
 
@@ -1080,6 +1428,12 @@
 
 # EN: Disable ElectronAC
 3852262134=ElectronACを無効化
+
+# EN: Disable Outsider AC
+925341067=Outsider ACを無効化
+
+# EN: Disable Tasks
+2285629350=タスクを無効化
 
 # EN: Disable for Explosives
 1184164823=爆発物に対して無効化
@@ -1090,6 +1444,9 @@
 # EN: Disabled Text
 658823609=無効テキスト
 
+# EN: Disabler
+2396801800=無効化
+
 # EN: Disables all artificial lights in the world
 1865168868=ワールド内のすべての人工照明を無効化
 
@@ -1099,17 +1456,26 @@
 # EN: Display Mode
 200820562=表示モード
 
+# EN: Display model hash of entity under crosshair
+379808138=クロスヘアー下のエンティティのモデルハッシュを表示
+
 # EN: Dist
 3531260757=距離
 
 # EN: Distance
 3607074178=距離
 
-# EN: Distance Bone
-1749124048=距離ボーン
+# EN: Distance / Lead Readout
+1138383586=距離/リード読み取り
+
+# EN: Distance Fade
+115233056=距離フェード
 
 # EN: Distance Labels
 462378492=距離ラベル
+
+# EN: Distance##animal
+3973735636=距離##animal
 
 # EN: Distance##atk
 692812083=距離##atk
@@ -1129,17 +1495,32 @@
 # EN: Distance##tpfwd
 673033664=距離##tpfwd
 
+# EN: Distance##veh
+3820228410=距離##veh
+
+# EN: Divided
+2391534534=分割
+
 # EN: Divider Opacity
 1443594631=区切り線の不透明度
 
 # EN: Dividers
 4266747014=区切り線
 
-# EN: Don't target players marked as friends
-1529406783=フレンドに設定したプレイヤーをターゲットしない
+# EN: Don't fire while wielding melee weapons, bow, or lasso
+2492797133=近接武器、弓、ラッソを装備中は発火しない
+
+# EN: Don't show ESP on your own horse
+2855475825=自分の馬のESPを表示しない
+
+# EN: Don't target other animals
+2443518263=他の動物をターゲットにしない
 
 # EN: Dot
 289406910=ドット
+
+# EN: Dot Color
+1433097755=ドット色
 
 # EN: Dot Outline
 1280327065=ドットアウトライン
@@ -1147,17 +1528,23 @@
 # EN: Dot Size
 631688132=ドットサイズ
 
-# EN: Dot Spacing
-3608568270=ドット間隔
+# EN: Dot Spacing##bt2
+2609380175=ドット間隔##bt2
 
 # EN: Dotted
 2579778033=点線
 
-# EN: Dotted Line
-3435322722=点線
+# EN: Dotted Line##bt2
+2402778555=点線##bt2
+
+# EN: Double-click an event in the Logger to copy its name here.
+847266517=ロガーのイベントをダブルクリックして名前をここにコピー。
 
 # EN: Doubles the size of the targeted ped
 112049375=ターゲットのpedのサイズを2倍にする
+
+# EN: Download failed
+998536=ダウンロード失敗
 
 # EN: Draft Flaming Hooves
 2175949334=荷馬の炎の蹄
@@ -1171,23 +1558,20 @@
 # EN: Draw Calls
 610979268=ドローコール
 
-# EN: Draw a circle around the current target
-874232396=現在のターゲットの周りに円を描画
-
-# EN: Draw a line from crosshair to current target
-2567747378=クロスヘアから現在のターゲットへ線を描画
-
 # EN: Draw a line from your vehicle to the waypoint
 1677064399=車両からウェイポイントへ線を描画
 
-# EN: Draw targeting circle on screen
-887579382=画面にターゲティングサークルを描画
+# EN: Draw a ring + slot label at every saved position so you can find them in the world
+3813781237=保存済み位置ごとにリング + スロットラベルを描画し、ワールド内で見つけやすくします
 
 # EN: Draw the aimbot targeting circle on screen
 383559352=Aimbotのターゲティングサークルを画面に描画
 
-# EN: Draw the silent aim targeting circle on screen
-1366447032=サイレントエイムのターゲティングサークルを画面に描画
+# EN: Draws a line from the target's bone to the predicted lead point
+3573936851=ターゲットのボーンから予測リードポイントまでの線を描画
+
+# EN: Draws a line showing the path of every bullet fired in the world
+296242023=世界で発火されたすべての弾丸のパスを示す線を描画
 
 # EN: Drive Modes
 1204710938=ドライブモード
@@ -1195,11 +1579,20 @@
 # EN: Drive through the air like a plane
 2789300348=飛行機のように空中を走行
 
+# EN: Drive to Coords
+3454400388=座標まで運転
+
+# EN: Drive to Waypoint
+53776605=ウェイポイントまで運転
+
 # EN: Drive toward where the camera is looking
 4214413949=カメラの向いている方向に走行
 
 # EN: Drop Shadow
 362604306=ドロップシャドウ
+
+# EN: Drop Weapon
+1076854088=武器をドロップ
 
 # EN: Dropdown
 953915820=ドロップダウン
@@ -1210,11 +1603,17 @@
 # EN: Dropdown Hover
 7476142=ドロップダウンホバー
 
+# EN: Dropdown Style
+933713766=ドロップダウンスタイル
+
 # EN: Dropdown Sub-Tabs
 914167550=ドロップダウンサブタブ
 
 # EN: Dropdowns
 51766618=ドロップダウン
+
+# EN: Drunk All
+1338339533=全員を酔わせる
 
 # EN: Drunk Gun
 2509752085=酔いガン
@@ -1225,8 +1624,8 @@
 # EN: Drunk Mode
 3041909067=酔いモード
 
-# EN: Dual UI mode is not yet available.
-1792964426=デュアルUIモードはまだ利用できません。
+# EN: Dual UI
+163752098=デュアル UI
 
 # EN: Dual Wield
 1207650416=二刀流
@@ -1237,26 +1636,44 @@
 # EN: Duration (ms)
 655786122=持続時間 (ms)
 
-# EN: Duration##dmglog
-2155043513=持続時間##dmglog
+# EN: Duration##bt2
+345056605=期間##bt2
 
-# EN: Duration##dmgnum
-1606858786=持続時間##dmgnum
+# EN: Duration##dlog2
+1816813723=期間##dlog2
 
-# EN: Duration##pt
-2015408410=持続時間##pt
+# EN: Duration##dmg
+225476226=期間##dmg
 
-# EN: Duration##tt
-301031845=持続時間##tt
+# EN: Duration##hm
+839593440=期間##hm
 
 # EN: Dusk
 2177164377=夕暮れ
+
+# EN: Dynamic
+1539023636=ダイナミック
+
+# EN: Dynamic FOV##sa
+156212456=ダイナミックFOV##sa
+
+# EN: Dynamite
+3125318994=ダイナマイト
+
+# EN: Dynamite Arrow
+196789071=ダイナマイト矢
+
+# EN: Dynamite, throwing knives, etc. — disabled by default (drop is more dramatic)
+1780595305=ダイナマイト、投げナイフなど — デフォルトは無効（ドロップがより劇的）
 
 # EN: E
 286663184=E
 
 # EN: ESP
 3007444226=ESP
+
+# EN: ESP fades out at long range
+1243683337=ESPは長距離で消える
 
 # EN: Eagle Eye
 1477228707=イーグルアイ
@@ -1270,14 +1687,17 @@
 # EN: Editor
 1766080170=エディター
 
+# EN: Editor is empty
+2785403049=エディターは空です
+
+# EN: Effect
+860884915=エフェクト
+
 # EN: Effect Type
 2321899216=エフェクトタイプ
 
 # EN: Effects
 3222754290=エフェクト
-
-# EN: Electric Ammo
-4256644546=電撃弾
 
 # EN: ElectronAC heartbeat — may be kicked in 2-5 min.
 3667341283=ElectronACハートビート — 2〜5分以内にキックされる可能性があります。
@@ -1291,8 +1711,14 @@
 # EN: Embedded
 2292057362=埋め込み
 
-# EN: Empty
-3151330285=空
+# EN: Emote
+2644719629=エモート
+
+# EN: Emotes
+2110610439=エモート
+
+# EN: Enable All Protections
+255460132=すべての保護を有効化
 
 # EN: Enable Striker
 2724500409=ストライカーを有効化
@@ -1309,6 +1735,9 @@
 # EN: Enable##pred
 3031240550=有効化##pred
 
+# EN: Enable##proj
+1677195569=有効化##proj
+
 # EN: Enable##sbg
 3268039885=有効化##sbg
 
@@ -1321,8 +1750,26 @@
 # EN: Enabled
 1527945487=有効
 
+# EN: Enabled##animal
+1998270356=有効##animal
+
+# EN: Enabled##bt
+4088978414=有効##bt
+
+# EN: Enabled##dlog
+2859054786=有効##dlog
+
+# EN: Enabled##dmg
+2528055362=有効##dmg
+
+# EN: Enabled##hm
+1214860466=有効##hm
+
 # EN: Enabled##silent
 697079411=有効##silent
+
+# EN: Enabled##veh
+2924172026=有効##veh
 
 # EN: End
 2965669335=終了
@@ -1332,12 +1779,6 @@
 
 # EN: Endpoint
 693206863=エンドポイント
-
-# EN: Endpoint Marker##pt
-782785200=エンドポイントマーカー##pt
-
-# EN: Endpoint Marker##tt
-3578768512=エンドポイントマーカー##tt
 
 # EN: Enlarge Gun
 2576154054=拡大ガン
@@ -1351,9 +1792,6 @@
 # EN: Entity Count
 495352207=エンティティ数
 
-# EN: Entity ESP
-2237057752=エンティティESP
-
 # EN: Error
 3374345388=エラー
 
@@ -1362,6 +1800,21 @@
 
 # EN: Error##notif
 3944622010=エラー##notif
+
+# EN: Event Blocker
+2348049901=イベントブロッカー
+
+# EN: Event Logger
+4055111064=イベントロガー
+
+# EN: Event name...
+1453694419=イベント名...
+
+# EN: Event to block...
+3761220325=ブロックするイベント...
+
+# EN: Events Blocked: %d
+1639179143=ブロックされたイベント: %d
 
 # EN: Expand Sub-Tabs
 788906364=サブタブを展開
@@ -1375,11 +1828,20 @@
 # EN: Explode All
 979167410=全員を爆破
 
+# EN: Explode All Loop
+4143022776=すべてループ爆発
+
 # EN: Explode Loop
 2859847721=爆破ループ
 
+# EN: Explode Vehicle
+2721901462=車両爆発
+
 # EN: Explosion Proof
 1687470245=爆発耐性
+
+# EN: Explosion Scale##ff
+2974608460=爆発スケール##ff
 
 # EN: Explosion Type
 330699093=爆発タイプ
@@ -1393,8 +1855,14 @@
 # EN: Exported
 3145593980=エクスポート済み
 
+# EN: Extra
+2934273293=追加
+
 # EN: Extras
 2099753448=追加機能
+
+# EN: Extras##lockon
+1596163466=追加機能##lockon
 
 # EN: FOV
 1783694977=FOV
@@ -1405,6 +1873,9 @@
 # EN: FOV Circle
 3437618946=FOVサークル
 
+# EN: FOV Circle##projvis
+3268196155=FOV円##projvis
+
 # EN: FOV Circle##sa
 1684241733=FOVサークル##sa
 
@@ -1413,6 +1884,9 @@
 
 # EN: FOV Cone
 3855747913=FOVコーン
+
+# EN: FOV Limit##mb
+3932303542=FOV制限##mb
 
 # EN: FOV Override
 660796900=FOVオーバーライド
@@ -1423,8 +1897,11 @@
 # EN: FOV Radius##mb
 3586756969=FOV半径##mb
 
-# EN: FOV Scaling
-1352560597=FOVスケーリング
+# EN: FOV Radius##proj
+55660565=FOVラジアス##proj
+
+# EN: FOV Scale by Distance
+4020045898=距離によるFOVスケール
 
 # EN: FPS
 1188151419=FPS
@@ -1441,14 +1918,14 @@
 # EN: Fade Out
 88300072=フェードアウト
 
-# EN: Fade Out##pt
-723949415=フェードアウト##pt
-
-# EN: Fade Out##tt
-1486429023=フェードアウト##tt
+# EN: Fade Out##bt2
+2502754614=フェードアウト##bt2
 
 # EN: Fade Over Time
 721809131=時間経過でフェード
+
+# EN: Fade by Distance
+310763781=距離によるフェード
 
 # EN: Failed to import
 3610834696=インポートに失敗
@@ -1465,14 +1942,23 @@
 # EN: Fast Climb
 1192867602=高速登攀
 
+# EN: Fast Punch
+4255767614=高速パンチ
+
 # EN: Fast Reload
 1854971811=高速リロード
 
 # EN: Fast Run
 1518054783=高速走行
 
+# EN: Fast start, brakes near target
+1671645065=高速スタート、ターゲット近くでブレーキ
+
 # EN: Fast-forward time at a custom speed
 1951095642=カスタム速度で時間を早送り
+
+# EN: Feature Keybinds
+2384437387=フィーチャーキーバインド
 
 # EN: Features
 1642194290=機能
@@ -1498,6 +1984,12 @@
 # EN: Fill Color
 1891090697=塗りつぶしカラー
 
+# EN: Fill Color##animal
+670630670=塗りつぶし色##animal
+
+# EN: Fill Color##veh
+3176782488=塗りつぶし色##veh
+
 # EN: Fill Deadeye Core
 2679437180=デッドアイコアを補充
 
@@ -1516,14 +2008,17 @@
 # EN: Filled
 238956158=塗りつぶし済み
 
-# EN: Filled Circle
-1999419602=塗りつぶし円
-
 # EN: Filter
 1239184307=フィルター
 
+# EN: Filter events / resources...
+2239256256=イベント/リソースをフィルター...
+
 # EN: Filter##mb
 982138645=フィルター##mb
+
+# EN: Filter##proj
+1693281521=フィルター##proj
 
 # EN: Filter##sa
 2082915633=フィルター##sa
@@ -1531,14 +2026,32 @@
 # EN: Filter##trig
 1506659606=フィルター##trig
 
+# EN: Filters
+3325143685=フィルター
+
 # EN: Fine-Tuning
 3037120010=微調整
+
+# EN: Fire All
+2874134581=すべて発火
+
+# EN: Fire All Loop
+2371634047=すべてループ発火
 
 # EN: Fire Ammo
 3091308747=火炎弾
 
+# EN: Fire Arrow
+1489326154=火矢
+
 # EN: Fire Delay
 425570614=発射遅延
+
+# EN: Fire Event
+2661019027=イベント発火
+
+# EN: Fire Loop
+3821399314=発火ループ
 
 # EN: Fire Proof
 2377383169=耐火
@@ -1546,11 +2059,17 @@
 # EN: Fire Rate
 3724661835=発射レート
 
-# EN: Firework Launcher, Compact GL
-1025450837=花火ランチャー、コンパクトGL
+# EN: Fire Rate##mb
+1343186129=発火レート##mb
+
+# EN: Fire explosive projectile from muzzle
+3794635436=銃口から爆発性プロジェクタイルを発火
 
 # EN: Fit
 1780184594=フィット
+
+# EN: Flags
+1741842546=フラグ
 
 # EN: Flaming Hooves
 246169199=炎の蹄
@@ -1561,23 +2080,29 @@
 # EN: Flashing warning when another player is aiming at you
 2760353598=他のプレイヤーがあなたを狙っている時に点滅警告
 
+# EN: Flat
+628418783=平坦
+
+# EN: Fling thrown projectiles at high speed
+871183867=投げられたプロジェクタイルを高速で飛ばす
+
+# EN: Flip Vehicle
+2529232516=車両をフリップ
+
+# EN: Flips Config.disable*Detection flags + absorbs NUI tripwire.
+3653173931=Config.disable*Detectionフラグをフリップ + NUI罠を吸収。
+
+# EN: Floating
+49814712=浮遊
+
+# EN: Floating shape above animal head
+1095761944=動物の頭上の浮遊形
+
 # EN: Fly Mode
 2546767316=フライモード
 
 # EN: Fly Mount
 3095471503=騎乗飛行
-
-# EN: Fly freely, ignoring world geometry
-2682006472=ワールドジオメトリを無視して自由に飛行
-
-# EN: Fly on a floating carpet with WASD/Space/Ctrl
-691261970=浮遊カーペットでWASD/Space/Ctrlで飛行
-
-# EN: Fly on your horse with WASD/Space/Ctrl
-2052440713=馬でWASD/Space/Ctrlで飛行
-
-# EN: Fly through the map freely. Click gear for settings.
-2829494518=マップ内を自由に飛行。歯車をクリックして設定。
 
 # EN: Flying Speed
 2419263387=飛行速度
@@ -1585,14 +2110,23 @@
 # EN: Fog
 3592150529=霧
 
+# EN: Follow Nearest Player
+687010905=最寄りのプレイヤーを追跡
+
 # EN: Font Settings
 3544698146=フォント設定
 
 # EN: Font Size
 1304943144=フォントサイズ
 
-# EN: Font Size##dmglog
-1349856237=フォントサイズ##dmglog
+# EN: Font Size##adist
+2586262393=フォントサイズ##adist
+
+# EN: Font Size##dlog2
+1871772931=フォントサイズ##dlog2
+
+# EN: Font Size##dmg
+3330545899=フォントサイズ##dmg
 
 # EN: Font names not ready
 1640246123=フォント名が準備できていません
@@ -1606,11 +2140,17 @@
 # EN: Force
 727102967=力
 
+# EN: Force Detach
+322280687=強制デタッチ
+
 # EN: Force Field
 3674789465=フォースフィールド
 
-# EN: Force a specific weather type
-785757655=特定の天候タイプを強制
+# EN: Force Gun
+2320811497=フォースガン
+
+# EN: Force Vomit
+3570371821=嘔吐させる
 
 # EN: Force on Ped
 3779398860=Pedに力を加える
@@ -1621,8 +2161,14 @@
 # EN: Forces
 4287958825=力
 
+# EN: Forward
+854951812=前方
+
 # EN: Forward Speed
 1876555102=前進速度
+
+# EN: Frame This Player
+375330543=このプレイヤーに罪を着せる
 
 # EN: Frametime Graph
 3749077224=フレームタイムグラフ
@@ -1630,8 +2176,17 @@
 # EN: Frametime Stats
 3723639030=フレームタイム統計
 
+# EN: Free Menus
+2609200059=フリーメニュー
+
 # EN: Freecam
 3443129427=フリーカメラ
+
+# EN: Freeze
+3175262865=フリーズ
+
+# EN: Freeze All
+562972110=全員を凍結
 
 # EN: Freeze All Peds
 1623902237=全Pedをフリーズ
@@ -1660,8 +2215,20 @@
 # EN: Friends are excluded
 3097198968=フレンドは除外されます
 
+# EN: Frosted
+4021177151=フロスト
+
 # EN: Full
 2467592022=フル
+
+# EN: Full Changelog
+2892240987=完全なチェンジログ
+
+# EN: Full Opacity
+3932230364=完全不透明
+
+# EN: Fun
+4088589830=楽しい
 
 # EN: Fun Ammo
 574668198=お楽しみ弾薬
@@ -1699,6 +2266,9 @@
 # EN: Ghost Mode
 2792783542=ゴーストモード
 
+# EN: Give Carbine
+2118885684=カービンライフルを装備
+
 # EN: Glass
 3656960447=ガラス
 
@@ -1720,11 +2290,11 @@
 # EN: Glow Radius
 3087836290=グロウ半径
 
-# EN: Glow Radius##pt
-4004376189=グロウ半径##pt
+# EN: Glow Radius##bt2
+2560990833=グロー半径##bt2
 
-# EN: Glow Radius##tt
-1810956257=グロウ半径##tt
+# EN: Glow##bt2
+420923737=グロー##bt2
 
 # EN: Glow##head
 3142243301=グロウ##head
@@ -1732,17 +2302,11 @@
 # EN: Glow##outline
 2470917910=グロウ##outline
 
-# EN: Glow##pt
-329084185=グロウ##pt
-
 # EN: Glow##skel
 3909833531=グロウ##skel
 
 # EN: Glow##snap
 3584938764=グロウ##snap
-
-# EN: Glow##tt
-231761347=グロウ##tt
 
 # EN: Go
 3678454391=実行
@@ -1759,14 +2323,29 @@
 # EN: Grab Opacity
 1641363077=つかみ不透明度
 
+# EN: Grab Range
+2257887998=つかみ範囲
+
+# EN: Grab Shape
+3731252436=掴む形状
+
+# EN: Grab Size
+390888471=掴むサイズ
+
 # EN: Grab##scr
 2129025338=つかむ##scr
+
+# EN: Grabber
+3519731721=グラバー
 
 # EN: Graceful Landing
 2418029094=安全着地
 
 # EN: Gradient
 3345778296=グラデーション
+
+# EN: Gradient (ON)
+145492381=グラデーション（オン）
 
 # EN: Gradient Accent
 375722623=グラデーションアクセント
@@ -1777,8 +2356,14 @@
 # EN: Gradient End
 2363959488=グラデーション終了
 
+# EN: Gradient Fill
+1626977588=グラデーション塗りつぶし
+
 # EN: Gradient##skel
 4185602752=グラデーション##skel
+
+# EN: Gradient##sl
+4056088422=グラデーション##sl
 
 # EN: Gradient##snap
 996503281=グラデーション##snap
@@ -1792,20 +2377,26 @@
 # EN: Graph Line
 2499037406=グラフライン
 
+# EN: Grapple Hook
+3088883906=グラップルフック
+
+# EN: Gravity Compensation
+3413356985=重力補正
+
 # EN: Gravity Flip
 1328387907=重力反転
 
 # EN: Gravity Gun
 593196728=グラビティガン
 
+# EN: Gravity Swap
+2900137701=重力スワップ
+
 # EN: Greatly increases weapon fire rate
 3075330173=武器の発射レートを大幅に増加
 
 # EN: Greatly speeds up reload animations
 1665048634=リロードアニメーションを大幅に高速化
-
-# EN: Grenades, Sticky Bombs, Molotovs,
-1157284636=グレネード、スティッキーボム、火炎瓶、
 
 # EN: Grid Lines
 608131623=グリッド線
@@ -1849,6 +2440,12 @@
 # EN: HP
 1833919794=HP
 
+# EN: HP Mode
+2196479797=HPモード
+
+# EN: HP Threshold
+1334698493=HP閾値
+
 # EN: HUD
 2488248793=HUD
 
@@ -1858,11 +2455,17 @@
 # EN: Hands
 1613305285=手
 
+# EN: Hash Gun
+217018978=ハッシュガン
+
 # EN: Hat
 2537416713=帽子
 
 # EN: Hat Color
 2197204917=帽子の色
+
+# EN: Hat ESP##animalhat
+904027355=ハットESP##animalhat
 
 # EN: Hat Style
 3968368516=帽子スタイル
@@ -1909,6 +2512,9 @@
 # EN: Header Height
 1726695865=ヘッダーの高さ
 
+# EN: Header Only
+1079959356=ヘッダーのみ
+
 # EN: Header Opacity
 3337976026=ヘッダー不透明度
 
@@ -1921,11 +2527,14 @@
 # EN: Headshot Chance
 1279076512=ヘッドショット確率
 
-# EN: Headshot Color
-3745724835=ヘッドショットカラー
+# EN: Headshot Chance##mb
+105036172=ヘッドショット確率##mb
 
-# EN: Headshot Highlight
-3490981979=ヘッドショットハイライト
+# EN: Heal
+213766180=ヒール
+
+# EN: Heal All
+694888403=すべてヒール
 
 # EN: Heal Gun
 3522316062=ヒールガン
@@ -1933,11 +2542,20 @@
 # EN: Heals the targeted ped to full health or repairs vehicles
 1348684421=ターゲットのpedを全回復、または車両を修理
 
+# EN: Health
+3645570614=ヘルス
+
 # EN: Health / Armor
 1392506828=体力 / アーマー
 
 # EN: Health Bar
 238354258=体力バー
+
+# EN: Health Bar##animal
+1043723384=ヘルスバー##animal
+
+# EN: Health Bar##veh
+2888284525=ヘルスバー##veh
 
 # EN: Health Bars
 3573032106=体力バー
@@ -1945,14 +2563,20 @@
 # EN: Health Dots
 1895157285=体力ドット
 
+# EN: Health Filter
+3797968681=ヘルスフィルター
+
 # EN: Health Regen
 2428261713=体力回復
 
 # EN: Health and stamina bars stay full
 1580284707=体力とスタミナバーが常に満タン
 
-# EN: Heartbeat active — expect kick in 2-5 min
-1880003566=ハートビートアクティブ — 2〜5分以内にキック予想
+# EN: Health bar alongside the box
+42303962=ボックスの横のヘルスバー
+
+# EN: Health bar below the box
+3233771946=ボックスの下のヘルスバー
 
 # EN: Height
 1392374582=高さ
@@ -1962,6 +2586,15 @@
 
 # EN: Height Offset
 599202244=高さオフセット
+
+# EN: Height##animalhat
+2353146170=高さ##animalhat
+
+# EN: Height##tgl
+3237570541=高さ##tgl
+
+# EN: Hero
+1055943436=ヒーロー
 
 # EN: Hex
 3544636510=Hex
@@ -1978,17 +2611,35 @@
 # EN: Hide ESP
 3489105641=ESPを非表示
 
+# EN: Hide From Others
+943693745=他人から隠れる
+
 # EN: Hide Menu
 1560947015=メニューを非表示
 
 # EN: Hide Overlays
 1525934716=オーバーレイを非表示
 
+# EN: Hide Own Mount
+4250645748=自分のマウントを非表示
+
+# EN: Hide Preview
+3899698831=プレビューを非表示
+
 # EN: Hide Tracers / Lines
 425240012=トレーサー / ラインを非表示
 
-# EN: Highlight Headshots
-1100352321=ヘッドショットをハイライト
+# EN: Hide weapon model while aiming
+2699460846=エイミング中に武器モデルを非表示
+
+# EN: Higher = clings to current target longer
+2780806627=高い=現在のターゲットにより長くしがみつく
+
+# EN: Higher = slower / less aggressive nudge
+83817398=高い=より遅い/攻撃的でないナッジ
+
+# EN: Hijack Horse
+1532813097=馬をハイジャック
 
 # EN: Hit Chance
 3254221308=ヒット確率
@@ -1999,8 +2650,14 @@
 # EN: Hit Effect
 3650015191=ヒットエフェクト
 
+# EN: Hit Range
+3630651289=ヒット範囲
+
 # EN: Hitbox
 2448535733=ヒットボックス
+
+# EN: Hitbox Priority##trig
+797160922=ヒットボックス優先度##trig
 
 # EN: Hitmarker
 610964850=ヒットマーカー
@@ -2011,14 +2668,41 @@
 # EN: Hold
 2552174939=ホールド
 
-# EN: Homing Ammo
-2847338131=ホーミング弾
+# EN: Hold ATTACK to grab the closest wagon / coach / boat (riders/drivers come along). AIM throws it forward.
+3528287593=ATTACK を長押しして最寄りのワゴン / 馬車 / ボートをつかむ（乗り手/運転手も一緒）。AIM で前方へ投げる。
+
+# EN: Hold ATTACK while unarmed + on foot to grab the closest ped (humans / horses / animals — works even when riders are mounted). Press AIM to throw forward.
+1892316222=非武装 + 徒歩の状態で ATTACK を長押しして最寄りの Ped をつかむ（人間 / 馬 / 動物 - 乗り手が乗っていても有効）。AIM を押すと前方へ投げる。
+
+# EN: Hold Attack (Left Mouse Button) to strike lightning at your aim point
+3787356728=攻撃（左マウスボタン）を保持してエイムポイントで稲妻を発動
+
+# EN: Hold Distance
+646883769=距離を維持
+
+# EN: Hold E near a player to pull and punch
+4004346598=プレイヤーの近くでEを保持して引きと殴り
+
+# EN: Hold Shift to boost, release to stop
+1354780119=Shiftを保持してブースト、離して停止
+
+# EN: Hold Time##proj
+1312533915=ホールド時間##proj
+
+# EN: Hold aim key to snap onto nearest target
+2268590838=エイムキーを保持して最も近いターゲットにスナップ
+
+# EN: Hold jump for super jump — launches higher and further with configurable force
+1132539105=ジャンプを保持してスーパージャンプ — 設定可能な力でより高く遠くに飛ぶ
 
 # EN: Horizontal
 1700296974=水平
 
 # EN: Horse
 2510745927=馬
+
+# EN: Horse Teleport
+3703692753=馬テレポート
 
 # EN: Horse can climb steep terrain without sliding
 3061925845=馬が滑らずに急な地形を登れる
@@ -2029,8 +2713,8 @@
 # EN: Horse cores stay full at all times
 778780251=馬のコアが常に満タン
 
-# EN: Horse floats in the air
-793231407=馬が空中に浮遊
+# EN: Horse floats in the air — disables gravity on mount
+2873733082=馬が空中に浮く — マウントの重力を無効化
 
 # EN: Horse jumps much higher
 2736353125=馬のジャンプ力が大幅に向上
@@ -2056,8 +2740,14 @@
 # EN: Horses
 717108105=馬
 
+# EN: Horses Only
+3605620776=馬のみ
+
 # EN: Horses won't detach from your wagon
 984148264=馬が馬車から離れない
+
+# EN: Horses, deer, bears, wolves, dogs, etc.
+1864697964=馬、鹿、熊、狼、犬など
 
 # EN: Hour
 1605056896=時
@@ -2079,6 +2769,9 @@
 
 # EN: Humanization
 2824293924=ヒューマナイズ
+
+# EN: Hurl physics-driven flaming meteorites at aim location
+3415013775=エイム場所に物理駆動の炎の隕石を投げる
 
 # EN: ID
 459292749=ID
@@ -2143,14 +2836,29 @@
 # EN: Immune to steam damage
 1461376638=蒸気ダメージ無効
 
+# EN: Impact Duration##bt2
+2663960831=インパクト期間##bt2
+
 # EN: Impact Marker
 2096517014=着弾マーカー
+
+# EN: Impact Marker##bt2
+1905069574=インパクトマーカー##bt2
+
+# EN: Impact Size##bt2
+458394527=インパクトサイズ##bt2
 
 # EN: Import
 1878035063=インポート
 
 # EN: Imported
 477398127=インポート済み
+
+# EN: Include dead animals in ESP
+2744616645=ESPに死んだ動物を含める
+
+# EN: Include deadeye attribute core
+2029741933=デッドアイ属性コアを含める
 
 # EN: Increase movement speed while on foot
 1805528141=徒歩時の移動速度を増加
@@ -2163,6 +2871,9 @@
 
 # EN: Indent
 3670931990=インデント
+
+# EN: Independent of Lock On — uses its own toggle and key
+714451620=Lock Onから独立 — 独自のトグルとキーを使用
 
 # EN: Indices
 3921649453=インデックス
@@ -2182,11 +2893,17 @@
 # EN: Info
 1745727664=情報
 
+# EN: Info box near crosshair when aiming at a player
+3071048165=プレイヤーをエイミング時にクロスヘアー近くの情報ボックス
+
 # EN: Info notification
 15919856=情報通知
 
 # EN: Info##notif
 3630429841=情報##notif
+
+# EN: Initial upward boost for natural swing
+629750290=自然なスイングの初期上向きブースト
 
 # EN: Inner Circle
 3697123713=内側の円
@@ -2209,6 +2926,9 @@
 # EN: Instant Accuracy
 4029560167=即時精度
 
+# EN: Instant Knockdown NPC
+2211158252=インスタント倒れNPC
+
 # EN: Instant Respawn
 1986336922=即時リスポーン
 
@@ -2224,8 +2944,14 @@
 # EN: Intensity
 4023228733=強度
 
+# EN: Inter-Shot Jitter
+711221323=ショット間ジッター
+
 # EN: Interval
 640635350=間隔
+
+# EN: Interval##all
+2217342454=間隔##all
 
 # EN: Interval##mr
 2231230793=間隔##mr
@@ -2233,11 +2959,17 @@
 # EN: Interval##ms
 3903498393=間隔##ms
 
+# EN: Invalid key
+2656583890=無効なキー
+
 # EN: Invisible
 4238958260=透明
 
 # EN: Item Active
 3806767807=アイテムアクティブ
+
+# EN: Item Gap
+794979395=アイテムギャップ
 
 # EN: Item Height
 1662290394=アイテムの高さ
@@ -2245,14 +2977,26 @@
 # EN: Item Hover
 3271408553=アイテムホバー
 
+# EN: Item Pad X
+1161658994=アイテムパッドX
+
 # EN: Item Spacing
 3472915733=アイテム間隔
 
-# EN: Jitter
-2175396620=ジッター
+# EN: Items
+3308786431=アイテム
+
+# EN: JSON
+1493832359=JSON
+
+# EN: Jitter / Humanize
+3885455134=ジッター/ヒューマナイズ
 
 # EN: Jitter##human
 4232165471=ジッター##human
+
+# EN: Joint Color
+1649662583=ジョイント色
 
 # EN: Joint Size
 2337031930=ジョイントサイズ
@@ -2260,14 +3004,8 @@
 # EN: Joints
 2543302730=ジョイント
 
-# EN: Joints + Head Ring
-3407280952=ジョイント + ヘッドリング
-
 # EN: Jump Glow
 3124076406=ジャンプグロウ
-
-# EN: Jump higher and further with configurable force
-2202635590=設定可能な力でより高く遠くジャンプ
 
 # EN: KEYBINDS
 1174365445=キーバインド
@@ -2299,8 +3037,14 @@
 # EN: Keep targeting the same player until they die
 3940874244=同じプレイヤーが死ぬまでターゲットし続ける
 
+# EN: Keep tracking the same target between frames unless score worsens significantly
+506866646=スコアが大幅に悪化しない限りフレーム間で同じターゲットを追跡
+
 # EN: Key Pill / Accent
 254348757=キーピル / アクセント
+
+# EN: Key redeemed
+871295478=キーがリダイム
 
 # EN: Keybind List
 1074682821=キーバインドリスト
@@ -2317,6 +3061,9 @@
 # EN: Kick Mount
 2704406811=騎乗動物を蹴り下ろす
 
+# EN: Kick the rider off when teleporting to an occupied horse
+4002632872=占有されている馬にテレポート時にライダーをキック
+
 # EN: Kill All Animals
 1086619057=全動物をキル
 
@@ -2332,11 +3079,35 @@
 # EN: Kill Effect
 3695467159=キルエフェクト
 
+# EN: Kill Effect##hm
+878885828=キルエフェクト##hm
+
+# EN: Kill Horse
+2615268342=馬を殺す
+
 # EN: Kill any target with a single bullet
 3530122630=一発の弾丸で任意のターゲットをキル
 
 # EN: Knob
 3174489586=ノブ
+
+# EN: Knob Pad
+2773421388=ノブパッド
+
+# EN: Knob Scale
+993676257=ノブスケール
+
+# EN: Knob Shape
+843089538=ノブ形
+
+# EN: LMB Throw | RMB Recall | Jump Fly to hammer
+4100900380=LMB投げ | RMB回収 | ジャンプハンマーで飛ぶ
+
+# EN: LOS raycast — won't lead a target into a wall when its predicted path is blocked
+3723847969=LOS光線投射 — 予測パスがブロックされている場合、ターゲットを壁に導かない
+
+# EN: Labels
+523099886=ラベル
 
 # EN: Language
 1264767922=言語
@@ -2346,6 +3117,27 @@
 
 # EN: Large GIFs with many frames use more VRAM and
 1677371317=多くのフレームを持つ大きなGIFはVRAMを多く使用し、
+
+# EN: Lasso
+705179744=ラッソ
+
+# EN: Lasso##proj
+483909808=ラッソ##proj
+
+# EN: Launch All
+2200616639=すべてローンチ
+
+# EN: Launch Horse
+4070026433=馬をローンチ
+
+# EN: Launch Up
+3341920784=上にローンチ
+
+# EN: Launch Upward
+2068197786=上へ打ち上げ
+
+# EN: Launch entities away with physics force
+1048481584=物理力でエンティティを遠くにローンチ
 
 # EN: Launches the targeted ped or vehicle into the air in an arc
 3918789542=ターゲットのpedまたは車両を弧を描いて空中に打ち上げる
@@ -2358,6 +3150,9 @@
 
 # EN: Lead Distance
 3027328764=リード距離
+
+# EN: Lead Line
+600709582=リードライン
 
 # EN: Left
 1872971840=左
@@ -2374,6 +3169,9 @@
 # EN: Library
 3519106789=ライブラリ
 
+# EN: Lift Distance
+3039571348=リフト距離
+
 # EN: Lighting Color
 581343090=ライティングカラー
 
@@ -2389,8 +3187,17 @@
 # EN: Lightning
 3342970541=雷
 
+# EN: Lightning All
+2329977748=すべて稲妻
+
+# EN: Lightning All Loop
+3513476951=すべてループ稲妻
+
 # EN: Lightning Gun
 421822385=ライトニングガン
+
+# EN: Lightning Loop
+3675505188=稲妻ループ
 
 # EN: Lightning Strike
 3898028188=落雷
@@ -2404,6 +3211,9 @@
 # EN: Line
 2053992847=ライン
 
+# EN: Line Color
+3393959997=ライン色
+
 # EN: Line Opacity
 670408965=ライン不透明度
 
@@ -2413,8 +3223,17 @@
 # EN: Line of Sight
 3600102520=視線
 
+# EN: Linear
+959610275=線形
+
 # EN: Lines
 3759251173=ライン
+
+# EN: Lines from screen to animal
+887884222=スクリーンから動物への線
+
+# EN: Lines from screen to vehicle
+2856687034=スクリーンから車への線
 
 # EN: Links
 4048857167=リンク
@@ -2422,11 +3241,17 @@
 # EN: List UI
 2974715443=リストUI
 
-# EN: List UI is coming soon and not yet available.
-3836961011=リストUIは近日実装予定で、まだ利用できません。
+# EN: ListUI
+4099801258=ListUI
+
+# EN: Live text next to the impact marker — distance in meters and arrow flight time
+2205632688=インパクトマーカーの隣のライブテキスト — メートル単位の距離と矢の飛行時間
 
 # EN: Load
 837451790=読み込み
+
+# EN: Load Script
+3976028888=スクリプトを読み込み
 
 # EN: Loaded
 538484865=読み込み完了
@@ -2446,6 +3271,9 @@
 # EN: Loading weapons...
 2489159571=武器を読み込み中...
 
+# EN: Loading...
+3089557982=読み込み中...
+
 # EN: Local
 1196138662=ローカル
 
@@ -2461,8 +3289,14 @@
 # EN: Lock On
 3927233622=ロックオン
 
+# EN: Log Blocked Detections
+4183931454=ブロックした検出をログ
+
 # EN: Log blocked sync events to the console
 1714725780=ブロックされた同期イベントをコンソールに記録
+
+# EN: Logging
+1266327033=ログ記録
 
 # EN: Logo
 661613880=ロゴ
@@ -2485,6 +3319,21 @@
 # EN: Loop
 1281572103=ループ
 
+# EN: Loop All
+207237705=すべてループ
+
+# EN: Looped
+541157799=ループ
+
+# EN: Looped##db_ptfx
+4194316736=ループ##db_ptfx
+
+# EN: Loose the bow / let fly the throwable when lock holds steady
+1911010072=ロックが安定すると弓を解き放つ/投げ物を飛ばす
+
+# EN: Low HP Only
+405816121=HP低時のみ
+
 # EN: Lower Cloud Intensity
 3666602646=下層雲の強度
 
@@ -2500,8 +3349,8 @@
 # EN: Lua scripting engine (not yet ported)
 2088386079=Luaスクリプティングエンジン（未移植）
 
-# EN: Lua scripting not yet ported to FiveM.
-2144415292=LuaスクリプティングはFiveMに未移植です。
+# EN: Lua scripting not yet ported to RedM.
+1933613976=LuaスクリプティングはまだRedMに移植されていません。
 
 # EN: Magazine never empties
 1421871892=マガジンが空にならない
@@ -2539,23 +3388,23 @@
 # EN: Makes your horse invincible
 1572829119=馬を無敵にする
 
-# EN: Manually set the in-game time of day
-18590843=ゲーム内の時刻を手動で設定
+# EN: Manually scan loaded modules for known anti-cheat DLLs
+1486356233=読み込まれたモジュールを手動で既知のアンチチートDLLでスキャン
 
 # EN: Map Image
 2485108282=マップ画像
 
-# EN: Marker Duration
-3550132583=マーカー持続時間
+# EN: Margin
+3834294781=マージン
+
+# EN: Marker Color
+1413834926=マーカー色
 
 # EN: Marker Size
 1608809912=マーカーサイズ
 
-# EN: Marker Size##pt
-2286249506=マーカーサイズ##pt
-
-# EN: Marker Size##tt
-1410759241=マーカーサイズ##tt
+# EN: Master switch — flips every Outsider detection category in one toggle: Infinite Ammo, Suspicious Revive, Stamina God (Player + Horse), Teleport, Resource Scan, Animal Spawn, Weapon + Ammo Blacklists, NUI DevTools tripwire, and the offline Network Lock.
+735880372=マスタースイッチ - Outsider の全検出カテゴリを一括切替: 無限弾薬、不審な蘇生、スタミナ God（プレイヤー + 馬）、テレポート、リソーススキャン、動物スポーン、武器 + 弾薬ブラックリスト、NUI DevTools トリップワイヤー、オフライン Network Lock。
 
 # EN: Match Accent
 2004835312=アクセントに一致
@@ -2566,11 +3415,32 @@
 # EN: Max Connections
 2093456670=最大接続数
 
+# EN: Max Consec. Headshots
+1202996373=最大連続ヘッドショット数
+
+# EN: Max Cores
+222121208=最大コア
+
 # EN: Max Distance
 1098241997=最大距離
 
+# EN: Max Distance##animal
+2487564573=最大距離##animal
+
+# EN: Max Distance##esp
+113564246=最大距離##esp
+
 # EN: Max Distance##mb
 3059089789=最大距離##mb
+
+# EN: Max Distance##proj
+3357916410=最大距離##proj
+
+# EN: Max Distance##trig
+3943077587=最大距離##trig
+
+# EN: Max Distance##veh
+1144611207=最大距離##veh
 
 # EN: Max File Size (MB)
 3754775838=最大ファイルサイズ (MB)
@@ -2580,6 +3450,18 @@
 
 # EN: Max Kills/Min
 2248378999=最大キル数/分
+
+# EN: Max Kills/Min##mb
+3946597068=最大キル数/分##mb
+
+# EN: Max Lead Time
+4201150276=最大リード時間
+
+# EN: Max Lock Error##proj
+456769390=最大ロックエラー##proj
+
+# EN: Max Nudge / Tick
+4268040976=最大ナッジ/ティック
 
 # EN: Max Offset
 1479160603=最大オフセット
@@ -2596,14 +3478,26 @@
 # EN: Max Range Filter
 2461467509=最大射程フィルター
 
+# EN: Max Render##esp
+2059091760=最大レンダリング##esp
+
 # EN: Max Resolution
 2928541794=最大解像度
 
 # EN: Max Speed
 2051389565=最大速度
 
+# EN: Max Target Speed
+2229440381=最大ターゲット速度
+
 # EN: Medium (15m)
 2324846004=中距離 (15m)
+
+# EN: Melee
+999229322=近接
+
+# EN: Melee Bot
+1190352797=近接ボット
 
 # EN: Melee Proof
 3978744557=近接耐性
@@ -2617,8 +3511,8 @@
 # EN: Menu
 3305016052=メニュー
 
-# EN: Meteor Gun
-1561453207=メテオガン
+# EN: Menu Position
+488308314=メニュー位置
 
 # EN: Meteor Rain
 3841084365=メテオレイン
@@ -2631,6 +3525,9 @@
 
 # EN: Meteorite Rain
 3057240388=隕石雨
+
+# EN: Milliseconds the lock must stay stable before firing
+669053473=発火前にロックが安定している必要があるミリ秒
 
 # EN: Min Scale
 4136179093=最小スケール
@@ -2647,6 +3544,9 @@
 # EN: Misc
 3888475804=その他
 
+# EN: Missing file id
+3301067073=ファイルIDが見つかりません
+
 # EN: Misty
 1500834021=霧がかった
 
@@ -2659,17 +3559,23 @@
 # EN: Mode
 1746230403=モード
 
+# EN: Model Name / Hash
+1935523304=モデル名/ハッシュ
+
+# EN: Modern
+1004805855=モダン
+
 # EN: Modules
 2096891096=モジュール
+
+# EN: Momentum
+830361429=モメンタム
 
 # EN: Moon
 2385442906=月
 
 # EN: Moon Color
 3543452926=月の色
-
-# EN: Moon Gravity
-1378348743=月面重力
 
 # EN: Moon Light Color
 3558736022=月光の色
@@ -2686,8 +3592,17 @@
 # EN: Moonlight Color
 314148051=月光カラー
 
+# EN: More iterations = tighter ballistic convergence (3 is plenty)
+3294213253=より多くの反復=より厳しい弾道収束（3で十分）
+
 # EN: Morning
 852964312=朝
+
+# EN: Most Referenced Events
+962784570=最も参照されるイベント
+
+# EN: Motivation States
+2457102115=モチベーション状態
 
 # EN: Mount
 2692356500=騎乗
@@ -2698,17 +3613,26 @@
 # EN: Mount Extras
 1038207876=騎乗動物の追加機能
 
+# EN: Mount Scale
+2730502113=マウントスケール
+
 # EN: Movement
 2799785395=移動
 
 # EN: Movement Extras
 3064802169=移動の追加機能
 
+# EN: Movement Prediction
+1187418797=移動予測
+
 # EN: Movement Prediction##sa
 598861308=移動予測##sa
 
 # EN: Movement Smoother
 1516594648=移動スムーザー
+
+# EN: Multi-Target
+2095291306=マルチターゲット
 
 # EN: Multiple rings stack from feet to head
 1361975713=複数のリングが足元から頭まで重なる
@@ -2721,6 +3645,9 @@
 
 # EN: NPC
 3921142999=NPC
+
+# EN: NPC Hijack
+756304747=NPC 乗っ取り
 
 # EN: NPC Ignore
 2361767225=NPC無視
@@ -2737,11 +3664,35 @@
 # EN: Name
 3873537812=名前
 
+# EN: Name Color
+2559614666=名前色
+
 # EN: Name Position
 1309262417=名前の位置
 
 # EN: Name Size
 847030063=名前のサイズ
+
+# EN: Name Size##animal
+940197598=名前サイズ##animal
+
+# EN: Name Size##veh
+3414166273=名前サイズ##veh
+
+# EN: Name##animal
+3355670016=名前##animal
+
+# EN: Name##ptfx_save
+3911945655=名前##ptfx_save
+
+# EN: Name##save_name
+1033300409=名前##save_name
+
+# EN: Name##veh
+501997998=名前##veh
+
+# EN: Natural
+4292977478=自然
 
 # EN: Nav Bar Background
 75021814=ナビバー背景
@@ -2779,6 +3730,9 @@
 # EN: Nearby Only
 4115480667=付近のみ
 
+# EN: Nearby Players
+1754941383=近くのプレイヤー
+
 # EN: Nearest
 775913483=最も近い
 
@@ -2787,6 +3741,9 @@
 
 # EN: Neon Border
 1220884655=ネオンボーダー
+
+# EN: Network
+2981967937=ネットワーク
 
 # EN: Never Buck
 1892380368=暴れない
@@ -2848,14 +3805,20 @@
 # EN: No Spread
 3427132305=拡散なし
 
+# EN: No action keybinds set
+3967958661=アクションキーバインドが設定されていません
+
 # EN: No anti-cheat found on this server
 653618892=このサーバーでアンチチートは検出されませんでした
+
+# EN: No events blocked
+656685112=ブロックされたイベントなし
 
 # EN: No fall damage from any height
 951215153=どの高さからでも落下ダメージなし
 
-# EN: No feature binds set.
-1399384241=機能バインドが設定されていません。
+# EN: No feature keybinds set
+1231463115=フィーチャーキーバインドが設定されていません
 
 # EN: No features found matching
 849221076=一致する機能が見つかりません
@@ -2866,6 +3829,21 @@
 # EN: No image selected.
 3081214655=画像が選択されていません。
 
+# EN: No matches
+3293291230=マッチなし
+
+# EN: No one talking
+1795249198=誰も話していない
+
+# EN: No paid scripts available.
+1253891300=利用可能な有料スクリプトはありません。
+
+# EN: No particle data loaded.
+702386897=パーティクルデータが読み込まれていません。
+
+# EN: No saved files.
+1038587172=保存されたファイルはありません。
+
 # EN: No script panels registered.
 2121200581=スクリプトパネルが登録されていません。
 
@@ -2874,6 +3852,18 @@
 
 # EN: No snippets saved yet.
 650550231=スニペットがまだ保存されていません。
+
+# EN: No spawned entities.
+1191902316=スポーンされたエンティティはありません。
+
+# EN: No spectators
+1921058372=観戦者なし
+
+# EN: Non-Looped
+1478626200=ノンループ
+
+# EN: Non-Looped##db_ptfx
+2475766753=ノンループ##db_ptfx
 
 # EN: None
 493038497=なし
@@ -2893,6 +3883,9 @@
 # EN: Not scanned yet — click Scan or enable Auto Detect
 2639677942=未スキャン — スキャンをクリックするか自動検出を有効化
 
+# EN: Notch
+831383367=ノッチ
+
 # EN: Notification
 391984250=通知
 
@@ -2901,6 +3894,12 @@
 
 # EN: Nuke
 2543577859=核爆発
+
+# EN: OK
+2067953960=OK
+
+# EN: Objects / Walls
+3327894545=オブジェクト/壁
 
 # EN: Off
 125735237=オフ
@@ -2920,6 +3919,18 @@
 # EN: On
 2297599112=オン
 
+# EN: On-screen indicator showing anti-cheat detection status
+2418591715=アンチチート検出ステータスを示すオンスクリーン表示
+
+# EN: On-screen list of nearby players with distance and info
+11197036=距離と情報付きの近くのプレイヤーのオンスクリーンリスト
+
+# EN: On-screen list of players currently spectating you
+337358072=現在あなたを観戦しているプレイヤーのオンスクリーンリスト
+
+# EN: On-screen log listing recent damage dealt and taken with timestamps
+4217479471=タイムスタンプ付きで最近与えられたダメージと受けたダメージをリストするオンスクリーンログ
+
 # EN: One Hit Kill
 2789919291=一撃キル
 
@@ -2929,26 +3940,29 @@
 # EN: Only When Aiming
 2355363676=エイム時のみ
 
+# EN: Only When Mounted
+366662471=マウント時のみ
+
 # EN: Only While ADS
 1639662579=ADS中のみ
 
 # EN: Only While ADS##trig
 1546980182=ADS中のみ##trig
 
+# EN: Only While Aim Key Held
+558637835=エイムキー保持中のみ
+
 # EN: Only activate slow motion while aiming
 2666653046=エイム中のみスローモーションを有効化
 
-# EN: Only activate when aiming down sights
-2670842741=ADS中のみ有効化
+# EN: Only active while you are riding
+3443929884=乗っている間のみアクティブ
 
 # EN: Only boost while on the ground
 518638339=地上にいる時のみブースト
 
-# EN: Only fire at targets you can see
-1838854184=見えるターゲットのみに発射
-
-# EN: Only hit targets behind cover
-2160035176=遮蔽物の背後のターゲットのみに命中
+# EN: Only show horses, hide other animals
+3176518525=馬のみを表示、他の動物を非表示
 
 # EN: Only target players you can see
 851968866=見えるプレイヤーのみをターゲット
@@ -2956,11 +3970,17 @@
 # EN: Opacity
 3644411688=不透明度
 
-# EN: Opacity##dmglog
-2914177699=不透明度##dmglog
+# EN: Opacity##animalhat
+4123815116=不透明度##animalhat
 
 # EN: Open Folder
 615535440=フォルダーを開く
+
+# EN: Open Folder##ptfx
+3971452229=フォルダを開く##ptfx
+
+# EN: Open Folder##spn
+1814632044=フォルダを開く##spn
 
 # EN: Open Key
 35305217=開くキー
@@ -2974,8 +3994,14 @@
 # EN: Options
 2704274338=オプション
 
+# EN: Oriented 3D bounding box with fill
+3783395943=塗りつぶし付きの向き3Dバウンディングボックス
+
 # EN: Origin
 2371626452=原点
+
+# EN: Origin##asnap
+1061055714=原点##asnap
 
 # EN: Other
 1378233051=その他
@@ -2998,8 +4024,20 @@
 # EN: Outline Width
 1689303532=アウトラインの幅
 
+# EN: Outline##animalbox
+2848025225=アウトライン##animalbox
+
+# EN: Outline##dmg
+4062650815=アウトライン##dmg
+
 # EN: Outline##skel
 3425843942=アウトライン##skel
+
+# EN: Outline##vehbox
+1794015250=アウトライン##vehbox
+
+# EN: Outsider Bypass
+1528800486=Outsider バイパス
 
 # EN: Overcast
 3146353965=曇天
@@ -3022,17 +4060,14 @@
 # EN: Overpower Stamina
 2874431915=スタミナ超過
 
-# EN: Override Time
-385966227=時間オーバーライド
-
-# EN: Override Weather
-2440079673=天候オーバーライド
-
 # EN: Override camera, aim, and scope field of view
 1121952939=カメラ、エイム、スコープの視野角をオーバーライド
 
 # EN: Override the ground snow coverage style
 3224058556=地面の雪カバースタイルをオーバーライド
+
+# EN: Overview
+118778200=概要
 
 # EN: PANIC MODE ACTIVE
 1272225111=パニックモード有効
@@ -3043,11 +4078,32 @@
 # EN: PNG or JPG recommended.
 2646030720=PNGまたはJPG推奨。
 
+# EN: Pad X
+4090104508=パッド X
+
+# EN: Pad X##dd
+1605964143=パッド X##dd
+
+# EN: Pad X##sp
+976082529=パッド X##sp
+
+# EN: Pad Y##dd
+4284433392=パッドY##dd
+
+# EN: Pad Y##sp
+2158836274=パッドY##sp
+
 # EN: Padding
 625300402=パディング
 
 # EN: Page Title
 2169432593=ページタイトル
+
+# EN: Paid Scripts
+2150830199=有料スクリプト
+
+# EN: Panel Color
+1687163973=パネル色
 
 # EN: Panel Colors
 1735835670=パネルカラー
@@ -3064,8 +4120,14 @@
 # EN: Panic Mode
 2310882466=パニックモード
 
+# EN: Particles
+1078194169=パーティクル
+
 # EN: Party
 1132658614=パーティー
+
+# EN: Pass Through
+3173995589=パススルー
 
 # EN: Passively regenerate health over time
 240888173=時間経過で体力を自動回復
@@ -3079,6 +4141,9 @@
 # EN: Ped Follows Camera
 1872355422=Pedがカメラに追従
 
+# EN: Ped Grabber
+422588753=Ped グラバー
+
 # EN: Ped Light Color
 1724512580=Pedライトカラー
 
@@ -3088,11 +4153,14 @@
 # EN: Peds
 2376147223=Ped
 
+# EN: Peds / NPCs
+1876490144=NPCs
+
 # EN: Per Wave
 2167931403=ウェーブごと
 
-# EN: Per-Feature Binds
-2900791157=機能別バインド
+# EN: Per-frame angular cap — keeps motion natural
+974119255=フレームごとの角度上限 — 動きを自然に保つ
 
 # EN: Perfect bullet accuracy with zero spread
 772440268=拡散ゼロの完璧な弾丸精度
@@ -3112,6 +4180,12 @@
 # EN: Permanently enables Eagle Eye vision mode
 2869054927=イーグルアイビジョンモードを常時有効化
 
+# EN: Phantom Bullets
+4034865972=ファントム弾丸
+
+# EN: Phantom Weapon
+2103417705=ファントム武器
+
 # EN: Pick up and throw objects with your weapon
 4137019370=武器でオブジェクトを拾い上げて投げる
 
@@ -3127,11 +4201,11 @@
 # EN: Pill Pad Y
 352596684=ピル余白 Y
 
+# EN: Pin
+1279834816=ピン
+
 # EN: Ping
 1218843674=Ping
-
-# EN: Pipe Bombs, Proximity Mines, Flares
-1693538821=パイプ爆弾、近接地雷、フレア
 
 # EN: Pitch
 1061927116=ピッチ
@@ -3144,6 +4218,27 @@
 
 # EN: Place .lua files in:
 3888411723=.luaファイルの配置先:
+
+# EN: Place on Ground
+3034990287=地面に配置
+
+# EN: Play
+966373365=再生
+
+# EN: Play Custom
+144710895=カスタムを再生
+
+# EN: Play Emote
+673125076=エモートを再生
+
+# EN: Play Emote##db
+3178399800=エモートを再生##db
+
+# EN: Play Scenario
+1053894634=シナリオを再生
+
+# EN: Playback
+1432818572=再生
 
 # EN: Player
 1862763509=プレイヤー
@@ -3166,11 +4261,23 @@
 # EN: Players Only
 766737098=プレイヤーのみ
 
+# EN: Players##hm
+2760884608=プレイヤー##hm
+
 # EN: Plays a beep sound when a player gets within range
 1863429150=プレイヤーが範囲内に入るとビープ音を再生
 
+# EN: Plays a brief frontend tick when auto-fire releases — useful in third-person
+2628603186=自動射撃がリリースされるときに簡単なフロントエンドティックを再生 — 三人称で有用
+
 # EN: Poison Ammo
 600661915=毒弾
+
+# EN: Pops floating damage values at hit locations — critical hits highlighted
+2822050342=ヒット位置でフローティングダメージ値をポップ — クリティカルヒットをハイライト
+
+# EN: Popup Style
+3924788302=ポップアップスタイル
 
 # EN: Popups
 3713054092=ポップアップ
@@ -3187,6 +4294,9 @@
 # EN: Position History
 3857144579=位置履歴
 
+# EN: Position##ahp
+707344821=位置##ahp
+
 # EN: Position##hdr
 1381185122=位置##hdr
 
@@ -3196,23 +4306,38 @@
 # EN: Power
 2673791500=パワー
 
+# EN: Powers
+2081402664=パワー
+
+# EN: Predator
+3806844075=プレデター
+
 # EN: Predict target movement for better accuracy
 3415767592=より良い精度のためにターゲットの移動を予測
 
 # EN: Prediction
 796153596=予測
 
+# EN: Prediction Factor
+53558502=予測係数
+
 # EN: Prediction##sa
 43230462=予測##sa
+
+# EN: Predictive aim assist for arrows, lasso, and throwables — leads moving targets
+4223113178=矢、ラッソ、投げ物の予測エイムアシスト — 移動ターゲットをリード
+
+# EN: Prefer Head > Neck > Body > Hands > Feet over first-match
+2220375626=最初の一致より頭>首>体>手>足を優先
+
+# EN: Premium Menus
+4177668372=プレミアムメニュー
 
 # EN: Preset
 2973707311=プリセット
 
 # EN: Press END to instantly disable all visuals, menu, overlays, ESP. Press END again to restore.
 477737018=ENDキーで全ビジュアル、メニュー、オーバーレイ、ESPを即座に無効化。再度ENDで復元。
-
-# EN: Press [B] to rewind
-851379740=[B]で巻き戻し
 
 # EN: Press [G] to teleport forward in camera direction
 2203837878=[G]でカメラ方向に前方テレポート
@@ -3228,6 +4353,9 @@
 
 # EN: Press the open key to toggle the menu anytime
 3803410397=開くキーを押していつでもメニューを切り替え
+
+# EN: Prevent forced weapon drops from other players
+2940149982=他のプレイヤーからの強制武器ドロップを防止
 
 # EN: Prevent ragdolling on landing
 2011576314=着地時のラグドールを防止
@@ -3265,14 +4393,29 @@
 # EN: Primary
 303108068=プライマリ
 
+# EN: Print blocked detection events to the local console
+1221152482=ブロックした検出イベントをローカルコンソールへ出力
+
 # EN: Priority
 342945216=優先度
+
+# EN: Priority##mb
+331609036=優先度##mb
 
 # EN: Priority##sa
 796836409=優先度##sa
 
-# EN: Projectile Tracers
-272599090=飛び道具トレーサー
+# EN: Projectile
+1255019530=プロジェクタイル
+
+# EN: Projectile Aim
+2644418183=プロジェクタイルエイム
+
+# EN: Projectile Ammo
+1297019655=プロジェクタイル弾薬
+
+# EN: Properties
+3865410327=プロパティ
 
 # EN: Protection
 3683844256=保護
@@ -3298,14 +4441,35 @@
 # EN: Pulse##glow
 231851092=パルス##glow
 
+# EN: Punch
+642573388=パンチ
+
+# EN: Punch Loop
+913715001=パンチループ
+
+# EN: Punch Rate
+1186403142=パンチレート
+
 # EN: Push Gun
 3537155612=プッシュガン
+
+# EN: Push Over
+1823912937=押し倒す
+
+# EN: Push Over Loop
+952204192=押し倒しループ
+
+# EN: Push shot entities upward/down
+3168225453=ショットエンティティを上下に押す
 
 # EN: Pushes nearby entities away from you
 936093937=付近のエンティティを押し退ける
 
 # EN: Pushes the targeted entity away from you
 1985670088=ターゲットのエンティティを押し退ける
+
+# EN: Quadratic ease-in
+4213450626=二次イーズイン
 
 # EN: Quick Draw
 3130845513=クイックドロウ
@@ -3328,9 +4492,6 @@
 # EN: RDR2 Locations
 3060405866=RDR2ロケーション
 
-# EN: RPG, Homing Launcher, Grenade Launcher,
-2954220142=RPG、ホーミングランチャー、グレネードランチャー、
-
 # EN: Radar
 3103374064=レーダー
 
@@ -3340,17 +4501,41 @@
 # EN: Radius##ff
 2121319983=半径##ff
 
+# EN: Radius##hbsty
+3794600950=ラジアス##hbsty
+
 # EN: Radius##ls
 534187969=半径##ls
 
 # EN: Radius##ms
 4216898969=半径##ms
 
+# EN: Radius##nbsty
+2105130560=ラジアス##nbsty
+
+# EN: Radius##sp
+2876015957=ラジアス##sp
+
 # EN: Radius##zm
 3051501832=半径##zm
 
+# EN: Ragdoll
+540944468=ラグドール
+
+# EN: Ragdoll All
+1649746280=すべてラグドール
+
+# EN: Ragdoll All Loop
+3008212771=すべてループラグドール
+
 # EN: Ragdoll Gun
 531559925=ラグドールガン
+
+# EN: Ragdoll Loop
+2541994190=ラグドールループ
+
+# EN: Ragdoll Peds
+3839008814=NPCラグドール
 
 # EN: Rain
 1420204096=雨
@@ -3361,26 +4546,26 @@
 # EN: Rain Cloud
 191054983=雨雲
 
-# EN: Rain explosive meteors at aim location
-4086413341=エイム位置に爆発メテオを降らせる
-
 # EN: Rainbow
 2057945528=レインボー
-
-# EN: Rainbow Speed##pt
-461725058=レインボー速度##pt
-
-# EN: Rains explosive meteors at the target location
-437820255=ターゲット位置に爆発メテオを降らせる
 
 # EN: Rains explosive meteors from the sky
 3405325154=空から爆発メテオを降らせる
 
+# EN: Random
+3957470568=ランダム
+
+# EN: Random Face
+3252986575=ランダムな顔
+
+# EN: Random Outfit
+3482610871=ランダムな服装
+
+# EN: Random Outfit All
+966771604=全員の服装をランダム化
+
 # EN: Random meteors fall from the sky around you
 3946730977=ランダムなメテオが周囲の空から落下
-
-# EN: Randomize whether each shot hits
-1173304963=各ショットの命中をランダム化
 
 # EN: Range
 332484516=射程
@@ -3394,11 +4579,20 @@
 # EN: Rapid Fire
 4034658405=ラピッドファイア
 
+# EN: Rapid Fire##mb
+2271628892=連射##mb
+
 # EN: Rate
 2120794248=レート
 
 # EN: Rate##serp
 1131381918=レート##serp
+
+# EN: Raycast from local ped to bone — won't fire through walls
+652655731=ローカルペドからボーンへの光線投射 — 壁を通して射撃しない
+
+# EN: Reaction
+2976050821=反応
 
 # EN: Real Sky Aura
 1300461090=リアルスカイオーラ
@@ -3409,23 +4603,47 @@
 # EN: Recommended image sizes:
 2704497521=推奨画像サイズ:
 
-# EN: Redirect bullets mid-flight to hit target
-58070485=飛行中の弾丸をリダイレクトしてターゲットに命中
+# EN: Redeem
+2198251026=リダイム
 
-# EN: Reduces gravity for all entities
-1827518302=すべてのエンティティの重力を軽減
+# EN: Redeem Key
+2073547104=キーをリダイム
+
+# EN: Redeemed but entitlement not visible
+612475581=リダイム済みだが権利が見えません
+
+# EN: Redirects bullets to hit targets without moving your crosshair
+1032402041=クロスヘアーを移動せずに弾丸をターゲットにリダイレクト
 
 # EN: Refresh
 1589753738=更新
 
+# EN: Refresh##ptfx_files
+2857539168=更新##ptfx_files
+
 # EN: Refreshing fonts...
 652474694=フォントを更新中...
+
+# EN: Registered But Not Triggered
+774818613=登録済みだがトリガーされない
+
+# EN: Relative
+3434279696=相対
+
+# EN: Release Distance
+1257392546=リリース距離
 
 # EN: Reload
 1571056488=リロード
 
 # EN: Remote Bolas
 3609547991=リモートボーラ
+
+# EN: Remote Lasso
+1093031269=遠隔投げ縄
+
+# EN: Remove
+3336096321=削除
 
 # EN: Remove All
 1178209108=すべて削除
@@ -3442,17 +4660,23 @@
 # EN: Removes weapon spinup delay
 1557267726=武器のスピンアップ遅延を除去
 
+# EN: Render Distance
+2670369238=描画距離
+
 # EN: Rendering
 2948493975=レンダリング
 
-# EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in FiveM.
-2465448157=レンダリング設定はゲームによって制御されます。VSync、フレームペーシング、バックエンドはFiveMでは設定できません。
+# EN: Rendering settings are controlled by the game. VSync, frame pacing, and backend are not configurable in RedM.
+467056905=レンダリング設定はゲームで制御されます。VSync、フレームペーシング、バックエンドはRedMで設定できません。
 
 # EN: Repair Vehicle
 2429933431=車両を修理
 
-# EN: Repeatedly strike lightning near your position
-2641990793=自分の位置付近に繰り返し落雷
+# EN: Requires the Lock On aim key (RMB by default) to be held
+3241941881=Lock Onエイムキー（デフォルトではRMB）を保持する必要があります
+
+# EN: Rescan
+764993821=再スキャン
 
 # EN: Reset
 3559176682=リセット
@@ -3463,8 +4687,14 @@
 # EN: Reset Appearance
 3776689734=外見をリセット
 
+# EN: Reset Counter
+1911047124=カウンターをリセット
+
 # EN: Reset Fonts
 2389856026=フォントをリセット
+
+# EN: Reset Offsets
+1581388633=オフセットをリセット
 
 # EN: Reset Position
 1118816545=位置をリセット
@@ -3484,6 +4714,9 @@
 # EN: Reset to defaults
 3361422027=デフォルトにリセット
 
+# EN: Resize your horse
+3068208654=馬のサイズを変更
+
 # EN: Resolution
 324784860=解像度
 
@@ -3496,8 +4729,17 @@
 # EN: Resources
 2745027072=リソース
 
+# EN: Restore Delay (ms)
+739418898=復元遅延（ミリ秒）
+
 # EN: Restore Position on Disable
 152322992=無効化時に位置を復元
+
+# EN: Restore Time
+2494277967=復元時間
+
+# EN: Restore Weather
+1986242669=天気を復元
 
 # EN: Resurrects dead peds and restores their health
 510568185=死んだpedを復活させて体力を回復
@@ -3511,8 +4753,17 @@
 # EN: Revive Horse
 2429511813=馬を蘇生
 
+# EN: Revive Self
+192774351=自分を復活
+
+# EN: Revive your character — works on most servers (RESURRECT_PED + NETWORK_RESURRECT_LOCAL_PLAYER + cores/damage clear)
+4215743740=あなたのキャラクターを復活 — ほとんどのサーバーで機能（RESURRECT_PED + NETWORK_RESURRECT_LOCAL_PLAYER + コア/ダメージクリア）
+
 # EN: Ride Shoulders
 16024939=肩乗り
+
+# EN: Ride your horse to a destination automatically (mounted or on foot)
+3116606014=目的地まで馬で自動移動（騎乗中または徒歩）
 
 # EN: Right
 3100427065=右
@@ -3541,11 +4792,11 @@
 # EN: Riot Mode
 4247338201=暴動モード
 
-# EN: Rise Speed
-3267963830=上昇速度
-
 # EN: Risk: May result in kick/ban
 863799803=リスク: キック/BANの可能性あり
+
+# EN: Risks:
+760312729=リスク:
 
 # EN: Risky
 1413260749=リスクあり
@@ -3559,14 +4810,32 @@
 # EN: Rotation
 2010988560=回転
 
+# EN: Rounded
+2055970482=丸まった
+
 # EN: Rounding
 947963291=丸み
+
+# EN: Rounding##dd
+1251311131=丸め##dd
 
 # EN: Rounding##distbg
 4161243031=丸み##distbg
 
+# EN: Rounding##grp
+2835802707=丸め##grp
+
+# EN: Rounding##hbsty
+1472920854=丸め##hbsty
+
 # EN: Rounding##namebg
 3182791864=丸み##namebg
+
+# EN: Rounding##sl
+1227039286=丸め##sl
+
+# EN: Rounding##sp
+1851255963=丸め##sp
 
 # EN: Rounding##wepbg
 2546121190=丸み##wepbg
@@ -3577,11 +4846,20 @@
 # EN: Run
 285848937=実行
 
+# EN: Run Force
+1892809888=ラン力
+
+# EN: Run Script
+2843942484=スクリプトを実行
+
 # EN: Running
 1756071093=走行中
 
 # EN: S
 331032406=S
+
+# EN: S-curve — most human-like
+1234934489=S曲線 — 最も人間のような
 
 # EN: SCOOBY
 2730510897=SCOOBY
@@ -3589,29 +4867,32 @@
 # EN: SPECTATORS
 2185765281=観戦者
 
+# EN: Sad Face
+3008714121=悲しい顔
+
 # EN: Safety
 3988627175=安全性
 
 # EN: Sample Rate
 1680169433=サンプルレート
 
-# EN: Saturation##btrbow
-1340760551=彩度##btrbow
-
 # EN: Save
 3357008648=保存
+
+# EN: Save / Load
+3375253150=保存/読み込み
 
 # EN: Save Current as Snippet
 2323029386=現在のコードをスニペットとして保存
 
-# EN: Save Here
-2753091722=ここに保存
+# EN: Save Database
+882232976=データベースを保存
 
 # EN: Save Interval
 269707535=保存間隔
 
-# EN: Save your current position and teleport back later
-4024909457=現在の位置を保存して後でテレポートで戻る
+# EN: Save your position automatically every interval. Disable to only save manually with the Set key.
+435540341=一定間隔で自分の位置を自動保存します。Set キーで手動保存だけにするには無効化してください。
 
 # EN: Saved
 2978706416=保存済み
@@ -3619,23 +4900,14 @@
 # EN: Saved Configs
 860699809=保存済み設定
 
-# EN: Saved Locations
-676178533=保存済みロケーション
-
 # EN: Saved Themes
 2236251465=保存済みテーマ
 
 # EN: Saved: 
-2514999957=保存済み: 
+2514999957=保存済み:
 
 # EN: Scale
 1342385372=スケール
-
-# EN: Scale Effect
-633475164=スケールエフェクト
-
-# EN: Scale by Distance
-3110684322=距離によるスケール
 
 # EN: Scale##self
 2751809400=スケール##self
@@ -3646,11 +4918,20 @@
 # EN: Scan for Anti-Cheat
 3069664885=アンチチートをスキャン
 
+# EN: Scanning resources...
+3847585475=リソースをスキャン中...
+
+# EN: Scanning...
+850446987=スキャン中...
+
 # EN: Scans for anti-cheat modules every 10 seconds
 3500340240=10秒ごとにアンチチートモジュールをスキャン
 
-# EN: Scope Awareness
-3358794078=スコープ感知
+# EN: Scenario
+3843626595=シナリオ
+
+# EN: Scenarios
+1863574033=シナリオ
 
 # EN: Scope FOV
 1562648207=スコープFOV
@@ -3669,6 +4950,12 @@
 
 # EN: Script executed
 2428283588=スクリプト実行済み
+
+# EN: Script loaded
+1071575077=スクリプト読み込み
+
+# EN: Script stopped
+3609081985=スクリプト停止
 
 # EN: Scripts
 1044661261=スクリプト
@@ -3691,8 +4978,14 @@
 # EN: Search
 4166004673=検索
 
+# EN: Search emotes...
+3375446970=エモートを検索...
+
 # EN: Search horses...
 1448928248=馬を検索...
+
+# EN: Search keybinds...
+705152961=キーバインドを検索...
 
 # EN: Search peds...
 3129217742=Pedを検索...
@@ -3717,6 +5010,9 @@
 
 # EN: Secondary
 3384035740=セカンダリ
+
+# EN: Section
+3044466341=セクション
 
 # EN: Section Font
 2820653597=セクションフォント
@@ -3754,6 +5050,9 @@
 # EN: Separator
 600342395=区切り線
 
+# EN: Separators
+2951428768=セパレーター
+
 # EN: Serpentine
 2010529308=蛇行
 
@@ -3762,6 +5061,12 @@
 
 # EN: Server Info
 1790325725=サーバー情報
+
+# EN: Set Blame on Player
+2629605861=プレイヤーに罪を着せる
+
+# EN: Set Drunk
+3266733982=酔っ払いを設定
 
 # EN: Set Key
 2397500189=キーを設定
@@ -3781,11 +5086,11 @@
 # EN: Set custom weapon effective range
 855693184=カスタム武器有効射程を設定
 
-# EN: Set per-feature keybinds via the gear icon on each feature row (right-click or click gear).
-1002208503=各機能の歯車アイコンから機能別キーバインドを設定（右クリックまたは歯車をクリック）。
+# EN: Set on Fire
+1113552959=火をつける
 
-# EN: Sets the targeted entity on fire
-3761901351=ターゲットのエンティティに火をつける
+# EN: Set: drop marker  |  B: rewind
+652205383=Set: マーカー設置  |  B: 巻き戻し
 
 # EN: Settings
 2768156407=設定
@@ -3811,8 +5116,17 @@
 # EN: Shadow##dist
 1556818514=シャドウ##dist
 
+# EN: Shadow##hbsty
+1178269524=影##hbsty
+
 # EN: Shadow##name
 1583130157=シャドウ##name
+
+# EN: Shadow##nbsty
+3639724956=影##nbsty
+
+# EN: Shadow##sp
+3975880048=影##sp
 
 # EN: Shadow##weapon
 559319637=シャドウ##weapon
@@ -3844,8 +5158,11 @@
 # EN: Show
 4237361361=表示
 
-# EN: Show Advanced
-2451177577=詳細を表示
+# EN: Show Check (ON)
+3008117344=チェック表示 (オン)
+
+# EN: Show Chevron
+3167784853=シェブロン表示
 
 # EN: Show Coordinates
 3389512578=座標を表示
@@ -3853,11 +5170,20 @@
 # EN: Show Date
 3033026641=日付を表示
 
+# EN: Show Dead
+698700059=死者を表示
+
 # EN: Show Dealt
 2111762275=与ダメージを表示
 
+# EN: Show Dealt##dlog
+1334284877=与えたダメージを表示##dlog
+
 # EN: Show Distance
 1253886722=距離を表示
+
+# EN: Show Distance##bt2
+1623820001=距離を表示##bt2
 
 # EN: Show FOV Circle
 3127357124=FOVサークルを表示
@@ -3873,6 +5199,9 @@
 
 # EN: Show Header
 645770246=ヘッダーを表示
+
+# EN: Show Hint
+2676323835=ヒントを表示
 
 # EN: Show Hints Overlay
 4000101783=ヒントオーバーレイを表示
@@ -3907,6 +5236,12 @@
 # EN: Show Preview
 1262585563=プレビューを表示
 
+# EN: Show Progress
+4217199704=進捗を表示
+
+# EN: Show Rider##veh
+3817984120=ライダーを表示##veh
+
 # EN: Show Self
 1908654534=自分を表示
 
@@ -3922,8 +5257,14 @@
 # EN: Show Taken
 2937268981=被ダメージを表示
 
+# EN: Show Taken##dlog
+1988723062=受けたダメージを表示##dlog
+
 # EN: Show Text
 1575008906=テキストを表示
+
+# EN: Show Ticks
+2045038734=ティックを表示
 
 # EN: Show Time
 2222431568=時刻を表示
@@ -3937,14 +5278,17 @@
 # EN: Show Vehicles
 1292300392=車両を表示
 
-# EN: Show a dot on the current target
-3764166595=現在のターゲットにドットを表示
+# EN: Show World Markers
+2279977362=ワールドマーカーを表示
 
 # EN: Show a notification when something is blocked
 1256445615=何かがブロックされた時に通知を表示
 
-# EN: Show advanced aimbot tuning options
-1262633640=Aimbotの詳細チューニングオプションを表示
+# EN: Show distance in meters
+1294074528=距離をメートル単位で表示
+
+# EN: Show driver/rider name if occupied
+3740054372=乗車中の場合、ドライバー/ライダー名を表示
 
 # EN: Show keybind hints for active movement extras on screen
 3465261614=アクティブな移動追加機能のキーバインドヒントを画面に表示
@@ -3952,11 +5296,23 @@
 # EN: Show on Startup
 1110455679=起動時に表示
 
-# EN: Show target name, distance, and health on screen
-774147915=ターゲットの名前、距離、体力を画面に表示
+# EN: Show species label above animal
+3847257753=動物の上に種ラベルを表示
+
+# EN: Show the targeting FOV ring around the crosshair
+2773675712=クロスヘアーの周りのターゲットFOVリングを表示
+
+# EN: Show vehicle type label
+927164715=車両タイプラベルを表示
+
+# EN: Shows a crosshair marker when your shots land on a target
+2712575620=ショットがターゲットに着陸時にクロスヘアーマーカーを表示
 
 # EN: Shows a directional wedge on screen when you take damage
 1772815089=ダメージを受けた時に画面に方向ウェッジを表示
+
+# EN: Shows players you've tagged as Admin/Mod/Trusted/Streamer/Suspicious when they're nearby. Tag players from the Players tab.
+4026120554=Admin/Mod/Trusted/Streamer/Suspiciousとしてタグ付けしたプレイヤーが近くにいると表示。プレイヤータブからプレイヤーにタグを付けます。
 
 # EN: Shrink Gun
 698308174=縮小ガン
@@ -3991,8 +5347,20 @@
 # EN: Silent Aim
 283398155=サイレントエイム
 
+# EN: Silent Mode
+204875588=サイレントモード
+
+# EN: Simple
+2854970267=シンプル
+
 # EN: Size
 3226656423=サイズ
+
+# EN: Size##animalhat
+550948123=サイズ##animalhat
+
+# EN: Size##hm
+1998713813=サイズ##hm
 
 # EN: Size##ms
 2741062528=サイズ##ms
@@ -4006,11 +5374,17 @@
 # EN: Skeleton Only
 1732653347=スケルトンのみ
 
+# EN: Skip Animals
+2221057938=動物をスキップ
+
 # EN: Skip Friends
 1109959189=フレンドをスキップ
 
 # EN: Skip Friends##mb
 1619604810=フレンドをスキップ##mb
+
+# EN: Skip Friends##proj
+949166622=友人をスキップ##proj
 
 # EN: Skip Friends##sa
 1651665136=フレンドをスキップ##sa
@@ -4018,14 +5392,23 @@
 # EN: Skip Friends##trig
 2028490315=フレンドをスキップ##trig
 
+# EN: Skip Full HP
+3641936216=満HPをスキップ
+
+# EN: Skip Melee/Bow##trig
+3381716061=近接/弓をスキップ##trig
+
+# EN: Skip Near-Death
+2896726875=瀕死状態をスキップ
+
 # EN: Skip reload animations
 871293787=リロードアニメーションをスキップ
 
 # EN: Skip the death screen and respawn immediately
 2983756551=デスクリーンをスキップして即座にリスポーン
 
-# EN: Skull
-4060956970=スカル
+# EN: Skip your own currently mounted horse
+3187739778=現在マウント中の自分の馬をスキップ
 
 # EN: Sky Aura
 4195663934=スカイオーラ
@@ -4078,11 +5461,11 @@
 # EN: Sliders
 2297082388=スライダー
 
-# EN: Slot
-933689839=スロット
-
 # EN: Slow Motion
 3565967334=スローモーション
+
+# EN: Slow Motion Aiming
+3286174914=スローモーションエイミング
 
 # EN: Slows down game time for easier aiming
 3990662640=エイムしやすくするためにゲーム時間を遅くする
@@ -4105,6 +5488,12 @@
 # EN: Smoothing
 980522697=スムージング
 
+# EN: Smoothing Curve
+3836268862=スムージングカーブ
+
+# EN: Smoothness
+1580294097=スムーズネス
+
 # EN: Snap
 3320192477=スナップ
 
@@ -4113,6 +5502,12 @@
 
 # EN: Snaplines
 3234673257=スナップライン
+
+# EN: Snaplines##animal
+2600041801=スナップライン##animal
+
+# EN: Snaplines##veh
+4155083255=スナップライン##veh
 
 # EN: Snippet name:
 1640117038=スニペット名:
@@ -4135,14 +5530,26 @@
 # EN: Solid
 2667043969=ソリッド
 
+# EN: Solver Iterations
+2033101457=ソルバー反復
+
 # EN: Sort by Distance
 698443985=距離で並べ替え
 
 # EN: Sound
 3255258383=サウンド
 
+# EN: Sound on Fire
+1899492921=発火時のサウンド
+
 # EN: Spacing
 370899326=間隔
+
+# EN: Spam Bears
+923236784=熊をスパム
+
+# EN: Spam Wolves
+2825695012=狼をスパム
 
 # EN: Spank
 2519979771=スパンク
@@ -4165,20 +5572,29 @@
 # EN: Spawn Lightning
 4090761949=雷をスポーン
 
+# EN: Spawn Object
+3773875983=オブジェクトをスポーン
+
+# EN: Spawn Ped
+1240441382=NPCをスポーン
+
 # EN: Spawn Ped Army
 842659871=Ped軍団をスポーン
 
+# EN: Spawn Vehicle
+836867042=車両をスポーン
+
 # EN: Spawn and ride a wild animal
 2456270008=野生動物をスポーンして騎乗
+
+# EN: Spawn as Wild
+1140516403=野生としてスポーン
 
 # EN: Spawner
 1388279330=スポナー
 
 # EN: Spawners
 463473003=スポナー
-
-# EN: Spawns a swirling vortex that flings entities
-4120638530=エンティティを吹き飛ばす渦巻きの渦を生成
 
 # EN: Spawns clones of the targeted ped around them
 1852821607=ターゲットのpedの周囲にクローンを生成
@@ -4204,14 +5620,20 @@
 # EN: Speed Multiplier
 1815972746=速度倍率
 
-# EN: Speed##btrbow
-1185079655=速度##btrbow
+# EN: Speed locked by preset — pick Custom to override
+1944470596=プリセットでロック速度 — オーバーライドするカスタムを選択
+
+# EN: Speed##btr2
+3233031999=速度##btr2
 
 # EN: Speed##hpsmooth
 2272127628=速度##hpsmooth
 
 # EN: Speed##serp
 3668104492=速度##serp
+
+# EN: Speed##tgl
+3045684305=速度##tgl
 
 # EN: Speeds up climbing and vaulting animations
 884886740=登攀・乗り越えアニメーションを高速化
@@ -4243,6 +5665,12 @@
 # EN: Stampede!
 1850896990=スタンピード！
 
+# EN: Standard arrow ≈ 55 m/s — raise for fire/dynamite
+604571309=標準矢≈55 m/s — 火/ダイナマイトのために引き上げ
+
+# EN: Star
+2620960594=スター
+
 # EN: Star Smoothing
 239201736=スタースムージング
 
@@ -4264,20 +5692,38 @@
 # EN: Stats
 3337185076=統計
 
+# EN: Status
+1711913059=ステータス
+
 # EN: Status Dots
 1792226764=ステータスドット
 
 # EN: Steady Aim
 3871115537=安定エイム
 
+# EN: Steal Horse
+429825119=馬を盗む
+
 # EN: Steam Proof
 3475233767=蒸気耐性
+
+# EN: Stepped
+2777726412=ステップ
+
+# EN: Sticky Projectile
+3464587768=スティッキープロジェクタイル
 
 # EN: Sticky Target
 128465133=スティッキーターゲット
 
+# EN: Sticky Target##proj
+1336135198=スティッキーターゲット##proj
+
 # EN: Sticky Target##sa
 4029734851=スティッキーターゲット##sa
+
+# EN: Sticky Tolerance
+2519023589=スティッキー許容値
 
 # EN: Stomp Glow
 276297078=ストンプグロウ
@@ -4288,8 +5734,23 @@
 # EN: Stop All
 2685914560=すべて停止
 
+# EN: Stop All Animations
+1911203614=すべてのアニメーションを停止
+
+# EN: Stop Radius
+3336260136=停止半径
+
+# EN: Stop Script
+258033556=スクリプトを停止
+
 # EN: Stop Vehicle
 668048780=車両を停止
+
+# EN: Stop the burst mid-way if the target leaves your FOV
+4211592849=ターゲットがFOVを離れた場合、バーストを途中で停止
+
+# EN: Stop##db_anim
+2384158241=停止##db_anim
 
 # EN: Stops the in-game clock
 2226049145=ゲーム内時計を停止
@@ -4318,9 +5779,6 @@
 # EN: Streamer
 322333922=ストリーマー
 
-# EN: Strength
-4280043047=強さ
-
 # EN: Strength##ff
 1068364437=強さ##ff
 
@@ -4330,11 +5788,41 @@
 # EN: Strikes the target with lightning, can chain to nearby peds
 3365637662=ターゲットに落雷、付近のpedにチェイン可能
 
+# EN: Strip Weapons
+1824115397=武器をストリップ
+
+# EN: Strip Weapons All
+320021689=全員の武器を剥奪
+
 # EN: Style
 2840017588=スタイル
 
+# EN: Style##animalboxstyle
+1783688992=スタイル##animalboxstyle
+
+# EN: Style##ddsty
+907347697=スタイル##ddsty
+
+# EN: Style##grp
+189469325=スタイル##grp
+
+# EN: Style##hbarsty
+1448214649=スタイル##hbarsty
+
 # EN: Style##hp
 2155290340=スタイル##hp
+
+# EN: Style##nbsty
+2949332535=スタイル##nbsty
+
+# EN: Style##sl
+1843843488=スタイル##sl
+
+# EN: Style##spsty
+2009239515=スタイル##spsty
+
+# EN: Style##tgl
+4197475269=スタイル##tgl
 
 # EN: Sub-Tab Icons
 2125121217=サブタブアイコン
@@ -4350,9 +5838,6 @@
 
 # EN: Success##notif
 124336157=成功##notif
-
-# EN: Summon a hammer that orbits you. LMB=throw, RMB=recall, Jump=fly to it
-566008167=自分の周りを回るハンマーを召喚。左クリック=投げる、右クリック=呼び戻す、ジャンプ=飛んでいく
 
 # EN: Sun Direction
 4043279483=太陽の方向
@@ -4384,6 +5869,9 @@
 # EN: Super Jump
 3347387969=スーパージャンプ
 
+# EN: Super Projectile
+945156108=スーパープロジェクタイル
+
 # EN: Super Punch
 1003680074=スーパーパンチ
 
@@ -4408,6 +5896,9 @@
 # EN: Supercharge stamina beyond max
 2931388462=スタミナを最大以上にスーパーチャージ
 
+# EN: Suppress in-game notifications and Discord reports
+4183095205=ゲーム内通知と Discord レポートを抑制
+
 # EN: Suspicious
 1438524565=不審
 
@@ -4429,11 +5920,11 @@
 # EN: Swim Speed
 2577385437=水泳速度
 
+# EN: Switch Bar
+1621739297=スイッチバー
+
 # EN: Switch Delay
 2176114960=切り替え遅延
-
-# EN: Switch bone target based on distance to target
-1109298263=ターゲットまでの距離に基づいてボーンターゲットを切り替え
 
 # EN: Sync Colors
 3592090493=カラーを同期
@@ -4450,8 +5941,14 @@
 # EN: T-Shape
 3695503273=T型
 
+# EN: TIME
+258444835=時間
+
 # EN: TP to Train Track
 1601079484=線路にTP
+
+# EN: TXT
+2010905253=テキスト
 
 # EN: Tab Bar Style
 4174884294=タブバースタイル
@@ -4474,23 +5971,23 @@
 # EN: Taper Width
 3042212273=テーパー幅
 
-# EN: Taper Width##pt
-3926039349=テーパー幅##pt
-
 # EN: Target
 2720140041=ターゲット
 
-# EN: Target Circle
-1842946907=ターゲットサークル
-
-# EN: Target Circle##sa
-1752837941=ターゲットサークル##sa
+# EN: Target Info
+325971528=ターゲット情報
 
 # EN: Target Info Overlay##sa
 1911780673=ターゲット情報オーバーレイ##sa
 
+# EN: Target Info Panel
+3398335395=ターゲット情報パネル
+
 # EN: Target Line
 2375968002=ターゲットライン
+
+# EN: Target Line##mb
+1311974672=ターゲットライン##mb
 
 # EN: Target Line##sa
 71772006=ターゲットライン##sa
@@ -4498,11 +5995,20 @@
 # EN: Target Marker
 2135859714=ターゲットマーカー
 
+# EN: Target Marker##mb
+1328785461=ターゲットマーカー##mb
+
 # EN: Target Marker##sa
 3230599266=ターゲットマーカー##sa
 
 # EN: Targeting
 2771652631=ターゲティング
+
+# EN: Targeting##mb
+4168577893=ターゲティング##mb
+
+# EN: Targeting##sa
+1796398938=ターゲティング##sa
 
 # EN: Targets
 4017618224=ターゲット
@@ -4522,6 +6028,9 @@
 # EN: Teleport Key
 268016086=テレポートキー
 
+# EN: Teleport Player To Horse
+4073409808=プレイヤーを馬にテレポート
+
 # EN: Teleport Swap
 681439259=テレポートスワップ
 
@@ -4534,6 +6043,9 @@
 # EN: Teleport to Horse
 3443626366=馬にテレポート
 
+# EN: Teleport to Nearest Horse
+1023909820=最も近い馬にテレポート
+
 # EN: Teleport to Nearest Vehicle
 1222747355=最寄りの車両にテレポート
 
@@ -4542,9 +6054,6 @@
 
 # EN: Teleport to where your bullet lands
 3763820109=弾丸の着弾点にテレポート
-
-# EN: Teleport vehicle with you
-2332352547=車両と一緒にテレポート
 
 # EN: Teleport your vehicle along with you
 2369149234=車両を一緒にテレポート
@@ -4561,6 +6070,9 @@
 # EN: Text Font
 1277029574=テキストフォント
 
+# EN: Text Offset X
+3940347344=テキストオフセットX
+
 # EN: Text Only
 1145625316=テキストのみ
 
@@ -4569,9 +6081,6 @@
 
 # EN: Text Size
 2196789760=テキストサイズ
-
-# EN: Text Size##btdist
-3467531750=テキストサイズ##btdist
 
 # EN: Text##notif
 2810058654=テキスト##notif
@@ -4615,14 +6124,26 @@
 # EN: Themes
 1075582417=テーマ
 
+# EN: Thick
+439301469=太い
+
 # EN: Thickness
 4285237432=太さ
 
-# EN: Thickness##pt
-1365574739=太さ##pt
+# EN: Thickness##animalbox
+2443857049=厚さ##animalbox
 
-# EN: Thickness##tt
-3534806773=太さ##tt
+# EN: Thickness##asnap
+2094046171=厚さ##asnap
+
+# EN: Thickness##bt2
+3776330762=厚さ##bt2
+
+# EN: Thickness##hm
+1611888078=厚さ##hm
+
+# EN: Thickness##vehbox
+587069964=厚さ##vehbox
 
 # EN: This feature is currently in development.
 2985474122=この機能は現在開発中です。
@@ -4633,14 +6154,35 @@
 # EN: Thor's Hammer
 1085597256=トールのハンマー
 
+# EN: Threat Priority##sa
+2862792991=脅威優先度##sa
+
 # EN: Threshold
 1573986338=しきい値
 
-# EN: Throwable Tracers
-2494953445=投擲武器トレーサー
+# EN: Throw Force
+3461652194=投げる力
+
+# EN: Throwables stick where they hit
+3650246939=投げ物がヒット場所に貼り付く
+
+# EN: Throwables##proj
+3927400989=投げ物##proj
+
+# EN: Throwing Knife
+1542547301=投げナイフ
 
 # EN: Thunder Storm
 2253725275=雷雨
+
+# EN: Tick Color
+3218510901=ティック色
+
+# EN: Tick Count
+2223876868=ティック数
+
+# EN: Ticks
+2329192730=ティック
 
 # EN: Tile
 1337127750=タイル
@@ -4653,6 +6195,9 @@
 
 # EN: Time Scale
 2843709841=タイムスケール
+
+# EN: Time slows when aiming/shooting
+3077100695=エイミング/射撃時に時間が遅くなる
 
 # EN: Timecycle
 1739838145=タイムサイクル
@@ -4677,6 +6222,9 @@
 
 # EN: Title Gradient Colors
 1766434517=タイトルグラデーションカラー
+
+# EN: Title Pill
+1618050020=タイトルピル
 
 # EN: Title Size
 1301071436=タイトルサイズ
@@ -4717,8 +6265,14 @@
 # EN: Toggle W
 2205449588=トグル幅
 
+# EN: Toggle features on/off
+364973416=フィーチャーをオン/オフ
+
 # EN: Toggles
 2207180161=トグル
+
+# EN: Tomahawk
+3689329093=トマホーク
 
 # EN: Tooltip
 2918806632=ツールチップ
@@ -4741,26 +6295,23 @@
 # EN: Top Left
 3111925763=左上
 
+# EN: Top Resources
+670453582=トップリソース
+
 # EN: Top Right
 3678979058=右上
 
 # EN: Top-screen compass with cardinal directions
 2354047396=方位付きの画面上部コンパス
 
-# EN: Tornado
-464687292=竜巻
-
 # EN: Touch
 500423453=タッチ
 
-# EN: Tracer gets thinner from start to end
-3848411216=トレーサーが始点から終点にかけて細くなる
-
-# EN: Tracers
-1857463969=トレーサー
-
 # EN: Track
 875912051=トラック
+
+# EN: Track H
+3215466932=トラックH
 
 # EN: Track Opacity
 902824788=トラック不透明度
@@ -4768,8 +6319,8 @@
 # EN: Tracked Players
 1590211961=追跡中のプレイヤー
 
-# EN: Tracks
-794089857=トラック
+# EN: Tracking
+1727167966=トラッキング
 
 # EN: Tracks the player who killed you with an on-screen arrow
 1609296522=自分をキルしたプレイヤーを画面上の矢印で追跡
@@ -4780,17 +6331,17 @@
 # EN: Trail Length
 308472983=トレイルの長さ
 
-# EN: Trail gets thinner towards the tip
-354830891=トレイルが先端に向かって細くなる
-
 # EN: Tranquilizer Ammo
 2868990001=麻酔弾
 
-# EN: Triangle
-2990077322=三角形
+# EN: Trigger & Block
+4206134730=トリガーとブロック
 
 # EN: Trigger Bot
 1558371298=トリガーBot
+
+# EN: Trigger Event
+4138217246=イベントをトリガー
 
 # EN: Trigger FOV
 3216427474=トリガーFOV
@@ -4798,20 +6349,32 @@
 # EN: Triggerbot
 1477138198=トリガーBot
 
+# EN: Triggered Without Handler
+3055780408=ハンドラーなしでトリガー
+
 # EN: Triggers a continuous thunderstorm
 3647443157=継続的な雷雨を発生させる
 
 # EN: Troll
 1328763896=トロール
 
+# EN: True LOS Raycast
+3709800198=真のLOS光線投射
+
 # EN: Trusted
 2045336469=信頼済み
+
+# EN: Tuning
+365438231=チューニング
 
 # EN: Turn Speed
 348709466=旋回速度
 
 # EN: Turns off all lights across the map
 3503813760=マップ全体のすべてのライトを消す
+
+# EN: Type
+828747869=タイプ
 
 # EN: Type Settings
 4191027218=タイプ設定
@@ -4822,8 +6385,17 @@
 # EN: Unbind
 2907191925=バインド解除
 
+# EN: Unblock
+1287977995=ブロック解除
+
+# EN: Unblock All
+3468373934=すべてブロック解除
+
 # EN: Underline
 1892791043=下線
+
+# EN: Underline H
+2037968543=下線H
 
 # EN: Update Rate
 1699227283=更新レート
@@ -4840,14 +6412,11 @@
 # EN: Use Fill mode for best results.
 1995125884=最適な結果にはフィルモードを使用。
 
-# EN: Use Game Lightning VFX
-639680466=ゲームの雷VFXを使用
+# EN: Use nav-mesh pathing instead of straight-line
+258662226=直線ではなく nav-mesh 経路を使用
 
-# EN: Use the native lightning effect instead of explosions
-3341586251=爆発の代わりにネイティブの雷エフェクトを使用
-
-# EN: Uses rainbow cycling
-3374547008=レインボーサイクルを使用
+# EN: Used by Filled / Outline / Underline
+1868533692=塗りつぶし/アウトライン/下線で使用
 
 # EN: Using an animated GIF as a background may cause
 63761567=アニメーションGIFを背景として使用すると
@@ -4861,8 +6430,14 @@
 # EN: VFX
 2796127065=VFX
 
+# EN: VOICE
+953116472=ボイス
+
 # EN: Vehicle
 3710147484=車両
+
+# EN: Vehicle Grabber
+2317560408=乗り物グラバー
 
 # EN: Vehicle NoClip
 1762582941=車両ノークリップ
@@ -4879,6 +6454,9 @@
 # EN: Vehicles
 1957895139=車両
 
+# EN: Velocity sanity cap — rejects teleports / desync spikes
+1438254902=速度正気上限 — テレポート/デシンクスパイクを拒否
+
 # EN: Vertical
 1605474394=垂直
 
@@ -4891,8 +6469,14 @@
 # EN: Vertices
 3260108856=頂点
 
+# EN: View
+2604534539=表示
+
 # EN: Visibility Check
 2235775772=可視性チェック
+
+# EN: Visibility Check##proj
+4022619840=可視性チェック##proj
 
 # EN: Visibility Check##sa
 2765187843=可視性チェック##sa
@@ -4909,14 +6493,41 @@
 # EN: Visuals##lockon
 4093507657=ビジュアル##lockon
 
+# EN: Visuals##mb
+570278843=ビジュアル##mb
+
+# EN: Visuals##proj
+798121920=ビジュアル##proj
+
 # EN: Visuals##sa
 2764419376=ビジュアル##sa
 
 # EN: W
 1486926112=W
 
+# EN: W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Boost
+1095441189=W/S前進/後退 | A/D旋回 | Space上 | Ctrl下 | Shiftブースト
+
+# EN: W/S Forward/Back | A/D Turn | Space Up | Ctrl Down | Shift Fast
+1963384160=W/S前進/後退 | A/D旋回 | Space上 | Ctrl下 | Shift高速
+
+# EN: WASD Move | Space Up | Ctrl Down | Shift Fast
+3029152723=WASD移動 | Space上 | Ctrl下 | Shift高速
+
+# EN: WASD Move | Space Up | Ctrl Down | Shift Fast | Mouse Look
+4018819059=WASD移動 | Space上 | Ctrl下 | Shift高速 | マウスルック
+
+# EN: Wagons, stagecoaches, boats, carts
+3851371312=ワゴン、ステージコーチ、ボート、カート
+
+# EN: Waiting for scan...
+4212713308=スキャン待機中...
+
 # EN: Walk Style
 578957394=歩行スタイル
+
+# EN: Walk Through
+1411964451=ウォークスルー
 
 # EN: Walk like you're injured
 1217395480=負傷したように歩く
@@ -4924,11 +6535,20 @@
 # EN: Walk on Water
 176950591=水上歩行
 
+# EN: Walk through peds, vehicles and objects
+2962431570=NPCs、車両、オブジェクトを通して歩く
+
 # EN: Walking
 921688979=歩行中
 
 # EN: Walls Only
 613995149=壁のみ
+
+# EN: Wander
+1288903733=徘徊
+
+# EN: Warn
+2116410155=警告
 
 # EN: Warning
 3911129148=警告
@@ -4938,6 +6558,9 @@
 
 # EN: Warning##notif
 496177476=警告##notif
+
+# EN: Warning: Using free menus may result in an instant kick or ban from the server. Use at your own risk.
+2630775189=警告: フリーメニューを使用するとサーバーからの即座のキックまたはバンが発生する可能性があります。自己責任で使用してください。
 
 # EN: Water Fog Blueness
 1563462767=水中霧の青さ
@@ -4960,8 +6583,8 @@
 # EN: Weapon
 3867822744=武器
 
-# EN: Weapon Filter
-189061761=武器フィルター
+# EN: Weapon Preset
+1722975727=武器プリセット
 
 # EN: Weapons
 2151561516=武器
@@ -4971,9 +6594,6 @@
 
 # EN: Weather
 1578688043=天候
-
-# EN: Weather & Time
-3108003216=天候 & 時間
 
 # EN: Weather Chaos
 697326802=天候カオス
@@ -5002,9 +6622,6 @@
 # EN: When Walking
 2685570395=歩行時
 
-# EN: When enabled, Bind List, Perf Stats, Playerlist, and Spectator use Watermark colors.
-3837149149=有効時、バインドリスト、パフォーマンス統計、プレイヤーリスト、観戦がウォーターマークカラーを使用。
-
 # EN: When enabled, overlays use Watermark colors.
 445204605=有効時、オーバーレイがウォーターマークカラーを使用。
 
@@ -5023,8 +6640,14 @@
 # EN: Width Ratio
 257781133=幅比率
 
+# EN: Width##ahp
+2465347234=幅##ahp
+
 # EN: Width##serp
 3651645440=幅##serp
+
+# EN: Width##tgl
+302003276=幅##tgl
 
 # EN: Wind Speed
 103025343=風速
@@ -5044,6 +6667,9 @@
 # EN: Wireframe
 1554823340=ワイヤーフレーム
 
+# EN: Wizard
+2686629872=ウィザード
+
 # EN: World
 2425990116=ワールド
 
@@ -5056,11 +6682,11 @@
 # EN: World Hitmarkers
 592011120=ワールドヒットマーカー
 
-# EN: World Markers
-475901803=ワールドマーカー
+# EN: World Markers##hm
+2561115369=ワールドマーカー##hm
 
-# EN: World Numbers
-1304260375=ワールド数値
+# EN: World Numbers##dmg
+626968892=ワールド数字##dmg
 
 # EN: World Size
 1252315730=ワールドサイズ
@@ -5098,6 +6724,9 @@
 # EN: Z##aroff
 3442733937=Z##aroff
 
+# EN: Zero Opacity
+490446338=ゼロ不透明度
+
 # EN: Zero spread, no sway, no sprint penalty
 290191302=拡散ゼロ、揺れなし、スプリントペナルティなし
 
@@ -5110,11 +6739,17 @@
 # EN: downloading...
 2010819150=ダウンロード中...
 
+# EN: entries
+934859523=エントリ
+
 # EN: fonts loaded
 3620721009=フォント読み込み完了
 
 # EN: frames
 580974885=フレーム
+
+# EN: iOS
+1766186487=iOS
 
 # EN: image(s)
 2727625699=画像
