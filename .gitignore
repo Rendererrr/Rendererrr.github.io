@@ -5,5 +5,6 @@ upload.bat
 !scooby/REDM/LANG/*.txt
 *.py
 *.lua
+!nenyooo/menu/mvp_plus/lua/**
 scooby/REDM/lua/encrypt-file.bat
 /encrypt 256
