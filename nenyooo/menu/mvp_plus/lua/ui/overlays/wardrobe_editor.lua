@@ -13,6 +13,10 @@ local SEARCH_H = 22
 local FOOT_H   = 28
 local GAP      = 6
 local MIN_TILE = 62
+-- Variant strip: the colourways of the selected garment, between the grid and the footer. A tile is
+-- one garment now, so this is the only place a texture gets picked.
+local SWATCH   = 34
+local CHEV_W   = 16
 
 local scroll, scroll_t = 0, 0
 local search_focus = false
@@ -23,7 +27,7 @@ local cur = 0
 local kb = false
 local last_mx, last_my = -1, -1
 local VK = { LEFT = 37, UP = 38, RIGHT = 39, DOWN = 40, ENTER = 13, PGUP = 33, PGDN = 34,
-             HOME = 36, ENDK = 35, TAB = 9 }
+             HOME = 36, ENDK = 35, TAB = 9, SHIFT = 16 }
 
 local function clampn(v, lo, hi) if v < lo then return lo elseif v > hi then return hi else return v end end
 local function inside(mx, my, x0, y0, x1, y1) return mx >= x0 and mx <= x1 and my >= y0 and my <= y1 end
@@ -131,8 +135,14 @@ overlay.on_draw("wardrobe_editor", function()
     end
 
     -- --- grid ---
+    -- The strip only exists while a garment is selected, so its band is reclaimed by the grid the
+    -- rest of the time rather than sitting empty.
+    local nvar = wardrobe.variants()
+    local strip_h = 0
+    if nvar > 0 then strip_h = text.height(font.tiny) + 4 + SWATCH + PAD end
+
     local tx0, ty0 = gx + PAD, by1 + PAD
-    local tx1, ty1 = gx + gw - PAD, cy + ch - FOOT_H - PAD
+    local tx1, ty1 = gx + gw - PAD, cy + ch - FOOT_H - PAD - strip_h
     local avail = tx1 - tx0
     local cols = math.max(3, math.floor((avail + GAP) / (MIN_TILE + GAP)))
     local tile = math.floor((avail - (cols - 1) * GAP) / cols)
@@ -162,8 +172,16 @@ overlay.on_draw("wardrobe_editor", function()
             kb = true
             if cur == 0 then cur = 1 else cur = clampn(cur + d, 1, count) end
         end
-        if input.key_repeat(VK.RIGHT) then step(1) end
-        if input.key_repeat(VK.LEFT)  then step(-1) end
+        -- Shift+Left/Right steps the colourway instead of the grid cursor, so the strip is reachable
+        -- without a mouse. Guarded on nvar so it stays a plain cursor move when nothing is selected.
+        local shift = input.key_down(VK.SHIFT)
+        if shift and nvar > 0 then
+            if input.key_repeat(VK.RIGHT) then wardrobe.step_variant(1) end
+            if input.key_repeat(VK.LEFT)  then wardrobe.step_variant(-1) end
+        else
+            if input.key_repeat(VK.RIGHT) then step(1) end
+            if input.key_repeat(VK.LEFT)  then step(-1) end
+        end
         if input.key_repeat(VK.DOWN)  then step(cols) end
         if input.key_repeat(VK.UP)    then step(-cols) end
         if input.key_repeat(VK.PGDN)  then step(cols * 4) end
@@ -258,6 +276,74 @@ overlay.on_draw("wardrobe_editor", function()
         draw.rect(tx1 + 2, tp, tx1 + 5, tp + th, ar, ag, ab, 170, 2)
     end
 
+    -- --- variant strip ---
+    -- Colourways of the selected garment. wardrobe.variant() is a download trigger like tile(), so
+    -- only the swatches that actually fit on screen are ever asked for.
+    if nvar > 0 then
+        local sy0 = ty1 + PAD
+        local lbl_h = text.height(font.tiny) + 4
+        local sel_d = wardrobe.selected()
+
+        -- Which colourway is on the ped right now, so the readout can say "variant 3 of 12". Read
+        -- straight from C++ -- scanning variant() for this would queue a download per colourway.
+        local worn_tex = wardrobe.worn_variant()
+
+        local head = string.format("%s %d  --  variant %d of %d",
+                                   cats[sel_cat] and cats[sel_cat].label or "", sel_d or 0,
+                                   worn_tex + 1, nvar)
+        text.draw(font.tiny, tx0, sy0, 165, 168, 180, 255, head)
+
+        local swy = sy0 + lbl_h
+        -- Chevrons bracket the swatches; the room between them is what the row gets.
+        local lcx0, lcx1 = tx0, tx0 + CHEV_W
+        local rcx0, rcx1 = tx1 - CHEV_W, tx1
+        local over_l = inside(mx, my, lcx0, swy, lcx1, swy + SWATCH)
+        local over_r = inside(mx, my, rcx0, swy, rcx1, swy + SWATCH)
+        text.draw(font.small, lcx0 + 4, swy + (SWATCH - text.height(font.small)) * 0.5,
+                  over_l and 235 or 140, over_l and 235 or 143, over_l and 240 or 156, 255, "<")
+        text.draw(font.small, rcx0 + 6, swy + (SWATCH - text.height(font.small)) * 0.5,
+                  over_r and 235 or 140, over_r and 235 or 143, over_r and 240 or 156, 255, ">")
+        if input.mouse_clicked(0) then
+            if over_l then wardrobe.step_variant(-1) end
+            if over_r then wardrobe.step_variant(1) end
+        end
+
+        local row_x0, row_x1 = lcx1 + 4, rcx0 - 4
+        local fit_n = math.max(1, math.floor((row_x1 - row_x0 + GAP) / (SWATCH + GAP)))
+        -- Keep the worn swatch in view when a garment has more colourways than fit.
+        local first = 1
+        if nvar > fit_n then
+            first = clampn(worn_tex + 1 - math.floor(fit_n / 2), 1, nvar - fit_n + 1)
+        end
+
+        draw.push_clip(row_x0, swy, row_x1, swy + SWATCH)
+        for i = first, math.min(nvar, first + fit_n - 1) do
+            local vx = row_x0 + (i - first) * (SWATCH + GAP)
+            local v = wardrobe.variant(i)
+            local over = inside(mx, my, vx, swy, vx + SWATCH, swy + SWATCH)
+
+            draw.rect(vx, swy, vx + SWATCH, swy + SWATCH, 26, 27, 35, 255, 3)
+            local shown = false
+            if v.state == "ready" then
+                shown = draw.preview_image(v.path, vx, swy, vx + SWATCH, swy + SWATCH, 1.0, true)
+            end
+            if not shown then
+                local m = (v.state == "loading") and ".." or tostring(v.texture or 0)
+                text.draw(font.tiny, vx + (SWATCH - text.width(font.tiny, m)) * 0.5,
+                          swy + (SWATCH - text.height(font.tiny)) * 0.5, 110, 112, 124, 255, m)
+            end
+            if v.worn then
+                draw.rect_outline(vx, swy, vx + SWATCH, swy + SWATCH, ar, ag, ab, 255, 3, 2)
+            elseif over then
+                draw.rect_outline(vx, swy, vx + SWATCH, swy + SWATCH, 225, 225, 232, 200, 3, 1)
+            else
+                draw.rect_outline(vx, swy, vx + SWATCH, swy + SWATCH, 52, 54, 64, 255, 3, 1)
+            end
+            if over and input.mouse_clicked(0) then wardrobe.apply_variant(i) end
+        end
+        draw.pop_clip()
+    end
+
     -- --- footer strip ---
     local fy = cy + ch - FOOT_H
     draw.rect(cx, fy, cx + cw, cy + ch, 18, 19, 26, 255)
@@ -300,7 +386,7 @@ overlay.on_draw("wardrobe_editor", function()
     end
     px = clampn(px, 8, sw - 8 - pw)
     -- Leave room under the panel for the key hints, or they fall off the bottom of the screen.
-    local hint_h = 4 * (text.height(font.tiny) + 2) + 8
+    local hint_h = 5 * (text.height(font.tiny) + 2) + 8
     py = clampn(py, 8, shh - 8 - ph - hint_h)
 
     -- The ped is composited by the GAME (UI3D) and its backdrop is a game DRAW_RECT, both of which
@@ -325,7 +411,7 @@ overlay.on_draw("wardrobe_editor", function()
 
     -- Key hints under the preview panel. They used to sit under the editor, which is the menu's own
     -- footer strip -- version, nav arrows and the row counter all landed on top of each other.
-    local hints = { "Arrows  move", "Enter  wear", "Tab  category", "Backspace  exit" }
+    local hints = { "Arrows  move", "Enter  wear", "Shift+<>  colour", "Tab  category", "Backspace  exit" }
     local hy = py + ph + 6
     for i, h in ipairs(hints) do
         text.draw(font.tiny, px + 2, hy + (i - 1) * (text.height(font.tiny) + 2), 140, 142, 156, 220, h)
