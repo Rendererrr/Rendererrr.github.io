@@ -290,6 +290,45 @@ local function icon_h(key, x, cy, target_h, r,g,b,a)
     return w
 end
 
+-- Language rows (info_type 40, Settings ▸ Language) carry i_val == index into lang.list(). That list
+-- is static for the process (codes + flag bands come from lang_meta.hpp, not from the pack), so fetch
+-- it once and reuse -- the row loop runs every frame. Cached lazily because lang.* only has entries
+-- once the manifest has landed.
+local LANGS = nil
+local function lang_entry(i)
+    if not LANGS then
+        if not lang or not lang.list then return nil end
+        local ok, l = pcall(lang.list)
+        if not ok or type(l) ~= "table" or #l == 0 then return nil end
+        LANGS = l
+    end
+    return LANGS[(i or -1) + 1]
+end
+
+-- "Flag" = 1-3 flat colour bands (no image assets), same shape welcome_screen.lua draws.
+local function draw_flag(x, y, w, h, entry)
+    local bands = entry.bands or {}
+    local n = #bands
+    draw.push_clip(x, y, x+w, y+h)
+    if n == 0 then
+        draw.rect(x, y, x+w, y+h, 90, 90, 100, 255, 3)
+    elseif entry.vertical then
+        local bw = w / n
+        for i, c in ipairs(bands) do
+            local bx = x + (i-1)*bw
+            draw.rect(bx, y, bx+bw+1, y+h, c[1], c[2], c[3], 255, 0)
+        end
+    else
+        local bh = h / n
+        for i, c in ipairs(bands) do
+            local by = y + (i-1)*bh
+            draw.rect(x, by, x+w, by+bh+1, c[1], c[2], c[3], 255, 0)
+        end
+    end
+    draw.pop_clip()
+    draw.rect_outline(x, y, x+w, y+h, 0, 0, 0, 150, 3, 1)
+end
+
 -- ── State ──
 local scroll, scroll_t = 0, 0
 local desc_alpha = 0
@@ -715,6 +754,15 @@ function draw_menu()
                         draw.rect(mx0, my0, mx0+mug, my0+mug, COL.row_txt[1],COL.row_txt[2],COL.row_txt[3],40)
                     end
                     name_x = mx0 + mug + 8
+                elseif item.info_type == 40 then
+                    -- Language rows: colour-band flag at the left, name indented.
+                    local fh = ROW_H - 14
+                    local fw = math.floor(fh * 1.6)
+                    local fx0, fy0 = x+PAD_X, ry+7
+                    local e = lang_entry(item.i_val)
+                    if e then draw_flag(fx0, fy0, fw, fh, e)
+                    else draw.rect(fx0, fy0, fx0+fw, fy0+fh, COL.row_txt[1],COL.row_txt[2],COL.row_txt[3],40, 3) end
+                    name_x = fx0 + fw + 10
                 end
                 local tcol = (is_sel or hov) and COL.black or COL.row_txt
                 text.draw(font.item, name_x, ry+(ROW_H-text.height(font.item))*0.5,
