@@ -65,6 +65,10 @@
       "s": "Aim & fire to spawn a particle effect"
     },
     {
+      "hash": "12453789",
+      "s": "Application Fault"
+    },
+    {
       "hash": "12570118",
       "s": "Re-scan the live texture store (textures stream in/out)"
     },
@@ -83,6 +87,10 @@
     {
       "hash": "16791423",
       "s": "Spawn a tornado that walks the map and eats everything"
+    },
+    {
+      "hash": "17384688",
+      "s": "Ped Gadget Count"
     },
     {
       "hash": "17409752",
@@ -841,6 +849,10 @@
       "s": "Chino O Death"
     },
     {
+      "hash": "132548584",
+      "s": "Camera Position"
+    },
+    {
       "hash": "133123492",
       "s": "Speed up player animations"
     },
@@ -1501,6 +1513,10 @@
       "s": "Shape - Father"
     },
     {
+      "hash": "243229799",
+      "s": "Vehicle Gadget"
+    },
+    {
       "hash": "244626974",
       "s": "Crew level set."
     },
@@ -1953,6 +1969,10 @@
       "s": "Off Radar"
     },
     {
+      "hash": "306257927",
+      "s": "Ped Model"
+    },
+    {
       "hash": "306409854",
       "s": "Others To Player"
     },
@@ -2371,6 +2391,10 @@
     {
       "hash": "375888419",
       "s": "All skills maxed."
+    },
+    {
+      "hash": "376048274",
+      "s": "Syncs"
     },
     {
       "hash": "376117505",
@@ -4077,6 +4101,10 @@
       "s": "Open job"
     },
     {
+      "hash": "642207704",
+      "s": "Pickup Model"
+    },
+    {
       "hash": "643576846",
       "s": "Repeating shots at the selected players"
     },
@@ -5105,6 +5133,10 @@
       "s": "Compose & append a task"
     },
     {
+      "hash": "811096870",
+      "s": "Self Attachment"
+    },
+    {
       "hash": "811643467",
       "s": "Hidden"
     },
@@ -5597,6 +5629,10 @@
       "s": "Drunk"
     },
     {
+      "hash": "893141862",
+      "s": "Rate-limit new pedestrian clone creations from each remote player"
+    },
+    {
       "hash": "893961113",
       "s": "Laser length when hip-firing / spot light distance"
     },
@@ -5659,6 +5695,10 @@
     {
       "hash": "903916072",
       "s": "Forces, speed, radius and rotation"
+    },
+    {
+      "hash": "904448445",
+      "s": "Vehicle Gadget Count"
     },
     {
       "hash": "907737402",
@@ -5879,6 +5919,10 @@
     {
       "hash": "951868502",
       "s": "Rotation Speed"
+    },
+    {
+      "hash": "951968817",
+      "s": "Baseline vehicle creation rate; non-host players receive a three-times burst allowance"
     },
     {
       "hash": "952461416",
@@ -6207,10 +6251,6 @@
     {
       "hash": "1004489235",
       "s": "Armor Threshold"
-    },
-    {
-      "hash": "1004631164",
-      "s": "Maximum remote-owned vehicles allowed from one player"
     },
     {
       "hash": "1005732529",
@@ -7181,10 +7221,6 @@
       "s": "Ram entities away"
     },
     {
-      "hash": "1145311301",
-      "s": "Detect remote-owned non-player ped floods above the configured per-player limit"
-    },
-    {
       "hash": "1145366301",
       "s": "Edit Value"
     },
@@ -7783,6 +7819,10 @@
     {
       "hash": "1229306588",
       "s": "Secondary paint colour"
+    },
+    {
+      "hash": "1230203175",
+      "s": "Train Track"
     },
     {
       "hash": "1230775233",
@@ -8777,6 +8817,10 @@
       "s": "Matte Desert Tan"
     },
     {
+      "hash": "1385232904",
+      "s": "Ped Prop Model"
+    },
+    {
       "hash": "1385418106",
       "s": "Plane Acceleration"
     },
@@ -9327,6 +9371,10 @@
     {
       "hash": "1464477245",
       "s": "Ragdoll Duration"
+    },
+    {
+      "hash": "1464689086",
+      "s": "Object Model"
     },
     {
       "hash": "1464743155",
@@ -10661,6 +10709,10 @@
       "s": "Spawned vehicle beside them."
     },
     {
+      "hash": "1683826441",
+      "s": "Synchronized Weapon"
+    },
+    {
       "hash": "1684020395",
       "s": "How far ahead of the camera the missile is steered"
     },
@@ -11075,6 +11127,10 @@
     {
       "hash": "1752438086",
       "s": "Coords"
+    },
+    {
+      "hash": "1752535552",
+      "s": "Malformed Tree"
     },
     {
       "hash": "1752632180",
@@ -11535,10 +11591,6 @@
     {
       "hash": "1825347245",
       "s": "Lock the doors"
-    },
-    {
-      "hash": "1825687910",
-      "s": "Validate synchronization nodes on Legacy and recover safely from synchronization application faults on both editions"
     },
     {
       "hash": "1825886858",
@@ -12945,6 +12997,10 @@
       "s": "Aim & fire at a vehicle to teleport into its driver seat"
     },
     {
+      "hash": "2031774227",
+      "s": "Player Appearance Model"
+    },
+    {
       "hash": "2031824265",
       "s": "Height above you to spawn at"
     },
@@ -13613,6 +13669,10 @@
       "s": "Use this effect for the Particle Gun"
     },
     {
+      "hash": "2132055890",
+      "s": "Synchronization data protections and responses"
+    },
+    {
       "hash": "2132057360",
       "s": "(no matches)"
     },
@@ -13819,6 +13879,10 @@
     {
       "hash": "2158286081",
       "s": "Cash Factory"
+    },
+    {
+      "hash": "2160090302",
+      "s": "Player Creation Model"
     },
     {
       "hash": "2162464636",
@@ -14555,6 +14619,10 @@
     {
       "hash": "2292166508",
       "s": "Wildcard/substring of the texture name (e.g. *sky*, veh_*_badge*)"
+    },
+    {
+      "hash": "2292452552",
+      "s": "Rate-limit new vehicle clone creations from each remote player"
     },
     {
       "hash": "2293167734",
@@ -15325,6 +15393,10 @@
       "s": "Edit Snow Heavy particle VFX"
     },
     {
+      "hash": "2425977858",
+      "s": "Pickup Components"
+    },
+    {
       "hash": "2426079752",
       "s": "Wetness Adjustment"
     },
@@ -15625,6 +15697,10 @@
       "s": "Worn White"
     },
     {
+      "hash": "2477105306",
+      "s": "Population Position"
+    },
+    {
       "hash": "2477719252",
       "s": "Aimed Entity"
     },
@@ -15871,10 +15947,6 @@
     {
       "hash": "2520697507",
       "s": "Aim Point"
-    },
-    {
-      "hash": "2520970211",
-      "s": "Maximum remote-owned non-player peds allowed from one player"
     },
     {
       "hash": "2521085799",
@@ -17997,6 +18069,10 @@
       "s": "Plate Light"
     },
     {
+      "hash": "2860325150",
+      "s": "Ped Gadget"
+    },
+    {
       "hash": "2861499557",
       "s": "Float around with moon-like gravity"
     },
@@ -19593,6 +19669,10 @@
       "s": "Point your map at this player's current job objective"
     },
     {
+      "hash": "3128513322",
+      "s": "Choose automatic responses for synchronization protections"
+    },
+    {
       "hash": "3129256681",
       "s": "Hash Gun"
     },
@@ -20157,6 +20237,10 @@
       "s": "Toggle this entity in/out of the group"
     },
     {
+      "hash": "3217357986",
+      "s": "Ped Mount Flag"
+    },
+    {
       "hash": "3217992270",
       "s": "Homing missiles can't lock onto you"
     },
@@ -20505,6 +20589,10 @@
       "s": "Void"
     },
     {
+      "hash": "3275942728",
+      "s": "Sync Reactions"
+    },
+    {
       "hash": "3276265716",
       "s": "Flame size"
     },
@@ -20535,6 +20623,10 @@
     {
       "hash": "3280826154",
       "s": "Benny's Bespoke"
+    },
+    {
+      "hash": "3281554194",
+      "s": "Baseline pedestrian creation rate; non-host players receive a three-times burst allowance"
     },
     {
       "hash": "3281619897",
@@ -21765,6 +21857,10 @@
       "s": "Vehicle 3"
     },
     {
+      "hash": "3471182463",
+      "s": "Entity Script Information"
+    },
+    {
       "hash": "3472314088",
       "s": "Open the real online clothing store right here - no shop or apartment needed. Every item is unlocked while it's open"
     },
@@ -22645,6 +22741,10 @@
       "s": "Clone Vehicle"
     },
     {
+      "hash": "3619231014",
+      "s": "Door Model"
+    },
+    {
       "hash": "3619527297",
       "s": "Artillery Gun"
     },
@@ -23031,6 +23131,10 @@
     {
       "hash": "3678442511",
       "s": "Tattoo applied."
+    },
+    {
+      "hash": "3678575592",
+      "s": "Vehicle Model"
     },
     {
       "hash": "3679399683",
@@ -24075,10 +24179,6 @@
     {
       "hash": "3839378464",
       "s": "Brushed-metal colours"
-    },
-    {
-      "hash": "3839832969",
-      "s": "Detect remote-owned vehicle floods above the configured per-player limit"
     },
     {
       "hash": "3841713459",

@@ -65,6 +65,10 @@
       "s": "Apuntar y disparar para generar un efecto de partícula"
     },
     {
+      "hash": "12453789",
+      "s": "Fallo de aplicación"
+    },
+    {
       "hash": "12570118",
       "s": "Reescanear el almacén de texturas en vivo (transmisión de texturas)"
     },
@@ -83,6 +87,10 @@
     {
       "hash": "16791423",
       "s": "Generar un tornado que recorre el mapa y se come todo"
+    },
+    {
+      "hash": "17384688",
+      "s": "Cantidad de aparatos de Ped"
     },
     {
       "hash": "17409752",
@@ -841,6 +849,10 @@
       "s": "Chino O Muerte"
     },
     {
+      "hash": "132548584",
+      "s": "Posición de cámara"
+    },
+    {
       "hash": "133123492",
       "s": "Acelerar animaciones del jugador"
     },
@@ -1501,6 +1513,10 @@
       "s": "Forma - Padre"
     },
     {
+      "hash": "243229799",
+      "s": "Aparato de Vehículo"
+    },
+    {
       "hash": "244626974",
       "s": "Nivel de tripulación establecido."
     },
@@ -1953,6 +1969,10 @@
       "s": "Fuera de radar"
     },
     {
+      "hash": "306257927",
+      "s": "Modelo de Ped"
+    },
+    {
       "hash": "306409854",
       "s": "Otros para el jugador"
     },
@@ -2371,6 +2391,10 @@
     {
       "hash": "375888419",
       "s": "Todas las habilidades al máximo."
+    },
+    {
+      "hash": "376048274",
+      "s": "Sincronizaciones"
     },
     {
       "hash": "376117505",
@@ -4077,6 +4101,10 @@
       "s": "Abrir trabajo"
     },
     {
+      "hash": "642207704",
+      "s": "Modelo de objeto recuperable"
+    },
+    {
       "hash": "643576846",
       "s": "Disparos repetidos a los jugadores seleccionados"
     },
@@ -5105,6 +5133,10 @@
       "s": "Componer y añadir una tarea"
     },
     {
+      "hash": "811096870",
+      "s": "Fijación propia"
+    },
+    {
       "hash": "811643467",
       "s": "Oculto"
     },
@@ -5597,6 +5629,10 @@
       "s": "Ebrio"
     },
     {
+      "hash": "893141862",
+      "s": "Limitar la creación de clones de peatones desde cada jugador remoto"
+    },
+    {
       "hash": "893961113",
       "s": "Alcance del láser al disparar desde la cadera / Distancia del foco"
     },
@@ -5659,6 +5695,10 @@
     {
       "hash": "903916072",
       "s": "Fuerzas, velocidad, radio y rotación"
+    },
+    {
+      "hash": "904448445",
+      "s": "Cantidad de aparatos de Vehículo"
     },
     {
       "hash": "907737402",
@@ -5879,6 +5919,10 @@
     {
       "hash": "951868502",
       "s": "Velocidad de rotación"
+    },
+    {
+      "hash": "951968817",
+      "s": "Tasa base de creación de vehículos; los jugadores no anfitriones reciben una asignación por ráfaga de tres veces"
     },
     {
       "hash": "952461416",
@@ -6207,10 +6251,6 @@
     {
       "hash": "1004489235",
       "s": "Armadura Umbral"
-    },
-    {
-      "hash": "1004631164",
-      "s": "Vehículos remotos permitidos por jugador"
     },
     {
       "hash": "1005732529",
@@ -7181,10 +7221,6 @@
       "s": "Apartar entidades"
     },
     {
-      "hash": "1145311301",
-      "s": "Detectar inundaciones de peatones no jugadores remotos por encima del límite configurado por jugador"
-    },
-    {
       "hash": "1145366301",
       "s": "Editar valor"
     },
@@ -7783,6 +7819,10 @@
     {
       "hash": "1229306588",
       "s": "Color de pintura secundario"
+    },
+    {
+      "hash": "1230203175",
+      "s": "Vía de tren"
     },
     {
       "hash": "1230775233",
@@ -8777,6 +8817,10 @@
       "s": "Bronceado mate del desierto"
     },
     {
+      "hash": "1385232904",
+      "s": "Modelo de accesorio de Ped"
+    },
+    {
       "hash": "1385418106",
       "s": "Aceleración del avión"
     },
@@ -9327,6 +9371,10 @@
     {
       "hash": "1464477245",
       "s": "Duración del efecto ragdoll"
+    },
+    {
+      "hash": "1464689086",
+      "s": "Modelo de objeto"
     },
     {
       "hash": "1464743155",
@@ -10661,6 +10709,10 @@
       "s": "Vehículo generado junto a ellos."
     },
     {
+      "hash": "1683826441",
+      "s": "Arma sincronizada"
+    },
+    {
       "hash": "1684020395",
       "s": "¿A qué distancia de la cámara se dirige el misil?"
     },
@@ -11075,6 +11127,10 @@
     {
       "hash": "1752438086",
       "s": "Coordenadas"
+    },
+    {
+      "hash": "1752535552",
+      "s": "Árbol deformado"
     },
     {
       "hash": "1752632180",
@@ -11535,10 +11591,6 @@
     {
       "hash": "1825347245",
       "s": "Cerrar las puertas"
-    },
-    {
-      "hash": "1825687910",
-      "s": "Validar nodos de sincronización en Legacy y recuperarse de forma segura de fallos de aplicación de sincronización en ambas ediciones"
     },
     {
       "hash": "1825886858",
@@ -12945,6 +12997,10 @@
       "s": "Apuntar y disparar a un vehículo para teletransportarse al asiento del conductor"
     },
     {
+      "hash": "2031774227",
+      "s": "Modelo de apariencia del jugador"
+    },
+    {
       "hash": "2031824265",
       "s": "Altura sobre ti para aparecer"
     },
@@ -13613,6 +13669,10 @@
       "s": "Usar este efecto para la pistola de partículas"
     },
     {
+      "hash": "2132055890",
+      "s": "Protecciones y respuestas de datos de sincronización"
+    },
+    {
       "hash": "2132057360",
       "s": "(sin coincidencias)"
     },
@@ -13819,6 +13879,10 @@
     {
       "hash": "2158286081",
       "s": "Fábrica de efectivo"
+    },
+    {
+      "hash": "2160090302",
+      "s": "Modelo de creación de jugador"
     },
     {
       "hash": "2162464636",
@@ -14555,6 +14619,10 @@
     {
       "hash": "2292166508",
       "s": "Comodín/subcadena del nombre de la textura (p. ej., *cielo*, veh_*_insignia*)"
+    },
+    {
+      "hash": "2292452552",
+      "s": "Limitar la creación de clones de vehículos desde cada jugador remoto"
     },
     {
       "hash": "2293167734",
@@ -15325,6 +15393,10 @@
       "s": "Editar VFX de partículas Snow Heavy"
     },
     {
+      "hash": "2425977858",
+      "s": "Componentes de objeto recuperable"
+    },
+    {
       "hash": "2426079752",
       "s": "Ajuste de humedad"
     },
@@ -15625,6 +15697,10 @@
       "s": "Blanco desgastado"
     },
     {
+      "hash": "2477105306",
+      "s": "Posición de población"
+    },
+    {
       "hash": "2477719252",
       "s": "Entidad objetivo"
     },
@@ -15871,10 +15947,6 @@
     {
       "hash": "2520697507",
       "s": "Punto de mira"
-    },
-    {
-      "hash": "2520970211",
-      "s": "Máximo número de peds no jugadores controlados a distancia permitidos por jugador"
     },
     {
       "hash": "2521085799",
@@ -17997,6 +18069,10 @@
       "s": "Luz de matrícula"
     },
     {
+      "hash": "2860325150",
+      "s": "Aparato de Ped"
+    },
+    {
       "hash": "2861499557",
       "s": "Flotar con gravedad similar a la lunar"
     },
@@ -19593,6 +19669,10 @@
       "s": "Apuntar el mapa al objetivo actual de trabajo de este jugador"
     },
     {
+      "hash": "3128513322",
+      "s": "Elegir respuestas automáticas para protecciones de sincronización"
+    },
+    {
       "hash": "3129256681",
       "s": "Pistola de hash"
     },
@@ -20157,6 +20237,10 @@
       "s": "Activar/desactivar esta entidad en el grupo"
     },
     {
+      "hash": "3217357986",
+      "s": "Bandera de montaje de peatón"
+    },
+    {
       "hash": "3217992270",
       "s": "Misiles con guía no pueden bloquearte"
     },
@@ -20505,6 +20589,10 @@
       "s": "Vacío"
     },
     {
+      "hash": "3275942728",
+      "s": "Sincronizar reacciones"
+    },
+    {
       "hash": "3276265716",
       "s": "Llama Tamaño"
     },
@@ -20535,6 +20623,10 @@
     {
       "hash": "3280826154",
       "s": "A medida de Benny"
+    },
+    {
+      "hash": "3281554194",
+      "s": "Tasa base de creación de peatones; los jugadores no anfitriones reciben una asignación triplicada"
     },
     {
       "hash": "3281619897",
@@ -21765,6 +21857,10 @@
       "s": "Vehículo 3"
     },
     {
+      "hash": "3471182463",
+      "s": "Información del script de entidad"
+    },
+    {
       "hash": "3472314088",
       "s": "Abre la tienda de ropa online aquí mismo; no necesitas tienda ni apartamento. Todos los artículos se desbloquean al abrirla."
     },
@@ -22645,6 +22741,10 @@
       "s": "Clonar vehículo"
     },
     {
+      "hash": "3619231014",
+      "s": "Modelo de puerta"
+    },
+    {
       "hash": "3619527297",
       "s": "Arma de artillería"
     },
@@ -23031,6 +23131,10 @@
     {
       "hash": "3678442511",
       "s": "Tatuaje aplicado."
+    },
+    {
+      "hash": "3678575592",
+      "s": "Modelo de vehículo"
     },
     {
       "hash": "3679399683",
@@ -24075,10 +24179,6 @@
     {
       "hash": "3839378464",
       "s": "Colores de metal cepillado"
-    },
-    {
-      "hash": "3839832969",
-      "s": "Detectar inundaciones de vehículos de propiedad remota por encima del límite configurado por jugador"
     },
     {
       "hash": "3841713459",

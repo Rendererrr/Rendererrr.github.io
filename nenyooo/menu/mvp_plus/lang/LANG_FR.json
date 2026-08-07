@@ -65,6 +65,10 @@
       "s": "Viser et tirer pour générer un effet de particules"
     },
     {
+      "hash": "12453789",
+      "s": "Erreur d'application"
+    },
+    {
       "hash": "12570118",
       "s": "Nouvelle analyse du magasin de textures en direct (flux entrant/sortant de textures)"
     },
@@ -83,6 +87,10 @@
     {
       "hash": "16791423",
       "s": "Faire apparaître un tornado qui parcourt la carte et avale tout"
+    },
+    {
+      "hash": "17384688",
+      "s": "Nombre d'accessoires piéton"
     },
     {
       "hash": "17409752",
@@ -841,6 +849,10 @@
       "s": "Chino O Death"
     },
     {
+      "hash": "132548584",
+      "s": "Position caméra"
+    },
+    {
       "hash": "133123492",
       "s": "Accélérer les animations du joueur"
     },
@@ -1501,6 +1513,10 @@
       "s": "Forme - Père"
     },
     {
+      "hash": "243229799",
+      "s": "Accessoire véhicule"
+    },
+    {
       "hash": "244626974",
       "s": "Niveau d'équipage défini."
     },
@@ -1953,6 +1969,10 @@
       "s": "Hors radar"
     },
     {
+      "hash": "306257927",
+      "s": "Modèle piéton"
+    },
+    {
       "hash": "306409854",
       "s": "Autres pour le joueur"
     },
@@ -2371,6 +2391,10 @@
     {
       "hash": "375888419",
       "s": "Toutes les compétences au maximum."
+    },
+    {
+      "hash": "376048274",
+      "s": "Synchronisations"
     },
     {
       "hash": "376117505",
@@ -4077,6 +4101,10 @@
       "s": "Ouvrir un travail"
     },
     {
+      "hash": "642207704",
+      "s": "Modèle d'objet ramassable"
+    },
+    {
       "hash": "643576846",
       "s": "Tirer à répétition sur les joueurs sélectionnés"
     },
@@ -5105,6 +5133,10 @@
       "s": "Composer et ajouter une tâche"
     },
     {
+      "hash": "811096870",
+      "s": "Fixation personnelle"
+    },
+    {
       "hash": "811643467",
       "s": "Caché"
     },
@@ -5597,6 +5629,10 @@
       "s": "Ebriété"
     },
     {
+      "hash": "893141862",
+      "s": "Limiter la création de nouveaux piétons clonés par chaque joueur distant"
+    },
+    {
       "hash": "893961113",
       "s": "Portée du laser en tir au jugé / distance du faisceau concentré"
     },
@@ -5659,6 +5695,10 @@
     {
       "hash": "903916072",
       "s": "Forces, vitesse, rayon et rotation"
+    },
+    {
+      "hash": "904448445",
+      "s": "Nombre d'accessoires véhicule"
     },
     {
       "hash": "907737402",
@@ -5879,6 +5919,10 @@
     {
       "hash": "951868502",
       "s": "Vitesse de rotation"
+    },
+    {
+      "hash": "951968817",
+      "s": "Taux de création de véhicule de base ; les joueurs non hôtes reçoivent une allocation par rafale trois fois supérieure"
     },
     {
       "hash": "952461416",
@@ -6207,10 +6251,6 @@
     {
       "hash": "1004489235",
       "s": "Armure Seuil"
-    },
-    {
-      "hash": "1004631164",
-      "s": "Nombre maximum de véhicules à distance contrôlés par un joueur"
     },
     {
       "hash": "1005732529",
@@ -7181,10 +7221,6 @@
       "s": "Percuter les entités pour les repousser"
     },
     {
-      "hash": "1145311301",
-      "s": "Détecter les inondations de Peds non joueurs à distance au-dessus de la limite configurée par joueur"
-    },
-    {
       "hash": "1145366301",
       "s": "Modifier la valeur"
     },
@@ -7783,6 +7819,10 @@
     {
       "hash": "1229306588",
       "s": "Couleur de peinture secondaire"
+    },
+    {
+      "hash": "1230203175",
+      "s": "Voie ferrée"
     },
     {
       "hash": "1230775233",
@@ -8777,6 +8817,10 @@
       "s": "Brun désert mat"
     },
     {
+      "hash": "1385232904",
+      "s": "Modèle d'objet piéton"
+    },
+    {
       "hash": "1385418106",
       "s": "Accélération avion"
     },
@@ -9327,6 +9371,10 @@
     {
       "hash": "1464477245",
       "s": "Durée de l'effet Ragdoll"
+    },
+    {
+      "hash": "1464689086",
+      "s": "Modèle d'objet"
     },
     {
       "hash": "1464743155",
@@ -10661,6 +10709,10 @@
       "s": "Véhicule apparu à côté d'eux."
     },
     {
+      "hash": "1683826441",
+      "s": "Arme synchronisée"
+    },
+    {
       "hash": "1684020395",
       "s": "Distance du missile par rapport à la caméra"
     },
@@ -11075,6 +11127,10 @@
     {
       "hash": "1752438086",
       "s": "Coordonnées"
+    },
+    {
+      "hash": "1752535552",
+      "s": "Arbre malformé"
     },
     {
       "hash": "1752632180",
@@ -11535,10 +11591,6 @@
     {
       "hash": "1825347245",
       "s": "Verrouiller les portes"
-    },
-    {
-      "hash": "1825687910",
-      "s": "Valider les nœuds de synchronisation sur Legacy et récupérer en toute sécurité des erreurs d'application de synchronisation sur les deux éditions"
     },
     {
       "hash": "1825886858",
@@ -12945,6 +12997,10 @@
       "s": "Viser et tirer sur un véhicule pour vous téléporter au siège du conducteur"
     },
     {
+      "hash": "2031774227",
+      "s": "Modèle d'apparence du joueur"
+    },
+    {
       "hash": "2031824265",
       "s": "Hauteur au-dessus de vous pour apparaître"
     },
@@ -13613,6 +13669,10 @@
       "s": "Utiliser cet effet pour le pistolet à particules"
     },
     {
+      "hash": "2132055890",
+      "s": "Protections et réponses aux données de synchronisation"
+    },
+    {
       "hash": "2132057360",
       "s": "(Aucune correspondance)"
     },
@@ -13819,6 +13879,10 @@
     {
       "hash": "2158286081",
       "s": "Usine à cash"
+    },
+    {
+      "hash": "2160090302",
+      "s": "Modèle de création de joueur"
     },
     {
       "hash": "2162464636",
@@ -14555,6 +14619,10 @@
     {
       "hash": "2292166508",
       "s": "Caractère générique/sous-chaîne du nom de la texture (ex. : *sky*, veh_*_badge*)"
+    },
+    {
+      "hash": "2292452552",
+      "s": "Limiter la création de nouveaux véhicules clonés par chaque joueur distant"
     },
     {
       "hash": "2293167734",
@@ -15325,6 +15393,10 @@
       "s": "Modifier les effets PTFX de neige abondante"
     },
     {
+      "hash": "2425977858",
+      "s": "Composants d'objet ramassable"
+    },
+    {
       "hash": "2426079752",
       "s": "Ajustement de l'humidité"
     },
@@ -15625,6 +15697,10 @@
       "s": "Blanc usé"
     },
     {
+      "hash": "2477105306",
+      "s": "Position de la population"
+    },
+    {
       "hash": "2477719252",
       "s": "Entité visée"
     },
@@ -15871,10 +15947,6 @@
     {
       "hash": "2520697507",
       "s": "Point de visée"
-    },
-    {
-      "hash": "2520970211",
-      "s": "Nombre maximum de Peds non joueurs contrôlés à distance par un joueur"
     },
     {
       "hash": "2521085799",
@@ -17997,6 +18069,10 @@
       "s": "Éclairage de plaque d'immatriculation"
     },
     {
+      "hash": "2860325150",
+      "s": "Accessoire piéton"
+    },
+    {
       "hash": "2861499557",
       "s": "Flotter avec une gravité lunaire"
     },
@@ -19593,6 +19669,10 @@
       "s": "Orienter la carte vers l'objectif d'emploi actuel de ce joueur"
     },
     {
+      "hash": "3128513322",
+      "s": "Choisir les réponses automatiques pour les protections de synchronisation"
+    },
+    {
       "hash": "3129256681",
       "s": "Pistolet à hachage"
     },
@@ -20157,6 +20237,10 @@
       "s": "Ajouter/retirer cette entité du groupe"
     },
     {
+      "hash": "3217357986",
+      "s": "Drapeau d'attachement au piéton"
+    },
+    {
       "hash": "3217992270",
       "s": "Missiles ne peuvent pas verrouiller"
     },
@@ -20505,6 +20589,10 @@
       "s": "Néant"
     },
     {
+      "hash": "3275942728",
+      "s": "Synchroniser les réactions"
+    },
+    {
       "hash": "3276265716",
       "s": "Flamme Taille"
     },
@@ -20535,6 +20623,10 @@
     {
       "hash": "3280826154",
       "s": "Sur mesure chez Benny"
+    },
+    {
+      "hash": "3281554194",
+      "s": "Taux de création de piétons de base ; les joueurs non hôtes reçoivent une allocation triple"
     },
     {
       "hash": "3281619897",
@@ -21765,6 +21857,10 @@
       "s": "Véhicule 3"
     },
     {
+      "hash": "3471182463",
+      "s": "Informations sur le script d'entité"
+    },
+    {
       "hash": "3472314088",
       "s": "Ouvrez la véritable boutique de vêtements en ligne ici même - aucun magasin ni appartement requis. Chaque élément est déverrouillé lorsqu'il est ouvert."
     },
@@ -22645,6 +22741,10 @@
       "s": "Cloner le véhicule"
     },
     {
+      "hash": "3619231014",
+      "s": "Modèle de porte"
+    },
+    {
       "hash": "3619527297",
       "s": "Canon d'artillerie"
     },
@@ -23031,6 +23131,10 @@
     {
       "hash": "3678442511",
       "s": "Tatouage appliqué."
+    },
+    {
+      "hash": "3678575592",
+      "s": "Modèle de véhicule"
     },
     {
       "hash": "3679399683",
@@ -24075,10 +24179,6 @@
     {
       "hash": "3839378464",
       "s": "Couleurs métal brossé"
-    },
-    {
-      "hash": "3839832969",
-      "s": "Détecter les inondations de véhicules à distance au-dessus de la limite configurée par joueur"
     },
     {
       "hash": "3841713459",

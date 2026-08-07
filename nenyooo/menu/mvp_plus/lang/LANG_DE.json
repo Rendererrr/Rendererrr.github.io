@@ -65,6 +65,10 @@
       "s": "Zielen & feuern, um einen Partikeleffekt zu erzeugen"
     },
     {
+      "hash": "12453789",
+      "s": "Anwendungsfehler"
+    },
+    {
       "hash": "12570118",
       "s": "Scannen Sie den Live-Texturspeicher erneut (Texturen werden ein-/ausgestreamt)."
     },
@@ -83,6 +87,10 @@
     {
       "hash": "16791423",
       "s": "Einen Tornado spawnen, der die Karte entlangläuft und alles frisst"
+    },
+    {
+      "hash": "17384688",
+      "s": "PED-Gadget-Anzahl"
     },
     {
       "hash": "17409752",
@@ -841,6 +849,10 @@
       "s": "Chino O Tod"
     },
     {
+      "hash": "132548584",
+      "s": "Kameraposition"
+    },
+    {
       "hash": "133123492",
       "s": "Spieleranimationen beschleunigen"
     },
@@ -1501,6 +1513,10 @@
       "s": "Form - Vater"
     },
     {
+      "hash": "243229799",
+      "s": "Fahrzeug-Gadget"
+    },
+    {
       "hash": "244626974",
       "s": "Besatzungsstufe eingestellt."
     },
@@ -1953,6 +1969,10 @@
       "s": "Aus dem Radar"
     },
     {
+      "hash": "306257927",
+      "s": "PED-Modell"
+    },
+    {
       "hash": "306409854",
       "s": "Andere zum Spieler"
     },
@@ -2371,6 +2391,10 @@
     {
       "hash": "375888419",
       "s": "Alle Fähigkeiten maximal."
+    },
+    {
+      "hash": "376048274",
+      "s": "Synchronisationen"
     },
     {
       "hash": "376117505",
@@ -4077,6 +4101,10 @@
       "s": "Job öffnen"
     },
     {
+      "hash": "642207704",
+      "s": "Pickup-Modell"
+    },
+    {
       "hash": "643576846",
       "s": "Wiederholte Schüsse auf die ausgewählten Spieler"
     },
@@ -5105,6 +5133,10 @@
       "s": "Eine Aufgabe erstellen und anhängen"
     },
     {
+      "hash": "811096870",
+      "s": "Selbstbefestigung"
+    },
+    {
       "hash": "811643467",
       "s": "Versteckt"
     },
@@ -5597,6 +5629,10 @@
       "s": "Betrunken"
     },
     {
+      "hash": "893141862",
+      "s": "Begrenzung der Erstellung neuer Fußgängerkörper durch jeden Remote-Spieler"
+    },
+    {
       "hash": "893961113",
       "s": "Laserlänge bei Hüftfeuer / Punktlichtentfernung"
     },
@@ -5659,6 +5695,10 @@
     {
       "hash": "903916072",
       "s": "Kräfte, Geschwindigkeit, Radius und Rotation"
+    },
+    {
+      "hash": "904448445",
+      "s": "Fahrzeug-Gadget-Anzahl"
     },
     {
       "hash": "907737402",
@@ -5879,6 +5919,10 @@
     {
       "hash": "951868502",
       "s": "Rotationsgeschwindigkeit"
+    },
+    {
+      "hash": "951968817",
+      "s": "Basis-Fahrzeugerstellungsrate; Nicht-Host-Spieler erhalten eine dreifache Burst-Zulassung"
     },
     {
       "hash": "952461416",
@@ -6207,10 +6251,6 @@
     {
       "hash": "1004489235",
       "s": "Rüstungsschwelle"
-    },
-    {
-      "hash": "1004631164",
-      "s": "Maximale Anzahl ferngesteuerter Fahrzeuge pro Spieler"
     },
     {
       "hash": "1005732529",
@@ -7181,10 +7221,6 @@
       "s": "Ramme Wesen weg"
     },
     {
-      "hash": "1145311301",
-      "s": "Erkennen von ferngesteuerten Nicht-Spieler-Ped-Fluten über dem konfigurierten Grenzwert pro Spieler"
-    },
-    {
       "hash": "1145366301",
       "s": "Wert bearbeiten"
     },
@@ -7783,6 +7819,10 @@
     {
       "hash": "1229306588",
       "s": "Sekundärfarbe"
+    },
+    {
+      "hash": "1230203175",
+      "s": "Eisenbahnlinie"
     },
     {
       "hash": "1230775233",
@@ -8777,6 +8817,10 @@
       "s": "Mattes Wüstenbräunchen"
     },
     {
+      "hash": "1385232904",
+      "s": "PED-Objektmodell"
+    },
+    {
       "hash": "1385418106",
       "s": "Flugzeugbeschleunigung"
     },
@@ -9327,6 +9371,10 @@
     {
       "hash": "1464477245",
       "s": "Ragdoll-Dauer"
+    },
+    {
+      "hash": "1464689086",
+      "s": "Objektmodell"
     },
     {
       "hash": "1464743155",
@@ -10661,6 +10709,10 @@
       "s": "Gespawntes Fahrzeug neben ihnen."
     },
     {
+      "hash": "1683826441",
+      "s": "Synchronisierte Waffe"
+    },
+    {
       "hash": "1684020395",
       "s": "Wie weit vor der Kamera die Rakete gesteuert wird"
     },
@@ -11075,6 +11127,10 @@
     {
       "hash": "1752438086",
       "s": "Koordinaten"
+    },
+    {
+      "hash": "1752535552",
+      "s": "Verformter Baum"
     },
     {
       "hash": "1752632180",
@@ -11535,10 +11591,6 @@
     {
       "hash": "1825347245",
       "s": "Türen verriegeln"
-    },
-    {
-      "hash": "1825687910",
-      "s": "Synchronisationsknoten validieren und sicher von Synchronisationsanwendungsfehlern auf beiden Editionen erholen"
     },
     {
       "hash": "1825886858",
@@ -12945,6 +12997,10 @@
       "s": "Zielen und schießen Sie auf ein Fahrzeug, um in dessen Fahrersitz zu teleportieren"
     },
     {
+      "hash": "2031774227",
+      "s": "Spieler-Aussehen-Modell"
+    },
+    {
       "hash": "2031824265",
       "s": "Höhe über dir, in der du spawnen kannst"
     },
@@ -13613,6 +13669,10 @@
       "s": "Nutzen Sie diesen Effekt für die Partikelkanone"
     },
     {
+      "hash": "2132055890",
+      "s": "Synchronisationsdatenschutz und -antworten"
+    },
+    {
       "hash": "2132057360",
       "s": "(keine Übereinstimmungen)"
     },
@@ -13819,6 +13879,10 @@
     {
       "hash": "2158286081",
       "s": "Bargeldfabrik"
+    },
+    {
+      "hash": "2160090302",
+      "s": "Spieler-Erstellungsmodell"
     },
     {
       "hash": "2162464636",
@@ -14555,6 +14619,10 @@
     {
       "hash": "2292166508",
       "s": "Platzhalter/Teilzeichenfolge des Texturnamens (z. B. *sky*, veh_*_badge*)"
+    },
+    {
+      "hash": "2292452552",
+      "s": "Begrenzung der Erstellung neuer Fahrzeugklone durch jeden Remote-Spieler"
     },
     {
       "hash": "2293167734",
@@ -15325,6 +15393,10 @@
       "s": "Schneefall-Partikeleffekte bearbeiten"
     },
     {
+      "hash": "2425977858",
+      "s": "Pickup-Komponenten"
+    },
+    {
       "hash": "2426079752",
       "s": "Feuchtigkeitsanpassung"
     },
@@ -15625,6 +15697,10 @@
       "s": "Getragenes Weiß"
     },
     {
+      "hash": "2477105306",
+      "s": "Bevölkerungs-Position"
+    },
+    {
       "hash": "2477719252",
       "s": "Gezielte Einheit"
     },
@@ -15871,10 +15947,6 @@
     {
       "hash": "2520697507",
       "s": "Zielpunkt"
-    },
-    {
-      "hash": "2520970211",
-      "s": "Maximale Anzahl ferngesteuerter NPC-Peds von einem Spieler"
     },
     {
       "hash": "2521085799",
@@ -17997,6 +18069,10 @@
       "s": "Plattenlicht"
     },
     {
+      "hash": "2860325150",
+      "s": "PED-Gadget"
+    },
+    {
       "hash": "2861499557",
       "s": "Mit Mond-ähnlicher Schwerkraft schweben"
     },
@@ -19593,6 +19669,10 @@
       "s": "Zeige auf dem Radar das aktuelle Jobziel dieses Spielers an"
     },
     {
+      "hash": "3128513322",
+      "s": "Automatische Antworten für Synchronisationsschutz wählen"
+    },
+    {
       "hash": "3129256681",
       "s": "Waffe hashen"
     },
@@ -20157,6 +20237,10 @@
       "s": "Schalten Sie diese Entität in die Gruppe ein oder aus ihr heraus"
     },
     {
+      "hash": "3217357986",
+      "s": "Ped-Montage-Flag"
+    },
+    {
       "hash": "3217992270",
       "s": "Raketen können Sie nicht fixieren"
     },
@@ -20505,6 +20589,10 @@
       "s": "Nichtig"
     },
     {
+      "hash": "3275942728",
+      "s": "Reaktionen synchronisieren"
+    },
+    {
       "hash": "3276265716",
       "s": "Flammengröße"
     },
@@ -20535,6 +20623,10 @@
     {
       "hash": "3280826154",
       "s": "Benny's Maßgeschneidert"
+    },
+    {
+      "hash": "3281554194",
+      "s": "Basis-Fußgänger-Erstellungsrate; nicht-Host-Spieler erhalten eine dreifache Burst-Zulassung"
     },
     {
       "hash": "3281619897",
@@ -21765,6 +21857,10 @@
       "s": "Fahrzeug 3"
     },
     {
+      "hash": "3471182463",
+      "s": "Entitäts-Skriptinformationen"
+    },
+    {
       "hash": "3472314088",
       "s": "Eröffnen Sie gleich hier den echten Online-Bekleidungsladen – kein Geschäft oder eine Wohnung erforderlich. Jeder Gegenstand ist freigeschaltet, solange er geöffnet ist"
     },
@@ -22645,6 +22741,10 @@
       "s": "Fahrzeug klonen"
     },
     {
+      "hash": "3619231014",
+      "s": "Tür-Modell"
+    },
+    {
       "hash": "3619527297",
       "s": "Artillerie-Kanone"
     },
@@ -23031,6 +23131,10 @@
     {
       "hash": "3678442511",
       "s": "Tattoo aufgetragen."
+    },
+    {
+      "hash": "3678575592",
+      "s": "Fahrzeug-Modell"
     },
     {
       "hash": "3679399683",
@@ -24075,10 +24179,6 @@
     {
       "hash": "3839378464",
       "s": "Farben aus gebürstetem Metall"
-    },
-    {
-      "hash": "3839832969",
-      "s": "Erkennung von Fernsteuerung-Fahrzeugfluten über dem konfigurierten Grenzwert pro Spieler"
     },
     {
       "hash": "3841713459",
