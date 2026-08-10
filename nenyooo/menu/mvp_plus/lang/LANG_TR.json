@@ -401,6 +401,10 @@
       "s": "Dağıt"
     },
     {
+      "hash": "57666773",
+      "s": "Could not acquire freemode host; use an invite-only session"
+    },
+    {
       "hash": "57744472",
       "s": "Kas"
     },
@@ -538,7 +542,7 @@
     },
     {
       "hash": "77627318",
-      "s": "Effects"
+      "s": "Efektler"
     },
     {
       "hash": "79128647",
@@ -758,7 +762,7 @@
     },
     {
       "hash": "111042846",
-      "s": "Storage Cage"
+      "s": "Depo Kafesi"
     },
     {
       "hash": "112032742",
@@ -1286,7 +1290,7 @@
     },
     {
       "hash": "185423636",
-      "s": "Trap them between two security huts"
+      "s": "Onları iki güvenlik kulübesi arasına sıkıştır"
     },
     {
       "hash": "186465128",
@@ -1730,7 +1734,7 @@
     },
     {
       "hash": "243723065",
-      "s": "Vehicles & Escorts"
+      "s": "Araçlar & Eskortlar"
     },
     {
       "hash": "244626974",
@@ -1738,7 +1742,7 @@
     },
     {
       "hash": "245833028",
-      "s": "Airstrikes, UFOs, artillery, meteorites, and scare effects"
+      "s": "Hava saldırıları, UFO'lar, topçu, meteorlar ve korku efektleri"
     },
     {
       "hash": "246188712",
@@ -1910,7 +1914,7 @@
     },
     {
       "hash": "264238662",
-      "s": "Trap them in a storage container"
+      "s": "Onları bir depo konteynerine hapset"
     },
     {
       "hash": "264382210",
@@ -1970,7 +1974,7 @@
     },
     {
       "hash": "267823666",
-      "s": "P Crash Events"
+      "s": "P Çökme Olayları"
     },
     {
       "hash": "267955449",
@@ -2494,7 +2498,7 @@
     },
     {
       "hash": "335702690",
-      "s": "Bounty, wanted level, off-radar, health, armour, and RP"
+      "s": "Hırsızlık, aranma seviyesi, radar dışında, sağlık, zırh ve RP"
     },
     {
       "hash": "335789405",
@@ -2550,7 +2554,7 @@
     },
     {
       "hash": "344477759",
-      "s": "Surround them with four frozen vehicles"
+      "s": "Onları dört dondurulmuş araçla çevrele"
     },
     {
       "hash": "344495083",
@@ -2558,7 +2562,7 @@
     },
     {
       "hash": "344624223",
-      "s": "Removal Methods"
+      "s": "Kaldırma Yöntemleri"
     },
     {
       "hash": "346070533",
@@ -2694,7 +2698,7 @@
     },
     {
       "hash": "366589616",
-      "s": "Travel To Player"
+      "s": "Oyuncuya Git"
     },
     {
       "hash": "366693230",
@@ -3246,7 +3250,7 @@
     },
     {
       "hash": "442407375",
-      "s": "Deleted %d spawned cage object(s)"
+      "s": "Silindi %d oluşturulmuş kafes nesnesi(leri)"
     },
     {
       "hash": "442564273",
@@ -3410,7 +3414,7 @@
     },
     {
       "hash": "457409966",
-      "s": "Bring Players"
+      "s": "Oyuncuları Getir"
     },
     {
       "hash": "458278150",
@@ -3438,7 +3442,7 @@
     },
     {
       "hash": "461085857",
-      "s": "Security Hut Cage"
+      "s": "Güvenlik Kulübesi Kafesi"
     },
     {
       "hash": "461142570",
@@ -3574,7 +3578,7 @@
     },
     {
       "hash": "480311485",
-      "s": "Props & Spawns"
+      "s": "Objeler & Spawner'lar"
     },
     {
       "hash": "484193273",
@@ -3998,7 +4002,7 @@
     },
     {
       "hash": "547842114",
-      "s": "P Spawn Traps"
+      "s": "P Spawner Tuzakları"
     },
     {
       "hash": "548431488",
@@ -4090,7 +4094,7 @@
     },
     {
       "hash": "560897008",
-      "s": "P Spawn Pickups"
+      "s": "P Spawner Toplama Nesneleri"
     },
     {
       "hash": "561264578",
@@ -4182,7 +4186,7 @@
     },
     {
       "hash": "575078580",
-      "s": "Transaction errors, loading screens, messages, and interior actions"
+      "s": "İşlem hataları, yükleme ekranları, mesajlar ve iç mekan eylemleri"
     },
     {
       "hash": "575344514",
@@ -4386,7 +4390,7 @@
     },
     {
       "hash": "602352136",
-      "s": "P TP Self"
+      "s": "P TP Kendini"
     },
     {
       "hash": "602736261",
@@ -4502,7 +4506,7 @@
     },
     {
       "hash": "617525095",
-      "s": "P Money RP Gun"
+      "s": "P Para RP Silah"
     },
     {
       "hash": "618015956",
@@ -4710,7 +4714,7 @@
     },
     {
       "hash": "641308795",
-      "s": "Clone, repair, upgrade, rotate, tow, damage, or delete their vehicle"
+      "s": "Klonla, onar, yükselt, döndür, çek, hasar ver veya araçlarını sil"
     },
     {
       "hash": "641601726",
@@ -5034,7 +5038,7 @@
     },
     {
       "hash": "685095922",
-      "s": "Messaging"
+      "s": "Mesajlaşma"
     },
     {
       "hash": "685128441",
@@ -5254,7 +5258,7 @@
     },
     {
       "hash": "714150857",
-      "s": "Speed, engine power, dirt, and vertical position"
+      "s": "Hız, motor gücü, kir ve dikey konum"
     },
     {
       "hash": "714292939",
@@ -5346,7 +5350,7 @@
     },
     {
       "hash": "727082189",
-      "s": "Color Cage"
+      "s": "Renk Kafesi"
     },
     {
       "hash": "727130060",
@@ -5510,7 +5514,7 @@
     },
     {
       "hash": "751491691",
-      "s": "Status & Rewards"
+      "s": "Durum & Ödüller"
     },
     {
       "hash": "751650274",
@@ -5618,7 +5622,7 @@
     },
     {
       "hash": "766866697",
-      "s": "P Social Identity"
+      "s": "P Sosyal Kimlik"
     },
     {
       "hash": "767821349",
@@ -5870,7 +5874,7 @@
     },
     {
       "hash": "803020692",
-      "s": "Hostile NPCs, vehicles, bombers, and hijackers"
+      "s": "Düşmanca NPC'ler, araçlar, bombalamalar ve korsanlar"
     },
     {
       "hash": "805315652",
@@ -6018,7 +6022,7 @@
     },
     {
       "hash": "825787285",
-      "s": "P Kick Methods"
+      "s": "P Dışlama Yöntemleri"
     },
     {
       "hash": "826249281",
@@ -6814,7 +6818,7 @@
     },
     {
       "hash": "950495968",
-      "s": "Script-event and task-based crash methods"
+      "s": "Betik olayı ve görev tabanlı çökme yöntemleri"
     },
     {
       "hash": "951868502",
@@ -6958,7 +6962,7 @@
     },
     {
       "hash": "972028133",
-      "s": "Delete Spawned Cages"
+      "s": "Oluşturulan Kafesleri Sil"
     },
     {
       "hash": "972118445",
@@ -7297,10 +7301,6 @@
       "s": "İzleme Durduruldu"
     },
     {
-      "hash": "1020677269",
-      "s": "Etkinlik sunucusu gerekiyor; istek gönderildi, ardından End'e tekrar basın"
-    },
-    {
       "hash": "1020882649",
       "s": "Tüm Silahları Kaldır"
     },
@@ -7410,7 +7410,7 @@
     },
     {
       "hash": "1034977219",
-      "s": "Move Player"
+      "s": "Oyuncuyu Taşı"
     },
     {
       "hash": "1035382517",
@@ -7958,7 +7958,7 @@
     },
     {
       "hash": "1108536652",
-      "s": "Explosive ammo, projectile gun, and synchronized reward drops"
+      "s": "Patlayıcı mühimmat, mermi silahı ve senkronize ödül düşüşleri"
     },
     {
       "hash": "1109371704",
@@ -8630,7 +8630,7 @@
     },
     {
       "hash": "1183840901",
-      "s": "Cross two coloured stunt tubes around them"
+      "s": "Etraflarında iki renkli stunt tüpleri çiz"
     },
     {
       "hash": "1183949158",
@@ -9043,6 +9043,10 @@
     {
       "hash": "1235256862",
       "s": "Yükleme Adı"
+    },
+    {
+      "hash": "1235442802",
+      "s": "Bu oyuncu bir araç içinde değil."
     },
     {
       "hash": "1235841754",
@@ -9794,7 +9798,7 @@
     },
     {
       "hash": "1333081069",
-      "s": "P TP Bring"
+      "s": "P TP Getir"
     },
     {
       "hash": "1334902937",
@@ -10110,7 +10114,7 @@
     },
     {
       "hash": "1372690632",
-      "s": "Activities & Travel"
+      "s": "Aktiviteler & Seyahat"
     },
     {
       "hash": "1372853329",
@@ -10399,6 +10403,10 @@
     {
       "hash": "1414044786",
       "s": "Her kasırgayı yok et ve temizle"
+    },
+    {
+      "hash": "1414461105",
+      "s": "Bu oyuncunun mevcut aracındaki boş bir koltuğa ışınlan"
     },
     {
       "hash": "1415413464",
@@ -10874,7 +10882,7 @@
     },
     {
       "hash": "1475043620",
-      "s": "Choose a cage type"
+      "s": "Bir kafes türü seç"
     },
     {
       "hash": "1475411949",
@@ -11142,7 +11150,7 @@
     },
     {
       "hash": "1512107879",
-      "s": "P Spawn Vehicles"
+      "s": "P Araçları Oluştur"
     },
     {
       "hash": "1512788512",
@@ -13054,7 +13062,7 @@
     },
     {
       "hash": "1776235312",
-      "s": "Container Cage"
+      "s": "Konteyner Kafesi"
     },
     {
       "hash": "1776309052",
@@ -14010,7 +14018,7 @@
     },
     {
       "hash": "1908025410",
-      "s": "Disruptions"
+      "s": "Bozulmalar"
     },
     {
       "hash": "1908225537",
@@ -14246,7 +14254,7 @@
     },
     {
       "hash": "1937420886",
-      "s": "Money RP Gun"
+      "s": "Para RP Silahı"
     },
     {
       "hash": "1937774085",
@@ -14410,7 +14418,7 @@
     },
     {
       "hash": "1961742164",
-      "s": "Gun Effects"
+      "s": "Silah Efektleri"
     },
     {
       "hash": "1962407326",
@@ -14514,7 +14522,7 @@
     },
     {
       "hash": "1970787398",
-      "s": "P TP Move"
+      "s": "P TP Taşı"
     },
     {
       "hash": "1971026099",
@@ -14874,7 +14882,7 @@
     },
     {
       "hash": "2011485378",
-      "s": "P Crash Spawns"
+      "s": "P Çökme Oluşturmaları"
     },
     {
       "hash": "2011796785",
@@ -15186,7 +15194,7 @@
     },
     {
       "hash": "2048748151",
-      "s": "Organization"
+      "s": "Organizasyon"
     },
     {
       "hash": "2049606051",
@@ -15254,7 +15262,7 @@
     },
     {
       "hash": "2060235553",
-      "s": "P Veh Performance"
+      "s": "P Araç Performansı"
     },
     {
       "hash": "2060281461",
@@ -15810,7 +15818,7 @@
     },
     {
       "hash": "2135425760",
-      "s": "World Events"
+      "s": "Dünya Etkinlikleri"
     },
     {
       "hash": "2135705662",
@@ -16234,7 +16242,7 @@
     },
     {
       "hash": "2192459371",
-      "s": "Handling, horn boost, EMP, slick road, repair, crush, and auto flip"
+      "s": "İşleyiş, korna takviyesi, EMP, kaygan yol, onarım, ezme ve otomatik takla"
     },
     {
       "hash": "2192607270",
@@ -16742,7 +16750,7 @@
     },
     {
       "hash": "2267010037",
-      "s": "P Troll Attackers"
+      "s": "P Trol Atak Edenler"
     },
     {
       "hash": "2267243708",
@@ -17070,7 +17078,7 @@
     },
     {
       "hash": "2308106787",
-      "s": "Apply directional forces to their current vehicle"
+      "s": "Mevcut araçlarına yönlü kuvvet uygula"
     },
     {
       "hash": "2308404065",
@@ -17413,6 +17421,10 @@
       "s": "İptal etmek için ESC tuşuna basın"
     },
     {
+      "hash": "2365656318",
+      "s": "Bu oyuncunun aracında boş koltuk yok."
+    },
+    {
       "hash": "2366890398",
       "s": "Araç hasarı ver"
     },
@@ -17538,7 +17550,7 @@
     },
     {
       "hash": "2377646786",
-      "s": "P Remote Organization"
+      "s": "P Uzak Organizasyon"
     },
     {
       "hash": "2378849624",
@@ -18638,7 +18650,7 @@
     },
     {
       "hash": "2540024016",
-      "s": "Ammo & Drops"
+      "s": "Mermi & Düşürmeler"
     },
     {
       "hash": "2540654705",
@@ -18826,7 +18838,7 @@
     },
     {
       "hash": "2564541732",
-      "s": "Nearby Attackers"
+      "s": "Yakınlardaki Saldırganlar"
     },
     {
       "hash": "2565282005",
@@ -19238,7 +19250,7 @@
     },
     {
       "hash": "2627769629",
-      "s": "P Weapon Effects"
+      "s": "P Silah Efektleri"
     },
     {
       "hash": "2628609974",
@@ -19554,7 +19566,7 @@
     },
     {
       "hash": "2673519775",
-      "s": "Pickups"
+      "s": "Toplama Nesneleri"
     },
     {
       "hash": "2674635229",
@@ -19646,7 +19658,7 @@
     },
     {
       "hash": "2685549945",
-      "s": "Vehicle Trap"
+      "s": "Araç Tuzağı"
     },
     {
       "hash": "2686638888",
@@ -19817,6 +19829,10 @@
       "s": "FX Seçici"
     },
     {
+      "hash": "2712514755",
+      "s": "Bu oyuncunun aracını bulamadı."
+    },
+    {
       "hash": "2713536967",
       "s": "Yaya dolaşmayacak/tepki vermeyecek"
     },
@@ -19898,7 +19914,7 @@
     },
     {
       "hash": "2724949040",
-      "s": "Start, move, or remove this player from activities and locations"
+      "s": "Bu oyuncuyu etkinliklerden ve konumlardan başlat, taşı veya kaldır"
     },
     {
       "hash": "2725301519",
@@ -20030,7 +20046,7 @@
     },
     {
       "hash": "2742934988",
-      "s": "Elevator Cage"
+      "s": "Asansör Kafesi"
     },
     {
       "hash": "2743127901",
@@ -20070,7 +20086,7 @@
     },
     {
       "hash": "2747777419",
-      "s": "Cages, kidnapping, barriers, and containment"
+      "s": "Kafesler, kaçırma, engeller ve hapsedilme"
     },
     {
       "hash": "2748690943",
@@ -20170,7 +20186,7 @@
     },
     {
       "hash": "2761035915",
-      "s": "Give or remove weapons"
+      "s": "Silah ver veya geri al"
     },
     {
       "hash": "2761290064",
@@ -20374,7 +20390,7 @@
     },
     {
       "hash": "2787083141",
-      "s": "P Remote Activities"
+      "s": "P Uzak Etkinlikler"
     },
     {
       "hash": "2787089723",
@@ -20822,7 +20838,7 @@
     },
     {
       "hash": "2844867214",
-      "s": "P Veh Live"
+      "s": "P Araç Canlı"
     },
     {
       "hash": "2846765108",
@@ -21018,7 +21034,7 @@
     },
     {
       "hash": "2874681872",
-      "s": "Create synchronized reward drops where this player's shots impact"
+      "s": "Bu oyuncunun isabet ettiği yerlerde senkronize ödül düşürmeleri oluştur"
     },
     {
       "hash": "2875098855",
@@ -21134,7 +21150,7 @@
     },
     {
       "hash": "2888990079",
-      "s": "Visual effects, forces, explosions, projectiles, camera effects, and tazing"
+      "s": "Görsel efektler, kuvvetler, patlamalar, mermiler, kamera efektleri ve elektrik şoku"
     },
     {
       "hash": "2889049257",
@@ -21630,7 +21646,7 @@
     },
     {
       "hash": "2951277130",
-      "s": "Vehicles, cages, attackers, world events, and pickups"
+      "s": "Araçlar, kafesler, saldırganlar, dünya olayları ve toplama nesneleri"
     },
     {
       "hash": "2951475707",
@@ -21738,7 +21754,7 @@
     },
     {
       "hash": "2966640147",
-      "s": "P Weapon Ammo"
+      "s": "P Silah Mermisi"
     },
     {
       "hash": "2967564012",
@@ -21802,7 +21818,7 @@
     },
     {
       "hash": "2980299445",
-      "s": "Event Crashes"
+      "s": "Olay Çöküşleri"
     },
     {
       "hash": "2980478099",
@@ -21834,7 +21850,7 @@
     },
     {
       "hash": "2987283230",
-      "s": "State & Access"
+      "s": "Durum & Erişim"
     },
     {
       "hash": "2988342908",
@@ -21870,7 +21886,7 @@
     },
     {
       "hash": "2992574760",
-      "s": "Trap them between two elevator structures"
+      "s": "İki asansör yapısı arasına hapset"
     },
     {
       "hash": "2992695883",
@@ -22098,7 +22114,7 @@
     },
     {
       "hash": "3025670851",
-      "s": "Delete, magnet, tryhard, and ram gun effects"
+      "s": "Sil, mıknatıs, zorlayıcı ve çarpma silah efektlerini kaldır"
     },
     {
       "hash": "3025754990",
@@ -22426,7 +22442,7 @@
     },
     {
       "hash": "3072373482",
-      "s": "P Remote Disruptions"
+      "s": "P Uzak Müdahaleler"
     },
     {
       "hash": "3072588155",
@@ -23006,7 +23022,7 @@
     },
     {
       "hash": "3150719665",
-      "s": "Available methods for removing this player from the session"
+      "s": "Bu oyuncuyu oturumdan kaldırmak için mevcut yöntemler"
     },
     {
       "hash": "3150775842",
@@ -23066,7 +23082,7 @@
     },
     {
       "hash": "3159092775",
-      "s": "P Veh State"
+      "s": "P Araç Durumu"
     },
     {
       "hash": "3159295490",
@@ -23462,7 +23478,7 @@
     },
     {
       "hash": "3209848055",
-      "s": "Entity and model spawn-based crash methods"
+      "s": "Varlık ve model oluşturmaya dayalı çökme yöntemleri"
     },
     {
       "hash": "3210514298",
@@ -23758,7 +23774,7 @@
     },
     {
       "hash": "3258727015",
-      "s": "P Spawn Attackers"
+      "s": "P Saldırıları Başlat"
     },
     {
       "hash": "3259298831",
@@ -23798,7 +23814,7 @@
     },
     {
       "hash": "3262050799",
-      "s": "Health, armour, ammunition, parachute, and gift pickups"
+      "s": "Sağlık, zırh, mühimmat, paraşüt ve hediye toplama"
     },
     {
       "hash": "3262210549",
@@ -24246,7 +24262,7 @@
     },
     {
       "hash": "3322633837",
-      "s": "P Troll Spawns"
+      "s": "P Troll Oluşturmaları"
     },
     {
       "hash": "3322848858",
@@ -24286,7 +24302,7 @@
     },
     {
       "hash": "3325988914",
-      "s": "To Another Player"
+      "s": "Başka Bir Oyuncuya"
     },
     {
       "hash": "3326046236",
@@ -24458,7 +24474,7 @@
     },
     {
       "hash": "3352062609",
-      "s": "CEO raid and organization controls"
+      "s": "CEO baskını ve organizasyon kontrolleri"
     },
     {
       "hash": "3352065284",
@@ -24574,7 +24590,7 @@
     },
     {
       "hash": "3365245151",
-      "s": "P Veh Actions"
+      "s": "P Araç Eylemleri"
     },
     {
       "hash": "3365365368",
@@ -24854,7 +24870,7 @@
     },
     {
       "hash": "3399546271",
-      "s": "P Troll Effects"
+      "s": "P Troll Efektleri"
     },
     {
       "hash": "3399655528",
@@ -25074,7 +25090,7 @@
     },
     {
       "hash": "3423858215",
-      "s": "Props, followers, vehicles, cages, traps, pickups, and world events"
+      "s": "Objeler, takipçiler, araçlar, kafesler, tuzaklar, toplama ve dünya olayları"
     },
     {
       "hash": "3424133290",
@@ -25278,7 +25294,7 @@
     },
     {
       "hash": "3455525841",
-      "s": "Move this player to you, your waypoint, or another player"
+      "s": "Bu oyuncuyu size, işaretinize veya başka bir oyuncuya taşıyın"
     },
     {
       "hash": "3455807008",
@@ -25406,7 +25422,7 @@
     },
     {
       "hash": "3477865764",
-      "s": "P Spawn Events"
+      "s": "P Olayları Başlat"
     },
     {
       "hash": "3478056406",
@@ -25982,7 +25998,7 @@
     },
     {
       "hash": "3556393189",
-      "s": "Teleport or skydive to this player"
+      "s": "Bu oyuncuya ışınlan veya paraşütle atla"
     },
     {
       "hash": "3556432779",
@@ -26110,7 +26126,7 @@
     },
     {
       "hash": "3571928026",
-      "s": "Trap them in a large container"
+      "s": "Onları büyük bir konteynere hapset"
     },
     {
       "hash": "3573740920",
@@ -26406,7 +26422,7 @@
     },
     {
       "hash": "3617334759",
-      "s": "P Remote Status"
+      "s": "P Uzak Durumu"
     },
     {
       "hash": "3617433522",
@@ -26474,7 +26490,7 @@
     },
     {
       "hash": "3628423618",
-      "s": "Delete cages and vehicle traps created by these options"
+      "s": "Bu seçenekler tarafından oluşturulan kafesleri ve araç tuzaklarını sil"
     },
     {
       "hash": "3628551877",
@@ -26614,7 +26630,7 @@
     },
     {
       "hash": "3643607409",
-      "s": "Profile, outfit, friend, fake-friend, and monitor actions"
+      "s": "Profil, kıyafet, arkadaş, sahte-arkadaş ve izleme eylemleri"
     },
     {
       "hash": "3644047594",
@@ -26906,7 +26922,7 @@
     },
     {
       "hash": "3683606538",
-      "s": "P Social Messaging"
+      "s": "P Sosyal Mesajlaşma"
     },
     {
       "hash": "3684344214",
@@ -27166,7 +27182,7 @@
     },
     {
       "hash": "3714388764",
-      "s": "Performance"
+      "s": "Performans"
     },
     {
       "hash": "3715581042",
@@ -27190,7 +27206,7 @@
     },
     {
       "hash": "3718486599",
-      "s": "Move other players to this player"
+      "s": "Diğer oyuncuları bu oyuncuya taşı"
     },
     {
       "hash": "3719642673",
@@ -27434,7 +27450,7 @@
     },
     {
       "hash": "3748890474",
-      "s": "Godmode, freeze, visibility, collision, doors, engine, wheels, and stealing"
+      "s": "Tanrı modu, dondur, görünürlük, çarpışma, kapılar, motor, tekerlekler ve çalma"
     },
     {
       "hash": "3750987887",
@@ -27854,7 +27870,7 @@
     },
     {
       "hash": "3802809926",
-      "s": "Spawn Crashes"
+      "s": "Spawns Çökertmeler"
     },
     {
       "hash": "3802906643",
@@ -27982,7 +27998,7 @@
     },
     {
       "hash": "3815458374",
-      "s": "Cages & Traps"
+      "s": "Kafesler & Tuzaklar"
     },
     {
       "hash": "3815868227",
@@ -28090,7 +28106,7 @@
     },
     {
       "hash": "3829489312",
-      "s": "Escort vehicles, diving jets, police cars, and vehicle attackers"
+      "s": "Refakat araçları, dalış jetleri, polis arabaları ve araç saldırganları"
     },
     {
       "hash": "3830880322",
@@ -28906,7 +28922,7 @@
     },
     {
       "hash": "3932893177",
-      "s": "Spawn hostile characters around this player"
+      "s": "Bu oyuncunun etrafında düşmanca karakterler oluştur"
     },
     {
       "hash": "3933678113",
@@ -29134,7 +29150,7 @@
     },
     {
       "hash": "3958616937",
-      "s": "Live Controls"
+      "s": "Canlı Kontroller"
     },
     {
       "hash": "3958966674",
@@ -29362,7 +29378,7 @@
     },
     {
       "hash": "3996127604",
-      "s": "P Weapon Inventory"
+      "s": "P Silah Envanteri"
     },
     {
       "hash": "3997453335",
@@ -29501,6 +29517,10 @@
       "s": "Şampanyanın rengini değiştir"
     },
     {
+      "hash": "4010684889",
+      "s": "Teleport & Araca Gir"
+    },
+    {
       "hash": "4011647192",
       "s": "Kafa kemiğine nişan al"
     },
@@ -29575,6 +29595,10 @@
     {
       "hash": "4022468218",
       "s": "Sallanma Yardımı"
+    },
+    {
+      "hash": "4022972171",
+      "s": "Could not acquire the running event's script host"
     },
     {
       "hash": "4023690303",
@@ -30174,7 +30198,7 @@
     },
     {
       "hash": "4106463005",
-      "s": "Profile & Connections"
+      "s": "Profil & Bağlantılar"
     },
     {
       "hash": "4107073082",
@@ -30374,7 +30398,7 @@
     },
     {
       "hash": "4128312154",
-      "s": "Send repeated text messages to this player"
+      "s": "Bu oyuncuya tekrar eden metin mesajları gönder"
     },
     {
       "hash": "4128341665",
