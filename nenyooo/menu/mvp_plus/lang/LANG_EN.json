@@ -181,10 +181,6 @@
       "s": "Skid mark colour"
     },
     {
-      "hash": "26104371",
-      "s": "Target the selected player with Phantom Car, The Gooch, or Community Outreach"
-    },
-    {
       "hash": "26153820",
       "s": "Fit coloured tyre smoke"
     },
@@ -541,6 +537,10 @@
       "s": "Stop boosting above this speed (m/s)"
     },
     {
+      "hash": "77627318",
+      "s": "Effects"
+    },
+    {
       "hash": "79128647",
       "s": "Gift Rank"
     },
@@ -757,6 +757,10 @@
       "s": "Bike accel / brake"
     },
     {
+      "hash": "111042846",
+      "s": "Storage Cage"
+    },
+    {
       "hash": "112032742",
       "s": "Flare Airstrike"
     },
@@ -919,10 +923,6 @@
     {
       "hash": "130888470",
       "s": "Lift gain -- raise if it won't take off / to fly slower"
-    },
-    {
-      "hash": "131073273",
-      "s": "Copy their outfit, spam them messages"
     },
     {
       "hash": "131406626",
@@ -1137,6 +1137,10 @@
       "s": "Matte Foliage Green"
     },
     {
+      "hash": "156919126",
+      "s": "Effects, attackers, followers, and synchronized spawns"
+    },
+    {
       "hash": "157275447",
       "s": "Immune to collision damage"
     },
@@ -1279,6 +1283,10 @@
     {
       "hash": "184395934",
       "s": "Heading you face after teleporting"
+    },
+    {
+      "hash": "185423636",
+      "s": "Trap them between two security huts"
     },
     {
       "hash": "186465128",
@@ -1721,8 +1729,16 @@
       "s": "Vehicle Gadget"
     },
     {
+      "hash": "243723065",
+      "s": "Vehicles & Escorts"
+    },
+    {
       "hash": "244626974",
       "s": "Crew level set."
+    },
+    {
+      "hash": "245833028",
+      "s": "Airstrikes, UFOs, artillery, meteorites, and scare effects"
     },
     {
       "hash": "246188712",
@@ -1893,6 +1909,10 @@
       "s": "Randomize Z"
     },
     {
+      "hash": "264238662",
+      "s": "Trap them in a storage container"
+    },
+    {
       "hash": "264382210",
       "s": "Add to Database"
     },
@@ -1947,6 +1967,10 @@
     {
       "hash": "267781690",
       "s": "Util Dark Silver"
+    },
+    {
+      "hash": "267823666",
+      "s": "P Crash Events"
     },
     {
       "hash": "267955449",
@@ -2047,10 +2071,6 @@
     {
       "hash": "280804475",
       "s": "Merryweather boat taxi"
-    },
-    {
-      "hash": "281155709",
-      "s": "Container"
     },
     {
       "hash": "282667917",
@@ -2237,10 +2257,6 @@
       "s": "Ped Model"
     },
     {
-      "hash": "306409854",
-      "s": "Others To Player"
-    },
-    {
       "hash": "306710136",
       "s": "Metallic colours"
     },
@@ -2381,6 +2397,10 @@
       "s": "Ocean surface noise lower bound"
     },
     {
+      "hash": "324863369",
+      "s": "Teleport this player to or from players, your waypoint, or you"
+    },
+    {
       "hash": "325737583",
       "s": "Cancel this friend request you sent"
     },
@@ -2473,6 +2493,10 @@
       "s": "Surface Detection"
     },
     {
+      "hash": "335702690",
+      "s": "Bounty, wanted level, off-radar, health, armour, and RP"
+    },
+    {
       "hash": "335789405",
       "s": "Enable Explosion"
     },
@@ -2525,8 +2549,16 @@
       "s": "Randomized."
     },
     {
+      "hash": "344477759",
+      "s": "Surround them with four frozen vehicles"
+    },
+    {
       "hash": "344495083",
       "s": "Merryweather"
+    },
+    {
+      "hash": "344624223",
+      "s": "Removal Methods"
     },
     {
       "hash": "346070533",
@@ -2563,6 +2595,10 @@
     {
       "hash": "355401747",
       "s": "Max Objects Rendered"
+    },
+    {
+      "hash": "355980426",
+      "s": "Penned In"
     },
     {
       "hash": "356655657",
@@ -2655,6 +2691,10 @@
     {
       "hash": "365853798",
       "s": "Downward assistance while airborne"
+    },
+    {
+      "hash": "366589616",
+      "s": "Travel To Player"
     },
     {
       "hash": "366693230",
@@ -2787,10 +2827,6 @@
     {
       "hash": "385794515",
       "s": "Configure automatic protection-reaction safeguards"
-    },
-    {
-      "hash": "386437428",
-      "s": "Coordinate Z"
     },
     {
       "hash": "386703787",
@@ -3209,6 +3245,10 @@
       "s": "Clone this player's outfit onto your character"
     },
     {
+      "hash": "442407375",
+      "s": "Deleted %d spawned cage object(s)"
+    },
+    {
       "hash": "442564273",
       "s": "Cargo granted"
     },
@@ -3369,6 +3409,10 @@
       "s": "Metallic Silver"
     },
     {
+      "hash": "457409966",
+      "s": "Bring Players"
+    },
+    {
       "hash": "458278150",
       "s": "Ears"
     },
@@ -3391,6 +3435,10 @@
     {
       "hash": "460973376",
       "s": "Tracking Strength"
+    },
+    {
+      "hash": "461085857",
+      "s": "Security Hut Cage"
     },
     {
       "hash": "461142570",
@@ -3525,8 +3573,8 @@
       "s": "Angry World"
     },
     {
-      "hash": "481361128",
-      "s": "Host kick / null kick this player"
+      "hash": "480311485",
+      "s": "Props & Spawns"
     },
     {
       "hash": "484193273",
@@ -3853,10 +3901,6 @@
       "s": "Backward Boost"
     },
     {
-      "hash": "535381522",
-      "s": "Only Phantom Car, The Gooch, and Community Outreach support a player target"
-    },
-    {
       "hash": "535855980",
       "s": "GB Call Vehicle Cooldown"
     },
@@ -3921,6 +3965,10 @@
       "s": "Scale Y (Width)"
     },
     {
+      "hash": "542606038",
+      "s": "Clean shutdown is not mapped for this event; let GTA finish it"
+    },
+    {
       "hash": "543315751",
       "s": "Coke Heat"
     },
@@ -3947,6 +3995,10 @@
     {
       "hash": "547729032",
       "s": "Wind Speed"
+    },
+    {
+      "hash": "547842114",
+      "s": "P Spawn Traps"
     },
     {
       "hash": "548431488",
@@ -4037,6 +4089,10 @@
       "s": "Unlock the freemode gender change"
     },
     {
+      "hash": "560897008",
+      "s": "P Spawn Pickups"
+    },
+    {
       "hash": "561264578",
       "s": "Ripple bumpiness lower bound"
     },
@@ -4089,6 +4145,10 @@
       "s": "Camera Collision"
     },
     {
+      "hash": "566354449",
+      "s": "Published Mugger request for %s"
+    },
+    {
       "hash": "566928548",
       "s": "Throw Projectile"
     },
@@ -4119,6 +4179,10 @@
     {
       "hash": "573283069",
       "s": "Remove the facial override"
+    },
+    {
+      "hash": "575078580",
+      "s": "Transaction errors, loading screens, messages, and interior actions"
     },
     {
       "hash": "575344514",
@@ -4321,6 +4385,10 @@
       "s": "Vehicle weapon projectiles"
     },
     {
+      "hash": "602352136",
+      "s": "P TP Self"
+    },
+    {
       "hash": "602736261",
       "s": "A/D strafe thrust"
     },
@@ -4431,6 +4499,10 @@
     {
       "hash": "616974890",
       "s": "Primary"
+    },
+    {
+      "hash": "617525095",
+      "s": "P Money RP Gun"
     },
     {
       "hash": "618015956",
@@ -4635,6 +4707,10 @@
     {
       "hash": "640398879",
       "s": "Nearby NPCs attack this player"
+    },
+    {
+      "hash": "641308795",
+      "s": "Clone, repair, upgrade, rotate, tow, damage, or delete their vehicle"
     },
     {
       "hash": "641601726",
@@ -4957,6 +5033,10 @@
       "s": "Height above the ground"
     },
     {
+      "hash": "685095922",
+      "s": "Messaging"
+    },
+    {
       "hash": "685128441",
       "s": "Has Air Control"
     },
@@ -5055,6 +5135,14 @@
     {
       "hash": "698792484",
       "s": "Reset All Heat"
+    },
+    {
+      "hash": "698860934",
+      "s": "Pass the Parcel"
+    },
+    {
+      "hash": "699276512",
+      "s": "Launch GTA Online's genuine Mugger service against this player"
     },
     {
       "hash": "699989965",
@@ -5157,8 +5245,16 @@
       "s": "Delete current markers before loading"
     },
     {
+      "hash": "712498898",
+      "s": "Quick Actions"
+    },
+    {
       "hash": "714067505",
       "s": "Heavy loadout and Squaddie selected."
+    },
+    {
+      "hash": "714150857",
+      "s": "Speed, engine power, dirt, and vertical position"
     },
     {
       "hash": "714292939",
@@ -5171,6 +5267,10 @@
     {
       "hash": "715403458",
       "s": "Rename File"
+    },
+    {
+      "hash": "715692704",
+      "s": "Player Events"
     },
     {
       "hash": "716180745",
@@ -5243,6 +5343,10 @@
     {
       "hash": "726315879",
       "s": "Back"
+    },
+    {
+      "hash": "727082189",
+      "s": "Color Cage"
     },
     {
       "hash": "727130060",
@@ -5401,12 +5505,12 @@
       "s": "Cycle the bullet-impact colour"
     },
     {
-      "hash": "750109093",
-      "s": "Launch for Selected Player"
-    },
-    {
       "hash": "751067363",
       "s": "Skip Fleeca Drilling"
+    },
+    {
+      "hash": "751491691",
+      "s": "Status & Rewards"
     },
     {
       "hash": "751650274",
@@ -5511,6 +5615,10 @@
     {
       "hash": "766733256",
       "s": "Entity health"
+    },
+    {
+      "hash": "766866697",
+      "s": "P Social Identity"
     },
     {
       "hash": "767821349",
@@ -5761,6 +5869,10 @@
       "s": "Cycle the paint"
     },
     {
+      "hash": "803020692",
+      "s": "Hostile NPCs, vehicles, bombers, and hijackers"
+    },
+    {
       "hash": "805315652",
       "s": "Moon Phases"
     },
@@ -5903,6 +6015,10 @@
     {
       "hash": "824960054",
       "s": "Save nearby world entities within the radius (not just the DB)"
+    },
+    {
+      "hash": "825787285",
+      "s": "P Kick Methods"
     },
     {
       "hash": "826249281",
@@ -6449,6 +6565,10 @@
       "s": "Not signed in yet -- reopen Friends to refresh"
     },
     {
+      "hash": "909684741",
+      "s": "Cleanly end Criminal Damage, Hunt the Beast, King of the Castle, Hot Property, Kill List, or Dead Drop"
+    },
+    {
       "hash": "909878643",
       "s": "Run the selected Join Method against this friend"
     },
@@ -6693,6 +6813,10 @@
       "s": "Keep Distance"
     },
     {
+      "hash": "950495968",
+      "s": "Script-event and task-based crash methods"
+    },
+    {
       "hash": "951868502",
       "s": "Rotation Speed"
     },
@@ -6833,6 +6957,10 @@
       "s": "Apply Cooldown"
     },
     {
+      "hash": "972028133",
+      "s": "Delete Spawned Cages"
+    },
+    {
       "hash": "972118445",
       "s": "Height"
     },
@@ -6899,10 +7027,6 @@
     {
       "hash": "982806917",
       "s": "Max Popularity"
-    },
-    {
-      "hash": "982931535",
-      "s": "Coordinate X"
     },
     {
       "hash": "983338341",
@@ -7285,6 +7409,10 @@
       "s": "Write the value above to the tunable of the currently configured target"
     },
     {
+      "hash": "1034977219",
+      "s": "Move Player"
+    },
+    {
       "hash": "1035382517",
       "s": "Rocket Explosion List"
     },
@@ -7391,10 +7519,6 @@
     {
       "hash": "1048333259",
       "s": "Not friends"
-    },
-    {
-      "hash": "1048354470",
-      "s": "Teleport this player to/from others, your waypoint, or you"
     },
     {
       "hash": "1048625027",
@@ -7833,6 +7957,10 @@
       "s": "Show/hide the entity"
     },
     {
+      "hash": "1108536652",
+      "s": "Explosive ammo, projectile gun, and synchronized reward drops"
+    },
+    {
       "hash": "1109371704",
       "s": "Produce a unit of every good now"
     },
@@ -7983,6 +8111,10 @@
     {
       "hash": "1122478151",
       "s": "Spawn attacking peds/vehicles, cages, meteorites, drops on the selected players"
+    },
+    {
+      "hash": "1122574679",
+      "s": "Mugger"
     },
     {
       "hash": "1122768232",
@@ -8497,6 +8629,10 @@
       "s": "Number 4"
     },
     {
+      "hash": "1183840901",
+      "s": "Cross two coloured stunt tubes around them"
+    },
+    {
       "hash": "1183949158",
       "s": "Queue the selected event through am_launcher and its normal eligibility checks"
     },
@@ -8885,6 +9021,10 @@
       "s": "Ghost"
     },
     {
+      "hash": "1232905200",
+      "s": "Launcher parameters did not resolve"
+    },
+    {
       "hash": "1233347392",
       "s": "Max X when randomizing"
     },
@@ -9039,6 +9179,10 @@
     {
       "hash": "1249770720",
       "s": "Panto"
+    },
+    {
+      "hash": "1251062965",
+      "s": "Published freemode event request for %s"
     },
     {
       "hash": "1251229783",
@@ -9425,10 +9569,6 @@
       "s": "Players you're monitoring for joinable status (live)"
     },
     {
-      "hash": "1304200782",
-      "s": "Trap them in a container"
-    },
-    {
       "hash": "1304977930",
       "s": "Send Session Invite"
     },
@@ -9645,8 +9785,16 @@
       "s": "Layout"
     },
     {
+      "hash": "1331801878",
+      "s": "Copy this player's outfit or send messages"
+    },
+    {
       "hash": "1332507788",
       "s": "Crew Godmode"
+    },
+    {
+      "hash": "1333081069",
+      "s": "P TP Bring"
     },
     {
       "hash": "1334902937",
@@ -9817,6 +9965,10 @@
       "s": "Translation manifest defined no downloadable font URLs"
     },
     {
+      "hash": "1354125363",
+      "s": "Time Trial"
+    },
+    {
       "hash": "1355383996",
       "s": "Club Female"
     },
@@ -9879,6 +10031,10 @@
     {
       "hash": "1361067007",
       "s": "Gamma correction"
+    },
+    {
+      "hash": "1361155506",
+      "s": "Moving Target"
     },
     {
       "hash": "1362487259",
@@ -9951,6 +10107,10 @@
     {
       "hash": "1372456893",
       "s": "Cap how many peds/vehicles/objects are drawn"
+    },
+    {
+      "hash": "1372690632",
+      "s": "Activities & Travel"
     },
     {
       "hash": "1372853329",
@@ -10277,6 +10437,10 @@
       "s": "Health restored"
     },
     {
+      "hash": "1421579140",
+      "s": "Hostile peds, vehicles, party NPCs, and MK2 attackers"
+    },
+    {
       "hash": "1422220325",
       "s": "Friend Requests"
     },
@@ -10517,6 +10681,10 @@
       "s": "Util Dark Green"
     },
     {
+      "hash": "1446804372",
+      "s": "Freemode Challenge"
+    },
+    {
       "hash": "1447179370",
       "s": "Nose Peak Lowering"
     },
@@ -10685,6 +10853,10 @@
       "s": "Jump back along your recent path"
     },
     {
+      "hash": "1471938552",
+      "s": "Teleport, spectate, and immediate actions for this player"
+    },
+    {
       "hash": "1473304072",
       "s": "Poo Mobile"
     },
@@ -10699,6 +10871,10 @@
     {
       "hash": "1474878835",
       "s": "Resupply/sell/teleport 15 businesses, MC bulk, salvage, heat"
+    },
+    {
+      "hash": "1475043620",
+      "s": "Choose a cage type"
     },
     {
       "hash": "1475411949",
@@ -10963,6 +11139,10 @@
     {
       "hash": "1511942769",
       "s": "Global shadow, gamma, blur & saturation"
+    },
+    {
+      "hash": "1512107879",
+      "s": "P Spawn Vehicles"
     },
     {
       "hash": "1512788512",
@@ -11569,6 +11749,10 @@
       "s": "Escort them with a Mini Tank"
     },
     {
+      "hash": "1601656767",
+      "s": "Send Mugger"
+    },
+    {
       "hash": "1603309291",
       "s": "Remove all props"
     },
@@ -11667,10 +11851,6 @@
     {
       "hash": "1615946514",
       "s": "Matte Dark Red"
-    },
-    {
-      "hash": "1616013337",
-      "s": "Act on this player's current vehicle: handling, EMP, fix, clone, delete"
     },
     {
       "hash": "1616290805",
@@ -12873,6 +13053,10 @@
       "s": "Add this player to your Fake Friends list (by Rockstar ID)"
     },
     {
+      "hash": "1776235312",
+      "s": "Container Cage"
+    },
+    {
       "hash": "1776309052",
       "s": "Adrenaline"
     },
@@ -13031,10 +13215,6 @@
     {
       "hash": "1799028247",
       "s": "Select an entity first."
-    },
-    {
-      "hash": "1800038722",
-      "s": "Crash this player's game (exploit-based; often patched)"
     },
     {
       "hash": "1800047404",
@@ -13337,10 +13517,6 @@
       "s": "Rim Colour"
     },
     {
-      "hash": "1844006718",
-      "s": "Custom destination Z coordinate"
-    },
-    {
       "hash": "1844513861",
       "s": "Rebuild the Lua VM and re-run every enabled script"
     },
@@ -13351,10 +13527,6 @@
     {
       "hash": "1846921368",
       "s": "Matte"
-    },
-    {
-      "hash": "1848559105",
-      "s": "To Others"
     },
     {
       "hash": "1848640417",
@@ -13837,6 +14009,10 @@
       "s": "Center Height"
     },
     {
+      "hash": "1908025410",
+      "s": "Disruptions"
+    },
+    {
       "hash": "1908225537",
       "s": "Override moon cycle to 60%"
     },
@@ -14069,6 +14245,10 @@
       "s": "Smoothing"
     },
     {
+      "hash": "1937420886",
+      "s": "Money RP Gun"
+    },
+    {
       "hash": "1937774085",
       "s": "Aim & fire to rain a giant exploding gift present"
     },
@@ -14229,6 +14409,10 @@
       "s": "Fill the safe to max so it's collectable at the club"
     },
     {
+      "hash": "1961742164",
+      "s": "Gun Effects"
+    },
+    {
       "hash": "1962407326",
       "s": "Reload this slot's persisted name from the game"
     },
@@ -14329,6 +14513,10 @@
       "s": "Keep Online Vehicles"
     },
     {
+      "hash": "1970787398",
+      "s": "P TP Move"
+    },
+    {
       "hash": "1971026099",
       "s": "Limit horizontal camera movement"
     },
@@ -14359,6 +14547,10 @@
     {
       "hash": "1973583944",
       "s": "Sun Mode"
+    },
+    {
+      "hash": "1974782391",
+      "s": "Drop engine unavailable; the freemode signature did not resolve"
     },
     {
       "hash": "1974795549",
@@ -14621,10 +14813,6 @@
       "s": "Visible"
     },
     {
-      "hash": "2005562782",
-      "s": "Custom destination Y coordinate"
-    },
-    {
       "hash": "2006437405",
       "s": "Copy Outfit"
     },
@@ -14683,6 +14871,10 @@
     {
       "hash": "2010375494",
       "s": "Blast Trails Type"
+    },
+    {
+      "hash": "2011485378",
+      "s": "P Crash Spawns"
     },
     {
       "hash": "2011796785",
@@ -14933,6 +15125,10 @@
       "s": "Possessed Animals"
     },
     {
+      "hash": "2042699149",
+      "s": "Script-event actions such as bounty, wanted level, off-radar, and CEO actions"
+    },
+    {
       "hash": "2043255259",
       "s": "Apply heavy random damage"
     },
@@ -14987,6 +15183,10 @@
     {
       "hash": "2047844519",
       "s": "When Finished"
+    },
+    {
+      "hash": "2048748151",
+      "s": "Organization"
     },
     {
       "hash": "2049606051",
@@ -15051,6 +15251,10 @@
     {
       "hash": "2058568184",
       "s": "Act Selection"
+    },
+    {
+      "hash": "2060235553",
+      "s": "P Veh Performance"
     },
     {
       "hash": "2060281461",
@@ -15605,6 +15809,10 @@
       "s": "Rotation Sensitivity (Gamepad)"
     },
     {
+      "hash": "2135425760",
+      "s": "World Events"
+    },
+    {
       "hash": "2135705662",
       "s": "Attack Selected Player"
     },
@@ -16025,6 +16233,10 @@
       "s": "End Forward"
     },
     {
+      "hash": "2192459371",
+      "s": "Handling, horn boost, EMP, slick road, repair, crush, and auto flip"
+    },
+    {
       "hash": "2192607270",
       "s": "Ball Type"
     },
@@ -16151,6 +16363,10 @@
     {
       "hash": "2210193755",
       "s": "Where to gather entities: the held entity, near your ped, or both"
+    },
+    {
+      "hash": "2211066017",
+      "s": "A gang-call service is already running"
     },
     {
       "hash": "2211453155",
@@ -16313,6 +16529,14 @@
       "s": "Database cleared."
     },
     {
+      "hash": "2242100014",
+      "s": "Checkpoint Collection"
+    },
+    {
+      "hash": "2242797879",
+      "s": "Send genuine GTA Online events and services to this player"
+    },
+    {
       "hash": "2243618746",
       "s": "Stripey"
     },
@@ -16465,10 +16689,6 @@
       "s": "Select | F favourite"
     },
     {
-      "hash": "2261746017",
-      "s": "Spawn attacking peds/vehicles, cages, meteorites, drops on this player"
-    },
-    {
       "hash": "2262120112",
       "s": "Texture Variation"
     },
@@ -16519,6 +16739,10 @@
     {
       "hash": "2266598132",
       "s": "When Aiming"
+    },
+    {
+      "hash": "2267010037",
+      "s": "P Troll Attackers"
     },
     {
       "hash": "2267243708",
@@ -16843,6 +17067,10 @@
     {
       "hash": "2307900660",
       "s": "Badge"
+    },
+    {
+      "hash": "2308106787",
+      "s": "Apply directional forces to their current vehicle"
     },
     {
       "hash": "2308404065",
@@ -17177,6 +17405,10 @@
       "s": "Pick the effect to fire (Curated or Browse) + set its scale"
     },
     {
+      "hash": "2364469056",
+      "s": "Distract Cops"
+    },
+    {
       "hash": "2364787335",
       "s": "ESC to cancel"
     },
@@ -17303,6 +17535,10 @@
     {
       "hash": "2377310008",
       "s": "Doomsday replay cooldown removed."
+    },
+    {
+      "hash": "2377646786",
+      "s": "P Remote Organization"
     },
     {
       "hash": "2378849624",
@@ -18401,6 +18637,10 @@
       "s": "Delay between drops while enabled"
     },
     {
+      "hash": "2540024016",
+      "s": "Ammo & Drops"
+    },
+    {
       "hash": "2540654705",
       "s": "Agency"
     },
@@ -18585,6 +18825,10 @@
       "s": "Spawn a health-snack pickup at them"
     },
     {
+      "hash": "2564541732",
+      "s": "Nearby Attackers"
+    },
+    {
       "hash": "2565282005",
       "s": "Metallic Purple"
     },
@@ -18623,6 +18867,10 @@
     {
       "hash": "2572504952",
       "s": "Plane"
+    },
+    {
+      "hash": "2573308222",
+      "s": "Available session-removal methods for this player"
     },
     {
       "hash": "2574486239",
@@ -18989,6 +19237,10 @@
       "s": "Spawn hostile fighter planes that hunt you"
     },
     {
+      "hash": "2627769629",
+      "s": "P Weapon Effects"
+    },
+    {
       "hash": "2628609974",
       "s": "Shape - Mother"
     },
@@ -19301,6 +19553,10 @@
       "s": "Use this audio file"
     },
     {
+      "hash": "2673519775",
+      "s": "Pickups"
+    },
+    {
       "hash": "2674635229",
       "s": "Change your player model (Spooner ped list)"
     },
@@ -19387,6 +19643,10 @@
     {
       "hash": "2683970857",
       "s": "Task Sequence"
+    },
+    {
+      "hash": "2685549945",
+      "s": "Vehicle Trap"
     },
     {
       "hash": "2686638888",
@@ -19637,6 +19897,10 @@
       "s": "Explosive hits & super punch"
     },
     {
+      "hash": "2724949040",
+      "s": "Start, move, or remove this player from activities and locations"
+    },
+    {
       "hash": "2725301519",
       "s": "Payphone hit reset"
     },
@@ -19765,6 +20029,10 @@
       "s": "Set Position to Me"
     },
     {
+      "hash": "2742934988",
+      "s": "Elevator Cage"
+    },
+    {
       "hash": "2743127901",
       "s": "Browse & multi-select vehicles"
     },
@@ -19799,6 +20067,10 @@
     {
       "hash": "2747662494",
       "s": "Handling Tuning"
+    },
+    {
+      "hash": "2747777419",
+      "s": "Cages, kidnapping, barriers, and containment"
     },
     {
       "hash": "2748690943",
@@ -19895,6 +20167,10 @@
     {
       "hash": "2759839495",
       "s": "Mark the bounty as placed by you"
+    },
+    {
+      "hash": "2761035915",
+      "s": "Give or remove weapons"
     },
     {
       "hash": "2761290064",
@@ -20097,6 +20373,10 @@
       "s": "Pick a vehicle."
     },
     {
+      "hash": "2787083141",
+      "s": "P Remote Activities"
+    },
+    {
       "hash": "2787089723",
       "s": "Movement Styles"
     },
@@ -20155,6 +20435,10 @@
     {
       "hash": "2795971186",
       "s": "Ruby Necklace"
+    },
+    {
+      "hash": "2797319174",
+      "s": "Spawns"
     },
     {
       "hash": "2797868570",
@@ -20537,6 +20821,10 @@
       "s": "No player selected"
     },
     {
+      "hash": "2844867214",
+      "s": "P Veh Live"
+    },
+    {
       "hash": "2846765108",
       "s": "File deleted."
     },
@@ -20729,6 +21017,10 @@
       "s": "Deselect all picked entities"
     },
     {
+      "hash": "2874681872",
+      "s": "Create synchronized reward drops where this player's shots impact"
+    },
+    {
       "hash": "2875098855",
       "s": "Heists"
     },
@@ -20839,6 +21131,10 @@
     {
       "hash": "2888922529",
       "s": "Auto-fire homing missiles at nearby flying vehicles"
+    },
+    {
+      "hash": "2888990079",
+      "s": "Visual effects, forces, explosions, projectiles, camera effects, and tazing"
     },
     {
       "hash": "2889049257",
@@ -21333,6 +21629,10 @@
       "s": "The Slashers"
     },
     {
+      "hash": "2951277130",
+      "s": "Vehicles, cages, attackers, world events, and pickups"
+    },
+    {
       "hash": "2951475707",
       "s": "Moon Mode"
     },
@@ -21437,6 +21737,10 @@
       "s": "Account & Character Tools"
     },
     {
+      "hash": "2966640147",
+      "s": "P Weapon Ammo"
+    },
+    {
       "hash": "2967564012",
       "s": "Delay between finger shots"
     },
@@ -21497,8 +21801,16 @@
       "s": "Setup Nightclub"
     },
     {
+      "hash": "2980299445",
+      "s": "Event Crashes"
+    },
+    {
       "hash": "2980478099",
       "s": "Pick a part to modify"
+    },
+    {
+      "hash": "2980698543",
+      "s": "Select another player first"
     },
     {
       "hash": "2981204674",
@@ -21521,6 +21833,10 @@
       "s": "Clothing"
     },
     {
+      "hash": "2987283230",
+      "s": "State & Access"
+    },
+    {
       "hash": "2988342908",
       "s": "Velocity"
     },
@@ -21537,6 +21853,10 @@
       "s": "Grant staff/equipment/DJ"
     },
     {
+      "hash": "2989770485",
+      "s": "Destroy Vehicle"
+    },
+    {
       "hash": "2991187565",
       "s": "Blend two weather types at once with a mix slider"
     },
@@ -21547,6 +21867,10 @@
     {
       "hash": "2992172786",
       "s": "Join a session, or stand near the activity whose script you want to host"
+    },
+    {
+      "hash": "2992574760",
+      "s": "Trap them between two elevator structures"
     },
     {
       "hash": "2992695883",
@@ -21595,6 +21919,10 @@
     {
       "hash": "3000709290",
       "s": "Kick From Vehicle"
+    },
+    {
+      "hash": "3001428466",
+      "s": "Events"
     },
     {
       "hash": "3001663836",
@@ -21767,6 +22095,10 @@
     {
       "hash": "3025582629",
       "s": "Wave Interval"
+    },
+    {
+      "hash": "3025670851",
+      "s": "Delete, magnet, tryhard, and ram gun effects"
     },
     {
       "hash": "3025754990",
@@ -22091,6 +22423,10 @@
     {
       "hash": "3071324765",
       "s": "Script-event remote actions: bounty, wanted, off-radar, CEO kick/raid, kicks"
+    },
+    {
+      "hash": "3072373482",
+      "s": "P Remote Disruptions"
     },
     {
       "hash": "3072588155",
@@ -22521,6 +22857,10 @@
       "s": "Blow Up"
     },
     {
+      "hash": "3132062978",
+      "s": "Player Quick Actions"
+    },
+    {
       "hash": "3132638093",
       "s": "Apply believable core records for an established online character"
     },
@@ -22665,6 +23005,10 @@
       "s": "Armor Action"
     },
     {
+      "hash": "3150719665",
+      "s": "Available methods for removing this player from the session"
+    },
+    {
       "hash": "3150775842",
       "s": "Back Flip"
     },
@@ -22719,6 +23063,10 @@
     {
       "hash": "3159041413",
       "s": "Modshop Black 1"
+    },
+    {
+      "hash": "3159092775",
+      "s": "P Veh State"
     },
     {
       "hash": "3159295490",
@@ -23113,6 +23461,10 @@
       "s": "Interior Light"
     },
     {
+      "hash": "3209848055",
+      "s": "Entity and model spawn-based crash methods"
+    },
+    {
       "hash": "3210514298",
       "s": "Bad Sport"
     },
@@ -23405,6 +23757,10 @@
       "s": "Account recovery, character completion and achievements"
     },
     {
+      "hash": "3258727015",
+      "s": "P Spawn Attackers"
+    },
+    {
       "hash": "3259298831",
       "s": "Region"
     },
@@ -23439,6 +23795,10 @@
     {
       "hash": "3262036842",
       "s": "Remove all peds"
+    },
+    {
+      "hash": "3262050799",
+      "s": "Health, armour, ammunition, parachute, and gift pickups"
     },
     {
       "hash": "3262210549",
@@ -23885,6 +24245,10 @@
       "s": "Ascent speed while aiming"
     },
     {
+      "hash": "3322633837",
+      "s": "P Troll Spawns"
+    },
+    {
       "hash": "3322848858",
       "s": "Neon"
     },
@@ -23919,6 +24283,10 @@
     {
       "hash": "3325823664",
       "s": "Neon Front"
+    },
+    {
+      "hash": "3325988914",
+      "s": "To Another Player"
     },
     {
       "hash": "3326046236",
@@ -24089,6 +24457,10 @@
       "s": "Emit a particle trail behind each ball"
     },
     {
+      "hash": "3352062609",
+      "s": "CEO raid and organization controls"
+    },
+    {
       "hash": "3352065284",
       "s": "Category"
     },
@@ -24199,6 +24571,10 @@
     {
       "hash": "3365242314",
       "s": "Q/E Roll    Shift Boost    Z/X or Space/Ctrl Up/Down"
+    },
+    {
+      "hash": "3365245151",
+      "s": "P Veh Actions"
     },
     {
       "hash": "3365365368",
@@ -24477,6 +24853,10 @@
       "s": "Teleport To Unit"
     },
     {
+      "hash": "3399546271",
+      "s": "P Troll Effects"
+    },
+    {
       "hash": "3399655528",
       "s": "Override the game's lightning (restores originals when off)"
     },
@@ -24693,6 +25073,10 @@
       "s": "Notify"
     },
     {
+      "hash": "3423858215",
+      "s": "Props, followers, vehicles, cages, traps, pickups, and world events"
+    },
+    {
       "hash": "3424133290",
       "s": "Wheel decal duration"
     },
@@ -24893,6 +25277,10 @@
       "s": "Offline"
     },
     {
+      "hash": "3455525841",
+      "s": "Move this player to you, your waypoint, or another player"
+    },
+    {
       "hash": "3455807008",
       "s": "Change Opacity"
     },
@@ -25017,8 +25405,8 @@
       "s": "Normal / Hard"
     },
     {
-      "hash": "3476142625",
-      "s": "Ask the running ambient event's synchronized state machine to shut down cleanly"
+      "hash": "3477865764",
+      "s": "P Spawn Events"
     },
     {
       "hash": "3478056406",
@@ -25101,6 +25489,10 @@
       "s": "Network Blocked"
     },
     {
+      "hash": "3487253395",
+      "s": "Joyrider"
+    },
+    {
       "hash": "3487448774",
       "s": "Remove Wanted Level"
     },
@@ -25135,6 +25527,10 @@
     {
       "hash": "3491783794",
       "s": "Apply a random colour"
+    },
+    {
+      "hash": "3492282943",
+      "s": "Plane Takedown"
     },
     {
       "hash": "3492917701",
@@ -25493,6 +25889,10 @@
       "s": "Hookers spawned at this player"
     },
     {
+      "hash": "3543943600",
+      "s": "Player Attackers"
+    },
+    {
       "hash": "3544324240",
       "s": "US East"
     },
@@ -25581,12 +25981,12 @@
       "s": "Black Hole"
     },
     {
-      "hash": "3556432779",
-      "s": "Client-side only on this build -- the basket rewriter is Enhanced-only. Purchases will still be charged."
+      "hash": "3556393189",
+      "s": "Teleport or skydive to this player"
     },
     {
-      "hash": "3557217636",
-      "s": "Custom destination X coordinate"
+      "hash": "3556432779",
+      "s": "Client-side only on this build -- the basket rewriter is Enhanced-only. Purchases will still be charged."
     },
     {
       "hash": "3557660557",
@@ -25707,6 +26107,10 @@
     {
       "hash": "3571583355",
       "s": "Protection state initialized"
+    },
+    {
+      "hash": "3571928026",
+      "s": "Trap them in a large container"
     },
     {
       "hash": "3573740920",
@@ -26001,6 +26405,10 @@
       "s": "Enable Artillery Gun"
     },
     {
+      "hash": "3617334759",
+      "s": "P Remote Status"
+    },
+    {
       "hash": "3617433522",
       "s": "Get ready"
     },
@@ -26063,6 +26471,10 @@
     {
       "hash": "3627130484",
       "s": "Target filtering, smoothing, prediction and aim HUD"
+    },
+    {
+      "hash": "3628423618",
+      "s": "Delete cages and vehicle traps created by these options"
     },
     {
       "hash": "3628551877",
@@ -26199,6 +26611,10 @@
     {
       "hash": "3643087801",
       "s": "Burst a wheel (or all)"
+    },
+    {
+      "hash": "3643607409",
+      "s": "Profile, outfit, friend, fake-friend, and monitor actions"
     },
     {
       "hash": "3644047594",
@@ -26489,6 +26905,10 @@
       "s": "NOS"
     },
     {
+      "hash": "3683606538",
+      "s": "P Social Messaging"
+    },
+    {
       "hash": "3684344214",
       "s": "Remove Rule"
     },
@@ -26745,6 +27165,10 @@
       "s": "Explosion Proof"
     },
     {
+      "hash": "3714388764",
+      "s": "Performance"
+    },
+    {
       "hash": "3715581042",
       "s": "Wanted level control"
     },
@@ -26765,8 +27189,8 @@
       "s": "Vehicle Repaired"
     },
     {
-      "hash": "3718922726",
-      "s": "Custom Coordinates"
+      "hash": "3718486599",
+      "s": "Move other players to this player"
     },
     {
       "hash": "3719642673",
@@ -27009,6 +27433,10 @@
       "s": "Player Teleport"
     },
     {
+      "hash": "3748890474",
+      "s": "Godmode, freeze, visibility, collision, doors, engine, wheels, and stealing"
+    },
+    {
       "hash": "3750987887",
       "s": "Explosions deal damage"
     },
@@ -27183,10 +27611,6 @@
     {
       "hash": "3770263177",
       "s": "Cycle your weapon's tint (higher = slower)"
-    },
-    {
-      "hash": "3772065653",
-      "s": "Give Money/RP Gun"
     },
     {
       "hash": "3772072710",
@@ -27429,6 +27853,10 @@
       "s": "Spawn 50 player models on them"
     },
     {
+      "hash": "3802809926",
+      "s": "Spawn Crashes"
+    },
+    {
       "hash": "3802906643",
       "s": "Choose automatic responses for entity protections"
     },
@@ -27553,6 +27981,10 @@
       "s": "You skydive in above this player"
     },
     {
+      "hash": "3815458374",
+      "s": "Cages & Traps"
+    },
+    {
       "hash": "3815868227",
       "s": "That unit is gone."
     },
@@ -27655,6 +28087,10 @@
     {
       "hash": "3829462067",
       "s": "Also target your own character (off by default)"
+    },
+    {
+      "hash": "3829489312",
+      "s": "Escort vehicles, diving jets, police cars, and vehicle attackers"
     },
     {
       "hash": "3830880322",
@@ -27989,6 +28425,10 @@
       "s": "Light Multiplier"
     },
     {
+      "hash": "3872047339",
+      "s": "Turn their gunfire against them or give and remove weapons"
+    },
+    {
       "hash": "3872431025",
       "s": "Maximize Price"
     },
@@ -28313,6 +28753,10 @@
       "s": "Teleport To You"
     },
     {
+      "hash": "3911181768",
+      "s": "Exploit-based crash methods that may be patched"
+    },
+    {
       "hash": "3911386985",
       "s": "Browse peds from the gtaDiscoveryApi catalog"
     },
@@ -28459,6 +28903,10 @@
     {
       "hash": "3932555197",
       "s": "Relock selected unlock progress while preserving ownership, money and rank"
+    },
+    {
+      "hash": "3932893177",
+      "s": "Spawn hostile characters around this player"
     },
     {
       "hash": "3933678113",
@@ -28685,6 +29133,10 @@
       "s": "Already friends or request pending"
     },
     {
+      "hash": "3958616937",
+      "s": "Live Controls"
+    },
+    {
       "hash": "3958966674",
       "s": "Restyling nearby traffic."
     },
@@ -28907,6 +29359,10 @@
     {
       "hash": "3996001654",
       "s": "Far Fade End"
+    },
+    {
+      "hash": "3996127604",
+      "s": "P Weapon Inventory"
     },
     {
       "hash": "3997453335",
@@ -29585,10 +30041,6 @@
       "s": "Send the convoy away and clean it up"
     },
     {
-      "hash": "4089006742",
-      "s": "Coordinate Y"
-    },
-    {
       "hash": "4089485290",
       "s": "Toast when a monitored player becomes joinable"
     },
@@ -29719,6 +30171,10 @@
     {
       "hash": "4106174994",
       "s": "Mark Fixer story/general/completed preps done"
+    },
+    {
+      "hash": "4106463005",
+      "s": "Profile & Connections"
     },
     {
       "hash": "4107073082",
@@ -29917,6 +30373,10 @@
       "s": "Show them a fake ban message"
     },
     {
+      "hash": "4128312154",
+      "s": "Send repeated text messages to this player"
+    },
+    {
       "hash": "4128341665",
       "s": "Util Blue"
     },
@@ -30035,10 +30495,6 @@
     {
       "hash": "4142301824",
       "s": "Surge Speed"
-    },
-    {
-      "hash": "4142936309",
-      "s": "Turn their gunfire against them: explosive/projectile/delete/magnet/ram; give/strip weapons"
     },
     {
       "hash": "4143676605",
@@ -30191,6 +30647,10 @@
     {
       "hash": "4161037960",
       "s": "Lowest vertex stride to target"
+    },
+    {
+      "hash": "4161777971",
+      "s": "Current-vehicle actions or spawn a vehicle beside this player"
     },
     {
       "hash": "4162772305",
