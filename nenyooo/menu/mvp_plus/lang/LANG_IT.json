@@ -402,7 +402,7 @@
     },
     {
       "hash": "57666773",
-      "s": "Could not acquire freemode host; use an invite-only session"
+      "s": "Impossibile acquisire l'host freemode; usa una sessione solo invito"
     },
     {
       "hash": "57744472",
@@ -2605,10 +2605,6 @@
       "s": "Rinchiuso"
     },
     {
-      "hash": "356655657",
-      "s": "Lancia l'evento selezionato per la sessione; richiede freemode script host"
-    },
-    {
       "hash": "357028859",
       "s": "Anteprima Arma"
     },
@@ -3331,10 +3327,6 @@
     {
       "hash": "450375057",
       "s": "Ritardo tra le gocce di pioggia"
-    },
-    {
-      "hash": "450466950",
-      "s": "Scrivi il tempo di disponibilità runtime dell'evento selezionato; richiede freemode script host"
     },
     {
       "hash": "451330602",
@@ -8633,10 +8625,6 @@
       "s": "Incrocia due tubi stunt colorati attorno a loro"
     },
     {
-      "hash": "1183949158",
-      "s": "Metti in coda l'evento selezionato tramite am_launcher e i suoi normali controlli di idoneità"
-    },
-    {
       "hash": "1184369541",
       "s": "Abilita pistola hash"
     },
@@ -9046,7 +9034,7 @@
     },
     {
       "hash": "1235442802",
-      "s": "This player is not inside a vehicle."
+      "s": "Questo giocatore non è all'interno di un veicolo."
     },
     {
       "hash": "1235841754",
@@ -10406,7 +10394,7 @@
     },
     {
       "hash": "1414461105",
-      "s": "Teleport into an available seat in this player's current vehicle"
+      "s": "Teletrasportati in un posto disponibile nel veicolo attuale di questo giocatore"
     },
     {
       "hash": "1415413464",
@@ -10767,6 +10755,10 @@
     {
       "hash": "1457381902",
       "s": "Millisecondi tra le raffiche di effetti speciali lanciate"
+    },
+    {
+      "hash": "1458336234",
+      "s": "Scrivi il cooldown di runtime dell'evento selezionato"
     },
     {
       "hash": "1459573804",
@@ -14886,7 +14878,7 @@
     },
     {
       "hash": "2011796785",
-      "s": "Invia il rapinatore natalizio di GTA Online contro questo giocatore"
+      "s": "Invia il mugger festivo Gooch di GTA Online contro questo giocatore"
     },
     {
       "hash": "2012481869",
@@ -17422,7 +17414,7 @@
     },
     {
       "hash": "2365656318",
-      "s": "This player's vehicle has no available seats."
+      "s": "Il veicolo di questo giocatore non ha posti disponibili."
     },
     {
       "hash": "2366890398",
@@ -19830,7 +19822,7 @@
     },
     {
       "hash": "2712514755",
-      "s": "Could not find this player's vehicle."
+      "s": "Impossibile trovare il veicolo di questo giocatore."
     },
     {
       "hash": "2713536967",
@@ -22162,7 +22154,7 @@
     },
     {
       "hash": "3031776873",
-      "s": "Invia l'evento Community Outreach di GTA Online a questo giocatore"
+      "s": "Invia l'evento Community Outreach di GTA Online contro questo giocatore"
     },
     {
       "hash": "3032878783",
@@ -22247,6 +22239,10 @@
     {
       "hash": "3045612617",
       "s": "Colore neon"
+    },
+    {
+      "hash": "3046001411",
+      "s": "Scrivi il tempo di disponibilità di runtime dell'evento selezionato"
     },
     {
       "hash": "3046191344",
@@ -25394,7 +25390,7 @@
     },
     {
       "hash": "3471202074",
-      "s": "Invia evento casuale Phantom Car di GTA Online dopo questo giocatore"
+      "s": "Invia l'evento auto casuale Phantom Car di GTA Online contro questo giocatore"
     },
     {
       "hash": "3471811834",
@@ -27833,10 +27829,6 @@
       "s": "Applica Disponibilità"
     },
     {
-      "hash": "3798710900",
-      "s": "Scrivi il cooldown runtime dell'evento selezionato; richiede host script freemode"
-    },
-    {
       "hash": "3798861331",
       "s": "Passi colonna (altezza)"
     },
@@ -28447,6 +28439,10 @@
     {
       "hash": "3872431025",
       "s": "Prezzo massimo"
+    },
+    {
+      "hash": "3872605514",
+      "s": "Metti in coda l'evento selezionato tramite il launcher eventi di GTA Online"
     },
     {
       "hash": "3872705940",
@@ -29518,7 +29514,7 @@
     },
     {
       "hash": "4010684889",
-      "s": "Teleport & Seat Into Vehicle"
+      "s": "Teletrasporto e Posto nel Veicolo"
     },
     {
       "hash": "4011647192",
@@ -29581,6 +29577,10 @@
       "s": "Tempo di ricerca"
     },
     {
+      "hash": "4019133755",
+      "s": "Avvia l'evento selezionato per la sessione"
+    },
+    {
       "hash": "4020614357",
       "s": "Cerchio piatto"
     },
@@ -29598,7 +29598,7 @@
     },
     {
       "hash": "4022972171",
-      "s": "Could not acquire the running event's script host"
+      "s": "Impossibile acquisire l'host dello script dell'evento in esecuzione"
     },
     {
       "hash": "4023690303",

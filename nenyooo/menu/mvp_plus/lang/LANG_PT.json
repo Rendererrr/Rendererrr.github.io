@@ -402,7 +402,7 @@
     },
     {
       "hash": "57666773",
-      "s": "Could not acquire freemode host; use an invite-only session"
+      "s": "Não foi possível adquirir o host do freemode; use uma sessão exclusiva por convite"
     },
     {
       "hash": "57744472",
@@ -2605,10 +2605,6 @@
       "s": "Encurralado"
     },
     {
-      "hash": "356655657",
-      "s": "Lançar o evento selecionado para a sessão; requer host de script freemode"
-    },
-    {
       "hash": "357028859",
       "s": "Prévia de arma"
     },
@@ -3331,10 +3327,6 @@
     {
       "hash": "450375057",
       "s": "Atraso entre as gotas de chuva"
-    },
-    {
-      "hash": "450466950",
-      "s": "Escrever o tempo de disponibilidade em tempo de execução do evento selecionado; requer host de script freemode"
     },
     {
       "hash": "451330602",
@@ -8633,10 +8625,6 @@
       "s": "Cruzar dois tubos de acrobacias de cores ao redor deles"
     },
     {
-      "hash": "1183949158",
-      "s": "Enfileirar o evento selecionado através do am_launcher e das suas verificações normais de elegibilidade"
-    },
-    {
       "hash": "1184369541",
       "s": "Habilitar Arma de Hash"
     },
@@ -9046,7 +9034,7 @@
     },
     {
       "hash": "1235442802",
-      "s": "This player is not inside a vehicle."
+      "s": "Este jogador não está dentro de um veículo."
     },
     {
       "hash": "1235841754",
@@ -10406,7 +10394,7 @@
     },
     {
       "hash": "1414461105",
-      "s": "Teleport into an available seat in this player's current vehicle"
+      "s": "Teletransportar para um assento disponível no veículo atual deste jogador"
     },
     {
       "hash": "1415413464",
@@ -10767,6 +10755,10 @@
     {
       "hash": "1457381902",
       "s": "Milissegundos entre as rajadas de efeitos especiais lançadas"
+    },
+    {
+      "hash": "1458336234",
+      "s": "Escrever o tempo de recarga em tempo de execução do evento selecionado"
     },
     {
       "hash": "1459573804",
@@ -14886,7 +14878,7 @@
     },
     {
       "hash": "2011796785",
-      "s": "Enviar o assaltante de feriados do GTA Online, Gooch, atrás deste jogador"
+      "s": "Enviar o mugger de feriado Gooch do GTA Online atrás deste jogador"
     },
     {
       "hash": "2012481869",
@@ -17422,7 +17414,7 @@
     },
     {
       "hash": "2365656318",
-      "s": "This player's vehicle has no available seats."
+      "s": "O veículo deste jogador não tem assentos disponíveis."
     },
     {
       "hash": "2366890398",
@@ -19830,7 +19822,7 @@
     },
     {
       "hash": "2712514755",
-      "s": "Could not find this player's vehicle."
+      "s": "Não foi possível encontrar o veículo deste jogador."
     },
     {
       "hash": "2713536967",
@@ -22162,7 +22154,7 @@
     },
     {
       "hash": "3031776873",
-      "s": "Enviar o evento Outreach da Comunidade do GTA Online para este jogador"
+      "s": "Enviar o evento de Outreach da Comunidade do GTA Online atrás deste jogador"
     },
     {
       "hash": "3032878783",
@@ -22247,6 +22239,10 @@
     {
       "hash": "3045612617",
       "s": "Cor Neon"
+    },
+    {
+      "hash": "3046001411",
+      "s": "Escrever o tempo de disponibilidade em tempo de execução do evento selecionado"
     },
     {
       "hash": "3046191344",
@@ -25394,7 +25390,7 @@
     },
     {
       "hash": "3471202074",
-      "s": "Enviar evento aleatório do Phantom Car do GTA Online após este jogador"
+      "s": "Enviar o evento aleatório de Carro Fantasma do GTA Online atrás deste jogador"
     },
     {
       "hash": "3471811834",
@@ -27833,10 +27829,6 @@
       "s": "Aplicar Disponibilidade"
     },
     {
-      "hash": "3798710900",
-      "s": "Escrever o tempo de recarga em tempo de execução do evento selecionado; requer host de script freemode"
-    },
-    {
       "hash": "3798861331",
       "s": "Degraus da coluna (altura)"
     },
@@ -28447,6 +28439,10 @@
     {
       "hash": "3872431025",
       "s": "Maximizar Preço"
+    },
+    {
+      "hash": "3872605514",
+      "s": "Enfileirar o evento selecionado através do lançador de eventos do GTA Online"
     },
     {
       "hash": "3872705940",
@@ -29518,7 +29514,7 @@
     },
     {
       "hash": "4010684889",
-      "s": "Teleport & Seat Into Vehicle"
+      "s": "Teletransportar & Assento no Veículo"
     },
     {
       "hash": "4011647192",
@@ -29581,6 +29577,10 @@
       "s": "Tempo de Pesquisa"
     },
     {
+      "hash": "4019133755",
+      "s": "Lançar o evento selecionado para a sessão"
+    },
+    {
       "hash": "4020614357",
       "s": "Círculo plano"
     },
@@ -29598,7 +29598,7 @@
     },
     {
       "hash": "4022972171",
-      "s": "Could not acquire the running event's script host"
+      "s": "Não foi possível adquirir o host do script do evento em execução"
     },
     {
       "hash": "4023690303",

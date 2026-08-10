@@ -402,7 +402,7 @@
     },
     {
       "hash": "57666773",
-      "s": "Could not acquire freemode host; use an invite-only session"
+      "s": "Freemode sunucusuna erişilemedi; yalnızca davetli oturum kullanın"
     },
     {
       "hash": "57744472",
@@ -2605,10 +2605,6 @@
       "s": "Kapanmış"
     },
     {
-      "hash": "356655657",
-      "s": "Seçilen etkinliği oturum için başlat; freemode betik sunucusu gerektirir"
-    },
-    {
       "hash": "357028859",
       "s": "Silah Önizlemesi"
     },
@@ -3331,10 +3327,6 @@
     {
       "hash": "450375057",
       "s": "Yağ damlaları arasındaki gecikme"
-    },
-    {
-      "hash": "450466950",
-      "s": "Seçilen olayın çalışma zamanı kullanılabilirliğini yazın; freemode betik sunucusu gerektirir"
     },
     {
       "hash": "451330602",
@@ -5146,7 +5138,7 @@
     },
     {
       "hash": "699276512",
-      "s": "Bu oyuncuya karşı GTA Online'ın gerçek gaspçı hizmetini başlat"
+      "s": "Bu oyuncuya karşı GTA Online'ın gerçek Mugger hizmetini başlat"
     },
     {
       "hash": "699989965",
@@ -8633,10 +8625,6 @@
       "s": "Etraflarında iki renkli stunt tüpleri çiz"
     },
     {
-      "hash": "1183949158",
-      "s": "Seçilen etkinliği am_launcher ve normal uygunluk kontrolleri aracılığıyla kuyruğa al"
-    },
-    {
       "hash": "1184369541",
       "s": "Hash Silahını Etkinleştir"
     },
@@ -10767,6 +10755,10 @@
     {
       "hash": "1457381902",
       "s": "Fırlatılan FX patlamaları arasındaki milisaniyeler"
+    },
+    {
+      "hash": "1458336234",
+      "s": "Seçilen etkinliğin çalışma zamanı soğuma süresini yazın"
     },
     {
       "hash": "1459573804",
@@ -14886,7 +14878,7 @@
     },
     {
       "hash": "2011796785",
-      "s": "GTA Online'ın Gooch tatil haydudunu bu oyuncunun peşine gönder"
+      "s": "Bu oyuncunun ardından GTA Online'ın Gooch tatil mugger'ını gönderin"
     },
     {
       "hash": "2012481869",
@@ -22162,7 +22154,7 @@
     },
     {
       "hash": "3031776873",
-      "s": "Bu oyuncudan sonra GTA Online'ın Topluluk Desteği etkinliğini gönder"
+      "s": "Bu oyuncunun ardından GTA Online'ın Topluluk Desteği etkinliğini gönderin"
     },
     {
       "hash": "3032878783",
@@ -22247,6 +22239,10 @@
     {
       "hash": "3045612617",
       "s": "Neon Renk"
+    },
+    {
+      "hash": "3046001411",
+      "s": "Seçilen etkinliğin çalışma zamanı kullanılabilirlik süresini yazın"
     },
     {
       "hash": "3046191344",
@@ -25394,7 +25390,7 @@
     },
     {
       "hash": "3471202074",
-      "s": "Bu oyuncudan sonra GTA Online'ın Phantom Arabası rastgele etkinliğini gönder"
+      "s": "Bu oyuncunun ardından GTA Online'ın Phantom Araba rastgele etkinliğini gönderin"
     },
     {
       "hash": "3471811834",
@@ -27833,10 +27829,6 @@
       "s": "Kullanılabilirliği Uygula"
     },
     {
-      "hash": "3798710900",
-      "s": "Seçilen etkinliğin çalışma zamanı soğutmasını yazır; freemode betik sunucusu gerektirir"
-    },
-    {
       "hash": "3798861331",
       "s": "Sütun basamakları (yükseklik)"
     },
@@ -28447,6 +28439,10 @@
     {
       "hash": "3872431025",
       "s": "Fiyatı Maksimize Et"
+    },
+    {
+      "hash": "3872605514",
+      "s": "Seçilen etkinliği GTA Online'ın etkinlik başlatıcısı aracılığıyla kuyruğa alın"
     },
     {
       "hash": "3872705940",
@@ -29581,6 +29577,10 @@
       "s": "Araştırma Süresi"
     },
     {
+      "hash": "4019133755",
+      "s": "Seçilen etkinliği oturum için başlatın"
+    },
+    {
       "hash": "4020614357",
       "s": "Düz Daire"
     },
@@ -29598,7 +29598,7 @@
     },
     {
       "hash": "4022972171",
-      "s": "Could not acquire the running event's script host"
+      "s": "Çalışan etkinliğin betik sunucusuna erişilemedi"
     },
     {
       "hash": "4023690303",

@@ -2605,10 +2605,6 @@
       "s": "Penned In"
     },
     {
-      "hash": "356655657",
-      "s": "Launch the selected event for the session; requires freemode script host"
-    },
-    {
       "hash": "357028859",
       "s": "Weapon Preview"
     },
@@ -3331,10 +3327,6 @@
     {
       "hash": "450375057",
       "s": "Delay between rain drops"
-    },
-    {
-      "hash": "450466950",
-      "s": "Write the selected event's runtime availability time; requires freemode script host"
     },
     {
       "hash": "451330602",
@@ -8633,10 +8625,6 @@
       "s": "Cross two coloured stunt tubes around them"
     },
     {
-      "hash": "1183949158",
-      "s": "Queue the selected event through am_launcher and its normal eligibility checks"
-    },
-    {
       "hash": "1184369541",
       "s": "Enable Hash Gun"
     },
@@ -10767,6 +10755,10 @@
     {
       "hash": "1457381902",
       "s": "Milliseconds between launched FX bursts"
+    },
+    {
+      "hash": "1458336234",
+      "s": "Write the selected event's runtime cooldown"
     },
     {
       "hash": "1459573804",
@@ -22249,6 +22241,10 @@
       "s": "Neon Color"
     },
     {
+      "hash": "3046001411",
+      "s": "Write the selected event's runtime availability time"
+    },
+    {
       "hash": "3046191344",
       "s": "Disable HUD"
     },
@@ -27833,10 +27829,6 @@
       "s": "Apply Availability"
     },
     {
-      "hash": "3798710900",
-      "s": "Write the selected event's runtime cooldown; requires freemode script host"
-    },
-    {
       "hash": "3798861331",
       "s": "Column steps (height)"
     },
@@ -28447,6 +28439,10 @@
     {
       "hash": "3872431025",
       "s": "Maximize Price"
+    },
+    {
+      "hash": "3872605514",
+      "s": "Queue the selected event through GTA Online's event launcher"
     },
     {
       "hash": "3872705940",
@@ -29579,6 +29575,10 @@
     {
       "hash": "4018769071",
       "s": "Research Time"
+    },
+    {
+      "hash": "4019133755",
+      "s": "Launch the selected event for the session"
     },
     {
       "hash": "4020614357",

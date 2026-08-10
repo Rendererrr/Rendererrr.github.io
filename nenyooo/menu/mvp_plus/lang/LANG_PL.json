@@ -402,7 +402,7 @@
     },
     {
       "hash": "57666773",
-      "s": "Could not acquire freemode host; use an invite-only session"
+      "s": "Nie udało się pozyskać hosta freemode; użyj sesji tylko dla zaproszonych"
     },
     {
       "hash": "57744472",
@@ -2605,10 +2605,6 @@
       "s": "Uwięziony"
     },
     {
-      "hash": "356655657",
-      "s": "Uruchom wybrane wydarzenie na sesję; wymaga hosta skryptu freemode"
-    },
-    {
       "hash": "357028859",
       "s": "Podgląd broni"
     },
@@ -3331,10 +3327,6 @@
     {
       "hash": "450375057",
       "s": "Opóźnienie między kroplami deszczu"
-    },
-    {
-      "hash": "450466950",
-      "s": "Zapisz czas dostępności zdarzenia w czasie działania; wymaga hosta skryptu freemode"
     },
     {
       "hash": "451330602",
@@ -5146,7 +5138,7 @@
     },
     {
       "hash": "699276512",
-      "s": "Uruchom autentyczną usługę Muggera z GTA Online przeciwko temu graczowi"
+      "s": "Uruchom autentyczną usługę Mugger z GTA Online przeciwko temu graczowi"
     },
     {
       "hash": "699989965",
@@ -8633,10 +8625,6 @@
       "s": "Połącz dwie kolorowe rury kaskaderskie wokół nich"
     },
     {
-      "hash": "1183949158",
-      "s": "Umieść wybrane wydarzenie przez am_launcher i jego normalne sprawdzenia kwalifikacji"
-    },
-    {
       "hash": "1184369541",
       "s": "Włącz działo mieszające"
     },
@@ -9046,7 +9034,7 @@
     },
     {
       "hash": "1235442802",
-      "s": "This player is not inside a vehicle."
+      "s": "Ten gracz nie znajduje się w pojeździe."
     },
     {
       "hash": "1235841754",
@@ -10406,7 +10394,7 @@
     },
     {
       "hash": "1414461105",
-      "s": "Teleport into an available seat in this player's current vehicle"
+      "s": "Przenieś się na dostępne miejsce w aktualnym pojeździe tego gracza"
     },
     {
       "hash": "1415413464",
@@ -10767,6 +10755,10 @@
     {
       "hash": "1457381902",
       "s": "Milisekundy między odpalonymi efektami specjalnymi"
+    },
+    {
+      "hash": "1458336234",
+      "s": "Zapisz czas odnowienia dla wybranego zdarzenia"
     },
     {
       "hash": "1459573804",
@@ -14886,7 +14878,7 @@
     },
     {
       "hash": "2011796785",
-      "s": "Wyślij rabusię świąteczną Gooch z GTA Online za tym graczem"
+      "s": "Wyślij wydarzenie świątecznego Muggera Gooch z GTA Online za tym graczem"
     },
     {
       "hash": "2012481869",
@@ -17422,7 +17414,7 @@
     },
     {
       "hash": "2365656318",
-      "s": "This player's vehicle has no available seats."
+      "s": "W pojeździe tego gracza nie ma dostępnych miejsc."
     },
     {
       "hash": "2366890398",
@@ -19830,7 +19822,7 @@
     },
     {
       "hash": "2712514755",
-      "s": "Could not find this player's vehicle."
+      "s": "Nie udało się znaleźć pojazdu tego gracza."
     },
     {
       "hash": "2713536967",
@@ -22162,7 +22154,7 @@
     },
     {
       "hash": "3031776873",
-      "s": "Wyślij wydarzenie Outreach społeczności GTA Online do tego gracza"
+      "s": "Wyślij wydarzenie Community Outreach z GTA Online za tym graczem"
     },
     {
       "hash": "3032878783",
@@ -22247,6 +22239,10 @@
     {
       "hash": "3045612617",
       "s": "Kolor neonowy"
+    },
+    {
+      "hash": "3046001411",
+      "s": "Zapisz czas dostępności dla wybranego zdarzenia"
     },
     {
       "hash": "3046191344",
@@ -25394,7 +25390,7 @@
     },
     {
       "hash": "3471202074",
-      "s": "Wyślij losowe wydarzenie \"Phantom Car\" w GTA Online po tym graczu"
+      "s": "Wyślij losowe wydarzenie Phantom Car z GTA Online za tym graczem"
     },
     {
       "hash": "3471811834",
@@ -27833,10 +27829,6 @@
       "s": "Zastosuj dostępność"
     },
     {
-      "hash": "3798710900",
-      "s": "Zapisz czas odnowienia zdarzenia; wymaga hosta skryptu freemode"
-    },
-    {
       "hash": "3798861331",
       "s": "Stopnie kolumny (wysokość)"
     },
@@ -28447,6 +28439,10 @@
     {
       "hash": "3872431025",
       "s": "Maksymalizuj Cena"
+    },
+    {
+      "hash": "3872605514",
+      "s": "W kolejce wybrane zdarzenie przez uruchomienie zdarzeń GTA Online"
     },
     {
       "hash": "3872705940",
@@ -29518,7 +29514,7 @@
     },
     {
       "hash": "4010684889",
-      "s": "Teleport & Seat Into Vehicle"
+      "s": "Teleport i miejsce w pojeździe"
     },
     {
       "hash": "4011647192",
@@ -29581,6 +29577,10 @@
       "s": "Czas badań"
     },
     {
+      "hash": "4019133755",
+      "s": "Uruchom wybrane zdarzenie na sesję"
+    },
+    {
       "hash": "4020614357",
       "s": "Płaski okrąg"
     },
@@ -29598,7 +29598,7 @@
     },
     {
       "hash": "4022972171",
-      "s": "Could not acquire the running event's script host"
+      "s": "Nie udało się pozyskać hosta skryptu dla uruchomionego zdarzenia"
     },
     {
       "hash": "4023690303",
