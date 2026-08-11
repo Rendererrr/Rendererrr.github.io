@@ -27,13 +27,12 @@ script.on_tick(function()
         return
     end
     if not menu.is_visible() then return end
-    -- While typing in a menu text field, lock out ALL game input so keystrokes don't drive the
-    -- player/vehicle/weapons (movement controls aren't in the list below). Pause stays enabled.
+    -- While typing in a menu field, lock out every game/frontend input so typed keys cannot drive
+    -- the player, vehicle, weapons, interaction menu, or pause menu.
     if menu.is_text_editing and menu.is_text_editing() then
         PAD.DISABLE_ALL_CONTROL_ACTIONS(0)
+        PAD.DISABLE_ALL_CONTROL_ACTIONS(1)
         PAD.DISABLE_ALL_CONTROL_ACTIONS(2)
-        PAD.ENABLE_CONTROL_ACTION(2, 199, true)
-        PAD.ENABLE_CONTROL_ACTION(2, 200, true)
         return
     end
     for _, c in ipairs(disable) do

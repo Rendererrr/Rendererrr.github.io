@@ -1,7 +1,7 @@
 
--- Player-info panels for Network -> Players. Standalone overlay (theme-independent). Four boxes:
--- Geolocation and Stats stacked in a left column, the main player panel beside them, and a preview
--- column holding the live ped (players.draw_ped / UI3D) over the world map.
+-- Player-info panels for Network -> Players. Standalone overlay (theme-independent). Geolocation and
+-- Stats stack in the left column, player details and the live ped preview occupy the upper-right area,
+-- and the location map spans both of those right-side columns below them.
 --
 -- Two rules exist because earlier revisions got them wrong and must not regress:
 --   * every value is drawn with text.draw_ellipsis against an explicit budget. A revision that simply
@@ -30,6 +30,7 @@ local MAP_UVSY, MAP_UVOY = -0.0000800781, 0.675
 local map_zoom, map_cu, map_cv    = 1.0, 0.5, 0.5
 local map_tzoom, map_tcu, map_tcv = 1.0, 0.5, 0.5
 local map_focus = -1
+local map_selected_id = -1
 local map_drag, map_dpx, map_dpy = false, 0, 0
 local function mclamp(v, lo, hi) return math.max(lo, math.min(hi, v)) end
 local function mease(speed, dt) if dt <= 0 then return 1.0 end return 1.0 - math.exp(-speed * dt) end
@@ -177,15 +178,18 @@ overlay.on_draw("player_panel", function()
     P(mn, L.crew, p.crew_name, L.tag, p.crew_tag)
 
     -- ---- placement ---------------------------------------------------------------------------------
-    local ped_h  = 306
-    local map_S  = WC - ipad * 2
-    local prev_h = ped_h + 6 + rh + map_S
+    local ped_h = 306
+    local map_W = WB + gapx + WC
+    local map_view_w = map_W - ipad * 2
+    local map_view_h = 210
 
     local hA = th + 3 + rows_h(geo) + ipad
     local hB = th + 3 + rows_h(st)  + ipad
     local hC = th + 3 + rows_h(mn)  + ipad
-    local hD = th + 3 + prev_h + ipad
-    local H  = math.max(hA + gapx + hB, hC, hD)
+    local hD = th + 3 + ped_h + ipad + 3
+    local map_panel_h = th + 3 + map_view_h + ipad + 3
+    local upper_right_h = math.max(hC, hD)
+    local H  = math.max(hA + gapx + hB, upper_right_h + gapx + map_panel_h)
 
     local bx, by, bw = menu.bounds()
     local X0, Y0
@@ -210,7 +214,7 @@ overlay.on_draw("player_panel", function()
     local yD = Y0
     local px0 = xC + ipad
     local py0 = yD + th + 3 + 3
-    local px1 = px0 + map_S
+    local px1 = px0 + WC - ipad * 2
     local py1 = py0 + ped_h
 
     -- The background is painted as four pieces AROUND the ped slot, never across it. The ped and its
@@ -220,7 +224,7 @@ overlay.on_draw("player_panel", function()
     draw.rect(xC, yD,  xC + WC, py0,      14, 14, 18, 238)   -- title strip
     draw.rect(xC, py0, px0,     py1,      14, 14, 18, 238)   -- left of slot
     draw.rect(px1, py0, xC + WC, py1,     14, 14, 18, 238)   -- right of slot
-    draw.rect(xC, py1, xC + WC, yD + hD,  14, 14, 18, 238)   -- map area below
+    draw.rect(xC, py1, xC + WC, yD + hD,  14, 14, 18, 238)   -- below the ped slot
     draw.rect_outline(xC, yD, xC + WC, yD + hD, 255, 255, 255, 22, 0, 1)
     text.draw(rfont, xC + ipad, yD + math.floor((th - text.height(rfont)) / 2), 232, 236, 246, 255, string.upper(L.preview))
     draw.rect(xC, yD + th, xC + WC, yD + th + 2, ar, ag, ab, 255)
@@ -235,37 +239,60 @@ overlay.on_draw("player_panel", function()
     end
     if not ped_ok then
         local s = L.no_preview
-        text.draw(font.tiny, px0 + (map_S - text.width(font.tiny, s)) * 0.5, py0 + ped_h * 0.5 - 6,
+        text.draw(font.tiny, px0 + ((px1 - px0) - text.width(font.tiny, s)) * 0.5, py0 + ped_h * 0.5 - 6,
             120, 126, 142, 255, s)
     end
 
-    -- Geometry consumed by the world-map block below (kept verbatim from the previous revision).
-    local map_vx  = px0
-    local map_top = py1 + 6
-    local map_y   = map_top + rh
-    -- World map (third column on the right). Plots every active player; local = cyan, selected/
-    -- highlighted = accent, others = white. Drag to pan, scroll to zoom, click a blip to zoom+center.
+    -- The location panel spans the main-info and preview columns. This gives the map enough room to
+    -- remain useful while keeping the ped preview intact above it.
+    local map_x = xB
+    local map_y0 = Y0 + upper_right_h + gapx
+    draw.rect(map_x, map_y0, map_x + map_W, map_y0 + map_panel_h, 14, 14, 18, 238)
+    draw.rect_outline(map_x, map_y0, map_x + map_W, map_y0 + map_panel_h, 255, 255, 255, 22, 0, 1)
+    text.draw_ellipsis(rfont, map_x + ipad, map_y0 + math.floor((th - text.height(rfont)) / 2),
+        232, 236, 246, 255, string.upper(L.location), map_W - ipad * 2)
+    draw.rect(map_x, map_y0 + th, map_x + map_W, map_y0 + th + 2, ar, ag, ab, 255)
+
+    local map_vx = map_x + ipad
+    local map_vy = map_y0 + th + 6
+    -- World map spanning columns two and three. Local = cyan, selected/highlighted = accent,
+    -- others = white. Drag to pan, scroll to zoom, click a blip to zoom+center.
     do
-        local S  = map_S
-        local vx = map_vx
-        local vy = map_y
+        local VW, VH = map_view_w, map_view_h
+        local vx, vy = map_vx, map_vy
         local dt = ctx.delta()
         local hi_id = p.player_id or -1
 
-        text.draw(rfont, vx + 4, map_top + 3, 150, 150, 164, 255, L.location)
-
-        draw.rect(vx, vy, vx + S, vy + S, 12, 13, 18, 255)
+        draw.rect(vx, vy, vx + VW, vy + VH, 12, 13, 18, 255)
 
         local ready = players.map_ensure()
         local path  = players.map_path()
         local blips = players.map_blips()
 
-        local mx, my = input.mouse_x(), input.mouse_y()
-        local inside = mx >= vx and mx <= vx + S and my >= vy and my <= vy + S
+        -- A new row selection becomes the camera target. Only update the target here; the live map
+        -- transform below eases toward it, so rapid keyboard navigation remains fluid rather than snapping.
+        if hi_id ~= map_selected_id then
+            local selected_blip = nil
+            for i = 1, #blips do
+                if blips[i].id == hi_id then selected_blip = blips[i]; break end
+            end
+            if selected_blip then
+                map_selected_id = hi_id
+                map_focus = hi_id
+                map_tcu = MAP_UVSX * selected_blip.x + MAP_UVOX
+                map_tcv = MAP_UVSY * selected_blip.y + MAP_UVOY
+                map_tzoom = 1.7
+                map_drag = false
+            end
+        end
 
-        local side_now = S * map_zoom
-        local dxn = vx + S * 0.5 - map_cu * side_now
-        local dyn = vy + S * 0.5 - map_cv * side_now
+        local mx, my = input.mouse_x(), input.mouse_y()
+        local inside = mx >= vx and mx <= vx + VW and my >= vy and my <= vy + VH
+
+        local base_side = math.max(VW, VH)
+        local side_now = base_side * map_zoom
+        local dxn = vx + VW * 0.5 - map_cu * side_now
+        local dyn = vy + VH * 0.5 - map_cv * side_now
 
         if inside then
             local hit = nil
@@ -280,7 +307,7 @@ overlay.on_draw("player_panel", function()
                     map_focus = hit.id
                     map_tcu = MAP_UVSX * hit.x + MAP_UVOX
                     map_tcv = MAP_UVSY * hit.y + MAP_UVOY
-                    map_tzoom = 4.0
+                    map_tzoom = 2.2
                 else
                     map_drag = true; map_dpx, map_dpy = mx, my
                 end
@@ -290,9 +317,9 @@ overlay.on_draw("player_panel", function()
                 local ucur = (mx - dxn) / side_now
                 local vcur = (my - dyn) / side_now
                 map_tzoom = mclamp(map_tzoom * (w > 0 and 1.25 or (1 / 1.25)), 1.0, 8.0)
-                local side_t = S * map_tzoom
-                map_tcu = ucur + (vx + S * 0.5 - mx) / side_t
-                map_tcv = vcur + (vy + S * 0.5 - my) / side_t
+                local side_t = base_side * map_tzoom
+                map_tcu = ucur + (vx + VW * 0.5 - mx) / side_t
+                map_tcv = vcur + (vy + VH * 0.5 - my) / side_t
             end
         end
         if map_drag then
@@ -308,18 +335,20 @@ overlay.on_draw("player_panel", function()
         if map_tzoom <= 1.0 then
             map_tcu, map_tcv = 0.5, 0.5
         else
-            local th = 0.5 / map_tzoom
-            map_tcu = mclamp(map_tcu, th, 1 - th); map_tcv = mclamp(map_tcv, th, 1 - th)
+            local thu = (VW / base_side) * 0.5 / map_tzoom
+            local thv = (VH / base_side) * 0.5 / map_tzoom
+            map_tcu = mclamp(map_tcu, thu, 1 - thu); map_tcv = mclamp(map_tcv, thv, 1 - thv)
         end
-        local k = mease(14.0, dt)
-        map_zoom = map_zoom + (map_tzoom - map_zoom) * k
-        map_cu   = map_cu + (map_tcu - map_cu) * k
-        map_cv   = map_cv + (map_tcv - map_cv) * k
+        local zoom_k = mease(5.5, dt)
+        local pan_k = mease(7.0, dt)
+        map_zoom = map_zoom + (map_tzoom - map_zoom) * zoom_k
+        map_cu   = map_cu + (map_tcu - map_cu) * pan_k
+        map_cv   = map_cv + (map_tcv - map_cv) * pan_k
 
-        draw.push_clip(vx, vy, vx + S, vy + S)
-        local side = S * map_zoom
-        local dx0 = vx + S * 0.5 - map_cu * side
-        local dy0 = vy + S * 0.5 - map_cv * side
+        draw.push_clip(vx, vy, vx + VW, vy + VH)
+        local side = base_side * map_zoom
+        local dx0 = vx + VW * 0.5 - map_cu * side
+        local dy0 = vy + VH * 0.5 - map_cv * side
         local drawn = ready and draw.preview_image(path, dx0, dy0, dx0 + side, dy0 + side, 1.0, false)
         if drawn then
             local hov, hov_x, hov_y
@@ -327,7 +356,7 @@ overlay.on_draw("player_panel", function()
                 local b = blips[i]
                 local sx = dx0 + (MAP_UVSX * b.x + MAP_UVOX) * side
                 local sy = dy0 + (MAP_UVSY * b.y + MAP_UVOY) * side
-                if sx >= vx and sx <= vx + S and sy >= vy and sy <= vy + S then
+                if sx >= vx and sx <= vx + VW and sy >= vy and sy <= vy + VH then
                     local cr, cg, cb = 240, 240, 240
                     if b["local"] then
                         cr, cg, cb = 90, 200, 255
@@ -336,7 +365,7 @@ overlay.on_draw("player_panel", function()
                     end
                     draw.circle(sx, sy, 4.0, 0, 0, 0, 200)
                     draw.circle(sx, sy, 2.6, cr, cg, cb, 255)
-                    if b.id == map_focus then draw.circle_outline(sx, sy, 6.0, ar, ag, ab, 1.5) end
+                    if b.id == hi_id or b.id == map_focus then draw.circle_outline(sx, sy, 6.0, ar, ag, ab, 1.5) end
                     if (sx - mx) * (sx - mx) + (sy - my) * (sy - my) <= 49 then
                         hov = (b.name and b.name ~= "") and b.name or ("Player " .. tostring(b.id))
                         hov_x, hov_y = sx, sy
@@ -346,16 +375,16 @@ overlay.on_draw("player_panel", function()
             draw.pop_clip()
             if hov then
                 local tw = text.width(font.tiny, hov) + 10
-                local tx = mclamp(hov_x + 8, vx, vx + S - tw)
-                local ty = mclamp(hov_y - 16, vy, vy + S - 14)
+                local tx = mclamp(hov_x + 8, vx, vx + VW - tw)
+                local ty = mclamp(hov_y - 16, vy, vy + VH - 14)
                 draw.rect(tx, ty, tx + tw, ty + 14, 0, 0, 0, 215, 3)
                 text.draw(font.tiny, tx + 5, ty + 2, 235, 235, 235, 255, hov)
             end
         else
             draw.pop_clip()
             local s = L.loading_map
-            text.draw(font.tiny, vx + (S - text.width(font.tiny, s)) * 0.5, vy + S * 0.5 - 6, 150, 154, 165, 255, s)
+            text.draw(font.tiny, vx + (VW - text.width(font.tiny, s)) * 0.5, vy + VH * 0.5 - 6, 150, 154, 165, 255, s)
         end
-        draw.rect_outline(vx, vy, vx + S, vy + S, ar, ag, ab, 255, 0, 1)
+        draw.rect_outline(vx, vy, vx + VW, vy + VH, ar, ag, ab, 255, 0, 1)
     end
 end)
