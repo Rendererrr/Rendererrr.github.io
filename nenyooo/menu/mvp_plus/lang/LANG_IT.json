@@ -821,6 +821,10 @@
       "s": "Propulsione a razzo (+ calcio in avanti durante la propulsione)"
     },
     {
+      "hash": "110238782",
+      "s": "A piena velocità a"
+    },
+    {
       "hash": "110977456",
       "s": "Accelerazione/freno moto"
     },
@@ -2993,6 +2997,10 @@
       "s": "Traccianti & Tracce"
     },
     {
+      "hash": "382332008",
+      "s": "Rimbalza più velocemente quanto più si muove l'entità"
+    },
+    {
       "hash": "382665233",
       "s": "Vittoria immediata applicata"
     },
@@ -3503,6 +3511,10 @@
     {
       "hash": "443636013",
       "s": "Offset"
+    },
+    {
+      "hash": "443809670",
+      "s": "Aumento di velocità massima"
     },
     {
       "hash": "443844796",
@@ -8765,6 +8777,10 @@
       "s": "Lavoro del Club MC"
     },
     {
+      "hash": "1130332569",
+      "s": "Quantità di allungamento"
+    },
+    {
       "hash": "1131395779",
       "s": "Velocità di rotazione"
     },
@@ -11753,6 +11769,10 @@
       "s": "Staccato."
     },
     {
+      "hash": "1490292702",
+      "s": "Rimbalza gli oggetti vicini nel mondo"
+    },
+    {
       "hash": "1491447932",
       "s": "Genera un modello umano SLOD su di loro"
     },
@@ -11951,6 +11971,10 @@
     {
       "hash": "1520442396",
       "s": "Rimuovi le modifiche alle ruote"
+    },
+    {
+      "hash": "1520836718",
+      "s": "Allungamento verticale -- 1.00 senza rimbalzo su/giù"
     },
     {
       "hash": "1521412014",
@@ -12219,6 +12243,10 @@
     {
       "hash": "1552777190",
       "s": "Cielo notturno"
+    },
+    {
+      "hash": "1553308151",
+      "s": "Oscillazione laterale -- 1.00 senza schiacciamento orizzontale"
     },
     {
       "hash": "1553477746",
@@ -15861,6 +15889,10 @@
       "s": "Sostituisci con l'immagine"
     },
     {
+      "hash": "2012964552",
+      "s": "Velocità del ciclo di schiacciamento/allungamento"
+    },
+    {
       "hash": "2015866120",
       "s": "Messaggi spam"
     },
@@ -18489,6 +18521,10 @@
       "s": "Cloud Mid Mode"
     },
     {
+      "hash": "2353719683",
+      "s": "Rimbalza i veicoli vicini"
+    },
+    {
       "hash": "2353971972",
       "s": "Admin Toolkits"
     },
@@ -19243,6 +19279,10 @@
     {
       "hash": "2456023238",
       "s": "Sempre pulito"
+    },
+    {
+      "hash": "2457016778",
+      "s": "Rimbalza solo le entità entro questo numero di metri"
     },
     {
       "hash": "2457317634",
@@ -20075,6 +20115,10 @@
     {
       "hash": "2563541302",
       "s": "Estensione capsula (anteriore/posteriore)"
+    },
+    {
+      "hash": "2563565956",
+      "s": "Frequenza di rimbalzo"
     },
     {
       "hash": "2564007353",
@@ -21955,6 +21999,10 @@
     {
       "hash": "2806510807",
       "s": "Ora del giorno (0-23)"
+    },
+    {
+      "hash": "2807056039",
+      "s": "Rimbalza i peds vicini"
     },
     {
       "hash": "2807509304",
@@ -24767,6 +24815,10 @@
     {
       "hash": "3177398766",
       "s": "Disegna una scatola di delimitazione attorno all'entità tenuta/fluttuante"
+    },
+    {
+      "hash": "3177550784",
+      "s": "Entità che rimbalzano"
     },
     {
       "hash": "3178742601",
@@ -27825,6 +27877,10 @@
       "s": "Slot 3 disponibile"
     },
     {
+      "hash": "3566110501",
+      "s": "Fai schiacciare e allungare le entità vicine mentre si muovono"
+    },
+    {
       "hash": "3566582401",
       "s": "Sessione Solitaria"
     },
@@ -28195,6 +28251,10 @@
     {
       "hash": "3612598613",
       "s": "Solo Legacy. Modifica i tuoi dati di sessione pubblicizzati in modo che i cercatori ti classifichino più in alto: mantiene attivo il beacon di matchmaking (BEACON_WEIGHT), rende la sessione pubblica e rimuove la penalità da scorretto giocatore. Sicuro (modifica il buffer in uscita durante il volo, dimensione controllata) -- inattivo se la build del gioco è diversa. Disattiva se non aiuta."
+    },
+    {
+      "hash": "3613475640",
+      "s": "Velocità (m/s) a cui un'entità raggiunge la frequenza di rimbalzo massima"
     },
     {
       "hash": "3613731346",
@@ -30663,6 +30723,10 @@
     {
       "hash": "3902568145",
       "s": "Abito mantenuto."
+    },
+    {
+      "hash": "3902582355",
+      "s": "Velocità collegata"
     },
     {
       "hash": "3904350626",
@@ -33329,6 +33393,10 @@
       "s": "Sempre pulito"
     },
     {
+      "hash": "4224129994",
+      "s": "Fai schiacciare e allungare veicoli, peds e oggetti vicini"
+    },
+    {
       "hash": "4225085619",
       "s": "Inserisci per filtrare tutti i veicoli"
     },
@@ -33439,6 +33507,10 @@
     {
       "hash": "4238759168",
       "s": "Stato blocco"
+    },
+    {
+      "hash": "4239035803",
+      "s": "Quante volte più velocemente rimbalza un'entità a piena velocità"
     },
     {
       "hash": "4239142716",
@@ -33611,6 +33683,10 @@
     {
       "hash": "4258737318",
       "s": "Anteriore"
+    },
+    {
+      "hash": "4259164241",
+      "s": "Quantità di schiacciamento"
     },
     {
       "hash": "4259830395",

@@ -821,6 +821,10 @@
       "s": "Rocket boost (+ forward kick while boosting)"
     },
     {
+      "hash": "110238782",
+      "s": "Full Speed At"
+    },
+    {
       "hash": "110977456",
       "s": "Bike accel / brake"
     },
@@ -2993,6 +2997,10 @@
       "s": "Tracers & Trails"
     },
     {
+      "hash": "382332008",
+      "s": "Bounce faster the faster the entity is moving"
+    },
+    {
       "hash": "382665233",
       "s": "Instant win applied"
     },
@@ -3503,6 +3511,10 @@
     {
       "hash": "443636013",
       "s": "Offsets"
+    },
+    {
+      "hash": "443809670",
+      "s": "Max Speed Boost"
     },
     {
       "hash": "443844796",
@@ -8765,6 +8777,10 @@
       "s": "MC Club Work"
     },
     {
+      "hash": "1130332569",
+      "s": "Stretch Amount"
+    },
+    {
       "hash": "1131395779",
       "s": "Rotate Speed"
     },
@@ -11753,6 +11769,10 @@
       "s": "Detached."
     },
     {
+      "hash": "1490292702",
+      "s": "Bounce nearby world objects"
+    },
+    {
       "hash": "1491447932",
       "s": "Spawn a SLOD human model on them"
     },
@@ -11951,6 +11971,10 @@
     {
       "hash": "1520442396",
       "s": "Remove the wheel mods"
+    },
+    {
+      "hash": "1520836718",
+      "s": "Vertical stretch -- 1.00 is no up/down bounce"
     },
     {
       "hash": "1521412014",
@@ -12219,6 +12243,10 @@
     {
       "hash": "1552777190",
       "s": "Night Sky"
+    },
+    {
+      "hash": "1553308151",
+      "s": "Sideways wobble -- 1.00 is no horizontal squash"
     },
     {
       "hash": "1553477746",
@@ -15861,6 +15889,10 @@
       "s": "Replace with image"
     },
     {
+      "hash": "2012964552",
+      "s": "How fast the squash/stretch cycle runs"
+    },
+    {
       "hash": "2015866120",
       "s": "Spam Messages"
     },
@@ -18489,6 +18521,10 @@
       "s": "Cloud Mid Mode"
     },
     {
+      "hash": "2353719683",
+      "s": "Bounce nearby vehicles"
+    },
+    {
       "hash": "2353971972",
       "s": "Admin Toolkits"
     },
@@ -19243,6 +19279,10 @@
     {
       "hash": "2456023238",
       "s": "Always Clean"
+    },
+    {
+      "hash": "2457016778",
+      "s": "Only bounce entities within this many metres"
     },
     {
       "hash": "2457317634",
@@ -20075,6 +20115,10 @@
     {
       "hash": "2563541302",
       "s": "Capsule extent (front/back)"
+    },
+    {
+      "hash": "2563565956",
+      "s": "Bounce Rate"
     },
     {
       "hash": "2564007353",
@@ -21955,6 +21999,10 @@
     {
       "hash": "2806510807",
       "s": "Hour of day (0-23)"
+    },
+    {
+      "hash": "2807056039",
+      "s": "Bounce nearby peds"
     },
     {
       "hash": "2807509304",
@@ -24767,6 +24815,10 @@
     {
       "hash": "3177398766",
       "s": "Draw a bounding box around the held/hovered entity"
+    },
+    {
+      "hash": "3177550784",
+      "s": "Bouncing Entities"
     },
     {
       "hash": "3178742601",
@@ -27825,6 +27877,10 @@
       "s": "Slot 3 available"
     },
     {
+      "hash": "3566110501",
+      "s": "Make nearby entities squash and stretch as they move"
+    },
+    {
       "hash": "3566582401",
       "s": "Solo Session"
     },
@@ -28195,6 +28251,10 @@
     {
       "hash": "3612598613",
       "s": "Legacy only. Edits your advertised session data so searchers rank you higher: keeps the matchmaking beacon active (BEACON_WEIGHT), makes the session look public, and sheds the bad-sport penalty. Safe (edits the outgoing buffer in-flight, size-checked) -- inert if the game build differs. Turn off if it doesn't help."
+    },
+    {
+      "hash": "3613475640",
+      "s": "Speed (m/s) at which an entity reaches the maximum bounce rate"
     },
     {
       "hash": "3613731346",
@@ -30663,6 +30723,10 @@
     {
       "hash": "3902568145",
       "s": "Outfit kept."
+    },
+    {
+      "hash": "3902582355",
+      "s": "Speed Linked"
     },
     {
       "hash": "3904350626",
@@ -33329,6 +33393,10 @@
       "s": "Always Cleaned"
     },
     {
+      "hash": "4224129994",
+      "s": "Make nearby vehicles, peds and objects squash and stretch"
+    },
+    {
       "hash": "4225085619",
       "s": "Type to filter all vehicles"
     },
@@ -33439,6 +33507,10 @@
     {
       "hash": "4238759168",
       "s": "Lock Status"
+    },
+    {
+      "hash": "4239035803",
+      "s": "How many times faster a full-speed entity bounces"
     },
     {
       "hash": "4239142716",
@@ -33611,6 +33683,10 @@
     {
       "hash": "4258737318",
       "s": "Front"
+    },
+    {
+      "hash": "4259164241",
+      "s": "Squash Amount"
     },
     {
       "hash": "4259830395",

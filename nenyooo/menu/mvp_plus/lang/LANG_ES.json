@@ -821,6 +821,10 @@
       "s": "Impulso de cohete (+ impulso hacia adelante durante el impulso)"
     },
     {
+      "hash": "110238782",
+      "s": "A toda velocidad"
+    },
+    {
       "hash": "110977456",
       "s": "Aceleración/freno de moto"
     },
@@ -2993,6 +2997,10 @@
       "s": "Rastreadores y estelas"
     },
     {
+      "hash": "382332008",
+      "s": "Rebotar más rápido cuanto más rápido se mueve la entidad"
+    },
+    {
       "hash": "382665233",
       "s": "Victoria instantánea aplicada"
     },
@@ -3503,6 +3511,10 @@
     {
       "hash": "443636013",
       "s": "Desplazamientos"
+    },
+    {
+      "hash": "443809670",
+      "s": "Aumento de velocidad máxima"
     },
     {
       "hash": "443844796",
@@ -8765,6 +8777,10 @@
       "s": "Trabajo del club MC"
     },
     {
+      "hash": "1130332569",
+      "s": "Cantidad de estiramiento"
+    },
+    {
       "hash": "1131395779",
       "s": "Velocidad de rotación"
     },
@@ -11753,6 +11769,10 @@
       "s": "Desprendido."
     },
     {
+      "hash": "1490292702",
+      "s": "Rebotar objetos del mundo cercanos"
+    },
+    {
       "hash": "1491447932",
       "s": "Generar un modelo humano SLOD sobre ellos"
     },
@@ -11951,6 +11971,10 @@
     {
       "hash": "1520442396",
       "s": "Eliminar modificaciones de ruedas"
+    },
+    {
+      "hash": "1520836718",
+      "s": "Estiramiento vertical -- 1.00 no tiene rebote arriba/abajo"
     },
     {
       "hash": "1521412014",
@@ -12219,6 +12243,10 @@
     {
       "hash": "1552777190",
       "s": "Cielo nocturno"
+    },
+    {
+      "hash": "1553308151",
+      "s": "Desplazamiento lateral -- 1.00 no aplasta horizontalmente"
     },
     {
       "hash": "1553477746",
@@ -15861,6 +15889,10 @@
       "s": "Reemplazar con imagen"
     },
     {
+      "hash": "2012964552",
+      "s": "Velocidad del ciclo de aplastamiento/estiramiento"
+    },
+    {
       "hash": "2015866120",
       "s": "Mensajes de Spam"
     },
@@ -18489,6 +18521,10 @@
       "s": "Modo Nube Media"
     },
     {
+      "hash": "2353719683",
+      "s": "Rebotar vehículos cercanos"
+    },
+    {
       "hash": "2353971972",
       "s": "Herramientas de Administrador"
     },
@@ -19243,6 +19279,10 @@
     {
       "hash": "2456023238",
       "s": "Limpiar siempre"
+    },
+    {
+      "hash": "2457016778",
+      "s": "Solo rebotar entidades dentro de este número de metros"
     },
     {
       "hash": "2457317634",
@@ -20075,6 +20115,10 @@
     {
       "hash": "2563541302",
       "s": "Extensión de la cápsula (delantera/trasera)"
+    },
+    {
+      "hash": "2563565956",
+      "s": "Tasa de rebote"
     },
     {
       "hash": "2564007353",
@@ -21955,6 +21999,10 @@
     {
       "hash": "2806510807",
       "s": "Hora del día (0-23)"
+    },
+    {
+      "hash": "2807056039",
+      "s": "Rebotar peds cercanos"
     },
     {
       "hash": "2807509304",
@@ -24767,6 +24815,10 @@
     {
       "hash": "3177398766",
       "s": "Dibujar un cuadro delimitador alrededor de la entidad sostenida/sobre la que se flota"
+    },
+    {
+      "hash": "3177550784",
+      "s": "Entidades rebotando"
     },
     {
       "hash": "3178742601",
@@ -27825,6 +27877,10 @@
       "s": "Ranura 3 disponible"
     },
     {
+      "hash": "3566110501",
+      "s": "Hacer que las entidades cercanas se aplasten y estiren al moverse"
+    },
+    {
       "hash": "3566582401",
       "s": "Sesión en solitario"
     },
@@ -28195,6 +28251,10 @@
     {
       "hash": "3612598613",
       "s": "Solo legado. Edita tus datos de sesión anunciados para que los buscadores te clasifiquen más alto: mantiene activa la baliza de emparejamiento (BEACON_WEIGHT), hace que la sesión parezca pública y elimina la penalización por antideportivo. Seguro (edita el búfer de salida en vuelo, tamaño comprobado) -- inerte si la compilación del juego es diferente. Desactivar si no ayuda."
+    },
+    {
+      "hash": "3613475640",
+      "s": "Velocidad (m/s) a la que una entidad alcanza la tasa de rebote máxima"
     },
     {
       "hash": "3613731346",
@@ -30663,6 +30723,10 @@
     {
       "hash": "3902568145",
       "s": "Atuendo conservado."
+    },
+    {
+      "hash": "3902582355",
+      "s": "Velocidad enlazada"
     },
     {
       "hash": "3904350626",
@@ -33329,6 +33393,10 @@
       "s": "Siempre limpio"
     },
     {
+      "hash": "4224129994",
+      "s": "Hacer que los vehículos, peds y objetos cercanos se aplasten y estiren"
+    },
+    {
       "hash": "4225085619",
       "s": "Escribe para filtrar todos los vehículos"
     },
@@ -33439,6 +33507,10 @@
     {
       "hash": "4238759168",
       "s": "Estado del bloqueo"
+    },
+    {
+      "hash": "4239035803",
+      "s": "Cuántas veces más rápido rebota una entidad a toda velocidad"
     },
     {
       "hash": "4239142716",
@@ -33611,6 +33683,10 @@
     {
       "hash": "4258737318",
       "s": "Frente"
+    },
+    {
+      "hash": "4259164241",
+      "s": "Cantidad de aplastamiento"
     },
     {
       "hash": "4259830395",

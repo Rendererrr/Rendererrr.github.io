@@ -821,6 +821,10 @@
       "s": "Impulso de Foguete (+ chute para frente durante o impulso)"
     },
     {
+      "hash": "110238782",
+      "s": "A toda velocidade em"
+    },
+    {
       "hash": "110977456",
       "s": "Aceleração/freio da moto"
     },
@@ -2993,6 +2997,10 @@
       "s": "Rastreadores & Rastros"
     },
     {
+      "hash": "382332008",
+      "s": "Pular mais rápido quanto mais rápido a entidade se move"
+    },
+    {
       "hash": "382665233",
       "s": "Vitória instantânea aplicada"
     },
@@ -3503,6 +3511,10 @@
     {
       "hash": "443636013",
       "s": "Deslocamentos"
+    },
+    {
+      "hash": "443809670",
+      "s": "Aceleração Máxima"
     },
     {
       "hash": "443844796",
@@ -8765,6 +8777,10 @@
       "s": "Trabalho do MC Club"
     },
     {
+      "hash": "1130332569",
+      "s": "Quantidade de Alongamento"
+    },
+    {
       "hash": "1131395779",
       "s": "Velocidade de Rotação"
     },
@@ -11753,6 +11769,10 @@
       "s": "Desprendido."
     },
     {
+      "hash": "1490292702",
+      "s": "Pular em objetos próximos do mundo"
+    },
+    {
       "hash": "1491447932",
       "s": "Gera um modelo humano SLOD sobre eles"
     },
@@ -11951,6 +11971,10 @@
     {
       "hash": "1520442396",
       "s": "Remover modificações de rodas"
+    },
+    {
+      "hash": "1520836718",
+      "s": "Alongamento vertical -- 1.00 sem pulo para cima/baixo"
     },
     {
       "hash": "1521412014",
@@ -12219,6 +12243,10 @@
     {
       "hash": "1552777190",
       "s": "Céu Noturno"
+    },
+    {
+      "hash": "1553308151",
+      "s": "Deslocamento lateral -- 1.00 sem achatamento horizontal"
     },
     {
       "hash": "1553477746",
@@ -15861,6 +15889,10 @@
       "s": "Substituir por imagem"
     },
     {
+      "hash": "2012964552",
+      "s": "Velocidade do ciclo de achatamento/alongamento"
+    },
+    {
       "hash": "2015866120",
       "s": "Mensagens de Spam"
     },
@@ -18489,6 +18521,10 @@
       "s": "Modo Cloud Mid"
     },
     {
+      "hash": "2353719683",
+      "s": "Pular em veículos próximos"
+    },
+    {
       "hash": "2353971972",
       "s": "Kits de Administrador"
     },
@@ -19243,6 +19279,10 @@
     {
       "hash": "2456023238",
       "s": "Sempre Limpo"
+    },
+    {
+      "hash": "2457016778",
+      "s": "Pular apenas em entidades a esta distância (metros)"
     },
     {
       "hash": "2457317634",
@@ -20075,6 +20115,10 @@
     {
       "hash": "2563541302",
       "s": "Extensão da cápsula (frente/trás)"
+    },
+    {
+      "hash": "2563565956",
+      "s": "Taxa de Pulo"
     },
     {
       "hash": "2564007353",
@@ -21955,6 +21999,10 @@
     {
       "hash": "2806510807",
       "s": "Hora do dia (0-23)"
+    },
+    {
+      "hash": "2807056039",
+      "s": "Pular em Peds próximos"
     },
     {
       "hash": "2807509304",
@@ -24767,6 +24815,10 @@
     {
       "hash": "3177398766",
       "s": "Desenhar uma caixa delimitadora ao redor da entidade segurada/sobre a qual o cursor está posicionado"
+    },
+    {
+      "hash": "3177550784",
+      "s": "Entidades Pulando"
     },
     {
       "hash": "3178742601",
@@ -27825,6 +27877,10 @@
       "s": "Slot 3 disponível"
     },
     {
+      "hash": "3566110501",
+      "s": "Fazer com que entidades próximas se achathem e alonguem ao se moverem"
+    },
+    {
       "hash": "3566582401",
       "s": "Sessão Solo"
     },
@@ -28195,6 +28251,10 @@
     {
       "hash": "3612598613",
       "s": "Apenas Legacy. Edita seus dados de sessão anunciados para que os pesquisadores te classifiquem melhor: mantém o beacon de matchmaking ativo (BEACON_WEIGHT), faz a sessão parecer pública e remove a penalidade de mau jogador. Seguro (edita o buffer de saída em voo, tamanho verificado) -- inativo se a versão do jogo for diferente. Desative se não ajudar."
+    },
+    {
+      "hash": "3613475640",
+      "s": "Velocidade (m/s) em que uma entidade atinge a taxa máxima de pulo"
     },
     {
       "hash": "3613731346",
@@ -30663,6 +30723,10 @@
     {
       "hash": "3902568145",
       "s": "Roupa mantida."
+    },
+    {
+      "hash": "3902582355",
+      "s": "Velocidade Vinculada"
     },
     {
       "hash": "3904350626",
@@ -33329,6 +33393,10 @@
       "s": "Sempre Limpo"
     },
     {
+      "hash": "4224129994",
+      "s": "Fazer com que veículos, peds e objetos próximos se achathem e alonguem"
+    },
+    {
       "hash": "4225085619",
       "s": "Digite para filtrar todos os veículos"
     },
@@ -33439,6 +33507,10 @@
     {
       "hash": "4238759168",
       "s": "Status de bloqueio"
+    },
+    {
+      "hash": "4239035803",
+      "s": "Quantas vezes mais rápido uma entidade em velocidade máxima pula"
     },
     {
       "hash": "4239142716",
@@ -33611,6 +33683,10 @@
     {
       "hash": "4258737318",
       "s": "Frente"
+    },
+    {
+      "hash": "4259164241",
+      "s": "Quantidade de Achatamento"
     },
     {
       "hash": "4259830395",

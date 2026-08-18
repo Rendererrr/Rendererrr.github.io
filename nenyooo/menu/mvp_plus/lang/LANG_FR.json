@@ -821,6 +821,10 @@
       "s": "Propulseur à fusée (+ coup de pied avant pendant le propulseur)"
     },
     {
+      "hash": "110238782",
+      "s": "Vitesse maximale à"
+    },
+    {
       "hash": "110977456",
       "s": "Accél/frein moto"
     },
@@ -2993,6 +2997,10 @@
       "s": "Traceurs & Traînées"
     },
     {
+      "hash": "382332008",
+      "s": "Rebondir plus vite, plus l'entité bouge"
+    },
+    {
       "hash": "382665233",
       "s": "Victoire instantanée appliquée"
     },
@@ -3503,6 +3511,10 @@
     {
       "hash": "443636013",
       "s": "Décalages"
+    },
+    {
+      "hash": "443809670",
+      "s": "Boost de vitesse maximale"
     },
     {
       "hash": "443844796",
@@ -8765,6 +8777,10 @@
       "s": "Missions du club de motards"
     },
     {
+      "hash": "1130332569",
+      "s": "Intensité de l'étirement"
+    },
+    {
       "hash": "1131395779",
       "s": "Vitesse de rotation"
     },
@@ -11753,6 +11769,10 @@
       "s": "Détaché."
     },
     {
+      "hash": "1490292702",
+      "s": "Rebondir sur les objets du monde"
+    },
+    {
       "hash": "1491447932",
       "s": "Faire apparaître un modèle humain SLOD sur eux"
     },
@@ -11951,6 +11971,10 @@
     {
       "hash": "1520442396",
       "s": "Supprimer les modifications de roues"
+    },
+    {
+      "hash": "1520836718",
+      "s": "Étirement vertical -- 1.00 = pas de rebond haut/bas"
     },
     {
       "hash": "1521412014",
@@ -12219,6 +12243,10 @@
     {
       "hash": "1552777190",
       "s": "Ciel nocturne"
+    },
+    {
+      "hash": "1553308151",
+      "s": "Oscillation latérale -- 1.00 = pas d'écrasement horizontal"
     },
     {
       "hash": "1553477746",
@@ -15861,6 +15889,10 @@
       "s": "Remplacer par une image"
     },
     {
+      "hash": "2012964552",
+      "s": "Vitesse du cycle d'écrasement/étirement"
+    },
+    {
       "hash": "2015866120",
       "s": "Messages indésirables"
     },
@@ -18489,6 +18521,10 @@
       "s": "Mode Cloud Mid"
     },
     {
+      "hash": "2353719683",
+      "s": "Rebondir sur les véhicules à proximité"
+    },
+    {
       "hash": "2353971972",
       "s": "Kits d'administration"
     },
@@ -19243,6 +19279,10 @@
     {
       "hash": "2456023238",
       "s": "Toujours nettoyer"
+    },
+    {
+      "hash": "2457016778",
+      "s": "Rebondir uniquement sur les entités à moins de X mètres"
     },
     {
       "hash": "2457317634",
@@ -20075,6 +20115,10 @@
     {
       "hash": "2563541302",
       "s": "Dimensions de la capsule (avant/arrière)"
+    },
+    {
+      "hash": "2563565956",
+      "s": "Fréquence de rebond"
     },
     {
       "hash": "2564007353",
@@ -21955,6 +21999,10 @@
     {
       "hash": "2806510807",
       "s": "Heure de la journée (0-23)"
+    },
+    {
+      "hash": "2807056039",
+      "s": "Rebondir sur les PNJs à proximité"
     },
     {
       "hash": "2807509304",
@@ -24767,6 +24815,10 @@
     {
       "hash": "3177398766",
       "s": "Dessiner un cadre autour de l'entité maintenue/survolée"
+    },
+    {
+      "hash": "3177550784",
+      "s": "Entités en rebond"
     },
     {
       "hash": "3178742601",
@@ -27825,6 +27877,10 @@
       "s": "Emplacement 3 disponible"
     },
     {
+      "hash": "3566110501",
+      "s": "Faire écraser et étirer les entités à proximité lorsqu'elles bougent"
+    },
+    {
       "hash": "3566582401",
       "s": "Session solo"
     },
@@ -28195,6 +28251,10 @@
     {
       "hash": "3612598613",
       "s": "Héritage uniquement. Modifie vos données de session publicisées afin que les chercheurs vous classent plus haut : maintient le signal du matchmaking actif (BEACON_WEIGHT), rend la session publique et supprime la pénalité de mauvais joueur. Sûr (modifie le tampon sortant en vol, taille vérifiée) -- inerte si la version du jeu est différente. Désactivez si cela n'aide pas."
+    },
+    {
+      "hash": "3613475640",
+      "s": "Vitesse (m/s) à laquelle une entité atteint la fréquence de rebond maximale"
     },
     {
       "hash": "3613731346",
@@ -30663,6 +30723,10 @@
     {
       "hash": "3902568145",
       "s": "Tenue conservée."
+    },
+    {
+      "hash": "3902582355",
+      "s": "Vitesse liée"
     },
     {
       "hash": "3904350626",
@@ -33329,6 +33393,10 @@
       "s": "Toujours propre"
     },
     {
+      "hash": "4224129994",
+      "s": "Faire écraser et étirer les véhicules, les PNJs et les objets à proximité"
+    },
+    {
       "hash": "4225085619",
       "s": "Saisissez pour filtrer tous les véhicules"
     },
@@ -33439,6 +33507,10 @@
     {
       "hash": "4238759168",
       "s": "État du verrouillage"
+    },
+    {
+      "hash": "4239035803",
+      "s": "De combien de fois plus vite une entité à pleine vitesse rebondit"
     },
     {
       "hash": "4239142716",
@@ -33611,6 +33683,10 @@
     {
       "hash": "4258737318",
       "s": "Avant"
+    },
+    {
+      "hash": "4259164241",
+      "s": "Intensité de l'écrasement"
     },
     {
       "hash": "4259830395",
