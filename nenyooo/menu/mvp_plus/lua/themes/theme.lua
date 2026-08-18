@@ -53,10 +53,10 @@ local DESC_H     = 34
 
 -- ── Palette (defaults; live values come from Settings ▸ Theme via reload_colors) ──
 local COL = {
-    glow    = {120, 40, 220, 255}, -- purple bloom behind the 3D N
-    hdr_l   = {138, 43, 226, 255}, -- header gradient left  (purple)
-    hdr_r   = {0, 209, 224, 255},  -- header gradient right (cyan)
-    black   = {0, 0, 0, 255},
+    glow    = {220, 129, 39, 255}, -- orange bloom behind the 3D N
+    hdr_l   = {226, 97,  42, 255}, -- header gradient left  (orange)
+    hdr_r   = {255, 122, 0,  255}, -- header gradient right (orange)
+    black   = {0, 0, 0, 199},
     sub_bg  = {12, 12, 12, 255},  -- #0c0c0c
     desc_bg = {12, 12, 12, 255},
     row_txt = {221, 221, 221},   -- #ddd
@@ -88,6 +88,16 @@ local TAG_COL = {
 -- Single source of truth for every customizable value. Drives registration, the
 -- live readers, the reset action, and the persisted file — all stay in sync.
 local SETTINGS_FILE = "theme_settings.ini"
+
+-- Bump this any time the DEFAULT values in the tables below (LAYOUT_DEFS / FONT_DEFS / COLOR_MAP /
+-- ACCENT_MAP / FX_DEFS / PANEL_DEFS) change and you want existing users to pick up the new defaults.
+-- On load, a saved file whose __version key does not match this number is discarded, so the fresh
+-- defaults land the next time the user launches. Nothing is prompted -- the pull-forward is silent,
+-- same as the "Reset Theme" action, just automatic.
+-- History:
+--   1  initial (purple accent, scrollbar on, hotkey hint on)
+--   2  orange accent + slightly transparent menu bg + scrollbar/hotkey-hint off by default
+local SETTINGS_VERSION = 2
 
 -- Layout sliders (lk = key in the `l` table reload_layout returns)
 local LAYOUT_DEFS = {
@@ -124,7 +134,7 @@ local FONT_DEFS = {
 
 -- Core UI colors (k = key in COL)
 local COLOR_MAP = {
-    {n="Menu Background",        k="black",   d={0,0,0,255},       ds="Options list, footer and menu gaps"},
+    {n="Menu Background",        k="black",   d={0,0,0,199},       ds="Options list, footer and menu gaps"},
     {n="Breadcrumb Background",  k="sub_bg",  d={12,12,12,255},    ds="Background behind the current page title"},
     {n="Description Background", k="desc_bg", d={12,12,12,255},    ds="Background of the detached description box"},
     {n="Item Text",              k="row_txt", d={221,221,221,255}, ds="Normal option and section text"},
@@ -141,16 +151,16 @@ local COLOR_MAP = {
 }
 -- Decorative accent colors
 local ACCENT_MAP = {
-    {n="Banner Left",  k="hdr_l", d={138,43,226,255}, ds="Left side of the banner and accent lines"},
-    {n="Banner Right", k="hdr_r", d={0,209,224,255},  ds="Right side of the banner and accent lines"},
-    {n="Global Accent",k="glow",  d={120,40,220,255}, ds="Section markers and shared Lua overlays"},
+    {n="Banner Left",  k="hdr_l", d={226,97,42,255},  ds="Left side of the banner and accent lines"},
+    {n="Banner Right", k="hdr_r", d={255,122,0,255},  ds="Right side of the banner and accent lines"},
+    {n="Global Accent",k="glow",  d={220,129,39,255}, ds="Section markers and shared Lua overlays"},
 }
 -- Effect toggles (fk = key in FX)
 local FX = {glare=true, scrollbar=true, hint=true}
 local FX_DEFS = {
-    {n="Breadcrumb Glare", d=true, fk="glare",     ds="Animate a light sweep across the page-title bar"},
-    {n="Show Scrollbar",   d=true, fk="scrollbar", ds="Draw the colored scrollbar at the left of the list"},
-    {n="Show Hotkey Hint", d=true, fk="hint",      ds="Show hotkey instructions in the page-title bar"},
+    {n="Breadcrumb Glare", d=true,  fk="glare",     ds="Animate a light sweep across the page-title bar"},
+    {n="Show Scrollbar",   d=false, fk="scrollbar", ds="Draw the colored scrollbar at the left of the list"},
+    {n="Show Hotkey Hint", d=false, fk="hint",      ds="Show hotkey instructions in the page-title bar"},
 }
 local PANEL_DEFS = {
     {n="Show Panel",   label="Performance", d=true, mode=0, ds="FPS, frame time and menu performance"},
@@ -235,7 +245,8 @@ end
 -- ── Persistence ──
 local last_sig, save_pending, save_stamp = nil, false, 0
 local function serialize()
-    local out = {}
+    -- __version pinned to the shipped value; apply_saved() uses it to detect a stale file.
+    local out = {"__version="..tostring(SETTINGS_VERSION)}
     for _,d in ipairs(LAYOUT_DEFS) do out[#out+1] = d.n.."="..tostring(sf(d.n,d.d)) end
     for _,d in ipairs(FONT_DEFS)   do out[#out+1] = d.n.."="..tostring(sf(d.n,d.d)) end
     for _,d in ipairs(COLOR_MAP)   do local c=sc(d.n,d.d); out[#out+1]=d.n.."="..c[1]..","..c[2]..","..c[3]..","..c[4] end
@@ -247,6 +258,15 @@ end
 local function apply_saved()
     local data = file.read(SETTINGS_FILE)
     if not data then return end
+    -- Silent version gate. A file whose __version key is missing or doesn't match the shipped
+    -- SETTINGS_VERSION is treated as stale -- registered defaults win and the file is removed so
+    -- the next save writes with the new version key. This is how a fresh default push (accent
+    -- colour, effect toggle, layout number) reaches existing users without them hitting Reset.
+    local saved_ver = tonumber(data:match("^__version=(%d+)")) or 0
+    if saved_ver ~= SETTINGS_VERSION then
+        file.remove(SETTINGS_FILE)
+        return
+    end
     for line in data:gmatch("[^\r\n]+") do
         local k, v = line:match("^(.-)=(.*)$")
         local kind = k and KIND[k]
@@ -317,8 +337,21 @@ local function lang_entry(i)
     return LANGS[(i or -1) + 1]
 end
 
--- "Flag" = 1-3 flat colour bands (no image assets), same shape welcome_screen.lua draws.
+-- Real flag PNGs live in %LOCALAPPDATA%\Nenyoo\Plus\textures\flag_<CODE>.png, provisioned by
+-- texture_assets::ensure() from the menu_assets CDN manifest. Filename = language code with the
+-- "LANG_" prefix stripped (LANG_EN -> flag_EN.png). Falls back to the coloured-band vector shape
+-- when the image hasn't downloaded yet or the entry has no code (sentinel).
 local function draw_flag(x, y, w, h, entry)
+    local code = entry.code or ""
+    if code:sub(1, 5) == "LANG_" then code = code:sub(6) end
+    local img = code ~= "" and draw.load_image("textures/flag_"..code..".png") or 0
+    if img > 0 then
+        draw.push_clip(x, y, x+w, y+h)
+        draw.image(img, x, y, x+w, y+h)
+        draw.pop_clip()
+        draw.rect_outline(x, y, x+w, y+h, 0, 0, 0, 150, 3, 1)
+        return
+    end
     local bands = entry.bands or {}
     local n = #bands
     draw.push_clip(x, y, x+w, y+h)

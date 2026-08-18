@@ -105,7 +105,22 @@ local function button(x, y, w, h, label, kind, alpha, enabled, key)
     return hov and input.mouse_clicked(0)
 end
 
+-- Real flag PNGs live in %LOCALAPPDATA%\Nenyoo\Plus\textures\flag_<CODE>.png, provisioned by
+-- texture_assets::ensure() from the menu_assets CDN manifest at startup. Filename = language
+-- code with the "LANG_" prefix stripped (LANG_EN -> flag_EN.png -> US flag PNG). If the image
+-- hasn't landed yet (first launch before the async download completes, or a manifest miss),
+-- fall back to the coloured-band vector representation so the picker still renders.
 local function draw_flag(x, y, w, h, entry)
+    local code = entry.code or ""
+    if code:sub(1, 5) == "LANG_" then code = code:sub(6) end
+    local img = code ~= "" and draw.load_image("textures/flag_"..code..".png") or 0
+    if img > 0 then
+        draw.push_clip(x, y, x + w, y + h)
+        draw.image(img, x, y, x + w, y + h)
+        draw.pop_clip()
+        draw.rect_outline(x, y, x + w, y + h, 0, 0, 0, 150, 3, 1)
+        return
+    end
     local bands = entry.bands
     local n = #bands
     draw.push_clip(x, y, x + w, y + h)
