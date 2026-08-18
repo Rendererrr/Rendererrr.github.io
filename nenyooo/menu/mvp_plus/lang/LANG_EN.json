@@ -8085,6 +8085,10 @@
       "s": "Set Destination = Waypoint"
     },
     {
+      "hash": "1054514839",
+      "s": "Reset to the shipped default theme"
+    },
+    {
       "hash": "1054728773",
       "s": "Event shutdown requested"
     },
@@ -10115,6 +10119,10 @@
     {
       "hash": "1288191437",
       "s": "Gun Drop Height (m)"
+    },
+    {
+      "hash": "1289085694",
+      "s": "Vehicle becomes immovable and unbreakable -- rams launch others but don't affect you"
     },
     {
       "hash": "1289184205",
@@ -15127,6 +15135,10 @@
     {
       "hash": "1930943670",
       "s": "Resets the shared interior/seat slot id to -1, the value the game itself clears it to. Use if an interior seat is stuck; not a heist setting"
+    },
+    {
+      "hash": "1931176300",
+      "s": "Rock Mode"
     },
     {
       "hash": "1931230301",
@@ -20629,6 +20641,10 @@
       "s": "Pick a pool image (used in Replace mode)"
     },
     {
+      "hash": "2642259740",
+      "s": "Mass Multiplier"
+    },
+    {
       "hash": "2643632493",
       "s": "Marker Size"
     },
@@ -25019,6 +25035,10 @@
     {
       "hash": "3209848055",
       "s": "Entity and model spawn-based crash methods"
+    },
+    {
+      "hash": "3209864799",
+      "s": "Immovable + unbreakable vehicle -- rams launch others"
     },
     {
       "hash": "3210514298",
@@ -31435,6 +31455,10 @@
     {
       "hash": "3999151444",
       "s": "Cabin interior light colour"
+    },
+    {
+      "hash": "3999384385",
+      "s": "How many times heavier than the vehicle's real mass (higher = more immovable)"
     },
     {
       "hash": "3999741206",
