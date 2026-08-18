@@ -41,10 +41,6 @@
       "s": "Taliana Martinez"
     },
     {
-      "hash": "5240247",
-      "s": "Projectile speed, homing and impact damage"
-    },
-    {
       "hash": "5547828",
       "s": "Biz Documents"
     },
@@ -95,10 +91,6 @@
     {
       "hash": "12570118",
       "s": "Re-scan the live texture store (textures stream in/out)"
-    },
-    {
-      "hash": "13033634",
-      "s": "Emit magic and debris from the center rock while boosting"
     },
     {
       "hash": "13172964",
@@ -433,10 +425,6 @@
       "s": "Time between tazes per player"
     },
     {
-      "hash": "53511836",
-      "s": "Trail Interval"
-    },
-    {
       "hash": "53968504",
       "s": "Reverted to default"
     },
@@ -535,6 +523,10 @@
     {
       "hash": "62373092",
       "s": "Allow launching a new robbery"
+    },
+    {
+      "hash": "64612092",
+      "s": "Seconds before a web automatically releases"
     },
     {
       "hash": "65554708",
@@ -691,10 +683,6 @@
     {
       "hash": "88198406",
       "s": "Interior Kick"
-    },
-    {
-      "hash": "88717725",
-      "s": "Launch speed of fired rocks"
     },
     {
       "hash": "88862192",
@@ -1061,6 +1049,10 @@
       "s": "Create one in front of you -- works in daylight"
     },
     {
+      "hash": "132211867",
+      "s": "Carry recent weapons on your back and hip with animated switching"
+    },
+    {
       "hash": "132376010",
       "s": "Chino O Death"
     },
@@ -1205,6 +1197,10 @@
       "s": "Malformed payload and crash-event protections"
     },
     {
+      "hash": "146099972",
+      "s": "Milliseconds between attacks"
+    },
+    {
       "hash": "146305741",
       "s": "Create one pickup using the selected type"
     },
@@ -1239,10 +1235,6 @@
     {
       "hash": "151505772",
       "s": "Headshot"
-    },
-    {
-      "hash": "151625121",
-      "s": "Telekinesis, automatic defense and the ultimate attack"
     },
     {
       "hash": "151629903",
@@ -1557,10 +1549,6 @@
       "s": "Override moon cycle to 90%"
     },
     {
-      "hash": "194380535",
-      "s": "Rock Cage"
-    },
-    {
       "hash": "195892446",
       "s": "Super Diamond"
     },
@@ -1589,12 +1577,20 @@
       "s": "Max Dancers"
     },
     {
+      "hash": "198012929",
+      "s": "Distance of the relaxed formation"
+    },
+    {
       "hash": "198746285",
       "s": "Jump to the bunker laptop"
     },
     {
       "hash": "199210932",
       "s": "All doors closed."
+    },
+    {
+      "hash": "199489090",
+      "s": "Release Boost"
     },
     {
       "hash": "199954802",
@@ -1611,6 +1607,10 @@
     {
       "hash": "201406970",
       "s": "Static = teleport, Velocity = physics"
+    },
+    {
+      "hash": "201573099",
+      "s": "Vertical speed while climbing a wall"
     },
     {
       "hash": "201960275",
@@ -1769,6 +1769,10 @@
       "s": "Script-event sender is unavailable"
     },
     {
+      "hash": "221628136",
+      "s": "How quickly rocks correct their course"
+    },
+    {
       "hash": "222102476",
       "s": "All Windows"
     },
@@ -1829,10 +1833,6 @@
       "s": "Particles around the circumference"
     },
     {
-      "hash": "231473344",
-      "s": "How quickly the rock responds and stops"
-    },
-    {
       "hash": "231497406",
       "s": "Epsilon Robes"
     },
@@ -1857,10 +1857,6 @@
       "s": "Merryweather flare airstrike"
     },
     {
-      "hash": "232704077",
-      "s": "Ground Guard"
-    },
-    {
       "hash": "234666593",
       "s": "Body area to aim at"
     },
@@ -1875,6 +1871,10 @@
     {
       "hash": "235126178",
       "s": "Rating"
+    },
+    {
+      "hash": "236665793",
+      "s": "Alignment Speed"
     },
     {
       "hash": "237274530",
@@ -1917,10 +1917,6 @@
       "s": "Fire to stamp decals at the aim point"
     },
     {
-      "hash": "239790605",
-      "s": "Single Rock"
-    },
-    {
       "hash": "239890782",
       "s": "Protect the companion from damage"
     },
@@ -1961,6 +1957,10 @@
       "s": "Crew level set."
     },
     {
+      "hash": "245150852",
+      "s": "Wall Climb"
+    },
+    {
       "hash": "245177209",
       "s": "Vehicle Requests"
     },
@@ -1975,10 +1975,6 @@
     {
       "hash": "247716413",
       "s": "Not in a valid state"
-    },
-    {
-      "hash": "247839207",
-      "s": "Center rock rotation in degrees per second"
     },
     {
       "hash": "248015700",
@@ -2107,10 +2103,6 @@
     {
       "hash": "259760165",
       "s": "Boost Duration"
-    },
-    {
-      "hash": "260105968",
-      "s": "Rock Projectiles"
     },
     {
       "hash": "260224867",
@@ -2449,10 +2441,6 @@
       "s": "FX when the projectile detonates"
     },
     {
-      "hash": "293195963",
-      "s": "Use the mouse wheel while aiming to select nearby entities"
-    },
-    {
       "hash": "293367220",
       "s": "Flood Around Me"
     },
@@ -2517,20 +2505,12 @@
       "s": "Vehicle Cash"
     },
     {
-      "hash": "303575266",
-      "s": "Lift nearby entities and bombard the selected area"
-    },
-    {
       "hash": "303724569",
       "s": "Set CD-Image Coords = Player Pos"
     },
     {
       "hash": "303744106",
       "s": "Motion / depth blur"
-    },
-    {
-      "hash": "304778339",
-      "s": "Formation radius added for each unit of flight speed"
     },
     {
       "hash": "305191772",
@@ -2873,6 +2853,10 @@
       "s": "Setup Taxi Company"
     },
     {
+      "hash": "347351939",
+      "s": "Unibeam Width"
+    },
+    {
       "hash": "347829262",
       "s": "Yellow / Blue"
     },
@@ -3079,6 +3063,10 @@
     {
       "hash": "376298657",
       "s": "Health Threshold"
+    },
+    {
+      "hash": "376533518",
+      "s": "Drive on Walls"
     },
     {
       "hash": "376768162",
@@ -3379,6 +3367,10 @@
     {
       "hash": "411962870",
       "s": "Riot mode, anti-griefer tools & hostility"
+    },
+    {
+      "hash": "412353616",
+      "s": "How quickly the eagle camera looks around"
     },
     {
       "hash": "412579704",
@@ -3985,10 +3977,6 @@
       "s": "Props & Spawns"
     },
     {
-      "hash": "482657347",
-      "s": "Rings"
-    },
-    {
       "hash": "484193273",
       "s": "Physics"
     },
@@ -4325,10 +4313,6 @@
       "s": "Make the Cerberus and its driver invincible"
     },
     {
-      "hash": "528054431",
-      "s": "Milliseconds entities remain suspended"
-    },
-    {
       "hash": "528381351",
       "s": "Slam nearby vehicles down"
     },
@@ -4381,10 +4365,6 @@
       "s": "Explode every other player, blamed on this player (tests ADD_OWNED_EXPLOSION owner bypass)"
     },
     {
-      "hash": "537255452",
-      "s": "Vertical offset of the formation"
-    },
-    {
       "hash": "537498448",
       "s": "Shut"
     },
@@ -4431,10 +4411,6 @@
     {
       "hash": "543315751",
       "s": "Coke Heat"
-    },
-    {
-      "hash": "543609299",
-      "s": "Meteor Height"
     },
     {
       "hash": "544342680",
@@ -4521,6 +4497,10 @@
       "s": "Lock position regardless of physics"
     },
     {
+      "hash": "556806862",
+      "s": "How strongly the web tightens when stretched"
+    },
+    {
       "hash": "558004792",
       "s": "Camera Distance"
     },
@@ -4591,10 +4571,6 @@
     {
       "hash": "562062500",
       "s": "In-flight particle trail"
-    },
-    {
-      "hash": "562510944",
-      "s": "Milliseconds between particle emissions"
     },
     {
       "hash": "563329465",
@@ -5193,6 +5169,10 @@
       "s": "Invert Velocity"
     },
     {
+      "hash": "635764837",
+      "s": "Size of the continuous boot thrusters"
+    },
+    {
       "hash": "635779862",
       "s": "Save or load Spooner maps"
     },
@@ -5255,10 +5235,6 @@
     {
       "hash": "642207704",
       "s": "Pickup Model"
-    },
-    {
-      "hash": "643488054",
-      "s": "Individual rock spin in degrees per second"
     },
     {
       "hash": "643576846",
@@ -5481,6 +5457,10 @@
       "s": "No selection."
     },
     {
+      "hash": "671230967",
+      "s": "Flight Pitch"
+    },
+    {
       "hash": "671283148",
       "s": "Play all missions solo disabled"
     },
@@ -5699,10 +5679,6 @@
     {
       "hash": "695056518",
       "s": "Refresh the planning board"
-    },
-    {
-      "hash": "695457683",
-      "s": "Ground Eruption"
     },
     {
       "hash": "696323804",
@@ -5953,10 +5929,6 @@
       "s": "Forward-firing cannons"
     },
     {
-      "hash": "727427530",
-      "s": "Impact Explosion"
-    },
-    {
       "hash": "727818266",
       "s": "Loaded"
     },
@@ -6007,6 +5979,10 @@
     {
       "hash": "732178529",
       "s": "Cage them with a container + attacking cop"
+    },
+    {
+      "hash": "732225905",
+      "s": "Spacing between missiles as they leave the suit"
     },
     {
       "hash": "732444181",
@@ -6107,6 +6083,10 @@
     {
       "hash": "746156273",
       "s": "Select a freemode ped."
+    },
+    {
+      "hash": "746796469",
+      "s": "Maximum rocks available as ammunition"
     },
     {
       "hash": "748263944",
@@ -6257,10 +6237,6 @@
       "s": "Enable Picking"
     },
     {
-      "hash": "765693685",
-      "s": "Space and Ctrl climb or descent speed"
-    },
-    {
       "hash": "766432697",
       "s": "WEA Type List"
     },
@@ -6301,6 +6277,10 @@
       "s": "Send Hit Squad"
     },
     {
+      "hash": "770740115",
+      "s": "Initial web length as a percentage of anchor distance"
+    },
+    {
       "hash": "771126564",
       "s": "Set checkpoint-skip bit 17 on the running mission controller"
     },
@@ -6327,10 +6307,6 @@
     {
       "hash": "773005740",
       "s": "Session Remote"
-    },
-    {
-      "hash": "774417169",
-      "s": "How far the platform leans while moving"
     },
     {
       "hash": "774660562",
@@ -6449,6 +6425,10 @@
       "s": "Forget every styled vehicle so they all restyle"
     },
     {
+      "hash": "791953487",
+      "s": "Free Look"
+    },
+    {
       "hash": "792666988",
       "s": "Heist"
     },
@@ -6489,12 +6469,12 @@
       "s": "Network Monitored"
     },
     {
-      "hash": "796092480",
-      "s": "Flight Spread"
-    },
-    {
       "hash": "796133099",
       "s": "Tunables are still loading; join GTA Online and try again shortly"
+    },
+    {
+      "hash": "797480788",
+      "s": "Aim Formation Spacing"
     },
     {
       "hash": "797562290",
@@ -6625,6 +6605,10 @@
       "s": "Edit this rule"
     },
     {
+      "hash": "815102344",
+      "s": "Hide carried weapon models while inside a vehicle"
+    },
+    {
       "hash": "815339609",
       "s": "Altostratus"
     },
@@ -6635,10 +6619,6 @@
     {
       "hash": "816505789",
       "s": "Seats"
-    },
-    {
-      "hash": "818063426",
-      "s": "Stone Grinding Sound"
     },
     {
       "hash": "819410637",
@@ -6837,6 +6817,10 @@
       "s": "Render"
     },
     {
+      "hash": "842192753",
+      "s": "Adhesion"
+    },
+    {
       "hash": "843138477",
       "s": "Worn Dark Green"
     },
@@ -6977,10 +6961,6 @@
       "s": "Jump much higher"
     },
     {
-      "hash": "864091110",
-      "s": "Speed of the orbiting rock wave"
-    },
-    {
       "hash": "864144503",
       "s": "Cow Crash"
     },
@@ -6999,6 +6979,10 @@
     {
       "hash": "866956671",
       "s": "Homing"
+    },
+    {
+      "hash": "867010305",
+      "s": "Show the selected impact point while aiming"
     },
     {
       "hash": "867358926",
@@ -7213,10 +7197,6 @@
       "s": "Traffic Styling"
     },
     {
-      "hash": "895997136",
-      "s": "Speed of the center rock hover motion"
-    },
-    {
       "hash": "896000140",
       "s": "Target every other player in the session"
     },
@@ -7371,10 +7351,6 @@
     {
       "hash": "920161713",
       "s": "Grab many nearby entities at once (see Pull settings)"
-    },
-    {
-      "hash": "920897746",
-      "s": "Crown"
     },
     {
       "hash": "921629437",
@@ -7561,10 +7537,6 @@
       "s": "Hold X (transform) + V together in a vehicle to fire NOS"
     },
     {
-      "hash": "948754697",
-      "s": "Spread of meteor and eruption attacks"
-    },
-    {
       "hash": "948845754",
       "s": "DX11 backend initialized"
     },
@@ -7635,10 +7607,6 @@
     {
       "hash": "957831445",
       "s": "Spooner MSMods"
-    },
-    {
-      "hash": "958700027",
-      "s": "Vertical wave amount for individual rocks"
     },
     {
       "hash": "959226094",
@@ -8049,10 +8017,6 @@
       "s": "Forward force while drifting"
     },
     {
-      "hash": "1011604570",
-      "s": "Jagged"
-    },
-    {
       "hash": "1011892515",
       "s": "Continuously fix damage"
     },
@@ -8089,6 +8053,10 @@
       "s": "To Live or Die in Los Santos"
     },
     {
+      "hash": "1014211653",
+      "s": "Switch Animations"
+    },
+    {
       "hash": "1015204058",
       "s": "Clear all Money Fronts business heat"
     },
@@ -8119,10 +8087,6 @@
     {
       "hash": "1018738215",
       "s": "Entity-manipulation & force guns"
-    },
-    {
-      "hash": "1019763050",
-      "s": "Ebony Maw Orbit"
     },
     {
       "hash": "1019787177",
@@ -8223,6 +8187,10 @@
     {
       "hash": "1029719947",
       "s": "Choose which online character receives recovery stat changes"
+    },
+    {
+      "hash": "1029783738",
+      "s": "Movement and riding behaviour"
     },
     {
       "hash": "1029925257",
@@ -8657,10 +8625,6 @@
       "s": "Cow"
     },
     {
-      "hash": "1076463726",
-      "s": "Pink Magic Effects"
-    },
-    {
       "hash": "1076846681",
       "s": "Override rain intensity"
     },
@@ -8945,10 +8909,6 @@
       "s": "Lighting"
     },
     {
-      "hash": "1113780039",
-      "s": "Rock trails, camera shake and sounds"
-    },
-    {
       "hash": "1113786499",
       "s": "Azimuth Transition"
     },
@@ -8995,10 +8955,6 @@
     {
       "hash": "1116737900",
       "s": "Engine"
-    },
-    {
-      "hash": "1116937630",
-      "s": "Scroll Cycles Targets"
     },
     {
       "hash": "1117135204",
@@ -9121,12 +9077,12 @@
       "s": "Money Gun"
     },
     {
-      "hash": "1126257245",
-      "s": "Shield Wall"
-    },
-    {
       "hash": "1126719533",
       "s": "Allow non-player peds as targets"
+    },
+    {
+      "hash": "1126947360",
+      "s": "Jagged Stone"
     },
     {
       "hash": "1126957802",
@@ -9977,10 +9933,6 @@
       "s": "Limitless Ammo"
     },
     {
-      "hash": "1219273942",
-      "s": "Chase"
-    },
-    {
       "hash": "1219660489",
       "s": "Forced Invite (invite-only)"
     },
@@ -9989,8 +9941,8 @@
       "s": "Spawn hookers at this player and keep them dancing and moaning at them"
     },
     {
-      "hash": "1220010468",
-      "s": "Choose the center and orbiting rock models"
+      "hash": "1220064978",
+      "s": "Flight multiplier while holding Sprint"
     },
     {
       "hash": "1220282384",
@@ -9999,6 +9951,10 @@
     {
       "hash": "1221173085",
       "s": "Ram Vehicle Search"
+    },
+    {
+      "hash": "1221312022",
+      "s": "Target marker, trails, sounds and HUD"
     },
     {
       "hash": "1221947237",
@@ -10353,6 +10309,10 @@
       "s": "Spooner HeadFeatures"
     },
     {
+      "hash": "1260019290",
+      "s": "Transition Speed"
+    },
+    {
       "hash": "1260748873",
       "s": "Grenade Launcher Ammo"
     },
@@ -10421,8 +10381,8 @@
       "s": "Gun-camera vision mode"
     },
     {
-      "hash": "1271104938",
-      "s": "Milliseconds to fully charge the massive boulder"
+      "hash": "1270567037",
+      "s": "How smoothly the suit turns and banks toward the camera"
     },
     {
       "hash": "1271262998",
@@ -10431,6 +10391,10 @@
     {
       "hash": "1271279473",
       "s": "Bullets per spread"
+    },
+    {
+      "hash": "1271617280",
+      "s": "First Person Free Look"
     },
     {
       "hash": "1272533293",
@@ -10713,10 +10677,6 @@
       "s": "Ascend and descend speed"
     },
     {
-      "hash": "1307786995",
-      "s": "Aim Radius Multiplier"
-    },
-    {
       "hash": "1308929917",
       "s": "Spanish (Spain)"
     },
@@ -10903,10 +10863,6 @@
     {
       "hash": "1325215715",
       "s": "Festive Gifts 2025 unlocked."
-    },
-    {
-      "hash": "1325314508",
-      "s": "Turn the formation into a shield when a hostile ped is nearby"
     },
     {
       "hash": "1326123653",
@@ -11131,6 +11087,10 @@
     {
       "hash": "1354125363",
       "s": "Time Trial"
+    },
+    {
+      "hash": "1354737661",
+      "s": "Distance from the target that counts as a hit"
     },
     {
       "hash": "1355383996",
@@ -11459,10 +11419,6 @@
     {
       "hash": "1397519565",
       "s": "Set Active Weapon"
-    },
-    {
-      "hash": "1397986888",
-      "s": "Orbit Collision"
     },
     {
       "hash": "1398275246",
@@ -11969,10 +11925,6 @@
       "s": "Reset all 8 contract cooldown stats"
     },
     {
-      "hash": "1453598190",
-      "s": "Explosion damage when the ultimate lands"
-    },
-    {
       "hash": "1453734246",
       "s": "Ped spawn failed."
     },
@@ -12251,10 +12203,6 @@
     {
       "hash": "1486378749",
       "s": "Hold accelerate/brake at speed to wheelie"
-    },
-    {
-      "hash": "1486384937",
-      "s": "Meteor Radius"
     },
     {
       "hash": "1486560804",
@@ -12645,10 +12593,6 @@
       "s": "Bike Clip Height"
     },
     {
-      "hash": "1534813360",
-      "s": "Aim Speed Multiplier"
-    },
-    {
       "hash": "1534980277",
       "s": "Unlock story/progress-hub careers for this character (Enhanced only)"
     },
@@ -12813,10 +12757,6 @@
       "s": "Delete your current vehicle first"
     },
     {
-      "hash": "1555070988",
-      "s": "Tighten or spread the formation while aiming"
-    },
-    {
       "hash": "1555282766",
       "s": "Forgery"
     },
@@ -12885,6 +12825,10 @@
       "s": "Halloween and late 2025 rewards unlocked."
     },
     {
+      "hash": "1564939564",
+      "s": "Choose the platform and projectile rock models"
+    },
+    {
       "hash": "1565653817",
       "s": "Clean Dirt"
     },
@@ -12903,10 +12847,6 @@
     {
       "hash": "1567605298",
       "s": "Foot Jump"
-    },
-    {
-      "hash": "1567856835",
-      "s": "Hover Speed"
     },
     {
       "hash": "1567933914",
@@ -12959,10 +12899,6 @@
     {
       "hash": "1573397361",
       "s": "Metallic Blaze Red"
-    },
-    {
-      "hash": "1573999960",
-      "s": "Shockwave"
     },
     {
       "hash": "1574478544",
@@ -13045,8 +12981,16 @@
       "s": "Give this weapon to the selected ped"
     },
     {
+      "hash": "1590681991",
+      "s": "Ancient Rock"
+    },
+    {
       "hash": "1590803990",
       "s": "Reactions"
+    },
+    {
+      "hash": "1591723809",
+      "s": "Drive across floors, walls, and ceilings"
     },
     {
       "hash": "1592609721",
@@ -13091,10 +13035,6 @@
     {
       "hash": "1595202428",
       "s": "No marker selected."
-    },
-    {
-      "hash": "1595367267",
-      "s": "Ebony Maw Abilities"
     },
     {
       "hash": "1595981432",
@@ -13147,10 +13087,6 @@
     {
       "hash": "1603309291",
       "s": "Remove all props"
-    },
-    {
-      "hash": "1603948512",
-      "s": "Attack Settings"
     },
     {
       "hash": "1604408294",
@@ -13585,10 +13521,6 @@
       "s": "Rain"
     },
     {
-      "hash": "1646593681",
-      "s": "Play a subtle grinding sound while aiming"
-    },
-    {
       "hash": "1646872266",
       "s": "Fight the owner for control to break their handling"
     },
@@ -13635,14 +13567,6 @@
     {
       "hash": "1656170203",
       "s": "Override your weapon's effective range"
-    },
-    {
-      "hash": "1656229602",
-      "s": "Ragdoll peds caught by rock impacts"
-    },
-    {
-      "hash": "1656418486",
-      "s": "Size of rock debris particles"
     },
     {
       "hash": "1657383147",
@@ -13953,10 +13877,6 @@
       "s": "Flight Settings"
     },
     {
-      "hash": "1694816483",
-      "s": "How much faster rocks orbit and spin while aiming"
-    },
-    {
       "hash": "1696470891",
       "s": "Auto-end the dive after this long"
     },
@@ -14007,10 +13927,6 @@
     {
       "hash": "1704251024",
       "s": "Install the turbo mod"
-    },
-    {
-      "hash": "1704771555",
-      "s": "Play a short sound when rocks are fired"
     },
     {
       "hash": "1706654310",
@@ -14557,10 +14473,6 @@
       "s": "Freeze On Contact"
     },
     {
-      "hash": "1770284463",
-      "s": "Automatically fire a rock at detected attackers"
-    },
-    {
       "hash": "1770326239",
       "s": "Teleport To Reference"
     },
@@ -14781,10 +14693,6 @@
       "s": "Contraband count (read-only)"
     },
     {
-      "hash": "1800110420",
-      "s": "Ride a flying rock with orbiting stone armour; aim and attack to launch rocks"
-    },
-    {
       "hash": "1800119080",
       "s": "Clear the elevated vehicle checkpoint route"
     },
@@ -14831,6 +14739,10 @@
     {
       "hash": "1807674536",
       "s": "Force a production cycle"
+    },
+    {
+      "hash": "1808258039",
+      "s": "How quickly the platform accelerates and stops"
     },
     {
       "hash": "1808297290",
@@ -15017,10 +14929,6 @@
       "s": "Atmosphere"
     },
     {
-      "hash": "1829121402",
-      "s": "Movement, riding pose and platform behaviour"
-    },
-    {
       "hash": "1829365096",
       "s": "Main Event"
     },
@@ -15201,6 +15109,10 @@
       "s": "Limitless Clip"
     },
     {
+      "hash": "1857413763",
+      "s": "Show ammunition, targeting and cooldown"
+    },
+    {
       "hash": "1857501231",
       "s": "Failed to start the tunables processing script"
     },
@@ -15301,20 +15213,12 @@
       "s": "Let the pause menu open while dead"
     },
     {
-      "hash": "1869149596",
-      "s": "Orbit Rings"
-    },
-    {
       "hash": "1869866462",
       "s": "Joinable"
     },
     {
       "hash": "1870881016",
       "s": "MonsterTruck (Fighter Jet Chassis)"
-    },
-    {
-      "hash": "1871005727",
-      "s": "Milliseconds between rocks in rapid-fire mode"
     },
     {
       "hash": "1871180767",
@@ -15339,10 +15243,6 @@
     {
       "hash": "1873615889",
       "s": "Missile Surano"
-    },
-    {
-      "hash": "1874021833",
-      "s": "Ground Rise Animation"
     },
     {
       "hash": "1874666515",
@@ -15733,10 +15633,6 @@
       "s": "Hide your blip; pick the type (left/right)"
     },
     {
-      "hash": "1913355175",
-      "s": "Spiral"
-    },
-    {
       "hash": "1913539626",
       "s": "Casino potential take: Artwork"
     },
@@ -15751,10 +15647,6 @@
     {
       "hash": "1915034425",
       "s": "Recolour interior / plate / dash / door lights"
-    },
-    {
-      "hash": "1915773900",
-      "s": "Platform Spin"
     },
     {
       "hash": "1917394675",
@@ -15851,10 +15743,6 @@
     {
       "hash": "1927941384",
       "s": "Pick the particle to emit (Curated or Browse) + set its scale"
-    },
-    {
-      "hash": "1928059389",
-      "s": "Impact Ragdoll"
     },
     {
       "hash": "1928451123",
@@ -15999,10 +15887,6 @@
     {
       "hash": "1942265929",
       "s": "Orbiting Rocks"
-    },
-    {
-      "hash": "1942408059",
-      "s": "Grab Orbit Radius"
     },
     {
       "hash": "1942442447",
@@ -16165,10 +16049,6 @@
       "s": "Spawn Height"
     },
     {
-      "hash": "1962833309",
-      "s": "Grab Orbit Speed"
-    },
-    {
       "hash": "1962909334",
       "s": "Targeting radius in screen pixels"
     },
@@ -16195,10 +16075,6 @@
     {
       "hash": "1964354780",
       "s": "Bike Tricks"
-    },
-    {
-      "hash": "1964398835",
-      "s": "Horizontal separation between rocks in a volley"
     },
     {
       "hash": "1964458654",
@@ -16243,10 +16119,6 @@
     {
       "hash": "1969129636",
       "s": "Draw a center reticle"
-    },
-    {
-      "hash": "1969777345",
-      "s": "Face Camera"
     },
     {
       "hash": "1970071584",
@@ -16327,6 +16199,10 @@
     {
       "hash": "1976850095",
       "s": "Tryhard Gun"
+    },
+    {
+      "hash": "1976927907",
+      "s": "Emit debris behind launched rocks"
     },
     {
       "hash": "1977069905",
@@ -16489,6 +16365,10 @@
       "s": "Warehouse Teleport"
     },
     {
+      "hash": "1995510672",
+      "s": "Ebony Maw Rocks"
+    },
+    {
       "hash": "1996045526",
       "s": "Include money drops in the rain"
     },
@@ -16503,6 +16383,10 @@
     {
       "hash": "1997067756",
       "s": "Send an invitation to your Office"
+    },
+    {
+      "hash": "1997975245",
+      "s": "Battle Air Missile"
     },
     {
       "hash": "2000110734",
@@ -16715,10 +16599,6 @@
     {
       "hash": "2019569151",
       "s": "Lightning Strike"
-    },
-    {
-      "hash": "2019622831",
-      "s": "Explode rocks when they hit or collide"
     },
     {
       "hash": "2019833395",
@@ -17189,10 +17069,6 @@
       "s": "Reset Payphone Hit"
     },
     {
-      "hash": "2079077886",
-      "s": "Vertical distance between orbit rings"
-    },
-    {
       "hash": "2079687351",
       "s": "Biz Cash"
     },
@@ -17289,16 +17165,16 @@
       "s": "Flip their vehicle upright now"
     },
     {
-      "hash": "2091114892",
-      "s": "Rock formation, motion and replenishment"
-    },
-    {
       "hash": "2091150012",
       "s": "Request / call in the Avenger"
     },
     {
       "hash": "2091924082",
       "s": "Spawn a networked UFO above this player"
+    },
+    {
+      "hash": "2092339238",
+      "s": "Orbit appearance and ammunition"
     },
     {
       "hash": "2092345681",
@@ -17449,10 +17325,6 @@
       "s": "Lipstick"
     },
     {
-      "hash": "2107463939",
-      "s": "Allow orbiting rocks to collide with the world"
-    },
-    {
       "hash": "2108027393",
       "s": "Offset the explosion from the player (X/Y/Z + random)"
     },
@@ -17573,6 +17445,10 @@
       "s": "Crash & stability protections"
     },
     {
+      "hash": "2121503255",
+      "s": "Damage dealt by a rock impact"
+    },
+    {
       "hash": "2122169206",
       "s": "Bull Shark Testosterone: hold / damage / adrenaline / care package"
     },
@@ -17607,6 +17483,10 @@
     {
       "hash": "2127465308",
       "s": "Waning Crescent II"
+    },
+    {
+      "hash": "2127803716",
+      "s": "Missile Model"
     },
     {
       "hash": "2128411756",
@@ -17953,6 +17833,10 @@
       "s": "Doors Open"
     },
     {
+      "hash": "2167847627",
+      "s": "Mule Missile 1"
+    },
+    {
       "hash": "2167886835",
       "s": "Force the selected players into an activity"
     },
@@ -18061,10 +17945,6 @@
       "s": "Force a wet look at this height (%)"
     },
     {
-      "hash": "2181998724",
-      "s": "Distance of the formation from the center rock"
-    },
-    {
       "hash": "2182761997",
       "s": "Trap them in a cage"
     },
@@ -18125,10 +18005,6 @@
       "s": "Thermal"
     },
     {
-      "hash": "2191032728",
-      "s": "Ultimate Lift Height"
-    },
-    {
       "hash": "2191187380",
       "s": "Mark the GTA Online freemode introduction complete for the active character"
     },
@@ -18171,10 +18047,6 @@
     {
       "hash": "2194283471",
       "s": "Top up the selected players' health/armour"
-    },
-    {
-      "hash": "2196273530",
-      "s": "Ebony Maw Attack"
     },
     {
       "hash": "2196714549",
@@ -18233,10 +18105,6 @@
       "s": "See peds through walls (Legacy: tinted peds+vehicles; Enhanced: peds, no tint)"
     },
     {
-      "hash": "2203696469",
-      "s": "Rise Time"
-    },
-    {
       "hash": "2204788393",
       "s": "Can Ragdoll"
     },
@@ -18255,10 +18123,6 @@
     {
       "hash": "2206431841",
       "s": "Random Livery"
-    },
-    {
-      "hash": "2206998280",
-      "s": "Restore the original pink magic pulses around every rock"
     },
     {
       "hash": "2207346922",
@@ -18405,6 +18269,10 @@
       "s": "Show a blue-white reactor glow on the chest"
     },
     {
+      "hash": "2226092611",
+      "s": "Force holding the vehicle against the active surface"
+    },
+    {
       "hash": "2226242094",
       "s": "Disable the natural-motion fall"
     },
@@ -18423,10 +18291,6 @@
     {
       "hash": "2228415369",
       "s": "Top up this player's health/armour"
-    },
-    {
-      "hash": "2228734815",
-      "s": "Milliseconds for regenerated rocks to join the orbit"
     },
     {
       "hash": "2230944494",
@@ -18571,10 +18435,6 @@
     {
       "hash": "2249397699",
       "s": "Z Axis"
-    },
-    {
-      "hash": "2249469104",
-      "s": "Persistent Target Lock"
     },
     {
       "hash": "2250094586",
@@ -18829,10 +18689,6 @@
       "s": "Target hunting and combat scenarios"
     },
     {
-      "hash": "2275102663",
-      "s": "Number of stacked rock rings"
-    },
-    {
       "hash": "2276098762",
       "s": "A Safehouse in the Hills"
     },
@@ -18859,10 +18715,6 @@
     {
       "hash": "2279543073",
       "s": "Missile Volley Cost"
-    },
-    {
-      "hash": "2279666042",
-      "s": "Defense Fire Interval"
     },
     {
       "hash": "2280126560",
@@ -18919,6 +18771,10 @@
     {
       "hash": "2284082815",
       "s": "Resupply / teleport"
+    },
+    {
+      "hash": "2284313051",
+      "s": "Minimum travel speed required to climb onto a surface ahead"
     },
     {
       "hash": "2284589673",
@@ -19023,6 +18879,10 @@
     {
       "hash": "2295445855",
       "s": "Glasses"
+    },
+    {
+      "hash": "2295976560",
+      "s": "Seam Grace"
     },
     {
       "hash": "2296403745",
@@ -19277,10 +19137,6 @@
       "s": "Return To Stock"
     },
     {
-      "hash": "2332817898",
-      "s": "Rotation speed of grabbed ammunition"
-    },
-    {
       "hash": "2333096025",
       "s": "Money Fronts heat removed"
     },
@@ -19297,8 +19153,8 @@
       "s": "Toggle vehicle collision"
     },
     {
-      "hash": "2335225461",
-      "s": "Aim and press Reload to pull an entity into your orbit"
+      "hash": "2335295735",
+      "s": "Flight Response"
     },
     {
       "hash": "2337384556",
@@ -19427,6 +19283,10 @@
     {
       "hash": "2353719683",
       "s": "Bounce nearby vehicles"
+    },
+    {
+      "hash": "2353837032",
+      "s": "Simultaneous Missile Locks"
     },
     {
       "hash": "2353971972",
@@ -19893,10 +19753,6 @@
       "s": "Tunable Manager"
     },
     {
-      "hash": "2407178833",
-      "s": "Wobble Speed"
-    },
-    {
       "hash": "2407431518",
       "s": "Take Off"
     },
@@ -20209,10 +20065,6 @@
       "s": "Model still streaming -- press Spawn again."
     },
     {
-      "hash": "2453802140",
-      "s": "Height entities are lifted before bombardment"
-    },
-    {
       "hash": "2454454297",
       "s": "Override the ped scale matrix"
     },
@@ -20239,10 +20091,6 @@
     {
       "hash": "2457514308",
       "s": "Spawn a parachute pickup at them"
-    },
-    {
-      "hash": "2459068274",
-      "s": "Impact Dust"
     },
     {
       "hash": "2460083139",
@@ -20465,6 +20313,10 @@
       "s": "Spooner AnimBrowse"
     },
     {
+      "hash": "2481129537",
+      "s": "Wall Climb Speed"
+    },
+    {
       "hash": "2482262552",
       "s": "Aim and press attack to grapple toward a surface"
     },
@@ -20665,10 +20517,6 @@
       "s": "Nose Peak Height"
     },
     {
-      "hash": "2509855744",
-      "s": "Ultimate Damage"
-    },
-    {
       "hash": "2510669438",
       "s": "VPN / Proxy"
     },
@@ -20679,10 +20527,6 @@
     {
       "hash": "2511192462",
       "s": "Weapons off"
-    },
-    {
-      "hash": "2511787731",
-      "s": "Hold Aim and press Attack to launch orbiting rocks"
     },
     {
       "hash": "2511894310",
@@ -20723,6 +20567,10 @@
     {
       "hash": "2516941167",
       "s": "Target NPCs"
+    },
+    {
+      "hash": "2517793437",
+      "s": "Pistol at Hip"
     },
     {
       "hash": "2517948535",
@@ -20797,6 +20645,10 @@
       "s": "Spawn dancing, moaning hookers at this player"
     },
     {
+      "hash": "2526349282",
+      "s": "Distance used to find walls, ceilings, and nearby surfaces"
+    },
+    {
       "hash": "2527120706",
       "s": "Send an NPC to follow this player and steal their vehicle"
     },
@@ -20857,6 +20709,10 @@
       "s": "Create a new stride-targeting rule"
     },
     {
+      "hash": "2532986676",
+      "s": "Show recently used weapons on your back and hip"
+    },
+    {
       "hash": "2533169616",
       "s": "Start a crew session"
     },
@@ -20913,12 +20769,16 @@
       "s": "Plane accel / brake / turbulence"
     },
     {
-      "hash": "2538728388",
-      "s": "Destination set to waypoint."
+      "hash": "2537922048",
+      "s": "Explosive Impact"
     },
     {
-      "hash": "2539457151",
-      "s": "Size of the pink magic pulses"
+      "hash": "2538585764",
+      "s": "Air control while attached to a web"
+    },
+    {
+      "hash": "2538728388",
+      "s": "Destination set to waypoint."
     },
     {
       "hash": "2539705772",
@@ -21023,6 +20883,10 @@
     {
       "hash": "2550966206",
       "s": "Surge Height"
+    },
+    {
+      "hash": "2551076759",
+      "s": "Carry the most recently used pistol in a right-side holster position"
     },
     {
       "hash": "2551252475",
@@ -21309,8 +21173,8 @@
       "s": "Host Cut %"
     },
     {
-      "hash": "2589568717",
-      "s": "Force applied to entities near an impact"
+      "hash": "2589611650",
+      "s": "Speed of launched rocks"
     },
     {
       "hash": "2590060109",
@@ -21447,6 +21311,10 @@
     {
       "hash": "2606974881",
       "s": "Kill or explode entities that reach the core"
+    },
+    {
+      "hash": "2607129916",
+      "s": "Exit your vehicle before using Ebony Maw"
     },
     {
       "hash": "2607646039",
@@ -21889,10 +21757,6 @@
       "s": "Already in database."
     },
     {
-      "hash": "2665689920",
-      "s": "Steer projectiles toward the entity under the crosshair"
-    },
-    {
       "hash": "2665731410",
       "s": "Both indicators"
     },
@@ -21997,6 +21861,10 @@
       "s": "Transform Boat"
     },
     {
+      "hash": "2676928783",
+      "s": "How quickly the vehicle aligns with a new surface"
+    },
+    {
       "hash": "2676969546",
       "s": "Drop health pickups around them"
     },
@@ -22043,6 +21911,10 @@
     {
       "hash": "2681128996",
       "s": "Damage / fire / smoke / repair / stop the engine"
+    },
+    {
+      "hash": "2681677804",
+      "s": "Play a short sound when rocks fire"
     },
     {
       "hash": "2682189339",
@@ -22117,10 +21989,6 @@
       "s": "Number 8"
     },
     {
-      "hash": "2691179950",
-      "s": "Camera shake strength after a nearby impact"
-    },
-    {
       "hash": "2691278459",
       "s": "RPG"
     },
@@ -22179,6 +22047,10 @@
     {
       "hash": "2697332102",
       "s": "Return your active personal vehicle to storage"
+    },
+    {
+      "hash": "2697781091",
+      "s": "Spider-Man"
     },
     {
       "hash": "2698174136",
@@ -22425,6 +22297,10 @@
       "s": "Lightning"
     },
     {
+      "hash": "2732407554",
+      "s": "Swing Steering"
+    },
+    {
       "hash": "2732574812",
       "s": "Restore Values"
     },
@@ -22455,6 +22331,10 @@
     {
       "hash": "2734864131",
       "s": "Steam Proof"
+    },
+    {
+      "hash": "2735134293",
+      "s": "Long Gun on Back"
     },
     {
       "hash": "2735412210",
@@ -23141,10 +23021,6 @@
       "s": "Attachments"
     },
     {
-      "hash": "2812630992",
-      "s": "Milliseconds before a fired rock is replaced"
-    },
-    {
       "hash": "2813101304",
       "s": "Setup Arcade"
     },
@@ -23263,6 +23139,10 @@
     {
       "hash": "2827708285",
       "s": "Easy"
+    },
+    {
+      "hash": "2827958866",
+      "s": "Swing from buildings, climb walls and leap like Spider-Man"
     },
     {
       "hash": "2828035211",
@@ -23577,6 +23457,10 @@
       "s": "Wildlife photography completed."
     },
     {
+      "hash": "2868609665",
+      "s": "Drive across floors, walls, and ceilings with automatic surface transitions"
+    },
+    {
       "hash": "2869198228",
       "s": "Reflection intensity"
     },
@@ -23645,10 +23529,6 @@
       "s": "Heists"
     },
     {
-      "hash": "2875219018",
-      "s": "Show the entity or world position selected while aiming"
-    },
-    {
       "hash": "2876220197",
       "s": "Lvl"
     },
@@ -23695,6 +23575,10 @@
     {
       "hash": "2882854499",
       "s": "Zenith Transition Intensity"
+    },
+    {
+      "hash": "2882891068",
+      "s": "Maximum entities marked and distributed across a missile volley"
     },
     {
       "hash": "2883164523",
@@ -23759,6 +23643,10 @@
     {
       "hash": "2887964901",
       "s": "Ragdoll while sprinting"
+    },
+    {
+      "hash": "2888773561",
+      "s": "Delay before fired rocks are replaced"
     },
     {
       "hash": "2888922529",
@@ -23865,6 +23753,10 @@
       "s": "Replace (Locked)"
     },
     {
+      "hash": "2901744465",
+      "s": "Prevent damage while attached to a web"
+    },
+    {
       "hash": "2902814435",
       "s": "Their bullets fling a random vehicle at the impact"
     },
@@ -23879,6 +23771,10 @@
     {
       "hash": "2905489395",
       "s": "Sport wheels"
+    },
+    {
+      "hash": "2905645201",
+      "s": "Protect the rider while Ebony Maw is active"
     },
     {
       "hash": "2905741344",
@@ -24065,6 +23961,10 @@
       "s": "Blitzed"
     },
     {
+      "hash": "2926722218",
+      "s": "Swing Tension"
+    },
+    {
       "hash": "2926739498",
       "s": "Restore original Vehicle Cargo buyer offers"
     },
@@ -24099,10 +23999,6 @@
     {
       "hash": "2932500165",
       "s": "Clear Markers On Load"
-    },
-    {
-      "hash": "2932559729",
-      "s": "Size of the aiming target marker"
     },
     {
       "hash": "2933114858",
@@ -24155,10 +24051,6 @@
     {
       "hash": "2938739543",
       "s": "Size"
-    },
-    {
-      "hash": "2939068336",
-      "s": "Milliseconds between pink magic pulses"
     },
     {
       "hash": "2939073999",
@@ -24285,10 +24177,6 @@
       "s": "The Slashers"
     },
     {
-      "hash": "2950588088",
-      "s": "Distance of the grabbed entity from the center rock"
-    },
-    {
       "hash": "2951277130",
       "s": "Vehicles, cages, attackers, world events, and pickups"
     },
@@ -24349,16 +24237,8 @@
       "s": "Make the marker follow the aimed entity"
     },
     {
-      "hash": "2958937329",
-      "s": "Unleash Ultimate"
-    },
-    {
       "hash": "2959184336",
       "s": "Mansion"
-    },
-    {
-      "hash": "2959336006",
-      "s": "Show rock ammunition, mode, target and charge status"
     },
     {
       "hash": "2959469528",
@@ -24485,6 +24365,10 @@
       "s": "Flip Upright"
     },
     {
+      "hash": "2978919511",
+      "s": "Maximum distance for a building web anchor"
+    },
+    {
       "hash": "2978936080",
       "s": "Avenger Thruster"
     },
@@ -24593,6 +24477,10 @@
       "s": "Pin time scale to zero"
     },
     {
+      "hash": "2996554634",
+      "s": "Web Length"
+    },
+    {
       "hash": "2997358180",
       "s": "Weapon Damage"
     },
@@ -24689,6 +24577,10 @@
       "s": "Speech Player"
     },
     {
+      "hash": "3011681984",
+      "s": "Ebony Maw Combat"
+    },
+    {
       "hash": "3012189942",
       "s": "Launcher signature did not resolve"
     },
@@ -24731,6 +24623,10 @@
     {
       "hash": "3015094138",
       "s": "Repeatedly shake the selected players' cameras"
+    },
+    {
+      "hash": "3015319386",
+      "s": "Angle between rocks in a volley"
     },
     {
       "hash": "3016200727",
@@ -25409,12 +25305,12 @@
       "s": "Stat Manager Presets"
     },
     {
-      "hash": "3104251427",
-      "s": "Orbit Wobble"
-    },
-    {
       "hash": "3104406267",
       "s": "Collectibles"
+    },
+    {
+      "hash": "3105964719",
+      "s": "Hold Sprint and move forward into a wall to climb it"
     },
     {
       "hash": "3106289740",
@@ -25431,10 +25327,6 @@
     {
       "hash": "3107435152",
       "s": "Circle (North)"
-    },
-    {
-      "hash": "3108007573",
-      "s": "Rapid Fire Interval"
     },
     {
       "hash": "3108147131",
@@ -25553,6 +25445,10 @@
       "s": "Acid resupply/value/production"
     },
     {
+      "hash": "3122798952",
+      "s": "Combat Settings"
+    },
+    {
       "hash": "3122980240",
       "s": "Burn Ped"
     },
@@ -25641,10 +25537,6 @@
       "s": "Start GTA Online's weed shop delivery work"
     },
     {
-      "hash": "3132172653",
-      "s": "Ring Spacing"
-    },
-    {
       "hash": "3132638093",
       "s": "Apply believable core records for an established online character"
     },
@@ -25655,10 +25547,6 @@
     {
       "hash": "3133821244",
       "s": "Restore health and armour when starting"
-    },
-    {
-      "hash": "3134079332",
-      "s": "Emit debris particles behind moving and orbiting rocks"
     },
     {
       "hash": "3134901930",
@@ -25725,6 +25613,10 @@
       "s": "Relationship applied."
     },
     {
+      "hash": "3142455406",
+      "s": "Vertical offset of the relaxed formation"
+    },
+    {
       "hash": "3142746457",
       "s": "Reset All Bar Tunables"
     },
@@ -25763,10 +25655,6 @@
     {
       "hash": "3146123206",
       "s": "Task serialization protections installed"
-    },
-    {
-      "hash": "3146398666",
-      "s": "Auto Launch Defense"
     },
     {
       "hash": "3146445151",
@@ -26513,6 +26401,10 @@
       "s": "Tracer Peds"
     },
     {
+      "hash": "3235447244",
+      "s": "Missile Launch Spread"
+    },
+    {
       "hash": "3235561458",
       "s": "Vehicle 4"
     },
@@ -26873,6 +26765,10 @@
       "s": "Explosive Fist"
     },
     {
+      "hash": "3283342167",
+      "s": "How far the suit leans forward and backward while flying"
+    },
+    {
       "hash": "3283375820",
       "s": "Radius for Delete Markers In Range"
     },
@@ -26901,12 +26797,12 @@
       "s": "Bypass Max Speed"
     },
     {
-      "hash": "3286879918",
-      "s": "Ultimate Hold Time"
-    },
-    {
       "hash": "3287111093",
       "s": "Spoiler"
+    },
+    {
+      "hash": "3287164261",
+      "s": "Visible Weapons"
     },
     {
       "hash": "3287354342",
@@ -26959,6 +26855,10 @@
     {
       "hash": "3296135518",
       "s": "Resupply Reward"
+    },
+    {
+      "hash": "3296220305",
+      "s": "Maximum Swing Time"
     },
     {
       "hash": "3296232868",
@@ -27393,6 +27293,10 @@
       "s": "Neon Lights"
     },
     {
+      "hash": "3346248479",
+      "s": "Launch speed, homing and impact"
+    },
+    {
       "hash": "3346403025",
       "s": "Set mission progress complete"
     },
@@ -27427,10 +27331,6 @@
     {
       "hash": "3349535926",
       "s": "Could not position the player at the ride"
-    },
-    {
-      "hash": "3350118821",
-      "s": "Distance from a target that counts as a hit"
     },
     {
       "hash": "3350901926",
@@ -27697,6 +27597,10 @@
       "s": "Clear Hauntings"
     },
     {
+      "hash": "3373845134",
+      "s": "Mule Missile 2"
+    },
+    {
       "hash": "3375764472",
       "s": "Unlocked"
     },
@@ -27711,6 +27615,10 @@
     {
       "hash": "3376913338",
       "s": "Force ragdoll on each targeted player"
+    },
+    {
+      "hash": "3377233222",
+      "s": "Jump much higher while Spider-Man mode is active"
     },
     {
       "hash": "3377387356",
@@ -27789,12 +27697,20 @@
       "s": "Remove Blip"
     },
     {
+      "hash": "3385106737",
+      "s": "Hide in Vehicles"
+    },
+    {
       "hash": "3385252368",
       "s": "Blackhole"
     },
     {
       "hash": "3386005654",
       "s": "Make the possessed animals invincible"
+    },
+    {
+      "hash": "3386876716",
+      "s": "Levitate on stone and launch a controlled barrage of orbiting rocks"
     },
     {
       "hash": "3387167728",
@@ -27845,6 +27761,10 @@
       "s": "Include missile-ammo pickups in the rain"
     },
     {
+      "hash": "3391922819",
+      "s": "Web swing from buildings, wall climb and super jump"
+    },
+    {
       "hash": "3392658519",
       "s": "Everyone Ignore Player"
     },
@@ -27857,20 +27777,12 @@
       "s": "Keyboard edit ON  (WASD/QE move, R switch pos/rot, +/- step)"
     },
     {
-      "hash": "3394639046",
-      "s": "Automatic Rock Shield"
-    },
-    {
       "hash": "3394704253",
       "s": "Jet"
     },
     {
       "hash": "3395446560",
       "s": "Energy consumed per second while boosting"
-    },
-    {
-      "hash": "3395497029",
-      "s": "Defense Radius"
     },
     {
       "hash": "3395582658",
@@ -28093,6 +28005,10 @@
       "s": "Fly like the Vice City Dodo cheat -- speed makes lift"
     },
     {
+      "hash": "3418530384",
+      "s": "Web Range"
+    },
+    {
       "hash": "3418777387",
       "s": "Sex"
     },
@@ -28217,12 +28133,12 @@
       "s": "Spooner MSFinish3"
     },
     {
-      "hash": "3435501019",
-      "s": "Add your velocity to the push"
+      "hash": "3433427093",
+      "s": "Create an explosion when a rock connects"
     },
     {
-      "hash": "3436476928",
-      "s": "New rocks rise from below before joining the formation"
+      "hash": "3435501019",
+      "s": "Add your velocity to the push"
     },
     {
       "hash": "3437569297",
@@ -28267,10 +28183,6 @@
     {
       "hash": "3443292647",
       "s": "Bicycle Time Trial"
-    },
-    {
-      "hash": "3443374621",
-      "s": "Protect the rider while the power is active"
     },
     {
       "hash": "3444239045",
@@ -28385,10 +28297,6 @@
       "s": "Ghost Hunt"
     },
     {
-      "hash": "3455045322",
-      "s": "First Person"
-    },
-    {
       "hash": "3455454949",
       "s": "Offline"
     },
@@ -28403,10 +28311,6 @@
     {
       "hash": "3457070981",
       "s": "Underglow control"
-    },
-    {
-      "hash": "3457104387",
-      "s": "Keep the selected entity locked while aiming"
     },
     {
       "hash": "3457164496",
@@ -28427,6 +28331,10 @@
     {
       "hash": "3458593410",
       "s": "Feet"
+    },
+    {
+      "hash": "3459896245",
+      "s": "Visual thickness of the chest beam"
     },
     {
       "hash": "3460511827",
@@ -28557,10 +28465,6 @@
       "s": "Normal / Hard"
     },
     {
-      "hash": "3476965910",
-      "s": "Shotgun Volley"
-    },
-    {
       "hash": "3477865764",
       "s": "P Spawn Events"
     },
@@ -28599,10 +28503,6 @@
     {
       "hash": "3482854753",
       "s": "Create Rank"
-    },
-    {
-      "hash": "3482912928",
-      "s": "Magic Scale"
     },
     {
       "hash": "3483410211",
@@ -28795,6 +28695,10 @@
     {
       "hash": "3504995277",
       "s": "Type the message to spam to this player"
+    },
+    {
+      "hash": "3505148630",
+      "s": "Steer launched rocks toward the selected entity"
     },
     {
       "hash": "3505346644",
@@ -29033,10 +28937,6 @@
       "s": "Door lock state"
     },
     {
-      "hash": "3535239692",
-      "s": "Rock Spin"
-    },
-    {
       "hash": "3536020728",
       "s": "Aim & fire to spawn a particle effect at the impact point"
     },
@@ -29135,10 +29035,6 @@
     {
       "hash": "3549520750",
       "s": "Signature scan failed. Identifier: %s   Pattern: %s   The game may have been updated."
-    },
-    {
-      "hash": "3550049285",
-      "s": "How aggressively rocks correct toward a target"
     },
     {
       "hash": "3551390440",
@@ -29401,10 +29297,6 @@
       "s": "Players seen in your sessions - add as fake friend / monitor / join"
     },
     {
-      "hash": "3582045095",
-      "s": "Ultimate Radius"
-    },
-    {
       "hash": "3582181136",
       "s": "Swap Weapon"
     },
@@ -29541,6 +29433,10 @@
       "s": "Nose Bone Twist"
     },
     {
+      "hash": "3600791980",
+      "s": "Play an upper-body holster or draw animation when changing weapons"
+    },
+    {
       "hash": "3600840930",
       "s": "Deposit (Bank)"
     },
@@ -29661,6 +29557,10 @@
       "s": "Legacy only. Edits your advertised session data so searchers rank you higher: keeps the matchmaking beacon active (BEACON_WEIGHT), makes the session look public, and sheds the bad-sport penalty. Safe (edits the outgoing buffer in-flight, size-checked) -- inert if the game build differs. Turn off if it doesn't help."
     },
     {
+      "hash": "3613193354",
+      "s": "Jump and Duck climb or descend speed"
+    },
+    {
       "hash": "3613475640",
       "s": "Speed (m/s) at which an entity reaches the maximum bounce rate"
     },
@@ -29737,12 +29637,12 @@
       "s": "Delete All Vehicles In World"
     },
     {
-      "hash": "3619948510",
-      "s": "Magic Interval"
-    },
-    {
       "hash": "3620117077",
       "s": "Script"
+    },
+    {
+      "hash": "3620140931",
+      "s": "Forward and upward boost when jumping off a web"
     },
     {
       "hash": "3620308099",
@@ -29785,12 +29685,12 @@
       "s": "Target filtering, smoothing, prediction and aim HUD"
     },
     {
-      "hash": "3627746690",
-      "s": "Projectile Gravity"
-    },
-    {
       "hash": "3628423618",
       "s": "Delete cages and vehicle traps created by these options"
+    },
+    {
+      "hash": "3628480513",
+      "s": "Heavy Boulder"
     },
     {
       "hash": "3628551877",
@@ -30089,10 +29989,6 @@
       "s": "Lighting, water & particle VFX"
     },
     {
-      "hash": "3661649250",
-      "s": "Charged Boulder"
-    },
-    {
       "hash": "3661759279",
       "s": "Attach To Entity"
     },
@@ -30329,10 +30225,6 @@
       "s": "Auto Fire Rate"
     },
     {
-      "hash": "3690574099",
-      "s": "Maximum rocks available as orbiting armour and ammunition"
-    },
-    {
       "hash": "3690613025",
       "s": "Physics grab: hold Attack to grab the bone under the cursor and drag the entity from it; scroll = depth, hold Aim = rotate"
     },
@@ -30407,6 +30299,10 @@
     {
       "hash": "3698752918",
       "s": "Clear CD-Image Coords"
+    },
+    {
+      "hash": "3699150189",
+      "s": "Medium missile body used for the guided warhead"
     },
     {
       "hash": "3699174005",
@@ -30885,10 +30781,6 @@
       "s": "First weather (Mix 0%)"
     },
     {
-      "hash": "3755890177",
-      "s": "Create extra debris and magic at impact points"
-    },
-    {
       "hash": "3756352765",
       "s": "2"
     },
@@ -31097,10 +30989,6 @@
       "s": "Drop Height (m)"
     },
     {
-      "hash": "3777253482",
-      "s": "Charge Time"
-    },
-    {
       "hash": "3777398352",
       "s": "Everything is under the tabs along the top"
     },
@@ -31153,10 +31041,6 @@
       "s": "Prop 4"
     },
     {
-      "hash": "3783137318",
-      "s": "How quickly a grabbed entity reaches its orbit point"
-    },
-    {
       "hash": "3783267568",
       "s": "Vault-crack completion 0-100"
     },
@@ -31179,6 +31063,10 @@
     {
       "hash": "3784356982",
       "s": "Cruise speed"
+    },
+    {
+      "hash": "3784907283",
+      "s": "Impact Damage"
     },
     {
       "hash": "3784935445",
@@ -31211,10 +31099,6 @@
     {
       "hash": "3788512406",
       "s": "Part"
-    },
-    {
-      "hash": "3788555879",
-      "s": "Height rocks begin above the selected target"
     },
     {
       "hash": "3788598447",
@@ -31861,6 +31745,10 @@
       "s": "Timed-mode boost length"
     },
     {
+      "hash": "3862816103",
+      "s": "Spacing between rocks when they prepare to fire"
+    },
+    {
       "hash": "3863540118",
       "s": "Overwrite this vehicle's fired weapon"
     },
@@ -31915,6 +31803,10 @@
     {
       "hash": "3868785052",
       "s": "Resize"
+    },
+    {
+      "hash": "3869873973",
+      "s": "Thruster Scale"
     },
     {
       "hash": "3870058444",
@@ -32023,10 +31915,6 @@
     {
       "hash": "3879902833",
       "s": "Particle edge softness"
-    },
-    {
-      "hash": "3880061007",
-      "s": "Milliseconds between volleys"
     },
     {
       "hash": "3880113624",
@@ -32355,10 +32243,6 @@
     {
       "hash": "3915956624",
       "s": "Vertical offset"
-    },
-    {
-      "hash": "3916202921",
-      "s": "Telekinesis Grab"
     },
     {
       "hash": "3916370193",
@@ -32701,10 +32585,6 @@
       "s": "JoinSessionByInfo failed -- hosting instead"
     },
     {
-      "hash": "3951186734",
-      "s": "Turn the rider and center rock toward the camera"
-    },
-    {
       "hash": "3951515928",
       "s": "Ped Preview"
     },
@@ -32791,6 +32671,10 @@
     {
       "hash": "3962885829",
       "s": "Primary & Secondary"
+    },
+    {
+      "hash": "3963642439",
+      "s": "Rock Formation"
     },
     {
       "hash": "3964073976",
@@ -32943,10 +32827,6 @@
     {
       "hash": "3982230435",
       "s": "Return your Moon Pool vehicle to the Kosatka"
-    },
-    {
-      "hash": "3982365561",
-      "s": "Milliseconds between automatic defensive shots"
     },
     {
       "hash": "3982626406",
@@ -33205,6 +33085,10 @@
       "s": "Jump to take off"
     },
     {
+      "hash": "4010876935",
+      "s": "Rock Barrage"
+    },
+    {
       "hash": "4011647192",
       "s": "Aim at the head bone"
     },
@@ -33389,10 +33273,6 @@
       "s": "Jump to blackjack/poker/roulette"
     },
     {
-      "hash": "4036957948",
-      "s": "Wings"
-    },
-    {
       "hash": "4036992069",
       "s": "DLC Vehicles"
     },
@@ -33533,10 +33413,6 @@
       "s": "Explosion Event"
     },
     {
-      "hash": "4049523517",
-      "s": "Range used to detect hostile peds"
-    },
-    {
       "hash": "4050487207",
       "s": "Off / Stock"
     },
@@ -33547,10 +33423,6 @@
     {
       "hash": "4050614153",
       "s": "Attempt to kill this player while they are inside an apartment or business interior"
-    },
-    {
-      "hash": "4050719897",
-      "s": "Choose the active rock attack"
     },
     {
       "hash": "4051927718",
@@ -33705,6 +33577,10 @@
       "s": "Traffic Vehicles"
     },
     {
+      "hash": "4067825808",
+      "s": "Arena Air Missile"
+    },
+    {
       "hash": "4068750822",
       "s": "Services"
     },
@@ -33747,6 +33623,10 @@
     {
       "hash": "4074780026",
       "s": "Create synchronized explosions around this player"
+    },
+    {
+      "hash": "4075084922",
+      "s": "Time to bridge small gaps before normal gravity returns"
     },
     {
       "hash": "4075120398",
@@ -34245,10 +34125,6 @@
       "s": "Playing Card + Chips + RP"
     },
     {
-      "hash": "4132364984",
-      "s": "Boulders"
-    },
-    {
       "hash": "4132841903",
       "s": "Ragdoll-flap with the movement keys"
     },
@@ -34479,10 +34355,6 @@
     {
       "hash": "4155334016",
       "s": "Fire bullets from your hand"
-    },
-    {
-      "hash": "4155625758",
-      "s": "Area searched for ultimate targets"
     },
     {
       "hash": "4156939682",
@@ -34801,6 +34673,10 @@
       "s": "How the ped treats you / others"
     },
     {
+      "hash": "4193952615",
+      "s": "Invincible While Swinging"
+    },
+    {
       "hash": "4194325266",
       "s": "Immune to fire/flames only"
     },
@@ -34851,6 +34727,10 @@
     {
       "hash": "4201550504",
       "s": "Job Results"
+    },
+    {
+      "hash": "4201592886",
+      "s": "Rotation Smoothing"
     },
     {
       "hash": "4201875611",
@@ -34947,10 +34827,6 @@
     {
       "hash": "4211742556",
       "s": "Gunship inbound."
-    },
-    {
-      "hash": "4211950874",
-      "s": "Let fired rocks fall naturally"
     },
     {
       "hash": "4212242996",
@@ -35107,6 +34983,10 @@
     {
       "hash": "4232442747",
       "s": "Dead-target payout multiplier = 1.0"
+    },
+    {
+      "hash": "4232934818",
+      "s": "Carry the most recently used rifle, shotgun, or heavy weapon on your back"
     },
     {
       "hash": "4233412320",
@@ -35361,10 +35241,6 @@
       "s": "Voice Changer"
     },
     {
-      "hash": "4261433984",
-      "s": "Grab Force"
-    },
-    {
       "hash": "4261948861",
       "s": "Flip the vehicle upright when rolled"
     },
@@ -35379,10 +35255,6 @@
     {
       "hash": "4262921177",
       "s": "Setup Salvage Yard"
-    },
-    {
-      "hash": "4262965694",
-      "s": "Orbit Settings"
     },
     {
       "hash": "4263141939",
@@ -35419,10 +35291,6 @@
     {
       "hash": "4268456388",
       "s": "Delete every dancer bound to the selected players"
-    },
-    {
-      "hash": "4268579583",
-      "s": "Ring, spiral, sphere, crown, wings or shield wall"
     },
     {
       "hash": "4268677624",
@@ -35643,10 +35511,6 @@
     {
       "hash": "4293716332",
       "s": "Locked"
-    },
-    {
-      "hash": "4294024086",
-      "s": "Prevent the center rock from flying below terrain"
     },
     {
       "hash": "4294570699",

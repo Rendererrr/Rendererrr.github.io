@@ -41,10 +41,6 @@
       "s": "Taliana Martínez"
     },
     {
-      "hash": "5240247",
-      "s": "Velocidad de proyectil, guiado e impacto"
-    },
-    {
       "hash": "5547828",
       "s": "Documentos Biz"
     },
@@ -95,10 +91,6 @@
     {
       "hash": "12570118",
       "s": "Reescanear el almacén de texturas en vivo (transmisión de texturas)"
-    },
-    {
-      "hash": "13033634",
-      "s": "Emitir magia y escombros del centro de la roca al impulsarse"
     },
     {
       "hash": "13172964",
@@ -433,10 +425,6 @@
       "s": "Tiempo entre descargas eléctricas por jugador"
     },
     {
-      "hash": "53511836",
-      "s": "Intervalo de rastro"
-    },
-    {
       "hash": "53968504",
       "s": "Restaurado a valores predeterminados"
     },
@@ -535,6 +523,10 @@
     {
       "hash": "62373092",
       "s": "Permitir iniciar un nuevo robo"
+    },
+    {
+      "hash": "64612092",
+      "s": "Segundos antes de que una red se libere automáticamente"
     },
     {
       "hash": "65554708",
@@ -691,10 +683,6 @@
     {
       "hash": "88198406",
       "s": "Patada Interior"
-    },
-    {
-      "hash": "88717725",
-      "s": "Velocidad de lanzamiento de las rocas disparadas"
     },
     {
       "hash": "88862192",
@@ -1061,6 +1049,10 @@
       "s": "Crear uno delante de ti -- funciona con luz diurna"
     },
     {
+      "hash": "132211867",
+      "s": "Llevar armas recientes en la espalda y la cadera con cambio animado"
+    },
+    {
       "hash": "132376010",
       "s": "Chino O Muerte"
     },
@@ -1205,6 +1197,10 @@
       "s": "Carga mal formada y protecciones contra eventos de fallo"
     },
     {
+      "hash": "146099972",
+      "s": "Milisegundos entre ataques"
+    },
+    {
       "hash": "146305741",
       "s": "Crear un objeto de recolección del tipo seleccionado"
     },
@@ -1239,10 +1235,6 @@
     {
       "hash": "151505772",
       "s": "Disparo a la cabeza"
-    },
-    {
-      "hash": "151625121",
-      "s": "Telequinesis, defensa automática y el ataque definitivo"
     },
     {
       "hash": "151629903",
@@ -1557,10 +1549,6 @@
       "s": "Anular ciclo lunar al 90%"
     },
     {
-      "hash": "194380535",
-      "s": "Jaula de roca"
-    },
-    {
       "hash": "195892446",
       "s": "Super Diamante"
     },
@@ -1589,12 +1577,20 @@
       "s": "Máximo de bailarines"
     },
     {
+      "hash": "198012929",
+      "s": "Distancia de la formación relajada"
+    },
+    {
       "hash": "198746285",
       "s": "Saltar Al portátil del búnker"
     },
     {
       "hash": "199210932",
       "s": "Todas las puertas cerradas."
+    },
+    {
+      "hash": "199489090",
+      "s": "Liberar Impulso"
     },
     {
       "hash": "199954802",
@@ -1611,6 +1607,10 @@
     {
       "hash": "201406970",
       "s": "Estático = teletransporte, Velocidad = física"
+    },
+    {
+      "hash": "201573099",
+      "s": "Velocidad vertical al escalar una pared"
     },
     {
       "hash": "201960275",
@@ -1769,6 +1769,10 @@
       "s": "El emisor de eventos de script no está disponible"
     },
     {
+      "hash": "221628136",
+      "s": "Qué tan rápido las rocas corrigen su rumbo"
+    },
+    {
       "hash": "222102476",
       "s": "Todas las ventanas"
     },
@@ -1829,10 +1833,6 @@
       "s": "Partículas alrededor de la circunferencia"
     },
     {
-      "hash": "231473344",
-      "s": "Velocidad con la que la roca responde y se detiene"
-    },
-    {
       "hash": "231497406",
       "s": "Túnicas Épsilon"
     },
@@ -1857,10 +1857,6 @@
       "s": "Aéreo de bengala Merryweather"
     },
     {
-      "hash": "232704077",
-      "s": "Guardia Terrestre"
-    },
-    {
       "hash": "234666593",
       "s": "Área del cuerpo para apuntar"
     },
@@ -1875,6 +1871,10 @@
     {
       "hash": "235126178",
       "s": "Valoración"
+    },
+    {
+      "hash": "236665793",
+      "s": "Velocidad de alineación"
     },
     {
       "hash": "237274530",
@@ -1917,10 +1917,6 @@
       "s": "Disparar para estampar calcomanías en el punto de mira"
     },
     {
-      "hash": "239790605",
-      "s": "Roca individual"
-    },
-    {
       "hash": "239890782",
       "s": "Proteger al compañero de daño"
     },
@@ -1961,6 +1957,10 @@
       "s": "Nivel de tripulación establecido."
     },
     {
+      "hash": "245150852",
+      "s": "Escalar paredes"
+    },
+    {
       "hash": "245177209",
       "s": "Solicitudes de Vehículos"
     },
@@ -1975,10 +1975,6 @@
     {
       "hash": "247716413",
       "s": "No está en estado válido"
-    },
-    {
-      "hash": "247839207",
-      "s": "Rotación de la roca central en grados por segundo"
     },
     {
       "hash": "248015700",
@@ -2107,10 +2103,6 @@
     {
       "hash": "259760165",
       "s": "Duración del impulso"
-    },
-    {
-      "hash": "260105968",
-      "s": "Proyectiles de roca"
     },
     {
       "hash": "260224867",
@@ -2449,10 +2441,6 @@
       "s": "Efecto de sonido al detonar el proyectil"
     },
     {
-      "hash": "293195963",
-      "s": "Usa la rueda del ratón al apuntar para seleccionar entidades cercanas"
-    },
-    {
       "hash": "293367220",
       "s": "Inundar a mi alrededor"
     },
@@ -2517,20 +2505,12 @@
       "s": "Efectivo de Vehículos"
     },
     {
-      "hash": "303575266",
-      "s": "Levanta entidades cercanas y bombardea el área seleccionada"
-    },
-    {
       "hash": "303724569",
       "s": "Coordenadas de la imagen del CD = Posición del jugador"
     },
     {
       "hash": "303744106",
       "s": "Desenfoque de movimiento/profundidad"
-    },
-    {
-      "hash": "304778339",
-      "s": "Radio de formación añadido por cada unidad de velocidad de vuelo"
     },
     {
       "hash": "305191772",
@@ -2873,6 +2853,10 @@
       "s": "Configurar compañía de taxis"
     },
     {
+      "hash": "347351939",
+      "s": "Ancho del Unibeam"
+    },
+    {
       "hash": "347829262",
       "s": "Amarillo / Azul"
     },
@@ -3079,6 +3063,10 @@
     {
       "hash": "376298657",
       "s": "Umbral de salud"
+    },
+    {
+      "hash": "376533518",
+      "s": "Conducir sobre paredes"
     },
     {
       "hash": "376768162",
@@ -3379,6 +3367,10 @@
     {
       "hash": "411962870",
       "s": "Modo disturbios, herramientas anti-griefer y hostilidad"
+    },
+    {
+      "hash": "412353616",
+      "s": "Qué tan rápido la cámara del águila mira alrededor"
     },
     {
       "hash": "412579704",
@@ -3985,10 +3977,6 @@
       "s": "Accesorios y Generaciones"
     },
     {
-      "hash": "482657347",
-      "s": "Aros"
-    },
-    {
       "hash": "484193273",
       "s": "Física"
     },
@@ -4325,10 +4313,6 @@
       "s": "Hacer invencible al Cerberus y a su conductor"
     },
     {
-      "hash": "528054431",
-      "s": "Milisegundos que permanecen suspendidas las entidades"
-    },
-    {
       "hash": "528381351",
       "s": "Derriba los vehículos cercanos"
     },
@@ -4381,10 +4365,6 @@
       "s": "Explotar a cada dos jugadores, culpando a este jugador (prueba elusión de propietario ADD_OWNED_EXPLOSION)"
     },
     {
-      "hash": "537255452",
-      "s": "Desplazamiento vertical de la formación"
-    },
-    {
       "hash": "537498448",
       "s": "Cerrar"
     },
@@ -4431,10 +4411,6 @@
     {
       "hash": "543315751",
       "s": "Calor de Coca-Cola"
-    },
-    {
-      "hash": "543609299",
-      "s": "Altura del meteoro"
     },
     {
       "hash": "544342680",
@@ -4521,6 +4497,10 @@
       "s": "Bloquear la posición independientemente de la física"
     },
     {
+      "hash": "556806862",
+      "s": "Qué tan fuertemente la red se tensa cuando se estira"
+    },
+    {
       "hash": "558004792",
       "s": "Distancia de la cámara"
     },
@@ -4591,10 +4571,6 @@
     {
       "hash": "562062500",
       "s": "Rastro de partículas en vuelo"
-    },
-    {
-      "hash": "562510944",
-      "s": "Milisegundos entre emisiones de partículas"
     },
     {
       "hash": "563329465",
@@ -5193,6 +5169,10 @@
       "s": "Invertir velocidad"
     },
     {
+      "hash": "635764837",
+      "s": "Tamaño de los propulsores de arranque continuos"
+    },
+    {
       "hash": "635779862",
       "s": "Guardar o cargar mapas de Spooner"
     },
@@ -5255,10 +5235,6 @@
     {
       "hash": "642207704",
       "s": "Modelo de objeto recuperable"
-    },
-    {
-      "hash": "643488054",
-      "s": "Rotación individual de la roca en grados por segundo"
     },
     {
       "hash": "643576846",
@@ -5481,6 +5457,10 @@
       "s": "Sin selección."
     },
     {
+      "hash": "671230967",
+      "s": "Inclinación de vuelo"
+    },
+    {
       "hash": "671283148",
       "s": "Juega todas las misiones en solitario (desactivado)"
     },
@@ -5699,10 +5679,6 @@
     {
       "hash": "695056518",
       "s": "Actualizar el tablero de planificación"
-    },
-    {
-      "hash": "695457683",
-      "s": "Erupción del suelo"
     },
     {
       "hash": "696323804",
@@ -5953,10 +5929,6 @@
       "s": "Cañones de disparo frontal"
     },
     {
-      "hash": "727427530",
-      "s": "Explosión de impacto"
-    },
-    {
       "hash": "727818266",
       "s": "Cargado"
     },
@@ -6007,6 +5979,10 @@
     {
       "hash": "732178529",
       "s": "Enjaularlos con un contenedor + atacar Policía"
+    },
+    {
+      "hash": "732225905",
+      "s": "Espacio entre misiles al salir del traje"
     },
     {
       "hash": "732444181",
@@ -6107,6 +6083,10 @@
     {
       "hash": "746156273",
       "s": "Seleccionar un peatón en modo libre"
+    },
+    {
+      "hash": "746796469",
+      "s": "Número máximo de rocas disponibles como munición"
     },
     {
       "hash": "748263944",
@@ -6257,10 +6237,6 @@
       "s": "Habilitar selección"
     },
     {
-      "hash": "765693685",
-      "s": "Velocidad de ascenso o descenso con espacio y Ctrl"
-    },
-    {
       "hash": "766432697",
       "s": "Lista de tipos WEA"
     },
@@ -6301,6 +6277,10 @@
       "s": "Enviar Escuadrón de Asesinos"
     },
     {
+      "hash": "770740115",
+      "s": "Longitud inicial de la red como porcentaje de la distancia de anclaje"
+    },
+    {
       "hash": "771126564",
       "s": "Establecer bit de salto de punto de control 17 en el controlador de la misión en curso"
     },
@@ -6327,10 +6307,6 @@
     {
       "hash": "773005740",
       "s": "Sesión Remota"
-    },
-    {
-      "hash": "774417169",
-      "s": "Distancia que se inclina la plataforma mientras se mueve"
     },
     {
       "hash": "774660562",
@@ -6449,6 +6425,10 @@
       "s": "Olvidar todos los vehículos con estilo para que se rediseñen automáticamente"
     },
     {
+      "hash": "791953487",
+      "s": "Mirada libre"
+    },
+    {
       "hash": "792666988",
       "s": "Atraco"
     },
@@ -6489,12 +6469,12 @@
       "s": "Red monitoreada"
     },
     {
-      "hash": "796092480",
-      "s": "Dispersión de vuelo"
-    },
-    {
       "hash": "796133099",
       "s": "Los ajustes todavía se están cargando; únase a GTA Online e inténtelo de nuevo en breve"
+    },
+    {
+      "hash": "797480788",
+      "s": "Espacio de formación de puntería"
     },
     {
       "hash": "797562290",
@@ -6625,6 +6605,10 @@
       "s": "Editar esta regla"
     },
     {
+      "hash": "815102344",
+      "s": "Ocultar modelos de armas llevadas dentro de un vehículo"
+    },
+    {
       "hash": "815339609",
       "s": "Altoestratos"
     },
@@ -6635,10 +6619,6 @@
     {
       "hash": "816505789",
       "s": "Asientos"
-    },
-    {
-      "hash": "818063426",
-      "s": "Sonido de molienda de piedra"
     },
     {
       "hash": "819410637",
@@ -6837,6 +6817,10 @@
       "s": "Renderizar"
     },
     {
+      "hash": "842192753",
+      "s": "Adhesión"
+    },
+    {
       "hash": "843138477",
       "s": "Verde oscuro desgastado"
     },
@@ -6977,10 +6961,6 @@
       "s": "Salto mucho más alto"
     },
     {
-      "hash": "864091110",
-      "s": "Velocidad de la onda de roca orbitante"
-    },
-    {
       "hash": "864144503",
       "s": "Choque de vaca"
     },
@@ -6999,6 +6979,10 @@
     {
       "hash": "866956671",
       "s": "Teledireccional"
+    },
+    {
+      "hash": "867010305",
+      "s": "Mostrar el punto de impacto seleccionado al apuntar"
     },
     {
       "hash": "867358926",
@@ -7213,10 +7197,6 @@
       "s": "Estilo de tráfico"
     },
     {
-      "hash": "895997136",
-      "s": "Velocidad del movimiento de balanceo central de la roca"
-    },
-    {
       "hash": "896000140",
       "s": "Apuntar a todos los demás jugadores de la sesión"
     },
@@ -7371,10 +7351,6 @@
     {
       "hash": "920161713",
       "s": "Capturar varias entidades cercanas a la vez (ver configuración de extracción)"
-    },
-    {
-      "hash": "920897746",
-      "s": "Corona"
     },
     {
       "hash": "921629437",
@@ -7561,10 +7537,6 @@
       "s": "Mantén pulsados ​​X (transformación) + V simultáneamente en un vehículo para disparar NOS"
     },
     {
-      "hash": "948754697",
-      "s": "Dispersión de ataques de meteorito y erupción"
-    },
-    {
       "hash": "948845754",
       "s": "Backend de DX11 inicializado"
     },
@@ -7635,10 +7607,6 @@
     {
       "hash": "957831445",
       "s": "Mods MS de Spooner"
-    },
-    {
-      "hash": "958700027",
-      "s": "Cantidad de onda vertical para rocas individuales"
     },
     {
       "hash": "959226094",
@@ -8049,10 +8017,6 @@
       "s": "Fuerza de avance durante el derrape"
     },
     {
-      "hash": "1011604570",
-      "s": "Dentado"
-    },
-    {
       "hash": "1011892515",
       "s": "Reparar continuamente el daño"
     },
@@ -8089,6 +8053,10 @@
       "s": "Vivir o morir en Los Santos"
     },
     {
+      "hash": "1014211653",
+      "s": "Cambiar animaciones"
+    },
+    {
       "hash": "1015204058",
       "s": "Limpiar todo el calor de los negocios de Money Fronts"
     },
@@ -8119,10 +8087,6 @@
     {
       "hash": "1018738215",
       "s": "Manipulación de entidades y armas de fuerza"
-    },
-    {
-      "hash": "1019763050",
-      "s": "Órbita de la mandíbula de ébano"
     },
     {
       "hash": "1019787177",
@@ -8223,6 +8187,10 @@
     {
       "hash": "1029719947",
       "s": "Elegir qué personaje online recibe cambios en las estadísticas de recuperación"
+    },
+    {
+      "hash": "1029783738",
+      "s": "Comportamiento de movimiento y conducción"
     },
     {
       "hash": "1029925257",
@@ -8657,10 +8625,6 @@
       "s": "Vaca"
     },
     {
-      "hash": "1076463726",
-      "s": "Efectos mágicos rosas"
-    },
-    {
       "hash": "1076846681",
       "s": "Sobreescribir intensidad de la lluvia"
     },
@@ -8945,10 +8909,6 @@
       "s": "Iluminación"
     },
     {
-      "hash": "1113780039",
-      "s": "Rastros de roca, sacudidas de cámara y sonidos"
-    },
-    {
       "hash": "1113786499",
       "s": "Transición de acimut"
     },
@@ -8995,10 +8955,6 @@
     {
       "hash": "1116737900",
       "s": "Motor"
-    },
-    {
-      "hash": "1116937630",
-      "s": "Ciclos de desplazamiento de objetivos"
     },
     {
       "hash": "1117135204",
@@ -9121,12 +9077,12 @@
       "s": "Arma de Dinero"
     },
     {
-      "hash": "1126257245",
-      "s": "Muro de escudo"
-    },
-    {
       "hash": "1126719533",
       "s": "Permitir Peds no jugadores como objetivos"
+    },
+    {
+      "hash": "1126947360",
+      "s": "Piedra dentada"
     },
     {
       "hash": "1126957802",
@@ -9977,10 +9933,6 @@
       "s": "Munición ilimitada"
     },
     {
-      "hash": "1219273942",
-      "s": "Persecución"
-    },
-    {
       "hash": "1219660489",
       "s": "Invitación forzada (solo por invitación)"
     },
@@ -9989,8 +9941,8 @@
       "s": "Genera prostitutas para este jugador y haz que bailen y giman para él"
     },
     {
-      "hash": "1220010468",
-      "s": "Elegir los modelos de roca centrales y orbitantes"
+      "hash": "1220064978",
+      "s": "Multiplicador de vuelo al mantener Sprint"
     },
     {
       "hash": "1220282384",
@@ -9999,6 +9951,10 @@
     {
       "hash": "1221173085",
       "s": "Búsqueda de vehículos Ram"
+    },
+    {
+      "hash": "1221312022",
+      "s": "Marcador de objetivo, estelas, sonidos y HUD"
     },
     {
       "hash": "1221947237",
@@ -10353,6 +10309,10 @@
       "s": "Características de la cabeza de cuchara"
     },
     {
+      "hash": "1260019290",
+      "s": "Velocidad de transición"
+    },
+    {
       "hash": "1260748873",
       "s": "Munición de Lanzagranadas"
     },
@@ -10421,8 +10381,8 @@
       "s": "Modo de visión de la cámara del arma"
     },
     {
-      "hash": "1271104938",
-      "s": "Milisegundos para cargar completamente la roca masiva"
+      "hash": "1270567037",
+      "s": "Suavidad con la que el traje gira e inclina hacia la cámara"
     },
     {
       "hash": "1271262998",
@@ -10431,6 +10391,10 @@
     {
       "hash": "1271279473",
       "s": "Balas por dispersión"
+    },
+    {
+      "hash": "1271617280",
+      "s": "Mirada libre en primera persona"
     },
     {
       "hash": "1272533293",
@@ -10713,10 +10677,6 @@
       "s": "Velocidad de ascenso y descenso"
     },
     {
-      "hash": "1307786995",
-      "s": "Multiplicador de Radio de Apuntado"
-    },
-    {
       "hash": "1308929917",
       "s": "Español (España)"
     },
@@ -10903,10 +10863,6 @@
     {
       "hash": "1325215715",
       "s": "Regalos Festivos 2025 desbloqueados."
-    },
-    {
-      "hash": "1325314508",
-      "s": "Convertir la formación en un escudo cuando un personaje hostil esté cerca"
     },
     {
       "hash": "1326123653",
@@ -11131,6 +11087,10 @@
     {
       "hash": "1354125363",
       "s": "Prueba de tiempo"
+    },
+    {
+      "hash": "1354737661",
+      "s": "Distancia del objetivo que cuenta como impacto"
     },
     {
       "hash": "1355383996",
@@ -11459,10 +11419,6 @@
     {
       "hash": "1397519565",
       "s": "Establecer como activo Arma"
-    },
-    {
-      "hash": "1397986888",
-      "s": "Colisión de Órbita"
     },
     {
       "hash": "1398275246",
@@ -11969,10 +11925,6 @@
       "s": "Reiniciar las 8 estadísticas de tiempo de recarga de contratos"
     },
     {
-      "hash": "1453598190",
-      "s": "Daño por explosión cuando el definitivo aterriza"
-    },
-    {
       "hash": "1453734246",
       "s": "Error al generar el peatón."
     },
@@ -12251,10 +12203,6 @@
     {
       "hash": "1486378749",
       "s": "Mantén pulsado acelerar/frenar a velocidad para hacer un caballito"
-    },
-    {
-      "hash": "1486384937",
-      "s": "Radio del Meteoro"
     },
     {
       "hash": "1486560804",
@@ -12645,10 +12593,6 @@
       "s": "Altura del clip de la moto"
     },
     {
-      "hash": "1534813360",
-      "s": "Multiplicador de Velocidad de Apuntado"
-    },
-    {
       "hash": "1534980277",
       "s": "Desbloquear carreras de historia/centro de progreso para este personaje (Solo Mejorado)"
     },
@@ -12813,10 +12757,6 @@
       "s": "Eliminar el vehículo actual Primero"
     },
     {
-      "hash": "1555070988",
-      "s": "Apretar o ensanchar la formación al apuntar"
-    },
-    {
       "hash": "1555282766",
       "s": "Falsificación"
     },
@@ -12885,6 +12825,10 @@
       "s": "Recompensas de Halloween y finales de 2025 desbloqueadas."
     },
     {
+      "hash": "1564939564",
+      "s": "Elegir los modelos de roca proyectil"
+    },
+    {
       "hash": "1565653817",
       "s": "Limpiar Suciedad"
     },
@@ -12903,10 +12847,6 @@
     {
       "hash": "1567605298",
       "s": "Salto de Pie"
-    },
-    {
-      "hash": "1567856835",
-      "s": "Velocidad de Flotación"
     },
     {
       "hash": "1567933914",
@@ -12959,10 +12899,6 @@
     {
       "hash": "1573397361",
       "s": "Rojo metálico brillante"
-    },
-    {
-      "hash": "1573999960",
-      "s": "Onda de Choque"
     },
     {
       "hash": "1574478544",
@@ -13045,8 +12981,16 @@
       "s": "Darle esta arma al peatón seleccionado"
     },
     {
+      "hash": "1590681991",
+      "s": "Roca antigua"
+    },
+    {
       "hash": "1590803990",
       "s": "Reacciones"
+    },
+    {
+      "hash": "1591723809",
+      "s": "Conducir a través de suelos, paredes y techos"
     },
     {
       "hash": "1592609721",
@@ -13091,10 +13035,6 @@
     {
       "hash": "1595202428",
       "s": "No se ha seleccionado ningún marcador."
-    },
-    {
-      "hash": "1595367267",
-      "s": "Habilidades de Boca de Ébano"
     },
     {
       "hash": "1595981432",
@@ -13147,10 +13087,6 @@
     {
       "hash": "1603309291",
       "s": "Eliminar todos los objetos"
-    },
-    {
-      "hash": "1603948512",
-      "s": "Ajustes de Ataque"
     },
     {
       "hash": "1604408294",
@@ -13585,10 +13521,6 @@
       "s": "RAIN"
     },
     {
-      "hash": "1646593681",
-      "s": "Reproducir un sonido de deslizamiento sutil al apuntar"
-    },
-    {
       "hash": "1646872266",
       "s": "Luchar con el dueño por el control para romper su manejo"
     },
@@ -13635,14 +13567,6 @@
     {
       "hash": "1656170203",
       "s": "Sobreescribir el alcance efectivo de tu arma"
-    },
-    {
-      "hash": "1656229602",
-      "s": "Personajes inertes atrapados por el impacto de rocas"
-    },
-    {
-      "hash": "1656418486",
-      "s": "Tamaño de las partículas de escombros de roca"
     },
     {
       "hash": "1657383147",
@@ -13953,10 +13877,6 @@
       "s": "Ajustes de Vuelo"
     },
     {
-      "hash": "1694816483",
-      "s": "Qué tan más rápido orbitan y giran las rocas al apuntar"
-    },
-    {
       "hash": "1696470891",
       "s": "Finalizar automáticamente la inmersión tras este tiempo"
     },
@@ -14007,10 +13927,6 @@
     {
       "hash": "1704251024",
       "s": "Instalar el mod turbo"
-    },
-    {
-      "hash": "1704771555",
-      "s": "Reproducir sonido al disparar rocas"
     },
     {
       "hash": "1706654310",
@@ -14557,10 +14473,6 @@
       "s": "Congelar al contacto"
     },
     {
-      "hash": "1770284463",
-      "s": "Disparar automáticamente una roca a atacantes detectados"
-    },
-    {
       "hash": "1770326239",
       "s": "Teletransportarse a la referencia"
     },
@@ -14781,10 +14693,6 @@
       "s": "Recuento de contrabando (solo lectura)"
     },
     {
-      "hash": "1800110420",
-      "s": "Montar una roca voladora con armadura de piedra orbitante; apuntar y atacar para lanzar rocas"
-    },
-    {
       "hash": "1800119080",
       "s": "Limpiar la ruta del punto de control de vehículos elevados"
     },
@@ -14831,6 +14739,10 @@
     {
       "hash": "1807674536",
       "s": "Forzar un ciclo de producción"
+    },
+    {
+      "hash": "1808258039",
+      "s": "Velocidad con la que la plataforma acelera y se detiene"
     },
     {
       "hash": "1808297290",
@@ -15017,10 +14929,6 @@
       "s": "Atmósfera"
     },
     {
-      "hash": "1829121402",
-      "s": "Movimiento, pose de montura y comportamiento de la plataforma"
-    },
-    {
       "hash": "1829365096",
       "s": "Evento principal"
     },
@@ -15201,6 +15109,10 @@
       "s": "Cargador Ilimitado"
     },
     {
+      "hash": "1857413763",
+      "s": "Mostrar munición, puntería y enfriamiento"
+    },
+    {
       "hash": "1857501231",
       "s": "Error al iniciar el script de procesamiento de parámetros ajustables"
     },
@@ -15301,20 +15213,12 @@
       "s": "Permitir que el menú de pausa se abra mientras estás muerto"
     },
     {
-      "hash": "1869149596",
-      "s": "Anillos orbitales"
-    },
-    {
       "hash": "1869866462",
       "s": "Unible"
     },
     {
       "hash": "1870881016",
       "s": "Monster Truck (Chasis de avión de combate)"
-    },
-    {
-      "hash": "1871005727",
-      "s": "Milisegundos entre rocas en modo de disparo rápido"
     },
     {
       "hash": "1871180767",
@@ -15339,10 +15243,6 @@
     {
       "hash": "1873615889",
       "s": "Misil Surano"
-    },
-    {
-      "hash": "1874021833",
-      "s": "Animación de elevación del suelo"
     },
     {
       "hash": "1874666515",
@@ -15733,10 +15633,6 @@
       "s": "Ocultar tu blip; elegir el tipo (izquierda/derecha)"
     },
     {
-      "hash": "1913355175",
-      "s": "Espiral"
-    },
-    {
       "hash": "1913539626",
       "s": "Posible toma de casino: Arte"
     },
@@ -15751,10 +15647,6 @@
     {
       "hash": "1915034425",
       "s": "Cambiar el color de las luces interiores / de la placa / del tablero / de las puertas"
-    },
-    {
-      "hash": "1915773900",
-      "s": "Giro de la plataforma"
     },
     {
       "hash": "1917394675",
@@ -15851,10 +15743,6 @@
     {
       "hash": "1927941384",
       "s": "Seleccionar la partícula a emitir (Curada o Explorar) + ajustar su escala"
-    },
-    {
-      "hash": "1928059389",
-      "s": "Física de muñeco de trapo al impacto"
     },
     {
       "hash": "1928451123",
@@ -15999,10 +15887,6 @@
     {
       "hash": "1942265929",
       "s": "Rocas orbitando"
-    },
-    {
-      "hash": "1942408059",
-      "s": "Radio de órbita al agarrar"
     },
     {
       "hash": "1942442447",
@@ -16165,10 +16049,6 @@
       "s": "Aparecer Altura"
     },
     {
-      "hash": "1962833309",
-      "s": "Velocidad de órbita al agarrar"
-    },
-    {
       "hash": "1962909334",
       "s": "Radio de objetivo en píxeles de pantalla"
     },
@@ -16195,10 +16075,6 @@
     {
       "hash": "1964354780",
       "s": "Trucos de moto"
-    },
-    {
-      "hash": "1964398835",
-      "s": "Separación horizontal entre rocas en una andanada"
     },
     {
       "hash": "1964458654",
@@ -16243,10 +16119,6 @@
     {
       "hash": "1969129636",
       "s": "Dibujar una retícula central"
-    },
-    {
-      "hash": "1969777345",
-      "s": "Enfocar cámara"
     },
     {
       "hash": "1970071584",
@@ -16327,6 +16199,10 @@
     {
       "hash": "1976850095",
       "s": "Pistola Tryhard"
+    },
+    {
+      "hash": "1976927907",
+      "s": "Emitir escombros detrás de las rocas lanzadas"
     },
     {
       "hash": "1977069905",
@@ -16489,6 +16365,10 @@
       "s": "Teletransporte de almacén"
     },
     {
+      "hash": "1995510672",
+      "s": "Rocas Maw de ébano"
+    },
+    {
       "hash": "1996045526",
       "s": "Incluir soltadas de dinero en la lluvia"
     },
@@ -16503,6 +16383,10 @@
     {
       "hash": "1997067756",
       "s": "Enviar una invitación a su Oficina"
+    },
+    {
+      "hash": "1997975245",
+      "s": "Misil de combate aéreo"
     },
     {
       "hash": "2000110734",
@@ -16715,10 +16599,6 @@
     {
       "hash": "2019569151",
       "s": "Rayo"
-    },
-    {
-      "hash": "2019622831",
-      "s": "Hacer explotar las rocas al impactar o colisionar"
     },
     {
       "hash": "2019833395",
@@ -17189,10 +17069,6 @@
       "s": "Reiniciar cabina telefónica"
     },
     {
-      "hash": "2079077886",
-      "s": "Distancia vertical entre anillos de órbita"
-    },
-    {
       "hash": "2079687351",
       "s": "Dinero de Biz"
     },
@@ -17289,16 +17165,16 @@
       "s": "Voltear su vehículo ahora"
     },
     {
-      "hash": "2091114892",
-      "s": "Formación, movimiento y reposición de rocas"
-    },
-    {
       "hash": "2091150012",
       "s": "Solicitar / llamar al Avenger"
     },
     {
       "hash": "2091924082",
       "s": "Generar un OVNIs en red sobre este jugador"
+    },
+    {
+      "hash": "2092339238",
+      "s": "Apariencia y munición de órbita"
     },
     {
       "hash": "2092345681",
@@ -17449,10 +17325,6 @@
       "s": "Lápiz labial"
     },
     {
-      "hash": "2107463939",
-      "s": "Permitir que las rocas orbitantes colisionen con el mundo"
-    },
-    {
       "hash": "2108027393",
       "s": "Desplazamiento de la explosión respecto al jugador (X/Y/Z + aleatorio)"
     },
@@ -17573,6 +17445,10 @@
       "s": "Protecciones contra fallos e inestabilidad"
     },
     {
+      "hash": "2121503255",
+      "s": "Daño causado por un impacto de roca"
+    },
+    {
       "hash": "2122169206",
       "s": "Testosterona de tiburón ballena: mantener / daño / adrenalina / paquete de curación"
     },
@@ -17607,6 +17483,10 @@
     {
       "hash": "2127465308",
       "s": "Creciente menguante II"
+    },
+    {
+      "hash": "2127803716",
+      "s": "Modelo de misil"
     },
     {
       "hash": "2128411756",
@@ -17953,6 +17833,10 @@
       "s": "Puertas Abiertas"
     },
     {
+      "hash": "2167847627",
+      "s": "Misil Mule 1"
+    },
+    {
       "hash": "2167886835",
       "s": "Obligar a los jugadores seleccionados a participar en una actividad"
     },
@@ -18061,10 +17945,6 @@
       "s": "Forzar aspecto mojado a esta altura (%)"
     },
     {
-      "hash": "2181998724",
-      "s": "Distancia de la formación al centro de la roca"
-    },
-    {
       "hash": "2182761997",
       "s": "Atraparlos en una jaula"
     },
@@ -18125,10 +18005,6 @@
       "s": "Térmico"
     },
     {
-      "hash": "2191032728",
-      "s": "Altura máxima de elevación"
-    },
-    {
       "hash": "2191187380",
       "s": "Marcar la introducción del modo freemode de GTA Online como completa para el personaje activo"
     },
@@ -18171,10 +18047,6 @@
     {
       "hash": "2194283471",
       "s": "Recargar la salud/armadura de los jugadores seleccionados"
-    },
-    {
-      "hash": "2196273530",
-      "s": "Ataque Boca de Ébano"
     },
     {
       "hash": "2196714549",
@@ -18233,10 +18105,6 @@
       "s": "Ver peatones a través de las paredes (Legacy: peatones y vehículos con tinte; Enhanced: peatones sin tinte)"
     },
     {
-      "hash": "2203696469",
-      "s": "Tiempo de Ascenso"
-    },
-    {
       "hash": "2204788393",
       "s": "Puede causar ragdoll"
     },
@@ -18255,10 +18123,6 @@
     {
       "hash": "2206431841",
       "s": "Aleatorio Diseño"
-    },
-    {
-      "hash": "2206998280",
-      "s": "Restaurar los pulsos mágicos rosas originales alrededor de cada roca"
     },
     {
       "hash": "2207346922",
@@ -18405,6 +18269,10 @@
       "s": "Mostrar un resplandor azul-blanco del reactor en el pecho"
     },
     {
+      "hash": "2226092611",
+      "s": "Fuerza que mantiene el vehículo contra la superficie activa"
+    },
+    {
       "hash": "2226242094",
       "s": "Desactivar la caída por movimiento natural"
     },
@@ -18423,10 +18291,6 @@
     {
       "hash": "2228415369",
       "s": "Recargar la salud/armadura de este jugador"
-    },
-    {
-      "hash": "2228734815",
-      "s": "Milisegundos para que las rocas regeneradas se unan a la órbita"
     },
     {
       "hash": "2230944494",
@@ -18571,10 +18435,6 @@
     {
       "hash": "2249397699",
       "s": "Eje Z"
-    },
-    {
-      "hash": "2249469104",
-      "s": "Bloqueo de Objetivo Persistente"
     },
     {
       "hash": "2250094586",
@@ -18829,10 +18689,6 @@
       "s": "Cacería de objetivos y escenarios de combate"
     },
     {
-      "hash": "2275102663",
-      "s": "Número de anillos de roca apilados"
-    },
-    {
       "hash": "2276098762",
       "s": "Un refugio seguro en las colinas"
     },
@@ -18859,10 +18715,6 @@
     {
       "hash": "2279543073",
       "s": "Costo de Volada de Misiles"
-    },
-    {
-      "hash": "2279666042",
-      "s": "Intervalo de Fuego Defensivo"
     },
     {
       "hash": "2280126560",
@@ -18919,6 +18771,10 @@
     {
       "hash": "2284082815",
       "s": "Reabastecimiento/Teletransporte"
+    },
+    {
+      "hash": "2284313051",
+      "s": "Velocidad mínima de viaje requerida para trepar a una superficie por delante"
     },
     {
       "hash": "2284589673",
@@ -19023,6 +18879,10 @@
     {
       "hash": "2295445855",
       "s": "Gafas"
+    },
+    {
+      "hash": "2295976560",
+      "s": "Gracia de costura"
     },
     {
       "hash": "2296403745",
@@ -19277,10 +19137,6 @@
       "s": "Volver a la configuración inicial"
     },
     {
-      "hash": "2332817898",
-      "s": "Velocidad de rotación de munición agarrada"
-    },
-    {
       "hash": "2333096025",
       "s": "Calor de Money Fronts eliminado"
     },
@@ -19297,8 +19153,8 @@
       "s": "Alternar colisión de vehículo"
     },
     {
-      "hash": "2335225461",
-      "s": "Apuntar y pulsar Recargar para atraer a una entidad a tu órbita"
+      "hash": "2335295735",
+      "s": "Respuesta de vuelo"
     },
     {
       "hash": "2337384556",
@@ -19427,6 +19283,10 @@
     {
       "hash": "2353719683",
       "s": "Rebotar vehículos cercanos"
+    },
+    {
+      "hash": "2353837032",
+      "s": "Bloqueo de misiles simultáneo"
     },
     {
       "hash": "2353971972",
@@ -19893,10 +19753,6 @@
       "s": "Administrador de ajustes"
     },
     {
-      "hash": "2407178833",
-      "s": "Velocidad de bamboleo"
-    },
-    {
       "hash": "2407431518",
       "s": "Despegue"
     },
@@ -20209,10 +20065,6 @@
       "s": "El modelo sigue transmitiendo; pulsa Generar de nuevo."
     },
     {
-      "hash": "2453802140",
-      "s": "Altura a la que se elevan las entidades antes del bombardeo"
-    },
-    {
       "hash": "2454454297",
       "s": "Anular la matriz de escala de peatones"
     },
@@ -20239,10 +20091,6 @@
     {
       "hash": "2457514308",
       "s": "Generar un paracaídas"
-    },
-    {
-      "hash": "2459068274",
-      "s": "Polvo de impacto"
     },
     {
       "hash": "2460083139",
@@ -20465,6 +20313,10 @@
       "s": "Spooner AnimBrowse"
     },
     {
+      "hash": "2481129537",
+      "s": "Velocidad de escalada"
+    },
+    {
       "hash": "2482262552",
       "s": "Apuntar y presionar ataque para engancharse a una superficie"
     },
@@ -20665,10 +20517,6 @@
       "s": "Altura del pico del morro"
     },
     {
-      "hash": "2509855744",
-      "s": "Daño definitivo"
-    },
-    {
       "hash": "2510669438",
       "s": "VPN / Proxy"
     },
@@ -20679,10 +20527,6 @@
     {
       "hash": "2511192462",
       "s": "Armas desactivadas"
-    },
-    {
-      "hash": "2511787731",
-      "s": "Mantener Apuntar y pulsar Atacar para lanzar rocas orbitantes"
     },
     {
       "hash": "2511894310",
@@ -20723,6 +20567,10 @@
     {
       "hash": "2516941167",
       "s": "Seleccionar NPCs"
+    },
+    {
+      "hash": "2517793437",
+      "s": "Pistola en la cadera"
     },
     {
       "hash": "2517948535",
@@ -20797,6 +20645,10 @@
       "s": "Generar bailarinas y prostitutas gimiendo para este jugador"
     },
     {
+      "hash": "2526349282",
+      "s": "Distancia para encontrar paredes, techos y superficies cercanas"
+    },
+    {
       "hash": "2527120706",
       "s": "Enviar a un NPC a seguir a este jugador y robar su vehículo"
     },
@@ -20857,6 +20709,10 @@
       "s": "Crear un nuevo objetivo de zancada Regla"
     },
     {
+      "hash": "2532986676",
+      "s": "Mostrar armas usadas recientemente en la espalda y la cadera"
+    },
+    {
       "hash": "2533169616",
       "s": "Iniciar una sesión de tripulación"
     },
@@ -20913,12 +20769,16 @@
       "s": "Aceleración/freno/turbulencia de avión"
     },
     {
-      "hash": "2538728388",
-      "s": "Destino establecido en punto de ruta."
+      "hash": "2537922048",
+      "s": "Impacto explosivo"
     },
     {
-      "hash": "2539457151",
-      "s": "Tamaño de los pulsos mágicos rosados"
+      "hash": "2538585764",
+      "s": "Control aéreo al estar unido a una telaraña"
+    },
+    {
+      "hash": "2538728388",
+      "s": "Destino establecido en punto de ruta."
     },
     {
       "hash": "2539705772",
@@ -21023,6 +20883,10 @@
     {
       "hash": "2550966206",
       "s": "Altura de sobretensión"
+    },
+    {
+      "hash": "2551076759",
+      "s": "Llevar la pistola usada recientemente en una funda lateral derecha"
     },
     {
       "hash": "2551252475",
@@ -21309,8 +21173,8 @@
       "s": "Porcentaje de recorte del anfitrión"
     },
     {
-      "hash": "2589568717",
-      "s": "Fuerza aplicada a entidades cerca de un impacto"
+      "hash": "2589611650",
+      "s": "Velocidad de las rocas lanzadas"
     },
     {
       "hash": "2590060109",
@@ -21447,6 +21311,10 @@
     {
       "hash": "2606974881",
       "s": "Matar o explotar entidades que lleguen al núcleo"
+    },
+    {
+      "hash": "2607129916",
+      "s": "Salir del vehículo antes de usar Ebony Maw"
     },
     {
       "hash": "2607646039",
@@ -21889,10 +21757,6 @@
       "s": "Ya en la base de datos."
     },
     {
-      "hash": "2665689920",
-      "s": "Dirigir proyectiles hacia la entidad bajo la mira"
-    },
-    {
       "hash": "2665731410",
       "s": "Ambos indicadores"
     },
@@ -21997,6 +21861,10 @@
       "s": "Transformación de barco"
     },
     {
+      "hash": "2676928783",
+      "s": "Velocidad con la que el vehículo se alinea con una nueva superficie"
+    },
+    {
       "hash": "2676969546",
       "s": "Suelta potenciadores de salud a su alrededor"
     },
@@ -22043,6 +21911,10 @@
     {
       "hash": "2681128996",
       "s": "Daño/fuego/humo/reparar/detener el motor"
+    },
+    {
+      "hash": "2681677804",
+      "s": "Reproducir un sonido corto al disparar rocas"
     },
     {
       "hash": "2682189339",
@@ -22117,10 +21989,6 @@
       "s": "Número 8"
     },
     {
-      "hash": "2691179950",
-      "s": "Intensidad del temblor de la cámara tras un impacto cercano"
-    },
-    {
       "hash": "2691278459",
       "s": "RPG"
     },
@@ -22179,6 +22047,10 @@
     {
       "hash": "2697332102",
       "s": "Devolver tu vehículo personal activo al almacenamiento"
+    },
+    {
+      "hash": "2697781091",
+      "s": "Spider-Man"
     },
     {
       "hash": "2698174136",
@@ -22425,6 +22297,10 @@
       "s": "Relámpagos"
     },
     {
+      "hash": "2732407554",
+      "s": "Dirección al balancearse"
+    },
+    {
       "hash": "2732574812",
       "s": "Restaurar valores"
     },
@@ -22455,6 +22331,10 @@
     {
       "hash": "2734864131",
       "s": "Steam Prueba"
+    },
+    {
+      "hash": "2735134293",
+      "s": "Rifle largo en la espalda"
     },
     {
       "hash": "2735412210",
@@ -23141,10 +23021,6 @@
       "s": "Accesorios"
     },
     {
-      "hash": "2812630992",
-      "s": "Milisegundos antes de que una roca disparada sea reemplazada"
-    },
-    {
       "hash": "2813101304",
       "s": "Configuración de recreativa"
     },
@@ -23263,6 +23139,10 @@
     {
       "hash": "2827708285",
       "s": "Fácil"
+    },
+    {
+      "hash": "2827958866",
+      "s": "Balancearse de edificios, escalar paredes y saltar como Spider-Man"
     },
     {
       "hash": "2828035211",
@@ -23577,6 +23457,10 @@
       "s": "Fotografía de vida silvestre completada."
     },
     {
+      "hash": "2868609665",
+      "s": "Conducir por pisos, paredes y techos con transiciones automáticas de superficie"
+    },
+    {
       "hash": "2869198228",
       "s": "Intensidad de reflejo"
     },
@@ -23645,10 +23529,6 @@
       "s": "Asaltos"
     },
     {
-      "hash": "2875219018",
-      "s": "Mostrar la posición de la entidad o del mundo seleccionado al apuntar"
-    },
-    {
       "hash": "2876220197",
       "s": "Nivel"
     },
@@ -23695,6 +23575,10 @@
     {
       "hash": "2882854499",
       "s": "Intensidad de la transición cenital"
+    },
+    {
+      "hash": "2882891068",
+      "s": "Máximo número de entidades marcadas y distribuidas en una salva de misiles"
     },
     {
       "hash": "2883164523",
@@ -23759,6 +23643,10 @@
     {
       "hash": "2887964901",
       "s": "Caída de trapo al correr"
+    },
+    {
+      "hash": "2888773561",
+      "s": "Retraso antes de que las rocas disparadas sean reemplazadas"
     },
     {
       "hash": "2888922529",
@@ -23865,6 +23753,10 @@
       "s": "Reemplazar (Bloqueado)"
     },
     {
+      "hash": "2901744465",
+      "s": "Prevenir daños al estar unido a una telaraña"
+    },
+    {
       "hash": "2902814435",
       "s": "Sus balas lanzan un vehículo aleatorio al impactar"
     },
@@ -23879,6 +23771,10 @@
     {
       "hash": "2905489395",
       "s": "Ruedas deportivas"
+    },
+    {
+      "hash": "2905645201",
+      "s": "Proteger al jinete mientras Ebony Maw está activo"
     },
     {
       "hash": "2905741344",
@@ -24065,6 +23961,10 @@
       "s": "Acelerado"
     },
     {
+      "hash": "2926722218",
+      "s": "Tensión al balancearse"
+    },
+    {
       "hash": "2926739498",
       "s": "Restaurar las ofertas originales del comprador de carga de vehículos"
     },
@@ -24099,10 +23999,6 @@
     {
       "hash": "2932500165",
       "s": "Borrar marcadores al cargar"
-    },
-    {
-      "hash": "2932559729",
-      "s": "Tamaño del marcador de objetivo de puntería"
     },
     {
       "hash": "2933114858",
@@ -24155,10 +24051,6 @@
     {
       "hash": "2938739543",
       "s": "Tamaño"
-    },
-    {
-      "hash": "2939068336",
-      "s": "Milisegundos entre pulsos mágicos rosas"
     },
     {
       "hash": "2939073999",
@@ -24285,10 +24177,6 @@
       "s": "Los Asesinos"
     },
     {
-      "hash": "2950588088",
-      "s": "Distancia de la entidad agarrada del centro de la roca"
-    },
-    {
       "hash": "2951277130",
       "s": "Vehículos, jaulas, atacantes, eventos del mundo y deslotes"
     },
@@ -24349,16 +24237,8 @@
       "s": "Hacer que el marcador siga a la entidad apuntada"
     },
     {
-      "hash": "2958937329",
-      "s": "Desatar lo Definitivo"
-    },
-    {
       "hash": "2959184336",
       "s": "Mansión"
-    },
-    {
-      "hash": "2959336006",
-      "s": "Mostrar munición de la roca, modo, objetivo y estado de carga"
     },
     {
       "hash": "2959469528",
@@ -24485,6 +24365,10 @@
       "s": "Voltear hacia arriba"
     },
     {
+      "hash": "2978919511",
+      "s": "Distancia máxima para un anclaje de telaraña en un edificio"
+    },
+    {
       "hash": "2978936080",
       "s": "Impulso del Avenger"
     },
@@ -24593,6 +24477,10 @@
       "s": "Fijar la escala de tiempo a cero"
     },
     {
+      "hash": "2996554634",
+      "s": "Longitud de la telaraña"
+    },
+    {
       "hash": "2997358180",
       "s": "Daño de arma"
     },
@@ -24689,6 +24577,10 @@
       "s": "Reproductor de voz"
     },
     {
+      "hash": "3011681984",
+      "s": "Ebony Maw Combate"
+    },
+    {
       "hash": "3012189942",
       "s": "La firma del lanzador no se resolvió"
     },
@@ -24731,6 +24623,10 @@
     {
       "hash": "3015094138",
       "s": "Sacudir repetidamente las cámaras de los jugadores seleccionados"
+    },
+    {
+      "hash": "3015319386",
+      "s": "Ángulo entre rocas en una andanada"
     },
     {
       "hash": "3016200727",
@@ -25409,12 +25305,12 @@
       "s": "Presets del Administrador de estadísticas"
     },
     {
-      "hash": "3104251427",
-      "s": "Vibración Orbital"
-    },
-    {
       "hash": "3104406267",
       "s": "Coleccionables"
+    },
+    {
+      "hash": "3105964719",
+      "s": "Mantener Sprint y avanzar hacia una pared para escalarla"
     },
     {
       "hash": "3106289740",
@@ -25431,10 +25327,6 @@
     {
       "hash": "3107435152",
       "s": "Círculo (Norte)"
-    },
-    {
-      "hash": "3108007573",
-      "s": "Intervalo de Disparo Rápido"
     },
     {
       "hash": "3108147131",
@@ -25553,6 +25445,10 @@
       "s": "Reabastecimiento/valor/producción de ácido"
     },
     {
+      "hash": "3122798952",
+      "s": "Configuración de combate"
+    },
+    {
       "hash": "3122980240",
       "s": "Quemar peatón"
     },
@@ -25641,10 +25537,6 @@
       "s": "Iniciar el trabajo de reparto de marihuana en GTA Online"
     },
     {
-      "hash": "3132172653",
-      "s": "Espaciado del Anillo"
-    },
-    {
       "hash": "3132638093",
       "s": "Aplicar registros principales realistas para un personaje en línea establecido"
     },
@@ -25655,10 +25547,6 @@
     {
       "hash": "3133821244",
       "s": "Restaurar salud y armadura al iniciar"
-    },
-    {
-      "hash": "3134079332",
-      "s": "Emitir partículas de escombros detrás de rocas en movimiento y orbitando"
     },
     {
       "hash": "3134901930",
@@ -25725,6 +25613,10 @@
       "s": "Relación aplicada."
     },
     {
+      "hash": "3142455406",
+      "s": "Desplazamiento vertical de la formación relajada"
+    },
+    {
       "hash": "3142746457",
       "s": "Restablecer todos los ajustes"
     },
@@ -25763,10 +25655,6 @@
     {
       "hash": "3146123206",
       "s": "Protecciones de serialización de tareas instaladas"
-    },
-    {
-      "hash": "3146398666",
-      "s": "Lanzamiento Automático de Defensa"
     },
     {
       "hash": "3146445151",
@@ -26513,6 +26401,10 @@
       "s": "Rastreador Peatones"
     },
     {
+      "hash": "3235447244",
+      "s": "Dispersión del lanzamiento de misiles"
+    },
+    {
       "hash": "3235561458",
       "s": "Vehículo 4"
     },
@@ -26873,6 +26765,10 @@
       "s": "Puño Explosivo"
     },
     {
+      "hash": "3283342167",
+      "s": "Distancia a la que el traje se inclina hacia adelante y hacia atrás mientras vuela"
+    },
+    {
       "hash": "3283375820",
       "s": "Radio para eliminar marcadores dentro del rango"
     },
@@ -26901,12 +26797,12 @@
       "s": "Evadir Velocidad Máxima"
     },
     {
-      "hash": "3286879918",
-      "s": "Tiempo Máximo de Sostén"
-    },
-    {
       "hash": "3287111093",
       "s": "Spoiler"
+    },
+    {
+      "hash": "3287164261",
+      "s": "Armas visibles"
     },
     {
       "hash": "3287354342",
@@ -26959,6 +26855,10 @@
     {
       "hash": "3296135518",
       "s": "Reabastecimiento de Recompensa"
+    },
+    {
+      "hash": "3296220305",
+      "s": "Tiempo máximo de balanceo"
     },
     {
       "hash": "3296232868",
@@ -27393,6 +27293,10 @@
       "s": "Luces de neón"
     },
     {
+      "hash": "3346248479",
+      "s": "Velocidad de lanzamiento, guiado e impacto"
+    },
+    {
       "hash": "3346403025",
       "s": "Marcar como completada la misión"
     },
@@ -27427,10 +27331,6 @@
     {
       "hash": "3349535926",
       "s": "No se pudo posicionar al jugador en el vehículo"
-    },
-    {
-      "hash": "3350118821",
-      "s": "Distancia a un objetivo que cuenta como un impacto"
     },
     {
       "hash": "3350901926",
@@ -27697,6 +27597,10 @@
       "s": "Limpiar Apariciones"
     },
     {
+      "hash": "3373845134",
+      "s": "Misil Mule 2"
+    },
+    {
       "hash": "3375764472",
       "s": "Desbloqueado"
     },
@@ -27711,6 +27615,10 @@
     {
       "hash": "3376913338",
       "s": "Aplicar efecto de muñeco de trapo a cada jugador objetivo"
+    },
+    {
+      "hash": "3377233222",
+      "s": "Saltar mucho más alto mientras el modo Araña está activo"
     },
     {
       "hash": "3377387356",
@@ -27789,12 +27697,20 @@
       "s": "Eliminar Blip"
     },
     {
+      "hash": "3385106737",
+      "s": "Ocultarse en vehículos"
+    },
+    {
       "hash": "3385252368",
       "s": "Agujero negro"
     },
     {
       "hash": "3386005654",
       "s": "Hacer que los animales poseídos sean invencibles"
+    },
+    {
+      "hash": "3386876716",
+      "s": "Levitar en piedra y lanzar una andanada controlada de rocas orbitantes"
     },
     {
       "hash": "3387167728",
@@ -27845,6 +27761,10 @@
       "s": "Incluir recogidas de misiles en la lluvia"
     },
     {
+      "hash": "3391922819",
+      "s": "Balancearse con telarañas de edificios, escalar paredes y super salto"
+    },
+    {
       "hash": "3392658519",
       "s": "Todos ignoran al jugador"
     },
@@ -27857,20 +27777,12 @@
       "s": "Edición de teclado ACTIVADA  (WASD/QE mover, R cambiar posición/rotación, +/- paso)"
     },
     {
-      "hash": "3394639046",
-      "s": "Escudo de roca automático"
-    },
-    {
       "hash": "3394704253",
       "s": "Jet"
     },
     {
       "hash": "3395446560",
       "s": "Energía consumida por segundo al aumentar la velocidad"
-    },
-    {
-      "hash": "3395497029",
-      "s": "Radio de defensa"
     },
     {
       "hash": "3395582658",
@@ -28093,6 +28005,10 @@
       "s": "Vuela como el truco del Dodo de Vice City: la velocidad genera sustentación"
     },
     {
+      "hash": "3418530384",
+      "s": "Alcance de la telaraña"
+    },
+    {
       "hash": "3418777387",
       "s": "Sexo"
     },
@@ -28217,12 +28133,12 @@
       "s": "Spooner MSFinish3"
     },
     {
-      "hash": "3435501019",
-      "s": "Aumenta tu velocidad al empuje"
+      "hash": "3433427093",
+      "s": "Crear una explosión cuando una roca impacte"
     },
     {
-      "hash": "3436476928",
-      "s": "Nuevas rocas se elevan desde abajo antes de unirse a la formación"
+      "hash": "3435501019",
+      "s": "Aumenta tu velocidad al empuje"
     },
     {
       "hash": "3437569297",
@@ -28267,10 +28183,6 @@
     {
       "hash": "3443292647",
       "s": "Prueba de tiempo en bicicleta"
-    },
-    {
-      "hash": "3443374621",
-      "s": "Proteger al jinete mientras la energía está activa"
     },
     {
       "hash": "3444239045",
@@ -28385,10 +28297,6 @@
       "s": "Caza de fantasmas"
     },
     {
-      "hash": "3455045322",
-      "s": "Primera Persona"
-    },
-    {
       "hash": "3455454949",
       "s": "Sin conexión"
     },
@@ -28403,10 +28311,6 @@
     {
       "hash": "3457070981",
       "s": "Control de luz inferior"
-    },
-    {
-      "hash": "3457104387",
-      "s": "Bloquear entidad seleccionada al apuntar"
     },
     {
       "hash": "3457164496",
@@ -28427,6 +28331,10 @@
     {
       "hash": "3458593410",
       "s": "Pies"
+    },
+    {
+      "hash": "3459896245",
+      "s": "Grosor visual del haz torácico"
     },
     {
       "hash": "3460511827",
@@ -28557,10 +28465,6 @@
       "s": "Normal / Difícil"
     },
     {
-      "hash": "3476965910",
-      "s": "Volante de Escopeta"
-    },
-    {
       "hash": "3477865764",
       "s": "Generar eventos"
     },
@@ -28599,10 +28503,6 @@
     {
       "hash": "3482854753",
       "s": "Crear rango"
-    },
-    {
-      "hash": "3482912928",
-      "s": "Escala Mágica"
     },
     {
       "hash": "3483410211",
@@ -28795,6 +28695,10 @@
     {
       "hash": "3504995277",
       "s": "Escribe el mensaje para enviar spam a este jugador"
+    },
+    {
+      "hash": "3505148630",
+      "s": "Dirigir rocas lanzadas hacia la entidad seleccionada"
     },
     {
       "hash": "3505346644",
@@ -29033,10 +28937,6 @@
       "s": "Estado de bloqueo de puerta"
     },
     {
-      "hash": "3535239692",
-      "s": "Giro de Roca"
-    },
-    {
       "hash": "3536020728",
       "s": "Apuntar y disparar para generar un efecto de partículas en el punto de impacto"
     },
@@ -29135,10 +29035,6 @@
     {
       "hash": "3549520750",
       "s": "Error al escanear la firma. Identificador: %s    Patrón: %s    Es posible que el juego se haya actualizado."
-    },
-    {
-      "hash": "3550049285",
-      "s": "Qué tan agresivamente las rocas se dirigen a un objetivo"
     },
     {
       "hash": "3551390440",
@@ -29401,10 +29297,6 @@
       "s": "Jugadores vistos en tus sesiones - añadir como amigo falso / monitorizar / unirse"
     },
     {
-      "hash": "3582045095",
-      "s": "Radio Definitivo"
-    },
-    {
       "hash": "3582181136",
       "s": "Cambiar de arma"
     },
@@ -29541,6 +29433,10 @@
       "s": "Giro del hueso de la nariz"
     },
     {
+      "hash": "3600791980",
+      "s": "Reproducir una animación de funda o extracción cuando se cambien de armas"
+    },
+    {
       "hash": "3600840930",
       "s": "Depositar (Banco)"
     },
@@ -29661,6 +29557,10 @@
       "s": "Solo legado. Edita tus datos de sesión anunciados para que los buscadores te clasifiquen más alto: mantiene activa la baliza de emparejamiento (BEACON_WEIGHT), hace que la sesión parezca pública y elimina la penalización por antideportivo. Seguro (edita el búfer de salida en vuelo, tamaño comprobado) -- inerte si la compilación del juego es diferente. Desactivar si no ayuda."
     },
     {
+      "hash": "3613193354",
+      "s": "Velocidad de ascenso o descenso al escalar o saltar"
+    },
+    {
       "hash": "3613475640",
       "s": "Velocidad (m/s) a la que una entidad alcanza la tasa de rebote máxima"
     },
@@ -29737,12 +29637,12 @@
       "s": "Eliminar todos los vehículos del mundo"
     },
     {
-      "hash": "3619948510",
-      "s": "Intervalo Mágico"
-    },
-    {
       "hash": "3620117077",
       "s": "Guion"
+    },
+    {
+      "hash": "3620140931",
+      "s": "Impulso hacia adelante y hacia arriba al saltar desde una telaraña"
     },
     {
       "hash": "3620308099",
@@ -29785,12 +29685,12 @@
       "s": "Filtrado, suavizado, predicción y mira HUD"
     },
     {
-      "hash": "3627746690",
-      "s": "Gravedad del Proyectil"
-    },
-    {
       "hash": "3628423618",
       "s": "Eliminar jaulas y trampas de vehículos creadas por estas opciones"
+    },
+    {
+      "hash": "3628480513",
+      "s": "Roca pesada"
     },
     {
       "hash": "3628551877",
@@ -30089,10 +29989,6 @@
       "s": "Iluminación, agua y VFX de partículas"
     },
     {
-      "hash": "3661649250",
-      "s": "Boulder Cargado"
-    },
-    {
       "hash": "3661759279",
       "s": "Adjuntar a la entidad"
     },
@@ -30329,10 +30225,6 @@
       "s": "Calibre de disparo automático"
     },
     {
-      "hash": "3690574099",
-      "s": "Máximo número de rocas disponibles como armadura y munición orbitantes"
-    },
-    {
       "hash": "3690613025",
       "s": "Agarre físico: mantén pulsado Ataque para agarrar el hueso bajo el cursor y arrastra la entidad desde él; Desplazamiento = profundidad, mantener pulsado Apuntar = rotar"
     },
@@ -30407,6 +30299,10 @@
     {
       "hash": "3698752918",
       "s": "Borrar coordenadas de la imagen del CD"
+    },
+    {
+      "hash": "3699150189",
+      "s": "Cuerpo de misil mediano usado para la ojiva guiada"
     },
     {
       "hash": "3699174005",
@@ -30885,10 +30781,6 @@
       "s": "Primer clima (Mezcla 0%)"
     },
     {
-      "hash": "3755890177",
-      "s": "Crear escombros y magia adicionales en los puntos de impacto"
-    },
-    {
       "hash": "3756352765",
       "s": "2"
     },
@@ -31097,10 +30989,6 @@
       "s": "Altura de caída (m)"
     },
     {
-      "hash": "3777253482",
-      "s": "Tiempo de carga"
-    },
-    {
       "hash": "3777398352",
       "s": "Todo está bajo las pestañas en la parte superior"
     },
@@ -31153,10 +31041,6 @@
       "s": "Hélice 4"
     },
     {
-      "hash": "3783137318",
-      "s": "Velocidad con la que una entidad agarrada alcanza su punto orbital"
-    },
-    {
       "hash": "3783267568",
       "s": "Completar grieta de bóveda 0-100"
     },
@@ -31179,6 +31063,10 @@
     {
       "hash": "3784356982",
       "s": "Velocidad de crucero"
+    },
+    {
+      "hash": "3784907283",
+      "s": "Daño por impacto"
     },
     {
       "hash": "3784935445",
@@ -31211,10 +31099,6 @@
     {
       "hash": "3788512406",
       "s": "Parte"
-    },
-    {
-      "hash": "3788555879",
-      "s": "Altura a la que las rocas comienzan por encima del objetivo seleccionado"
     },
     {
       "hash": "3788598447",
@@ -31861,6 +31745,10 @@
       "s": "Duración del impulso en modo cronometrado"
     },
     {
+      "hash": "3862816103",
+      "s": "Espacio entre rocas al prepararse para disparar"
+    },
+    {
       "hash": "3863540118",
       "s": "Sobreescribir el arma disparada de este vehículo"
     },
@@ -31915,6 +31803,10 @@
     {
       "hash": "3868785052",
       "s": "Redimensionar"
+    },
+    {
+      "hash": "3869873973",
+      "s": "Escala del propulsor"
     },
     {
       "hash": "3870058444",
@@ -32023,10 +31915,6 @@
     {
       "hash": "3879902833",
       "s": "Suavidad de los bordes de las partículas"
-    },
-    {
-      "hash": "3880061007",
-      "s": "Milisegundos entre salvas"
     },
     {
       "hash": "3880113624",
@@ -32355,10 +32243,6 @@
     {
       "hash": "3915956624",
       "s": "Desplazamiento vertical"
-    },
-    {
-      "hash": "3916202921",
-      "s": "Agarre de telequinesis"
     },
     {
       "hash": "3916370193",
@@ -32701,10 +32585,6 @@
       "s": "Error al unirse a la sesión por información; se creará una nueva sesión"
     },
     {
-      "hash": "3951186734",
-      "s": "Girar al jinete y la roca central hacia la cámara"
-    },
-    {
       "hash": "3951515928",
       "s": "Vista previa del peatón"
     },
@@ -32791,6 +32671,10 @@
     {
       "hash": "3962885829",
       "s": "Principal y secundaria"
+    },
+    {
+      "hash": "3963642439",
+      "s": "Formación rocosa"
     },
     {
       "hash": "3964073976",
@@ -32943,10 +32827,6 @@
     {
       "hash": "3982230435",
       "s": "Devolver su vehículo de Moon Pool a la Kosatka"
-    },
-    {
-      "hash": "3982365561",
-      "s": "Milisegundos entre disparos defensivos automáticos"
     },
     {
       "hash": "3982626406",
@@ -33205,6 +33085,10 @@
       "s": "Saltar para despegar"
     },
     {
+      "hash": "4010876935",
+      "s": "Bombardeo de rocas"
+    },
+    {
       "hash": "4011647192",
       "s": "Apuntar al hueso de la cabeza"
     },
@@ -33389,10 +33273,6 @@
       "s": "Ir a blackjack/póker/ruleta"
     },
     {
-      "hash": "4036957948",
-      "s": "Alas"
-    },
-    {
       "hash": "4036992069",
       "s": "Vehículos de DLC"
     },
@@ -33533,10 +33413,6 @@
       "s": "Evento de explosión"
     },
     {
-      "hash": "4049523517",
-      "s": "Rango usado para detectar peds hostiles"
-    },
-    {
       "hash": "4050487207",
       "s": "Desactivado / Estándar"
     },
@@ -33547,10 +33423,6 @@
     {
       "hash": "4050614153",
       "s": "Intentar matar a este jugador mientras está dentro de un apartamento o interior comercial"
-    },
-    {
-      "hash": "4050719897",
-      "s": "Elegir el ataque de roca activo"
     },
     {
       "hash": "4051927718",
@@ -33705,6 +33577,10 @@
       "s": "Vehículos de tráfico"
     },
     {
+      "hash": "4067825808",
+      "s": "Misil aire-aire Arena"
+    },
+    {
       "hash": "4068750822",
       "s": "Servicios"
     },
@@ -33747,6 +33623,10 @@
     {
       "hash": "4074780026",
       "s": "Crear explosiones sincronizadas alrededor de este jugador"
+    },
+    {
+      "hash": "4075084922",
+      "s": "Tiempo para salvar pequeños huecos antes de que regrese la gravedad normal"
     },
     {
       "hash": "4075120398",
@@ -34245,10 +34125,6 @@
       "s": "Carta + Fichas + RP"
     },
     {
-      "hash": "4132364984",
-      "s": "Rocas"
-    },
-    {
       "hash": "4132841903",
       "s": "Aleteo de muñeco de trapo con las teclas de movimiento"
     },
@@ -34479,10 +34355,6 @@
     {
       "hash": "4155334016",
       "s": "Dispara balas con la mano"
-    },
-    {
-      "hash": "4155625758",
-      "s": "Área buscada para objetivos definitivos"
     },
     {
       "hash": "4156939682",
@@ -34801,6 +34673,10 @@
       "s": "Cómo te trata el peatón a ti/a los demás"
     },
     {
+      "hash": "4193952615",
+      "s": "Invencible al balancearse"
+    },
+    {
       "hash": "4194325266",
       "s": "Inmune solo al fuego/llamas"
     },
@@ -34851,6 +34727,10 @@
     {
       "hash": "4201550504",
       "s": "Resultados del trabajo"
+    },
+    {
+      "hash": "4201592886",
+      "s": "Suavizado de rotación"
     },
     {
       "hash": "4201875611",
@@ -34947,10 +34827,6 @@
     {
       "hash": "4211742556",
       "s": "Nave de combate en camino."
-    },
-    {
-      "hash": "4211950874",
-      "s": "Dejar que las rocas lanzadas caigan naturalmente"
     },
     {
       "hash": "4212242996",
@@ -35107,6 +34983,10 @@
     {
       "hash": "4232442747",
       "s": "Multiplicador de recompensa por objetivo abatido = 1.0"
+    },
+    {
+      "hash": "4232934818",
+      "s": "Llevar el rifle, escopeta o arma pesada más recientemente utilizada a la espalda"
     },
     {
       "hash": "4233412320",
@@ -35361,10 +35241,6 @@
       "s": "Cambiador de voz"
     },
     {
-      "hash": "4261433984",
-      "s": "Fuerza de agarre"
-    },
-    {
       "hash": "4261948861",
       "s": "Voltear el vehículo hacia arriba cuando está volcado"
     },
@@ -35379,10 +35255,6 @@
     {
       "hash": "4262921177",
       "s": "Configurar el desguace"
-    },
-    {
-      "hash": "4262965694",
-      "s": "Configuración de órbita"
     },
     {
       "hash": "4263141939",
@@ -35419,10 +35291,6 @@
     {
       "hash": "4268456388",
       "s": "Eliminar todos los bailarines vinculados a los jugadores seleccionados"
-    },
-    {
-      "hash": "4268579583",
-      "s": "Anillo, espiral, esfera, corona, alas o muro de escudo"
     },
     {
       "hash": "4268677624",
@@ -35643,10 +35511,6 @@
     {
       "hash": "4293716332",
       "s": "Bloqueado"
-    },
-    {
-      "hash": "4294024086",
-      "s": "Evitar que la roca central vuele por debajo del terreno"
     },
     {
       "hash": "4294570699",

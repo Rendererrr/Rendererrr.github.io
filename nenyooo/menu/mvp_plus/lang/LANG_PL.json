@@ -41,10 +41,6 @@
       "s": "Taliana Martinez"
     },
     {
-      "hash": "5240247",
-      "s": "Prędkość pocisku, celowanie i obrażenia od uderzenia"
-    },
-    {
       "hash": "5547828",
       "s": "Dokumenty Biznesowe"
     },
@@ -95,10 +91,6 @@
     {
       "hash": "12570118",
       "s": "Ponowne skanowanie magazynu tekstur na żywo (strumieniowanie tekstur przychodzące/wychodzące)"
-    },
-    {
-      "hash": "13033634",
-      "s": "Emituj magię i gruz z centralnej skały podczas przyspieszania"
     },
     {
       "hash": "13172964",
@@ -433,10 +425,6 @@
       "s": "Czas między odpaleniami na gracza"
     },
     {
-      "hash": "53511836",
-      "s": "Interwał śladu"
-    },
-    {
       "hash": "53968504",
       "s": "Przywrócono do ustawień domyślnych"
     },
@@ -535,6 +523,10 @@
     {
       "hash": "62373092",
       "s": "Zezwól na rozpoczęcie nowego napadu"
+    },
+    {
+      "hash": "64612092",
+      "s": "Sekundy przed automatycznym uwolnieniem pajęczyny"
     },
     {
       "hash": "65554708",
@@ -691,10 +683,6 @@
     {
       "hash": "88198406",
       "s": "Wyrzucenie do Wnętrza"
-    },
-    {
-      "hash": "88717725",
-      "s": "Prędkość wystrzeliwania skał"
     },
     {
       "hash": "88862192",
@@ -1061,6 +1049,10 @@
       "s": "Stwórz przed sobą -- działa w dzień"
     },
     {
+      "hash": "132211867",
+      "s": "Noś ostatnio używane bronie na plecach i biodrze z animowaną zmianą"
+    },
+    {
       "hash": "132376010",
       "s": "Chino O Death"
     },
@@ -1205,6 +1197,10 @@
       "s": "Uszkodowany ładunek i zabezpieczenia przed awariami"
     },
     {
+      "hash": "146099972",
+      "s": "Milisekundy między atakami"
+    },
+    {
       "hash": "146305741",
       "s": "Utwórz podbór używając wybranego typu"
     },
@@ -1239,10 +1235,6 @@
     {
       "hash": "151505772",
       "s": "Strzał w głowę"
-    },
-    {
-      "hash": "151625121",
-      "s": "Telekineza, automatyczna obrona i ostateczny atak"
     },
     {
       "hash": "151629903",
@@ -1557,10 +1549,6 @@
       "s": "Zmień cykl księżyca na 90%"
     },
     {
-      "hash": "194380535",
-      "s": "Skała-Klatka"
-    },
-    {
       "hash": "195892446",
       "s": "Super Diamond"
     },
@@ -1589,12 +1577,20 @@
       "s": "Maks. Tancerze"
     },
     {
+      "hash": "198012929",
+      "s": "Odległość luźnego szyku"
+    },
+    {
       "hash": "198746285",
       "s": "Skocz do laptopa w bunkrze"
     },
     {
       "hash": "199210932",
       "s": "Wszystkie drzwi zamknięte."
+    },
+    {
+      "hash": "199489090",
+      "s": "Uwolnij Boost"
     },
     {
       "hash": "199954802",
@@ -1611,6 +1607,10 @@
     {
       "hash": "201406970",
       "s": "Statyczność = teleportacja, Prędkość = fizyka"
+    },
+    {
+      "hash": "201573099",
+      "s": "Pionowa prędkość podczas wspinaczki po ścianie"
     },
     {
       "hash": "201960275",
@@ -1769,6 +1769,10 @@
       "s": "Nadawca zdarzeń skryptowych niedostępny"
     },
     {
+      "hash": "221628136",
+      "s": "Jak szybko skały korygują kurs"
+    },
+    {
       "hash": "222102476",
       "s": "Wszystkie Okna"
     },
@@ -1829,10 +1833,6 @@
       "s": "Cząsteczki na obwodzie"
     },
     {
-      "hash": "231473344",
-      "s": "Jak szybko skała reaguje i zatrzymuje się"
-    },
-    {
       "hash": "231497406",
       "s": "Szaty Epsilon"
     },
@@ -1857,10 +1857,6 @@
       "s": "Salwa błysków Merryweather"
     },
     {
-      "hash": "232704077",
-      "s": "Ochrona naziemna"
-    },
-    {
       "hash": "234666593",
       "s": "Obszar ciała do celowania"
     },
@@ -1875,6 +1871,10 @@
     {
       "hash": "235126178",
       "s": "Ocena"
+    },
+    {
+      "hash": "236665793",
+      "s": "Prędkość wyrównywania"
     },
     {
       "hash": "237274530",
@@ -1917,10 +1917,6 @@
       "s": "Ogniste naklejki w miejscu celowania"
     },
     {
-      "hash": "239790605",
-      "s": "Pojedyncza skała"
-    },
-    {
       "hash": "239890782",
       "s": "Chroń towarzysza przed uszkodzeniem"
     },
@@ -1961,6 +1957,10 @@
       "s": "Ustawiony poziom załogi."
     },
     {
+      "hash": "245150852",
+      "s": "Wspinaczka po ścianach"
+    },
+    {
       "hash": "245177209",
       "s": "Żądania pojazdów"
     },
@@ -1975,10 +1975,6 @@
     {
       "hash": "247716413",
       "s": "Nieprawidłowy stan"
-    },
-    {
-      "hash": "247839207",
-      "s": "Rotacja centralnej skały w stopniach na sekundę"
     },
     {
       "hash": "248015700",
@@ -2107,10 +2103,6 @@
     {
       "hash": "259760165",
       "s": "Czas trwania boostu"
-    },
-    {
-      "hash": "260105968",
-      "s": "Skały jako pociski"
     },
     {
       "hash": "260224867",
@@ -2449,10 +2441,6 @@
       "s": "Efekty specjalne, gdy pocisk eksploduje"
     },
     {
-      "hash": "293195963",
-      "s": "Użyj kółka myszy podczas celowania, aby wybrać pobliskie obiekty"
-    },
-    {
       "hash": "293367220",
       "s": "Zalewanie wokół mnie"
     },
@@ -2517,20 +2505,12 @@
       "s": "Gotówka za pojazd"
     },
     {
-      "hash": "303575266",
-      "s": "Podnieś pobliskie obiekty i bombarduj wybrany obszar"
-    },
-    {
       "hash": "303724569",
       "s": "Ustaw współrzędne obrazu CD = Pozycja gracza"
     },
     {
       "hash": "303744106",
       "s": "Rozmycie ruchu / głębi"
-    },
-    {
-      "hash": "304778339",
-      "s": "Promień formacji dodany dla każdej jednostki prędkości lotu"
     },
     {
       "hash": "305191772",
@@ -2873,6 +2853,10 @@
       "s": "Konfiguracja firmy taksówkarskiej"
     },
     {
+      "hash": "347351939",
+      "s": "Szerokość Unibeama"
+    },
+    {
       "hash": "347829262",
       "s": "Żółty/Niebieski"
     },
@@ -3079,6 +3063,10 @@
     {
       "hash": "376298657",
       "s": "Próg zdrowia"
+    },
+    {
+      "hash": "376533518",
+      "s": "Jazda po ścianach"
     },
     {
       "hash": "376768162",
@@ -3379,6 +3367,10 @@
     {
       "hash": "411962870",
       "s": "Tryb zamieszek, narzędzia anty-griefera i wrogość"
+    },
+    {
+      "hash": "412353616",
+      "s": "Jak szybko kamera Orła obraca się"
     },
     {
       "hash": "412579704",
@@ -3985,10 +3977,6 @@
       "s": "Rekwizyty i spawnowanie"
     },
     {
-      "hash": "482657347",
-      "s": "Pierścienie"
-    },
-    {
       "hash": "484193273",
       "s": "Fizyka"
     },
@@ -4325,10 +4313,6 @@
       "s": "Uczynić Cerberusa i jego kierowcę niezniszczalnymi"
     },
     {
-      "hash": "528054431",
-      "s": "Czas zawieszenia obiektów w milisekundach"
-    },
-    {
       "hash": "528381351",
       "s": "Uderz w pobliskie pojazdy"
     },
@@ -4381,10 +4365,6 @@
       "s": "Wybuchaj co drugim graczem, obwiniając za to tego gracza (test omijania właściciela ADD_OWNED_EXPLOSION)"
     },
     {
-      "hash": "537255452",
-      "s": "Pionowy przesunięcie formacji"
-    },
-    {
       "hash": "537498448",
       "s": "Zamknij"
     },
@@ -4431,10 +4411,6 @@
     {
       "hash": "543315751",
       "s": "Coca-Cola Heat"
-    },
-    {
-      "hash": "543609299",
-      "s": "Wysokość meteoru"
     },
     {
       "hash": "544342680",
@@ -4521,6 +4497,10 @@
       "s": "Zablokuj pozycję niezależnie od fizyki"
     },
     {
+      "hash": "556806862",
+      "s": "Jak mocno pajęczyna napina się, gdy jest rozciągnięta"
+    },
+    {
       "hash": "558004792",
       "s": "Odległość kamery"
     },
@@ -4591,10 +4571,6 @@
     {
       "hash": "562062500",
       "s": "Ślad cząsteczek w locie"
-    },
-    {
-      "hash": "562510944",
-      "s": "Milisekundy między emisjami cząstek"
     },
     {
       "hash": "563329465",
@@ -5193,6 +5169,10 @@
       "s": "Odwróć Prędkość"
     },
     {
+      "hash": "635764837",
+      "s": "Rozmiar ciągłych silników doprzewodowych"
+    },
+    {
       "hash": "635779862",
       "s": "Zapisz lub wczytaj mapy Spooner"
     },
@@ -5255,10 +5235,6 @@
     {
       "hash": "642207704",
       "s": "Model przedmiotu"
-    },
-    {
-      "hash": "643488054",
-      "s": "Indywidualne obroty skały w stopniach na sekundę"
     },
     {
       "hash": "643576846",
@@ -5481,6 +5457,10 @@
       "s": "Brak wyboru."
     },
     {
+      "hash": "671230967",
+      "s": "Lot - Kąt natarcia"
+    },
+    {
       "hash": "671283148",
       "s": "Rozegraj wszystkie misje solo wyłączone"
     },
@@ -5699,10 +5679,6 @@
     {
       "hash": "695056518",
       "s": "Odśwież tablicę planowania"
-    },
-    {
-      "hash": "695457683",
-      "s": "Wybuch z ziemi"
     },
     {
       "hash": "696323804",
@@ -5953,10 +5929,6 @@
       "s": "Armaty do przodu"
     },
     {
-      "hash": "727427530",
-      "s": "Wybuch przy uderzeniu"
-    },
-    {
       "hash": "727818266",
       "s": "Załadowano"
     },
@@ -6007,6 +5979,10 @@
     {
       "hash": "732178529",
       "s": "Zamknij ich w kontenerze + atakujący policjant"
+    },
+    {
+      "hash": "732225905",
+      "s": "Odstęp między rakietami podczas opuszczania kombinezonu"
     },
     {
       "hash": "732444181",
@@ -6107,6 +6083,10 @@
     {
       "hash": "746156273",
       "s": "Wybierz gracza w trybie swobodnym."
+    },
+    {
+      "hash": "746796469",
+      "s": "Maksymalna liczba skał dostępnych jako amunicja"
     },
     {
       "hash": "748263944",
@@ -6257,10 +6237,6 @@
       "s": "Włącz wybieranie"
     },
     {
-      "hash": "765693685",
-      "s": "Prędkość wznoszenia/opuszczania przy użyciu Spacji i Ctrl"
-    },
-    {
       "hash": "766432697",
       "s": "Lista Typów WEA"
     },
@@ -6301,6 +6277,10 @@
       "s": "Wyślij grupę napastników"
     },
     {
+      "hash": "770740115",
+      "s": "Początkowa długość pajęczyny jako procent odległości kotwiczenia"
+    },
+    {
       "hash": "771126564",
       "s": "Ustaw bit pomijania punktu kontrolnego 17 na aktywnym kontrolerze misji"
     },
@@ -6327,10 +6307,6 @@
     {
       "hash": "773005740",
       "s": "Sesja zdalna"
-    },
-    {
-      "hash": "774417169",
-      "s": "Jak bardzo platforma się przechyla podczas ruchu"
     },
     {
       "hash": "774660562",
@@ -6449,6 +6425,10 @@
       "s": "Zapomnij o wszystkich stylizowanych pojazdach, aby wszystkie mogły się przestylizowywać"
     },
     {
+      "hash": "791953487",
+      "s": "Swobodny obrót aparatu"
+    },
+    {
       "hash": "792666988",
       "s": "Napad"
     },
@@ -6489,12 +6469,12 @@
       "s": "Monitorowane przez sieć"
     },
     {
-      "hash": "796092480",
-      "s": "Rozrzut lotu"
-    },
-    {
       "hash": "796133099",
       "s": "Tunable'e wciąż się ładują; dołącz do GTA Online i spróbuj ponownie za chwilę"
+    },
+    {
+      "hash": "797480788",
+      "s": "Odstęp między elementami szyku podczas celowania"
     },
     {
       "hash": "797562290",
@@ -6625,6 +6605,10 @@
       "s": "Edytuj tę regułę"
     },
     {
+      "hash": "815102344",
+      "s": "Ukryj modele noszonej broni będąc w pojeździe"
+    },
+    {
       "hash": "815339609",
       "s": "Altostratus"
     },
@@ -6635,10 +6619,6 @@
     {
       "hash": "816505789",
       "s": "Miejsca"
-    },
-    {
-      "hash": "818063426",
-      "s": "Dźwięk szlifowania kamienia"
     },
     {
       "hash": "819410637",
@@ -6837,6 +6817,10 @@
       "s": "Renderowanie"
     },
     {
+      "hash": "842192753",
+      "s": "Przyczepność"
+    },
+    {
       "hash": "843138477",
       "s": "Zużyty Ciemnozielony"
     },
@@ -6977,10 +6961,6 @@
       "s": "Skacz znacznie wyżej"
     },
     {
-      "hash": "864091110",
-      "s": "Prędkość orbitującej fali kamiennej"
-    },
-    {
       "hash": "864144503",
       "s": "Krowa katastrofa"
     },
@@ -6999,6 +6979,10 @@
     {
       "hash": "866956671",
       "s": "Namierzanie"
+    },
+    {
+      "hash": "867010305",
+      "s": "Pokaż wybrany punkt trafienia podczas celowania"
     },
     {
       "hash": "867358926",
@@ -7213,10 +7197,6 @@
       "s": "Stylizacja ruchu drogowego"
     },
     {
-      "hash": "895997136",
-      "s": "Prędkość ruchu unoszenia środkowego kamienia"
-    },
-    {
       "hash": "896000140",
       "s": "Zaatakuj każdego innego gracza w sesji"
     },
@@ -7371,10 +7351,6 @@
     {
       "hash": "920161713",
       "s": "Chwyć wiele pobliskich obiektów jednocześnie (patrz ustawienia pobierania)"
-    },
-    {
-      "hash": "920897746",
-      "s": "Korona"
     },
     {
       "hash": "921629437",
@@ -7561,10 +7537,6 @@
       "s": "Przytrzymaj X (transformacja) + V w pojeździe, aby wystrzelić NOS"
     },
     {
-      "hash": "948754697",
-      "s": "Rozrzut meteorytów i ataków erupcyjnych"
-    },
-    {
       "hash": "948845754",
       "s": "Zainicjowano zaplecze DX11"
     },
@@ -7635,10 +7607,6 @@
     {
       "hash": "957831445",
       "s": "Mody MS Spoonera"
-    },
-    {
-      "hash": "958700027",
-      "s": "Pionowa ilość fali dla poszczególnych kamieni"
     },
     {
       "hash": "959226094",
@@ -8049,10 +8017,6 @@
       "s": "Siła do przodu podczas dryfowania"
     },
     {
-      "hash": "1011604570",
-      "s": "Postrzępiony"
-    },
-    {
       "hash": "1011892515",
       "s": "Ciągłe naprawianie uszkodzeń"
     },
@@ -8089,6 +8053,10 @@
       "s": "Żyć lub umrzeć w Los Santos"
     },
     {
+      "hash": "1014211653",
+      "s": "Zmiana animacji"
+    },
+    {
       "hash": "1015204058",
       "s": "Wyczyść cały biznes z gorączką Frontu Pieniężnego"
     },
@@ -8119,10 +8087,6 @@
     {
       "hash": "1018738215",
       "s": "Manipulacja obiektami i broń siłowa"
-    },
-    {
-      "hash": "1019763050",
-      "s": "Orbita Czarnej Paszczy"
     },
     {
       "hash": "1019787177",
@@ -8223,6 +8187,10 @@
     {
       "hash": "1029719947",
       "s": "Wybierz online'owego gracza, który otrzyma zmiany statystyk"
+    },
+    {
+      "hash": "1029783738",
+      "s": "Zachowanie ruchu i jazdy"
     },
     {
       "hash": "1029925257",
@@ -8657,10 +8625,6 @@
       "s": "Krowa"
     },
     {
-      "hash": "1076463726",
-      "s": "Różowe efekty magiczne"
-    },
-    {
       "hash": "1076846681",
       "s": "Zastąp intensywność deszczu"
     },
@@ -8945,10 +8909,6 @@
       "s": "Oświetlenie"
     },
     {
-      "hash": "1113780039",
-      "s": "Ścieżki skał, wstrząsy kamery i dźwięki"
-    },
-    {
       "hash": "1113786499",
       "s": "Zmiana azymutu"
     },
@@ -8995,10 +8955,6 @@
     {
       "hash": "1116737900",
       "s": "Silnik"
-    },
-    {
-      "hash": "1116937630",
-      "s": "Cykle przewijania celów"
     },
     {
       "hash": "1117135204",
@@ -9121,12 +9077,12 @@
       "s": "Pistolet z pieniędzmi"
     },
     {
-      "hash": "1126257245",
-      "s": "Tarcza ochronna"
-    },
-    {
       "hash": "1126719533",
       "s": "Pozwól na NPC jako cele"
+    },
+    {
+      "hash": "1126947360",
+      "s": "Postrzępiony Kamień"
     },
     {
       "hash": "1126957802",
@@ -9977,10 +9933,6 @@
       "s": "Nieograniczony zapas amunicji"
     },
     {
-      "hash": "1219273942",
-      "s": "Pościg"
-    },
-    {
       "hash": "1219660489",
       "s": "Wymuszone zaproszenie (tylko na zaproszenie)"
     },
@@ -9989,8 +9941,8 @@
       "s": "Przywołaj dziwki u tego gracza i spraw, by tańczyły i jęczały na niego"
     },
     {
-      "hash": "1220010468",
-      "s": "Wybierz środkowy i orbitujący model skały"
+      "hash": "1220064978",
+      "s": "Mnożnik lotu podczas trzymania Sprintu"
     },
     {
       "hash": "1220282384",
@@ -9999,6 +9951,10 @@
     {
       "hash": "1221173085",
       "s": "Wyszukiwanie pojazdu zderzeniowego"
+    },
+    {
+      "hash": "1221312022",
+      "s": "Oznacznik celu, ślady, dźwięki i HUD"
     },
     {
       "hash": "1221947237",
@@ -10353,6 +10309,10 @@
       "s": "Cechy Spooner Head"
     },
     {
+      "hash": "1260019290",
+      "s": "Prędkość przejścia"
+    },
+    {
       "hash": "1260748873",
       "s": "Amunicja do granatnika"
     },
@@ -10421,8 +10381,8 @@
       "s": "Tryb widzenia kamery"
     },
     {
-      "hash": "1271104938",
-      "s": "Milisekundy do pełnego naładowania olbrzymiego głazu"
+      "hash": "1270567037",
+      "s": "Jak gładko kombinezon obraca się i przechyla w stronę kamery"
     },
     {
       "hash": "1271262998",
@@ -10431,6 +10391,10 @@
     {
       "hash": "1271279473",
       "s": "Liczba pocisków na rozrzut"
+    },
+    {
+      "hash": "1271617280",
+      "s": "Swobodny widok z perspektywy pierwszej osoby"
     },
     {
       "hash": "1272533293",
@@ -10713,10 +10677,6 @@
       "s": "Prędkość wznoszenia i opadania"
     },
     {
-      "hash": "1307786995",
-      "s": "Mnożnik promienia celowania"
-    },
-    {
       "hash": "1308929917",
       "s": "Hiszpański (Hiszpania)"
     },
@@ -10903,10 +10863,6 @@
     {
       "hash": "1325215715",
       "s": "Odblokowano prezenty świąteczne 2025."
-    },
-    {
-      "hash": "1325314508",
-      "s": "Zamień formację w tarczę, gdy w pobliżu jest wrogi ped"
     },
     {
       "hash": "1326123653",
@@ -11131,6 +11087,10 @@
     {
       "hash": "1354125363",
       "s": "Time Trial"
+    },
+    {
+      "hash": "1354737661",
+      "s": "Odległość od celu, która liczy się jako trafienie"
     },
     {
       "hash": "1355383996",
@@ -11459,10 +11419,6 @@
     {
       "hash": "1397519565",
       "s": "Ustaw aktywną broń"
-    },
-    {
-      "hash": "1397986888",
-      "s": "Kolizja orbity"
     },
     {
       "hash": "1398275246",
@@ -11969,10 +11925,6 @@
       "s": "Zresetuj czas odnowienia wszystkich 8 kontraktów Statystyki"
     },
     {
-      "hash": "1453598190",
-      "s": "Uszkodzenia wybuchu, gdy ostateczny atak trafi"
-    },
-    {
       "hash": "1453734246",
       "s": "Nieudane pojawienie się peda."
     },
@@ -12251,10 +12203,6 @@
     {
       "hash": "1486378749",
       "s": "Przytrzymaj pedał gazu/hamulca, aby jechać na kole przednim"
-    },
-    {
-      "hash": "1486384937",
-      "s": "Promień meteorytu"
     },
     {
       "hash": "1486560804",
@@ -12645,10 +12593,6 @@
       "s": "Wysokość klipsa na rower"
     },
     {
-      "hash": "1534813360",
-      "s": "Mnożnik prędkości celowania"
-    },
-    {
       "hash": "1534980277",
       "s": "Odblokuj kariery fabularne/hub postępów dla tej postaci (Tylko Enhanced)"
     },
@@ -12813,10 +12757,6 @@
       "s": "Najpierw usuń obecny pojazd"
     },
     {
-      "hash": "1555070988",
-      "s": "Zacieśnianie lub rozpraszanie formacji podczas celowania"
-    },
-    {
       "hash": "1555282766",
       "s": "Fałszerstwo"
     },
@@ -12885,6 +12825,10 @@
       "s": "Odblokowane nagrody Halloween i późnych 2025"
     },
     {
+      "hash": "1564939564",
+      "s": "Wybierz platformę i modele kamieni pocisków"
+    },
+    {
       "hash": "1565653817",
       "s": "Usuń brud"
     },
@@ -12903,10 +12847,6 @@
     {
       "hash": "1567605298",
       "s": "Skok na stopę"
-    },
-    {
-      "hash": "1567856835",
-      "s": "Prędkość unoszenia"
     },
     {
       "hash": "1567933914",
@@ -12959,10 +12899,6 @@
     {
       "hash": "1573397361",
       "s": "Metaliczny czerwony płomień"
-    },
-    {
-      "hash": "1573999960",
-      "s": "Fala uderzeniowa"
     },
     {
       "hash": "1574478544",
@@ -13045,8 +12981,16 @@
       "s": "Przekaż tę broń wybranemu graczowi"
     },
     {
+      "hash": "1590681991",
+      "s": "Starożytny Kamień"
+    },
+    {
       "hash": "1590803990",
       "s": "Reakcje"
+    },
+    {
+      "hash": "1591723809",
+      "s": "Jazda po podłogach, ścianach i sufitach"
     },
     {
       "hash": "1592609721",
@@ -13091,10 +13035,6 @@
     {
       "hash": "1595202428",
       "s": "Nie wybrano znacznika."
-    },
-    {
-      "hash": "1595367267",
-      "s": "Umiejętności Ebony Maw"
     },
     {
       "hash": "1595981432",
@@ -13147,10 +13087,6 @@
     {
       "hash": "1603309291",
       "s": "Usuń wszystkie rekwizyty"
-    },
-    {
-      "hash": "1603948512",
-      "s": "Ustawienia ataku"
     },
     {
       "hash": "1604408294",
@@ -13585,10 +13521,6 @@
       "s": "RAIN"
     },
     {
-      "hash": "1646593681",
-      "s": "Odtwarzaj subtelny dźwięk szorowania podczas celowania"
-    },
-    {
       "hash": "1646872266",
       "s": "Walcz z właścicielem o kontrolę, aby zepsuć ich prowadzenie"
     },
@@ -13635,14 +13567,6 @@
     {
       "hash": "1656170203",
       "s": "Nadpisz efektywny zasięg twojej broni"
-    },
-    {
-      "hash": "1656229602",
-      "s": "Ragdolled Peds trafione przez uderzenia kamieni"
-    },
-    {
-      "hash": "1656418486",
-      "s": "Rozmiar cząstek gruzu skalnego"
     },
     {
       "hash": "1657383147",
@@ -13953,10 +13877,6 @@
       "s": "Ustawienia lotu"
     },
     {
-      "hash": "1694816483",
-      "s": "Jak szybciej kamienie orbitują i wirują podczas celowania"
-    },
-    {
       "hash": "1696470891",
       "s": "Automatycznie zakończ nurkowanie po tym czasie"
     },
@@ -14007,10 +13927,6 @@
     {
       "hash": "1704251024",
       "s": "Zainstaluj mod turbo"
-    },
-    {
-      "hash": "1704771555",
-      "s": "Odtwarzaj krótki dźwięk podczas wystrzeliwania kamieni"
     },
     {
       "hash": "1706654310",
@@ -14557,10 +14473,6 @@
       "s": "Zamrożenie przy kontakcie"
     },
     {
-      "hash": "1770284463",
-      "s": "Automatycznie wystrzeliwuj kamień w wykrytych napastników"
-    },
-    {
       "hash": "1770326239",
       "s": "Teleportacja do punktu odniesienia"
     },
@@ -14781,10 +14693,6 @@
       "s": "Liczba kontrabandy (tylko do odczytu)"
     },
     {
-      "hash": "1800110420",
-      "s": "Jedź na latającym kamieniu z orbitującym kamiennym pancerzem; celuj i atakuj, aby wystrzelić kamienie"
-    },
-    {
       "hash": "1800119080",
       "s": "Wyczyść trasę podwyższonego punktu kontrolnego pojazdu"
     },
@@ -14831,6 +14739,10 @@
     {
       "hash": "1807674536",
       "s": "Wymuś cykl produkcyjny"
+    },
+    {
+      "hash": "1808258039",
+      "s": "Jak szybko platforma przyspiesza i zatrzymuje się"
     },
     {
       "hash": "1808297290",
@@ -15017,10 +14929,6 @@
       "s": "Atmosfera"
     },
     {
-      "hash": "1829121402",
-      "s": "Ruch, poza podczas jazdy i zachowanie platformy"
-    },
-    {
       "hash": "1829365096",
       "s": "Główny Wydarzenie"
     },
@@ -15201,6 +15109,10 @@
       "s": "Nieograniczony Maglerek"
     },
     {
+      "hash": "1857413763",
+      "s": "Wyświetl amunicję, celowanie i czas odnowienia"
+    },
+    {
       "hash": "1857501231",
       "s": "Nie udało się uruchomić skryptu przetwarzania elementów dostrajających"
     },
@@ -15301,20 +15213,12 @@
       "s": "Pozwól na otwarcie menu pauzy podczas śmierci"
     },
     {
-      "hash": "1869149596",
-      "s": "Pierścienie orbity"
-    },
-    {
       "hash": "1869866462",
       "s": "Dołączalny"
     },
     {
       "hash": "1870881016",
       "s": "MonsterTruck (podwozie myśliwca)"
-    },
-    {
-      "hash": "1871005727",
-      "s": "Milisekundy między kamieniami w trybie szybkiego ognia"
     },
     {
       "hash": "1871180767",
@@ -15339,10 +15243,6 @@
     {
       "hash": "1873615889",
       "s": "Pocisk Surano"
-    },
-    {
-      "hash": "1874021833",
-      "s": "Animacja podnoszenia z ziemi"
     },
     {
       "hash": "1874666515",
@@ -15733,10 +15633,6 @@
       "s": "Ukryj swój znacznik; wybierz typ (lewo/prawo)"
     },
     {
-      "hash": "1913355175",
-      "s": "Spirala"
-    },
-    {
       "hash": "1913539626",
       "s": "Potencjalne kasyno: Grafika"
     },
@@ -15751,10 +15647,6 @@
     {
       "hash": "1915034425",
       "s": "Zmiana koloru świateł wnętrza / tablicy / deski rozdzielczej / drzwi"
-    },
-    {
-      "hash": "1915773900",
-      "s": "Obrót platformy"
     },
     {
       "hash": "1917394675",
@@ -15851,10 +15743,6 @@
     {
       "hash": "1927941384",
       "s": "Wybierz cząsteczkę do wyemitowania (Wybrane lub Przeglądaj) + ustaw jej skalę"
-    },
-    {
-      "hash": "1928059389",
-      "s": "Ragdoll przy uderzeniu"
     },
     {
       "hash": "1928451123",
@@ -15999,10 +15887,6 @@
     {
       "hash": "1942265929",
       "s": "Orbitujące skały"
-    },
-    {
-      "hash": "1942408059",
-      "s": "Promień orbity chwytu"
     },
     {
       "hash": "1942442447",
@@ -16165,10 +16049,6 @@
       "s": "Wysokość pojawienia się"
     },
     {
-      "hash": "1962833309",
-      "s": "Prędkość orbity chwytu"
-    },
-    {
       "hash": "1962909334",
       "s": "Promień celowania w pikselach ekranu"
     },
@@ -16195,10 +16075,6 @@
     {
       "hash": "1964354780",
       "s": "Sztuczki na motocyklu"
-    },
-    {
-      "hash": "1964398835",
-      "s": "Poziome rozgraniczenie skał w salvie"
     },
     {
       "hash": "1964458654",
@@ -16243,10 +16119,6 @@
     {
       "hash": "1969129636",
       "s": "Narysuj środkowy celownik"
-    },
-    {
-      "hash": "1969777345",
-      "s": "Skieruj na kamerę"
     },
     {
       "hash": "1970071584",
@@ -16327,6 +16199,10 @@
     {
       "hash": "1976850095",
       "s": "Dział Tryhard"
+    },
+    {
+      "hash": "1976927907",
+      "s": "Emituj gruz za wystrzelonymi kamieniami"
     },
     {
       "hash": "1977069905",
@@ -16489,6 +16365,10 @@
       "s": "Teleport do magazynu"
     },
     {
+      "hash": "1995510672",
+      "s": "Kamienie Ebony Maw"
+    },
+    {
       "hash": "1996045526",
       "s": "Uwzględnij wypuszczanie pieniędzy w deszczu"
     },
@@ -16503,6 +16383,10 @@
     {
       "hash": "1997067756",
       "s": "Wyślij zaproszenie do swojego Biura"
+    },
+    {
+      "hash": "1997975245",
+      "s": "Rakietowy Pocisk Powietrzny"
     },
     {
       "hash": "2000110734",
@@ -16715,10 +16599,6 @@
     {
       "hash": "2019569151",
       "s": "Uderzenie pioruna"
-    },
-    {
-      "hash": "2019622831",
-      "s": "Eksploduj skały po uderzeniu"
     },
     {
       "hash": "2019833395",
@@ -17189,10 +17069,6 @@
       "s": "Resetuj trafienie w automat telefoniczny"
     },
     {
-      "hash": "2079077886",
-      "s": "Pionowy dystans między orbitami"
-    },
-    {
       "hash": "2079687351",
       "s": "Pieniądze Biz"
     },
@@ -17289,16 +17165,16 @@
       "s": "Odwróć pojazd do góry"
     },
     {
-      "hash": "2091114892",
-      "s": "Formacja skał, ruch i uzupełnianie"
-    },
-    {
       "hash": "2091150012",
       "s": "Zleć / wezwij Avenger"
     },
     {
       "hash": "2091924082",
       "s": "Spawnowanie sieciowego UFO nad tym graczem"
+    },
+    {
+      "hash": "2092339238",
+      "s": "Wygląd orbity i amunicja"
     },
     {
       "hash": "2092345681",
@@ -17449,10 +17325,6 @@
       "s": "Szminka"
     },
     {
-      "hash": "2107463939",
-      "s": "Pozwól skałom krążyć i kolidować ze światem"
-    },
-    {
       "hash": "2108027393",
       "s": "Przesunięcie eksplozji względem gracza (X/Y/Z + losowo)"
     },
@@ -17573,6 +17445,10 @@
       "s": "Ochrona przed awariami i stabilnością"
     },
     {
+      "hash": "2121503255",
+      "s": "Obrażenia zadawane przez uderzenie kamieniem"
+    },
+    {
       "hash": "2122169206",
       "s": "Testosteron Rekina-Byka: trzymaj / obrażenia / adrenalina / paczka ratunkowa"
     },
@@ -17607,6 +17483,10 @@
     {
       "hash": "2127465308",
       "s": "Zanikający Półksiężyc II"
+    },
+    {
+      "hash": "2127803716",
+      "s": "Model Pocisku"
     },
     {
       "hash": "2128411756",
@@ -17953,6 +17833,10 @@
       "s": "Drzwi otwarte"
     },
     {
+      "hash": "2167847627",
+      "s": "Pocisk Mule 1"
+    },
+    {
       "hash": "2167886835",
       "s": "Zmuś wybranych graczy do aktywności"
     },
@@ -18061,10 +17945,6 @@
       "s": "Wymuś mokry wygląd na tym poziomie (%)"
     },
     {
-      "hash": "2181998724",
-      "s": "Odległość formacji od środkowej skały"
-    },
-    {
       "hash": "2182761997",
       "s": "Uwięź ich w klatka"
     },
@@ -18125,10 +18005,6 @@
       "s": "Termiczny"
     },
     {
-      "hash": "2191032728",
-      "s": "Maksymalna wysokość unoszenia"
-    },
-    {
       "hash": "2191187380",
       "s": "Oznacz ukończenie wprowadzenia do GTA Online dla aktywnego gracza"
     },
@@ -18171,10 +18047,6 @@
     {
       "hash": "2194283471",
       "s": "Uzupełnij zdrowie/pancerz wybranych graczy"
-    },
-    {
-      "hash": "2196273530",
-      "s": "Atak Ebony Maw"
     },
     {
       "hash": "2196714549",
@@ -18233,10 +18105,6 @@
       "s": "Widzenie pieszych przez ściany (wersja starsza: przyciemniane szyby dla pieszych i pojazdów; ulepszona: dla pieszych, brak Odcień)"
     },
     {
-      "hash": "2203696469",
-      "s": "Czas wznoszenia"
-    },
-    {
       "hash": "2204788393",
       "s": "Ragdoll Can"
     },
@@ -18255,10 +18123,6 @@
     {
       "hash": "2206431841",
       "s": "Losowe malowanie"
-    },
-    {
-      "hash": "2206998280",
-      "s": "Przywróć oryginalne różowe impulsy wokół każdej skały"
     },
     {
       "hash": "2207346922",
@@ -18405,6 +18269,10 @@
       "s": "Pokaż niebiesko-białe świecenie reaktora na klatce piersiowej"
     },
     {
+      "hash": "2226092611",
+      "s": "Siła utrzymująca pojazd przy aktywnej powierzchni"
+    },
+    {
       "hash": "2226242094",
       "s": "Wyłącz naturalny upadek"
     },
@@ -18423,10 +18291,6 @@
     {
       "hash": "2228415369",
       "s": "Uzupełnij zdrowie/pancerz tego gracza"
-    },
-    {
-      "hash": "2228734815",
-      "s": "Milisekundy, ile skały potrzebują, aby dołączyć do orbity"
     },
     {
       "hash": "2230944494",
@@ -18571,10 +18435,6 @@
     {
       "hash": "2249397699",
       "s": "Oś Z"
-    },
-    {
-      "hash": "2249469104",
-      "s": "Ciągłe blokowanie celu"
     },
     {
       "hash": "2250094586",
@@ -18829,10 +18689,6 @@
       "s": "Polowanie na cele i scenariusze walki"
     },
     {
-      "hash": "2275102663",
-      "s": "Liczba ułożonych pierścieni skalnych"
-    },
-    {
       "hash": "2276098762",
       "s": "Kryjówka w wzgórzach"
     },
@@ -18859,10 +18715,6 @@
     {
       "hash": "2279543073",
       "s": "Koszt salwy rakiet"
-    },
-    {
-      "hash": "2279666042",
-      "s": "Interwał ostrzału obronnego"
     },
     {
       "hash": "2280126560",
@@ -18919,6 +18771,10 @@
     {
       "hash": "2284082815",
       "s": "Uzupełnienie zapasów / teleportacja"
+    },
+    {
+      "hash": "2284313051",
+      "s": "Minimalna prędkość podróży wymagana do wspinania się na powierzchnię przed nami"
     },
     {
       "hash": "2284589673",
@@ -19023,6 +18879,10 @@
     {
       "hash": "2295445855",
       "s": "Okulary"
+    },
+    {
+      "hash": "2295976560",
+      "s": "Seam Grace"
     },
     {
       "hash": "2296403745",
@@ -19277,10 +19137,6 @@
       "s": "Powrót do Stock"
     },
     {
-      "hash": "2332817898",
-      "s": "Prędkość obrotu chwytu amunicji"
-    },
-    {
       "hash": "2333096025",
       "s": "Ciepło Money Fronts usunięte"
     },
@@ -19297,8 +19153,8 @@
       "s": "Przełącz kolizję pojazdu"
     },
     {
-      "hash": "2335225461",
-      "s": "Celuj i naciśnij przeładowanie, aby wciągnąć obiekt na orbitę"
+      "hash": "2335295735",
+      "s": "Reakcja lotu"
     },
     {
       "hash": "2337384556",
@@ -19427,6 +19283,10 @@
     {
       "hash": "2353719683",
       "s": "Odbijaj pobliskie pojazdy"
+    },
+    {
+      "hash": "2353837032",
+      "s": "Jednoczesne blokowanie pocisków"
     },
     {
       "hash": "2353971972",
@@ -19893,10 +19753,6 @@
       "s": "Menedżer strojenia"
     },
     {
-      "hash": "2407178833",
-      "s": "Prędkość chwiania"
-    },
-    {
       "hash": "2407431518",
       "s": "Start"
     },
@@ -20209,10 +20065,6 @@
       "s": "Model nadal przesyłany strumieniowo — naciśnij ponownie przycisk Odtwórz."
     },
     {
-      "hash": "2453802140",
-      "s": "Wysokość obiektów podnoszonych przed bombardowaniem"
-    },
-    {
       "hash": "2454454297",
       "s": "Nadpisz macierz skali pedów"
     },
@@ -20239,10 +20091,6 @@
     {
       "hash": "2457514308",
       "s": "Przywołaj przy nich spadochron"
-    },
-    {
-      "hash": "2459068274",
-      "s": "Pył uderzeniowy"
     },
     {
       "hash": "2460083139",
@@ -20465,6 +20313,10 @@
       "s": "Przegląd animacji Spoonera"
     },
     {
+      "hash": "2481129537",
+      "s": "Prędkość wspinaczki po ścianach"
+    },
+    {
       "hash": "2482262552",
       "s": "Celuj i naciśnij atak, aby zaczepić się o powierzchnię"
     },
@@ -20665,10 +20517,6 @@
       "s": "Wysokość szczytu dziobu"
     },
     {
-      "hash": "2509855744",
-      "s": "Ostateczne obrażenia"
-    },
-    {
       "hash": "2510669438",
       "s": "VPN / Proxy"
     },
@@ -20679,10 +20527,6 @@
     {
       "hash": "2511192462",
       "s": "Broń wyłączona"
-    },
-    {
-      "hash": "2511787731",
-      "s": "Celuj i naciśnij atak, aby wystrzelić orbitujące skały"
     },
     {
       "hash": "2511894310",
@@ -20723,6 +20567,10 @@
     {
       "hash": "2516941167",
       "s": "Oznacz NPC"
+    },
+    {
+      "hash": "2517793437",
+      "s": "Pistolet przy biodrze"
     },
     {
       "hash": "2517948535",
@@ -20797,6 +20645,10 @@
       "s": "Spawnowanie tańczących, jęczących prostytutek przy tym graczu"
     },
     {
+      "hash": "2526349282",
+      "s": "Odległość do znajdowania ścian, sufitów i pobliskich powierzchni"
+    },
+    {
       "hash": "2527120706",
       "s": "Wyślij NPC, aby śledził gracza i ukradł jego pojazd"
     },
@@ -20857,6 +20709,10 @@
       "s": "Utwórz nowy cel kroku Reguła"
     },
     {
+      "hash": "2532986676",
+      "s": "Pokaż ostatnio używane bronie na plecach i biodrze"
+    },
+    {
       "hash": "2533169616",
       "s": "Rozpocznij sesję załogi"
     },
@@ -20913,12 +20769,16 @@
       "s": "Przyspieszenie / hamulec / turbulencje samolotu"
     },
     {
-      "hash": "2538728388",
-      "s": "Cel ustawiony na punkt nawigacyjny."
+      "hash": "2537922048",
+      "s": "Siła wybuchu"
     },
     {
-      "hash": "2539457151",
-      "s": "Rozmiar różowych impulsów magicznych"
+      "hash": "2538585764",
+      "s": "Kontrola w powietrzu podczas połączenia z pajęczyną"
+    },
+    {
+      "hash": "2538728388",
+      "s": "Cel ustawiony na punkt nawigacyjny."
     },
     {
       "hash": "2539705772",
@@ -21023,6 +20883,10 @@
     {
       "hash": "2550966206",
       "s": "Wysokość skoku"
+    },
+    {
+      "hash": "2551076759",
+      "s": "Nosisz ostatnio użyty pistolet w prawostronnej kaburze"
     },
     {
       "hash": "2551252475",
@@ -21309,8 +21173,8 @@
       "s": "% redukcji hosta"
     },
     {
-      "hash": "2589568717",
-      "s": "Siła działająca na obiekty w pobliżu uderzenia"
+      "hash": "2589611650",
+      "s": "Prędkość wyrzucanych kamieni"
     },
     {
       "hash": "2590060109",
@@ -21447,6 +21311,10 @@
     {
       "hash": "2606974881",
       "s": "Zabij lub zniszcz istoty docierające do rdzenia"
+    },
+    {
+      "hash": "2607129916",
+      "s": "Wysiądź z pojazdu przed użyciem Ebony Maw"
     },
     {
       "hash": "2607646039",
@@ -21889,10 +21757,6 @@
       "s": "Już w bazie danych."
     },
     {
-      "hash": "2665689920",
-      "s": "Steruj pociskami w kierunku celu pod krzyżem"
-    },
-    {
       "hash": "2665731410",
       "s": "Oba wskaźniki"
     },
@@ -21997,6 +21861,10 @@
       "s": "Transformacja łodzi"
     },
     {
+      "hash": "2676928783",
+      "s": "Jak szybko pojazd dopasowuje się do nowej powierzchni"
+    },
+    {
       "hash": "2676969546",
       "s": "Zrzucaj przedmioty lecznicze wokół nich"
     },
@@ -22043,6 +21911,10 @@
     {
       "hash": "2681128996",
       "s": "Uszkodzenia / ogień / dym / naprawa / zatrzymaj silnik"
+    },
+    {
+      "hash": "2681677804",
+      "s": "Odtwórz krótki dźwięk podczas wystrzeliwania kamieni"
     },
     {
       "hash": "2682189339",
@@ -22117,10 +21989,6 @@
       "s": "Numer 8"
     },
     {
-      "hash": "2691179950",
-      "s": "Siła drżenia kamery po uderzeniu w pobliżu"
-    },
-    {
       "hash": "2691278459",
       "s": "RPG"
     },
@@ -22179,6 +22047,10 @@
     {
       "hash": "2697332102",
       "s": "Umieść swój aktywny pojazd w depozycie"
+    },
+    {
+      "hash": "2697781091",
+      "s": "Człowiek-pająk"
     },
     {
       "hash": "2698174136",
@@ -22425,6 +22297,10 @@
       "s": "Oświetlenie"
     },
     {
+      "hash": "2732407554",
+      "s": "Sterowanie huśtawką"
+    },
+    {
       "hash": "2732574812",
       "s": "Przywróć wartości"
     },
@@ -22455,6 +22331,10 @@
     {
       "hash": "2734864131",
       "s": "Para Dowód"
+    },
+    {
+      "hash": "2735134293",
+      "s": "Długa broń na plecach"
     },
     {
       "hash": "2735412210",
@@ -23141,10 +23021,6 @@
       "s": "Dodatki"
     },
     {
-      "hash": "2812630992",
-      "s": "Milisekundy przed wymianą wystrzelowanego kamienia"
-    },
-    {
       "hash": "2813101304",
       "s": "Konfiguracja Arcade"
     },
@@ -23263,6 +23139,10 @@
     {
       "hash": "2827708285",
       "s": "Łatwy"
+    },
+    {
+      "hash": "2827958866",
+      "s": "Huśtaj się od budynków, wspinaj po ścianach i skacz jak Człowiek-pająk"
     },
     {
       "hash": "2828035211",
@@ -23577,6 +23457,10 @@
       "s": "Zdjęcia dzikiej przyrody zakończone."
     },
     {
+      "hash": "2868609665",
+      "s": "Jedź po podłogach, ścianach i sufitach z automatycznymi przejściami do powierzchni"
+    },
+    {
       "hash": "2869198228",
       "s": "Intensywność odbicia"
     },
@@ -23645,10 +23529,6 @@
       "s": "Napady"
     },
     {
-      "hash": "2875219018",
-      "s": "Pokaż pozycję obiektu lub świata podczas celowania"
-    },
-    {
       "hash": "2876220197",
       "s": "Poziom"
     },
@@ -23695,6 +23575,10 @@
     {
       "hash": "2882854499",
       "s": "Zenith Transition Intensywność"
+    },
+    {
+      "hash": "2882891068",
+      "s": "Maksymalna liczba obiektów oznaczonych i rozłożonych w salwie pocisków"
     },
     {
       "hash": "2883164523",
@@ -23759,6 +23643,10 @@
     {
       "hash": "2887964901",
       "s": "Ragdoll podczas sprintu"
+    },
+    {
+      "hash": "2888773561",
+      "s": "Opóźnienie przed wymianą wystrzelonych kamieni"
     },
     {
       "hash": "2888922529",
@@ -23865,6 +23753,10 @@
       "s": "Zamień (Zablokowane)"
     },
     {
+      "hash": "2901744465",
+      "s": "Zapobiegaj obrażeniom podczas połączenia z pajęczyną"
+    },
+    {
       "hash": "2902814435",
       "s": "Ich kule wyrzucają losowy pojazd w momencie uderzenia."
     },
@@ -23879,6 +23771,10 @@
     {
       "hash": "2905489395",
       "s": "Koła sportowe"
+    },
+    {
+      "hash": "2905645201",
+      "s": "Chroń jeźdźca podczas aktywacji Ebony Maw"
     },
     {
       "hash": "2905741344",
@@ -24065,6 +23961,10 @@
       "s": "W ekstazie"
     },
     {
+      "hash": "2926722218",
+      "s": "Napięcie huśtawki"
+    },
+    {
       "hash": "2926739498",
       "s": "Przywróć oryginalne oferty kupujących ładunki pojazdów"
     },
@@ -24099,10 +23999,6 @@
     {
       "hash": "2932500165",
       "s": "Usuń znaczniki ładunku"
-    },
-    {
-      "hash": "2932559729",
-      "s": "Rozmiar znacznika celu podczas celowania"
     },
     {
       "hash": "2933114858",
@@ -24155,10 +24051,6 @@
     {
       "hash": "2938739543",
       "s": "Rozmiar"
-    },
-    {
-      "hash": "2939068336",
-      "s": "Milisekundy między różowymi impulsami magicznymi"
     },
     {
       "hash": "2939073999",
@@ -24285,10 +24177,6 @@
       "s": "The Slashers"
     },
     {
-      "hash": "2950588088",
-      "s": "Odległość chwytanego obiektu od środkowego kamienia"
-    },
-    {
       "hash": "2951277130",
       "s": "Pojazdy, klatki, atakujący, wydarzenia światowe i przedmioty do zebrania"
     },
@@ -24349,16 +24237,8 @@
       "s": "Spraw, aby znacznik podążał za obiektem docelowym"
     },
     {
-      "hash": "2958937329",
-      "s": "Uwolnij ostateczną moc"
-    },
-    {
       "hash": "2959184336",
       "s": "Rezydencja"
-    },
-    {
-      "hash": "2959336006",
-      "s": "Pokaż amunicję, tryb, cel i stan ładowania kamieni"
     },
     {
       "hash": "2959469528",
@@ -24485,6 +24365,10 @@
       "s": "Odwróć do góry nogami"
     },
     {
+      "hash": "2978919511",
+      "s": "Maksymalna odległość dla kotwicy pajęczyny budynku"
+    },
+    {
       "hash": "2978936080",
       "s": "Napęd Odwetowca"
     },
@@ -24593,6 +24477,10 @@
       "s": "Przypnij skalę czasu do zera"
     },
     {
+      "hash": "2996554634",
+      "s": "Długość pajęczyny"
+    },
+    {
       "hash": "2997358180",
       "s": "Uszkodzenia broni"
     },
@@ -24689,6 +24577,10 @@
       "s": "Odtwarzacz mowy"
     },
     {
+      "hash": "3011681984",
+      "s": "Ebony Maw Combat"
+    },
+    {
       "hash": "3012189942",
       "s": "Sygnatura launchera nie została rozwiązana"
     },
@@ -24731,6 +24623,10 @@
     {
       "hash": "3015094138",
       "s": "Wielokrotnie potrząsaj kamerami wybranych graczy"
+    },
+    {
+      "hash": "3015319386",
+      "s": "Kąt między skałami w salwie"
     },
     {
       "hash": "3016200727",
@@ -25409,12 +25305,12 @@
       "s": "Ustawienia Menedżera Statystyk"
     },
     {
-      "hash": "3104251427",
-      "s": "Drżenie orbity"
-    },
-    {
       "hash": "3104406267",
       "s": "Kolekcje"
+    },
+    {
+      "hash": "3105964719",
+      "s": "Przytrzymaj sprint i wbieg w ścianę, by się wspiąć"
     },
     {
       "hash": "3106289740",
@@ -25431,10 +25327,6 @@
     {
       "hash": "3107435152",
       "s": "Okrąg (Północ)"
-    },
-    {
-      "hash": "3108007573",
-      "s": "Interwał szybkiego ognia"
     },
     {
       "hash": "3108147131",
@@ -25553,6 +25445,10 @@
       "s": "Uzupełnienie/wartość/produkcja kwasu"
     },
     {
+      "hash": "3122798952",
+      "s": "Ustawienia walki"
+    },
+    {
       "hash": "3122980240",
       "s": "Pedał spalania"
     },
@@ -25641,10 +25537,6 @@
       "s": "Rozpocznij pracę dostawy konopi w GTA Online"
     },
     {
-      "hash": "3132172653",
-      "s": "Rozstaw pierścieni"
-    },
-    {
       "hash": "3132638093",
       "s": "Zastosuj wiarygodne dane bazowe dla istniejącej postaci online"
     },
@@ -25655,10 +25547,6 @@
     {
       "hash": "3133821244",
       "s": "Przywróć zdrowie i pancerz przy starcie"
-    },
-    {
-      "hash": "3134079332",
-      "s": "Emituj cząstki gruzu za poruszającymi się i orbitującymi skałami"
     },
     {
       "hash": "3134901930",
@@ -25725,6 +25613,10 @@
       "s": "Zastosowano relację."
     },
     {
+      "hash": "3142455406",
+      "s": "Pionowy przesunięcie formacji rozluźnionej"
+    },
+    {
       "hash": "3142746457",
       "s": "Zresetuj wszystkie ustawienia baru"
     },
@@ -25763,10 +25655,6 @@
     {
       "hash": "3146123206",
       "s": "Zainstalowano zabezpieczenia serializacji zadań"
-    },
-    {
-      "hash": "3146398666",
-      "s": "Automatyczne uruchomienie obrony"
     },
     {
       "hash": "3146445151",
@@ -26513,6 +26401,10 @@
       "s": "Pedały śledzące"
     },
     {
+      "hash": "3235447244",
+      "s": "Rozrzut startu pocisku"
+    },
+    {
       "hash": "3235561458",
       "s": "Pojazd 4"
     },
@@ -26873,6 +26765,10 @@
       "s": "Wybuchowy Pięść"
     },
     {
+      "hash": "3283342167",
+      "s": "Jak bardzo skafander pochyla się do przodu i do tyłu podczas lotu"
+    },
+    {
       "hash": "3283375820",
       "s": "Promień usuwania znaczników w zasięgu"
     },
@@ -26901,12 +26797,12 @@
       "s": "Obejście maksymalnej prędkości"
     },
     {
-      "hash": "3286879918",
-      "s": "Czas utrzymywania ostatecznego"
-    },
-    {
       "hash": "3287111093",
       "s": "Spoiler"
+    },
+    {
+      "hash": "3287164261",
+      "s": "Widoczne bronie"
     },
     {
       "hash": "3287354342",
@@ -26959,6 +26855,10 @@
     {
       "hash": "3296135518",
       "s": "Nagroda za uzupełnienie zapasów"
+    },
+    {
+      "hash": "3296220305",
+      "s": "Maksymalny czas huśtania"
     },
     {
       "hash": "3296232868",
@@ -27393,6 +27293,10 @@
       "s": "Światła Neonowe"
     },
     {
+      "hash": "3346248479",
+      "s": "Prędkość startu, naprowadzanie i uderzenie"
+    },
+    {
       "hash": "3346403025",
       "s": "Ustaw postęp misji jako ukończony"
     },
@@ -27427,10 +27331,6 @@
     {
       "hash": "3349535926",
       "s": "Nie udało się umieścić gracza w pojeździe"
-    },
-    {
-      "hash": "3350118821",
-      "s": "Odległość od celu, która liczy się jako trafienie"
     },
     {
       "hash": "3350901926",
@@ -27697,6 +27597,10 @@
       "s": "Usuń nawiedziny"
     },
     {
+      "hash": "3373845134",
+      "s": "Pocisk Mule 2"
+    },
+    {
       "hash": "3375764472",
       "s": "Odblokowany"
     },
@@ -27711,6 +27615,10 @@
     {
       "hash": "3376913338",
       "s": "Wymuś ragdoll na każdym wybranym graczu"
+    },
+    {
+      "hash": "3377233222",
+      "s": "Skacz znacznie wyżej podczas aktywnego trybu Spider-Mana"
     },
     {
       "hash": "3377387356",
@@ -27789,12 +27697,20 @@
       "s": "Usuń sygnał"
     },
     {
+      "hash": "3385106737",
+      "s": "Ukryj się w pojazdach"
+    },
+    {
       "hash": "3385252368",
       "s": "Czarna dziura"
     },
     {
       "hash": "3386005654",
       "s": "Uczynić zwierzęta opętane niezniszczalnymi"
+    },
+    {
+      "hash": "3386876716",
+      "s": "Unosić się na kamieniu i wystrzelić kontrolowaną salwę orbitujących skał"
     },
     {
       "hash": "3387167728",
@@ -27845,6 +27761,10 @@
       "s": "Uwzględnij amunicję rakietową w deszczu"
     },
     {
+      "hash": "3391922819",
+      "s": "Huśtaj się na pajęczynie między budynkami, wspinaj się po ścianach i super skacz"
+    },
+    {
       "hash": "3392658519",
       "s": "Wszyscy ignorują gracza"
     },
@@ -27857,20 +27777,12 @@
       "s": "Edycja klawiatury WŁ.   (ruch WASD/QE, zmiana pozycji/obrotu R, krok +/-)"
     },
     {
-      "hash": "3394639046",
-      "s": "Automatyczna tarcza skalna"
-    },
-    {
       "hash": "3394704253",
       "s": "Odrzutowiec"
     },
     {
       "hash": "3395446560",
       "s": "Energia zużywana na sekundę podczas przyspieszania"
-    },
-    {
-      "hash": "3395497029",
-      "s": "Promień obrony"
     },
     {
       "hash": "3395582658",
@@ -28093,6 +28005,10 @@
       "s": "Full like the Vice City Dodo cheat -- speed makes a strength"
     },
     {
+      "hash": "3418530384",
+      "s": "Zasięg pajęczyny"
+    },
+    {
       "hash": "3418777387",
       "s": "Seks"
     },
@@ -28217,12 +28133,12 @@
       "s": "Spooner MSFinish3"
     },
     {
-      "hash": "3435501019",
-      "s": "Dodaj swoją prędkość do pchnięcia"
+      "hash": "3433427093",
+      "s": "Twórz eksplozję, gdy skała trafi"
     },
     {
-      "hash": "3436476928",
-      "s": "Nowe skały wznoszą się z dołu przed dołączeniem do formacji"
+      "hash": "3435501019",
+      "s": "Dodaj swoją prędkość do pchnięcia"
     },
     {
       "hash": "3437569297",
@@ -28267,10 +28183,6 @@
     {
       "hash": "3443292647",
       "s": "Wyścig na rowerze"
-    },
-    {
-      "hash": "3443374621",
-      "s": "Chroń jeźdźca podczas aktywacji zasilania"
     },
     {
       "hash": "3444239045",
@@ -28385,10 +28297,6 @@
       "s": "Polowanie na duchy"
     },
     {
-      "hash": "3455045322",
-      "s": "Pierwsza osoba"
-    },
-    {
       "hash": "3455454949",
       "s": "Offline"
     },
@@ -28403,10 +28311,6 @@
     {
       "hash": "3457070981",
       "s": "Kontrola podświetlenia"
-    },
-    {
-      "hash": "3457104387",
-      "s": "Zablokuj cel podczas celowania"
     },
     {
       "hash": "3457164496",
@@ -28427,6 +28331,10 @@
     {
       "hash": "3458593410",
       "s": "Stopy"
+    },
+    {
+      "hash": "3459896245",
+      "s": "Wizualna grubość wiązki z klatki piersiowej"
     },
     {
       "hash": "3460511827",
@@ -28557,10 +28465,6 @@
       "s": "Normalny / Trudny"
     },
     {
-      "hash": "3476965910",
-      "s": "Salwa z strzelby"
-    },
-    {
       "hash": "3477865764",
       "s": "P Spawnowanie wydarzeń"
     },
@@ -28599,10 +28503,6 @@
     {
       "hash": "3482854753",
       "s": "Utwórz rangę"
-    },
-    {
-      "hash": "3482912928",
-      "s": "Skala magii"
     },
     {
       "hash": "3483410211",
@@ -28795,6 +28695,10 @@
     {
       "hash": "3504995277",
       "s": "Wpisz wiadomość, aby wysłać spam do tego gracza"
+    },
+    {
+      "hash": "3505148630",
+      "s": "Steruj wystrzelonymi skałami w stronę wybranego celu"
     },
     {
       "hash": "3505346644",
@@ -29033,10 +28937,6 @@
       "s": "Stan zamka drzwi"
     },
     {
-      "hash": "3535239692",
-      "s": "Obrót"
-    },
-    {
       "hash": "3536020728",
       "s": "Celuj i strzelaj, aby wywołać efekt cząsteczkowy w miejscu uderzenia"
     },
@@ -29135,10 +29035,6 @@
     {
       "hash": "3549520750",
       "s": "Skanowanie podpisu nie powiodło się. Identyfikator: %s   Wzór: %s   Gra mogła zostać zaktualizowana."
-    },
-    {
-      "hash": "3550049285",
-      "s": "Jak agresywnie skały kierują się na cel"
     },
     {
       "hash": "3551390440",
@@ -29401,10 +29297,6 @@
       "s": "Gracze w twoich sesjach - dodaj jako fałszywego przyjaciela / monitoruj / dołącz"
     },
     {
-      "hash": "3582045095",
-      "s": "Maksymalny promień"
-    },
-    {
       "hash": "3582181136",
       "s": "Zamiana broni"
     },
@@ -29541,6 +29433,10 @@
       "s": "Skręcenie kości nosa"
     },
     {
+      "hash": "3600791980",
+      "s": "Odtwarz animację dobywania lub chowania broni podczas zmiany"
+    },
+    {
       "hash": "3600840930",
       "s": "Depozyt (bank)"
     },
@@ -29661,6 +29557,10 @@
       "s": "Tylko Legacy. Edytuje dane sesji, aby wyszukiwarki oceniały cię wyżej: utrzymuje aktywny beacon dopasowywania (BEACON_WEIGHT), sprawia, że sesja wygląda na publiczną i zdejmuje karę za nieuprzejme zachowanie. Bezpieczne (edytuje wychodzący bufor w locie, sprawdzany rozmiar) -- bezczynne, jeśli wersja gry jest inna. Wyłącz, jeśli nie pomaga."
     },
     {
+      "hash": "3613193354",
+      "s": "Prędkość wspinaczki lub zjazdu podczas skoku i przysiadu"
+    },
+    {
       "hash": "3613475640",
       "s": "Prędkość (m/s) w której obiekt osiąga maksymalną częstotliwość odbijania"
     },
@@ -29737,12 +29637,12 @@
       "s": "Usuń wszystkie pojazdy w świecie"
     },
     {
-      "hash": "3619948510",
-      "s": "Interwał magii"
-    },
-    {
       "hash": "3620117077",
       "s": "Skrypt"
+    },
+    {
+      "hash": "3620140931",
+      "s": "Wzrost do przodu i do góry podczas skakania z pajęczyny"
     },
     {
       "hash": "3620308099",
@@ -29785,12 +29685,12 @@
       "s": "Filtrowanie, wygładzanie, przewidywanie celu i HUD celowania"
     },
     {
-      "hash": "3627746690",
-      "s": "Grawitacja pocisków"
-    },
-    {
       "hash": "3628423618",
       "s": "Usuń klatki i pułapki pojazdowe utworzone przez te opcje"
+    },
+    {
+      "hash": "3628480513",
+      "s": "Ciężki głaz"
     },
     {
       "hash": "3628551877",
@@ -30089,10 +29989,6 @@
       "s": "Oświetlenie, woda i efekty wizualne cząsteczek"
     },
     {
-      "hash": "3661649250",
-      "s": "Naładowany głaz"
-    },
-    {
       "hash": "3661759279",
       "s": "Dołącz do jednostki"
     },
@@ -30329,10 +30225,6 @@
       "s": "Automatyczna szybkość strzelania"
     },
     {
-      "hash": "3690574099",
-      "s": "Maksymalna liczba skał dostępnych jako ruchomy pancerz i amunicja"
-    },
-    {
       "hash": "3690613025",
       "s": "Chwytanie fizyczne: przytrzymaj Atak, aby chwycić kość pod kursorem i przeciągnąć z niej obiekt; Przewiń = głębokość, przytrzymaj Celuj = obrót"
     },
@@ -30407,6 +30299,10 @@
     {
       "hash": "3698752918",
       "s": "Wyczyść współrzędne obrazu CD"
+    },
+    {
+      "hash": "3699150189",
+      "s": "Średnia obudowa pocisku używana do sterowanej głowicy bojowej"
     },
     {
       "hash": "3699174005",
@@ -30885,10 +30781,6 @@
       "s": "Pierwsza pogoda (mieszanka 0%)"
     },
     {
-      "hash": "3755890177",
-      "s": "Twórz dodatkowe gruz i magię w punktach uderzenia"
-    },
-    {
       "hash": "3756352765",
       "s": "2"
     },
@@ -31097,10 +30989,6 @@
       "s": "Wysokość zrzutu (m)"
     },
     {
-      "hash": "3777253482",
-      "s": "Czas ładowania"
-    },
-    {
       "hash": "3777398352",
       "s": "Wszystko znajduje się pod zakładkami u góry"
     },
@@ -31153,10 +31041,6 @@
       "s": "Rekwizyt 4"
     },
     {
-      "hash": "3783137318",
-      "s": "Jak szybko chwycona jednostka dociera do punktu orbity"
-    },
-    {
       "hash": "3783267568",
       "s": "Zakończenie Vault-Crack 0-100"
     },
@@ -31179,6 +31063,10 @@
     {
       "hash": "3784356982",
       "s": "Tempo Speed"
+    },
+    {
+      "hash": "3784907283",
+      "s": "Uszkodzenia od uderzenia"
     },
     {
       "hash": "3784935445",
@@ -31211,10 +31099,6 @@
     {
       "hash": "3788512406",
       "s": "Część"
-    },
-    {
-      "hash": "3788555879",
-      "s": "Wysokość skał zaczyna się nad wybranym celem"
     },
     {
       "hash": "3788598447",
@@ -31861,6 +31745,10 @@
       "s": "Długość wzmocnienia w trybie czasowym"
     },
     {
+      "hash": "3862816103",
+      "s": "Odległość między skałami przed wystrzeleniem"
+    },
+    {
       "hash": "3863540118",
       "s": "Nadpisz broń tego pojazdu"
     },
@@ -31915,6 +31803,10 @@
     {
       "hash": "3868785052",
       "s": "Zmień rozmiar"
+    },
+    {
+      "hash": "3869873973",
+      "s": "Skala silnika"
     },
     {
       "hash": "3870058444",
@@ -32023,10 +31915,6 @@
     {
       "hash": "3879902833",
       "s": "Miękkość krawędzi cząstek"
-    },
-    {
-      "hash": "3880061007",
-      "s": "Milisekundy między seriami"
     },
     {
       "hash": "3880113624",
@@ -32355,10 +32243,6 @@
     {
       "hash": "3915956624",
       "s": "Pionowy przesunięcie"
-    },
-    {
-      "hash": "3916202921",
-      "s": "Telekineza - chwytanie"
     },
     {
       "hash": "3916370193",
@@ -32701,10 +32585,6 @@
       "s": "Nie udało się dołączyć do sesji za pomocą informacji — zamiast tego hostuj"
     },
     {
-      "hash": "3951186734",
-      "s": "Skieruj jeźdźca i środek skały w stronę kamery"
-    },
-    {
       "hash": "3951515928",
       "s": "Podgląd pieszych"
     },
@@ -32791,6 +32671,10 @@
     {
       "hash": "3962885829",
       "s": "Główna i dodatkowa"
+    },
+    {
+      "hash": "3963642439",
+      "s": "Formacja skalna"
     },
     {
       "hash": "3964073976",
@@ -32943,10 +32827,6 @@
     {
       "hash": "3982230435",
       "s": "Wróć pojazdem Moon Pool do Kosatki"
-    },
-    {
-      "hash": "3982365561",
-      "s": "Milisekundy między automatycznymi strzałami obronnymi"
     },
     {
       "hash": "3982626406",
@@ -33205,6 +33085,10 @@
       "s": "Skok do startu"
     },
     {
+      "hash": "4010876935",
+      "s": "Salwa skał"
+    },
+    {
       "hash": "4011647192",
       "s": "Celuj w kość głowy"
     },
@@ -33389,10 +33273,6 @@
       "s": "Przejdź do blackjacka/pokera/ruletki"
     },
     {
-      "hash": "4036957948",
-      "s": "Skrzydła"
-    },
-    {
       "hash": "4036992069",
       "s": "Pojazdy DLC"
     },
@@ -33533,10 +33413,6 @@
       "s": "Wydarzenie eksplozji"
     },
     {
-      "hash": "4049523517",
-      "s": "Zasięg wykrywania wrogich pedów"
-    },
-    {
       "hash": "4050487207",
       "s": "Wył. / Standard"
     },
@@ -33547,10 +33423,6 @@
     {
       "hash": "4050614153",
       "s": "Próba zabicia gracza w mieszkaniu lub lokalu"
-    },
-    {
-      "hash": "4050719897",
-      "s": "Wybierz aktywny atak skałą"
     },
     {
       "hash": "4051927718",
@@ -33705,6 +33577,10 @@
       "s": "Pojazdy w ruchu drogowym"
     },
     {
+      "hash": "4067825808",
+      "s": "Powietrzna rakieta arenowa"
+    },
+    {
       "hash": "4068750822",
       "s": "Usługi"
     },
@@ -33747,6 +33623,10 @@
     {
       "hash": "4074780026",
       "s": "Stwórz zsynchronizowane eksplozje wokół tego gracza"
+    },
+    {
+      "hash": "4075084922",
+      "s": "Czas na pokonanie małych szczelin przed powrotem do normalnej grawitacji"
     },
     {
       "hash": "4075120398",
@@ -34245,10 +34125,6 @@
       "s": "Karta do Gry + Żetony + RP"
     },
     {
-      "hash": "4132364984",
-      "s": "Głazy"
-    },
-    {
       "hash": "4132841903",
       "s": "Falowanie ragdolla za pomocą klawiszy ruchu"
     },
@@ -34479,10 +34355,6 @@
     {
       "hash": "4155334016",
       "s": "Wystrzel pociski z ręki"
-    },
-    {
-      "hash": "4155625758",
-      "s": "Obszar przeszukiwany w poszukiwaniu ostatecznych celów"
     },
     {
       "hash": "4156939682",
@@ -34801,6 +34673,10 @@
       "s": "Jak ped traktuje ciebie / innych."
     },
     {
+      "hash": "4193952615",
+      "s": "Niezniszczalny podczas huśtania"
+    },
+    {
       "hash": "4194325266",
       "s": "Odporny tylko na ogień/płomienie."
     },
@@ -34851,6 +34727,10 @@
     {
       "hash": "4201550504",
       "s": "Wyniki pracy"
+    },
+    {
+      "hash": "4201592886",
+      "s": "Wygładzanie obrotu"
     },
     {
       "hash": "4201875611",
@@ -34947,10 +34827,6 @@
     {
       "hash": "4211742556",
       "s": "Nadlatuje Gunship."
-    },
-    {
-      "hash": "4211950874",
-      "s": "Pozwól, aby rzucone skały spadały naturalnie"
     },
     {
       "hash": "4212242996",
@@ -35107,6 +34983,10 @@
     {
       "hash": "4232442747",
       "s": "Mnożnik wygranej za trafienie celu = 1,0"
+    },
+    {
+      "hash": "4232934818",
+      "s": "Nosisz ostatnio użytą karabin, strzelbę lub ciężką broń na plecach"
     },
     {
       "hash": "4233412320",
@@ -35361,10 +35241,6 @@
       "s": "Zmieniacz głosu"
     },
     {
-      "hash": "4261433984",
-      "s": "Siła chwytu"
-    },
-    {
       "hash": "4261948861",
       "s": "Odwróć pojazd do góry, gdy przewrócony"
     },
@@ -35379,10 +35255,6 @@
     {
       "hash": "4262921177",
       "s": "Skonfiguruj składowisko złomu"
-    },
-    {
-      "hash": "4262965694",
-      "s": "Ustawienia orbity"
     },
     {
       "hash": "4263141939",
@@ -35419,10 +35291,6 @@
     {
       "hash": "4268456388",
       "s": "Usuń każdego tancerza przypisanego do wybranych graczy"
-    },
-    {
-      "hash": "4268579583",
-      "s": "Pierścień, spirala, sfera, korona, skrzydła lub ściana tarczy"
     },
     {
       "hash": "4268677624",
@@ -35643,10 +35511,6 @@
     {
       "hash": "4293716332",
       "s": "Zablokowane"
-    },
-    {
-      "hash": "4294024086",
-      "s": "Zapobiegaj lataniu środkowej skały poniżej terenu"
     },
     {
       "hash": "4294570699",
