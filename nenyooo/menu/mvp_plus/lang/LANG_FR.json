@@ -4497,10 +4497,6 @@
       "s": "Verrouillage de la position (physique indifférente)"
     },
     {
-      "hash": "556806862",
-      "s": "Force avec laquelle le filet se resserre lorsqu'il est étiré"
-    },
-    {
       "hash": "558004792",
       "s": "Distance de la caméra"
     },
@@ -5443,6 +5439,10 @@
     {
       "hash": "670061583",
       "s": "Instantané"
+    },
+    {
+      "hash": "670573832",
+      "s": "Vitesse de saut"
     },
     {
       "hash": "670972335",
@@ -15969,6 +15969,10 @@
       "s": "Rafale de force inverse à chaque freinage"
     },
     {
+      "hash": "1952486590",
+      "s": "Accélération maximale d'une toile étirée"
+    },
+    {
       "hash": "1952786466",
       "s": "Mettre une prime sur la tête de ce joueur"
     },
@@ -17033,6 +17037,10 @@
       "s": "Teinte actuelle"
     },
     {
+      "hash": "2072741547",
+      "s": "Saut amélioré"
+    },
+    {
       "hash": "2073145722",
       "s": "Définir les Exportations Exotiques complétées à 100"
     },
@@ -17055,6 +17063,10 @@
     {
       "hash": "2076055608",
       "s": "Ajouter/supprimer ce joueur de votre liste d'amis fictifs"
+    },
+    {
+      "hash": "2076654277",
+      "s": "Vitesse de lancement vers le haut pour le saut amélioré"
     },
     {
       "hash": "2077916721",
@@ -17831,10 +17843,6 @@
     {
       "hash": "2167750500",
       "s": "Portes ouvertes"
-    },
-    {
-      "hash": "2167847627",
-      "s": "Missile Mule 1"
     },
     {
       "hash": "2167886835",
@@ -22377,6 +22385,10 @@
       "s": "Force de ramassage"
     },
     {
+      "hash": "2739470920",
+      "s": "Utiliser un saut de Spider-Man contrôlé au lieu du super saut extrême de GTA"
+    },
+    {
       "hash": "2739519348",
       "s": "Équiper les poings/armes de mêlée, puis maintenir [E] pour se jeter sur le Péd le plus proche ; le curseur définit la vitesse de la course"
     },
@@ -25629,6 +25641,10 @@
       "s": "Lancer la mission"
     },
     {
+      "hash": "3143247823",
+      "s": "Temps pour franchir de petits espaces entre les surfaces"
+    },
+    {
       "hash": "3143613008",
       "s": "Repérage"
     },
@@ -27597,10 +27613,6 @@
       "s": "Effacer les hantises"
     },
     {
-      "hash": "3373845134",
-      "s": "Mule Missile 2"
-    },
-    {
       "hash": "3375764472",
       "s": "Déverrouillé"
     },
@@ -27615,10 +27627,6 @@
     {
       "hash": "3376913338",
       "s": "Forcer l'effet ragdoll sur chaque joueur ciblé"
-    },
-    {
-      "hash": "3377233222",
-      "s": "Sauter beaucoup plus haut lorsque le mode Araignée est actif"
     },
     {
       "hash": "3377387356",
@@ -33623,10 +33631,6 @@
     {
       "hash": "4074780026",
       "s": "Créer des explosions synchronisées autour de ce joueur"
-    },
-    {
-      "hash": "4075084922",
-      "s": "Temps pour franchir les petits espaces avant retour à la gravité normale"
     },
     {
       "hash": "4075120398",
