@@ -561,6 +561,10 @@
       "s": "Notification Crash"
     },
     {
+      "hash": "70964043",
+      "s": "Auto Level"
+    },
+    {
       "hash": "71237372",
       "s": "Width"
     },
@@ -737,6 +741,10 @@
       "s": "Adjust Water Height"
     },
     {
+      "hash": "96825778",
+      "s": "Transform the current vehicle between driving, hovering, flying, and submarine control"
+    },
+    {
       "hash": "96925734",
       "s": "Majestic"
     },
@@ -807,6 +815,10 @@
     {
       "hash": "104766125",
       "s": "Drop Exploding Barrels"
+    },
+    {
+      "hash": "106152781",
+      "s": "Spawn an automated Chernobog missile defense near you"
     },
     {
       "hash": "106422067",
@@ -911,6 +923,10 @@
     {
       "hash": "119883948",
       "s": "Pin the ped's body armour to this value"
+    },
+    {
+      "hash": "120142242",
+      "s": "Climb allows precise movement; Run moves quickly up walls"
     },
     {
       "hash": "120992953",
@@ -1719,6 +1735,10 @@
     {
       "hash": "215600206",
       "s": "Skip the Pacific Standard hack (2-write)"
+    },
+    {
+      "hash": "216007923",
+      "s": "Lock an available player first."
     },
     {
       "hash": "216402562",
@@ -2665,6 +2685,10 @@
       "s": "Teleport this player to or from players, your waypoint, or you"
     },
     {
+      "hash": "325338822",
+      "s": "Driving"
+    },
+    {
       "hash": "325737583",
       "s": "Cancel this friend request you sent"
     },
@@ -2879,6 +2903,10 @@
     {
       "hash": "354015961",
       "s": "Spooner ScenarioList"
+    },
+    {
+      "hash": "354353318",
+      "s": "Seconds between automatic launches"
     },
     {
       "hash": "355401747",
@@ -4289,10 +4317,6 @@
       "s": "Come On Do Something Cool!"
     },
     {
-      "hash": "526089877",
-      "s": "Helmet attachment yaw"
-    },
-    {
       "hash": "526209131",
       "s": "Teleported to player"
     },
@@ -5169,10 +5193,6 @@
       "s": "Invert Velocity"
     },
     {
-      "hash": "635764837",
-      "s": "Size of the continuous boot thrusters"
-    },
-    {
       "hash": "635779862",
       "s": "Save or load Spooner maps"
     },
@@ -5509,6 +5529,10 @@
       "s": "Drop Missile Ammo"
     },
     {
+      "hash": "676665562",
+      "s": "The launcher is already guiding its maximum number of missiles."
+    },
+    {
       "hash": "677453730",
       "s": "Pool almost full and nothing removable -- reduce the map to avoid a crash."
     },
@@ -5583,6 +5607,10 @@
     {
       "hash": "685128441",
       "s": "Has Air Control"
+    },
+    {
+      "hash": "685407252",
+      "s": "Map Waypoint"
     },
     {
       "hash": "686599613",
@@ -5795,6 +5823,10 @@
     {
       "hash": "710391823",
       "s": "Bank balance set."
+    },
+    {
+      "hash": "710511504",
+      "s": "Size of the compact boot jets"
     },
     {
       "hash": "710907375",
@@ -6097,6 +6129,10 @@
       "s": "Maximum rocks available as ammunition"
     },
     {
+      "hash": "747412735",
+      "s": "Deploy an automated launcher against a selected player or waypoint"
+    },
+    {
       "hash": "748263944",
       "s": "Lower = faster"
     },
@@ -6247,6 +6283,10 @@
     {
       "hash": "766432697",
       "s": "WEA Type List"
+    },
+    {
+      "hash": "766568104",
+      "s": "How quickly missiles bend toward moving targets"
     },
     {
       "hash": "766733256",
@@ -7437,6 +7477,10 @@
       "s": "Util Shadow Silver"
     },
     {
+      "hash": "933710191",
+      "s": "Hover Height"
+    },
+    {
       "hash": "934039634",
       "s": "Personal Aircraft Requests"
     },
@@ -8077,6 +8121,10 @@
       "s": "Number 7"
     },
     {
+      "hash": "1017212670",
+      "s": "Thrusters, lights, sounds and JARVIS HUD"
+    },
+    {
       "hash": "1017988789",
       "s": "Pick the convoy vehicle from the vehicle browser"
     },
@@ -8111,10 +8159,6 @@
     {
       "hash": "1020882649",
       "s": "Remove All Weapons"
-    },
-    {
-      "hash": "1021228243",
-      "s": "Helmet attachment side offset"
     },
     {
       "hash": "1021244816",
@@ -8489,10 +8533,6 @@
       "s": "Neon Back"
     },
     {
-      "hash": "1059567246",
-      "s": "Helmet attachment height offset"
-    },
-    {
       "hash": "1059762400",
       "s": "Sky Dive To Player"
     },
@@ -8663,6 +8703,10 @@
     {
       "hash": "1083185490",
       "s": "Delete This Marker"
+    },
+    {
+      "hash": "1083267925",
+      "s": "Selected player locked as the missile target."
     },
     {
       "hash": "1084469818",
@@ -9553,6 +9597,10 @@
       "s": "Delete every MK2 and rider bound to this player"
     },
     {
+      "hash": "1175845351",
+      "s": "Power"
+    },
+    {
       "hash": "1177991868",
       "s": "How bodyguards arrange around you"
     },
@@ -10235,6 +10283,10 @@
     {
       "hash": "1251229783",
       "s": "(set pattern)"
+    },
+    {
+      "hash": "1251366113",
+      "s": "Target the player currently open in the Players menu"
     },
     {
       "hash": "1251707475",
@@ -11045,6 +11097,10 @@
       "s": "Anti Lock-On"
     },
     {
+      "hash": "1346274322",
+      "s": "The defense could not be deployed here."
+    },
+    {
       "hash": "1347223120",
       "s": "Clip-plane height (bikes)"
     },
@@ -11215,6 +11271,10 @@
     {
       "hash": "1366094304",
       "s": "Instant Finish (Pacific Standard)"
+    },
+    {
+      "hash": "1366890263",
+      "s": "No available player is currently selected."
     },
     {
       "hash": "1367813399",
@@ -11599,6 +11659,10 @@
     {
       "hash": "1418925074",
       "s": "Stay on the moving checkpoint trail"
+    },
+    {
+      "hash": "1419272428",
+      "s": "Flying"
     },
     {
       "hash": "1420961807",
@@ -12265,6 +12329,10 @@
       "s": "Master toggle for fall modifiers"
     },
     {
+      "hash": "1493620918",
+      "s": "The Chernobog model could not be loaded."
+    },
+    {
       "hash": "1493886750",
       "s": "Number 5"
     },
@@ -12379,10 +12447,6 @@
     {
       "hash": "1509105685",
       "s": "Question Mark"
-    },
-    {
-      "hash": "1511394059",
-      "s": "Helmet attachment forward offset"
     },
     {
       "hash": "1511942769",
@@ -13163,6 +13227,10 @@
     {
       "hash": "1610098740",
       "s": "PGun FXCurated"
+    },
+    {
+      "hash": "1610361034",
+      "s": "Target Mode"
     },
     {
       "hash": "1610431340",
@@ -14261,6 +14329,10 @@
       "s": "How far down the road they arrive"
     },
     {
+      "hash": "1744646734",
+      "s": "Blast Power"
+    },
+    {
       "hash": "1744651951",
       "s": "Gang Services"
     },
@@ -14569,10 +14641,6 @@
       "s": "Unknown player"
     },
     {
-      "hash": "1782943241",
-      "s": "Helmet Forward Offset"
-    },
-    {
       "hash": "1783065328",
       "s": "Body part mods (spoiler, bumpers, ...)"
     },
@@ -14693,6 +14761,10 @@
       "s": "Select an entity first."
     },
     {
+      "hash": "1799361379",
+      "s": "Height maintained above the surface in Hovering mode"
+    },
+    {
       "hash": "1800047404",
       "s": "Contraband count (read-only)"
     },
@@ -14791,10 +14863,6 @@
     {
       "hash": "1813271197",
       "s": "Press Jump near the ground while stationary to land"
-    },
-    {
-      "hash": "1813999961",
-      "s": "Helmet attachment pitch"
     },
     {
       "hash": "1814311102",
@@ -15213,6 +15281,10 @@
       "s": "Theme Settings"
     },
     {
+      "hash": "1867625804",
+      "s": "Run"
+    },
+    {
       "hash": "1868032366",
       "s": "Let the pause menu open while dead"
     },
@@ -15227,6 +15299,10 @@
     {
       "hash": "1871180767",
       "s": "Tyres won't burst"
+    },
+    {
+      "hash": "1871767821",
+      "s": "Fire Interval"
     },
     {
       "hash": "1871922144",
@@ -15271,6 +15347,10 @@
     {
       "hash": "1876890730",
       "s": "Matte Brown"
+    },
+    {
+      "hash": "1876938415",
+      "s": "Invincible Defense"
     },
     {
       "hash": "1876946429",
@@ -15561,6 +15641,10 @@
       "s": "Sell/buy delivery vehicle godmode"
     },
     {
+      "hash": "1905275040",
+      "s": "Movement Mode"
+    },
+    {
       "hash": "1905642021",
       "s": "Hardness"
     },
@@ -15819,6 +15903,10 @@
     {
       "hash": "1934997753",
       "s": "Auto Targets Players"
+    },
+    {
+      "hash": "1935910241",
+      "s": "Map waypoint captured as the missile target."
     },
     {
       "hash": "1936077579",
@@ -16185,6 +16273,10 @@
       "s": "Sun Mode"
     },
     {
+      "hash": "1973997383",
+      "s": "Place a waypoint on the map first."
+    },
+    {
       "hash": "1974782391",
       "s": "Drop engine unavailable; the freemode signature did not resolve"
     },
@@ -16227,10 +16319,6 @@
     {
       "hash": "1978641633",
       "s": "KEYBOARD EDIT - Position   W/S A/D Q/E move   R: rotation   +/- step   G: exit"
-    },
-    {
-      "hash": "1979644551",
-      "s": "Helmet Roll"
     },
     {
       "hash": "1980089831",
@@ -16761,6 +16849,10 @@
       "s": "Ball Model"
     },
     {
+      "hash": "2033908434",
+      "s": "Chernobog defense deployed."
+    },
+    {
       "hash": "2034405775",
       "s": "Spawn this vehicle | F favourites"
     },
@@ -17201,6 +17293,10 @@
       "s": "Rainbow hue degrees per frame"
     },
     {
+      "hash": "2092861744",
+      "s": "Use the current map waypoint as the missile target"
+    },
+    {
       "hash": "2092910548",
       "s": "Replay Icon"
     },
@@ -17635,6 +17731,10 @@
     {
       "hash": "2141631366",
       "s": "Render Limits"
+    },
+    {
+      "hash": "2141694192",
+      "s": "Climb"
     },
     {
       "hash": "2141762594",
@@ -18929,6 +19029,10 @@
       "s": "Boat accel / brake"
     },
     {
+      "hash": "2301458413",
+      "s": "Defense Blip"
+    },
+    {
       "hash": "2303366566",
       "s": "Update Value"
     },
@@ -19321,6 +19425,10 @@
       "s": "Cops Turn Blind Eye"
     },
     {
+      "hash": "2355329317",
+      "s": "How far the straight suit pose leans into flight"
+    },
+    {
       "hash": "2355391398",
       "s": "Manage Entity Database"
     },
@@ -19357,6 +19465,10 @@
       "s": "Everyone"
     },
     {
+      "hash": "2360318072",
+      "s": "Capture Map Waypoint"
+    },
+    {
       "hash": "2360509865",
       "s": "Support request sent"
     },
@@ -19371,10 +19483,6 @@
     {
       "hash": "2362416457",
       "s": "Luxury Helicopter"
-    },
-    {
-      "hash": "2362467619",
-      "s": "Helmet Height Offset"
     },
     {
       "hash": "2362561168",
@@ -19525,6 +19633,10 @@
       "s": "P Remote Organization"
     },
     {
+      "hash": "2378004760",
+      "s": "Dismiss Defense"
+    },
+    {
       "hash": "2378849624",
       "s": "Not a member"
     },
@@ -19543,10 +19655,6 @@
     {
       "hash": "2380234592",
       "s": "Switch sessions without the loading screen: the world keeps rendering and you keep control while the transition runs"
-    },
-    {
-      "hash": "2381273772",
-      "s": "Ballistic Mask"
     },
     {
       "hash": "2381352839",
@@ -20013,10 +20121,6 @@
       "s": "Left Hand"
     },
     {
-      "hash": "2448100954",
-      "s": "Helmet Style"
-    },
-    {
       "hash": "2448197701",
       "s": "Cycle neon through the rainbow"
     },
@@ -20051,10 +20155,6 @@
     {
       "hash": "2451951930",
       "s": "Firefighter"
-    },
-    {
-      "hash": "2452068772",
-      "s": "Helmet Yaw"
     },
     {
       "hash": "2452262200",
@@ -20551,6 +20651,10 @@
     {
       "hash": "2512489999",
       "s": "Spawn a prostitute in their vehicle"
+    },
+    {
+      "hash": "2513218895",
+      "s": "Remove the Chernobog and every active missile"
     },
     {
       "hash": "2514537536",
@@ -21397,10 +21501,6 @@
       "s": "Apply Action to the back-left window"
     },
     {
-      "hash": "2619235695",
-      "s": "Helmet Side Offset"
-    },
-    {
       "hash": "2619243339",
       "s": "Add Fake Friend"
     },
@@ -21411,10 +21511,6 @@
     {
       "hash": "2620228746",
       "s": "Magnet Strength"
-    },
-    {
-      "hash": "2620403528",
-      "s": "Helmet Pitch"
     },
     {
       "hash": "2620447213",
@@ -22117,6 +22213,10 @@
       "s": "Support queue signature did not resolve"
     },
     {
+      "hash": "2711062006",
+      "s": "Hovering"
+    },
+    {
       "hash": "2711405501",
       "s": "Toggle this extra"
     },
@@ -22653,6 +22753,10 @@
       "s": "Animations"
     },
     {
+      "hash": "2772447668",
+      "s": "Lock Selected Player"
+    },
+    {
       "hash": "2773731905",
       "s": "Queue GTA's Molotov support drop for the selected player"
     },
@@ -22667,6 +22771,10 @@
     {
       "hash": "2775039492",
       "s": "Remove All"
+    },
+    {
+      "hash": "2775375168",
+      "s": "Select the active vehicle form"
     },
     {
       "hash": "2775619044",
@@ -22699,6 +22807,10 @@
     {
       "hash": "2777759573",
       "s": "Vehicle horn"
+    },
+    {
+      "hash": "2778513938",
+      "s": "How quickly the vehicle turns and settles"
     },
     {
       "hash": "2778684155",
@@ -23153,6 +23265,10 @@
       "s": "An area blast or a single entity"
     },
     {
+      "hash": "2829730137",
+      "s": "Chernobog defense dismissed."
+    },
+    {
       "hash": "2830117076",
       "s": "Engine stays on after you exit"
     },
@@ -23429,6 +23545,10 @@
       "s": "Push Forward"
     },
     {
+      "hash": "2864602143",
+      "s": "Deploy Chernobog Defense"
+    },
+    {
       "hash": "2865770377",
       "s": "Set Max Speed"
     },
@@ -23693,6 +23813,10 @@
       "s": "Selection"
     },
     {
+      "hash": "2895502954",
+      "s": "Guided missile flight speed"
+    },
+    {
       "hash": "2895952676",
       "s": "Null Kick"
     },
@@ -23873,6 +23997,10 @@
       "s": "Teleport to Lucky Wheel"
     },
     {
+      "hash": "2917420336",
+      "s": "Launch one guided missile at the active target"
+    },
+    {
       "hash": "2917881255",
       "s": "New objects have physics"
     },
@@ -23947,6 +24075,10 @@
     {
       "hash": "2926739498",
       "s": "Restore original Vehicle Cargo buyer offers"
+    },
+    {
+      "hash": "2926856591",
+      "s": "Chernobog Defense"
     },
     {
       "hash": "2927033548",
@@ -24179,6 +24311,10 @@
     {
       "hash": "2953134839",
       "s": "Waning Crescent"
+    },
+    {
+      "hash": "2953453436",
+      "s": "Show the deployed Chernobog on the map"
     },
     {
       "hash": "2954510206",
@@ -24521,10 +24657,6 @@
       "s": "Falloff Max"
     },
     {
-      "hash": "3005161455",
-      "s": "Optional GTA prop attached as the suit helmet"
-    },
-    {
       "hash": "3006144602",
       "s": "Player Trolling"
     },
@@ -24803,6 +24935,10 @@
     {
       "hash": "3042240890",
       "s": "Spam"
+    },
+    {
+      "hash": "3042963610",
+      "s": "Choose a locked player or captured map waypoint"
     },
     {
       "hash": "3043109800",
@@ -26217,6 +26353,10 @@
       "s": "Value applied"
     },
     {
+      "hash": "3212975593",
+      "s": "Prevent the deployed Chernobog from being damaged"
+    },
+    {
       "hash": "3213797076",
       "s": "Complete Golden Clover"
     },
@@ -26739,10 +26879,6 @@
     {
       "hash": "3281619897",
       "s": "Explosive Fist"
-    },
-    {
-      "hash": "3283342167",
-      "s": "How far the suit leans forward and backward while flying"
     },
     {
       "hash": "3283375820",
@@ -27423,6 +27559,10 @@
     {
       "hash": "3361457231",
       "s": "Force a running landing"
+    },
+    {
+      "hash": "3362231226",
+      "s": "Vehicle Transformation"
     },
     {
       "hash": "3362299534",
@@ -30469,6 +30609,10 @@
       "s": "Oscar Guzman collectibles unlocked."
     },
     {
+      "hash": "3724280817",
+      "s": "Movement speed in transformed modes"
+    },
+    {
       "hash": "3724574209",
       "s": "Failed to parse map."
     },
@@ -30681,6 +30825,10 @@
       "s": "Hold the dirt level here"
     },
     {
+      "hash": "3747662788",
+      "s": "Capture a map waypoint first."
+    },
+    {
       "hash": "3747707120",
       "s": "Convoy"
     },
@@ -30751,6 +30899,10 @@
     {
       "hash": "3757969021",
       "s": "Recolour & retune petrol decals (only petrol responds)"
+    },
+    {
+      "hash": "3759235332",
+      "s": "Fire Missile"
     },
     {
       "hash": "3760349769",
@@ -30839,10 +30991,6 @@
     {
       "hash": "3765747478",
       "s": "Convoy vehicle set."
-    },
-    {
-      "hash": "3765994299",
-      "s": "Flight Mask"
     },
     {
       "hash": "3766597846",
@@ -31479,6 +31627,10 @@
     {
       "hash": "3835835929",
       "s": "Drop Ammo Pack"
+    },
+    {
+      "hash": "3835889435",
+      "s": "Explosion damage and force at the target"
     },
     {
       "hash": "3835969375",
@@ -32413,10 +32565,6 @@
       "s": "Treasure chests completed."
     },
     {
-      "hash": "3936824423",
-      "s": "Welding Mask"
-    },
-    {
       "hash": "3936985651",
       "s": "Fall Modifiers"
     },
@@ -32475,6 +32623,10 @@
     {
       "hash": "3942505117",
       "s": "Detachment Request"
+    },
+    {
+      "hash": "3943488518",
+      "s": "Deploy the defense before firing."
     },
     {
       "hash": "3943885220",
@@ -33629,6 +33781,10 @@
       "s": "Acquire at $0 -- still registers ownership so it persists (GTA Online)"
     },
     {
+      "hash": "4078241999",
+      "s": "Smoothly level the vehicle while hovering"
+    },
+    {
       "hash": "4078260308",
       "s": "Request the SecuroServ Volatus"
     },
@@ -33683,10 +33839,6 @@
     {
       "hash": "4086138285",
       "s": "Resolving..."
-    },
-    {
-      "hash": "4086483632",
-      "s": "Helmet, particles, sounds and JARVIS HUD"
     },
     {
       "hash": "4087823706",
@@ -34021,6 +34173,10 @@
       "s": "Roster"
     },
     {
+      "hash": "4126101986",
+      "s": "The map waypoint could not be read."
+    },
+    {
       "hash": "4126134065",
       "s": "Type a caption, press Enter"
     },
@@ -34231,6 +34387,10 @@
     {
       "hash": "4146205377",
       "s": "Hair"
+    },
+    {
+      "hash": "4146468101",
+      "s": "Submarine"
     },
     {
       "hash": "4146602843",
@@ -34495,10 +34655,6 @@
     {
       "hash": "4177038033",
       "s": "Pull nearby peds/vehicles toward you"
-    },
-    {
-      "hash": "4178414808",
-      "s": "Helmet attachment roll"
     },
     {
       "hash": "4179636929",
@@ -35021,6 +35177,10 @@
       "s": "[lua panic recovered - check log]"
     },
     {
+      "hash": "4240515939",
+      "s": "Switch between driving, hovering, flying, and submarine control"
+    },
+    {
       "hash": "4241326817",
       "s": "How far it is launched on shoot"
     },
@@ -35447,6 +35607,10 @@
     {
       "hash": "4291291447",
       "s": "Is Short Heighted (Small)"
+    },
+    {
+      "hash": "4291322825",
+      "s": "Keep launching missiles while the target remains valid"
     },
     {
       "hash": "4291390169",
