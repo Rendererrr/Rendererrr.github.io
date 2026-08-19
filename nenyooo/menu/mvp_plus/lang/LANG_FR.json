@@ -66,7 +66,7 @@
     },
     {
       "hash": "9176438",
-      "s": "Maximum upward force after charging an ollie"
+      "s": "Force ascension maximale après un ollie"
     },
     {
       "hash": "9476420",
@@ -527,10 +527,6 @@
     {
       "hash": "62373092",
       "s": "Autoriser un nouveau braquage"
-    },
-    {
-      "hash": "64612092",
-      "s": "Secondes avant que le filet ne se déclenche automatiquement"
     },
     {
       "hash": "65554708",
@@ -1233,6 +1229,10 @@
       "s": "Acier noir métallisé"
     },
     {
+      "hash": "150444510",
+      "s": "Garder le joueur debout sur le rocher central"
+    },
+    {
       "hash": "151400525",
       "s": "Multiplicateur de luminosité des couleurs"
     },
@@ -1553,6 +1553,10 @@
       "s": "Modifier le cycle lunaire à 90 %"
     },
     {
+      "hash": "194459675",
+      "s": "Porter la dernière arme de poing, fusil ou arme lourde à dos"
+    },
+    {
       "hash": "195892446",
       "s": "Super Diamant"
     },
@@ -1591,10 +1595,6 @@
     {
       "hash": "199210932",
       "s": "Toutes les portes sont fermées."
-    },
-    {
-      "hash": "199489090",
-      "s": "Libérer le boost"
     },
     {
       "hash": "199954802",
@@ -2019,10 +2019,6 @@
     {
       "hash": "252370098",
       "s": "Bleu / Blanc"
-    },
-    {
-      "hash": "252396307",
-      "s": "Démarrer ou arrêter manuellement le balancement animé"
     },
     {
       "hash": "252540213",
@@ -3649,6 +3645,10 @@
       "s": "Cliquez pour sélectionner cette explosion"
     },
     {
+      "hash": "445455265",
+      "s": "Pose Debout"
+    },
+    {
       "hash": "445748599",
       "s": "Sélection contre nature"
     },
@@ -4271,6 +4271,10 @@
     {
       "hash": "522797576",
       "s": "Temps de recharge de la boîte de nuit annulés"
+    },
+    {
+      "hash": "522938708",
+      "s": "Hauteur du pilote"
     },
     {
       "hash": "523089033",
@@ -5439,10 +5443,6 @@
     {
       "hash": "670061583",
       "s": "Instantané"
-    },
-    {
-      "hash": "670573832",
-      "s": "Vitesse de saut"
     },
     {
       "hash": "670972335",
@@ -7729,10 +7729,6 @@
       "s": "Recherche d'exécutif"
     },
     {
-      "hash": "972978341",
-      "s": "Élévation du balancement"
-    },
-    {
       "hash": "973125657",
       "s": "Vert olive usé"
     },
@@ -8525,10 +8521,6 @@
       "s": "Téléporter la cible = point de repère sur la carte"
     },
     {
-      "hash": "1063435937",
-      "s": "Élévation automatique pendant le balancement"
-    },
-    {
       "hash": "1063793990",
       "s": "Changer la couleur du néon de votre véhicule"
     },
@@ -9069,10 +9061,6 @@
       "s": "Sauvegarder la base de données actuelle par-dessus celle-ci Fichier"
     },
     {
-      "hash": "1124039197",
-      "s": "Appuyer sur E ou Attaquer pour activer le balancement ; Sauter pour relâcher"
-    },
-    {
       "hash": "1124669876",
       "s": "Produits LD Organics"
     },
@@ -9374,7 +9362,7 @@
     },
     {
       "hash": "1156218441",
-      "s": "The skateboard could not be created."
+      "s": "Impossible de créer le skateboard."
     },
     {
       "hash": "1156698991",
@@ -12315,10 +12303,6 @@
     {
       "hash": "1500082334",
       "s": "Missions"
-    },
-    {
-      "hash": "1500833008",
-      "s": "Hauteur du siège"
     },
     {
       "hash": "1501019094",
@@ -15353,6 +15337,10 @@
       "s": "Démontage"
     },
     {
+      "hash": "1880913742",
+      "s": "Escalader les murs et sauter des surfaces"
+    },
+    {
       "hash": "1880949432",
       "s": "Liaison CT"
     },
@@ -15825,10 +15813,6 @@
       "s": "Modifications du trafic"
     },
     {
-      "hash": "1934369253",
-      "s": "Balancement animé, escalade de murs et sauts propulsés"
-    },
-    {
       "hash": "1934574637",
       "s": "Répartition latérale des points d'arrivée"
     },
@@ -15942,7 +15926,7 @@
     },
     {
       "hash": "1944716641",
-      "s": "How strongly each push builds speed"
+      "s": "Intensité de l'accélération de chaque poussée"
     },
     {
       "hash": "1945707213",
@@ -17065,10 +17049,6 @@
       "s": "Teinte actuelle"
     },
     {
-      "hash": "2072741547",
-      "s": "Saut amélioré"
-    },
-    {
       "hash": "2073145722",
       "s": "Définir les Exportations Exotiques complétées à 100"
     },
@@ -17089,16 +17069,8 @@
       "s": "Note, météo, cycle horaire et coordonnées de référence enregistrés dans le fichier"
     },
     {
-      "hash": "2075821787",
-      "s": "Balancement actif"
-    },
-    {
       "hash": "2076055608",
       "s": "Ajouter/supprimer ce joueur de votre liste d'amis fictifs"
-    },
-    {
-      "hash": "2076654277",
-      "s": "Vitesse de lancement vers le haut pour le saut amélioré"
     },
     {
       "hash": "2077916721",
@@ -20514,7 +20486,7 @@
     },
     {
       "hash": "2505636628",
-      "s": "How sharply the skateboard turns"
+      "s": "Précision du virage du skateboard"
     },
     {
       "hash": "2505702534",
@@ -20745,10 +20717,6 @@
       "s": "Créer un nouveau ciblage par foulée Règle"
     },
     {
-      "hash": "2532986676",
-      "s": "Afficher les armes récemment utilisées sur le dos et à la hanche"
-    },
-    {
       "hash": "2533169616",
       "s": "Démarrer une session de crew"
     },
@@ -20917,10 +20885,6 @@
       "s": "Hauteur de la poussée"
     },
     {
-      "hash": "2551076759",
-      "s": "Porter le pistolet le plus récemment utilisé dans un étui à droite"
-    },
-    {
       "hash": "2551252475",
       "s": "Téléportation vers l’événement"
     },
@@ -20959,10 +20923,6 @@
     {
       "hash": "2555020426",
       "s": "Force de levage - à maintenir en phase avec Horizontal"
-    },
-    {
-      "hash": "2556237449",
-      "s": "Garder le joueur assis sur le rocher central"
     },
     {
       "hash": "2557765031",
@@ -22081,10 +22041,6 @@
       "s": "Retourner votre véhicule personnel actif au stockage"
     },
     {
-      "hash": "2697781091",
-      "s": "Spider-Man"
-    },
-    {
       "hash": "2698174136",
       "s": "Conserver la collision entre les entités déplacées et le joueur"
     },
@@ -22333,10 +22289,6 @@
       "s": "Viser et gesticuler lors du lancement de pierres"
     },
     {
-      "hash": "2732407554",
-      "s": "Direction de la balançoire"
-    },
-    {
       "hash": "2732574812",
       "s": "Restaurer les valeurs"
     },
@@ -22411,10 +22363,6 @@
     {
       "hash": "2739456622",
       "s": "Force de ramassage"
-    },
-    {
-      "hash": "2739470920",
-      "s": "Utiliser un saut de Spider-Man contrôlé au lieu du super saut extrême de GTA"
     },
     {
       "hash": "2739519348",
@@ -23789,10 +23737,6 @@
       "s": "Remplacer (Verrouillé)"
     },
     {
-      "hash": "2901744465",
-      "s": "Empêcher les dégâts en étant attaché à une toile"
-    },
-    {
       "hash": "2902814435",
       "s": "Leurs balles projettent un véhicule aléatoire à l'impact"
     },
@@ -23831,6 +23775,10 @@
     {
       "hash": "2907640323",
       "s": "Cible de téléportation = votre position"
+    },
+    {
+      "hash": "2907686780",
+      "s": "Afficher la dernière arme de poing à dos ou à la hanche"
     },
     {
       "hash": "2907723265",
@@ -24395,10 +24343,6 @@
     {
       "hash": "2978638144",
       "s": "Retourner"
-    },
-    {
-      "hash": "2978919511",
-      "s": "Distance maximale pour l'ancrage d'une toile à un bâtiment"
     },
     {
       "hash": "2978936080",
@@ -26181,10 +26125,6 @@
       "s": "Énergie utilisée par seconde par le faisceau unitaire"
     },
     {
-      "hash": "3202342733",
-      "s": "Pose assise"
-    },
-    {
       "hash": "3204166062",
       "s": "Télékinésie saisir avec le curseur de la souris"
     },
@@ -26893,10 +26833,6 @@
       "s": "Récompense de réapprovisionnement"
     },
     {
-      "hash": "3296220305",
-      "s": "Temps de balancement maximal"
-    },
-    {
       "hash": "3296232868",
       "s": "Catégories de tenues"
     },
@@ -27593,10 +27529,6 @@
       "s": "Atelier de vêtements"
     },
     {
-      "hash": "3370382671",
-      "s": "Vitesse à laquelle le balancement suit la caméra"
-    },
-    {
       "hash": "3370893025",
       "s": "Contrat"
     },
@@ -28031,10 +27963,6 @@
     {
       "hash": "3418384575",
       "s": "Voler comme le Dodo de Vice City : la vitesse génère la portance"
-    },
-    {
-      "hash": "3418530384",
-      "s": "Portée des toiles"
     },
     {
       "hash": "3418777387",
@@ -29065,6 +28993,10 @@
       "s": "Échec de la lecture de la signature. Identifiant : %s    Modèle : %s    Le jeu a peut-être été mis à jour."
     },
     {
+      "hash": "3550679203",
+      "s": "Porter la dernière arme de poing à l'extérieur de la cuisse droite"
+    },
+    {
       "hash": "3551390440",
       "s": "Effets de particules"
     },
@@ -29667,10 +29599,6 @@
     {
       "hash": "3620117077",
       "s": "Script"
-    },
-    {
-      "hash": "3620140931",
-      "s": "Boost avant et vers le haut en sautant d'une toile"
     },
     {
       "hash": "3620308099",
@@ -31026,7 +30954,7 @@
     },
     {
       "hash": "3778348438",
-      "s": "Skateboard ready. Hold jump, then release to ollie."
+      "s": "Skateboard prêt. Maintenir le saut, puis relâcher pour un ollie."
     },
     {
       "hash": "3778674517",
@@ -31330,7 +31258,7 @@
     },
     {
       "hash": "3812586294",
-      "s": "The skateboard assets could not be loaded."
+      "s": "Impossible de charger les ressources du skateboard."
     },
     {
       "hash": "3813055345",
@@ -33158,7 +33086,7 @@
     },
     {
       "hash": "4015913768",
-      "s": "Ride a physics-driven skateboard with movement controls and hold jump to charge an ollie"
+      "s": "Conduire un skateboard piloté par la physique avec des commandes de mouvement et maintenir le saut pour charger un ollie"
     },
     {
       "hash": "4016340042",
@@ -33949,10 +33877,6 @@
       "s": "Haut / Bas"
     },
     {
-      "hash": "4110693041",
-      "s": "Vitesse de mouvement pendant le balancement"
-    },
-    {
       "hash": "4110717642",
       "s": "Hauteur au-dessus du sol pour flotter"
     },
@@ -34067,10 +33991,6 @@
     {
       "hash": "4122838795",
       "s": "Flotter sur l'eau"
-    },
-    {
-      "hash": "4122924428",
-      "s": "Vitesse du balancement"
     },
     {
       "hash": "4123078126",
@@ -34721,10 +34641,6 @@
       "s": "Comportement du piéton avec vous et les autres"
     },
     {
-      "hash": "4193952615",
-      "s": "Invulnérabilité en balancement"
-    },
-    {
       "hash": "4194325266",
       "s": "Immunité au feu/aux flammes uniquement"
     },
@@ -35031,10 +34947,6 @@
     {
       "hash": "4232442747",
       "s": "Multiplicateur de récompense pour cible morte = 1,0"
-    },
-    {
-      "hash": "4232934818",
-      "s": "Porter la dernière arme utilisée (fusil, fusil à pompe ou arme lourde)"
     },
     {
       "hash": "4233412320",
