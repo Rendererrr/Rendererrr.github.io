@@ -257,6 +257,10 @@
       "s": "N'installer que les fichiers conçus pour l'édition du jeu en cours ; les fichiers incompatibles peuvent le faire planter."
     },
     {
+      "hash": "33811674",
+      "s": "Maintenir le tir continu tant que les cibles sont sélectionnées"
+    },
+    {
       "hash": "34517362",
       "s": "Intervalle des répulsors"
     },
@@ -1609,6 +1613,10 @@
       "s": "Accéder à l'ordinateur portable du bunker"
     },
     {
+      "hash": "198756308",
+      "s": "Inclure le point de repère"
+    },
+    {
       "hash": "199210932",
       "s": "Toutes les portes sont fermées."
     },
@@ -1735,10 +1743,6 @@
     {
       "hash": "215600206",
       "s": "Ignorer le piratage Pacific Standard (2 écritures)"
-    },
-    {
-      "hash": "216007923",
-      "s": "Verrouiller un joueur disponible en premier."
     },
     {
       "hash": "216402562",
@@ -2905,10 +2909,6 @@
       "s": "Liste de scénarios Spooner"
     },
     {
-      "hash": "354353318",
-      "s": "Secondes entre lancements automatiques"
-    },
-    {
       "hash": "355401747",
       "s": "Objets rendus maximum"
     },
@@ -3837,6 +3837,10 @@
       "s": "Mélange"
     },
     {
+      "hash": "459251235",
+      "s": "Retirer tous les joueurs de la liste de cibles de Chernobog"
+    },
+    {
       "hash": "459641114",
       "s": "Nombre d'ennemis"
     },
@@ -4267,6 +4271,10 @@
     {
       "hash": "517384760",
       "s": "Supprimer tous les membres du groupe"
+    },
+    {
+      "hash": "518149795",
+      "s": "Cliquer pour ajouter ou supprimer cette cible de missile"
     },
     {
       "hash": "518934333",
@@ -5181,6 +5189,10 @@
       "s": "Maximisé"
     },
     {
+      "hash": "635079944",
+      "s": "Secondes entre les salves automatiques"
+    },
+    {
       "hash": "635358111",
       "s": "Supprimer tous les véhicules à proximité"
     },
@@ -5529,10 +5541,6 @@
       "s": "Déposer munitions de missiles"
     },
     {
-      "hash": "676665562",
-      "s": "Le lanceur guide déjà son nombre maximal de missiles."
-    },
-    {
       "hash": "677453730",
       "s": "Piscine presque pleine et aucun élément amovible : réduisez la taille de la carte pour éviter un plantage."
     },
@@ -5607,10 +5615,6 @@
     {
       "hash": "685128441",
       "s": "Contrôle aérien disponible"
-    },
-    {
-      "hash": "685407252",
-      "s": "Point de repère sur la carte"
     },
     {
       "hash": "686599613",
@@ -5825,10 +5829,6 @@
       "s": "Solde bancaire défini."
     },
     {
-      "hash": "710511504",
-      "s": "Taille des réacteurs de coffre compact"
-    },
-    {
       "hash": "710907375",
       "s": "Activer l'instrument de mort"
     },
@@ -5939,6 +5939,10 @@
     {
       "hash": "725204033",
       "s": "Vert clair"
+    },
+    {
+      "hash": "725517410",
+      "s": "Choisir un ou plusieurs joueurs avec des boutons d'activation"
     },
     {
       "hash": "725604108",
@@ -6119,6 +6123,10 @@
     {
       "hash": "745282181",
       "s": "Placer le vaisseau de combat dans les airs"
+    },
+    {
+      "hash": "745580849",
+      "s": "Effacer les joueurs sélectionnés"
     },
     {
       "hash": "746156273",
@@ -8705,10 +8713,6 @@
       "s": "Supprimer ce marqueur"
     },
     {
-      "hash": "1083267925",
-      "s": "Joueur sélectionné verrouillé comme cible du missile."
-    },
-    {
       "hash": "1084469818",
       "s": "Clipsets de Spooner"
     },
@@ -10285,10 +10289,6 @@
       "s": "(définir le motif)"
     },
     {
-      "hash": "1251366113",
-      "s": "Cibler le joueur actuellement ouvert dans le menu Joueurs"
-    },
-    {
       "hash": "1251707475",
       "s": "Styles de marche, port d'arme et visée"
     },
@@ -11273,10 +11273,6 @@
       "s": "Finale instantanée (Norme Pacifique)"
     },
     {
-      "hash": "1366890263",
-      "s": "Aucun joueur disponible n'est actuellement sélectionné."
-    },
-    {
       "hash": "1367813399",
       "s": "Indice de voie ferrée invalide"
     },
@@ -11975,6 +11971,10 @@
     {
       "hash": "1450873858",
       "s": "Limiter le mouvement vertical de la caméra"
+    },
+    {
+      "hash": "1450945458",
+      "s": "Lancer un missile guidé vers chaque cible sélectionnée"
     },
     {
       "hash": "1450979362",
@@ -13227,10 +13227,6 @@
     {
       "hash": "1610098740",
       "s": "PGun FXCurated"
-    },
-    {
-      "hash": "1610361034",
-      "s": "Mode de ciblage"
     },
     {
       "hash": "1610431340",
@@ -18189,6 +18185,10 @@
       "s": "Gel"
     },
     {
+      "hash": "2201146707",
+      "s": "Taille des traînées d'échappement du coffre compact"
+    },
+    {
       "hash": "2201329205",
       "s": "Fou"
     },
@@ -19423,10 +19423,6 @@
     {
       "hash": "2355079186",
       "s": "Les policiers ferment les yeux"
-    },
-    {
-      "hash": "2355329317",
-      "s": "L'inclinaison de la pose du costume droit vers le vol"
     },
     {
       "hash": "2355391398",
@@ -21177,6 +21173,10 @@
       "s": "Charger des packs de véhicules personnalisés"
     },
     {
+      "hash": "2577369054",
+      "s": "Ajouter le point de repère capturé à chaque salve de missile"
+    },
+    {
       "hash": "2577487450",
       "s": "Modèles personnalisés fictifs"
     },
@@ -22097,6 +22097,10 @@
       "s": "Déverrouiller les récompenses de l'artiste de rue et du fantôme"
     },
     {
+      "hash": "2694386029",
+      "s": "Tirer la Salve"
+    },
+    {
       "hash": "2694511857",
       "s": "Lisez une clé valide avant de modifier sa valeur"
     },
@@ -22283,6 +22287,10 @@
     {
       "hash": "2718867561",
       "s": "Renforcement"
+    },
+    {
+      "hash": "2719580024",
+      "s": "Sélectionner au moins un joueur ou inclure un point de repère capturé."
     },
     {
       "hash": "2720470817",
@@ -22751,10 +22759,6 @@
     {
       "hash": "2772419258",
       "s": "Animations"
-    },
-    {
-      "hash": "2772447668",
-      "s": "Verrouiller joueur sélectionné"
     },
     {
       "hash": "2773731905",
@@ -23997,10 +24001,6 @@
       "s": "Téléportation vers la Roue de la Fortune"
     },
     {
-      "hash": "2917420336",
-      "s": "Lancer un missile guidé vers la cible active"
-    },
-    {
       "hash": "2917881255",
       "s": "Les nouveaux objets ont une physique réaliste"
     },
@@ -24443,6 +24443,10 @@
     {
       "hash": "2972819094",
       "s": "Faux amis"
+    },
+    {
+      "hash": "2972852451",
+      "s": "Sélectionner les joueurs"
     },
     {
       "hash": "2973580873",
@@ -24935,10 +24939,6 @@
     {
       "hash": "3042240890",
       "s": "Spam"
-    },
-    {
-      "hash": "3042963610",
-      "s": "Choisir un joueur bloqué ou un point de repère cartographique capturé"
     },
     {
       "hash": "3043109800",
@@ -30813,6 +30813,10 @@
       "s": "Envoyer des animaux possédés"
     },
     {
+      "hash": "3743849250",
+      "s": "Joueurs de Chernobog"
+    },
+    {
       "hash": "3744859323",
       "s": "XMAS"
     },
@@ -30823,10 +30827,6 @@
     {
       "hash": "3747509747",
       "s": "Maintient le niveau de saleté ici"
-    },
-    {
-      "hash": "3747662788",
-      "s": "Capturer d'abord un point de repère cartographique."
     },
     {
       "hash": "3747707120",
@@ -30899,10 +30899,6 @@
     {
       "hash": "3757969021",
       "s": "Recolorier et retuner les autocollants de carburant (seul le carburant réagit)"
-    },
-    {
-      "hash": "3759235332",
-      "s": "Tirer une missile"
     },
     {
       "hash": "3760349769",
@@ -35461,6 +35457,10 @@
       "s": "Exclure les véhicules importants"
     },
     {
+      "hash": "4273592321",
+      "s": "Inclinaison maximale de la caméra pendant le vol vers l'avant"
+    },
+    {
       "hash": "4274420842",
       "s": "Social du joueur"
     },
@@ -35607,10 +35607,6 @@
     {
       "hash": "4291291447",
       "s": "Taille réduite"
-    },
-    {
-      "hash": "4291322825",
-      "s": "Continuer à lancer des missiles tant que la cible reste valide"
     },
     {
       "hash": "4291390169",

@@ -257,6 +257,10 @@
       "s": "Installieren Sie nur Dateien, die für die aktuelle Spieleversion erstellt wurden; inkompatible Dateien können Abstürze verursachen."
     },
     {
+      "hash": "33811674",
+      "s": "Salven starten, solange Ziele ausgewählt sind"
+    },
+    {
       "hash": "34517362",
       "s": "Repulsor-Intervall"
     },
@@ -1609,6 +1613,10 @@
       "s": "Springe zum Bunker-Laptop"
     },
     {
+      "hash": "198756308",
+      "s": "Wegpunkt einschließen"
+    },
+    {
       "hash": "199210932",
       "s": "Alle Türen geschlossen."
     },
@@ -1735,10 +1743,6 @@
     {
       "hash": "215600206",
       "s": "Überspringen Sie den Pacific Standard-Hack (2-Schreiben)"
-    },
-    {
-      "hash": "216007923",
-      "s": "Einen verfügbaren Player sperren."
     },
     {
       "hash": "216402562",
@@ -2905,10 +2909,6 @@
       "s": "Spooner SzenarioListe"
     },
     {
-      "hash": "354353318",
-      "s": "Sekunden zwischen automatischen Starts"
-    },
-    {
       "hash": "355401747",
       "s": "Maximale gerenderte Objekte"
     },
@@ -3837,6 +3837,10 @@
       "s": "Mischen"
     },
     {
+      "hash": "459251235",
+      "s": "Entferne jeden Spieler aus der Chernobog-Zielisten"
+    },
+    {
       "hash": "459641114",
       "s": "Gegneranzahl"
     },
@@ -4267,6 +4271,10 @@
     {
       "hash": "517384760",
       "s": "Löschen Sie jedes Gruppenmitglied"
+    },
+    {
+      "hash": "518149795",
+      "s": "Klicken zum Hinzufügen oder Entfernen dieses Raketenziels"
     },
     {
       "hash": "518934333",
@@ -5181,6 +5189,10 @@
       "s": "Maximal"
     },
     {
+      "hash": "635079944",
+      "s": "Sekunden zwischen automatischen Salven"
+    },
+    {
       "hash": "635358111",
       "s": "Entfernen Sie alle in der Nähe befindlichen Fahrzeuge"
     },
@@ -5529,10 +5541,6 @@
       "s": "Raketen Munition fallen lassen"
     },
     {
-      "hash": "676665562",
-      "s": "Der Launcher steuert bereits seine maximale Anzahl an Raketen."
-    },
-    {
       "hash": "677453730",
       "s": "Der Pool ist fast voll und nichts abnehmbar – verkleinern Sie die Karte, um einen Absturz zu vermeiden."
     },
@@ -5607,10 +5615,6 @@
     {
       "hash": "685128441",
       "s": "Hat Air Control"
-    },
-    {
-      "hash": "685407252",
-      "s": "Karte Wegpunkt"
     },
     {
       "hash": "686599613",
@@ -5825,10 +5829,6 @@
       "s": "Bankguthaben eingestellt."
     },
     {
-      "hash": "710511504",
-      "s": "Größe der kompakten Starttriebwerke"
-    },
-    {
       "hash": "710907375",
       "s": "Aktivieren Sie Instrument des Todes"
     },
@@ -5939,6 +5939,10 @@
     {
       "hash": "725204033",
       "s": "Hellgrün"
+    },
+    {
+      "hash": "725517410",
+      "s": "Wähle einen oder mehrere Spieler mit Kästchen aus"
     },
     {
       "hash": "725604108",
@@ -6119,6 +6123,10 @@
     {
       "hash": "745282181",
       "s": "Platzieren Sie das Kampfhubschrauber in der Luft über Ihnen"
+    },
+    {
+      "hash": "745580849",
+      "s": "Ausgewählte Spieler löschen"
     },
     {
       "hash": "746156273",
@@ -8705,10 +8713,6 @@
       "s": "Diese Markierung löschen"
     },
     {
-      "hash": "1083267925",
-      "s": "Ausgewählter Player als Raketenziel gesperrt."
-    },
-    {
       "hash": "1084469818",
       "s": "Spooner Clipsets"
     },
@@ -10285,10 +10289,6 @@
       "s": "(Muster festlegen)"
     },
     {
-      "hash": "1251366113",
-      "s": "Spieler anvisieren, der aktuell im Players-Menü geöffnet ist"
-    },
-    {
       "hash": "1251707475",
       "s": "Geh-, Waffen-Trage- und Zielstile"
     },
@@ -11273,10 +11273,6 @@
       "s": "Sofortiges Finish (Pazifischer Standard)"
     },
     {
-      "hash": "1366890263",
-      "s": "Es ist kein verfügbarer Player ausgewählt."
-    },
-    {
       "hash": "1367813399",
       "s": "Ungültiger Gleisindex"
     },
@@ -11975,6 +11971,10 @@
     {
       "hash": "1450873858",
       "s": "Begrenzung der vertikalen Kamerabewegung"
+    },
+    {
+      "hash": "1450945458",
+      "s": "Eine gelenkte Rakete auf jedes ausgewählte Ziel starten"
     },
     {
       "hash": "1450979362",
@@ -13227,10 +13227,6 @@
     {
       "hash": "1610098740",
       "s": "PGun FXCurated"
-    },
-    {
-      "hash": "1610361034",
-      "s": "Zielmodus"
     },
     {
       "hash": "1610431340",
@@ -18189,6 +18185,10 @@
       "s": "Einfrieren"
     },
     {
+      "hash": "2201146707",
+      "s": "Größe der kompakten Auspuffspuren"
+    },
+    {
       "hash": "2201329205",
       "s": "Wahnsinnig"
     },
@@ -19423,10 +19423,6 @@
     {
       "hash": "2355079186",
       "s": "Polizei schließt die Augen"
-    },
-    {
-      "hash": "2355329317",
-      "s": "Wie weit der Anzug in den Flug geneigt ist"
     },
     {
       "hash": "2355391398",
@@ -21177,6 +21173,10 @@
       "s": "Laden Sie benutzerdefinierte Add-on-Fahrzeugpakete"
     },
     {
+      "hash": "2577369054",
+      "s": "Füge den eroberten Kartewegpunkt jeder RaketenSalve hinzu"
+    },
+    {
       "hash": "2577487450",
       "s": "Benutzerdefinierte Modelle fälschen"
     },
@@ -22097,6 +22097,10 @@
       "s": "Street Artist & Ghost Belohnungen freischalten"
     },
     {
+      "hash": "2694386029",
+      "s": "Salve abfeuern"
+    },
+    {
       "hash": "2694511857",
       "s": "Lesen Sie einen gültigen Schlüssel, bevor Sie seinen Wert ändern"
     },
@@ -22283,6 +22287,10 @@
     {
       "hash": "2718867561",
       "s": "Gegenkraft"
+    },
+    {
+      "hash": "2719580024",
+      "s": "Wähle mindestens einen Spieler oder schließe einen eroberten Wegpunkt ein."
     },
     {
       "hash": "2720470817",
@@ -22751,10 +22759,6 @@
     {
       "hash": "2772419258",
       "s": "Animationen"
-    },
-    {
-      "hash": "2772447668",
-      "s": "Ausgewählten Player sperren"
     },
     {
       "hash": "2773731905",
@@ -23997,10 +24001,6 @@
       "s": "Teleportiere dich zum Glücksrad"
     },
     {
-      "hash": "2917420336",
-      "s": "Starten Sie eine Lenkwaffe auf das aktive Ziel"
-    },
-    {
       "hash": "2917881255",
       "s": "Neue Objekte haben Physik"
     },
@@ -24443,6 +24443,10 @@
     {
       "hash": "2972819094",
       "s": "Falsche Freunde"
+    },
+    {
+      "hash": "2972852451",
+      "s": "Spieler auswählen"
     },
     {
       "hash": "2973580873",
@@ -24935,10 +24939,6 @@
     {
       "hash": "3042240890",
       "s": "Spam"
-    },
-    {
-      "hash": "3042963610",
-      "s": "Wähle einen gesperrten Player oder einen erfassten Kartenwegpunkt"
     },
     {
       "hash": "3043109800",
@@ -30813,6 +30813,10 @@
       "s": "Besessene Tiere aussenden"
     },
     {
+      "hash": "3743849250",
+      "s": "Chernobog-Spieler"
+    },
+    {
       "hash": "3744859323",
       "s": "XMAS"
     },
@@ -30823,10 +30827,6 @@
     {
       "hash": "3747509747",
       "s": "Halten Sie den Verschmutzungsgrad hier"
-    },
-    {
-      "hash": "3747662788",
-      "s": "Erfasse zuerst einen Kartenwegpunkt."
     },
     {
       "hash": "3747707120",
@@ -30899,10 +30899,6 @@
     {
       "hash": "3757969021",
       "s": "Farben und Töne von Benzinaufklebern ändern (nur Benzin reagiert)"
-    },
-    {
-      "hash": "3759235332",
-      "s": "Rakete abfeuern"
     },
     {
       "hash": "3760349769",
@@ -35461,6 +35457,10 @@
       "s": "Wichtige Fahrzeuge ausschließen"
     },
     {
+      "hash": "4273592321",
+      "s": "Maximaler Kameranagel während des Vorwärtsfluges"
+    },
+    {
       "hash": "4274420842",
       "s": "Spieler-Soziales"
     },
@@ -35607,10 +35607,6 @@
     {
       "hash": "4291291447",
       "s": "Ist kurz (klein)"
-    },
-    {
-      "hash": "4291322825",
-      "s": "Raketen weiter abfeuern, solange das Ziel gültig bleibt"
     },
     {
       "hash": "4291390169",

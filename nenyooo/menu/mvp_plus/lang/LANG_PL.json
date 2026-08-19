@@ -257,6 +257,10 @@
       "s": "Instaluj tylko pliki przeznaczone dla aktualnej wersji gry; niezgodne pliki mogą spowodować awarię."
     },
     {
+      "hash": "33811674",
+      "s": "Utrzymuj ostrzał, dopóki cele są zaznaczone"
+    },
+    {
       "hash": "34517362",
       "s": "Interwał repulsorów"
     },
@@ -1609,6 +1613,10 @@
       "s": "Skocz do laptopa w bunkrze"
     },
     {
+      "hash": "198756308",
+      "s": "Dodaj punkt orientacyjny"
+    },
+    {
       "hash": "199210932",
       "s": "Wszystkie drzwi zamknięte."
     },
@@ -1735,10 +1743,6 @@
     {
       "hash": "215600206",
       "s": "Pomiń hack Pacific Standard (2-write)"
-    },
-    {
-      "hash": "216007923",
-      "s": "Zablokuj dostępnego gracza jako pierwszego."
     },
     {
       "hash": "216402562",
@@ -2905,10 +2909,6 @@
       "s": "Lista scenariuszy Spoonera"
     },
     {
-      "hash": "354353318",
-      "s": "Sekundy między automatycznymi startami"
-    },
-    {
       "hash": "355401747",
       "s": "Maksymalna liczba renderowanych obiektów"
     },
@@ -3837,6 +3837,10 @@
       "s": "Mieszanka"
     },
     {
+      "hash": "459251235",
+      "s": "Usuń każdego gracza z listy celów Czarnoboga"
+    },
+    {
       "hash": "459641114",
       "s": "Liczba wrogów"
     },
@@ -4267,6 +4271,10 @@
     {
       "hash": "517384760",
       "s": "Usuń każdego członka grupy"
+    },
+    {
+      "hash": "518149795",
+      "s": "Kliknij, aby dodać lub usunąć ten cel pocisku"
     },
     {
       "hash": "518934333",
@@ -5181,6 +5189,10 @@
       "s": "Maksymalny"
     },
     {
+      "hash": "635079944",
+      "s": "Sekundy między automatycznym ostrzałem"
+    },
+    {
       "hash": "635358111",
       "s": "Usuń wszystkie pobliskie pojazdy"
     },
@@ -5529,10 +5541,6 @@
       "s": "Upuść amunicję rakietową"
     },
     {
-      "hash": "676665562",
-      "s": "Launcher już prowadzi maksymalną liczbę rakiet."
-    },
-    {
       "hash": "677453730",
       "s": "Basen prawie pełny i nic nie da się usunąć – zmniejsz mapę, aby uniknąć wypadku."
     },
@@ -5607,10 +5615,6 @@
     {
       "hash": "685128441",
       "s": "Posiada sterowanie w powietrzu"
-    },
-    {
-      "hash": "685407252",
-      "s": "Punkt na mapie"
     },
     {
       "hash": "686599613",
@@ -5825,10 +5829,6 @@
       "s": "Ustawiono saldo bankowe."
     },
     {
-      "hash": "710511504",
-      "s": "Rozmiar kompaktowych dysz startowych"
-    },
-    {
       "hash": "710907375",
       "s": "Włącz narzędzie śmierci"
     },
@@ -5939,6 +5939,10 @@
     {
       "hash": "725204033",
       "s": "Jasnozielony"
+    },
+    {
+      "hash": "725517410",
+      "s": "Wybierz jednego lub więcej graczy za pomocą przycisków wyboru"
     },
     {
       "hash": "725604108",
@@ -6119,6 +6123,10 @@
     {
       "hash": "745282181",
       "s": "Unieś śmigłowiec bojowy w powietrze nad sobą"
+    },
+    {
+      "hash": "745580849",
+      "s": "Wyczyść zaznaczonych graczy"
     },
     {
       "hash": "746156273",
@@ -8705,10 +8713,6 @@
       "s": "Usuń ten znacznik"
     },
     {
-      "hash": "1083267925",
-      "s": "Wybrany gracz zablokowany jako cel rakiety."
-    },
-    {
       "hash": "1084469818",
       "s": "Zestawy klipów Spoonera"
     },
@@ -10285,10 +10289,6 @@
       "s": "(ustaw wzór)"
     },
     {
-      "hash": "1251366113",
-      "s": "Celuj w gracza aktualnie otwartego w menu Gracze"
-    },
-    {
       "hash": "1251707475",
       "s": "Style chodzenia, noszenia broni i celowania"
     },
@@ -11273,10 +11273,6 @@
       "s": "Natychmiastowe zakończenie (Pacific Standard)"
     },
     {
-      "hash": "1366890263",
-      "s": "Brak aktualnie wybranego dostępnego gracza."
-    },
-    {
       "hash": "1367813399",
       "s": "Nieprawidłowy indeks toru kolejowego"
     },
@@ -11975,6 +11971,10 @@
     {
       "hash": "1450873858",
       "s": "Ogranicz ruch kamery w pionie"
+    },
+    {
+      "hash": "1450945458",
+      "s": "Wystrzel rakietę kierowaną w każdy zaznaczony cel"
     },
     {
       "hash": "1450979362",
@@ -13227,10 +13227,6 @@
     {
       "hash": "1610098740",
       "s": "PGun FXCurated"
-    },
-    {
-      "hash": "1610361034",
-      "s": "Tryb celowania"
     },
     {
       "hash": "1610431340",
@@ -18189,6 +18185,10 @@
       "s": "Zamrożenie"
     },
     {
+      "hash": "2201146707",
+      "s": "Rozmiar śladów wydechu z bagażnika"
+    },
+    {
       "hash": "2201329205",
       "s": "Szalony"
     },
@@ -19423,10 +19423,6 @@
     {
       "hash": "2355079186",
       "s": "Policja zamyka oczy"
-    },
-    {
-      "hash": "2355329317",
-      "s": "Jak daleko kombinezon pochyla się do lotu"
     },
     {
       "hash": "2355391398",
@@ -21177,6 +21173,10 @@
       "s": "Wczytuj niestandardowe pakiety pojazdów DLC"
     },
     {
+      "hash": "2577369054",
+      "s": "Dodaj przechwycony punkt orientacyjny na mapie do każdego ostrzału rakietami"
+    },
+    {
       "hash": "2577487450",
       "s": "Patchowanie niestandardowych modeli"
     },
@@ -22097,6 +22097,10 @@
       "s": "Odblokuj nagrody Street Artist & Ghost"
     },
     {
+      "hash": "2694386029",
+      "s": "Ogień Salwa"
+    },
+    {
       "hash": "2694511857",
       "s": "Odczytaj ważny klucz przed zmianą jego wartości"
     },
@@ -22283,6 +22287,10 @@
     {
       "hash": "2718867561",
       "s": "Siła odbicia"
+    },
+    {
+      "hash": "2719580024",
+      "s": "Wybierz co najmniej jednego gracza lub dodaj przechwycony punkt orientacyjny."
     },
     {
       "hash": "2720470817",
@@ -22751,10 +22759,6 @@
     {
       "hash": "2772419258",
       "s": "Animacje"
-    },
-    {
-      "hash": "2772447668",
-      "s": "Zablokuj wybranego gracza"
     },
     {
       "hash": "2773731905",
@@ -23997,10 +24001,6 @@
       "s": "Teleport do Koła Fortuny"
     },
     {
-      "hash": "2917420336",
-      "s": "Wystrzel jeden pocisk kierowany na aktywny cel"
-    },
-    {
       "hash": "2917881255",
       "s": "Nowe obiekty mają fizykę"
     },
@@ -24443,6 +24443,10 @@
     {
       "hash": "2972819094",
       "s": "Fałszywi przyjaciele"
+    },
+    {
+      "hash": "2972852451",
+      "s": "Wybierz graczy"
     },
     {
       "hash": "2973580873",
@@ -24935,10 +24939,6 @@
     {
       "hash": "3042240890",
       "s": "Spam"
-    },
-    {
-      "hash": "3042963610",
-      "s": "Wybierz zablokowanego gracza lub uchwycony punkt na mapie"
     },
     {
       "hash": "3043109800",
@@ -30813,6 +30813,10 @@
       "s": "Wyślij Opętane Zwierzęta"
     },
     {
+      "hash": "3743849250",
+      "s": "Gracze Czarnoboga"
+    },
+    {
       "hash": "3744859323",
       "s": "XMAS"
     },
@@ -30823,10 +30827,6 @@
     {
       "hash": "3747509747",
       "s": "| Utrzymuj poziom brudu tutaj"
-    },
-    {
-      "hash": "3747662788",
-      "s": "Najpierw uchwyć punkt na mapie."
     },
     {
       "hash": "3747707120",
@@ -30899,10 +30899,6 @@
     {
       "hash": "3757969021",
       "s": "Kolorowanie i strojenie naklejek benzynowych (reagują tylko benzynowe)"
-    },
-    {
-      "hash": "3759235332",
-      "s": "Wystrzel rakietę"
     },
     {
       "hash": "3760349769",
@@ -35461,6 +35457,10 @@
       "s": "Wyklucz Ważne pojazdy"
     },
     {
+      "hash": "4273592321",
+      "s": "Maksymalny kąt nachylenia kamery podczas lotu do przodu"
+    },
+    {
       "hash": "4274420842",
       "s": "Interakcje gracza"
     },
@@ -35607,10 +35607,6 @@
     {
       "hash": "4291291447",
       "s": "Niski wzrost (mały)"
-    },
-    {
-      "hash": "4291322825",
-      "s": "Kontynuuj wystrzeliwanie rakiet, dopóki cel jest ważny"
     },
     {
       "hash": "4291390169",
