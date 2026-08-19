@@ -269,6 +269,10 @@
       "s": "Récompenses de récupération"
     },
     {
+      "hash": "35550981",
+      "s": "Utiliser la boule de feu ratée à la place d'une petite fissure"
+    },
+    {
       "hash": "35618707",
       "s": "Unité Chernobog"
     },
@@ -1939,6 +1943,10 @@
     {
       "hash": "238022961",
       "s": "Buzzard"
+    },
+    {
+      "hash": "238607783",
+      "s": "Fait exploser chaque véhicule dans ce rayon"
     },
     {
       "hash": "238840602",
@@ -5161,6 +5169,10 @@
       "s": "Ignorer les amis"
     },
     {
+      "hash": "625710455",
+      "s": "Flamme plus grande"
+    },
+    {
       "hash": "625823437",
       "s": "Dessiner uniquement les N props/objets les plus proches (props lâches uniquement, pas les bâtiments)"
     },
@@ -5195,6 +5207,10 @@
     {
       "hash": "628527914",
       "s": "Couleur du voyant d'ouverture de porte"
+    },
+    {
+      "hash": "630446917",
+      "s": "Flamme constante des échappements -- le moteur cale"
     },
     {
       "hash": "630697435",
@@ -5247,6 +5263,10 @@
     {
       "hash": "635779862",
       "s": "Sauvegarder ou charger les cartes Spooner"
+    },
+    {
+      "hash": "635996289",
+      "s": "Flamme continue"
     },
     {
       "hash": "636220127",
@@ -6163,10 +6183,6 @@
     {
       "hash": "745580849",
       "s": "Effacer les joueurs sélectionnés"
-    },
-    {
-      "hash": "745814906",
-      "s": "Arrière-plan sombre pour une meilleure lisibilité sur terrain clair"
     },
     {
       "hash": "746156273",
@@ -7643,6 +7659,10 @@
     {
       "hash": "947376424",
       "s": "Aucun véhicule sélectionné"
+    },
+    {
+      "hash": "947550073",
+      "s": "Véhicules à proximité"
     },
     {
       "hash": "947720360",
@@ -9577,6 +9597,10 @@
       "s": "Passer Glissement"
     },
     {
+      "hash": "1166902651",
+      "s": "Taux d'explosion"
+    },
+    {
       "hash": "1167075036",
       "s": "Déposer le paquet de secours"
     },
@@ -10829,6 +10853,10 @@
       "s": "Sélectionner une ou plusieurs entités à faire apparaître (sélection multiple)"
     },
     {
+      "hash": "1310854020",
+      "s": "Forcer sur tous les modèles"
+    },
+    {
       "hash": "1310947773",
       "s": "Limiter le Yaw"
     },
@@ -11579,6 +11607,10 @@
     {
       "hash": "1399730823",
       "s": "Forcer, accélérer et manipuler l'horloge"
+    },
+    {
+      "hash": "1400352799",
+      "s": "Forcer les explosions des échappements, quel que soit le réglage ou la conduite"
     },
     {
       "hash": "1400961320",
@@ -17513,6 +17545,10 @@
       "s": "Hantiser le joueur"
     },
     {
+      "hash": "2101267522",
+      "s": "Explosions par seconde"
+    },
+    {
       "hash": "2101300621",
       "s": "La protection des données de synchronisation n'est pas disponible pour cette version du jeu"
     },
@@ -18435,6 +18471,10 @@
     {
       "hash": "2214286229",
       "s": "Classique (Appartement)"
+    },
+    {
+      "hash": "2215839222",
+      "s": "Forcer les retours de flamme, les flammes et les bruits d'échappement des échappements"
     },
     {
       "hash": "2215899994",
@@ -22541,6 +22581,10 @@
       "s": "Degrés de rotation par tick"
     },
     {
+      "hash": "2728151940",
+      "s": "Contour sombre pour que l'affichage reste lisible sur un sol clair"
+    },
+    {
       "hash": "2729207224",
       "s": "Prise potentielle du casino : Espèces"
     },
@@ -23657,6 +23701,10 @@
       "s": "Attacher l'entité sélectionnée à celle-ci"
     },
     {
+      "hash": "2857989250",
+      "s": "Annuler tous les changements d'effets de modèle effectués ci-dessus"
+    },
+    {
       "hash": "2858027179",
       "s": "Voyant du tableau de bord"
     },
@@ -23773,8 +23821,16 @@
       "s": "Gauche/Droite pour modifier ; Entrée pour saisir une valeur"
     },
     {
+      "hash": "2872762396",
+      "s": "Restaurer les effets des véhicules"
+    },
+    {
       "hash": "2873238118",
       "s": "Armes de style super-pouvoir"
+    },
+    {
+      "hash": "2873805656",
+      "s": "Activer les retours de flamme sur les véhicules qui n'en ont pas à l'origine"
     },
     {
       "hash": "2873900054",
@@ -24379,6 +24435,10 @@
     {
       "hash": "2942347637",
       "s": "Freinage aux obstacles"
+    },
+    {
+      "hash": "2942348825",
+      "s": "Jusqu'à quelle distance les explosions sont toujours rendues"
     },
     {
       "hash": "2942445150",
@@ -26549,6 +26609,10 @@
       "s": "Ajouter/retirer cette entité du groupe"
     },
     {
+      "hash": "3216864479",
+      "s": "Jouer le son"
+    },
+    {
       "hash": "3217357986",
       "s": "Drapeau d'attachement au piéton"
     },
@@ -26801,6 +26865,10 @@
       "s": "Jato Boost"
     },
     {
+      "hash": "3250990887",
+      "s": "Grande explosion"
+    },
+    {
       "hash": "3252881859",
       "s": "Bien immobilier"
     },
@@ -26903,6 +26971,10 @@
     {
       "hash": "3265490171",
       "s": "Démarrer le travail VIP Executive Search authentique"
+    },
+    {
+      "hash": "3265656011",
+      "s": "Jouer le bruit de retour de flamme à chaque explosion"
     },
     {
       "hash": "3265966716",
@@ -28301,6 +28373,10 @@
       "s": "Secouer la caméra"
     },
     {
+      "hash": "3419719704",
+      "s": "Explosions des échappements"
+    },
+    {
       "hash": "3420092380",
       "s": "Paramètres non résolus"
     },
@@ -29689,10 +29765,6 @@
       "s": "Démarrer le travail VIP Headhunter authentique"
     },
     {
-      "hash": "3597168790",
-      "s": "Chernobogs déployés"
-    },
-    {
       "hash": "3597218446",
       "s": "Entrez d'abord un nom de tenue"
     },
@@ -29999,6 +30071,10 @@
     {
       "hash": "3628984576",
       "s": "Chargement… réessayez dans un instant"
+    },
+    {
+      "hash": "3629412022",
+      "s": "Échanger l'effet de retour de flamme contre la flamme de raté du modèle"
     },
     {
       "hash": "3629707558",
@@ -33885,6 +33961,10 @@
       "s": "Primaire / secondaire / perle / roue / intérieur / tableau de bord"
     },
     {
+      "hash": "4064322849",
+      "s": "Distance d'affichage"
+    },
+    {
       "hash": "4064421271",
       "s": "Mini-jeux de combat"
     },
@@ -34403,10 +34483,6 @@
     {
       "hash": "4126057955",
       "s": "Effectif"
-    },
-    {
-      "hash": "4126101986",
-      "s": "Le point de repère cartographique n'a pas pu être lu."
     },
     {
       "hash": "4126134065",
