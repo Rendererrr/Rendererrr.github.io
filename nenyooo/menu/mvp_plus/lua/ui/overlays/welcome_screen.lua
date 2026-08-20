@@ -1,7 +1,7 @@
 
 -- First-run onboarding wizard. Full-screen, shown once, and while it is up NOTHING else draws --
 -- the renderer suppresses the theme menu, feature HUDs, Spooner, Stand and every other overlay
--- (only the cursor overlay is kept), and block_input.lua locks out all game controls.
+-- (only the cursor overlay is kept), and input_lock (C++) locks out all game controls.
 --
 -- The state machine lives in C++ (src/widgets/welcome.*) and is exposed through `welcome`
 -- (src/lua/lua_welcome.cpp). This file owns nothing but the look -- edit it freely, you cannot
