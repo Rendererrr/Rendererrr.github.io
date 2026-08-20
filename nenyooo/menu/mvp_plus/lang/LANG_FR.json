@@ -81,10 +81,6 @@
       "s": "Déclencher la transition enlèvement OVNI pour ce joueur ; ses protections peuvent l'empêcher."
     },
     {
-      "hash": "11086923",
-      "s": "Viser le porteur et appuyer sur Attaque pour ordonner une salve complète"
-    },
-    {
       "hash": "12319773",
       "s": "Choisissez un personnage."
     },
@@ -319,6 +315,10 @@
     {
       "hash": "39801576",
       "s": "Verrouillé pour le joueur"
+    },
+    {
+      "hash": "40113462",
+      "s": "Faire exploser les véhicules ou Peds touchés au lieu de rester à l'endroit de l'impact"
     },
     {
       "hash": "41479353",
@@ -663,6 +663,10 @@
     {
       "hash": "80846921",
       "s": "Sauvegarde sur disque"
+    },
+    {
+      "hash": "81469776",
+      "s": "Se déplacer sur le pont d'atterrissage avec les commandes de marche normales"
     },
     {
       "hash": "82027493",
@@ -1309,6 +1313,10 @@
       "s": "Vous devez être dans un véhicule pour sauvegarder"
     },
     {
+      "hash": "153031973",
+      "s": "Combat de Dragon Mécanique"
+    },
+    {
       "hash": "153678580",
       "s": "Ragdoll à l'impact (force)"
     },
@@ -1335,6 +1343,10 @@
     {
       "hash": "155741080",
       "s": "Compléter toutes les préparations de l'Agence"
+    },
+    {
+      "hash": "155838125",
+      "s": "Marche, décollage, vol, boost et atterrissage assisté"
     },
     {
       "hash": "155996319",
@@ -1645,6 +1657,10 @@
       "s": "Intensité des vagues d'eau"
     },
     {
+      "hash": "196850637",
+      "s": "Restaurer le joueur et supprimer complètement le dragon"
+    },
+    {
       "hash": "196873670",
       "s": "Explosé"
     },
@@ -1659,6 +1675,10 @@
     {
       "hash": "198012929",
       "s": "Distance de la formation relâchée"
+    },
+    {
+      "hash": "198680354",
+      "s": "Distance de la caméra de poursuite derrière le dragon"
     },
     {
       "hash": "198746285",
@@ -1893,6 +1913,10 @@
       "s": "Mode Tennis"
     },
     {
+      "hash": "224175317",
+      "s": "HUD du Dragon"
+    },
+    {
       "hash": "225712757",
       "s": "Tentative de déconnexion envoyée."
     },
@@ -1941,6 +1965,10 @@
       "s": "Frappe aérienne par Merryweather"
     },
     {
+      "hash": "232801520",
+      "s": "Suivre continuellement votre Ped ou véhicule actuel"
+    },
+    {
       "hash": "234666593",
       "s": "Zone du corps à viser"
     },
@@ -1959,6 +1987,10 @@
     {
       "hash": "236665793",
       "s": "Vitesse d'alignement"
+    },
+    {
+      "hash": "237009753",
+      "s": "Vitesse de montée et de descente"
     },
     {
       "hash": "237274530",
@@ -2141,6 +2173,10 @@
       "s": "Blanc usé"
     },
     {
+      "hash": "255832497",
+      "s": "Quitter votre véhicule avant d'embarquer sur le pont de vol"
+    },
+    {
       "hash": "256039995",
       "s": "Compléter un circuit de point de contrôle de rue"
     },
@@ -2267,10 +2303,6 @@
     {
       "hash": "265121477",
       "s": "Forcer la première personne"
-    },
-    {
-      "hash": "265863011",
-      "s": "Activer les deux batteries de missiles guidés"
     },
     {
       "hash": "266037983",
@@ -2527,6 +2559,10 @@
     {
       "hash": "291290724",
       "s": "Nom persistant dans le jeu pour cet emplacement (15 caractères maximum)"
+    },
+    {
+      "hash": "291952236",
+      "s": "Les véhicules retenus dans le déflecteur de flammes prennent feu et explosent"
     },
     {
       "hash": "292597354",
@@ -2837,6 +2873,10 @@
       "s": "Traînée des roquettes lancées (RPG / à tête chercheuse / 40 mm / feu d'artifice)"
     },
     {
+      "hash": "331967817",
+      "s": "Déclenchement des véhicules"
+    },
+    {
       "hash": "332121276",
       "s": "Taper un surnom, appuyer sur Entrée pour envoyer une demande"
     },
@@ -2851,6 +2891,10 @@
     {
       "hash": "332852406",
       "s": "Recolor des feux de circulation + distances d'estompement"
+    },
+    {
+      "hash": "332986250",
+      "s": "Portée des flammes, dégâts, chaleur et feux au sol"
     },
     {
       "hash": "333893771",
@@ -3337,10 +3381,6 @@
       "s": "Demander le SuperVolito SecuroServ"
     },
     {
-      "hash": "390463301",
-      "s": "Réinitialiser les os"
-    },
-    {
       "hash": "392831281",
       "s": "Fragments"
     },
@@ -3351,6 +3391,10 @@
     {
       "hash": "393386951",
       "s": "Faire tourner le marqueur"
+    },
+    {
+      "hash": "394167889",
+      "s": "Portée de la défense"
     },
     {
       "hash": "394574770",
@@ -3809,6 +3853,10 @@
       "s": "Des avions de chasse hostiles vous traquent"
     },
     {
+      "hash": "447155102",
+      "s": "Réactivité de la rotation"
+    },
+    {
       "hash": "447171916",
       "s": "Afficher la santé de chaque joueur"
     },
@@ -4061,6 +4109,10 @@
       "s": "Crash de mission véhicule"
     },
     {
+      "hash": "472540120",
+      "s": "Permettre aux attaques du dragon d'affecter les joueurs en réseau"
+    },
+    {
       "hash": "472582273",
       "s": "Échanger la catégorie d'arme"
     },
@@ -4079,6 +4131,10 @@
     {
       "hash": "474547304",
       "s": "Cuillère"
+    },
+    {
+      "hash": "474884971",
+      "s": "Atterrir automatiquement lors de la descente près du terrain"
     },
     {
       "hash": "474899168",
@@ -4119,6 +4175,10 @@
     {
       "hash": "479097787",
       "s": "Éteindre tous les éclairages urbains artificiels"
+    },
+    {
+      "hash": "479126616",
+      "s": "Orbite autour de moi"
     },
     {
       "hash": "479461097",
@@ -4165,6 +4225,10 @@
       "s": "Vitesse d'oscillation"
     },
     {
+      "hash": "487309068",
+      "s": "Apparence & Caméra"
+    },
+    {
       "hash": "489355311",
       "s": "Demander le Havok SecuroServ"
     },
@@ -4195,6 +4259,10 @@
     {
       "hash": "492471215",
       "s": "Débloquer toutes les récompenses Kortz et 2026 prises en charge"
+    },
+    {
+      "hash": "493323910",
+      "s": "Heat damage burned into an empty vehicle's engine, fuel tank and panels on each pulse"
     },
     {
       "hash": "494009065",
@@ -4821,6 +4889,10 @@
       "s": "Supprimer le remplacement facial"
     },
     {
+      "hash": "573939964",
+      "s": "Monter, devenir ou commander une machine articulée qui crache du feu"
+    },
+    {
       "hash": "575078580",
       "s": "Erreurs de transaction, écrans de chargement, messages et actions intérieures"
     },
@@ -5209,6 +5281,10 @@
       "s": "Point de téléportation utilisé pendant le chargement"
     },
     {
+      "hash": "620461048",
+      "s": "Multiplicateur de vitesse au sol en maintenant Sprint"
+    },
+    {
       "hash": "620694577",
       "s": "Balayage arc-en-ciel : changement de fréquence par étape (Plus haut = plus rapide)"
     },
@@ -5417,10 +5493,6 @@
       "s": "Les PNJ à proximité attaquent ce joueur"
     },
     {
-      "hash": "640522992",
-      "s": "Porteur de guerre déployé en lévitation désarmée."
-    },
-    {
       "hash": "641308795",
       "s": "Cloner, réparer, améliorer, faire pivoter, tracter, endommager ou supprimer leur véhicule"
     },
@@ -5439,6 +5511,10 @@
     {
       "hash": "643576846",
       "s": "Tirer à répétition sur les joueurs sélectionnés"
+    },
+    {
+      "hash": "643766095",
+      "s": "Chaleur maximale avant que le souffle de feu ne doive refroidir"
     },
     {
       "hash": "645025303",
@@ -5537,6 +5613,10 @@
       "s": "Entrepôt du PDG réapprovisionné"
     },
     {
+      "hash": "658587872",
+      "s": "Laisser des incendies de courte durée à la fin du jet de flammes"
+    },
+    {
       "hash": "658600497",
       "s": "Hauteur de rebond des accessoires"
     },
@@ -5613,6 +5693,10 @@
       "s": "Distance de la caméra d'hélice orbitale"
     },
     {
+      "hash": "666466572",
+      "s": "Arrêter et maintenir"
+    },
+    {
       "hash": "666614982",
       "s": "Sac d'argent"
     },
@@ -5627,6 +5711,10 @@
     {
       "hash": "668052616",
       "s": "Arrêtez de modifier l'affichage des nuages ; suivez à nouveau les conditions météorologiques."
+    },
+    {
+      "hash": "668113989",
+      "s": "Lueur du réacteur"
     },
     {
       "hash": "668210904",
@@ -5857,6 +5945,10 @@
       "s": "Activer le pistolet Force personnalisé"
     },
     {
+      "hash": "692647682",
+      "s": "Puissance de morsure"
+    },
+    {
       "hash": "693046077",
       "s": "Hantise du joueur"
     },
@@ -6045,6 +6137,10 @@
       "s": "Mode Suppression"
     },
     {
+      "hash": "714515739",
+      "s": "Aller au point de repère de la carte"
+    },
+    {
       "hash": "714917219",
       "s": "Extraire la source"
     },
@@ -6121,6 +6217,10 @@
       "s": "Pneus personnalisés"
     },
     {
+      "hash": "724841767",
+      "s": "Capacité thermique"
+    },
+    {
       "hash": "725204033",
       "s": "Vert clair"
     },
@@ -6159,6 +6259,10 @@
     {
       "hash": "727992664",
       "s": "Prix de la boîte de nuit maximisé"
+    },
+    {
+      "hash": "728040379",
+      "s": "Feu de dragon mécanique"
     },
     {
       "hash": "728089507",
@@ -6469,6 +6573,10 @@
       "s": "Réduire le Péd du joueur"
     },
     {
+      "hash": "764389182",
+      "s": "Pont de vol de la passerelle"
+    },
+    {
       "hash": "764403355",
       "s": "Homme"
     },
@@ -6499,10 +6607,6 @@
     {
       "hash": "767337409",
       "s": "Support Associé"
-    },
-    {
-      "hash": "767696632",
-      "s": "Bras supérieurs jusqu'aux mains"
     },
     {
       "hash": "767821349",
@@ -6885,6 +6989,10 @@
       "s": "Maison de cache"
     },
     {
+      "hash": "816402569",
+      "s": "Dégâts par flamme"
+    },
+    {
       "hash": "816505789",
       "s": "Sièges"
     },
@@ -6991,6 +7099,10 @@
     {
       "hash": "828184855",
       "s": "Synchronisation Clone Invalide"
+    },
+    {
+      "hash": "828476323",
+      "s": "Monter sur le dragon"
     },
     {
       "hash": "829198920",
@@ -7285,6 +7397,10 @@
       "s": "Sélectionner et demander un aéronef personnel"
     },
     {
+      "hash": "870021279",
+      "s": "Multiplicateur de course"
+    },
+    {
       "hash": "870475738",
       "s": "Millisecondes avant suppression d'une missile"
     },
@@ -7371,6 +7487,10 @@
     {
       "hash": "880192092",
       "s": "Options appliquées aux véhicules générés"
+    },
+    {
+      "hash": "880679816",
+      "s": "Caméra de batterie inférieure active."
     },
     {
       "hash": "880857038",
@@ -7941,6 +8061,10 @@
       "s": "Téléporte leur véhicule vers vous"
     },
     {
+      "hash": "960635370",
+      "s": "Maintenir la position lorsqu'aucune entrée de vol n'est pressée"
+    },
+    {
       "hash": "961434976",
       "s": "Parachutes illimités"
     },
@@ -8047,6 +8171,10 @@
     {
       "hash": "975536950",
       "s": "Téléporter ce joueur vers un autre joueur"
+    },
+    {
+      "hash": "975589404",
+      "s": "Déployer le porte-avions avant de le rappeler."
     },
     {
       "hash": "976644141",
@@ -8163,6 +8291,10 @@
     {
       "hash": "989915674",
       "s": "Préparation de récupération ignorée"
+    },
+    {
+      "hash": "990181171",
+      "s": "Garder le joueur visible sur la selle en mode Ride"
     },
     {
       "hash": "990351400",
@@ -8713,6 +8845,10 @@
       "s": "Récompenses 2024-2026, vêtements, prix du commerce et progression"
     },
     {
+      "hash": "1051818985",
+      "s": "Afficher la lumière orange des yeux du dragon"
+    },
+    {
       "hash": "1051874395",
       "s": "Hauteur d'atterrissage"
     },
@@ -8843,10 +8979,6 @@
     {
       "hash": "1062734330",
       "s": "Téléporter la cible = point de repère sur la carte"
-    },
-    {
-      "hash": "1063088554",
-      "s": "Cuisses jusqu’aux pieds"
     },
     {
       "hash": "1063793990",
@@ -9481,6 +9613,10 @@
       "s": "Type d'explosion en vol (grenade par défaut)"
     },
     {
+      "hash": "1132701193",
+      "s": "Vitesse à laquelle le système de tir se refroidit au ralenti"
+    },
+    {
       "hash": "1133817577",
       "s": "Déplacer la caméra progressivement vers la cible"
     },
@@ -9611,6 +9747,10 @@
     {
       "hash": "1146974754",
       "s": "Chester McCoy"
+    },
+    {
+      "hash": "1146975287",
+      "s": "Devenir Dragon"
     },
     {
       "hash": "1148219177",
@@ -10521,6 +10661,10 @@
       "s": "Supprimer l'unité"
     },
     {
+      "hash": "1245056243",
+      "s": "Émettre des étincelles occasionnelles des articulations mécaniques en mouvement"
+    },
+    {
       "hash": "1245123201",
       "s": "Activer"
     },
@@ -10997,6 +11141,10 @@
       "s": "Surcharger les dégâts de mêlée/arme à ce multiplicateur pendant que c'est activé (Super BST)"
     },
     {
+      "hash": "1297216408",
+      "s": "Rayon de balayage de la queue"
+    },
+    {
       "hash": "1300103595",
       "s": "Missile nucléaire"
     },
@@ -11379,6 +11527,10 @@
     {
       "hash": "1339629962",
       "s": "Sensibilité du regard"
+    },
+    {
+      "hash": "1339970491",
+      "s": "Détruire les objets et véhicules là où le jet de flammes frappe"
     },
     {
       "hash": "1340618348",
@@ -12489,10 +12641,6 @@
       "s": "Forces de poussée directionnelles"
     },
     {
-      "hash": "1471347473",
-      "s": "Rétablir les os déformés à la normale"
-    },
-    {
       "hash": "1471465232",
       "s": "Pousser à droite"
     },
@@ -12809,12 +12957,12 @@
       "s": "Point d'interrogation"
     },
     {
-      "hash": "1511942769",
-      "s": "Ombres globales, gamma, flou & saturation"
+      "hash": "1509367077",
+      "s": "Afficher les lectures de vol, de chaleur et de combat pendant le contrôle du dragon"
     },
     {
-      "hash": "1511983065",
-      "s": "Pieds uniquement"
+      "hash": "1511942769",
+      "s": "Ombres globales, gamma, flou & saturation"
     },
     {
       "hash": "1512107879",
@@ -12985,6 +13133,10 @@
       "s": "Masquer le contenu téléchargeable personnalisé en ligne"
     },
     {
+      "hash": "1530189235",
+      "s": "La force de chaque impact ; zéro conserve la boule de feu mais laisse tout sur place"
+    },
+    {
       "hash": "1530602427",
       "s": "Délai"
     },
@@ -13110,7 +13262,7 @@
     },
     {
       "hash": "1545841156",
-      "s": "Robot HUD"
+      "s": "HUD Robotique"
     },
     {
       "hash": "1545847659",
@@ -13269,6 +13421,10 @@
       "s": "Bleu métallisé de Saxe"
     },
     {
+      "hash": "1563890172",
+      "s": "Dragon Mécanique"
+    },
+    {
       "hash": "1563950876",
       "s": "Récompenses d'Halloween et de fin 2025 débloquées."
     },
@@ -13325,10 +13481,6 @@
       "s": "Artiste de l'évasion"
     },
     {
-      "hash": "1569065654",
-      "s": "Prioriser les avions et hélicoptères à proximité"
-    },
-    {
       "hash": "1569665695",
       "s": "Couleur de l'impact"
     },
@@ -13371,6 +13523,10 @@
     {
       "hash": "1577399558",
       "s": "Nombre maximal de missiles et de leurres simultanés"
+    },
+    {
+      "hash": "1577829558",
+      "s": "Déployer le porte-avions avant d'activer le mode orbite."
     },
     {
       "hash": "1578905217",
@@ -13559,6 +13715,10 @@
     {
       "hash": "1605383372",
       "s": "Précision/dégâts ennemis de la mission « Achat nul »"
+    },
+    {
+      "hash": "1607362826",
+      "s": "Le porteur vous suit maintenant."
     },
     {
       "hash": "1607590611",
@@ -13759,6 +13919,10 @@
     {
       "hash": "1624393034",
       "s": "Délai d'appui (ms)"
+    },
+    {
+      "hash": "1624466590",
+      "s": "Afficher des traînées mécaniques pulsantes au niveau des deux extrémités des ailes en vol"
     },
     {
       "hash": "1624661264",
@@ -14025,12 +14189,20 @@
       "s": "Modifier les effets spéciaux de particules Woodland Firefly"
     },
     {
+      "hash": "1653925589",
+      "s": "Largeur du cône de feu endommageant"
+    },
+    {
       "hash": "1654140857",
       "s": "Quelques secondes de configuration et c'est parti"
     },
     {
       "hash": "1654375495",
       "s": "100%"
+    },
+    {
+      "hash": "1654590735",
+      "s": "Voler vers le point de repère actuel de la carte, puis maintenir"
     },
     {
       "hash": "1656170203",
@@ -14103,6 +14275,10 @@
     {
       "hash": "1669815932",
       "s": "Vert mat"
+    },
+    {
+      "hash": "1669990899",
+      "s": "Afficher une lumière pulsante dans le torse blindé"
     },
     {
       "hash": "1670551309",
@@ -14343,6 +14519,10 @@
     {
       "hash": "1694304846",
       "s": "Paramètres de vol"
+    },
+    {
+      "hash": "1696072144",
+      "s": "Coup de boost"
     },
     {
       "hash": "1696470891",
@@ -15005,6 +15185,10 @@
       "s": "S Ragdoll"
     },
     {
+      "hash": "1778092706",
+      "s": "Permettre au dragon de cracher du feu pendant la visée et l'attaque"
+    },
+    {
       "hash": "1778155561",
       "s": "Multiplicateur de dégâts et de recul pour les impacts de balles à grande vitesse"
     },
@@ -15035,6 +15219,10 @@
     {
       "hash": "1781836937",
       "s": "Éteindre le moteur avec un IEM pendant son fonctionnement"
+    },
+    {
+      "hash": "1782265181",
+      "s": "Zone atteinte par la balayage de queue au sol"
     },
     {
       "hash": "1782685743",
@@ -15163,6 +15351,10 @@
     {
       "hash": "1797692691",
       "s": "Drone de reconnaissance"
+    },
+    {
+      "hash": "1798214119",
+      "s": "Secousse de la caméra produite par les attaques lourdes"
     },
     {
       "hash": "1799028247",
@@ -15849,6 +16041,10 @@
       "s": "Démontage"
     },
     {
+      "hash": "1880823482",
+      "s": "Retourner à votre position actuelle, puis maintenir"
+    },
+    {
       "hash": "1880913742",
       "s": "Escalader les murs et sauter des surfaces"
     },
@@ -15867,6 +16063,10 @@
     {
       "hash": "1881797995",
       "s": "Forcer la vitesse du vent"
+    },
+    {
+      "hash": "1881855980",
+      "s": "Orbiter autour de votre position actuelle en utilisant le rayon d'orbite configuré"
     },
     {
       "hash": "1883445157",
@@ -16017,10 +16217,6 @@
       "s": "Bureau de PDG"
     },
     {
-      "hash": "1898612276",
-      "s": "Activer les quatre montures de canons défensifs rapides"
-    },
-    {
       "hash": "1898923212",
       "s": "P Ragdoll"
     },
@@ -16115,6 +16311,10 @@
     {
       "hash": "1908982660",
       "s": "Hostile"
+    },
+    {
+      "hash": "1909260278",
+      "s": "Fréquence de battement des ailes"
     },
     {
       "hash": "1909361912",
@@ -16793,6 +16993,10 @@
       "s": "Démarrez cette activité sur les joueurs sélectionnés"
     },
     {
+      "hash": "1981734890",
+      "s": "Arrêter immédiatement le porteur et maintenir sa position actuelle"
+    },
+    {
       "hash": "1981809733",
       "s": "Teinte Chams (Legacy uniquement)"
     },
@@ -17301,6 +17505,10 @@
       "s": "Largeur du nuage"
     },
     {
+      "hash": "2031642918",
+      "s": "Feux au sol"
+    },
+    {
       "hash": "2031704623",
       "s": "Activité de saut en parachute"
     },
@@ -17631,6 +17839,10 @@
     {
       "hash": "2071631184",
       "s": "Teinte actuelle"
+    },
+    {
+      "hash": "2072616434",
+      "s": "Réduire la vitesse avant avant de voler dans la géométrie"
     },
     {
       "hash": "2073145722",
@@ -18089,6 +18301,10 @@
       "s": "Viser pour cibler automatiquement les piétons proches ; tirer pour les toucher"
     },
     {
+      "hash": "2124552377",
+      "s": "Monter ou Descendre"
+    },
+    {
       "hash": "2126261029",
       "s": "Limité à 8 groupes."
     },
@@ -18127,6 +18343,10 @@
     {
       "hash": "2129197025",
       "s": "Valeur minimale"
+    },
+    {
+      "hash": "2130079633",
+      "s": "Attaques par le feu ; la visée bascule entre les vues supérieure et inférieure de la batterie"
     },
     {
       "hash": "2130795354",
@@ -18355,6 +18575,10 @@
     {
       "hash": "2152097649",
       "s": "Recruter un piéton favori enregistré"
+    },
+    {
+      "hash": "2152284502",
+      "s": "Étincelles articulaires"
     },
     {
       "hash": "2152504194",
@@ -18625,6 +18849,10 @@
       "s": "ID Rockstar"
     },
     {
+      "hash": "2186796529",
+      "s": "Empêcher le contrôleur et les pièces du dragon de subir des dégâts"
+    },
+    {
       "hash": "2187049459",
       "s": "Vert métallisé"
     },
@@ -18705,6 +18933,10 @@
       "s": "Attribuer les capacités sélectionnées à votre véhicule"
     },
     {
+      "hash": "2197046440",
+      "s": "Portée maximale du jet de feu"
+    },
+    {
       "hash": "2197053959",
       "s": "Rouler, diriger, booster et faire un ollie sur un skateboard"
     },
@@ -18763,6 +18995,10 @@
     {
       "hash": "2204810991",
       "s": "Faire apparaître un moulin à vent géant à côté de ce joueur"
+    },
+    {
+      "hash": "2205013302",
+      "s": "Dégâts de chaleur du véhicule"
     },
     {
       "hash": "2205187716",
@@ -18867,6 +19103,10 @@
     {
       "hash": "2217903373",
       "s": "Détoner au point visé en maintenant la visée"
+    },
+    {
+      "hash": "2217945364",
+      "s": "Laisser le compagnon attaquer les PNJ hostiles à proximité"
     },
     {
       "hash": "2218215376",
@@ -19653,6 +19893,10 @@
       "s": "Téléportation vers ce joueur"
     },
     {
+      "hash": "2308477551",
+      "s": "Vitesse à laquelle la respiration de feu soutenue surchauffe"
+    },
+    {
       "hash": "2310173011",
       "s": "Tous les défis de carrière sont terminés."
     },
@@ -19699,6 +19943,10 @@
     {
       "hash": "2315328784",
       "s": "Coût d'installation SALV23 = gratuit"
+    },
+    {
+      "hash": "2316542249",
+      "s": "Refroidissement par seconde"
     },
     {
       "hash": "2316596499",
@@ -19755,6 +20003,10 @@
     {
       "hash": "2324788261",
       "s": "Épave terminée."
+    },
+    {
+      "hash": "2325824898",
+      "s": "Porteur de guerre déployé en survol armé."
     },
     {
       "hash": "2326822477",
@@ -19909,10 +20161,6 @@
       "s": "Entités"
     },
     {
-      "hash": "2345815240",
-      "s": "Redimensionner les os des Peds"
-    },
-    {
       "hash": "2345890787",
       "s": "Marqueur de cuillère (Modifier)"
     },
@@ -20027,6 +20275,10 @@
     {
       "hash": "2360318072",
       "s": "Capturer point de repère de la carte"
+    },
+    {
+      "hash": "2360470798",
+      "s": "Porteur arrêté ; vous pouvez marcher normalement sur le pont d'envol."
     },
     {
       "hash": "2360509865",
@@ -20159,6 +20411,10 @@
     {
       "hash": "2374433898",
       "s": "Publiciter votre session dans une autre langue"
+    },
+    {
+      "hash": "2375201819",
+      "s": "Pas de verrouillage d'entité ; les missiles guidés nécessitent une mire verte."
     },
     {
       "hash": "2375544724",
@@ -20505,6 +20761,10 @@
       "s": "Viser une entité pour l'inspecter ; tirer pour copier le hachage"
     },
     {
+      "hash": "2418646270",
+      "s": "Revenir vers moi"
+    },
+    {
       "hash": "2420120741",
       "s": "Impossible de préparer le script de stockage"
     },
@@ -20659,10 +20919,6 @@
     {
       "hash": "2441460515",
       "s": "Extras MSE Spooner"
-    },
-    {
-      "hash": "2443887243",
-      "s": "Mode grosse tête"
     },
     {
       "hash": "2444596774",
@@ -20866,7 +21122,7 @@
     },
     {
       "hash": "2466473969",
-      "s": "Show form, speed, altitude and attack readiness while piloting"
+      "s": "Afficher la forme, la vitesse, l'altitude et la préparation à l'attaque pendant le pilotage"
     },
     {
       "hash": "2467162885",
@@ -21065,6 +21321,10 @@
       "s": "Attaquer pour faire apparaître des clones qui se battent pour vous"
     },
     {
+      "hash": "2486282227",
+      "s": "Engager les véhicules occupés conduits par des Peds non joueurs"
+    },
+    {
       "hash": "2487135864",
       "s": "Surveiller le statut de joignabilité de cet ami (notification / rejoindre automatiquement)"
     },
@@ -21161,6 +21421,10 @@
       "s": "Conducteur arrière"
     },
     {
+      "hash": "2499963771",
+      "s": "Mouvement du Dragon Mécanique"
+    },
+    {
       "hash": "2500037000",
       "s": "Éclairage sous le pare-chocs droit"
     },
@@ -21243,6 +21507,10 @@
     {
       "hash": "2510669438",
       "s": "VPN / Proxy"
+    },
+    {
+      "hash": "2510750619",
+      "s": "Aucun porteur déployé n'est disponible pour s'arrêter."
     },
     {
       "hash": "2510926611",
@@ -21585,6 +21853,10 @@
       "s": "Portée de verrouillage infinie"
     },
     {
+      "hash": "2548759743",
+      "s": "Autoriser les attaques contre les avions et hélicoptères occupés"
+    },
+    {
       "hash": "2548832573",
       "s": "Travail"
     },
@@ -21841,6 +22113,10 @@
       "s": "Laisser tomber de l'argent, des objets de collection, des munitions, des armes et des objets de récupération à un endroit sélectionné"
     },
     {
+      "hash": "2583039049",
+      "s": "S'accrocher à la cible"
+    },
+    {
       "hash": "2585365565",
       "s": "Couper, état de la mission, déclencheur, sauts"
     },
@@ -21925,6 +22201,10 @@
       "s": "Faire apparaître et conduire un train de marchandises"
     },
     {
+      "hash": "2593614898",
+      "s": "Apparence du Dragon Mécanique"
+    },
+    {
       "hash": "2594222618",
       "s": "Indisponible"
     },
@@ -21971,10 +22251,6 @@
     {
       "hash": "2599890938",
       "s": "Plaque d'immatriculation Style"
-    },
-    {
-      "hash": "2600816827",
-      "s": "Mains uniquement"
     },
     {
       "hash": "2601000381",
@@ -22091,6 +22367,10 @@
     {
       "hash": "2612423145",
       "s": "Intensité du ciel"
+    },
+    {
+      "hash": "2613547406",
+      "s": "Cône de flammes"
     },
     {
       "hash": "2613700466",
@@ -23027,6 +23307,10 @@
     {
       "hash": "2729825146",
       "s": "Saisir un nom d'équipage, puis appuyer sur Entrée"
+    },
+    {
+      "hash": "2730659505",
+      "s": "Zone affectée par chaque explosion d'impact de feu"
     },
     {
       "hash": "2731101941",
@@ -24013,6 +24297,10 @@
       "s": "Ajouter la tâche à la séquence de l'entité sélectionnée"
     },
     {
+      "hash": "2839121740",
+      "s": "Rouler visiblement, devenir le dragon, ou le laisser suivre comme un compagnon"
+    },
+    {
       "hash": "2839191545",
       "s": "Recolorer tous les effets de particules"
     },
@@ -24251,6 +24539,10 @@
     {
       "hash": "2867963431",
       "s": "Photographie de la faune terminée."
+    },
+    {
+      "hash": "2868358094",
+      "s": "Descendre et se poser sur le terrain en dessous"
     },
     {
       "hash": "2869198228",
@@ -24553,6 +24845,10 @@
       "s": "Décalage vers le haut"
     },
     {
+      "hash": "2900023894",
+      "s": "Vitesse à laquelle le dragon se tourne vers le mouvement"
+    },
+    {
       "hash": "2900030627",
       "s": "Forcer le ragdoll sur les joueurs sélectionnés"
     },
@@ -24587,6 +24883,10 @@
     {
       "hash": "2903711519",
       "s": "Requête envoyée."
+    },
+    {
+      "hash": "2904190037",
+      "s": "Vitesse de déplacement au sol"
     },
     {
       "hash": "2905489395",
@@ -24687,6 +24987,10 @@
     {
       "hash": "2914874554",
       "s": "Orange métallisé"
+    },
+    {
+      "hash": "2915354097",
+      "s": "Caméra supérieure de la batterie active."
     },
     {
       "hash": "2916065317",
@@ -24995,10 +25299,6 @@
     {
       "hash": "2949843597",
       "s": "Valeur de gestion en direct (saisissez pour définir précisément)"
-    },
-    {
-      "hash": "2950079333",
-      "s": "Redimensionner les os individuels -- grosse tête, grosses mains"
     },
     {
       "hash": "2950554203",
@@ -25327,6 +25627,10 @@
     {
       "hash": "2998631903",
       "s": "La boucle est fidèle ; Passer en mode Retirer si l'entonnoir ne produit rien"
+    },
+    {
+      "hash": "2999683047",
+      "s": "Déployer le porteur avant d'activer le mode suivi."
     },
     {
       "hash": "3000522959",
@@ -25667,6 +25971,10 @@
     {
       "hash": "3043933501",
       "s": "Son d'impact"
+    },
+    {
+      "hash": "3044142668",
+      "s": "Le porteur vous orbite maintenant."
     },
     {
       "hash": "3044562717",
@@ -26149,6 +26457,10 @@
       "s": "Préréglages du Gestionnaire de statistiques"
     },
     {
+      "hash": "3103077064",
+      "s": "Appeler le Dragon"
+    },
+    {
       "hash": "3104406267",
       "s": "Objets de collection"
     },
@@ -26199,10 +26511,6 @@
     {
       "hash": "3112034633",
       "s": "Multi-vortex"
-    },
-    {
-      "hash": "3112201319",
-      "s": "Torse et tout ce qui se trouve au-dessus"
     },
     {
       "hash": "3112339959",
@@ -26449,10 +26757,6 @@
       "s": "Arme"
     },
     {
-      "hash": "3140573726",
-      "s": "Mise à l'échelle des os"
-    },
-    {
       "hash": "3141311701",
       "s": "Intervalle entre les impulsions ragdoll par joueur"
     },
@@ -26523,6 +26827,10 @@
     {
       "hash": "3146471143",
       "s": "Vert 0-255"
+    },
+    {
+      "hash": "3146882323",
+      "s": "Multiplicateur de dégâts et de recul pour la morsure"
     },
     {
       "hash": "3147195660",
@@ -26713,6 +27021,10 @@
       "s": "Impossible de contrôler le véhicule de l'événement"
     },
     {
+      "hash": "3168466837",
+      "s": "Lumières, traînées, étincelles du dragon, visibilité du cavalier et caméra"
+    },
+    {
       "hash": "3168644243",
       "s": "Téléportation à la position du déclencheur synchronisée de l'événement sélectionné"
     },
@@ -26773,8 +27085,16 @@
       "s": "Réinitialiser les statistiques de flux/statistiques + redessiner panneau"
     },
     {
+      "hash": "3173280491",
+      "s": "Portée des flammes"
+    },
+    {
       "hash": "3174400819",
       "s": "Effacer la priorité"
+    },
+    {
+      "hash": "3175072867",
+      "s": "Assembler et contrôler un dragon mécanique cracheur de feu articulé"
     },
     {
       "hash": "3175145182",
@@ -26901,6 +27221,10 @@
       "s": "Appliquer une action à l'arrière gauche"
     },
     {
+      "hash": "3190100451",
+      "s": "Puissance de plongée"
+    },
+    {
       "hash": "3190292920",
       "s": "Utiliser Rouge vif"
     },
@@ -27007,6 +27331,10 @@
     {
       "hash": "3201942360",
       "s": "Violet mat"
+    },
+    {
+      "hash": "3202316353",
+      "s": "Activer les montures de canons défensifs rapides supérieures et inférieures"
     },
     {
       "hash": "3202335135",
@@ -27231,6 +27559,10 @@
     {
       "hash": "3229371032",
       "s": "CIS"
+    },
+    {
+      "hash": "3229460687",
+      "s": "Distance utilisée pour rechercher des menaces autour du joueur"
     },
     {
       "hash": "3229718447",
@@ -27519,6 +27851,10 @@
     {
       "hash": "3266091265",
       "s": "Restaurer la position et la taille par défaut"
+    },
+    {
+      "hash": "3266358260",
+      "s": "Atterrir le Dragon"
     },
     {
       "hash": "3266629155",
@@ -27969,6 +28305,10 @@
       "s": "Activer la traînée"
     },
     {
+      "hash": "3319571848",
+      "s": "Porteur arrêté et maintenant sa position"
+    },
+    {
       "hash": "3320677676",
       "s": "Cette entité uniquement"
     },
@@ -28053,6 +28393,10 @@
       "s": "Téléporté vers l'entité."
     },
     {
+      "hash": "3327480301",
+      "s": "Fluidité du changement de vitesse de vol"
+    },
+    {
       "hash": "3327960083",
       "s": "Attaquer pour se téléporter à l'endroit visé"
     },
@@ -28083,6 +28427,10 @@
     {
       "hash": "3332279216",
       "s": "Météo B"
+    },
+    {
+      "hash": "3333351688",
+      "s": "Souffle de feu"
     },
     {
       "hash": "3334847941",
@@ -28139,6 +28487,10 @@
     {
       "hash": "3340687964",
       "s": "La signature d'événement de dommage requise est indisponible."
+    },
+    {
+      "hash": "3340761466",
+      "s": "Afficher le cavalier"
     },
     {
       "hash": "3340983205",
@@ -28303,6 +28655,10 @@
     {
       "hash": "3356255274",
       "s": "Vitesse maximale en super-vol"
+    },
+    {
+      "hash": "3356929621",
+      "s": "Viser une entité ou activer un filtre de cible éligible avant de tirer"
     },
     {
       "hash": "3357542941",
@@ -29257,6 +29613,10 @@
       "s": "Épaisseur visuelle du faisceau torse"
     },
     {
+      "hash": "3460306378",
+      "s": "Défense du compagnon"
+    },
+    {
       "hash": "3460511827",
       "s": "Supprimer tous les véhicules à proximité"
     },
@@ -29443,6 +29803,10 @@
     {
       "hash": "3484099454",
       "s": "Hauteur du mur lumineux (mètres)"
+    },
+    {
+      "hash": "3484383791",
+      "s": "Dégâts aux entités du monde touchées pendant le vol boosté"
     },
     {
       "hash": "3484752196",
@@ -30041,6 +30405,10 @@
       "s": "Fonctionnalité côté client uniquement pour cette version – le réécrivain de panier est réservé à la version Enhanced. Les achats restent facturés."
     },
     {
+      "hash": "3556989860",
+      "s": "Multiplicateur de dégâts et d'onde de choc pour les impacts de plongée"
+    },
+    {
       "hash": "3557149254",
       "s": "Vitesse orbitale"
     },
@@ -30175,6 +30543,10 @@
     {
       "hash": "3571928026",
       "s": "Les piéger dans un grand conteneur"
+    },
+    {
+      "hash": "3573376758",
+      "s": "Lueur des yeux"
     },
     {
       "hash": "3573505402",
@@ -30351,6 +30723,10 @@
     {
       "hash": "3596565489",
       "s": "Fluidité du vol"
+    },
+    {
+      "hash": "3597106948",
+      "s": "Alterner entre la conduite visible et le contrôle du compagnon"
     },
     {
       "hash": "3597143708",
@@ -30693,6 +31069,10 @@
       "s": "Préparations et temps de recharge du réparateur"
     },
     {
+      "hash": "3630852481",
+      "s": "Ramener le dragon compagnon près de vous"
+    },
+    {
       "hash": "3630915511",
       "s": "Activer le tremblement de caméra"
     },
@@ -30805,10 +31185,6 @@
       "s": "Les modèles du porte-avions n'ont pas pu être chargés."
     },
     {
-      "hash": "3642163390",
-      "s": "Mains"
-    },
-    {
       "hash": "3642727234",
       "s": "Forcer le son du moteur"
     },
@@ -30847,6 +31223,10 @@
     {
       "hash": "3647495809",
       "s": "Déployer et armer le porte-avions avant de tirer."
+    },
+    {
+      "hash": "3647737422",
+      "s": "Compagnon"
     },
     {
       "hash": "3648846539",
@@ -30895,6 +31275,10 @@
     {
       "hash": "3651579167",
       "s": "Amortissement de la cardan en secondes ; 0 est instantané, plus élevé est plus lourd"
+    },
+    {
+      "hash": "3651798695",
+      "s": "Déployer le dragon mécanique"
     },
     {
       "hash": "3652625294",
@@ -31925,6 +32309,10 @@
       "s": "Ensemble de véhicules du convoi."
     },
     {
+      "hash": "3765880946",
+      "s": "Caméra de commande active : Attaque tire et Vise bascule la vue haut/bas"
+    },
+    {
       "hash": "3766597846",
       "s": "Associés"
     },
@@ -32949,6 +33337,10 @@
       "s": "Porté"
     },
     {
+      "hash": "3873259962",
+      "s": "Morsure, balayage de queue, plongée, embardée et défense du compagnon"
+    },
+    {
       "hash": "3873278038",
       "s": "Multiplicateur de taille du menu (auto x ceci)"
     },
@@ -33103,6 +33495,10 @@
     {
       "hash": "3889009562",
       "s": "Dégâts du soleil"
+    },
+    {
+      "hash": "3889214104",
+      "s": "Pistes de ailes"
     },
     {
       "hash": "3890246650",
@@ -33285,10 +33681,6 @@
       "s": "Tirer le lanceur sélectionné"
     },
     {
-      "hash": "3908445940",
-      "s": "Armement"
-    },
-    {
       "hash": "3908940701",
       "s": "Se garer à droite"
     },
@@ -33399,6 +33791,10 @@
     {
       "hash": "3919579539",
       "s": "Choisir une réponse automatique pour les protections de crash attribuées"
+    },
+    {
+      "hash": "3919651218",
+      "s": "Renvoi du dragon"
     },
     {
       "hash": "3920845272",
@@ -34301,6 +34697,10 @@
       "s": "Impossible d'acquérir l'hôte du script de l'événement en cours"
     },
     {
+      "hash": "4023599233",
+      "s": "Activer les batteries de missiles guidés supérieures et inférieures"
+    },
+    {
       "hash": "4023690303",
       "s": "Définissez d'abord un décalage de déplacement/rotation."
     },
@@ -34757,6 +35157,10 @@
       "s": "Peds maximum affichés"
     },
     {
+      "hash": "4072457343",
+      "s": "Vitesse normale en vol avant"
+    },
+    {
       "hash": "4073095162",
       "s": "Aluminium brossé"
     },
@@ -34767,6 +35171,10 @@
     {
       "hash": "4073361913",
       "s": "Délai entre les explosions par joueur"
+    },
+    {
+      "hash": "4073859955",
+      "s": "Mode de contrôle"
     },
     {
       "hash": "4074268421",
@@ -34817,6 +35225,10 @@
       "s": "Demander le SecuroServ Volatus"
     },
     {
+      "hash": "4079166927",
+      "s": "Déployer le transport avant d'y monter."
+    },
+    {
       "hash": "4079213138",
       "s": "Message d'ami réseau"
     },
@@ -34835,10 +35247,6 @@
     {
       "hash": "4081109891",
       "s": "Bon de réduction"
-    },
-    {
-      "hash": "4081868894",
-      "s": "Engager les véhicules à proximité non occupés par des joueurs"
     },
     {
       "hash": "4082352008",
@@ -35001,6 +35409,10 @@
       "s": "Changer de véhicule"
     },
     {
+      "hash": "4101913572",
+      "s": "Dragon Invincible"
+    },
+    {
       "hash": "4102821863",
       "s": "Vitesse"
     },
@@ -35031,6 +35443,10 @@
     {
       "hash": "4104737519",
       "s": "Sélectionné — cliquez pour supprimer"
+    },
+    {
+      "hash": "4105916887",
+      "s": "Chaleur par seconde"
     },
     {
       "hash": "4106174994",
@@ -35973,6 +36389,10 @@
       "s": "Jaune/Noir"
     },
     {
+      "hash": "4207001419",
+      "s": "Le transport retourne à votre position."
+    },
+    {
       "hash": "4207128466",
       "s": "Appliquer les options ci-dessous au trafic environnant"
     },
@@ -36039,6 +36459,10 @@
     {
       "hash": "4215329880",
       "s": "Tenue copiée."
+    },
+    {
+      "hash": "4215398632",
+      "s": "Dégâts infligés aux PNJ à chaque impulsion de tir"
     },
     {
       "hash": "4216771280",
@@ -36485,6 +36909,10 @@
       "s": "Insignes Spooner"
     },
     {
+      "hash": "4266503293",
+      "s": "Me suivre"
+    },
+    {
       "hash": "4266747014",
       "s": "Emballé "
     },
@@ -36551,6 +36979,10 @@
     {
       "hash": "4274420842",
       "s": "Social du joueur"
+    },
+    {
+      "hash": "4275291599",
+      "s": "Vitesse de l'animation de l'aile articulée"
     },
     {
       "hash": "4275737436",

@@ -81,10 +81,6 @@
       "s": "Start the UFO abduction transition on this player; their protections may block it"
     },
     {
-      "hash": "11086923",
-      "s": "Aim from the carrier and press Attack to order a full salvo"
-    },
-    {
       "hash": "12319773",
       "s": "Pick a ped."
     },
@@ -319,6 +315,10 @@
     {
       "hash": "39801576",
       "s": "Locked For Player"
+    },
+    {
+      "hash": "40113462",
+      "s": "Blast rides the vehicle or ped you hit instead of staying where the shot landed"
     },
     {
       "hash": "41479353",
@@ -663,6 +663,10 @@
     {
       "hash": "80846921",
       "s": "Dump to disk"
+    },
+    {
+      "hash": "81469776",
+      "s": "Move onto the carrier deck with normal walking controls"
     },
     {
       "hash": "82027493",
@@ -1309,6 +1313,10 @@
       "s": "You must be in a vehicle to save it"
     },
     {
+      "hash": "153031973",
+      "s": "Mechanical Dragon Combat"
+    },
+    {
       "hash": "153678580",
       "s": "Ragdoll on collision (force)"
     },
@@ -1335,6 +1343,10 @@
     {
       "hash": "155741080",
       "s": "Complete every Agency story prep"
+    },
+    {
+      "hash": "155838125",
+      "s": "Walking, takeoff, flight, boost and assisted landing"
     },
     {
       "hash": "155996319",
@@ -1645,6 +1657,10 @@
       "s": "Water Wave Strength"
     },
     {
+      "hash": "196850637",
+      "s": "Restore the player and remove the complete dragon"
+    },
+    {
       "hash": "196873670",
       "s": "Blown"
     },
@@ -1659,6 +1675,10 @@
     {
       "hash": "198012929",
       "s": "Distance of the relaxed formation"
+    },
+    {
+      "hash": "198680354",
+      "s": "Distance of the chase camera behind the dragon"
     },
     {
       "hash": "198746285",
@@ -1893,6 +1913,10 @@
       "s": "Tennis Mode"
     },
     {
+      "hash": "224175317",
+      "s": "Dragon HUD"
+    },
+    {
       "hash": "225712757",
       "s": "Kick attempt sent."
     },
@@ -1941,6 +1965,10 @@
       "s": "Merryweather flare airstrike"
     },
     {
+      "hash": "232801520",
+      "s": "Continuously follow your ped or current vehicle"
+    },
+    {
       "hash": "234666593",
       "s": "Body area to aim at"
     },
@@ -1959,6 +1987,10 @@
     {
       "hash": "236665793",
       "s": "Alignment Speed"
+    },
+    {
+      "hash": "237009753",
+      "s": "Climb and descent speed"
     },
     {
       "hash": "237274530",
@@ -2141,6 +2173,10 @@
       "s": "Worn Off White"
     },
     {
+      "hash": "255832497",
+      "s": "Exit your vehicle before boarding the flight deck."
+    },
+    {
       "hash": "256039995",
       "s": "Complete a street checkpoint circuit"
     },
@@ -2267,10 +2303,6 @@
     {
       "hash": "265121477",
       "s": "Force First Person"
-    },
-    {
-      "hash": "265863011",
-      "s": "Enable both guided missile batteries"
     },
     {
       "hash": "266037983",
@@ -2527,6 +2559,10 @@
     {
       "hash": "291290724",
       "s": "Persistent in-game name for this slot (15 characters maximum)"
+    },
+    {
+      "hash": "291952236",
+      "s": "Vehicles held in the flame catch fire and explode"
     },
     {
       "hash": "292597354",
@@ -2837,6 +2873,10 @@
       "s": "Trail behind launched rockets (RPG / homing / 40mm / firework)"
     },
     {
+      "hash": "331967817",
+      "s": "Cook Off Vehicles"
+    },
+    {
       "hash": "332121276",
       "s": "Type a nickname, press Enter to send a request"
     },
@@ -2851,6 +2891,10 @@
     {
       "hash": "332852406",
       "s": "Recolour traffic signals + fade distances"
+    },
+    {
+      "hash": "332986250",
+      "s": "Flame range, damage, heat and ground fires"
     },
     {
       "hash": "333893771",
@@ -3337,10 +3381,6 @@
       "s": "Request the SecuroServ SuperVolito"
     },
     {
-      "hash": "390463301",
-      "s": "Reset Bones"
-    },
-    {
       "hash": "392831281",
       "s": "Fragments"
     },
@@ -3351,6 +3391,10 @@
     {
       "hash": "393386951",
       "s": "Spin the marker"
+    },
+    {
+      "hash": "394167889",
+      "s": "Defense Range"
     },
     {
       "hash": "394574770",
@@ -3809,6 +3853,10 @@
       "s": "Hostile fighter planes hunt you"
     },
     {
+      "hash": "447155102",
+      "s": "Turning Response"
+    },
+    {
       "hash": "447171916",
       "s": "Show each player's health"
     },
@@ -4061,6 +4109,10 @@
       "s": "Vehicle Task Crash"
     },
     {
+      "hash": "472540120",
+      "s": "Allow dragon attacks to affect network players"
+    },
+    {
       "hash": "472582273",
       "s": "Swap Weapon Category"
     },
@@ -4079,6 +4131,10 @@
     {
       "hash": "474547304",
       "s": "Spooner"
+    },
+    {
+      "hash": "474884971",
+      "s": "Land automatically when descending close to terrain"
     },
     {
       "hash": "474899168",
@@ -4119,6 +4175,10 @@
     {
       "hash": "479097787",
       "s": "Kill all artificial city lights"
+    },
+    {
+      "hash": "479126616",
+      "s": "Orbit Me"
     },
     {
       "hash": "479461097",
@@ -4165,6 +4225,10 @@
       "s": "Oscillation speed"
     },
     {
+      "hash": "487309068",
+      "s": "Appearance & Camera"
+    },
+    {
       "hash": "489355311",
       "s": "Request the SecuroServ Havok"
     },
@@ -4195,6 +4259,10 @@
     {
       "hash": "492471215",
       "s": "Unlock all supported Kortz and 2026 rewards"
+    },
+    {
+      "hash": "493323910",
+      "s": "Heat damage burned into an empty vehicle's engine, fuel tank and panels on each pulse"
     },
     {
       "hash": "494009065",
@@ -4821,6 +4889,10 @@
       "s": "Remove the facial override"
     },
     {
+      "hash": "573939964",
+      "s": "Ride, become, or command an articulated fire-breathing machine"
+    },
+    {
       "hash": "575078580",
       "s": "Transaction errors, loading screens, messages, and interior actions"
     },
@@ -5209,6 +5281,10 @@
       "s": "Streaming-trick teleport point used while loading"
     },
     {
+      "hash": "620461048",
+      "s": "Ground speed multiplier while holding Sprint"
+    },
+    {
       "hash": "620694577",
       "s": "Rainbow sweep: frequency change per step (higher = faster)"
     },
@@ -5417,10 +5493,6 @@
       "s": "Nearby NPCs attack this player"
     },
     {
-      "hash": "640522992",
-      "s": "War carrier deployed in a disarmed hover."
-    },
-    {
       "hash": "641308795",
       "s": "Clone, repair, upgrade, rotate, tow, damage, or delete their vehicle"
     },
@@ -5439,6 +5511,10 @@
     {
       "hash": "643576846",
       "s": "Repeating shots at the selected players"
+    },
+    {
+      "hash": "643766095",
+      "s": "Maximum heat before fire breath must cool"
     },
     {
       "hash": "645025303",
@@ -5537,6 +5613,10 @@
       "s": "CEO warehouse resupplied"
     },
     {
+      "hash": "658587872",
+      "s": "Leave short-lived fires at the end of the flame stream"
+    },
+    {
       "hash": "658600497",
       "s": "How high props bounce"
     },
@@ -5613,6 +5693,10 @@
       "s": "Distance of the orbiting helm camera"
     },
     {
+      "hash": "666466572",
+      "s": "Stop And Hold"
+    },
+    {
       "hash": "666614982",
       "s": "Money Purse"
     },
@@ -5627,6 +5711,10 @@
     {
       "hash": "668052616",
       "s": "Stop overriding clouds; follow the weather again"
+    },
+    {
+      "hash": "668113989",
+      "s": "Reactor Glow"
     },
     {
       "hash": "668210904",
@@ -5857,6 +5945,10 @@
       "s": "Enable Custom Force Gun"
     },
     {
+      "hash": "692647682",
+      "s": "Bite Power"
+    },
+    {
       "hash": "693046077",
       "s": "P Haunt Player"
     },
@@ -6045,6 +6137,10 @@
       "s": "Delete Mode"
     },
     {
+      "hash": "714515739",
+      "s": "Go To Map Waypoint"
+    },
+    {
       "hash": "714917219",
       "s": "Pull Source"
     },
@@ -6121,6 +6217,10 @@
       "s": "Custom Tyres"
     },
     {
+      "hash": "724841767",
+      "s": "Heat Capacity"
+    },
+    {
       "hash": "725204033",
       "s": "Light Green"
     },
@@ -6159,6 +6259,10 @@
     {
       "hash": "727992664",
       "s": "Nightclub price maximized"
+    },
+    {
+      "hash": "728040379",
+      "s": "Mechanical Dragon Fire"
     },
     {
       "hash": "728089507",
@@ -6469,6 +6573,10 @@
       "s": "Shrink the player ped"
     },
     {
+      "hash": "764389182",
+      "s": "Board Flight Deck"
+    },
+    {
       "hash": "764403355",
       "s": "Male"
     },
@@ -6499,10 +6607,6 @@
     {
       "hash": "767337409",
       "s": "Associate Support"
-    },
-    {
-      "hash": "767696632",
-      "s": "Upper arms down to the hands"
     },
     {
       "hash": "767821349",
@@ -6885,6 +6989,10 @@
       "s": "Stash House"
     },
     {
+      "hash": "816402569",
+      "s": "Flame Damage"
+    },
+    {
       "hash": "816505789",
       "s": "Seats"
     },
@@ -6991,6 +7099,10 @@
     {
       "hash": "828184855",
       "s": "Invalid Clone Sync"
+    },
+    {
+      "hash": "828476323",
+      "s": "Ride Dragon"
     },
     {
       "hash": "829198920",
@@ -7285,6 +7397,10 @@
       "s": "Select and request an owned personal aircraft"
     },
     {
+      "hash": "870021279",
+      "s": "Run Multiplier"
+    },
+    {
       "hash": "870475738",
       "s": "Milliseconds before a missile is removed"
     },
@@ -7371,6 +7487,10 @@
     {
       "hash": "880192092",
       "s": "Options applied to spawned vehicles"
+    },
+    {
+      "hash": "880679816",
+      "s": "Bottom battery camera active."
     },
     {
       "hash": "880857038",
@@ -7941,6 +8061,10 @@
       "s": "Teleport their vehicle to you"
     },
     {
+      "hash": "960635370",
+      "s": "Hold position when no flight input is pressed"
+    },
+    {
       "hash": "961434976",
       "s": "Limitless Parachutes"
     },
@@ -8047,6 +8171,10 @@
     {
       "hash": "975536950",
       "s": "Teleport this player to another player"
+    },
+    {
+      "hash": "975589404",
+      "s": "Deploy the carrier before recalling it."
     },
     {
       "hash": "976644141",
@@ -8163,6 +8291,10 @@
     {
       "hash": "989915674",
       "s": "Salvage preps skipped"
+    },
+    {
+      "hash": "990181171",
+      "s": "Keep the player visible on the saddle in Ride mode"
     },
     {
       "hash": "990351400",
@@ -8713,6 +8845,10 @@
       "s": "2024-2026 rewards, clothing, trade prices and progression"
     },
     {
+      "hash": "1051818985",
+      "s": "Show orange light from the dragon eyes"
+    },
+    {
       "hash": "1051874395",
       "s": "Landing Height"
     },
@@ -8843,10 +8979,6 @@
     {
       "hash": "1062734330",
       "s": "Teleport target = map waypoint"
-    },
-    {
-      "hash": "1063088554",
-      "s": "Thighs down to the feet"
     },
     {
       "hash": "1063793990",
@@ -9481,6 +9613,10 @@
       "s": "Explosion type while in flight (default Grenade)"
     },
     {
+      "hash": "1132701193",
+      "s": "How quickly the fire system cools while idle"
+    },
+    {
       "hash": "1133817577",
       "s": "Move the camera gradually toward the target"
     },
@@ -9611,6 +9747,10 @@
     {
       "hash": "1146974754",
       "s": "Chester McCoy"
+    },
+    {
+      "hash": "1146975287",
+      "s": "Become Dragon"
     },
     {
       "hash": "1148219177",
@@ -10521,6 +10661,10 @@
       "s": "Delete Unit"
     },
     {
+      "hash": "1245056243",
+      "s": "Emit occasional sparks from moving mechanical joints"
+    },
+    {
       "hash": "1245123201",
       "s": "Enable"
     },
@@ -10997,6 +11141,10 @@
       "s": "Override melee/weapon damage to this multiplier while on (Super BST)"
     },
     {
+      "hash": "1297216408",
+      "s": "Tail Swipe Radius"
+    },
+    {
       "hash": "1300103595",
       "s": "Nuclear Missile"
     },
@@ -11379,6 +11527,10 @@
     {
       "hash": "1339629962",
       "s": "Look Sensitivity"
+    },
+    {
+      "hash": "1339970491",
+      "s": "Blast objects and vehicles where the fire stream hits"
     },
     {
       "hash": "1340618348",
@@ -12489,10 +12641,6 @@
       "s": "Directional push forces"
     },
     {
-      "hash": "1471347473",
-      "s": "Drop every scaled bone back to normal"
-    },
-    {
       "hash": "1471465232",
       "s": "Push Right"
     },
@@ -12809,12 +12957,12 @@
       "s": "Question Mark"
     },
     {
-      "hash": "1511942769",
-      "s": "Global shadow, gamma, blur & saturation"
+      "hash": "1509367077",
+      "s": "Show flight, heat and combat readouts while controlling the dragon"
     },
     {
-      "hash": "1511983065",
-      "s": "Feet only"
+      "hash": "1511942769",
+      "s": "Global shadow, gamma, blur & saturation"
     },
     {
       "hash": "1512107879",
@@ -12983,6 +13131,10 @@
     {
       "hash": "1529479456",
       "s": "Hide custom DLC online"
+    },
+    {
+      "hash": "1530189235",
+      "s": "How hard each impact blast wrecks what it lands on; zero keeps the fireball but leaves everything standing"
     },
     {
       "hash": "1530602427",
@@ -13269,6 +13421,10 @@
       "s": "Metallic Saxony Blue"
     },
     {
+      "hash": "1563890172",
+      "s": "Mechanical Dragon"
+    },
+    {
       "hash": "1563950876",
       "s": "Halloween and late 2025 rewards unlocked."
     },
@@ -13325,10 +13481,6 @@
       "s": "Escape Artist"
     },
     {
-      "hash": "1569065654",
-      "s": "Prioritize nearby planes and helicopters"
-    },
-    {
       "hash": "1569665695",
       "s": "Hit Color"
     },
@@ -13371,6 +13523,10 @@
     {
       "hash": "1577399558",
       "s": "Maximum simultaneous missiles and flares"
+    },
+    {
+      "hash": "1577829558",
+      "s": "Deploy the carrier before enabling orbit mode."
     },
     {
       "hash": "1578905217",
@@ -13559,6 +13715,10 @@
     {
       "hash": "1605383372",
       "s": "Zero buy-mission enemy accuracy/damage"
+    },
+    {
+      "hash": "1607362826",
+      "s": "The carrier is now following you."
     },
     {
       "hash": "1607590611",
@@ -13759,6 +13919,10 @@
     {
       "hash": "1624393034",
       "s": "Push Delay (MS)"
+    },
+    {
+      "hash": "1624466590",
+      "s": "Show hot mechanical trails from both wing tips while flying"
     },
     {
       "hash": "1624661264",
@@ -14025,12 +14189,20 @@
       "s": "Edit Woodland Firefly particle VFX"
     },
     {
+      "hash": "1653925589",
+      "s": "Width of the damaging fire cone"
+    },
+    {
       "hash": "1654140857",
       "s": "A few seconds of setup and you're in"
     },
     {
       "hash": "1654375495",
       "s": "100%"
+    },
+    {
+      "hash": "1654590735",
+      "s": "Fly to the current map waypoint and then hold"
     },
     {
       "hash": "1656170203",
@@ -14103,6 +14275,10 @@
     {
       "hash": "1669815932",
       "s": "Matte Green"
+    },
+    {
+      "hash": "1669990899",
+      "s": "Show a pulsing light in the armoured chest"
     },
     {
       "hash": "1670551309",
@@ -14343,6 +14519,10 @@
     {
       "hash": "1694304846",
       "s": "Flight Settings"
+    },
+    {
+      "hash": "1696072144",
+      "s": "Boost Ram"
     },
     {
       "hash": "1696470891",
@@ -15005,6 +15185,10 @@
       "s": "S Ragdoll"
     },
     {
+      "hash": "1778092706",
+      "s": "Allow the dragon to breathe fire while aiming and attacking"
+    },
+    {
       "hash": "1778155561",
       "s": "Damage and knockback multiplier for high-speed ball impacts"
     },
@@ -15035,6 +15219,10 @@
     {
       "hash": "1781836937",
       "s": "Kill the engine with an EMP while it's running"
+    },
+    {
+      "hash": "1782265181",
+      "s": "Area reached by the ground tail swipe"
     },
     {
       "hash": "1782685743",
@@ -15163,6 +15351,10 @@
     {
       "hash": "1797692691",
       "s": "Recon Drone"
+    },
+    {
+      "hash": "1798214119",
+      "s": "Camera shake produced by heavy attacks"
     },
     {
       "hash": "1799028247",
@@ -15849,6 +16041,10 @@
       "s": "Chop Shop"
     },
     {
+      "hash": "1880823482",
+      "s": "Fly back to your current position and then hold"
+    },
+    {
       "hash": "1880913742",
       "s": "Climb walls and jump away from surfaces"
     },
@@ -15867,6 +16063,10 @@
     {
       "hash": "1881797995",
       "s": "Override wind speed"
+    },
+    {
+      "hash": "1881855980",
+      "s": "Circle your current position using the configured orbit radius"
     },
     {
       "hash": "1883445157",
@@ -16017,10 +16217,6 @@
       "s": "CEO Office"
     },
     {
-      "hash": "1898612276",
-      "s": "Enable the four rapid defensive gun mounts"
-    },
-    {
       "hash": "1898923212",
       "s": "P Ragdoll"
     },
@@ -16115,6 +16311,10 @@
     {
       "hash": "1908982660",
       "s": "Hostile"
+    },
+    {
+      "hash": "1909260278",
+      "s": "Wing Flap Rate"
     },
     {
       "hash": "1909361912",
@@ -16793,6 +16993,10 @@
       "s": "Start this activity on the selected players"
     },
     {
+      "hash": "1981734890",
+      "s": "Immediately stop the carrier and hold its current position"
+    },
+    {
       "hash": "1981809733",
       "s": "Chams tint (Legacy only)"
     },
@@ -17301,6 +17505,10 @@
       "s": "Cloud Width"
     },
     {
+      "hash": "2031642918",
+      "s": "Ground Fires"
+    },
+    {
       "hash": "2031704623",
       "s": "Skydive Activity"
     },
@@ -17631,6 +17839,10 @@
     {
       "hash": "2071631184",
       "s": "Current tint"
+    },
+    {
+      "hash": "2072616434",
+      "s": "Reduce forward speed before flying into geometry"
     },
     {
       "hash": "2073145722",
@@ -18089,6 +18301,10 @@
       "s": "Aim to auto-target nearby peds; fire to hit them"
     },
     {
+      "hash": "2124552377",
+      "s": "Mount or Dismount"
+    },
+    {
       "hash": "2126261029",
       "s": "Capped at 8 parties."
     },
@@ -18127,6 +18343,10 @@
     {
       "hash": "2129197025",
       "s": "Min Value"
+    },
+    {
+      "hash": "2130079633",
+      "s": "Attack fires; Aim switches between top and bottom battery views"
     },
     {
       "hash": "2130795354",
@@ -18355,6 +18575,10 @@
     {
       "hash": "2152097649",
       "s": "Recruit a saved favourite ped"
+    },
+    {
+      "hash": "2152284502",
+      "s": "Joint Sparks"
     },
     {
       "hash": "2152504194",
@@ -18625,6 +18849,10 @@
       "s": "Rockstar ID"
     },
     {
+      "hash": "2186796529",
+      "s": "Prevent the controller and dragon parts from taking damage"
+    },
+    {
       "hash": "2187049459",
       "s": "Metallic Racing Green"
     },
@@ -18705,6 +18933,10 @@
       "s": "Grant the selected abilities to your vehicle"
     },
     {
+      "hash": "2197046440",
+      "s": "Maximum reach of the fire stream"
+    },
+    {
       "hash": "2197053959",
       "s": "Ride, steer, boost, and ollie on a skateboard"
     },
@@ -18763,6 +18995,10 @@
     {
       "hash": "2204810991",
       "s": "Spawn a giant windmill beside this player"
+    },
+    {
+      "hash": "2205013302",
+      "s": "Vehicle Heat Damage"
     },
     {
       "hash": "2205187716",
@@ -18867,6 +19103,10 @@
     {
       "hash": "2217903373",
       "s": "Detonate at the aim point while holding Aim"
+    },
+    {
+      "hash": "2217945364",
+      "s": "Let the companion attack hostile NPCs near you"
     },
     {
       "hash": "2218215376",
@@ -19653,6 +19893,10 @@
       "s": "Teleport yourself to this player"
     },
     {
+      "hash": "2308477551",
+      "s": "How quickly sustained fire breath overheats"
+    },
+    {
       "hash": "2310173011",
       "s": "All career challenges completed."
     },
@@ -19699,6 +19943,10 @@
     {
       "hash": "2315328784",
       "s": "SALV23 setup cost = free"
+    },
+    {
+      "hash": "2316542249",
+      "s": "Cooling Per Second"
     },
     {
       "hash": "2316596499",
@@ -19755,6 +20003,10 @@
     {
       "hash": "2324788261",
       "s": "Shipwreck completed."
+    },
+    {
+      "hash": "2325824898",
+      "s": "War carrier deployed in an armed hover."
     },
     {
       "hash": "2326822477",
@@ -19909,10 +20161,6 @@
       "s": "Entities"
     },
     {
-      "hash": "2345815240",
-      "s": "Resize ped bones"
-    },
-    {
       "hash": "2345890787",
       "s": "Spooner MarkerEdit"
     },
@@ -20027,6 +20275,10 @@
     {
       "hash": "2360318072",
       "s": "Capture Map Waypoint"
+    },
+    {
+      "hash": "2360470798",
+      "s": "Carrier stopped; you can walk normally on the flight deck."
     },
     {
       "hash": "2360509865",
@@ -20159,6 +20411,10 @@
     {
       "hash": "2374433898",
       "s": "Advertise your session under a different language"
+    },
+    {
+      "hash": "2375201819",
+      "s": "No entity lock; guided missiles need a green reticle."
     },
     {
       "hash": "2375544724",
@@ -20505,6 +20761,10 @@
       "s": "Aim at an entity to inspect it; fire to copy the hash"
     },
     {
+      "hash": "2418646270",
+      "s": "Return To Me"
+    },
+    {
       "hash": "2420120741",
       "s": "Could not prepare the store script"
     },
@@ -20659,10 +20919,6 @@
     {
       "hash": "2441460515",
       "s": "Spooner MSExtras"
-    },
-    {
-      "hash": "2443887243",
-      "s": "Big head mode"
     },
     {
       "hash": "2444596774",
@@ -21065,6 +21321,10 @@
       "s": "Attack to spawn clones that fight for you"
     },
     {
+      "hash": "2486282227",
+      "s": "Engage occupied vehicles driven by non-player peds"
+    },
+    {
       "hash": "2487135864",
       "s": "Monitor this friend's joinable status (notify / auto-join)"
     },
@@ -21161,6 +21421,10 @@
       "s": "Backseat Driver"
     },
     {
+      "hash": "2499963771",
+      "s": "Mechanical Dragon Movement"
+    },
+    {
       "hash": "2500037000",
       "s": "Right underglow"
     },
@@ -21243,6 +21507,10 @@
     {
       "hash": "2510669438",
       "s": "VPN / Proxy"
+    },
+    {
+      "hash": "2510750619",
+      "s": "No deployed carrier is available to stop."
     },
     {
       "hash": "2510926611",
@@ -21585,6 +21853,10 @@
       "s": "Infinite Lock Range"
     },
     {
+      "hash": "2548759743",
+      "s": "Permit attacks against occupied planes and helicopters"
+    },
+    {
       "hash": "2548832573",
       "s": "Jobs"
     },
@@ -21841,6 +22113,10 @@
       "s": "Rain cash, collectible, recovery, ammo, and weapon pickups at a selected location"
     },
     {
+      "hash": "2583039049",
+      "s": "Stick To Target"
+    },
+    {
       "hash": "2585365565",
       "s": "Cut, mission state, trigger, skips"
     },
@@ -21925,6 +22201,10 @@
       "s": "Spawn and drive a freight train"
     },
     {
+      "hash": "2593614898",
+      "s": "Mechanical Dragon Appearance"
+    },
+    {
       "hash": "2594222618",
       "s": "Unavailable"
     },
@@ -21971,10 +22251,6 @@
     {
       "hash": "2599890938",
       "s": "Number plate style"
-    },
-    {
-      "hash": "2600816827",
-      "s": "Hands only"
     },
     {
       "hash": "2601000381",
@@ -22091,6 +22367,10 @@
     {
       "hash": "2612423145",
       "s": "Sky Intensity"
+    },
+    {
+      "hash": "2613547406",
+      "s": "Flame Cone"
     },
     {
       "hash": "2613700466",
@@ -23027,6 +23307,10 @@
     {
       "hash": "2729825146",
       "s": "Type a crew name, press Enter"
+    },
+    {
+      "hash": "2730659505",
+      "s": "Area affected by each fire impact explosion"
     },
     {
       "hash": "2731101941",
@@ -24013,6 +24297,10 @@
       "s": "Append the task to the selected entity's sequence"
     },
     {
+      "hash": "2839121740",
+      "s": "Ride visibly, become the dragon, or let it follow as a companion"
+    },
+    {
       "hash": "2839191545",
       "s": "Recolour all particle effects"
     },
@@ -24251,6 +24539,10 @@
     {
       "hash": "2867963431",
       "s": "Wildlife photography completed."
+    },
+    {
+      "hash": "2868358094",
+      "s": "Descend and settle onto the terrain below"
     },
     {
       "hash": "2869198228",
@@ -24553,6 +24845,10 @@
       "s": "Offset Up"
     },
     {
+      "hash": "2900023894",
+      "s": "How quickly the dragon turns toward movement"
+    },
+    {
       "hash": "2900030627",
       "s": "Force ragdoll on the selected players"
     },
@@ -24587,6 +24883,10 @@
     {
       "hash": "2903711519",
       "s": "Request sent."
+    },
+    {
+      "hash": "2904190037",
+      "s": "Ground movement speed"
     },
     {
       "hash": "2905489395",
@@ -24687,6 +24987,10 @@
     {
       "hash": "2914874554",
       "s": "Metallic Orange"
+    },
+    {
+      "hash": "2915354097",
+      "s": "Top battery camera active."
     },
     {
       "hash": "2916065317",
@@ -24995,10 +25299,6 @@
     {
       "hash": "2949843597",
       "s": "Live handling value (type to set exactly)"
-    },
-    {
-      "hash": "2950079333",
-      "s": "Resize individual bones -- big head, big hands"
     },
     {
       "hash": "2950554203",
@@ -25327,6 +25627,10 @@
     {
       "hash": "2998631903",
       "s": "Looped is faithful; switch to Re-fire if the funnel renders nothing"
+    },
+    {
+      "hash": "2999683047",
+      "s": "Deploy the carrier before enabling follow mode."
     },
     {
       "hash": "3000522959",
@@ -25667,6 +25971,10 @@
     {
       "hash": "3043933501",
       "s": "Hit Sound"
+    },
+    {
+      "hash": "3044142668",
+      "s": "The carrier is now orbiting you."
     },
     {
       "hash": "3044562717",
@@ -26149,6 +26457,10 @@
       "s": "Stat Manager Presets"
     },
     {
+      "hash": "3103077064",
+      "s": "Call Dragon"
+    },
+    {
       "hash": "3104406267",
       "s": "Collectibles"
     },
@@ -26199,10 +26511,6 @@
     {
       "hash": "3112034633",
       "s": "Multi Vortex"
-    },
-    {
-      "hash": "3112201319",
-      "s": "Chest and everything above it"
     },
     {
       "hash": "3112339959",
@@ -26449,10 +26757,6 @@
       "s": "Gun"
     },
     {
-      "hash": "3140573726",
-      "s": "Bone Scaling"
-    },
-    {
       "hash": "3141311701",
       "s": "Time between ragdoll pulses per player"
     },
@@ -26523,6 +26827,10 @@
     {
       "hash": "3146471143",
       "s": "Green 0-255"
+    },
+    {
+      "hash": "3146882323",
+      "s": "Damage and knockback multiplier for biting"
     },
     {
       "hash": "3147195660",
@@ -26713,6 +27021,10 @@
       "s": "Could not control the event vehicle"
     },
     {
+      "hash": "3168466837",
+      "s": "Dragon lights, trails, sparks, rider visibility and camera"
+    },
+    {
       "hash": "3168644243",
       "s": "Teleport to the selected event's synchronized trigger position"
     },
@@ -26773,8 +27085,16 @@
       "s": "Reset flow/status stats + redraw board"
     },
     {
+      "hash": "3173280491",
+      "s": "Flame Range"
+    },
+    {
       "hash": "3174400819",
       "s": "Clear Override"
+    },
+    {
+      "hash": "3175072867",
+      "s": "Assemble and control an articulated fire-breathing mechanical dragon"
     },
     {
       "hash": "3175145182",
@@ -26901,6 +27221,10 @@
       "s": "Apply Action to rear-left"
     },
     {
+      "hash": "3190100451",
+      "s": "Dive Strike Power"
+    },
+    {
       "hash": "3190292920",
       "s": "Util Bright Red"
     },
@@ -27007,6 +27331,10 @@
     {
       "hash": "3201942360",
       "s": "Matte Purple"
+    },
+    {
+      "hash": "3202316353",
+      "s": "Enable the upper and underside rapid defensive gun mounts"
     },
     {
       "hash": "3202335135",
@@ -27231,6 +27559,10 @@
     {
       "hash": "3229371032",
       "s": "CIS"
+    },
+    {
+      "hash": "3229460687",
+      "s": "Distance used to search for threats around the player"
     },
     {
       "hash": "3229718447",
@@ -27519,6 +27851,10 @@
     {
       "hash": "3266091265",
       "s": "Restore the default placement and size"
+    },
+    {
+      "hash": "3266358260",
+      "s": "Land Dragon"
     },
     {
       "hash": "3266629155",
@@ -27969,6 +28305,10 @@
       "s": "Enable Trail"
     },
     {
+      "hash": "3319571848",
+      "s": "Carrier stopped and holding position."
+    },
+    {
       "hash": "3320677676",
       "s": "This Entity Only"
     },
@@ -28053,6 +28393,10 @@
       "s": "Teleported to entity."
     },
     {
+      "hash": "3327480301",
+      "s": "How smoothly flight velocity changes"
+    },
+    {
       "hash": "3327960083",
       "s": "Attack to teleport where you aim"
     },
@@ -28083,6 +28427,10 @@
     {
       "hash": "3332279216",
       "s": "Weather B"
+    },
+    {
+      "hash": "3333351688",
+      "s": "Fire Breath"
     },
     {
       "hash": "3334847941",
@@ -28139,6 +28487,10 @@
     {
       "hash": "3340687964",
       "s": "Required damage-event signature is unavailable."
+    },
+    {
+      "hash": "3340761466",
+      "s": "Show Rider"
     },
     {
       "hash": "3340983205",
@@ -28303,6 +28655,10 @@
     {
       "hash": "3356255274",
       "s": "Super-flight top speed"
+    },
+    {
+      "hash": "3356929621",
+      "s": "Aim at an entity or enable an eligible target filter before firing."
     },
     {
       "hash": "3357542941",
@@ -29257,6 +29613,10 @@
       "s": "Visual thickness of the chest beam"
     },
     {
+      "hash": "3460306378",
+      "s": "Companion Defense"
+    },
+    {
       "hash": "3460511827",
       "s": "Delete every nearby world vehicle"
     },
@@ -29443,6 +29803,10 @@
     {
       "hash": "3484099454",
       "s": "Height of the light wall (metres)"
+    },
+    {
+      "hash": "3484383791",
+      "s": "Damage world entities struck during boosted flight"
     },
     {
       "hash": "3484752196",
@@ -30041,6 +30405,10 @@
       "s": "Client-side only on this build -- the basket rewriter is Enhanced-only. Purchases will still be charged."
     },
     {
+      "hash": "3556989860",
+      "s": "Damage and shockwave multiplier for diving impacts"
+    },
+    {
       "hash": "3557149254",
       "s": "Orbit Speed"
     },
@@ -30175,6 +30543,10 @@
     {
       "hash": "3571928026",
       "s": "Trap them in a large container"
+    },
+    {
+      "hash": "3573376758",
+      "s": "Eye Glow"
     },
     {
       "hash": "3573505402",
@@ -30351,6 +30723,10 @@
     {
       "hash": "3596565489",
       "s": "Flight Smoothness"
+    },
+    {
+      "hash": "3597106948",
+      "s": "Switch between visible riding and companion control"
     },
     {
       "hash": "3597143708",
@@ -30693,6 +31069,10 @@
       "s": "Fixer preps & cooldowns"
     },
     {
+      "hash": "3630852481",
+      "s": "Bring the companion dragon back near you"
+    },
+    {
       "hash": "3630915511",
       "s": "Enable Shake Camera"
     },
@@ -30805,10 +31185,6 @@
       "s": "The carrier models could not be loaded."
     },
     {
-      "hash": "3642163390",
-      "s": "Hands"
-    },
-    {
       "hash": "3642727234",
       "s": "Force this engine audio"
     },
@@ -30847,6 +31223,10 @@
     {
       "hash": "3647495809",
       "s": "Deploy and arm the carrier before firing."
+    },
+    {
+      "hash": "3647737422",
+      "s": "Companion"
     },
     {
       "hash": "3648846539",
@@ -30895,6 +31275,10 @@
     {
       "hash": "3651579167",
       "s": "Gimbal damping in seconds; 0 is instant, higher is heavier"
+    },
+    {
+      "hash": "3651798695",
+      "s": "Deploy Mechanical Dragon"
     },
     {
       "hash": "3652625294",
@@ -31925,6 +32309,10 @@
       "s": "Convoy vehicle set."
     },
     {
+      "hash": "3765880946",
+      "s": "Command camera active: Attack fires and Aim switches top/bottom view."
+    },
+    {
       "hash": "3766597846",
       "s": "Associates"
     },
@@ -32949,6 +33337,10 @@
       "s": "Worn"
     },
     {
+      "hash": "3873259962",
+      "s": "Bite, tail swipe, dive strike, ramming and companion defense"
+    },
+    {
       "hash": "3873278038",
       "s": "Menu size multiplier (auto x this)"
     },
@@ -33103,6 +33495,10 @@
     {
       "hash": "3889009562",
       "s": "Sun Damage"
+    },
+    {
+      "hash": "3889214104",
+      "s": "Wing Trails"
     },
     {
       "hash": "3890246650",
@@ -33285,10 +33681,6 @@
       "s": "Fire Selected Launcher"
     },
     {
-      "hash": "3908445940",
-      "s": "Arms"
-    },
-    {
       "hash": "3908940701",
       "s": "Trailer Right"
     },
@@ -33399,6 +33791,10 @@
     {
       "hash": "3919579539",
       "s": "Choose an automatic response for attributed crash protections"
+    },
+    {
+      "hash": "3919651218",
+      "s": "Dismiss Dragon"
     },
     {
       "hash": "3920845272",
@@ -34301,6 +34697,10 @@
       "s": "Could not acquire the running event's script host"
     },
     {
+      "hash": "4023599233",
+      "s": "Enable the upper and underside guided missile batteries"
+    },
+    {
       "hash": "4023690303",
       "s": "Set a move/rotate offset first."
     },
@@ -34757,6 +35157,10 @@
       "s": "Max Peds Rendered"
     },
     {
+      "hash": "4072457343",
+      "s": "Normal forward flight speed"
+    },
+    {
       "hash": "4073095162",
       "s": "Brushed Aluminium"
     },
@@ -34767,6 +35171,10 @@
     {
       "hash": "4073361913",
       "s": "Time between explosions per player"
+    },
+    {
+      "hash": "4073859955",
+      "s": "Control Mode"
     },
     {
       "hash": "4074268421",
@@ -34817,6 +35225,10 @@
       "s": "Request the SecuroServ Volatus"
     },
     {
+      "hash": "4079166927",
+      "s": "Deploy the carrier before boarding it."
+    },
+    {
       "hash": "4079213138",
       "s": "Network Friend Message"
     },
@@ -34835,10 +35247,6 @@
     {
       "hash": "4081109891",
       "s": "Discount Voucher"
-    },
-    {
-      "hash": "4081868894",
-      "s": "Engage nearby vehicles not occupied by players"
     },
     {
       "hash": "4082352008",
@@ -35001,6 +35409,10 @@
       "s": "Change replacement"
     },
     {
+      "hash": "4101913572",
+      "s": "Invincible Dragon"
+    },
+    {
       "hash": "4102821863",
       "s": "Gears"
     },
@@ -35031,6 +35443,10 @@
     {
       "hash": "4104737519",
       "s": "Selected — click to remove"
+    },
+    {
+      "hash": "4105916887",
+      "s": "Heat Per Second"
     },
     {
       "hash": "4106174994",
@@ -35973,6 +36389,10 @@
       "s": "Yellow / Black"
     },
     {
+      "hash": "4207001419",
+      "s": "The carrier is returning to your position."
+    },
+    {
       "hash": "4207128466",
       "s": "Apply the options below to nearby traffic"
     },
@@ -36039,6 +36459,10 @@
     {
       "hash": "4215329880",
       "s": "Copied their outfit."
+    },
+    {
+      "hash": "4215398632",
+      "s": "Damage applied to NPCs on each fire pulse"
     },
     {
       "hash": "4216771280",
@@ -36485,6 +36909,10 @@
       "s": "Spooner Badges"
     },
     {
+      "hash": "4266503293",
+      "s": "Follow Me"
+    },
+    {
       "hash": "4266747014",
       "s": "packed "
     },
@@ -36551,6 +36979,10 @@
     {
       "hash": "4274420842",
       "s": "Player Social"
+    },
+    {
+      "hash": "4275291599",
+      "s": "Speed of the articulated wing animation"
     },
     {
       "hash": "4275737436",
