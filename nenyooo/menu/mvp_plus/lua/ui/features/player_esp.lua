@@ -25,7 +25,7 @@ features.on_draw("Player ESP", function(f)
             local points = {}
             for i = 1, 10 do
                 local at = (i - 1) * 3 + 1
-                points[i] = { values[at], values[at + 1], values[at + 2] }
+                points[i] = { values[at] * sw, values[at + 1] * sh, values[at + 2] }
             end
             if points[1][3] == 1 and points[9][3] == 1 and points[10][3] == 1 then
                 local head_x, head_y = points[1][1], points[1][2]

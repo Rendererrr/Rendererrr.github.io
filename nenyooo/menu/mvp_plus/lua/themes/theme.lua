@@ -724,7 +724,7 @@ function draw_menu()
     local sy = y + HDR_H + HDR_GAP
     draw.rect(x, sy, x+WIN_W, sy+SUB_H, COL.sub_bg[1],COL.sub_bg[2],COL.sub_bg[3],alpha(COL.sub_bg))
     local title_x = x + PAD_X
-    local title = string.upper(menu.page_name() or "MENU")
+    local title = string.upper(menu.page_title() or "MENU")
     -- subtle glare sweep
     text.draw_spaced(font.breadcrumb, title_x, sy+(SUB_H-text.height(font.breadcrumb))*0.5,
         COL.sub_txt[1],COL.sub_txt[2],COL.sub_txt[3],alpha(COL.sub_txt), title, 1.0)

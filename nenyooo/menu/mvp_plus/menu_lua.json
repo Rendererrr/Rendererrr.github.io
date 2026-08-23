@@ -87,6 +87,21 @@
     },
     {
       "root": "global",
+      "rel": "ui.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/ui.lua"
+    },
+    {
+      "root": "global",
+      "rel": "ui_skin.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/ui_skin.lua"
+    },
+    {
+      "root": "global",
+      "rel": "ui_widgets.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/ui_widgets.lua"
+    },
+    {
+      "root": "global",
       "rel": "util.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/util.lua"
     },
@@ -194,6 +209,11 @@
       "root": "ui",
       "rel": "features/ufo_mode.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/ufo_mode.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/witch_mode.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/witch_mode.lua"
     },
     {
       "root": "ui",

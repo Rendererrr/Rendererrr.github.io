@@ -1,11 +1,11 @@
 local DLC_PAGES = {
-    [util.joaat("Custom DLCs")] = true,
-    [util.joaat("DLC Peds")] = true,
-    [util.joaat("DLC Weapons")] = true,
-    [util.joaat("DLC Vehicles")] = true,
-    [util.joaat("DLC Overrides")] = true,
-    [util.joaat("DLC Pack")] = true,
-    [util.joaat("Spoofing")] = true,
+    [0x09272D6A] = true,
+    [0x75022233] = true,
+    [0xDD98E9C5] = true,
+    [0x67D5C10C] = true,
+    [0xA58BEE9F] = true,
+    [0x0473EABE] = true,
+    [0x801AC191] = true,
 }
 
 local function wrap(fnt, value, max_width)
