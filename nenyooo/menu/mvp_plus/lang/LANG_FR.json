@@ -1273,10 +1273,6 @@
       "s": "Projeter les véhicules à proximité en l'air"
     },
     {
-      "hash": "130378477",
-      "s": "Vous téléporte vers eux + visée balayant les tireurs animaux (déplace votre personnage)"
-    },
-    {
       "hash": "130398625",
       "s": "Osirisuma"
     },
@@ -3685,6 +3681,10 @@
       "s": "Demander le Buzzard SecuroServ"
     },
     {
+      "hash": "370352784",
+      "s": "Entoure la cible d'un anneau d'avions gelés."
+    },
+    {
       "hash": "370355590",
       "s": "Véhicule additionnel apparu."
     },
@@ -3803,10 +3803,6 @@
     {
       "hash": "384051917",
       "s": "Déclencher une tornade"
-    },
-    {
-      "hash": "384141388",
-      "s": "Aucune session trouvée"
     },
     {
       "hash": "384148170",
@@ -4209,6 +4205,10 @@
       "s": "Saut hors de l'avion"
     },
     {
+      "hash": "426119162",
+      "s": "Corrompt l'arbre de synchronisation réseau de la cible."
+    },
+    {
       "hash": "426766471",
       "s": "Dessiner un marqueur au-dessus de la tête de chaque cible"
     },
@@ -4453,6 +4453,10 @@
       "s": "Entreprises"
     },
     {
+      "hash": "448890981",
+      "s": "Un crash basé sur la physique et les animaux."
+    },
+    {
       "hash": "448936021",
       "s": "Marquer les joueurs 1-3 prêts. Local uniquement : chaque joueur retransmet son propre état prêt, ils ne le verront donc pas."
     },
@@ -4599,6 +4603,10 @@
     {
       "hash": "459641114",
       "s": "Nombre d'ennemis"
+    },
+    {
+      "hash": "459702522",
+      "s": "Crash de l'arbre de synchronisation"
     },
     {
       "hash": "460167009",
@@ -5635,10 +5643,6 @@
     {
       "hash": "577719243",
       "s": "Échelle des dégâts"
-    },
-    {
-      "hash": "578733150",
-      "s": "Appuyer sur Actualiser pour rechercher"
     },
     {
       "hash": "579075157",
@@ -6841,6 +6845,10 @@
       "s": "Nécessite un deuxième appui pour confirmer"
     },
     {
+      "hash": "694755863",
+      "s": "Crash du parachute"
+    },
+    {
       "hash": "694808077",
       "s": "Supprimer toutes les entités invalides de la base de données"
     },
@@ -7621,10 +7629,6 @@
       "s": "Durée de suivi de la cible par le drone"
     },
     {
-      "hash": "772465499",
-      "s": "Trouver et rejoindre des sessions disponibles"
-    },
-    {
       "hash": "772612503",
       "s": "Sans titre"
     },
@@ -8191,6 +8195,10 @@
     {
       "hash": "830301911",
       "s": "Forcer l'interaction"
+    },
+    {
+      "hash": "830518030",
+      "s": "Double attaque"
     },
     {
       "hash": "830601283",
@@ -11129,10 +11137,6 @@
       "s": "Échappement"
     },
     {
-      "hash": "1138362120",
-      "s": "Assistance à la visée"
-    },
-    {
       "hash": "1139445415",
       "s": "Bonus Manoir"
     },
@@ -11941,10 +11945,6 @@
       "s": "NtTerminateProcess introuvable"
     },
     {
-      "hash": "1216083408",
-      "s": "Demande de matchmaking pour les sessions"
-    },
-    {
       "hash": "1216344788",
       "s": "Compléter chaque catégorie de récompense prise en charge pour la cible de récupération sélectionnée"
     },
@@ -12187,6 +12187,10 @@
     {
       "hash": "1239294179",
       "s": "Aucun (Arrêter les explosions)"
+    },
+    {
+      "hash": "1239305755",
+      "s": "Tempête de fragments"
     },
     {
       "hash": "1239371229",
@@ -13031,10 +13035,6 @@
     {
       "hash": "1323661752",
       "s": "Accumuler des points en tombant et atterrir en toute sécurité"
-    },
-    {
-      "hash": "1323938071",
-      "s": "Faire apparaître un épais feuillage sur eux"
     },
     {
       "hash": "1324185161",
@@ -14653,10 +14653,6 @@
       "s": "Feu du dragon"
     },
     {
-      "hash": "1491447932",
-      "s": "Faire apparaître un modèle humain SLOD sur eux"
-    },
-    {
       "hash": "1492360876",
       "s": "Délai de récupération après une élimination"
     },
@@ -14921,6 +14917,10 @@
       "s": "Supprimer les modifications de roues"
     },
     {
+      "hash": "1520708648",
+      "s": "Déploie de grandes entités d'avions au-dessus de la cible."
+    },
+    {
       "hash": "1520836718",
       "s": "Étirement vertical -- 1.00 = pas de rebond haut/bas"
     },
@@ -15135,10 +15135,6 @@
     {
       "hash": "1539242601",
       "s": "Lien"
-    },
-    {
-      "hash": "1540136570",
-      "s": "Déclencher le crash de l'événement de script en deux parties"
     },
     {
       "hash": "1540716400",
@@ -16145,10 +16141,6 @@
       "s": "Fonction des lignes ci-dessous"
     },
     {
-      "hash": "1643384948",
-      "s": "Visée libre"
-    },
-    {
       "hash": "1643439175",
       "s": "Enregistrer le champ Nom de la tenue dans l'emplacement GTA Online sélectionné"
     },
@@ -16435,6 +16427,10 @@
     {
       "hash": "1679766976",
       "s": "Solde de sécurité actuel (lecture seule)"
+    },
+    {
+      "hash": "1679859105",
+      "s": "Crash Lexis V4"
     },
     {
       "hash": "1680575537",
@@ -16785,12 +16781,20 @@
       "s": "Saisissez un grade à offrir (niveau → RP), puis appuyez sur Entrée pour appliquer."
     },
     {
+      "hash": "1713041687",
+      "s": "Crash de masse de fragments"
+    },
+    {
       "hash": "1713204910",
       "s": "Délai de recharge de la vente exécutive."
     },
     {
       "hash": "1713539492",
       "s": "Superposition."
+    },
+    {
+      "hash": "1714048506",
+      "s": "Déploie des piétons réseau armés avec des tâches d'IA conflictuelles."
     },
     {
       "hash": "1714405627",
@@ -16847,6 +16851,10 @@
     {
       "hash": "1719777806",
       "s": "Équiper le fusil à rayons extraterrestres"
+    },
+    {
+      "hash": "1720373998",
+      "s": "Une attaque lourde et multicouche utilisant des avions et des fragments."
     },
     {
       "hash": "1721080620",
@@ -17207,10 +17215,6 @@
     {
       "hash": "1758737357",
       "s": "Conduire sur le fond marin (supprime la traînée d'eau)"
-    },
-    {
-      "hash": "1758874943",
-      "s": "Faire apparaître un lanceur ragdoll"
     },
     {
       "hash": "1759229156",
@@ -18185,10 +18189,6 @@
       "s": "Armes Gadget"
     },
     {
-      "hash": "1861500551",
-      "s": "Recherche échouée"
-    },
-    {
       "hash": "1861521514",
       "s": "Envoi du groupe"
     },
@@ -18365,10 +18365,6 @@
       "s": "Laisser tomber des balles"
     },
     {
-      "hash": "1877073560",
-      "s": "Rechercher des sessions accessibles"
-    },
-    {
       "hash": "1877734863",
       "s": "Portière passager"
     },
@@ -18399,6 +18395,10 @@
     {
       "hash": "1879100949",
       "s": "Capture d'écran enregistrée."
+    },
+    {
+      "hash": "1879540463",
+      "s": "Crash du kit de parachute"
     },
     {
       "hash": "1879780237",
@@ -18591,6 +18591,10 @@
     {
       "hash": "1894548381",
       "s": "Couleur utilisée par les visuels de l'Aimbot"
+    },
+    {
+      "hash": "1894926977",
+      "s": "Crash NS Top"
     },
     {
       "hash": "1894940408",
@@ -18993,12 +18997,20 @@
       "s": "Type"
     },
     {
+      "hash": "1931375409",
+      "s": "Attaque des tâches de Peds"
+    },
+    {
       "hash": "1931390427",
       "s": "Déplacer chaque joueur sélectionné vers votre point de repère sur la carte"
     },
     {
       "hash": "1931422736",
       "s": "Barre mince de vitesse du moteur sous la lecture"
+    },
+    {
+      "hash": "1931457764",
+      "s": "Déploie un dispositif de crash basé sur la physique sur la cible."
     },
     {
       "hash": "1931690090",
@@ -19299,10 +19311,6 @@
     {
       "hash": "1962909334",
       "s": "Rayon de ciblage en pixels d'écran"
-    },
-    {
-      "hash": "1963169301",
-      "s": "Faire apparaître une vache et un fragment de débris sur elle"
     },
     {
       "hash": "1963372836",
@@ -19925,10 +19933,6 @@
       "s": "Fondu automatique"
     },
     {
-      "hash": "2019528708",
-      "s": "Région inconnue"
-    },
-    {
       "hash": "2019569151",
       "s": "Foudre"
     },
@@ -20123,6 +20127,10 @@
     {
       "hash": "2036230715",
       "s": "Rappel depuis l'hélicoptère"
+    },
+    {
+      "hash": "2036590442",
+      "s": "Chaîne d'explosions"
     },
     {
       "hash": "2036940963",
@@ -20515,10 +20523,6 @@
     {
       "hash": "2080535053",
       "s": "Multiplicateur de vitesse de vol en maintenant Sprint"
-    },
-    {
-      "hash": "2080707134",
-      "s": "Activer d'abord le Créateur de corde."
     },
     {
       "hash": "2080907550",
@@ -21581,6 +21585,10 @@
       "s": "Restaurer la caméra normale"
     },
     {
+      "hash": "2176032000",
+      "s": "Crash de fragments"
+    },
+    {
       "hash": "2176034600",
       "s": "Débarrassement du terrain"
     },
@@ -22223,6 +22231,10 @@
     {
       "hash": "2247569557",
       "s": "Multiplicateur de force"
+    },
+    {
+      "hash": "2248061174",
+      "s": "Enchaîne des véhicules spéciaux lumineux ensemble sur la cible."
     },
     {
       "hash": "2248298330",
@@ -22905,6 +22917,10 @@
       "s": "Sentiers de roches"
     },
     {
+      "hash": "2314008144",
+      "s": "Surcharge le rendu de la cible avec des modèles de joueurs."
+    },
+    {
       "hash": "2314047641",
       "s": "Parcourir les garages de propriétés et appeler les véhicules sauvegardés"
     },
@@ -23165,10 +23181,6 @@
       "s": "Appliquer l'action à la portière passager"
     },
     {
-      "hash": "2342417479",
-      "s": "Faire apparaître 50 modèles de piétons empilés eux"
-    },
-    {
       "hash": "2343031903",
       "s": "Hors véhicule"
     },
@@ -23321,6 +23333,10 @@
       "s": "Tir à la tire"
     },
     {
+      "hash": "2359462716",
+      "s": "Crash de l'avion de fret"
+    },
+    {
       "hash": "2359595801",
       "s": "Demander le paiement actuel du catalogue pour l'application des cautions"
     },
@@ -23379,6 +23395,10 @@
     {
       "hash": "2364787335",
       "s": "Échap pour annuler"
+    },
+    {
+      "hash": "2365300345",
+      "s": "Crash de l'anneau Hunter"
     },
     {
       "hash": "2365656318",
@@ -23607,6 +23627,10 @@
     {
       "hash": "2388535239",
       "s": "Manuel Spooner"
+    },
+    {
+      "hash": "2389420274",
+      "s": "Déclenche une propagation d'explosions autour de la cible."
     },
     {
       "hash": "2389463572",
@@ -24045,6 +24069,10 @@
       "s": "Inclure les autres joueurs"
     },
     {
+      "hash": "2440777822",
+      "s": "Surcharge le pipeline de rendu des Peds de la cible."
+    },
+    {
       "hash": "2441460515",
       "s": "Extras MSE Spooner"
     },
@@ -24099,6 +24127,10 @@
     {
       "hash": "2447202134",
       "s": "Sanglier"
+    },
+    {
+      "hash": "2447511645",
+      "s": "Lance plusieurs objets physiques fragmentés sur la cible."
     },
     {
       "hash": "2447644545",
@@ -24503,6 +24535,10 @@
     {
       "hash": "2486897027",
       "s": "Impossible d'ouvrir l'organisateur de véhicules"
+    },
+    {
+      "hash": "2487028593",
+      "s": "Utilise la physique fragmentée destructible contre la cible."
     },
     {
       "hash": "2487135864",
@@ -25007,6 +25043,10 @@
     {
       "hash": "2537922048",
       "s": "Impact explosif"
+    },
+    {
+      "hash": "2538148662",
+      "s": "Envoie un événement de script malformé ciblé au joueur."
     },
     {
       "hash": "2538728388",
@@ -27489,10 +27529,6 @@
       "s": "Recharger et gérer les scripts Lua"
     },
     {
-      "hash": "2802683354",
-      "s": "Le matchmaking n'a pas répondu. Réessayer Actualiser"
-    },
-    {
       "hash": "2802885757",
       "s": "Stations d'opération"
     },
@@ -27943,6 +27979,10 @@
     {
       "hash": "2843736156",
       "s": "Modèle modifié."
+    },
+    {
+      "hash": "2843850323",
+      "s": "Fait apparaître des combinaisons de modèles invalides sur la cible."
     },
     {
       "hash": "2844087485",
@@ -28737,6 +28777,10 @@
       "s": "Randomiser le point sélectionné autour de son os"
     },
     {
+      "hash": "2925879342",
+      "s": "Exploite le système de niveau de détail de streaming."
+    },
+    {
       "hash": "2926061212",
       "s": "Blitzé"
     },
@@ -29293,6 +29337,10 @@
       "s": "Vêtements"
     },
     {
+      "hash": "2986595769",
+      "s": "Une attaque de crash basée sur un piéton. Déplace temporairement votre position."
+    },
+    {
       "hash": "2987283230",
       "s": "État & Accès"
     },
@@ -29503,6 +29551,10 @@
     {
       "hash": "3013647513",
       "s": "Voir les Peds et véhicules teints à travers les murs"
+    },
+    {
+      "hash": "3014018948",
+      "s": "Combine une chaîne d'explosions avec une attaque basée sur un véhicule."
     },
     {
       "hash": "3014428343",
@@ -31225,10 +31277,6 @@
       "s": "Pousser continuellement"
     },
     {
-      "hash": "3192424827",
-      "s": "Faire apparaître des PNJ traducteurs avec un gadget + explosion"
-    },
-    {
       "hash": "3192720123",
       "s": "Hors session"
     },
@@ -32773,6 +32821,10 @@
       "s": "Laisser tomber un sac en papier"
     },
     {
+      "hash": "3348678758",
+      "s": "Crash de modèle"
+    },
+    {
       "hash": "3349535926",
       "s": "Impossible de positionner le joueur à l'attraction"
     },
@@ -32795,6 +32847,10 @@
     {
       "hash": "3351032790",
       "s": "Le moteur démarre immédiatement à l'entrée"
+    },
+    {
+      "hash": "3351064466",
+      "s": "Inonde la cible d'entités de projectiles réseau."
     },
     {
       "hash": "3351373546",
@@ -34253,6 +34309,10 @@
       "s": "Manipulation du temps"
     },
     {
+      "hash": "3488555883",
+      "s": "Inonde le moteur physique de la cible d'objets fragmentés."
+    },
+    {
       "hash": "3488777037",
       "s": "Liste d'accessoires Spooner"
     },
@@ -35225,6 +35285,10 @@
       "s": "Épaisseur de la lueur du bord originale de Deadline"
     },
     {
+      "hash": "3589409730",
+      "s": "Une attaque combinée à haute intensité avec plusieurs vecteurs de crash."
+    },
+    {
       "hash": "3589655146",
       "s": "Sentinelle de l'accrochage rejetée à install_present ; abandon"
     },
@@ -35263,6 +35327,10 @@
     {
       "hash": "3593373753",
       "s": "Avancée."
+    },
+    {
+      "hash": "3593509832",
+      "s": "Cible le joueur via son véhicule actif."
     },
     {
       "hash": "3593716952",
@@ -35323,10 +35391,6 @@
     {
       "hash": "3598253121",
       "s": "Atténuation du faisceau lumineux"
-    },
-    {
-      "hash": "3598402172",
-      "s": "Cette session n'est plus accessible"
     },
     {
       "hash": "3598455572",
@@ -35495,6 +35559,10 @@
     {
       "hash": "3612598613",
       "s": "Héritage uniquement. Modifie vos données de session publicisées afin que les chercheurs vous classent plus haut : maintient le signal du matchmaking actif (BEACON_WEIGHT), rend la session publique et supprime la pénalité de mauvais joueur. Sûr (modifie le tampon sortant en vol, taille vérifiée) -- inerte si la version du jeu est différente. Désactivez si cela n'aide pas."
+    },
+    {
+      "hash": "3612731107",
+      "s": "Utilise un objet du monde pour faire planter la cible."
     },
     {
       "hash": "3613193354",
@@ -35707,10 +35775,6 @@
     {
       "hash": "3631000977",
       "s": "Force de frappe vers le bas sur le cadeau"
-    },
-    {
-      "hash": "3632166718",
-      "s": "Navigateur de sessions"
     },
     {
       "hash": "3632261047",
@@ -36127,6 +36191,10 @@
     {
       "hash": "3672441141",
       "s": "Remorqueurs par vague"
+    },
+    {
+      "hash": "3672466588",
+      "s": "Diffuse un état de parachute corrompu à la cible."
     },
     {
       "hash": "3672751874",
@@ -37341,10 +37409,6 @@
       "s": "Dégâts d'impact"
     },
     {
-      "hash": "3784935445",
-      "s": "Déclencher un événement de script malformé"
-    },
-    {
       "hash": "3785930074",
       "s": "Déplacer manuellement le placement Curseurs"
     },
@@ -37383,6 +37447,10 @@
     {
       "hash": "3788805120",
       "s": "Popularité"
+    },
+    {
+      "hash": "3788932552",
+      "s": "Crash Tempête de lumière"
     },
     {
       "hash": "3788967897",
@@ -37501,10 +37569,6 @@
       "s": "Méthode"
     },
     {
-      "hash": "3802703625",
-      "s": "Faire apparaître 50 modèles de joueurs"
-    },
-    {
       "hash": "3802809926",
       "s": "Création de crashs"
     },
@@ -37599,6 +37663,10 @@
     {
       "hash": "3811747017",
       "s": "Enlèvement par OVNI"
+    },
+    {
+      "hash": "3811906175",
+      "s": "Un crash basé sur Lua ciblant le joueur."
     },
     {
       "hash": "3812347470",
@@ -39385,10 +39453,6 @@
       "s": "Débloquer les vêtements Fronts Money"
     },
     {
-      "hash": "3979209437",
-      "s": "Inonder leur véhicule de tâches temporaires"
-    },
-    {
       "hash": "3980629389",
       "s": "Objets"
     },
@@ -39811,6 +39875,10 @@
     {
       "hash": "4022767562",
       "s": "Arme principale"
+    },
+    {
+      "hash": "4022835137",
+      "s": "Crash de chasseur avancé"
     },
     {
       "hash": "4022972171",
@@ -40365,6 +40433,10 @@
       "s": "Créer des explosions synchronisées autour de ce joueur"
     },
     {
+      "hash": "4075074679",
+      "s": "Crash de roquette"
+    },
+    {
       "hash": "4075120398",
       "s": "Frappe au sol"
     },
@@ -40551,6 +40623,10 @@
     {
       "hash": "4093188324",
       "s": "Supprimer le délai de rechargement de la configuration Farm Raid"
+    },
+    {
+      "hash": "4093201973",
+      "s": "Attaque combinée utilisant plusieurs vecteurs de crash simultanément."
     },
     {
       "hash": "4093828110",
@@ -41857,6 +41933,10 @@
       "s": "Boucler le paiement limité de l'histoire Juggalo à son prix catalogue"
     },
     {
+      "hash": "4215960897",
+      "s": "Déploie à plusieurs reprises un modèle de canopée de parachute invalide."
+    },
+    {
       "hash": "4217194210",
       "s": "Extras de P Trolling"
     },
@@ -42053,10 +42133,6 @@
       "s": "Météores explosifs guidés"
     },
     {
-      "hash": "4236594325",
-      "s": "Visée inconnue"
-    },
-    {
       "hash": "4236703245",
       "s": "Comment l'arme est portée"
     },
@@ -42151,10 +42227,6 @@
     {
       "hash": "4244847746",
       "s": "Grains de beauté/Taches de rousseur"
-    },
-    {
-      "hash": "4245068557",
-      "s": "Rien d'accessible pour le moment. Réessayer Actualiser"
     },
     {
       "hash": "4245529685",
@@ -42293,12 +42365,12 @@
       "s": "Nombre de fois que le fantôme se déplace"
     },
     {
-      "hash": "4257566499",
-      "s": "Laisser tomber un porte-monnaie d'argent"
+      "hash": "4257531615",
+      "s": "Une attaque multi-vecteurs intensifiée utilisant des aéronefs et des objets physiques."
     },
     {
-      "hash": "4258322948",
-      "s": "Sessions"
+      "hash": "4257566499",
+      "s": "Laisser tomber un porte-monnaie d'argent"
     },
     {
       "hash": "4258397271",
@@ -42339,6 +42411,10 @@
     {
       "hash": "4260706052",
       "s": "Portée maximale du puits de gravité"
+    },
+    {
+      "hash": "4261221605",
+      "s": "Crash de la colère divine"
     },
     {
       "hash": "4261242376",
@@ -42621,6 +42697,10 @@
       "s": "Animation faciale"
     },
     {
+      "hash": "4288198801",
+      "s": "Une attaque en deux étapes basée sur un événement de script."
+    },
+    {
       "hash": "4288811477",
       "s": "Arme de véhicule P"
     },
@@ -42635,6 +42715,10 @@
     {
       "hash": "4290667194",
       "s": "Ouvrir cette tâche dans l'éditeur de tâche"
+    },
+    {
+      "hash": "4290729930",
+      "s": "Diffuse un état de sac à parachute corrompu aux joueurs à proximité."
     },
     {
       "hash": "4291124586",
