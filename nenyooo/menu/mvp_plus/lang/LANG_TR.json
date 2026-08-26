@@ -557,10 +557,6 @@
       "s": "Varsayılan ayarlara geri döndürüldü"
     },
     {
-      "hash": "54113704",
-      "s": "Hareket Ettirirken Varlığı Dondur (Spooner Modu)"
-    },
-    {
       "hash": "55652338",
       "s": "Ev Sahibi Jetonu"
     },
@@ -777,6 +773,10 @@
       "s": "SecuroServ Duneloader'ı iste"
     },
     {
+      "hash": "78169442",
+      "s": "Yönlendirme çiziminin maksimum mesafesi"
+    },
+    {
       "hash": "78963743",
       "s": "Seçilen etkinlik kullanılamıyor"
     },
@@ -787,6 +787,10 @@
     {
       "hash": "79393754",
       "s": "Çizilebilir Nesne"
+    },
+    {
+      "hash": "79553358",
+      "s": "Denetleyici Kısayolları"
     },
     {
       "hash": "79648185",
@@ -1057,12 +1061,20 @@
       "s": "%s Görevi"
     },
     {
+      "hash": "110021721",
+      "s": "Bu oyun sürümü henüz desteklenmiyor"
+    },
+    {
       "hash": "110176113",
       "s": "Roket takviyesi (+ takviye sırasında ileri tekme)"
     },
     {
       "hash": "110238782",
       "s": "Tam Hızda"
+    },
+    {
+      "hash": "110659848",
+      "s": "Yakındaki yayalar ve oyuncunun geçitlerden geçmesine izin ver"
     },
     {
       "hash": "110977456",
@@ -1127,6 +1139,10 @@
     {
       "hash": "115222532",
       "s": "Diğer oyuncular tarafından ateş edilemez veya ateş edilmez; kapalıyken oyunu takip eder"
+    },
+    {
+      "hash": "115356846",
+      "s": "Hedef işaretçisinin rengi ve opaklığı"
     },
     {
       "hash": "115788900",
@@ -1215,6 +1231,10 @@
     {
       "hash": "125459984",
       "s": "Metre cinsinden maksimum ESP menzili"
+    },
+    {
+      "hash": "125655678",
+      "s": "El Bombası At"
     },
     {
       "hash": "125986397",
@@ -1621,6 +1641,10 @@
       "s": "Sadece en yakın N kırılabilir/parçalanabilir objeleri çiz (paletler, sandalyeler, tahtalar)"
     },
     {
+      "hash": "160280704",
+      "s": "Doğrudan ileride hızlı alevli bir mermi fırlat"
+    },
+    {
       "hash": "160822470",
       "s": "Kurulumu Yeniden Adlandır"
     },
@@ -1881,6 +1905,10 @@
       "s": "Yeni bir ham tam sayı değeri girin ve uygulamak için Enter'a basın"
     },
     {
+      "hash": "190483669",
+      "s": "Ay Vakumu"
+    },
+    {
       "hash": "190603017",
       "s": "Veritabanına eklendi."
     },
@@ -2115,6 +2143,10 @@
     {
       "hash": "213011052",
       "s": "Tüm Tekerlekleri Görünmez Yap"
+    },
+    {
+      "hash": "213299747",
+      "s": "Nişan Noktasında Mavi Geçit Yerleştir"
     },
     {
       "hash": "213915700",
@@ -2695,6 +2727,10 @@
     {
       "hash": "267955449",
       "s": "Pasifik Standardı görevini tamamlayın (ev sahibi olmalısınız)"
+    },
+    {
+      "hash": "267998722",
+      "s": "Hedefte uzak bir ışın ve zemin halkası çiz"
     },
     {
       "hash": "268034082",
@@ -3341,8 +3377,16 @@
       "s": "Trafik sinyallerini yeniden renklendir + solma mesafeleri"
     },
     {
+      "hash": "332965582",
+      "s": "Ateşin Bükücüsünü devre dışı bırak ve her aktif efekti temizle"
+    },
+    {
       "hash": "332986250",
       "s": "Alev menzili, hasarı, ısısı ve zemin yangınları"
+    },
+    {
+      "hash": "333113967",
+      "s": "Fener Rengi"
     },
     {
       "hash": "333893771",
@@ -3503,6 +3547,10 @@
     {
       "hash": "350277079",
       "s": "Yörünge Topu"
+    },
+    {
+      "hash": "350898360",
+      "s": "El alevleri, ateş topları, kıvılcımlar ve mayapmanı kullan"
     },
     {
       "hash": "351074767",
@@ -3917,6 +3965,10 @@
       "s": "İşaretleyiciyi Döndür"
     },
     {
+      "hash": "393715944",
+      "s": "Ağır Tabancayla Bağlı Turuncu ve Mavi Geçitler Yerleştir"
+    },
+    {
       "hash": "394167889",
       "s": "Savunma Menzili"
     },
@@ -4067,6 +4119,10 @@
     {
       "hash": "410693213",
       "s": "Her varlığı içeri ve dışarıya titreştir"
+    },
+    {
+      "hash": "410913352",
+      "s": "Ateşin Bükücüsü etkinken hasarı önle"
     },
     {
       "hash": "410921003",
@@ -4365,6 +4421,10 @@
       "s": "Hava Kontrolü"
     },
     {
+      "hash": "440938985",
+      "s": "Geçici olarak seçilen bağışçı modeli Los Santos Customs seçenekleri için kullan"
+    },
+    {
       "hash": "441090882",
       "s": "Bulut Tabanını Geçersiz Kıl"
     },
@@ -4489,8 +4549,16 @@
       "s": "Yüklemeden önce çevrimiçi serbest mod karakter modeli kullan"
     },
     {
+      "hash": "450530773",
+      "s": "Rota oklarının rengi ve opaklığı"
+    },
+    {
       "hash": "450926569",
       "s": "Oturumu Değiştir"
+    },
+    {
+      "hash": "450947143",
+      "s": "Araç modeline erişilemedi"
     },
     {
       "hash": "451330602",
@@ -4665,6 +4733,10 @@
       "s": "İşaret Göster"
     },
     {
+      "hash": "466034469",
+      "s": "Araç dükkanı açılamadı"
+    },
+    {
       "hash": "466538076",
       "s": "Onarım"
     },
@@ -4685,6 +4757,10 @@
       "s": "Kaydedildi -- her başlatmada otomatik olarak uygulanır"
     },
     {
+      "hash": "468215896",
+      "s": "Uzun düşüşlerden kaynaklanan çarpışma hasarını önle"
+    },
+    {
       "hash": "468261729",
       "s": "2026 giyim koleksiyonu açıldı."
     },
@@ -4699,6 +4775,10 @@
     {
       "hash": "469766047",
       "s": "Tıbbi Çanta Bırak"
+    },
+    {
+      "hash": "470003432",
+      "s": "Araç dükkanı zaten açık"
     },
     {
       "hash": "470314589",
@@ -4815,6 +4895,10 @@
     {
       "hash": "480919009",
       "s": "Silah kaçakçılığı için mevcut katalog ödemesini talep et"
+    },
+    {
+      "hash": "480952535",
+      "s": "Dondurulmuş"
     },
     {
       "hash": "481188831",
@@ -5029,6 +5113,10 @@
       "s": "Spooner MSLights"
     },
     {
+      "hash": "506139016",
+      "s": "El Alevleri"
+    },
+    {
       "hash": "506533804",
       "s": "Cadı Modu Büyüleri"
     },
@@ -5241,6 +5329,10 @@
       "s": "Bu oyuncunun atışları tarafından oluşturulan toplama"
     },
     {
+      "hash": "531930421",
+      "s": "Seçilen bağışçı modeli kullanılamıyor"
+    },
+    {
       "hash": "531996259",
       "s": "Kült Film"
     },
@@ -5295,6 +5387,10 @@
     {
       "hash": "538070127",
       "s": "Silah kaçakçılığı ikmal/araştırma/satış"
+    },
+    {
+      "hash": "538347784",
+      "s": "Portalları Temizle"
     },
     {
       "hash": "538358236",
@@ -5493,6 +5589,10 @@
       "s": "Kasırgalar kaldırıldı."
     },
     {
+      "hash": "560625089",
+      "s": "Rota Rengi"
+    },
+    {
       "hash": "560820484",
       "s": "Hafif Duman"
     },
@@ -5617,6 +5717,10 @@
       "s": "Sürücülerin trafiği nasıl ele aldığı"
     },
     {
+      "hash": "575402453",
+      "s": "Çıtaların Aralığı"
+    },
+    {
       "hash": "575452467",
       "s": "Hikaye moduna dön"
     },
@@ -5715,6 +5819,10 @@
     {
       "hash": "586176278",
       "s": "İleri Üs"
+    },
+    {
+      "hash": "586202416",
+      "s": "LS Customs'ı Başlat"
     },
     {
       "hash": "586555965",
@@ -6149,12 +6257,20 @@
       "s": "Açık Kapı Işık Rengi"
     },
     {
+      "hash": "628591256",
+      "s": "Araç modeli sahte; Sahte Modeli devre dışı bırakarak geri yükleyin"
+    },
+    {
       "hash": "630697435",
       "s": "Ufuk Bandı 2"
     },
     {
       "hash": "631052991",
       "s": "Bakım"
+    },
+    {
+      "hash": "631654738",
+      "s": "Hedef ışınının yüksekliği"
     },
     {
       "hash": "632514610",
@@ -6919,6 +7035,10 @@
     {
       "hash": "702079714",
       "s": "Yardımcı Araç"
+    },
+    {
+      "hash": "703526043",
+      "s": "Feneri Göster"
     },
     {
       "hash": "703772149",
@@ -7713,6 +7833,10 @@
       "s": "Seçilen olay kullanılabilir durumda beklemiyor"
     },
     {
+      "hash": "782794583",
+      "s": "Ateş bükme varlıkları yüklenemedi."
+    },
+    {
       "hash": "782958741",
       "s": "Oto Tamirhanesi: bekleme süreleri yok edildi"
     },
@@ -7755,10 +7879,6 @@
     {
       "hash": "787905151",
       "s": "Ömür (ler)"
-    },
-    {
-      "hash": "788208147",
-      "s": "LSC Kısıtlamalarını Atla"
     },
     {
       "hash": "788436225",
@@ -7935,6 +8055,10 @@
     {
       "hash": "801937745",
       "s": "Boyayı Döngüye Al"
+    },
+    {
+      "hash": "802166610",
+      "s": "Ragdolling veya düşerken Portal Tabancası nişanesini görünür tut"
     },
     {
       "hash": "802681119",
@@ -8697,6 +8821,10 @@
       "s": "Çevrimiçi kontrol engellendi -- 'çevrimiçi değil' yanıtı verildi"
     },
     {
+      "hash": "884632524",
+      "s": "Ateş izi bırakan ve çarpışmada patlayan alevli bir mermi at"
+    },
+    {
       "hash": "885190665",
       "s": "Kuvvet Alanı Uygula"
     },
@@ -9261,6 +9389,10 @@
       "s": "Betik olayı ve görev tabanlı çökme yöntemleri"
     },
     {
+      "hash": "951337407",
+      "s": "Los Santos Customs'ta normalde kısıtlanmış araç modifikasyonlarını göster"
+    },
+    {
       "hash": "951868502",
       "s": "Dönme Hızı"
     },
@@ -9425,6 +9557,10 @@
       "s": "On Saniyelik Uyarı"
     },
     {
+      "hash": "968768453",
+      "s": "Fizik Gücü"
+    },
+    {
       "hash": "969254588",
       "s": "Metalik Sarı Kuş"
     },
@@ -9479,6 +9615,10 @@
     {
       "hash": "973862370",
       "s": "Geçiş Oranı"
+    },
+    {
+      "hash": "974199227",
+      "s": "Portal Yarıçapı"
     },
     {
       "hash": "974986261",
@@ -9641,6 +9781,10 @@
       "s": "Oyuncu ve kuş kamerası arasında geçiş yap"
     },
     {
+      "hash": "994226447",
+      "s": "Ateş Bükmeyi Durdur"
+    },
+    {
       "hash": "994268902",
       "s": "Ana Bilgisayar Tekmesi"
     },
@@ -9763,6 +9907,10 @@
     {
       "hash": "1008482930",
       "s": "Sürüleri Sil"
+    },
+    {
+      "hash": "1008807210",
+      "s": "Portal durumunu ve hedeflenen yüzeyin geçerli olup olmadığını göster"
     },
     {
       "hash": "1009057466",
@@ -9925,6 +10073,10 @@
       "s": "Oluşturma Ayarları"
     },
     {
+      "hash": "1025701725",
+      "s": "Mevcut aracınız için gerçek Los Santos Customs yükseltme menüsünü açın"
+    },
+    {
       "hash": "1026058559",
       "s": "Standart"
     },
@@ -10009,6 +10161,10 @@
       "s": "Eğlenceli Aktiviteler"
     },
     {
+      "hash": "1031376935",
+      "s": "Yaklaşan dönüşler için boyut ve parlaklık artışı"
+    },
+    {
       "hash": "1032023817",
       "s": "Daire Soygunması — 3M $"
     },
@@ -10031,6 +10187,10 @@
     {
       "hash": "1033163690",
       "s": "Serbest Hareket (6-DoF)"
+    },
+    {
+      "hash": "1033579275",
+      "s": "Hedefin üzerinde kalan mesafeyi göster"
     },
     {
       "hash": "1033969794",
@@ -10261,6 +10421,10 @@
       "s": "Uygula Dalga/dalgalanma geçersiz kılmaları aşağıda"
     },
     {
+      "hash": "1053342171",
+      "s": "Efektler & Kontroller"
+    },
+    {
       "hash": "1053521808",
       "s": "Katman opaklığı %"
     },
@@ -10319,6 +10483,10 @@
     {
       "hash": "1057056785",
       "s": "Hızla el frenine bastığınızda hemen durun"
+    },
+    {
+      "hash": "1057227661",
+      "s": "Hedef portala giriş hızını koru"
     },
     {
       "hash": "1057729865",
@@ -10477,6 +10645,10 @@
       "s": "Dünyayı sars ve yayaları fırlat"
     },
     {
+      "hash": "1074405327",
+      "s": "Bir varlığın portala girdiği mesafe"
+    },
+    {
       "hash": "1074499901",
       "s": "Kasırga Oyuncusu"
     },
@@ -10535,6 +10707,10 @@
     {
       "hash": "1081149022",
       "s": "İşletme ısısı ve bekleme süresi kontrolleri"
+    },
+    {
+      "hash": "1081384114",
+      "s": "Yakındaki araçların portalları geçmesine izin ver"
     },
     {
       "hash": "1082233635",
@@ -10949,6 +11125,10 @@
       "s": "Donatıldı -- kaldırmak için tıklayın"
     },
     {
+      "hash": "1121560055",
+      "s": "Doğrudan mavi portala atla"
+    },
+    {
       "hash": "1122413801",
       "s": "Seçilen kurtarma hedefi için tüm desteklenen ana koleksiyon setlerini tamamla"
     },
@@ -11103,6 +11283,10 @@
     {
       "hash": "1134902168",
       "s": "Metalik Güneşten Ağarmış Kum"
+    },
+    {
+      "hash": "1135668258",
+      "s": "Işın Yüksekliği"
     },
     {
       "hash": "1135916333",
@@ -11359,6 +11543,10 @@
     {
       "hash": "1159434303",
       "s": "Çiftlik Baskını ortağı ödemesi"
+    },
+    {
+      "hash": "1159462514",
+      "s": "3D Rehberlik"
     },
     {
       "hash": "1159575271",
@@ -12017,6 +12205,10 @@
       "s": "Hedef işaretleyici, izler, sesler ve HUD"
     },
     {
+      "hash": "1221583385",
+      "s": "Hedeflenen karakteri veya aracı yakala veya tutulan varlığı serbest bırak"
+    },
+    {
       "hash": "1221947237",
       "s": "Hedef / Koordinat Kaynağı"
     },
@@ -12173,6 +12365,10 @@
       "s": "Halat Yaratıcı Kayıtları"
     },
     {
+      "hash": "1238011696",
+      "s": "Düşme korumasını aç veya kapat"
+    },
+    {
       "hash": "1238046747",
       "s": "Seçilen Oyuncuyu Takip Et"
     },
@@ -12247,6 +12443,10 @@
     {
       "hash": "1243519736",
       "s": "Dost canlısı/Sosyal"
+    },
+    {
+      "hash": "1244274399",
+      "s": "Varlık Hareketi"
     },
     {
       "hash": "1244614032",
@@ -12981,6 +13181,10 @@
       "s": "Saldırganlar"
     },
     {
+      "hash": "1320345966",
+      "s": "Araçlar Portalları Kullanır"
+    },
+    {
       "hash": "1320766884",
       "s": "Dengeli ön ayar uygulandı."
     },
@@ -13183,6 +13387,10 @@
     {
       "hash": "1338948282",
       "s": "Yürürken Hızlanma"
+    },
+    {
+      "hash": "1339301738",
+      "s": "Turuncu portala doğrudan atla"
     },
     {
       "hash": "1339587915",
@@ -13549,6 +13757,10 @@
       "s": "Rastgele Hile"
     },
     {
+      "hash": "1376894934",
+      "s": "Fener Boyutu"
+    },
+    {
       "hash": "1376913729",
       "s": "Bu oyuncuyu takip eden patlayıcı bir tavşan gönder"
     },
@@ -13611,6 +13823,10 @@
     {
       "hash": "1385418106",
       "s": "Uçak Hızlanması"
+    },
+    {
+      "hash": "1385983252",
+      "s": "Uzak bir fener ve yönlendirme oklarını göster"
     },
     {
       "hash": "1386192978",
@@ -13809,10 +14025,6 @@
       "s": "Gönderilecek şeytan hayvan sayısı"
     },
     {
-      "hash": "1409006795",
-      "s": "Menyoo Özel Tasarımları"
-    },
-    {
       "hash": "1409438549",
       "s": "Kullanışlı Silah Metalik"
     },
@@ -13875,6 +14087,10 @@
     {
       "hash": "1415413464",
       "s": "0 = baba, 1 = anne"
+    },
+    {
+      "hash": "1417359196",
+      "s": "Spooner araç tarayıcısından bir bağışçı seç"
     },
     {
       "hash": "1417841203",
@@ -14701,6 +14917,10 @@
       "s": "Çizgileri ömürleri boyunca şeffaf hale getirin"
     },
     {
+      "hash": "1497480950",
+      "s": "Firebender etkinken yerel süper atlamayı etkinleştir"
+    },
+    {
       "hash": "1497487737",
       "s": "Ped Işığı"
     },
@@ -14719,6 +14939,10 @@
     {
       "hash": "1500082334",
       "s": "Görevler"
+    },
+    {
+      "hash": "1500199831",
+      "s": "Tüm Araç Modlarını Listele"
     },
     {
       "hash": "1501019094",
@@ -14747,6 +14971,10 @@
     {
       "hash": "1502802162",
       "s": "Her seçilen oyuncuyu mevcut organizasyonunuza davet et"
+    },
+    {
+      "hash": "1502894687",
+      "s": "Mavi portali uzaya yerleştir"
     },
     {
       "hash": "1502967854",
@@ -15125,6 +15353,10 @@
       "s": "Biz Asit"
     },
     {
+      "hash": "1537782253",
+      "s": "Bağışçı araç hazırlananamadı"
+    },
+    {
       "hash": "1538995824",
       "s": "Metalik Kayın Ağacı"
     },
@@ -15441,6 +15673,10 @@
       "s": "Kırmızı bağlantı çizgilerini gizle"
     },
     {
+      "hash": "1571342303",
+      "s": "Uzun Düşüş Botlarını Aç/Kapat"
+    },
+    {
       "hash": "1571925910",
       "s": "Ateşlenen mermileri yerel hile efektiyle patlatın"
     },
@@ -15551,6 +15787,10 @@
     {
       "hash": "1588027413",
       "s": "Oyuncuya nişan al (aksi takdirde konumuna)"
+    },
+    {
+      "hash": "1588389058",
+      "s": "Alev Kuvveti"
     },
     {
       "hash": "1588857869",
@@ -16529,6 +16769,10 @@
       "s": "McKenzie Field Hangar tanıtımını tamamlandı olarak işaretle"
     },
     {
+      "hash": "1687463939",
+      "s": "Dokunulmazlık"
+    },
+    {
       "hash": "1687788832",
       "s": "Şok İHA'ları Gönder"
     },
@@ -16993,6 +17237,10 @@
       "s": "Oynatma"
     },
     {
+      "hash": "1733670557",
+      "s": "Yakındaki karakterleri ve araçları ay ışığı portalinin eşi yerde olduğunda yere çek"
+    },
+    {
       "hash": "1733876890",
       "s": "Aktif hizmetleri ve kişisel araçları depoya geri gönder"
     },
@@ -17087,6 +17335,10 @@
     {
       "hash": "1745339717",
       "s": "İstenen seviyeyi sıfırda tut"
+    },
+    {
+      "hash": "1745491738",
+      "s": "Araçları Dövüle"
     },
     {
       "hash": "1745543582",
@@ -17509,6 +17761,10 @@
       "s": "İleri Hız"
     },
     {
+      "hash": "1789169170",
+      "s": "İtme Gücünü Koru"
+    },
+    {
       "hash": "1789289197",
       "s": "PGun FXGöz At"
     },
@@ -17567,6 +17823,10 @@
     {
       "hash": "1794791455",
       "s": "Otomatik"
+    },
+    {
+      "hash": "1794952627",
+      "s": "Rehberliğin kaybolduğu mesafe"
     },
     {
       "hash": "1795133738",
@@ -17773,6 +18033,10 @@
       "s": "Satın Al Düşmanları Etkisiz Hale Getir"
     },
     {
+      "hash": "1815911398",
+      "s": "Mavi portalla mavi anahtar için basılı tut"
+    },
+    {
       "hash": "1815991285",
       "s": "Erişim"
     },
@@ -17787,10 +18051,6 @@
     {
       "hash": "1816674927",
       "s": "Kütüphane"
-    },
-    {
-      "hash": "1816950790",
-      "s": "Hareket ettirirken varlığın fiziğini dondurun"
     },
     {
       "hash": "1818897104",
@@ -18035,6 +18295,10 @@
     {
       "hash": "1841307245",
       "s": "İşaretleyici Rengi"
+    },
+    {
+      "hash": "1841566306",
+      "s": "Portal Silahı etkinleştirildiğinde Ağır Tabancanın klipsini dolu tut"
     },
     {
       "hash": "1841625271",
@@ -18549,10 +18813,6 @@
       "s": "Takas Fiyatlarını Yeniden Kilitle"
     },
     {
-      "hash": "1891604626",
-      "s": "Los Santos Özel Atölye kısıtlamalarını kaldır"
-    },
-    {
       "hash": "1891722909",
       "s": "Süzülme"
     },
@@ -18811,6 +19071,10 @@
     {
       "hash": "1915034425",
       "s": "İç/plaka/göğüs/kapı ışıklarını yeniden boya"
+    },
+    {
+      "hash": "1915852870",
+      "s": "İki saniye şarj et ve etrafında bir patlama sal"
     },
     {
       "hash": "1916446742",
@@ -19517,6 +19781,10 @@
       "s": "0%"
     },
     {
+      "hash": "1980698066",
+      "s": "Ay portalının seni veya aracını içine çekmesine izin ver"
+    },
+    {
       "hash": "1981098035",
       "s": "Bu aktiviteyi seçilen oyuncularda başlatın"
     },
@@ -19531,6 +19799,10 @@
     {
       "hash": "1982311358",
       "s": "Araç Tanrısı"
+    },
+    {
+      "hash": "1982511403",
+      "s": "Spooner araç kataloğundan seç"
     },
     {
       "hash": "1982979157",
@@ -19627,6 +19899,10 @@
     {
       "hash": "1991366612",
       "s": "Gradyan Alt"
+    },
+    {
+      "hash": "1991422027",
+      "s": "Sonsuz Portal Mermisi"
     },
     {
       "hash": "1991671244",
@@ -20091,6 +20367,10 @@
     {
       "hash": "2032164447",
       "s": "Bu ekibe katılın"
+    },
+    {
+      "hash": "2032715988",
+      "s": "Varlık Yakala veya Serbest Bırak"
     },
     {
       "hash": "2033100702",
@@ -21009,6 +21289,10 @@
       "s": "Dönüş Yardımı"
     },
     {
+      "hash": "2123866119",
+      "s": "Doğrudan"
+    },
+    {
       "hash": "2123917243",
       "s": "3. Bölümü Bitir (ev sahibi olmalısınız)"
     },
@@ -21285,10 +21569,6 @@
       "s": "Düzeni Kaydet"
     },
     {
-      "hash": "2147356809",
-      "s": "Los Santos Gümrük kısıtlamalarını kaldır (carmod_shop komut dosyasını yamalar)"
-    },
-    {
       "hash": "2147482482",
       "s": "Hedef Listesi"
     },
@@ -21403,6 +21683,10 @@
     {
       "hash": "2156970474",
       "s": "Yağmur Fırtınası"
+    },
+    {
+      "hash": "2157565703",
+      "s": "Araç mağazası varlıkları yüklenemedi"
     },
     {
       "hash": "2157782167",
@@ -21655,6 +21939,10 @@
     {
       "hash": "2183410681",
       "s": "Troll Araçları"
+    },
+    {
+      "hash": "2183717319",
+      "s": "Yüzme sırasında her iki elde ateş ve duman göster"
     },
     {
       "hash": "2183723389",
@@ -22099,6 +22387,10 @@
     {
       "hash": "2234323782",
       "s": "Normali Geri Yükle"
+    },
+    {
+      "hash": "2234357108",
+      "s": "Hedef ışın ve halka genişliği"
     },
     {
       "hash": "2234434371",
@@ -22575,6 +22867,10 @@
     {
       "hash": "2278237640",
       "s": "Tek Seferde Doldur ve Topla"
+    },
+    {
+      "hash": "2279101909",
+      "s": "Her rota okunun boyutu"
     },
     {
       "hash": "2279543073",
@@ -23117,6 +23413,10 @@
       "s": "Uçuş Tepkisi"
     },
     {
+      "hash": "2337189748",
+      "s": "Eklenti araçları LSC bağışçısı olarak kullanılamaz"
+    },
+    {
       "hash": "2337384556",
       "s": "Yukarı doğru fırlatma hızı"
     },
@@ -23183,6 +23483,10 @@
     {
       "hash": "2343031903",
       "s": "Bir yerde değil araç"
+    },
+    {
+      "hash": "2343416673",
+      "s": "Şu anda kullandığınız aracı özelleştir"
     },
     {
       "hash": "2344378859",
@@ -23475,6 +23779,10 @@
     {
       "hash": "2373413735",
       "s": "Spooner Efektleri"
+    },
+    {
+      "hash": "2373512498",
+      "s": "Hedefinize veya görev amacınıza 3D yönlendirme göster"
     },
     {
       "hash": "2373754468",
@@ -24009,6 +24317,10 @@
       "s": "Etkinlik başlatma isteği oturuma yayınlandı"
     },
     {
+      "hash": "2431020505",
+      "s": "Çizgi Sayısı"
+    },
+    {
       "hash": "2432139346",
       "s": "İtme gücü"
     },
@@ -24159,6 +24471,10 @@
     {
       "hash": "2450011987",
       "s": "Bu oyuncuya bir Slasher gönderilemedi"
+    },
+    {
+      "hash": "2450031730",
+      "s": "Hold Blue Key devre dışı bırakıldığında, mavi rengi yerleştirmek için bağlı tuşa basın"
     },
     {
       "hash": "2450058156",
@@ -24905,6 +25221,10 @@
       "s": "Duvarları, tavanları ve yakın yüzeyleri bulmak için kullanılan mesafe"
     },
     {
+      "hash": "2527109417",
+      "s": "Her iki portalı sil ve yakaladığın varlığı serbest bırak"
+    },
+    {
       "hash": "2527120706",
       "s": "Bir NPC'yi bu oyuncuyu takip etmesi ve aracını çalması için gönder"
     },
@@ -25241,6 +25561,10 @@
       "s": "Uzaktan Kumanda İsteği"
     },
     {
+      "hash": "2558561911",
+      "s": "Los Santos Özel"
+    },
+    {
       "hash": "2558969685",
       "s": "Sert"
     },
@@ -25527,6 +25851,10 @@
     {
       "hash": "2591565245",
       "s": "Önce bir harita işaret noktası yerleştir."
+    },
+    {
+      "hash": "2591606450",
+      "s": "Portakal rengini uzaya yerleştir veya mavi için etkinleştirirken mavi tuşunu basılı tut"
     },
     {
       "hash": "2592212891",
@@ -26857,6 +27185,10 @@
       "s": "Kamera & düzenleyici ayarları"
     },
     {
+      "hash": "2735520911",
+      "s": "Ateşin Bükücüsü"
+    },
+    {
       "hash": "2736786958",
       "s": "Roller Coaster"
     },
@@ -27009,6 +27341,10 @@
       "s": "MC"
     },
     {
+      "hash": "2750094162",
+      "s": "Uzun Düşüş Botları"
+    },
+    {
       "hash": "2750142904",
       "s": "Dokunduğunuz her şeyi itin / parçalayın"
     },
@@ -27071,6 +27407,10 @@
     {
       "hash": "2756516727",
       "s": "Kişisel Uçak"
+    },
+    {
+      "hash": "2756605104",
+      "s": "Yetenek kullanmak için L1'i basılı tut ve bir yüz tuşuna basın"
     },
     {
       "hash": "2756692002",
@@ -27533,6 +27873,10 @@
       "s": "Çalışma İstasyonları"
     },
     {
+      "hash": "2803188981",
+      "s": "Rota okuları arasındaki mesafe"
+    },
+    {
       "hash": "2803285081",
       "s": "Araç değiştir Ekstralar"
     },
@@ -27749,6 +28093,10 @@
       "s": "Düşürüldü "
     },
     {
+      "hash": "2821468232",
+      "s": "Ay Vakum Mesafesi"
+    },
+    {
       "hash": "2821522887",
       "s": "Karma/ad ile küresel bir indeks veya ayarlanabilir değerini okuyun veya düzenleyin"
     },
@@ -27855,6 +28203,10 @@
     {
       "hash": "2832931935",
       "s": "Aktif ipleri sil ve bu kurulumu yükle"
+    },
+    {
+      "hash": "2832974489",
+      "s": "Koruma"
     },
     {
       "hash": "2834048765",
@@ -28593,6 +28945,10 @@
       "s": "Akrobatik hareketler yapmak için bir araçta Zıpla'ya basın"
     },
     {
+      "hash": "2907493230",
+      "s": "Varış Mesafesi"
+    },
+    {
       "hash": "2907640323",
       "s": "Teleport hedefi = bulunduğunuz yer"
     },
@@ -28705,6 +29061,10 @@
       "s": "Yeni nesnelerin fiziği var"
     },
     {
+      "hash": "2919958613",
+      "s": "Araç mağazası betiği yüklenemedi"
+    },
+    {
       "hash": "2921205689",
       "s": "Zıplama fırlatmasını ayağa senkronize et"
     },
@@ -28731,6 +29091,10 @@
     {
       "hash": "2922172032",
       "s": "Daha düşük = daha yavaş süre dalış"
+    },
+    {
+      "hash": "2922471465",
+      "s": "Mermi atarken mavi portal tuşunu basılı tutun, mavi için; normal ateş edin, turuncu için"
     },
     {
       "hash": "2922689788",
@@ -29373,6 +29737,10 @@
       "s": "Yönlendirme ve kafa vuruşu sayaçlarını göster"
     },
     {
+      "hash": "2990429687",
+      "s": "Mesafe Göster"
+    },
+    {
       "hash": "2991187565",
       "s": "İki hava durumunu bir arada karıştırma kaydırıcısıyla birleştirin"
     },
@@ -29989,6 +30357,10 @@
       "s": "Seçilen yaya üzerinde (mevcut sesiyle) bu satırı söyle"
     },
     {
+      "hash": "3061107628",
+      "s": "Araç dükkanı iş parçacığı bulunamadı"
+    },
+    {
       "hash": "3061142217",
       "s": "Yeşil"
     },
@@ -30031,6 +30403,10 @@
     {
       "hash": "3063549370",
       "s": "API Katman Yükleme Hatası"
+    },
+    {
+      "hash": "3065603139",
+      "s": "Dövme bağışçısı olarak seçildi"
     },
     {
       "hash": "3066822363",
@@ -30265,6 +30641,10 @@
       "s": "Kıyamet Freemode Görevlerini Tamamla"
     },
     {
+      "hash": "3091440016",
+      "s": "Turuncu Portala Işınlan"
+    },
+    {
       "hash": "3092166071",
       "s": "Bu varlığı silmeden takip et veya unut"
     },
@@ -30373,6 +30753,10 @@
       "s": "İstatistik Yöneticisi Ön Ayarları"
     },
     {
+      "hash": "3102992462",
+      "s": "Önünüzde beş tane ateşli patlama dizisi oluşturun"
+    },
+    {
       "hash": "3103077064",
       "s": "Ejderha Çağır"
     },
@@ -30425,6 +30809,10 @@
       "s": "Ekstralar"
     },
     {
+      "hash": "3110820275",
+      "s": "Bağlantılı portalları yerleştirmek ve geçmek için Ağır Tabancayı kullanın"
+    },
+    {
       "hash": "3111911954",
       "s": "Pavel Kıyafetlerini Kilitle"
     },
@@ -30475,6 +30863,10 @@
     {
       "hash": "3116029347",
       "s": "Yayın -- tekrar Doğma düğmesine basın."
+    },
+    {
+      "hash": "3116155519",
+      "s": "Elleriniz etrafına ateş sarın ve dört ateş bükme yeteneğini kullanın"
     },
     {
       "hash": "3116248583",
@@ -31101,6 +31493,10 @@
       "s": "Uçuşunu İzle"
     },
     {
+      "hash": "3174968920",
+      "s": "Önce bir bağış aracı seçin"
+    },
+    {
       "hash": "3175145182",
       "s": "İskelet"
     },
@@ -31619,6 +32015,10 @@
     {
       "hash": "3228020053",
       "s": "Yeniden Yükleme Ekranı"
+    },
+    {
+      "hash": "3229057916",
+      "s": "Ay Vakumunu Kendiniz İçin Aç/Kapa"
     },
     {
       "hash": "3229371032",
@@ -32813,6 +33213,10 @@
       "s": "Seçilen araca değişiklikleri gerçek zamanlı olarak uygula"
     },
     {
+      "hash": "3348157213",
+      "s": "Mavi Portala Işınlan"
+    },
+    {
       "hash": "3348349319",
       "s": "Biz CEO Sandıkları"
     },
@@ -33313,6 +33717,10 @@
       "s": "Herkes Oyuncuyu İhmal Etsin"
     },
     {
+      "hash": "3392776031",
+      "s": "Önünüzde iki metre ileride rastgele bir yayala oluşturun"
+    },
+    {
       "hash": "3392820438",
       "s": "Kaplama varyasyonu (-1 = yok)"
     },
@@ -33669,6 +34077,10 @@
       "s": "Bildir"
     },
     {
+      "hash": "3423739994",
+      "s": "Varlıkları Yakala"
+    },
+    {
       "hash": "3423858215",
       "s": "Objeler, takipçiler, araçlar, kafesler, tuzaklar, toplama ve dünya olayları"
     },
@@ -33791,6 +34203,10 @@
     {
       "hash": "3440102175",
       "s": "Stokları geri yükle ve bu bağlamayı kaldır"
+    },
+    {
+      "hash": "3440660258",
+      "s": "Görünürlük Mesafesi"
     },
     {
       "hash": "3440754505",
@@ -35141,6 +35557,10 @@
       "s": "Bu paketi aç"
     },
     {
+      "hash": "3574363308",
+      "s": "Ateş Topu At"
+    },
+    {
       "hash": "3575274126",
       "s": "Uçarken itici güç efektlerini göster"
     },
@@ -35251,6 +35671,10 @@
     {
       "hash": "3583792088",
       "s": "Yıpranmış Altın Kırmızı"
+    },
+    {
+      "hash": "3584507817",
+      "s": "Yayalar Portalları Kullanır"
     },
     {
       "hash": "3585108001",
@@ -35577,6 +36001,10 @@
       "s": "Mürettebat rütbeleri - oluştur/sil (lider)"
     },
     {
+      "hash": "3613960062",
+      "s": "Portal Silahı"
+    },
+    {
       "hash": "3614283017",
       "s": "Dikey geri tepme düzeltme miktarı"
     },
@@ -35675,6 +36103,10 @@
     {
       "hash": "3620308099",
       "s": "Serbest mod başlatıcısı çalışmıyor"
+    },
+    {
+      "hash": "3620652125",
+      "s": "Kaydedilmiş favori bir aracı seçin"
     },
     {
       "hash": "3620678042",
@@ -36153,6 +36585,10 @@
       "s": "Geriye Doğru"
     },
     {
+      "hash": "3668786927",
+      "s": "Tam yerleştirme, dondurulmuş yerleştirme veya hedefe fiziksel çekme seçin"
+    },
+    {
       "hash": "3669508315",
       "s": "Mürettebat"
     },
@@ -36175,6 +36611,10 @@
     {
       "hash": "3671297834",
       "s": "Ödül, aranma, radar dışında, CEO ve ihraç etkinlikleri"
+    },
+    {
+      "hash": "3671808764",
+      "s": "Ay vakumu tarafından etkilenen yarıçap"
     },
     {
       "hash": "3671978456",
@@ -36551,6 +36991,10 @@
     {
       "hash": "3705030652",
       "s": "Seçilen her ortak için GTA'nın Molotof düşüşünü kuyruğa ekle"
+    },
+    {
+      "hash": "3705037213",
+      "s": "Yaklaşan dönüşlerde daha güçlü vurgu ile yol oklarını çizin"
     },
     {
       "hash": "3705252162",
@@ -37269,6 +37713,10 @@
       "s": "Gri Uzay Yabancısı kıyafeti aç"
     },
     {
+      "hash": "3772926113",
+      "s": "Ay'a Portal Yerleştir"
+    },
+    {
       "hash": "3773879600",
       "s": "Motor gücü çarpanı"
     },
@@ -37609,6 +38057,10 @@
       "s": "Oynanacak hile (Rastgele olduğunda) (kapalı)"
     },
     {
+      "hash": "3808162545",
+      "s": "Ay vakumunun sizi etkileyip etkilemediğini seçin"
+    },
+    {
       "hash": "3808295955",
       "s": "Sizi ve uçan daireyi görünmez hale getirin"
     },
@@ -37691,6 +38143,10 @@
     {
       "hash": "3813563546",
       "s": "İleri = ön tarafı kaldırın (Hızlandır'ı basılı tutun); Geriye doğru = geri çekin (Fren'i basılı tutun)"
+    },
+    {
+      "hash": "3813592372",
+      "s": "Test Yayala Oluştur"
     },
     {
       "hash": "3813720502",
@@ -38785,6 +39241,10 @@
       "s": "gtaDiscoveryApi kataloğundan yayaları incele"
     },
     {
+      "hash": "3911864980",
+      "s": "Hedef alırken tutmak veya bırakmak için yakalama eylemini kullanın"
+    },
+    {
       "hash": "3912193853",
       "s": "FPS Kilidini Aç"
     },
@@ -39021,6 +39481,10 @@
       "s": "Kar Fırtınası"
     },
     {
+      "hash": "3935253378",
+      "s": "Ay Portalı"
+    },
+    {
       "hash": "3935720632",
       "s": "GTA$ ile satın alın -- sahipliği kaydeder, böylece kalıcı olur (GTA Online)"
     },
@@ -39175,6 +39639,10 @@
     {
       "hash": "3948329096",
       "s": "Tümünü Seç"
+    },
+    {
+      "hash": "3948444893",
+      "s": "Uzayda bir portal yerleştirmek için ay eylemlerine izin verin"
     },
     {
       "hash": "3948687798",
@@ -39757,6 +40225,10 @@
       "s": "Araçları, ödülleri, ticaret fiyatlarını, kupaları ve ilerlemeyi aç"
     },
     {
+      "hash": "4009849059",
+      "s": "Ay Vakumu Kendini Etkiler"
+    },
+    {
       "hash": "4009865786",
       "s": "Hayalet Freni"
     },
@@ -39853,6 +40325,10 @@
       "s": "Araştırma Süresi"
     },
     {
+      "hash": "4018924772",
+      "s": "Rota Ok Çevrenlerini Göster"
+    },
+    {
       "hash": "4019133755",
       "s": "Seçilen etkinliği oturum için başlatın"
     },
@@ -39871,6 +40347,10 @@
     {
       "hash": "4022468218",
       "s": "Sallanma Yardımı"
+    },
+    {
+      "hash": "4022611067",
+      "s": "Ay'da Mavi Portal Yerleştir"
     },
     {
       "hash": "4022767562",
@@ -40357,6 +40837,10 @@
       "s": "Yarış Minigame'leri"
     },
     {
+      "hash": "4065925930",
+      "s": "Vurguyu Aç/Kapa"
+    },
+    {
       "hash": "4066126802",
       "s": "Hızlı Kurulum"
     },
@@ -40567,6 +41051,10 @@
     {
       "hash": "4087823706",
       "s": "Konvoyu gönder ve temizle"
+    },
+    {
+      "hash": "4087911669",
+      "s": "Yakalama Aralığı"
     },
     {
       "hash": "4088184976",
@@ -40799,6 +41287,10 @@
     {
       "hash": "4110717642",
       "s": "Yüzmek için yerden yükseklik"
+    },
+    {
+      "hash": "4111133356",
+      "s": "Hedeflenen varlığı yakalama için maksimum mesafe"
     },
     {
       "hash": "4111746444",
@@ -42053,6 +42545,10 @@
       "s": "Kopyala"
     },
     {
+      "hash": "4227858342",
+      "s": "Çizilen ön rotanın ok sayısı"
+    },
+    {
       "hash": "4228339292",
       "s": "Dikiş Fabrikası kupalarını ve ödüllerini aç"
     },
@@ -42153,6 +42649,10 @@
       "s": "Sahip Olunan"
     },
     {
+      "hash": "4238552009",
+      "s": "Düşerken Nişangâh"
+    },
+    {
       "hash": "4238759168",
       "s": "Kilit Durumu"
     },
@@ -42223,6 +42723,10 @@
     {
       "hash": "4244535515",
       "s": "Seçilen her oyuncuya gönderilen hayvan sayısı"
+    },
+    {
+      "hash": "4244723820",
+      "s": "Yol Göstergesi Rehberliği"
     },
     {
       "hash": "4244847746",
@@ -42315,6 +42819,10 @@
     {
       "hash": "4252287804",
       "s": "Bu dokuyu geri oku -> CustomTextures\\Dumps\\<dict>\\<tex>.png"
+    },
+    {
+      "hash": "4252518824",
+      "s": "Kıvılcım Ateşle"
     },
     {
       "hash": "4252711305",
@@ -42479,6 +42987,10 @@
     {
       "hash": "4266747014",
       "s": "paketlenmiş "
+    },
+    {
+      "hash": "4266804350",
+      "s": "Ok Boyutu"
     },
     {
       "hash": "4268456388",
@@ -42751,6 +43263,10 @@
     {
       "hash": "4293398999",
       "s": "Nesneleri etkile"
+    },
+    {
+      "hash": "4293399679",
+      "s": "Dövme Modeli"
     },
     {
       "hash": "4293716332",

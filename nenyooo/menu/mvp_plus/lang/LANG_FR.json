@@ -557,10 +557,6 @@
       "s": "Rétablissement des paramètres par défaut"
     },
     {
-      "hash": "54113704",
-      "s": "Figer l'entité lors de son déplacement (mode Spooner)"
-    },
-    {
       "hash": "55652338",
       "s": "Jeton hôte"
     },
@@ -777,6 +773,10 @@
       "s": "Demander le Duneloader SecuroServ"
     },
     {
+      "hash": "78169442",
+      "s": "Distance maximale de l'indication"
+    },
+    {
       "hash": "78963743",
       "s": "L'activité sélectionnée est indisponible"
     },
@@ -787,6 +787,10 @@
     {
       "hash": "79393754",
       "s": "Objet à dessiner"
+    },
+    {
+      "hash": "79553358",
+      "s": "Raccourcis contrôleur"
     },
     {
       "hash": "79648185",
@@ -1057,12 +1061,20 @@
       "s": "%s Mission"
     },
     {
+      "hash": "110021721",
+      "s": "Cette version du jeu n'est pas encore prise en charge"
+    },
+    {
       "hash": "110176113",
       "s": "Propulseur à fusée (+ coup de pied avant pendant le propulseur)"
     },
     {
       "hash": "110238782",
       "s": "Vitesse maximale à"
+    },
+    {
+      "hash": "110659848",
+      "s": "Autoriser les piétons et le joueur à traverser les portails"
     },
     {
       "hash": "110977456",
@@ -1127,6 +1139,10 @@
     {
       "hash": "115222532",
       "s": "Ne peut pas tirer ou être touché par d'autres joueurs ; suit le jeu quand désactivé"
+    },
+    {
+      "hash": "115356846",
+      "s": "Couleur et opacité du marqueur de destination"
     },
     {
       "hash": "115788900",
@@ -1215,6 +1231,10 @@
     {
       "hash": "125459984",
       "s": "Portée maximale de l'ESP en mètres"
+    },
+    {
+      "hash": "125655678",
+      "s": "Lance Grenade de feu"
     },
     {
       "hash": "125986397",
@@ -1621,6 +1641,10 @@
       "s": "Dessiner uniquement les N props destructibles/fragmentés les plus proches (palettes, chaises, planches)"
     },
     {
+      "hash": "160280704",
+      "s": "Lancer un projectile enflammé rapide en avant"
+    },
+    {
       "hash": "160822470",
       "s": "Renommer la configuration"
     },
@@ -1881,6 +1905,10 @@
       "s": "Entrez une nouvelle valeur entière brute et appuyez sur Entrée pour appliquer"
     },
     {
+      "hash": "190483669",
+      "s": "Aspiration lunaire"
+    },
+    {
       "hash": "190603017",
       "s": "Ajouté à la base de données."
     },
@@ -2115,6 +2143,10 @@
     {
       "hash": "213011052",
       "s": "Rendre toutes les roues invisibles"
+    },
+    {
+      "hash": "213299747",
+      "s": "Placer Portail bleu à la visée"
     },
     {
       "hash": "213915700",
@@ -2695,6 +2727,10 @@
     {
       "hash": "267955449",
       "s": "Terminer la mission Pacific Standard (hôte requis)"
+    },
+    {
+      "hash": "267998722",
+      "s": "Dessiner un faisceau lointain et un anneau au sol à la destination"
     },
     {
       "hash": "268034082",
@@ -3341,8 +3377,16 @@
       "s": "Recolor des feux de circulation + distances d'estompement"
     },
     {
+      "hash": "332965582",
+      "s": "Désactiver Firebender et supprimer tous les effets actifs"
+    },
+    {
       "hash": "332986250",
       "s": "Portée des flammes, dégâts, chaleur et feux au sol"
+    },
+    {
+      "hash": "333113967",
+      "s": "Couleur du balisage"
     },
     {
       "hash": "333893771",
@@ -3503,6 +3547,10 @@
     {
       "hash": "350277079",
       "s": "Canon orbital"
+    },
+    {
+      "hash": "350898360",
+      "s": "Utiliser les flammes de la main, les boules de feu, les étincelles et les grenades incendiaires"
     },
     {
       "hash": "351074767",
@@ -3917,6 +3965,10 @@
       "s": "Faire tourner le marqueur"
     },
     {
+      "hash": "393715944",
+      "s": "Placer des portails orange et bleu liés avec le Pistolet lourd"
+    },
+    {
       "hash": "394167889",
       "s": "Portée de la défense"
     },
@@ -4067,6 +4119,10 @@
     {
       "hash": "410693213",
       "s": "Faire scintiller chaque entité"
+    },
+    {
+      "hash": "410913352",
+      "s": "Empêcher les dégâts lorsque Firebender est activé"
     },
     {
       "hash": "410921003",
@@ -4365,6 +4421,10 @@
       "s": "Contrôle aérien"
     },
     {
+      "hash": "440938985",
+      "s": "Utiliser temporairement le modèle de donateur sélectionné pour les options Los Santos Customs"
+    },
+    {
       "hash": "441090882",
       "s": "Modifier la base des nuages"
     },
@@ -4489,8 +4549,16 @@
       "s": "Utiliser un modèle de personnage freemode en ligne avant le chargement"
     },
     {
+      "hash": "450530773",
+      "s": "Couleur et opacité des flèches de route"
+    },
+    {
       "hash": "450926569",
       "s": "Changer de session"
+    },
+    {
+      "hash": "450947143",
+      "s": "Impossible d'accéder au modèle du véhicule"
     },
     {
       "hash": "451330602",
@@ -4665,6 +4733,10 @@
       "s": "Afficher le marqueur"
     },
     {
+      "hash": "466034469",
+      "s": "Échec de l'ouverture du magasin de véhicules"
+    },
+    {
       "hash": "466538076",
       "s": "Réparation"
     },
@@ -4685,6 +4757,10 @@
       "s": "Enregistré – s'applique automatiquement à chaque lancement"
     },
     {
+      "hash": "468215896",
+      "s": "Empêcher les dégâts de collision des chutes longues"
+    },
+    {
       "hash": "468261729",
       "s": "Collection de vêtements 2026 débloquée."
     },
@@ -4699,6 +4775,10 @@
     {
       "hash": "469766047",
       "s": "Déposer sac de premiers secours"
+    },
+    {
+      "hash": "470003432",
+      "s": "Le magasin de véhicules est déjà ouvert"
     },
     {
       "hash": "470314589",
@@ -4815,6 +4895,10 @@
     {
       "hash": "480919009",
       "s": "Demander le paiement actuel du catalogue pour le trafic d'armes"
+    },
+    {
+      "hash": "480952535",
+      "s": "Figé"
     },
     {
       "hash": "481188831",
@@ -5029,6 +5113,10 @@
       "s": "Spooner MSLights"
     },
     {
+      "hash": "506139016",
+      "s": "Flammes de la main"
+    },
+    {
       "hash": "506533804",
       "s": "Sorts du mode Sorcière"
     },
@@ -5241,6 +5329,10 @@
       "s": "Objet ramassé par les tirs du joueur"
     },
     {
+      "hash": "531930421",
+      "s": "Le modèle de donateur sélectionné est indisponible"
+    },
+    {
       "hash": "531996259",
       "s": "Film culte"
     },
@@ -5295,6 +5387,10 @@
     {
       "hash": "538070127",
       "s": "Trafic d'armes Réapprovisionnement/Recherche/Vente"
+    },
+    {
+      "hash": "538347784",
+      "s": "Effacer les portails"
     },
     {
       "hash": "538358236",
@@ -5493,6 +5589,10 @@
       "s": "Tornades supprimées."
     },
     {
+      "hash": "560625089",
+      "s": "Couleur de la route"
+    },
+    {
       "hash": "560820484",
       "s": "Fumée légère"
     },
@@ -5617,6 +5717,10 @@
       "s": "Gestion du trafic par les conducteurs."
     },
     {
+      "hash": "575402453",
+      "s": "Espacement des chevrons"
+    },
+    {
       "hash": "575452467",
       "s": "Retourner au mode histoire"
     },
@@ -5715,6 +5819,10 @@
     {
       "hash": "586176278",
       "s": "Base avancée"
+    },
+    {
+      "hash": "586202416",
+      "s": "Démarrer LS Customs"
     },
     {
       "hash": "586555965",
@@ -6149,12 +6257,20 @@
       "s": "Couleur du voyant d'ouverture de porte"
     },
     {
+      "hash": "628591256",
+      "s": "Modèle de véhicule forgé ; désactiver la forge pour le restaurer"
+    },
+    {
       "hash": "630697435",
       "s": "Bande d'horizon 2"
     },
     {
       "hash": "631052991",
       "s": "Maintenance"
+    },
+    {
+      "hash": "631654738",
+      "s": "Hauteur du faisceau de destination"
     },
     {
       "hash": "632514610",
@@ -6919,6 +7035,10 @@
     {
       "hash": "702079714",
       "s": "Utilitaire"
+    },
+    {
+      "hash": "703526043",
+      "s": "Afficher le balisage"
     },
     {
       "hash": "703772149",
@@ -7713,6 +7833,10 @@
       "s": "L'événement sélectionné n'attend pas dans l'état disponible"
     },
     {
+      "hash": "782794583",
+      "s": "Les ressources de pyrokinésie n’ont pas pu être chargées."
+    },
+    {
       "hash": "782958741",
       "s": "Atelier automobile : temps de recharge supprimés"
     },
@@ -7755,10 +7879,6 @@
     {
       "hash": "787905151",
       "s": "Durée de vie (s)"
-    },
-    {
-      "hash": "788208147",
-      "s": "Contourner les restrictions du LSC"
     },
     {
       "hash": "788436225",
@@ -7935,6 +8055,10 @@
     {
       "hash": "801937745",
       "s": "Cycler la peinture"
+    },
+    {
+      "hash": "802166610",
+      "s": "Garder la visée du pistolet à portails visible pendant le ragdoll ou la chute"
     },
     {
       "hash": "802681119",
@@ -8697,6 +8821,10 @@
       "s": "Contrôle en ligne intercepté – réponse : « non en ligne »"
     },
     {
+      "hash": "884632524",
+      "s": "Lancer un projectile enflammé qui laisse une traînée de feu et explose à l’impact"
+    },
+    {
       "hash": "885190665",
       "s": "Application du champ de force"
     },
@@ -9261,6 +9389,10 @@
       "s": "Méthodes de crash basées sur événements et tâches"
     },
     {
+      "hash": "951337407",
+      "s": "Afficher les modifications de véhicules normalement restreintes dans Los Santos Customs"
+    },
+    {
       "hash": "951868502",
       "s": "Vitesse de rotation"
     },
@@ -9425,6 +9557,10 @@
       "s": "Avertissement dix secondes"
     },
     {
+      "hash": "968768453",
+      "s": "Force physique"
+    },
+    {
       "hash": "969254588",
       "s": "Oiseau jaune métallisé"
     },
@@ -9479,6 +9615,10 @@
     {
       "hash": "973862370",
       "s": "Taux de transition"
+    },
+    {
+      "hash": "974199227",
+      "s": "Rayon du portail"
     },
     {
       "hash": "974986261",
@@ -9641,6 +9781,10 @@
       "s": "Basculer entre la caméra du joueur et celle de l'oiseau"
     },
     {
+      "hash": "994226447",
+      "s": "Arrêter la pyrokinésie"
+    },
+    {
       "hash": "994268902",
       "s": "Coup de pied de l'hôte"
     },
@@ -9763,6 +9907,10 @@
     {
       "hash": "1008482930",
       "s": "Supprimer les essaims"
+    },
+    {
+      "hash": "1008807210",
+      "s": "Afficher l’état du portail et si la surface visée est valide"
     },
     {
       "hash": "1009057466",
@@ -9925,6 +10073,10 @@
       "s": "Apparition Paramètres"
     },
     {
+      "hash": "1025701725",
+      "s": "Ouvrir le menu de mise à niveau réel de Los Santos Customs pour votre véhicule actuel"
+    },
+    {
       "hash": "1026058559",
       "s": "Standard"
     },
@@ -10009,6 +10161,10 @@
       "s": "Activités amusantes"
     },
     {
+      "hash": "1031376935",
+      "s": "Amplification de la taille et de la luminosité pour les virages à venir"
+    },
+    {
       "hash": "1032023817",
       "s": "Appartement Braquage — 3M $"
     },
@@ -10031,6 +10187,10 @@
     {
       "hash": "1033163690",
       "s": "Libre mouvement (6 degrés de liberté)"
+    },
+    {
+      "hash": "1033579275",
+      "s": "Afficher la distance restante au-dessus de la destination"
     },
     {
       "hash": "1033969794",
@@ -10261,6 +10421,10 @@
       "s": "Appliquer Paramètres de vague/ondulation ci-dessous"
     },
     {
+      "hash": "1053342171",
+      "s": "Effets et contrôles"
+    },
+    {
       "hash": "1053521808",
       "s": "Opacité de la superposition (%)"
     },
@@ -10319,6 +10483,10 @@
     {
       "hash": "1057056785",
       "s": "S'arrêter immédiatement lorsque vous appuyez sur le frein à main à vitesse élevée"
+    },
+    {
+      "hash": "1057227661",
+      "s": "Conserver la vitesse d’entrée à travers le portail de destination"
     },
     {
       "hash": "1057729865",
@@ -10477,6 +10645,10 @@
       "s": "Secouer le monde et projeter les Peds"
     },
     {
+      "hash": "1074405327",
+      "s": "Distance à laquelle une entité entre dans un portail"
+    },
+    {
       "hash": "1074499901",
       "s": "Joueur tornade"
     },
@@ -10535,6 +10707,10 @@
     {
       "hash": "1081149022",
       "s": "Contrôles de la chaleur et du temps de recharge des activités"
+    },
+    {
+      "hash": "1081384114",
+      "s": "Autoriser les véhicules à proximité à traverser les portails"
     },
     {
       "hash": "1082233635",
@@ -10949,6 +11125,10 @@
       "s": "Équipement – ​​cliquer pour retirer"
     },
     {
+      "hash": "1121560055",
+      "s": "Sauter directement vers le portail bleu"
+    },
+    {
       "hash": "1122413801",
       "s": "Compléter tous les ensembles de collectibles principaux pris en charge pour la cible de récupération sélectionnée"
     },
@@ -11103,6 +11283,10 @@
     {
       "hash": "1134902168",
       "s": "Sable blanchi par le soleil métallique"
+    },
+    {
+      "hash": "1135668258",
+      "s": "Hauteur du faisceau"
     },
     {
       "hash": "1135916333",
@@ -11359,6 +11543,10 @@
     {
       "hash": "1159434303",
       "s": "Paiement des associés du Raid Ferme"
+    },
+    {
+      "hash": "1159462514",
+      "s": "Guidage 3D"
     },
     {
       "hash": "1159575271",
@@ -12017,6 +12205,10 @@
       "s": "Marqueur cible, traînées, sons et HUD"
     },
     {
+      "hash": "1221583385",
+      "s": "Attraper le Péd ou le véhicule visé, ou relâcher l'entité tenue"
+    },
+    {
       "hash": "1221947237",
       "s": "Source de la cible/coordonnées"
     },
@@ -12173,6 +12365,10 @@
       "s": "Sauvegardes du créateur de cordes"
     },
     {
+      "hash": "1238011696",
+      "s": "Activer/désactiver la protection contre les chutes"
+    },
+    {
       "hash": "1238046747",
       "s": "Suivre le joueur sélectionné"
     },
@@ -12247,6 +12443,10 @@
     {
       "hash": "1243519736",
       "s": "Amical/Social"
+    },
+    {
+      "hash": "1244274399",
+      "s": "Déplacement des entités"
     },
     {
       "hash": "1244614032",
@@ -12981,6 +13181,10 @@
       "s": "Attaquants"
     },
     {
+      "hash": "1320345966",
+      "s": "Les véhicules utilisent les portails"
+    },
+    {
       "hash": "1320766884",
       "s": "Préréglage équilibré appliqué."
     },
@@ -13183,6 +13387,10 @@
     {
       "hash": "1338948282",
       "s": "Boost en marchant"
+    },
+    {
+      "hash": "1339301738",
+      "s": "Sauter directement vers le portail orange"
     },
     {
       "hash": "1339587915",
@@ -13549,6 +13757,10 @@
       "s": "Tour de passe-passe aléatoire"
     },
     {
+      "hash": "1376894934",
+      "s": "Taille du balisage"
+    },
+    {
       "hash": "1376913729",
       "s": "Envoyer un lapin explosif qui suit ce joueur"
     },
@@ -13611,6 +13823,10 @@
     {
       "hash": "1385418106",
       "s": "Accélération avion"
+    },
+    {
+      "hash": "1385983252",
+      "s": "Afficher un balisage distant et des flèches de direction"
     },
     {
       "hash": "1386192978",
@@ -13809,10 +14025,6 @@
       "s": "Nombre d'animaux possédés à envoyer"
     },
     {
-      "hash": "1409006795",
-      "s": "Personnalisation Menyoo"
-    },
-    {
       "hash": "1409438549",
       "s": "Métal utilitaire"
     },
@@ -13875,6 +14087,10 @@
     {
       "hash": "1415413464",
       "s": "0 = père, 1 = mère"
+    },
+    {
+      "hash": "1417359196",
+      "s": "Choisir un donneur dans le navigateur de véhicules Spooner"
     },
     {
       "hash": "1417841203",
@@ -14701,6 +14917,10 @@
       "s": "Faire disparaître progressivement les lignes"
     },
     {
+      "hash": "1497480950",
+      "s": "Activer le super saut natif pendant que Firebender est actif"
+    },
+    {
       "hash": "1497487737",
       "s": "Lumière Péd"
     },
@@ -14719,6 +14939,10 @@
     {
       "hash": "1500082334",
       "s": "Missions"
+    },
+    {
+      "hash": "1500199831",
+      "s": "Lister tous les mods de véhicules"
     },
     {
       "hash": "1501019094",
@@ -14747,6 +14971,10 @@
     {
       "hash": "1502802162",
       "s": "Inviter chaque joueur sélectionné à votre organisation actuelle"
+    },
+    {
+      "hash": "1502894687",
+      "s": "Placer le portail bleu dans l'espace"
     },
     {
       "hash": "1502967854",
@@ -15125,6 +15353,10 @@
       "s": "Acid Biz"
     },
     {
+      "hash": "1537782253",
+      "s": "Impossible de préparer le véhicule donneur"
+    },
+    {
       "hash": "1538995824",
       "s": "Bois de hêtre métallique"
     },
@@ -15441,6 +15673,10 @@
       "s": "Masquer les lignes de liaison rouges"
     },
     {
+      "hash": "1571342303",
+      "s": "Activer/désactiver les bottes anti-chute"
+    },
+    {
       "hash": "1571925910",
       "s": "Faire exploser les balles tirées avec l'effet de triche natif"
     },
@@ -15551,6 +15787,10 @@
     {
       "hash": "1588027413",
       "s": "Viser le joueur (ou sa position)"
+    },
+    {
+      "hash": "1588389058",
+      "s": "Force de flamme"
     },
     {
       "hash": "1588857869",
@@ -16529,6 +16769,10 @@
       "s": "Marquer l'introduction du hangar McKenzie Field comme terminée"
     },
     {
+      "hash": "1687463939",
+      "s": "Invincibilité"
+    },
+    {
       "hash": "1687788832",
       "s": "Envoyer des Drones à choc"
     },
@@ -16993,6 +17237,10 @@
       "s": "Lecture"
     },
     {
+      "hash": "1733670557",
+      "s": "Tirer les Peds et véhicules à proximité vers le portail du côté terrestre lorsque son pair est sur la lune"
+    },
+    {
       "hash": "1733876890",
       "s": "Rendre les véhicules de service actifs et personnels au stockage"
     },
@@ -17087,6 +17335,10 @@
     {
       "hash": "1745339717",
       "s": "Maintenir le niveau de recherche à zéro"
+    },
+    {
+      "hash": "1745491738",
+      "s": "Forger des véhicules"
     },
     {
       "hash": "1745543582",
@@ -17509,6 +17761,10 @@
       "s": "Avancer Vitesse"
     },
     {
+      "hash": "1789169170",
+      "s": "Préserver l'élan"
+    },
+    {
       "hash": "1789289197",
       "s": "Navigation FX PGun"
     },
@@ -17567,6 +17823,10 @@
     {
       "hash": "1794791455",
       "s": "Automatique"
+    },
+    {
+      "hash": "1794952627",
+      "s": "Distance à laquelle le guidage s'estompe"
     },
     {
       "hash": "1795133738",
@@ -17773,6 +18033,10 @@
       "s": "Neutralisation des ennemis (Achat)"
     },
     {
+      "hash": "1815911398",
+      "s": "Maintenir la touche bleue enfoncée pour le portail bleu"
+    },
+    {
       "hash": "1815991285",
       "s": "Accès"
     },
@@ -17787,10 +18051,6 @@
     {
       "hash": "1816674927",
       "s": "Bibliothèque"
-    },
-    {
-      "hash": "1816950790",
-      "s": "Geler la physique de l'entité pendant son déplacement"
     },
     {
       "hash": "1818897104",
@@ -18035,6 +18295,10 @@
     {
       "hash": "1841307245",
       "s": "Couleur des marqueurs"
+    },
+    {
+      "hash": "1841566306",
+      "s": "Garder le chargeur du pistolet lourd plein pendant que le Portail Gun est activé"
     },
     {
       "hash": "1841625271",
@@ -18549,10 +18813,6 @@
       "s": "Verrouiller à nouveau les prix de vente"
     },
     {
-      "hash": "1891604626",
-      "s": "Supprimer les restrictions de Los Santos Customs"
-    },
-    {
       "hash": "1891722909",
       "s": "Planer"
     },
@@ -18811,6 +19071,10 @@
     {
       "hash": "1915034425",
       "s": "Recolorier intérieur / plaque / tableau de bord / lumières de porte"
+    },
+    {
+      "hash": "1915852870",
+      "s": "Charger pendant deux secondes et libérer une explosion autour de vous"
     },
     {
       "hash": "1916446742",
@@ -19517,6 +19781,10 @@
       "s": "0%"
     },
     {
+      "hash": "1980698066",
+      "s": "Autoriser le portail lunaire à vous ou votre véhicule à entrer"
+    },
+    {
       "hash": "1981098035",
       "s": "Démarrez cette activité sur les joueurs sélectionnés"
     },
@@ -19531,6 +19799,10 @@
     {
       "hash": "1982311358",
       "s": "Véhicule divin"
+    },
+    {
+      "hash": "1982511403",
+      "s": "Sélectionner dans le catalogue véhicules Spooner"
     },
     {
       "hash": "1982979157",
@@ -19627,6 +19899,10 @@
     {
       "hash": "1991366612",
       "s": "Bas du dégradé"
+    },
+    {
+      "hash": "1991422027",
+      "s": "Munitions de portail infinies"
     },
     {
       "hash": "1991671244",
@@ -20091,6 +20367,10 @@
     {
       "hash": "2032164447",
       "s": "Rejoindre cet équipage"
+    },
+    {
+      "hash": "2032715988",
+      "s": "Attraper ou relâcher une entité"
     },
     {
       "hash": "2033100702",
@@ -21009,6 +21289,10 @@
       "s": "Assistance de direction"
     },
     {
+      "hash": "2123866119",
+      "s": "Direct"
+    },
+    {
       "hash": "2123917243",
       "s": "Terminer l'acte 3 (hôte requis)"
     },
@@ -21285,10 +21569,6 @@
       "s": "Enregistrer la mise en page"
     },
     {
-      "hash": "2147356809",
-      "s": "Débloquer les restrictions de Los Santos Customs (corrige le script carmod_shop)"
-    },
-    {
       "hash": "2147482482",
       "s": "Liste d'élimination"
     },
@@ -21403,6 +21683,10 @@
     {
       "hash": "2156970474",
       "s": "Orage"
+    },
+    {
+      "hash": "2157565703",
+      "s": "Les ressources de Los Santos Custom n'ont pas pu être chargées"
     },
     {
       "hash": "2157782167",
@@ -21655,6 +21939,10 @@
     {
       "hash": "2183410681",
       "s": "Véhicules de troll"
+    },
+    {
+      "hash": "2183717319",
+      "s": "Afficher le feu sur les deux mains et la fumée en nageant"
     },
     {
       "hash": "2183723389",
@@ -22099,6 +22387,10 @@
     {
       "hash": "2234323782",
       "s": "Restaurer la normalité"
+    },
+    {
+      "hash": "2234357108",
+      "s": "Largeur du faisceau et du cercle de destination"
     },
     {
       "hash": "2234434371",
@@ -22575,6 +22867,10 @@
     {
       "hash": "2278237640",
       "s": "Remplir et collecter une fois"
+    },
+    {
+      "hash": "2279101909",
+      "s": "Taille de chaque flèche de route"
     },
     {
       "hash": "2279543073",
@@ -23117,6 +23413,10 @@
       "s": "Réactivité du vol"
     },
     {
+      "hash": "2337189748",
+      "s": "Les véhicules additionnels ne peuvent pas être utilisés comme donateurs LSC"
+    },
+    {
       "hash": "2337384556",
       "s": "Vitesse de lancement vers le haut"
     },
@@ -23183,6 +23483,10 @@
     {
       "hash": "2343031903",
       "s": "Hors véhicule"
+    },
+    {
+      "hash": "2343416673",
+      "s": "Personnaliser le véhicule que vous conduisez actuellement"
     },
     {
       "hash": "2344378859",
@@ -23475,6 +23779,10 @@
     {
       "hash": "2373413735",
       "s": "Effets spéciaux de cuillère"
+    },
+    {
+      "hash": "2373512498",
+      "s": "Afficher une guidance 3D vers votre point de repère ou objectif de mission"
     },
     {
       "hash": "2373754468",
@@ -24009,6 +24317,10 @@
       "s": "Demande de lancement d'événement publiée à la session"
     },
     {
+      "hash": "2431020505",
+      "s": "Nombre de chevrons"
+    },
+    {
       "hash": "2432139346",
       "s": "Force de la poussée"
     },
@@ -24159,6 +24471,10 @@
     {
       "hash": "2450011987",
       "s": "Impossible d'envoyer un Slasher à ce joueur"
+    },
+    {
+      "hash": "2450031730",
+      "s": "Avec Hold Blue Key désactivé, appuyez sur la touche assignée pour placer du bleu au point de visée"
     },
     {
       "hash": "2450058156",
@@ -24905,6 +25221,10 @@
       "s": "Distance pour trouver les murs, plafonds et surfaces proches"
     },
     {
+      "hash": "2527109417",
+      "s": "Supprimer les deux portails et relâcher toute entité attrapée"
+    },
+    {
       "hash": "2527120706",
       "s": "Envoyer un PNJ suivre ce joueur et voler son véhicule"
     },
@@ -25241,6 +25561,10 @@
       "s": "Demande de contrôle à distance"
     },
     {
+      "hash": "2558561911",
+      "s": "Los Santos Custom"
+    },
+    {
       "hash": "2558969685",
       "s": "Rigide"
     },
@@ -25527,6 +25851,10 @@
     {
       "hash": "2591565245",
       "s": "Placer d'abord un point de repère sur la carte."
+    },
+    {
+      "hash": "2591606450",
+      "s": "Placer de l'orange dans l'espace, ou maintenir la touche bleue pendant l'activation pour du bleu"
     },
     {
       "hash": "2592212891",
@@ -26857,6 +27185,10 @@
       "s": "Paramètres de la caméra et de l'éditeur"
     },
     {
+      "hash": "2735520911",
+      "s": "Firebender"
+    },
+    {
       "hash": "2736786958",
       "s": "Montagnes russes"
     },
@@ -27009,6 +27341,10 @@
       "s": "MC"
     },
     {
+      "hash": "2750094162",
+      "s": "Bottes de chute longue"
+    },
+    {
       "hash": "2750142904",
       "s": "Écarter / percuter tout ce que vous touchez"
     },
@@ -27071,6 +27407,10 @@
     {
       "hash": "2756516727",
       "s": "Avions personnels"
+    },
+    {
+      "hash": "2756605104",
+      "s": "Maintenir L1 et appuyer sur un bouton de face pour utiliser une capacité"
     },
     {
       "hash": "2756692002",
@@ -27533,6 +27873,10 @@
       "s": "Stations d'opération"
     },
     {
+      "hash": "2803188981",
+      "s": "Distance entre les flèches de route"
+    },
+    {
       "hash": "2803285081",
       "s": "Activer/désactiver les options du véhicule"
     },
@@ -27749,6 +28093,10 @@
       "s": "Abaissé "
     },
     {
+      "hash": "2821468232",
+      "s": "Distance d'aspiration lunaire"
+    },
+    {
       "hash": "2821522887",
       "s": "Lire ou modifier un index global ou un réglage par hachage/nom"
     },
@@ -27855,6 +28203,10 @@
     {
       "hash": "2832931935",
       "s": "Supprimer les cordes actives et charger cette configuration"
+    },
+    {
+      "hash": "2832974489",
+      "s": "Protection"
     },
     {
       "hash": "2834048765",
@@ -28593,6 +28945,10 @@
       "s": "Appuyez sur Sauter dans un véhicule pour effectuer des acrobaties"
     },
     {
+      "hash": "2907493230",
+      "s": "Distance d'arrivée"
+    },
+    {
       "hash": "2907640323",
       "s": "Cible de téléportation = votre position"
     },
@@ -28705,6 +29061,10 @@
       "s": "Les nouveaux objets ont une physique réaliste"
     },
     {
+      "hash": "2919958613",
+      "s": "Le script de Los Santos Custom n'a pas pu être chargé"
+    },
+    {
       "hash": "2921205689",
       "s": "Synchroniser le saut avec les pieds"
     },
@@ -28731,6 +29091,10 @@
     {
       "hash": "2922172032",
       "s": "Plus bas = descente plus lente"
+    },
+    {
+      "hash": "2922471465",
+      "s": "Maintenir la touche d'action du portail bleu pendant le tir pour du bleu ; tirer normalement pour de l'orange"
     },
     {
       "hash": "2922689788",
@@ -29373,6 +29737,10 @@
       "s": "Afficher les compteurs de redirection et de tir à la tête"
     },
     {
+      "hash": "2990429687",
+      "s": "Afficher la distance"
+    },
+    {
       "hash": "2991187565",
       "s": "Mélanger deux types de météo simultanément avec un curseur"
     },
@@ -29989,6 +30357,10 @@
       "s": "Dire cette phrase au personnage sélectionné (avec sa voix actuelle)"
     },
     {
+      "hash": "3061107628",
+      "s": "Impossible de trouver le thread du magasin de véhicules"
+    },
+    {
       "hash": "3061142217",
       "s": "Vert"
     },
@@ -30031,6 +30403,10 @@
     {
       "hash": "3063549370",
       "s": "Erreur de chargement de la couche API"
+    },
+    {
+      "hash": "3065603139",
+      "s": "Sélectionné comme donateur de forge"
     },
     {
       "hash": "3066822363",
@@ -30265,6 +30641,10 @@
       "s": "Compléter les missions Freemode Doomsday"
     },
     {
+      "hash": "3091440016",
+      "s": "Téléportation vers le portail orange"
+    },
+    {
       "hash": "3092166071",
       "s": "Suivre ou oublier cette entité sans la supprimer"
     },
@@ -30373,6 +30753,10 @@
       "s": "Préréglages du Gestionnaire de statistiques"
     },
     {
+      "hash": "3102992462",
+      "s": "Créer une ligne de cinq explosions enflammées devant vous"
+    },
+    {
       "hash": "3103077064",
       "s": "Appeler le Dragon"
     },
@@ -30425,6 +30809,10 @@
       "s": "Extras"
     },
     {
+      "hash": "3110820275",
+      "s": "Utilisez le pistolet lourd pour placer et voyager à travers des portails liés"
+    },
+    {
       "hash": "3111911954",
       "s": "Débloquer les tenues de Pavel"
     },
@@ -30475,6 +30863,10 @@
     {
       "hash": "3116029347",
       "s": "Streaming – appuyez de nouveau sur « Faire apparaître »."
+    },
+    {
+      "hash": "3116155519",
+      "s": "Entourez vos mains de feu et utilisez quatre pouvoirs de pyrokinésie"
     },
     {
       "hash": "3116248583",
@@ -31101,6 +31493,10 @@
       "s": "Surveille ton jet"
     },
     {
+      "hash": "3174968920",
+      "s": "Sélectionnez d'abord un véhicule donateur"
+    },
+    {
       "hash": "3175145182",
       "s": "Squelette"
     },
@@ -31619,6 +32015,10 @@
     {
       "hash": "3228020053",
       "s": "Recharger l'écran"
+    },
+    {
+      "hash": "3229057916",
+      "s": "Activer la succion lunaire pour soi"
     },
     {
       "hash": "3229371032",
@@ -32813,6 +33213,10 @@
       "s": "Appliquer les modifications au véhicule sélectionné en temps réel"
     },
     {
+      "hash": "3348157213",
+      "s": "Téléportation vers le portail bleu"
+    },
+    {
       "hash": "3348349319",
       "s": "Caisses PDG Biz"
     },
@@ -33313,6 +33717,10 @@
       "s": "Tout ignorer le joueur"
     },
     {
+      "hash": "3392776031",
+      "s": "Faire apparaître un piéton aléatoire à deux mètres devant vous"
+    },
+    {
       "hash": "3392820438",
       "s": "Variante d'interface (-1 = aucune)"
     },
@@ -33669,6 +34077,10 @@
       "s": "Notifier"
     },
     {
+      "hash": "3423739994",
+      "s": "Attraper les entités"
+    },
+    {
       "hash": "3423858215",
       "s": "Accessoires, suiveurs, véhicules, cages, pièges, ramassages et événements du monde"
     },
@@ -33791,6 +34203,10 @@
     {
       "hash": "3440102175",
       "s": "Restaurer le stock et abandonner cette liaison"
+    },
+    {
+      "hash": "3440660258",
+      "s": "Distance de visibilité"
     },
     {
       "hash": "3440754505",
@@ -35141,6 +35557,10 @@
       "s": "Ouvrir ce pack"
     },
     {
+      "hash": "3574363308",
+      "s": "Lancer une boule de feu"
+    },
+    {
       "hash": "3575274126",
       "s": "Afficher les effets de propulseur en vol"
     },
@@ -35251,6 +35671,10 @@
     {
       "hash": "3583792088",
       "s": "Golden Red usé"
+    },
+    {
+      "hash": "3584507817",
+      "s": "Les Peds utilisent les portails"
     },
     {
       "hash": "3585108001",
@@ -35577,6 +36001,10 @@
       "s": "Grades d'équipage - créer/supprimer (leader)"
     },
     {
+      "hash": "3613960062",
+      "s": "Pistolet à portails"
+    },
+    {
       "hash": "3614283017",
       "s": "Quantité de correction de recul vertical"
     },
@@ -35675,6 +36103,10 @@
     {
       "hash": "3620308099",
       "s": "Le lanceur Freemode ne fonctionne pas"
+    },
+    {
+      "hash": "3620652125",
+      "s": "Sélectionner un véhicule préféré enregistré"
     },
     {
       "hash": "3620678042",
@@ -36153,6 +36585,10 @@
       "s": "Reculer"
     },
     {
+      "hash": "3668786927",
+      "s": "Choisir un placement exact, un placement figé ou une force physique vers la cible"
+    },
+    {
       "hash": "3669508315",
       "s": "Équipes"
     },
@@ -36175,6 +36611,10 @@
     {
       "hash": "3671297834",
       "s": "Prime, recherche, hors-radar, PDG et événements d'expulsion"
+    },
+    {
+      "hash": "3671808764",
+      "s": "Rayon affecté par la succion lunaire"
     },
     {
       "hash": "3671978456",
@@ -36551,6 +36991,10 @@
     {
       "hash": "3705030652",
       "s": "Mettre en file d'attente la chute de cocktail Molotov de GTA à chaque associé sélectionné"
+    },
+    {
+      "hash": "3705037213",
+      "s": "Dessiner des flèches de route avec une emphase plus forte aux virages à venir"
     },
     {
       "hash": "3705252162",
@@ -37269,6 +37713,10 @@
       "s": "Débloquer la tenue Gray Space Interloper"
     },
     {
+      "hash": "3772926113",
+      "s": "Placer un portail sur la lune"
+    },
+    {
       "hash": "3773879600",
       "s": "Puissance du moteur Multiplicateur"
     },
@@ -37609,6 +38057,10 @@
       "s": "Astuce pour jouer (lorsque le mode aléatoire est activé) Désactivé)"
     },
     {
+      "hash": "3808162545",
+      "s": "Choisir si la succion lunaire vous affecte"
+    },
+    {
       "hash": "3808295955",
       "s": "Vous et la soucoupe devenez invisibles en faisant clignoter"
     },
@@ -37691,6 +38143,10 @@
     {
       "hash": "3813563546",
       "s": "Avancer = soulever l'avant (maintenir Accélérer) ; Reculer = soulever en arrière (maintenir Frein)"
+    },
+    {
+      "hash": "3813592372",
+      "s": "Faire apparaître un Péd de test"
     },
     {
       "hash": "3813720502",
@@ -38785,6 +39241,10 @@
       "s": "Parcourir les piétons du catalogue gtaDiscoveryApi"
     },
     {
+      "hash": "3911864980",
+      "s": "Utiliser l'action d'attrapage en visant pour maintenir ou relâcher un Péd ou un véhicule"
+    },
+    {
       "hash": "3912193853",
       "s": "Déverrouiller FPS"
     },
@@ -39021,6 +39481,10 @@
       "s": "Blizzard"
     },
     {
+      "hash": "3935253378",
+      "s": "Portails lunaires"
+    },
+    {
       "hash": "3935720632",
       "s": "Achat avec des GTA$ – enregistre la propriété et la rend permanente (GTA Online)"
     },
@@ -39175,6 +39639,10 @@
     {
       "hash": "3948329096",
       "s": "Tout sélectionner"
+    },
+    {
+      "hash": "3948444893",
+      "s": "Autoriser les actions lunaires à placer un portail dans l'espace"
     },
     {
       "hash": "3948687798",
@@ -39757,6 +40225,10 @@
       "s": "Débloquer les véhicules, les récompenses, les prix du commerce, les trophées et la progression"
     },
     {
+      "hash": "4009849059",
+      "s": "L'aspiration lunaire affecte le joueur"
+    },
+    {
       "hash": "4009865786",
       "s": "Frein fantôme"
     },
@@ -39853,6 +40325,10 @@
       "s": "Temps de recherche"
     },
     {
+      "hash": "4018924772",
+      "s": "Afficher les chevrons de route"
+    },
+    {
       "hash": "4019133755",
       "s": "Lancer l'événement sélectionné pour la session"
     },
@@ -39871,6 +40347,10 @@
     {
       "hash": "4022468218",
       "s": "Assistance au balancement"
+    },
+    {
+      "hash": "4022611067",
+      "s": "Placer portail bleu sur la lune"
     },
     {
       "hash": "4022767562",
@@ -40357,6 +40837,10 @@
       "s": "Mini-jeux de course"
     },
     {
+      "hash": "4065925930",
+      "s": "Activer l'emphase"
+    },
+    {
       "hash": "4066126802",
       "s": "Configuration rapide"
     },
@@ -40567,6 +41051,10 @@
     {
       "hash": "4087823706",
       "s": "Retirer le convoi et nettoyer la zone"
+    },
+    {
+      "hash": "4087911669",
+      "s": "Portée d'attrapage"
     },
     {
       "hash": "4088184976",
@@ -40799,6 +41287,10 @@
     {
       "hash": "4110717642",
       "s": "Hauteur au-dessus du sol pour flotter"
+    },
+    {
+      "hash": "4111133356",
+      "s": "Distance maximale pour attraper une entité visée"
     },
     {
       "hash": "4111746444",
@@ -42053,6 +42545,10 @@
       "s": "Copier"
     },
     {
+      "hash": "4227858342",
+      "s": "Nombre de flèches de route dessinées à l'avance"
+    },
+    {
       "hash": "4228339292",
       "s": "Déverrouiller les trophées et récompenses de l'atelier de confection"
     },
@@ -42153,6 +42649,10 @@
       "s": "Possédé"
     },
     {
+      "hash": "4238552009",
+      "s": "Viseur en chute"
+    },
+    {
       "hash": "4238759168",
       "s": "État du verrouillage"
     },
@@ -42223,6 +42723,10 @@
     {
       "hash": "4244535515",
       "s": "Nombre d'animaux envoyés à chaque joueur sélectionné"
+    },
+    {
+      "hash": "4244723820",
+      "s": "Guidage vers le point de passage"
     },
     {
       "hash": "4244847746",
@@ -42315,6 +42819,10 @@
     {
       "hash": "4252287804",
       "s": "Relire cette texture -> CustomTextures\\Dumps\\<dict>\\<tex>.png"
+    },
+    {
+      "hash": "4252518824",
+      "s": "Allumer l'étincelle"
     },
     {
       "hash": "4252711305",
@@ -42479,6 +42987,10 @@
     {
       "hash": "4266747014",
       "s": "Emballé "
+    },
+    {
+      "hash": "4266804350",
+      "s": "Taille des chevrons"
     },
     {
       "hash": "4268456388",
@@ -42751,6 +43263,10 @@
     {
       "hash": "4293398999",
       "s": "Affecter les objets"
+    },
+    {
+      "hash": "4293399679",
+      "s": "Modèle de forge"
     },
     {
       "hash": "4293716332",

@@ -557,10 +557,6 @@
       "s": "Reverted to default"
     },
     {
-      "hash": "54113704",
-      "s": "Freeze Entity When Moving It (Spooner Mode)"
-    },
-    {
       "hash": "55652338",
       "s": "Host Token"
     },
@@ -777,6 +773,10 @@
       "s": "Request the SecuroServ Duneloader"
     },
     {
+      "hash": "78169442",
+      "s": "Maximum distance at which guidance is drawn"
+    },
+    {
       "hash": "78963743",
       "s": "The selected activity is unavailable"
     },
@@ -787,6 +787,10 @@
     {
       "hash": "79393754",
       "s": "Prop Drawable"
+    },
+    {
+      "hash": "79553358",
+      "s": "Controller Shortcuts"
     },
     {
       "hash": "79648185",
@@ -1057,12 +1061,20 @@
       "s": "%s Job"
     },
     {
+      "hash": "110021721",
+      "s": "This game build is not supported yet"
+    },
+    {
       "hash": "110176113",
       "s": "Rocket boost (+ forward kick while boosting)"
     },
     {
       "hash": "110238782",
       "s": "Full Speed At"
+    },
+    {
+      "hash": "110659848",
+      "s": "Allow nearby pedestrians and the player to traverse portals"
     },
     {
       "hash": "110977456",
@@ -1127,6 +1139,10 @@
     {
       "hash": "115222532",
       "s": "Can't shoot or be shot by other players; follows the game when off"
+    },
+    {
+      "hash": "115356846",
+      "s": "Colour and opacity of the destination marker"
     },
     {
       "hash": "115788900",
@@ -1215,6 +1231,10 @@
     {
       "hash": "125459984",
       "s": "Maximum ESP range in metres"
+    },
+    {
+      "hash": "125655678",
+      "s": "Fire Grenade"
     },
     {
       "hash": "125986397",
@@ -1621,6 +1641,10 @@
       "s": "Draw only the closest N breakable/fragment props (pallets, chairs, planks)"
     },
     {
+      "hash": "160280704",
+      "s": "Launch a fast flaming projectile straight ahead"
+    },
+    {
       "hash": "160822470",
       "s": "Rename Setup"
     },
@@ -1881,6 +1905,10 @@
       "s": "Enter a new raw integer value and press Enter to apply"
     },
     {
+      "hash": "190483669",
+      "s": "Moon Suction"
+    },
+    {
       "hash": "190603017",
       "s": "Added to database."
     },
@@ -2115,6 +2143,10 @@
     {
       "hash": "213011052",
       "s": "Make All Wheels Invisible"
+    },
+    {
+      "hash": "213299747",
+      "s": "Place Blue Portal At Aim"
     },
     {
       "hash": "213915700",
@@ -2695,6 +2727,10 @@
     {
       "hash": "267955449",
       "s": "Finish the Pacific Standard job (must be host)"
+    },
+    {
+      "hash": "267998722",
+      "s": "Draw a distant beam and ground ring at the destination"
     },
     {
       "hash": "268034082",
@@ -3341,8 +3377,16 @@
       "s": "Recolour traffic signals + fade distances"
     },
     {
+      "hash": "332965582",
+      "s": "Disable Firebender and clean up every active effect"
+    },
+    {
       "hash": "332986250",
       "s": "Flame range, damage, heat and ground fires"
+    },
+    {
+      "hash": "333113967",
+      "s": "Beacon Color"
     },
     {
       "hash": "333893771",
@@ -3503,6 +3547,10 @@
     {
       "hash": "350277079",
       "s": "Orbital Cannon"
+    },
+    {
+      "hash": "350898360",
+      "s": "Use hand flames, fireballs, sparks, and incendiary grenades"
     },
     {
       "hash": "351074767",
@@ -3917,6 +3965,10 @@
       "s": "Spin the marker"
     },
     {
+      "hash": "393715944",
+      "s": "Place linked orange and blue portals with the Heavy Pistol"
+    },
+    {
       "hash": "394167889",
       "s": "Defense Range"
     },
@@ -4067,6 +4119,10 @@
     {
       "hash": "410693213",
       "s": "Shimmer every entity in and out"
+    },
+    {
+      "hash": "410913352",
+      "s": "Prevent damage while Firebender is enabled"
     },
     {
       "hash": "410921003",
@@ -4365,6 +4421,10 @@
       "s": "Air Control"
     },
     {
+      "hash": "440938985",
+      "s": "Temporarily use the selected donor model for Los Santos Customs options"
+    },
+    {
       "hash": "441090882",
       "s": "Override Cloud Base"
     },
@@ -4489,8 +4549,16 @@
       "s": "Use an online freemode character model before loading"
     },
     {
+      "hash": "450530773",
+      "s": "Colour and opacity of route arrows"
+    },
+    {
       "hash": "450926569",
       "s": "Change Session"
+    },
+    {
+      "hash": "450947143",
+      "s": "Could not access the vehicle model"
     },
     {
       "hash": "451330602",
@@ -4665,6 +4733,10 @@
       "s": "Show Marker"
     },
     {
+      "hash": "466034469",
+      "s": "Failed to open the vehicle shop"
+    },
+    {
       "hash": "466538076",
       "s": "Repair"
     },
@@ -4685,6 +4757,10 @@
       "s": "Saved -- auto-applies every launch"
     },
     {
+      "hash": "468215896",
+      "s": "Prevent collision damage from long falls"
+    },
+    {
       "hash": "468261729",
       "s": "2026 clothing collection unlocked."
     },
@@ -4699,6 +4775,10 @@
     {
       "hash": "469766047",
       "s": "Drop Medical Bag"
+    },
+    {
+      "hash": "470003432",
+      "s": "The vehicle shop is already open"
     },
     {
       "hash": "470314589",
@@ -4815,6 +4895,10 @@
     {
       "hash": "480919009",
       "s": "Request the current catalog payout for arms trafficking"
+    },
+    {
+      "hash": "480952535",
+      "s": "Frozen"
     },
     {
       "hash": "481188831",
@@ -5029,6 +5113,10 @@
       "s": "Spooner MSLights"
     },
     {
+      "hash": "506139016",
+      "s": "Hand Flames"
+    },
+    {
       "hash": "506533804",
       "s": "Witch Mode Spells"
     },
@@ -5241,6 +5329,10 @@
       "s": "Pickup created by this player's shots"
     },
     {
+      "hash": "531930421",
+      "s": "The selected donor model is unavailable"
+    },
+    {
       "hash": "531996259",
       "s": "Cult Movie"
     },
@@ -5295,6 +5387,10 @@
     {
       "hash": "538070127",
       "s": "Gunrunning resupply/research/sell"
+    },
+    {
+      "hash": "538347784",
+      "s": "Clear Portals"
     },
     {
       "hash": "538358236",
@@ -5493,6 +5589,10 @@
       "s": "Tornadoes removed."
     },
     {
+      "hash": "560625089",
+      "s": "Route Color"
+    },
+    {
       "hash": "560820484",
       "s": "Light Smoke"
     },
@@ -5617,6 +5717,10 @@
       "s": "How the drivers handle traffic"
     },
     {
+      "hash": "575402453",
+      "s": "Chevron Spacing"
+    },
+    {
       "hash": "575452467",
       "s": "Return to story mode"
     },
@@ -5715,6 +5819,10 @@
     {
       "hash": "586176278",
       "s": "Forward Base"
+    },
+    {
+      "hash": "586202416",
+      "s": "Start LS Customs"
     },
     {
       "hash": "586555965",
@@ -6149,12 +6257,20 @@
       "s": "Open-door light colour"
     },
     {
+      "hash": "628591256",
+      "s": "Vehicle model forged; disable Forge Model to restore it"
+    },
+    {
       "hash": "630697435",
       "s": "Horizon Band 2"
     },
     {
       "hash": "631052991",
       "s": "Maintenance"
+    },
+    {
+      "hash": "631654738",
+      "s": "Height of the destination beam"
     },
     {
       "hash": "632514610",
@@ -6919,6 +7035,10 @@
     {
       "hash": "702079714",
       "s": "Utility"
+    },
+    {
+      "hash": "703526043",
+      "s": "Show Beacon"
     },
     {
       "hash": "703772149",
@@ -7713,6 +7833,10 @@
       "s": "The selected event is not waiting in the available state"
     },
     {
+      "hash": "782794583",
+      "s": "The firebending assets could not be loaded."
+    },
+    {
       "hash": "782958741",
       "s": "Auto Shop: cooldowns killed"
     },
@@ -7755,10 +7879,6 @@
     {
       "hash": "787905151",
       "s": "Lifetime (s)"
-    },
-    {
-      "hash": "788208147",
-      "s": "Bypass LSC Restrictions"
     },
     {
       "hash": "788436225",
@@ -7935,6 +8055,10 @@
     {
       "hash": "801937745",
       "s": "Cycle the paint"
+    },
+    {
+      "hash": "802166610",
+      "s": "Keep the Portal Gun crosshair visible while ragdolling or falling"
     },
     {
       "hash": "802681119",
@@ -8697,6 +8821,10 @@
       "s": "Online check intercepted -- answered 'not online'"
     },
     {
+      "hash": "884632524",
+      "s": "Throw a flaming projectile that leaves a fire trail and bursts on impact"
+    },
+    {
       "hash": "885190665",
       "s": "Force Field Apply"
     },
@@ -9261,6 +9389,10 @@
       "s": "Script-event and task-based crash methods"
     },
     {
+      "hash": "951337407",
+      "s": "Show normally restricted vehicle modifications in Los Santos Customs"
+    },
+    {
       "hash": "951868502",
       "s": "Rotation Speed"
     },
@@ -9425,6 +9557,10 @@
       "s": "Ten Second Warning"
     },
     {
+      "hash": "968768453",
+      "s": "Physics Force"
+    },
+    {
       "hash": "969254588",
       "s": "Metallic Yellow Bird"
     },
@@ -9479,6 +9615,10 @@
     {
       "hash": "973862370",
       "s": "Transition Rate"
+    },
+    {
+      "hash": "974199227",
+      "s": "Portal Radius"
     },
     {
       "hash": "974986261",
@@ -9641,6 +9781,10 @@
       "s": "Switch between the player and bird camera"
     },
     {
+      "hash": "994226447",
+      "s": "Stop Firebending"
+    },
+    {
       "hash": "994268902",
       "s": "Host Kick"
     },
@@ -9763,6 +9907,10 @@
     {
       "hash": "1008482930",
       "s": "Delete Swarms"
+    },
+    {
+      "hash": "1008807210",
+      "s": "Show portal status and whether the aimed surface is valid"
     },
     {
       "hash": "1009057466",
@@ -9925,6 +10073,10 @@
       "s": "Spawn Settings"
     },
     {
+      "hash": "1025701725",
+      "s": "Open the real Los Santos Customs upgrade menu for your current vehicle"
+    },
+    {
       "hash": "1026058559",
       "s": "Standard"
     },
@@ -10009,6 +10161,10 @@
       "s": "Fun Activities"
     },
     {
+      "hash": "1031376935",
+      "s": "Size and brightness boost for upcoming turns"
+    },
+    {
       "hash": "1032023817",
       "s": "Apartment Heist — $3M"
     },
@@ -10031,6 +10187,10 @@
     {
       "hash": "1033163690",
       "s": "Free Movement (6-DoF)"
+    },
+    {
+      "hash": "1033579275",
+      "s": "Show the remaining distance above the destination"
     },
     {
       "hash": "1033969794",
@@ -10261,6 +10421,10 @@
       "s": "Apply the wave/ripple overrides below"
     },
     {
+      "hash": "1053342171",
+      "s": "Effects & Controls"
+    },
+    {
       "hash": "1053521808",
       "s": "Overlay opacity %"
     },
@@ -10319,6 +10483,10 @@
     {
       "hash": "1057056785",
       "s": "Stop immediately when you press the handbrake at speed"
+    },
+    {
+      "hash": "1057227661",
+      "s": "Carry entry velocity through the destination portal"
     },
     {
       "hash": "1057729865",
@@ -10477,6 +10645,10 @@
       "s": "Shake the world and fling peds"
     },
     {
+      "hash": "1074405327",
+      "s": "Distance at which an entity enters a portal"
+    },
+    {
       "hash": "1074499901",
       "s": "Tornado Player"
     },
@@ -10535,6 +10707,10 @@
     {
       "hash": "1081149022",
       "s": "Business heat and cooldown controls"
+    },
+    {
+      "hash": "1081384114",
+      "s": "Allow nearby vehicles to traverse portals"
     },
     {
       "hash": "1082233635",
@@ -10949,6 +11125,10 @@
       "s": "Equipped -- click to remove"
     },
     {
+      "hash": "1121560055",
+      "s": "Jump directly to the blue portal"
+    },
+    {
       "hash": "1122413801",
       "s": "Complete every supported main collectible set for the selected recovery target"
     },
@@ -11103,6 +11283,10 @@
     {
       "hash": "1134902168",
       "s": "Metallic Sun Bleeched Sand"
+    },
+    {
+      "hash": "1135668258",
+      "s": "Beam Height"
     },
     {
       "hash": "1135916333",
@@ -11359,6 +11543,10 @@
     {
       "hash": "1159434303",
       "s": "Farm Raid associate payout"
+    },
+    {
+      "hash": "1159462514",
+      "s": "3D Guidance"
     },
     {
       "hash": "1159575271",
@@ -12017,6 +12205,10 @@
       "s": "Target marker, trails, sounds and HUD"
     },
     {
+      "hash": "1221583385",
+      "s": "Grab the aimed ped or vehicle, or release the held entity"
+    },
+    {
       "hash": "1221947237",
       "s": "Target / Coord Source"
     },
@@ -12173,6 +12365,10 @@
       "s": "Rope Creator Saves"
     },
     {
+      "hash": "1238011696",
+      "s": "Turn fall protection on or off"
+    },
+    {
       "hash": "1238046747",
       "s": "Follow Selected Player"
     },
@@ -12247,6 +12443,10 @@
     {
       "hash": "1243519736",
       "s": "Friendly/Social"
+    },
+    {
+      "hash": "1244274399",
+      "s": "Entity Movement"
     },
     {
       "hash": "1244614032",
@@ -12981,6 +13181,10 @@
       "s": "Attackers"
     },
     {
+      "hash": "1320345966",
+      "s": "Vehicles Use Portals"
+    },
+    {
       "hash": "1320766884",
       "s": "Balanced preset applied."
     },
@@ -13183,6 +13387,10 @@
     {
       "hash": "1338948282",
       "s": "Boost while walking"
+    },
+    {
+      "hash": "1339301738",
+      "s": "Jump directly to the orange portal"
     },
     {
       "hash": "1339587915",
@@ -13549,6 +13757,10 @@
       "s": "Random Trick"
     },
     {
+      "hash": "1376894934",
+      "s": "Beacon Size"
+    },
+    {
       "hash": "1376913729",
       "s": "Send an explosive rabbit that tracks this player"
     },
@@ -13611,6 +13823,10 @@
     {
       "hash": "1385418106",
       "s": "Plane Acceleration"
+    },
+    {
+      "hash": "1385983252",
+      "s": "Show a distant beacon and route arrows"
     },
     {
       "hash": "1386192978",
@@ -13809,10 +14025,6 @@
       "s": "Number of possessed animals to send"
     },
     {
-      "hash": "1409006795",
-      "s": "Menyoo Customs"
-    },
-    {
       "hash": "1409438549",
       "s": "Util Gun Metal"
     },
@@ -13875,6 +14087,10 @@
     {
       "hash": "1415413464",
       "s": "0 = father, 1 = mother"
+    },
+    {
+      "hash": "1417359196",
+      "s": "Choose a donor from the Spooner vehicle browser"
     },
     {
       "hash": "1417841203",
@@ -14701,6 +14917,10 @@
       "s": "Fade lines to transparent over their lifetime"
     },
     {
+      "hash": "1497480950",
+      "s": "Enable the native super jump while Firebender is active"
+    },
+    {
       "hash": "1497487737",
       "s": "Ped Light"
     },
@@ -14719,6 +14939,10 @@
     {
       "hash": "1500082334",
       "s": "Missions"
+    },
+    {
+      "hash": "1500199831",
+      "s": "List All Vehicle Mods"
     },
     {
       "hash": "1501019094",
@@ -14747,6 +14971,10 @@
     {
       "hash": "1502802162",
       "s": "Invite every selected player to your current organization"
+    },
+    {
+      "hash": "1502894687",
+      "s": "Put the blue portal in space"
     },
     {
       "hash": "1502967854",
@@ -15125,6 +15353,10 @@
       "s": "Biz Acid"
     },
     {
+      "hash": "1537782253",
+      "s": "Could not prepare the donor vehicle"
+    },
+    {
       "hash": "1538995824",
       "s": "Metallic Beechwood"
     },
@@ -15441,6 +15673,10 @@
       "s": "Hide the red link lines"
     },
     {
+      "hash": "1571342303",
+      "s": "Toggle Long Fall Boots"
+    },
+    {
       "hash": "1571925910",
       "s": "Make fired rounds explode using the native cheat effect"
     },
@@ -15551,6 +15787,10 @@
     {
       "hash": "1588027413",
       "s": "Aim the shot at the player (else at their position)"
+    },
+    {
+      "hash": "1588389058",
+      "s": "Flame Force"
     },
     {
       "hash": "1588857869",
@@ -16529,6 +16769,10 @@
       "s": "Mark the McKenzie Field Hangar introduction complete"
     },
     {
+      "hash": "1687463939",
+      "s": "Invincibility"
+    },
+    {
       "hash": "1687788832",
       "s": "Send Shock Drones"
     },
@@ -16993,6 +17237,10 @@
       "s": "Playback"
     },
     {
+      "hash": "1733670557",
+      "s": "Pull nearby peds and vehicles into the ground-side portal when its pair is on the moon"
+    },
+    {
       "hash": "1733876890",
       "s": "Return active service and personal vehicles to storage"
     },
@@ -17087,6 +17335,10 @@
     {
       "hash": "1745339717",
       "s": "Keep wanted level at zero"
+    },
+    {
+      "hash": "1745491738",
+      "s": "Forge Vehicles"
     },
     {
       "hash": "1745543582",
@@ -17509,6 +17761,10 @@
       "s": "Forward Speed"
     },
     {
+      "hash": "1789169170",
+      "s": "Preserve Momentum"
+    },
+    {
       "hash": "1789289197",
       "s": "PGun FXBrowse"
     },
@@ -17567,6 +17823,10 @@
     {
       "hash": "1794791455",
       "s": "Automatic"
+    },
+    {
+      "hash": "1794952627",
+      "s": "Distance at which guidance fades away"
     },
     {
       "hash": "1795133738",
@@ -17773,6 +18033,10 @@
       "s": "Neutralize Buy Enemies"
     },
     {
+      "hash": "1815911398",
+      "s": "Hold Blue Key For Blue Portal"
+    },
+    {
       "hash": "1815991285",
       "s": "Access"
     },
@@ -17787,10 +18051,6 @@
     {
       "hash": "1816674927",
       "s": "Library"
-    },
-    {
-      "hash": "1816950790",
-      "s": "Freeze entity physics while you move it"
     },
     {
       "hash": "1818897104",
@@ -18035,6 +18295,10 @@
     {
       "hash": "1841307245",
       "s": "Marker Color"
+    },
+    {
+      "hash": "1841566306",
+      "s": "Keep the Heavy Pistol clip full while Portal Gun is enabled"
     },
     {
       "hash": "1841625271",
@@ -18549,10 +18813,6 @@
       "s": "Relock Trade Prices"
     },
     {
-      "hash": "1891604626",
-      "s": "Unlock Los Santos Customs restrictions"
-    },
-    {
       "hash": "1891722909",
       "s": "Glide"
     },
@@ -18811,6 +19071,10 @@
     {
       "hash": "1915034425",
       "s": "Recolour interior / plate / dash / door lights"
+    },
+    {
+      "hash": "1915852870",
+      "s": "Charge for two seconds and release a blast around you"
     },
     {
       "hash": "1916446742",
@@ -19517,6 +19781,10 @@
       "s": "0%"
     },
     {
+      "hash": "1980698066",
+      "s": "Allow the moon portal to pull you or your vehicle in"
+    },
+    {
       "hash": "1981098035",
       "s": "Start this activity on the selected players"
     },
@@ -19531,6 +19799,10 @@
     {
       "hash": "1982311358",
       "s": "Veh God"
+    },
+    {
+      "hash": "1982511403",
+      "s": "Select from the Spooner vehicle catalog"
     },
     {
       "hash": "1982979157",
@@ -19627,6 +19899,10 @@
     {
       "hash": "1991366612",
       "s": "Gradient Bottom"
+    },
+    {
+      "hash": "1991422027",
+      "s": "Infinite Portal Ammo"
     },
     {
       "hash": "1991671244",
@@ -20091,6 +20367,10 @@
     {
       "hash": "2032164447",
       "s": "Join this crew"
+    },
+    {
+      "hash": "2032715988",
+      "s": "Grab Or Release Entity"
     },
     {
       "hash": "2033100702",
@@ -21009,6 +21289,10 @@
       "s": "Turn Assist"
     },
     {
+      "hash": "2123866119",
+      "s": "Direct"
+    },
+    {
       "hash": "2123917243",
       "s": "Finish Act 3 (must be host)"
     },
@@ -21285,10 +21569,6 @@
       "s": "Save Layout"
     },
     {
-      "hash": "2147356809",
-      "s": "Unlock Los Santos Customs restrictions (patches the carmod_shop script)"
-    },
-    {
       "hash": "2147482482",
       "s": "Kill List"
     },
@@ -21403,6 +21683,10 @@
     {
       "hash": "2156970474",
       "s": "Rainstorm"
+    },
+    {
+      "hash": "2157565703",
+      "s": "The vehicle shop assets would not load"
     },
     {
       "hash": "2157782167",
@@ -21655,6 +21939,10 @@
     {
       "hash": "2183410681",
       "s": "Troll Vehicles"
+    },
+    {
+      "hash": "2183717319",
+      "s": "Show fire on both hands and smoke while swimming"
     },
     {
       "hash": "2183723389",
@@ -22099,6 +22387,10 @@
     {
       "hash": "2234323782",
       "s": "Restore Normal"
+    },
+    {
+      "hash": "2234357108",
+      "s": "Width of the destination beam and ring"
     },
     {
       "hash": "2234434371",
@@ -22575,6 +22867,10 @@
     {
       "hash": "2278237640",
       "s": "Fill & Collect Once"
+    },
+    {
+      "hash": "2279101909",
+      "s": "Size of each route arrow"
     },
     {
       "hash": "2279543073",
@@ -23117,6 +23413,10 @@
       "s": "Flight Response"
     },
     {
+      "hash": "2337189748",
+      "s": "Add-on vehicles cannot be used as LSC donors"
+    },
+    {
       "hash": "2337384556",
       "s": "Upward launch velocity"
     },
@@ -23183,6 +23483,10 @@
     {
       "hash": "2343031903",
       "s": "Not in a vehicle"
+    },
+    {
+      "hash": "2343416673",
+      "s": "Customize the vehicle you are currently driving"
     },
     {
       "hash": "2344378859",
@@ -23475,6 +23779,10 @@
     {
       "hash": "2373413735",
       "s": "Spooner FX"
+    },
+    {
+      "hash": "2373512498",
+      "s": "Show 3D guidance to your waypoint or mission objective"
     },
     {
       "hash": "2373754468",
@@ -24009,6 +24317,10 @@
       "s": "Event launch request published to the session"
     },
     {
+      "hash": "2431020505",
+      "s": "Chevron Count"
+    },
+    {
       "hash": "2432139346",
       "s": "Push strength"
     },
@@ -24159,6 +24471,10 @@
     {
       "hash": "2450011987",
       "s": "Could not send a Slasher to this player"
+    },
+    {
+      "hash": "2450031730",
+      "s": "With Hold Blue Key disabled, press the bound key to place blue at the aim point"
     },
     {
       "hash": "2450058156",
@@ -24905,6 +25221,10 @@
       "s": "Distance used to find walls, ceilings, and nearby surfaces"
     },
     {
+      "hash": "2527109417",
+      "s": "Delete both portals and release any grabbed entity"
+    },
+    {
       "hash": "2527120706",
       "s": "Send an NPC to follow this player and steal their vehicle"
     },
@@ -25241,6 +25561,10 @@
       "s": "Remote Control Request"
     },
     {
+      "hash": "2558561911",
+      "s": "Los Santos Custom"
+    },
+    {
       "hash": "2558969685",
       "s": "Stiff"
     },
@@ -25527,6 +25851,10 @@
     {
       "hash": "2591565245",
       "s": "Place a map waypoint first."
+    },
+    {
+      "hash": "2591606450",
+      "s": "Put orange in space, or hold the blue key while activating for blue"
     },
     {
       "hash": "2592212891",
@@ -26857,6 +27185,10 @@
       "s": "Camera & editor settings"
     },
     {
+      "hash": "2735520911",
+      "s": "Firebender"
+    },
+    {
       "hash": "2736786958",
       "s": "Roller Coaster"
     },
@@ -27009,6 +27341,10 @@
       "s": "MC"
     },
     {
+      "hash": "2750094162",
+      "s": "Long Fall Boots"
+    },
+    {
       "hash": "2750142904",
       "s": "Knock away / plow through everything you touch"
     },
@@ -27071,6 +27407,10 @@
     {
       "hash": "2756516727",
       "s": "Personal Aircraft"
+    },
+    {
+      "hash": "2756605104",
+      "s": "Hold L1 and press a face button to use an ability"
     },
     {
       "hash": "2756692002",
@@ -27533,6 +27873,10 @@
       "s": "Operating Stations"
     },
     {
+      "hash": "2803188981",
+      "s": "Distance between route arrows"
+    },
+    {
       "hash": "2803285081",
       "s": "Toggle vehicle extras"
     },
@@ -27749,6 +28093,10 @@
       "s": "Lowered "
     },
     {
+      "hash": "2821468232",
+      "s": "Moon Suck Distance"
+    },
+    {
       "hash": "2821522887",
       "s": "Read or edit a global index or tunable by hash/name"
     },
@@ -27855,6 +28203,10 @@
     {
       "hash": "2832931935",
       "s": "Delete active ropes and load this setup"
+    },
+    {
+      "hash": "2832974489",
+      "s": "Protection"
     },
     {
       "hash": "2834048765",
@@ -28593,6 +28945,10 @@
       "s": "Press Jump in a vehicle to perform acrobatics"
     },
     {
+      "hash": "2907493230",
+      "s": "Arrival Distance"
+    },
+    {
       "hash": "2907640323",
       "s": "Teleport target = where you stand"
     },
@@ -28705,6 +29061,10 @@
       "s": "New objects have physics"
     },
     {
+      "hash": "2919958613",
+      "s": "The vehicle shop script would not load"
+    },
+    {
       "hash": "2921205689",
       "s": "Sync jump launch to foot"
     },
@@ -28731,6 +29091,10 @@
     {
       "hash": "2922172032",
       "s": "Lower = slower time during the dive"
+    },
+    {
+      "hash": "2922471465",
+      "s": "Hold the blue-portal action key while firing for blue; fire normally for orange"
     },
     {
       "hash": "2922689788",
@@ -29373,6 +29737,10 @@
       "s": "Show redirect and headshot counters"
     },
     {
+      "hash": "2990429687",
+      "s": "Show Distance"
+    },
+    {
       "hash": "2991187565",
       "s": "Blend two weather types at once with a mix slider"
     },
@@ -29989,6 +30357,10 @@
       "s": "Say this line on the selected ped (in its current voice)"
     },
     {
+      "hash": "3061107628",
+      "s": "Could not find the vehicle shop thread"
+    },
+    {
       "hash": "3061142217",
       "s": "Green"
     },
@@ -30031,6 +30403,10 @@
     {
       "hash": "3063549370",
       "s": "API Layer Load Error"
+    },
+    {
+      "hash": "3065603139",
+      "s": "Selected as forge donor"
     },
     {
       "hash": "3066822363",
@@ -30265,6 +30641,10 @@
       "s": "Complete Doomsday Freemode Missions"
     },
     {
+      "hash": "3091440016",
+      "s": "Teleport To Orange Portal"
+    },
+    {
       "hash": "3092166071",
       "s": "Track or forget this entity without deleting it"
     },
@@ -30373,6 +30753,10 @@
       "s": "Stat Manager Presets"
     },
     {
+      "hash": "3102992462",
+      "s": "Create a line of five fiery explosions ahead"
+    },
+    {
       "hash": "3103077064",
       "s": "Call Dragon"
     },
@@ -30425,6 +30809,10 @@
       "s": "Extras"
     },
     {
+      "hash": "3110820275",
+      "s": "Use the Heavy Pistol to place and travel through linked portals"
+    },
+    {
       "hash": "3111911954",
       "s": "Unlock Pavel Outfits"
     },
@@ -30475,6 +30863,10 @@
     {
       "hash": "3116029347",
       "s": "Streaming -- press Spawn again."
+    },
+    {
+      "hash": "3116155519",
+      "s": "Surround your hands with fire and use four firebending abilities"
     },
     {
       "hash": "3116248583",
@@ -31101,6 +31493,10 @@
       "s": "Watch Yo Jet"
     },
     {
+      "hash": "3174968920",
+      "s": "Select a donor vehicle first"
+    },
+    {
       "hash": "3175145182",
       "s": "Skeleton"
     },
@@ -31619,6 +32015,10 @@
     {
       "hash": "3228020053",
       "s": "Reload Screen"
+    },
+    {
+      "hash": "3229057916",
+      "s": "Toggle Moon Suction For Self"
     },
     {
       "hash": "3229371032",
@@ -32813,6 +33213,10 @@
       "s": "Apply changes to the selected vehicle in real time"
     },
     {
+      "hash": "3348157213",
+      "s": "Teleport To Blue Portal"
+    },
+    {
       "hash": "3348349319",
       "s": "Biz CEO Crates"
     },
@@ -33313,6 +33717,10 @@
       "s": "Everyone Ignore Player"
     },
     {
+      "hash": "3392776031",
+      "s": "Spawn a random pedestrian two metres in front of you"
+    },
+    {
       "hash": "3392820438",
       "s": "Overlay variation (-1 = none)"
     },
@@ -33669,6 +34077,10 @@
       "s": "Notify"
     },
     {
+      "hash": "3423739994",
+      "s": "Grab Entities"
+    },
+    {
       "hash": "3423858215",
       "s": "Props, followers, vehicles, cages, traps, pickups, and world events"
     },
@@ -33791,6 +34203,10 @@
     {
       "hash": "3440102175",
       "s": "Restore stock and drop this binding"
+    },
+    {
+      "hash": "3440660258",
+      "s": "Visibility Distance"
     },
     {
       "hash": "3440754505",
@@ -35141,6 +35557,10 @@
       "s": "Open this pack"
     },
     {
+      "hash": "3574363308",
+      "s": "Throw Fireball"
+    },
+    {
       "hash": "3575274126",
       "s": "Show thruster effects while flying"
     },
@@ -35251,6 +35671,10 @@
     {
       "hash": "3583792088",
       "s": "Worn Golden Red"
+    },
+    {
+      "hash": "3584507817",
+      "s": "Peds Use Portals"
     },
     {
       "hash": "3585108001",
@@ -35577,6 +36001,10 @@
       "s": "Crew ranks - create/delete (leader)"
     },
     {
+      "hash": "3613960062",
+      "s": "Portal Gun"
+    },
+    {
       "hash": "3614283017",
       "s": "Amount of vertical recoil correction"
     },
@@ -35675,6 +36103,10 @@
     {
       "hash": "3620308099",
       "s": "Freemode launcher is not running"
+    },
+    {
+      "hash": "3620652125",
+      "s": "Select a saved favourite vehicle"
     },
     {
       "hash": "3620678042",
@@ -36153,6 +36585,10 @@
       "s": "Backward"
     },
     {
+      "hash": "3668786927",
+      "s": "Choose exact placement, frozen placement, or a physical pull toward the target"
+    },
+    {
       "hash": "3669508315",
       "s": "Crews"
     },
@@ -36175,6 +36611,10 @@
     {
       "hash": "3671297834",
       "s": "Bounty, wanted, off-radar, CEO and kick events"
+    },
+    {
+      "hash": "3671808764",
+      "s": "Radius affected by moon suction"
     },
     {
       "hash": "3671978456",
@@ -36551,6 +36991,10 @@
     {
       "hash": "3705030652",
       "s": "Queue GTA's Molotov drop at every selected associate"
+    },
+    {
+      "hash": "3705037213",
+      "s": "Draw road arrows with stronger emphasis at upcoming turns"
     },
     {
       "hash": "3705252162",
@@ -37269,6 +37713,10 @@
       "s": "Unlock the Gray Space Interloper outfit"
     },
     {
+      "hash": "3772926113",
+      "s": "Place Portal On Moon"
+    },
+    {
       "hash": "3773879600",
       "s": "Engine power multiplier"
     },
@@ -37609,6 +38057,10 @@
       "s": "Trick to play (when Random is off)"
     },
     {
+      "hash": "3808162545",
+      "s": "Choose whether moon suction affects you"
+    },
+    {
       "hash": "3808295955",
       "s": "Flicker you and the saucer invisible"
     },
@@ -37691,6 +38143,10 @@
     {
       "hash": "3813563546",
       "s": "Forward = lift front (hold Accelerate); Backward = lift back (hold Brake)"
+    },
+    {
+      "hash": "3813592372",
+      "s": "Spawn Test Ped"
     },
     {
       "hash": "3813720502",
@@ -38785,6 +39241,10 @@
       "s": "Browse peds from the gtaDiscoveryApi catalog"
     },
     {
+      "hash": "3911864980",
+      "s": "Use the grab action while aiming to hold or release a ped or vehicle"
+    },
+    {
       "hash": "3912193853",
       "s": "Unlock FPS"
     },
@@ -39021,6 +39481,10 @@
       "s": "Blizzard"
     },
     {
+      "hash": "3935253378",
+      "s": "Moon Portals"
+    },
+    {
       "hash": "3935720632",
       "s": "Purchase with GTA$ -- registers ownership so it persists (GTA Online)"
     },
@@ -39175,6 +39639,10 @@
     {
       "hash": "3948329096",
       "s": "Select All"
+    },
+    {
+      "hash": "3948444893",
+      "s": "Allow the moon actions to place a portal in space"
     },
     {
       "hash": "3948687798",
@@ -39757,6 +40225,10 @@
       "s": "Unlock vehicles, rewards, trade prices, trophies and progression"
     },
     {
+      "hash": "4009849059",
+      "s": "Moon Suction Affects Self"
+    },
+    {
       "hash": "4009865786",
       "s": "Phantom Brake"
     },
@@ -39853,6 +40325,10 @@
       "s": "Research Time"
     },
     {
+      "hash": "4018924772",
+      "s": "Show Route Chevrons"
+    },
+    {
       "hash": "4019133755",
       "s": "Launch the selected event for the session"
     },
@@ -39871,6 +40347,10 @@
     {
       "hash": "4022468218",
       "s": "Swing Assist"
+    },
+    {
+      "hash": "4022611067",
+      "s": "Place Blue Portal On Moon"
     },
     {
       "hash": "4022767562",
@@ -40357,6 +40837,10 @@
       "s": "Racing Minigames"
     },
     {
+      "hash": "4065925930",
+      "s": "Turn Emphasis"
+    },
+    {
       "hash": "4066126802",
       "s": "Quick Setup"
     },
@@ -40567,6 +41051,10 @@
     {
       "hash": "4087823706",
       "s": "Send the convoy away and clean it up"
+    },
+    {
+      "hash": "4087911669",
+      "s": "Grab Range"
     },
     {
       "hash": "4088184976",
@@ -40799,6 +41287,10 @@
     {
       "hash": "4110717642",
       "s": "Height above ground to float"
+    },
+    {
+      "hash": "4111133356",
+      "s": "Maximum distance for grabbing an aimed entity"
     },
     {
       "hash": "4111746444",
@@ -42053,6 +42545,10 @@
       "s": "Copy"
     },
     {
+      "hash": "4227858342",
+      "s": "Number of route arrows drawn ahead"
+    },
+    {
       "hash": "4228339292",
       "s": "Unlock Garment Factory trophies and awards"
     },
@@ -42153,6 +42649,10 @@
       "s": "Owned"
     },
     {
+      "hash": "4238552009",
+      "s": "Crosshair While Falling"
+    },
+    {
       "hash": "4238759168",
       "s": "Lock Status"
     },
@@ -42223,6 +42723,10 @@
     {
       "hash": "4244535515",
       "s": "Number of animals sent to each selected player"
+    },
+    {
+      "hash": "4244723820",
+      "s": "Waypoint Guidance"
     },
     {
       "hash": "4244847746",
@@ -42315,6 +42819,10 @@
     {
       "hash": "4252287804",
       "s": "Read back this texture -> CustomTextures\\Dumps\\<dict>\\<tex>.png"
+    },
+    {
+      "hash": "4252518824",
+      "s": "Fire Spark"
     },
     {
       "hash": "4252711305",
@@ -42479,6 +42987,10 @@
     {
       "hash": "4266747014",
       "s": "packed "
+    },
+    {
+      "hash": "4266804350",
+      "s": "Chevron Size"
     },
     {
       "hash": "4268456388",
@@ -42751,6 +43263,10 @@
     {
       "hash": "4293398999",
       "s": "Affect Objects"
+    },
+    {
+      "hash": "4293399679",
+      "s": "Forge Model"
     },
     {
       "hash": "4293716332",
