@@ -137,6 +137,16 @@
     },
     {
       "root": "ui",
+      "rel": "features/audio_player.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/audio_player.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/catapult_launch.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/catapult_launch.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/easy_melee_attack.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/easy_melee_attack.lua"
     },
@@ -162,13 +172,28 @@
     },
     {
       "root": "ui",
+      "rel": "features/human_slingshot.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/human_slingshot.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/iron_man.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/iron_man.lua"
     },
     {
       "root": "ui",
+      "rel": "features/magic_bullets.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/magic_bullets.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/minigames.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/minigames.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/news_wire.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/news_wire.lua"
     },
     {
       "root": "ui",
@@ -187,13 +212,28 @@
     },
     {
       "root": "ui",
+      "rel": "features/portal_gun.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/portal_gun.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/ragdoller.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/ragdoller.lua"
     },
     {
       "root": "ui",
+      "rel": "features/silent_aim.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/silent_aim.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/skydive.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/skydive.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/speedometer_custom.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/speedometer_custom.lua"
     },
     {
       "root": "ui",
@@ -209,6 +249,11 @@
       "root": "ui",
       "rel": "features/ufo_mode.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/ufo_mode.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/waypoint_guidance.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/waypoint_guidance.lua"
     },
     {
       "root": "ui",
@@ -287,8 +332,18 @@
     },
     {
       "root": "ui",
+      "rel": "panels/hotkeys_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/hotkeys_panel.lua"
+    },
+    {
+      "root": "ui",
       "rel": "panels/info_panel.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/info_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/modders_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/modders_panel.lua"
     },
     {
       "root": "ui",
@@ -304,6 +359,11 @@
       "root": "ui",
       "rel": "panels/pool_panel.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/pool_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/protection_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/protection_panel.lua"
     },
     {
       "root": "ui",
@@ -344,6 +404,16 @@
       "root": "ui",
       "rel": "previews/replacement_preview.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/replacement_preview.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/script_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/script_preview.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/theme_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/theme_preview.lua"
     },
     {
       "root": "ui",

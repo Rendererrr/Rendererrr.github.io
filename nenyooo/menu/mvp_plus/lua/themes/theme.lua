@@ -54,8 +54,9 @@ local DESC_H     = 34
 -- ── Palette (defaults; live values come from Settings ▸ Theme via reload_colors) ──
 local COL = {
     glow    = {220, 129, 39, 255}, -- orange bloom behind the 3D N
-    hdr_l   = {226, 97,  42, 255}, -- header gradient left  (orange)
-    hdr_r   = {255, 122, 0,  255}, -- header gradient right (orange)
+    hdr_l   = {226, 97,  42, 255}, -- header gradient left   (orange)
+    hdr_m   = {255, 170, 60, 255}, -- header gradient middle (amber; only used when FX.grad3)
+    hdr_r   = {255, 122, 0,  255}, -- header gradient right  (orange)
     black   = {0, 0, 0, 199},
     sub_bg  = {12, 12, 12, 255},  -- #0c0c0c
     desc_bg = {12, 12, 12, 255},
@@ -82,6 +83,16 @@ local TAG_COL = {
     Passive = {170, 170, 180},
     Ghost   = {190, 120, 245},   -- ghosted to us; deliberately off OTR's cyan, since ghost-org
                                  -- OTR sets both tags at once
+    MOD     = {255,  72,  72},   -- strong modder signal
+    RID     = {255,  96, 150},   -- Rockstar ID mismatch
+    RANK    = {255, 150,  60},   -- impossible rank
+    GOD     = {255, 112,  64},   -- cannot currently be damaged
+    INV     = { 95, 205, 255},   -- invisible or alpha-hidden
+    VPN     = {215, 100, 255},   -- VPN / proxy endpoint
+    DC      = {240, 170,  70},   -- datacenter / hosting endpoint
+    TALK    = { 80, 220, 145},   -- speaking in voice chat
+    DEAD    = {110, 110, 120},
+    WTD     = {255,  90,  80},   -- wanted level above zero
 }
 
 -- ════════════════════ Customizable settings (Settings ▸ Theme) ════════════════════
@@ -90,7 +101,8 @@ local TAG_COL = {
 local SETTINGS_FILE = "theme_settings.ini"
 
 -- Bump this any time the DEFAULT values in the tables below (LAYOUT_DEFS / FONT_DEFS / COLOR_MAP /
--- ACCENT_MAP / FX_DEFS / PANEL_DEFS) change and you want existing users to pick up the new defaults.
+-- ACCENT_MAP / FX_DEFS / PANEL_DEFS / PANEL_OPTION_DEFS) change and you want existing users to pick
+-- up the new defaults.
 -- On load, a saved file whose __version key does not match this number is discarded, so the fresh
 -- defaults land the next time the user launches. Nothing is prompted -- the pull-forward is silent,
 -- same as the "Reset Theme" action, just automatic.
@@ -152,22 +164,58 @@ local COLOR_MAP = {
 -- Decorative accent colors
 local ACCENT_MAP = {
     {n="Banner Left",  k="hdr_l", d={226,97,42,255},  ds="Left side of the banner and accent lines"},
+    {n="Banner Middle",k="hdr_m", d={255,170,60,255}, ds="Middle stop of the banner; needs 3-Color Banner enabled"},
     {n="Banner Right", k="hdr_r", d={255,122,0,255},  ds="Right side of the banner and accent lines"},
     {n="Global Accent",k="glow",  d={220,129,39,255}, ds="Section markers and shared Lua overlays"},
 }
 -- Effect toggles (fk = key in FX)
-local FX = {glare=true, scrollbar=true, hint=true}
+local FX = {glare=true, scrollbar=true, hint=true, grad3=false}
 local FX_DEFS = {
     {n="Breadcrumb Glare", d=true,  fk="glare",     ds="Animate a light sweep across the page-title bar"},
     {n="Show Scrollbar",   d=false, fk="scrollbar", ds="Draw the colored scrollbar at the left of the list"},
     {n="Show Hotkey Hint", d=false, fk="hint",      ds="Show hotkey instructions in the page-title bar"},
+    {n="3-Color Banner",   d=false, fk="grad3",     ds="Blend the banner through Banner Middle instead of straight left-to-right"},
 }
 local PANEL_DEFS = {
-    {n="Show Panel",   label="Performance", d=true, mode=0, ds="FPS, frame time and menu performance"},
+    {n="Show Watermark", label="Performance", d=true, mode=0, ds="FPS statistics, clock and graph"},
     {n="Show Pools",   label="Game Pools",  d=true, mode=0, ds="Ped, vehicle and object pool usage"},
     {n="Show Render",  label="Render Counts",d=true,mode=0, ds="Entities drawn during the current frame"},
-    {n="Show Coords",  label="Coordinates", d=true, mode=0, ds="Player position, heading and speed"},
+    {n="Show Coords",  label="Coordinates", d=false, mode=0, ds="Position, street, zone, heading and speed"},
     {n="Show Session", label="Session",     d=true, mode=0, ds="Current session and network information"},
+    {n="Show Protections", label="Session Security", d=true, mode=0, ds="Session stability and live protection activity"},
+    {n="Show Modders", label="Detected Modders", d=true, mode=0, ds="Players flagged in the current session"},
+    {n="Show Player Info", label="Player Details", d=true, mode=1, ds="Selected-player details, stats, preview and map"},
+    {n="Show Hotkeys", label="Keybinds", d=false, mode=0, ds="Assigned feature hotkeys and their live enabled state"},
+}
+local PANEL_OPTION_DEFS = {
+    {n="Watermark Frame Time", d=false, ds="Show frame time in milliseconds on the performance watermark"},
+    {n="Watermark Resolution", d=false, ds="Show the current display resolution on the performance watermark"},
+}
+-- How often each panel rebuilds its rows, in times per second. A panel redraws every frame either
+-- way; this is only how often it re-reads its data and re-formats its text. Session-ish panels
+-- change once a minute, so re-running a dozen string.format calls at the full frame rate was pure
+-- waste. The performance watermark is absent on purpose -- a throttled frame counter is a broken
+-- frame counter. 60 means "every frame", the old behaviour.
+local REFRESH_DEFS = {
+    {n="Pools Refresh",    d=30, ds="Game Pools: rebuilds per second"},
+    {n="Render Refresh",   d=30, ds="Render Counts: rebuilds per second"},
+    {n="Coords Refresh",   d=30, ds="Coordinates: rebuilds per second"},
+    {n="Session Refresh",  d=5,  ds="Session: rebuilds per second"},
+    {n="Security Refresh", d=5,  ds="Session Security: rebuilds per second"},
+    {n="Modders Refresh",  d=5,  ds="Detected Modders: rebuilds per second"},
+    {n="Hotkeys Refresh",  d=5,  ds="Keybinds: rebuilds per second"},
+}
+
+-- Audio Player HUD. DESIGNS must stay in the same order as the DESIGNS table in
+-- scripts\\Ui\\features\\audio_player.lua -- the setting stores an index, not a name.
+-- add_sub_array caps at 16 values and 31 characters each.
+local AUDIO_DESIGNS = {
+    "Vinyl Deck", "Slim Bar", "Album Card", "Portrait",
+    "Bare", "Waveform", "Capsule", "Ticker",
+    "Cassette", "Panel Native", "Lower Third", "Orb",
+}
+local AUDIO_DEFS = {
+    {n="Player Design", d=2, ds="Layout for the on-screen music player"},
 }
 
 -- name -> kind, for parsing the saved file back
@@ -179,6 +227,9 @@ for _,d in ipairs(ACCENT_MAP)  do KIND[d.n]="col" end
 for _,d in ipairs(FX_DEFS)     do KIND[d.n]="tog" end
 for _,d in ipairs(PANEL_DEFS)  do KIND[d.n]="panel" end
 
+for _,d in ipairs(PANEL_OPTION_DEFS) do KIND[d.n]="tog" end
+for _,d in ipairs(REFRESH_DEFS)      do KIND[d.n]="num" end
+for _,d in ipairs(AUDIO_DEFS)        do KIND[d.n]="arr" end
 -- ── Readers (fall back to defaults if a setting is somehow absent) ──
 local function sf(name, def)
     local s = menu.get_setting(name)
@@ -212,7 +263,14 @@ local function register_settings()
     menu.add_setting_submenu("HUD Panels", "Visibility of optional on-screen information panels")
     for _,d in ipairs(PANEL_DEFS) do
         menu.add_sub_array_toggle(d.n, {"Always", "In Menu"}, d.mode, d.d, d.label..": "..d.ds)
+        if d.n == "Show Watermark" then
+            for _,opt in ipairs(PANEL_OPTION_DEFS) do menu.add_sub_toggle(opt.n, opt.d, opt.ds) end
+        end
     end
+    menu.add_setting_submenu("Audio Player HUD", "Look of the on-screen music player")
+    for _,d in ipairs(AUDIO_DEFS) do menu.add_sub_array(d.n, AUDIO_DESIGNS, d.d, d.ds) end
+    menu.add_setting_submenu("Panel Refresh", "How often each panel re-reads its data (times per second)")
+    for _,d in ipairs(REFRESH_DEFS) do menu.add_sub_slider(d.n, d.d, 1, 60, 1, d.ds) end
     menu.add_setting_action("Reset Theme", "Reset all theme settings to defaults")
 end
 
@@ -253,6 +311,12 @@ local function serialize()
     for _,d in ipairs(ACCENT_MAP)  do local c=sc(d.n,d.d); out[#out+1]=d.n.."="..c[1]..","..c[2]..","..c[3]..","..c[4] end
     for _,d in ipairs(FX_DEFS)     do out[#out+1] = d.n.."="..(sb(d.n,d.d) and "1" or "0") end
     for _,d in ipairs(PANEL_DEFS)  do local s=menu.get_setting(d.n); out[#out+1]=d.n.."="..((s and s.on) and "1" or "0")..","..tostring((s and s.value_index) or d.mode) end
+    for _,d in ipairs(PANEL_OPTION_DEFS) do out[#out+1] = d.n.."="..(sb(d.n,d.d) and "1" or "0") end
+    for _,d in ipairs(REFRESH_DEFS)      do out[#out+1] = d.n.."="..tostring(sf(d.n,d.d)) end
+    for _,d in ipairs(AUDIO_DEFS) do
+        local st = menu.get_setting(d.n)
+        out[#out+1] = d.n.."="..tostring((st and st.value_index) or d.d)
+    end
     return table.concat(out, "\n")
 end
 local function apply_saved()
@@ -269,6 +333,7 @@ local function apply_saved()
     end
     for line in data:gmatch("[^\r\n]+") do
         local k, v = line:match("^(.-)=(.*)$")
+        if k == "Show Panel" then k = "Show Watermark" end
         local kind = k and KIND[k]
         if kind=="num" then
             local nv = tonumber(v); if nv then menu.set_setting(k, nv) end
@@ -280,6 +345,8 @@ local function apply_saved()
         elseif kind=="panel" then
             local on,mode = v:match("([01]),(%d+)")
             if on then menu.set_setting(k, on=="1", tonumber(mode)) end
+        elseif kind=="arr" then
+            local nv = tonumber(v); if nv then menu.set_setting(k, nv) end
         end
     end
 end
@@ -290,6 +357,9 @@ local function reset_settings()
     for _,d in ipairs(ACCENT_MAP)  do menu.set_setting(d.n, d.d[1],d.d[2],d.d[3],d.d[4]) end
     for _,d in ipairs(FX_DEFS)     do menu.set_setting(d.n, d.d) end
     for _,d in ipairs(PANEL_DEFS)  do menu.set_setting(d.n, d.d, d.mode) end
+    for _,d in ipairs(PANEL_OPTION_DEFS) do menu.set_setting(d.n, d.d) end
+    for _,d in ipairs(REFRESH_DEFS)      do menu.set_setting(d.n, d.d) end
+    for _,d in ipairs(AUDIO_DEFS)        do menu.set_setting(d.n, d.d) end
     file.remove(SETTINGS_FILE)
 end
 local function is_reset(it) return it and it.type==item_type.action and it.name=="Reset Theme" end
@@ -304,6 +374,53 @@ last_sig = serialize()
 local function clamp(v,lo,hi) return math.max(lo, math.min(hi, v)) end
 local function lerp(a,b,t) return a+(b-a)*t end
 local function alpha(c) return c[4] or 255 end
+
+-- Banner gradient. draw.rect_gradient is a four-CORNER (bilinear) fill, so one call can only ever
+-- ramp between two stops along an axis. A third stop is two abutting rects that share the middle
+-- colour on the seam edge -- continuous, because both sides sample the identical colour there. The
+-- split point is floored so the two rects meet on a whole pixel and cannot leave a seam.
+local function band_h(x1, y1, x2, y2, al, ar)
+    local l, r = COL.hdr_l, COL.hdr_r
+    al = al or alpha(l)
+    ar = ar or alpha(r)
+    if not FX.grad3 then
+        draw.rect_gradient(x1, y1, x2, y2,
+            l[1],l[2],l[3],al,  r[1],r[2],r[3],ar,
+            r[1],r[2],r[3],ar,  l[1],l[2],l[3],al)
+        return
+    end
+    local m  = COL.hdr_m
+    local am = math.floor((al + ar) * 0.5)
+    local xm = math.floor((x1 + x2) * 0.5)
+    draw.rect_gradient(x1, y1, xm, y2,
+        l[1],l[2],l[3],al,  m[1],m[2],m[3],am,
+        m[1],m[2],m[3],am,  l[1],l[2],l[3],al)
+    draw.rect_gradient(xm, y1, x2, y2,
+        m[1],m[2],m[3],am,  r[1],r[2],r[3],ar,
+        r[1],r[2],r[3],ar,  m[1],m[2],m[3],am)
+end
+
+-- Same ramp rotated: top -> (middle) -> bottom. Used by the scrollbar thumb.
+local function band_v(x1, y1, x2, y2, at, ab)
+    local l, r = COL.hdr_l, COL.hdr_r
+    at = at or alpha(l)
+    ab = ab or alpha(r)
+    if not FX.grad3 then
+        draw.rect_gradient(x1, y1, x2, y2,
+            l[1],l[2],l[3],at,  l[1],l[2],l[3],at,
+            r[1],r[2],r[3],ab,  r[1],r[2],r[3],ab)
+        return
+    end
+    local m  = COL.hdr_m
+    local am = math.floor((at + ab) * 0.5)
+    local ym = math.floor((y1 + y2) * 0.5)
+    draw.rect_gradient(x1, y1, x2, ym,
+        l[1],l[2],l[3],at,  l[1],l[2],l[3],at,
+        m[1],m[2],m[3],am,  m[1],m[2],m[3],am)
+    draw.rect_gradient(x1, ym, x2, y2,
+        m[1],m[2],m[3],am,  m[1],m[2],m[3],am,
+        r[1],r[2],r[3],ab,  r[1],r[2],r[3],ab)
+end
 local function hit(x1,y1,x2,y2)
     local mx,my = input.mouse_x(), input.mouse_y()
     return mx>=x1 and mx<x2 and my>=y1 and my<y2
@@ -389,6 +506,11 @@ local CPICK_W, CPICK_GAP = 190, 10
 -- inline hotkey capture
 local hk_bind, hk_idx = false, -1
 local last_sel = -1
+-- Header feature search. Results are snapshots of stable page ids + display text; no menu_item is
+-- copied or activated from this virtual list. Choosing a hit only navigates to its owning page.
+local search_open, search_query, search_last_query = false, "", nil
+local search_results, search_sel, search_last_revision = {}, 0, -1
+local search_saved_scroll, search_saved_scroll_t = 0, 0
 
 local NUM = {
     [item_type.slider]=true, [item_type.int_option]=true,
@@ -401,6 +523,61 @@ local CYCLE = {
 
 local function reset_scroll() scroll=0; scroll_t=0 end
 local function close_popups() cpick=false; edit_on=false; hk_bind=false end
+
+local function rebuild_feature_search()
+    if not search_open then return end
+    local revision = items.revision()
+    if search_query == search_last_query and revision == search_last_revision then return end
+    search_last_query, search_last_revision = search_query, revision
+    search_results = {}
+    if search_query ~= "" then
+        for _, handle in ipairs(items.search(search_query) or {}) do
+            local it = items.at(handle)
+            if it and not it.is_header then
+                search_results[#search_results + 1] = {
+                    hash = it.hash,
+                    name = type(it.name)=="string" and it.name or "",
+                    desc = type(it.desc)=="string" and it.desc or "",
+                    page = type(it.page)=="string" and it.page or "",
+                    page_id = type(it.page_id)=="number" and it.page_id or 0,
+                }
+            end
+        end
+    end
+    if #search_results == 0 then search_sel = 0
+    elseif search_sel >= #search_results then search_sel = #search_results - 1 end
+    reset_scroll()
+end
+
+local function open_feature_search()
+    close_popups()
+    search_open, search_query, search_last_query = true, "", nil
+    search_sel = 0
+    search_saved_scroll, search_saved_scroll_t = scroll, scroll_t
+    reset_scroll()
+    rebuild_feature_search()
+end
+
+local function close_feature_search(restore_scroll)
+    search_open, search_query, search_last_query = false, "", nil
+    search_results, search_sel, search_last_revision = {}, 0, -1
+    if restore_scroll then scroll, scroll_t = search_saved_scroll, search_saved_scroll_t
+    else reset_scroll() end
+end
+
+local function move_search_selection(dir)
+    local n = #search_results
+    if n == 0 then search_sel = 0; return end
+    search_sel = (search_sel + dir) % n
+end
+
+local function open_search_result()
+    local result = search_results[search_sel + 1]
+    if not result or result.page_id == 0 then return end
+    local target = result.page_id
+    close_feature_search(false)
+    if target ~= menu.page_id() then menu.navigate(target) end
+end
 
 -- Activate the selected item, intercepting the "Reset Theme" action.
 local function do_activate()
@@ -556,11 +733,7 @@ local function draw_cpick(wx, wy, ww, wh)
     draw.rect(px+3,py+4,px+PW+3,py+PH+4, 0,0,0,95, 7)
     draw.rect(px,py,px+PW,py+PH, 18,18,22,252, 7)
     draw.rect_outline(px,py,px+PW,py+PH, 74,74,82,220, 7, 1)
-    draw.rect_gradient(px,py,px+PW,py+HEAD_H,
-        COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],235,
-        COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],235,
-        COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],235,
-        COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],235)
+    band_h(px, py, px+PW, py+HEAD_H, 235, 235)
     text.draw_spaced(font.tiny, px+PADP, py+(HEAD_H-text.height(font.tiny))*0.5,
         255,255,255,255, "COLOR", 1.0)
 
@@ -648,6 +821,25 @@ local function proc_edit()
     if input.key_just_pressed(VK.ESCAPE) then edit_on=false end
 end
 
+local function proc_feature_search()
+    if not search_open then return end
+    local changed = false
+    local chars = input.get_chars()
+    if chars ~= "" and #search_query < 127 then
+        search_query = (search_query .. chars):sub(1, 127)
+        changed = true
+    end
+    if input.key_pressed(VK.BACK) and #search_query > 0 then
+        search_query = search_query:sub(1, -2)
+        changed = true
+    end
+    if changed then search_sel = 0; rebuild_feature_search() end
+    if input.key_pressed(VK.DOWN) then move_search_selection(1) end
+    if input.key_pressed(VK.UP) then move_search_selection(-1) end
+    if input.key_just_pressed(VK.RETURN) then open_search_result() end
+    if input.key_just_pressed(VK.ESCAPE) then close_feature_search(true) end
+end
+
 -- ════════════════════ MAIN DRAW ════════════════════
 function draw_menu()
     reload_colors(); reload_fx()
@@ -656,6 +848,8 @@ function draw_menu()
     theme.set_accent_palette(COL.glow[1], COL.glow[2], COL.glow[3], alpha(COL.glow))
     if not menu.is_visible() then return end
 
+    proc_feature_search()
+
     -- pull live layout + fonts from Settings ▸ Theme (cheap; reassigns the
     -- file-scope locals so draw_right etc. see the updated values this frame)
     local l = reload_layout(); apply_fonts()
@@ -663,8 +857,12 @@ function draw_menu()
     ROW_H=l.row_h; VIS_ROWS=l.vis_rows; PAD_X=l.pad_x; SCROLL_W=l.scroll_w
     DESC_GAP=l.desc_gap; DESC_H=l.desc_h
 
-    local count = menu.item_count()
-    local sel   = menu.selected_index()
+    rebuild_feature_search()
+    -- Keep this frame on one coherent data source if the header button opens/closes search midway
+    -- through drawing. The new state takes effect on the following frame.
+    local searching = search_open
+    local count = searching and #search_results or menu.item_count()
+    local sel   = searching and search_sel or menu.selected_index()
     if sel ~= last_sel then close_popups(); desc_alpha=0; last_sel=sel end
 
     -- box geometry (centered horizontally, upper third vertically)
@@ -682,12 +880,8 @@ function draw_menu()
     local dox, doy = menu.drag_header(x, y, WIN_W, HDR_H)
     x = x + dox; y = y + doy
 
-    -- ── Header (purple → cyan horizontal gradient + centered "Nenyoo" wordmark) ──
-    draw.rect_gradient(x, y, x+WIN_W, y+HDR_H,
-        COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],alpha(COL.hdr_l),
-        COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],alpha(COL.hdr_r),
-        COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],alpha(COL.hdr_r),
-        COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],alpha(COL.hdr_l))
+    -- ── Header (horizontal banner gradient + centered "Nenyoo" wordmark) ──
+    band_h(x, y, x+WIN_W, y+HDR_H)
     draw.push_clip(x, y, x+WIN_W, y+HDR_H)
     local brand = "Nenyoo"
     local bw = text.width(font.title, brand)
@@ -726,8 +920,29 @@ function draw_menu()
     local title_x = x + PAD_X
     local title = string.upper(menu.page_title() or "MENU")
     -- subtle glare sweep
-    text.draw_spaced(font.breadcrumb, title_x, sy+(SUB_H-text.height(font.breadcrumb))*0.5,
-        COL.sub_txt[1],COL.sub_txt[2],COL.sub_txt[3],alpha(COL.sub_txt), title, 1.0)
+    local search_cy = sy + SUB_H*0.5
+    local search_icon_x = x + WIN_W - PAD_X - 16
+    if searching then
+        icon_h("search", title_x, search_cy, 14, COL.sub_txt[1],COL.sub_txt[2],COL.sub_txt[3],alpha(COL.sub_txt))
+        local shown = search_query ~= "" and search_query or "Search features…"
+        if search_query ~= "" and math.floor(ctx.time()*2)%2 == 0 then shown = shown .. "|" end
+        local sc = search_query ~= "" and COL.sub_txt or COL.foot_txt
+        draw.push_clip(title_x+22, sy, x+WIN_W-PAD_X-28, sy+SUB_H)
+        text.draw(font.breadcrumb, title_x+22, sy+(SUB_H-text.height(font.breadcrumb))*0.5,
+            sc[1],sc[2],sc[3],alpha(sc), shown)
+        draw.pop_clip()
+        local close_text = "×"
+        text.draw(font.breadcrumb, search_icon_x, sy+(SUB_H-text.height(font.breadcrumb))*0.5,
+            COL.sub_txt[1],COL.sub_txt[2],COL.sub_txt[3],alpha(COL.sub_txt), close_text)
+        if clk(search_icon_x-8, sy, x+WIN_W, sy+SUB_H) then close_feature_search(true) end
+    else
+        text.draw_spaced(font.breadcrumb, title_x, sy+(SUB_H-text.height(font.breadcrumb))*0.5,
+            COL.sub_txt[1],COL.sub_txt[2],COL.sub_txt[3],alpha(COL.sub_txt), title, 1.0)
+        local over_search = hit(search_icon_x-6, sy, x+WIN_W, sy+SUB_H)
+        local c = over_search and COL.white or COL.sub_txt
+        icon_h("search", search_icon_x, search_cy, 15, c[1],c[2],c[3],alpha(c))
+        if clk(search_icon_x-8, sy, x+WIN_W, sy+SUB_H) then open_feature_search() end
+    end
     if FX.glare then
         local gp = (ctx.time()*0.32) % 1.6
         local gxc = x - WIN_W*0.5 + gp*WIN_W
@@ -739,22 +954,18 @@ function draw_menu()
     -- hotkey hint (right side of subheader) when the selected row can bind
     do
         local hi = menu.get_item(sel)
-        if FX.hint and not hk_bind and hi and hi.type~=item_type.sub_menu and menu.page_can_hotkey() then
+        if not searching and FX.hint and not hk_bind and hi and hi.type~=item_type.sub_menu and menu.page_can_hotkey() then
             local hint = (hi.hotkey and hi.hotkey~=0) and "[H] rebind  [Del] clear" or "[H] hotkey"
-            text.draw(font.tiny, x+WIN_W-PAD_X-text.width(font.tiny,hint),
+            text.draw(font.tiny, search_icon_x-12-text.width(font.tiny,hint),
                 sy+(SUB_H-text.height(font.tiny))*0.5,
                 COL.foot_txt[1],COL.foot_txt[2],COL.foot_txt[3],alpha(COL.foot_txt), hint)
         end
     end
 
-    -- purple → cyan gradient accent line under the breadcrumb (matches the header)
+    -- gradient accent line under the breadcrumb (matches the header)
     do
         local ly = sy + SUB_H - 2
-        draw.rect_gradient(x, ly, x+WIN_W, ly+2,
-            COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],alpha(COL.hdr_l),
-            COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],alpha(COL.hdr_r),
-            COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],alpha(COL.hdr_r),
-            COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],alpha(COL.hdr_l))
+        band_h(x, ly, x+WIN_W, ly+2)
     end
 
     -- ── Options list ──
@@ -783,15 +994,45 @@ function draw_menu()
     end
 
     draw.push_clip(x+SCROLL_W, list_y, x+WIN_W, list_y+list_h)
+    if searching and count == 0 then
+        local empty = search_query == "" and "Start typing to search features" or "No matching features"
+        text.draw_centered(font.item, x+PAD_X, list_y+(ROW_H-text.height(font.item))*0.5,
+            x+WIN_W-PAD_X, COL.foot_txt[1],COL.foot_txt[2],COL.foot_txt[3],alpha(COL.foot_txt), empty)
+    end
     for i=0,count-1 do
         -- Visibility first: only fetch the item (a C++ round-trip building a Lua table) for on-screen
         -- rows. On huge dynamic pages (e.g. 1000-row anim search) fetching all rows each frame tanks FPS.
         local ry = list_y + i*ROW_H - scroll
         if ry+ROW_H >= list_y and ry <= list_y+list_h then
-            local item = menu.get_item(i)
+            local item = searching and search_results[i+1] or menu.get_item(i)
             if item then
               item._idx = i
-              if item.is_header then
+              if searching then
+                local item_name = type(item.name)=="string" and item.name or ""
+                local item_page = type(item.page)=="string" and item.page or ""
+                local is_sel = (i == sel)
+                local hov = hit(x+SCROLL_W, ry, x+WIN_W, ry+ROW_H)
+                if is_sel or hov then
+                    draw.rect_gradient(x+SCROLL_W, ry, x+WIN_W, ry+ROW_H,
+                        COL.sel_l[1],COL.sel_l[2],COL.sel_l[3],alpha(COL.sel_l),
+                        COL.sel_r[1],COL.sel_r[2],COL.sel_r[3],alpha(COL.sel_r),
+                        COL.sel_r[1],COL.sel_r[2],COL.sel_r[3],alpha(COL.sel_r),
+                        COL.sel_l[1],COL.sel_l[2],COL.sel_l[3],alpha(COL.sel_l))
+                end
+                local tc = (is_sel or hov) and COL.sel_txt or COL.row_txt
+                local pc = (is_sel or hov) and COL.sel_txt or COL.dim
+                local pw = math.min(150, text.width(font.value, item_page))
+                draw.push_clip(x+PAD_X, ry, x+WIN_W-PAD_X-pw-12, ry+ROW_H)
+                text.draw(font.item, x+PAD_X, ry+(ROW_H-text.height(font.item))*0.5,
+                    tc[1],tc[2],tc[3],alpha(tc), item_name)
+                draw.pop_clip()
+                text.draw(font.value, x+WIN_W-PAD_X-pw, ry+(ROW_H-text.height(font.value))*0.5,
+                    pc[1],pc[2],pc[3],alpha(pc), item_page)
+                if hov and input.mouse_clicked(0) and not menu.overlay_active() then
+                    search_sel = i
+                    open_search_result()
+                end
+              elseif item.is_header then
                 -- Section divider: purple accent bar + UPPERCASE label. No highlight, no right
                 -- widget, no click (nav skips headers). Wrapping dashes/spaces are stripped.
                 local label = (item.name or ""):gsub("^[%-%s]+",""):gsub("[%-%s]+$",""):upper()
@@ -931,18 +1172,14 @@ function draw_menu()
     draw.pop_clip()
 
     -- ── Left scrollbar (white thumb) ──
-    if FX.scrollbar then
+    if FX.scrollbar and count > 0 then
         local ratio = list_h/content_h
         local th = math.max(list_h*ratio, 20)
         local maxtop = list_h-th
         local sr = scroll_max>0 and (scroll/scroll_max) or 0
         local ty = list_y+sr*maxtop
-        -- vertical gradient: purple (top) -> cyan (bottom)
-        draw.rect_gradient(x, ty, x+SCROLL_W, ty+th,
-            COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],alpha(COL.hdr_l),
-            COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],alpha(COL.hdr_l),
-            COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],alpha(COL.hdr_r),
-            COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],alpha(COL.hdr_r))
+        -- vertical banner gradient: Banner Left (top) -> Banner Right (bottom)
+        band_v(x, ty, x+SCROLL_W, ty+th)
     end
 
     -- ── Footer ──
@@ -962,8 +1199,12 @@ function draw_menu()
     local navx = x+WIN_W*0.5
     local uw = icon_h("up", navx-7, fcy-7, 22, COL.white[1],COL.white[2],COL.white[3], hit(navx-16,fy,navx+16,fcy) and alpha(COL.white) or math.min(alpha(COL.white),170))
     local dw = icon_h("down", navx-7, fcy+7, 22, COL.white[1],COL.white[2],COL.white[3], hit(navx-16,fcy,navx+16,fy+FOOT_H) and alpha(COL.white) or math.min(alpha(COL.white),170))
-    if clk(navx-16, fy, navx+16, fcy) then menu.move_selection(-1) end
-    if clk(navx-16, fcy, navx+16, fy+FOOT_H) then menu.move_selection(1) end
+    if clk(navx-16, fy, navx+16, fcy) then
+        if searching then move_search_selection(-1) else menu.move_selection(-1) end
+    end
+    if clk(navx-16, fcy, navx+16, fy+FOOT_H) then
+        if searching then move_search_selection(1) else menu.move_selection(1) end
+    end
     -- counter
     local cnt = (count>0 and (sel+1) or 0).." / "..count
     text.draw(font.small, x+WIN_W-PAD_X-text.width(font.small,cnt), fcy-text.height(font.small)*0.5,
@@ -972,8 +1213,24 @@ function draw_menu()
     -- ── Description box (detached, white left accent) — grows to fit wrapped text ──
     desc_alpha = lerp(desc_alpha, 1, clamp(ctx.delta()*10,0,1))
     local dy = fy + FOOT_H + DESC_GAP
-    local di = menu.get_item(sel)
-    local dtext = (di and di.desc and di.desc~="") and di.desc or (di and ("Adjust "..di.name..".") or "")
+    local di = searching and search_results[sel+1] or menu.get_item(sel)
+    local dtext
+    if searching then
+        local ddesc = di and type(di.desc)=="string" and di.desc or ""
+        local dpage = di and type(di.page)=="string" and di.page or ""
+        local dname = di and type(di.name)=="string" and di.name or ""
+        if ddesc ~= "" then
+            dtext = ddesc
+        elseif di then
+            if dpage ~= "" and dname ~= "" then dtext = "Open "..dpage.." to find "..dname.."."
+            elseif dname ~= "" then dtext = "Open the matching page to find "..dname.."."
+            else dtext = "Open the matching feature page." end
+        else
+            dtext = search_query=="" and "Search feature names, pages, and descriptions." or "No matching features."
+        end
+    else
+        dtext = (di and di.desc and di.desc~="") and di.desc or (di and ("Adjust "..di.name..".") or "")
+    end
     local dmaxw = WIN_W - 54   -- leave room on the left for the info "i" glyph
     local dlh   = text.height(font.desc) * 1.32
     -- count wrapped lines (greedy word wrap, mirrors the renderer's word wrapping)
@@ -1011,7 +1268,7 @@ function draw_menu()
     -- popups on top
     draw_cpick(x, list_y, WIN_W, list_h)
     proc_edit()
-    menu.set_text_editing(edit_on)   -- tell the script thread to suppress game/cam input while typing
+    menu.set_text_editing(edit_on or search_open)   -- suppress game/cam input while typing
 
     -- persist settings to disk (debounced ~0.4s after the last change so dragging
     -- a slider / scrubbing the color picker doesn't thrash the file)
@@ -1025,6 +1282,7 @@ end
 -- ════════════════════ INPUT ════════════════════
 function handle_input()
     if not menu.is_visible() then return end
+    if search_open then return end     -- feature-search input is consumed by proc_feature_search
     if edit_on then return end           -- editor consumes keys in proc_edit
 
     if cpick then

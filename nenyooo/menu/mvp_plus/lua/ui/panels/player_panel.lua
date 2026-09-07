@@ -36,8 +36,10 @@ local function mclamp(v, lo, hi) return math.max(lo, math.min(hi, v)) end
 local function mease(speed, dt) if dt <= 0 then return 1.0 end return 1.0 - math.exp(-speed * dt) end
 
 overlay.on_draw("player_panel", function()
-    if not menu.is_visible() then return end
-    local it = menu.get_item(menu.selected_index())
+    local st = menu.get_setting("Show Player Info")
+    local menu_visible = menu.is_visible()
+    if not (st and st.on) or (st.value_index == 1 and not menu_visible) then return end
+    local it = menu_visible and menu.get_item(menu.selected_index()) or nil
 
     -- Two ways to be "on" a player: highlighting a row in the Players list, or standing on one of the
     -- per-player subpages (Network Player -> Tracking / Trolling / Kicks / ...), whose rows carry no
@@ -287,7 +289,7 @@ overlay.on_draw("player_panel", function()
         end
 
         local mx, my = input.mouse_x(), input.mouse_y()
-        local inside = mx >= vx and mx <= vx + VW and my >= vy and my <= vy + VH
+        local inside = menu_visible and mx >= vx and mx <= vx + VW and my >= vy and my <= vy + VH
 
         local base_side = math.max(VW, VH)
         local side_now = base_side * map_zoom
@@ -322,6 +324,7 @@ overlay.on_draw("player_panel", function()
                 map_tcv = vcur + (vy + VH * 0.5 - my) / side_t
             end
         end
+        if not menu_visible then map_drag = false end
         if map_drag then
             if input.mouse_down(0) then
                 map_tcu = map_tcu - (mx - map_dpx) / side_now

@@ -1,10 +1,10 @@
-
--- Shared framework for the HUD overlay panels: dragging, edge snapping, group-move of attached
--- panels, a glowing "will attach here" indicator, and position persistence to a file.
--- Defines a global __panelkit at load; panels call __panelkit.move(name, default_x, default_y, w, h)
--- inside their on_draw and use the returned x,y. The kit OWNS each panel's position.
+-- Shared framework for the HUD overlay panels: dragging, edge snapping, docking into a virtual
+-- top panel, folding, per-panel refresh throttling, and position persistence to a file.
+-- Defines a global __panelkit at load; panels call __panelkit.gate() to decide whether to draw and
+-- __panelkit.panel() to size + position + render themselves. The kit OWNS each panel's position.
 __panelkit = {
     rects   = {}, drags = {}, pos = {}, saved = {}, natw = {}, nath = {}, dock = {}, render = {},
+    folded  = {}, cbox = {}, hist = {}, hslot = {}, dprev = {}, dval = {}, dslot = {},
     GUTTER  = 10, SNAP = 12, EPS = 3, ANCHOR = "info_panel", SMOOTH = 18,
     LAYOUT_FILE = "panel_layout.ini",
 }
@@ -12,26 +12,85 @@ do
     local data = file.read(__panelkit.LAYOUT_FILE)
     if data then
         for line in data:gmatch("[^\r\n]+") do
-            -- "name=x,y" (free) or "name=x,y,col,row" (docked into the anchor grid). A legacy
-            -- "name=x,y,parent,L|R" line fails the numeric match -> loads FREE (tolerated).
-            local n, xs, ys, rest = line:match("^(.-)=(-?%d+%.?%d*),(-?%d+%.?%d*)(.*)$")
-            if n then
-                __panelkit.saved[n] = { x = tonumber(xs), y = tonumber(ys) }
-                local cs, rs = rest:match("^,(%d+),(%d+)$")
-                if cs then __panelkit.dock[n] = { col = tonumber(cs), row = tonumber(rs) } end
+            -- "~folded=a,b,c" carries the collapsed set. It cannot collide with a panel line
+            -- because the position pattern below requires two numbers after the '='.
+            local fl = line:match("^~folded=(.*)$")
+            if fl then
+                for n in fl:gmatch("[^,]+") do __panelkit.folded[n] = true end
+            else
+                -- "name=x,y" (free) or "name=x,y,col,row" (docked into the rail grid). A legacy
+                -- "name=x,y,parent,L|R" line fails the numeric match -> loads FREE (tolerated).
+                local n, xs, ys, rest = line:match("^(.-)=(-?%d+%.?%d*),(-?%d+%.?%d*)(.*)$")
+                if n then
+                    __panelkit.saved[n] = { x = tonumber(xs), y = tonumber(ys) }
+                    local cs, rs = rest:match("^,(%d+),(%d+)$")
+                    if cs then __panelkit.dock[n] = { col = tonumber(cs), row = tonumber(rs) } end
+                end
             end
         end
     end
 end
 function __panelkit.save()
-    local out = {}
+    local out, fold = {}, {}
     for n, p in pairs(__panelkit.pos) do
         local d = __panelkit.dock[n]
         if d then out[#out + 1] = string.format("%s=%.0f,%.0f,%d,%d", n, p.x, p.y, d.col, d.row)
         else out[#out + 1] = string.format("%s=%.0f,%.0f", n, p.x, p.y) end
     end
+    for n, on in pairs(__panelkit.folded) do if on then fold[#fold + 1] = n end end
+    if #fold > 0 then out[#out + 1] = "~folded=" .. table.concat(fold, ",") end
     file.write(__panelkit.LAYOUT_FILE, table.concat(out, "\n"))
 end
+
+-- ── visibility gate ───────────────────────────────────────────────────────────────────────────
+-- Every panel opened with the same five-line dance: read the setting, honour the Always/In-Menu
+-- mode, hide on the way out, and bail if its data source is missing. That rule now lives here, so
+-- a new panel cannot get it subtly wrong. `dep` is the panel's data source (pools, session, ...);
+-- pass true when it has none.
+function __panelkit.gate(name, setting, dep)
+    local st = menu.get_setting(setting)
+    local on = st and st.on and (st.value_index ~= 1 or menu.is_visible())
+    if not on or not dep then
+        __panelkit.hide(name)
+        return false
+    end
+    return true
+end
+
+-- ── refresh throttling ────────────────────────────────────────────────────────────────────────
+-- A panel rebuilding its rows every frame runs a dozen string.format calls for values that change
+-- once a minute. Each panel gets a rate (Hz) from Settings > Theme > Panel Refresh; the row table
+-- it builds is cached until the next tick is due. The watermark is deliberately absent from this
+-- table -- its whole point is a live frame rate.
+__panelkit.RATE = {
+    pool_panel       = { "Pools Refresh",     30 },
+    render_panel     = { "Render Refresh",    30 },
+    coords_panel     = { "Coords Refresh",    30 },
+    session_panel    = { "Session Refresh",    5 },
+    protection_panel = { "Security Refresh",   5 },
+    modders_panel    = { "Modders Refresh",    5 },
+    hotkeys_panel    = { "Hotkeys Refresh",    5 },
+}
+function __panelkit.rate(name)
+    local d = __panelkit.RATE[name]
+    if not d then return 60 end
+    local s = menu.get_setting(d[1])
+    local v = (s and s.f_val) or d[2]
+    if v < 1 then return 1 elseif v > 60 then return 60 end
+    return v
+end
+-- Returns the cached row table while it is still fresh, or nil when the panel should rebuild.
+function __panelkit.cached(name)
+    local c = __panelkit.cbox[name]
+    if not c then return nil end
+    if (ctx.time() - c.t) >= (1.0 / __panelkit.rate(name)) then return nil end
+    return c.rows
+end
+function __panelkit.cache(name, rows)
+    __panelkit.cbox[name] = { t = ctx.time(), rows = rows }
+    return rows
+end
+
 local function nearest(p, cands, snap)
     local bp, bd = p, snap
     for _, c in ipairs(cands) do
@@ -55,6 +114,7 @@ function __panelkit.snap(name, px, py, bw, bh, skip)
     return nearest(px, bx, k.SNAP), nearest(py, by, k.SNAP)
 end
 local function overlap(a0, a1, b0, b1) return math.min(a1, b1) - math.max(a0, b0) end
+
 -- GRID DOCKING: the top bar (k.ANCHOR) is the single dock host. Panels attach beneath it into a
 -- fixed 2-column grid; every docked panel is exactly half the anchor's width (cellW). col 0 = left,
 -- col 1 = right; panels fill a column top-to-bottom, and row r is shared by both columns. All sizing
@@ -158,9 +218,10 @@ local function draw_indicator(name, r)
         end
     end
 end
+
 function __panelkit.move(name, dx, dy, bw, bh)
     local k = __panelkit
-    k.nath[name] = bh                      -- record natural height for ALL callers (incl. the anchor)
+    k.nath[name] = bh                      -- record natural height for ALL callers
     local sw, sh = ctx.screen_w(), ctx.screen_h()
     local pos = k.pos[name]
     if not pos then
@@ -180,11 +241,14 @@ function __panelkit.move(name, dx, dy, bw, bh)
         and mx >= pos.x and mx <= pos.x + bw and my >= pos.y and my <= pos.y + bh then
         d.active = true; k.active = name
         d.gx, d.gy = mx - pos.x, my - pos.y; d.moved = false
+        -- Remember whether the press landed in the title band: a press there that never moves is a
+        -- fold, not a drag. Anywhere else is drag-only, so folding can't fire from a body click.
+        d.hdr = (my - pos.y) <= k.header_h() * k.scale()
     end
     if d.active and can and input.mouse_down(0) then
         local nx, ny = mx - d.gx, my - d.gy
         -- dock takes priority and is tested on the RAW cursor pos (not snapped) so it never fights
-        -- the generic edge-snap; generic snap only runs when we're NOT docking into the anchor grid.
+        -- the generic edge-snap; generic snap only runs when we're NOT docking into the rail grid.
         local tgt, prev = dock_target(name, mx, my), k.dock[name]
         if tgt then
             if prev and prev.col ~= tgt.col then k.dock[name] = nil; k.recompact(prev.col) end
@@ -200,11 +264,15 @@ function __panelkit.move(name, dx, dy, bw, bh)
         pos.x, pos.y = nx, ny
     else
         if d.active then
-            if d.moved then k.save() end
-            d.active = false; d.dtgt = nil
+            if d.moved then k.save()
+            elseif d.hdr then                       -- a click on the title, not a drag -> fold
+                k.folded[name] = not k.folded[name]
+                k.save()
+            end
+            d.active = false; d.dtgt = nil; d.hdr = false
             if k.active == name then k.active = nil end
         end
-        if k.dock[name] and name ~= k.ANCHOR then     -- docked + idle: glue to the computed grid cell
+        if k.dock[name] and name ~= k.ANCHOR then   -- docked + idle: glue to the computed grid cell
             local x, y = cell_rect(name)
             if x then pos.x, pos.y = x, y end           -- anchor absent this frame -> keep pos, re-glue later
         end
@@ -240,129 +308,476 @@ function __panelkit.hide(name)
     if __panelkit.active == name then __panelkit.active = nil end
 end
 
--- â”€â”€ shared "card" chrome â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
--- Techy-HUD look (square corners): faked drop shadow, subtle vertical gradient body, thin themed
--- accent outline, accent corner ticks, an accent block + UPPERCASE letter-spaced title, a thin
--- header divider, and optional per-row usage fill bars. ALL panel styling lives here -- edit once.
+-- ── shared "card" chrome ──────────────────────────────────────────────────────────────────────
+-- Techy-HUD look: subtle vertical gradient body, a solid accent rail down the left edge instead of
+-- a full outline (eight outlined boxes at once was a lot of frame for not much content), an
+-- UPPERCASE letter-spaced title, a thin header divider, and optional per-row usage gauges.
+-- ALL panel styling lives here -- edit once.
 __panelkit.style = {
     tfont = font.label, vfont = font.value, tspacing = 2,
-    padx = 11, pady = 8, rgap = 6, colgap = 24, tick = 7, sh = 4, blk = 3,
+    padx = 11, pady = 8, rgap = 6, colgap = 24, blk = 3,
     bg_top = { 24, 25, 32 }, bg_bot = { 15, 15, 21 }, bg_a = 238,
     title_c = { 236, 238, 245 }, label_c = { 140, 143, 156 }, value_c = { 234, 236, 244 },
-    track = { 38, 39, 48 }, outline_a = 110, shadow_a = 90, divider_a = 70, bar_h = 3,
+    track = { 38, 39, 48 }, divider_a = 70,
+    radius = 7, element_radius = 3,
+    rail_w = 3,                                        -- accent edge (replaces the full outline)
+    good = { 92, 214, 145 }, warn = { 235, 182, 70 }, bad = { 245, 83, 91 },
+    seg_n = 20, seg_gap = 1.5, seg_h = 4,              -- segmented usage gauge
+    warn_at = 0.70, bad_at = 0.90,
+    spark_w = 34, spark_h = 8, spark_gap = 6, spark_n = 32,
+    tri_w = 5, tri_h = 5, delta_gap = 5,
+    sig_w = 11, sig_h = 8, sig_gap = 5,
+    chev_w = 10,
 }
+
+function __panelkit.scale()
+    local value = ctx.panel_scale and ctx.panel_scale() or 1.0
+    if value < 0.5 then value = 0.5 elseif value > 2.0 then value = 2.0 end
+    return value
+end
 
 -- header band height (y -> first row). Lazy: fonts may not be bound when this file first loads.
 function __panelkit.header_h()
     local s = __panelkit.style
     return s.pady + text.height(s.tfont) + 9
 end
+local function folded_h()
+    local s = __panelkit.style
+    return s.pady * 2 + text.height(s.tfont)
+end
 
--- card width/height from rows ({label,value} pairs). opts.bar reserves a fill-bar row per row.
+local function row_visible(row)
+    local label = row and row[1]
+    return row and (row.allow_empty or (type(label) == "string" and label:find("%S") ~= nil))
+end
+
+local function tone_of(frac)
+    local s = __panelkit.style
+    if frac >= s.bad_at then return s.bad end
+    if frac >= s.warn_at then return s.warn end
+    return s.good
+end
+
+-- Width the extras on a row need to the right of its value.
+local function extra_w(r)
+    local s = __panelkit.style
+    local w = 0
+    if r.spark  then w = w + s.spark_w + s.spark_gap end
+    if r.signal then w = w + s.sig_w + s.sig_gap end
+    if r.delta then
+        local d = __panelkit.dval[r.dkey or ""] or 0
+        if d ~= 0 then w = w + s.tri_w + 2 + text.width(s.vfont, tostring(math.abs(d))) + s.delta_gap end
+    end
+    return w
+end
+
+-- card width/height from rows ({label,value} pairs). opts.bar reserves a gauge row per row.
 function __panelkit.card_size(title, rows, opts)
     local s = __panelkit.style
     local lh = text.height(s.vfont) + s.rgap
     local content = text.width_spaced(s.tfont, string.upper(title), s.tspacing)
-    for _, r in ipairs(rows) do
-        local rw = text.width(s.vfont, r[1]) + s.colgap + text.width(s.vfont, r[2])
-        if rw > content then content = rw end
+    if opts and opts.folded then
+        -- Header-only: title, the digest that replaces the body, and the chevron.
+        if opts.digest then
+            content = content + s.colgap
+                    + text.width(s.vfont, opts.digest[1] or "") + 4
+                    + text.width(s.vfont, opts.digest[2] or "")
+        end
+        return content + s.padx * 2 + s.chev_w + 8, folded_h()
     end
+    local visible = 0
+    for _, r in ipairs(rows) do
+        if row_visible(r) then
+            visible = visible + 1
+            local rw
+            if r.section then
+                rw = text.width(s.vfont, string.upper(r[1]))
+            else
+                local label_w = text.width(s.vfont, r[1]) + (r.keycap and 10 or 0)
+                rw = label_w + s.colgap + text.width(s.vfont, r[2]) + extra_w(r)
+            end
+            if rw > content then content = rw end
+        end
+    end
+    content = content + s.chev_w + 8                 -- room for the fold chevron in the title band
     local bw = content + s.padx * 2
-    local body = #rows * lh - s.rgap
-    if opts and opts.bar then body = body + #rows * (s.bar_h + 3) end
+    local body = visible > 0 and (visible * lh - s.rgap) or 0
+    if opts and opts.bar then body = body + visible * (s.seg_h + 3) end
     return bw, __panelkit.header_h() + body + s.pady
 end
 
-local function corner_ticks(x, y, bw, bh, r, g, b)
-    local t = __panelkit.style.tick
-    draw.line(x, y, x + t, y, r, g, b, 255, 1);                draw.line(x, y, x, y + t, r, g, b, 255, 1)
-    draw.line(x + bw - t, y, x + bw, y, r, g, b, 255, 1);      draw.line(x + bw, y, x + bw, y + t, r, g, b, 255, 1)
-    draw.line(x, y + bh - t, x, y + bh, r, g, b, 255, 1);      draw.line(x, y + bh, x + t, y + bh, r, g, b, 255, 1)
-    draw.line(x + bw - t, y + bh, x + bw, y + bh, r, g, b, 255, 1); draw.line(x + bw, y + bh - t, x + bw, y + bh, r, g, b, 255, 1)
+-- draw.rect_gradient has square corners, so clip rounded end-caps over a square centre band.
+local function rounded_gradient(x1, y1, x2, y2, top, bot, alpha, radius)
+    local r = math.max(0, math.min(radius or 0, (y2 - y1) * 0.5, (x2 - x1) * 0.5))
+    if r <= 0.5 then
+        draw.rect_gradient(x1, y1, x2, y2,
+            top[1], top[2], top[3], alpha, top[1], top[2], top[3], alpha,
+            bot[1], bot[2], bot[3], alpha, bot[1], bot[2], bot[3], alpha)
+        return
+    end
+    ui.push_clip(x1, y1, x2, y1 + r)
+    draw.rect(x1, y1, x2, y1 + r * 2, top[1], top[2], top[3], alpha, r)
+    ui.pop_clip()
+    ui.push_clip(x1, y2 - r, x2, y2)
+    draw.rect(x1, y2 - r * 2, x2, y2, bot[1], bot[2], bot[3], alpha, r)
+    ui.pop_clip()
+    draw.rect_gradient(x1, y1 + r, x2, y2 - r,
+        top[1], top[2], top[3], alpha, top[1], top[2], top[3], alpha,
+        bot[1], bot[2], bot[3], alpha, bot[1], bot[2], bot[3], alpha)
 end
 
 local function card_body(x, y, bw, bh)
     local s = __panelkit.style
     local ar, ag, ab = theme.accent()
-    draw.rect(x + s.sh, y + s.sh, x + bw + s.sh, y + bh + s.sh, 0, 0, 0, s.shadow_a)   -- shadow
-    draw.rect_gradient(x, y, x + bw, y + bh,                                            -- body gradient
-        s.bg_top[1], s.bg_top[2], s.bg_top[3], s.bg_a, s.bg_top[1], s.bg_top[2], s.bg_top[3], s.bg_a,
-        s.bg_bot[1], s.bg_bot[2], s.bg_bot[3], s.bg_a, s.bg_bot[1], s.bg_bot[2], s.bg_bot[3], s.bg_a)
-    corner_ticks(x, y, bw, bh, ar, ag, ab)
+    rounded_gradient(x, y, x + bw, y + bh, s.bg_top, s.bg_bot, s.bg_a, s.radius)
+    -- Accent rail: the same rounded rect clipped to the left edge, so the rail's outer corners
+    -- follow the body's radius instead of overhanging it as a square block would.
+    ui.push_clip(x, y, x + s.rail_w, y + bh)
+    draw.rect(x, y, x + bw, y + bh, ar, ag, ab, 255, s.radius)
+    ui.pop_clip()
     return ar, ag, ab
 end
 
+-- fold chevron, drawn at the right of the title band
+local function chevron(cx, cy, up, r, g, b, a)
+    if up then
+        draw.line(cx - 4, cy + 2, cx, cy - 2, r, g, b, a, 1.5)
+        draw.line(cx, cy - 2, cx + 4, cy + 2, r, g, b, a, 1.5)
+    else
+        draw.line(cx - 4, cy - 2, cx, cy + 2, r, g, b, a, 1.5)
+        draw.line(cx, cy + 2, cx + 4, cy - 2, r, g, b, a, 1.5)
+    end
+end
+
 -- draw bg + header. returns content origin (cx, cy) and inner width.
-function __panelkit.card_chrome(x, y, bw, bh, title)
+function __panelkit.card_chrome(x, y, bw, bh, title, opts)
     local s = __panelkit.style
     local ar, ag, ab = card_body(x, y, bw, bh)
+    local folded = opts and opts.folded
     local ty = y + s.pady
     text.draw_spaced(s.tfont, x + s.padx, ty,
         s.title_c[1], s.title_c[2], s.title_c[3], 255, string.upper(title), s.tspacing)
+
+    local right = x + bw - s.padx
+    if opts and opts.foldable then
+        chevron(right - s.chev_w * 0.5, ty + text.height(s.tfont) * 0.5, not folded,
+                s.title_c[1], s.title_c[2], s.title_c[3], 215)
+        right = right - s.chev_w - 6
+    end
+    -- A folded panel keeps the one number that matters, so it still earns its pixels.
+    if folded and opts.digest then
+        local dv = tostring(opts.digest[2] or "")
+        local vx = right - text.width(s.vfont, dv)
+        text.draw(s.vfont, vx, ty, s.value_c[1], s.value_c[2], s.value_c[3], 255, dv)
+        local dl = tostring(opts.digest[1] or "")
+        if dl ~= "" then
+            text.draw(s.vfont, vx - 4 - text.width(s.vfont, dl), ty,
+                      s.label_c[1], s.label_c[2], s.label_c[3], 255, dl)
+        end
+    end
+    if folded then return x + s.padx, y + folded_h(), bw - s.padx * 2 end
+
     local cy = y + __panelkit.header_h()
-    draw.line(x + s.padx, cy - 6, x + bw - s.padx, cy - 6, ar, ag, ab, s.divider_a, 1)  -- divider
+    -- The accent now lives in the rail, so the divider is a neutral hairline rather than a second
+    -- accent line competing with it.
+    draw.line(x + s.padx, cy - 6, x + bw - s.padx, cy - 6,
+              s.label_c[1], s.label_c[2], s.label_c[3], 60, 1)
     return x + s.padx, cy, bw - s.padx * 2
 end
 
-function __panelkit.card_row(cx, cy, inner, label, value)
+-- ── row extras ────────────────────────────────────────────────────────────────────────────────
+-- Inline sparkline: the trend renderer that already existed for the FPS strip, shrunk to sit
+-- between a row's label and its value. Costs the panel no extra height.
+local function draw_spark(x, y, w, h, hist, r, g, b)
+    local n = #hist
+    if n < 2 then return end
+    local lo, hi = hist[1], hist[1]
+    for i = 2, n do
+        if hist[i] < lo then lo = hist[i] end
+        if hist[i] > hi then hi = hist[i] end
+    end
+    local span = hi - lo
+    if span < 1e-6 then span = 1 end
+    local pad = span * 0.16
+    lo, hi = lo - pad, hi + pad
+    span = hi - lo
+    local px, py
+    for i = 1, n do
+        local xx = x + ((i - 1) / (n - 1)) * w
+        local yy = y + h - ((hist[i] - lo) / span) * h
+        if px then draw.line(px, py, xx, yy, r, g, b, 225, 1.2) end
+        px, py = xx, yy
+    end
+end
+
+-- Delta triangle. Drawn from stacked hairlines rather than a glyph, because the panel font is
+-- whatever the theme picked and cannot be relied on to carry an arrow.
+local function triangle(x, y, w, h, up, r, g, b, a)
+    local steps = math.max(3, math.floor(h))
+    for i = 0, steps - 1 do
+        local t = i / (steps - 1)
+        local half = (up and (1 - t) or t) * w * 0.5
+        local yy = y + (up and (h - i) or (i + 1))
+        draw.line(x + w * 0.5 - half, yy, x + w * 0.5 + half, yy, r, g, b, a, 1.0)
+    end
+end
+
+-- Four-bar signal glyph for a link-quality row.
+local function signal(x, y, w, h, bars, r, g, b)
     local s = __panelkit.style
-    if label ~= "" then text.draw(s.vfont, cx, cy, s.label_c[1], s.label_c[2], s.label_c[3], 255, label) end
-    text.draw(s.vfont, cx + inner - text.width(s.vfont, value), cy, s.value_c[1], s.value_c[2], s.value_c[3], 255, value)
+    local bw = (w - 3 * 1.5) / 4
+    for i = 0, 3 do
+        local bh = h * (0.28 + i * 0.24)
+        local on = i < bars
+        local xx = x + i * (bw + 1.5)
+        if on then draw.rect(xx, y + h - bh, xx + bw, y + h, r, g, b, 255, 1)
+        else       draw.rect(xx, y + h - bh, xx + bw, y + h, s.track[1], s.track[2], s.track[3], 235, 1) end
+    end
+end
+
+function __panelkit.card_row(cx, cy, inner, label, value, value_color, keycap, r)
+    local s = __panelkit.style
+    local c = value_color or s.value_c
+    local th = text.height(s.vfont)
+    if label ~= "" then
+        if keycap then
+            local ar, ag, ab = theme.accent()
+            local kw = text.width(s.vfont, label) + 10
+            draw.rect(cx, cy - 1, cx + kw, cy + th + 1, s.track[1], s.track[2], s.track[3], 235, s.element_radius)
+            draw.rect_outline(cx, cy - 1, cx + kw, cy + th + 1, ar, ag, ab, 145, s.element_radius, 1)
+            text.draw(s.vfont, cx + 5, cy, ar, ag, ab, 255, label)
+        else
+            text.draw(s.vfont, cx, cy, s.label_c[1], s.label_c[2], s.label_c[3], 255, label)
+        end
+    end
+
+    local right = cx + inner
+    -- delta sits furthest right, so the value never jitters horizontally when it appears
+    if r and r.delta then
+        local d = __panelkit.dval[r.dkey or ""] or 0
+        if d ~= 0 then
+            local up = d > 0
+            local col = up and s.good or s.bad
+            local mag = tostring(math.abs(d))
+            local mw = text.width(s.vfont, mag)
+            text.draw(s.vfont, right - mw, cy, col[1], col[2], col[3], 255, mag)
+            triangle(right - mw - 2 - s.tri_w, cy + (th - s.tri_h) * 0.5, s.tri_w, s.tri_h, up,
+                     col[1], col[2], col[3], 255)
+            right = right - mw - 2 - s.tri_w - s.delta_gap
+        end
+    end
+    text.draw(s.vfont, right - text.width(s.vfont, value), cy, c[1], c[2], c[3], 255, value)
+    right = right - text.width(s.vfont, value)
+
+    if r and r.signal then
+        local sg = r.signal
+        local col = sg.tone or s.good
+        right = right - s.sig_gap - s.sig_w
+        signal(right, cy + (th - s.sig_h) * 0.5, s.sig_w, s.sig_h, sg.bars or 0, col[1], col[2], col[3])
+    end
+    if r and r.spark then
+        local hist = __panelkit.hist[r.hkey or ""]
+        if hist then
+            local ar, ag, ab = theme.accent()
+            right = right - s.spark_gap - s.spark_w
+            draw_spark(right, cy + (th - s.spark_h) * 0.5, s.spark_w, s.spark_h, hist, ar, ag, ab)
+        end
+    end
+    return cy + th + s.rgap
+end
+
+function __panelkit.card_section(cx, cy, inner, label, no_line)
+    local s = __panelkit.style
+    local ar, ag, ab = theme.accent()
+    local title = string.upper(label)
+    text.draw(s.vfont, cx, cy, ar, ag, ab, 255, title)
+    local line_x = cx + text.width(s.vfont, title) + 8
+    local line_y = cy + math.floor(text.height(s.vfont) * 0.5)
+    if not no_line and line_x < cx + inner then draw.line(line_x, line_y, cx + inner, line_y, ar, ag, ab, s.divider_a, 1) end
     return cy + text.height(s.vfont) + s.rgap
 end
 
-function __panelkit.card_bar(cx, cy, inner, label, value, frac)
+-- Usage gauge: twenty segments rather than one solid fill, coloured by how close the pool is to its
+-- cap. The old bar was always the theme accent, so 90% and 12% looked identical -- which defeated
+-- the only reason this panel exists.
+function __panelkit.card_bar(cx, cy, inner, label, value, frac, r)
     local s = __panelkit.style
-    local ar, ag, ab = theme.accent()
-    if label ~= "" then text.draw(s.vfont, cx, cy, s.label_c[1], s.label_c[2], s.label_c[3], 255, label) end
-    text.draw(s.vfont, cx + inner - text.width(s.vfont, value), cy, s.value_c[1], s.value_c[2], s.value_c[3], 255, value)
-    local by = cy + text.height(s.vfont) + 2
-    draw.rect(cx, by, cx + inner, by + s.bar_h, s.track[1], s.track[2], s.track[3], 255)
     if frac < 0 then frac = 0 elseif frac > 1 then frac = 1 end
-    if frac > 0 then draw.rect(cx, by, cx + inner * frac, by + s.bar_h, ar, ag, ab, 235) end
-    return cy + text.height(s.vfont) + s.rgap + s.bar_h + 3
+    local col = tone_of(frac)
+    local th = text.height(s.vfont)
+    if label ~= "" then text.draw(s.vfont, cx, cy, s.label_c[1], s.label_c[2], s.label_c[3], 255, label) end
+
+    local right = cx + inner
+    text.draw(s.vfont, right - text.width(s.vfont, value), cy, col[1], col[2], col[3], 255, value)
+    right = right - text.width(s.vfont, value)
+    if r and r.spark then
+        local hist = __panelkit.hist[r.hkey or ""]
+        if hist then
+            local ar, ag, ab = theme.accent()
+            right = right - s.spark_gap - s.spark_w
+            draw_spark(right, cy + (th - s.spark_h) * 0.5, s.spark_w, s.spark_h, hist, ar, ag, ab)
+        end
+    end
+
+    local by = cy + th + 2
+    local n, gap = s.seg_n, s.seg_gap
+    local sw = (inner - gap * (n - 1)) / n
+    if sw < 1 then sw = 1 end
+    local on = math.floor(frac * n + 0.5)
+    for i = 0, n - 1 do
+        local sx = cx + i * (sw + gap)
+        if i < on then draw.rect(sx, by, sx + sw, by + s.seg_h, col[1], col[2], col[3], 245, 1)
+        else           draw.rect(sx, by, sx + sw, by + s.seg_h, s.track[1], s.track[2], s.track[3], 255, 1) end
+    end
+    return cy + th + s.rgap + s.seg_h + 3
 end
 
 function __panelkit.card(name, def_x, def_y, title, rows, opts)
     local nat, bh = __panelkit.card_size(title, rows, opts)
     __panelkit.natw[name] = nat
-    local bw = __panelkit.resolve_width(name, nat)   -- half-width if docked; else match vertical stack
-    local px, py = __panelkit.move(name, def_x, def_y, bw, bh)
-    return __panelkit.card_chrome(px, py, bw, bh, title)
-end
-
--- All-in-one convenience: size + position (drag/dock/snap) + draw chrome AND every row. Use this from a
--- panel's on_draw instead of card()+card_row loop. rows = { {label, value}, ... }; opts.bar => each row
--- carries a fill fraction as rows[i][3]. Fully Lua (edit card_chrome/card_row/card_bar to restyle).
-function __panelkit.panel(name, def_x, def_y, title, rows, opts)
-    local nat, bh = __panelkit.card_size(title, rows, opts)
-    __panelkit.natw[name] = nat
     local bw = __panelkit.resolve_width(name, nat)
     local px, py = __panelkit.move(name, def_x, def_y, bw, bh)
-    local cx, cy, inner = __panelkit.card_chrome(px, py, bw, bh, title)
-    if opts and opts.bar then for _, r in ipairs(rows) do cy = __panelkit.card_bar(cx, cy, inner, r[1], r[2], r[3] or 0) end
-    else for _, r in ipairs(rows) do cy = __panelkit.card_row(cx, cy, inner, r[1], r[2]) end end
+    return __panelkit.card_chrome(px, py, bw, bh, title, opts)
 end
 
--- All-in-one horizontal strip (info_panel anchor): chrome + a coloured token run.
+-- Track the history + one-second delta a row asked for. Sampled at the panel's refresh rate, not
+-- per frame, so a throttled panel's sparkline reflects what it actually sampled.
+local function track(name, rows)
+    local k, s = __panelkit, __panelkit.style
+    local now = ctx.time()
+
+    local hs = k.hslot[name]
+    if not hs then hs = { t = -1 }; k.hslot[name] = hs end
+    local hdue = (now - hs.t) >= (1.0 / k.rate(name))
+
+    local ds = k.dslot[name]
+    if not ds then ds = { t = now }; k.dslot[name] = ds end
+    local ddue = (now - ds.t) >= 1.0
+
+    for _, r in ipairs(rows) do
+        if r.spark then
+            r.hkey = name .. "\1" .. tostring(r[1])
+            local h = k.hist[r.hkey]
+            if not h then h = {}; k.hist[r.hkey] = h end
+            if hdue then
+                h[#h + 1] = r.spark
+                while #h > s.spark_n do table.remove(h, 1) end
+            end
+        end
+        if r.delta then
+            r.dkey = name .. "\2" .. tostring(r[1])
+            if ddue then
+                local prev = k.dprev[r.dkey]
+                k.dval[r.dkey] = prev and (r.delta - prev) or 0
+                k.dprev[r.dkey] = r.delta
+            end
+        end
+    end
+    if hdue then hs.t = now end
+    if ddue then ds.t = now end
+end
+
+-- All-in-one: size + position (drag/dock/snap/fold) + draw chrome AND every row. Use this from a
+-- panel's on_draw instead of card()+card_row loop. rows = { {label, value}, ... }; opts.bar => each
+-- row carries a usage fraction as rows[i][3]. opts.digest = {label, value} shown while folded.
+function __panelkit.panel(name, def_x, def_y, title, rows, opts)
+    opts = opts or {}
+    opts.foldable = opts.foldable ~= false
+    opts.folded = opts.foldable and __panelkit.folded[name] or false
+    track(name, rows)
+
+    local scale = __panelkit.scale()
+    local nat, bh = __panelkit.card_size(title, rows, opts)
+    local actual_nat = nat * scale
+    __panelkit.natw[name] = actual_nat
+    local actual_bw = __panelkit.resolve_width(name, actual_nat)
+    local actual_bh = bh * scale
+    local px, py = __panelkit.move(name, def_x, def_y, actual_bw, actual_bh)
+    local bw = actual_bw / scale
+    local ok, err = draw.with_scale(px, py, scale, function()
+        local cx, cy, inner = __panelkit.card_chrome(px, py, bw, bh, title, opts)
+        if opts.folded then return end
+        if opts.bar then
+            for _, r in ipairs(rows) do
+                if row_visible(r) then cy = __panelkit.card_bar(cx, cy, inner, r[1], r[2], r[3] or 0, r) end
+            end
+        else
+            for _, r in ipairs(rows) do
+                if row_visible(r) then
+                    if r.section then cy = __panelkit.card_section(cx, cy, inner, r[1], r.no_line)
+                    else cy = __panelkit.card_row(cx, cy, inner, r[1], r[2], r.color, r.keycap, r) end
+                end
+            end
+        end
+    end)
+    if not ok then error(err, 0) end
+end
+
+-- All-in-one horizontal strip (the performance watermark): chrome + a coloured token run.
 -- toks = { {text, {r,g,b}}, ... }. Returns the final px,py used (for callers that care).
-function __panelkit.info_strip(name, def_x, def_y, toks, fh)
+function __panelkit.info_strip(name, def_x, def_y, toks, fh, opts)
     local s = __panelkit.style
     local total = 0
     for _, t in ipairs(toks) do total = total + text.width(s.vfont, t[1]) end
-    local bw = total + s.padx * 2
-    local bh = fh + s.pady * 2
-    bw = __panelkit.anchor_width(bw)                 -- record natural width; grow so docked cells never clip
-    local px, py = __panelkit.move(name, def_x, def_y, bw, bh)
+    local graph = opts and opts.graph
+    local graph_w = graph and (opts.graph_w or 108) or 0
+    local graph_h = graph and (opts.graph_h or 20) or 0
+    local graph_gap = graph and (opts.graph_gap or 12) or 0
+    local nat_w = total + s.padx * 2 + graph_gap + graph_w
+    local bh = math.max(fh, graph_h) + s.pady * 2
+    local scale = __panelkit.scale()
+    local actual_w = __panelkit.anchor_width(nat_w * scale)
+    local px, py = __panelkit.move(name, def_x, def_y, actual_w, bh * scale)
+    local bw = actual_w / scale
+    local ok, err = draw.with_scale(px, py, scale, function()
     local cx, vy = __panelkit.strip_chrome(px, py, bw, bh, fh)
     for _, t in ipairs(toks) do local c = t[2]; text.draw(s.vfont, cx, vy, c[1], c[2], c[3], 255, t[1]); cx = cx + text.width(s.vfont, t[1]) end
+
+    if graph then
+        local gx = px + bw - s.padx - graph_w
+        local gy = py + (bh - graph_h) * 0.5
+        local ar, ag, ab = theme.accent()
+        draw.rect(gx, gy, gx + graph_w, gy + graph_h, s.track[1], s.track[2], s.track[3], 180, s.element_radius)
+        draw.line(gx, gy + graph_h * 0.5, gx + graph_w, gy + graph_h * 0.5, ar, ag, ab, 48, 1)
+
+        local count = #graph
+        if count > 1 then
+            local lo, hi = graph[1], graph[1]
+            for i = 2, count do
+                lo = math.min(lo, graph[i])
+                hi = math.max(hi, graph[i])
+            end
+            local min_span = math.max(10, hi * 0.15)
+            if hi - lo < min_span then
+                local mid = (hi + lo) * 0.5
+                lo = math.max(0, mid - min_span * 0.5)
+                hi = lo + min_span
+            else
+                local pad = (hi - lo) * 0.1
+                lo = math.max(0, lo - pad)
+                hi = hi + pad
+            end
+            if hi <= lo then hi = lo + 1 end
+
+            local last_x = gx
+            local last_y = gy + graph_h - ((graph[1] - lo) / (hi - lo)) * graph_h
+            for i = 2, count do
+                local nx = gx + ((i - 1) / (count - 1)) * graph_w
+                local ny = gy + graph_h - ((graph[i] - lo) / (hi - lo)) * graph_h
+                draw.line(last_x, last_y, nx, ny, ar, ag, ab, 235, 1.5)
+                last_x, last_y = nx, ny
+            end
+        end
+    end
+    end)
+    if not ok then error(err, 0) end
     return px, py
 end
 
--- horizontal strip chrome (info_panel): same look, no title band. returns content x + centered text y.
+-- horizontal strip chrome: same look, no title band. returns content x + centered text y.
 function __panelkit.strip_chrome(x, y, bw, bh, fh)
     local s = __panelkit.style
-    local ar, ag, ab = card_body(x, y, bw, bh)
+    card_body(x, y, bw, bh)
     local yc = y + (bh - fh) * 0.5
     return x + s.padx, yc
 end
