@@ -2681,6 +2681,10 @@
       "s": "Ruido del océano (amplitud mínima)"
     },
     {
+      "hash": "254307571",
+      "s": "Usar alcance del arma, desviación del disparo y movimiento sutil de la respiración"
+    },
+    {
       "hash": "254395113",
       "s": "Sonido de guardaespaldas"
     },
@@ -3859,10 +3863,6 @@
     {
       "hash": "364432121",
       "s": "Aumentar velocidad"
-    },
-    {
-      "hash": "364781129",
-      "s": "Este ASI está cargado para la sesión de juego actual"
     },
     {
       "hash": "365316700",
@@ -7921,6 +7921,10 @@
       "s": "Monitorizado"
     },
     {
+      "hash": "753713138",
+      "s": "Alcance máximo"
+    },
+    {
       "hash": "753831005",
       "s": "Ciudad"
     },
@@ -9327,10 +9331,6 @@
     {
       "hash": "893751245",
       "s": "Tornado Jugadores"
-    },
-    {
-      "hash": "893961113",
-      "s": "Alcance del láser al disparar desde la cadera / Distancia del foco"
     },
     {
       "hash": "894717074",
@@ -12577,6 +12577,10 @@
       "s": "Generar prostituta"
     },
     {
+      "hash": "1204235444",
+      "s": "Modo realista"
+    },
+    {
       "hash": "1204513390",
       "s": "Fuerza de guía"
     },
@@ -13335,6 +13339,10 @@
     {
       "hash": "1276828163",
       "s": "Amarillo claro"
+    },
+    {
+      "hash": "1276903581",
+      "s": "Detener este ASI para la sesión de juego actual"
     },
     {
       "hash": "1276967226",
@@ -17761,10 +17769,6 @@
       "s": "Desarmar al peatón"
     },
     {
-      "hash": "1715549582",
-      "s": "El ASI tiene una importación o dependencia no disponible"
-    },
-    {
       "hash": "1715962035",
       "s": "Faros de xenón"
     },
@@ -21593,6 +21597,10 @@
       "s": "Modo neón"
     },
     {
+      "hash": "2071296259",
+      "s": "ASI detenido. Su memoria permanece reservada hasta que el juego se cierre."
+    },
+    {
       "hash": "2071512136",
       "s": "Llasas Fantasma"
     },
@@ -23779,6 +23787,10 @@
     {
       "hash": "2273501979",
       "s": "Evitar el tráfico"
+    },
+    {
+      "hash": "2273581897",
+      "s": "El ASI tiene una tabla de importación inválida"
     },
     {
       "hash": "2273643203",
@@ -27281,6 +27293,10 @@
       "s": "Velocidad del ciclo"
     },
     {
+      "hash": "2629142317",
+      "s": "Alcance máximo del rayo; el Modo realista también respeta el alcance del arma"
+    },
+    {
       "hash": "2629518334",
       "s": "Adjuntar la entidad seleccionada a tu vehículo"
     },
@@ -27479,6 +27495,10 @@
     {
       "hash": "2646420833",
       "s": "Detectado"
+    },
+    {
+      "hash": "2646461920",
+      "s": "Un módulo requerido no está cargado"
     },
     {
       "hash": "2647289416",
@@ -27903,6 +27923,10 @@
     {
       "hash": "2694511857",
       "s": "Lea una clave válida antes de cambiar su valor"
+    },
+    {
+      "hash": "2694772565",
+      "s": "Este ASI se detiene hasta la próxima sesión de juego"
     },
     {
       "hash": "2694830761",
@@ -34809,6 +34833,10 @@
       "s": "Solo invitados"
     },
     {
+      "hash": "3363633767",
+      "s": "No se pudo inicializar el almacenamiento de subprocesos del ASI"
+    },
+    {
       "hash": "3364125598",
       "s": "Nacarado"
     },
@@ -35411,6 +35439,10 @@
     {
       "hash": "3415203636",
       "s": "Reproducir el sonido del propulsor de cohete"
+    },
+    {
+      "hash": "3415659810",
+      "s": "No se pudo detener el ASI de forma segura"
     },
     {
       "hash": "3415764268",
@@ -38969,6 +39001,10 @@
       "s": "Mis tripulaciones"
     },
     {
+      "hash": "3739479080",
+      "s": "Este ASI ya está detenido"
+    },
+    {
       "hash": "3739969546",
       "s": "Mover puntos de inicio Adelante/atrás"
     },
@@ -41726,7 +41762,7 @@
     },
     {
       "hash": "3990730844",
-      "s": "Activar mira láser"
+      "s": "Activar puntero láser de arma"
     },
     {
       "hash": "3991003026",
@@ -43087,6 +43123,10 @@
     {
       "hash": "4113233316",
       "s": "Velocidad de levitación hacia adelante (mantenga pulsada la tecla Arriba)"
+    },
+    {
+      "hash": "4114100636",
+      "s": "Una importación requerida no está disponible"
     },
     {
       "hash": "4114845137",
