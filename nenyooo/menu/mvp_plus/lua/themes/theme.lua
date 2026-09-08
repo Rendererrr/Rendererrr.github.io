@@ -19,6 +19,17 @@ pcall(function()
     local p = str and str.default_title_font and str.default_title_font() or ""
     if p ~= "" then text.set_font_for(font.title, p) end
 end)
+-- Font Awesome is provisioned from lang_menu's icon_font URL into the shared Fonts directory.
+local ICON_FONT = ""
+local ICON_SLOT = font.icon or font.tagline
+local HAS_FA = false
+pcall(function()
+    ICON_FONT = str and str.default_icon_font and str.default_icon_font() or ""
+    if ICON_FONT ~= "" and fs and fs.exists and fs.exists(ICON_FONT) then
+        text.set_icon_font(ICON_SLOT, ICON_FONT)
+        HAS_FA = true
+    end
+end)
 -- Font sizes & weights are driven by Settings ▸ Theme ▸ Fonts; applied (with
 -- change-detection) by apply_fonts() defined below.
 
@@ -36,6 +47,25 @@ load_icon("up",    "Up Arrow.png")
 load_icon("down",  "Down Arrow.png")
 load_icon("tick",  "tick.png")
 load_icon("search","search.png")
+local HEADER_IMG = draw.load_image("textures/Moon Header.gif")
+
+-- Font Awesome submenu glyphs keyed by stable, language-independent destination page IDs.
+local SUBMENU_ICONS = {
+    [util.joaat("Home")]        = "\xEF\x80\x95", -- house
+    [util.joaat("Network")]     = "\xEF\x82\xAC", -- globe
+    [util.joaat("Self")]        = "\xEF\x80\x87", -- user
+    [util.joaat("Vehicle")]     = "\xEF\x86\xB9", -- car
+    [util.joaat("Weapon")]      = "\xEF\x81\x9B", -- crosshairs
+    [util.joaat("VFX")]         = "\xEF\x83\x90", -- wand-magic
+    [util.joaat("World")]       = "\xEF\x95\xBD", -- earth-americas
+    [util.joaat("Misc")]        = "\xEF\x84\xAE", -- puzzle-piece
+    [util.joaat("Teleport")]    = "\xEF\x8F\x85", -- location-dot
+    [util.joaat("Scripts")]     = "\xEF\x84\xA1", -- code
+    [util.joaat("Spooner")]     = "\xEF\x86\xB3", -- cubes
+    [util.joaat("Protections")] = "\xEF\x8F\xAD", -- shield-halved
+    [util.joaat("Settings")]    = "\xEF\x80\x93", -- gear
+}
+local SUBMENU_ICON_FALLBACK = "\xEF\x81\xBC" -- folder-open
 
 -- ── Layout constants (defaults; live values come from Settings ▸ Theme, applied
 --    each frame at the top of draw_menu via reload_layout) ──
@@ -53,10 +83,10 @@ local DESC_H     = 34
 
 -- ── Palette (defaults; live values come from Settings ▸ Theme via reload_colors) ──
 local COL = {
-    glow    = {220, 129, 39, 255}, -- orange bloom behind the 3D N
-    hdr_l   = {226, 97,  42, 255}, -- header gradient left   (orange)
-    hdr_m   = {255, 170, 60, 255}, -- header gradient middle (amber; only used when FX.grad3)
-    hdr_r   = {255, 122, 0,  255}, -- header gradient right  (orange)
+    glow    = {42, 145, 255, 255}, -- electric-blue bloom behind the wordmark
+    hdr_l   = {15, 82, 220, 255},  -- header gradient left   (deep blue)
+    hdr_m   = {0, 210, 255, 255},  -- header gradient middle (cyan; only used when FX.grad3)
+    hdr_r   = {0, 126, 255, 255},  -- header gradient right  (electric blue)
     black   = {0, 0, 0, 199},
     sub_bg  = {12, 12, 12, 255},  -- #0c0c0c
     desc_bg = {12, 12, 12, 255},
@@ -68,8 +98,8 @@ local COL = {
     on      = {62, 217, 138},    -- #3ed98a
     off     = {255, 68, 56},     -- #ff4438
     white   = {255, 255, 255},
-    sel_l   = {238, 230, 250, 255},
-    sel_r   = {226, 246, 250, 255},
+    sel_l   = {222, 238, 255, 255},
+    sel_r   = {207, 247, 255, 255},
     sel_txt = {0, 0, 0, 255},
 }
 
@@ -109,7 +139,9 @@ local SETTINGS_FILE = "theme_settings.ini"
 -- History:
 --   1  initial (purple accent, scrollbar on, hotkey hint on)
 --   2  orange accent + slightly transparent menu bg + scrollbar/hotkey-hint off by default
-local SETTINGS_VERSION = 2
+--   3  electric-blue identity + animated header
+--   4  quieter description background without an accent rail
+local SETTINGS_VERSION = 4
 
 -- Layout sliders (lk = key in the `l` table reload_layout returns)
 local LAYOUT_DEFS = {
@@ -148,14 +180,14 @@ local FONT_DEFS = {
 local COLOR_MAP = {
     {n="Menu Background",        k="black",   d={0,0,0,199},       ds="Options list, footer and menu gaps"},
     {n="Breadcrumb Background",  k="sub_bg",  d={12,12,12,255},    ds="Background behind the current page title"},
-    {n="Description Background", k="desc_bg", d={12,12,12,255},    ds="Background of the detached description box"},
+    {n="Description Background", k="desc_bg", d={12,12,12,199},    ds="Background of the detached description box"},
     {n="Item Text",              k="row_txt", d={221,221,221,255}, ds="Normal option and section text"},
     {n="Value Text",             k="dim",     d={119,119,119,255}, ds="Slider values and inactive controls"},
     {n="Breadcrumb Text",        k="sub_txt", d={187,187,187,255}, ds="Current page title"},
     {n="Footer Text",            k="foot_txt",d={136,136,136,255}, ds="Version, row counter and hotkey hint"},
     {n="Description Text",       k="desc_txt",d={154,154,154,255}, ds="Description-box text"},
-    {n="Selected Row Left",      k="sel_l",   d={238,230,250,255}, ds="Left side of the selected-row gradient"},
-    {n="Selected Row Right",     k="sel_r",   d={226,246,250,255}, ds="Right side of the selected-row gradient"},
+    {n="Selected Row Left",      k="sel_l",   d={222,238,255,255}, ds="Left side of the selected-row gradient"},
+    {n="Selected Row Right",     k="sel_r",   d={207,247,255,255}, ds="Right side of the selected-row gradient"},
     {n="Selected Row Text",      k="sel_txt", d={0,0,0,255},       ds="Text and controls on the selected row"},
     {n="Icons and Badges",       k="white",   d={255,255,255,255}, ds="Navigation icons and normal hotkey badges"},
     {n="Toggle On",              k="on",      d={62,217,138,255},  ds="Enabled toggle color"},
@@ -163,14 +195,15 @@ local COLOR_MAP = {
 }
 -- Decorative accent colors
 local ACCENT_MAP = {
-    {n="Banner Left",  k="hdr_l", d={226,97,42,255},  ds="Left side of the banner and accent lines"},
-    {n="Banner Middle",k="hdr_m", d={255,170,60,255}, ds="Middle stop of the banner; needs 3-Color Banner enabled"},
-    {n="Banner Right", k="hdr_r", d={255,122,0,255},  ds="Right side of the banner and accent lines"},
-    {n="Global Accent",k="glow",  d={220,129,39,255}, ds="Section markers and shared Lua overlays"},
+    {n="Banner Left",  k="hdr_l", d={15,82,220,255},  ds="Left side of the banner and accent lines"},
+    {n="Banner Middle",k="hdr_m", d={0,210,255,255},  ds="Middle stop of the banner; needs 3-Color Banner enabled"},
+    {n="Banner Right", k="hdr_r", d={0,126,255,255},  ds="Right side of the banner and accent lines"},
+    {n="Global Accent",k="glow",  d={42,145,255,255}, ds="Section markers and shared Lua overlays"},
 }
 -- Effect toggles (fk = key in FX)
-local FX = {glare=true, scrollbar=true, hint=true, grad3=false}
+local FX = {glare=true, scrollbar=true, hint=true, grad3=false, header_anim=true}
 local FX_DEFS = {
+    {n="Animated Header",  d=true,  fk="header_anim", ds="Animate the banner glow, grid, particles and scanline"},
     {n="Breadcrumb Glare", d=true,  fk="glare",     ds="Animate a light sweep across the page-title bar"},
     {n="Show Scrollbar",   d=false, fk="scrollbar", ds="Draw the colored scrollbar at the left of the list"},
     {n="Show Hotkey Hint", d=false, fk="hint",      ds="Show hotkey instructions in the page-title bar"},
@@ -421,6 +454,86 @@ local function band_v(x1, y1, x2, y2, at, ab)
         m[1],m[2],m[3],am,  m[1],m[2],m[3],am,
         r[1],r[2],r[3],ab,  r[1],r[2],r[3],ab)
 end
+
+-- Asset-free animated header. The motion is deterministic, so it stays smooth without allocating
+-- or mutating particle tables every frame. All decoration is clipped to the banner and derives its
+-- colour from the live Branding palette.
+local function draw_animated_header(x, y, w, h)
+    local t = FX.header_anim and ctx.time() or 0
+    local x2, y2 = x+w, y+h
+    local glow = COL.glow
+
+    band_h(x, y, x2, y2)
+
+    -- Darken the lower edge so the white wordmark stays legible over any custom accent palette.
+    draw.rect_gradient(x, y, x2, y2,
+        0,0,0,8, 0,0,0,8,
+        0,0,0,105, 0,0,0,105)
+
+    if FX.header_anim then
+        -- Wide energy sweep. It crosses beyond both edges so the loop has no visible jump.
+        local sweep = x-w*0.45 + ((t*0.16)%1.0)*w*1.9
+        draw.rect_gradient(sweep-w*0.22, y, sweep+w*0.22, y2,
+            glow[1],glow[2],glow[3],0,   170,235,255,52,
+            170,235,255,22,              glow[1],glow[2],glow[3],0)
+    end
+
+    -- Perspective grid: the horizon breathes slightly while the floor scrolls toward the viewer.
+    local horizon = y + h*0.58 + math.sin(t*0.75)*h*0.018
+    for i=-5,5 do
+        local bx = x + w*0.5 + i*w*0.15
+        draw.line(x+w*0.5+i*w*0.035, horizon, bx, y2,
+            glow[1],glow[2],glow[3],34, 1)
+    end
+    for i=0,5 do
+        local p = (i/6 + (t*0.22)%0.1667) % 1
+        local eased = p*p
+        local gy = horizon + eased*(y2-horizon)
+        draw.line(x, gy, x2, gy, glow[1],glow[2],glow[3],28+math.floor(p*28), 1)
+    end
+
+    -- Small drifting energy motes; positions are formula-based and repeat cleanly.
+    if FX.header_anim then
+        for i=1,12 do
+            local seed = i*0.61803398875
+            local px = x + ((seed + t*(0.018 + (i%4)*0.006))%1.0)*w
+            local py = y2 - ((seed*1.73 + t*(0.035 + (i%3)*0.012))%1.0)*h
+            local pr = 0.8 + (i%3)*0.55
+            local pa = 45 + (i%4)*18
+            draw.circle(px, py, pr, 155,225,255,pa)
+        end
+    end
+
+    -- Thin scanline adds motion without obscuring the art below it.
+    local scan_y = y + ((t*0.19)%1.0)*h
+    draw.rect_gradient(x, scan_y-5, x2, scan_y+5,
+        255,255,255,0, 255,255,255,0,
+        255,255,255,18, 255,255,255,18)
+
+    local brand = "Nenyoo"
+    local bw = text.width(font.title, brand)
+    local bh = text.height(font.title)
+    local bx = x + (w-bw)*0.5
+    local pulse = FX.header_anim and (0.5+0.5*math.sin(t*2.1)) or 0.5
+    local by = y + (h-bh)*0.5 - bh*0.10 + (FX.header_anim and math.sin(t*1.35)*1.5 or 0)
+
+    -- Three inexpensive offset passes create a cool breathing halo behind the crisp wordmark.
+    local ga = 22 + math.floor(pulse*22)
+    text.draw(font.title, bx-2, by, glow[1],glow[2],glow[3],ga, brand)
+    text.draw(font.title, bx+2, by, glow[1],glow[2],glow[3],ga, brand)
+    text.draw(font.title, bx+2, by+2, 0,0,0,110, brand)
+    text.draw(font.title, bx, by, 255,255,255,255, brand)
+
+    -- Edition tag remains anchored to the wordmark while it bobs.
+    local tag = ctx.edition and ctx.edition() or "Legacy"
+    local tw  = text.width(font.tiny, tag)
+    local th  = text.height(font.tiny)
+    local tgx = math.floor(bx + bw*0.815 - tw*0.5)
+    local tgy = math.min(y2-th-8, by+bh-th*0.15)
+    draw.rect(tgx-4, tgy-1, tgx+tw+4, tgy+th+1, 255,255,255,238, 3)
+    text.draw(font.tiny, tgx, tgy, 0,0,0,255, tag)
+end
+
 local function hit(x1,y1,x2,y2)
     local mx,my = input.mouse_x(), input.mouse_y()
     return mx>=x1 and mx<x2 and my>=y1 and my<y2
@@ -880,33 +993,12 @@ function draw_menu()
     local dox, doy = menu.drag_header(x, y, WIN_W, HDR_H)
     x = x + dox; y = y + doy
 
-    -- ── Header (horizontal banner gradient + centered "Nenyoo" wordmark) ──
-    band_h(x, y, x+WIN_W, y+HDR_H)
+    -- ── Header (animated moon-and-comets artwork; procedural fallback while unavailable) ──
     draw.push_clip(x, y, x+WIN_W, y+HDR_H)
-    local brand = "Nenyoo"
-    local bw = text.width(font.title, brand)
-    local bh = text.height(font.title)
-    local bx = x + (WIN_W - bw)*0.5
-    -- Pricedown's line box has a deep descent, so full-line-height centering drops
-    -- the glyphs too low. Nudge up by a fraction of the line height to visually center.
-    local TITLE_VOFF = 0.10
-    local by = y + (HDR_H - bh)*0.5 - bh*TITLE_VOFF
-    text.draw(font.title, bx+2, by+2, 0,0,0,90, brand)      -- soft shadow
-    text.draw(font.title, bx, by, 255,255,255,255, brand)   -- white wordmark
-    -- edition tag (Legacy / Enhanced): white rounded pill w/ black text, tucked under the first "o"
-    do
-        local tag = ctx.edition and ctx.edition() or "Legacy"
-        local tw  = text.width(font.tiny, tag)
-        local th  = text.height(font.tiny)
-        local padx = 4
-        local pady = 1
-        -- center the pill under the first "o" of the centered "Nenyoo" wordmark (~78% across it)
-        local cxo = bx + bw*0.815
-        local tgx = math.floor(cxo - tw*0.5)
-        local tgy = y + HDR_H - th - 8
-        local rad = 3                        -- slightly rounded corners
-        draw.rect(tgx-padx, tgy-pady, tgx+tw+padx, tgy+th+pady, 255,255,255,255, rad)
-        text.draw(font.tiny, tgx, tgy, 0,0,0,255, tag)
+    if HEADER_IMG and HEADER_IMG > 0 then
+        draw.image(HEADER_IMG, x, y, x+WIN_W, y+HDR_H, 1.0)
+    else
+        draw_animated_header(x, y, WIN_W, HDR_H)
     end
     draw.pop_clip()
     -- padding between header and subheader
@@ -936,7 +1028,15 @@ function draw_menu()
             COL.sub_txt[1],COL.sub_txt[2],COL.sub_txt[3],alpha(COL.sub_txt), close_text)
         if clk(search_icon_x-8, sy, x+WIN_W, sy+SUB_H) then close_feature_search(true) end
     else
-        text.draw_spaced(font.breadcrumb, title_x, sy+(SUB_H-text.height(font.breadcrumb))*0.5,
+        local breadcrumb_x = title_x
+        if HAS_FA then
+            local glyph = SUBMENU_ICONS[menu.page_id()] or SUBMENU_ICON_FALLBACK
+            local iw = text.width(ICON_SLOT, glyph)
+            text.draw(ICON_SLOT, title_x+(18-iw)*0.5, sy+(SUB_H-text.height(ICON_SLOT))*0.5,
+                COL.white[1],COL.white[2],COL.white[3],alpha(COL.white), glyph)
+            breadcrumb_x = title_x + 26
+        end
+        text.draw_spaced(font.breadcrumb, breadcrumb_x, sy+(SUB_H-text.height(font.breadcrumb))*0.5,
             COL.sub_txt[1],COL.sub_txt[2],COL.sub_txt[3],alpha(COL.sub_txt), title, 1.0)
         local over_search = hit(search_icon_x-6, sy, x+WIN_W, sy+SUB_H)
         local c = over_search and COL.white or COL.sub_txt
@@ -948,7 +1048,7 @@ function draw_menu()
         local gxc = x - WIN_W*0.5 + gp*WIN_W
         draw.push_clip(x, sy, x+WIN_W, sy+SUB_H)
         draw.rect_gradient(gxc-50, sy, gxc+50, sy+SUB_H,
-            200,155,255,0, 200,155,255,40, 200,155,255,40, 200,155,255,0)
+            105,210,255,0, 105,210,255,42, 105,210,255,42, 105,210,255,0)
         draw.pop_clip()
     end
     -- hotkey hint (right side of subheader) when the selected row can bind
@@ -1084,8 +1184,23 @@ function draw_menu()
                     name_x = fx0 + fw + 10
                 end
                 local tcol = (is_sel or hov) and COL.sel_txt or COL.row_txt
-                text.draw(font.item, name_x, ry+(ROW_H-text.height(font.item))*0.5,
-                    tcol[1],tcol[2],tcol[3],alpha(tcol), item.name)
+                if HAS_FA and item.type == item_type.sub_menu then
+                    local glyph = SUBMENU_ICONS[item.sub_menu] or SUBMENU_ICON_FALLBACK
+                    local iw = text.width(ICON_SLOT, glyph)
+                    local icol = (is_sel or hov) and COL.sel_txt or COL.white
+                    text.draw(ICON_SLOT, name_x+(18-iw)*0.5, ry+(ROW_H-text.height(ICON_SLOT))*0.5,
+                        icol[1],icol[2],icol[3],alpha(icol), glyph)
+                    name_x = name_x + 26
+                end
+                local name_y = ry+(ROW_H-text.height(font.item))*0.5
+                if is_sel and text.draw_scaled then
+                    local pulse = 1.025 + math.sin(ctx.time()*6.5)*0.035
+                    text.draw_scaled(font.item, name_x, name_y,
+                        tcol[1],tcol[2],tcol[3],alpha(tcol), pulse, item.name)
+                else
+                    text.draw(font.item, name_x, name_y,
+                        tcol[1],tcol[2],tcol[3],alpha(tcol), item.name)
+                end
                 -- hotkey tag: keycap-style badge (white bg, dark text); inverts on the
                 -- selected/hovered row (which is white) so it stays readable
                 if item.hotkey and item.hotkey ~= 0 then
@@ -1130,7 +1245,7 @@ function draw_menu()
                         first = false
                         local kw   = text.width(font.tiny, tok)
                         local tagw = kw + padx*2
-                        local r,g,b = 150,90,245
+                        local r,g,b = 42,145,255
                         if c then r,g,b = c[1],c[2],c[3] end
                         draw.rect(hx, by, hx+tagw, by+tagh, r,g,b,255, 4)
                         -- dark text on light badges, white on dark ones (rough luminance test)
@@ -1231,7 +1346,8 @@ function draw_menu()
     else
         dtext = (di and di.desc and di.desc~="") and di.desc or (di and ("Adjust "..di.name..".") or "")
     end
-    local dmaxw = WIN_W - 54   -- leave room on the left for the info "i" glyph
+    local icon_space = HAS_FA and 22 or 0
+    local dmaxw = WIN_W - PAD_X*2 - icon_space
     local dlh   = text.height(font.desc) * 1.32
     -- count wrapped lines (greedy word wrap, mirrors the renderer's word wrapping)
     local dlines, dcur = 1, ""
@@ -1242,26 +1358,17 @@ function draw_menu()
     end
     local dvpad = math.max(4, (DESC_H - dlh)*0.5)
     local desc_h = math.max(DESC_H, math.ceil(dlines*dlh + dvpad*2))
-    draw.rect(x, dy, x+WIN_W, dy+desc_h, COL.desc_bg[1],COL.desc_bg[2],COL.desc_bg[3],alpha(COL.desc_bg))
-    -- thin left accent: vertical gradient (cyan top -> purple bottom)
-    draw.rect_gradient(x, dy, x+2, dy+desc_h,
-        COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],alpha(COL.hdr_r),
-        COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],alpha(COL.hdr_r),
-        COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],alpha(COL.hdr_l),
-        COL.hdr_l[1],COL.hdr_l[2],COL.hdr_l[3],alpha(COL.hdr_l))
+    draw.rect(x, dy, x+WIN_W, dy+desc_h, COL.black[1],COL.black[2],COL.black[3],alpha(COL.black))
     local a = math.floor(alpha(COL.desc_txt)*desc_alpha)
-    -- info "i" glyph: white filled circle with a black "i", vertically centered on the left
-    do
-        local icx = x + 22
-        local icy = dy + dvpad + text.height(font.desc)*0.5   -- align to the first text line
-        local r   = 8
+    if HAS_FA then
+        local glyph = "\xEF\x81\x9A" -- Font Awesome F05A: circle-info
+        local iy = dy + dvpad + (text.height(font.desc)-text.height(ICON_SLOT))*0.5
         local ia = math.floor(alpha(COL.white)*desc_alpha)
-        draw.circle(icx, icy, r, COL.white[1],COL.white[2],COL.white[3],ia)
-        draw.circle(icx, icy - r*0.46, 1.9, COL.black[1],COL.black[2],COL.black[3],ia)
-        draw.rect(icx-1.4, icy - r*0.14, icx+1.4, icy + r*0.6, COL.black[1],COL.black[2],COL.black[3],ia)
+        text.draw(ICON_SLOT, x+PAD_X, iy, COL.white[1],COL.white[2],COL.white[3],ia, glyph)
     end
-    draw.push_clip(x+38, dy, x+WIN_W-12, dy+desc_h)
-    text.draw(font.desc, x+40, dy+dvpad,
+    local text_x = x + PAD_X + icon_space
+    draw.push_clip(text_x, dy, x+WIN_W-PAD_X, dy+desc_h)
+    text.draw(font.desc, text_x, dy+dvpad,
         COL.desc_txt[1],COL.desc_txt[2],COL.desc_txt[3],a, dtext, dmaxw)
     draw.pop_clip()
 
