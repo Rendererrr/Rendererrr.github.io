@@ -37,6 +37,10 @@
       "s": "Grundlegende Rollkraft"
     },
     {
+      "hash": "2737616",
+      "s": "Wie schnell die Formation den Spieler umkreist"
+    },
+    {
       "hash": "3717505",
       "s": "Multiplizieren Sie die Geschwindigkeiten nahegelegener Entitäten in jedem Frame"
     },
@@ -225,6 +229,10 @@
       "s": "Alien-Modell"
     },
     {
+      "hash": "22927641",
+      "s": "Anzahl der nach außen gerichteten Sprinklerstrahlen"
+    },
+    {
       "hash": "23088815",
       "s": "Fahrzeug-Parkour"
     },
@@ -253,12 +261,20 @@
       "s": "Schalten Sie einzelne Animationsflags um"
     },
     {
+      "hash": "25304611",
+      "s": "Druck Autowäsche"
+    },
+    {
       "hash": "25379308",
       "s": "Kriegsträger-Spieler"
     },
     {
       "hash": "25477627",
       "s": "Farbe der Bremsspur"
+    },
+    {
+      "hash": "25620689",
+      "s": "Ringradius"
     },
     {
       "hash": "25783011",
@@ -435,6 +451,10 @@
     {
       "hash": "42817828",
       "s": "Surface Snap-Fallback"
+    },
+    {
+      "hash": "42910557",
+      "s": "Anführer nur"
     },
     {
       "hash": "43028546",
@@ -1119,6 +1139,10 @@
     {
       "hash": "109173559",
       "s": "%s Job"
+    },
+    {
+      "hash": "109963829",
+      "s": "Entfernen Sie Feuerwehrleute, die zu diesem Spieler geschickt werden"
     },
     {
       "hash": "110021721",
@@ -1873,6 +1897,10 @@
       "s": "Schaden pro Schuss"
     },
     {
+      "hash": "175068957",
+      "s": "Zeit, bevor der Sprühnebel sich zur nächsten Feuerwehrperson oder Gruppe bewegt"
+    },
+    {
       "hash": "176258012",
       "s": "Projektil-Pistolenwaffen"
     },
@@ -1925,6 +1953,10 @@
       "s": "Kortz Karriere Kleidung freigeschaltet."
     },
     {
+      "hash": "180898426",
+      "s": "Anzahl der Drohnen, die zu diesem Spieler geschickt werden"
+    },
+    {
       "hash": "181590698",
       "s": "Schnellfeuer"
     },
@@ -1967,6 +1999,10 @@
     {
       "hash": "184395934",
       "s": "Du siehst nach dem Teleportieren die Richtung, in der du stehst"
+    },
+    {
+      "hash": "184841230",
+      "s": "Machen Sie den Feuerwehrwagen und die Besatzung unbesiegbar"
     },
     {
       "hash": "185423636",
@@ -2425,8 +2461,16 @@
       "s": "Fahrzeugorganisation verfügbar auf Enhanced"
     },
     {
+      "hash": "227991213",
+      "s": "Wasserstrahlen"
+    },
+    {
       "hash": "228124086",
       "s": "Spooner Sprachliste"
+    },
+    {
+      "hash": "228125504",
+      "s": "Autowäsche starten"
     },
     {
       "hash": "229189477",
@@ -3021,6 +3065,10 @@
       "s": "Merryweather Boots-Taxi"
     },
     {
+      "hash": "282599515",
+      "s": "Feuerwehr-Schwarm"
+    },
+    {
       "hash": "282667917",
       "s": "Umfärben der Weltlichter (add-scene-light / Cortana Pfad)"
     },
@@ -3283,6 +3331,10 @@
     {
       "hash": "308526981",
       "s": "Sofortige Wiederherstellung, wenn eine Karten-Todesbarriere Sie tötet"
+    },
+    {
+      "hash": "308743785",
+      "s": "Undichtigkeitsstellen"
     },
     {
       "hash": "308898681",
@@ -3597,6 +3649,10 @@
       "s": "Fester X-Versatz zum Spieler"
     },
     {
+      "hash": "336635546",
+      "s": "Maximale horizontale Fluggeschwindigkeit"
+    },
+    {
       "hash": "338561062",
       "s": "Aktuelle Beliebtheit (schreibgeschützt)"
     },
@@ -3797,6 +3853,10 @@
       "s": "Hey, du bist vor der Kamera"
     },
     {
+      "hash": "358470228",
+      "s": "Umgeben Sie diesen Spieler mit kreisenden Feuerwehrleuten und gemusterten Wassernebeln"
+    },
+    {
       "hash": "359135323",
       "s": "Ältestes Seil entfernt, wenn dieser Grenzwert erreicht ist"
     },
@@ -3879,6 +3939,10 @@
     {
       "hash": "366589616",
       "s": "Zum Spieler Reisen"
+    },
+    {
+      "hash": "366614165",
+      "s": "Wie lange der Schwarm den Spieler umkreist und besprüht"
     },
     {
       "hash": "366693230",
@@ -4011,6 +4075,10 @@
     {
       "hash": "382046117",
       "s": "Tracer & Trails"
+    },
+    {
+      "hash": "382277306",
+      "s": "Umgeben Sie diesen Spieler mit Feuerwehrleuten, die in Formation sprühen"
     },
     {
       "hash": "382332008",
@@ -4401,6 +4469,10 @@
       "s": "Telekinese Halteentfernung"
     },
     {
+      "hash": "417516564",
+      "s": "Lassen Sie Wasser aus dem Körper dieses Spielers austreten"
+    },
+    {
       "hash": "418153297",
       "s": "Wenden Sie die Aktion auf das Fenster hinten rechts an"
     },
@@ -4467,6 +4539,10 @@
     {
       "hash": "425211765",
       "s": "Wenden Sie den ausgewählten Gehstil an"
+    },
+    {
+      "hash": "425409917",
+      "s": "Doppelter Ring"
     },
     {
       "hash": "425512548",
@@ -4575,6 +4651,10 @@
     {
       "hash": "433401547",
       "s": "Eigenes Fahrzeuge"
+    },
+    {
+      "hash": "433417430",
+      "s": "Wirbelradius"
     },
     {
       "hash": "433839973",
@@ -5285,6 +5365,10 @@
       "s": "Natürlich"
     },
     {
+      "hash": "496660359",
+      "s": "Pilotieren oder befehligen Sie eine koordinierte, vernetzte Drohnenformation"
+    },
+    {
       "hash": "496672596",
       "s": "Fahrzeug-Styling"
     },
@@ -5689,6 +5773,10 @@
       "s": "Sekundärwaffe"
     },
     {
+      "hash": "539200257",
+      "s": "Wie schnell die Anhänger sich in die Formation einfügen"
+    },
+    {
       "hash": "539203651",
       "s": "Felgenfarbe (Off / Stock = in Ruhe lassen)"
     },
@@ -5803,6 +5891,10 @@
     {
       "hash": "551204657",
       "s": "Gib diesem Leibwächter eine Waffe"
+    },
+    {
+      "hash": "551410173",
+      "s": "Entfernung jeder Wasserquelle vom Spieler"
     },
     {
       "hash": "551858949",
@@ -6169,6 +6261,10 @@
       "s": "Aktivieren Sie Multi Bullets"
     },
     {
+      "hash": "591852166",
+      "s": "Wasserwirbel aktivieren"
+    },
+    {
       "hash": "592003560",
       "s": "Maximaler Weltraumwinkel in Bezug auf die Kamerarichtung"
     },
@@ -6301,6 +6397,10 @@
       "s": "(keine Nachricht)"
     },
     {
+      "hash": "603797283",
+      "s": "Stoppen Sie das Radwasser an diesem Spieler"
+    },
+    {
       "hash": "604054748",
       "s": "Kugeltrail"
     },
@@ -6375,6 +6475,10 @@
     {
       "hash": "611714753",
       "s": "Biz-Einrichtung"
+    },
+    {
+      "hash": "611853051",
+      "s": "Entfernen Sie jede Drohnenschwarm, der aus der Sitzung gesendet wurde"
     },
     {
       "hash": "612569180",
@@ -6507,10 +6611,6 @@
     {
       "hash": "623681354",
       "s": "Social Club Freunde, Anfragen, hinzufügen/entfernen (ROS)"
-    },
-    {
-      "hash": "623795945",
-      "s": "Wie lange die Feuerwehrleute dem Spieler folgen und sprühen"
     },
     {
       "hash": "624045093",
@@ -7201,6 +7301,10 @@
       "s": "Auf ein Fahrzeug zielen und schießen, um seine Farben zu randomisieren, oder auf einen Ped, um sein Aussehen zu randomisieren"
     },
     {
+      "hash": "687068957",
+      "s": "Zeigen Sie den Schwarmstatus und die Befehlsinformationen an"
+    },
+    {
       "hash": "687115109",
       "s": "Riesiger Roboter Kampf"
     },
@@ -7745,6 +7849,10 @@
       "s": "Skalieren Sie den Schaden der Orbitalexplosion"
     },
     {
+      "hash": "737804187",
+      "s": "Stärke zum Ziehen und Drehen von Objekten in der Nähe"
+    },
+    {
       "hash": "738717765",
       "s": "Eskortenkortège rufen oder jemanden verfolgen lassen"
     },
@@ -7795,6 +7903,10 @@
     {
       "hash": "741952852",
       "s": "Halten Sie Ihren Ped oder Ihr Fahrzeug still während der Kameranutzung"
+    },
+    {
+      "hash": "742469643",
+      "s": "Anzahl der Drohnen, die an jeden ausgewählten Spieler gesendet werden"
     },
     {
       "hash": "742710397",
@@ -8755,6 +8867,10 @@
     {
       "hash": "833340828",
       "s": "Sende weiterhin Explosivhasen an diesen Spieler"
+    },
+    {
+      "hash": "833435328",
+      "s": "Abstand zwischen den Drohnen"
     },
     {
       "hash": "833981232",
@@ -9945,6 +10061,10 @@
       "s": "Bereits in voller Rüstung"
     },
     {
+      "hash": "963686898",
+      "s": "Wie die Drohnen sich um ihr Ziel anordnen"
+    },
+    {
       "hash": "965105122",
       "s": "Todesinstrument"
     },
@@ -10193,6 +10313,10 @@
       "s": "Spieler im Sattelmodus sichtbar halten"
     },
     {
+      "hash": "990557517",
+      "s": "Wellenverzögerung (ms)"
+    },
+    {
       "hash": "990866250",
       "s": "Zeit zwischen Widdern"
     },
@@ -10343,6 +10467,10 @@
     {
       "hash": "1007017826",
       "s": "Fähigkeiten"
+    },
+    {
+      "hash": "1007274462",
+      "s": "Menschlicher Sprinkler"
     },
     {
       "hash": "1007782019",
@@ -11877,10 +12005,6 @@
       "s": "Wählen Sie einen oder mehrere Explosionstypen aus (Mehrfachauswahl)."
     },
     {
-      "hash": "1143459911",
-      "s": "CEO Fahrzeuge, Fähigkeiten und Mitarbeiter-Support"
-    },
-    {
       "hash": "1143528620",
       "s": "Ramme Wesen weg"
     },
@@ -12251,6 +12375,10 @@
     {
       "hash": "1175503978",
       "s": "Löschen Sie alle MK2 und Fahrer, die an diesen Spieler gebunden sind"
+    },
+    {
+      "hash": "1175733996",
+      "s": "Sprühen Sie Wasser von den Rädern des Fahrzeugs dieses Spielers aus"
     },
     {
       "hash": "1175845351",
@@ -12733,6 +12861,10 @@
       "s": "Vinewood Visionär"
     },
     {
+      "hash": "1220926225",
+      "s": "Es wurden keine gültigen Spieler ausgewählt"
+    },
+    {
       "hash": "1221173085",
       "s": "Ram Fahrzeugsuche"
     },
@@ -12993,6 +13125,10 @@
       "s": "Freundlich/Sozial"
     },
     {
+      "hash": "1243744973",
+      "s": "Senden Sie ein besetztes Feuerwehrauto, um diesen Spieler zu verfolgen und zu besprühen"
+    },
+    {
       "hash": "1244274399",
       "s": "Entitätsbewegung"
     },
@@ -13185,6 +13321,10 @@
       "s": "Garderobe, Animationen, Szenario, Fahrzeug geben..."
     },
     {
+      "hash": "1258995943",
+      "s": "Stoppen Sie jeden Leck an diesem Spieler"
+    },
+    {
       "hash": "1259589044",
       "s": "Legen Sie 5 Statistiken für den Abschluss eines Raubüberfalls fest"
     },
@@ -13247,6 +13387,10 @@
     {
       "hash": "1264163947",
       "s": "Geben Sie die Nachricht ein, um sie an die ausgewählten Spieler zu spammen"
+    },
+    {
+      "hash": "1264188646",
+      "s": "P Druckautowaschanlage"
     },
     {
       "hash": "1264321368",
@@ -13921,6 +14065,10 @@
       "s": "Wie stark der Reifengriff reduziert wird"
     },
     {
+      "hash": "1336262685",
+      "s": "Skalierung des Pilot-Fadenkreuzes"
+    },
+    {
       "hash": "1336906575",
       "s": "Wie eng Meteore eintreffen"
     },
@@ -14299,6 +14447,10 @@
     {
       "hash": "1370485737",
       "s": "Aktivieren/deaktivieren Sie dieses Skript"
+    },
+    {
+      "hash": "1370647874",
+      "s": "Senden Sie koordinierte Drohnenschwärme nach ausgewählten Spielern"
     },
     {
       "hash": "1371132129",
@@ -14733,10 +14885,6 @@
       "s": "Alpine Outfit, Masken und Overalls freigeschaltet."
     },
     {
-      "hash": "1421002562",
-      "s": "Feuerwehrleute entfernen, die an diesen Spieler gesendet wurden"
-    },
-    {
       "hash": "1421176413",
       "s": "Reisen Sie zum Del Perro Pier und betreten Sie das Riesenrad über sein echtes Aktivitätsskript"
     },
@@ -14915,6 +15063,10 @@
     {
       "hash": "1433923451",
       "s": "Lokale Lichtmultiplikator"
+    },
+    {
+      "hash": "1434229313",
+      "s": "Waffe, die von dem Schwarm abgefeuert wird"
     },
     {
       "hash": "1434748559",
@@ -15529,6 +15681,10 @@
       "s": "Nummer 5"
     },
     {
+      "hash": "1493963155",
+      "s": "Zeit zwischen Wasserwerfer-Schüssen"
+    },
+    {
       "hash": "1493992320",
       "s": "Die Folgen eines fehlgeschlagenen Experiments"
     },
@@ -15583,6 +15739,10 @@
     {
       "hash": "1500199831",
       "s": "Liste alle Fahrzeugmods auf"
+    },
+    {
+      "hash": "1500633479",
+      "s": "Es konnte das Waschpersonal nicht bereitstellen"
     },
     {
       "hash": "1501019094",
@@ -16069,8 +16229,16 @@
       "s": "Halten Sie sie konzentriert"
     },
     {
+      "hash": "1548368919",
+      "s": "Höhe des rotierenden Wasserrings"
+    },
+    {
       "hash": "1548427401",
       "s": "Sun Mie Intensität"
+    },
+    {
+      "hash": "1548447173",
+      "s": "Wie lange der Sprinkler aktiv bleibt"
     },
     {
       "hash": "1548774621",
@@ -16119,6 +16287,10 @@
     {
       "hash": "1551285297",
       "s": "Mattes Dunkelviolett"
+    },
+    {
+      "hash": "1551748538",
+      "s": "Anzahl der der Autowaschanlage zugewiesenen Feuerwehrleute"
     },
     {
       "hash": "1552055257",
@@ -16205,6 +16377,10 @@
       "s": "Die Event-Score-Signatur konnte nicht aufgelöst werden"
     },
     {
+      "hash": "1559728131",
+      "s": "Leckenden Spieler aktivieren"
+    },
+    {
       "hash": "1560423498",
       "s": "Wachsend"
     },
@@ -16237,6 +16413,10 @@
       "s": "Entitäten starten"
     },
     {
+      "hash": "1562785169",
+      "s": "Notfall-Despawn"
+    },
+    {
       "hash": "1563575701",
       "s": "Metallic-Sachsenblau"
     },
@@ -16247,6 +16427,10 @@
     {
       "hash": "1564939564",
       "s": "Wählen Sie die Plattform und Projektilsteinmodelle"
+    },
+    {
+      "hash": "1565403432",
+      "s": "Auswahl der Wasser freisetzenden Körperpunkte"
     },
     {
       "hash": "1565600598",
@@ -16401,6 +16585,10 @@
       "s": "Neuen Marker an Ihrer Position platzieren"
     },
     {
+      "hash": "1580155165",
+      "s": "Wie schnell die Wirbelströme rotieren"
+    },
+    {
       "hash": "1580868698",
       "s": "Epsilon-Blau"
     },
@@ -16467,6 +16655,10 @@
     {
       "hash": "1588857869",
       "s": "Ungültiger Fahrzeug-Fallschirm"
+    },
+    {
+      "hash": "1588972643",
+      "s": "V-Formation"
     },
     {
       "hash": "1589285328",
@@ -16603,6 +16795,10 @@
     {
       "hash": "1600784210",
       "s": "Dieses Skript entladen"
+    },
+    {
+      "hash": "1601213583",
+      "s": "Entfernen Sie Mechaniker, die zu diesem Spieler geschickt werden"
     },
     {
       "hash": "1601656767",
@@ -16925,6 +17121,10 @@
       "s": "Oszillieren zum Punkt"
     },
     {
+      "hash": "1628107837",
+      "s": "Salve"
+    },
+    {
       "hash": "1628166603",
       "s": "Spaßwaffen"
     },
@@ -17011,6 +17211,10 @@
     {
       "hash": "1637960657",
       "s": "Geben Sie im Flug eine Explosion ab"
+    },
+    {
+      "hash": "1638457134",
+      "s": "Wie lange die Mechaniker dem Fahrzeug folgen und es reinigen"
     },
     {
       "hash": "1638523181",
@@ -17669,10 +17873,6 @@
       "s": "Laden"
     },
     {
-      "hash": "1708332389",
-      "s": "Feuerwehr-Trupp"
-    },
-    {
       "hash": "1708839830",
       "s": "Schließe das Ziel der Tresorübung ab"
     },
@@ -17727,6 +17927,10 @@
     {
       "hash": "1712632900",
       "s": "Bildschirmfilter, Visionsmodi, Kamerabewegung und Zeitlupe stoppen"
+    },
+    {
+      "hash": "1712812509",
+      "s": "Anzahl der Reiniger"
     },
     {
       "hash": "1713010688",
@@ -18381,6 +18585,10 @@
       "s": "Öffnen Sie den Laptop"
     },
     {
+      "hash": "1776811673",
+      "s": "Senden Sie Feuerwehrleute, um das aktuelle Fahrzeug dieses Spielers hochdruckreinigen"
+    },
+    {
       "hash": "1777318311",
       "s": "Entfernen Sie alle Dekorationen"
     },
@@ -18577,6 +18785,10 @@
       "s": "Texturen dieses Dicts durchsuchen"
     },
     {
+      "hash": "1796012707",
+      "s": "Abstand zum Spieler"
+    },
+    {
       "hash": "1797277070",
       "s": "Schütteln Sie die Kamera bei der Detonation"
     },
@@ -18653,8 +18865,16 @@
       "s": "Metallic-Formelrot"
     },
     {
+      "hash": "1803965317",
+      "s": "Wählen Sie nur Anführer, sequenziell oder Salve-Feuer"
+    },
+    {
       "hash": "1804131311",
       "s": "Override aktiviert (Daten-/Modelloverride aktiv)."
+    },
+    {
+      "hash": "1804393723",
+      "s": "Verzögerung zwischen koordinierten Angriffen"
     },
     {
       "hash": "1805441960",
@@ -18913,6 +19133,10 @@
       "s": "Atmosphäre"
     },
     {
+      "hash": "1829133390",
+      "s": "Wirbelströme stoppen"
+    },
+    {
       "hash": "1829318920",
       "s": "Kreuz"
     },
@@ -18959,6 +19183,10 @@
     {
       "hash": "1833302897",
       "s": "HBK- und ABS-Indikator-Flags"
+    },
+    {
+      "hash": "1833921699",
+      "s": "Senden Sie eine koordinierte Formation bewaffneter Drohnen auf diesen Spieler"
     },
     {
       "hash": "1834470994",
@@ -19153,6 +19381,10 @@
       "s": "Luftunterstützung COD"
     },
     {
+      "hash": "1855513835",
+      "s": "Anbringen rotierender, nach außen gerichteter Wasserströme an diesen Spieler"
+    },
+    {
       "hash": "1856172899",
       "s": "Bunker Boost 10x"
     },
@@ -19173,8 +19405,16 @@
       "s": "Das Skript zur Verarbeitung der Tunables konnte nicht gestartet werden"
     },
     {
+      "hash": "1857718219",
+      "s": "Drohnen Schwarm"
+    },
+    {
       "hash": "1857736972",
       "s": "Bewegen zum Fliegen, Springen zum Klettern, Ducken zum Absteigen, Sprinten zum Beschleunigen und Angreifen zum Sturztauchen"
+    },
+    {
+      "hash": "1858361117",
+      "s": "Pilot Kamera"
     },
     {
       "hash": "1858528957",
@@ -19845,6 +20085,10 @@
       "s": "Innenraum-/Platten-/Armaturenbrett-/Türlichter umfärben"
     },
     {
+      "hash": "1915593942",
+      "s": "Umgeben Sie diesen Spieler mit rotierendem Wasser, das nahegelegene Einheiten anzieht"
+    },
+    {
       "hash": "1915852870",
       "s": "Zwei Sekunden lang aufladen und eine Explosion um dich herum freisetzen"
     },
@@ -20329,6 +20573,10 @@
       "s": "Schalten Sie den Motor des persönlichen Fahrzeugs ein oder aus"
     },
     {
+      "hash": "1957798831",
+      "s": "Wie stark jeder Wasserstrahl auf die Straße zeigt"
+    },
+    {
       "hash": "1958132253",
       "s": "Erstellt"
     },
@@ -20431,6 +20679,10 @@
     {
       "hash": "1967516094",
       "s": "Solo"
+    },
+    {
+      "hash": "1967928921",
+      "s": "Hydro Räder stoppen"
     },
     {
       "hash": "1968324135",
@@ -20713,6 +20965,10 @@
       "s": "Balkenposition"
     },
     {
+      "hash": "1991027011",
+      "s": "Sprinkler an diesem Spieler stoppen"
+    },
+    {
       "hash": "1991298456",
       "s": "Bottom Dollar Kopfgeld"
     },
@@ -20951,6 +21207,10 @@
     {
       "hash": "2010375494",
       "s": "Blast Trails Typ"
+    },
+    {
+      "hash": "2010764502",
+      "s": "Neu erzeugte Mechaniker unverwundbar machen"
     },
     {
       "hash": "2011485378",
@@ -21675,10 +21935,6 @@
     {
       "hash": "2081433637",
       "s": "Agentursafe gefüllt"
-    },
-    {
-      "hash": "2081541837",
-      "s": "Wie weit der Feuerwehrmann vom Spieler entfernt erscheinen soll"
     },
     {
       "hash": "2081821167",
@@ -22485,6 +22741,10 @@
       "s": "Fordere den SecuroServ Super Diamond an"
     },
     {
+      "hash": "2148855715",
+      "s": "Verfolgungsgeschwindigkeit"
+    },
+    {
       "hash": "2148976329",
       "s": "Spooner-Deckkraft"
     },
@@ -22495,10 +22755,6 @@
     {
       "hash": "2149280681",
       "s": "Dicke Seile"
-    },
-    {
-      "hash": "2150199911",
-      "s": "Feuerwehrmänner schicken, um diesen Spieler mit Löschwasser zu besprühen"
     },
     {
       "hash": "2150218381",
@@ -22633,6 +22889,10 @@
       "s": "Konfiguration konnte nicht geladen werden"
     },
     {
+      "hash": "2162664671",
+      "s": "Kontinuierlich"
+    },
+    {
       "hash": "2162915161",
       "s": "P Eigentum Klassisch"
     },
@@ -22749,6 +23009,10 @@
       "s": "Kostenlos erworben (bleibt bestehen)."
     },
     {
+      "hash": "2174459908",
+      "s": "Gimbal Dämpfung; Null reagiert sofort"
+    },
+    {
       "hash": "2174656071",
       "s": "Konvoi entlassen."
     },
@@ -22807,6 +23071,10 @@
     {
       "hash": "2179038310",
       "s": "Sportlich"
+    },
+    {
+      "hash": "2179087907",
+      "s": "Entferne Drohnen-Schwärme, die an diesen Spieler gesendet wurden"
     },
     {
       "hash": "2179232777",
@@ -23125,6 +23393,10 @@
       "s": "Tragen Sie Head & Face auf"
     },
     {
+      "hash": "2212773543",
+      "s": "P Auslaufender Spieler"
+    },
+    {
       "hash": "2213276334",
       "s": "Kantenstärke"
     },
@@ -23417,6 +23689,10 @@
       "s": "Senden Sie echte GTA Online-Ereignisse und Dienste an diesen Spieler"
     },
     {
+      "hash": "2242887942",
+      "s": "Lassen Sie Wasser aus dem Kopf, den Händen oder Füßen dieses Spielers laufen"
+    },
+    {
       "hash": "2242909179",
       "s": "Schleife der Island Heist finale Service-Auszahlung"
     },
@@ -23471,6 +23747,10 @@
     {
       "hash": "2248687974",
       "s": "Mitgliederliste dieser Crew"
+    },
+    {
+      "hash": "2249188468",
+      "s": "Anzahl der Ströme, die den Wirbel bilden"
     },
     {
       "hash": "2249397699",
@@ -23677,6 +23957,10 @@
       "s": "Ausgeführt."
     },
     {
+      "hash": "2265798306",
+      "s": "Schwärme zurückrufen"
+    },
+    {
       "hash": "2266070639",
       "s": "Platzieren Sie die Markierung"
     },
@@ -23691,6 +23975,10 @@
     {
       "hash": "2266598132",
       "s": "Beim Zielen"
+    },
+    {
+      "hash": "2266632246",
+      "s": "Auslauf stoppen"
     },
     {
       "hash": "2267010037",
@@ -23753,6 +24041,10 @@
       "s": "Wird bereits umgeschaltet, bitte warten"
     },
     {
+      "hash": "2271591573",
+      "s": "Wie jeder Schwarm sich um sein Ziel anordnet"
+    },
+    {
       "hash": "2271640385",
       "s": "Der Konvoi bewegt sich auf das Ziel zu."
     },
@@ -23799,6 +24091,10 @@
     {
       "hash": "2276392085",
       "s": "Sprint-Multiplikator"
+    },
+    {
+      "hash": "2276549192",
+      "s": "Wie lange der Schwarm diesem Spieler folgt"
     },
     {
       "hash": "2276607029",
@@ -23945,6 +24241,10 @@
       "s": "Vervollständigen Sie diese Auszeichnungskategorie für das ausgewählte Wiederherstellungsziel"
     },
     {
+      "hash": "2288732357",
+      "s": "P Wasserwirbel"
+    },
+    {
       "hash": "2289503735",
       "s": "Welt"
     },
@@ -24009,8 +24309,16 @@
       "s": "Spooner Fahrzeug Favoriten"
     },
     {
+      "hash": "2294899070",
+      "s": "Wie lange der Feuerwagen seine Verfolgung fortsetzt"
+    },
+    {
       "hash": "2294941457",
       "s": "Kosatka Dinghy zurückbringen"
+    },
+    {
+      "hash": "2295333725",
+      "s": "Befestigen Sie rotierende Wasserströme um diesen Spieler"
     },
     {
       "hash": "2295445855",
@@ -24067,6 +24375,10 @@
     {
       "hash": "2301277952",
       "s": "Bootsbeschleunigung / -bremsung"
+    },
+    {
+      "hash": "2301835787",
+      "s": "S Drohnen-Schwärme"
     },
     {
       "hash": "2303366566",
@@ -24223,6 +24535,10 @@
     {
       "hash": "2316596499",
       "s": "Braun-Nutzer"
+    },
+    {
+      "hash": "2317252354",
+      "s": "Wie lange der Spieler ausläuft"
     },
     {
       "hash": "2317447519",
@@ -24537,6 +24853,10 @@
       "s": "Kraft"
     },
     {
+      "hash": "2351983124",
+      "s": "Gesamtzahl der Drohnen einschließlich des Formationsleiters"
+    },
+    {
       "hash": "2352505922",
       "s": "Skript-Vorschau"
     },
@@ -24825,6 +25145,10 @@
       "s": "Session unter einer anderen Sprache bewerben"
     },
     {
+      "hash": "2374982602",
+      "s": "Pilot"
+    },
+    {
       "hash": "2375201819",
       "s": "Keine Entitätssperre; gelenkte Raketen benötigen ein grünes Fadenkreuz."
     },
@@ -24839,6 +25163,10 @@
     {
       "hash": "2375875018",
       "s": "Heißtaste"
+    },
+    {
+      "hash": "2375897639",
+      "s": "Wirbelstärke"
     },
     {
       "hash": "2375934942",
@@ -25047,10 +25375,6 @@
     {
       "hash": "2399378674",
       "s": "Geben Sie fehlende Waffen zurück, während Sie sich bewegen"
-    },
-    {
-      "hash": "2399860251",
-      "s": "Feuerwehrmänner schicken"
     },
     {
       "hash": "2399913936",
@@ -25753,6 +26077,10 @@
       "s": "Senden Sie eine Einladung zu Ihrem Clubhouse"
     },
     {
+      "hash": "2473525173",
+      "s": "Setzen und steuern Sie einen koordinierten Drohnen-Schwarm ein"
+    },
+    {
       "hash": "2474322944",
       "s": "Biestsprung"
     },
@@ -25809,16 +26137,16 @@
       "s": "Größe der Kopfmarkierung"
     },
     {
-      "hash": "2478186195",
-      "s": "Feuerwehrmänner schicken, um Löschgeräte zu richten und diesen Spieler zu besprühen"
-    },
-    {
       "hash": "2478650511",
       "s": "Geben Sie zunächst einen Namen ein."
     },
     {
       "hash": "2479399985",
       "s": "Hinteres Unterlicht"
+    },
+    {
+      "hash": "2479478636",
+      "s": "Wie die Folgedrohnen sich um den Anführer anordnen"
     },
     {
       "hash": "2479564652",
@@ -25883,6 +26211,10 @@
     {
       "hash": "2484268005",
       "s": "Drücken Sie jederzeit F4, um das Menü zu öffnen"
+    },
+    {
+      "hash": "2484318941",
+      "s": "Sprühintervall (ms)"
     },
     {
       "hash": "2484331998",
@@ -26165,6 +26497,10 @@
       "s": "Spawnen Sie eine Prostituierte in ihrem Fahrzeug"
     },
     {
+      "hash": "2513180118",
+      "s": "Drohnen-Schwärme"
+    },
+    {
       "hash": "2513956143",
       "s": "Wegpunktplatzierung zulassen, während ein Innenraumgrundriss angezeigt wird"
     },
@@ -26179,6 +26515,10 @@
     {
       "hash": "2514633536",
       "s": "Erzeuge dieses gespeicherte Fahrzeug vor dir"
+    },
+    {
+      "hash": "2515581864",
+      "s": "Feuerwagen löschen"
     },
     {
       "hash": "2515622997",
@@ -26475,6 +26815,10 @@
     {
       "hash": "2541855896",
       "s": "Erzeuge von NPCs gesteuerte Oppressor MK2, die die ausgewählten Spieler jagen"
+    },
+    {
+      "hash": "2542291456",
+      "s": "Ray Pistole"
     },
     {
       "hash": "2542409433",
@@ -26801,6 +27145,10 @@
       "s": "Besatzungsrüstung"
     },
     {
+      "hash": "2576305134",
+      "s": "Waschdistanz"
+    },
+    {
       "hash": "2576952645",
       "s": "Heist Cluckin"
     },
@@ -26877,6 +27225,10 @@
       "s": "Steigen Sie ein und lassen Sie sich fahren – setzen Sie einen Wegpunkt und Sie gelangen dorthin"
     },
     {
+      "hash": "2585995124",
+      "s": "Löschen Sie Befehle und formieren Sie den Schwarm neu bei Ihnen oder dem Anführer"
+    },
+    {
       "hash": "2586314827",
       "s": "Fortschritt angewendet."
     },
@@ -26931,6 +27283,10 @@
     {
       "hash": "2590752363",
       "s": "Hasen entfernen"
+    },
+    {
+      "hash": "2590779919",
+      "s": "Wie lange jede Schwarm seinem Ziel folgt"
     },
     {
       "hash": "2591175625",
@@ -27157,6 +27513,10 @@
       "s": "Himmelsintensität"
     },
     {
+      "hash": "2613422198",
+      "s": "Waschdauer (Sekunden)"
+    },
+    {
       "hash": "2613547406",
       "s": "Flammenkegel"
     },
@@ -27227,6 +27587,10 @@
     {
       "hash": "2622442355",
       "s": "Zum zufälligen Ereignis teleportiert"
+    },
+    {
+      "hash": "2622991872",
+      "s": "Abwärtswinkel"
     },
     {
       "hash": "2624072971",
@@ -27361,6 +27725,10 @@
       "s": "Immer gewinnen"
     },
     {
+      "hash": "2636780326",
+      "s": "Anzahl der Feuerwehrleute in jeder Schwarm"
+    },
+    {
       "hash": "2637494402",
       "s": "Klassische Farben"
     },
@@ -27487,6 +27855,10 @@
     {
       "hash": "2646461920",
       "s": "Ein erforderliches Modul ist nicht bereits geladen"
+    },
+    {
+      "hash": "2646670887",
+      "s": "Entfernung, die der Feuerwehrwagen versucht, zum Spieler zu halten"
     },
     {
       "hash": "2647289416",
@@ -27917,6 +28289,10 @@
       "s": "Dieses ASI wird bis zur nächsten Spielsitzung gestoppt"
     },
     {
+      "hash": "2694813129",
+      "s": "Zeit zwischen Rad-Wasser-Stößen"
+    },
+    {
       "hash": "2694830761",
       "s": "Wiederholende Explosion an den Blickpunkt pinnen"
     },
@@ -27991,6 +28367,10 @@
     {
       "hash": "2702672512",
       "s": "Umgebung"
+    },
+    {
+      "hash": "2702873926",
+      "s": "Dieser Spieler muss sich in einem Fahrzeug befinden"
     },
     {
       "hash": "2704143589",
@@ -28291,6 +28671,10 @@
     {
       "hash": "2733199712",
       "s": "Wie viele Wandsegmente folgen hinterher?"
+    },
+    {
+      "hash": "2733570376",
+      "s": "Drone-Kamera und Fadenkreuz abstimmen"
     },
     {
       "hash": "2733921059",
@@ -28637,6 +29021,10 @@
       "s": "Beschwören Sie dieses gespeicherte Fahrzeug und setzen Sie sich, sobald es eintrifft, hinein"
     },
     {
+      "hash": "2763787315",
+      "s": "Kommandant"
+    },
+    {
       "hash": "2764076789",
       "s": "Schadenssubjekte"
     },
@@ -28961,6 +29349,10 @@
       "s": "Alle Schutzmaßnahmen aktivieren"
     },
     {
+      "hash": "2797955051",
+      "s": "Sequenzielle Wellen"
+    },
+    {
       "hash": "2798162844",
       "s": "Distanz-FOV-Skalierung"
     },
@@ -29063,6 +29455,10 @@
     {
       "hash": "2805356532",
       "s": "Online-Abschluss"
+    },
+    {
+      "hash": "2805455885",
+      "s": "Drohnenanzahl"
     },
     {
       "hash": "2805482105",
@@ -29229,6 +29625,10 @@
       "s": "Legen Sie einen Wegpunkt fest und der Konvoi wird Sie dorthin fahren."
     },
     {
+      "hash": "2820627916",
+      "s": "P Drohnenschwarm"
+    },
+    {
       "hash": "2820670155",
       "s": "gb_gunrunning läuft nicht"
     },
@@ -29343,6 +29743,10 @@
     {
       "hash": "2831151893",
       "s": "P Trollfahrzeuge"
+    },
+    {
+      "hash": "2831440026",
+      "s": "Maximale Geschwindigkeit beim Verfolgen des Spielers"
     },
     {
       "hash": "2831510883",
@@ -29529,6 +29933,10 @@
       "s": "Metallic-Blau-Silber"
     },
     {
+      "hash": "2848454816",
+      "s": "P Hydro-Räder"
+    },
+    {
       "hash": "2848804836",
       "s": "Durchsuchen/suchen Sie jeden Effekt nach Wörterbuch oder Namen"
     },
@@ -29709,6 +30117,10 @@
       "s": "Bringen Sie die Wagenkolonne auf der nächstgelegenen Straße hervor"
     },
     {
+      "hash": "2867689403",
+      "s": "Entfernen Sie den Wasserwirbel von diesem Spieler"
+    },
+    {
       "hash": "2867819244",
       "s": "Gottmodus + alle Beweise"
     },
@@ -29751,6 +30163,10 @@
     {
       "hash": "2871759278",
       "s": "Nutten"
+    },
+    {
+      "hash": "2872078226",
+      "s": "Betäuben"
     },
     {
       "hash": "2872173723",
@@ -30557,6 +30973,10 @@
       "s": "Fahrzeugmodellindex in der Schrottliste"
     },
     {
+      "hash": "2947540799",
+      "s": "Verfolgungsdistanz"
+    },
+    {
       "hash": "2947699159",
       "s": "Sprinten und Springen an Orten erlauben, an denen GTA Online dies normalerweise blockiert"
     },
@@ -30607,6 +31027,10 @@
     {
       "hash": "2951726971",
       "s": "Auszeichnungen und Sammelobjekte wieder gesperrt."
+    },
+    {
+      "hash": "2952289603",
+      "s": "Sprühmuster"
     },
     {
       "hash": "2952702459",
@@ -30809,6 +31233,10 @@
       "s": "Poolsicherheit"
     },
     {
+      "hash": "2975076681",
+      "s": "Maschinengewehr"
+    },
+    {
       "hash": "2975292463",
       "s": "Geld machen"
     },
@@ -30987,6 +31415,10 @@
     {
       "hash": "2994316735",
       "s": "Madrazo Hit abgeschlossen."
+    },
+    {
+      "hash": "2994569291",
+      "s": "Maximale Steig- und Sinkgeschwindigkeit"
     },
     {
       "hash": "2994697361",
@@ -31389,6 +31821,10 @@
       "s": "Senden Sie jetzt eine Welle, ohne den Schalter gedrückt zu halten"
     },
     {
+      "hash": "3036822421",
+      "s": "Feuerwehrwagen schicken"
+    },
+    {
       "hash": "3037048747",
       "s": "Cayo Perico Team Cooldown entfernt."
     },
@@ -31781,6 +32217,10 @@
       "s": "Skateboard starten..."
     },
     {
+      "hash": "3076715154",
+      "s": "Feuerwehrwagen konnte nicht spawnen"
+    },
+    {
       "hash": "3076798073",
       "s": "Integrierte Voreinstellungen"
     },
@@ -31791,6 +32231,10 @@
     {
       "hash": "3076992943",
       "s": "Hinten rechts"
+    },
+    {
+      "hash": "3078049100",
+      "s": "Schwarm zurückrufen"
     },
     {
       "hash": "3078236724",
@@ -31879,6 +32323,10 @@
     {
       "hash": "3086173866",
       "s": "Metallisches Schwarz-Lila"
+    },
+    {
+      "hash": "3086406441",
+      "s": "Feuer-Muster"
     },
     {
       "hash": "3087231486",
@@ -32045,10 +32493,6 @@
       "s": "Erzwingen Sie ausgewählte passive Spieler durch einen Missionsübergang"
     },
     {
-      "hash": "3104060706",
-      "s": "Anzahl der zu sendenden Feuerwehrmänner"
-    },
-    {
       "hash": "3104406267",
       "s": "Sammelobjekte"
     },
@@ -32111,6 +32555,10 @@
     {
       "hash": "3112339959",
       "s": "Auf andere kopieren"
+    },
+    {
+      "hash": "3112652731",
+      "s": "Scharfschützengewehr"
     },
     {
       "hash": "3112705436",
@@ -32355,6 +32803,10 @@
     {
       "hash": "3134671866",
       "s": "Streng"
+    },
+    {
+      "hash": "3134872283",
+      "s": "Wie schnell der Anführer dreht"
     },
     {
       "hash": "3134901930",
@@ -32893,6 +33345,10 @@
       "s": "Laden..."
     },
     {
+      "hash": "3181399117",
+      "s": "Sprühen Sie Wasser nach außen von jedem Rad ihres aktuellen Fahrzeugs"
+    },
+    {
       "hash": "3181521280",
       "s": "Millisekunden zwischen automatischen Interaktionen"
     },
@@ -33301,6 +33757,10 @@
       "s": "Gesundheit, Gottmodus, Fahren und Ausrutscher"
     },
     {
+      "hash": "3220353242",
+      "s": "Waschteam löschen"
+    },
+    {
       "hash": "3220668508",
       "s": "Schutzinformationen"
     },
@@ -33323,6 +33783,10 @@
     {
       "hash": "3221419088",
       "s": "Betreiben und verwalten Sie eine Batterie automatisierter Schwarzwitwe-Werfer"
+    },
+    {
+      "hash": "3221502325",
+      "s": "P Menschlicher Sprinkler"
     },
     {
       "hash": "3221778709",
@@ -33597,6 +34061,10 @@
       "s": "Erlauben Sie den Waffenbatterien des Trägers zu feuern"
     },
     {
+      "hash": "3251290672",
+      "s": "Wählen Sie sequentielle Wellen, abwechselnde Gruppen oder konstantes Sprühen"
+    },
+    {
       "hash": "3252317859",
       "s": "Geschwindigkeit Multiplikator während Sprint gedrückt wird"
     },
@@ -33731,6 +34199,10 @@
     {
       "hash": "3265966716",
       "s": "Kraft seitwärts bewegen"
+    },
+    {
+      "hash": "3266021212",
+      "s": "Wie weit das Waschteam vom Fahrzeug entfernt steht"
     },
     {
       "hash": "3266055540",
@@ -34123,6 +34595,14 @@
     {
       "hash": "3304722874",
       "s": "Outfit-Einstellungen"
+    },
+    {
+      "hash": "3305344418",
+      "s": "Drohnen-Schwarm-Steuerung"
+    },
+    {
+      "hash": "3306084669",
+      "s": "Konnte die Feuerwehrausfahrt nicht starten"
     },
     {
       "hash": "3306285821",
@@ -34757,6 +35237,10 @@
       "s": "Keine Nahkampfwertung-Abklingzeit"
     },
     {
+      "hash": "3358852849",
+      "s": "Hydro-Räder aktivieren"
+    },
+    {
       "hash": "3359304828",
       "s": "Halte schnelle Seiten-Drifts aufrecht, um eine Combo aufzubauen"
     },
@@ -35149,6 +35633,14 @@
       "s": "Waffe erzwingen"
     },
     {
+      "hash": "3390929511",
+      "s": "Reaktionsfähigkeit"
+    },
+    {
+      "hash": "3390932656",
+      "s": "Formationsabstand"
+    },
+    {
       "hash": "3391171847",
       "s": "Raketen-Munitions-Sammelobjekte im Regen einbeziehen"
     },
@@ -35175,6 +35667,10 @@
     {
       "hash": "3394704253",
       "s": "Düsenflugzeug"
+    },
+    {
+      "hash": "3395216754",
+      "s": "Drohnen-Schwarm-Kamera"
     },
     {
       "hash": "3395446560",
@@ -35289,6 +35785,10 @@
       "s": "Reiten Sie auf dem ausgewählten Tier (Umschalten zum Sprinten, F oder Ausschalten zum Absitzen)"
     },
     {
+      "hash": "3404567739",
+      "s": "Sprühradius"
+    },
+    {
       "hash": "3405375347",
       "s": "Greife Objekte und bewege sie mit dem Cursor"
     },
@@ -35383,6 +35883,10 @@
     {
       "hash": "3411078279",
       "s": "Slot"
+    },
+    {
+      "hash": "3411776826",
+      "s": "Senden Sie einen koordinierten Drohnen-Schwarm nach diesem Spieler"
     },
     {
       "hash": "3412211671",
@@ -35633,6 +36137,10 @@
       "s": "Fahrzeug rammen Favoriten"
     },
     {
+      "hash": "3431586459",
+      "s": "Entfernen Sie Feuerwehrausfahrten, die an diesen Spieler gesendet wurden"
+    },
+    {
       "hash": "3432894154",
       "s": "Spooner MSFinish3"
     },
@@ -35823,6 +36331,10 @@
     {
       "hash": "3452927036",
       "s": "Fallschirmsprung erzwingen"
+    },
+    {
+      "hash": "3453005949",
+      "s": "Menschlichen Sprinkler aktivieren"
     },
     {
       "hash": "3453016694",
@@ -36331,6 +36843,10 @@
     {
       "hash": "3500021657",
       "s": "Biegen Sie den Fluss der Zeit"
+    },
+    {
+      "hash": "3500361235",
+      "s": "Wie lange der Wasserwirbel aktiv bleibt"
     },
     {
       "hash": "3500712365",
@@ -37465,6 +37981,10 @@
       "s": "Spam-Transaktionsfehler bei diesem Player"
     },
     {
+      "hash": "3607193464",
+      "s": "Feuerwehrausfahrt"
+    },
+    {
       "hash": "3607983218",
       "s": "Spielen Sie bei jedem Schlag einen Ton ab"
     },
@@ -37621,6 +38141,10 @@
       "s": "Position halten, wenn keine Bewegung gedrückt wird"
     },
     {
+      "hash": "3618701696",
+      "s": "Sequenziell"
+    },
+    {
       "hash": "3619195111",
       "s": "Fahrzeug klonen"
     },
@@ -37739,6 +38263,10 @@
     {
       "hash": "3630321700",
       "s": "Klone greifen Feinde an"
+    },
+    {
+      "hash": "3630457903",
+      "s": "Steuern Sie den Anführer oder befehlen Sie dem Schwarm zu Fuß"
     },
     {
       "hash": "3630844824",
@@ -38075,6 +38603,10 @@
     {
       "hash": "3661386958",
       "s": "Beleuchtung, Wasser & Partikel-VFX"
+    },
+    {
+      "hash": "3661395646",
+      "s": "Verzögerung zwischen Wasserlecks"
     },
     {
       "hash": "3661759279",
@@ -38595,6 +39127,10 @@
     {
       "hash": "3705252162",
       "s": "Kleine Service-Schleifen"
+    },
+    {
+      "hash": "3705383157",
+      "s": "Wie lange Hydro-Räder aktiv bleiben"
     },
     {
       "hash": "3705404674",
@@ -39233,6 +39769,10 @@
       "s": "Im Inneren spawnen"
     },
     {
+      "hash": "3763782291",
+      "s": "Schaden, der von Schusswaffen verursacht wird; Betäubung ignoriert diesen Wert"
+    },
+    {
       "hash": "3763908184",
       "s": "Verleiht den ausgewählten Preis jetzt ohne Drehung. Die Auszahlung erfolgt über den spieleigenen Belohnungspfad"
     },
@@ -39263,6 +39803,10 @@
     {
       "hash": "3766734141",
       "s": "Sofortiger Abschluss (Akt 3)"
+    },
+    {
+      "hash": "3767141189",
+      "s": "Sprinkler stoppen"
     },
     {
       "hash": "3767155794",
@@ -39593,10 +40137,6 @@
       "s": "Verwende die thermische Zielerfassung der Orbitalkanone"
     },
     {
-      "hash": "3795210771",
-      "s": "Feuerwehrmänner löschen"
-    },
-    {
       "hash": "3795238092",
       "s": "Schlagmarker"
     },
@@ -39849,6 +40389,10 @@
       "s": "Inventar & Dienstprogramme"
     },
     {
+      "hash": "3817995381",
+      "s": "Die Entitätengrenze erlaubte nur einen Teil des Schwarms zu spawnen"
+    },
+    {
       "hash": "3818309427",
       "s": "Feuer spucken"
     },
@@ -40093,6 +40637,10 @@
       "s": "Bearbeite deine Kleidung und Requisiten"
     },
     {
+      "hash": "3842410575",
+      "s": "Hydro-Räder"
+    },
+    {
       "hash": "3842793717",
       "s": "Linkes Unterlicht"
     },
@@ -40171,6 +40719,10 @@
     {
       "hash": "3850621899",
       "s": "Spieler, die du auf Social Club blockiert hast"
+    },
+    {
+      "hash": "3850651555",
+      "s": "Waffe, die von jedem Schwarm abgefeuert wird"
     },
     {
       "hash": "3851301006",
@@ -40401,6 +40953,10 @@
       "s": "Stelle dein Mobile Operations Center zurück in die Lagerung"
     },
     {
+      "hash": "3870580528",
+      "s": "Setzen Sie eine Feuerwehrbesatzung ein, um dieses Fahrzeug des Spielers zu verfolgen und zu waschen"
+    },
+    {
       "hash": "3870668702",
       "s": "Erzwingen Sie einen Nummernschildstil"
     },
@@ -40589,6 +41145,10 @@
       "s": "Automatisch beitreten bei Beitrittsfähig"
     },
     {
+      "hash": "3885725404",
+      "s": "Leckintervall (ms)"
+    },
+    {
       "hash": "3886185320",
       "s": "Keine Weltgrenzen"
     },
@@ -40711,6 +41271,10 @@
     {
       "hash": "3894899081",
       "s": "Alle Waffen entfernt"
+    },
+    {
+      "hash": "3895212260",
+      "s": "P Feuerwehrverfolgung"
     },
     {
       "hash": "3895790669",
@@ -41361,6 +41925,10 @@
       "s": "Fahrzeug sofort rechts drehen"
     },
     {
+      "hash": "3950311099",
+      "s": "Wasserwirbel"
+    },
+    {
       "hash": "3950614489",
       "s": "JoinSessionByInfo fehlgeschlagen – stattdessen Hosting"
     },
@@ -41901,6 +42469,10 @@
       "s": "Panzerung Unterstützung"
     },
     {
+      "hash": "4005114081",
+      "s": "Erstellen Sie einen rotierenden Wasserwirbel um diesen Spieler"
+    },
+    {
       "hash": "4005722289",
       "s": "Taze diesen Spieler wiederholt"
     },
@@ -41935,6 +42507,10 @@
     {
       "hash": "4007780691",
       "s": "Richten Sie Lagerhäuser ein"
+    },
+    {
+      "hash": "4007825596",
+      "s": "Abwechselnde Gruppen"
     },
     {
       "hash": "4008155681",
@@ -42773,6 +43349,10 @@
       "s": "Schockdrohne nach jedem ausgewählten Spieler senden"
     },
     {
+      "hash": "4081057382",
+      "s": "Alle Punkte"
+    },
+    {
       "hash": "4081109891",
       "s": "Rabattgutschein"
     },
@@ -42967,6 +43547,10 @@
     {
       "hash": "4101684798",
       "s": "Ersatz wechseln"
+    },
+    {
+      "hash": "4101685296",
+      "s": "Wie schnell die Sprinklerstrahlen rotieren"
     },
     {
       "hash": "4101913572",
@@ -43397,6 +43981,10 @@
       "s": "Aktivieren Sie Taze"
     },
     {
+      "hash": "4136142588",
+      "s": "Sprühhöhe"
+    },
+    {
       "hash": "4136629198",
       "s": "Ungültiger Rang"
     },
@@ -43407,6 +43995,10 @@
     {
       "hash": "4136875121",
       "s": "Diese Karte laden / teleportieren / umbenennen / löschen"
+    },
+    {
+      "hash": "4137141961",
+      "s": "Zeit zwischen Druckwasserstößen"
     },
     {
       "hash": "4137433350",
@@ -43635,6 +44227,10 @@
     {
       "hash": "4155123488",
       "s": "Unibeam-Kosten"
+    },
+    {
+      "hash": "4155169140",
+      "s": "Größe des Wasserwirbels und seines Zugbereichs"
     },
     {
       "hash": "4155279258",
@@ -44125,6 +44721,10 @@
       "s": "Knochen zum Anbringen – Ped-Bones für ein Ped-Ziel, Fahrzeug-Bones für ein Fahrzeug-Ziel (Root/None = kein Bone)"
     },
     {
+      "hash": "4205111699",
+      "s": "Senden Sie koordinierte Drohnenformationen nach ausgewählten Spielern"
+    },
+    {
       "hash": "4205252628",
       "s": "Schalten Sie dieses Loadout um – behalten Sie nur seine Waffen und Zubehörteile"
     },
@@ -44327,6 +44927,10 @@
     {
       "hash": "4223119784",
       "s": "Aktuelle Featureseinstellungen durch diese Konfiguration ersetzen"
+    },
+    {
+      "hash": "4223314567",
+      "s": "Undichter Spieler"
     },
     {
       "hash": "4223341724",
@@ -44583,6 +45187,10 @@
     {
       "hash": "4245702879",
       "s": "Owned Fahrzeuge anfordern (Service, Spezial, Flugzeug, Unterstützung)"
+    },
+    {
+      "hash": "4246058288",
+      "s": "Steuerung wiederherstellen und sofort jede persönliche Drohne entfernen"
     },
     {
       "hash": "4246075381",

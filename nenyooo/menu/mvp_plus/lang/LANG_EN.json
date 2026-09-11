@@ -37,6 +37,10 @@
       "s": "Base rolling force"
     },
     {
+      "hash": "2737616",
+      "s": "How quickly the formation circles the player"
+    },
+    {
       "hash": "3717505",
       "s": "Multiply nearby entity velocities every frame"
     },
@@ -225,6 +229,10 @@
       "s": "Alien Model"
     },
     {
+      "hash": "22927641",
+      "s": "Number of outward-facing sprinkler streams"
+    },
+    {
       "hash": "23088815",
       "s": "Vehicle Parkour"
     },
@@ -253,12 +261,20 @@
       "s": "Toggle individual animation flags"
     },
     {
+      "hash": "25304611",
+      "s": "Pressure Car Wash"
+    },
+    {
       "hash": "25379308",
       "s": "War Carrier Players"
     },
     {
       "hash": "25477627",
       "s": "Skid mark colour"
+    },
+    {
+      "hash": "25620689",
+      "s": "Ring Radius"
     },
     {
       "hash": "25783011",
@@ -435,6 +451,10 @@
     {
       "hash": "42817828",
       "s": "Surface Snap Fallback"
+    },
+    {
+      "hash": "42910557",
+      "s": "Leader Only"
     },
     {
       "hash": "43028546",
@@ -1119,6 +1139,10 @@
     {
       "hash": "109173559",
       "s": "%s Job"
+    },
+    {
+      "hash": "109963829",
+      "s": "Remove firefighter swarms sent to this player"
     },
     {
       "hash": "110021721",
@@ -1873,6 +1897,10 @@
       "s": "Damage per shot"
     },
     {
+      "hash": "175068957",
+      "s": "Time before the spray moves to the next firefighter or group"
+    },
+    {
       "hash": "176258012",
       "s": "Projectile Gun Weapon"
     },
@@ -1925,6 +1953,10 @@
       "s": "Kortz career clothing unlocked."
     },
     {
+      "hash": "180898426",
+      "s": "Number of drones sent to this player"
+    },
+    {
       "hash": "181590698",
       "s": "Rapid Fire"
     },
@@ -1967,6 +1999,10 @@
     {
       "hash": "184395934",
       "s": "Heading you face after teleporting"
+    },
+    {
+      "hash": "184841230",
+      "s": "Make the fire truck and crew unkillable"
     },
     {
       "hash": "185423636",
@@ -2425,8 +2461,16 @@
       "s": "Vehicle organization is available on Enhanced only"
     },
     {
+      "hash": "227991213",
+      "s": "Water Streams"
+    },
+    {
       "hash": "228124086",
       "s": "Spooner Speech List"
+    },
+    {
+      "hash": "228125504",
+      "s": "Start Car Wash"
     },
     {
       "hash": "229189477",
@@ -3021,6 +3065,10 @@
       "s": "Merryweather boat taxi"
     },
     {
+      "hash": "282599515",
+      "s": "Firefighter Swarm"
+    },
+    {
       "hash": "282667917",
       "s": "Recolour world lights (add-scene-light / Cortana path)"
     },
@@ -3283,6 +3331,10 @@
     {
       "hash": "308526981",
       "s": "Immediately recover if a map death barrier kills you"
+    },
+    {
+      "hash": "308743785",
+      "s": "Leak Points"
     },
     {
       "hash": "308898681",
@@ -3597,6 +3649,10 @@
       "s": "Fixed X offset from the player"
     },
     {
+      "hash": "336635546",
+      "s": "Maximum horizontal flight speed"
+    },
+    {
       "hash": "338561062",
       "s": "Current popularity (read-only)"
     },
@@ -3797,6 +3853,10 @@
       "s": "Hey You're On Camera"
     },
     {
+      "hash": "358470228",
+      "s": "Surround this player with circling firefighters and patterned water sprays"
+    },
+    {
       "hash": "359135323",
       "s": "Oldest rope removed when this limit is reached"
     },
@@ -3879,6 +3939,10 @@
     {
       "hash": "366589616",
       "s": "Travel To Player"
+    },
+    {
+      "hash": "366614165",
+      "s": "How long the swarm circles and sprays the player"
     },
     {
       "hash": "366693230",
@@ -4011,6 +4075,10 @@
     {
       "hash": "382046117",
       "s": "Tracers & Trails"
+    },
+    {
+      "hash": "382277306",
+      "s": "Surround this player with firefighters spraying in formation"
     },
     {
       "hash": "382332008",
@@ -4401,6 +4469,10 @@
       "s": "Telekinesis Hold Distance"
     },
     {
+      "hash": "417516564",
+      "s": "Make water leak from this player's body"
+    },
+    {
       "hash": "418153297",
       "s": "Apply Action to the back-right window"
     },
@@ -4467,6 +4539,10 @@
     {
       "hash": "425211765",
       "s": "Apply the selected walk style"
+    },
+    {
+      "hash": "425409917",
+      "s": "Double Ring"
     },
     {
       "hash": "425512548",
@@ -4575,6 +4651,10 @@
     {
       "hash": "433401547",
       "s": "Owned Vehicles"
+    },
+    {
+      "hash": "433417430",
+      "s": "Vortex Radius"
     },
     {
       "hash": "433839973",
@@ -5285,6 +5365,10 @@
       "s": "Natural"
     },
     {
+      "hash": "496660359",
+      "s": "Pilot or command a coordinated networked drone formation"
+    },
+    {
       "hash": "496672596",
       "s": "Vehicle Styling"
     },
@@ -5689,6 +5773,10 @@
       "s": "Secondary Weapon"
     },
     {
+      "hash": "539200257",
+      "s": "How quickly followers settle into formation"
+    },
+    {
       "hash": "539203651",
       "s": "Rim colour (Off / Stock = leave alone)"
     },
@@ -5803,6 +5891,10 @@
     {
       "hash": "551204657",
       "s": "Give this bodyguard a weapon"
+    },
+    {
+      "hash": "551410173",
+      "s": "Distance of each water source from the player"
     },
     {
       "hash": "551858949",
@@ -6169,6 +6261,10 @@
       "s": "Enable Multi Bullets"
     },
     {
+      "hash": "591852166",
+      "s": "Enable Water Vortex"
+    },
+    {
       "hash": "592003560",
       "s": "Maximum world-space angle from the camera direction"
     },
@@ -6301,6 +6397,10 @@
       "s": "(no message)"
     },
     {
+      "hash": "603797283",
+      "s": "Stop wheel water on this player"
+    },
+    {
       "hash": "604054748",
       "s": "Bullet Tracer"
     },
@@ -6375,6 +6475,10 @@
     {
       "hash": "611714753",
       "s": "Biz Facility"
+    },
+    {
+      "hash": "611853051",
+      "s": "Remove every drone swarm sent from Session"
     },
     {
       "hash": "612569180",
@@ -6507,10 +6611,6 @@
     {
       "hash": "623681354",
       "s": "Social Club friends list, requests, add/remove (ROS)"
-    },
-    {
-      "hash": "623795945",
-      "s": "How long the firefighters follow and spray the player"
     },
     {
       "hash": "624045093",
@@ -7201,6 +7301,10 @@
       "s": "Aim & fire at a vehicle to randomize its colours, or a ped to randomize its appearance"
     },
     {
+      "hash": "687068957",
+      "s": "Show swarm status and command information"
+    },
+    {
       "hash": "687115109",
       "s": "Giant Robot Combat"
     },
@@ -7745,6 +7849,10 @@
       "s": "Scale the damage of the orbital blast"
     },
     {
+      "hash": "737804187",
+      "s": "Strength used to pull and spin nearby entities"
+    },
+    {
       "hash": "738717765",
       "s": "Call an escort motorcade or send it after someone"
     },
@@ -7795,6 +7903,10 @@
     {
       "hash": "741952852",
       "s": "Keep your ped or vehicle still while using the camera"
+    },
+    {
+      "hash": "742469643",
+      "s": "Number of drones sent to each selected player"
     },
     {
       "hash": "742710397",
@@ -8755,6 +8867,10 @@
     {
       "hash": "833340828",
       "s": "Keep sending explosive rabbits to this player"
+    },
+    {
+      "hash": "833435328",
+      "s": "Distance maintained between drones"
     },
     {
       "hash": "833981232",
@@ -9945,6 +10061,10 @@
       "s": "Already at full armor"
     },
     {
+      "hash": "963686898",
+      "s": "How the drones arrange around their target"
+    },
+    {
       "hash": "965105122",
       "s": "Instrument of Death"
     },
@@ -10193,6 +10313,10 @@
       "s": "Keep the player visible on the saddle in Ride mode"
     },
     {
+      "hash": "990557517",
+      "s": "Wave Delay (ms)"
+    },
+    {
       "hash": "990866250",
       "s": "Time between rams"
     },
@@ -10343,6 +10467,10 @@
     {
       "hash": "1007017826",
       "s": "Abilities"
+    },
+    {
+      "hash": "1007274462",
+      "s": "Human Sprinkler"
     },
     {
       "hash": "1007782019",
@@ -11877,10 +12005,6 @@
       "s": "Pick one or more explosion types (multi-select)"
     },
     {
-      "hash": "1143459911",
-      "s": "CEO vehicles, abilities and associate support"
-    },
-    {
       "hash": "1143528620",
       "s": "Ram entities away"
     },
@@ -12251,6 +12375,10 @@
     {
       "hash": "1175503978",
       "s": "Delete every MK2 and rider bound to this player"
+    },
+    {
+      "hash": "1175733996",
+      "s": "Spray water outward from this player's vehicle wheels"
     },
     {
       "hash": "1175845351",
@@ -12733,6 +12861,10 @@
       "s": "Vinewood Visionary"
     },
     {
+      "hash": "1220926225",
+      "s": "No valid players were selected"
+    },
+    {
       "hash": "1221173085",
       "s": "Ram Vehicle Search"
     },
@@ -12993,6 +13125,10 @@
       "s": "Friendly/Social"
     },
     {
+      "hash": "1243744973",
+      "s": "Send a staffed fire engine to chase and spray this player"
+    },
+    {
       "hash": "1244274399",
       "s": "Entity Movement"
     },
@@ -13185,6 +13321,10 @@
       "s": "Wardrobe, animations, scenario, give vehicle..."
     },
     {
+      "hash": "1258995943",
+      "s": "Stop every leak on this player"
+    },
+    {
       "hash": "1259589044",
       "s": "Set 5 heist strand-complete stats"
     },
@@ -13247,6 +13387,10 @@
     {
       "hash": "1264163947",
       "s": "Type the message to spam to the selected players"
+    },
+    {
+      "hash": "1264188646",
+      "s": "P Pressure Car Wash"
     },
     {
       "hash": "1264321368",
@@ -13921,6 +14065,10 @@
       "s": "How strongly tyre grip is reduced"
     },
     {
+      "hash": "1336262685",
+      "s": "Scale of the pilot reticle"
+    },
+    {
       "hash": "1336906575",
       "s": "How tightly meteors home in"
     },
@@ -14299,6 +14447,10 @@
     {
       "hash": "1370485737",
       "s": "Enable / disable this script"
+    },
+    {
+      "hash": "1370647874",
+      "s": "Send coordinated drone swarms after selected players"
     },
     {
       "hash": "1371132129",
@@ -14733,10 +14885,6 @@
       "s": "Alpine outfit, masks and onesies unlocked."
     },
     {
-      "hash": "1421002562",
-      "s": "Remove firefighters sent to this player"
-    },
-    {
       "hash": "1421176413",
       "s": "Travel to Del Perro Pier and enter the Ferris wheel through its real activity script"
     },
@@ -14915,6 +15063,10 @@
     {
       "hash": "1433923451",
       "s": "Local lights multiplier"
+    },
+    {
+      "hash": "1434229313",
+      "s": "Weapon fired by the swarm"
     },
     {
       "hash": "1434748559",
@@ -15529,6 +15681,10 @@
       "s": "Number 5"
     },
     {
+      "hash": "1493963155",
+      "s": "Time between water-cannon bursts"
+    },
+    {
       "hash": "1493992320",
       "s": "The Aftermath Of An Experiment Gone Wrong"
     },
@@ -15583,6 +15739,10 @@
     {
       "hash": "1500199831",
       "s": "List All Vehicle Mods"
+    },
+    {
+      "hash": "1500633479",
+      "s": "Could not deploy the wash crew"
     },
     {
       "hash": "1501019094",
@@ -16069,8 +16229,16 @@
       "s": "Keep Them Focused"
     },
     {
+      "hash": "1548368919",
+      "s": "Height of the rotating water ring"
+    },
+    {
       "hash": "1548427401",
       "s": "Sun Mie Intensity"
+    },
+    {
+      "hash": "1548447173",
+      "s": "How long the sprinkler remains active"
     },
     {
       "hash": "1548774621",
@@ -16119,6 +16287,10 @@
     {
       "hash": "1551285297",
       "s": "Matte Dark Purple"
+    },
+    {
+      "hash": "1551748538",
+      "s": "Number of firefighters assigned to the wash"
     },
     {
       "hash": "1552055257",
@@ -16205,6 +16377,10 @@
       "s": "Event score signature did not resolve"
     },
     {
+      "hash": "1559728131",
+      "s": "Enable Leaking Player"
+    },
+    {
       "hash": "1560423498",
       "s": "Growing"
     },
@@ -16237,6 +16413,10 @@
       "s": "Launch Entities"
     },
     {
+      "hash": "1562785169",
+      "s": "Emergency Despawn"
+    },
+    {
       "hash": "1563575701",
       "s": "Metallic Saxony Blue"
     },
@@ -16247,6 +16427,10 @@
     {
       "hash": "1564939564",
       "s": "Choose the platform and projectile rock models"
+    },
+    {
+      "hash": "1565403432",
+      "s": "Choose which body points release water"
     },
     {
       "hash": "1565600598",
@@ -16401,6 +16585,10 @@
       "s": "Place a new marker at your position"
     },
     {
+      "hash": "1580155165",
+      "s": "How quickly the vortex streams rotate"
+    },
+    {
       "hash": "1580868698",
       "s": "Epsilon Blue"
     },
@@ -16467,6 +16655,10 @@
     {
       "hash": "1588857869",
       "s": "Invalid Vehicle Parachute"
+    },
+    {
+      "hash": "1588972643",
+      "s": "V Formation"
     },
     {
       "hash": "1589285328",
@@ -16603,6 +16795,10 @@
     {
       "hash": "1600784210",
       "s": "Unload this script"
+    },
+    {
+      "hash": "1601213583",
+      "s": "Remove wash crews sent to this player"
     },
     {
       "hash": "1601656767",
@@ -16925,6 +17121,10 @@
       "s": "Oscillate To Point"
     },
     {
+      "hash": "1628107837",
+      "s": "Volley"
+    },
+    {
       "hash": "1628166603",
       "s": "Fun Guns"
     },
@@ -17011,6 +17211,10 @@
     {
       "hash": "1637960657",
       "s": "Emit an explosion while in flight"
+    },
+    {
+      "hash": "1638457134",
+      "s": "How long the crew follows and washes the vehicle"
     },
     {
       "hash": "1638523181",
@@ -17669,10 +17873,6 @@
       "s": "Loading"
     },
     {
-      "hash": "1708332389",
-      "s": "Firefighter Squad"
-    },
-    {
       "hash": "1708839830",
       "s": "Complete the vault drill objective"
     },
@@ -17727,6 +17927,10 @@
     {
       "hash": "1712632900",
       "s": "Stop screen filters, vision modes, camera shake, and slow motion"
+    },
+    {
+      "hash": "1712812509",
+      "s": "Washer Count"
     },
     {
       "hash": "1713010688",
@@ -18381,6 +18585,10 @@
       "s": "Open Laptop"
     },
     {
+      "hash": "1776811673",
+      "s": "Deploy firefighters to pressure-wash this player's current vehicle"
+    },
+    {
       "hash": "1777318311",
       "s": "Remove all decorations"
     },
@@ -18577,6 +18785,10 @@
       "s": "Browse this dict's textures"
     },
     {
+      "hash": "1796012707",
+      "s": "Distance maintained around the player"
+    },
+    {
       "hash": "1797277070",
       "s": "Shake the camera on detonation"
     },
@@ -18653,8 +18865,16 @@
       "s": "Metallic Formula Red"
     },
     {
+      "hash": "1803965317",
+      "s": "Choose leader-only, sequential, or volley fire"
+    },
+    {
       "hash": "1804131311",
       "s": "Override mounted (data/model override active)."
+    },
+    {
+      "hash": "1804393723",
+      "s": "Delay between coordinated attacks"
     },
     {
       "hash": "1805441960",
@@ -18913,6 +19133,10 @@
       "s": "Atmosphere"
     },
     {
+      "hash": "1829133390",
+      "s": "Stop Vortex"
+    },
+    {
       "hash": "1829318920",
       "s": "Cross"
     },
@@ -18959,6 +19183,10 @@
     {
       "hash": "1833302897",
       "s": "The HBK and ABS indicator flags"
+    },
+    {
+      "hash": "1833921699",
+      "s": "Send a coordinated formation of armed drones after this player"
     },
     {
       "hash": "1834470994",
@@ -19153,6 +19381,10 @@
       "s": "Air Support COD"
     },
     {
+      "hash": "1855513835",
+      "s": "Attach rotating outward water streams to this player"
+    },
+    {
       "hash": "1856172899",
       "s": "Bunker Boost 10x"
     },
@@ -19173,8 +19405,16 @@
       "s": "Failed to start the tunables processing script"
     },
     {
+      "hash": "1857718219",
+      "s": "Drone Swarm"
+    },
+    {
       "hash": "1857736972",
       "s": "Move to fly, Jump to climb, Duck to descend, Sprint to boost, and Attack to dive"
+    },
+    {
+      "hash": "1858361117",
+      "s": "Pilot Camera"
     },
     {
       "hash": "1858528957",
@@ -19845,6 +20085,10 @@
       "s": "Recolour interior / plate / dash / door lights"
     },
     {
+      "hash": "1915593942",
+      "s": "Surround this player with spinning water that pulls nearby entities"
+    },
+    {
       "hash": "1915852870",
       "s": "Charge for two seconds and release a blast around you"
     },
@@ -20329,6 +20573,10 @@
       "s": "Turn the personal vehicle engine on or off"
     },
     {
+      "hash": "1957798831",
+      "s": "How strongly each water stream points toward the road"
+    },
+    {
       "hash": "1958132253",
       "s": "Created"
     },
@@ -20431,6 +20679,10 @@
     {
       "hash": "1967516094",
       "s": "Solo"
+    },
+    {
+      "hash": "1967928921",
+      "s": "Stop Hydro Wheels"
     },
     {
       "hash": "1968324135",
@@ -20713,6 +20965,10 @@
       "s": "Bar Position"
     },
     {
+      "hash": "1991027011",
+      "s": "Stop the sprinkler on this player"
+    },
+    {
       "hash": "1991298456",
       "s": "Bottom Dollar Bounties"
     },
@@ -20951,6 +21207,10 @@
     {
       "hash": "2010375494",
       "s": "Blast Trails Type"
+    },
+    {
+      "hash": "2010764502",
+      "s": "Make newly spawned wash crews unkillable"
     },
     {
       "hash": "2011485378",
@@ -21675,10 +21935,6 @@
     {
       "hash": "2081433637",
       "s": "Agency safe filled"
-    },
-    {
-      "hash": "2081541837",
-      "s": "How far from the player the firefighters appear"
     },
     {
       "hash": "2081821167",
@@ -22485,6 +22741,10 @@
       "s": "Request the SecuroServ Super Diamond"
     },
     {
+      "hash": "2148855715",
+      "s": "Pursuit Speed"
+    },
+    {
       "hash": "2148976329",
       "s": "Spooner Opacity"
     },
@@ -22495,10 +22755,6 @@
     {
       "hash": "2149280681",
       "s": "Thick Rope"
-    },
-    {
-      "hash": "2150199911",
-      "s": "Send firefighters to spray this player with extinguisher water"
     },
     {
       "hash": "2150218381",
@@ -22633,6 +22889,10 @@
       "s": "Could not load that config"
     },
     {
+      "hash": "2162664671",
+      "s": "Continuous"
+    },
+    {
       "hash": "2162915161",
       "s": "P Property Classic"
     },
@@ -22749,6 +23009,10 @@
       "s": "Acquired free (will persist)."
     },
     {
+      "hash": "2174459908",
+      "s": "Gimbal damping; zero responds instantly"
+    },
+    {
       "hash": "2174656071",
       "s": "Convoy dismissed."
     },
@@ -22807,6 +23071,10 @@
     {
       "hash": "2179038310",
       "s": "Sport "
+    },
+    {
+      "hash": "2179087907",
+      "s": "Remove drone swarms sent to this player"
     },
     {
       "hash": "2179232777",
@@ -23125,6 +23393,10 @@
       "s": "Apply Head & Face"
     },
     {
+      "hash": "2212773543",
+      "s": "P Leaking Player"
+    },
+    {
       "hash": "2213276334",
       "s": "Edge Thickness"
     },
@@ -23417,6 +23689,10 @@
       "s": "Send genuine GTA Online events and services to this player"
     },
     {
+      "hash": "2242887942",
+      "s": "Make water leak from this player's head, hands, or feet"
+    },
+    {
       "hash": "2242909179",
       "s": "Loop the Island Heist finale payout service"
     },
@@ -23471,6 +23747,10 @@
     {
       "hash": "2248687974",
       "s": "This crew's member roster"
+    },
+    {
+      "hash": "2249188468",
+      "s": "Number of streams forming the vortex"
     },
     {
       "hash": "2249397699",
@@ -23677,6 +23957,10 @@
       "s": "Executed."
     },
     {
+      "hash": "2265798306",
+      "s": "Recall Swarms"
+    },
+    {
       "hash": "2266070639",
       "s": "Place Marker"
     },
@@ -23691,6 +23975,10 @@
     {
       "hash": "2266598132",
       "s": "When Aiming"
+    },
+    {
+      "hash": "2266632246",
+      "s": "Stop Leaking"
     },
     {
       "hash": "2267010037",
@@ -23753,6 +24041,10 @@
       "s": "Already switching, please wait"
     },
     {
+      "hash": "2271591573",
+      "s": "How each swarm arranges around its target"
+    },
+    {
       "hash": "2271640385",
       "s": "Convoy is moving on the target."
     },
@@ -23799,6 +24091,10 @@
     {
       "hash": "2276392085",
       "s": "Sprint Multiplier"
+    },
+    {
+      "hash": "2276549192",
+      "s": "How long the swarm follows this player"
     },
     {
       "hash": "2276607029",
@@ -23945,6 +24241,10 @@
       "s": "Complete this award category for the selected recovery target"
     },
     {
+      "hash": "2288732357",
+      "s": "P Water Vortex"
+    },
+    {
       "hash": "2289503735",
       "s": "World"
     },
@@ -24009,8 +24309,16 @@
       "s": "Spooner Veh Favs"
     },
     {
+      "hash": "2294899070",
+      "s": "How long the fire truck continues its pursuit"
+    },
+    {
       "hash": "2294941457",
       "s": "Return Kosatka Dinghy"
+    },
+    {
+      "hash": "2295333725",
+      "s": "Attach rotating water streams around this player"
     },
     {
       "hash": "2295445855",
@@ -24067,6 +24375,10 @@
     {
       "hash": "2301277952",
       "s": "Boat accel / brake"
+    },
+    {
+      "hash": "2301835787",
+      "s": "S Drone Swarms"
     },
     {
       "hash": "2303366566",
@@ -24223,6 +24535,10 @@
     {
       "hash": "2316596499",
       "s": "Util Brown"
+    },
+    {
+      "hash": "2317252354",
+      "s": "How long the player keeps leaking"
     },
     {
       "hash": "2317447519",
@@ -24537,6 +24853,10 @@
       "s": "Force"
     },
     {
+      "hash": "2351983124",
+      "s": "Total drones including the formation leader"
+    },
+    {
       "hash": "2352505922",
       "s": "Script Preview"
     },
@@ -24825,6 +25145,10 @@
       "s": "Advertise your session under a different language"
     },
     {
+      "hash": "2374982602",
+      "s": "Pilot"
+    },
+    {
       "hash": "2375201819",
       "s": "No entity lock; guided missiles need a green reticle."
     },
@@ -24839,6 +25163,10 @@
     {
       "hash": "2375875018",
       "s": "Hotkey"
+    },
+    {
+      "hash": "2375897639",
+      "s": "Vortex Strength"
     },
     {
       "hash": "2375934942",
@@ -25047,10 +25375,6 @@
     {
       "hash": "2399378674",
       "s": "Re-give any missing weapon while you are moving"
-    },
-    {
-      "hash": "2399860251",
-      "s": "Send Firefighters"
     },
     {
       "hash": "2399913936",
@@ -25753,6 +26077,10 @@
       "s": "Send an invitation to your Clubhouse"
     },
     {
+      "hash": "2473525173",
+      "s": "Deploy and control a coordinated drone swarm"
+    },
+    {
       "hash": "2474322944",
       "s": "Beast Jump"
     },
@@ -25809,16 +26137,16 @@
       "s": "Head Marker Size"
     },
     {
-      "hash": "2478186195",
-      "s": "Send firefighters to aim extinguishers and spray this player"
-    },
-    {
       "hash": "2478650511",
       "s": "Enter a name first."
     },
     {
       "hash": "2479399985",
       "s": "Rear underglow"
+    },
+    {
+      "hash": "2479478636",
+      "s": "How the follower drones arrange around the leader"
     },
     {
       "hash": "2479564652",
@@ -25883,6 +26211,10 @@
     {
       "hash": "2484268005",
       "s": "Press F4 any time to open the menu"
+    },
+    {
+      "hash": "2484318941",
+      "s": "Spray Interval (ms)"
     },
     {
       "hash": "2484331998",
@@ -26165,6 +26497,10 @@
       "s": "Spawn a prostitute in their vehicle"
     },
     {
+      "hash": "2513180118",
+      "s": "Drone Swarms"
+    },
+    {
       "hash": "2513956143",
       "s": "Allow waypoint placement while viewing an interior floorplan"
     },
@@ -26179,6 +26515,10 @@
     {
       "hash": "2514633536",
       "s": "Spawn this saved vehicle in front of you"
+    },
+    {
+      "hash": "2515581864",
+      "s": "Delete Fire Trucks"
     },
     {
       "hash": "2515622997",
@@ -26475,6 +26815,10 @@
     {
       "hash": "2541855896",
       "s": "Spawn NPC-piloted Oppressor MK2s that hunt the selected players"
+    },
+    {
+      "hash": "2542291456",
+      "s": "Ray Pistol"
     },
     {
       "hash": "2542409433",
@@ -26801,6 +27145,10 @@
       "s": "Crew Armour"
     },
     {
+      "hash": "2576305134",
+      "s": "Wash Distance"
+    },
+    {
       "hash": "2576952645",
       "s": "Heist Cluckin"
     },
@@ -26877,6 +27225,10 @@
       "s": "Get in and be driven -- set a waypoint and it takes you there"
     },
     {
+      "hash": "2585995124",
+      "s": "Clear orders and reform the swarm on you or the leader"
+    },
+    {
       "hash": "2586314827",
       "s": "Award progress applied."
     },
@@ -26931,6 +27283,10 @@
     {
       "hash": "2590752363",
       "s": "Clear Rabbits"
+    },
+    {
+      "hash": "2590779919",
+      "s": "How long each swarm follows its target"
     },
     {
       "hash": "2591175625",
@@ -27157,6 +27513,10 @@
       "s": "Sky Intensity"
     },
     {
+      "hash": "2613422198",
+      "s": "Wash Duration (seconds)"
+    },
+    {
       "hash": "2613547406",
       "s": "Flame Cone"
     },
@@ -27227,6 +27587,10 @@
     {
       "hash": "2622442355",
       "s": "Teleported to the random event"
+    },
+    {
+      "hash": "2622991872",
+      "s": "Downward Angle"
     },
     {
       "hash": "2624072971",
@@ -27361,6 +27725,10 @@
       "s": "Always Win"
     },
     {
+      "hash": "2636780326",
+      "s": "Number of firefighters in each swarm"
+    },
+    {
       "hash": "2637494402",
       "s": "Classic colours"
     },
@@ -27487,6 +27855,10 @@
     {
       "hash": "2646461920",
       "s": "A required module is not already loaded"
+    },
+    {
+      "hash": "2646670887",
+      "s": "Distance the fire truck tries to keep from the player"
     },
     {
       "hash": "2647289416",
@@ -27917,6 +28289,10 @@
       "s": "This ASI is stopped until the next game session"
     },
     {
+      "hash": "2694813129",
+      "s": "Time between wheel-water bursts"
+    },
+    {
       "hash": "2694830761",
       "s": "Pin a repeating explosion where you are looking"
     },
@@ -27991,6 +28367,10 @@
     {
       "hash": "2702672512",
       "s": "Ambient"
+    },
+    {
+      "hash": "2702873926",
+      "s": "This player must be inside a vehicle"
     },
     {
       "hash": "2704143589",
@@ -28291,6 +28671,10 @@
     {
       "hash": "2733199712",
       "s": "How many wall segments trail behind"
+    },
+    {
+      "hash": "2733570376",
+      "s": "Tune the drone camera and reticle"
     },
     {
       "hash": "2733921059",
@@ -28637,6 +29021,10 @@
       "s": "Deliver this saved vehicle, then seat you in it once it arrives"
     },
     {
+      "hash": "2763787315",
+      "s": "Commander"
+    },
+    {
       "hash": "2764076789",
       "s": "Damage Entities"
     },
@@ -28961,6 +29349,10 @@
       "s": "Enable All Protections"
     },
     {
+      "hash": "2797955051",
+      "s": "Sequential Waves"
+    },
+    {
       "hash": "2798162844",
       "s": "Distance FOV Scaling"
     },
@@ -29063,6 +29455,10 @@
     {
       "hash": "2805356532",
       "s": "Online Completion"
+    },
+    {
+      "hash": "2805455885",
+      "s": "Drone Count"
     },
     {
       "hash": "2805482105",
@@ -29229,6 +29625,10 @@
       "s": "Set a waypoint and the convoy will drive you there."
     },
     {
+      "hash": "2820627916",
+      "s": "P Drone Swarm"
+    },
+    {
       "hash": "2820670155",
       "s": "gb_gunrunning not running"
     },
@@ -29343,6 +29743,10 @@
     {
       "hash": "2831151893",
       "s": "P Troll Vehicles"
+    },
+    {
+      "hash": "2831440026",
+      "s": "Maximum speed used while chasing the player"
     },
     {
       "hash": "2831510883",
@@ -29529,6 +29933,10 @@
       "s": "Metallic Blue Silver"
     },
     {
+      "hash": "2848454816",
+      "s": "P Hydro Wheels"
+    },
+    {
       "hash": "2848804836",
       "s": "Browse/search every effect by dictionary or name"
     },
@@ -29709,6 +30117,10 @@
       "s": "Spawn the motorcade on the nearest road"
     },
     {
+      "hash": "2867689403",
+      "s": "Remove the water vortex from this player"
+    },
+    {
       "hash": "2867819244",
       "s": "God mode + all proofs"
     },
@@ -29751,6 +30163,10 @@
     {
       "hash": "2871759278",
       "s": "Hookers"
+    },
+    {
+      "hash": "2872078226",
+      "s": "Stun"
     },
     {
       "hash": "2872173723",
@@ -30557,6 +30973,10 @@
       "s": "Vehicle model index in the salvage list"
     },
     {
+      "hash": "2947540799",
+      "s": "Pursuit Distance"
+    },
+    {
       "hash": "2947699159",
       "s": "Allow sprinting and jumping where GTA Online normally blocks those actions"
     },
@@ -30607,6 +31027,10 @@
     {
       "hash": "2951726971",
       "s": "Awards and collectibles relocked."
+    },
+    {
+      "hash": "2952289603",
+      "s": "Spray Pattern"
     },
     {
       "hash": "2952702459",
@@ -30809,6 +31233,10 @@
       "s": "Pool Safety"
     },
     {
+      "hash": "2975076681",
+      "s": "Machine Gun"
+    },
+    {
       "hash": "2975292463",
       "s": "Make Money"
     },
@@ -30987,6 +31415,10 @@
     {
       "hash": "2994316735",
       "s": "Madrazo hit completed."
+    },
+    {
+      "hash": "2994569291",
+      "s": "Maximum climb and descent speed"
     },
     {
       "hash": "2994697361",
@@ -31389,6 +31821,10 @@
       "s": "Send one wave now without holding the toggle on"
     },
     {
+      "hash": "3036822421",
+      "s": "Send Fire Truck"
+    },
+    {
       "hash": "3037048747",
       "s": "Cayo Perico team cooldown removed."
     },
@@ -31781,6 +32217,10 @@
       "s": "Starting skateboard..."
     },
     {
+      "hash": "3076715154",
+      "s": "Could not spawn the fire truck"
+    },
+    {
       "hash": "3076798073",
       "s": "Built-In Presets"
     },
@@ -31791,6 +32231,10 @@
     {
       "hash": "3076992943",
       "s": "Rear Right"
+    },
+    {
+      "hash": "3078049100",
+      "s": "Recall Swarm"
     },
     {
       "hash": "3078236724",
@@ -31879,6 +32323,10 @@
     {
       "hash": "3086173866",
       "s": "Metallic Black Purple"
+    },
+    {
+      "hash": "3086406441",
+      "s": "Fire Pattern"
     },
     {
       "hash": "3087231486",
@@ -32045,10 +32493,6 @@
       "s": "Force selected passive players through a mission transition"
     },
     {
-      "hash": "3104060706",
-      "s": "Number of firefighters to send"
-    },
-    {
       "hash": "3104406267",
       "s": "Collectibles"
     },
@@ -32111,6 +32555,10 @@
     {
       "hash": "3112339959",
       "s": "Copy To Other"
+    },
+    {
+      "hash": "3112652731",
+      "s": "Heavy Sniper"
     },
     {
       "hash": "3112705436",
@@ -32355,6 +32803,10 @@
     {
       "hash": "3134671866",
       "s": "Strict"
+    },
+    {
+      "hash": "3134872283",
+      "s": "How quickly the leader turns"
     },
     {
       "hash": "3134901930",
@@ -32893,6 +33345,10 @@
       "s": "Loading..."
     },
     {
+      "hash": "3181399117",
+      "s": "Spray water outward from every wheel on their current vehicle"
+    },
+    {
       "hash": "3181521280",
       "s": "Milliseconds between auto engagements"
     },
@@ -33301,6 +33757,10 @@
       "s": "Health, godmode, driving and blips"
     },
     {
+      "hash": "3220353242",
+      "s": "Delete Wash Crew"
+    },
+    {
       "hash": "3220668508",
       "s": "Protections Info"
     },
@@ -33323,6 +33783,10 @@
     {
       "hash": "3221419088",
       "s": "Run and manage a battery of automated Chernobog launchers"
+    },
+    {
+      "hash": "3221502325",
+      "s": "P Human Sprinkler"
     },
     {
       "hash": "3221778709",
@@ -33597,6 +34061,10 @@
       "s": "Allow the carrier's weapon batteries to fire"
     },
     {
+      "hash": "3251290672",
+      "s": "Choose sequential waves, alternating groups, or constant spraying"
+    },
+    {
       "hash": "3252317859",
       "s": "Speed multiplier while Sprint is held"
     },
@@ -33731,6 +34199,10 @@
     {
       "hash": "3265966716",
       "s": "Sideways move strength"
+    },
+    {
+      "hash": "3266021212",
+      "s": "How far the wash crew stands from the vehicle"
     },
     {
       "hash": "3266055540",
@@ -34123,6 +34595,14 @@
     {
       "hash": "3304722874",
       "s": "Outfit Settings"
+    },
+    {
+      "hash": "3305344418",
+      "s": "Drone Swarm Control"
+    },
+    {
+      "hash": "3306084669",
+      "s": "Could not start the fire-truck pursuit"
     },
     {
       "hash": "3306285821",
@@ -34757,6 +35237,10 @@
       "s": "No Combat Roll Cooldown"
     },
     {
+      "hash": "3358852849",
+      "s": "Enable Hydro Wheels"
+    },
+    {
       "hash": "3359304828",
       "s": "Maintain fast sideways drifts to build a combo"
     },
@@ -35149,6 +35633,14 @@
       "s": "Force Gun"
     },
     {
+      "hash": "3390929511",
+      "s": "Responsiveness"
+    },
+    {
+      "hash": "3390932656",
+      "s": "Formation Spacing"
+    },
+    {
       "hash": "3391171847",
       "s": "Include missile-ammo pickups in the rain"
     },
@@ -35175,6 +35667,10 @@
     {
       "hash": "3394704253",
       "s": "Jet"
+    },
+    {
+      "hash": "3395216754",
+      "s": "Drone Swarm Camera"
     },
     {
       "hash": "3395446560",
@@ -35289,6 +35785,10 @@
       "s": "Ride the selected animal (Shift to sprint, F or toggle off to dismount)"
     },
     {
+      "hash": "3404567739",
+      "s": "Spray Radius"
+    },
+    {
       "hash": "3405375347",
       "s": "Grab and move entities with the cursor"
     },
@@ -35383,6 +35883,10 @@
     {
       "hash": "3411078279",
       "s": "Slot"
+    },
+    {
+      "hash": "3411776826",
+      "s": "Send a coordinated drone swarm after this player"
     },
     {
       "hash": "3412211671",
@@ -35633,6 +36137,10 @@
       "s": "Ram Vehicle Favs"
     },
     {
+      "hash": "3431586459",
+      "s": "Remove fire-truck pursuits sent to this player"
+    },
+    {
       "hash": "3432894154",
       "s": "Spooner MSFinish3"
     },
@@ -35823,6 +36331,10 @@
     {
       "hash": "3452927036",
       "s": "Force Skydive"
+    },
+    {
+      "hash": "3453005949",
+      "s": "Enable Human Sprinkler"
     },
     {
       "hash": "3453016694",
@@ -36331,6 +36843,10 @@
     {
       "hash": "3500021657",
       "s": "Bend the flow of time"
+    },
+    {
+      "hash": "3500361235",
+      "s": "How long the water vortex remains active"
     },
     {
       "hash": "3500712365",
@@ -37465,6 +37981,10 @@
       "s": "Spam transaction errors at this player"
     },
     {
+      "hash": "3607193464",
+      "s": "Fire-Truck Pursuit"
+    },
+    {
       "hash": "3607983218",
       "s": "Play a sound on each hit"
     },
@@ -37621,6 +38141,10 @@
       "s": "Hold position when no movement is pressed"
     },
     {
+      "hash": "3618701696",
+      "s": "Sequential"
+    },
+    {
       "hash": "3619195111",
       "s": "Clone Vehicle"
     },
@@ -37739,6 +38263,10 @@
     {
       "hash": "3630321700",
       "s": "Clones Attack Enemies"
+    },
+    {
+      "hash": "3630457903",
+      "s": "Pilot the leader or command the swarm while on foot"
     },
     {
       "hash": "3630844824",
@@ -38075,6 +38603,10 @@
     {
       "hash": "3661386958",
       "s": "Lighting, water & particle VFX"
+    },
+    {
+      "hash": "3661395646",
+      "s": "Delay between water leaks"
     },
     {
       "hash": "3661759279",
@@ -38595,6 +39127,10 @@
     {
       "hash": "3705252162",
       "s": "Small Service Loops"
+    },
+    {
+      "hash": "3705383157",
+      "s": "How long Hydro Wheels remain active"
     },
     {
       "hash": "3705404674",
@@ -39233,6 +39769,10 @@
       "s": "Spawn Inside"
     },
     {
+      "hash": "3763782291",
+      "s": "Damage dealt by bullet weapons; stun ignores this value"
+    },
+    {
       "hash": "3763908184",
       "s": "Awards the selected prize now, with no spin. Pays through the game's own award path"
     },
@@ -39263,6 +39803,10 @@
     {
       "hash": "3766734141",
       "s": "Instant Finish (Act 3)"
+    },
+    {
+      "hash": "3767141189",
+      "s": "Stop Sprinkler"
     },
     {
       "hash": "3767155794",
@@ -39593,10 +40137,6 @@
       "s": "Use the Orbital Cannon's thermal targeting view"
     },
     {
-      "hash": "3795210771",
-      "s": "Delete Firefighters"
-    },
-    {
       "hash": "3795238092",
       "s": "Impact Marker"
     },
@@ -39849,6 +40389,10 @@
       "s": "Inventory & Utilities"
     },
     {
+      "hash": "3817995381",
+      "s": "The entity limit allowed only part of the swarm to spawn"
+    },
+    {
       "hash": "3818309427",
       "s": "Breathe fire"
     },
@@ -40093,6 +40637,10 @@
       "s": "Edit your clothes and props"
     },
     {
+      "hash": "3842410575",
+      "s": "Hydro Wheels"
+    },
+    {
       "hash": "3842793717",
       "s": "Left underglow"
     },
@@ -40171,6 +40719,10 @@
     {
       "hash": "3850621899",
       "s": "Players you've blocked on Social Club"
+    },
+    {
+      "hash": "3850651555",
+      "s": "Weapon fired by every swarm"
     },
     {
       "hash": "3851301006",
@@ -40401,6 +40953,10 @@
       "s": "Return your Mobile Operations Center to storage"
     },
     {
+      "hash": "3870580528",
+      "s": "Deploy a firefighter crew to chase and wash this player's vehicle"
+    },
+    {
       "hash": "3870668702",
       "s": "Force a number plate style"
     },
@@ -40589,6 +41145,10 @@
       "s": "Auto-Join on Joinable"
     },
     {
+      "hash": "3885725404",
+      "s": "Leak Interval (ms)"
+    },
+    {
       "hash": "3886185320",
       "s": "No World Limits"
     },
@@ -40711,6 +41271,10 @@
     {
       "hash": "3894899081",
       "s": "All weapons removed"
+    },
+    {
+      "hash": "3895212260",
+      "s": "P Fire-Truck Pursuit"
     },
     {
       "hash": "3895790669",
@@ -41361,6 +41925,10 @@
       "s": "Instantly rotate the vehicle right"
     },
     {
+      "hash": "3950311099",
+      "s": "Water Vortex"
+    },
+    {
       "hash": "3950614489",
       "s": "JoinSessionByInfo failed -- hosting instead"
     },
@@ -41901,6 +42469,10 @@
       "s": "Armour Support"
     },
     {
+      "hash": "4005114081",
+      "s": "Create a rotating water vortex around this player"
+    },
+    {
       "hash": "4005722289",
       "s": "Repeatedly taze this player"
     },
@@ -41935,6 +42507,10 @@
     {
       "hash": "4007780691",
       "s": "Setup Stash Houses"
+    },
+    {
+      "hash": "4007825596",
+      "s": "Alternating Groups"
     },
     {
       "hash": "4008155681",
@@ -42773,6 +43349,10 @@
       "s": "Send a shock drone after every selected player"
     },
     {
+      "hash": "4081057382",
+      "s": "All Points"
+    },
+    {
       "hash": "4081109891",
       "s": "Discount Voucher"
     },
@@ -42967,6 +43547,10 @@
     {
       "hash": "4101684798",
       "s": "Change replacement"
+    },
+    {
+      "hash": "4101685296",
+      "s": "How quickly the sprinkler streams rotate"
     },
     {
       "hash": "4101913572",
@@ -43397,6 +43981,10 @@
       "s": "Enable Taze"
     },
     {
+      "hash": "4136142588",
+      "s": "Spray Height"
+    },
+    {
       "hash": "4136629198",
       "s": "Invalid rank"
     },
@@ -43407,6 +43995,10 @@
     {
       "hash": "4136875121",
       "s": "Load / teleport / rename / delete this map"
+    },
+    {
+      "hash": "4137141961",
+      "s": "Time between pressure-water bursts"
     },
     {
       "hash": "4137433350",
@@ -43635,6 +44227,10 @@
     {
       "hash": "4155123488",
       "s": "Unibeam Cost"
+    },
+    {
+      "hash": "4155169140",
+      "s": "Size of the water vortex and its pull area"
     },
     {
       "hash": "4155279258",
@@ -44125,6 +44721,10 @@
       "s": "Bone to attach to -- ped bones for a ped target, vehicle bones for a vehicle target (Root/None = no bone)"
     },
     {
+      "hash": "4205111699",
+      "s": "Send coordinated drone formations after selected players"
+    },
+    {
       "hash": "4205252628",
       "s": "Toggle this loadout — keep only its weapons + attachments"
     },
@@ -44327,6 +44927,10 @@
     {
       "hash": "4223119784",
       "s": "Replace current feature settings with this config"
+    },
+    {
+      "hash": "4223314567",
+      "s": "Leaking Player"
     },
     {
       "hash": "4223341724",
@@ -44583,6 +45187,10 @@
     {
       "hash": "4245702879",
       "s": "Request owned service, special, aircraft, and support vehicles"
+    },
+    {
+      "hash": "4246058288",
+      "s": "Restore control and immediately remove every personal drone"
     },
     {
       "hash": "4246075381",

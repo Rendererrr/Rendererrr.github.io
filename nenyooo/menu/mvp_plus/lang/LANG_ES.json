@@ -37,6 +37,10 @@
       "s": "Fuerza de rodadura base"
     },
     {
+      "hash": "2737616",
+      "s": "Velocidad de giro de la formación"
+    },
+    {
       "hash": "3717505",
       "s": "Multiplicar la velocidad de las entidades cercanas en cada fotograma"
     },
@@ -225,6 +229,10 @@
       "s": "Modelo Alienígena"
     },
     {
+      "hash": "22927641",
+      "s": "Número de chorros de aspersor hacia afuera"
+    },
+    {
       "hash": "23088815",
       "s": "Parkour de vehículos"
     },
@@ -253,12 +261,20 @@
       "s": "Activar/desactivar indicadores de animación individuales"
     },
     {
+      "hash": "25304611",
+      "s": "Presión del autolavado"
+    },
+    {
       "hash": "25379308",
       "s": "Jugadores del Portador de Guerra"
     },
     {
       "hash": "25477627",
       "s": "Color de la marca de derrape"
+    },
+    {
+      "hash": "25620689",
+      "s": "Radio del anillo"
     },
     {
       "hash": "25783011",
@@ -435,6 +451,10 @@
     {
       "hash": "42817828",
       "s": "Alternativa de ajuste a la superficie"
+    },
+    {
+      "hash": "42910557",
+      "s": "Líder solamente"
     },
     {
       "hash": "43028546",
@@ -1119,6 +1139,10 @@
     {
       "hash": "109173559",
       "s": "%s Trabajo"
+    },
+    {
+      "hash": "109963829",
+      "s": "Eliminar enjambres de bomberos enviados a este jugador"
     },
     {
       "hash": "110021721",
@@ -1873,6 +1897,10 @@
       "s": "Daño por disparo"
     },
     {
+      "hash": "175068957",
+      "s": "Tiempo antes de que el spray se mueva al siguiente bombero o grupo"
+    },
+    {
       "hash": "176258012",
       "s": "Arma de Proyectiles"
     },
@@ -1925,6 +1953,10 @@
       "s": "Ropa de carrera de Kortz desbloqueada."
     },
     {
+      "hash": "180898426",
+      "s": "Número de drones enviados a este jugador"
+    },
+    {
       "hash": "181590698",
       "s": "Disparo rápido"
     },
@@ -1967,6 +1999,10 @@
     {
       "hash": "184395934",
       "s": "Te veo después de teletransportarte"
+    },
+    {
+      "hash": "184841230",
+      "s": "Hacer que el camión de bomberos y la tripulación sean invencibles"
     },
     {
       "hash": "185423636",
@@ -2425,8 +2461,16 @@
       "s": "La organización de vehículos está disponible solo en Enhanced"
     },
     {
+      "hash": "227991213",
+      "s": "Flujos de agua"
+    },
+    {
       "hash": "228124086",
       "s": "Lista de Diálogos de Spooner"
+    },
+    {
+      "hash": "228125504",
+      "s": "Iniciar autolavado"
     },
     {
       "hash": "229189477",
@@ -3021,6 +3065,10 @@
       "s": "Taxi acuático Merryweather"
     },
     {
+      "hash": "282599515",
+      "s": "Enjambre de bomberos"
+    },
+    {
       "hash": "282667917",
       "s": "Recolor de luces del mundo (añadir luz de escena / ruta Cortana)"
     },
@@ -3283,6 +3331,10 @@
     {
       "hash": "308526981",
       "s": "Recuperarse inmediatamente si una barrera de muerte en el mapa te mata"
+    },
+    {
+      "hash": "308743785",
+      "s": "Puntos de fuga"
     },
     {
       "hash": "308898681",
@@ -3597,6 +3649,10 @@
       "s": "Desplazamiento X fijo desde el jugador"
     },
     {
+      "hash": "336635546",
+      "s": "Velocidad máxima de vuelo horizontal"
+    },
+    {
       "hash": "338561062",
       "s": "Popularidad actual (solo lectura)"
     },
@@ -3797,6 +3853,10 @@
       "s": "¡Oye, te están grabando!"
     },
     {
+      "hash": "358470228",
+      "s": "Rodear a este jugador con bomberos que giran y sprays de agua con patrón"
+    },
+    {
       "hash": "359135323",
       "s": "Cuerda más antigua eliminada cuando se alcanza este límite"
     },
@@ -3879,6 +3939,10 @@
     {
       "hash": "366589616",
       "s": "Viajar al Jugador"
+    },
+    {
+      "hash": "366614165",
+      "s": "Duración del enjambre que gira y rocía al jugador"
     },
     {
       "hash": "366693230",
@@ -4011,6 +4075,10 @@
     {
       "hash": "382046117",
       "s": "Rastreadores y estelas"
+    },
+    {
+      "hash": "382277306",
+      "s": "Rodear a este jugador con bomberos que rocían en formación"
     },
     {
       "hash": "382332008",
@@ -4401,6 +4469,10 @@
       "s": "Distancia de sujeción de la cinésis"
     },
     {
+      "hash": "417516564",
+      "s": "Hacer que el agua se filtre desde el cuerpo de este jugador"
+    },
+    {
       "hash": "418153297",
       "s": "Aplicar acción a la ventana trasera derecha"
     },
@@ -4467,6 +4539,10 @@
     {
       "hash": "425211765",
       "s": "Aplicar el estilo de caminar seleccionado"
+    },
+    {
+      "hash": "425409917",
+      "s": "Anillo doble"
     },
     {
       "hash": "425512548",
@@ -4575,6 +4651,10 @@
     {
       "hash": "433401547",
       "s": "Vehículos propios"
+    },
+    {
+      "hash": "433417430",
+      "s": "Radio del vórtice"
     },
     {
       "hash": "433839973",
@@ -5285,6 +5365,10 @@
       "s": "Natural"
     },
     {
+      "hash": "496660359",
+      "s": "Pilotar o comandar una formación de drones en red coordinada"
+    },
+    {
       "hash": "496672596",
       "s": "Estilo del vehículo"
     },
@@ -5689,6 +5773,10 @@
       "s": "Arma Secundaria"
     },
     {
+      "hash": "539200257",
+      "s": "Velocidad con la que los seguidores se integran en la formación"
+    },
+    {
       "hash": "539203651",
       "s": "Color de la llanta (Desactivado/Estándar = no modificar)"
     },
@@ -5803,6 +5891,10 @@
     {
       "hash": "551204657",
       "s": "Dale un arma a este guardaespaldas"
+    },
+    {
+      "hash": "551410173",
+      "s": "Distancia de cada fuente de agua del jugador"
     },
     {
       "hash": "551858949",
@@ -6169,6 +6261,10 @@
       "s": "Activar balas múltiples"
     },
     {
+      "hash": "591852166",
+      "s": "Habilitar vórtice de agua"
+    },
+    {
       "hash": "592003560",
       "s": "Ángulo máximo en el espacio mundial desde la dirección de la cámara"
     },
@@ -6301,6 +6397,10 @@
       "s": "(sin mensaje)"
     },
     {
+      "hash": "603797283",
+      "s": "Detener el agua de las ruedas de este jugador"
+    },
+    {
       "hash": "604054748",
       "s": "Rastreador de balas"
     },
@@ -6375,6 +6475,10 @@
     {
       "hash": "611714753",
       "s": "Instalación de negocios"
+    },
+    {
+      "hash": "611853051",
+      "s": "Eliminar todas las enjambres de drones enviadas desde la sesión"
     },
     {
       "hash": "612569180",
@@ -6507,10 +6611,6 @@
     {
       "hash": "623681354",
       "s": "Lista de amigos de Social Club, solicitudes, añadir/eliminar (ROS)"
-    },
-    {
-      "hash": "623795945",
-      "s": "Cuánto tiempo los bomberos siguen y rocían al jugador"
     },
     {
       "hash": "624045093",
@@ -7201,6 +7301,10 @@
       "s": "Apuntar y disparar a un vehículo para aleatorizar sus colores, o a un PNJ para aleatorizar su apariencia"
     },
     {
+      "hash": "687068957",
+      "s": "Mostrar estado de la enjambre e información de comandos"
+    },
+    {
       "hash": "687115109",
       "s": "Combate del robot gigante"
     },
@@ -7745,6 +7849,10 @@
       "s": "Escalar el daño de la explosión orbital"
     },
     {
+      "hash": "737804187",
+      "s": "Fuerza utilizada para tirar y girar entidades cercanas"
+    },
+    {
       "hash": "738717765",
       "s": "Llamar un cortejo de escolta o enviarlo tras alguien"
     },
@@ -7795,6 +7903,10 @@
     {
       "hash": "741952852",
       "s": "Mantener tu Ped o vehículo quieto al usar la cámara"
+    },
+    {
+      "hash": "742469643",
+      "s": "Número de drones enviados a cada jugador seleccionado"
     },
     {
       "hash": "742710397",
@@ -8755,6 +8867,10 @@
     {
       "hash": "833340828",
       "s": "Seguir enviando conejos explosivos a este jugador"
+    },
+    {
+      "hash": "833435328",
+      "s": "Distancia mantenida entre drones"
     },
     {
       "hash": "833981232",
@@ -9945,6 +10061,10 @@
       "s": "Ya con armadura completa"
     },
     {
+      "hash": "963686898",
+      "s": "Cómo se organizan los drones alrededor de su objetivo"
+    },
+    {
       "hash": "965105122",
       "s": "Instrumento de muerte"
     },
@@ -10193,6 +10313,10 @@
       "s": "Mantener al jugador visible en la silla de montar en modo Montar"
     },
     {
+      "hash": "990557517",
+      "s": "Retraso de la ola (ms)"
+    },
+    {
       "hash": "990866250",
       "s": "Tiempo entre carneros"
     },
@@ -10343,6 +10467,10 @@
     {
       "hash": "1007017826",
       "s": "Habilidades"
+    },
+    {
+      "hash": "1007274462",
+      "s": "Riego humano"
     },
     {
       "hash": "1007782019",
@@ -11877,10 +12005,6 @@
       "s": "Seleccionar uno o más tipos de explosión (selección múltiple)"
     },
     {
-      "hash": "1143459911",
-      "s": "Vehículos, habilidades y apoyo de asociados de CEO"
-    },
-    {
       "hash": "1143528620",
       "s": "Apartar entidades"
     },
@@ -12251,6 +12375,10 @@
     {
       "hash": "1175503978",
       "s": "Eliminar todos los MK2 y riders vinculados a esto jugador"
+    },
+    {
+      "hash": "1175733996",
+      "s": "Rociar agua hacia afuera de las ruedas del vehículo de este jugador"
     },
     {
       "hash": "1175845351",
@@ -12733,6 +12861,10 @@
       "s": "Visionario de Vinewood"
     },
     {
+      "hash": "1220926225",
+      "s": "No se seleccionaron jugadores válidos"
+    },
+    {
       "hash": "1221173085",
       "s": "Búsqueda de vehículos Ram"
     },
@@ -12993,6 +13125,10 @@
       "s": "Amigable/Social"
     },
     {
+      "hash": "1243744973",
+      "s": "Enviar un camión de bomberos con personal para perseguir y rociar a este jugador"
+    },
+    {
       "hash": "1244274399",
       "s": "Movimiento de entidades"
     },
@@ -13185,6 +13321,10 @@
       "s": "Armario, animaciones, escenario, dar vehículo..."
     },
     {
+      "hash": "1258995943",
+      "s": "Detener todas las fugas de este jugador"
+    },
+    {
       "hash": "1259589044",
       "s": "Estadísticas de 5 líneas de atraco completadas"
     },
@@ -13247,6 +13387,10 @@
     {
       "hash": "1264163947",
       "s": "Escribe el mensaje para enviar spam a los jugadores seleccionados"
+    },
+    {
+      "hash": "1264188646",
+      "s": "Lavadero de coches con presión P"
     },
     {
       "hash": "1264321368",
@@ -13921,6 +14065,10 @@
       "s": "Intensidad con la que se reduce el agarre de los neumáticos"
     },
     {
+      "hash": "1336262685",
+      "s": "Escala del punto de mira del piloto"
+    },
+    {
       "hash": "1336906575",
       "s": "Qué tan precisos son los meteoritos"
     },
@@ -14299,6 +14447,10 @@
     {
       "hash": "1370485737",
       "s": "Activar/desactivar este script"
+    },
+    {
+      "hash": "1370647874",
+      "s": "Enviar enjambres de drones coordinados tras los jugadores seleccionados"
     },
     {
       "hash": "1371132129",
@@ -14733,10 +14885,6 @@
       "s": "Traje alpino, máscaras y monos desbloqueados."
     },
     {
-      "hash": "1421002562",
-      "s": "Eliminar bomberos enviados a este jugador"
-    },
-    {
       "hash": "1421176413",
       "s": "Viajar al muelle de Del Perro y entrar en la noria a través de su script de actividad real"
     },
@@ -14915,6 +15063,10 @@
     {
       "hash": "1433923451",
       "s": "Multiplicador de luces locales"
+    },
+    {
+      "hash": "1434229313",
+      "s": "Arma disparada por la enjambre"
     },
     {
       "hash": "1434748559",
@@ -15529,6 +15681,10 @@
       "s": "Número 5"
     },
     {
+      "hash": "1493963155",
+      "s": "Tiempo entre ráfagas del cañón de agua"
+    },
+    {
       "hash": "1493992320",
       "s": "Las consecuencias de un experimento fallido"
     },
@@ -15583,6 +15739,10 @@
     {
       "hash": "1500199831",
       "s": "Listar todos los mods de vehículos"
+    },
+    {
+      "hash": "1500633479",
+      "s": "No se pudo desplegar al equipo de lavado"
     },
     {
       "hash": "1501019094",
@@ -16069,8 +16229,16 @@
       "s": "Manténlos enfocados"
     },
     {
+      "hash": "1548368919",
+      "s": "Altura del anillo de agua giratorio"
+    },
+    {
       "hash": "1548427401",
       "s": "Intensidad Sun Mie"
+    },
+    {
+      "hash": "1548447173",
+      "s": "Cuánto tiempo permanece activo el rociador"
     },
     {
       "hash": "1548774621",
@@ -16119,6 +16287,10 @@
     {
       "hash": "1551285297",
       "s": "Morado oscuro mate"
+    },
+    {
+      "hash": "1551748538",
+      "s": "Número de bomberos asignados al lavado"
     },
     {
       "hash": "1552055257",
@@ -16205,6 +16377,10 @@
       "s": "La firma de puntuación del evento no se resolvió"
     },
     {
+      "hash": "1559728131",
+      "s": "Habilitar Jugador con fugas"
+    },
+    {
       "hash": "1560423498",
       "s": "Crecimiento"
     },
@@ -16237,6 +16413,10 @@
       "s": "Lanzar Entidades"
     },
     {
+      "hash": "1562785169",
+      "s": "Desaparición de emergencia"
+    },
+    {
       "hash": "1563575701",
       "s": "Azul Sajonia Metálico"
     },
@@ -16247,6 +16427,10 @@
     {
       "hash": "1564939564",
       "s": "Elegir los modelos de roca proyectil"
+    },
+    {
+      "hash": "1565403432",
+      "s": "Elegir qué puntos del cuerpo liberan agua"
     },
     {
       "hash": "1565600598",
@@ -16401,6 +16585,10 @@
       "s": "Colocar un nuevo marcador en tu posición"
     },
     {
+      "hash": "1580155165",
+      "s": "Velocidad de rotación de los flujos de vórtice"
+    },
+    {
       "hash": "1580868698",
       "s": "Azul épsilon"
     },
@@ -16467,6 +16655,10 @@
     {
       "hash": "1588857869",
       "s": "Paracaídas de vehículo inválido"
+    },
+    {
+      "hash": "1588972643",
+      "s": "Formación en V"
     },
     {
       "hash": "1589285328",
@@ -16603,6 +16795,10 @@
     {
       "hash": "1600784210",
       "s": "Descargar este script"
+    },
+    {
+      "hash": "1601213583",
+      "s": "Eliminar equipos de limpieza enviados a este jugador"
     },
     {
       "hash": "1601656767",
@@ -16925,6 +17121,10 @@
       "s": "Oscilar a un punto"
     },
     {
+      "hash": "1628107837",
+      "s": "Salva"
+    },
+    {
       "hash": "1628166603",
       "s": "Armas divertidas"
     },
@@ -17011,6 +17211,10 @@
     {
       "hash": "1637960657",
       "s": "Emitir una explosión en pleno vuelo"
+    },
+    {
+      "hash": "1638457134",
+      "s": "Duración del seguimiento y limpieza del vehículo"
     },
     {
       "hash": "1638523181",
@@ -17669,10 +17873,6 @@
       "s": "Cargando"
     },
     {
-      "hash": "1708332389",
-      "s": "Escuadrón de bomberos"
-    },
-    {
       "hash": "1708839830",
       "s": "Completar el objetivo del taladro de la bóveda"
     },
@@ -17727,6 +17927,10 @@
     {
       "hash": "1712632900",
       "s": "Detener filtros de pantalla, modos de visión, temblor de cámara y cámara lenta"
+    },
+    {
+      "hash": "1712812509",
+      "s": "Cantidad de lavadores"
     },
     {
       "hash": "1713010688",
@@ -18381,6 +18585,10 @@
       "s": "Abrir portátil"
     },
     {
+      "hash": "1776811673",
+      "s": "Desplegar bomberos para limpiar a presión el vehículo actual de este jugador"
+    },
+    {
       "hash": "1777318311",
       "s": "Eliminar todas las decoraciones"
     },
@@ -18577,6 +18785,10 @@
       "s": "Examinar texturas de este dict"
     },
     {
+      "hash": "1796012707",
+      "s": "Distancia mantenida alrededor del jugador"
+    },
+    {
       "hash": "1797277070",
       "s": "Agitar la cámara al detonar"
     },
@@ -18653,8 +18865,16 @@
       "s": "Fórmula metálica roja"
     },
     {
+      "hash": "1803965317",
+      "s": "Elegir fuego solo del líder, secuencial o salva"
+    },
+    {
       "hash": "1804131311",
       "s": "Anulación montada (anulación de datos/modelo activa)."
+    },
+    {
+      "hash": "1804393723",
+      "s": "Retraso entre ataques coordinados"
     },
     {
       "hash": "1805441960",
@@ -18913,6 +19133,10 @@
       "s": "Atmósfera"
     },
     {
+      "hash": "1829133390",
+      "s": "Detener Vórtice"
+    },
+    {
       "hash": "1829318920",
       "s": "Cruz"
     },
@@ -18959,6 +19183,10 @@
     {
       "hash": "1833302897",
       "s": "Indicadores de HBK y ABS"
+    },
+    {
+      "hash": "1833921699",
+      "s": "Enviar una formación coordinada de drones armados tras este jugador"
     },
     {
       "hash": "1834470994",
@@ -19153,6 +19381,10 @@
       "s": "Apoyo Aéreo COD"
     },
     {
+      "hash": "1855513835",
+      "s": "Adjuntar flujos de agua rotatorios hacia afuera a este jugador"
+    },
+    {
       "hash": "1856172899",
       "s": "Impulso del búnker 10x"
     },
@@ -19173,8 +19405,16 @@
       "s": "Error al iniciar el script de procesamiento de parámetros ajustables"
     },
     {
+      "hash": "1857718219",
+      "s": "Enjambre de drones"
+    },
+    {
       "hash": "1857736972",
       "s": "Moverse para volar, Saltar para escalar, Agacharse para descender, Correr para impulsar y Atacar para picar"
+    },
+    {
+      "hash": "1858361117",
+      "s": "Cámara de piloto"
     },
     {
       "hash": "1858528957",
@@ -19845,6 +20085,10 @@
       "s": "Cambiar el color de las luces interiores / de la placa / del tablero / de las puertas"
     },
     {
+      "hash": "1915593942",
+      "s": "Rodear a este jugador con agua giratoria que atrae a entidades cercanas"
+    },
+    {
       "hash": "1915852870",
       "s": "Cargar durante dos segundos y liberar una explosión a tu alrededor"
     },
@@ -20329,6 +20573,10 @@
       "s": "Encender o apagar el motor del vehículo personal"
     },
     {
+      "hash": "1957798831",
+      "s": "Intensidad con la que cada flujo de agua apunta hacia la carretera"
+    },
+    {
       "hash": "1958132253",
       "s": "Creado"
     },
@@ -20431,6 +20679,10 @@
     {
       "hash": "1967516094",
       "s": "Solo"
+    },
+    {
+      "hash": "1967928921",
+      "s": "Detener Ruedas Hidráulicas"
     },
     {
       "hash": "1968324135",
@@ -20713,6 +20965,10 @@
       "s": "Posición de la barra"
     },
     {
+      "hash": "1991027011",
+      "s": "Detener el aspersor en este jugador"
+    },
+    {
       "hash": "1991298456",
       "s": "Recompensas Bottom Dollar"
     },
@@ -20951,6 +21207,10 @@
     {
       "hash": "2010375494",
       "s": "Tipo de estelas de explosión"
+    },
+    {
+      "hash": "2010764502",
+      "s": "Hacer que los nuevos equipos de limpieza sean invencibles"
     },
     {
       "hash": "2011485378",
@@ -21675,10 +21935,6 @@
     {
       "hash": "2081433637",
       "s": "Caja fuerte de la agencia llena"
-    },
-    {
-      "hash": "2081541837",
-      "s": "Distancia del jugador a la que aparecen los bomberos"
     },
     {
       "hash": "2081821167",
@@ -22485,6 +22741,10 @@
       "s": "Solicitar el SecuroServ Super Diamond"
     },
     {
+      "hash": "2148855715",
+      "s": "Velocidad de persecución"
+    },
+    {
       "hash": "2148976329",
       "s": "Opacidad de la cuchara"
     },
@@ -22495,10 +22755,6 @@
     {
       "hash": "2149280681",
       "s": "Cuerda gruesa"
-    },
-    {
-      "hash": "2150199911",
-      "s": "Enviar bomberos a rociar a este jugador con agua del extintor"
     },
     {
       "hash": "2150218381",
@@ -22633,6 +22889,10 @@
       "s": "No se pudo cargar esa configuración"
     },
     {
+      "hash": "2162664671",
+      "s": "Continuo"
+    },
+    {
       "hash": "2162915161",
       "s": "Propiedad Clásica"
     },
@@ -22749,6 +23009,10 @@
       "s": "Adquirido gratis (persistirá)."
     },
     {
+      "hash": "2174459908",
+      "s": "Amortiguación de gimbal; cero responde instantáneamente"
+    },
+    {
       "hash": "2174656071",
       "s": "Convoy despedido."
     },
@@ -22807,6 +23071,10 @@
     {
       "hash": "2179038310",
       "s": "Deporte "
+    },
+    {
+      "hash": "2179087907",
+      "s": "Eliminar enjambres de drones enviados a este jugador"
     },
     {
       "hash": "2179232777",
@@ -23125,6 +23393,10 @@
       "s": "Aplicar cabeza y cara"
     },
     {
+      "hash": "2212773543",
+      "s": "P Fuga de jugador"
+    },
+    {
       "hash": "2213276334",
       "s": "Grosor del borde"
     },
@@ -23417,6 +23689,10 @@
       "s": "Enviar eventos y servicios genuinos de GTA Online a este jugador"
     },
     {
+      "hash": "2242887942",
+      "s": "Hacer que el agua se filtre de la cabeza, las manos o los pies de este jugador"
+    },
+    {
       "hash": "2242909179",
       "s": "Bucle el servicio de pago del final del golpe Island Heist"
     },
@@ -23471,6 +23747,10 @@
     {
       "hash": "2248687974",
       "s": "Lista de miembros de este equipo"
+    },
+    {
+      "hash": "2249188468",
+      "s": "Número de flujos que forman el vórtice"
     },
     {
       "hash": "2249397699",
@@ -23677,6 +23957,10 @@
       "s": "Ejecutado."
     },
     {
+      "hash": "2265798306",
+      "s": "Reclamar enjambres"
+    },
+    {
       "hash": "2266070639",
       "s": "Marcador de posición"
     },
@@ -23691,6 +23975,10 @@
     {
       "hash": "2266598132",
       "s": "Al apuntar"
+    },
+    {
+      "hash": "2266632246",
+      "s": "Detener la fuga"
     },
     {
       "hash": "2267010037",
@@ -23753,6 +24041,10 @@
       "s": "Cambiando, por favor espera"
     },
     {
+      "hash": "2271591573",
+      "s": "Cómo se organiza cada enjambre alrededor de su objetivo"
+    },
+    {
       "hash": "2271640385",
       "s": "El convoy se dirige al objetivo."
     },
@@ -23799,6 +24091,10 @@
     {
       "hash": "2276392085",
       "s": "Multiplicador de sprint"
+    },
+    {
+      "hash": "2276549192",
+      "s": "Cuánto tiempo el enjambre sigue a este jugador"
     },
     {
       "hash": "2276607029",
@@ -23945,6 +24241,10 @@
       "s": "Completar esta categoría de premio para el objetivo de recuperación seleccionado"
     },
     {
+      "hash": "2288732357",
+      "s": "P Vórtice de agua"
+    },
+    {
       "hash": "2289503735",
       "s": "Mundo"
     },
@@ -24009,8 +24309,16 @@
       "s": "Favoritos de vehículos de Spooner"
     },
     {
+      "hash": "2294899070",
+      "s": "Cuánto tiempo continúa la persecución del camión de bomberos"
+    },
+    {
       "hash": "2294941457",
       "s": "Devolver Dinghy Kosatka"
+    },
+    {
+      "hash": "2295333725",
+      "s": "Adjuntar flujos de agua giratorios alrededor de este jugador"
     },
     {
       "hash": "2295445855",
@@ -24067,6 +24375,10 @@
     {
       "hash": "2301277952",
       "s": "Aceleración/freno de barco"
+    },
+    {
+      "hash": "2301835787",
+      "s": "S Enjambres de drones"
     },
     {
       "hash": "2303366566",
@@ -24223,6 +24535,10 @@
     {
       "hash": "2316596499",
       "s": "Marrón Util"
+    },
+    {
+      "hash": "2317252354",
+      "s": "Cuánto tiempo el jugador sigue filtrando"
     },
     {
       "hash": "2317447519",
@@ -24537,6 +24853,10 @@
       "s": "Forzar"
     },
     {
+      "hash": "2351983124",
+      "s": "Drones totales incluido el líder de la formación"
+    },
+    {
       "hash": "2352505922",
       "s": "Vista previa del script"
     },
@@ -24825,6 +25145,10 @@
       "s": "Publicitar tu sesión en otro idioma"
     },
     {
+      "hash": "2374982602",
+      "s": "Piloto"
+    },
+    {
       "hash": "2375201819",
       "s": "Sin bloqueo de entidad; los misiles guiados necesitan una retícula verde."
     },
@@ -24839,6 +25163,10 @@
     {
       "hash": "2375875018",
       "s": "Tecla de acceso rápido"
+    },
+    {
+      "hash": "2375897639",
+      "s": "Intensidad del vórtice"
     },
     {
       "hash": "2375934942",
@@ -25047,10 +25375,6 @@
     {
       "hash": "2399378674",
       "s": "Regalar cualquier arma faltante mientras te mueves"
-    },
-    {
-      "hash": "2399860251",
-      "s": "Enviar Bomberos"
     },
     {
       "hash": "2399913936",
@@ -25753,6 +26077,10 @@
       "s": "Enviar una invitación a tu Clubhouse"
     },
     {
+      "hash": "2473525173",
+      "s": "Desplegar y controlar un enjambre de drones coordinado"
+    },
+    {
       "hash": "2474322944",
       "s": "Salto bestial"
     },
@@ -25809,16 +26137,16 @@
       "s": "Tamaño del marcador de cabeza"
     },
     {
-      "hash": "2478186195",
-      "s": "Enviar bomberos a apuntar los extintores y rociar a este jugador"
-    },
-    {
       "hash": "2478650511",
       "s": "Introduzca un nombre primero."
     },
     {
       "hash": "2479399985",
       "s": "Iluminación trasera inferior"
+    },
+    {
+      "hash": "2479478636",
+      "s": "Cómo se organizan los drones seguidores alrededor del líder"
     },
     {
       "hash": "2479564652",
@@ -25883,6 +26211,10 @@
     {
       "hash": "2484268005",
       "s": "Pulsa F4 en cualquier momento para abrir la Menú"
+    },
+    {
+      "hash": "2484318941",
+      "s": "Intervalo de pulverización (ms)"
     },
     {
       "hash": "2484331998",
@@ -26165,6 +26497,10 @@
       "s": "Generar una prostituta en su vehículo"
     },
     {
+      "hash": "2513180118",
+      "s": "Enjambres de drones"
+    },
+    {
       "hash": "2513956143",
       "s": "Permitir la colocación de puntos de ruta al ver un plano de planta interior"
     },
@@ -26179,6 +26515,10 @@
     {
       "hash": "2514633536",
       "s": "Generar este vehículo guardado frente a ti"
+    },
+    {
+      "hash": "2515581864",
+      "s": "Eliminar camiones de bomberos"
     },
     {
       "hash": "2515622997",
@@ -26475,6 +26815,10 @@
     {
       "hash": "2541855896",
       "s": "Generar Oppressor MK2 pilotados por PNJ que persiguen a los jugadores seleccionados"
+    },
+    {
+      "hash": "2542291456",
+      "s": "Rayo Pistola"
     },
     {
       "hash": "2542409433",
@@ -26801,6 +27145,10 @@
       "s": "Armadura de la tripulación"
     },
     {
+      "hash": "2576305134",
+      "s": "Distancia de lavado"
+    },
+    {
       "hash": "2576952645",
       "s": "Asalto Cluckin"
     },
@@ -26877,6 +27225,10 @@
       "s": "Súbete y déjate llevar: establece un punto de ruta y te llevará allí"
     },
     {
+      "hash": "2585995124",
+      "s": "Borrar órdenes y reformar el enjambre sobre ti o el líder"
+    },
+    {
       "hash": "2586314827",
       "s": "Aplicar progreso de recompensa."
     },
@@ -26931,6 +27283,10 @@
     {
       "hash": "2590752363",
       "s": "Limpiar Conejos"
+    },
+    {
+      "hash": "2590779919",
+      "s": "Duración de seguimiento del objetivo"
     },
     {
       "hash": "2591175625",
@@ -27157,6 +27513,10 @@
       "s": "Intensidad del cielo"
     },
     {
+      "hash": "2613422198",
+      "s": "Duración de lavado (segundos)"
+    },
+    {
       "hash": "2613547406",
       "s": "Cono de llamas"
     },
@@ -27227,6 +27587,10 @@
     {
       "hash": "2622442355",
       "s": "Teletransportado al evento aleatorio"
+    },
+    {
+      "hash": "2622991872",
+      "s": "Ángulo descendente"
     },
     {
       "hash": "2624072971",
@@ -27361,6 +27725,10 @@
       "s": "Siempre gana"
     },
     {
+      "hash": "2636780326",
+      "s": "Número de bomberos en cada enjambre"
+    },
+    {
       "hash": "2637494402",
       "s": "Colores clásicos"
     },
@@ -27487,6 +27855,10 @@
     {
       "hash": "2646461920",
       "s": "Un módulo requerido no está cargado"
+    },
+    {
+      "hash": "2646670887",
+      "s": "Distancia que intenta mantener el camión de bomberos del jugador"
     },
     {
       "hash": "2647289416",
@@ -27917,6 +28289,10 @@
       "s": "Este ASI se detiene hasta la próxima sesión de juego"
     },
     {
+      "hash": "2694813129",
+      "s": "Tiempo entre ráfagas de agua de las ruedas"
+    },
+    {
       "hash": "2694830761",
       "s": "Fijar una explosión repetida donde estés mirando"
     },
@@ -27991,6 +28367,10 @@
     {
       "hash": "2702672512",
       "s": "Ambiente"
+    },
+    {
+      "hash": "2702873926",
+      "s": "Este jugador debe estar dentro de un vehículo"
     },
     {
       "hash": "2704143589",
@@ -28291,6 +28671,10 @@
     {
       "hash": "2733199712",
       "s": "Cuántos segmentos de pared quedan detrás"
+    },
+    {
+      "hash": "2733570376",
+      "s": "Ajustar cámara y mira del dron"
     },
     {
       "hash": "2733921059",
@@ -28637,6 +29021,10 @@
       "s": "Entregar este vehículo guardado y luego te sientas en él cuando llegue"
     },
     {
+      "hash": "2763787315",
+      "s": "Comandante"
+    },
+    {
       "hash": "2764076789",
       "s": "Dañar entidades"
     },
@@ -28961,6 +29349,10 @@
       "s": "Habilitar todas las protecciones"
     },
     {
+      "hash": "2797955051",
+      "s": "Olas secuenciales"
+    },
+    {
       "hash": "2798162844",
       "s": "Escalado de FOV por distancia"
     },
@@ -29063,6 +29455,10 @@
     {
       "hash": "2805356532",
       "s": "Finalización online"
+    },
+    {
+      "hash": "2805455885",
+      "s": "Cantidad de drones"
     },
     {
       "hash": "2805482105",
@@ -29229,6 +29625,10 @@
       "s": "Establece un punto de ruta y el convoy te llevará hasta allí."
     },
     {
+      "hash": "2820627916",
+      "s": "Enjambre de drones P"
+    },
+    {
       "hash": "2820670155",
       "s": "gb_gunrunning no se ejecuta"
     },
@@ -29343,6 +29743,10 @@
     {
       "hash": "2831151893",
       "s": "P Troll Vehículos"
+    },
+    {
+      "hash": "2831440026",
+      "s": "Velocidad máxima al perseguir al jugador"
     },
     {
       "hash": "2831510883",
@@ -29529,6 +29933,10 @@
       "s": "Azul metálico plateado"
     },
     {
+      "hash": "2848454816",
+      "s": "Ruedas hidrostáticas P"
+    },
+    {
       "hash": "2848804836",
       "s": "Explorar/buscar todos los efectos por diccionario o nombre"
     },
@@ -29709,6 +30117,10 @@
       "s": "Genera la caravana en la carretera más cercana"
     },
     {
+      "hash": "2867689403",
+      "s": "Eliminar el vórtice de agua de este jugador"
+    },
+    {
       "hash": "2867819244",
       "s": "Modo Dios + todas las pruebas"
     },
@@ -29751,6 +30163,10 @@
     {
       "hash": "2871759278",
       "s": "Putas"
+    },
+    {
+      "hash": "2872078226",
+      "s": "Aturdir"
     },
     {
       "hash": "2872173723",
@@ -30557,6 +30973,10 @@
       "s": "Índice del modelo de vehículo en la lista de salvamento"
     },
     {
+      "hash": "2947540799",
+      "s": "Distancia de persecución"
+    },
+    {
       "hash": "2947699159",
       "s": "Permitir la carrera y el salto donde GTA Online normalmente los bloquea"
     },
@@ -30607,6 +31027,10 @@
     {
       "hash": "2951726971",
       "s": "Premios y coleccionables bloqueados de nuevo."
+    },
+    {
+      "hash": "2952289603",
+      "s": "Patrón de pulverización"
     },
     {
       "hash": "2952702459",
@@ -30809,6 +31233,10 @@
       "s": "Seguridad en la piscina"
     },
     {
+      "hash": "2975076681",
+      "s": "Ametralladora"
+    },
+    {
       "hash": "2975292463",
       "s": "Hacer Dinero"
     },
@@ -30987,6 +31415,10 @@
     {
       "hash": "2994316735",
       "s": "Golpe a Madrazo completado."
+    },
+    {
+      "hash": "2994569291",
+      "s": "Velocidad máxima de ascenso y descenso"
     },
     {
       "hash": "2994697361",
@@ -31389,6 +31821,10 @@
       "s": "Enviar una onda ahora sin mantener pulsado el interruptor"
     },
     {
+      "hash": "3036822421",
+      "s": "Enviar camión de bomberos"
+    },
+    {
       "hash": "3037048747",
       "s": "Enfriamiento del equipo de Cayo Perico eliminado."
     },
@@ -31781,6 +32217,10 @@
       "s": "Iniciando patineta..."
     },
     {
+      "hash": "3076715154",
+      "s": "No se pudo generar el camión de bomberos"
+    },
+    {
       "hash": "3076798073",
       "s": "Presets integrados"
     },
@@ -31791,6 +32231,10 @@
     {
       "hash": "3076992943",
       "s": "Trasera derecha"
+    },
+    {
+      "hash": "3078049100",
+      "s": "Reclamar enjambre"
     },
     {
       "hash": "3078236724",
@@ -31879,6 +32323,10 @@
     {
       "hash": "3086173866",
       "s": "Negro metálico morado"
+    },
+    {
+      "hash": "3086406441",
+      "s": "Patrón de fuego"
     },
     {
       "hash": "3087231486",
@@ -32045,10 +32493,6 @@
       "s": "Forzar a los jugadores pasivos seleccionados a través de una transición de misión"
     },
     {
-      "hash": "3104060706",
-      "s": "Número de bomberos a enviar"
-    },
-    {
       "hash": "3104406267",
       "s": "Coleccionables"
     },
@@ -32111,6 +32555,10 @@
     {
       "hash": "3112339959",
       "s": "Copiar a otro"
+    },
+    {
+      "hash": "3112652731",
+      "s": "Francotirador pesado"
     },
     {
       "hash": "3112705436",
@@ -32355,6 +32803,10 @@
     {
       "hash": "3134671866",
       "s": "Estricto"
+    },
+    {
+      "hash": "3134872283",
+      "s": "Velocidad de giro del líder"
     },
     {
       "hash": "3134901930",
@@ -32893,6 +33345,10 @@
       "s": "Cargando..."
     },
     {
+      "hash": "3181399117",
+      "s": "Rociar agua hacia afuera de cada neumático del vehículo actual"
+    },
+    {
       "hash": "3181521280",
       "s": "Milisegundos entre activaciones automáticas"
     },
@@ -33301,6 +33757,10 @@
       "s": "Salud, modo dios, conducción y iconos"
     },
     {
+      "hash": "3220353242",
+      "s": "Eliminar tripulación de lavado"
+    },
+    {
       "hash": "3220668508",
       "s": "Información de protecciones"
     },
@@ -33323,6 +33783,10 @@
     {
       "hash": "3221419088",
       "s": "Ejecutar y gestionar una batería de lanzadores Chernobog automatizados"
+    },
+    {
+      "hash": "3221502325",
+      "s": "Humano Rociador"
     },
     {
       "hash": "3221778709",
@@ -33597,6 +34061,10 @@
       "s": "Permitir que las baterías de armas del portaaviones disparen"
     },
     {
+      "hash": "3251290672",
+      "s": "Elegir oleadas secuenciales, grupos alternantes o rociado constante"
+    },
+    {
       "hash": "3252317859",
       "s": "Multiplicador de velocidad mientras se mantiene Sprint"
     },
@@ -33731,6 +34199,10 @@
     {
       "hash": "3265966716",
       "s": "Fuerza de movimiento lateral"
+    },
+    {
+      "hash": "3266021212",
+      "s": "Distancia a la que la tripulación de lavado se mantiene del vehículo"
     },
     {
       "hash": "3266055540",
@@ -34123,6 +34595,14 @@
     {
       "hash": "3304722874",
       "s": "Ajustes de atuendo"
+    },
+    {
+      "hash": "3305344418",
+      "s": "Control de enjambre de drones"
+    },
+    {
+      "hash": "3306084669",
+      "s": "No se pudo iniciar la persecución del camión de bomberos"
     },
     {
       "hash": "3306285821",
@@ -34757,6 +35237,10 @@
       "s": "Sin tiempo de reutilización de combate"
     },
     {
+      "hash": "3358852849",
+      "s": "Activar Ruedas Hidráulicas"
+    },
+    {
       "hash": "3359304828",
       "s": "Mantener derrapes laterales rápidos para crear un combo"
     },
@@ -35149,6 +35633,14 @@
       "s": "Arma de fuerza"
     },
     {
+      "hash": "3390929511",
+      "s": "Respuesta"
+    },
+    {
+      "hash": "3390932656",
+      "s": "Espaciamiento de la formación"
+    },
+    {
       "hash": "3391171847",
       "s": "Incluir recogidas de misiles en la lluvia"
     },
@@ -35175,6 +35667,10 @@
     {
       "hash": "3394704253",
       "s": "Jet"
+    },
+    {
+      "hash": "3395216754",
+      "s": "Cámara de enjambre de drones"
     },
     {
       "hash": "3395446560",
@@ -35289,6 +35785,10 @@
       "s": "Montar el animal seleccionado (Shift para correr, F o desactivar para (desmontar)"
     },
     {
+      "hash": "3404567739",
+      "s": "Radio de rociado"
+    },
+    {
       "hash": "3405375347",
       "s": "Agarrar y mover entidades con el cursor"
     },
@@ -35383,6 +35883,10 @@
     {
       "hash": "3411078279",
       "s": "Ranura"
+    },
+    {
+      "hash": "3411776826",
+      "s": "Enviar un enjambre de drones coordinado tras este jugador"
     },
     {
       "hash": "3412211671",
@@ -35633,6 +36137,10 @@
       "s": "Vehículos favoritos para embestir"
     },
     {
+      "hash": "3431586459",
+      "s": "Eliminar persecuciones de camiones de bomberos enviados a este jugador"
+    },
+    {
       "hash": "3432894154",
       "s": "Spooner MSFinish3"
     },
@@ -35823,6 +36331,10 @@
     {
       "hash": "3452927036",
       "s": "Paracaidismo forzado"
+    },
+    {
+      "hash": "3453005949",
+      "s": "Activar Rociador Humano"
     },
     {
       "hash": "3453016694",
@@ -36331,6 +36843,10 @@
     {
       "hash": "3500021657",
       "s": "Doblar el flujo del tiempo"
+    },
+    {
+      "hash": "3500361235",
+      "s": "Duración de la actividad del vórtice de agua"
     },
     {
       "hash": "3500712365",
@@ -37465,6 +37981,10 @@
       "s": "Transacción de spam Errores en este reproductor"
     },
     {
+      "hash": "3607193464",
+      "s": "Persecución del camión de bomberos"
+    },
+    {
       "hash": "3607983218",
       "s": "Reproducir un sonido con cada impacto"
     },
@@ -37621,6 +38141,10 @@
       "s": "Mantener posición al no presionar movimiento"
     },
     {
+      "hash": "3618701696",
+      "s": "Secuencial"
+    },
+    {
       "hash": "3619195111",
       "s": "Clonar vehículo"
     },
@@ -37739,6 +38263,10 @@
     {
       "hash": "3630321700",
       "s": "Los clones atacan a los enemigos"
+    },
+    {
+      "hash": "3630457903",
+      "s": "Pilotar al líder o comandar el enjambre a pie"
     },
     {
       "hash": "3630844824",
@@ -38075,6 +38603,10 @@
     {
       "hash": "3661386958",
       "s": "Iluminación, agua y VFX de partículas"
+    },
+    {
+      "hash": "3661395646",
+      "s": "Retraso entre fugas de agua"
     },
     {
       "hash": "3661759279",
@@ -38595,6 +39127,10 @@
     {
       "hash": "3705252162",
       "s": "Pequeños bucles de servicio"
+    },
+    {
+      "hash": "3705383157",
+      "s": "Duración de la actividad de las Ruedas Hidráulicas"
     },
     {
       "hash": "3705404674",
@@ -39233,6 +39769,10 @@
       "s": "Generar dentro"
     },
     {
+      "hash": "3763782291",
+      "s": "Daño causado por armas de proyectiles; aturdimiento ignora este valor"
+    },
+    {
       "hash": "3763908184",
       "s": "Otorga el premio seleccionado ahora, sin giro. Paga a través del sistema de premios del juego."
     },
@@ -39263,6 +39803,10 @@
     {
       "hash": "3766734141",
       "s": "Final instantáneo (Acto 3)"
+    },
+    {
+      "hash": "3767141189",
+      "s": "Detener aspersor"
     },
     {
       "hash": "3767155794",
@@ -39593,10 +40137,6 @@
       "s": "Usar la vista de puntería térmica del Orbital Cannon"
     },
     {
-      "hash": "3795210771",
-      "s": "Borrar Bomberos"
-    },
-    {
       "hash": "3795238092",
       "s": "Marcador de impacto"
     },
@@ -39849,6 +40389,10 @@
       "s": "Inventario y utilidades"
     },
     {
+      "hash": "3817995381",
+      "s": "El límite de entidades solo permitió que parte de la colonia apareciera"
+    },
+    {
       "hash": "3818309427",
       "s": "Escupe fuego"
     },
@@ -40093,6 +40637,10 @@
       "s": "Editar tu ropa y accesorios"
     },
     {
+      "hash": "3842410575",
+      "s": "Ruedas hidroeléctricas"
+    },
+    {
       "hash": "3842793717",
       "s": "Iluminación inferior izquierda"
     },
@@ -40171,6 +40719,10 @@
     {
       "hash": "3850621899",
       "s": "Jugadores bloqueados en Social Club"
+    },
+    {
+      "hash": "3850651555",
+      "s": "Arma disparada por cada colonia"
     },
     {
       "hash": "3851301006",
@@ -40401,6 +40953,10 @@
       "s": "Devuelva su Centro Móvil de Operaciones al almacenamiento"
     },
     {
+      "hash": "3870580528",
+      "s": "Desplegar un equipo de bomberos para perseguir y lavar el vehículo de este jugador"
+    },
+    {
       "hash": "3870668702",
       "s": "Forzar un estilo de matrícula"
     },
@@ -40589,6 +41145,10 @@
       "s": "Unirse automáticamente al unirse"
     },
     {
+      "hash": "3885725404",
+      "s": "Intervalo de fuga (ms)"
+    },
+    {
       "hash": "3886185320",
       "s": "Sin límites del mundo"
     },
@@ -40711,6 +41271,10 @@
     {
       "hash": "3894899081",
       "s": "Todas las armas retiradas"
+    },
+    {
+      "hash": "3895212260",
+      "s": "P Camión de bomberos en persecución"
     },
     {
       "hash": "3895790669",
@@ -41361,6 +41925,10 @@
       "s": "Rotar instantáneamente el vehículo a la derecha"
     },
     {
+      "hash": "3950311099",
+      "s": "Remolino de agua"
+    },
+    {
       "hash": "3950614489",
       "s": "Error al unirse a la sesión por información; se creará una nueva sesión"
     },
@@ -41901,6 +42469,10 @@
       "s": "Apoyo de Armadura"
     },
     {
+      "hash": "4005114081",
+      "s": "Crear un remolino de agua giratorio alrededor de este jugador"
+    },
+    {
       "hash": "4005722289",
       "s": "Aplicar descarga eléctrica repetidamente a este jugador"
     },
@@ -41935,6 +42507,10 @@
     {
       "hash": "4007780691",
       "s": "Configurar escondites"
+    },
+    {
+      "hash": "4007825596",
+      "s": "Grupos alternantes"
     },
     {
       "hash": "4008155681",
@@ -42773,6 +43349,10 @@
       "s": "Enviar un dron de choque tras cada jugador seleccionado"
     },
     {
+      "hash": "4081057382",
+      "s": "Todos los puntos"
+    },
+    {
       "hash": "4081109891",
       "s": "Cupón de descuento"
     },
@@ -42967,6 +43547,10 @@
     {
       "hash": "4101684798",
       "s": "Cambio de reemplazo"
+    },
+    {
+      "hash": "4101685296",
+      "s": "Velocidad con la que giran los chorros del aspersor"
     },
     {
       "hash": "4101913572",
@@ -43397,6 +43981,10 @@
       "s": "Activar Taze"
     },
     {
+      "hash": "4136142588",
+      "s": "Altura del rociado"
+    },
+    {
       "hash": "4136629198",
       "s": "Rango inválido"
     },
@@ -43407,6 +43995,10 @@
     {
       "hash": "4136875121",
       "s": "Cargar/teletransportar/renombrar/eliminar este mapa"
+    },
+    {
+      "hash": "4137141961",
+      "s": "Tiempo entre ráfagas de agua a presión"
     },
     {
       "hash": "4137433350",
@@ -43635,6 +44227,10 @@
     {
       "hash": "4155123488",
       "s": "Coste del Unibeam"
+    },
+    {
+      "hash": "4155169140",
+      "s": "Tamaño del remolino de agua y su área de atracción"
     },
     {
       "hash": "4155279258",
@@ -44125,6 +44721,10 @@
       "s": "Hueso al que adjuntar: huesos de peatón para un objetivo peatón, huesos de vehículo para un objetivo vehículo (Raíz/Ninguno = sin hueso)"
     },
     {
+      "hash": "4205111699",
+      "s": "Enviar formaciones de drones coordinadas tras los jugadores seleccionados"
+    },
+    {
       "hash": "4205252628",
       "s": "Activar este equipamiento: conservar solo sus armas y accesorios"
     },
@@ -44327,6 +44927,10 @@
     {
       "hash": "4223119784",
       "s": "Reemplazar la configuración actual con esta"
+    },
+    {
+      "hash": "4223314567",
+      "s": "Jugador que fuga"
     },
     {
       "hash": "4223341724",
@@ -44583,6 +45187,10 @@
     {
       "hash": "4245702879",
       "s": "Solicitar servicio, especial, aeronave y vehículos de apoyo propios"
+    },
+    {
+      "hash": "4246058288",
+      "s": "Restaurar control y eliminar inmediatamente todos los drones personales"
     },
     {
       "hash": "4246075381",
