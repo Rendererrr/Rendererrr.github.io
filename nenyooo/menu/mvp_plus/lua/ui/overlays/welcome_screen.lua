@@ -342,10 +342,11 @@ local function body_hotkeys(x, y, w, h, a, p)
         local rx = x + (1 - s) * 18
         local sa = a * s
         if sa > 1 then
-            draw.rect(rx, ry + 5, rx + 56, ry + 29, ar, ag, ab, fl(sa * 0.14), 6)
-            draw.rect_outline(rx, ry + 5, rx + 56, ry + 29, ar, ag, ab, fl(sa * 0.40), 6, 1.0)
-            text.draw_centered(font.small, rx, ry + 11, rx + 56, ar, ag, ab, fl(sa), r.key)
-            text.draw(font.item, rx + 72, ry + 10, 205, 207, 216, fl(sa), r.desc)
+            local kw = math.max(56, math.min(160, text.width(font.small, r.key) + 20))
+            draw.rect(rx, ry + 5, rx + kw, ry + 29, ar, ag, ab, fl(sa * 0.14), 6)
+            draw.rect_outline(rx, ry + 5, rx + kw, ry + 29, ar, ag, ab, fl(sa * 0.40), 6, 1.0)
+            text.draw_centered(font.small, rx, ry + 11, rx + kw, ar, ag, ab, fl(sa), r.key)
+            text.draw(font.item, rx + kw + 16, ry + 10, 205, 207, 216, fl(sa), r.desc)
             draw.line(rx, ry + 38, rx + rw, ry + 38, 255, 255, 255, fl(sa * 0.06), 1)
         end
         ry = ry + 46

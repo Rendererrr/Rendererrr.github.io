@@ -147,6 +147,11 @@
     },
     {
       "root": "ui",
+      "rel": "features/drone_swarm.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/drone_swarm.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/easy_melee_attack.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/easy_melee_attack.lua"
     },
@@ -374,6 +379,11 @@
       "root": "ui",
       "rel": "panels/session_panel.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/session_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/shortcut_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/shortcut_panel.lua"
     },
     {
       "root": "ui",

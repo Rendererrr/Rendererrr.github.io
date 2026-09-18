@@ -464,7 +464,7 @@ function ui.scroll(t) t.kind = "scroll"; t.kids = children_of(t); return t end
 
 -- Shared scrollbar rendering. Drawn by the scroll containers themselves so a theme never has to
 -- track "how far along am I" -- that state belongs to the container.
-function ui.scrollbar(x, y, w, h, offset, max, sk)
+function ui._layout_scrollbar(x, y, w, h, offset, max, sk)
     sk = sk or ui.skin
     if max <= 0 then return end
     local c = sk.col.scrollbar
@@ -472,6 +472,160 @@ function ui.scrollbar(x, y, w, h, offset, max, sk)
     local th = math.max(24, h * frac)
     local ty = y + (h - th) * (offset / max)
     draw.rect(x, ty, x + w, ty + th, c[1], c[2], c[3], c[4] or 160, w * 0.5)
+end
+
+-- Compatibility form used by the shared desktop theme:
+-- scrollbar(id, x, top, bottom, scroll, scroll_max, total) -> scroll.
+-- The ordinary layout form above remains unchanged for all existing themes.
+function ui.scrollbar(a, b, c, d, e, f, g)
+    if type(g) ~= "number" then
+        return ui._layout_scrollbar(a, b, c, d, e, f, g)
+    end
+    local id, x, top, bottom, value, maximum, total = a, b, c, d, e, f, g
+    if maximum <= 0 then return value end
+    local height = bottom - top
+    local thumb_h = math.max(24, height * height / math.max(height, total))
+    local travel = math.max(0, height - thumb_h)
+    local thumb_y = top + travel * math.max(0, math.min(1, value / maximum))
+    local hash = ui.hash("compat-scroll:" .. tostring(id))
+    if ui.clicked(x - 3, top, x + 9, bottom) then ui.capture(hash) end
+    if ui.captured() == hash and input.mouse_down(0) then
+        value = math.max(0, math.min(maximum, ((input.mouse_y() - top - thumb_h * 0.5) / math.max(1, travel)) * maximum))
+        thumb_y = top + travel * value / maximum
+    end
+    draw.rect(x, thumb_y, x + 4, thumb_y + thumb_h, 120, 124, 140, 190, 2)
+    return value
+end
+
+-- Pixel primitives shared with the FiveM desktop theme. These are deliberately
+-- implemented in Lua: native code supplies input and drawing only, and themes
+-- can replace every visual without rebuilding either target.
+function ui.rect(x, y, w, h) return { x=x, y=y, w=w, h=h } end
+
+local function compat_col(getter, fallback)
+    if getter then
+        local r,g,b,a=getter()
+        if r then return {r,g,b,a or 255} end
+    end
+    return fallback
+end
+local function compat_text(face,x,y,c,s) text.draw(face,x,y,c[1],c[2],c[3],c[4],tostring(s or "")) end
+
+function ui.panel(x,y,w,h,title,subtitle)
+    local accent=compat_col(theme.accent,{168,85,247,255})
+    local text_col=compat_col(theme.text_color,{238,234,246,255})
+    draw.rect(x,y,x+w,y+40,30,24,46,255,6)
+    draw.rect(x,y+34,x+w,y+40,30,24,46,255,0)
+    draw.rect(x,y+40,x+w,y+h,26,22,38,255,6)
+    draw.rect(x,y+40,x+w,y+46,26,22,38,255,0)
+    draw.rect(x,y+40,x+w,y+41,255,255,255,20,0)
+    draw.circle_outline(x+19,y+19,4.5,accent[1],accent[2],accent[3],accent[4],1.8)
+    draw.line(x+22,y+22,x+26,y+26,accent[1],accent[2],accent[3],accent[4],2)
+    compat_text(font.item,x+40,y+(40-text.height(font.item))*0.5,text_col,title)
+    for col=0,2 do for row=0,2 do draw.circle(x+w-22-col*5,y+15+row*5,1.4,110,104,126,255) end end
+    return ui.rect(x+10,y+50,w-20,h-60)
+end
+
+function ui.button(x,y,w,h,label,primary,busy,disabled)
+    local accent=compat_col(theme.accent,{168,85,247,255})
+    local over=ui.hovered(x,y,x+w,y+h)
+    local bg=primary and accent or (over and {38,31,55,255} or {20,17,30,255})
+    draw.rect(x,y,x+w,y+h,bg[1],bg[2],bg[3],disabled and 90 or bg[4],6)
+    draw.rect_outline(x,y,x+w,y+h,255,255,255,over and 42 or 20,6,1)
+    local tw=text.width(font.item,label)
+    compat_text(font.item,x+(w-tw)*0.5,y+(h-text.height(font.item))*0.5,disabled and {110,104,126,255} or {238,234,246,255},label)
+    return not disabled and ui.clicked(x,y,x+w,y+h)
+end
+
+function ui.pill(x,y,label,r,g,b,a,pulse)
+    local w=text.width(font.small,label)+18
+    local alpha=40
+    if pulse then alpha=alpha+math.floor((0.5+0.5*math.sin(ctx.time()*2.4))*34) end
+    draw.rect(x,y,x+w,y+20,r,g,b,alpha,0)
+    draw.rect_outline(x,y,x+w,y+20,r,g,b,102,0,1)
+    compat_text(font.small,x+9,y+3.5,{r,g,b,a or 255},label)
+end
+
+function ui.row_label(x,y,h,label)
+    compat_text(font.item,x,y+(h-text.height(font.item))*0.5,{238,234,246,255},label)
+end
+
+function ui.row_toggle(id,body,y,label,current)
+    local size=18; local x=body.x+body.w-size; local yy=y+3.5
+    compat_text(font.item,body.x,y+(25-text.height(font.item))*0.5,current and {238,234,246,255} or {154,148,168,255},label)
+    draw.rect(x,yy,x+size,yy+size,current and 168 or 20,current and 85 or 17,current and 247 or 30,255,2)
+    draw.rect_outline(x,yy,x+size,yy+size,255,255,255,30,2,1)
+    if current then
+        draw.line(x+4.5,yy+9.5,x+8,yy+13,255,255,255,255,2)
+        draw.line(x+8,yy+13,x+14.5,yy+5,255,255,255,255,2)
+    end
+    local changed=ui.clicked(body.x,y,body.x+body.w,y+25)
+    return changed and not current or current,changed
+end
+
+function ui.row_slider(id,body,y,label,current,vmin,vmax,format)
+    compat_text(font.item,body.x,y+(25-text.height(font.item))*0.5,{238,234,246,255},label)
+    local track_w=110; local value_w=58; local x=body.x+body.w-track_w-value_w-10; local cy=y+12.5
+    local hash=ui.hash("compat-slider:"..tostring(id)); local changed=false
+    if ui.clicked(x,y,x+track_w,y+25) then ui.capture(hash) end
+    if ui.captured()==hash and input.mouse_down(0) then
+        current=vmin+math.max(0,math.min(1,(input.mouse_x()-x)/track_w))*(vmax-vmin)
+        changed=true
+    end
+    local norm=(current-vmin)/math.max(0.0001,vmax-vmin)
+    draw.rect(x,cy-2,x+track_w,cy+2,20,17,30,255,2)
+    draw.rect(x,cy-2,x+track_w*norm,cy+2,168,85,247,255,2)
+    draw.circle(x+track_w*norm,cy,5,192,132,252,255)
+    local value=string.format(format or "%.2f",current)
+    compat_text(font.value,body.x+body.w-text.width(font.value,value),y+(25-text.height(font.value))*0.5,{154,148,168,255},value)
+    return current,changed
+end
+
+function ui.scroll_smooth(id,current,maximum,over,step,speed)
+    local state=ui.state(ui.hash("compat-smooth:"..tostring(id)))
+    if state.target==nil then state.target=current; state.value=current end
+    if math.abs(current-state.value)>0.5 then state.target=current; state.value=current end
+    if over then state.target=state.target-input.mouse_wheel()*(step or 72) end
+    state.target=math.max(0,math.min(maximum,state.target))
+    local dt=ctx.delta and ctx.delta() or 0.016
+    state.value=state.value+(state.target-state.value)*(1-math.exp(-(speed or 16)*dt))
+    return math.max(0,math.min(maximum,state.value))
+end
+
+local function compat_rgb_hsv(r,g,b)
+    r,g,b=r/255,g/255,b/255
+    local mx=math.max(r,g,b); local mn=math.min(r,g,b); local d=mx-mn; local h=0
+    if d>0 then
+        if mx==r then h=((g-b)/d)%6 elseif mx==g then h=(b-r)/d+2 else h=(r-g)/d+4 end
+        h=h/6
+    end
+    return h,mx==0 and 0 or d/mx,mx
+end
+local function compat_hsv_rgb(h,s,v)
+    local i=math.floor((h%1)*6); local f=(h%1)*6-i
+    local p=v*(1-s); local q=v*(1-f*s); local t=v*(1-(1-f)*s)
+    local r,g,b=v,t,p
+    if i==1 then r,g,b=q,v,p elseif i==2 then r,g,b=p,v,t elseif i==3 then r,g,b=p,q,v elseif i==4 then r,g,b=t,p,v elseif i==5 then r,g,b=v,p,q end
+    return math.floor(r*255+0.5),math.floor(g*255+0.5),math.floor(b*255+0.5)
+end
+function ui.color_picker(id,x,y,w,r,g,b,a)
+    local state=ui.state(ui.hash("compat-color:"..tostring(id)))
+    if state.h==nil then state.h,state.s,state.v=compat_rgb_hsv(r,g,b) end
+    local square_w=math.min(150,w-22); local changed=false
+    local sv=ui.hash("compat-color-sv:"..tostring(id)); local hue=ui.hash("compat-color-h:"..tostring(id))
+    local hr,hg,hb=compat_hsv_rgb(state.h,1,1)
+    draw.rect_gradient(x,y,x+square_w,y+84,255,255,255,255,hr,hg,hb,255,0,0,0,255,0,0,0,255)
+    if ui.clicked(x,y,x+square_w,y+84) then ui.capture(sv) end
+    if ui.captured()==sv and input.mouse_down(0) then state.s=math.max(0,math.min(1,(input.mouse_x()-x)/square_w)); state.v=1-math.max(0,math.min(1,(input.mouse_y()-y)/84)); changed=true end
+    local hx=x+square_w+10
+    for i=0,5 do
+        local r1,g1,b1=compat_hsv_rgb(i/6,1,1); local r2,g2,b2=compat_hsv_rgb((i+1)/6,1,1)
+        draw.rect_gradient(hx,y+i*14,hx+12,y+(i+1)*14,r1,g1,b1,255,r1,g1,b1,255,r2,g2,b2,255,r2,g2,b2,255)
+    end
+    if ui.clicked(hx,y,hx+12,y+84) then ui.capture(hue) end
+    if ui.captured()==hue and input.mouse_down(0) then state.h=math.max(0,math.min(1,(input.mouse_y()-y)/84)); changed=true end
+    r,g,b=compat_hsv_rgb(state.h,state.s,state.v)
+    return r,g,b,a or 255,changed
 end
 
 function ui._overflow(what, by)

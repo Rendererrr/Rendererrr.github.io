@@ -210,6 +210,7 @@ local FX_DEFS = {
     {n="3-Color Banner",   d=false, fk="grad3",     ds="Blend the banner through Banner Middle instead of straight left-to-right"},
 }
 local PANEL_DEFS = {
+    {n="Show Shortcuts", label="Shortcut Guide", d=true, mode=0, ds="Menu and Spooner keyboard/controller open-close keys"},
     {n="Show Watermark", label="Performance", d=true, mode=0, ds="FPS statistics, clock and graph"},
     {n="Show Pools",   label="Game Pools",  d=true, mode=0, ds="Ped, vehicle and object pool usage"},
     {n="Show Render",  label="Render Counts",d=true,mode=0, ds="Entities drawn during the current frame"},
@@ -615,15 +616,21 @@ local cpick, cpick_idx, cpick_frame = false, -1, 0
 local cpick_v = {0,0,0,255}
 local cpick_h, cpick_s, cpick_val = 0,1,1
 local cpick_sv_drag, cpick_hue_drag, cpick_a_drag = false, false, false
+local cpick_focus, cpick_original = 1, {0,0,0,255}
 local CPICK_W, CPICK_GAP = 190, 10
 -- inline hotkey capture
 local hk_bind, hk_idx = false, -1
 local last_sel = -1
+-- The list skin omits registry-only section labels. Keep a cached display-row -> registry-index
+-- map so large dynamic pages are not fully fetched from C++ every frame.
+local list_page, list_raw_count = nil, -1
+local list_indices, list_positions = {}, {}
 -- Header feature search. Results are snapshots of stable page ids + display text; no menu_item is
 -- copied or activated from this virtual list. Choosing a hit only navigates to its owning page.
 local search_open, search_query, search_last_query = false, "", nil
 local search_results, search_sel, search_last_revision = {}, 0, -1
 local search_saved_scroll, search_saved_scroll_t = 0, 0
+local controller_edit_idx, controller_edit_search = -1, false
 
 local NUM = {
     [item_type.slider]=true, [item_type.int_option]=true,
@@ -636,6 +643,23 @@ local CYCLE = {
 
 local function reset_scroll() scroll=0; scroll_t=0 end
 local function close_popups() cpick=false; edit_on=false; hk_bind=false end
+
+local function current_list_items()
+    local page, raw_count = menu.page_id(), menu.item_count()
+    if page ~= list_page or raw_count ~= list_raw_count then
+        list_page, list_raw_count = page, raw_count
+        list_indices, list_positions = {}, {}
+        for raw=0,raw_count-1 do
+            local item = menu.get_item(raw)
+            if item and not item.is_header then
+                local display = #list_indices
+                list_indices[display+1] = raw
+                list_positions[raw] = display
+            end
+        end
+    end
+    return list_indices, list_positions
+end
 
 local function rebuild_feature_search()
     if not search_open then return end
@@ -837,6 +861,32 @@ local function draw_cpick(wx, wy, ww, wh)
     local PW = CPICK_W
     local PH = HEAD_H+SV_H+ALPHA_H+PADP*4+FOOT_H
     local screen_pad = 12
+
+    if input.controller_active() then
+        if input.ui_just_pressed(UI.UP) then cpick_focus = math.max(1, cpick_focus - 1) end
+        if input.ui_just_pressed(UI.DOWN) then cpick_focus = math.min(4, cpick_focus + 1) end
+        local step = input.ui_pressed(UI.RIGHT) and 1 or (input.ui_pressed(UI.LEFT) and -1 or 0)
+        if step ~= 0 then
+            if cpick_focus == 1 then cpick_h = (cpick_h + step) % 360
+            elseif cpick_focus == 2 then cpick_s = clamp(cpick_s + step * 0.01, 0, 1)
+            elseif cpick_focus == 3 then cpick_val = clamp(cpick_val + step * 0.01, 0, 1)
+            else cpick_v[4] = math.floor(clamp(cpick_v[4] + step, 0, 255)) end
+        end
+        local dt = math.min(ctx.delta(), 0.05)
+        local lx, ly, ry = input.ui_axis(0), input.ui_axis(1), input.ui_axis(3)
+        local lt, rt = input.ui_axis(4), input.ui_axis(5)
+        if math.abs(lx) < 0.20 then lx = 0 end
+        if math.abs(ly) < 0.20 then ly = 0 end
+        if math.abs(ry) < 0.20 then ry = 0 end
+        if math.abs(lt) < 0.20 then lt = 0 end
+        if math.abs(rt) < 0.20 then rt = 0 end
+        cpick_s = clamp(cpick_s + lx * 0.75 * dt, 0, 1)
+        cpick_val = clamp(cpick_val - ly * 0.75 * dt, 0, 1)
+        cpick_h = (cpick_h + ry * 180.0 * dt) % 360
+        cpick_v[4] = math.floor(clamp(cpick_v[4] + (rt - lt) * 180.0 * dt, 0, 255) + 0.5)
+        local nr,ng,nb=util.hsv_to_rgb(cpick_h,cpick_s,cpick_val)
+        cpick_v[1],cpick_v[2],cpick_v[3]=math.floor(nr),math.floor(ng),math.floor(nb)
+    end
     local px = wx + ww + CPICK_GAP
     if px+PW > ctx.screen_w()-screen_pad then px = wx-PW-CPICK_GAP end
     px = clamp(px, screen_pad, ctx.screen_w()-PW-screen_pad)
@@ -951,10 +1001,32 @@ local function proc_feature_search()
     if input.key_pressed(VK.UP) then move_search_selection(-1) end
     if input.key_just_pressed(VK.RETURN) then open_search_result() end
     if input.key_just_pressed(VK.ESCAPE) then close_feature_search(true) end
+    if input.ui_just_pressed(UI.SEARCH) and not input.onscreen_active() then
+        controller_edit_search = true
+        input.onscreen_open(search_query, 127)
+    end
+end
+
+local function proc_onscreen_keyboard()
+    local status, value = input.onscreen_take()
+    if status == 0 then return end
+    if status == 1 then
+        if controller_edit_search then
+            if not search_open then open_feature_search() end
+            search_query, search_last_query, search_sel = value or "", nil, 0
+            rebuild_feature_search()
+        elseif controller_edit_idx >= 0 then
+            menu.set_selected(controller_edit_idx)
+            menu.set_input_buffer(value or "")
+            menu.confirm_input()
+        end
+    end
+    controller_edit_idx, controller_edit_search = -1, false
 end
 
 -- ════════════════════ MAIN DRAW ════════════════════
 function draw_menu()
+    proc_onscreen_keyboard()
     reload_colors(); reload_fx()
     theme.set_body_bg(COL.black[1], COL.black[2], COL.black[3], alpha(COL.black))
     theme.set_menu_bg(COL.black[1], COL.black[2], COL.black[3], alpha(COL.black))
@@ -974,14 +1046,19 @@ function draw_menu()
     -- Keep this frame on one coherent data source if the header button opens/closes search midway
     -- through drawing. The new state takes effect on the following frame.
     local searching = search_open
-    local count = searching and #search_results or menu.item_count()
-    local sel   = searching and search_sel or menu.selected_index()
-    if sel ~= last_sel then close_popups(); desc_alpha=0; last_sel=sel end
+    local visible_indices, visible_positions = current_list_items()
+    local raw_sel = menu.selected_index()
+    local count = searching and #search_results or #visible_indices
+    local sel   = searching and search_sel or (visible_positions[raw_sel] or 0)
+    local selection_key = searching and ("search:"..sel) or (tostring(menu.page_id())..":"..raw_sel)
+    if selection_key ~= last_sel then close_popups(); desc_alpha=0; last_sel=selection_key end
+    local is_root = menu.page_id() == menu.root_page()
+    local page_sub_h = is_root and 0 or SUB_H
 
     -- box geometry (centered horizontally, upper third vertically)
     -- list shrinks to the actual item count so empty rows don't leave a gap
     local rows_shown = math.max(1, math.min(count, VIS_ROWS))
-    local body_h = HDR_H + HDR_GAP + SUB_H + rows_shown*ROW_H + FOOT_H
+    local body_h = HDR_H + HDR_GAP + page_sub_h + rows_shown*ROW_H + FOOT_H
     -- anchor the top to a FULL page's height so the header stays put no matter the
     -- option count; the box still shrinks downward (no empty rows) on short pages
     local ref_total_h = HDR_H + HDR_GAP + SUB_H + VIS_ROWS*ROW_H + FOOT_H + DESC_GAP + DESC_H
@@ -1008,13 +1085,14 @@ function draw_menu()
 
     -- ── Subheader (breadcrumb + back) ──
     local sy = y + HDR_H + HDR_GAP
-    draw.rect(x, sy, x+WIN_W, sy+SUB_H, COL.sub_bg[1],COL.sub_bg[2],COL.sub_bg[3],alpha(COL.sub_bg))
-    local title_x = x + PAD_X
-    local title = string.upper(menu.page_title() or "MENU")
-    -- subtle glare sweep
-    local search_cy = sy + SUB_H*0.5
-    local search_icon_x = x + WIN_W - PAD_X - 16
-    if searching then
+    if page_sub_h > 0 then
+      draw.rect(x, sy, x+WIN_W, sy+SUB_H, COL.sub_bg[1],COL.sub_bg[2],COL.sub_bg[3],alpha(COL.sub_bg))
+      local title_x = x + PAD_X
+      local title = string.upper(menu.page_title() or "MENU")
+      -- subtle glare sweep
+      local search_cy = sy + SUB_H*0.5
+      local search_icon_x = x + WIN_W - PAD_X - 16
+      if searching then
         icon_h("search", title_x, search_cy, 14, COL.sub_txt[1],COL.sub_txt[2],COL.sub_txt[3],alpha(COL.sub_txt))
         local shown = search_query ~= "" and search_query or "Search features…"
         if search_query ~= "" and math.floor(ctx.time()*2)%2 == 0 then shown = shown .. "|" end
@@ -1027,7 +1105,7 @@ function draw_menu()
         text.draw(font.breadcrumb, search_icon_x, sy+(SUB_H-text.height(font.breadcrumb))*0.5,
             COL.sub_txt[1],COL.sub_txt[2],COL.sub_txt[3],alpha(COL.sub_txt), close_text)
         if clk(search_icon_x-8, sy, x+WIN_W, sy+SUB_H) then close_feature_search(true) end
-    else
+      else
         local breadcrumb_x = title_x
         if HAS_FA then
             local glyph = SUBMENU_ICONS[menu.page_id()] or SUBMENU_ICON_FALLBACK
@@ -1042,34 +1120,35 @@ function draw_menu()
         local c = over_search and COL.white or COL.sub_txt
         icon_h("search", search_icon_x, search_cy, 15, c[1],c[2],c[3],alpha(c))
         if clk(search_icon_x-8, sy, x+WIN_W, sy+SUB_H) then open_feature_search() end
-    end
-    if FX.glare then
+      end
+      if FX.glare then
         local gp = (ctx.time()*0.32) % 1.6
         local gxc = x - WIN_W*0.5 + gp*WIN_W
         draw.push_clip(x, sy, x+WIN_W, sy+SUB_H)
         draw.rect_gradient(gxc-50, sy, gxc+50, sy+SUB_H,
             105,210,255,0, 105,210,255,42, 105,210,255,42, 105,210,255,0)
         draw.pop_clip()
-    end
-    -- hotkey hint (right side of subheader) when the selected row can bind
-    do
-        local hi = menu.get_item(sel)
+      end
+      -- hotkey hint (right side of subheader) when the selected row can bind
+      do
+        local hi = menu.get_item(raw_sel)
         if not searching and FX.hint and not hk_bind and hi and hi.type~=item_type.sub_menu and menu.page_can_hotkey() then
             local hint = (hi.hotkey and hi.hotkey~=0) and "[H] rebind  [Del] clear" or "[H] hotkey"
             text.draw(font.tiny, search_icon_x-12-text.width(font.tiny,hint),
                 sy+(SUB_H-text.height(font.tiny))*0.5,
                 COL.foot_txt[1],COL.foot_txt[2],COL.foot_txt[3],alpha(COL.foot_txt), hint)
         end
-    end
+      end
 
-    -- gradient accent line under the breadcrumb (matches the header)
-    do
+      -- gradient accent line under the breadcrumb (matches the header)
+      do
         local ly = sy + SUB_H - 2
         band_h(x, ly, x+WIN_W, ly+2)
+      end
     end
 
     -- ── Options list ──
-    local list_y = sy + SUB_H
+    local list_y = sy + page_sub_h
     local list_h = rows_shown*ROW_H
     draw.rect(x, list_y, x+WIN_W, list_y+list_h, COL.black[1],COL.black[2],COL.black[3],alpha(COL.black))
     -- Publish the list band so overlays that draw INSIDE the menu (the wardrobe's Advanced Editor)
@@ -1104,9 +1183,10 @@ function draw_menu()
         -- rows. On huge dynamic pages (e.g. 1000-row anim search) fetching all rows each frame tanks FPS.
         local ry = list_y + i*ROW_H - scroll
         if ry+ROW_H >= list_y and ry <= list_y+list_h then
-            local item = searching and search_results[i+1] or menu.get_item(i)
+            local raw_i = searching and i or visible_indices[i+1]
+            local item = searching and search_results[i+1] or menu.get_item(raw_i)
             if item then
-              item._idx = i
+              item._idx = raw_i
               if searching then
                 local item_name = type(item.name)=="string" and item.name or ""
                 local item_page = type(item.page)=="string" and item.page or ""
@@ -1132,17 +1212,7 @@ function draw_menu()
                     search_sel = i
                     open_search_result()
                 end
-              elseif item.is_header then
-                -- Section divider: purple accent bar + UPPERCASE label. No highlight, no right
-                -- widget, no click (nav skips headers). Wrapping dashes/spaces are stripped.
-                local label = (item.name or ""):gsub("^[%-%s]+",""):gsub("[%-%s]+$",""):upper()
-                local barw, barh = 3, ROW_H*0.5
-                local bx = x+PAD_X
-                draw.rect(bx, ry+(ROW_H-barh)*0.5, bx+barw, ry+(ROW_H+barh)*0.5,
-                    COL.glow[1],COL.glow[2],COL.glow[3],alpha(COL.glow))
-                text.draw(font.item, bx+barw+8, ry+(ROW_H-text.height(font.item))*0.5,
-                    COL.row_txt[1],COL.row_txt[2],COL.row_txt[3],alpha(COL.row_txt), label)
-              else
+              elseif not item.is_header then
                 local is_sel = (i==sel)
                 local hov = hit(x+SCROLL_W, ry, x+WIN_W, ry+ROW_H)
                 if is_sel or hov then
@@ -1261,7 +1331,7 @@ function draw_menu()
                 local value_clicked = draw_right(item, x, ry, WIN_W, is_sel or hov)
                 -- click selects, then acts
                 if hov and input.mouse_clicked(0) and not cpick and not hk_bind and not menu.overlay_active() then
-                    menu.set_selected(i)
+                    menu.set_selected(raw_i)
                     if value_clicked then
                         -- The left/right value arrow already applied the change.
                     elseif item.type==item_type.toggle then menu.toggle_item(i)
@@ -1328,7 +1398,7 @@ function draw_menu()
     -- ── Description box (detached, white left accent) — grows to fit wrapped text ──
     desc_alpha = lerp(desc_alpha, 1, clamp(ctx.delta()*10,0,1))
     local dy = fy + FOOT_H + DESC_GAP
-    local di = searching and search_results[sel+1] or menu.get_item(sel)
+    local di = searching and search_results[sel+1] or menu.get_item(raw_sel)
     local dtext
     if searching then
         local ddesc = di and type(di.desc)=="string" and di.desc or ""
@@ -1393,7 +1463,14 @@ function handle_input()
     if edit_on then return end           -- editor consumes keys in proc_edit
 
     if cpick then
-        if input.key_just_pressed(VK.ESCAPE) or input.key_just_pressed(VK.RETURN) then cpick=false end
+        if input.ui_just_pressed(UI.CANCEL) then
+            menu.set_item_color(cpick_idx, cpick_original[1], cpick_original[2], cpick_original[3], cpick_original[4])
+            cpick=false
+        elseif input.ui_just_pressed(UI.ACCEPT) then
+            cpick=false
+        elseif input.key_just_pressed(VK.ESCAPE) or input.key_just_pressed(VK.RETURN) then
+            cpick=false
+        end
         return
     end
 
@@ -1406,7 +1483,9 @@ function handle_input()
         end
         local skip = {[27]=true,[1]=true,[2]=true,[4]=true,
                       [16]=true,[17]=true,[18]=true,
-                      [160]=true,[161]=true,[162]=true,[163]=true,[164]=true,[165]=true}
+                      [160]=true,[161]=true,[162]=true,[163]=true,[164]=true,[165]=true,
+                      [VK.F9]=true,[VK.F10]=true,[VK.F11]=true}
+        skip[input.menu_keyboard_vk()] = true
         for vk=1,255 do
             if not skip[vk] and input.key_just_pressed(vk) then
                 menu.set_hotkey(hk_idx, vk)
@@ -1421,11 +1500,18 @@ function handle_input()
         return
     end
 
+    if input.ui_just_pressed(UI.SEARCH) then
+        controller_edit_search = true
+        input.onscreen_open("", 127)
+        return
+    end
+
     if input.key_pressed(VK.DOWN) then menu.move_selection(1) end
     if input.key_pressed(VK.UP)   then menu.move_selection(-1) end
 
     local item = menu.get_item(menu.selected_index())
     local tp = item and item.type
+    local has_parent = menu.page_id() ~= menu.root_page()
 
     -- H = bind hotkey, Del = clear (only on hotkeyable, non-submenu rows)
     if item and tp~=item_type.sub_menu and menu.page_can_hotkey() then
@@ -1470,26 +1556,39 @@ function handle_input()
     end
     if input.key_pressed(VK.LEFT) and item and adjust(-1) then
         -- adjusted (repeats while held)
-    elseif input.key_just_pressed(VK.LEFT) then
+    elseif has_parent and input.key_just_pressed(VK.LEFT) then
         menu.go_back(); reset_scroll()
     end
 
     if input.key_just_pressed(VK.RETURN) then
+        local controller_accept = input.ui_just_pressed(UI.ACCEPT)
         if item and tp==item_type.color then
             cpick=true; cpick_idx=menu.selected_index(); cpick_frame=ctx.frame()
             cpick_v={item.r,item.g,item.b,item.a}
+            cpick_original={item.r,item.g,item.b,item.a}; cpick_focus=1
             cpick_h,cpick_s,cpick_val=util.rgb_to_hsv(item.r,item.g,item.b)
         elseif item and (tp==item_type.input_text or tp==item_type.input_int or tp==item_type.input_float or tp==item_type.search) then
-            edit_on=true; edit_idx=menu.selected_index(); edit_type=tp; edit_start_frame=ctx.frame()
-            edit_buf = tp==item_type.input_int and tostring(item.i_val)
+            local initial = tp==item_type.input_int and tostring(item.i_val)
                 or tp==item_type.input_float and string.format("%.2f",item.f_val)
                 or ((tp==item_type.input_text or tp==item_type.search) and (item.text or "")) or ""
+            if controller_accept then
+                controller_edit_idx=menu.selected_index(); controller_edit_search=false
+                input.onscreen_open(initial, 127)
+            else
+                edit_on=true; edit_idx=menu.selected_index(); edit_type=tp; edit_start_frame=ctx.frame()
+                edit_buf = initial
+            end
         else
             do_activate()
         end
     end
 
-    if input.key_just_pressed(VK.BACK) or input.key_just_pressed(VK.ESCAPE) then
+    -- Match the native GTAV list menu: Backspace uses the repeat-aware pulse so an input edge
+    -- cannot be missed by an injected frame; Escape remains edge-only.
+    local cancel_pressed = input.key_just_pressed(VK.ESCAPE)
+    if has_parent and (input.key_pressed(VK.BACK) or cancel_pressed) then
         menu.go_back(); reset_scroll()
+    elseif not has_parent and cancel_pressed then
+        menu.close_window()
     end
 end
