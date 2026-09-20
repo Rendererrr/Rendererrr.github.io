@@ -60,15 +60,14 @@ overlay.on_draw("info_panel", function()
     local rh = math.floor(ctx.screen_h() * scale + 0.5)
     local s = __panelkit.style
     local F = s.vfont
-    local A = { theme.accent() }
     local W, S = s.value_c, s.label_c
     local toks = {}
     local function push(tx, c) toks[#toks + 1] = { tx, c } end
-    local function sep()        push("  |  ", S) end
+    local function sep()        push("    ", S) end
     local first_group = true
     local function group(label, value)
         if not first_group then sep() end
-        if label then push(label, A) end
+        if label then push(label, S) end
         push(value, W)
         first_group = false
     end

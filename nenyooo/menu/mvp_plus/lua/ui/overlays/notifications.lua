@@ -1,9 +1,9 @@
 -- Compact notification cards. Long titles are ellipsized and messages wrap to at
 -- most three clipped lines, so user/script text can never escape the card.
 local GAP, MARGIN = 6, 12
-local MIN_W, MAX_W = 245, 340
-local SLIDE, MAX_LINES = 0.24, 3
-local stack_y = {}
+local MIN_W, MAX_W = 190, 270
+local ENTER, EXIT, DISTANCE, MAX_LINES = 0.340, 0.180, 18, 3
+local positions = {}
 
 local function clamp(v, lo, hi) return math.max(lo, math.min(hi, v)) end
 local function ease_out(p) p = clamp(p, 0, 1); local q = 1 - p; return 1 - q * q * q end
@@ -75,71 +75,78 @@ end
 
 overlay.on_draw("notifications", function()
     local count = notify.count()
-    if count == 0 then stack_y = {}; return end
-    local sw, now, dt = ctx.screen_w(), ctx.time(), ctx.delta()
+    if count == 0 then positions = {}; return end
+    local sw, now, dt = ctx.screen_w(), ctx.time(), math.max(0, ctx.delta())
     local gr, gg, gb = theme.green()
     local er, eg, eb = theme.red()
     local yr, yg, yb = theme.yellow()
-    local TFONT, MFONT, TIMEFONT = font.small, font.tiny, font.tiny
-    local title_h, line_h = text.height(TFONT), text.height(MFONT) + 1
-    local next_y, cursor = {}, MARGIN
+    local TFONT = font.overlay_heading or font.small
+    local MFONT = font.overlay_body or font.tiny
+    local TIMEFONT = font.tiny
+    local title_h, line_h = text.height(TFONT), text.height(MFONT) + 2
+    local next_positions, cursor = {}, MARGIN
 
     for i = 0, count - 1 do
         local n = notify.get(i)
         if n then
-            local age, alpha, progress = now - n.create_time, 255, 1
+            local age = math.max(0, now - n.create_time)
+            local entry = ease_out(age / ENTER)
+            local opacity, offset, space = entry, DISTANCE * (1 - entry), 1
             if n.closing then
-                local k = clamp(1 - (now - n.close_time) / SLIDE, 0, 1)
-                alpha, progress = math.floor(k * 255), ease_out(k)
-            else
-                local k = clamp(age / SLIDE, 0, 1)
-                alpha, progress = math.floor(k * 255), ease_out(k)
-                if age > n.duration - SLIDE then notify.close(n.index) end
+                local p = clamp((now - n.close_time) / EXIT, 0, 1)
+                local eased = p * p * (3 - 2 * p)
+                -- Closing during entry continues from its current opacity and position.
+                local at_close = ease_out((n.close_time - n.create_time) / ENTER)
+                opacity = at_close * (1 - eased)
+                offset = DISTANCE * (1 - at_close) + 8 * eased
+                space = 1 - eased
+            elseif age >= math.max(0, n.duration - EXIT) then
+                notify.close(n.index)
             end
 
+            local stamp = n.timestamp or "--:--"
+            local time_w = text.width(TIMEFONT, stamp)
+            local text_pad, right_pad = 32, 10
+            local natural = math.max(text.width(TFONT, n.title or ""), text.width(MFONT, n.message or ""))
+                + text_pad + right_pad + time_w + 8
+            local w = math.min(clamp(natural, MIN_W, MAX_W), math.max(100, sw - MARGIN * 2 - DISTANCE))
+            local content_w = math.max(1, w - text_pad - right_pad - time_w - 8)
+            local lines = wrap(MFONT, n.message, content_w)
+            local h = math.max(38, 12 + title_h + #lines * line_h + 2)
+            local previous = positions[n.index]
+            -- Native slots are reused; a fresh notification must not inherit the old slot's position.
+            local y = previous and previous.created == n.create_time and previous.y or cursor
+            y = y + (cursor - y) * (1 - math.exp(-14 * dt))
+            next_positions[n.index] = { y = y, created = n.create_time }
+            cursor = cursor + (h + GAP) * space
+
+            local alpha = math.floor(opacity * 255)
             if alpha > 0 then
                 local ar, ag, ab = yr, yg, yb
                 if n.color_type == 1 then ar, ag, ab = gr, gg, gb
                 elseif n.color_type == 2 then ar, ag, ab = er, eg, eb end
+                local x = sw - w - MARGIN + offset
+                draw.rect(x, y, x + w, y + h, 17, 19, 23, alpha, 5)
+                draw.rect_outline(x, y, x + w, y + h, 69, 72, 79, alpha, 5, 1)
 
-                local natural = math.max(text.width(TFONT, n.title or ""), text.width(MFONT, n.message or "")) + 77
-                local w = clamp(natural, MIN_W, MAX_W)
-                local text_x_pad, right_pad, time_space = 43, 10, 39
-                local content_w = w - text_x_pad - right_pad - time_space
-                local lines = wrap(MFONT, n.message, content_w)
-                local h = 14 + title_h + #lines * line_h + 7
-                local target_y = cursor
-                local y = stack_y[n.index] or target_y
-                y = y + (target_y - y) * (1 - math.exp(-18 * dt))
-                next_y[n.index] = y
-                local final_x = sw - w - MARGIN
-                local x = final_x + (1 - progress) * (w + MARGIN)
-                local aa = math.floor(alpha * 0.96)
-
-                draw.rect(x + 2, y + 3, x + w + 2, y + h + 3, 0, 0, 0, math.floor(alpha * 0.35), 6)
-                draw.rect(x, y, x + w, y + h, 14, 14, 17, aa, 6)
-                draw.rect_outline(x, y, x + w, y + h, 48, 48, 56, math.floor(alpha * 0.72), 6, 1)
-                draw.rect(x, y, x + 4, y + h, ar, ag, ab, alpha, 4)
-
-                draw.push_clip(x + 4, y + 1, x + w - 1, y + h - 1)
-                status_icon(x + 22, y + h * 0.5, n.color_type, ar, ag, ab, alpha)
-                local tx = x + text_x_pad
-                local title_max = w - text_x_pad - right_pad
-                text.draw_ellipsis(TFONT, tx, y + 7, 238, 238, 242, alpha, n.title or "", title_max)
-                local my = y + 8 + title_h
+                draw.push_clip(x + 1, y + 1, x + w - 1, y + h - 1)
+                draw.with_scale(x + 16, y + h * 0.5, 0.85, function()
+                    status_icon(x + 16, y + h * 0.5, n.color_type, ar, ag, ab, alpha)
+                end)
+                local tx = x + text_pad
+                local block_h = title_h + 2 + #lines * line_h
+                local ty = y + (h - block_h) * 0.5
+                text.draw_ellipsis(TFONT, tx, ty, 242, 243, 246, alpha, n.title or "", content_w)
+                local my = ty + title_h + 2
                 for li = 1, #lines do
-                    text.draw(MFONT, tx, my, 166, 166, 174, math.floor(alpha * 0.92), lines[li])
+                    text.draw(MFONT, tx, my, 174, 180, 193, alpha, lines[li])
                     my = my + line_h
                 end
-                local stamp = n.timestamp or "--:--"
-                text.draw(TIMEFONT, x + w - right_pad - text.width(TIMEFONT, stamp), y + h - text.height(TIMEFONT) - 6,
-                    137, 137, 146, math.floor(alpha * 0.9), stamp)
+                text.draw(TIMEFONT, x + w - right_pad - time_w,
+                    y + (h - text.height(TIMEFONT)) * 0.5, 156, 163, 175, alpha, stamp)
                 draw.pop_clip()
-                cursor = cursor + h + GAP
-            else
-                next_y[n.index] = stack_y[n.index] or cursor
             end
         end
     end
-    stack_y = next_y
+    positions = next_positions
 end)
