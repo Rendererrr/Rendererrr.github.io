@@ -148,15 +148,15 @@ local FONT_DEFS = {
     {n="Logo Size",        d=110, mn=20, mx=160, st=1,   f=font.title,      kind="sz", ds="Size of the Nenyoo banner wordmark"},
     {n="Logo Weight",      d=100, mn=100,mx=900, st=100, f=font.title,      kind="wt", ds="Weight of the banner wordmark font"},
     {n="Breadcrumb Size",  d=12,  mn=8,  mx=40,  st=1,   f=font.breadcrumb, kind="sz", ds="Size of the current page title"},
-    {n="Breadcrumb Weight",d=200, mn=100,mx=900, st=100, f=font.breadcrumb, kind="wt", ds="Weight of the current page title"},
+    {n="Breadcrumb Weight",d=400, mn=100,mx=900, st=100, f=font.breadcrumb, kind="wt", ds="Weight of the current page title"},
     {n="Item Size",        d=14,  mn=8,  mx=40,  st=1,   f=font.item,       kind="sz", ds="Size of option names"},
-    {n="Item Weight",      d=200, mn=100,mx=900, st=100, f=font.item,       kind="wt", ds="Weight of option names"},
+    {n="Item Weight",      d=400, mn=100,mx=900, st=100, f=font.item,       kind="wt", ds="Weight of option names"},
     {n="Value Size",       d=14,  mn=8,  mx=40,  st=1,   f=font.value,      kind="sz", ds="Size of values and control labels"},
-    {n="Value Weight",     d=200, mn=100,mx=900, st=100, f=font.value,      kind="wt", ds="Weight of values and control labels"},
+    {n="Value Weight",     d=400, mn=100,mx=900, st=100, f=font.value,      kind="wt", ds="Weight of values and control labels"},
     {n="Description Size", d=12,  mn=8,  mx=40,  st=1,   f=font.desc,       kind="sz", ds="Size of description-box text"},
-    {n="Description Weight",d=200,mn=100,mx=900, st=100, f=font.desc,       kind="wt", ds="Weight of description-box text"},
+    {n="Description Weight",d=400,mn=100,mx=900, st=100, f=font.desc,       kind="wt", ds="Weight of description-box text"},
     {n="Footer Size",      d=12,  mn=8,  mx=40,  st=1,   f=font.small,      kind="sz", ds="Size of the version and row counter"},
-    {n="Footer Weight",    d=200, mn=100,mx=900, st=100, f=font.small,      kind="wt", ds="Weight of footer text"},
+    {n="Footer Weight",    d=400, mn=100,mx=900, st=100, f=font.small,      kind="wt", ds="Weight of footer text"},
     {n="Badge Size",       d=13,  mn=6,  mx=30,  st=1,   f=font.tiny,       kind="sz", ds="Size of hotkey badges and edition label"},
     {n="Badge Weight",     d=600, mn=100,mx=900, st=100, f=font.tiny,       kind="wt", ds="Weight of badge text"},
 }
@@ -169,7 +169,7 @@ if font.overlay_heading and font.overlay_body then
     FONT_DEFS[#FONT_DEFS+1] = {n="Overlay Text Weight",d=500,mn=100,mx=900,st=100,f=font.overlay_body,kind="wt",overlay=true,ds="Thickness of overlay labels and values"}
 end
 local COLOR_MAP = {
-    {n="Header Color",           k="header_tint", d={130,0,255,255}, ds="Tint and opacity of the animated header; white keeps its original colors"},
+    {n="Header Color",           k="header_tint", d={129,0,255,255}, ds="Tint and opacity of the animated header; white keeps its original colors"},
     {n="Menu Background",        k="black",   d={0,0,0,143},       ds="Options list and menu gaps"},
     {n="Footer Background",      k="foot_bg", d={0,0,0,255},       ds="Background behind the footer"},
     {n="Breadcrumb Background",  k="sub_bg",  d={12,12,12,255},    ds="Background behind the current page title"},
