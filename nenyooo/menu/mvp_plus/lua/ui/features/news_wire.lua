@@ -16,6 +16,10 @@
 --
 -- Edit this file, save, then Reload from the Scripts page for changes to take effect.
 
+-- Classic Free intentionally has no N19 binding. Keep the shared paid-profile
+-- default inert when the authenticated tier does not expose News Wire.
+if type(news_wire) ~= "table" then return end
+
 news_wire.clear_stories()
 
 -- Ship the bundled Nenyoo logo. Delivered by cdn_assets::sync into the Textures folder.

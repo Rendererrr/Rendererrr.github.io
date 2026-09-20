@@ -4,32 +4,17 @@
 -- a footer (brand · up/down nav · counter) and a detached description box.
 -- Built on the flat menu.* API (one navigable column per page).
 
--- ── Fonts ──
--- Try to load Orbitron for the big "N" if the user dropped it in; otherwise the
--- default title font is used. Body text uses the standard slots.
--- Body + title fonts come from the translation manifest's `default_fonts` block (downloaded once by
--- font_assets::ensure); str.default_body_font()/str.default_title_font() return the on-disk rel path
--- when the file has landed, "" otherwise. The theme reloads once the download completes so the fonts
--- apply retroactively on first run. Must run body BEFORE title (per-slot override wins over global).
-pcall(function()
-    local p = str and str.default_body_font and str.default_body_font() or ""
-    if p ~= "" then text.load_font(p) end
-end)
-pcall(function()
-    local p = str and str.default_title_font and str.default_title_font() or ""
-    if p ~= "" then text.set_font_for(font.title, p) end
-end)
--- Font Awesome is provisioned from lang_menu's icon_font URL into the shared Fonts directory.
-local ICON_FONT = ""
+-- Font family is bundled with this theme; sizes and weights remain adjustable.
+local THEME_FONT = "Fonts/Naru Sans Demo.ttf"
+text.load_font(THEME_FONT)
+for name, slot in pairs(font) do
+    if type(slot) == "number" and name ~= "icon" then
+        text.set_font_for(slot, THEME_FONT)
+    end
+end
+-- Keep decorative icons and their reserved spacing disabled for this theme.
 local ICON_SLOT = font.icon or font.tagline
 local HAS_FA = false
-pcall(function()
-    ICON_FONT = str and str.default_icon_font and str.default_icon_font() or ""
-    if ICON_FONT ~= "" and fs and fs.exists and fs.exists(ICON_FONT) then
-        text.set_icon_font(ICON_SLOT, ICON_FONT)
-        HAS_FA = true
-    end
-end)
 -- Font sizes & weights are driven by Settings ▸ Theme ▸ Fonts; applied (with
 -- change-detection) by apply_fonts() defined below.
 
@@ -39,8 +24,8 @@ local function load_icon(key, file)
     local h = draw.load_image("textures/"..file)
     if h and h > 0 then IMG[key] = h end
 end
-load_icon("on",    "On.png")
-load_icon("off",   "Off.png")
+IMG.on = draw.load_image("textures/On.png")
+IMG.off = draw.load_image("textures/Off.png")
 load_icon("left",  "Left Arrow.png")
 load_icon("right", "Right Arrow.png")
 load_icon("up",    "Up Arrow.png")
@@ -146,14 +131,14 @@ local SETTINGS_VERSION = 4
 -- Layout sliders (lk = key in the `l` table reload_layout returns)
 local LAYOUT_DEFS = {
     {n="Menu Width",             d=400, mn=240, mx=800, st=10, lk="win_w",    ds="Width of the complete menu"},
-    {n="Banner Height",          d=120, mn=50,  mx=300, st=2,  lk="hdr_h",    ds="Height of the gradient logo banner"},
+    {n="Banner Height",          d=84, mn=50,  mx=300, st=2,  lk="hdr_h",    ds="Height of the gradient logo banner"},
     {n="Banner Gap",             d=-1,  mn=-10, mx=60,  st=1,  lk="hdr_gap",  ds="Space between the banner and breadcrumb"},
     {n="Breadcrumb Height",      d=34,  mn=20,  mx=80,  st=1,  lk="sub_h",    ds="Height of the page-title bar"},
-    {n="Row Height",             d=38,  mn=24,  mx=80,  st=1,  lk="row_h",    ds="Height of each menu option"},
+    {n="Row Height",             d=34,  mn=24,  mx=80,  st=1,  lk="row_h",    ds="Height of each menu option"},
     {n="Rows Per Page",          d=12,  mn=3,   mx=30,  st=1,  lk="vis_rows", ds="Maximum visible options before scrolling"},
-    {n="Footer Height",          d=40,  mn=20,  mx=100, st=1,  lk="foot_h",   ds="Height of the version and counter bar"},
-    {n="Horizontal Padding",     d=20,  mn=4,   mx=60,  st=1,  lk="pad_x",    ds="Left and right spacing inside the menu"},
-    {n="Scrollbar Width",        d=2,   mn=0,   mx=20,  st=1,  lk="scroll_w", ds="Width of the list scrollbar"},
+    {n="Footer Height",          d=34,  mn=20,  mx=100, st=1,  lk="foot_h",   ds="Height of the version and counter bar"},
+    {n="Horizontal Padding",     d=11,  mn=4,   mx=60,  st=1,  lk="pad_x",    ds="Left and right spacing inside the menu"},
+    {n="Scrollbar Width",        d=0,   mn=0,   mx=20,  st=1,  lk="scroll_w", ds="Width of the list scrollbar"},
     {n="Description Gap",        d=8,   mn=0,   mx=40,  st=1,  lk="desc_gap", ds="Space above the detached description box"},
     {n="Minimum Description Height", d=34, mn=20, mx=120, st=1, lk="desc_h", ds="Minimum height before wrapped text expands the box"},
 }
@@ -162,32 +147,40 @@ local LAYOUT_DEFS = {
 local FONT_DEFS = {
     {n="Logo Size",        d=110, mn=20, mx=160, st=1,   f=font.title,      kind="sz", ds="Size of the Nenyoo banner wordmark"},
     {n="Logo Weight",      d=100, mn=100,mx=900, st=100, f=font.title,      kind="wt", ds="Weight of the banner wordmark font"},
-    {n="Breadcrumb Size",  d=13,  mn=8,  mx=40,  st=1,   f=font.breadcrumb, kind="sz", ds="Size of the current page title"},
-    {n="Breadcrumb Weight",d=600, mn=100,mx=900, st=100, f=font.breadcrumb, kind="wt", ds="Weight of the current page title"},
-    {n="Item Size",        d=15,  mn=8,  mx=40,  st=1,   f=font.item,       kind="sz", ds="Size of option names"},
-    {n="Item Weight",      d=600, mn=100,mx=900, st=100, f=font.item,       kind="wt", ds="Weight of option names"},
-    {n="Value Size",       d=13,  mn=8,  mx=40,  st=1,   f=font.value,      kind="sz", ds="Size of values and control labels"},
-    {n="Value Weight",     d=600, mn=100,mx=900, st=100, f=font.value,      kind="wt", ds="Weight of values and control labels"},
-    {n="Description Size", d=13,  mn=8,  mx=40,  st=1,   f=font.desc,       kind="sz", ds="Size of description-box text"},
-    {n="Description Weight",d=500,mn=100,mx=900, st=100, f=font.desc,       kind="wt", ds="Weight of description-box text"},
-    {n="Footer Size",      d=13,  mn=8,  mx=40,  st=1,   f=font.small,      kind="sz", ds="Size of the version and row counter"},
-    {n="Footer Weight",    d=600, mn=100,mx=900, st=100, f=font.small,      kind="wt", ds="Weight of footer text"},
+    {n="Breadcrumb Size",  d=12,  mn=8,  mx=40,  st=1,   f=font.breadcrumb, kind="sz", ds="Size of the current page title"},
+    {n="Breadcrumb Weight",d=400, mn=100,mx=900, st=100, f=font.breadcrumb, kind="wt", ds="Weight of the current page title"},
+    {n="Item Size",        d=14,  mn=8,  mx=40,  st=1,   f=font.item,       kind="sz", ds="Size of option names"},
+    {n="Item Weight",      d=400, mn=100,mx=900, st=100, f=font.item,       kind="wt", ds="Weight of option names"},
+    {n="Value Size",       d=14,  mn=8,  mx=40,  st=1,   f=font.value,      kind="sz", ds="Size of values and control labels"},
+    {n="Value Weight",     d=400, mn=100,mx=900, st=100, f=font.value,      kind="wt", ds="Weight of values and control labels"},
+    {n="Description Size", d=12,  mn=8,  mx=40,  st=1,   f=font.desc,       kind="sz", ds="Size of description-box text"},
+    {n="Description Weight",d=400,mn=100,mx=900, st=100, f=font.desc,       kind="wt", ds="Weight of description-box text"},
+    {n="Footer Size",      d=12,  mn=8,  mx=40,  st=1,   f=font.small,      kind="sz", ds="Size of the version and row counter"},
+    {n="Footer Weight",    d=400, mn=100,mx=900, st=100, f=font.small,      kind="wt", ds="Weight of footer text"},
     {n="Badge Size",       d=13,  mn=6,  mx=30,  st=1,   f=font.tiny,       kind="sz", ds="Size of hotkey badges and edition label"},
     {n="Badge Weight",     d=600, mn=100,mx=900, st=100, f=font.tiny,       kind="wt", ds="Weight of badge text"},
 }
 
 -- Core UI colors (k = key in COL)
+if font.overlay_heading and font.overlay_body then
+    FONT_DEFS[#FONT_DEFS+1] = {n="Overlay Heading Size",d=10,mn=8,mx=20,st=1,f=font.overlay_heading,kind="sz",overlay=true,ds="Size of overlay panel headings"}
+    FONT_DEFS[#FONT_DEFS+1] = {n="Overlay Heading Weight",d=500,mn=100,mx=900,st=100,f=font.overlay_heading,kind="wt",overlay=true,ds="Thickness of overlay panel headings"}
+    FONT_DEFS[#FONT_DEFS+1] = {n="Overlay Text Size",d=10,mn=8,mx=20,st=1,f=font.overlay_body,kind="sz",overlay=true,ds="Size of overlay labels and values"}
+    FONT_DEFS[#FONT_DEFS+1] = {n="Overlay Text Weight",d=500,mn=100,mx=900,st=100,f=font.overlay_body,kind="wt",overlay=true,ds="Thickness of overlay labels and values"}
+end
 local COLOR_MAP = {
-    {n="Menu Background",        k="black",   d={0,0,0,199},       ds="Options list, footer and menu gaps"},
+    {n="Header Color",           k="header_tint", d={129,0,255,255}, ds="Tint and opacity of the animated header; white keeps its original colors"},
+    {n="Menu Background",        k="black",   d={0,0,0,143},       ds="Options list and menu gaps"},
+    {n="Footer Background",      k="foot_bg", d={0,0,0,255},       ds="Background behind the footer"},
     {n="Breadcrumb Background",  k="sub_bg",  d={12,12,12,255},    ds="Background behind the current page title"},
-    {n="Description Background", k="desc_bg", d={12,12,12,199},    ds="Background of the detached description box"},
-    {n="Item Text",              k="row_txt", d={221,221,221,255}, ds="Normal option and section text"},
-    {n="Value Text",             k="dim",     d={119,119,119,255}, ds="Slider values and inactive controls"},
-    {n="Breadcrumb Text",        k="sub_txt", d={187,187,187,255}, ds="Current page title"},
-    {n="Footer Text",            k="foot_txt",d={136,136,136,255}, ds="Version, row counter and hotkey hint"},
-    {n="Description Text",       k="desc_txt",d={154,154,154,255}, ds="Description-box text"},
-    {n="Selected Row Left",      k="sel_l",   d={222,238,255,255}, ds="Left side of the selected-row gradient"},
-    {n="Selected Row Right",     k="sel_r",   d={207,247,255,255}, ds="Right side of the selected-row gradient"},
+    {n="Description Background", k="desc_bg", d={12,12,12,255},    ds="Background of the detached description box"},
+    {n="Item Text",              k="row_txt", d={255,255,255,255}, ds="Normal option and section text"},
+    {n="Value Text",             k="dim",     d={255,255,255,255}, ds="Slider values and inactive controls"},
+    {n="Breadcrumb Text",        k="sub_txt", d={255,255,255,255}, ds="Current page title"},
+    {n="Footer Text",            k="foot_txt",d={255,255,255,255}, ds="Version, row counter and hotkey hint"},
+    {n="Description Text",       k="desc_txt",d={255,255,255,255}, ds="Description-box text"},
+    {n="Selected Row Left",      k="sel_l",   d={255,255,255,255}, ds="Left side of the selected-row gradient"},
+    {n="Selected Row Right",     k="sel_r",   d={255,255,255,255}, ds="Right side of the selected-row gradient"},
     {n="Selected Row Text",      k="sel_txt", d={0,0,0,255},       ds="Text and controls on the selected row"},
     {n="Icons and Badges",       k="white",   d={255,255,255,255}, ds="Navigation icons and normal hotkey badges"},
     {n="Toggle On",              k="on",      d={62,217,138,255},  ds="Enabled toggle color"},
@@ -195,10 +188,10 @@ local COLOR_MAP = {
 }
 -- Decorative accent colors
 local ACCENT_MAP = {
-    {n="Banner Left",  k="hdr_l", d={15,82,220,255},  ds="Left side of the banner and accent lines"},
-    {n="Banner Middle",k="hdr_m", d={0,210,255,255},  ds="Middle stop of the banner; needs 3-Color Banner enabled"},
-    {n="Banner Right", k="hdr_r", d={0,126,255,255},  ds="Right side of the banner and accent lines"},
-    {n="Global Accent",k="glow",  d={42,145,255,255}, ds="Section markers and shared Lua overlays"},
+    {n="Banner Left",  k="hdr_l", d={177,0,255,255},  ds="Left side of the banner and accent lines"},
+    {n="Banner Middle",k="hdr_m", d={145,0,255,255},  ds="Middle stop of the banner; needs 3-Color Banner enabled"},
+    {n="Banner Right", k="hdr_r", d={142,0,255,255},  ds="Right side of the banner and accent lines"},
+    {n="Global Accent",k="glow",  d={168,0,255,255}, ds="Section markers and shared Lua overlays"},
 }
 -- Effect toggles (fk = key in FX)
 local FX = {glare=true, scrollbar=true, hint=true, grad3=false, header_anim=true}
@@ -287,7 +280,15 @@ local function register_settings()
     menu.add_setting_submenu("Layout", "Menu size, spacing and visible rows")
     for _,d in ipairs(LAYOUT_DEFS) do menu.add_sub_slider(d.n, d.d, d.mn, d.mx, d.st, d.ds) end
     menu.add_setting_submenu("Typography", "Sizes and weights for every text role")
-    for _,d in ipairs(FONT_DEFS) do menu.add_sub_slider(d.n, d.d, d.mn, d.mx, d.st, d.ds) end
+    for _,d in ipairs(FONT_DEFS) do
+        if not d.overlay then menu.add_sub_slider(d.n, d.d, d.mn, d.mx, d.st, d.ds) end
+    end
+    if font.overlay_heading and font.overlay_body then
+        menu.add_setting_submenu("Overlay Typography", "Independent sizes and weights for overlay text")
+        for _,d in ipairs(FONT_DEFS) do
+            if d.overlay then menu.add_sub_slider(d.n, d.d, d.mn, d.mx, d.st, d.ds) end
+        end
+    end
     menu.add_setting_submenu("Menu Colors", "Every color drawn by the main menu")
     for _,d in ipairs(COLOR_MAP) do menu.add_sub_color(d.n, d.d[1],d.d[2],d.d[3],d.d[4], d.ds) end
     menu.add_setting_submenu("Branding", "Banner gradient and shared accent")
@@ -535,7 +536,9 @@ local function draw_animated_header(x, y, w, h)
     text.draw(font.tiny, tgx, tgy, 0,0,0,255, tag)
 end
 
+local block_menu_mouse = false
 local function hit(x1,y1,x2,y2)
+    if block_menu_mouse then return false end
     local mx,my = input.mouse_x(), input.mouse_y()
     return mx>=x1 and mx<x2 and my>=y1 and my<y2
 end
@@ -551,6 +554,16 @@ local function icon_h(key, x, cy, target_h, r,g,b,a)
     if r then draw.image_colored(h, x, y, x+w, y+target_h, r,g,b,a)
     else draw.image(h, x, y, x+w, y+target_h) end
     return w
+end
+
+local function toggle_icon(on, right, cy, height, selected)
+    local key = on and "on" or "off"
+    local handle = IMG[key]
+    if not handle or handle <= 0 then return end
+    local iw, ih = draw.image_size(handle)
+    if not iw or not ih or iw <= 0 or ih <= 0 then return end
+    local tint = selected and 0 or 255
+    icon_h(key, right - iw * height / ih, cy, height, tint, tint, tint, 255)
 end
 
 -- Language rows (info_type 40, Settings ▸ Language) carry i_val == index into lang.list(). That list
@@ -617,13 +630,13 @@ local cpick_v = {0,0,0,255}
 local cpick_h, cpick_s, cpick_val = 0,1,1
 local cpick_sv_drag, cpick_hue_drag, cpick_a_drag = false, false, false
 local cpick_focus, cpick_original = 1, {0,0,0,255}
-local CPICK_W, CPICK_GAP = 190, 10
+local CPICK_W, CPICK_GAP = 202, 8
 -- inline hotkey capture
 local hk_bind, hk_idx = false, -1
 local last_sel = -1
 -- The list skin omits registry-only section labels. Keep a cached display-row -> registry-index
 -- map so large dynamic pages are not fully fetched from C++ every frame.
-local list_page, list_raw_count = nil, -1
+local list_page, list_raw_count, list_revision = nil, -1, -1
 local list_indices, list_positions = {}, {}
 -- Header feature search. Results are snapshots of stable page ids + display text; no menu_item is
 -- copied or activated from this virtual list. Choosing a hit only navigates to its owning page.
@@ -645,9 +658,9 @@ local function reset_scroll() scroll=0; scroll_t=0 end
 local function close_popups() cpick=false; edit_on=false; hk_bind=false end
 
 local function current_list_items()
-    local page, raw_count = menu.page_id(), menu.item_count()
-    if page ~= list_page or raw_count ~= list_raw_count then
-        list_page, list_raw_count = page, raw_count
+    local page, raw_count, revision = menu.page_id(), menu.item_count(), items.revision()
+    if page ~= list_page or raw_count ~= list_raw_count or revision ~= list_revision then
+        list_page, list_raw_count, list_revision = page, raw_count, revision
         list_indices, list_positions = {}, {}
         for raw=0,raw_count-1 do
             local item = menu.get_item(raw)
@@ -735,6 +748,32 @@ end
 
 -- ════════════════════ Right-hand controls per row ════════════════════
 -- color args: pass the row's text color so icons/text invert with selection.
+local MINI_SIZE = 10
+local function mini_width(label)
+    return text.width(font.tiny, label) * MINI_SIZE / math.max(1, text.height(font.tiny))
+end
+local function mini_text(x, y, color, label)
+    local scale = MINI_SIZE / math.max(1, text.height(font.tiny))
+    local function paint()
+        text.draw(font.tiny, x, y, color[1], color[2], color[3], alpha(color), label)
+    end
+    -- Each native transform is limited to 0.5..2; split large reductions to keep 10px exact.
+    local ok, err = draw.with_scale(x, y, math.max(0.5, scale), function()
+        if scale < 0.5 then
+            local nested_ok, nested_err = draw.with_scale(x, y, scale / 0.5, paint)
+            if not nested_ok then error(nested_err, 0) end
+        else paint() end
+    end)
+    if not ok then error(err, 0) end
+end
+local function draw_keycap(x, y, w, h, label, selected)
+    local fg = selected and COL.sel_txt or {225, 227, 233, 255}
+    local border = selected and COL.sel_txt or {116, 119, 132, 255}
+    draw.rect_outline(x, y, x+w, y+h,
+        border[1], border[2], border[3], selected and 160 or 255, 3, 1)
+    mini_text(x+4, y+2, fg, label)
+end
+
 local function draw_right(item, x, y, w, sel)
     local tp = item.type
     local cy = y + ROW_H*0.5
@@ -773,9 +812,7 @@ local function draw_right(item, x, y, w, sel)
         -- buttons have no arrow (arrows mark sub-menus only)
 
     elseif tp==item_type.toggle then
-        local key = item.on and "on" or "off"
-        local c = sel and COL.sel_txt or (item.on and COL.on or COL.off)
-        icon_h(key, rx-20, cy, 20, c[1],c[2],c[3],alpha(c))
+        toggle_icon(item.on, rx, cy, 20, sel)
 
     elseif tp==item_type.color then
         -- just the swatch (no arrows — not a button)
@@ -816,8 +853,7 @@ local function draw_right(item, x, y, w, sel)
         local vw = text.width(font.value, s)
         text.draw(font.value, rx-vw, cy-text.height(font.value)*0.5, tc[1],tc[2],tc[3],alpha(tc), s)
         if tp==item_type.int_toggle or tp==item_type.float_toggle then
-            local c = sel and COL.sel_txt or (item.on and COL.on or COL.off)
-            icon_h(item.on and "on" or "off", rx-vw-8-18, cy, 18, c[1],c[2],c[3],alpha(c))
+            toggle_icon(item.on, rx-vw-8, cy, 18, sel)
         end
 
     elseif tp==item_type.array_option or tp==item_type.loop_option
@@ -843,8 +879,7 @@ local function draw_right(item, x, y, w, sel)
         end
         -- toggle variants also show the on/off icon to the left of the arrows
         if tp==item_type.array_toggle or tp==item_type.loop_toggle then
-            local c = sel and COL.sel_txt or (item.on and COL.on or COL.off)
-            icon_h(item.on and "on" or "off", lx-6-18, cy, 18, c[1],c[2],c[3],alpha(c))
+            toggle_icon(item.on, lx-6, cy, 18, sel)
         end
         return clicked_dir ~= 0
     end
@@ -856,10 +891,10 @@ local function draw_cpick(wx, wy, ww, wh)
     if not cpick then return end
     local item = menu.get_item(cpick_idx)
     if not item then cpick=false; return end
-    local SV_W,SV_H,HUE_W,ALPHA_H,PADP = 150,120,16,12,8
-    local HEAD_H, FOOT_H = 24, 18
+    local SV_W,SV_H,HUE_H,ALPHA_H,PADP = 182,86,10,10,10
+    local HEAD_H, FOOT_H = 28, 20
     local PW = CPICK_W
-    local PH = HEAD_H+SV_H+ALPHA_H+PADP*4+FOOT_H
+    local PH = HEAD_H+SV_H+HUE_H+ALPHA_H+PADP*5+FOOT_H
     local screen_pad = 12
 
     if input.controller_active() then
@@ -889,16 +924,14 @@ local function draw_cpick(wx, wy, ww, wh)
     end
     local px = wx + ww + CPICK_GAP
     if px+PW > ctx.screen_w()-screen_pad then px = wx-PW-CPICK_GAP end
-    px = clamp(px, screen_pad, ctx.screen_w()-PW-screen_pad)
+    px = clamp(px, screen_pad, math.max(screen_pad, ctx.screen_w()-PW-screen_pad))
     local anchor_y = wy + cpick_idx*ROW_H - scroll + ROW_H*0.5
-    local py = clamp(anchor_y-PH*0.5, screen_pad, ctx.screen_h()-PH-screen_pad)
+    local py = clamp(anchor_y-PH*0.5, screen_pad, math.max(screen_pad, ctx.screen_h()-PH-screen_pad))
 
-    draw.rect(px+3,py+4,px+PW+3,py+PH+4, 0,0,0,95, 7)
-    draw.rect(px,py,px+PW,py+PH, 18,18,22,252, 7)
-    draw.rect_outline(px,py,px+PW,py+PH, 74,74,82,220, 7, 1)
-    band_h(px, py, px+PW, py+HEAD_H, 235, 235)
-    text.draw_spaced(font.tiny, px+PADP, py+(HEAD_H-text.height(font.tiny))*0.5,
-        255,255,255,255, "COLOR", 1.0)
+    draw.rect(px,py,px+PW,py+PH, 23,25,30,255, 5)
+    draw.rect_outline(px,py,px+PW,py+PH, 84,87,98,255, 5, 1)
+    text.draw_ellipsis(font.tiny, px+PADP, py+(HEAD_H-text.height(font.tiny))*0.5,
+        240,241,245,255, item.name or "Color", PW-PADP*2)
 
     local svx,svy = px+PADP, py+HEAD_H+PADP
     local hr,hg,hb = util.hsv_to_rgb(cpick_h,1,1)
@@ -913,23 +946,25 @@ local function draw_cpick(wx, wy, ww, wh)
         local nr,ng,nb=util.hsv_to_rgb(cpick_h,cpick_s,cpick_val); cpick_v[1]=math.floor(nr);cpick_v[2]=math.floor(ng);cpick_v[3]=math.floor(nb)
     end
     -- hue strip
-    local hx,hy = svx+SV_W+PADP, svy
+    local hx,hy = svx, svy+SV_H+PADP
     for hi=0,11 do
         local r1,g1,b1=util.hsv_to_rgb(hi/12*360,1,1); local r2,g2,b2=util.hsv_to_rgb((hi+1)/12*360,1,1)
-        draw.rect_gradient(hx,hy+hi*SV_H/12,hx+HUE_W,hy+(hi+1)*SV_H/12, r1,g1,b1,255,r1,g1,b1,255,r2,g2,b2,255,r2,g2,b2,255)
+        draw.rect_gradient(hx+hi*SV_W/12,hy,hx+(hi+1)*SV_W/12,hy+HUE_H,
+            r1,g1,b1,255,r2,g2,b2,255,r2,g2,b2,255,r1,g1,b1,255)
     end
-    draw.rect_outline(hx,hy,hx+HUE_W,hy+SV_H, 100,100,108,220, 1, 1)
-    local hcy=hy+(cpick_h/360)*SV_H; draw.rect_outline(hx-2,hcy-2,hx+HUE_W+2,hcy+2,255,255,255,255,0,1)
-    if input.mouse_clicked(0) and hit(hx-2,hy,hx+HUE_W+2,hy+SV_H) then cpick_hue_drag=true end
+    local hcx=hx+(cpick_h/360)*SV_W
+    draw.rect_outline(hcx-2,hy-2,hcx+2,hy+HUE_H+2,255,255,255,255,1,1)
+    if input.mouse_clicked(0) and hit(hx,hy-2,hx+SV_W,hy+HUE_H+2) then cpick_hue_drag=true end
     if cpick_hue_drag and input.mouse_down(0) then
-        cpick_h=clamp((input.mouse_y()-hy)/SV_H,0,0.999)*360
+        cpick_h=clamp((input.mouse_x()-hx)/SV_W,0,0.999)*360
         local nr,ng,nb=util.hsv_to_rgb(cpick_h,cpick_s,cpick_val); cpick_v[1]=math.floor(nr);cpick_v[2]=math.floor(ng);cpick_v[3]=math.floor(nb)
     end
     -- alpha
-    local ay=svy+SV_H+PADP; local aw=SV_W+PADP+HUE_W
+    local ay=hy+HUE_H+PADP; local aw=SV_W
     draw.rect(svx,ay,svx+aw,ay+ALPHA_H, 40,40,40,255, 1)
     local at=cpick_v[4]/255
-    draw.rect_gradient(svx,ay,svx+at*aw,ay+ALPHA_H, cpick_v[1],cpick_v[2],cpick_v[3],60, cpick_v[1],cpick_v[2],cpick_v[3],255, cpick_v[1],cpick_v[2],cpick_v[3],255, cpick_v[1],cpick_v[2],cpick_v[3],60)
+    draw.rect_gradient(svx,ay,svx+aw,ay+ALPHA_H, cpick_v[1],cpick_v[2],cpick_v[3],0, cpick_v[1],cpick_v[2],cpick_v[3],255, cpick_v[1],cpick_v[2],cpick_v[3],255, cpick_v[1],cpick_v[2],cpick_v[3],0)
+    draw.rect_outline(svx+at*aw-2,ay-2,svx+at*aw+2,ay+ALPHA_H+2,255,255,255,255,1,1)
     draw.rect_outline(svx,ay,svx+aw,ay+ALPHA_H, 75,75,84,220, 1, 1)
     if input.mouse_clicked(0) and hit(svx,ay-2,svx+aw,ay+ALPHA_H+2) then cpick_a_drag=true end
     if cpick_a_drag and input.mouse_down(0) then cpick_v[4]=math.floor(clamp((input.mouse_x()-svx)/aw,0,1)*255+0.5) end
@@ -1026,6 +1061,7 @@ end
 
 -- ════════════════════ MAIN DRAW ════════════════════
 function draw_menu()
+    block_menu_mouse = cpick
     proc_onscreen_keyboard()
     reload_colors(); reload_fx()
     theme.set_body_bg(COL.black[1], COL.black[2], COL.black[3], alpha(COL.black))
@@ -1052,8 +1088,7 @@ function draw_menu()
     local sel   = searching and search_sel or (visible_positions[raw_sel] or 0)
     local selection_key = searching and ("search:"..sel) or (tostring(menu.page_id())..":"..raw_sel)
     if selection_key ~= last_sel then close_popups(); desc_alpha=0; last_sel=selection_key end
-    local is_root = menu.page_id() == menu.root_page()
-    local page_sub_h = is_root and 0 or SUB_H
+    local page_sub_h = SUB_H
 
     -- box geometry (centered horizontally, upper third vertically)
     -- list shrinks to the actual item count so empty rows don't leave a gap
@@ -1062,18 +1097,21 @@ function draw_menu()
     -- anchor the top to a FULL page's height so the header stays put no matter the
     -- option count; the box still shrinks downward (no empty rows) on short pages
     local ref_total_h = HDR_H + HDR_GAP + SUB_H + VIS_ROWS*ROW_H + FOOT_H + DESC_GAP + DESC_H
-    local group_w = cpick and (WIN_W+CPICK_GAP+CPICK_W) or WIN_W
-    local x = math.floor((ctx.screen_w()-group_w)/2)
+    local x = math.floor((ctx.screen_w()-WIN_W)/2)
     local y = math.floor((ctx.screen_h()-ref_total_h)/2)
 
     -- draggable by the header
-    local dox, doy = menu.drag_header(x, y, WIN_W, HDR_H)
+    local dox, doy
+    if cpick then dox, doy = menu.off_x(), menu.off_y()
+    else dox, doy = menu.drag_header(x, y, WIN_W, HDR_H) end
     x = x + dox; y = y + doy
 
-    -- ── Header (animated moon-and-comets artwork; procedural fallback while unavailable) ──
+    -- Header artwork; existing fallback while unavailable.
     draw.push_clip(x, y, x+WIN_W, y+HDR_H)
     if HEADER_IMG and HEADER_IMG > 0 then
-        draw.image(HEADER_IMG, x, y, x+WIN_W, y+HDR_H, 1.0)
+        local tint = COL.header_tint
+        draw.image_colored(HEADER_IMG, x, y, x+WIN_W, y+HDR_H,
+            tint[1], tint[2], tint[3], alpha(tint))
     else
         draw_animated_header(x, y, WIN_W, HDR_H)
     end
@@ -1271,33 +1309,30 @@ function draw_menu()
                     text.draw(font.item, name_x, name_y,
                         tcol[1],tcol[2],tcol[3],alpha(tcol), item.name)
                 end
-                -- hotkey tag: keycap-style badge (white bg, dark text); inverts on the
-                -- selected/hovered row (which is white) so it stays readable
+                -- Outlined hotkeys follow the selected row's text color for contrast.
                 if item.hotkey and item.hotkey ~= 0 then
                     local ks   = menu.vk_name(item.hotkey)
-                    local kw   = text.width(font.tiny, ks)
-                    local kh   = text.height(font.tiny)
-                    local padx, pady = 6, 3
+                    local kw   = mini_width(ks)
+                    local kh   = MINI_SIZE
+                    local padx, pady = 4, 2
                     local tagw = kw + padx*2
                     local tagh = kh + pady*2
                     local bx   = name_x+text.width(font.item, item.name)+8
                     local by   = ry + (ROW_H-tagh)*0.5
                     local inv  = is_sel or hov
-                    local bg   = inv and COL.sel_txt or COL.white
-                    local fg   = inv and COL.sel_l or COL.black
-                    draw.rect(bx, by, bx+tagw, by+tagh, bg[1],bg[2],bg[3],alpha(bg), 4)
-                    text.draw(font.tiny, bx+padx, by+pady, fg[1],fg[2],fg[3],alpha(fg), ks)
+                    draw_keycap(bx, by, tagw, tagh, ks, inv)
                 end
-                -- static key-hint: purple keycaps (e.g. "X V" -> [X] + [V]). Informational only,
+                -- Static key hints share the outlined style; player-status badges retain their colors.
+                -- Key hints (e.g. "X V" -> [X] + [V]) are informational only,
                 -- not a bindable hotkey. Sits after the name (and after the hotkey badge if any).
                 if item.hint and item.hint ~= "" then
-                    local padx, pady = 6, 3
-                    local kh   = text.height(font.tiny)
+                    local padx, pady = 4, 2
+                    local kh   = MINI_SIZE
                     local tagh = kh + pady*2
                     local by   = ry + (ROW_H-tagh)*0.5
                     local hx   = name_x+text.width(font.item, item.name)+8
                     if item.hotkey and item.hotkey ~= 0 then
-                        hx = hx + text.width(font.tiny, menu.vk_name(item.hotkey)) + padx*2 + 8
+                        hx = hx + mini_width(menu.vk_name(item.hotkey)) + padx*2 + 8
                     end
                     local first = true
                     for tok in string.gmatch(item.hint, "%S+") do
@@ -1309,21 +1344,24 @@ function draw_menu()
                         local c = is_tag and TAG_COL[tok] or nil
                         -- "+" only joins real key combos; status tags stand alone.
                         if not first and not is_tag then
-                            text.draw(font.tiny, hx+3, by+pady, 154,154,160,255, "+")
-                            hx = hx + text.width(font.tiny, "+") + 6
+                            local join = (is_sel or hov) and COL.sel_txt or COL.dim
+                            mini_text(hx+3, by+pady, join, "+")
+                            hx = hx + mini_width("+") + 6
                         end
                         first = false
-                        local kw   = text.width(font.tiny, tok)
+                        local kw   = mini_width(tok)
                         local tagw = kw + padx*2
-                        local r,g,b = 42,145,255
-                        if c then r,g,b = c[1],c[2],c[3] end
-                        draw.rect(hx, by, hx+tagw, by+tagh, r,g,b,255, 4)
-                        -- dark text on light badges, white on dark ones (rough luminance test)
-                        local lum = (r*299 + g*587 + b*114) / 1000
-                        if lum > 150 then
-                            text.draw(font.tiny, hx+padx, by+pady, 20,20,26,255, tok)
+                        if not is_tag then
+                            draw_keycap(hx, by, tagw, tagh, tok, is_sel or hov)
                         else
-                            text.draw(font.tiny, hx+padx, by+pady, 255,255,255,255, tok)
+                            local r,g,b = 42,145,255
+                            if c then r,g,b = c[1],c[2],c[3] end
+                            -- Retain each status hue as a soft fill with a dark matching label.
+                            draw.rect(hx, by, hx+tagw, by+tagh,
+                                math.floor(r*0.3+255*0.7), math.floor(g*0.3+255*0.7),
+                                math.floor(b*0.3+255*0.7), 255, 3)
+                            mini_text(hx+padx, by+pady,
+                                {math.floor(r*0.35), math.floor(g*0.35), math.floor(b*0.35),255}, tok)
                         end
                         hx = hx + tagw + 3
                     end
@@ -1334,17 +1372,19 @@ function draw_menu()
                     menu.set_selected(raw_i)
                     if value_clicked then
                         -- The left/right value arrow already applied the change.
-                    elseif item.type==item_type.toggle then menu.toggle_item(i)
+                    elseif item.type==item_type.toggle then menu.toggle_item(raw_i)
                     elseif item.type==item_type.sub_menu or item.type==item_type.array_toggle
                         or item.type==item_type.loop_toggle or item.type==item_type.action
                         or item.type==item_type.selected_tick then
                         do_activate()
                     elseif item.type==item_type.color then
-                        cpick=true; cpick_idx=i; cpick_frame=ctx.frame()
+                        cpick=true; cpick_idx=raw_i; cpick_frame=ctx.frame()
                         cpick_v={item.r,item.g,item.b,item.a}
+                        cpick_original={item.r,item.g,item.b,item.a}; cpick_focus=1
+                        cpick_sv_drag=false; cpick_hue_drag=false; cpick_a_drag=false
                         cpick_h,cpick_s,cpick_val=util.rgb_to_hsv(item.r,item.g,item.b)
                     elseif item.type==item_type.input_text or item.type==item_type.input_int or item.type==item_type.input_float or item.type==item_type.search then
-                        edit_on=true; edit_idx=i; edit_type=item.type; edit_start_frame=ctx.frame()
+                        edit_on=true; edit_idx=raw_i; edit_type=item.type; edit_start_frame=ctx.frame()
                         edit_buf = item.type==item_type.input_int and tostring(item.i_val)
                             or item.type==item_type.input_float and string.format("%.2f",item.f_val)
                             or ((item.type==item_type.input_text or item.type==item_type.search) and (item.text or "")) or ""
@@ -1369,7 +1409,7 @@ function draw_menu()
 
     -- ── Footer ──
     local fy = list_y + list_h
-    draw.rect(x, fy, x+WIN_W, fy+FOOT_H, COL.black[1],COL.black[2],COL.black[3],alpha(COL.black))
+    draw.rect(x, fy, x+WIN_W, fy+FOOT_H, COL.foot_bg[1],COL.foot_bg[2],COL.foot_bg[3],alpha(COL.foot_bg))
     -- cyan → purple gradient accent line at the top of the footer (left cyan, right purple)
     draw.rect_gradient(x, fy, x+WIN_W, fy+2,
         COL.hdr_r[1],COL.hdr_r[2],COL.hdr_r[3],alpha(COL.hdr_r),
@@ -1428,7 +1468,7 @@ function draw_menu()
     end
     local dvpad = math.max(4, (DESC_H - dlh)*0.5)
     local desc_h = math.max(DESC_H, math.ceil(dlines*dlh + dvpad*2))
-    draw.rect(x, dy, x+WIN_W, dy+desc_h, COL.black[1],COL.black[2],COL.black[3],alpha(COL.black))
+    draw.rect(x, dy, x+WIN_W, dy+desc_h, COL.desc_bg[1],COL.desc_bg[2],COL.desc_bg[3],alpha(COL.desc_bg))
     local a = math.floor(alpha(COL.desc_txt)*desc_alpha)
     if HAS_FA then
         local glyph = "\xEF\x81\x9A" -- Font Awesome F05A: circle-info
@@ -1443,6 +1483,7 @@ function draw_menu()
     draw.pop_clip()
 
     -- popups on top
+    block_menu_mouse = false
     draw_cpick(x, list_y, WIN_W, list_h)
     proc_edit()
     menu.set_text_editing(edit_on or search_open)   -- suppress game/cam input while typing

@@ -1,7 +1,6 @@
 
 -- Player-info panels for Network -> Players. Standalone overlay (theme-independent). Geolocation and
--- Stats stack in the left column, player details and the live ped preview occupy the upper-right area,
--- and the location map spans both of those right-side columns below them.
+-- Stats stack in the left column; player details and the live in-game ped preview occupy the right.
 --
 -- Two rules exist because earlier revisions got them wrong and must not regress:
 --   * every value is drawn with text.draw_ellipsis against an explicit budget. A revision that simply
@@ -23,17 +22,6 @@ local function vcol(v)
     if v == C.hidden or v == C.na or v == "-" or v == "" or v == C.resolving then return 100, 106, 122 end
     return 226, 230, 240
 end
-
--- World-map state. world -> UV transform from gtaDiscoveryApi map calibration.
-local MAP_UVSX, MAP_UVOX =  0.0000809375, 0.458203125
-local MAP_UVSY, MAP_UVOY = -0.0000800781, 0.675
-local map_zoom, map_cu, map_cv    = 1.0, 0.5, 0.5
-local map_tzoom, map_tcu, map_tcv = 1.0, 0.5, 0.5
-local map_focus = -1
-local map_selected_id = -1
-local map_drag, map_dpx, map_dpy = false, 0, 0
-local function mclamp(v, lo, hi) return math.max(lo, math.min(hi, v)) end
-local function mease(speed, dt) if dt <= 0 then return 1.0 end return 1.0 - math.exp(-speed * dt) end
 
 overlay.on_draw("player_panel", function()
     local st = menu.get_setting("Show Player Info")
@@ -65,13 +53,14 @@ overlay.on_draw("player_panel", function()
     local function alert(v) return v == C.yes and { 235, 96, 96 } or nil end
 
     local sw, shh = ctx.screen_w(), ctx.screen_h()
-    local rfont = font.small
-    local ar, ag, ab = theme.accent()
+    local rfont = font.overlay_body or font.small
+    local hfont = font.overlay_heading or font.label
+    local skin = __panelkit.style
 
-    local ipad   = 8
-    local rh     = math.floor(text.height(rfont) + 4)
-    local th     = math.floor(text.height(rfont) + 10)   -- panel title bar
-    local gapx   = 8
+    local ipad   = skin.padx
+    local rh     = math.floor(text.height(rfont) + skin.rgap)
+    local th     = math.floor(text.height(hfont) + skin.pady * 2)
+    local gapx   = __panelkit.GUTTER
     local WA, WB, WC = 252, 300, 180
     local W = WA + gapx + WB + gapx + WC
 
@@ -101,15 +90,15 @@ overlay.on_draw("player_panel", function()
         end
     end
 
-    -- Square dark box + title + accent rule + clipped rows. Returns its own height so panels stack.
+    -- Compact title band and clipped rows. Each panel measures its own height.
     local function panel(x, y, w, ptitle, rows, extra_h)
         local bodyh = rows_h(rows) + (extra_h or 0)
         local h = th + 3 + bodyh + ipad
-        draw.rect(x, y, x + w, y + h, 14, 14, 18, 238)
-        draw.rect_outline(x, y, x + w, y + h, 255, 255, 255, 22, 0, 1)
-        text.draw_ellipsis(rfont, x + ipad, y + math.floor((th - text.height(rfont)) / 2),
+        draw.rect(x, y, x + w, y + h, skin.bg_top[1], skin.bg_top[2], skin.bg_top[3], skin.bg_a)
+        draw.rect_outline(x, y, x + w, y + h, skin.border[1], skin.border[2], skin.border[3], 255, 0, 1)
+        draw.rect(x + 1, y + 1, x + w - 1, y + th, skin.header[1], skin.header[2], skin.header[3], 255)
+        text.draw_ellipsis(hfont, x + ipad, y + math.floor((th - text.height(hfont)) / 2),
             232, 236, 246, 255, ptitle, w - ipad * 2)
-        draw.rect(x, y + th, x + w, y + th + 2, ar, ag, ab, 255)   -- accent rule, the reference's motif
 
         local cx, cw = x + ipad, w - ipad * 2
         local half = math.floor((cw - 10) / 2)
@@ -117,7 +106,7 @@ overlay.on_draw("player_panel", function()
         local yy = y + th + 3 + 3
         for _, e in ipairs(rows) do
             if e[1] == "d" then
-                draw.rect(cx, yy + 3, cx + cw, yy + 4, ar, ag, ab, 120)
+                draw.rect(cx, yy + 3, cx + cw, yy + 4, skin.border[1], skin.border[2], skin.border[3], 255)
                 yy = yy + 7
             elseif e[1] == "p" then
                 put(cx, half, yy, e[2], e[3], e[6])
@@ -166,8 +155,12 @@ overlay.on_draw("player_panel", function()
     R(mn, L.weapon, p.weapon)
     R(mn, L.vehicle, p.vehicle)
     D(mn)
-    R(mn, L.model, p.model_name)
-    P(mn, L.type, p.model_label, L.hash, p.model_hash)
+    if players.discovery_metadata() then
+        R(mn, L.model, p.model_name)
+        P(mn, L.type, p.model_label, L.hash, p.model_hash)
+    else
+        R(mn, L.hash, p.model_hash)
+    end
     R(mn, L.coords, p.position)
     P(mn, L.heading, p.heading, L.zone, p.zone)
     P(mn, L.distance, p.distance, L.speed, p.speed)
@@ -181,17 +174,13 @@ overlay.on_draw("player_panel", function()
 
     -- ---- placement ---------------------------------------------------------------------------------
     local ped_h = 306
-    local map_W = WB + gapx + WC
-    local map_view_w = map_W - ipad * 2
-    local map_view_h = 210
 
     local hA = th + 3 + rows_h(geo) + ipad
     local hB = th + 3 + rows_h(st)  + ipad
     local hC = th + 3 + rows_h(mn)  + ipad
     local hD = th + 3 + ped_h + ipad + 3
-    local map_panel_h = th + 3 + map_view_h + ipad + 3
     local upper_right_h = math.max(hC, hD)
-    local H  = math.max(hA + gapx + hB, upper_right_h + gapx + map_panel_h)
+    local H  = math.max(hA + gapx + hB, upper_right_h)
 
     local bx, by, bw = menu.bounds()
     local X0, Y0
@@ -223,13 +212,15 @@ overlay.on_draw("player_panel", function()
     -- backdrop are drawn by the game (GRAPHICS::DRAW_RECT + the UI3D scene) in the game's render pass;
     -- our D2D overlay composites afterwards, so a single rect over the whole panel would bury both
     -- under near-opaque black -- which is exactly what made the slot look unlit.
-    draw.rect(xC, yD,  xC + WC, py0,      14, 14, 18, 238)   -- title strip
-    draw.rect(xC, py0, px0,     py1,      14, 14, 18, 238)   -- left of slot
-    draw.rect(px1, py0, xC + WC, py1,     14, 14, 18, 238)   -- right of slot
-    draw.rect(xC, py1, xC + WC, yD + hD,  14, 14, 18, 238)   -- below the ped slot
-    draw.rect_outline(xC, yD, xC + WC, yD + hD, 255, 255, 255, 22, 0, 1)
-    text.draw(rfont, xC + ipad, yD + math.floor((th - text.height(rfont)) / 2), 232, 236, 246, 255, string.upper(L.preview))
-    draw.rect(xC, yD + th, xC + WC, yD + th + 2, ar, ag, ab, 255)
+    local bg = skin.bg_top
+    draw.rect(xC, yD,  xC + WC, py0,      bg[1], bg[2], bg[3], skin.bg_a)
+    draw.rect(xC, py0, px0,     py1,      bg[1], bg[2], bg[3], skin.bg_a)
+    draw.rect(px1, py0, xC + WC, py1,     bg[1], bg[2], bg[3], skin.bg_a)
+    draw.rect(xC, py1, xC + WC, yD + hD,  bg[1], bg[2], bg[3], skin.bg_a)
+    draw.rect_outline(xC, yD, xC + WC, yD + hD, skin.border[1], skin.border[2], skin.border[3], 255, 0, 1)
+    draw.rect(xC + 1, yD + 1, xC + WC - 1, yD + th, skin.header[1], skin.header[2], skin.header[3], 255)
+    text.draw_ellipsis(hfont, xC + ipad, yD + math.floor((th - text.height(hfont)) / 2),
+        232, 236, 246, 255, L.preview, WC - ipad * 2)
 
     draw.rect_outline(px0, py0, px1, py1, 255, 255, 255, 22, 0, 1)
     local ped_ok = false
@@ -245,149 +236,4 @@ overlay.on_draw("player_panel", function()
             120, 126, 142, 255, s)
     end
 
-    -- The location panel spans the main-info and preview columns. This gives the map enough room to
-    -- remain useful while keeping the ped preview intact above it.
-    local map_x = xB
-    local map_y0 = Y0 + upper_right_h + gapx
-    draw.rect(map_x, map_y0, map_x + map_W, map_y0 + map_panel_h, 14, 14, 18, 238)
-    draw.rect_outline(map_x, map_y0, map_x + map_W, map_y0 + map_panel_h, 255, 255, 255, 22, 0, 1)
-    text.draw_ellipsis(rfont, map_x + ipad, map_y0 + math.floor((th - text.height(rfont)) / 2),
-        232, 236, 246, 255, string.upper(L.location), map_W - ipad * 2)
-    draw.rect(map_x, map_y0 + th, map_x + map_W, map_y0 + th + 2, ar, ag, ab, 255)
-
-    local map_vx = map_x + ipad
-    local map_vy = map_y0 + th + 6
-    -- World map spanning columns two and three. Local = cyan, selected/highlighted = accent,
-    -- others = white. Drag to pan, scroll to zoom, click a blip to zoom+center.
-    do
-        local VW, VH = map_view_w, map_view_h
-        local vx, vy = map_vx, map_vy
-        local dt = ctx.delta()
-        local hi_id = p.player_id or -1
-
-        draw.rect(vx, vy, vx + VW, vy + VH, 12, 13, 18, 255)
-
-        local ready = players.map_ensure()
-        local path  = players.map_path()
-        local blips = players.map_blips()
-
-        -- A new row selection becomes the camera target. Only update the target here; the live map
-        -- transform below eases toward it, so rapid keyboard navigation remains fluid rather than snapping.
-        if hi_id ~= map_selected_id then
-            local selected_blip = nil
-            for i = 1, #blips do
-                if blips[i].id == hi_id then selected_blip = blips[i]; break end
-            end
-            if selected_blip then
-                map_selected_id = hi_id
-                map_focus = hi_id
-                map_tcu = MAP_UVSX * selected_blip.x + MAP_UVOX
-                map_tcv = MAP_UVSY * selected_blip.y + MAP_UVOY
-                map_tzoom = 1.7
-                map_drag = false
-            end
-        end
-
-        local mx, my = input.mouse_x(), input.mouse_y()
-        local inside = menu_visible and mx >= vx and mx <= vx + VW and my >= vy and my <= vy + VH
-
-        local base_side = math.max(VW, VH)
-        local side_now = base_side * map_zoom
-        local dxn = vx + VW * 0.5 - map_cu * side_now
-        local dyn = vy + VH * 0.5 - map_cv * side_now
-
-        if inside then
-            local hit = nil
-            for i = 1, #blips do
-                local b = blips[i]
-                local sx = dxn + (MAP_UVSX * b.x + MAP_UVOX) * side_now
-                local sy = dyn + (MAP_UVSY * b.y + MAP_UVOY) * side_now
-                if (sx - mx) * (sx - mx) + (sy - my) * (sy - my) <= 64 then hit = b end
-            end
-            if input.mouse_clicked(0) then
-                if hit then
-                    map_focus = hit.id
-                    map_tcu = MAP_UVSX * hit.x + MAP_UVOX
-                    map_tcv = MAP_UVSY * hit.y + MAP_UVOY
-                    map_tzoom = 2.2
-                else
-                    map_drag = true; map_dpx, map_dpy = mx, my
-                end
-            end
-            local w = input.mouse_wheel()
-            if w ~= 0 then
-                local ucur = (mx - dxn) / side_now
-                local vcur = (my - dyn) / side_now
-                map_tzoom = mclamp(map_tzoom * (w > 0 and 1.25 or (1 / 1.25)), 1.0, 8.0)
-                local side_t = base_side * map_tzoom
-                map_tcu = ucur + (vx + VW * 0.5 - mx) / side_t
-                map_tcv = vcur + (vy + VH * 0.5 - my) / side_t
-            end
-        end
-        if not menu_visible then map_drag = false end
-        if map_drag then
-            if input.mouse_down(0) then
-                map_tcu = map_tcu - (mx - map_dpx) / side_now
-                map_tcv = map_tcv - (my - map_dpy) / side_now
-                map_dpx, map_dpy = mx, my
-            else
-                map_drag = false
-            end
-        end
-
-        if map_tzoom <= 1.0 then
-            map_tcu, map_tcv = 0.5, 0.5
-        else
-            local thu = (VW / base_side) * 0.5 / map_tzoom
-            local thv = (VH / base_side) * 0.5 / map_tzoom
-            map_tcu = mclamp(map_tcu, thu, 1 - thu); map_tcv = mclamp(map_tcv, thv, 1 - thv)
-        end
-        local zoom_k = mease(5.5, dt)
-        local pan_k = mease(7.0, dt)
-        map_zoom = map_zoom + (map_tzoom - map_zoom) * zoom_k
-        map_cu   = map_cu + (map_tcu - map_cu) * pan_k
-        map_cv   = map_cv + (map_tcv - map_cv) * pan_k
-
-        draw.push_clip(vx, vy, vx + VW, vy + VH)
-        local side = base_side * map_zoom
-        local dx0 = vx + VW * 0.5 - map_cu * side
-        local dy0 = vy + VH * 0.5 - map_cv * side
-        local drawn = ready and draw.preview_image(path, dx0, dy0, dx0 + side, dy0 + side, 1.0, false)
-        if drawn then
-            local hov, hov_x, hov_y
-            for i = 1, #blips do
-                local b = blips[i]
-                local sx = dx0 + (MAP_UVSX * b.x + MAP_UVOX) * side
-                local sy = dy0 + (MAP_UVSY * b.y + MAP_UVOY) * side
-                if sx >= vx and sx <= vx + VW and sy >= vy and sy <= vy + VH then
-                    local cr, cg, cb = 240, 240, 240
-                    if b["local"] then
-                        cr, cg, cb = 90, 200, 255
-                    elseif b.selected or b.id == hi_id or b.id == map_focus then
-                        cr, cg, cb = ar, ag, ab
-                    end
-                    draw.circle(sx, sy, 4.0, 0, 0, 0, 200)
-                    draw.circle(sx, sy, 2.6, cr, cg, cb, 255)
-                    if b.id == hi_id or b.id == map_focus then draw.circle_outline(sx, sy, 6.0, ar, ag, ab, 1.5) end
-                    if (sx - mx) * (sx - mx) + (sy - my) * (sy - my) <= 49 then
-                        hov = (b.name and b.name ~= "") and b.name or ("Player " .. tostring(b.id))
-                        hov_x, hov_y = sx, sy
-                    end
-                end
-            end
-            draw.pop_clip()
-            if hov then
-                local tw = text.width(font.tiny, hov) + 10
-                local tx = mclamp(hov_x + 8, vx, vx + VW - tw)
-                local ty = mclamp(hov_y - 16, vy, vy + VH - 14)
-                draw.rect(tx, ty, tx + tw, ty + 14, 0, 0, 0, 215, 3)
-                text.draw(font.tiny, tx + 5, ty + 2, 235, 235, 235, 255, hov)
-            end
-        else
-            draw.pop_clip()
-            local s = L.loading_map
-            text.draw(font.tiny, vx + (VW - text.width(font.tiny, s)) * 0.5, vy + VH * 0.5 - 6, 150, 154, 165, 255, s)
-        end
-        draw.rect_outline(vx, vy, vx + VW, vy + VH, ar, ag, ab, 255, 0, 1)
-    end
 end)

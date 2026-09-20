@@ -5,7 +5,7 @@
 __panelkit = {
     rects   = {}, drags = {}, pos = {}, saved = {}, natw = {}, nath = {}, dock = {}, render = {},
     folded  = {}, cbox = {}, hist = {}, hslot = {}, dprev = {}, dval = {}, dslot = {},
-    GUTTER  = 10, SNAP = 12, EPS = 3, ANCHOR = "info_panel", SMOOTH = 18,
+    GUTTER  = 1, SNAP = 12, EPS = 3, ANCHOR = "info_panel", SMOOTH = 18,
     LAYOUT_FILE = "panel_layout.ini",
 }
 do
@@ -207,13 +207,13 @@ local function draw_indicator(name, r)
         if n ~= name then
             if overlap(r.y, r.y + r.h, o.y, o.y + o.h) > 0 then
                 local y0, y1 = math.max(r.y, o.y), math.min(r.y + r.h, o.y + o.h)
-                if math.abs((r.x + r.w + k.GUTTER) - o.x) <= k.EPS then draw.rect(r.x + r.w + 1, y0, o.x - 1, y1, ar, ag, ab, 255)
-                elseif math.abs((o.x + o.w + k.GUTTER) - r.x) <= k.EPS then draw.rect(o.x + o.w + 1, y0, r.x - 1, y1, ar, ag, ab, 255) end
+                if math.abs((r.x + r.w + k.GUTTER) - o.x) <= k.EPS then draw.line(o.x, y0, o.x, y1, ar, ag, ab, 255, 1)
+                elseif math.abs((o.x + o.w + k.GUTTER) - r.x) <= k.EPS then draw.line(r.x, y0, r.x, y1, ar, ag, ab, 255, 1) end
             end
             if overlap(r.x, r.x + r.w, o.x, o.x + o.w) > 0 then
                 local x0, x1 = math.max(r.x, o.x), math.min(r.x + r.w, o.x + o.w)
-                if math.abs((r.y + r.h + k.GUTTER) - o.y) <= k.EPS then draw.rect(x0, r.y + r.h + 1, x1, o.y - 1, ar, ag, ab, 255)
-                elseif math.abs((o.y + o.h + k.GUTTER) - r.y) <= k.EPS then draw.rect(x0, o.y + o.h + 1, x1, r.y - 1, ar, ag, ab, 255) end
+                if math.abs((r.y + r.h + k.GUTTER) - o.y) <= k.EPS then draw.line(x0, o.y, x1, o.y, ar, ag, ab, 255, 1)
+                elseif math.abs((o.y + o.h + k.GUTTER) - r.y) <= k.EPS then draw.line(x0, r.y, x1, r.y, ar, ag, ab, 255, 1) end
             end
         end
     end
@@ -309,20 +309,18 @@ function __panelkit.hide(name)
 end
 
 -- ── shared "card" chrome ──────────────────────────────────────────────────────────────────────
--- Techy-HUD look: subtle vertical gradient body, a solid accent rail down the left edge instead of
--- a full outline (eight outlined boxes at once was a lot of frame for not much content), an
--- UPPERCASE letter-spaced title, a thin header divider, and optional per-row usage gauges.
+-- Compact chrome: flat square panels, neutral title bands, and a thin shared dock gutter.
 -- ALL panel styling lives here -- edit once.
 __panelkit.style = {
-    tfont = font.label, vfont = font.value, tspacing = 2,
-    padx = 11, pady = 8, rgap = 6, colgap = 24, blk = 3,
-    bg_top = { 24, 25, 32 }, bg_bot = { 15, 15, 21 }, bg_a = 238,
-    title_c = { 236, 238, 245 }, label_c = { 140, 143, 156 }, value_c = { 234, 236, 244 },
-    track = { 38, 39, 48 }, divider_a = 70,
-    radius = 7, element_radius = 3,
-    rail_w = 3,                                        -- accent edge (replaces the full outline)
+    tfont = font.overlay_heading or font.label, vfont = font.overlay_body or font.value, tspacing = 0,
+    padx = 12, pady = 6, rgap = 4, colgap = 18, blk = 3,
+    bg_top = { 16, 17, 21 }, bg_bot = { 16, 17, 21 }, bg_a = 255,
+    header = { 27, 28, 34 }, border = { 58, 59, 68 },
+    title_c = { 243, 244, 247 }, label_c = { 167, 172, 184 }, value_c = { 243, 244, 247 },
+    track = { 45, 48, 58 }, divider_a = 100,
+    radius = 0, element_radius = 0,
     good = { 92, 214, 145 }, warn = { 235, 182, 70 }, bad = { 245, 83, 91 },
-    seg_n = 20, seg_gap = 1.5, seg_h = 4,              -- segmented usage gauge
+    seg_h = 2,                                         -- continuous usage gauge
     warn_at = 0.70, bad_at = 0.90,
     spark_w = 34, spark_h = 8, spark_gap = 6, spark_n = 32,
     tri_w = 5, tri_h = 5, delta_gap = 5,
@@ -339,11 +337,11 @@ end
 -- header band height (y -> first row). Lazy: fonts may not be bound when this file first loads.
 function __panelkit.header_h()
     local s = __panelkit.style
-    return s.pady + text.height(s.tfont) + 9
+    return s.pady * 2 + math.max(text.height(s.tfont), text.height(s.vfont)) + 4
 end
 local function folded_h()
     local s = __panelkit.style
-    return s.pady * 2 + text.height(s.tfont)
+    return __panelkit.header_h() - 4
 end
 
 local function row_visible(row)
@@ -375,7 +373,7 @@ end
 function __panelkit.card_size(title, rows, opts)
     local s = __panelkit.style
     local lh = text.height(s.vfont) + s.rgap
-    local content = text.width_spaced(s.tfont, string.upper(title), s.tspacing)
+    local content = text.width_spaced(s.tfont, title, s.tspacing)
     if opts and opts.folded then
         -- Header-only: title, the digest that replaces the body, and the chevron.
         if opts.digest then
@@ -430,11 +428,8 @@ local function card_body(x, y, bw, bh)
     local s = __panelkit.style
     local ar, ag, ab = theme.accent()
     rounded_gradient(x, y, x + bw, y + bh, s.bg_top, s.bg_bot, s.bg_a, s.radius)
-    -- Accent rail: the same rounded rect clipped to the left edge, so the rail's outer corners
-    -- follow the body's radius instead of overhanging it as a square block would.
-    ui.push_clip(x, y, x + s.rail_w, y + bh)
-    draw.rect(x, y, x + bw, y + bh, ar, ag, ab, 255, s.radius)
-    ui.pop_clip()
+    draw.rect_outline(x, y, x + bw, y + bh,
+        s.border[1], s.border[2], s.border[3], 255, 0, 1)
     return ar, ag, ab
 end
 
@@ -454,9 +449,12 @@ function __panelkit.card_chrome(x, y, bw, bh, title, opts)
     local s = __panelkit.style
     local ar, ag, ab = card_body(x, y, bw, bh)
     local folded = opts and opts.folded
-    local ty = y + s.pady
+    local hh = folded_h()
+    draw.rect(x + 1, y + 1, x + bw - 1, y + hh,
+        s.header[1], s.header[2], s.header[3], 255)
+    local ty = y + (hh - text.height(s.tfont)) * 0.5
     text.draw_spaced(s.tfont, x + s.padx, ty,
-        s.title_c[1], s.title_c[2], s.title_c[3], 255, string.upper(title), s.tspacing)
+        s.title_c[1], s.title_c[2], s.title_c[3], 255, title, s.tspacing)
 
     local right = x + bw - s.padx
     if opts and opts.foldable then
@@ -466,22 +464,19 @@ function __panelkit.card_chrome(x, y, bw, bh, title, opts)
     end
     -- A folded panel keeps the one number that matters, so it still earns its pixels.
     if folded and opts.digest then
+        local dy = y + (hh - text.height(s.vfont)) * 0.5
         local dv = tostring(opts.digest[2] or "")
         local vx = right - text.width(s.vfont, dv)
-        text.draw(s.vfont, vx, ty, s.value_c[1], s.value_c[2], s.value_c[3], 255, dv)
+        text.draw(s.vfont, vx, dy, s.value_c[1], s.value_c[2], s.value_c[3], 255, dv)
         local dl = tostring(opts.digest[1] or "")
         if dl ~= "" then
-            text.draw(s.vfont, vx - 4 - text.width(s.vfont, dl), ty,
+            text.draw(s.vfont, vx - 4 - text.width(s.vfont, dl), dy,
                       s.label_c[1], s.label_c[2], s.label_c[3], 255, dl)
         end
     end
     if folded then return x + s.padx, y + folded_h(), bw - s.padx * 2 end
 
     local cy = y + __panelkit.header_h()
-    -- The accent now lives in the rail, so the divider is a neutral hairline rather than a second
-    -- accent line competing with it.
-    draw.line(x + s.padx, cy - 6, x + bw - s.padx, cy - 6,
-              s.label_c[1], s.label_c[2], s.label_c[3], 60, 1)
     return x + s.padx, cy, bw - s.padx * 2
 end
 
@@ -588,7 +583,7 @@ end
 
 function __panelkit.card_section(cx, cy, inner, label, no_line)
     local s = __panelkit.style
-    local ar, ag, ab = theme.accent()
+    local ar, ag, ab = s.title_c[1], s.title_c[2], s.title_c[3]
     local title = string.upper(label)
     text.draw(s.vfont, cx, cy, ar, ag, ab, 255, title)
     local line_x = cx + text.width(s.vfont, title) + 8
@@ -597,9 +592,7 @@ function __panelkit.card_section(cx, cy, inner, label, no_line)
     return cy + text.height(s.vfont) + s.rgap
 end
 
--- Usage gauge: twenty segments rather than one solid fill, coloured by how close the pool is to its
--- cap. The old bar was always the theme accent, so 90% and 12% looked identical -- which defeated
--- the only reason this panel exists.
+-- Continuous usage gauge, coloured by proximity to the pool's capacity.
 function __panelkit.card_bar(cx, cy, inner, label, value, frac, r)
     local s = __panelkit.style
     if frac < 0 then frac = 0 elseif frac > 1 then frac = 1 end
@@ -620,14 +613,9 @@ function __panelkit.card_bar(cx, cy, inner, label, value, frac, r)
     end
 
     local by = cy + th + 2
-    local n, gap = s.seg_n, s.seg_gap
-    local sw = (inner - gap * (n - 1)) / n
-    if sw < 1 then sw = 1 end
-    local on = math.floor(frac * n + 0.5)
-    for i = 0, n - 1 do
-        local sx = cx + i * (sw + gap)
-        if i < on then draw.rect(sx, by, sx + sw, by + s.seg_h, col[1], col[2], col[3], 245, 1)
-        else           draw.rect(sx, by, sx + sw, by + s.seg_h, s.track[1], s.track[2], s.track[3], 255, 1) end
+    draw.rect(cx, by, cx + inner, by + s.seg_h, s.track[1], s.track[2], s.track[3], 255)
+    if frac > 0 then
+        draw.rect(cx, by, cx + inner * frac, by + s.seg_h, col[1], col[2], col[3], 255)
     end
     return cy + th + s.rgap + s.seg_h + 3
 end
@@ -737,8 +725,8 @@ function __panelkit.info_strip(name, def_x, def_y, toks, fh, opts)
         local gx = px + bw - s.padx - graph_w
         local gy = py + (bh - graph_h) * 0.5
         local ar, ag, ab = theme.accent()
-        draw.rect(gx, gy, gx + graph_w, gy + graph_h, s.track[1], s.track[2], s.track[3], 180, s.element_radius)
-        draw.line(gx, gy + graph_h * 0.5, gx + graph_w, gy + graph_h * 0.5, ar, ag, ab, 48, 1)
+        draw.line(gx, gy + graph_h * 0.5, gx + graph_w, gy + graph_h * 0.5,
+            s.track[1], s.track[2], s.track[3], 180, 1)
 
         local count = #graph
         if count > 1 then
