@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "product": "S&box",
+  "languages": [
+    {
+      "id": "ar",
+      "name": "Arabic",
+      "native_name": "العربية",
+      "file": "LANG_AR.json",
+      "bytes": 16149,
+      "sha256": "1d2163c4457efc1010bb63aea2e75b597a8d07a033c975528381c53c194e9c55",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "pt-BR",
+      "name": "Portuguese (Brazil)",
+      "native_name": "Português (Brasil)",
+      "file": "LANG_BR.json",
+      "bytes": 15246,
+      "sha256": "50d53d2a039f06db37696a0be1414c893976eb3cbd658080a600f71dbcdd9d31",
+      "localized_entries": 113,
+      "total_entries": 329
+    },
+    {
+      "id": "zh-CN",
+      "name": "Chinese (Simplified)",
+      "native_name": "简体中文",
+      "file": "LANG_CN.json",
+      "bytes": 14943,
+      "sha256": "f3f239fd1b486cfabe86ca56d9f6e792d553dcb2d7bf745fdd41bcad6cdbaa56",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "de",
+      "name": "German",
+      "native_name": "Deutsch",
+      "file": "LANG_DE.json",
+      "bytes": 15225,
+      "sha256": "9fbf89088d9b04a8fcab8d8b38a27702bbd6385ec5fc71980a25f49ee3a20458",
+      "localized_entries": 135,
+      "total_entries": 329
+    },
+    {
+      "id": "en",
+      "name": "English",
+      "native_name": "English",
+      "file": "LANG_EN.json",
+      "bytes": 14863,
+      "sha256": "4aae7b549c4f475f450e995576789fe8304de59dda8c1476ec73057b68ddef52",
+      "localized_entries": 0,
+      "total_entries": 329
+    },
+    {
+      "id": "es",
+      "name": "Spanish",
+      "native_name": "Español",
+      "file": "LANG_ES.json",
+      "bytes": 15417,
+      "sha256": "46f1fcee762425fc9554b29d279bc70cbd1b902d30ca144c378b228f0e377325",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "fr",
+      "name": "French",
+      "native_name": "Français",
+      "file": "LANG_FR.json",
+      "bytes": 15377,
+      "sha256": "3424600a40a502ebfe52f51352a68b0228ebb03e4786e3cbcdc2b004fd3c6e7e",
+      "localized_entries": 132,
+      "total_entries": 329
+    },
+    {
+      "id": "he",
+      "name": "Hebrew",
+      "native_name": "עברית",
+      "file": "LANG_HE.json",
+      "bytes": 15724,
+      "sha256": "7fe06fe18d96cd019a9c0ff7782dae28b6f7f0b9c5bd124995a048dfb43bbd0b",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "hi",
+      "name": "Hindi",
+      "native_name": "हिन्दी",
+      "file": "LANG_HI.json",
+      "bytes": 17278,
+      "sha256": "c4c632ee081c3e43cf206b9413c83d9385a3ff5b6a30cde420f337c4fc4bad37",
+      "localized_entries": 137,
+      "total_entries": 329
+    },
+    {
+      "id": "id",
+      "name": "Indonesian",
+      "native_name": "Indonesia",
+      "file": "LANG_ID.json",
+      "bytes": 15072,
+      "sha256": "f4b8614b9c371b3618b6f26a443dc880021377222260f064ba266bc46ae9484a",
+      "localized_entries": 138,
+      "total_entries": 329
+    },
+    {
+      "id": "it",
+      "name": "Italian",
+      "native_name": "Italiano",
+      "file": "LANG_IT.json",
+      "bytes": 15403,
+      "sha256": "d25dc29663fe1d2ff2100c1b4c28413966eb94100522bd60ee3c207705619a0b",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "ja",
+      "name": "Japanese",
+      "native_name": "日本語",
+      "file": "LANG_JP.json",
+      "bytes": 15559,
+      "sha256": "7a82ee2c94b5000e28f7e2e3820d892529dcd744edf5f70034cf0305f90f7e90",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "ka",
+      "name": "Georgian",
+      "native_name": "ქართული",
+      "file": "LANG_KA.json",
+      "bytes": 18464,
+      "sha256": "5f151446e4755bc38897a09add018ce793236924a8bf2d3b73aabe56b0c842cf",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "ko",
+      "name": "Korean",
+      "native_name": "한국어",
+      "file": "LANG_KR.json",
+      "bytes": 15217,
+      "sha256": "487fc0e1bc6b61547fd0d17346c23e807279973d89c93dbe9c5dc7a14fac3998",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "nl",
+      "name": "Dutch",
+      "native_name": "Nederlands",
+      "file": "LANG_NL.json",
+      "bytes": 15237,
+      "sha256": "18452647f56ebaad3af3820cfe28795b571f69afbc55fb2b4c4214216a12fd0b",
+      "localized_entries": 135,
+      "total_entries": 329
+    },
+    {
+      "id": "pl",
+      "name": "Polish",
+      "native_name": "Polski",
+      "file": "LANG_PL.json",
+      "bytes": 15379,
+      "sha256": "6ab6928a1c388028b8a1a266c69cf954864b57fe61472f65b5b117b9593c694a",
+      "localized_entries": 139,
+      "total_entries": 329
+    },
+    {
+      "id": "pt",
+      "name": "Portuguese",
+      "native_name": "Português",
+      "file": "LANG_PT.json",
+      "bytes": 15328,
+      "sha256": "3e3051bc8db66adc38b29916c827808302b349e41404e9d0e762b6ee1999eccb",
+      "localized_entries": 139,
+      "total_entries": 329
+    },
+    {
+      "id": "ru",
+      "name": "Russian",
+      "native_name": "Русский",
+      "file": "LANG_RU.json",
+      "bytes": 16589,
+      "sha256": "bf939a6741d20fe0e7f55053785bd4da83addc125c8fb26725ec791d7394e97a",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "sr",
+      "name": "Serbian",
+      "native_name": "Српски",
+      "file": "LANG_SR.json",
+      "bytes": 16231,
+      "sha256": "f44ed0ef0162d6e09e47f6c95b9a82aedab149696ad0922649b8f14f05e91c9e",
+      "localized_entries": 136,
+      "total_entries": 329
+    },
+    {
+      "id": "th",
+      "name": "Thai",
+      "native_name": "ไทย",
+      "file": "LANG_TH.json",
+      "bytes": 17454,
+      "sha256": "885dda1a4d6f56508c7457b064ccf6c410789e36117c1a5e85b85aa61591606c",
+      "localized_entries": 140,
+      "total_entries": 329
+    },
+    {
+      "id": "tr",
+      "name": "Turkish",
+      "native_name": "Türkçe",
+      "file": "LANG_TR.json",
+      "bytes": 15267,
+      "sha256": "f1e5d949858cec795001ce60eaac105886bea26a29ba27d0258aa97f1a04d6a3",
+      "localized_entries": 137,
+      "total_entries": 329
+    },
+    {
+      "id": "zh-TW",
+      "name": "Chinese (Traditional)",
+      "native_name": "繁體中文",
+      "file": "LANG_TW.json",
+      "bytes": 14963,
+      "sha256": "444acc4a7d4358a520c38238109da913624ee7c0a2622f6ee84161fd907b1a84",
+      "localized_entries": 137,
+      "total_entries": 329
+    },
+    {
+      "id": "vi",
+      "name": "Vietnamese",
+      "native_name": "Tiếng Việt",
+      "file": "LANG_VI.json",
+      "bytes": 15563,
+      "sha256": "a50a69b8e50eb348df37f609e80dc0b78c4c478af71d2cb23f6b1cf5e6d9ed03",
+      "localized_entries": 141,
+      "total_entries": 329
+    }
+  ]
+}
