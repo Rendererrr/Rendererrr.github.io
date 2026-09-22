@@ -16,6 +16,7 @@
     "Aim assist": "目标辅助",
     "Aim at common and uncommon infected.": "针对常见和罕见的感染者.",
     "Aim at special infected including Tank.": "针对特种感染者,包括坦克.",
+<<<<<<< HEAD
     "Aim key": "目标键",
     "Aim mode": "目标模式",
     "Aim point": "目标点",
@@ -25,6 +26,18 @@
     "Air movement assistance while holding jump; preserves view angles.": "保持跳跃时空气运动辅助;保持视角.",
     "Alignment": "调整",
     "All": "全部",
+=======
+    "Aim key": "瞄准键",
+    "Aim mode": "目标模式",
+    "Aim point": "目标点",
+    "Aim settings": "目标设置",
+    "Aim snapline": "目标连线",
+    "Aim visuals": "瞄准显示",
+    "Air movement assistance while holding jump; preserves view angles.": "保持跳跃时空气运动辅助;保持视角.",
+    "Alignment": "调整",
+    "All": "全部",
+    "None": "无",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "All categories": "所有类别",
     "Alpha": "阿尔法",
     "Always": "始终",
@@ -32,6 +45,7 @@
     "Ammo piles": "弹药堆",
     "Animate Demo": "动画演示",
     "Animate the material opacity.": "动化材料的 ⁇ 光度.",
+<<<<<<< HEAD
     "Animate the selected material colors without extra model passes.": "动画选定的材料颜色,而没有额外的模型通过.",
     "Animated color": "动画颜色",
     "Animated sky color": "动画的天空颜色",
@@ -39,6 +53,8 @@
     "Animation mode": "动画模式",
     "Animation speed": "动画速度",
     "Animation strength": "动画强度",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Appearance": "外观",
     "Applied scale": "应用规模",
     "Apply chams to other survivors.": "应用颜色模型覆盖其他幸存者.",
@@ -64,9 +80,13 @@
     "Bar width": "条宽度",
     "Behaviour": "行为",
     "Binds": "绑定",
+<<<<<<< HEAD
     "Blend sky colors toward the selected accent color.": "将天空的颜色混合到选择的口音颜色.",
     "Block game input": "区块游戏输入",
     "Blue nebula": "蓝云",
+=======
+    "Block game input": "区块游戏输入",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Boomer": "Boomer",
     "Bottom": "底部",
     "Bounding boxes for world pickups.": "包装世界收藏品的盒子.",
@@ -76,8 +96,11 @@
     "Box padding (%)": "盒子填充 (%)",
     "Box style": "盒式",
     "Box width (%)": "箱宽度 (%)",
+<<<<<<< HEAD
     "Breathing": "呼吸",
     "Brightness": "亮度",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Browse": "浏览",
     "Browser": "浏览器",
     "Bunnyhop": "⁇ 子屋",
@@ -110,7 +133,10 @@
     "Close": "关闭",
     "Collapse console": "崩 ⁇ 控制台",
     "Color": "颜色",
+<<<<<<< HEAD
     "Color wave": "颜色波",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Combat": "战斗",
     "Combat / Aim": "战斗/目标",
     "Combat / Triggerbot": "战斗机",
@@ -129,7 +155,10 @@
     "Corners": "角落",
     "Count": "计数",
     "Create": "创建",
+<<<<<<< HEAD
     "Crimson nebula": "黑色星云",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Crosshair": "十字线",
     "Custom Text": "自定义文本",
     "Custom accent": "定制的口音",
@@ -181,7 +210,11 @@
     "Export to clipboard": "输出到剪贴板",
     "Extra space around the fitted body box.": "在装配的车身箱周围有额外的空间.",
     "FOV (degrees)": "排放量 (FOV)",
+<<<<<<< HEAD
     "FOV circle": "⁇ 轮",
+=======
+    "FOV circle": "视野圆圈",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "FPS Graph": "国际货币市场图",
     "Favorite": "喜爱",
     "Favorites": "收藏夹",
@@ -200,11 +233,15 @@
     "Free the menu cursor and block camera, movement, attacks and use while the menu is open.": "在开放的菜单中,释放菜单缓冲器和屏蔽摄像头,移动,攻击和使用.",
     "Full": "全面",
     "Fullbright": "全亮度",
+<<<<<<< HEAD
     "Galaxy": "银河系",
     "Galaxy flow": "银河流量",
     "Galaxy sky": "银河天空",
     "Gameplay": "游戏",
     "Gently pulse world and prop brightness. Updates are rate limited for performance.": "轻轻的脉冲世界和道具亮度. 更新速度为性能有限.",
+=======
+    "Gameplay": "游戏",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Get Started": "开始",
     "Ghost": "鬼魂",
     "Ghost wireframe": "幽灵电缆框架",
@@ -216,7 +253,11 @@
     "Head only": "只有头部",
     "Health Bar": "生命值条",
     "Height (%)": "高度 (%)",
+<<<<<<< HEAD
     "Hitboxes": "标签框",
+=======
+    "Hitboxes": "命中区域",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Hold": "按住",
     "Hold jump for assistance. Ladders and deep water are excluded.": "没有梯子和深水.",
     "Hold jump to jump on landing. Disabled while swimming or climbing.": "保持跳跃,在着陆时跳跃.在游泳或爬山时残疾.",
@@ -254,7 +295,11 @@
     "Legacy render bounds. Enable Fit to model for aligned body boxes.": "设置适合对齐的车身箱的模型.",
     "Legit": "合法性",
     "Legit aiming": "合法目标",
+<<<<<<< HEAD
     "Legitbot": "机器人",
+=======
+    "Legitbot": "平滑瞄准",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Legs": "腿部",
     "Lines from screen bottom to pickups.": "从屏幕底部到收藏品.",
     "Lit": "受光照",
@@ -291,7 +336,10 @@
     "Name": "套装名",
     "Name color": "名称颜色",
     "Native third-person camera position in Source units.": "在源头单位内设置原生第三人摄像头位置.",
+<<<<<<< HEAD
     "Nearest": "最近的地方",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Neon wireframe": "尼奥电缆框架",
     "Night preset": "夜间配色",
     "No active binds": "没有活性结合",
@@ -303,7 +351,10 @@
     "No recoil": "无后坐力",
     "No scripts yet. Create your first script.": "没有脚本,创建你的第一个脚本.",
     "No spread": "æ— ä¼ æ'­",
+<<<<<<< HEAD
     "None": "无",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Normal text": "通常的文本",
     "Official Links": "官方链接",
     "Offset": "偏移量",
@@ -351,7 +402,11 @@
     "Radar Rings": "雷达雷达",
     "Rage": "愤怒",
     "Rage aiming": "激怒 ⁇ 射",
+<<<<<<< HEAD
     "Ragebot": "拉格波特",
+=======
+    "Ragebot": "快速瞄准",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Rainbow colors": "彩虹颜色",
     "Range": "范围",
     "Range (m)": "范围（米）",
@@ -374,7 +429,10 @@
     "Rename": "改名",
     "Render the debug model material as a wireframe.": "将调试模型材料呈现为线框.",
     "Renderer": "渲染器",
+<<<<<<< HEAD
     "Replace the map sky with a galaxy panorama; restores the original textures when disabled.": "取代地图天空以银河系全景;在禁用时恢复原始纹理.",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Require a clear shot to the target.": "要求一个清晰的射击目标.",
     "Require a trace hit on the head hitgroup.": "要求追踪头部的袭击群.",
     "Reset": "重置",
@@ -414,12 +472,19 @@
     "Session": "会议",
     "Set as default": "设置为默认",
     "Set hotkey": "设置快捷键:",
+<<<<<<< HEAD
     "Set key": "设置键",
+=======
+    "Set key": "设置按键",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Settings": "设置",
     "Settings / Overlays": "设置/重叠",
     "Shape": "形状",
     "Shared effects": "分享效果",
+<<<<<<< HEAD
     "Shimmer": "闪 ⁇ 器",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Shoulder - left / right": "肩膀 - 左/右",
     "Shoulder offset": "肩部抵消",
     "Show FPS": "显示帧率",
@@ -446,6 +511,7 @@
     "Skeleton": "骨骼",
     "Skeleton & Lines": "骨骼与线条",
     "Skeleton color": "骨骼颜色",
+<<<<<<< HEAD
     "Sky": "天空",
     "Sky animation": "天空动画",
     "Sky brightness": "天空亮度",
@@ -453,6 +519,9 @@
     "Sky preset": "天空预设",
     "Sky tint": "天空颜色",
     "Skybox": "天空箱",
+=======
+    "Sky tint": "天空颜色",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Smoker": "Smoker",
     "Smoothing": "平滑",
     "Snapline color": "快线颜色",
@@ -462,7 +531,10 @@
     "Special infected": "特殊感染者",
     "Special infected (including Tank)": "特殊感染者 (包括坦克)",
     "Special infected (unknown)": "特殊感染者 (未知)",
+<<<<<<< HEAD
     "Speed (Hz)": "速度 (Hz)",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Speed: %.0f units/s": "速度:%.0f单位/秒",
     "Spitter": "Spitter",
     "Square": "方形",
@@ -472,7 +544,10 @@
     "Stop all scripts": "停止所有脚本",
     "Stop debug tool": "停止调试工具",
     "Stop restores the game effects. Assign an optional shortcut in Hotkeys.": "停止恢复游戏效果. 在Hotkeys中指定可选的快捷方式.",
+<<<<<<< HEAD
     "Strength": "强度",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Style": "风格",
     "Survivors": "幸存者",
     "Swap pass appearance": "交换两层外观",
@@ -481,7 +556,11 @@
     "TOOLS": "工具",
     "Tank": "Tank",
     "Target": "目标",
+<<<<<<< HEAD
     "Target dot": "目标点",
+=======
+    "Target dot": "目标圆点",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Targets": "目标",
     "Team": "团队",
     "Telemetry": "电测仪",
@@ -503,7 +582,11 @@
     "Tools": "工具",
     "Top": "顶部",
     "Top-down positions from the shared entity data.": "从共享实体数据上下的位置.",
+<<<<<<< HEAD
     "Trigger key": "触发键",
+=======
+    "Trigger key": "自动开火键",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Trigger response settings": "触发响应设置",
     "Triggerbot": "触发机器人",
     "Type colors": "类型颜色",
@@ -557,6 +640,7 @@
     "Witch": "Witch",
     "World": "世界",
     "World / Materials": "世界 / 材料",
+<<<<<<< HEAD
     "World / Sky": "世界 / 天空",
     "World / View": "世界 / 景观",
     "World breathing": "世界呼吸",
@@ -565,11 +649,17 @@
     "World pickups only. Held items and projectiles are excluded.": "只有世界可收藏的物品,包括持有物品和弹药.",
     "World pulse speed": "世界脉冲速度",
     "World pulse strength": "世界脉冲强度",
+=======
+    "World / View": "世界 / 景观",
+    "World materials": "世界材质",
+    "World pickups only. Held items and projectiles are excluded.": "只有世界可收藏的物品,包括持有物品和弹药.",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "World tint": "世界颜色",
     "X - left / right": "X - 左/右",
     "Y - back / forward": "Y - 前进/后退",
     "Your portable workspace for visuals, scripts and settings.": "您的可携带工作空间为视觉,脚本和设置.",
     "Z - down / up": "⁇  - 下 / 上",
+<<<<<<< HEAD
     "aim.mode": "aim.mode",
     "aim.point": "aim.point",
     "aim.range": "aim.range",
@@ -578,5 +668,9 @@
     "lines": "线条",
     "trigger.delay": "trigger.delay",
     "trigger.range": "trigger.range"
+=======
+    "features": "特点",
+    "lines": "线条"
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
   }
 }

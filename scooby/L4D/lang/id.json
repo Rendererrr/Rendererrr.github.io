@@ -16,6 +16,7 @@
     "Aim assist": "bantuan Bidik",
     "Aim at common and uncommon infected.": "bertujuan untuk terinfeksi umum dan tidak biasa.",
     "Aim at special infected including Tank.": "bertujuan untuk terinfeksi khusus termasuk tangki.",
+<<<<<<< HEAD
     "Aim key": "Kunci tujuan",
     "Aim mode": "mode Bidik",
     "Aim point": "Titik sasaran",
@@ -25,6 +26,18 @@
     "Air movement assistance while holding jump; preserves view angles.": "Bantuan gerakan udara saat memegang lompatan; mempertahankan sudut pandang.",
     "Alignment": "Penyesuaian",
     "All": "Semua",
+=======
+    "Aim key": "Tombol bidik",
+    "Aim mode": "mode Bidik",
+    "Aim point": "Titik sasaran",
+    "Aim settings": "Pengaturan tujuan",
+    "Aim snapline": "Garis ke target",
+    "Aim visuals": "Indikator bidik",
+    "Air movement assistance while holding jump; preserves view angles.": "Bantuan gerakan udara saat memegang lompatan; mempertahankan sudut pandang.",
+    "Alignment": "Penyesuaian",
+    "All": "Semua",
+    "None": "Tidak ada",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "All categories": "Semua kategori",
     "Alpha": "Alfa",
     "Always": "Selalu",
@@ -32,6 +45,7 @@
     "Ammo piles": "Peluru amunisi",
     "Animate Demo": "Demo Animate",
     "Animate the material opacity.": "Animasi opacitas material.",
+<<<<<<< HEAD
     "Animate the selected material colors without extra model passes.": "Animasi warna bahan yang dipilih tanpa pass model tambahan.",
     "Animated color": "Warna animasi",
     "Animated sky color": "Warna langit animasi",
@@ -39,6 +53,8 @@
     "Animation mode": "Mode animasi",
     "Animation speed": "Kecepatan animasi",
     "Animation strength": "Kekuatan animasi",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Appearance": "Tampilan",
     "Applied scale": "Skala yang diterapkan",
     "Apply chams to other survivors.": "Menggunakan model berwarna untuk korban lainnya.",
@@ -64,9 +80,13 @@
     "Bar width": "lebar bar",
     "Behaviour": "Perilaku",
     "Binds": "Ikatan",
+<<<<<<< HEAD
     "Blend sky colors toward the selected accent color.": "Campurkan warna langit ke arah warna aksen yang dipilih.",
     "Block game input": "Blok game input",
     "Blue nebula": "Nebula Biru",
+=======
+    "Block game input": "Blok game input",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Boomer": "Boomer",
     "Bottom": "Bawah",
     "Bounding boxes for world pickups.": "Kotak pengikat untuk barang koleksi dunia.",
@@ -76,8 +96,11 @@
     "Box padding (%)": "Penutup kotak (%)",
     "Box style": "Gaya Kotak",
     "Box width (%)": "Lebar kotak (%)",
+<<<<<<< HEAD
     "Breathing": "Pernafasan",
     "Brightness": "Cahaya",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Browse": "Layar",
     "Browser": "Browser",
     "Bunnyhop": "Bunnyhop",
@@ -110,7 +133,10 @@
     "Close": "Tutup",
     "Collapse console": "Konsol runtuh",
     "Color": "Warna",
+<<<<<<< HEAD
     "Color wave": "Gelombang warna",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Combat": "Pertempuran",
     "Combat / Aim": "Perjuangan / Tujuan",
     "Combat / Triggerbot": "Pertempuran / Triggerbot",
@@ -129,7 +155,10 @@
     "Corners": "Sudut",
     "Count": "Berhitung",
     "Create": "Buat",
+<<<<<<< HEAD
     "Crimson nebula": "Nebula Crimson",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Crosshair": "Bilah silang",
     "Custom Text": "Teks Ukuran Lain",
     "Custom accent": "Aksent khusus",
@@ -181,7 +210,11 @@
     "Export to clipboard": "Ekspor ke clipboard",
     "Extra space around the fitted body box.": "Ruang tambahan di sekitar kotak bodi yang dipasang.",
     "FOV (degrees)": "FOV (tingkat)",
+<<<<<<< HEAD
     "FOV circle": "Lingkaran FOV",
+=======
+    "FOV circle": "Lingkaran bidang pandang",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "FPS Graph": "Grafik FPS",
     "Favorite": "Favorit",
     "Favorites": "Favorit",
@@ -200,11 +233,15 @@
     "Free the menu cursor and block camera, movement, attacks and use while the menu is open.": "Bebaskan kursor menu dan blok kamera, gerakan, serangan dan penggunaan sementara menu terbuka.",
     "Full": "Penuh",
     "Fullbright": "Fullbright",
+<<<<<<< HEAD
     "Galaxy": "Galaksi",
     "Galaxy flow": "Aliran galaksi",
     "Galaxy sky": "Langit galaksi",
     "Gameplay": "Permainan",
     "Gently pulse world and prop brightness. Updates are rate limited for performance.": "Puls dunia dan kecerahan prop. Pembaruan terbatas untuk kinerja.",
+=======
+    "Gameplay": "Permainan",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Get Started": "Mulailah",
     "Ghost": "Hantu",
     "Ghost wireframe": "Wireframe hantu",
@@ -216,7 +253,11 @@
     "Head only": "Kepala saja",
     "Health Bar": "Bar Kesehatan",
     "Height (%)": "Ketinggian (%)",
+<<<<<<< HEAD
     "Hitboxes": "Kotak Hit",
+=======
+    "Hitboxes": "Area hit",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Hold": "Tahan",
     "Hold jump for assistance. Ladders and deep water are excluded.": "Tunggu lompat untuk bantuan. Tangga dan air dalam dikecualikan.",
     "Hold jump to jump on landing. Disabled while swimming or climbing.": "Tunggu untuk melompat saat mendarat.",
@@ -254,7 +295,11 @@
     "Legacy render bounds. Enable Fit to model for aligned body boxes.": "Perbatasan render legacy. Memungkinkan Fit untuk model untuk kotak tubuh yang diluruskan.",
     "Legit": "Hukum",
     "Legit aiming": "Tujuan yang sah",
+<<<<<<< HEAD
     "Legitbot": "Legitbot",
+=======
+    "Legitbot": "Bidik halus",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Legs": "Kaki",
     "Lines from screen bottom to pickups.": "Garis-garis dari bawah layar ke barang koleksi.",
     "Lit": "Dengan pencahayaan",
@@ -291,7 +336,10 @@
     "Name": "Nama",
     "Name color": "Warna Nama",
     "Native third-person camera position in Source units.": "Posisi kamera orang ketiga asli di Unit Sumber.",
+<<<<<<< HEAD
     "Nearest": "Paling dekat",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Neon wireframe": "Kerangka kawat neon",
     "Night preset": "Warna malam",
     "No active binds": "Tidak ada ikatan aktif",
@@ -303,7 +351,10 @@
     "No recoil": "Tidak ada Recoil",
     "No scripts yet. Create your first script.": "Belum ada naskah, buat naskah pertama.",
     "No spread": "Tidak ada penyebaran",
+<<<<<<< HEAD
     "None": "Tidak ada",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Normal text": "Teks Normal",
     "Official Links": "Situs resmi",
     "Offset": "Ofset",
@@ -351,7 +402,11 @@
     "Radar Rings": "Radar",
     "Rage": "Kemarahan",
     "Rage aiming": "Penargetan kegilaan",
+<<<<<<< HEAD
     "Ragebot": "Ragebot",
+=======
+    "Ragebot": "Bidik agresif",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Rainbow colors": "Warna pelangi",
     "Range": "Jangkauan",
     "Range (m)": "Jarak (m)",
@@ -374,7 +429,10 @@
     "Rename": "Mengganti nama",
     "Render the debug model material as a wireframe.": "Tuliskan materi model debug sebagai wireframe.",
     "Renderer": "Render",
+<<<<<<< HEAD
     "Replace the map sky with a galaxy panorama; restores the original textures when disabled.": "Ganti langit peta dengan panorama galaksi; memulihkan tekstur asli ketika tidak berfungsi.",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Require a clear shot to the target.": "Minta tembakan yang jelas ke target.",
     "Require a trace hit on the head hitgroup.": "Minta jejak hit pada kepala hitgroup.",
     "Reset": "Atur ulang",
@@ -414,12 +472,19 @@
     "Session": "Sesi",
     "Set as default": "Tentukan sebagai default",
     "Set hotkey": "Tetapkan hotkey:",
+<<<<<<< HEAD
     "Set key": "Tetapkan Kunci",
+=======
+    "Set key": "Atur tombol",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Settings": "Pengaturan",
     "Settings / Overlays": "Pengaturan / Overlays",
     "Shape": "Bentuk",
     "Shared effects": "Efek bersama",
+<<<<<<< HEAD
     "Shimmer": "Shimmer",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Shoulder - left / right": "Bahu - kiri / kanan",
     "Shoulder offset": "Kompensasi bahu",
     "Show FPS": "Tampilkan FPS",
@@ -446,6 +511,7 @@
     "Skeleton": "Tengkorak",
     "Skeleton & Lines": "Kerangka dan garis",
     "Skeleton color": "Warna rangka",
+<<<<<<< HEAD
     "Sky": "Langit",
     "Sky animation": "Animasi Langit",
     "Sky brightness": "Cahaya langit",
@@ -453,6 +519,9 @@
     "Sky preset": "Sky preset",
     "Sky tint": "Warna langit",
     "Skybox": "Skybox",
+=======
+    "Sky tint": "Warna langit",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Smoker": "Smoker",
     "Smoothing": "Mencerahkan",
     "Snapline color": "Warna Snapline",
@@ -462,7 +531,10 @@
     "Special infected": "Spesial terinfeksi",
     "Special infected (including Tank)": "Spesial terinfeksi (termasuk Tank)",
     "Special infected (unknown)": "Spesial terinfeksi (tidak diketahui)",
+<<<<<<< HEAD
     "Speed (Hz)": "Kecepatan (Hz)",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Speed: %.0f units/s": "Kecepatan: %.0f unit/s",
     "Spitter": "Spitter",
     "Square": "Kotak",
@@ -472,7 +544,10 @@
     "Stop all scripts": "Hentikan semua skrip",
     "Stop debug tool": "Stop debugging tool",
     "Stop restores the game effects. Assign an optional shortcut in Hotkeys.": "Hentikan memulihkan efek game. Atribusi jalan pintas opsional di Hotkeys.",
+<<<<<<< HEAD
     "Strength": "Kekuatan",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Style": "Gaya",
     "Survivors": "Orang-orang yang selamat",
     "Swap pass appearance": "Tukar tampilan lapisan",
@@ -481,7 +556,11 @@
     "TOOLS": "Alat",
     "Tank": "Tank",
     "Target": "Target",
+<<<<<<< HEAD
     "Target dot": "Titik sasaran",
+=======
+    "Target dot": "Titik target",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Targets": "Target",
     "Team": "Tim",
     "Telemetry": "Telemetri",
@@ -503,7 +582,11 @@
     "Tools": "Alat",
     "Top": "Atas",
     "Top-down positions from the shared entity data.": "Posisi dari atas ke bawah dari data entitas bersama.",
+<<<<<<< HEAD
     "Trigger key": "Kunci pemicu",
+=======
+    "Trigger key": "Tombol tembak otomatis",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Trigger response settings": "Pengaturan respons pemicu",
     "Triggerbot": "Triggerbot",
     "Type colors": "Jenis warna",
@@ -557,6 +640,7 @@
     "Witch": "Witch",
     "World": "Dunia",
     "World / Materials": "Dunia / Materi",
+<<<<<<< HEAD
     "World / Sky": "Dunia / Langit",
     "World / View": "Dunia / Pandangan",
     "World breathing": "Pernafasan dunia",
@@ -565,11 +649,17 @@
     "World pickups only. Held items and projectiles are excluded.": "Hanya barang koleksi dunia. Barang dan peluru yang dipegang dikecualikan.",
     "World pulse speed": "Kecepatan pulsa dunia",
     "World pulse strength": "Kekuatan pulsa dunia",
+=======
+    "World / View": "Dunia / Pandangan",
+    "World materials": "Bahan-bahan Dunia",
+    "World pickups only. Held items and projectiles are excluded.": "Hanya barang koleksi dunia. Barang dan peluru yang dipegang dikecualikan.",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "World tint": "Warna dunia",
     "X - left / right": "X - kiri / kanan",
     "Y - back / forward": "Y - mundur / maju",
     "Your portable workspace for visuals, scripts and settings.": "Ruang kerja portabel Anda untuk visual, skrip dan pengaturan.",
     "Z - down / up": "Z - turun / naik",
+<<<<<<< HEAD
     "aim.mode": "aim.mode",
     "aim.point": "aim.point",
     "aim.range": "aim.range",
@@ -578,5 +668,9 @@
     "lines": "garis",
     "trigger.delay": "trigger.delay",
     "trigger.range": "trigger.range"
+=======
+    "features": "Fitur",
+    "lines": "garis"
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
   }
 }

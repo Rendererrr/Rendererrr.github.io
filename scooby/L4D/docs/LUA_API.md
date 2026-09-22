@@ -595,7 +595,11 @@ Ragebot, Legitbot and both Triggerbot pages use a multi-select Targets dropdown.
 | 3 | Stomach | Stomach only |
 | 4 | Arms | Left and right arms |
 | 5 | Legs | Left and right legs |
+<<<<<<< HEAD
 | 6 | Nearest (aim) / All (trigger) | All available hitboxes; aim ranks their centers by crosshair angle |
+=======
+| 6 | All | All available hitboxes |
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
 
 Aim resolves centers from the entity’s current hitbox set and animated bone matrices, then chooses the closest eligible point inside the FOV and range. With Visible only enabled it tries another selected point when the closer point is obstructed. It never substitutes another region when a strict selection is missing. One bone setup is shared by all candidate points for that entity; no limb-specific bone indices are assumed between L4D1/L4D2 models. Lock on keeps the entity while rechecking its selected hitboxes each command.
 
@@ -603,6 +607,7 @@ Triggerbot filters the actual shot trace hitgroup, without moving the crosshair.
 
 ```lua
 l4d.setting("aim.point", "style", 2)             -- Legit: head
+<<<<<<< HEAD
 l4d.setting("aim.rage.point", "style", 6)        -- Rage: nearest hitbox center to the crosshair
 l4d.setting("trigger.hitbox", "style", 1)       -- Legit Triggerbot: chest
 l4d.setting("trigger.rage.hitbox", "style", 0)  -- Rage Triggerbot: upper body
@@ -644,3 +649,9 @@ features.color("chams.animation", 0.3, 0.8, 1, 1)
 ```
 
 Galaxy assets are supplied under `materials/scooby_l4d_vfx_v1`. The host installs only this namespace into the detected game's material directory. Galaxy skies need a compatible map skybox; indoor maps can hide the sky. LDR, HDR and RGBS sky textures are handled separately. Legacy three-exposure HDR skies are left unchanged. Texture bindings and colors are restored when disabled, on level shutdown and on Stop. World breathing is limited to eight material updates per second; sky-only animation never rewrites unchanged world materials.
+=======
+l4d.setting("aim.rage.point", "style", 6)        -- Rage: all available hitboxes
+l4d.setting("trigger.hitbox", "style", 1)       -- Legit Triggerbot: chest
+l4d.setting("trigger.rage.hitbox", "style", 0)  -- Rage Triggerbot: upper body
+```
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
