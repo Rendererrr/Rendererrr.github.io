@@ -1,0 +1,326 @@
+{
+    "schema_version":  1,
+    "product":  "L4D",
+    "architecture":  "x86",
+    "games":  [
+                  "l4d1",
+                  "l4d2"
+              ],
+    "files":  [
+                  {
+                      "file":  "L4D.dll",
+                      "bytes":  3433984,
+                      "sha256":  "b8d88a24a1364d07ee808667a7bcc6db7780b024d2c1cc96c10b81c229c751bb"
+                  },
+                  {
+                      "file":  "L4D/l4d_load.exe",
+                      "bytes":  31232,
+                      "sha256":  "b332a545afc6df6b23dbea43417f442b4eab07e7996f5eb95bf8f4161cef3aa8"
+                  },
+                  {
+                      "file":  "L4D/docs/licenses/FreeType-FTL.txt",
+                      "bytes":  6912,
+                      "sha256":  "308dca54b5aaa4a6ba0880621fe3bcf287956821aa948430263062a8333625c0"
+                  },
+                  {
+                      "file":  "L4D/docs/licenses/FreeType-LICENSE.txt",
+                      "bytes":  2196,
+                      "sha256":  "84f47dc7f0887dd56b05f2f218060581c055e443bd7af18e46677bec3dcc2473"
+                  },
+                  {
+                      "file":  "L4D/docs/licenses/ImGui-LICENSE.txt",
+                      "bytes":  1104,
+                      "sha256":  "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293"
+                  },
+                  {
+                      "file":  "L4D/docs/LUA_API.md",
+                      "bytes":  48919,
+                      "sha256":  "6286ba85f3b1db19ac5f1676b4562d16b0623432d4050b1507b2ced6556b68da"
+                  },
+                  {
+                      "file":  "L4D/docs/LUA_SNIPPETS.md",
+                      "bytes":  3959,
+                      "sha256":  "4973bbd5d79efac111f965a2c30ee6c8394bfd6ad52d3e8f18d1fcf6b0bcfc4c"
+                  },
+                  {
+                      "file":  "L4D/docs/THIRD_PARTY.md",
+                      "bytes":  642,
+                      "sha256":  "64b81563e213b9b7309ac4643b1725ff0625e8338ff7fbf84269a95fa8e0f406"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansArabic-OFL.txt",
+                      "bytes":  4475,
+                      "sha256":  "3b7e321615e412e5fbb9eab5bf1c0a4cb84c732d3d5a9e9e3822972d5fb70b97"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansDevanagari-OFL.txt",
+                      "bytes":  4479,
+                      "sha256":  "41221cfdd268fa8e338829cccec0526e0200a0ce9e0bc3c627254c12a99d3a98"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansGeorgian-OFL.txt",
+                      "bytes":  4477,
+                      "sha256":  "2c9d69cc13d29394783a99d12a823fd6bc4b2069e6ce795a5515ae187e858da7"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansHebrew-OFL.txt",
+                      "bytes":  4475,
+                      "sha256":  "1acb8a4cf8e3d441eb573174faab52139071fee5cfa5e3e3f148becf90a54631"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansJP-OFL.txt",
+                      "bytes":  4481,
+                      "sha256":  "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansKR-OFL.txt",
+                      "bytes":  4481,
+                      "sha256":  "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansMono-OFL.txt",
+                      "bytes":  4489,
+                      "sha256":  "bf51547e7634b219e85d0391a5836850696497e0cef079857978f286b5d9377f"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSans-OFL.txt",
+                      "bytes":  4489,
+                      "sha256":  "bf51547e7634b219e85d0391a5836850696497e0cef079857978f286b5d9377f"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansSC-OFL.txt",
+                      "bytes":  4481,
+                      "sha256":  "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansTC-OFL.txt",
+                      "bytes":  4481,
+                      "sha256":  "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15"
+                  },
+                  {
+                      "file":  "L4D/fonts/licenses/NotoSansThai-OFL.txt",
+                      "bytes":  4473,
+                      "sha256":  "0e4067898723c9acddf967edda99a5ed2088cd857a8e9949084f609358efe38a"
+                  },
+                  {
+                      "file":  "L4D/fonts/lucide.ttf",
+                      "bytes":  803488,
+                      "sha256":  "b51e63bbfc3f3fd33c4e5dde30a58779c9ad2c9b692f13cdaf4b610937e454d8"
+                  },
+                  {
+                      "file":  "L4D/fonts/LUCIDE-LICENSE.txt",
+                      "bytes":  3251,
+                      "sha256":  "6fc5b7332939dd5c61af3a5f97450f7bc05d4a396dd0bc21ac341716b3b05096"
+                  },
+                  {
+                      "file":  "L4D/fonts/manifest.json",
+                      "bytes":  5033,
+                      "sha256":  "3b0999fe90a24f4aa9e74d5db350cec427ffeab78e5bf47a01410aa6cc9c9e40"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSans.ttf",
+                      "bytes":  2049096,
+                      "sha256":  "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansArabic.ttf",
+                      "bytes":  844676,
+                      "sha256":  "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansDevanagari.ttf",
+                      "bytes":  647144,
+                      "sha256":  "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansGeorgian.ttf",
+                      "bytes":  231988,
+                      "sha256":  "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansHebrew.ttf",
+                      "bytes":  112640,
+                      "sha256":  "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansJP.ttf",
+                      "bytes":  9589900,
+                      "sha256":  "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansKR.ttf",
+                      "bytes":  10414588,
+                      "sha256":  "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansMono.ttf",
+                      "bytes":  1708408,
+                      "sha256":  "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansSC.ttf",
+                      "bytes":  17772300,
+                      "sha256":  "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansTC.ttf",
+                      "bytes":  11941968,
+                      "sha256":  "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+                  },
+                  {
+                      "file":  "L4D/fonts/NotoSansThai.ttf",
+                      "bytes":  218652,
+                      "sha256":  "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
+                  },
+                  {
+                      "file":  "L4D/l4d_pages.lua",
+                      "bytes":  15063,
+                      "sha256":  "62387a3bad3a243a3bca383fd41f6a2a2e5a2f251cb9c567dcdb85e6a9b0a33d"
+                  },
+                  {
+                      "file":  "L4D/lang/ar.json",
+                      "bytes":  36892,
+                      "sha256":  "511a5a69dc6af064f31886b0a6922189fa5fdee7408c4aefc6ca8fbf30f48058"
+                  },
+                  {
+                      "file":  "L4D/lang/de.json",
+                      "bytes":  31745,
+                      "sha256":  "b8ae73a2d5c0202fc7b24f5774fdb2f47378a305f311cb709244f135b464ec72"
+                  },
+                  {
+                      "file":  "L4D/lang/en.json",
+                      "bytes":  28604,
+                      "sha256":  "abe85aeb1364f2c5e94802119230121110d52a31e78081d5991cb11fcc538969"
+                  },
+                  {
+                      "file":  "L4D/lang/es.json",
+                      "bytes":  32083,
+                      "sha256":  "e22d87ba50cb61025b8fadf9a40655ab5d98807ae9f2e1dab19955a6152c674e"
+                  },
+                  {
+                      "file":  "L4D/lang/fr.json",
+                      "bytes":  32656,
+                      "sha256":  "36c48ada7f24981445301f024ffe3c98f7b0782bb932e76cea0d266fdca4575b"
+                  },
+                  {
+                      "file":  "L4D/lang/he.json",
+                      "bytes":  33863,
+                      "sha256":  "c853e7ccd6dcd2619894827aad3899c27cdf70ac19c9c6e4bf844d538d895d6e"
+                  },
+                  {
+                      "file":  "L4D/lang/hi.json",
+                      "bytes":  49353,
+                      "sha256":  "fca782eed18455c76487c92d184956ef51a2c99615dd6f1c8d2d7df5390dfba7"
+                  },
+                  {
+                      "file":  "L4D/lang/id.json",
+                      "bytes":  29943,
+                      "sha256":  "98ee0aa9c03db6a747a4ea624af9dae6726b36c8d0aa88652fc1cf1d77dd29f6"
+                  },
+                  {
+                      "file":  "L4D/lang/it.json",
+                      "bytes":  31674,
+                      "sha256":  "0f7efe64ffc4d9f6470db526fc945fb438567fa46de6ffdd718a19cbba30308e"
+                  },
+                  {
+                      "file":  "L4D/lang/ja.json",
+                      "bytes":  33393,
+                      "sha256":  "c5bff32f62a380ba445f61f62c28bbf687a3a2b5417d181d25b17ecbaf8daaaa"
+                  },
+                  {
+                      "file":  "L4D/lang/ka.json",
+                      "bytes":  54219,
+                      "sha256":  "958540343a6764710c1112c7471d80c752331dd5df7ae2827ea37a97077ed19b"
+                  },
+                  {
+                      "file":  "L4D/lang/ko.json",
+                      "bytes":  32066,
+                      "sha256":  "b9bc91af4957a101136b8424f492fdd18bd5ac2cdb807ec05de6992f9e20de67"
+                  },
+                  {
+                      "file":  "L4D/lang/nl.json",
+                      "bytes":  30803,
+                      "sha256":  "2ef8e7b6de64390ed2c2d3fa5a0772c38d960e93c720e4b3e96d3aec42ddc476"
+                  },
+                  {
+                      "file":  "L4D/lang/pl.json",
+                      "bytes":  30924,
+                      "sha256":  "073703e5db56803d72814bef4ebb51daa2ea76b02cd9017d3063b29baf2ac740"
+                  },
+                  {
+                      "file":  "L4D/lang/pt.json",
+                      "bytes":  31348,
+                      "sha256":  "dab334e7dcd2f56a28bb0fddbba925ddcacded982bc97f6c5c8a0a68fe5a86c2"
+                  },
+                  {
+                      "file":  "L4D/lang/pt-BR.json",
+                      "bytes":  31470,
+                      "sha256":  "78af6dfa5dc061e30dd69aca6bf08928707eb520d7673a8adc815775e4c94c1c"
+                  },
+                  {
+                      "file":  "L4D/lang/ru.json",
+                      "bytes":  41846,
+                      "sha256":  "41070e5d55e146755df386894200df294978ce987558fdb40b5022a6396cdf1a"
+                  },
+                  {
+                      "file":  "L4D/lang/sr.json",
+                      "bytes":  39684,
+                      "sha256":  "1e6873850d094b2334095e5d7cf46af98a602f94cbbc7f3ebff9e3782b373008"
+                  },
+                  {
+                      "file":  "L4D/lang/th.json",
+                      "bytes":  46204,
+                      "sha256":  "8c6701c76a18403465bec535f705dd97152cf03c80fa13b1a38b572104dcb83a"
+                  },
+                  {
+                      "file":  "L4D/lang/tr.json",
+                      "bytes":  31226,
+                      "sha256":  "72fc13e698a49f0ae5bc5d427b62a41c905abb18f316b2743f408dad0280bc8a"
+                  },
+                  {
+                      "file":  "L4D/lang/vi.json",
+                      "bytes":  34558,
+                      "sha256":  "7953761a2ddd11d7634fe6c988df4da7f1e0275aefdff8ec660339ec17364025"
+                  },
+                  {
+                      "file":  "L4D/lang/zh-CN.json",
+                      "bytes":  28011,
+                      "sha256":  "41bac713239eb77e247f3a1baf558350ce8fa0f1612a0a303fb1bde160ce3c99"
+                  },
+                  {
+                      "file":  "L4D/lang/zh-TW.json",
+                      "bytes":  27587,
+                      "sha256":  "fb7ef255d1a862e34c00ecbb5dc75b111e4c886f0af6295e562e4aebf848976f"
+                  },
+                  {
+                      "file":  "L4D/scripts/Custom UI.lua",
+                      "bytes":  2169,
+                      "sha256":  "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134"
+                  },
+                  {
+                      "file":  "L4D/scripts/L4D Entity Overlay.lua",
+                      "bytes":  2578,
+                      "sha256":  "2d71f739ab3bc95e065f50de1ed6adc02c7d4e4df5eb91eafdce3155782aecfe"
+                  },
+                  {
+                      "file":  "L4D/scripts/L4D Nearby Threats.lua",
+                      "bytes":  1446,
+                      "sha256":  "2d1619b86a5c2417ceebba5ae32476ebc1e5bd4d703279a701edb147808f4537"
+                  },
+                  {
+                      "file":  "L4D/scripts/L4D Player HUD.lua",
+                      "bytes":  1400,
+                      "sha256":  "9d0fb4c68c38d202e416deefc7eadba2ab341fdff9326f3570f09c3019a54c6d"
+                  },
+                  {
+                      "file":  "L4D/scripts/Standalone Menu.lua",
+                      "bytes":  1392,
+                      "sha256":  "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2"
+                  },
+                  {
+                      "file":  "L4D/scripts/Welcome.lua",
+                      "bytes":  236,
+                      "sha256":  "b9c3fa4113d1e41fa8070e3165a3fc02147e81548bc11023a1af6e7a7144065f"
+                  }
+              ]
+}
