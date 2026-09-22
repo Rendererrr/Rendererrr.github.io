@@ -1,41 +1,41 @@
 {
-  "schema_version": 1,
-  "product": "LastOFusPart1",
-  "languages": [
-    {
-      "id": "en",
-      "name": "English",
-      "file": "en.json",
-      "bytes": 31235,
-      "sha256": "30f1c74d2152c21bbe76a96a9c44fce455a706c553535962aa13ca57857bcbfb"
-    },
-    {
-      "id": "es",
-      "name": "Español",
-      "file": "es.json",
-      "bytes": 33706,
-      "sha256": "7073cf292be70aef0d860962bd06b701a8fa0dfcef880da9f66c086492089f1e"
-    },
-    {
-      "id": "fr",
-      "name": "Français",
-      "file": "fr.json",
-      "bytes": 34416,
-      "sha256": "ee020af0a0fbb9ace3adf004acb904f51b349421cb3da758fb9cc1fc0b4a08c7"
-    },
-    {
-      "id": "de",
-      "name": "Deutsch",
-      "file": "de.json",
-      "bytes": 33417,
-      "sha256": "e68daf5e2a7b3c49161bedf0162e144177e92d1f89c0db2c1d59a4e4c1aaa567"
-    },
-    {
-      "id": "pt-BR",
-      "name": "Português (Brasil)",
-      "file": "pt-BR.json",
-      "bytes": 33803,
-      "sha256": "e6f10feb57cf20021da7976c2fdb56002a783353340b6d60b4608f0fc2d6e4a6"
-    }
-  ]
+    "schema_version":  1,
+    "product":  "LastOFusPart1",
+    "languages":  [
+                      {
+                          "id":  "en",
+                          "name":  "English",
+                          "file":  "en.json",
+                          "bytes":  31235,
+                          "sha256":  "30f1c74d2152c21bbe76a96a9c44fce455a706c553535962aa13ca57857bcbfb"
+                      },
+                      {
+                          "id":  "es",
+                          "name":  "Español",
+                          "file":  "es.json",
+                          "bytes":  33706,
+                          "sha256":  "7073cf292be70aef0d860962bd06b701a8fa0dfcef880da9f66c086492089f1e"
+                      },
+                      {
+                          "id":  "fr",
+                          "name":  "Français",
+                          "file":  "fr.json",
+                          "bytes":  34416,
+                          "sha256":  "ee020af0a0fbb9ace3adf004acb904f51b349421cb3da758fb9cc1fc0b4a08c7"
+                      },
+                      {
+                          "id":  "de",
+                          "name":  "Deutsch",
+                          "file":  "de.json",
+                          "bytes":  33417,
+                          "sha256":  "e68daf5e2a7b3c49161bedf0162e144177e92d1f89c0db2c1d59a4e4c1aaa567"
+                      },
+                      {
+                          "id":  "pt-BR",
+                          "name":  "Português (Brasil)",
+                          "file":  "pt-BR.json",
+                          "bytes":  33803,
+                          "sha256":  "e6f10feb57cf20021da7976c2fdb56002a783353340b6d60b4608f0fc2d6e4a6"
+                      }
+                  ]
 }
