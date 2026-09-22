@@ -595,7 +595,7 @@ Ragebot, Legitbot and both Triggerbot pages use a multi-select Targets dropdown.
 | 3 | Stomach | Stomach only |
 | 4 | Arms | Left and right arms |
 | 5 | Legs | Left and right legs |
-| 6 | All | All available hitboxes |
+| 6 | Nearest (aim) / All (trigger) | All available hitboxes; aim ranks their centers by crosshair angle |
 
 Aim resolves centers from the entity’s current hitbox set and animated bone matrices, then chooses the closest eligible point inside the FOV and range. With Visible only enabled it tries another selected point when the closer point is obstructed. It never substitutes another region when a strict selection is missing. One bone setup is shared by all candidate points for that entity; no limb-specific bone indices are assumed between L4D1/L4D2 models. Lock on keeps the entity while rechecking its selected hitboxes each command.
 
@@ -603,7 +603,44 @@ Triggerbot filters the actual shot trace hitgroup, without moving the crosshair.
 
 ```lua
 l4d.setting("aim.point", "style", 2)             -- Legit: head
-l4d.setting("aim.rage.point", "style", 6)        -- Rage: all available hitboxes
+l4d.setting("aim.rage.point", "style", 6)        -- Rage: nearest hitbox center to the crosshair
 l4d.setting("trigger.hitbox", "style", 1)       -- Legit Triggerbot: chest
 l4d.setting("trigger.rage.hitbox", "style", 0)  -- Rage Triggerbot: upper body
 ```
+
+
+## World skies and animated chams
+
+All effects below are disabled initially and participate in normal configs and hotkeys.
+`aim.point` and `aim.rage.point` style `6` are displayed as **Nearest**: all current hitbox centers ranked by angular distance from the crosshair. Triggerbot retains **All** at the same numeric value; it filters the hitgroup intersected by its firing trace.
+
+| Setting ID | Field | Values |
+|---|---|---|
+| `world.skybox` | `style` | 0 Galaxy, 1 Blue nebula, 2 Crimson nebula |
+| `world.sky_brightness` | `distance` | 0.1–2, default 1 |
+| `world.sky_speed` | `distance` | 0.05–1 Hz, default 0.1 |
+| `world.pulse_speed` | `distance` | 0.05–1 Hz, default 0.2 |
+| `world.pulse_amount` | `distance` | 0–0.8, default 0.2 |
+| `chams.animation` | `style` | 0 Color wave, 1 Breathing, 2 Shimmer |
+| `chams.animation_speed` | `distance` | 0.05–3 Hz, default 0.3 |
+| `chams.animation_amount` | `distance` | 0–1, default 0.65 |
+
+Toggle `world.skybox`, `world.sky_animation`, `world.pulse` and `chams.animation` with `features.set`. Use `features.color` on `world.sky_animation` or `chams.animation` for the accent color. The color-wave mode blends toward that accent; breathing/shimmer modulate the selected material brightness. Existing opacity and rainbow controls still work.
+
+Chams material indices 0–11 are unchanged. **12 Galaxy** uses a galaxy texture; **13 Galaxy flow** scrolls that texture via the Source material proxy. Select these independently for each target's visible/invisible pass. Color-animation speed does not change the flow proxy's texture-scroll speed.
+
+```lua
+features.set("world.skybox", true)
+l4d.setting("world.skybox", "style", 0)
+l4d.setting("world.sky_brightness", "distance", 0.8)
+features.set("chams.enabled", true)
+features.set("chams.held", true)
+features.set("chams.held.custom", true)
+l4d.setting("chams.held.custom", "style", 13)
+features.color("chams.held.custom", 1, 1, 1, 1)
+features.set("chams.animation", true)
+l4d.setting("chams.animation", "style", 0)
+features.color("chams.animation", 0.3, 0.8, 1, 1)
+```
+
+Galaxy assets are supplied under `materials/scooby_l4d_vfx_v1`. The host installs only this namespace into the detected game's material directory. Galaxy skies need a compatible map skybox; indoor maps can hide the sky. LDR, HDR and RGBS sky textures are handled separately. Legacy three-exposure HDR skies are left unchanged. Texture bindings and colors are restored when disabled, on level shutdown and on Stop. World breathing is limited to eight material updates per second; sky-only animation never rewrites unchanged world materials.
