@@ -16,6 +16,17 @@
     "Aim assist": "目標協助",
     "Aim at common and uncommon infected.": "針對常見和不常見的感染者.",
     "Aim at special infected including Tank.": "針對特別感染者, 包括坦克.",
+<<<<<<< HEAD
+    "Aim key": "目標鍵",
+    "Aim mode": "目標模式",
+    "Aim point": "目的地",
+    "Aim settings": "目標設定",
+    "Aim snapline": "目標快線",
+    "Aim visuals": "目標圖像",
+    "Air movement assistance while holding jump; preserves view angles.": "保持跳動時的空氣移動支援; 保持視角.",
+    "Alignment": "排列方式",
+    "All": "全部",
+=======
     "Aim key": "瞄準鍵",
     "Aim mode": "目標模式",
     "Aim point": "目的地",
@@ -26,6 +37,7 @@
     "Alignment": "排列方式",
     "All": "全部",
     "None": "無",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "All categories": "所有類別",
     "Alpha": "阿爾法",
     "Always": "始終",
@@ -33,6 +45,16 @@
     "Ammo piles": "彈藥堆 ⁇",
     "Animate Demo": "動畫演示",
     "Animate the material opacity.": "動畫材料的不透明度.",
+<<<<<<< HEAD
+    "Animate the selected material colors without extra model passes.": "沒有額外的模擬通行證,",
+    "Animated color": "動畫顏色",
+    "Animated sky color": "動畫的天空顏色",
+    "Animation": "動畫",
+    "Animation mode": "動畫模式",
+    "Animation speed": "動畫速度",
+    "Animation strength": "動畫強度",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Appearance": "外觀",
     "Applied scale": "應用規模",
     "Apply chams to other survivors.": "適用於其他幸存者.",
@@ -58,7 +80,13 @@
     "Bar width": "棒的寬度",
     "Behaviour": "行為",
     "Binds": "聯繫方式",
+<<<<<<< HEAD
+    "Blend sky colors toward the selected accent color.": "混合天空的顏色,",
     "Block game input": "封鎖遊戲輸入",
+    "Blue nebula": "藍色星雲",
+=======
+    "Block game input": "封鎖遊戲輸入",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Boomer": "Boomer",
     "Bottom": "底部",
     "Bounding boxes for world pickups.": "收藏全球財產的盒子.",
@@ -68,6 +96,11 @@
     "Box padding (%)": "盒裝填充 (%)",
     "Box style": "盒式",
     "Box width (%)": "盒子寬度 (%)",
+<<<<<<< HEAD
+    "Breathing": "呼吸時間",
+    "Brightness": "亮度",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Browse": "瀏覽",
     "Browser": "浏览器",
     "Bunnyhop": "這裡有很多人.",
@@ -100,6 +133,10 @@
     "Close": "關閉",
     "Collapse console": "破壞控制台",
     "Color": "顏色",
+<<<<<<< HEAD
+    "Color wave": "顏色波",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Combat": "戰鬥",
     "Combat / Aim": "戰鬥 / 目標",
     "Combat / Triggerbot": "戰鬥機 / 引發機",
@@ -118,6 +155,10 @@
     "Corners": "角落",
     "Count": "計數",
     "Create": "建立",
+<<<<<<< HEAD
+    "Crimson nebula": "黑色星云",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Crosshair": "十字線",
     "Custom Text": "自定義文字",
     "Custom accent": "定制的口音",
@@ -169,7 +210,11 @@
     "Export to clipboard": "輸出到剪貼板",
     "Extra space around the fitted body box.": "裝置的車身盒周圍有更多空間.",
     "FOV (degrees)": "排放時間:",
+<<<<<<< HEAD
+    "FOV circle": "周圍的 FOV",
+=======
     "FOV circle": "視野圓圈",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "FPS Graph": "顯示器",
     "Favorite": "喜愛",
     "Favorites": "收藏夾",
@@ -188,7 +233,15 @@
     "Free the menu cursor and block camera, movement, attacks and use while the menu is open.": "在選單開啟時, 釋放菜單導覽器和封鎖相機, 移動,攻擊和使用.",
     "Full": "滿滿的",
     "Fullbright": "顯著光線",
+<<<<<<< HEAD
+    "Galaxy": "銀河系",
+    "Galaxy flow": "銀河流量",
+    "Galaxy sky": "星系天空",
     "Gameplay": "遊戲方式",
+    "Gently pulse world and prop brightness. Updates are rate limited for performance.": "輕輕的脈動世界和道具亮度.",
+=======
+    "Gameplay": "遊戲方式",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Get Started": "開始!",
     "Ghost": "鬼魂",
     "Ghost wireframe": "幽靈線框",
@@ -200,7 +253,11 @@
     "Head only": "只有頭部",
     "Health Bar": "生命值條",
     "Height (%)": "高度 (%)",
+<<<<<<< HEAD
+    "Hitboxes": "標籤盒",
+=======
     "Hitboxes": "命中區域",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Hold": "按住",
     "Hold jump for assistance. Ladders and deep water are excluded.": "請不要跳, 沒有梯子或深水.",
     "Hold jump to jump on landing. Disabled while swimming or climbing.": "在登陸時保持跳躍. 在游泳或爬山時殘疾.",
@@ -238,7 +295,11 @@
     "Legacy render bounds. Enable Fit to model for aligned body boxes.": "預覽 預覽 預覽 預覽",
     "Legit": "合法性",
     "Legit aiming": "合法的目標",
+<<<<<<< HEAD
+    "Legitbot": "網路使用者",
+=======
     "Legitbot": "平滑瞄準",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Legs": "腿部",
     "Lines from screen bottom to pickups.": "從屏幕底線到收藏品.",
     "Lit": "受光照",
@@ -275,6 +336,10 @@
     "Name": "套裝名",
     "Name color": "名稱顏色",
     "Native third-person camera position in Source units.": "在原始的第三人攝影機位置.",
+<<<<<<< HEAD
+    "Nearest": "最近的地方",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Neon wireframe": "⁇ 子線框",
     "Night preset": "夜間配色",
     "No active binds": "沒有活性結束",
@@ -286,6 +351,10 @@
     "No recoil": "無後坐力",
     "No scripts yet. Create your first script.": "沒有劇本.",
     "No spread": "æ— ä¼ æ'­",
+<<<<<<< HEAD
+    "None": "無",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Normal text": "通常的文字",
     "Official Links": "官方連結",
     "Offset": "偏移量",
@@ -333,7 +402,11 @@
     "Radar Rings": "雷達雷達",
     "Rage": "憤怒",
     "Rage aiming": "發怒的目標",
+<<<<<<< HEAD
+    "Ragebot": "拉格波特",
+=======
     "Ragebot": "快速瞄準",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Rainbow colors": "彩虹的顏色",
     "Range": "範圍",
     "Range (m)": "範圍 (m)",
@@ -356,6 +429,10 @@
     "Rename": "改名",
     "Render the debug model material as a wireframe.": "請將檢測模型資料呈現為線框.",
     "Renderer": "渲染器",
+<<<<<<< HEAD
+    "Replace the map sky with a galaxy panorama; restores the original textures when disabled.": "取代地圖天空以銀河風景; 當被禁用時恢復原始質感.",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Require a clear shot to the target.": "需要清晰的射擊目標.",
     "Require a trace hit on the head hitgroup.": "要求追蹤攻擊團隊的頭部.",
     "Reset": "重置",
@@ -395,11 +472,19 @@
     "Session": "會議",
     "Set as default": "預設為預設",
     "Set hotkey": "設定快捷鍵:",
+<<<<<<< HEAD
+    "Set key": "設定鍵",
+=======
     "Set key": "設定按鍵",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Settings": "設定",
     "Settings / Overlays": "設定 / 覆蓋",
     "Shape": "形狀",
     "Shared effects": "分享效果",
+<<<<<<< HEAD
+    "Shimmer": "閃 ⁇ 器",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Shoulder - left / right": "肩膀 - 左 / 右",
     "Shoulder offset": "肩部抵消",
     "Show FPS": "顯示幀率",
@@ -426,7 +511,17 @@
     "Skeleton": "骨骼",
     "Skeleton & Lines": "骨架與線條",
     "Skeleton color": "骨骼顏色",
+<<<<<<< HEAD
+    "Sky": "這就是天空.",
+    "Sky animation": "天空動畫",
+    "Sky brightness": "天空的亮度",
+    "Sky color speed": "天空顏色速度",
+    "Sky preset": "天空預設",
     "Sky tint": "天空顏色",
+    "Skybox": "沒有任何問題",
+=======
+    "Sky tint": "天空顏色",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Smoker": "Smoker",
     "Smoothing": "平滑",
     "Snapline color": "快線的顏色",
@@ -436,6 +531,10 @@
     "Special infected": "特別感染者",
     "Special infected (including Tank)": "特別感染者 (包括坦克)",
     "Special infected (unknown)": "特別感染者 (未知)",
+<<<<<<< HEAD
+    "Speed (Hz)": "速度 (Hz)",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Speed: %.0f units/s": "速度: %.0f個/秒",
     "Spitter": "Spitter",
     "Square": "方形",
@@ -445,6 +544,10 @@
     "Stop all scripts": "停止所有脚本",
     "Stop debug tool": "停止檢測工具",
     "Stop restores the game effects. Assign an optional shortcut in Hotkeys.": "停止恢復遊戲效果. 在Hotkeys中指定可選的捷徑.",
+<<<<<<< HEAD
+    "Strength": "强度",
+=======
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Style": "風格",
     "Survivors": "倖存者",
     "Swap pass appearance": "交換兩層外觀",
@@ -453,7 +556,11 @@
     "TOOLS": "工具",
     "Tank": "Tank",
     "Target": "目標",
+<<<<<<< HEAD
+    "Target dot": "目標點",
+=======
     "Target dot": "目標圓點",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Targets": "目標",
     "Team": "團隊",
     "Telemetry": "遠隔測量",
@@ -475,7 +582,11 @@
     "Tools": "工具",
     "Top": "頂部",
     "Top-down positions from the shared entity data.": "來自共享單位數據的上下位置.",
+<<<<<<< HEAD
+    "Trigger key": "引發關鍵",
+=======
     "Trigger key": "自動開火鍵",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "Trigger response settings": "引發反應設定",
     "Triggerbot": "觸發機器人",
     "Type colors": "各種顏色",
@@ -529,15 +640,37 @@
     "Witch": "Witch",
     "World": "世界",
     "World / Materials": "世界 / 材料",
+<<<<<<< HEAD
+    "World / Sky": "世界 / 天空",
+    "World / View": "世界 / 景觀",
+    "World breathing": "世界呼吸",
+    "World lighting": "全球照明",
+    "World materials": "世界材質",
+    "World pickups only. Held items and projectiles are excluded.": "只有世界收藏品. 持有物品和彈藥除外.",
+    "World pulse speed": "世界脈動速度",
+    "World pulse strength": "世界脈動強度",
+=======
     "World / View": "世界 / 景觀",
     "World materials": "世界材質",
     "World pickups only. Held items and projectiles are excluded.": "只有世界收藏品. 持有物品和彈藥除外.",
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
     "World tint": "世界顏色",
     "X - left / right": "X - 左/右",
     "Y - back / forward": "Y - 前後",
     "Your portable workspace for visuals, scripts and settings.": "您的可隨身工作空間為視覺,劇本和設定.",
     "Z - down / up": "⁇  - 下 / 上",
+<<<<<<< HEAD
+    "aim.mode": "aim.mode",
+    "aim.point": "aim.point",
+    "aim.range": "aim.range",
+    "aim.smoothing": "aim.smoothing",
+    "features": "特點",
+    "lines": "線條",
+    "trigger.delay": "trigger.delay",
+    "trigger.range": "trigger.range"
+=======
     "features": "特點",
     "lines": "線條"
+>>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
   }
 }
