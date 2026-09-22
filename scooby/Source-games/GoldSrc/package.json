@@ -1,0 +1,1043 @@
+{
+  "architecture": "x86",
+  "engine": "goldsrc",
+  "files": {
+    "README.md": {
+      "sha256": "4405d96308af6a59473e4a83bed8be39da9dafde9751458111cb87b4e64fafe1",
+      "size": 5037
+    },
+    "bin/ScoobyGoldSrc.dll": {
+      "sha256": "16119d4e30f15913166f8d484ab1de2f5a2e5869d69ce5faf44dd809239371d8",
+      "size": 3424768
+    },
+    "bin/assets/bshift/blueshift_pages.lua": {
+      "sha256": "d6583737ffc67a857afc135c1f6a298cb535102ce2924b3b19f4e3e7880f4c1f",
+      "size": 2063
+    },
+    "bin/assets/bshift/docs/ADDING_FEATURES.md": {
+      "sha256": "ab9121cd9cca5b747737dfa5c43a457dc60dd7112d78a24614f879ed4d869981",
+      "size": 3538
+    },
+    "bin/assets/bshift/docs/AUTO_SYNC.md": {
+      "sha256": "c812a6a8de7f58eb36b5cd2e41d9998fcf1076415fc37743afe53fb5353a5119",
+      "size": 11656
+    },
+    "bin/assets/bshift/docs/CONSOLE.md": {
+      "sha256": "8201c6ac0fccca79e1f7b8ab275c839f7b38b9dd3e8e1be0790260740ecc93be",
+      "size": 2249
+    },
+    "bin/assets/bshift/docs/CONSUMERS.md": {
+      "sha256": "a56db516299c97137e99bf78e9e3ce428d1e41e3b3ff0a2395eb17e37c6b989a",
+      "size": 8272
+    },
+    "bin/assets/bshift/docs/DATA_FORMAT.md": {
+      "sha256": "b7c6183915c70d6562f13c703f79a9bdd3763453ac530ed7e58ac6dac6ee3ec7",
+      "size": 4854
+    },
+    "bin/assets/bshift/docs/GAME_SIDEBAR.md": {
+      "sha256": "862fbc5fd38e457f216076151dbe4114770b199bbff8df8fd26883f9c2d2424c",
+      "size": 9640
+    },
+    "bin/assets/bshift/docs/HEALTH_ESP.md": {
+      "sha256": "7003cb29838aab94a246836b7760a95216d796c5d13485620023fd59f7bd6a50",
+      "size": 4635
+    },
+    "bin/assets/bshift/docs/LINUX_COMPATIBILITY.md": {
+      "sha256": "e486233f6dad8d29ad6eaab58f5a199d9e807478fd34a84e7e1dfa982c0dfae0",
+      "size": 6729
+    },
+    "bin/assets/bshift/docs/LUA_API.md": {
+      "sha256": "178f2ee8d05df41d0e6cd3e3ff45e36e2e8dbcfcf2b4a87adf1e0fe0134372f1",
+      "size": 30406
+    },
+    "bin/assets/bshift/docs/PORTING.md": {
+      "sha256": "d477547429c260311f8a7a90913b9fd2deb472a2ea8967a5ad8347628c50cb04",
+      "size": 15747
+    },
+    "bin/assets/bshift/docs/PORTING_EVERYTHING.md": {
+      "sha256": "a9cf1f58c76884f415d334abe0a6d6032a6063da81d7b237909b90c3577034ba",
+      "size": 65754
+    },
+    "bin/assets/bshift/docs/TESTING.md": {
+      "sha256": "2a8c29286e8d3bd2a15118beabf9bb828b11099afec1b8f436808922ef1a4d6f",
+      "size": 8757
+    },
+    "bin/assets/bshift/docs/UI_COMPONENTS.md": {
+      "sha256": "138a5a58f58af23cfe26ac0af83bd6cd519f74b99aaae72a53d68d560dbc8ae1",
+      "size": 3957
+    },
+    "bin/assets/bshift/docs/consumer-inventory.json": {
+      "sha256": "c27aa4f8d8a6f31349e6e1947af782538be241bad131ecc64588fdcb3528811f",
+      "size": 125533
+    },
+    "bin/assets/bshift/docs/game/LUA.md": {
+      "sha256": "7e53ca1f0f0b3c0f433c1f776ab8622f2afa81182674d0cafb837c5e3af37ed7",
+      "size": 2873
+    },
+    "bin/assets/bshift/docs/shared/README.md": {
+      "sha256": "c5c02ffb04087f88abd3fd423641753a464db8c0bf972cd274bf75d035a0af53",
+      "size": 8692
+    },
+    "bin/assets/bshift/docs/shared/THIRD_PARTY.md": {
+      "sha256": "989458263b4d0289416eaf6ca372618fc3df0cb605a1773a9f945f55bac46176",
+      "size": 2182
+    },
+    "bin/assets/bshift/docs/sync-validation.json": {
+      "sha256": "c0406fd91e90231f6e8da9a50a7dbc730ba6c3a2ddd66d80cc7e0085fef03bdd",
+      "size": 2687
+    },
+    "bin/assets/bshift/docs/vendor-reconciliation.json": {
+      "sha256": "3ec3d49a9530213a88f54b29f16e4ce55f3da03a72eb49c48e6b744ba95b1f74",
+      "size": 13378
+    },
+    "bin/assets/bshift/fonts/LUCIDE-LICENSE.txt": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "size": 3208
+    },
+    "bin/assets/bshift/fonts/NotoSans.ttf": {
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "size": 2049096
+    },
+    "bin/assets/bshift/fonts/NotoSansArabic.ttf": {
+      "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+      "size": 844676
+    },
+    "bin/assets/bshift/fonts/NotoSansDevanagari.ttf": {
+      "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7",
+      "size": 647144
+    },
+    "bin/assets/bshift/fonts/NotoSansGeorgian.ttf": {
+      "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9",
+      "size": 231988
+    },
+    "bin/assets/bshift/fonts/NotoSansHebrew.ttf": {
+      "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88",
+      "size": 112640
+    },
+    "bin/assets/bshift/fonts/NotoSansJP.ttf": {
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+      "size": 9589900
+    },
+    "bin/assets/bshift/fonts/NotoSansKR.ttf": {
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+      "size": 10414588
+    },
+    "bin/assets/bshift/fonts/NotoSansMono.ttf": {
+      "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081",
+      "size": 1708408
+    },
+    "bin/assets/bshift/fonts/NotoSansSC.ttf": {
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "size": 17772300
+    },
+    "bin/assets/bshift/fonts/NotoSansTC.ttf": {
+      "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+      "size": 11941968
+    },
+    "bin/assets/bshift/fonts/NotoSansThai.ttf": {
+      "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+      "size": 218652
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSans-OFL.txt": {
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansArabic-OFL.txt": {
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+      "size": 4382
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansDevanagari-OFL.txt": {
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+      "size": 4386
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansGeorgian-OFL.txt": {
+      "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df",
+      "size": 4384
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansHebrew-OFL.txt": {
+      "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+      "size": 4382
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansJP-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansKR-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansMono-OFL.txt": {
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansSC-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansTC-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/bshift/fonts/licenses/NotoSansThai-OFL.txt": {
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0",
+      "size": 4380
+    },
+    "bin/assets/bshift/fonts/lucide.ttf": {
+      "sha256": "b51e63bbfc3f3fd33c4e5dde30a58779c9ad2c9b692f13cdaf4b610937e454d8",
+      "size": 803488
+    },
+    "bin/assets/bshift/fonts/manifest.json": {
+      "sha256": "3b0999fe90a24f4aa9e74d5db350cec427ffeab78e5bf47a01410aa6cc9c9e40",
+      "size": 5033
+    },
+    "bin/assets/bshift/languages/ar.json": {
+      "sha256": "1d784c5ff084a940bd1dda9df79efa4662f9ab48c757af756e56e35f1fb59716",
+      "size": 8386
+    },
+    "bin/assets/bshift/languages/de.json": {
+      "sha256": "8e67b91703b7a0cc3556eaa416e710a758144f746b2970e858c2ac2fb3f1e592",
+      "size": 9272
+    },
+    "bin/assets/bshift/languages/en.json": {
+      "sha256": "fb687eaaea1bea532245573b40b943b8600180eb2d26f6e4e0e1ccd67e552c67",
+      "size": 8781
+    },
+    "bin/assets/bshift/languages/es.json": {
+      "sha256": "2ea9de33bef1fcb0a8da51f95896cbd9d65cf462562e8a9d31dd99bbcb61936d",
+      "size": 9349
+    },
+    "bin/assets/bshift/languages/fr.json": {
+      "sha256": "a6b02c498708d9055462f9e77684c2b351dc0d76325d30ed1bc1ecc796e35cca",
+      "size": 8443
+    },
+    "bin/assets/bshift/languages/he.json": {
+      "sha256": "68c998b49f4ac7f124c76fd43b54bb83a64ae18cbfb97c9437e69e72e4362e6a",
+      "size": 8191
+    },
+    "bin/assets/bshift/languages/hi.json": {
+      "sha256": "1a1c8e1b1a38d3712bb6ccfff11d74717404aff910f8b5ea0950629a62c0f977",
+      "size": 9268
+    },
+    "bin/assets/bshift/languages/id.json": {
+      "sha256": "a92d68acde8d250005344004f64aeb4cb7fe9e2cf566a29069acf20e32220a4c",
+      "size": 7831
+    },
+    "bin/assets/bshift/languages/it.json": {
+      "sha256": "6bdab402a920de5faeae7e323a5452e265969140e5694068e98259a341b6f8fb",
+      "size": 8245
+    },
+    "bin/assets/bshift/languages/ja.json": {
+      "sha256": "279640bcef2642e5490ec62c9523fe26ce8827dc476c6ebceb5290d21ce54b8d",
+      "size": 8154
+    },
+    "bin/assets/bshift/languages/ka.json": {
+      "sha256": "d5d1e295a6ae4871a919fbc9ff2575402c7e861fffc5523d1505ea7929bfd373",
+      "size": 9972
+    },
+    "bin/assets/bshift/languages/ko.json": {
+      "sha256": "ed8432cad1095dc51282a52e75f7ee93bfa93a97b05f24c5c061f0898ee47a33",
+      "size": 7961
+    },
+    "bin/assets/bshift/languages/nl.json": {
+      "sha256": "9fe7c512fc4963e673966b3851c800a19283c31734906937120cc184224dff98",
+      "size": 8152
+    },
+    "bin/assets/bshift/languages/pl.json": {
+      "sha256": "efcadb28209f9f6b6d153b799a9017a00b065f6337c5f150d8f34bd946e720c6",
+      "size": 8035
+    },
+    "bin/assets/bshift/languages/pt-BR.json": {
+      "sha256": "aed23b734f6baafb4272b7a107aa024e1520a2b118ee795c18a217e45116c974",
+      "size": 7883
+    },
+    "bin/assets/bshift/languages/pt.json": {
+      "sha256": "8bc02155ecf48ee8e5a93cc5232d455603648043ab89d3df4057288fb0fe4944",
+      "size": 8342
+    },
+    "bin/assets/bshift/languages/ru.json": {
+      "sha256": "5181cfbb411f57d96bd0b3111fdd3c46b6f14abd6f1fbc19cd53f9e6e2569d02",
+      "size": 8900
+    },
+    "bin/assets/bshift/languages/sr.json": {
+      "sha256": "522a1368a7b8950889d284d2e49e8337e4ff2fb9fcba1535e52d24a8dec3c54c",
+      "size": 8647
+    },
+    "bin/assets/bshift/languages/th.json": {
+      "sha256": "3245ebc5bd0180e5b631462c78a7fe12877e39551ca20208c42c90dee8489a5b",
+      "size": 9334
+    },
+    "bin/assets/bshift/languages/tr.json": {
+      "sha256": "cb6fa75b756df5fe5d423833f110953d1cfde1e31ecbe1b7dc5b5d12fa3c1ec3",
+      "size": 7968
+    },
+    "bin/assets/bshift/languages/vi.json": {
+      "sha256": "b5d81af937f1773f78d5c6ab04b0c0bc0d1ca4f813f10e531772da551e0d03ac",
+      "size": 8119
+    },
+    "bin/assets/bshift/languages/zh-CN.json": {
+      "sha256": "6d28a202f4fda35fa9b3d18996b46e7024a2c06564393eaab0933606bb823f6b",
+      "size": 7810
+    },
+    "bin/assets/bshift/languages/zh-TW.json": {
+      "sha256": "47a1f3e9485c67f25d1104a10e8e13ab5bd861fed879e3678446b553bbe6299c",
+      "size": 7831
+    },
+    "bin/assets/bshift/licenses/Dear-ImGui-LICENSE.txt": {
+      "sha256": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293",
+      "size": 1104
+    },
+    "bin/assets/bshift/licenses/ImGuiColorTextEdit-LICENSE.txt": {
+      "sha256": "38f4538cfadc4d3aaa90e8a9bf39b2ccf0761db5562442d5906e1e82708d40fb",
+      "size": 1066
+    },
+    "bin/assets/bshift/licenses/Lua-LICENSE.txt": {
+      "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32",
+      "size": 1086
+    },
+    "bin/assets/bshift/licenses/nlohmann-json-LICENSE.txt": {
+      "sha256": "e310b2928d3f83c6eba5f7523d84863845f9fb51a66a97c7ab8fdab832e28b54",
+      "size": 1327
+    },
+    "bin/assets/bshift/scripts/Custom UI.lua": {
+      "sha256": "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134",
+      "size": 2169
+    },
+    "bin/assets/bshift/scripts/Entity summary.lua": {
+      "sha256": "434a3858911630b046e04685989f9b0c0a4201995f6c7d6d34c65cd8859a64e0",
+      "size": 372
+    },
+    "bin/assets/bshift/scripts/Standalone Menu.lua": {
+      "sha256": "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2",
+      "size": 1392
+    },
+    "bin/assets/bshift/scripts/Welcome.lua": {
+      "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9",
+      "size": 231
+    },
+    "bin/assets/gearbox/docs/ADDING_FEATURES.md": {
+      "sha256": "ab9121cd9cca5b747737dfa5c43a457dc60dd7112d78a24614f879ed4d869981",
+      "size": 3538
+    },
+    "bin/assets/gearbox/docs/AUTO_SYNC.md": {
+      "sha256": "c812a6a8de7f58eb36b5cd2e41d9998fcf1076415fc37743afe53fb5353a5119",
+      "size": 11656
+    },
+    "bin/assets/gearbox/docs/CONSOLE.md": {
+      "sha256": "8201c6ac0fccca79e1f7b8ab275c839f7b38b9dd3e8e1be0790260740ecc93be",
+      "size": 2249
+    },
+    "bin/assets/gearbox/docs/CONSUMERS.md": {
+      "sha256": "a56db516299c97137e99bf78e9e3ce428d1e41e3b3ff0a2395eb17e37c6b989a",
+      "size": 8272
+    },
+    "bin/assets/gearbox/docs/DATA_FORMAT.md": {
+      "sha256": "b7c6183915c70d6562f13c703f79a9bdd3763453ac530ed7e58ac6dac6ee3ec7",
+      "size": 4854
+    },
+    "bin/assets/gearbox/docs/GAME_SIDEBAR.md": {
+      "sha256": "862fbc5fd38e457f216076151dbe4114770b199bbff8df8fd26883f9c2d2424c",
+      "size": 9640
+    },
+    "bin/assets/gearbox/docs/HEALTH_ESP.md": {
+      "sha256": "7003cb29838aab94a246836b7760a95216d796c5d13485620023fd59f7bd6a50",
+      "size": 4635
+    },
+    "bin/assets/gearbox/docs/LINUX_COMPATIBILITY.md": {
+      "sha256": "e486233f6dad8d29ad6eaab58f5a199d9e807478fd34a84e7e1dfa982c0dfae0",
+      "size": 6729
+    },
+    "bin/assets/gearbox/docs/LUA_API.md": {
+      "sha256": "91c2be58bc9f4bb51761d2f6f13e411d417525f2233ce7f17b136b3ec0b70074",
+      "size": 30615
+    },
+    "bin/assets/gearbox/docs/PORTING.md": {
+      "sha256": "d477547429c260311f8a7a90913b9fd2deb472a2ea8967a5ad8347628c50cb04",
+      "size": 15747
+    },
+    "bin/assets/gearbox/docs/PORTING_EVERYTHING.md": {
+      "sha256": "a9cf1f58c76884f415d334abe0a6d6032a6063da81d7b237909b90c3577034ba",
+      "size": 65754
+    },
+    "bin/assets/gearbox/docs/TESTING.md": {
+      "sha256": "2a8c29286e8d3bd2a15118beabf9bb828b11099afec1b8f436808922ef1a4d6f",
+      "size": 8757
+    },
+    "bin/assets/gearbox/docs/UI_COMPONENTS.md": {
+      "sha256": "138a5a58f58af23cfe26ac0af83bd6cd519f74b99aaae72a53d68d560dbc8ae1",
+      "size": 3957
+    },
+    "bin/assets/gearbox/docs/consumer-inventory.json": {
+      "sha256": "c27aa4f8d8a6f31349e6e1947af782538be241bad131ecc64588fdcb3528811f",
+      "size": 125533
+    },
+    "bin/assets/gearbox/docs/game/LUA.md": {
+      "sha256": "064a3cd554d9b350e4f8bbf6d12b81a8777ba279307b5fd9626ac20201c8939e",
+      "size": 3082
+    },
+    "bin/assets/gearbox/docs/shared/README.md": {
+      "sha256": "c5c02ffb04087f88abd3fd423641753a464db8c0bf972cd274bf75d035a0af53",
+      "size": 8692
+    },
+    "bin/assets/gearbox/docs/shared/THIRD_PARTY.md": {
+      "sha256": "989458263b4d0289416eaf6ca372618fc3df0cb605a1773a9f945f55bac46176",
+      "size": 2182
+    },
+    "bin/assets/gearbox/docs/sync-validation.json": {
+      "sha256": "c0406fd91e90231f6e8da9a50a7dbc730ba6c3a2ddd66d80cc7e0085fef03bdd",
+      "size": 2687
+    },
+    "bin/assets/gearbox/docs/vendor-reconciliation.json": {
+      "sha256": "3ec3d49a9530213a88f54b29f16e4ce55f3da03a72eb49c48e6b744ba95b1f74",
+      "size": 13378
+    },
+    "bin/assets/gearbox/fonts/LUCIDE-LICENSE.txt": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "size": 3208
+    },
+    "bin/assets/gearbox/fonts/NotoSans.ttf": {
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "size": 2049096
+    },
+    "bin/assets/gearbox/fonts/NotoSansArabic.ttf": {
+      "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+      "size": 844676
+    },
+    "bin/assets/gearbox/fonts/NotoSansDevanagari.ttf": {
+      "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7",
+      "size": 647144
+    },
+    "bin/assets/gearbox/fonts/NotoSansGeorgian.ttf": {
+      "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9",
+      "size": 231988
+    },
+    "bin/assets/gearbox/fonts/NotoSansHebrew.ttf": {
+      "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88",
+      "size": 112640
+    },
+    "bin/assets/gearbox/fonts/NotoSansJP.ttf": {
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+      "size": 9589900
+    },
+    "bin/assets/gearbox/fonts/NotoSansKR.ttf": {
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+      "size": 10414588
+    },
+    "bin/assets/gearbox/fonts/NotoSansMono.ttf": {
+      "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081",
+      "size": 1708408
+    },
+    "bin/assets/gearbox/fonts/NotoSansSC.ttf": {
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "size": 17772300
+    },
+    "bin/assets/gearbox/fonts/NotoSansTC.ttf": {
+      "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+      "size": 11941968
+    },
+    "bin/assets/gearbox/fonts/NotoSansThai.ttf": {
+      "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+      "size": 218652
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSans-OFL.txt": {
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansArabic-OFL.txt": {
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+      "size": 4382
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansDevanagari-OFL.txt": {
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+      "size": 4386
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansGeorgian-OFL.txt": {
+      "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df",
+      "size": 4384
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansHebrew-OFL.txt": {
+      "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+      "size": 4382
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansJP-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansKR-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansMono-OFL.txt": {
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansSC-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansTC-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/gearbox/fonts/licenses/NotoSansThai-OFL.txt": {
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0",
+      "size": 4380
+    },
+    "bin/assets/gearbox/fonts/lucide.ttf": {
+      "sha256": "b51e63bbfc3f3fd33c4e5dde30a58779c9ad2c9b692f13cdaf4b610937e454d8",
+      "size": 803488
+    },
+    "bin/assets/gearbox/fonts/manifest.json": {
+      "sha256": "3b0999fe90a24f4aa9e74d5db350cec427ffeab78e5bf47a01410aa6cc9c9e40",
+      "size": 5033
+    },
+    "bin/assets/gearbox/languages/ar.json": {
+      "sha256": "1d784c5ff084a940bd1dda9df79efa4662f9ab48c757af756e56e35f1fb59716",
+      "size": 8386
+    },
+    "bin/assets/gearbox/languages/de.json": {
+      "sha256": "8e67b91703b7a0cc3556eaa416e710a758144f746b2970e858c2ac2fb3f1e592",
+      "size": 9272
+    },
+    "bin/assets/gearbox/languages/en.json": {
+      "sha256": "fb687eaaea1bea532245573b40b943b8600180eb2d26f6e4e0e1ccd67e552c67",
+      "size": 8781
+    },
+    "bin/assets/gearbox/languages/es.json": {
+      "sha256": "2ea9de33bef1fcb0a8da51f95896cbd9d65cf462562e8a9d31dd99bbcb61936d",
+      "size": 9349
+    },
+    "bin/assets/gearbox/languages/fr.json": {
+      "sha256": "a6b02c498708d9055462f9e77684c2b351dc0d76325d30ed1bc1ecc796e35cca",
+      "size": 8443
+    },
+    "bin/assets/gearbox/languages/he.json": {
+      "sha256": "68c998b49f4ac7f124c76fd43b54bb83a64ae18cbfb97c9437e69e72e4362e6a",
+      "size": 8191
+    },
+    "bin/assets/gearbox/languages/hi.json": {
+      "sha256": "1a1c8e1b1a38d3712bb6ccfff11d74717404aff910f8b5ea0950629a62c0f977",
+      "size": 9268
+    },
+    "bin/assets/gearbox/languages/id.json": {
+      "sha256": "a92d68acde8d250005344004f64aeb4cb7fe9e2cf566a29069acf20e32220a4c",
+      "size": 7831
+    },
+    "bin/assets/gearbox/languages/it.json": {
+      "sha256": "6bdab402a920de5faeae7e323a5452e265969140e5694068e98259a341b6f8fb",
+      "size": 8245
+    },
+    "bin/assets/gearbox/languages/ja.json": {
+      "sha256": "279640bcef2642e5490ec62c9523fe26ce8827dc476c6ebceb5290d21ce54b8d",
+      "size": 8154
+    },
+    "bin/assets/gearbox/languages/ka.json": {
+      "sha256": "d5d1e295a6ae4871a919fbc9ff2575402c7e861fffc5523d1505ea7929bfd373",
+      "size": 9972
+    },
+    "bin/assets/gearbox/languages/ko.json": {
+      "sha256": "ed8432cad1095dc51282a52e75f7ee93bfa93a97b05f24c5c061f0898ee47a33",
+      "size": 7961
+    },
+    "bin/assets/gearbox/languages/nl.json": {
+      "sha256": "9fe7c512fc4963e673966b3851c800a19283c31734906937120cc184224dff98",
+      "size": 8152
+    },
+    "bin/assets/gearbox/languages/pl.json": {
+      "sha256": "efcadb28209f9f6b6d153b799a9017a00b065f6337c5f150d8f34bd946e720c6",
+      "size": 8035
+    },
+    "bin/assets/gearbox/languages/pt-BR.json": {
+      "sha256": "aed23b734f6baafb4272b7a107aa024e1520a2b118ee795c18a217e45116c974",
+      "size": 7883
+    },
+    "bin/assets/gearbox/languages/pt.json": {
+      "sha256": "8bc02155ecf48ee8e5a93cc5232d455603648043ab89d3df4057288fb0fe4944",
+      "size": 8342
+    },
+    "bin/assets/gearbox/languages/ru.json": {
+      "sha256": "5181cfbb411f57d96bd0b3111fdd3c46b6f14abd6f1fbc19cd53f9e6e2569d02",
+      "size": 8900
+    },
+    "bin/assets/gearbox/languages/sr.json": {
+      "sha256": "522a1368a7b8950889d284d2e49e8337e4ff2fb9fcba1535e52d24a8dec3c54c",
+      "size": 8647
+    },
+    "bin/assets/gearbox/languages/th.json": {
+      "sha256": "3245ebc5bd0180e5b631462c78a7fe12877e39551ca20208c42c90dee8489a5b",
+      "size": 9334
+    },
+    "bin/assets/gearbox/languages/tr.json": {
+      "sha256": "cb6fa75b756df5fe5d423833f110953d1cfde1e31ecbe1b7dc5b5d12fa3c1ec3",
+      "size": 7968
+    },
+    "bin/assets/gearbox/languages/vi.json": {
+      "sha256": "b5d81af937f1773f78d5c6ab04b0c0bc0d1ca4f813f10e531772da551e0d03ac",
+      "size": 8119
+    },
+    "bin/assets/gearbox/languages/zh-CN.json": {
+      "sha256": "6d28a202f4fda35fa9b3d18996b46e7024a2c06564393eaab0933606bb823f6b",
+      "size": 7810
+    },
+    "bin/assets/gearbox/languages/zh-TW.json": {
+      "sha256": "47a1f3e9485c67f25d1104a10e8e13ab5bd861fed879e3678446b553bbe6299c",
+      "size": 7831
+    },
+    "bin/assets/gearbox/licenses/Dear-ImGui-LICENSE.txt": {
+      "sha256": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293",
+      "size": 1104
+    },
+    "bin/assets/gearbox/licenses/ImGuiColorTextEdit-LICENSE.txt": {
+      "sha256": "38f4538cfadc4d3aaa90e8a9bf39b2ccf0761db5562442d5906e1e82708d40fb",
+      "size": 1066
+    },
+    "bin/assets/gearbox/licenses/Lua-LICENSE.txt": {
+      "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32",
+      "size": 1086
+    },
+    "bin/assets/gearbox/licenses/nlohmann-json-LICENSE.txt": {
+      "sha256": "e310b2928d3f83c6eba5f7523d84863845f9fb51a66a97c7ab8fdab832e28b54",
+      "size": 1327
+    },
+    "bin/assets/gearbox/opposingforce_pages.lua": {
+      "sha256": "8ca02edfc9f99c285bfe15d00a82d83e2577bda152f572bc0ed11c25936e6b2e",
+      "size": 2134
+    },
+    "bin/assets/gearbox/scripts/Custom UI.lua": {
+      "sha256": "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134",
+      "size": 2169
+    },
+    "bin/assets/gearbox/scripts/Entity summary.lua": {
+      "sha256": "3f48bd410afc66d428c5acdf506915069749dfce4f17e5ede6645b7043838fce",
+      "size": 280
+    },
+    "bin/assets/gearbox/scripts/Standalone Menu.lua": {
+      "sha256": "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2",
+      "size": 1392
+    },
+    "bin/assets/gearbox/scripts/Welcome.lua": {
+      "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9",
+      "size": 231
+    },
+    "bin/assets/valve/docs/ADDING_FEATURES.md": {
+      "sha256": "ab9121cd9cca5b747737dfa5c43a457dc60dd7112d78a24614f879ed4d869981",
+      "size": 3538
+    },
+    "bin/assets/valve/docs/AUTO_SYNC.md": {
+      "sha256": "c812a6a8de7f58eb36b5cd2e41d9998fcf1076415fc37743afe53fb5353a5119",
+      "size": 11656
+    },
+    "bin/assets/valve/docs/CONSOLE.md": {
+      "sha256": "8201c6ac0fccca79e1f7b8ab275c839f7b38b9dd3e8e1be0790260740ecc93be",
+      "size": 2249
+    },
+    "bin/assets/valve/docs/CONSUMERS.md": {
+      "sha256": "a56db516299c97137e99bf78e9e3ce428d1e41e3b3ff0a2395eb17e37c6b989a",
+      "size": 8272
+    },
+    "bin/assets/valve/docs/DATA_FORMAT.md": {
+      "sha256": "b7c6183915c70d6562f13c703f79a9bdd3763453ac530ed7e58ac6dac6ee3ec7",
+      "size": 4854
+    },
+    "bin/assets/valve/docs/GAME_SIDEBAR.md": {
+      "sha256": "862fbc5fd38e457f216076151dbe4114770b199bbff8df8fd26883f9c2d2424c",
+      "size": 9640
+    },
+    "bin/assets/valve/docs/HEALTH_ESP.md": {
+      "sha256": "7003cb29838aab94a246836b7760a95216d796c5d13485620023fd59f7bd6a50",
+      "size": 4635
+    },
+    "bin/assets/valve/docs/LINUX_COMPATIBILITY.md": {
+      "sha256": "e486233f6dad8d29ad6eaab58f5a199d9e807478fd34a84e7e1dfa982c0dfae0",
+      "size": 6729
+    },
+    "bin/assets/valve/docs/LUA_API.md": {
+      "sha256": "79ae4fd7bcbca06ba6d05706ab26a7b923d36a1a4e6ae04f6db4946f646d3322",
+      "size": 30352
+    },
+    "bin/assets/valve/docs/PORTING.md": {
+      "sha256": "d477547429c260311f8a7a90913b9fd2deb472a2ea8967a5ad8347628c50cb04",
+      "size": 15747
+    },
+    "bin/assets/valve/docs/PORTING_EVERYTHING.md": {
+      "sha256": "a9cf1f58c76884f415d334abe0a6d6032a6063da81d7b237909b90c3577034ba",
+      "size": 65754
+    },
+    "bin/assets/valve/docs/TESTING.md": {
+      "sha256": "2a8c29286e8d3bd2a15118beabf9bb828b11099afec1b8f436808922ef1a4d6f",
+      "size": 8757
+    },
+    "bin/assets/valve/docs/UI_COMPONENTS.md": {
+      "sha256": "138a5a58f58af23cfe26ac0af83bd6cd519f74b99aaae72a53d68d560dbc8ae1",
+      "size": 3957
+    },
+    "bin/assets/valve/docs/consumer-inventory.json": {
+      "sha256": "c27aa4f8d8a6f31349e6e1947af782538be241bad131ecc64588fdcb3528811f",
+      "size": 125533
+    },
+    "bin/assets/valve/docs/game/LUA.md": {
+      "sha256": "0c6bc458d63339c535bbefb9f56a391d79944d102025a5164a61342fa9dcc048",
+      "size": 2819
+    },
+    "bin/assets/valve/docs/shared/README.md": {
+      "sha256": "c5c02ffb04087f88abd3fd423641753a464db8c0bf972cd274bf75d035a0af53",
+      "size": 8692
+    },
+    "bin/assets/valve/docs/shared/THIRD_PARTY.md": {
+      "sha256": "989458263b4d0289416eaf6ca372618fc3df0cb605a1773a9f945f55bac46176",
+      "size": 2182
+    },
+    "bin/assets/valve/docs/sync-validation.json": {
+      "sha256": "c0406fd91e90231f6e8da9a50a7dbc730ba6c3a2ddd66d80cc7e0085fef03bdd",
+      "size": 2687
+    },
+    "bin/assets/valve/docs/vendor-reconciliation.json": {
+      "sha256": "3ec3d49a9530213a88f54b29f16e4ce55f3da03a72eb49c48e6b744ba95b1f74",
+      "size": 13378
+    },
+    "bin/assets/valve/fonts/LUCIDE-LICENSE.txt": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "size": 3208
+    },
+    "bin/assets/valve/fonts/NotoSans.ttf": {
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "size": 2049096
+    },
+    "bin/assets/valve/fonts/NotoSansArabic.ttf": {
+      "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+      "size": 844676
+    },
+    "bin/assets/valve/fonts/NotoSansDevanagari.ttf": {
+      "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7",
+      "size": 647144
+    },
+    "bin/assets/valve/fonts/NotoSansGeorgian.ttf": {
+      "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9",
+      "size": 231988
+    },
+    "bin/assets/valve/fonts/NotoSansHebrew.ttf": {
+      "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88",
+      "size": 112640
+    },
+    "bin/assets/valve/fonts/NotoSansJP.ttf": {
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+      "size": 9589900
+    },
+    "bin/assets/valve/fonts/NotoSansKR.ttf": {
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+      "size": 10414588
+    },
+    "bin/assets/valve/fonts/NotoSansMono.ttf": {
+      "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081",
+      "size": 1708408
+    },
+    "bin/assets/valve/fonts/NotoSansSC.ttf": {
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "size": 17772300
+    },
+    "bin/assets/valve/fonts/NotoSansTC.ttf": {
+      "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+      "size": 11941968
+    },
+    "bin/assets/valve/fonts/NotoSansThai.ttf": {
+      "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+      "size": 218652
+    },
+    "bin/assets/valve/fonts/licenses/NotoSans-OFL.txt": {
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansArabic-OFL.txt": {
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+      "size": 4382
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansDevanagari-OFL.txt": {
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+      "size": 4386
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansGeorgian-OFL.txt": {
+      "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df",
+      "size": 4384
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansHebrew-OFL.txt": {
+      "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+      "size": 4382
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansJP-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansKR-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansMono-OFL.txt": {
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansSC-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansTC-OFL.txt": {
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    "bin/assets/valve/fonts/licenses/NotoSansThai-OFL.txt": {
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0",
+      "size": 4380
+    },
+    "bin/assets/valve/fonts/lucide.ttf": {
+      "sha256": "b51e63bbfc3f3fd33c4e5dde30a58779c9ad2c9b692f13cdaf4b610937e454d8",
+      "size": 803488
+    },
+    "bin/assets/valve/fonts/manifest.json": {
+      "sha256": "3b0999fe90a24f4aa9e74d5db350cec427ffeab78e5bf47a01410aa6cc9c9e40",
+      "size": 5033
+    },
+    "bin/assets/valve/halflife_pages.lua": {
+      "sha256": "6a87a6e80ab9418f8b00452f425b0f9aa3b285c6d848f88f38c4d9f2659d6cfd",
+      "size": 2029
+    },
+    "bin/assets/valve/languages/ar.json": {
+      "sha256": "1d784c5ff084a940bd1dda9df79efa4662f9ab48c757af756e56e35f1fb59716",
+      "size": 8386
+    },
+    "bin/assets/valve/languages/de.json": {
+      "sha256": "8e67b91703b7a0cc3556eaa416e710a758144f746b2970e858c2ac2fb3f1e592",
+      "size": 9272
+    },
+    "bin/assets/valve/languages/en.json": {
+      "sha256": "fb687eaaea1bea532245573b40b943b8600180eb2d26f6e4e0e1ccd67e552c67",
+      "size": 8781
+    },
+    "bin/assets/valve/languages/es.json": {
+      "sha256": "2ea9de33bef1fcb0a8da51f95896cbd9d65cf462562e8a9d31dd99bbcb61936d",
+      "size": 9349
+    },
+    "bin/assets/valve/languages/fr.json": {
+      "sha256": "a6b02c498708d9055462f9e77684c2b351dc0d76325d30ed1bc1ecc796e35cca",
+      "size": 8443
+    },
+    "bin/assets/valve/languages/he.json": {
+      "sha256": "68c998b49f4ac7f124c76fd43b54bb83a64ae18cbfb97c9437e69e72e4362e6a",
+      "size": 8191
+    },
+    "bin/assets/valve/languages/hi.json": {
+      "sha256": "1a1c8e1b1a38d3712bb6ccfff11d74717404aff910f8b5ea0950629a62c0f977",
+      "size": 9268
+    },
+    "bin/assets/valve/languages/id.json": {
+      "sha256": "a92d68acde8d250005344004f64aeb4cb7fe9e2cf566a29069acf20e32220a4c",
+      "size": 7831
+    },
+    "bin/assets/valve/languages/it.json": {
+      "sha256": "6bdab402a920de5faeae7e323a5452e265969140e5694068e98259a341b6f8fb",
+      "size": 8245
+    },
+    "bin/assets/valve/languages/ja.json": {
+      "sha256": "279640bcef2642e5490ec62c9523fe26ce8827dc476c6ebceb5290d21ce54b8d",
+      "size": 8154
+    },
+    "bin/assets/valve/languages/ka.json": {
+      "sha256": "d5d1e295a6ae4871a919fbc9ff2575402c7e861fffc5523d1505ea7929bfd373",
+      "size": 9972
+    },
+    "bin/assets/valve/languages/ko.json": {
+      "sha256": "ed8432cad1095dc51282a52e75f7ee93bfa93a97b05f24c5c061f0898ee47a33",
+      "size": 7961
+    },
+    "bin/assets/valve/languages/nl.json": {
+      "sha256": "9fe7c512fc4963e673966b3851c800a19283c31734906937120cc184224dff98",
+      "size": 8152
+    },
+    "bin/assets/valve/languages/pl.json": {
+      "sha256": "efcadb28209f9f6b6d153b799a9017a00b065f6337c5f150d8f34bd946e720c6",
+      "size": 8035
+    },
+    "bin/assets/valve/languages/pt-BR.json": {
+      "sha256": "aed23b734f6baafb4272b7a107aa024e1520a2b118ee795c18a217e45116c974",
+      "size": 7883
+    },
+    "bin/assets/valve/languages/pt.json": {
+      "sha256": "8bc02155ecf48ee8e5a93cc5232d455603648043ab89d3df4057288fb0fe4944",
+      "size": 8342
+    },
+    "bin/assets/valve/languages/ru.json": {
+      "sha256": "5181cfbb411f57d96bd0b3111fdd3c46b6f14abd6f1fbc19cd53f9e6e2569d02",
+      "size": 8900
+    },
+    "bin/assets/valve/languages/sr.json": {
+      "sha256": "522a1368a7b8950889d284d2e49e8337e4ff2fb9fcba1535e52d24a8dec3c54c",
+      "size": 8647
+    },
+    "bin/assets/valve/languages/th.json": {
+      "sha256": "3245ebc5bd0180e5b631462c78a7fe12877e39551ca20208c42c90dee8489a5b",
+      "size": 9334
+    },
+    "bin/assets/valve/languages/tr.json": {
+      "sha256": "cb6fa75b756df5fe5d423833f110953d1cfde1e31ecbe1b7dc5b5d12fa3c1ec3",
+      "size": 7968
+    },
+    "bin/assets/valve/languages/vi.json": {
+      "sha256": "b5d81af937f1773f78d5c6ab04b0c0bc0d1ca4f813f10e531772da551e0d03ac",
+      "size": 8119
+    },
+    "bin/assets/valve/languages/zh-CN.json": {
+      "sha256": "6d28a202f4fda35fa9b3d18996b46e7024a2c06564393eaab0933606bb823f6b",
+      "size": 7810
+    },
+    "bin/assets/valve/languages/zh-TW.json": {
+      "sha256": "47a1f3e9485c67f25d1104a10e8e13ab5bd861fed879e3678446b553bbe6299c",
+      "size": 7831
+    },
+    "bin/assets/valve/licenses/Dear-ImGui-LICENSE.txt": {
+      "sha256": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293",
+      "size": 1104
+    },
+    "bin/assets/valve/licenses/ImGuiColorTextEdit-LICENSE.txt": {
+      "sha256": "38f4538cfadc4d3aaa90e8a9bf39b2ccf0761db5562442d5906e1e82708d40fb",
+      "size": 1066
+    },
+    "bin/assets/valve/licenses/Lua-LICENSE.txt": {
+      "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32",
+      "size": 1086
+    },
+    "bin/assets/valve/licenses/nlohmann-json-LICENSE.txt": {
+      "sha256": "e310b2928d3f83c6eba5f7523d84863845f9fb51a66a97c7ab8fdab832e28b54",
+      "size": 1327
+    },
+    "bin/assets/valve/scripts/Custom UI.lua": {
+      "sha256": "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134",
+      "size": 2169
+    },
+    "bin/assets/valve/scripts/Entity summary.lua": {
+      "sha256": "02c71fdffaa84342fd1749005a6c703de7e74ff07372da4c10063e417042f8d1",
+      "size": 350
+    },
+    "bin/assets/valve/scripts/Standalone Menu.lua": {
+      "sha256": "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2",
+      "size": 1392
+    },
+    "bin/assets/valve/scripts/Welcome.lua": {
+      "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9",
+      "size": 231
+    },
+    "bin/goldsrc-profiles.json": {
+      "sha256": "6f5d05696b3dfd89558840cbd369e56a3913b5883336972a62f43af13cb55893",
+      "size": 724
+    },
+    "bin/halflife_attach.exe": {
+      "sha256": "418cede773a1ddba9088dd5ad85f8c398f6203a20bd9d5832a980ddde0d5c232",
+      "size": 228352
+    },
+    "guides/blueshift.md": {
+      "sha256": "e379dd1cce6c6d616a70596ff5708afc083a648cb574668e5a3d420f5e0e7bb8",
+      "size": 4427
+    },
+    "guides/halflife.md": {
+      "sha256": "87101825afe603c94c25822932cfcc362d1562a2992199c8ff44d03fd768ef3d",
+      "size": 11756
+    },
+    "guides/opposingforce.md": {
+      "sha256": "e108db1cbd58f50e96e31d8a44ff047e381ad68be048a0af51c46927f53de65d",
+      "size": 12634
+    },
+    "launch.py": {
+      "sha256": "b13dbaa29dc96f7c640c7b69150194f7cea88d854dab38d2a0b44fe2fe6d55f8",
+      "size": 3304
+    },
+    "launch.sh": {
+      "sha256": "24586777527bc6caa33d6e27fa6edb1486855788e2157209cdb388637d811965",
+      "size": 116
+    },
+    "licenses/FreeType-FTL.txt": {
+      "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f",
+      "size": 6743
+    },
+    "licenses/FreeType.txt": {
+      "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b",
+      "size": 2149
+    },
+    "licenses/GoldSrc-SDK.txt": {
+      "sha256": "131212c5a670489679af77614fed8089c7ed71ce9ae3aa9333ff7718b643af84",
+      "size": 2035
+    },
+    "licenses/MinHook.txt": {
+      "sha256": "2bfff5fa29fc5d1cb2745acfaad9d930e983f5c8dd97e0ec5735d9199cf8f416",
+      "size": 4362
+    },
+    "licenses/THIRD_PARTY.md": {
+      "sha256": "cabb6ca42d40f2b88fa265b16220fa9bccd8d09ff2e12498e1eb4f220559fc4f",
+      "size": 1184
+    },
+    "package_validation.py": {
+      "sha256": "7403f29423b9698ac08027e043fdc2e01c0f36ed54202a2b954063bec4925ea5",
+      "size": 8688
+    },
+    "runtime_launcher.py": {
+      "sha256": "501bfe8fc0dcc9c7ed050ebfbd9c19cdcb1453d37d8d1ea06009875c7b56a0b0",
+      "size": 13326
+    }
+  },
+  "imports": {
+    "ScoobyGoldSrc.dll": [
+      "bcrypt.dll",
+      "dwmapi.dll",
+      "gdi32.dll",
+      "imm32.dll",
+      "kernel32.dll",
+      "opengl32.dll",
+      "shell32.dll",
+      "user32.dll"
+    ],
+    "halflife_attach.exe": [
+      "kernel32.dll"
+    ]
+  },
+  "linux_blocker": "No Linux desktop/Steam/runner test host available",
+  "linux_runtime_verified": false,
+  "module": "ScoobyGoldSrc.dll",
+  "msvc_runtime": "static",
+  "product": "goldsrc",
+  "products": {
+    "blueshift": {
+      "appid": 130,
+      "assets": "bin/assets/bshift",
+      "campaign_windows_verified_mask": 0,
+      "combat_windows_verified_mask": 0,
+      "game_directory": "bshift",
+      "linux_runtime_verified": false,
+      "movement_windows_verified_mask": 0,
+      "product": "blue_shift",
+      "profile": "steam-5424832-win32",
+      "view_windows_verified_mask": 0
+    },
+    "halflife": {
+      "appid": 70,
+      "assets": "bin/assets/valve",
+      "campaign_windows_verified_mask": 0,
+      "combat_windows_verified_mask": 0,
+      "game_directory": "valve",
+      "linux_runtime_verified": false,
+      "movement_windows_verified_mask": 0,
+      "product": "half_life",
+      "profile": "steam-15961492-goldsrc-x86",
+      "view_windows_verified_mask": 0
+    },
+    "opposingforce": {
+      "appid": 50,
+      "assets": "bin/assets/gearbox",
+      "campaign_windows_verified_mask": 0,
+      "combat_windows_verified_mask": 0,
+      "game_directory": "gearbox",
+      "linux_runtime_verified": false,
+      "movement_windows_verified_mask": 0,
+      "product": "opposing_force",
+      "profile": "steam-5429885-win32",
+      "view_windows_verified_mask": 0
+    }
+  },
+  "renderer": "opengl",
+  "runtime": "steam",
+  "schema_version": 2
+}

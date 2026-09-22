@@ -1,0 +1,842 @@
+{
+  "schema_version": 1,
+  "collection": "Source Games",
+  "published": false,
+  "loader_module_access": "pending-integration",
+  "products": [
+    {
+      "id": "half_life",
+      "appid": 70,
+      "architecture": "x86",
+      "engine": "goldsrc",
+      "status": "native-verified",
+      "linux_runtime_verified": false,
+      "source_archive_sha256": "4a873e2bc2f9daa18091b3c7175ba3bdec3c41ec9575dc79db3abfc7504af449",
+      "dll": "ScoobyHalfLife.dll",
+      "assets": "Half-life-1",
+      "files": {
+        "Half-life-1/docs/UPDATING.md": {
+          "sha256": "6b0bcfa0e8e2f4950672ba2f4468038a45e29774727413dacbd8f5b481d85257",
+          "size": 11443,
+          "install_path": "docs/UPDATING.md"
+        },
+        "ScoobyHalfLife.dll": {
+          "sha256": "9f7f2c7d9116be8692f308d688e2912209669850fbdb486be48ea6b3d2f6a7e4",
+          "size": 3303936,
+          "install_path": "ScoobyHalfLife.dll"
+        },
+        "Half-life-1/docs/ADDING_FEATURES.md": {
+          "sha256": "ab9121cd9cca5b747737dfa5c43a457dc60dd7112d78a24614f879ed4d869981",
+          "size": 3538,
+          "install_path": "assets/docs/ADDING_FEATURES.md"
+        },
+        "Half-life-1/docs/AUTO_SYNC.md": {
+          "sha256": "c812a6a8de7f58eb36b5cd2e41d9998fcf1076415fc37743afe53fb5353a5119",
+          "size": 11656,
+          "install_path": "assets/docs/AUTO_SYNC.md"
+        },
+        "Half-life-1/docs/CONSOLE.md": {
+          "sha256": "8201c6ac0fccca79e1f7b8ab275c839f7b38b9dd3e8e1be0790260740ecc93be",
+          "size": 2249,
+          "install_path": "assets/docs/CONSOLE.md"
+        },
+        "Half-life-1/docs/CONSUMERS.md": {
+          "sha256": "a56db516299c97137e99bf78e9e3ce428d1e41e3b3ff0a2395eb17e37c6b989a",
+          "size": 8272,
+          "install_path": "assets/docs/CONSUMERS.md"
+        },
+        "Half-life-1/docs/DATA_FORMAT.md": {
+          "sha256": "452641dacf27ba037aa58cfea8af5c3cdfb192541bf66eeb4f709cc247dd1e2f",
+          "size": 4712,
+          "install_path": "assets/docs/DATA_FORMAT.md"
+        },
+        "Half-life-1/docs/LINUX_COMPATIBILITY.md": {
+          "sha256": "e486233f6dad8d29ad6eaab58f5a199d9e807478fd34a84e7e1dfa982c0dfae0",
+          "size": 6729,
+          "install_path": "assets/docs/LINUX_COMPATIBILITY.md"
+        },
+        "Half-life-1/docs/LUA_API.md": {
+          "sha256": "42107a3d0f7b9aad2667ae9429103a0cba1f40542cb55199db33cd26b4376c79",
+          "size": 29388,
+          "install_path": "assets/docs/LUA_API.md"
+        },
+        "Half-life-1/docs/PORTING.md": {
+          "sha256": "b195c36277a6ae9db495c9da91bbb0fa401c40524a56ec29dedec81f892b8df0",
+          "size": 14990,
+          "install_path": "assets/docs/PORTING.md"
+        },
+        "Half-life-1/docs/PORTING_EVERYTHING.md": {
+          "sha256": "cbffd4aa5a42f1c36e8396130a0bffd7a79a3d6f313a1a2ba7b7a9efa25bcd61",
+          "size": 65303,
+          "install_path": "assets/docs/PORTING_EVERYTHING.md"
+        },
+        "Half-life-1/docs/TESTING.md": {
+          "sha256": "470a3df464033238e46b7ed318f1edbfccc50a23f79c63aec883a17eedf6534e",
+          "size": 6193,
+          "install_path": "assets/docs/TESTING.md"
+        },
+        "Half-life-1/docs/UI_COMPONENTS.md": {
+          "sha256": "138a5a58f58af23cfe26ac0af83bd6cd519f74b99aaae72a53d68d560dbc8ae1",
+          "size": 3957,
+          "install_path": "assets/docs/UI_COMPONENTS.md"
+        },
+        "Half-life-1/docs/consumer-inventory.json": {
+          "sha256": "c27aa4f8d8a6f31349e6e1947af782538be241bad131ecc64588fdcb3528811f",
+          "size": 125533,
+          "install_path": "assets/docs/consumer-inventory.json"
+        },
+        "Half-life-1/docs/game/LUA.md": {
+          "sha256": "1341144565746e2e5b88e4620b4a661928474f9c1dc22b7f5fb6d5a936ca8540",
+          "size": 4639,
+          "install_path": "assets/docs/game/LUA.md"
+        },
+        "Half-life-1/docs/shared/README.md": {
+          "sha256": "c5c02ffb04087f88abd3fd423641753a464db8c0bf972cd274bf75d035a0af53",
+          "size": 8692,
+          "install_path": "assets/docs/shared/README.md"
+        },
+        "Half-life-1/docs/shared/THIRD_PARTY.md": {
+          "sha256": "989458263b4d0289416eaf6ca372618fc3df0cb605a1773a9f945f55bac46176",
+          "size": 2182,
+          "install_path": "assets/docs/shared/THIRD_PARTY.md"
+        },
+        "Half-life-1/docs/sync-validation.json": {
+          "sha256": "c0406fd91e90231f6e8da9a50a7dbc730ba6c3a2ddd66d80cc7e0085fef03bdd",
+          "size": 2687,
+          "install_path": "assets/docs/sync-validation.json"
+        },
+        "Half-life-1/docs/vendor-reconciliation.json": {
+          "sha256": "3ec3d49a9530213a88f54b29f16e4ce55f3da03a72eb49c48e6b744ba95b1f74",
+          "size": 13378,
+          "install_path": "assets/docs/vendor-reconciliation.json"
+        },
+        "Half-life-1/fonts/LUCIDE-LICENSE.txt": {
+          "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+          "size": 3208,
+          "install_path": "assets/fonts/LUCIDE-LICENSE.txt"
+        },
+        "Half-life-1/fonts/NotoSans.ttf": {
+          "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+          "size": 2049096,
+          "install_path": "assets/fonts/NotoSans.ttf"
+        },
+        "Half-life-1/fonts/NotoSansArabic.ttf": {
+          "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+          "size": 844676,
+          "install_path": "assets/fonts/NotoSansArabic.ttf"
+        },
+        "Half-life-1/fonts/NotoSansDevanagari.ttf": {
+          "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7",
+          "size": 647144,
+          "install_path": "assets/fonts/NotoSansDevanagari.ttf"
+        },
+        "Half-life-1/fonts/NotoSansGeorgian.ttf": {
+          "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9",
+          "size": 231988,
+          "install_path": "assets/fonts/NotoSansGeorgian.ttf"
+        },
+        "Half-life-1/fonts/NotoSansHebrew.ttf": {
+          "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88",
+          "size": 112640,
+          "install_path": "assets/fonts/NotoSansHebrew.ttf"
+        },
+        "Half-life-1/fonts/NotoSansJP.ttf": {
+          "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+          "size": 9589900,
+          "install_path": "assets/fonts/NotoSansJP.ttf"
+        },
+        "Half-life-1/fonts/NotoSansKR.ttf": {
+          "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+          "size": 10414588,
+          "install_path": "assets/fonts/NotoSansKR.ttf"
+        },
+        "Half-life-1/fonts/NotoSansMono.ttf": {
+          "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081",
+          "size": 1708408,
+          "install_path": "assets/fonts/NotoSansMono.ttf"
+        },
+        "Half-life-1/fonts/NotoSansSC.ttf": {
+          "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+          "size": 17772300,
+          "install_path": "assets/fonts/NotoSansSC.ttf"
+        },
+        "Half-life-1/fonts/NotoSansTC.ttf": {
+          "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "size": 11941968,
+          "install_path": "assets/fonts/NotoSansTC.ttf"
+        },
+        "Half-life-1/fonts/NotoSansThai.ttf": {
+          "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+          "size": 218652,
+          "install_path": "assets/fonts/NotoSansThai.ttf"
+        },
+        "Half-life-1/fonts/licenses/NotoSans-OFL.txt": {
+          "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+          "size": 4396,
+          "install_path": "assets/fonts/licenses/NotoSans-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansArabic-OFL.txt": {
+          "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+          "size": 4382,
+          "install_path": "assets/fonts/licenses/NotoSansArabic-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansDevanagari-OFL.txt": {
+          "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+          "size": 4386,
+          "install_path": "assets/fonts/licenses/NotoSansDevanagari-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansGeorgian-OFL.txt": {
+          "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df",
+          "size": 4384,
+          "install_path": "assets/fonts/licenses/NotoSansGeorgian-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansHebrew-OFL.txt": {
+          "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "size": 4382,
+          "install_path": "assets/fonts/licenses/NotoSansHebrew-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansJP-OFL.txt": {
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "size": 4388,
+          "install_path": "assets/fonts/licenses/NotoSansJP-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansKR-OFL.txt": {
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "size": 4388,
+          "install_path": "assets/fonts/licenses/NotoSansKR-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansMono-OFL.txt": {
+          "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+          "size": 4396,
+          "install_path": "assets/fonts/licenses/NotoSansMono-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansSC-OFL.txt": {
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "size": 4388,
+          "install_path": "assets/fonts/licenses/NotoSansSC-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansTC-OFL.txt": {
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "size": 4388,
+          "install_path": "assets/fonts/licenses/NotoSansTC-OFL.txt"
+        },
+        "Half-life-1/fonts/licenses/NotoSansThai-OFL.txt": {
+          "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0",
+          "size": 4380,
+          "install_path": "assets/fonts/licenses/NotoSansThai-OFL.txt"
+        },
+        "Half-life-1/fonts/lucide.ttf": {
+          "sha256": "b51e63bbfc3f3fd33c4e5dde30a58779c9ad2c9b692f13cdaf4b610937e454d8",
+          "size": 803488,
+          "install_path": "assets/fonts/lucide.ttf"
+        },
+        "Half-life-1/fonts/manifest.json": {
+          "sha256": "3b0999fe90a24f4aa9e74d5db350cec427ffeab78e5bf47a01410aa6cc9c9e40",
+          "size": 5033,
+          "install_path": "assets/fonts/manifest.json"
+        },
+        "Half-life-1/halflife_pages.lua": {
+          "sha256": "8c11704ee6dd71a4ee95290174801d678b9ecb79af8f91d492250e1e01b8afb1",
+          "size": 2872,
+          "install_path": "assets/halflife_pages.lua"
+        },
+        "Half-life-1/lang/ar.json": {
+          "sha256": "1d32a0655515f3a8f66b5997e090b3fcc0257d47a6b7f76893bc0a93c455adea",
+          "size": 8351,
+          "install_path": "assets/languages/ar.json"
+        },
+        "Half-life-1/lang/de.json": {
+          "sha256": "9a857fef450847729f4d6b35d333c09012578d0ee35b61e6b14c9f342eef4720",
+          "size": 9245,
+          "install_path": "assets/languages/de.json"
+        },
+        "Half-life-1/lang/en.json": {
+          "sha256": "3a540627fe4bc28fb95658e119f39da24ea554e13a17c4969e70edfc0942cb20",
+          "size": 8651,
+          "install_path": "assets/languages/en.json"
+        },
+        "Half-life-1/lang/es.json": {
+          "sha256": "2e2eeb0856276878507145815e98f2599820e03a4eb911016c5ad37d7a5d62db",
+          "size": 9315,
+          "install_path": "assets/languages/es.json"
+        },
+        "Half-life-1/lang/fr.json": {
+          "sha256": "48772a734d5a623a0d5cdf755882d29ce3b7bf8fdfc12a3dfad0e98ea9f354a7",
+          "size": 8408,
+          "install_path": "assets/languages/fr.json"
+        },
+        "Half-life-1/lang/he.json": {
+          "sha256": "722478cfc0827eaff928da5aa74b1329bdd51f26e8812aedd210327c66bde4be",
+          "size": 8150,
+          "install_path": "assets/languages/he.json"
+        },
+        "Half-life-1/lang/hi.json": {
+          "sha256": "ac4f2907a69898cb94594c0a0c28fbbec4df05b6e320563d6a63e01e351634cd",
+          "size": 9211,
+          "install_path": "assets/languages/hi.json"
+        },
+        "Half-life-1/lang/id.json": {
+          "sha256": "2fd39446835bb8306120b25b1074402508a5a7759d0b123608275c3fde61bce3",
+          "size": 7804,
+          "install_path": "assets/languages/id.json"
+        },
+        "Half-life-1/lang/it.json": {
+          "sha256": "56b1c2f89cd3bb7f93e9c413bfc073e9532eae06b9e4c08b238bef85a498e1f7",
+          "size": 8213,
+          "install_path": "assets/languages/it.json"
+        },
+        "Half-life-1/lang/ja.json": {
+          "sha256": "a58d303d6c7fa307edd858d9fd0da3fb28b0b9952240470d52af79126270560e",
+          "size": 8120,
+          "install_path": "assets/languages/ja.json"
+        },
+        "Half-life-1/lang/ka.json": {
+          "sha256": "8907bda3f40628a77c16538320e86be34ac2a439c4349b1cdd71a211b5d7f70f",
+          "size": 9931,
+          "install_path": "assets/languages/ka.json"
+        },
+        "Half-life-1/lang/ko.json": {
+          "sha256": "f752f9019e6399a7311f242d39cdcc572def33a730fe7b901b81dd530f914666",
+          "size": 7925,
+          "install_path": "assets/languages/ko.json"
+        },
+        "Half-life-1/lang/nl.json": {
+          "sha256": "bb3b0543e5db8af4104ec2256dcf4679ca9a2c29c20ebdf7b9dccae468ee30e4",
+          "size": 8124,
+          "install_path": "assets/languages/nl.json"
+        },
+        "Half-life-1/lang/pl.json": {
+          "sha256": "b5f7dcca433f7457616cbe2b6bd9e3d2e8fa881304bd419c2e9b9b245dbd28ca",
+          "size": 8007,
+          "install_path": "assets/languages/pl.json"
+        },
+        "Half-life-1/lang/pt-BR.json": {
+          "sha256": "ce85839648b823878e2f789ea34cc5f1674c7664f499064419ab4e0ad20ecfae",
+          "size": 7850,
+          "install_path": "assets/languages/pt-BR.json"
+        },
+        "Half-life-1/lang/pt.json": {
+          "sha256": "924c494ac19bf31db125f3d40eab36dccf95e75cb01e6ec7b8857f319d184854",
+          "size": 8309,
+          "install_path": "assets/languages/pt.json"
+        },
+        "Half-life-1/lang/ru.json": {
+          "sha256": "5bb74bce15b9ef39075fbbde13ac54ee937d01fd74f51dafd6cf26f68429957e",
+          "size": 8853,
+          "install_path": "assets/languages/ru.json"
+        },
+        "Half-life-1/lang/sr.json": {
+          "sha256": "8c03312c2f8defff6051726a556fc888fa7aa4d888c4723976d1af49d8674c5d",
+          "size": 8602,
+          "install_path": "assets/languages/sr.json"
+        },
+        "Half-life-1/lang/th.json": {
+          "sha256": "ada743a2abcca29069658a650d765e844fab65fe7b97288e2e2bd1fa629bd11d",
+          "size": 9266,
+          "install_path": "assets/languages/th.json"
+        },
+        "Half-life-1/lang/tr.json": {
+          "sha256": "34ba82d27d4857b104a72e9918daba36ec6eb647cddc02223b2553b898e1402c",
+          "size": 7939,
+          "install_path": "assets/languages/tr.json"
+        },
+        "Half-life-1/lang/vi.json": {
+          "sha256": "4da71e7e6f7e8c1718d6538d325095a210c4f7731d2a61249f37e9a736091681",
+          "size": 8091,
+          "install_path": "assets/languages/vi.json"
+        },
+        "Half-life-1/lang/zh-CN.json": {
+          "sha256": "7c791155e80a26a5584c2abc0de26b595ec52c04bc06c4b45f28406605f1e0a4",
+          "size": 7775,
+          "install_path": "assets/languages/zh-CN.json"
+        },
+        "Half-life-1/lang/zh-TW.json": {
+          "sha256": "44535592c61faafc1b14494adf9824eb8b778afe49653b9adcfaa6d9e1e269db",
+          "size": 7796,
+          "install_path": "assets/languages/zh-TW.json"
+        },
+        "Half-life-1/licenses/Dear-ImGui-LICENSE.txt": {
+          "sha256": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293",
+          "size": 1104,
+          "install_path": "assets/licenses/Dear-ImGui-LICENSE.txt"
+        },
+        "Half-life-1/licenses/ImGuiColorTextEdit-LICENSE.txt": {
+          "sha256": "38f4538cfadc4d3aaa90e8a9bf39b2ccf0761db5562442d5906e1e82708d40fb",
+          "size": 1066,
+          "install_path": "assets/licenses/ImGuiColorTextEdit-LICENSE.txt"
+        },
+        "Half-life-1/licenses/Lua-LICENSE.txt": {
+          "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32",
+          "size": 1086,
+          "install_path": "assets/licenses/Lua-LICENSE.txt"
+        },
+        "Half-life-1/licenses/nlohmann-json-LICENSE.txt": {
+          "sha256": "e310b2928d3f83c6eba5f7523d84863845f9fb51a66a97c7ab8fdab832e28b54",
+          "size": 1327,
+          "install_path": "assets/licenses/nlohmann-json-LICENSE.txt"
+        },
+        "Half-life-1/scripts/Custom UI.lua": {
+          "sha256": "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134",
+          "size": 2169,
+          "install_path": "assets/scripts/Custom UI.lua"
+        },
+        "Half-life-1/scripts/Entity summary.lua": {
+          "sha256": "02c71fdffaa84342fd1749005a6c703de7e74ff07372da4c10063e417042f8d1",
+          "size": 350,
+          "install_path": "assets/scripts/Entity summary.lua"
+        },
+        "Half-life-1/scripts/Standalone Menu.lua": {
+          "sha256": "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2",
+          "size": 1392,
+          "install_path": "assets/scripts/Standalone Menu.lua"
+        },
+        "Half-life-1/scripts/Welcome.lua": {
+          "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9",
+          "size": 231,
+          "install_path": "assets/scripts/Welcome.lua"
+        },
+        "Half-life-1/licenses/FreeType-FTL.txt": {
+          "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f",
+          "size": 6743,
+          "install_path": "licenses/FreeType-FTL.txt"
+        },
+        "Half-life-1/licenses/FreeType.txt": {
+          "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b",
+          "size": 2149,
+          "install_path": "licenses/FreeType.txt"
+        },
+        "Half-life-1/licenses/GoldSrc-SDK.txt": {
+          "sha256": "131212c5a670489679af77614fed8089c7ed71ce9ae3aa9333ff7718b643af84",
+          "size": 2035,
+          "install_path": "licenses/GoldSrc-SDK.txt"
+        },
+        "Half-life-1/licenses/MinHook.txt": {
+          "sha256": "2bfff5fa29fc5d1cb2745acfaad9d930e983f5c8dd97e0ec5735d9199cf8f416",
+          "size": 4362,
+          "install_path": "licenses/MinHook.txt"
+        },
+        "Half-life-1/licenses/THIRD_PARTY.md": {
+          "sha256": "cabb6ca42d40f2b88fa265b16220fa9bccd8d09ff2e12498e1eb4f220559fc4f",
+          "size": 1184,
+          "install_path": "licenses/THIRD_PARTY.md"
+        }
+      }
+    },
+    {
+      "id": "opposing_force",
+      "appid": 50,
+      "architecture": "x86",
+      "engine": "goldsrc",
+      "status": "in-validation",
+      "linux_runtime_verified": false,
+      "source_archive_sha256": "f217ec76a1f05a11f8706c84f7a08ba0873d134c1b534337e26c0ca02e0b0bb9",
+      "dll": "ScoobyOpposingForce.dll",
+      "assets": "Half-life-1/Opposing-Force",
+      "files": {
+        "ScoobyOpposingForce.dll": {
+          "sha256": "11e525ab7e8dfe690d7a38d8d49f63042b1f52b5399cdfef573784bdbf8bf6c6",
+          "size": 3305472,
+          "install_path": "ScoobyOpposingForce.dll"
+        },
+        "Half-life-1/Opposing-Force/docs/ADDING_FEATURES.md": {
+          "sha256": "ab9121cd9cca5b747737dfa5c43a457dc60dd7112d78a24614f879ed4d869981",
+          "size": 3538,
+          "install_path": "assets/docs/ADDING_FEATURES.md"
+        },
+        "Half-life-1/Opposing-Force/docs/AUTO_SYNC.md": {
+          "sha256": "c812a6a8de7f58eb36b5cd2e41d9998fcf1076415fc37743afe53fb5353a5119",
+          "size": 11656,
+          "install_path": "assets/docs/AUTO_SYNC.md"
+        },
+        "Half-life-1/Opposing-Force/docs/CONSOLE.md": {
+          "sha256": "8201c6ac0fccca79e1f7b8ab275c839f7b38b9dd3e8e1be0790260740ecc93be",
+          "size": 2249,
+          "install_path": "assets/docs/CONSOLE.md"
+        },
+        "Half-life-1/Opposing-Force/docs/CONSUMERS.md": {
+          "sha256": "a56db516299c97137e99bf78e9e3ce428d1e41e3b3ff0a2395eb17e37c6b989a",
+          "size": 8272,
+          "install_path": "assets/docs/CONSUMERS.md"
+        },
+        "Half-life-1/Opposing-Force/docs/DATA_FORMAT.md": {
+          "sha256": "452641dacf27ba037aa58cfea8af5c3cdfb192541bf66eeb4f709cc247dd1e2f",
+          "size": 4712,
+          "install_path": "assets/docs/DATA_FORMAT.md"
+        },
+        "Half-life-1/Opposing-Force/docs/LINUX_COMPATIBILITY.md": {
+          "sha256": "e486233f6dad8d29ad6eaab58f5a199d9e807478fd34a84e7e1dfa982c0dfae0",
+          "size": 6729,
+          "install_path": "assets/docs/LINUX_COMPATIBILITY.md"
+        },
+        "Half-life-1/Opposing-Force/docs/LUA_API.md": {
+          "sha256": "90e26a09c7cbd6587c5e8923a4274057048c4a06f75de00a06eb448bcb654585",
+          "size": 27765,
+          "install_path": "assets/docs/LUA_API.md"
+        },
+        "Half-life-1/Opposing-Force/docs/PORTING.md": {
+          "sha256": "b195c36277a6ae9db495c9da91bbb0fa401c40524a56ec29dedec81f892b8df0",
+          "size": 14990,
+          "install_path": "assets/docs/PORTING.md"
+        },
+        "Half-life-1/Opposing-Force/docs/PORTING_EVERYTHING.md": {
+          "sha256": "c358a75eea0c80b3ef7053e85ec2222a7dea71e1a3f7326e3a7f52d618686eef",
+          "size": 65200,
+          "install_path": "assets/docs/PORTING_EVERYTHING.md"
+        },
+        "Half-life-1/Opposing-Force/docs/TESTING.md": {
+          "sha256": "470a3df464033238e46b7ed318f1edbfccc50a23f79c63aec883a17eedf6534e",
+          "size": 6193,
+          "install_path": "assets/docs/TESTING.md"
+        },
+        "Half-life-1/Opposing-Force/docs/UI_COMPONENTS.md": {
+          "sha256": "138a5a58f58af23cfe26ac0af83bd6cd519f74b99aaae72a53d68d560dbc8ae1",
+          "size": 3957,
+          "install_path": "assets/docs/UI_COMPONENTS.md"
+        },
+        "Half-life-1/Opposing-Force/docs/consumer-inventory.json": {
+          "sha256": "c27aa4f8d8a6f31349e6e1947af782538be241bad131ecc64588fdcb3528811f",
+          "size": 125533,
+          "install_path": "assets/docs/consumer-inventory.json"
+        },
+        "Half-life-1/Opposing-Force/docs/game/LUA.md": {
+          "sha256": "12ed5c60352d58ce16d89d2959b20e78a3588c983a0b5388f108dfb62aa810df",
+          "size": 2858,
+          "install_path": "assets/docs/game/LUA.md"
+        },
+        "Half-life-1/Opposing-Force/docs/shared/README.md": {
+          "sha256": "5b8863503c71f23ce4f3a240b365f5863034378900abf1037210a926c12d2e19",
+          "size": 8540,
+          "install_path": "assets/docs/shared/README.md"
+        },
+        "Half-life-1/Opposing-Force/docs/shared/THIRD_PARTY.md": {
+          "sha256": "989458263b4d0289416eaf6ca372618fc3df0cb605a1773a9f945f55bac46176",
+          "size": 2182,
+          "install_path": "assets/docs/shared/THIRD_PARTY.md"
+        },
+        "Half-life-1/Opposing-Force/docs/sync-validation.json": {
+          "sha256": "c0406fd91e90231f6e8da9a50a7dbc730ba6c3a2ddd66d80cc7e0085fef03bdd",
+          "size": 2687,
+          "install_path": "assets/docs/sync-validation.json"
+        },
+        "Half-life-1/Opposing-Force/docs/vendor-reconciliation.json": {
+          "sha256": "3ec3d49a9530213a88f54b29f16e4ce55f3da03a72eb49c48e6b744ba95b1f74",
+          "size": 13378,
+          "install_path": "assets/docs/vendor-reconciliation.json"
+        },
+        "Half-life-1/Opposing-Force/fonts/LUCIDE-LICENSE.txt": {
+          "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+          "size": 3208,
+          "install_path": "assets/fonts/LUCIDE-LICENSE.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSans.ttf": {
+          "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+          "size": 2049096,
+          "install_path": "assets/fonts/NotoSans.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansArabic.ttf": {
+          "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+          "size": 844676,
+          "install_path": "assets/fonts/NotoSansArabic.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansDevanagari.ttf": {
+          "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7",
+          "size": 647144,
+          "install_path": "assets/fonts/NotoSansDevanagari.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansGeorgian.ttf": {
+          "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9",
+          "size": 231988,
+          "install_path": "assets/fonts/NotoSansGeorgian.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansHebrew.ttf": {
+          "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88",
+          "size": 112640,
+          "install_path": "assets/fonts/NotoSansHebrew.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansJP.ttf": {
+          "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+          "size": 9589900,
+          "install_path": "assets/fonts/NotoSansJP.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansKR.ttf": {
+          "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+          "size": 10414588,
+          "install_path": "assets/fonts/NotoSansKR.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansMono.ttf": {
+          "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081",
+          "size": 1708408,
+          "install_path": "assets/fonts/NotoSansMono.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansSC.ttf": {
+          "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+          "size": 17772300,
+          "install_path": "assets/fonts/NotoSansSC.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansTC.ttf": {
+          "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "size": 11941968,
+          "install_path": "assets/fonts/NotoSansTC.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/NotoSansThai.ttf": {
+          "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+          "size": 218652,
+          "install_path": "assets/fonts/NotoSansThai.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSans-OFL.txt": {
+          "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+          "size": 4396,
+          "install_path": "assets/fonts/licenses/NotoSans-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansArabic-OFL.txt": {
+          "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+          "size": 4382,
+          "install_path": "assets/fonts/licenses/NotoSansArabic-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansDevanagari-OFL.txt": {
+          "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+          "size": 4386,
+          "install_path": "assets/fonts/licenses/NotoSansDevanagari-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansGeorgian-OFL.txt": {
+          "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df",
+          "size": 4384,
+          "install_path": "assets/fonts/licenses/NotoSansGeorgian-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansHebrew-OFL.txt": {
+          "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "size": 4382,
+          "install_path": "assets/fonts/licenses/NotoSansHebrew-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansJP-OFL.txt": {
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "size": 4388,
+          "install_path": "assets/fonts/licenses/NotoSansJP-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansKR-OFL.txt": {
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "size": 4388,
+          "install_path": "assets/fonts/licenses/NotoSansKR-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansMono-OFL.txt": {
+          "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+          "size": 4396,
+          "install_path": "assets/fonts/licenses/NotoSansMono-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansSC-OFL.txt": {
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "size": 4388,
+          "install_path": "assets/fonts/licenses/NotoSansSC-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansTC-OFL.txt": {
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "size": 4388,
+          "install_path": "assets/fonts/licenses/NotoSansTC-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/licenses/NotoSansThai-OFL.txt": {
+          "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0",
+          "size": 4380,
+          "install_path": "assets/fonts/licenses/NotoSansThai-OFL.txt"
+        },
+        "Half-life-1/Opposing-Force/fonts/lucide.ttf": {
+          "sha256": "b51e63bbfc3f3fd33c4e5dde30a58779c9ad2c9b692f13cdaf4b610937e454d8",
+          "size": 803488,
+          "install_path": "assets/fonts/lucide.ttf"
+        },
+        "Half-life-1/Opposing-Force/fonts/manifest.json": {
+          "sha256": "3b0999fe90a24f4aa9e74d5db350cec427ffeab78e5bf47a01410aa6cc9c9e40",
+          "size": 5033,
+          "install_path": "assets/fonts/manifest.json"
+        },
+        "Half-life-1/Opposing-Force/lang/ar.json": {
+          "sha256": "1d32a0655515f3a8f66b5997e090b3fcc0257d47a6b7f76893bc0a93c455adea",
+          "size": 8351,
+          "install_path": "assets/languages/ar.json"
+        },
+        "Half-life-1/Opposing-Force/lang/de.json": {
+          "sha256": "9a857fef450847729f4d6b35d333c09012578d0ee35b61e6b14c9f342eef4720",
+          "size": 9245,
+          "install_path": "assets/languages/de.json"
+        },
+        "Half-life-1/Opposing-Force/lang/en.json": {
+          "sha256": "3a540627fe4bc28fb95658e119f39da24ea554e13a17c4969e70edfc0942cb20",
+          "size": 8651,
+          "install_path": "assets/languages/en.json"
+        },
+        "Half-life-1/Opposing-Force/lang/es.json": {
+          "sha256": "2e2eeb0856276878507145815e98f2599820e03a4eb911016c5ad37d7a5d62db",
+          "size": 9315,
+          "install_path": "assets/languages/es.json"
+        },
+        "Half-life-1/Opposing-Force/lang/fr.json": {
+          "sha256": "48772a734d5a623a0d5cdf755882d29ce3b7bf8fdfc12a3dfad0e98ea9f354a7",
+          "size": 8408,
+          "install_path": "assets/languages/fr.json"
+        },
+        "Half-life-1/Opposing-Force/lang/he.json": {
+          "sha256": "722478cfc0827eaff928da5aa74b1329bdd51f26e8812aedd210327c66bde4be",
+          "size": 8150,
+          "install_path": "assets/languages/he.json"
+        },
+        "Half-life-1/Opposing-Force/lang/hi.json": {
+          "sha256": "ac4f2907a69898cb94594c0a0c28fbbec4df05b6e320563d6a63e01e351634cd",
+          "size": 9211,
+          "install_path": "assets/languages/hi.json"
+        },
+        "Half-life-1/Opposing-Force/lang/id.json": {
+          "sha256": "2fd39446835bb8306120b25b1074402508a5a7759d0b123608275c3fde61bce3",
+          "size": 7804,
+          "install_path": "assets/languages/id.json"
+        },
+        "Half-life-1/Opposing-Force/lang/it.json": {
+          "sha256": "56b1c2f89cd3bb7f93e9c413bfc073e9532eae06b9e4c08b238bef85a498e1f7",
+          "size": 8213,
+          "install_path": "assets/languages/it.json"
+        },
+        "Half-life-1/Opposing-Force/lang/ja.json": {
+          "sha256": "a58d303d6c7fa307edd858d9fd0da3fb28b0b9952240470d52af79126270560e",
+          "size": 8120,
+          "install_path": "assets/languages/ja.json"
+        },
+        "Half-life-1/Opposing-Force/lang/ka.json": {
+          "sha256": "8907bda3f40628a77c16538320e86be34ac2a439c4349b1cdd71a211b5d7f70f",
+          "size": 9931,
+          "install_path": "assets/languages/ka.json"
+        },
+        "Half-life-1/Opposing-Force/lang/ko.json": {
+          "sha256": "f752f9019e6399a7311f242d39cdcc572def33a730fe7b901b81dd530f914666",
+          "size": 7925,
+          "install_path": "assets/languages/ko.json"
+        },
+        "Half-life-1/Opposing-Force/lang/nl.json": {
+          "sha256": "bb3b0543e5db8af4104ec2256dcf4679ca9a2c29c20ebdf7b9dccae468ee30e4",
+          "size": 8124,
+          "install_path": "assets/languages/nl.json"
+        },
+        "Half-life-1/Opposing-Force/lang/pl.json": {
+          "sha256": "b5f7dcca433f7457616cbe2b6bd9e3d2e8fa881304bd419c2e9b9b245dbd28ca",
+          "size": 8007,
+          "install_path": "assets/languages/pl.json"
+        },
+        "Half-life-1/Opposing-Force/lang/pt-BR.json": {
+          "sha256": "ce85839648b823878e2f789ea34cc5f1674c7664f499064419ab4e0ad20ecfae",
+          "size": 7850,
+          "install_path": "assets/languages/pt-BR.json"
+        },
+        "Half-life-1/Opposing-Force/lang/pt.json": {
+          "sha256": "924c494ac19bf31db125f3d40eab36dccf95e75cb01e6ec7b8857f319d184854",
+          "size": 8309,
+          "install_path": "assets/languages/pt.json"
+        },
+        "Half-life-1/Opposing-Force/lang/ru.json": {
+          "sha256": "5bb74bce15b9ef39075fbbde13ac54ee937d01fd74f51dafd6cf26f68429957e",
+          "size": 8853,
+          "install_path": "assets/languages/ru.json"
+        },
+        "Half-life-1/Opposing-Force/lang/sr.json": {
+          "sha256": "8c03312c2f8defff6051726a556fc888fa7aa4d888c4723976d1af49d8674c5d",
+          "size": 8602,
+          "install_path": "assets/languages/sr.json"
+        },
+        "Half-life-1/Opposing-Force/lang/th.json": {
+          "sha256": "ada743a2abcca29069658a650d765e844fab65fe7b97288e2e2bd1fa629bd11d",
+          "size": 9266,
+          "install_path": "assets/languages/th.json"
+        },
+        "Half-life-1/Opposing-Force/lang/tr.json": {
+          "sha256": "34ba82d27d4857b104a72e9918daba36ec6eb647cddc02223b2553b898e1402c",
+          "size": 7939,
+          "install_path": "assets/languages/tr.json"
+        },
+        "Half-life-1/Opposing-Force/lang/vi.json": {
+          "sha256": "4da71e7e6f7e8c1718d6538d325095a210c4f7731d2a61249f37e9a736091681",
+          "size": 8091,
+          "install_path": "assets/languages/vi.json"
+        },
+        "Half-life-1/Opposing-Force/lang/zh-CN.json": {
+          "sha256": "7c791155e80a26a5584c2abc0de26b595ec52c04bc06c4b45f28406605f1e0a4",
+          "size": 7775,
+          "install_path": "assets/languages/zh-CN.json"
+        },
+        "Half-life-1/Opposing-Force/lang/zh-TW.json": {
+          "sha256": "44535592c61faafc1b14494adf9824eb8b778afe49653b9adcfaa6d9e1e269db",
+          "size": 7796,
+          "install_path": "assets/languages/zh-TW.json"
+        },
+        "Half-life-1/Opposing-Force/licenses/Dear-ImGui-LICENSE.txt": {
+          "sha256": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293",
+          "size": 1104,
+          "install_path": "assets/licenses/Dear-ImGui-LICENSE.txt"
+        },
+        "Half-life-1/Opposing-Force/licenses/ImGuiColorTextEdit-LICENSE.txt": {
+          "sha256": "38f4538cfadc4d3aaa90e8a9bf39b2ccf0761db5562442d5906e1e82708d40fb",
+          "size": 1066,
+          "install_path": "assets/licenses/ImGuiColorTextEdit-LICENSE.txt"
+        },
+        "Half-life-1/Opposing-Force/licenses/Lua-LICENSE.txt": {
+          "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32",
+          "size": 1086,
+          "install_path": "assets/licenses/Lua-LICENSE.txt"
+        },
+        "Half-life-1/Opposing-Force/licenses/nlohmann-json-LICENSE.txt": {
+          "sha256": "e310b2928d3f83c6eba5f7523d84863845f9fb51a66a97c7ab8fdab832e28b54",
+          "size": 1327,
+          "install_path": "assets/licenses/nlohmann-json-LICENSE.txt"
+        },
+        "Half-life-1/Opposing-Force/opposingforce_pages.lua": {
+          "sha256": "dca1492b1e4a6a2b191545e695aadf6a733c3a09b4b0f147106634d3ba6b5874",
+          "size": 3006,
+          "install_path": "assets/opposingforce_pages.lua"
+        },
+        "Half-life-1/Opposing-Force/scripts/Custom UI.lua": {
+          "sha256": "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134",
+          "size": 2169,
+          "install_path": "assets/scripts/Custom UI.lua"
+        },
+        "Half-life-1/Opposing-Force/scripts/Entity summary.lua": {
+          "sha256": "3f48bd410afc66d428c5acdf506915069749dfce4f17e5ede6645b7043838fce",
+          "size": 280,
+          "install_path": "assets/scripts/Entity summary.lua"
+        },
+        "Half-life-1/Opposing-Force/scripts/Standalone Menu.lua": {
+          "sha256": "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2",
+          "size": 1392,
+          "install_path": "assets/scripts/Standalone Menu.lua"
+        },
+        "Half-life-1/Opposing-Force/scripts/Welcome.lua": {
+          "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9",
+          "size": 231,
+          "install_path": "assets/scripts/Welcome.lua"
+        },
+        "Half-life-1/Opposing-Force/licenses/FreeType-FTL.txt": {
+          "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f",
+          "size": 6743,
+          "install_path": "licenses/FreeType-FTL.txt"
+        },
+        "Half-life-1/Opposing-Force/licenses/FreeType.txt": {
+          "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b",
+          "size": 2149,
+          "install_path": "licenses/FreeType.txt"
+        },
+        "Half-life-1/Opposing-Force/licenses/GoldSrc-SDK.txt": {
+          "sha256": "131212c5a670489679af77614fed8089c7ed71ce9ae3aa9333ff7718b643af84",
+          "size": 2035,
+          "install_path": "licenses/GoldSrc-SDK.txt"
+        },
+        "Half-life-1/Opposing-Force/licenses/MinHook.txt": {
+          "sha256": "2bfff5fa29fc5d1cb2745acfaad9d930e983f5c8dd97e0ec5735d9199cf8f416",
+          "size": 4362,
+          "install_path": "licenses/MinHook.txt"
+        },
+        "Half-life-1/Opposing-Force/licenses/THIRD_PARTY.md": {
+          "sha256": "cabb6ca42d40f2b88fa265b16220fa9bccd8d09ff2e12498e1eb4f220559fc4f",
+          "size": 1184,
+          "install_path": "licenses/THIRD_PARTY.md"
+        }
+      }
+    }
+  ],
+  "artwork": {
+    "Half-life-1/Lambda_logo.webp": "f3ed6c38c117a42c44ebe95bd64c20e46ec4d6892705f3e5e9e7ff83ad994f1a"
+  }
+}
