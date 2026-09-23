@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+ "$basetexture" "scooby_l4d_vfx_v1/molten"
+ "$model" "1"
+ "$nocull" "1"
+ "$selfillum" "1"
+ "Proxies"
+ {
+  "TextureScroll"
+  {
+   "texturescrollvar" "$basetexturetransform"
+   "texturescrollrate" "0.025"
+   "texturescrollangle" "20"
+  }
+ }
+}

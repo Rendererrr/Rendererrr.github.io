@@ -41,6 +41,19 @@ ui.overlay("status", function()
 end)
 ```
 
+## Player chams overlay
+
+```lua
+features.set("chams.enabled", true)
+features.set("chams.survivors", true)
+features.set("chams.visible", true)
+l4d.setting("chams.visible", "style", 1)
+features.color("chams.visible", 1, 0.1, 0.1, 1)
+features.set("chams.survivors.overlay", true)
+l4d.setting("chams.survivors.overlay", "style", 15)
+features.color("chams.survivors.overlay", 1, 1, 1, 0.8)
+```
+
 ## Special infected names
 
 Subscribe only to the data you need. Subscriptions are released when the script stops. Witch is separate from special infected.

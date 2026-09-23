@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "schema_version": 1,
   "product": "L4D",
   "architecture": "x86",
@@ -10,13 +9,73 @@
   "files": [
     {
       "file": "L4D.dll",
-      "bytes": 2724352,
-      "sha256": "aaccce0021123f8cf00f74ed343a545304fc029dab4452330ee7dc7f4738e265"
+      "bytes": 60617216,
+      "sha256": "67c582f2ef173ddc0c2f714df782ed2554781d7f5e1daf72249c5ff2afa8e5ff"
     },
     {
       "file": "L4D/l4d_load.exe",
       "bytes": 31232,
-      "sha256": "6c6a1f1c9efc5d99b9b3f9f97e243de1cda97ded120e023b3020a20def62415b"
+      "sha256": "10d59569536ce13b4cf9ced7f27c8ceed0ab1bbfcb416f2093d7c169068e3cfe"
+    },
+    {
+      "file": "L4D/docs/ADDING_FEATURES.md",
+      "bytes": 3538,
+      "sha256": "ab9121cd9cca5b747737dfa5c43a457dc60dd7112d78a24614f879ed4d869981"
+    },
+    {
+      "file": "L4D/docs/AUTO_SYNC.md",
+      "bytes": 12060,
+      "sha256": "298e92f69af8a5e34c8f71c4a6cf78e7c5bcada69ea1674ff6828bc47c9ae29d"
+    },
+    {
+      "file": "L4D/docs/CONSOLE.md",
+      "bytes": 2249,
+      "sha256": "8201c6ac0fccca79e1f7b8ab275c839f7b38b9dd3e8e1be0790260740ecc93be"
+    },
+    {
+      "file": "L4D/docs/consumer-inventory.json",
+      "bytes": 126160,
+      "sha256": "f9fbfbc769f80787a9a63df73dfcce20cb5e1ffe614b91edc82a61fe2074d507"
+    },
+    {
+      "file": "L4D/docs/CONSUMERS.md",
+      "bytes": 8272,
+      "sha256": "a56db516299c97137e99bf78e9e3ce428d1e41e3b3ff0a2395eb17e37c6b989a"
+    },
+    {
+      "file": "L4D/docs/DATA_FORMAT.md",
+      "bytes": 4854,
+      "sha256": "b7c6183915c70d6562f13c703f79a9bdd3763453ac530ed7e58ac6dac6ee3ec7"
+    },
+    {
+      "file": "L4D/docs/EMBEDDED_RESOURCES.md",
+      "bytes": 5978,
+      "sha256": "0c6deefc7a6be5b27f46db345417966cc06fc90ed7cd20d049f1a42c919bc9f8"
+    },
+    {
+      "file": "L4D/docs/ENTITY_COLORS.md",
+      "bytes": 8890,
+      "sha256": "f4b1e7c9bba198136c0ad9dabf8793ce70b420349b7346f0c8e813bbed77945f"
+    },
+    {
+      "file": "L4D/docs/GAME_SIDEBAR.md",
+      "bytes": 10213,
+      "sha256": "a092ec0b22144f546a26cf84dee626abd4fba014be7b1417fc1ad4b99951544e"
+    },
+    {
+      "file": "L4D/docs/game/L4D_LUA_API.md",
+      "bytes": 37762,
+      "sha256": "d7c788bde1b44e6b8cd2e09fbf51f27c3fb03cfbd35b50f4347c13e13984d637"
+    },
+    {
+      "file": "L4D/docs/HEALTH_ESP.md",
+      "bytes": 4635,
+      "sha256": "7003cb29838aab94a246836b7760a95216d796c5d13485620023fd59f7bd6a50"
+    },
+    {
+      "file": "L4D/docs/LANGUAGES.md",
+      "bytes": 2425,
+      "sha256": "6a2f9c80924adfa7c302c9a2e00cbcabbd567baaaf5f9cbac1c867702ae2d31c"
     },
     {
       "file": "L4D/docs/licenses/FreeType-FTL.txt",
@@ -34,19 +93,69 @@
       "sha256": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293"
     },
     {
+      "file": "L4D/docs/LINUX_COMPATIBILITY.md",
+      "bytes": 6729,
+      "sha256": "e486233f6dad8d29ad6eaab58f5a199d9e807478fd34a84e7e1dfa982c0dfae0"
+    },
+    {
       "file": "L4D/docs/LUA_API.md",
-      "bytes": 51662,
-      "sha256": "95b42ae6c784519c1d0d088960c866f2dbda4c80a19c797b262482eb5f10f666"
+      "bytes": 66849,
+      "sha256": "c8995e137abb55ba62e97fca172a54c2c0087eafbd287072f50ec8cae2cec806"
     },
     {
       "file": "L4D/docs/LUA_SNIPPETS.md",
-      "bytes": 3959,
-      "sha256": "4973bbd5d79efac111f965a2c30ee6c8394bfd6ad52d3e8f18d1fcf6b0bcfc4c"
+      "bytes": 4362,
+      "sha256": "aa25b3469cca1ea424821f9d00c06e0024d0cc9a73db7bd1c6e3d02a9be1a220"
+    },
+    {
+      "file": "L4D/docs/PORTING_EVERYTHING.md",
+      "bytes": 66520,
+      "sha256": "9c2afe7aefc0b6c2f21589383997f376470837f2a6fcd92cf6159ed85c92ab12"
+    },
+    {
+      "file": "L4D/docs/PORTING.md",
+      "bytes": 15747,
+      "sha256": "d477547429c260311f8a7a90913b9fd2deb472a2ea8967a5ad8347628c50cb04"
+    },
+    {
+      "file": "L4D/docs/shared/README.md",
+      "bytes": 8692,
+      "sha256": "c5c02ffb04087f88abd3fd423641753a464db8c0bf972cd274bf75d035a0af53"
+    },
+    {
+      "file": "L4D/docs/shared/THIRD_PARTY.md",
+      "bytes": 2182,
+      "sha256": "989458263b4d0289416eaf6ca372618fc3df0cb605a1773a9f945f55bac46176"
+    },
+    {
+      "file": "L4D/docs/sync-validation.json",
+      "bytes": 2687,
+      "sha256": "c0406fd91e90231f6e8da9a50a7dbc730ba6c3a2ddd66d80cc7e0085fef03bdd"
+    },
+    {
+      "file": "L4D/docs/TEAM_ESP.md",
+      "bytes": 1211,
+      "sha256": "8f6444308e9d271637e28e7c238076cc6ab9604dbbe8c6213ae690e42fc86bac"
+    },
+    {
+      "file": "L4D/docs/TESTING.md",
+      "bytes": 10124,
+      "sha256": "6e3ee01ff81d3f4df516cfee09a60f4aba2478334bfae5f21344b538169436ae"
     },
     {
       "file": "L4D/docs/THIRD_PARTY.md",
       "bytes": 642,
       "sha256": "64b81563e213b9b7309ac4643b1725ff0625e8338ff7fbf84269a95fa8e0f406"
+    },
+    {
+      "file": "L4D/docs/UI_COMPONENTS.md",
+      "bytes": 3957,
+      "sha256": "138a5a58f58af23cfe26ac0af83bd6cd519f74b99aaae72a53d68d560dbc8ae1"
+    },
+    {
+      "file": "L4D/docs/vendor-reconciliation.json",
+      "bytes": 13378,
+      "sha256": "3ec3d49a9530213a88f54b29f16e4ce55f3da03a72eb49c48e6b744ba95b1f74"
     },
     {
       "file": "L4D/fonts/licenses/NotoSans-OFL.txt",
@@ -175,123 +284,193 @@
     },
     {
       "file": "L4D/l4d_pages.lua",
-      "bytes": 16457,
-      "sha256": "cbf0ce1cf001b496d821d091f70801e6e9cd55f1dcd563a2e9049186a88727ff"
+      "bytes": 30047,
+      "sha256": "ab3aa20e11d1feec187e4f6612b8eac4bd2df3e1bab2498abb871d364d32c2f8"
     },
     {
       "file": "L4D/lang/ar.json",
-      "bytes": 39199,
-      "sha256": "419b23afafe091cc3cca90b523722b8a0b2718a74e626f922e20084e10a7e3f1"
+      "bytes": 39655,
+      "sha256": "9707b473d7f8e83c38143f4e1bcb033d0c6de3c6e263a4b189bafbaf6d06254c"
     },
     {
       "file": "L4D/lang/de.json",
-      "bytes": 33769,
-      "sha256": "ef36a6f57035177e5fe76d9599c660cff3edca01b58f2230bcccf70aca9637a2"
+      "bytes": 35207,
+      "sha256": "ec3403225940432e9d85f685c6506de59f8a8056cc7aad3de9c55e2479272f4d"
     },
     {
       "file": "L4D/lang/en.json",
-      "bytes": 30487,
-      "sha256": "60487d64185386274e3d9df3a4bde2d70c51721e9a686f947008ebf68a30287d"
+      "bytes": 31999,
+      "sha256": "e2f3be3800b745c577a2f28b2d9204bcae7141dfe01b206228062033d4de9ec7"
     },
     {
       "file": "L4D/lang/es.json",
-      "bytes": 34139,
-      "sha256": "0ca145aa6c8830463e2b70bad04a9fd942ba947711ff6e298a3228c9c47c71b4"
+      "bytes": 35731,
+      "sha256": "22cd10761500e24777c88bc904adc7e5387fb7ec0dc0e14757d291d8bb02aa7c"
     },
     {
       "file": "L4D/lang/fr.json",
-      "bytes": 34737,
-      "sha256": "9527b47abfc4bed6df0a79cccaa33fd4d546c72fade349c98e06fd2ee7bc0063"
+      "bytes": 35996,
+      "sha256": "437b1d86293c7a1a3da86b340fc5b9285fedb03474fff140e6862b4607c2f091"
     },
     {
       "file": "L4D/lang/he.json",
-      "bytes": 36058,
-      "sha256": "288e0e2fce7900eeb581901f2fbf7cc8dd928e82d1e1fed9b61ef3c3883143d2"
+      "bytes": 36817,
+      "sha256": "52ec0754cd1019cf029f87136ba74932616505b1e93dbf53186408c16a58afde"
     },
     {
       "file": "L4D/lang/hi.json",
-      "bytes": 52103,
-      "sha256": "90aebf23b1a8f1dc08f1f8b374eb350428b3e704c91caa6066828e525d7ac4ae"
+      "bytes": 51220,
+      "sha256": "3d6e1f49936a32d9cbf81d70f39b6a0684eee16559e671220410c01071688087"
     },
     {
       "file": "L4D/lang/id.json",
-      "bytes": 31823,
-      "sha256": "4af40e5436a51861ce89102e6e43507f65545b5c24451027d5420ef2df4f901f"
+      "bytes": 33236,
+      "sha256": "be5f3ca3541c40742851b3afdb8c34e5e082fed6cfb50353d168a21aa70c76a9"
     },
     {
       "file": "L4D/lang/it.json",
-      "bytes": 33734,
-      "sha256": "681319d17b80c2c85d10c995aa26f430325475fa288698c53e2092c032ca7a06"
+      "bytes": 35330,
+      "sha256": "afe75326b9e0d45cdeae28d46c15525c76ee65de312acbfc262a0ae3f236ea08"
     },
     {
       "file": "L4D/lang/ja.json",
-      "bytes": 35461,
-      "sha256": "2d4c5cc66509aeb61f9982a3b9f7628e39aeec8c5523ee162e99536bb01ebdc5"
+      "bytes": 36112,
+      "sha256": "77a392b1034b18a752eaf968df9f190ef9ca854996eb27229183825043e53cf9"
     },
     {
       "file": "L4D/lang/ka.json",
-      "bytes": 57129,
-      "sha256": "7061a382b27aec727dd153c4b716d24dad1eb41f50eb911e76ef379aa8c63b34"
+      "bytes": 55714,
+      "sha256": "6b50fbbff3fe11f4409ef1c3adf825754f05439fa038f105507f9825b6a1ec89"
     },
     {
       "file": "L4D/lang/ko.json",
-      "bytes": 34109,
-      "sha256": "1711df8f6fb60c67079812566522ccaeb21dde941784c82cf6da1d05516d94d4"
+      "bytes": 35122,
+      "sha256": "e3e71dc17ca006782ddfae1c270ceb21a46689cd5fa8d3cc094cadb759f28683"
     },
     {
       "file": "L4D/lang/nl.json",
-      "bytes": 32714,
-      "sha256": "5190f4e2cd2521a55e9c6bd27a4c6b17edc15787f4f88649fa20647b296fc045"
+      "bytes": 34380,
+      "sha256": "131a67f11da9717a179b14a9602bfa7587f09cbb3136fca35732a7cc54ff1b87"
     },
     {
       "file": "L4D/lang/pl.json",
-      "bytes": 32862,
-      "sha256": "d9d8d54ac96a7d4cf4b94a81ce98709ce1bcc91ef2e86878385ffce3bc235e5b"
+      "bytes": 34180,
+      "sha256": "608ab8e331d02f7d7bad56402c85320f6145ad86871c81fa10a0d3ad72d06f1d"
     },
     {
       "file": "L4D/lang/pt-BR.json",
-      "bytes": 33424,
-      "sha256": "ecd2269a4cb2fe0a98a5080ef1754186abeae9b16b4a379f270939f3e5b88b99"
+      "bytes": 34550,
+      "sha256": "6e656bad860cd4837205914de92ebaa7ffcf1b443084807f32ab49c409bacf27"
     },
     {
       "file": "L4D/lang/pt.json",
-      "bytes": 33301,
-      "sha256": "e558e2d181b043eb87267cd8ad79d5d2abab3efbb0255117e8e26c752aecefcf"
+      "bytes": 34983,
+      "sha256": "0e9f3055d78ceb379665da96288d4a297c96cd4c858d4b3e2783e26524428885"
     },
     {
       "file": "L4D/lang/ru.json",
-      "bytes": 44303,
-      "sha256": "bedc5876a82c92a615ee43f183a80ef46b55bb45ed1858f1414e1371116a37ee"
+      "bytes": 44419,
+      "sha256": "74f108ca10a7e6e8a594bc0f0714f1f8b870a1ea046b142c88b629be09ee9a68"
     },
     {
       "file": "L4D/lang/sr.json",
-      "bytes": 42018,
-      "sha256": "04b0f7142c4945f25cf6f71c8ea71ce2546a311056582804019b43bd7a734e15"
+      "bytes": 42266,
+      "sha256": "d5cd214b11a4ca95fa7ff2bbb64c22bd611bcc4f69ff04780dd38611820c1c9f"
     },
     {
       "file": "L4D/lang/th.json",
-      "bytes": 49116,
-      "sha256": "e833f91d4b14f88c6f8ed847cc10e3951b1b4b46f47048feeaa8b8040fc6d0d0"
+      "bytes": 48743,
+      "sha256": "d2e388e6986043e72e16aa5ad4ada805c291134d9362cb51e0747cf0da42977c"
     },
     {
       "file": "L4D/lang/tr.json",
-      "bytes": 33222,
-      "sha256": "a9b825038e76166c6384e7caf6cf9afba1af20622142ce800d9584fe9c1ed607"
+      "bytes": 34357,
+      "sha256": "331b98b638f60da64b922fec772b5e9ff88d4ac6f58c94885431894a2f09df3f"
     },
     {
       "file": "L4D/lang/vi.json",
-      "bytes": 36733,
-      "sha256": "337c297b5e608b1ae8b64d5386c4a12c46ef71260530365888cdceba18800465"
+      "bytes": 37513,
+      "sha256": "ec63feaa9aa03ddbced8d77b9fac245b23f3d68d8141a7c0f08114931cb9a9f0"
     },
     {
       "file": "L4D/lang/zh-CN.json",
-      "bytes": 29824,
-      "sha256": "7b3dca1427cfd31d096e74150c78849ac8413952a22dc2650939d694f0bc2239"
+      "bytes": 31336,
+      "sha256": "cc9077b73e4a99b9a8443011938c283eda823e986f384341d902bac8ff30f0a9"
     },
     {
       "file": "L4D/lang/zh-TW.json",
-      "bytes": 29366,
-      "sha256": "eede736f09712ba254bdd07add586cd2a306535d49c830da4c8c9683765d5825"
+      "bytes": 30963,
+      "sha256": "331c839dacf9a0ee7f4dc1d6e8af4a353b35abf48460cfb434a4a35e41b7f1af"
+    },
+    {
+      "file": "L4D/licenses/Dear-ImGui-LICENSE.txt",
+      "bytes": 1104,
+      "sha256": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293"
+    },
+    {
+      "file": "L4D/licenses/ImGuiColorTextEdit-LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "38f4538cfadc4d3aaa90e8a9bf39b2ccf0761db5562442d5906e1e82708d40fb"
+    },
+    {
+      "file": "L4D/licenses/Lua-LICENSE.txt",
+      "bytes": 1086,
+      "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32"
+    },
+    {
+      "file": "L4D/licenses/nlohmann-json-LICENSE.txt",
+      "bytes": 1327,
+      "sha256": "e310b2928d3f83c6eba5f7523d84863845f9fb51a66a97c7ab8fdab832e28b54"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/acid.vmt",
+      "bytes": 277,
+      "sha256": "9e0f8fd99ce947b8ab0cbadabf3fb702d1fa7d6da194882656a40347ab715ae8"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/acid.vtf",
+      "bytes": 1398180,
+      "sha256": "27ebdc6a1aed55822b7af4b1c14ad806da2b8f2b2e05886df69abee5010f3b7a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/aurora.vmt",
+      "bytes": 278,
+      "sha256": "723d531dfa6351dbc71c1e1ef4426ab0027737866b9501c983221675729ad771"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/aurora.vtf",
+      "bytes": 5592484,
+      "sha256": "43a437ec0bcd11ef40aef4d055b006daf5cc6595588b94333139a348214ebd99"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/circuit.vmt",
+      "bytes": 317,
+      "sha256": "cd248092d42295d96cd2e26a78068d4e958b4e563a12694e08cb5d25a201c736"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/circuit.vtf",
+      "bytes": 1398180,
+      "sha256": "3f5f0799199cac465ba5178615117c922fcda92c5ef36c59013374358a6b5f79"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/dark_matter.vmt",
+      "bytes": 283,
+      "sha256": "10ba40bdc624c9c5216ac4a15ff1d00d77d24f068bdbae53a4aa526f9b66416a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/dark_matter.vtf",
+      "bytes": 1398180,
+      "sha256": "8801d4855e2e427520f9616b98eafb741efc95909362489ec21ffe8eec41b94a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/frost.vmt",
+      "bytes": 277,
+      "sha256": "4849d0be3eb4bd6790ba38b3ea0948f11383e0d5f601794172b154f70fc2ae13"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/frost.vtf",
+      "bytes": 1398180,
+      "sha256": "aa1dd9159f5a9d25cbb37c9a524b52344a62312b320e69403234d74fbf199823"
     },
     {
       "file": "L4D/materials/scooby_l4d_vfx_v1/galaxy_bk_hdr.vmt",
@@ -494,9 +673,1719 @@
       "sha256": "8863ed64799f10cd51a7fb0f7697106b5b932aa2056e3bd5aab47e5427537ed3"
     },
     {
-      "file": "L4D/scripts/Custom UI.lua",
+      "file": "L4D/materials/scooby_l4d_vfx_v1/hologram.vmt",
+      "bytes": 318,
+      "sha256": "8d2bdccc1ccf285d0e45f3be11e1bad7d84dcd935fa2a49f421d2ccb7376122b"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/hologram.vtf",
+      "bytes": 1398180,
+      "sha256": "27bf42ea3e40cbb612fb8a32f7e7137ca45a2a5dc980319e90480d67e7d61f4e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/inferno.vmt",
+      "bytes": 279,
+      "sha256": "ac871b9d21f4daa855f07febdf1e3f5ad63088285311aed2eb5df6910cb9653a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/inferno.vtf",
+      "bytes": 1398180,
+      "sha256": "488001651baac074528c2466732a1bf91b45abada7de09676936f13fd437b1f7"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/lightning_overlay.vmt",
+      "bytes": 321,
+      "sha256": "031224d337d08db78212d036e0033e8596ec109aa769310c932965f53a092d14"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/lightning.vmt",
+      "bytes": 281,
+      "sha256": "3e8f1ac96b06fb6ea21234d56243d33ff3bac098e3a149731be314bb9d959b87"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/lightning.vtf",
+      "bytes": 5592484,
+      "sha256": "3518484e00fddda223f84bda946ca2e83d24edab920b460bc6715666d7e0d09c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/molten.vmt",
+      "bytes": 278,
+      "sha256": "7009129793f2cff5d840e1fc0cbf25c6a12db89f291a0344a6dc48487fbf0021"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/molten.vtf",
+      "bytes": 5592484,
+      "sha256": "eb67f1d927663746a18fcb9aa870949b3105e63e697787294e640ef15608ffa9"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/pearl.vmt",
+      "bytes": 276,
+      "sha256": "e3d46323b88f299c289cdb706b140707721d71c6f81ea6e2f1686497c2b21587"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/pearl.vtf",
+      "bytes": 1398180,
+      "sha256": "7254f17ffcf014b74f0e477ab7bb0f4550c6dbd31e30252ab4338444d2cdf91e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/plasma_flow.vmt",
+      "bytes": 283,
+      "sha256": "1876843470657504025729264a30229b2541f0c3447b8782986065108e6f5a2e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/plasma_flow.vtf",
+      "bytes": 5592484,
+      "sha256": "3258ce15589ef0959d6662e8447c79f7315783d9f17151431bfb3f3cf05cecc8"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_bk_hdr.vmt",
+      "bytes": 92,
+      "sha256": "701c1715948f4ba897a4289151bc4b57e78cd7cf870599402ec7a74451cdf7d9"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_bk_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "af4f8464de791499663b1263ab75765f2d0682df7ec37fdd3123018c1ee6b4fb"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_bk_ldr.vmt",
+      "bytes": 92,
+      "sha256": "4d26442373b14c0f2a098f6316050053e0c7c05fdbd0f9588f2200bd63f8c900"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_bk_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "117939ddd7dbb2ac69ef1b8aaa9fb5e69361bd2be07c31ab3d73771f8a46c904"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_bk_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "22a372e3f7854793d4ffe7e9200bebe2b4a63c83c5b56c87f1b0335dff846c9c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_bk_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "08461682585dfc1ca1bf44e64bcc8220b488ed06b10bcbbf13259738d65973e0"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_dn_hdr.vmt",
+      "bytes": 92,
+      "sha256": "38e2c8a4c7ef4bfcffdc639e8a11997e9b5f79b75161871aee92c6bed48e5fa9"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_dn_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "0eab7d6c7e71f223af3b3790810d2b432d20c710d4688e344b31d01c63dcd5d7"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_dn_ldr.vmt",
+      "bytes": 92,
+      "sha256": "d196c079b02af87fdc68196f2a17f46e2656377b3df82cbc6ff52403abe1dc0d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_dn_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "1aa52864047b5a4a757b92a829100d275d756cc6176e093135ac3d32b24c0850"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_dn_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "a936c83e44da7bca4c01419def8a744ed5f7573af04e58a2bc1a3ff395ada28f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_dn_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "3ff3d9162394faa6a1a21e2ccd4f8058cfb49504f3dc1094beb2f179fd834a8d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_ft_hdr.vmt",
+      "bytes": 92,
+      "sha256": "d9ba5cd360d4a826169485369e18c01bc3b948b35baeac786566ac4ff2437a57"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_ft_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "25ee09c8ff9d863ed6bd535580c134ad371510aec46b3c7645d973f08082cb5a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_ft_ldr.vmt",
+      "bytes": 92,
+      "sha256": "c5b75dd2a62ed25aff735cca5f705e5410f8282ca074c5dc92e468e1b5a05b24"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_ft_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "6d326d8aac2771426c73013338aee32deb74474673d127c8350a3bc70c359eb2"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_ft_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "926347842e2adb1848ac09c6d3e6c2abdd270c11e21125668f61e2328f3264c8"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_ft_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "04dab3845a9a56cd4d79ccadd806624611e09959874b41b3a8e2c0c850c08c73"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_lf_hdr.vmt",
+      "bytes": 92,
+      "sha256": "1c7ba01efa2e23e53665550f70eb889e06241d7d2a7291fb2595d0b65b31deef"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_lf_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "d1b17219c68a69268f9404ab9b4fc82ef2025c8298ad1d199b775bb02ee8b3ce"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_lf_ldr.vmt",
+      "bytes": 92,
+      "sha256": "8f8eadc93e5887b9de41d7c644ce486ca98fde30df1403f57597710158cd3d93"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_lf_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "16677477ec51bd6f7d291ebff4dc38a3a9e3016000fc3cfad0c794d380e12dc0"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_lf_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "264edf0f69528a6e59d9cf59de674f61d4a14e13979a0dc8fec74187188d2832"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_lf_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "e9e136e5d8a0c12e5cb98b293f43ad681e3a51ddd749ab4047d75d35ff769754"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_rt_hdr.vmt",
+      "bytes": 92,
+      "sha256": "880892509c576d1c34adfc7b8ef3fe31f6318e373b9c87bab57788ea45eb2ea6"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_rt_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "967fc8223dba80af9382aeed8784c1f76819d97e3ac256289b1b704de317f601"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_rt_ldr.vmt",
+      "bytes": 92,
+      "sha256": "1bb3a6c9cc776b64dd8eefd0de2d0b294e2a7d2c379239cc869c1f971a3079bc"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_rt_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "4359ed63ae636d0ee550a22c2232bf8351e4fc39947f32264baaff5d1d2b8a3d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_rt_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "cf60f35a3c2543d93f4064600eb781d2427bfce094a86ca770bc26a81224802e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_rt_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "d95e5f52d73ddb64ea8bbc401f9b23d29d3e2a36fb45b4d42180515fd7e9599f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_up_hdr.vmt",
+      "bytes": 92,
+      "sha256": "be8c881f62b3d6128a195d74f9de7e13febc2a3b672b76fbe4a6ddff53f3f4d3"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_up_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "7dd8afd2024a60899ef0ec8f30e0133401f5f7fe996012bd6b74ba1aeefa0dd1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_up_ldr.vmt",
+      "bytes": 92,
+      "sha256": "efc514002f9eea9b9407a7bab3e406e7029a7b5cd0be6830b99c5f1b3068fc63"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_up_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "2427d75348416370ee0e7bf41e2afd88e674db425ab33c0d8f19819be85bc2e0"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_up_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "7338218f2fcaf5b2fda9247a9d76d784b06ca96b00af6fb1166127301f3edcdb"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_aurora_up_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "9d183c7d1a3260668850b02958eb364d29155ed2bdc9bf77cc0e03845e896f1a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_bk_hdr.vmt",
+      "bytes": 95,
+      "sha256": "b56d2ac304f9b6cc1e74cf730e040a35943e17eebfd54b8b45b77966479fa820"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_bk_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "c9431278a4cd82513fd243323514662e57b44e05be119453d3b547fa16f3e54a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_bk_ldr.vmt",
+      "bytes": 95,
+      "sha256": "a9915ca9e13ada4abd865ee66f399fce2c6462bc9869b48d4034244376630621"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_bk_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "9a6f0b880bb007033b1f01697a8561b7eb601f5a28d403a8847fe7600588ad3d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_bk_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "7783db222742a2288ba106a83de88b06f84ef36890792cce4f8dbdd0c3df7c16"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_bk_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "5f86f335aff74d363f3739f96e92cfdf8781742f7f1b4dee0daf1acfef26ce0e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_dn_hdr.vmt",
+      "bytes": 95,
+      "sha256": "3729029b6478e127b00121b37c5eb6186e4fc751ed395f97b97b505c603c547b"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_dn_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "da3c9b96dfc892714dec502f2a047541465f5d0e2b89f18551ca909352d018c1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_dn_ldr.vmt",
+      "bytes": 95,
+      "sha256": "7a8bc751e6eb5a57c98ab8acc37808838f5e7543185be78e6367278c13565a7f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_dn_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "b0faf76ff36aaf60cd042fefb93425842460bcfe50770899e5679613626846dc"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_dn_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "aa7f4a5ca4a1b1f45c8f196aa6aeafba35491cdee740da82ac4c86f9a54909c5"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_dn_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "16a748775986d747ab1c883b89d2ae886ce04ae0066ca7fadfae79a2f49dc763"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_ft_hdr.vmt",
+      "bytes": 95,
+      "sha256": "0f33c14bded989c3c88acd7be2b6401c943c0dd84fef51e069d18229bf2cc9f1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_ft_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "187c003230c57a593f16e5b83e8762e2c8f0679206c82d84315e90a90f835069"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_ft_ldr.vmt",
+      "bytes": 95,
+      "sha256": "beb474febb6123f34d68665d731ad8eb88659c9c1b8896bd632597c8475fd675"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_ft_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "bcf38757fb02c28cc7f2d80bfdc9b380d4cf60d817b52ab509f98a0eb1d802e2"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_ft_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "7478ee865a134f7ae3e4e8ccda2a86a2c11c78dba197cb14fd7c89a7ab838153"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_ft_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "633af75f99cf2f716de4cef93ba30ed06e2a9fa65f18efa0be62f3854c64072f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_lf_hdr.vmt",
+      "bytes": 95,
+      "sha256": "8c2d5a1a0360eb48e50bc20148b75610baa08cbcba90510902839535685eb912"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_lf_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "752872cfe6e68694fd4c79327e768aac4883e2915258a27d33ad52ae899eb055"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_lf_ldr.vmt",
+      "bytes": 95,
+      "sha256": "68b19fa5be9fdb82384dad6ef38b6b454824be6b9a18341f652cca531e2b6a3b"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_lf_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "a2b0e008aec3e6a7246d22ef26c7941741925c487675082996dbb0ad0cbc9c8a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_lf_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "2b5827456be719d2ed0421a4026a601e9d573e2dd2d3633f1a41a9dd56f99e86"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_lf_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "29f963cb218e3c66ed3189f01f1be7f3201f086aa94b54b8cb7277c399360920"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_rt_hdr.vmt",
+      "bytes": 95,
+      "sha256": "2a8d971eb337279a32775686f584ce940aaabd4efbcdc57d499a5b7991eba4c6"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_rt_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "23e56ac886e9335fbf107fb5b69c4976adaa01aefbef7ac5c5a5d060151c0663"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_rt_ldr.vmt",
+      "bytes": 95,
+      "sha256": "40e97c5e6418dbccc4f36cd7d057eaab1edc196c4ab02939b5c0dc7dcb52f1b1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_rt_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "106d6464a5a01d73999117f351fc2cc587eaa9e0e23e7d146c6808e630e7b270"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_rt_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "68c5fa1e40a07c631b710a808d8450cb92975646eb736948459414010174a4f6"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_rt_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "86045c87add22f5cfe351ad6002db246cd41236725e13fdc841e35885a6415c7"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_up_hdr.vmt",
+      "bytes": 95,
+      "sha256": "dd5e5befd7cad2847656b1dc05123e7034edd67772dcdce3e8a3e010d3282117"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_up_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "3a8c6f3f6925d73909154c42942a51a376548f5777bcc839b16ecb4685ba2393"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_up_ldr.vmt",
+      "bytes": 95,
+      "sha256": "4d4f0e9513d34decbe450bb1e5029a186232fab0061053973d71389ce1f976ea"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_up_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "e2014d77b073d6f15a14d50d68dca2501ee1f2a944acfc8a712aa5956a0dd10f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_up_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "037057e63097715274932ebd58a5274a5338300b43adaff5e032d013d352807a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_bloodmoon_up_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "ba86daf15261e25db0ba8f84abff72bdfa43eb132c026e70880e8e901c1265c1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_bk_hdr.vmt",
+      "bytes": 90,
+      "sha256": "534bd09b85bf72599a30d440bfae0b98216e3b0d4f3703f49d77f140d77c7828"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_bk_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "e2525fddf48691c251d8034b06af6506387e4c0891a45c1c6d8eb48c02706487"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_bk_ldr.vmt",
+      "bytes": 90,
+      "sha256": "c7f588995e52655f2486b2edb75f2846c071c0f1df92e6cf9e1eacab75042b5c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_bk_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "f855a17eecbf3c4e491dacb6791404632dc3d3ea9c049e141e814b81ec4e7136"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_bk_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "575b28264aa5abafbdedc47a4a3a3931bb1bed422872f5adf3b9e4e1d2a7e40d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_bk_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "15813f9a1cbf0c6cd23aaab1a46a18e5eb8184abda7824407c87af9c15911cb3"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_dn_hdr.vmt",
+      "bytes": 90,
+      "sha256": "d6afd531cee8508541ee64340c8ba4302f5665df2d89a88002bde973a9dfda21"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_dn_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "04bdb7f5fe1da61079958c6d4735b2b9826528d68807b0f8035ca79b36f91478"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_dn_ldr.vmt",
+      "bytes": 90,
+      "sha256": "49d6189f4d4dcd62d19d6a22833b879350c8c32461142a62d6d0233cf5da2f6c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_dn_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "e4371e295ce3ad37a59d8339c1d26de85d1b4c410549f1aab8303fd05bc236ad"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_dn_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "2cb1579a0297608b18de3b605b9175ef8e95b1cd759e9c69cc3bd373dd974361"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_dn_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "14d9de570f0b292738f5f303f76b65bf811415e5be145761ca21998ef77ccfc5"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_ft_hdr.vmt",
+      "bytes": 90,
+      "sha256": "1c4cd1e6a3cdc7d0f67e0e8c14ada2e258187f75120b62f1d1d0e771e19e965f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_ft_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "62754b5309fcc7dbfff8dc2301effd7d2b582b9c23bca0704df29b1b50e2fa97"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_ft_ldr.vmt",
+      "bytes": 90,
+      "sha256": "d430a90f2d513dde9d843fde03346edab6df94ef6acb4efa9203f699dff3ec78"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_ft_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "23c7157da903c3d0fa92577f575a92b3ee6272e75dea38ca2729f546ecd9d9ea"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_ft_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "9f534e2df44f9ffcc675ce5b8b55f3dc85fee18bbd595a88a4888b9b83f44114"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_ft_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "34d3e9ac210302d9eb1c7482bba5e340ca81167e6ca92860ddf7e308b24d046f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_lf_hdr.vmt",
+      "bytes": 90,
+      "sha256": "91a21e9001902bbd1f390fc2d45c0d7c57f8de42ff117b76e42760dec01483f1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_lf_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "340ce61089747e0f3c5e10e5f478083c15cceddd451701c2571ce642d37ddc25"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_lf_ldr.vmt",
+      "bytes": 90,
+      "sha256": "2327fd971fa31cacf8f0dc6266555b2e393ff95c7fe5b154a704854d004e7750"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_lf_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "cd119a1d94c24cdab6e1d5d948336d94db57a1b87ffcef24df145fe760c861e6"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_lf_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "c422b64996fad7a0e68440a235b5fd05061293282582ed88cc7e7a51238ed730"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_lf_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "c5d7073ac3ec1721ece4d2826e506905762feeed5958e889849aaf4c82620512"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_rt_hdr.vmt",
+      "bytes": 90,
+      "sha256": "0c952aad7596f25d6ecea3e05455133762a798f081a013e1330e02cdfb32ffdf"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_rt_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "325ba77be3ffece6de973c852d626d04df33569fa5c2fed178b30ed66a3baaba"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_rt_ldr.vmt",
+      "bytes": 90,
+      "sha256": "3fe4422528fd778e623fe3107ee797e2b76676cfd0c71da2b4f53e726aefe5cd"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_rt_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "a3803cc902999b180a3b53d721bd150b696f2ba117a925b64472be3df028f2fd"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_rt_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "945da5d2e17a8cef5532bd40a5cde8f4266a6e2b02efc0c02e8f774a3253e8e4"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_rt_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "945d07ff071b0586285966ca3d1b88d7288a11ed2b94a13b6f48cb27ebe3f97e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_up_hdr.vmt",
+      "bytes": 90,
+      "sha256": "422eed282bcd5e14d3a6d18623f709fa8b3fbf3ae527f344e69117d94420c4eb"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_up_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "42409476aae0cc41c83c3692c0d81b7f8deb02a5621c8aea4b00367fb2a23d5c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_up_ldr.vmt",
+      "bytes": 90,
+      "sha256": "133a2fc53f0f6fdf2791d2ba8831b19ed466f85c13c05e7ff1fb5f54336540b2"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_up_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "577b705251f447085c4279eaa490527fe52c141b52fae909a6c034f3ca08b105"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_up_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "dc822d43564630e0b2b924acae205008462dd712a6ed627c8c92b70206e2bf3f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_dawn_up_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "6a1077f7bce317d58ac2efa6cd3c95e9e2009c1c184591a496a2038028eef346"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_bk_hdr.vmt",
+      "bytes": 91,
+      "sha256": "780f2b7e063053edab2f54836b59f71237afb0380a3cebc551cf5cdaf4d94d2d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_bk_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "f9acf1d93c5de60a488077404d9cee36de732a8922987deb1f8973dc730e7441"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_bk_ldr.vmt",
+      "bytes": 91,
+      "sha256": "874185523c3c0041c93a07741a100a262f1d156f0f36a809862c7d09d580f5ce"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_bk_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "7760890b007fa7abc5e088801a676f8be84a5e50241019e4d7c8e8618a78d0fa"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_bk_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "ffa2ba1cbb0680d28562685f8bed1915a0cc2ac79078eeb1507fb330208ec18f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_bk_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "518e1153e3b0e61f75da215d338906ddc5e66f44d035e26ee015e604a696a9f1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_dn_hdr.vmt",
+      "bytes": 91,
+      "sha256": "060bf2ce36f76790f19344e3e35adffd09cab437567b06bba0c5d427eb17659f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_dn_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "c104326abce1c1edec7ca7e199ab63f762ae4190e101fceb73dcb28a930369a3"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_dn_ldr.vmt",
+      "bytes": 91,
+      "sha256": "c0e6cb99224112fe7281dfda399ec655f41f29324a05f0737541f4386fee86d4"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_dn_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "0395150931e5cba9092a3397115c8d73a8ba5e01d28022bb5b9da84492c414d3"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_dn_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "0895491829a255fcd0bf899435936720b31f30240aefaf3e0d09d50ec52a90b0"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_dn_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "4635da982c897834cd6c9852c744fc1c828952626bb9c4d7d550cbc022d161c4"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_ft_hdr.vmt",
+      "bytes": 91,
+      "sha256": "d936333d57b8885acd1af31e09b6356746c5cbcd1288b695394ba89d32868b4c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_ft_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "67d569c8e092116e827c595b74d2834b1c38099f1ea0c4cea69263098f12e1a2"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_ft_ldr.vmt",
+      "bytes": 91,
+      "sha256": "0751eda363469cb1e01d2c5ec0624c318bf33f1ed43b6514f188301ab4f95e86"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_ft_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "a204365f3812a974389ea1c309101b209c8efcdbf869ed593bc739a3fbb88bd7"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_ft_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "ac2fa6033296a01b268d86c4108a436ad22615f80018a0e691d0aeb53c4fda91"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_ft_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "e785c98ff529d76c4c70ad1696b439b5fe39584c0a036ef8ca5c1e05a2d99ec6"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_lf_hdr.vmt",
+      "bytes": 91,
+      "sha256": "3660c6b1563baf5d4918ef661b26c331d8975fc4021dedbe8d96f2adb18d8c1c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_lf_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "c4b2b289e541d05dccdb98bb0db2101f51b6064a1d2038995b50a085c84b5e0e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_lf_ldr.vmt",
+      "bytes": 91,
+      "sha256": "e4ebf2bb8729e1a1f85f6cca89b427396fdf64ced84b4345c245f3cd3e347072"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_lf_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "5ca27eeee96a99cc41e6a7c52a200729a53a8b4c4bef1ce1bc3e60ca93e1eb8f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_lf_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "d8a39d594ced75c5c6dd0f3107355acd11c9e817b7f1df6c9bb828fb5f4d5be4"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_lf_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "27d2348a398585df62ea6f8e755ac2284495d7b493e60c2cf13565553b8f3dd6"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_rt_hdr.vmt",
+      "bytes": 91,
+      "sha256": "f80b6f2c57732976569afdcdd43ac2546a176135c9ca99985c81c8d0971f3175"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_rt_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "c9b891729b833c7e1e88e8ff0c9bcc5e699909d5e518a775cd109dfce14e2a03"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_rt_ldr.vmt",
+      "bytes": 91,
+      "sha256": "bddcff40083cb8364b4800cca0ea5d7b52e227fc24d37c0f464209ddf4dc0bc8"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_rt_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "d50612be26006022d62ba9c45ae78bd347960dffd5d1964c5338df4fb8d5a712"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_rt_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "aeed339f40a6e8022e11170857193544c2ba7a9a6a620ab14a6e886b7243a0b2"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_rt_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "88298acc7dfa8c78190fe5ba3fa425e66f4a2ce7c6cc073bdd6693a5a1c86910"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_up_hdr.vmt",
+      "bytes": 91,
+      "sha256": "03ab8d96a42d108daa3df59630f9fa45bb886ada7e575f9e092fb16b5b619929"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_up_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "736cdf548421785c9a106140358e1ac74bda9975431915033b37de1babfa4197"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_up_ldr.vmt",
+      "bytes": 91,
+      "sha256": "6d6161300fea1b3b9a5657bbefd846757a4c86b54341d66c38b5406c374dd2f5"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_up_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "7bda26ee9e0f7af7232638b65b73e716235f1ac1ece2d0c90325ddb0f8381859"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_up_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "3c45b264d47736cb7052d41e73b2234b37edcd723b4d7934a9930488f9d8e6d1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_frost_up_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "ac9c8222ab86459eeb002edfd26645a16e8ef0b911af31a4182b969e2e033748"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_bk_hdr.vmt",
+      "bytes": 90,
+      "sha256": "63edb38982fd7c12f6b9a8dd7a3ca426598d8aa43a1d46819ca3c03fa18176da"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_bk_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "d135fd597686509973f3b2f372bee0e02b16855325b5d5c447dd606edc423339"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_bk_ldr.vmt",
+      "bytes": 90,
+      "sha256": "b4629a1e9d4e4c74ec1944621e47b232642a7610639cd44d2879c112a92ff465"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_bk_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "5d4c911e890b5c2d94e0bbd0de516a233131e2d63083e8bfc65f6f8f62a99471"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_bk_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "0ec09ebdb03c199ce741f944e17e6e18ea70b817a2dd006e00642f7402b1fa8b"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_bk_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "ccaa9b6580b141ad02bdb0d8e4298b8d75c9462b62a058bc6527489000867a62"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_dn_hdr.vmt",
+      "bytes": 90,
+      "sha256": "e9444bbfb9de88ab265245185f03f2bdb14a76f2aff5ee51ebc03912cbba6614"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_dn_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "9c7691d3d0a35be24fc0e26d73148c8e2f805ce76a8b3df1fbb6b99df85b95bf"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_dn_ldr.vmt",
+      "bytes": 90,
+      "sha256": "87688961be1438e53410a2081bfc63ecfc3cc8e8d285f2cb7f2157ed12626f2d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_dn_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "ceb8bebeff66c0b8a988cb55780e6a739a66f69268711014de71568ed7efd2f3"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_dn_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "c10cc319d7cdb6696136fdef21681cebcb73077d3d80f2b3c6a261cffcacd46e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_dn_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "81c947c031bedfeefaa2128edad960af076fa7f8fbfc3a94eb1fe068bf9285ff"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_ft_hdr.vmt",
+      "bytes": 90,
+      "sha256": "94a606b9a0e86edc2c12cc49b4d3c7aac3416cd63b012bd210c7b4dc79e6af05"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_ft_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "05c11ab74393ebb3ffa8661f9d7030323786d313197af81c044e6d32afc03cd5"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_ft_ldr.vmt",
+      "bytes": 90,
+      "sha256": "d93da3d5286dfefe1bb8c83a3dc89f6a47fb486d40cf77ff6fd23cec0d431fd4"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_ft_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "3e1d6b88e3d4d3eb668e7511cb0596a5272e1cd80d6f14b209911392fd8f6970"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_ft_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "b1e67bd0a2870f0a821540caae29b7e010c655d99ce3c62fee25fc38e0443943"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_ft_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "17f5b413052cf07c34779c9c359cff87064afe35bb8afef0b805cf12234f5245"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_lf_hdr.vmt",
+      "bytes": 90,
+      "sha256": "f0432d2d83742b3b08fa272179f6b084fc8b4f34b920c55bfe6546072209cf99"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_lf_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "18625f805baa42d9b7b33dc8bf49fe62e7cfc84c0f38a695ce907ce4759a9c97"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_lf_ldr.vmt",
+      "bytes": 90,
+      "sha256": "d435b395128831d2f7b1a6758b6da4350128e23c42e0c2f800eedf06516456b1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_lf_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "c1981f77e113eb8532e7be8d3eb840c130648c6302c7ac420108a7c4d58bafe0"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_lf_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "883b0836a6769f2be2a0dba6925b99b7b59656c76b8b4ac9edec17da91d31e68"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_lf_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "6c93805f5470ff55cda7499b93f121d7f05f2e6afad9f1897c87b68fdc791805"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_rt_hdr.vmt",
+      "bytes": 90,
+      "sha256": "6847a786d73e3068b7f6900903949279631866ac89cfcf048773daa6456e362c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_rt_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "155f1e445f92ee03e01bd8d070fe634ba55c4c6b2004991d214447768922b74e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_rt_ldr.vmt",
+      "bytes": 90,
+      "sha256": "43f95307853d089f687851f1eb5d7123fc7d888a6ed9110d65e2448a9003cc18"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_rt_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "ddd8a5441f0ff694d29196f816df9847788aa0c4ebc07b603030dadadb9136fa"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_rt_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "e72d184a3bf520ce26f0e0ffbe7aee703f5f3af07a3f440f99fcb60946f9ac02"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_rt_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "991ac1f7299eaf28f71ff32da1634a3fc9b61948e936a377125752e72948cefe"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_up_hdr.vmt",
+      "bytes": 90,
+      "sha256": "7181dad319dd9cc3582e26ea21b9041a2f9f29b3772748780c328d75abc9942f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_up_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "a667caf71667e61f62535014a033b89fa7ecceeef8ab25abf50e21abfe938d92"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_up_ldr.vmt",
+      "bytes": 90,
+      "sha256": "bfa22a431663bf8929cb0e00764ebac61bd42da60b7f2762af8782eb236fbaf7"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_up_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "4e8bdd5a7818f6e6568eea00bd4a8ef9d94be79e7c2b606ce89fdad6df870b16"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_up_rgbs.vmt",
+      "bytes": 91,
+      "sha256": "df0636129d97753005238ef5ce38bc707ed2ad0b54d5ebce8dba35185a553b78"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_noir_up_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "297b7d49360e6a20937372c3138659c9b7df8b7dc09519339adbd1a9cf033d1e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_bk_hdr.vmt",
+      "bytes": 91,
+      "sha256": "e1d9af908aa802c1e8dc4f9b40e8c61665e7610da5dd45798cf32078a96e21c7"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_bk_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "567aecf0bb43b6c74d5a97c66501e9124b8c404d3df85c6a8976c90019fe7ec0"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_bk_ldr.vmt",
+      "bytes": 91,
+      "sha256": "8fb6fd6a3b09ba3c3c052eb96b4610b0562e675b6c73ba0c5c1b32a61301cd80"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_bk_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "821b5357e16f0ece8f15f3cedc06e58ae658e0b372e295ebb1ff37090b19b113"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_bk_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "a543ab6872ef93548b31dc7d920fb95b2559f23ceaba6527071745f561a21443"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_bk_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "c92b1332f9469501a675a9f738606687572809a546057c2cbf47279ca7730167"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_dn_hdr.vmt",
+      "bytes": 91,
+      "sha256": "71ab1a81df93777fc7ca0faf4b3854174957f98a52b3bca069429ed03afdf5a1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_dn_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "8a93208d3814eacdeb482df62a276e9c82587d7484e3efca34d0636b9fa4d080"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_dn_ldr.vmt",
+      "bytes": 91,
+      "sha256": "d74f8cda7c067d7fca433c858e777528627388b0d6cb72d0d7bf37abe37bef44"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_dn_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "06832f1da07da547a64a175f1e00831e5c6d83d7e4f1f47e479dc83566f20599"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_dn_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "5028cda173777d1bea96521e2e13f4c0f2f5a35d71bc7e0945c8b02de542dbc5"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_dn_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "afcdeab0f6bd3c2195cefa40d00a2dd5e098ae83da0750f2fa93dd613fd05076"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_ft_hdr.vmt",
+      "bytes": 91,
+      "sha256": "16b063f6009e171e3abdcd04ebc0d8563e611d53fa7b728e72d1829aedd01a85"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_ft_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "f67fe627a231c3a6a958d9ae882299a10b8863a424c506f766c939bdb1ca8d8c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_ft_ldr.vmt",
+      "bytes": 91,
+      "sha256": "ee77f791352d484c227742136a67ec36d16d0e1e6087dfe6f087f490e4e8895e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_ft_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "35f174d0ea951eecf0f3415546d0d25d26a981b771050b33618dac571caa5c12"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_ft_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "d19405acfbc2a45ddf089ed316f1ad2d551134e8a0c9662727c1004ce84817ce"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_ft_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "98a9f7aca61005c181ce01c2a2e2e8e2cde41a504fa7d7368f91202c064ae8e8"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_lf_hdr.vmt",
+      "bytes": 91,
+      "sha256": "6a38c35859c0833c39ede5374a12cbd500c8513d0503baede8a4a113342e7c5d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_lf_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "b9a78d1f02a842b3be430eb0564460386b2bc0920ef7c77403ab5e062b8a10d7"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_lf_ldr.vmt",
+      "bytes": 91,
+      "sha256": "429737da1b742ee192bd70d42189b5b61f29ac5fab214677f899aabd331871ee"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_lf_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "ffdd39fe54863343090114d9c18ef3e0dfc4ed570659fef794d4b39c50c89df2"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_lf_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "cb733e8204a2ca906d255dbcbaafad55735831cabad2dc9c48acce39aa1f1b30"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_lf_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "597a6a850c9e0f6570aa5dca61257923223498f041435b8dbdc4aa2ada20b2ae"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_rt_hdr.vmt",
+      "bytes": 91,
+      "sha256": "fc9e9c4ebdf67bc10b55c134cbbd526a2038426c5e218ee12faa137724e228f5"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_rt_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "d2dc872ba5fb9e2ea231e628f695276cf3ebd6264713d3b6a477aa7f389a2d4e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_rt_ldr.vmt",
+      "bytes": 91,
+      "sha256": "07ba1125049d45296d4c3655d7f89acf50c6f5ef6cbb8457652c5fb12926ee02"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_rt_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "aa636048328a6226f2aebb98e2af012b0c4f7d1104bd444115baf44cca5d5c69"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_rt_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "02bb18d9c0fcb0441875662bbe158e30e05d18811ef993f2324fac0d2635b7d1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_rt_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "d4ffa51dcaeb402075da9e947e6ab3b6d602d66267e75faa68983f476c872e7f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_up_hdr.vmt",
+      "bytes": 91,
+      "sha256": "dc89429ee55b6e59400b0a474fb5d17520d97b7a69adbfc3c949df22160711df"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_up_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "893d684645a824ff85211937fb924e027e96d8243d96e30a3f27f18366cd9377"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_up_ldr.vmt",
+      "bytes": 91,
+      "sha256": "40abfa10eeefd9e170a2fda49bfe2ab6920edecb210bfb633cc85b72590207ae"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_up_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "cd13536c452a3925d5dcab7e6400fb341c9394a986ba6f8c372e8851173c0b84"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_up_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "1d4a057074ec530fbe2e5c1b2cffb510386c471bd78aab5291105a784a6e3864"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_storm_up_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "3988d57cc619988e1fb7132aa77168a817a57bcff9fb7710244c498de1abf284"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_bk_hdr.vmt",
+      "bytes": 92,
+      "sha256": "6e5172c14cb3c4ceb8e288df691f2fd48bf6e027547d274b0d41b12085aba7fe"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_bk_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "b427b9f678a10f68eb2c9ed71b593a2a9cdb7a96c935adfaeeae3f6fa3630090"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_bk_ldr.vmt",
+      "bytes": 92,
+      "sha256": "70e8f95d1683650e66abd8537fc0d9e1fda8485a7b994f5f53c5b82c8bdfce65"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_bk_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "8af9dd279086ec6558c5df2a29523400002bf38f58fd601b9531fc34eb23f7ce"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_bk_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "6c58815665b88f8e27399caa3b44fca8e7f2d6987ffc313afcb2e2c1d76849ee"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_bk_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "59af39d7b4236736ee504d8e9aec43cf6c86ed6e9c496c451caa3f8d43fa28ba"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_dn_hdr.vmt",
+      "bytes": 92,
+      "sha256": "1641f8ae4612f1daea29afaaad70f935ea7e35cae40b0e5d9e47c52dfa2c151c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_dn_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "ab1160a0893ef72d1e2bce248f1fc94ad3040715cf2ffd78d2a98091079c821c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_dn_ldr.vmt",
+      "bytes": 92,
+      "sha256": "37578364d8c101a2d1af7bd571a2d114017af412763f306017c1eb80798638d0"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_dn_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "d7a69deb34739e7699f35979ee9a6386aa6891963bcbcdac726e5b5abc2e88a1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_dn_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "d9929330f87a8e563c733da798a7b0d202afd90c3eecdeb2095d7b945127e7b3"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_dn_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "19df43a89115c59396d060fe4f3bef9a8c75543e9c9fe740d69889a148d2d960"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_ft_hdr.vmt",
+      "bytes": 92,
+      "sha256": "5f1e6e8a42127723e30ebbfea300ae27c2b4f77478366b12c0537e1c3cad5b3c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_ft_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "22cce070edc601894aa148e744fdb47cc59f49443d87474ca3a2ba1ebf276968"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_ft_ldr.vmt",
+      "bytes": 92,
+      "sha256": "422ec0416ded08dcfe2d657dffc2ab8fb3abb0062d3986b72be7f4446b9625ad"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_ft_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "64d5213ddd6edd4b8fe9dadc0d801910044cd100c69a692d94c417d381049229"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_ft_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "f058053ea22bf2c5e1587c25296f07867b09bf51145acd882204c44bde412467"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_ft_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "5d4851bbd58ff217b4b4f35a1d11f57032134a389888e5c15f91c4338e70960d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_lf_hdr.vmt",
+      "bytes": 92,
+      "sha256": "a12227ba8052d86215fd43b8692b77f8530cf0fdae70f514879d8ecd7a131918"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_lf_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "56c3f6f802c12703991a5a30d9bf42bfaa5692e1cd4529622f94a479a565ccb9"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_lf_ldr.vmt",
+      "bytes": 92,
+      "sha256": "d1e182a6e3c337480e24c2ae1d99e25f3746f5d113c1c67bc1153e629ea2fd69"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_lf_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "419bee32f5ec4f58cb0721211958919772856ca8a12ac330fe55b7ee4a84e467"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_lf_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "4b947e2dc8a89d3a55da4fed56611302e4161ff3ac6a58a156241c4bad2b33d3"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_lf_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "22929bf5e596f636e1d005aaaa87a09f8758f06abc9c24f94cb97ba8a41c7373"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_rt_hdr.vmt",
+      "bytes": 92,
+      "sha256": "3859417afbab59081f039ed450304407233abcc074521a386f2eeda9be6473c2"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_rt_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "ebd7950f8c0af335caf16cbc86dc0bf937da938ca0c8c39ea94a09517b24a5e6"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_rt_ldr.vmt",
+      "bytes": 92,
+      "sha256": "12674e33ffa68ac86edf083ceed483f5f94b70b3a42aee44df2ad94982995171"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_rt_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "b15d1d662aafdc736af2b57343f846463cfce049710ff1e84da0435e71eaf399"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_rt_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "3f42a4265399dccd8d80c00da82eb3d486678b77e3ed7791f0e1f543f3bed202"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_rt_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "ae3e91ce259d609a1763dff4d364ba959404a131d1f84f3d0cff26874e12af2d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_up_hdr.vmt",
+      "bytes": 92,
+      "sha256": "461b4ad5abbf26ef438007b63d371cd47f3e6fbf59b7bb176e71d3c8fd51d69e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_up_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "e6954e94adb6c9304397abdc8e6115fef7f7edae3fc662203c5f53db20a60f55"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_up_ldr.vmt",
+      "bytes": 92,
+      "sha256": "9b3dda29166d55fff9870294e1d71266af3c6d24805a943a167299f33b86738b"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_up_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "6a37bf7159006f0fb1a02b37c7c52f98daeea361d7b6893be1d1620a09b01e20"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_up_rgbs.vmt",
+      "bytes": 93,
+      "sha256": "958e5a1f34e199a76d22556aa26ecf024d7648ffe880e862e2e9f878a8911f50"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_sunset_up_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "81149842cd5061367025087da976fddee203eab694d783809abcadd6c74d1c61"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_bk_hdr.vmt",
+      "bytes": 95,
+      "sha256": "0534d3a31a14362aad622610ce74e9b789fa6ab98c3f058361950086bb3bcc02"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_bk_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "73b11fb3adec0b17d8939e1ca81712b328237c502c9014c5dc9a3b7179c05e5e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_bk_ldr.vmt",
+      "bytes": 95,
+      "sha256": "cdc1a0a16b92d155d2a4f05e305cfbdb7be52eba7c3e56a0b2955dac19adb65b"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_bk_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "38b24a0db958a5a8c955b098573d41e64f1daba8c04fc213ee6b32bc1ddd17f1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_bk_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "900a6864de67ee6b28799d73de1fd95019ed50f9d4d179ae88b62dabbaed0032"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_bk_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "d6f169d7dd050d5e9164c949000b82c81427a626cbb03617d0c85958f4732460"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_dn_hdr.vmt",
+      "bytes": 95,
+      "sha256": "16e9244c3e09d9f4018e078a518e7c29ba90c926656600a12b3663204a03d7b9"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_dn_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "52b7494a69ac4ba362e80679a2558a4e4a12634fe3e16b3def6a5fdcd4aec7ac"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_dn_ldr.vmt",
+      "bytes": 95,
+      "sha256": "cc9721e7eab879b08b2da79399eca5a52d1bf120494548ef422c07a9d2aef8ff"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_dn_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "69f863766d209758377c026b20a64f76ea0803b541c7cd2bb82f9c5bc8bcf662"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_dn_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "920a1b3d807fa189b4489aa663a4fdd10931ffea27acbfc5d48115b63eaf0f4b"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_dn_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "3c09fbed3d761b34ebed5404fbe0b1e222a7273fc3714cb607c981646af42a27"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_ft_hdr.vmt",
+      "bytes": 95,
+      "sha256": "ce6e9fde801dd2222309318e8d39749eeb7b32bb88988cd55133b88d92e5f482"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_ft_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "a8e93f0d0ed2ac21f3fc8405945cf8ee322110927cf24d85f3d6cf6c55b541a7"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_ft_ldr.vmt",
+      "bytes": 95,
+      "sha256": "6b3fbd0c861b426300708e4f139a67bd941dbfbee093616b9761a8cf97ee065e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_ft_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "c672ca88fa7830153b3275e00b201d5f5b4c92da0f82f6a15102476d65c0ff8f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_ft_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "7001cbffb278de4c30aca4382854559b472a80f9eb776285fd2953588d16cb3c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_ft_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "318b6f1fd793ef59398fbec10ec91300025ff1a1c9d8d6a2412b9354afbc2e40"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_lf_hdr.vmt",
+      "bytes": 95,
+      "sha256": "592521dc705b79253d346230d1ada600868f82e127232a6ac5d4eed84e5d66ec"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_lf_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "78ab951a6f6f306577a701e6f19e7b1277d28930de06914d87ca1912c306e2fd"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_lf_ldr.vmt",
+      "bytes": 95,
+      "sha256": "d573e346a0ed6a59de647c0ff99e30f61dc0fa6a9d5d3479bc53fb9b49d49723"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_lf_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "f7c57c0b8ae91a4c55e2a7a06d1b49f12431f665ebbb2dafec23027ba28659f9"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_lf_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "570ccc3bfe38a56cfa0bdb8180aceda41a06ddb7c890e08a1b568bf794064f9b"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_lf_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "3dccfb71279dc435be5491fe0ff139a4ddc954c53a70499cb2deb9f62ced1968"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_rt_hdr.vmt",
+      "bytes": 95,
+      "sha256": "e4d59321407aa5954062615f26feb02a35c68f75dd9196b0e2254bea81bb4570"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_rt_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "3c844764f6435bb18f8a55f9c76647e0cc9023b21927dd45c4de33cb41d560ca"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_rt_ldr.vmt",
+      "bytes": 95,
+      "sha256": "3b91c88dfb5fc9af24094a24256a60ff8cac7c4855bf2d96aff2f5648a893902"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_rt_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "65d985c7ce07dc32f49ccf09ec3526e73158cf02be8f5d2abc3e564b15f4e803"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_rt_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "89570965a1a130076120f39893a8408f017998e78cded908a26ec1cee9744170"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_rt_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "e9227c757b061f8dfd9d5a817fc8bf99162437fcd7105b63f7ba5a124fbf7044"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_up_hdr.vmt",
+      "bytes": 95,
+      "sha256": "6f2b91904d76262a1b43ba74e8bbe3f5c4217c725931a7e1b0d7540e09874c9f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_up_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "06adebae52f5d88150fae86653ceb79bdcc7636436540a00d7e7ff073a031f8d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_up_ldr.vmt",
+      "bytes": 95,
+      "sha256": "eb52763b61adbb26f28bf01571676d1859b1c22fe0ac7ee915211e8ebb22bfbb"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_up_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "cbb7c3b50bed5d1f6c29ef6ec11ce619dd9e2054725bd194e96f007ef236129a"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_up_rgbs.vmt",
+      "bytes": 96,
+      "sha256": "27d360adf3c0a9c6b835315bbfdd687d9e8d27e9d8a1fbb6ddd2f96ff08111f8"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_synthwave_up_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "fd25deac07b4191d68b9b602f17e8f18d15517783df79003f34a88521a475ec7"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_bk_hdr.vmt",
+      "bytes": 91,
+      "sha256": "5624d82a025e3f6509cf4038a0f9490c4ec5d9dc61f8d55bdb3700c9a27897dd"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_bk_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "4b8bbc0806e29d9660626c5e75e4c1477df3c8ed03dec374af329fa822712c67"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_bk_ldr.vmt",
+      "bytes": 91,
+      "sha256": "0d627813a8b747261604bf5b2833c99b228c074c5e5dcc1be326e93bf11791d8"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_bk_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "18d114ffd2493b50371e2b84efc926a6fe4b12a33414589847b3e3656fcfe7f1"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_bk_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "efc23cdfe0f82ad0161ba50c843d338b24d3297d40951ee0f6566bc60260f04d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_bk_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "f771d4ab3b5cc64ff375fb318a846efd862e244f3782f0b30a55532358678fa8"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_dn_hdr.vmt",
+      "bytes": 91,
+      "sha256": "accad7f9d70ca049e25bd9bf75760f7b0ef6b5a02d38b9a7e868d45b858c2d84"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_dn_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "42949484543083306b04a2f9c6a4e703f5d0f420de6b51ca7485868d7a03f486"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_dn_ldr.vmt",
+      "bytes": 91,
+      "sha256": "4c1ec3f6bce16f0a3db55b8a55d95d168604322431baf964b1c214924ff7dcfb"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_dn_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "16e77723011b7a13d9e7942362cb2f29048d3602e3e8bc01342134009fa36675"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_dn_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "83acc08f262309d7dd6883d94d2a7d440eda06afc2a9b825937f1491de90e33d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_dn_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "939261bacea6309b6177193a1431b85db89c32536e1bff36739a6eef71ad8a0c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_ft_hdr.vmt",
+      "bytes": 91,
+      "sha256": "496d2f681cf3223dddfbf7bf8718a29db95e06c9c11087205e01fdecd08e7c7c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_ft_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "c9f58db72cd995a983bcdfc0a64786a9c6e7baf44204fd31f8ad82a91ca55de3"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_ft_ldr.vmt",
+      "bytes": 91,
+      "sha256": "7b09d828a168b0db02494a4a66a586ccfa44a26218f73a98211b3ebb806300b9"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_ft_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "3d38c09f4d83ac1326d7e867310dc99f97556cc17f7fed7a7960b5ac96ae7d1e"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_ft_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "aa2b493b6093cc7498d03e053f305baa6acaaeca4ec74db3c7c605eddf550362"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_ft_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "b59df21233827e037b951b17d952b3ae4fe0122196457408417d5fcbcbb7ea27"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_lf_hdr.vmt",
+      "bytes": 91,
+      "sha256": "84debc6ceabfb48173101ff54f596d6465c94814348a39c1f29f3a169535e3c6"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_lf_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "7ec9539dbdc81a3e1b4619e3717e55eb2f6db678dc3a4c1bd6b79b9fa6af4746"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_lf_ldr.vmt",
+      "bytes": 91,
+      "sha256": "c5b5c8df5bc0c58189f0e0ee6c4813f78bb9631caa8845d103a20ef802ffeb2b"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_lf_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "fa13dfa77a6d18818bab793fa51b697519156ace45f4abbd628c537885643136"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_lf_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "dd00cfc3b8d2cdbd65b9951c4b35048e57a3d7fd4baeec35e95a8aba8d1ce493"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_lf_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "5b9ffe67552d22f8162e77f0640b0573acdb21b0e63278d34061e8f7b70810e8"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_rt_hdr.vmt",
+      "bytes": 91,
+      "sha256": "b56e5abb4036a4b8543d4aa7a389b001ada207e940dd824c49774fde31341521"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_rt_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "eb919508189360d70ddd267e34cd09a739618361ac026852a688da8ff1033938"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_rt_ldr.vmt",
+      "bytes": 91,
+      "sha256": "b0c89b86703b76f13d863d6a6510bf6e9f546f09087e00df477c32c6c6f321aa"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_rt_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "701884710ae1cd7ccecdf88a3e1676185c37a4617a1543ffdc4bb3d34b743219"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_rt_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "473ff9ced5aa4c3932ca5d612936de116c90fda1d53aa3095a08b3eee5def25c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_rt_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "725187f943edb4516b6ce73dbb58688d64216740a0e42c02028cf4721ee95a3d"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_up_hdr.vmt",
+      "bytes": 91,
+      "sha256": "295ca3d7a94519f80849a39f7884e18b13ab340b8d4f4f65c6d3d138baa4c71c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_up_hdr.vtf",
+      "bytes": 524368,
+      "sha256": "b2930b81c055353b5635ddbef3bd0d88c662e953318e07684c0eb06cd19fd9be"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_up_ldr.vmt",
+      "bytes": 91,
+      "sha256": "d14dd048cb148e0356db71be4d63c1968936839914ef89c146eb0e021e3a3472"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_up_ldr.vtf",
+      "bytes": 262224,
+      "sha256": "de349a9d7adba114244ee565ef8d85daadb44cc09f16033c69b98e9145d30629"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_up_rgbs.vmt",
+      "bytes": 92,
+      "sha256": "eb89b57b586a36d4e4fbd2993e261dc18804af5dbce86c3462ab3cda26252352"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/sky_toxic_up_rgbs.vtf",
+      "bytes": 262224,
+      "sha256": "090854e26d9d2a15d8b87d97f19e9c6d1028d613bd7f4a2d4e4df07713f0f14c"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/vortex.vmt",
+      "bytes": 277,
+      "sha256": "76a1ec10c970317dde073b365fe5764dd792d8a90bb8720c5761e310710b9d5f"
+    },
+    {
+      "file": "L4D/materials/scooby_l4d_vfx_v1/vortex.vtf",
+      "bytes": 1398180,
+      "sha256": "4545a2c6eb7bdbc902272db7f246c05c2b52ba3185c8808f2513eb7f551a2b6e"
+    },
+    {
+      "file": "L4D/script_defaults_v0/Custom UI.lua",
       "bytes": 2169,
       "sha256": "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134"
+    },
+    {
+      "file": "L4D/script_defaults_v0/Standalone Menu.lua",
+      "bytes": 1392,
+      "sha256": "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2"
+    },
+    {
+      "file": "L4D/script_defaults_v0/Welcome.lua",
+      "bytes": 231,
+      "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9"
+    },
+    {
+      "file": "L4D/scripts/Custom UI.lua",
+      "bytes": 1402,
+      "sha256": "33d759179434adb7b274c664048a1ec96c3d41a665c260f4df35d434dbd94eaf"
     },
     {
       "file": "L4D/scripts/L4D Entity Overlay.lua",
@@ -515,340 +2404,28 @@
     },
     {
       "file": "L4D/scripts/Standalone Menu.lua",
-      "bytes": 1392,
-      "sha256": "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2"
+      "bytes": 1638,
+      "sha256": "e41e1ceb38b3c7c804175d3fff680d5ecdb3e7e96cab9da100f03d6b0b35afee"
     },
     {
       "file": "L4D/scripts/Welcome.lua",
-      "bytes": 231,
-      "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9"
+      "bytes": 1465,
+      "sha256": "34d39c1951e533a5ab7805b6c1979e7a3d840f25385f46a1e00b3c23c43792f9"
+    },
+    {
+      "file": "L4D/user-materials/example_vortex.png",
+      "bytes": 96055,
+      "sha256": "1b6bdd548ffb9a4939109c5f8a9ab78680dd9e46be76e2a679f201b1da21033d"
+    },
+    {
+      "file": "L4D/user-materials/example_vortex.vmt",
+      "bytes": 314,
+      "sha256": "0c27089123ee9010d9280fc05579e66be87397f224f1e09a67daf4b1c826e040"
+    },
+    {
+      "file": "L4D/user-materials/example_vortex.vtf",
+      "bytes": 1398180,
+      "sha256": "4545a2c6eb7bdbc902272db7f246c05c2b52ba3185c8808f2513eb7f551a2b6e"
     }
   ]
 }
-=======
-    "schema_version":  1,
-    "product":  "L4D",
-    "architecture":  "x86",
-    "games":  [
-                  "l4d1",
-                  "l4d2"
-              ],
-    "files":  [
-                  {
-                      "file":  "L4D.dll",
-                      "bytes":  3433984,
-                      "sha256":  "b8d88a24a1364d07ee808667a7bcc6db7780b024d2c1cc96c10b81c229c751bb"
-                  },
-                  {
-                      "file":  "L4D/l4d_load.exe",
-                      "bytes":  31232,
-                      "sha256":  "b332a545afc6df6b23dbea43417f442b4eab07e7996f5eb95bf8f4161cef3aa8"
-                  },
-                  {
-                      "file":  "L4D/docs/licenses/FreeType-FTL.txt",
-                      "bytes":  6912,
-                      "sha256":  "308dca54b5aaa4a6ba0880621fe3bcf287956821aa948430263062a8333625c0"
-                  },
-                  {
-                      "file":  "L4D/docs/licenses/FreeType-LICENSE.txt",
-                      "bytes":  2196,
-                      "sha256":  "84f47dc7f0887dd56b05f2f218060581c055e443bd7af18e46677bec3dcc2473"
-                  },
-                  {
-                      "file":  "L4D/docs/licenses/ImGui-LICENSE.txt",
-                      "bytes":  1104,
-                      "sha256":  "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293"
-                  },
-                  {
-                      "file":  "L4D/docs/LUA_API.md",
-                      "bytes":  48919,
-                      "sha256":  "6286ba85f3b1db19ac5f1676b4562d16b0623432d4050b1507b2ced6556b68da"
-                  },
-                  {
-                      "file":  "L4D/docs/LUA_SNIPPETS.md",
-                      "bytes":  3959,
-                      "sha256":  "4973bbd5d79efac111f965a2c30ee6c8394bfd6ad52d3e8f18d1fcf6b0bcfc4c"
-                  },
-                  {
-                      "file":  "L4D/docs/THIRD_PARTY.md",
-                      "bytes":  642,
-                      "sha256":  "64b81563e213b9b7309ac4643b1725ff0625e8338ff7fbf84269a95fa8e0f406"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansArabic-OFL.txt",
-                      "bytes":  4475,
-                      "sha256":  "3b7e321615e412e5fbb9eab5bf1c0a4cb84c732d3d5a9e9e3822972d5fb70b97"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansDevanagari-OFL.txt",
-                      "bytes":  4479,
-                      "sha256":  "41221cfdd268fa8e338829cccec0526e0200a0ce9e0bc3c627254c12a99d3a98"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansGeorgian-OFL.txt",
-                      "bytes":  4477,
-                      "sha256":  "2c9d69cc13d29394783a99d12a823fd6bc4b2069e6ce795a5515ae187e858da7"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansHebrew-OFL.txt",
-                      "bytes":  4475,
-                      "sha256":  "1acb8a4cf8e3d441eb573174faab52139071fee5cfa5e3e3f148becf90a54631"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansJP-OFL.txt",
-                      "bytes":  4481,
-                      "sha256":  "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansKR-OFL.txt",
-                      "bytes":  4481,
-                      "sha256":  "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansMono-OFL.txt",
-                      "bytes":  4489,
-                      "sha256":  "bf51547e7634b219e85d0391a5836850696497e0cef079857978f286b5d9377f"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSans-OFL.txt",
-                      "bytes":  4489,
-                      "sha256":  "bf51547e7634b219e85d0391a5836850696497e0cef079857978f286b5d9377f"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansSC-OFL.txt",
-                      "bytes":  4481,
-                      "sha256":  "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansTC-OFL.txt",
-                      "bytes":  4481,
-                      "sha256":  "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15"
-                  },
-                  {
-                      "file":  "L4D/fonts/licenses/NotoSansThai-OFL.txt",
-                      "bytes":  4473,
-                      "sha256":  "0e4067898723c9acddf967edda99a5ed2088cd857a8e9949084f609358efe38a"
-                  },
-                  {
-                      "file":  "L4D/fonts/lucide.ttf",
-                      "bytes":  803488,
-                      "sha256":  "b51e63bbfc3f3fd33c4e5dde30a58779c9ad2c9b692f13cdaf4b610937e454d8"
-                  },
-                  {
-                      "file":  "L4D/fonts/LUCIDE-LICENSE.txt",
-                      "bytes":  3251,
-                      "sha256":  "6fc5b7332939dd5c61af3a5f97450f7bc05d4a396dd0bc21ac341716b3b05096"
-                  },
-                  {
-                      "file":  "L4D/fonts/manifest.json",
-                      "bytes":  5033,
-                      "sha256":  "3b0999fe90a24f4aa9e74d5db350cec427ffeab78e5bf47a01410aa6cc9c9e40"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSans.ttf",
-                      "bytes":  2049096,
-                      "sha256":  "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansArabic.ttf",
-                      "bytes":  844676,
-                      "sha256":  "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansDevanagari.ttf",
-                      "bytes":  647144,
-                      "sha256":  "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansGeorgian.ttf",
-                      "bytes":  231988,
-                      "sha256":  "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansHebrew.ttf",
-                      "bytes":  112640,
-                      "sha256":  "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansJP.ttf",
-                      "bytes":  9589900,
-                      "sha256":  "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansKR.ttf",
-                      "bytes":  10414588,
-                      "sha256":  "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansMono.ttf",
-                      "bytes":  1708408,
-                      "sha256":  "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansSC.ttf",
-                      "bytes":  17772300,
-                      "sha256":  "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansTC.ttf",
-                      "bytes":  11941968,
-                      "sha256":  "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
-                  },
-                  {
-                      "file":  "L4D/fonts/NotoSansThai.ttf",
-                      "bytes":  218652,
-                      "sha256":  "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
-                  },
-                  {
-                      "file":  "L4D/l4d_pages.lua",
-                      "bytes":  15063,
-                      "sha256":  "62387a3bad3a243a3bca383fd41f6a2a2e5a2f251cb9c567dcdb85e6a9b0a33d"
-                  },
-                  {
-                      "file":  "L4D/lang/ar.json",
-                      "bytes":  36892,
-                      "sha256":  "511a5a69dc6af064f31886b0a6922189fa5fdee7408c4aefc6ca8fbf30f48058"
-                  },
-                  {
-                      "file":  "L4D/lang/de.json",
-                      "bytes":  31745,
-                      "sha256":  "b8ae73a2d5c0202fc7b24f5774fdb2f47378a305f311cb709244f135b464ec72"
-                  },
-                  {
-                      "file":  "L4D/lang/en.json",
-                      "bytes":  28604,
-                      "sha256":  "abe85aeb1364f2c5e94802119230121110d52a31e78081d5991cb11fcc538969"
-                  },
-                  {
-                      "file":  "L4D/lang/es.json",
-                      "bytes":  32083,
-                      "sha256":  "e22d87ba50cb61025b8fadf9a40655ab5d98807ae9f2e1dab19955a6152c674e"
-                  },
-                  {
-                      "file":  "L4D/lang/fr.json",
-                      "bytes":  32656,
-                      "sha256":  "36c48ada7f24981445301f024ffe3c98f7b0782bb932e76cea0d266fdca4575b"
-                  },
-                  {
-                      "file":  "L4D/lang/he.json",
-                      "bytes":  33863,
-                      "sha256":  "c853e7ccd6dcd2619894827aad3899c27cdf70ac19c9c6e4bf844d538d895d6e"
-                  },
-                  {
-                      "file":  "L4D/lang/hi.json",
-                      "bytes":  49353,
-                      "sha256":  "fca782eed18455c76487c92d184956ef51a2c99615dd6f1c8d2d7df5390dfba7"
-                  },
-                  {
-                      "file":  "L4D/lang/id.json",
-                      "bytes":  29943,
-                      "sha256":  "98ee0aa9c03db6a747a4ea624af9dae6726b36c8d0aa88652fc1cf1d77dd29f6"
-                  },
-                  {
-                      "file":  "L4D/lang/it.json",
-                      "bytes":  31674,
-                      "sha256":  "0f7efe64ffc4d9f6470db526fc945fb438567fa46de6ffdd718a19cbba30308e"
-                  },
-                  {
-                      "file":  "L4D/lang/ja.json",
-                      "bytes":  33393,
-                      "sha256":  "c5bff32f62a380ba445f61f62c28bbf687a3a2b5417d181d25b17ecbaf8daaaa"
-                  },
-                  {
-                      "file":  "L4D/lang/ka.json",
-                      "bytes":  54219,
-                      "sha256":  "958540343a6764710c1112c7471d80c752331dd5df7ae2827ea37a97077ed19b"
-                  },
-                  {
-                      "file":  "L4D/lang/ko.json",
-                      "bytes":  32066,
-                      "sha256":  "b9bc91af4957a101136b8424f492fdd18bd5ac2cdb807ec05de6992f9e20de67"
-                  },
-                  {
-                      "file":  "L4D/lang/nl.json",
-                      "bytes":  30803,
-                      "sha256":  "2ef8e7b6de64390ed2c2d3fa5a0772c38d960e93c720e4b3e96d3aec42ddc476"
-                  },
-                  {
-                      "file":  "L4D/lang/pl.json",
-                      "bytes":  30924,
-                      "sha256":  "073703e5db56803d72814bef4ebb51daa2ea76b02cd9017d3063b29baf2ac740"
-                  },
-                  {
-                      "file":  "L4D/lang/pt.json",
-                      "bytes":  31348,
-                      "sha256":  "dab334e7dcd2f56a28bb0fddbba925ddcacded982bc97f6c5c8a0a68fe5a86c2"
-                  },
-                  {
-                      "file":  "L4D/lang/pt-BR.json",
-                      "bytes":  31470,
-                      "sha256":  "78af6dfa5dc061e30dd69aca6bf08928707eb520d7673a8adc815775e4c94c1c"
-                  },
-                  {
-                      "file":  "L4D/lang/ru.json",
-                      "bytes":  41846,
-                      "sha256":  "41070e5d55e146755df386894200df294978ce987558fdb40b5022a6396cdf1a"
-                  },
-                  {
-                      "file":  "L4D/lang/sr.json",
-                      "bytes":  39684,
-                      "sha256":  "1e6873850d094b2334095e5d7cf46af98a602f94cbbc7f3ebff9e3782b373008"
-                  },
-                  {
-                      "file":  "L4D/lang/th.json",
-                      "bytes":  46204,
-                      "sha256":  "8c6701c76a18403465bec535f705dd97152cf03c80fa13b1a38b572104dcb83a"
-                  },
-                  {
-                      "file":  "L4D/lang/tr.json",
-                      "bytes":  31226,
-                      "sha256":  "72fc13e698a49f0ae5bc5d427b62a41c905abb18f316b2743f408dad0280bc8a"
-                  },
-                  {
-                      "file":  "L4D/lang/vi.json",
-                      "bytes":  34558,
-                      "sha256":  "7953761a2ddd11d7634fe6c988df4da7f1e0275aefdff8ec660339ec17364025"
-                  },
-                  {
-                      "file":  "L4D/lang/zh-CN.json",
-                      "bytes":  28011,
-                      "sha256":  "41bac713239eb77e247f3a1baf558350ce8fa0f1612a0a303fb1bde160ce3c99"
-                  },
-                  {
-                      "file":  "L4D/lang/zh-TW.json",
-                      "bytes":  27587,
-                      "sha256":  "fb7ef255d1a862e34c00ecbb5dc75b111e4c886f0af6295e562e4aebf848976f"
-                  },
-                  {
-                      "file":  "L4D/scripts/Custom UI.lua",
-                      "bytes":  2169,
-                      "sha256":  "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134"
-                  },
-                  {
-                      "file":  "L4D/scripts/L4D Entity Overlay.lua",
-                      "bytes":  2578,
-                      "sha256":  "2d71f739ab3bc95e065f50de1ed6adc02c7d4e4df5eb91eafdce3155782aecfe"
-                  },
-                  {
-                      "file":  "L4D/scripts/L4D Nearby Threats.lua",
-                      "bytes":  1446,
-                      "sha256":  "2d1619b86a5c2417ceebba5ae32476ebc1e5bd4d703279a701edb147808f4537"
-                  },
-                  {
-                      "file":  "L4D/scripts/L4D Player HUD.lua",
-                      "bytes":  1400,
-                      "sha256":  "9d0fb4c68c38d202e416deefc7eadba2ab341fdff9326f3570f09c3019a54c6d"
-                  },
-                  {
-                      "file":  "L4D/scripts/Standalone Menu.lua",
-                      "bytes":  1392,
-                      "sha256":  "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2"
-                  },
-                  {
-                      "file":  "L4D/scripts/Welcome.lua",
-                      "bytes":  236,
-                      "sha256":  "b9c3fa4113d1e41fa8070e3165a3fc02147e81548bc11023a1af6e7a7144065f"
-                  }
-              ]
-}
->>>>>>> 500eeab66f39640555df702d1c3084163892b7a6
