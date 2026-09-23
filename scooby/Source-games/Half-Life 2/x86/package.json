@@ -1,0 +1,262 @@
+{
+  "acceptance": "Packaging verifies bytes and resources, not gameplay acceptance.",
+  "architecture": "x86",
+  "asset_delivery": {
+    "docs": "embedded",
+    "fonts": "embedded",
+    "languages": "external",
+    "pages": "embedded",
+    "scripts": "seeded"
+  },
+  "embedded_bundles": {
+    "hl2": "cf94d6c1b649bbe495e105bf7ead4e6ac8668f36917cc5d7b01c53b527a25de1",
+    "hl2dm": "6be0a24bc742c26f8577a0fced7aea79e767ae574db1b7c2373098162a43822c",
+    "shared": "315db86112f6a94b73f4dfc48bd7f8a1b3eb5726b70959be091f96ae4add37f5"
+  },
+  "engine": "source1",
+  "files": {
+    "ScoobyHL2.dll": {
+      "sha256": "4944701344adf4df91193624112908a0dfd07a16a0ba623f2df7c0e269b5063a",
+      "size": 60352512
+    },
+    "hl2_attach.exe": {
+      "sha256": "2e580594aa740f53087bc97053e31bbf6c2943dcf4a80bd811958f42e4458417",
+      "size": 266240
+    },
+    "lang/hl2/ar.json": {
+      "sha256": "803b1e74cfae00fcf2cd21eb4d8e5a1310a31afcbcd3c65f42ce8c68bdf81245",
+      "size": 11411
+    },
+    "lang/hl2/de.json": {
+      "sha256": "5b434a352cd89faaa4a0497b9c43687011478566c1f65bc7faad8b17f8115df1",
+      "size": 10708
+    },
+    "lang/hl2/en.json": {
+      "sha256": "ce6ba79d4191a88ed8930974b4c2f1c65766ba95957d4209a5194f52149e66c6",
+      "size": 9981
+    },
+    "lang/hl2/es.json": {
+      "sha256": "3040e8ab941571f60e599ee10096631f4d4ef55468e9d585106a47bed24ad436",
+      "size": 10804
+    },
+    "lang/hl2/fr.json": {
+      "sha256": "2958b52387c5a17cacedd969e16f0a4382ce3a6baf4392772287480c89607a80",
+      "size": 10998
+    },
+    "lang/hl2/he.json": {
+      "sha256": "bf8eb10b603efa176ad5de5744bb9de80db8c5d72bbdafdbcd5dac6f0826ca01",
+      "size": 10973
+    },
+    "lang/hl2/hi.json": {
+      "sha256": "bab0e699448022d8f20feeb0b52f759c084c74d0922e9fef7aba95d4b96641c2",
+      "size": 13111
+    },
+    "lang/hl2/id.json": {
+      "sha256": "511cfa35eb054b20bdcedc0ef74b8f8b36fd99430181970db9854123c38009fc",
+      "size": 10151
+    },
+    "lang/hl2/it.json": {
+      "sha256": "9ee29229e02d076d7ff89e99fe4e3ff735aad1431078a8ad14f45200568c0d46",
+      "size": 10763
+    },
+    "lang/hl2/ja.json": {
+      "sha256": "308db90fd8342222d965072d8493340527e6598128e6ef2563279fa4130bfd2b",
+      "size": 10716
+    },
+    "lang/hl2/ka.json": {
+      "sha256": "4df993f46e0201d4b4a8f5cd1c2c522a68b8df1b800df7054fa9800272fcb2a7",
+      "size": 14594
+    },
+    "lang/hl2/ko.json": {
+      "sha256": "7040634a0dac07822a27d264acf3a491693d4ce9942c36250f8684212711712d",
+      "size": 10372
+    },
+    "lang/hl2/nl.json": {
+      "sha256": "9742b486b26d8701f48e0abb8402e8a3e5eb76d5541821d1c7133dcf982c757b",
+      "size": 10616
+    },
+    "lang/hl2/pl.json": {
+      "sha256": "dff3dcc3442cd1eb2247fd8c66da812be215a2f1990a18dd29a87eb42c18a6ed",
+      "size": 10500
+    },
+    "lang/hl2/pt-BR.json": {
+      "sha256": "eb9bd44c26103f8e1008905a2dac13fadc8b2c21c6fd36f3defb063fe62d7ac6",
+      "size": 10365
+    },
+    "lang/hl2/pt.json": {
+      "sha256": "f0b4d2bbdbccedaef5b12161e882a48b9401fceceb3a16b6d3c5b60311d0e12e",
+      "size": 10838
+    },
+    "lang/hl2/ru.json": {
+      "sha256": "669ec7b1952adbdf76b51e7e3614580a47a33694434bdfdb9689df0f721082dc",
+      "size": 12239
+    },
+    "lang/hl2/sr.json": {
+      "sha256": "af2402901de7cfae233b3d2115e24ad08b2adbd404dee222206352fa26d842ec",
+      "size": 11856
+    },
+    "lang/hl2/th.json": {
+      "sha256": "8f0fdf061962f254906e096aab80526db4439e3dc0f03387e92ee3606a018cd5",
+      "size": 13150
+    },
+    "lang/hl2/tr.json": {
+      "sha256": "ef0f0aca9ac3b3a58e31881f4d150577bc9c13076cc01d101443049136db6b3d",
+      "size": 10452
+    },
+    "lang/hl2/vi.json": {
+      "sha256": "57560d9741b058d98fc4e5865efe6af19b58a8576d029d4177231ffd21638dc6",
+      "size": 10802
+    },
+    "lang/hl2/zh-CN.json": {
+      "sha256": "c876a1729773a9d87e89a9e691717dafc7d008a270ab55ba38b47b4216ae0bdd",
+      "size": 10040
+    },
+    "lang/hl2/zh-TW.json": {
+      "sha256": "f54c68f8889f569dccebe27f932475ba8e65196710280df591ef5e14f2ffc9a0",
+      "size": 10076
+    },
+    "lang/hl2dm/ar.json": {
+      "sha256": "803b1e74cfae00fcf2cd21eb4d8e5a1310a31afcbcd3c65f42ce8c68bdf81245",
+      "size": 11411
+    },
+    "lang/hl2dm/de.json": {
+      "sha256": "5b434a352cd89faaa4a0497b9c43687011478566c1f65bc7faad8b17f8115df1",
+      "size": 10708
+    },
+    "lang/hl2dm/en.json": {
+      "sha256": "ce6ba79d4191a88ed8930974b4c2f1c65766ba95957d4209a5194f52149e66c6",
+      "size": 9981
+    },
+    "lang/hl2dm/es.json": {
+      "sha256": "3040e8ab941571f60e599ee10096631f4d4ef55468e9d585106a47bed24ad436",
+      "size": 10804
+    },
+    "lang/hl2dm/fr.json": {
+      "sha256": "2958b52387c5a17cacedd969e16f0a4382ce3a6baf4392772287480c89607a80",
+      "size": 10998
+    },
+    "lang/hl2dm/he.json": {
+      "sha256": "bf8eb10b603efa176ad5de5744bb9de80db8c5d72bbdafdbcd5dac6f0826ca01",
+      "size": 10973
+    },
+    "lang/hl2dm/hi.json": {
+      "sha256": "bab0e699448022d8f20feeb0b52f759c084c74d0922e9fef7aba95d4b96641c2",
+      "size": 13111
+    },
+    "lang/hl2dm/id.json": {
+      "sha256": "511cfa35eb054b20bdcedc0ef74b8f8b36fd99430181970db9854123c38009fc",
+      "size": 10151
+    },
+    "lang/hl2dm/it.json": {
+      "sha256": "9ee29229e02d076d7ff89e99fe4e3ff735aad1431078a8ad14f45200568c0d46",
+      "size": 10763
+    },
+    "lang/hl2dm/ja.json": {
+      "sha256": "308db90fd8342222d965072d8493340527e6598128e6ef2563279fa4130bfd2b",
+      "size": 10716
+    },
+    "lang/hl2dm/ka.json": {
+      "sha256": "4df993f46e0201d4b4a8f5cd1c2c522a68b8df1b800df7054fa9800272fcb2a7",
+      "size": 14594
+    },
+    "lang/hl2dm/ko.json": {
+      "sha256": "7040634a0dac07822a27d264acf3a491693d4ce9942c36250f8684212711712d",
+      "size": 10372
+    },
+    "lang/hl2dm/nl.json": {
+      "sha256": "9742b486b26d8701f48e0abb8402e8a3e5eb76d5541821d1c7133dcf982c757b",
+      "size": 10616
+    },
+    "lang/hl2dm/pl.json": {
+      "sha256": "dff3dcc3442cd1eb2247fd8c66da812be215a2f1990a18dd29a87eb42c18a6ed",
+      "size": 10500
+    },
+    "lang/hl2dm/pt-BR.json": {
+      "sha256": "eb9bd44c26103f8e1008905a2dac13fadc8b2c21c6fd36f3defb063fe62d7ac6",
+      "size": 10365
+    },
+    "lang/hl2dm/pt.json": {
+      "sha256": "f0b4d2bbdbccedaef5b12161e882a48b9401fceceb3a16b6d3c5b60311d0e12e",
+      "size": 10838
+    },
+    "lang/hl2dm/ru.json": {
+      "sha256": "669ec7b1952adbdf76b51e7e3614580a47a33694434bdfdb9689df0f721082dc",
+      "size": 12239
+    },
+    "lang/hl2dm/sr.json": {
+      "sha256": "af2402901de7cfae233b3d2115e24ad08b2adbd404dee222206352fa26d842ec",
+      "size": 11856
+    },
+    "lang/hl2dm/th.json": {
+      "sha256": "8f0fdf061962f254906e096aab80526db4439e3dc0f03387e92ee3606a018cd5",
+      "size": 13150
+    },
+    "lang/hl2dm/tr.json": {
+      "sha256": "ef0f0aca9ac3b3a58e31881f4d150577bc9c13076cc01d101443049136db6b3d",
+      "size": 10452
+    },
+    "lang/hl2dm/vi.json": {
+      "sha256": "57560d9741b058d98fc4e5865efe6af19b58a8576d029d4177231ffd21638dc6",
+      "size": 10802
+    },
+    "lang/hl2dm/zh-CN.json": {
+      "sha256": "c876a1729773a9d87e89a9e691717dafc7d008a270ab55ba38b47b4216ae0bdd",
+      "size": 10040
+    },
+    "lang/hl2dm/zh-TW.json": {
+      "sha256": "f54c68f8889f569dccebe27f932475ba8e65196710280df591ef5e14f2ffc9a0",
+      "size": 10076
+    }
+  },
+  "helper": "hl2_attach.exe",
+  "imports": {
+    "ScoobyHL2.dll": [
+      "bcrypt.dll",
+      "dwmapi.dll",
+      "gdi32.dll",
+      "imm32.dll",
+      "kernel32.dll",
+      "shell32.dll",
+      "user32.dll"
+    ],
+    "hl2_attach.exe": [
+      "bcrypt.dll",
+      "kernel32.dll"
+    ]
+  },
+  "layout": "compact",
+  "module": "ScoobyHL2.dll",
+  "msvc_runtime": "static",
+  "product": "hl2_family",
+  "products": {
+    "halflife2": {
+      "appid": 220,
+      "architectures": [
+        "x86"
+      ],
+      "game_directory": "hl2",
+      "languages": "lang/hl2"
+    },
+    "hl2dm": {
+      "appid": 320,
+      "architectures": [
+        "x86",
+        "x64"
+      ],
+      "game_directory": "hl2mp",
+      "languages": "lang/hl2dm"
+    }
+  },
+  "profile_ids": {
+    "halflife2-x86": "steam-19307283-x86",
+    "hl2dm-x86": "steam-24600434-x86"
+  },
+  "profiles": [
+    "halflife2-x86",
+    "hl2dm-x86"
+  ],
+  "release_channel": "beta",
+  "renderer": "dx9",
+  "resource_contract": 1,
+  "schema_version": 3
+}
