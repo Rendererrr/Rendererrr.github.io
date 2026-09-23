@@ -369,8 +369,8 @@ IDA is used on workspace copies of the user's installed binaries. Game binaries 
 
 
 
-assets/fonts/licenses/NotoSans-OFL.txt
-======================================
+assets/bshift/fonts/licenses/NotoSans-OFL.txt
+=============================================
 
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
 
@@ -467,8 +467,8 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
-assets/fonts/licenses/NotoSansArabic-OFL.txt
-============================================
+assets/bshift/fonts/licenses/NotoSansArabic-OFL.txt
+===================================================
 
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
 
@@ -565,8 +565,8 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
-assets/fonts/licenses/NotoSansDevanagari-OFL.txt
-================================================
+assets/bshift/fonts/licenses/NotoSansDevanagari-OFL.txt
+=======================================================
 
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/devanagari)
 
@@ -663,8 +663,8 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
-assets/fonts/licenses/NotoSansGeorgian-OFL.txt
-==============================================
+assets/bshift/fonts/licenses/NotoSansGeorgian-OFL.txt
+=====================================================
 
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/georgian)
 
@@ -761,8 +761,8 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
-assets/fonts/licenses/NotoSansHebrew-OFL.txt
-============================================
+assets/bshift/fonts/licenses/NotoSansHebrew-OFL.txt
+===================================================
 
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hebrew)
 
@@ -859,8 +859,8 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
-assets/fonts/licenses/NotoSansJP-OFL.txt
-========================================
+assets/bshift/fonts/licenses/NotoSansJP-OFL.txt
+===============================================
 
 Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
 
@@ -957,8 +957,8 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
-assets/fonts/licenses/NotoSansThai-OFL.txt
-==========================================
+assets/bshift/fonts/licenses/NotoSansThai-OFL.txt
+=================================================
 
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/thai)
 
@@ -1055,8 +1055,8 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
-assets/fonts/LUCIDE-LICENSE.txt
-===============================
+assets/bshift/fonts/LUCIDE-LICENSE.txt
+======================================
 
 ISC License
 
@@ -1083,6 +1083,111 @@ airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circl
 The MIT License (MIT) (for the icons listed above)
 
 Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+assets/bshift/licenses/Dear-ImGui-LICENSE.txt
+=============================================
+
+The MIT License (MIT)
+
+Copyright (c) 2014-2024 Omar Cornut
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+assets/bshift/licenses/ImGuiColorTextEdit-LICENSE.txt
+=====================================================
+
+MIT License
+
+Copyright (c) 2017 BalazsJako
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+assets/bshift/licenses/Lua-LICENSE.txt
+======================================
+
+Copyright (C) 1994-2024 Lua.org, PUC-Rio.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+assets/bshift/licenses/nlohmann-json-LICENSE.txt
+================================================
+
+MIT License
+
+Copyright 2008-2009 Björn Hoehrmann <bjoern@hoehrmann.de>
+Copyright 2009 Florian Loitsch <https://florian.loitsch.com/>
+Copyright 2013-2023 Niels Lohmann <https://nlohmann.me>
+Copyright 2016-2021 Evan Nemerson <evan@nemerson.com>
+Copyright 2018 The Abseil Authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

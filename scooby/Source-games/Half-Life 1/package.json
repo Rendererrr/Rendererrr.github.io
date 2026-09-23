@@ -10,298 +10,298 @@
   "embedded_bundles": {
     "bshift": "f5582e599b31faf6ccaa5c82107ed5ec904cde1c6baf278db41ff61fde04517b",
     "gearbox": "5255daefb354e2cb3ea106eaddcad5700d704b333394920ec56debfc680b6558",
-    "shared": "e73454cb5b6c4a813807bffd969d92d323e51032346e2225638896c5dec5ff37",
+    "shared": "1cf6640934a099240cd95f49d9930e818aeeda9e0330fa64f53da467d97fadaf",
     "valve": "12643a4ffaafe1bfe31d7dab4fdaea737f7c29711134389785089e2a60df2e33"
   },
   "engine": "goldsrc",
   "files": {
     "ScoobyGoldSrc.dll": {
-      "sha256": "c23992cf204e5e900b2b4ad4561db21d16bb101925b80150bef8d43852875b44",
-      "size": 60200960
+      "sha256": "43e36d5146d7c54e078af246905316d9ff84bac6c60943cf2c1430d598449d42",
+      "size": 60263424
     },
     "THIRD_PARTY.txt": {
-      "sha256": "135b2d5e42d6e35fba445f0d370a4ccabba9b4252510fe7fada64283dbc6287e",
-      "size": 51255
+      "sha256": "d94ff8d47b1b0ff21906438402455ff3110447ae4cb39f0ee9a92f03c5a2a9f7",
+      "size": 56271
     },
     "halflife_attach.exe": {
-      "sha256": "a7aa139429dd90b70952f50c87cc0839d0c5a50cbd3178dae9ba8618ff483bb1",
+      "sha256": "0c068ca76e92b6568b15efc286ab5bfb15db54b8a25ea636a8622af61717828d",
       "size": 228352
     },
     "lang/bshift/ar.json": {
-      "sha256": "a533d19f7282b465192a3e4f98cb4f57d8e72c977ad46173c18eda43132c9d12",
-      "size": 9703
+      "sha256": "f778670cf277f16102cf91f17c152fbece6063d970dbe786fabe41cf212f0f4a",
+      "size": 11324
     },
     "lang/bshift/de.json": {
-      "sha256": "3b124d419036c5e99fecd59fb4c18b11bf8e6c3fb3f41085994e04e4de765d31",
-      "size": 9378
+      "sha256": "1b6db80d9f923228cfc0765065c101eeee81c08d3e3881a6da606b9ad4de9565",
+      "size": 10628
     },
     "lang/bshift/en.json": {
-      "sha256": "fb687eaaea1bea532245573b40b943b8600180eb2d26f6e4e0e1ccd67e552c67",
-      "size": 8781
+      "sha256": "6efce741b32eed7748ab4c258d94cc275b2dcd8db1891726c4f96d43a93eb9b0",
+      "size": 9915
     },
     "lang/bshift/es.json": {
-      "sha256": "7b484b6d30a253c28197bd5ec32c5c98a3f9721a1da07214f4da7a2002010a86",
-      "size": 9449
+      "sha256": "8ec2ca83212310cfffc5dddc2fe1cbedd2547195eceb5b87f1199e85bc8723ea",
+      "size": 10726
     },
     "lang/bshift/fr.json": {
-      "sha256": "47e885b521373f03e38f4c81959f2306c50697d68aba7161e9b198784cc4d63d",
-      "size": 9628
+      "sha256": "7c74b40094547e3eb861e6d1618ca1890d1d3e17bdc350c18a06e04ed82fb6cf",
+      "size": 10916
     },
     "lang/bshift/he.json": {
-      "sha256": "42f86770b899c8acbab743a2106f5fa252993e97774164047e9bc8fcbb5262a0",
-      "size": 9412
+      "sha256": "07f10dd785e52407da5d8efd01e8577a6b7b9783fe95a4b46c00a915114d9925",
+      "size": 10882
     },
     "lang/bshift/hi.json": {
-      "sha256": "bd24f8f0444c6a3b5825caba50b68cd0269551aff09fd60877eaa848370fa9b6",
-      "size": 11053
+      "sha256": "03272b6c0284c86d22e2a2784678762a6366245f5117a31bd3f9348038c9e812",
+      "size": 12998
     },
     "lang/bshift/id.json": {
-      "sha256": "072296235ef9fe37d0f9bffef46615a4237c69d19c5e3108dc974f640ac587ed",
-      "size": 8924
+      "sha256": "ef9ed1632c599ee4c784ea4c0d55e8027f64579685abfefa98dea3192819a719",
+      "size": 10082
     },
     "lang/bshift/it.json": {
-      "sha256": "1a1fc0d8d22b04ebf6392141a2f62432f390a48930c87704acb4831cf5043a3d",
-      "size": 9439
+      "sha256": "05331e374f7fc6a1cc8990478f59dc92048a470e430ad21dd30f68ef4da95b4f",
+      "size": 10685
     },
     "lang/bshift/ja.json": {
-      "sha256": "da025d03b331cd3b040a5f3c46f19e12b6c8c4ca6d50eab7626ef4f549be7215",
-      "size": 9303
+      "sha256": "9c4a3623ec314b224988f24ceca3d793eb03c92917ce7d8fb0ecb241e6e4b552",
+      "size": 10644
     },
     "lang/bshift/ka.json": {
-      "sha256": "9f6e0dbcae39072fb463d9f019737ba3fd9183d1b4f73af668416e4b10cbbdf6",
-      "size": 12051
+      "sha256": "da56a0a5397f8eab0da82e0906db212925228d9d9720afb0406ce91a1673c07b",
+      "size": 14460
     },
     "lang/bshift/ko.json": {
-      "sha256": "056e585c4393c7a1ddb9e69de17c3ace6b88a67f30ac49d28ef72dace512ee04",
-      "size": 9073
+      "sha256": "33320a1f516e0d5e433802bd6f09bf6ada1de2c5d9810486414c671f7bb5d1ee",
+      "size": 10298
     },
     "lang/bshift/nl.json": {
-      "sha256": "98f0bbb5d31fd0013020870ca74e426ea45c4595ff7d15163e66f39ee9412c02",
-      "size": 9276
+      "sha256": "0319cfb8b50e849617eebfaed45fb7f0656abda15782ae234f1669609cecc349",
+      "size": 10535
     },
     "lang/bshift/pl.json": {
-      "sha256": "88fe96305395d6dc72f3a8d923a1da04d0aabb54f1b743c5c0682ec22d9f8700",
-      "size": 9238
+      "sha256": "f19321c4a6e6d9f7e8236879eefcdc8c0e5e91a3590ad515eda15c4ab0dac6ad",
+      "size": 10424
     },
     "lang/bshift/pt-BR.json": {
-      "sha256": "60c56d6f3c1e0cda2d444064ad9b3c1fe97e7cc5fc4ac2e3df3429273bea09ec",
-      "size": 9039
+      "sha256": "67b94266dee32f8bb142e0f91056e6920f63d292680c4238f41edc0e6c3d8f35",
+      "size": 10290
     },
     "lang/bshift/pt.json": {
-      "sha256": "1526f87e32823a2ee6d6c6b298173062020223c00f649c7890f8da21b36b87ae",
-      "size": 9504
+      "sha256": "0a45b9b6f347d6e1d498c16d817cddd51de150886a0794a27ef03c95fb524c9a",
+      "size": 10763
     },
     "lang/bshift/ru.json": {
-      "sha256": "f3e0161065a4af901f427c63774844d699dd626423eed94b58c1cc1cc5bb5644",
-      "size": 10416
+      "sha256": "beaa05d3cf107c377285604f632a8e472cc0af3be6de1053161ecff21c3eb3e7",
+      "size": 12134
     },
     "lang/bshift/sr.json": {
-      "sha256": "7d6317de4677dc27954b64c29ac04dffbe3af45e382487db089efcfa419fcff4",
-      "size": 10079
+      "sha256": "500ccbb940891af321a4c9c46ca01f85d29899a4f4b660daefd123e06d431cc6",
+      "size": 11769
     },
     "lang/bshift/th.json": {
-      "sha256": "c2149ff0b0290f8cef61b47a5bf1c9e484a618fefa2d255745c8abaa4dd05db7",
-      "size": 11010
+      "sha256": "5d444360b0f2539b2b46a95d5ca9749fb00269904c792e3c24d942ac4dedd9ff",
+      "size": 13024
     },
     "lang/bshift/tr.json": {
-      "sha256": "8b4dc211d2a57603f315fb2b710e957e331d387c379e18d442c166350180a779",
-      "size": 9095
+      "sha256": "46dc6d8107b8828a468b94dc8df1148997e275aab2ed906cede6676b8414e7a9",
+      "size": 10373
     },
     "lang/bshift/vi.json": {
-      "sha256": "37b8c89df208803fad7cb202f1b637e8672a42a3b33495032103aadff5cdbf5d",
-      "size": 9362
+      "sha256": "6e5f8bbd08002aab9e4d3e3a71e693472760e4cd84b0f05185061630252d1bbc",
+      "size": 10733
     },
     "lang/bshift/zh-CN.json": {
-      "sha256": "42ab0b4d9aad8eb9458a151b9415e8e0e8fcaad81862cc2fd4005ce0a5410be0",
-      "size": 8858
+      "sha256": "e69d7f61f264ebeee6967d636a2e045a6188ed554ec309c70c9af3a39d8ba01d",
+      "size": 9971
     },
     "lang/bshift/zh-TW.json": {
-      "sha256": "773b8171718336c270d08d487c68c424a16ecec29668a94da7851ecf42bab1e5",
-      "size": 8885
+      "sha256": "a5abe20cc6f707b20d814895928ad0d066e9eb7e5fa1e607b4a5b55ec6b19e15",
+      "size": 10007
     },
     "lang/gearbox/ar.json": {
-      "sha256": "a533d19f7282b465192a3e4f98cb4f57d8e72c977ad46173c18eda43132c9d12",
-      "size": 9703
+      "sha256": "f778670cf277f16102cf91f17c152fbece6063d970dbe786fabe41cf212f0f4a",
+      "size": 11324
     },
     "lang/gearbox/de.json": {
-      "sha256": "3b124d419036c5e99fecd59fb4c18b11bf8e6c3fb3f41085994e04e4de765d31",
-      "size": 9378
+      "sha256": "1b6db80d9f923228cfc0765065c101eeee81c08d3e3881a6da606b9ad4de9565",
+      "size": 10628
     },
     "lang/gearbox/en.json": {
-      "sha256": "fb687eaaea1bea532245573b40b943b8600180eb2d26f6e4e0e1ccd67e552c67",
-      "size": 8781
+      "sha256": "6efce741b32eed7748ab4c258d94cc275b2dcd8db1891726c4f96d43a93eb9b0",
+      "size": 9915
     },
     "lang/gearbox/es.json": {
-      "sha256": "7b484b6d30a253c28197bd5ec32c5c98a3f9721a1da07214f4da7a2002010a86",
-      "size": 9449
+      "sha256": "8ec2ca83212310cfffc5dddc2fe1cbedd2547195eceb5b87f1199e85bc8723ea",
+      "size": 10726
     },
     "lang/gearbox/fr.json": {
-      "sha256": "47e885b521373f03e38f4c81959f2306c50697d68aba7161e9b198784cc4d63d",
-      "size": 9628
+      "sha256": "7c74b40094547e3eb861e6d1618ca1890d1d3e17bdc350c18a06e04ed82fb6cf",
+      "size": 10916
     },
     "lang/gearbox/he.json": {
-      "sha256": "42f86770b899c8acbab743a2106f5fa252993e97774164047e9bc8fcbb5262a0",
-      "size": 9412
+      "sha256": "07f10dd785e52407da5d8efd01e8577a6b7b9783fe95a4b46c00a915114d9925",
+      "size": 10882
     },
     "lang/gearbox/hi.json": {
-      "sha256": "bd24f8f0444c6a3b5825caba50b68cd0269551aff09fd60877eaa848370fa9b6",
-      "size": 11053
+      "sha256": "03272b6c0284c86d22e2a2784678762a6366245f5117a31bd3f9348038c9e812",
+      "size": 12998
     },
     "lang/gearbox/id.json": {
-      "sha256": "072296235ef9fe37d0f9bffef46615a4237c69d19c5e3108dc974f640ac587ed",
-      "size": 8924
+      "sha256": "ef9ed1632c599ee4c784ea4c0d55e8027f64579685abfefa98dea3192819a719",
+      "size": 10082
     },
     "lang/gearbox/it.json": {
-      "sha256": "1a1fc0d8d22b04ebf6392141a2f62432f390a48930c87704acb4831cf5043a3d",
-      "size": 9439
+      "sha256": "05331e374f7fc6a1cc8990478f59dc92048a470e430ad21dd30f68ef4da95b4f",
+      "size": 10685
     },
     "lang/gearbox/ja.json": {
-      "sha256": "da025d03b331cd3b040a5f3c46f19e12b6c8c4ca6d50eab7626ef4f549be7215",
-      "size": 9303
+      "sha256": "9c4a3623ec314b224988f24ceca3d793eb03c92917ce7d8fb0ecb241e6e4b552",
+      "size": 10644
     },
     "lang/gearbox/ka.json": {
-      "sha256": "9f6e0dbcae39072fb463d9f019737ba3fd9183d1b4f73af668416e4b10cbbdf6",
-      "size": 12051
+      "sha256": "da56a0a5397f8eab0da82e0906db212925228d9d9720afb0406ce91a1673c07b",
+      "size": 14460
     },
     "lang/gearbox/ko.json": {
-      "sha256": "056e585c4393c7a1ddb9e69de17c3ace6b88a67f30ac49d28ef72dace512ee04",
-      "size": 9073
+      "sha256": "33320a1f516e0d5e433802bd6f09bf6ada1de2c5d9810486414c671f7bb5d1ee",
+      "size": 10298
     },
     "lang/gearbox/nl.json": {
-      "sha256": "98f0bbb5d31fd0013020870ca74e426ea45c4595ff7d15163e66f39ee9412c02",
-      "size": 9276
+      "sha256": "0319cfb8b50e849617eebfaed45fb7f0656abda15782ae234f1669609cecc349",
+      "size": 10535
     },
     "lang/gearbox/pl.json": {
-      "sha256": "88fe96305395d6dc72f3a8d923a1da04d0aabb54f1b743c5c0682ec22d9f8700",
-      "size": 9238
+      "sha256": "f19321c4a6e6d9f7e8236879eefcdc8c0e5e91a3590ad515eda15c4ab0dac6ad",
+      "size": 10424
     },
     "lang/gearbox/pt-BR.json": {
-      "sha256": "60c56d6f3c1e0cda2d444064ad9b3c1fe97e7cc5fc4ac2e3df3429273bea09ec",
-      "size": 9039
+      "sha256": "67b94266dee32f8bb142e0f91056e6920f63d292680c4238f41edc0e6c3d8f35",
+      "size": 10290
     },
     "lang/gearbox/pt.json": {
-      "sha256": "1526f87e32823a2ee6d6c6b298173062020223c00f649c7890f8da21b36b87ae",
-      "size": 9504
+      "sha256": "0a45b9b6f347d6e1d498c16d817cddd51de150886a0794a27ef03c95fb524c9a",
+      "size": 10763
     },
     "lang/gearbox/ru.json": {
-      "sha256": "f3e0161065a4af901f427c63774844d699dd626423eed94b58c1cc1cc5bb5644",
-      "size": 10416
+      "sha256": "beaa05d3cf107c377285604f632a8e472cc0af3be6de1053161ecff21c3eb3e7",
+      "size": 12134
     },
     "lang/gearbox/sr.json": {
-      "sha256": "7d6317de4677dc27954b64c29ac04dffbe3af45e382487db089efcfa419fcff4",
-      "size": 10079
+      "sha256": "500ccbb940891af321a4c9c46ca01f85d29899a4f4b660daefd123e06d431cc6",
+      "size": 11769
     },
     "lang/gearbox/th.json": {
-      "sha256": "c2149ff0b0290f8cef61b47a5bf1c9e484a618fefa2d255745c8abaa4dd05db7",
-      "size": 11010
+      "sha256": "5d444360b0f2539b2b46a95d5ca9749fb00269904c792e3c24d942ac4dedd9ff",
+      "size": 13024
     },
     "lang/gearbox/tr.json": {
-      "sha256": "8b4dc211d2a57603f315fb2b710e957e331d387c379e18d442c166350180a779",
-      "size": 9095
+      "sha256": "46dc6d8107b8828a468b94dc8df1148997e275aab2ed906cede6676b8414e7a9",
+      "size": 10373
     },
     "lang/gearbox/vi.json": {
-      "sha256": "37b8c89df208803fad7cb202f1b637e8672a42a3b33495032103aadff5cdbf5d",
-      "size": 9362
+      "sha256": "6e5f8bbd08002aab9e4d3e3a71e693472760e4cd84b0f05185061630252d1bbc",
+      "size": 10733
     },
     "lang/gearbox/zh-CN.json": {
-      "sha256": "42ab0b4d9aad8eb9458a151b9415e8e0e8fcaad81862cc2fd4005ce0a5410be0",
-      "size": 8858
+      "sha256": "e69d7f61f264ebeee6967d636a2e045a6188ed554ec309c70c9af3a39d8ba01d",
+      "size": 9971
     },
     "lang/gearbox/zh-TW.json": {
-      "sha256": "773b8171718336c270d08d487c68c424a16ecec29668a94da7851ecf42bab1e5",
-      "size": 8885
+      "sha256": "a5abe20cc6f707b20d814895928ad0d066e9eb7e5fa1e607b4a5b55ec6b19e15",
+      "size": 10007
     },
     "lang/valve/ar.json": {
-      "sha256": "a533d19f7282b465192a3e4f98cb4f57d8e72c977ad46173c18eda43132c9d12",
-      "size": 9703
+      "sha256": "f778670cf277f16102cf91f17c152fbece6063d970dbe786fabe41cf212f0f4a",
+      "size": 11324
     },
     "lang/valve/de.json": {
-      "sha256": "3b124d419036c5e99fecd59fb4c18b11bf8e6c3fb3f41085994e04e4de765d31",
-      "size": 9378
+      "sha256": "1b6db80d9f923228cfc0765065c101eeee81c08d3e3881a6da606b9ad4de9565",
+      "size": 10628
     },
     "lang/valve/en.json": {
-      "sha256": "fb687eaaea1bea532245573b40b943b8600180eb2d26f6e4e0e1ccd67e552c67",
-      "size": 8781
+      "sha256": "6efce741b32eed7748ab4c258d94cc275b2dcd8db1891726c4f96d43a93eb9b0",
+      "size": 9915
     },
     "lang/valve/es.json": {
-      "sha256": "7b484b6d30a253c28197bd5ec32c5c98a3f9721a1da07214f4da7a2002010a86",
-      "size": 9449
+      "sha256": "8ec2ca83212310cfffc5dddc2fe1cbedd2547195eceb5b87f1199e85bc8723ea",
+      "size": 10726
     },
     "lang/valve/fr.json": {
-      "sha256": "47e885b521373f03e38f4c81959f2306c50697d68aba7161e9b198784cc4d63d",
-      "size": 9628
+      "sha256": "7c74b40094547e3eb861e6d1618ca1890d1d3e17bdc350c18a06e04ed82fb6cf",
+      "size": 10916
     },
     "lang/valve/he.json": {
-      "sha256": "42f86770b899c8acbab743a2106f5fa252993e97774164047e9bc8fcbb5262a0",
-      "size": 9412
+      "sha256": "07f10dd785e52407da5d8efd01e8577a6b7b9783fe95a4b46c00a915114d9925",
+      "size": 10882
     },
     "lang/valve/hi.json": {
-      "sha256": "bd24f8f0444c6a3b5825caba50b68cd0269551aff09fd60877eaa848370fa9b6",
-      "size": 11053
+      "sha256": "03272b6c0284c86d22e2a2784678762a6366245f5117a31bd3f9348038c9e812",
+      "size": 12998
     },
     "lang/valve/id.json": {
-      "sha256": "072296235ef9fe37d0f9bffef46615a4237c69d19c5e3108dc974f640ac587ed",
-      "size": 8924
+      "sha256": "ef9ed1632c599ee4c784ea4c0d55e8027f64579685abfefa98dea3192819a719",
+      "size": 10082
     },
     "lang/valve/it.json": {
-      "sha256": "1a1fc0d8d22b04ebf6392141a2f62432f390a48930c87704acb4831cf5043a3d",
-      "size": 9439
+      "sha256": "05331e374f7fc6a1cc8990478f59dc92048a470e430ad21dd30f68ef4da95b4f",
+      "size": 10685
     },
     "lang/valve/ja.json": {
-      "sha256": "da025d03b331cd3b040a5f3c46f19e12b6c8c4ca6d50eab7626ef4f549be7215",
-      "size": 9303
+      "sha256": "9c4a3623ec314b224988f24ceca3d793eb03c92917ce7d8fb0ecb241e6e4b552",
+      "size": 10644
     },
     "lang/valve/ka.json": {
-      "sha256": "9f6e0dbcae39072fb463d9f019737ba3fd9183d1b4f73af668416e4b10cbbdf6",
-      "size": 12051
+      "sha256": "da56a0a5397f8eab0da82e0906db212925228d9d9720afb0406ce91a1673c07b",
+      "size": 14460
     },
     "lang/valve/ko.json": {
-      "sha256": "056e585c4393c7a1ddb9e69de17c3ace6b88a67f30ac49d28ef72dace512ee04",
-      "size": 9073
+      "sha256": "33320a1f516e0d5e433802bd6f09bf6ada1de2c5d9810486414c671f7bb5d1ee",
+      "size": 10298
     },
     "lang/valve/nl.json": {
-      "sha256": "98f0bbb5d31fd0013020870ca74e426ea45c4595ff7d15163e66f39ee9412c02",
-      "size": 9276
+      "sha256": "0319cfb8b50e849617eebfaed45fb7f0656abda15782ae234f1669609cecc349",
+      "size": 10535
     },
     "lang/valve/pl.json": {
-      "sha256": "88fe96305395d6dc72f3a8d923a1da04d0aabb54f1b743c5c0682ec22d9f8700",
-      "size": 9238
+      "sha256": "f19321c4a6e6d9f7e8236879eefcdc8c0e5e91a3590ad515eda15c4ab0dac6ad",
+      "size": 10424
     },
     "lang/valve/pt-BR.json": {
-      "sha256": "60c56d6f3c1e0cda2d444064ad9b3c1fe97e7cc5fc4ac2e3df3429273bea09ec",
-      "size": 9039
+      "sha256": "67b94266dee32f8bb142e0f91056e6920f63d292680c4238f41edc0e6c3d8f35",
+      "size": 10290
     },
     "lang/valve/pt.json": {
-      "sha256": "1526f87e32823a2ee6d6c6b298173062020223c00f649c7890f8da21b36b87ae",
-      "size": 9504
+      "sha256": "0a45b9b6f347d6e1d498c16d817cddd51de150886a0794a27ef03c95fb524c9a",
+      "size": 10763
     },
     "lang/valve/ru.json": {
-      "sha256": "f3e0161065a4af901f427c63774844d699dd626423eed94b58c1cc1cc5bb5644",
-      "size": 10416
+      "sha256": "beaa05d3cf107c377285604f632a8e472cc0af3be6de1053161ecff21c3eb3e7",
+      "size": 12134
     },
     "lang/valve/sr.json": {
-      "sha256": "7d6317de4677dc27954b64c29ac04dffbe3af45e382487db089efcfa419fcff4",
-      "size": 10079
+      "sha256": "500ccbb940891af321a4c9c46ca01f85d29899a4f4b660daefd123e06d431cc6",
+      "size": 11769
     },
     "lang/valve/th.json": {
-      "sha256": "c2149ff0b0290f8cef61b47a5bf1c9e484a618fefa2d255745c8abaa4dd05db7",
-      "size": 11010
+      "sha256": "5d444360b0f2539b2b46a95d5ca9749fb00269904c792e3c24d942ac4dedd9ff",
+      "size": 13024
     },
     "lang/valve/tr.json": {
-      "sha256": "8b4dc211d2a57603f315fb2b710e957e331d387c379e18d442c166350180a779",
-      "size": 9095
+      "sha256": "46dc6d8107b8828a468b94dc8df1148997e275aab2ed906cede6676b8414e7a9",
+      "size": 10373
     },
     "lang/valve/vi.json": {
-      "sha256": "37b8c89df208803fad7cb202f1b637e8672a42a3b33495032103aadff5cdbf5d",
-      "size": 9362
+      "sha256": "6e5f8bbd08002aab9e4d3e3a71e693472760e4cd84b0f05185061630252d1bbc",
+      "size": 10733
     },
     "lang/valve/zh-CN.json": {
-      "sha256": "42ab0b4d9aad8eb9458a151b9415e8e0e8fcaad81862cc2fd4005ce0a5410be0",
-      "size": 8858
+      "sha256": "e69d7f61f264ebeee6967d636a2e045a6188ed554ec309c70c9af3a39d8ba01d",
+      "size": 9971
     },
     "lang/valve/zh-TW.json": {
-      "sha256": "773b8171718336c270d08d487c68c424a16ecec29668a94da7851ecf42bab1e5",
-      "size": 8885
+      "sha256": "a5abe20cc6f707b20d814895928ad0d066e9eb7e5fa1e607b4a5b55ec6b19e15",
+      "size": 10007
     }
   },
   "imports": {

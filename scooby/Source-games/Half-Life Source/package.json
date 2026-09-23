@@ -1,0 +1,148 @@
+{
+  "acceptance": "Packaging verifies bytes and resources, not gameplay or platform acceptance.",
+  "appid": 280,
+  "architecture": "x86",
+  "asset_delivery": {
+    "docs": "embedded",
+    "fonts": "embedded",
+    "languages": "external",
+    "pages": "embedded",
+    "scripts": "seeded"
+  },
+  "embedded_bundles": {
+    "hl1": "510526c809547c8f31221c7f125ecb69e59cfb19f1b49a3e3d4d56a838ff3436",
+    "shared": "1cf6640934a099240cd95f49d9930e818aeeda9e0330fa64f53da467d97fadaf"
+  },
+  "engine": "source1",
+  "files": {
+    "ScoobyHalfLifeSource.dll": {
+      "sha256": "0c34e8977a0ca14f346454033df125fb9466fabf77cef63a9288aee013df36ba",
+      "size": 60322304
+    },
+    "THIRD_PARTY.txt": {
+      "sha256": "7139526a2d7e3d1219ebfe62836d850ced54236d63bc0f96065d803266dfe960",
+      "size": 54832
+    },
+    "hls_attach.exe": {
+      "sha256": "476b91f2ef406ce7675de120fb9a7ab621c6f9663d4f1193430f238440cc326a",
+      "size": 260608
+    },
+    "lang/ar.json": {
+      "sha256": "c50e76863d1f4f964650b50b52c5a62d444275524030c14a4bb464ab9c4a06b6",
+      "size": 15251
+    },
+    "lang/de.json": {
+      "sha256": "b51e4ac73487ef77624636151b5207bd1a39a2f04938175d5253f5903a8700bb",
+      "size": 13825
+    },
+    "lang/en.json": {
+      "sha256": "9dda3d2cc53b0d3b55c733cf750dd99b3fc7e64965d78f57ab9e3f173787331b",
+      "size": 12833
+    },
+    "lang/es.json": {
+      "sha256": "47cf5d254c1ec07d3162b6e9a9abccd0a2e3f0ff84d3bca0fc42fcfd3610f298",
+      "size": 14113
+    },
+    "lang/fr.json": {
+      "sha256": "3a156f1589749e5846ff90fe32513c76a5cb3fb2977fe5f42f4bce1b9824876d",
+      "size": 14271
+    },
+    "lang/he.json": {
+      "sha256": "790fad083bd31ccbcf926ed2b016ddeed5d589778ebb4ff28c1ac20a76a9497c",
+      "size": 14465
+    },
+    "lang/hi.json": {
+      "sha256": "78ed113b593da344052cc4c274612e2e4ed319dc7bc4e55b722c73c471e73ac7",
+      "size": 17671
+    },
+    "lang/id.json": {
+      "sha256": "a12f7978e0ef0edb4a644ba295e510ff53264942ebdcdac385ba9913666ca0e5",
+      "size": 13232
+    },
+    "lang/it.json": {
+      "sha256": "700ba7b90d3ba7df8643bde45412b08af3e10ec6c636bf5a684afe496599b75f",
+      "size": 13974
+    },
+    "lang/ja.json": {
+      "sha256": "353acb83e30c9710696095b45545344e2d5a899fbc83710fbd4094d12490176b",
+      "size": 14133
+    },
+    "lang/ka.json": {
+      "sha256": "b2d4dd63230ed6ef19f35e871ef8df27a74eb8007d80933c4049b7854514349c",
+      "size": 19881
+    },
+    "lang/ko.json": {
+      "sha256": "23db78be08051e231cecd49aac69a7e875c3e26838a70763bf10e2081e52a1d4",
+      "size": 13502
+    },
+    "lang/nl.json": {
+      "sha256": "b18c9db9035de6deb489dc06a11cff297d8b96791eecd78a417237b9632f3ad0",
+      "size": 13743
+    },
+    "lang/pl.json": {
+      "sha256": "f1c480b8d72691f7583bc98ac55f4b9dfc5fd1ac9eedece7b98615c211462a91",
+      "size": 13716
+    },
+    "lang/pt-BR.json": {
+      "sha256": "d30d3d19e27bec4b88c1aaa898b3ada048b6282fd310f8b4fedebfbd3f060daa",
+      "size": 13628
+    },
+    "lang/pt.json": {
+      "sha256": "7e54acde1be8448c4516ed6003b20d0d6cf56ed2f3940fcb3eac84ddef8b4de2",
+      "size": 14115
+    },
+    "lang/ru.json": {
+      "sha256": "15ab1c9b758b8e787fd0cd9133dafa75def67a05dab63fe6c177b43fa88ae62f",
+      "size": 16391
+    },
+    "lang/sr.json": {
+      "sha256": "3b97339d3d3a923c835f11179068bffb33e8959e9880077d232b10c442e4b204",
+      "size": 15857
+    },
+    "lang/th.json": {
+      "sha256": "377beb79add94552bdbe4860a3960bb9118018e24594d84f02dda9b1dc2b8895",
+      "size": 18099
+    },
+    "lang/tr.json": {
+      "sha256": "832e669a8c2a5da470e90da39ef4c73f8a498cfe100b73be8efc1855eb698b30",
+      "size": 13674
+    },
+    "lang/vi.json": {
+      "sha256": "eb218071d9c6cce235e80aa8b760f7e140b4ace3e833bc9943eec7434e0efd03",
+      "size": 14298
+    },
+    "lang/zh-CN.json": {
+      "sha256": "b7e9d4425454d0ca0a47320c59ed497ba3381493efb862230f9342ff80c48f64",
+      "size": 13044
+    },
+    "lang/zh-TW.json": {
+      "sha256": "73ec47cfc38fa77722a0f8d3338afaf0e7d02a37ed092669a37c3d61fb09531d",
+      "size": 13085
+    }
+  },
+  "game_directory": "hl1",
+  "helper": "hls_attach.exe",
+  "imports": {
+    "ScoobyHalfLifeSource.dll": [
+      "bcrypt.dll",
+      "dwmapi.dll",
+      "gdi32.dll",
+      "imm32.dll",
+      "kernel32.dll",
+      "shell32.dll",
+      "user32.dll"
+    ],
+    "hls_attach.exe": [
+      "bcrypt.dll",
+      "kernel32.dll"
+    ]
+  },
+  "languages": "lang",
+  "layout": "compact",
+  "module": "ScoobyHalfLifeSource.dll",
+  "msvc_runtime": "static",
+  "product": "halflife_source",
+  "renderer": "dx9",
+  "resource_contract": 1,
+  "schema_version": 3
+}
