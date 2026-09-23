@@ -1,0 +1,369 @@
+{
+  "architecture": "x86",
+  "asset_delivery": {
+    "docs": "embedded",
+    "fonts": "embedded",
+    "languages": "external",
+    "pages": "embedded",
+    "scripts": "seeded"
+  },
+  "embedded_bundles": {
+    "bshift": "f5582e599b31faf6ccaa5c82107ed5ec904cde1c6baf278db41ff61fde04517b",
+    "gearbox": "5255daefb354e2cb3ea106eaddcad5700d704b333394920ec56debfc680b6558",
+    "shared": "e73454cb5b6c4a813807bffd969d92d323e51032346e2225638896c5dec5ff37",
+    "valve": "12643a4ffaafe1bfe31d7dab4fdaea737f7c29711134389785089e2a60df2e33"
+  },
+  "engine": "goldsrc",
+  "files": {
+    "ScoobyGoldSrc.dll": {
+      "sha256": "c23992cf204e5e900b2b4ad4561db21d16bb101925b80150bef8d43852875b44",
+      "size": 60200960
+    },
+    "THIRD_PARTY.txt": {
+      "sha256": "135b2d5e42d6e35fba445f0d370a4ccabba9b4252510fe7fada64283dbc6287e",
+      "size": 51255
+    },
+    "halflife_attach.exe": {
+      "sha256": "a7aa139429dd90b70952f50c87cc0839d0c5a50cbd3178dae9ba8618ff483bb1",
+      "size": 228352
+    },
+    "lang/bshift/ar.json": {
+      "sha256": "a533d19f7282b465192a3e4f98cb4f57d8e72c977ad46173c18eda43132c9d12",
+      "size": 9703
+    },
+    "lang/bshift/de.json": {
+      "sha256": "3b124d419036c5e99fecd59fb4c18b11bf8e6c3fb3f41085994e04e4de765d31",
+      "size": 9378
+    },
+    "lang/bshift/en.json": {
+      "sha256": "fb687eaaea1bea532245573b40b943b8600180eb2d26f6e4e0e1ccd67e552c67",
+      "size": 8781
+    },
+    "lang/bshift/es.json": {
+      "sha256": "7b484b6d30a253c28197bd5ec32c5c98a3f9721a1da07214f4da7a2002010a86",
+      "size": 9449
+    },
+    "lang/bshift/fr.json": {
+      "sha256": "47e885b521373f03e38f4c81959f2306c50697d68aba7161e9b198784cc4d63d",
+      "size": 9628
+    },
+    "lang/bshift/he.json": {
+      "sha256": "42f86770b899c8acbab743a2106f5fa252993e97774164047e9bc8fcbb5262a0",
+      "size": 9412
+    },
+    "lang/bshift/hi.json": {
+      "sha256": "bd24f8f0444c6a3b5825caba50b68cd0269551aff09fd60877eaa848370fa9b6",
+      "size": 11053
+    },
+    "lang/bshift/id.json": {
+      "sha256": "072296235ef9fe37d0f9bffef46615a4237c69d19c5e3108dc974f640ac587ed",
+      "size": 8924
+    },
+    "lang/bshift/it.json": {
+      "sha256": "1a1fc0d8d22b04ebf6392141a2f62432f390a48930c87704acb4831cf5043a3d",
+      "size": 9439
+    },
+    "lang/bshift/ja.json": {
+      "sha256": "da025d03b331cd3b040a5f3c46f19e12b6c8c4ca6d50eab7626ef4f549be7215",
+      "size": 9303
+    },
+    "lang/bshift/ka.json": {
+      "sha256": "9f6e0dbcae39072fb463d9f019737ba3fd9183d1b4f73af668416e4b10cbbdf6",
+      "size": 12051
+    },
+    "lang/bshift/ko.json": {
+      "sha256": "056e585c4393c7a1ddb9e69de17c3ace6b88a67f30ac49d28ef72dace512ee04",
+      "size": 9073
+    },
+    "lang/bshift/nl.json": {
+      "sha256": "98f0bbb5d31fd0013020870ca74e426ea45c4595ff7d15163e66f39ee9412c02",
+      "size": 9276
+    },
+    "lang/bshift/pl.json": {
+      "sha256": "88fe96305395d6dc72f3a8d923a1da04d0aabb54f1b743c5c0682ec22d9f8700",
+      "size": 9238
+    },
+    "lang/bshift/pt-BR.json": {
+      "sha256": "60c56d6f3c1e0cda2d444064ad9b3c1fe97e7cc5fc4ac2e3df3429273bea09ec",
+      "size": 9039
+    },
+    "lang/bshift/pt.json": {
+      "sha256": "1526f87e32823a2ee6d6c6b298173062020223c00f649c7890f8da21b36b87ae",
+      "size": 9504
+    },
+    "lang/bshift/ru.json": {
+      "sha256": "f3e0161065a4af901f427c63774844d699dd626423eed94b58c1cc1cc5bb5644",
+      "size": 10416
+    },
+    "lang/bshift/sr.json": {
+      "sha256": "7d6317de4677dc27954b64c29ac04dffbe3af45e382487db089efcfa419fcff4",
+      "size": 10079
+    },
+    "lang/bshift/th.json": {
+      "sha256": "c2149ff0b0290f8cef61b47a5bf1c9e484a618fefa2d255745c8abaa4dd05db7",
+      "size": 11010
+    },
+    "lang/bshift/tr.json": {
+      "sha256": "8b4dc211d2a57603f315fb2b710e957e331d387c379e18d442c166350180a779",
+      "size": 9095
+    },
+    "lang/bshift/vi.json": {
+      "sha256": "37b8c89df208803fad7cb202f1b637e8672a42a3b33495032103aadff5cdbf5d",
+      "size": 9362
+    },
+    "lang/bshift/zh-CN.json": {
+      "sha256": "42ab0b4d9aad8eb9458a151b9415e8e0e8fcaad81862cc2fd4005ce0a5410be0",
+      "size": 8858
+    },
+    "lang/bshift/zh-TW.json": {
+      "sha256": "773b8171718336c270d08d487c68c424a16ecec29668a94da7851ecf42bab1e5",
+      "size": 8885
+    },
+    "lang/gearbox/ar.json": {
+      "sha256": "a533d19f7282b465192a3e4f98cb4f57d8e72c977ad46173c18eda43132c9d12",
+      "size": 9703
+    },
+    "lang/gearbox/de.json": {
+      "sha256": "3b124d419036c5e99fecd59fb4c18b11bf8e6c3fb3f41085994e04e4de765d31",
+      "size": 9378
+    },
+    "lang/gearbox/en.json": {
+      "sha256": "fb687eaaea1bea532245573b40b943b8600180eb2d26f6e4e0e1ccd67e552c67",
+      "size": 8781
+    },
+    "lang/gearbox/es.json": {
+      "sha256": "7b484b6d30a253c28197bd5ec32c5c98a3f9721a1da07214f4da7a2002010a86",
+      "size": 9449
+    },
+    "lang/gearbox/fr.json": {
+      "sha256": "47e885b521373f03e38f4c81959f2306c50697d68aba7161e9b198784cc4d63d",
+      "size": 9628
+    },
+    "lang/gearbox/he.json": {
+      "sha256": "42f86770b899c8acbab743a2106f5fa252993e97774164047e9bc8fcbb5262a0",
+      "size": 9412
+    },
+    "lang/gearbox/hi.json": {
+      "sha256": "bd24f8f0444c6a3b5825caba50b68cd0269551aff09fd60877eaa848370fa9b6",
+      "size": 11053
+    },
+    "lang/gearbox/id.json": {
+      "sha256": "072296235ef9fe37d0f9bffef46615a4237c69d19c5e3108dc974f640ac587ed",
+      "size": 8924
+    },
+    "lang/gearbox/it.json": {
+      "sha256": "1a1fc0d8d22b04ebf6392141a2f62432f390a48930c87704acb4831cf5043a3d",
+      "size": 9439
+    },
+    "lang/gearbox/ja.json": {
+      "sha256": "da025d03b331cd3b040a5f3c46f19e12b6c8c4ca6d50eab7626ef4f549be7215",
+      "size": 9303
+    },
+    "lang/gearbox/ka.json": {
+      "sha256": "9f6e0dbcae39072fb463d9f019737ba3fd9183d1b4f73af668416e4b10cbbdf6",
+      "size": 12051
+    },
+    "lang/gearbox/ko.json": {
+      "sha256": "056e585c4393c7a1ddb9e69de17c3ace6b88a67f30ac49d28ef72dace512ee04",
+      "size": 9073
+    },
+    "lang/gearbox/nl.json": {
+      "sha256": "98f0bbb5d31fd0013020870ca74e426ea45c4595ff7d15163e66f39ee9412c02",
+      "size": 9276
+    },
+    "lang/gearbox/pl.json": {
+      "sha256": "88fe96305395d6dc72f3a8d923a1da04d0aabb54f1b743c5c0682ec22d9f8700",
+      "size": 9238
+    },
+    "lang/gearbox/pt-BR.json": {
+      "sha256": "60c56d6f3c1e0cda2d444064ad9b3c1fe97e7cc5fc4ac2e3df3429273bea09ec",
+      "size": 9039
+    },
+    "lang/gearbox/pt.json": {
+      "sha256": "1526f87e32823a2ee6d6c6b298173062020223c00f649c7890f8da21b36b87ae",
+      "size": 9504
+    },
+    "lang/gearbox/ru.json": {
+      "sha256": "f3e0161065a4af901f427c63774844d699dd626423eed94b58c1cc1cc5bb5644",
+      "size": 10416
+    },
+    "lang/gearbox/sr.json": {
+      "sha256": "7d6317de4677dc27954b64c29ac04dffbe3af45e382487db089efcfa419fcff4",
+      "size": 10079
+    },
+    "lang/gearbox/th.json": {
+      "sha256": "c2149ff0b0290f8cef61b47a5bf1c9e484a618fefa2d255745c8abaa4dd05db7",
+      "size": 11010
+    },
+    "lang/gearbox/tr.json": {
+      "sha256": "8b4dc211d2a57603f315fb2b710e957e331d387c379e18d442c166350180a779",
+      "size": 9095
+    },
+    "lang/gearbox/vi.json": {
+      "sha256": "37b8c89df208803fad7cb202f1b637e8672a42a3b33495032103aadff5cdbf5d",
+      "size": 9362
+    },
+    "lang/gearbox/zh-CN.json": {
+      "sha256": "42ab0b4d9aad8eb9458a151b9415e8e0e8fcaad81862cc2fd4005ce0a5410be0",
+      "size": 8858
+    },
+    "lang/gearbox/zh-TW.json": {
+      "sha256": "773b8171718336c270d08d487c68c424a16ecec29668a94da7851ecf42bab1e5",
+      "size": 8885
+    },
+    "lang/valve/ar.json": {
+      "sha256": "a533d19f7282b465192a3e4f98cb4f57d8e72c977ad46173c18eda43132c9d12",
+      "size": 9703
+    },
+    "lang/valve/de.json": {
+      "sha256": "3b124d419036c5e99fecd59fb4c18b11bf8e6c3fb3f41085994e04e4de765d31",
+      "size": 9378
+    },
+    "lang/valve/en.json": {
+      "sha256": "fb687eaaea1bea532245573b40b943b8600180eb2d26f6e4e0e1ccd67e552c67",
+      "size": 8781
+    },
+    "lang/valve/es.json": {
+      "sha256": "7b484b6d30a253c28197bd5ec32c5c98a3f9721a1da07214f4da7a2002010a86",
+      "size": 9449
+    },
+    "lang/valve/fr.json": {
+      "sha256": "47e885b521373f03e38f4c81959f2306c50697d68aba7161e9b198784cc4d63d",
+      "size": 9628
+    },
+    "lang/valve/he.json": {
+      "sha256": "42f86770b899c8acbab743a2106f5fa252993e97774164047e9bc8fcbb5262a0",
+      "size": 9412
+    },
+    "lang/valve/hi.json": {
+      "sha256": "bd24f8f0444c6a3b5825caba50b68cd0269551aff09fd60877eaa848370fa9b6",
+      "size": 11053
+    },
+    "lang/valve/id.json": {
+      "sha256": "072296235ef9fe37d0f9bffef46615a4237c69d19c5e3108dc974f640ac587ed",
+      "size": 8924
+    },
+    "lang/valve/it.json": {
+      "sha256": "1a1fc0d8d22b04ebf6392141a2f62432f390a48930c87704acb4831cf5043a3d",
+      "size": 9439
+    },
+    "lang/valve/ja.json": {
+      "sha256": "da025d03b331cd3b040a5f3c46f19e12b6c8c4ca6d50eab7626ef4f549be7215",
+      "size": 9303
+    },
+    "lang/valve/ka.json": {
+      "sha256": "9f6e0dbcae39072fb463d9f019737ba3fd9183d1b4f73af668416e4b10cbbdf6",
+      "size": 12051
+    },
+    "lang/valve/ko.json": {
+      "sha256": "056e585c4393c7a1ddb9e69de17c3ace6b88a67f30ac49d28ef72dace512ee04",
+      "size": 9073
+    },
+    "lang/valve/nl.json": {
+      "sha256": "98f0bbb5d31fd0013020870ca74e426ea45c4595ff7d15163e66f39ee9412c02",
+      "size": 9276
+    },
+    "lang/valve/pl.json": {
+      "sha256": "88fe96305395d6dc72f3a8d923a1da04d0aabb54f1b743c5c0682ec22d9f8700",
+      "size": 9238
+    },
+    "lang/valve/pt-BR.json": {
+      "sha256": "60c56d6f3c1e0cda2d444064ad9b3c1fe97e7cc5fc4ac2e3df3429273bea09ec",
+      "size": 9039
+    },
+    "lang/valve/pt.json": {
+      "sha256": "1526f87e32823a2ee6d6c6b298173062020223c00f649c7890f8da21b36b87ae",
+      "size": 9504
+    },
+    "lang/valve/ru.json": {
+      "sha256": "f3e0161065a4af901f427c63774844d699dd626423eed94b58c1cc1cc5bb5644",
+      "size": 10416
+    },
+    "lang/valve/sr.json": {
+      "sha256": "7d6317de4677dc27954b64c29ac04dffbe3af45e382487db089efcfa419fcff4",
+      "size": 10079
+    },
+    "lang/valve/th.json": {
+      "sha256": "c2149ff0b0290f8cef61b47a5bf1c9e484a618fefa2d255745c8abaa4dd05db7",
+      "size": 11010
+    },
+    "lang/valve/tr.json": {
+      "sha256": "8b4dc211d2a57603f315fb2b710e957e331d387c379e18d442c166350180a779",
+      "size": 9095
+    },
+    "lang/valve/vi.json": {
+      "sha256": "37b8c89df208803fad7cb202f1b637e8672a42a3b33495032103aadff5cdbf5d",
+      "size": 9362
+    },
+    "lang/valve/zh-CN.json": {
+      "sha256": "42ab0b4d9aad8eb9458a151b9415e8e0e8fcaad81862cc2fd4005ce0a5410be0",
+      "size": 8858
+    },
+    "lang/valve/zh-TW.json": {
+      "sha256": "773b8171718336c270d08d487c68c424a16ecec29668a94da7851ecf42bab1e5",
+      "size": 8885
+    }
+  },
+  "imports": {
+    "ScoobyGoldSrc.dll": [
+      "bcrypt.dll",
+      "dwmapi.dll",
+      "gdi32.dll",
+      "imm32.dll",
+      "kernel32.dll",
+      "opengl32.dll",
+      "shell32.dll",
+      "user32.dll"
+    ],
+    "halflife_attach.exe": [
+      "kernel32.dll"
+    ]
+  },
+  "layout": "compact",
+  "linux_runtime_verified": false,
+  "module": "ScoobyGoldSrc.dll",
+  "msvc_runtime": "static",
+  "product": "goldsrc",
+  "products": {
+    "blueshift": {
+      "appid": 130,
+      "campaign_windows_verified_mask": 0,
+      "combat_windows_verified_mask": 0,
+      "game_directory": "bshift",
+      "languages": "lang/bshift",
+      "linux_runtime_verified": false,
+      "movement_windows_verified_mask": 0,
+      "product": "blue_shift",
+      "profile": "steam-5424832-win32",
+      "view_windows_verified_mask": 0
+    },
+    "halflife": {
+      "appid": 70,
+      "campaign_windows_verified_mask": 0,
+      "combat_windows_verified_mask": 0,
+      "game_directory": "valve",
+      "languages": "lang/valve",
+      "linux_runtime_verified": false,
+      "movement_windows_verified_mask": 0,
+      "product": "half_life",
+      "profile": "steam-15961492-goldsrc-x86",
+      "view_windows_verified_mask": 0
+    },
+    "opposingforce": {
+      "appid": 50,
+      "campaign_windows_verified_mask": 0,
+      "combat_windows_verified_mask": 0,
+      "game_directory": "gearbox",
+      "languages": "lang/gearbox",
+      "linux_runtime_verified": false,
+      "movement_windows_verified_mask": 0,
+      "product": "opposing_force",
+      "profile": "steam-5429885-win32",
+      "view_windows_verified_mask": 0
+    }
+  },
+  "renderer": "opengl",
+  "resource_contract": 1,
+  "runtime": "steam",
+  "schema_version": 3
+}
