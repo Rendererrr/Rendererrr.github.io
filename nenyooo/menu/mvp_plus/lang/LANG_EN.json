@@ -3049,6 +3049,10 @@
       "s": "Sapphire Panther Statue"
     },
     {
+      "hash": "267538918",
+      "s": "3D preview unavailable for this model"
+    },
+    {
       "hash": "267606205",
       "s": "Vehicle parachute (value = upward steer force while deployed)"
     },
@@ -12681,6 +12685,10 @@
       "s": "Settings"
     },
     {
+      "hash": "1149841734",
+      "s": "Look Ahead"
+    },
+    {
       "hash": "1150137699",
       "s": "Enhanced mansion production duration and multipliers"
     },
@@ -12803,6 +12811,10 @@
     {
       "hash": "1160004396",
       "s": "Gradient Top"
+    },
+    {
+      "hash": "1160428156",
+      "s": "Always enabled for UC"
     },
     {
       "hash": "1160972404",
@@ -13831,6 +13843,10 @@
     {
       "hash": "1247597739",
       "s": "No models selected -- pick some under Vehicles."
+    },
+    {
+      "hash": "1247644885",
+      "s": "Charge along the GPS route to your waypoint through anything in the way"
     },
     {
       "hash": "1247690723",
@@ -15593,6 +15609,10 @@
       "s": "Seagull"
     },
     {
+      "hash": "1415222389",
+      "s": "How far ahead on the route the car aims. Higher cuts corners, lower hugs the road"
+    },
+    {
       "hash": "1415413464",
       "s": "0 = father, 1 = mother"
     },
@@ -15903,6 +15923,10 @@
     {
       "hash": "1441666168",
       "s": "Shower"
+    },
+    {
+      "hash": "1442283897",
+      "s": "Spawning while driving carries your speed into the new vehicle instead of stopping you"
     },
     {
       "hash": "1442561652",
@@ -21457,6 +21481,10 @@
       "s": "Clear All Blood Damage"
     },
     {
+      "hash": "1943688235",
+      "s": "Shown in 3D in front of you"
+    },
+    {
       "hash": "1944226543",
       "s": "Overrides"
     },
@@ -21847,6 +21875,10 @@
     {
       "hash": "1978641633",
       "s": "KEYBOARD EDIT - Position   W/S A/D Q/E move   R: rotation   +/- step   G: exit"
+    },
+    {
+      "hash": "1979529393",
+      "s": "Drive along the GPS route to your waypoint, smashing through anything in the way"
     },
     {
       "hash": "1980089831",
@@ -25293,6 +25325,10 @@
       "s": "Missile Volley Cost"
     },
     {
+      "hash": "2279583891",
+      "s": "Massacre to Waypoint"
+    },
+    {
       "hash": "2279678952",
       "s": "Set how close an entity must come to touch the trail"
     },
@@ -27677,6 +27713,10 @@
       "s": "Tracer Gradient Start"
     },
     {
+      "hash": "2507838701",
+      "s": "Teleport, ghost and immediate actions"
+    },
+    {
       "hash": "2508444699",
       "s": "Drop bullet, missile, and grenade-launcher ammo pickups"
     },
@@ -29407,6 +29447,10 @@
     {
       "hash": "2669539430",
       "s": "Language"
+    },
+    {
+      "hash": "2669730961",
+      "s": "Preset failed to load. Check the log for details."
     },
     {
       "hash": "2669780951",
@@ -31381,6 +31425,10 @@
       "s": "Keep stamina full while in Beast Mode"
     },
     {
+      "hash": "2852039083",
+      "s": "Open the saved vehicles folder"
+    },
+    {
       "hash": "2852210711",
       "s": "Arc Lift"
     },
@@ -31527,6 +31575,10 @@
     {
       "hash": "2864255155",
       "s": "Push Forward"
+    },
+    {
+      "hash": "2864927155",
+      "s": "Stop At Waypoint"
     },
     {
       "hash": "2865086833",
@@ -32347,6 +32399,10 @@
     {
       "hash": "2942216950",
       "s": "Open failed."
+    },
+    {
+      "hash": "2942280478",
+      "s": "Switch off and slow down when you arrive"
     },
     {
       "hash": "2942328055",
@@ -33335,6 +33391,10 @@
     {
       "hash": "3038097653",
       "s": "Send this player a Social Club friend request (ROS)"
+    },
+    {
+      "hash": "3039004400",
+      "s": "Keep Speed"
     },
     {
       "hash": "3039315389",
@@ -35329,6 +35389,10 @@
       "s": "Streaming model -- apply again."
     },
     {
+      "hash": "3219587360",
+      "s": "3D Preview"
+    },
+    {
       "hash": "3219600599",
       "s": "Manual"
     },
@@ -36815,6 +36879,10 @@
     {
       "hash": "3353209786",
       "s": "Show ABS / Handbrake"
+    },
+    {
+      "hash": "3353271990",
+      "s": "Lift the car above the road as it goes. 0 keeps it on the ground"
     },
     {
       "hash": "3353311332",
@@ -39761,6 +39829,10 @@
       "s": "Spam transaction errors at this player"
     },
     {
+      "hash": "3606874863",
+      "s": "How quickly the car turns onto the route. Lower drifts wide, higher snaps into line"
+    },
+    {
       "hash": "3607193464",
       "s": "Fire-Truck Pursuit"
     },
@@ -40343,6 +40415,10 @@
     {
       "hash": "3655195929",
       "s": "Reset Offsets To 0"
+    },
+    {
+      "hash": "3655955398",
+      "s": "Cheater Pool"
     },
     {
       "hash": "3656214319",
@@ -41355,6 +41431,10 @@
     {
       "hash": "3736101149",
       "s": "Choose Theme"
+    },
+    {
+      "hash": "3736132672",
+      "s": "How fast the car charges along the route"
     },
     {
       "hash": "3736689550",
@@ -43797,10 +43877,6 @@
       "s": "Choose what to do automatically after this protection blocks an attributed player"
     },
     {
-      "hash": "3944015801",
-      "s": "Teleport, spectate and immediate actions"
-    },
-    {
       "hash": "3944206770",
       "s": "Ride a flying broom and cast magical powers"
     },
@@ -43995,6 +44071,10 @@
     {
       "hash": "3960177537",
       "s": "Weapons and bunker research relocked."
+    },
+    {
+      "hash": "3960192485",
+      "s": "While browsing, show the highlighted vehicle turning in front of you. Only you can see it"
     },
     {
       "hash": "3960345831",
@@ -44733,6 +44813,10 @@
       "s": "Stand Your Ground"
     },
     {
+      "hash": "4028932775",
+      "s": "Open Folder"
+    },
+    {
       "hash": "4029640225",
       "s": "Memory could not be allocated for the ASI"
     },
@@ -45093,6 +45177,10 @@
       "s": "Launch Event"
     },
     {
+      "hash": "4059425863",
+      "s": "Loading 3D preview..."
+    },
+    {
       "hash": "4059785211",
       "s": "Unlock this achievement"
     },
@@ -45331,10 +45419,6 @@
     {
       "hash": "4079297457",
       "s": "Surfboard ready. Move forward to ride, Sprint to boost, and Jump to hop."
-    },
-    {
-      "hash": "4079880818",
-      "s": "Cherax table, category-blind"
     },
     {
       "hash": "4080044756",
@@ -46233,6 +46317,10 @@
       "s": "Complete mansion yoga and gym progress"
     },
     {
+      "hash": "4154731179",
+      "s": "Drag to rotate, right-click to reset"
+    },
+    {
       "hash": "4154763004",
       "s": "Force Cloud Save"
     },
@@ -47107,6 +47195,10 @@
     {
       "hash": "4233412320",
       "s": "Driving Style"
+    },
+    {
+      "hash": "4233589418",
+      "s": "Use GTA Online's cheater/modder matchmaking pool"
     },
     {
       "hash": "4234515188",
