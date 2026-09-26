@@ -1,27 +1,41 @@
-# Source Games distribution staging
+# Source Games
 
-## Current Half-Life 1 package
+## Half-Life 1
 
-- `GoldSrc/bin/ScoobyGoldSrc.dll` is the unified Windows x86 module for Half-Life 1, Opposing Force and Blue Shift.
-- `GoldSrc/bin/halflife_attach.exe` is its matching helper. Keep the complete `GoldSrc/bin/assets/valve`, `gearbox` and `bshift` directories with them.
-- `GoldSrc/package.json` pins every extracted payload file. The package also includes fonts, languages, Lua pages, scripts, documentation, licenses and runner files.
-- `goldsrc-compatibility-x86.zip` and its `.sha256` sidecar contain the same complete package.
+`Half-Life 1/` contains the shared Windows x86 module for Half-Life, Opposing Force
+and Blue Shift:
 
-The staged artifact is the frozen Candidate4 handoff. Archive SHA-256: `391065a4ca68677cdb84888a52f9457ca0987a87ac7463c19200a8d97e621306`. DLL SHA-256: `16119d4e30f15913166f8d484ab1de2f5a2e5869d69ce5faf44dd809239371d8`.
+- `ScoobyGoldSrc.dll` and matching `halflife_attach.exe`.
+- `lang/valve`, `lang/gearbox`, `lang/bshift`, each with all 23 language catalogs and the current shared UI labels.
+- `package.json` with per-file SHA-256 hashes and `THIRD_PARTY.txt` notices.
 
-Package hashes are verified. Full Candidate4 gameplay acceptance across all three titles remains incomplete; native capability masks remain zero, pSilent is unavailable, and Linux/Proton/Wine runtime is unverified. Staging does not enable authenticated Main Loader downloading or module loading.
+Fonts, icons, built-in pages, API docs and starter Lua are embedded in the DLL.
+Starter scripts are generated automatically in each title's writable user-data
+folder; edited scripts are preserved. Keep the DLL, helper and lang files together.
 
-## Legacy per-title staging
+DLL SHA-256: `c23992cf204e5e900b2b4ad4561db21d16bb101925b80150bef8d43852875b44`.
+The compact package passed 28 CTests, embedded-resource hash verification and
+467 loader distribution/operation checks. These are resource, package and loader
+fixture results; this rebuild was not injected into a game. Existing zero feature
+verification masks, unavailable pSilent and unverified Linux/Proton/Wine remain.
 
-The older files and index below are retained separately. Use the complete `GoldSrc` package above for the current shared module.
+## Half-Life: Source
 
-Local staging only. No commit, push or release was performed.
+Add the separate compact `Half-Life-Source/` package only after its existing owner
+finishes and verifies it: its own DLL/helper, language catalogs, hash manifest and
+notices, with embedded resources and generated starter scripts. Development DLLs
+are not staged as finished packages. The existing coordinator tracks this delivery.
 
-- `ScoobyHalfLife.dll`: exact accepted native Windows x86/OpenGL Half-Life build; archive and DLL hashes are pinned in `manifest.json`.
-- `ScoobyOpposingForce.dll`: separate development package, still in validation. Do not advertise campaign acceptance from the original game.
-- `Half-life-1/lang`, `fonts`, `scripts`, Lua pages, `docs` and licenses belong to original Half-Life.
-- `Half-life-1/Opposing-Force` contains the separate expansion assets.
+## Maintenance
 
-The distribution names are not an installed module layout. The manifest maps each file to its runtime `install_path`: in particular, `lang` installs as `assets/languages`, and each edition keeps its own module-adjacent `assets` directory. Keep writable profiles outside package assets. Do not share versioned Lua/config namespaces between editions.
+The old per-title DLLs/asset tree and expanded Candidate4 package were removed from
+this distribution. Exact rollback copies and archives remain in the Scooby-Op build
+evidence, outside this folder. Archives, debug symbols, research and tests do not
+belong in these compact game folders.
 
-Main-loader now provides Source Games navigation, the Half-Life dashboard, edition selection, normal Steam launch, guide/features and folder links. Authenticated product entitlement and download/module-loading integration remain pending; no new access policy was invented. Linux runtime acceptance remains unverified. Blue Shift and Half-Life: Source have no staged DLLs.
+From Scooby-Op, run `python Loader/Main-Loader/tools/stage_source_games.py --check`
+to verify the current package. New staging requires the reviewed compact archive
+and SHA-256. See `docs/SOURCE_GAMES_DISTRIBUTION.md` in that repository for commands.
+Keep the package-local Git rules; they preserve exact manifest-pinned bytes.
+
+This change is local. No commit, push, deployment or live download was performed.
