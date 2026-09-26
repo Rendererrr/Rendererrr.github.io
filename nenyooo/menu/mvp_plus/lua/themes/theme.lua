@@ -990,13 +990,8 @@ end
 local function apply_edit()
     if not edit_on then return end
     menu.set_selected(edit_idx)
-    if edit_type==item_type.input_int then
-        local v=tonumber(edit_buf); if v then menu.set_i_val(edit_idx, math.floor(v)) end
-    elseif edit_type==item_type.input_float then
-        local v=tonumber(edit_buf); if v then menu.set_f_val(edit_idx, v) end
-    else
-        menu.set_input_buffer(edit_buf); menu.confirm_input()
-    end
+    -- confirm_input parses the value and latches ITEM_SUBMIT_TICK callbacks on the script thread.
+    menu.set_input_buffer(edit_buf); menu.confirm_input()
     edit_on=false
 end
 local function proc_edit()

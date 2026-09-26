@@ -37,8 +37,18 @@
     },
     {
       "root": "global",
+      "rel": "event.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/event.lua"
+    },
+    {
+      "root": "global",
       "rel": "fs.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/fs.lua"
+    },
+    {
+      "root": "global",
+      "rel": "imgui.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/imgui.lua"
     },
     {
       "root": "global",
@@ -74,6 +84,11 @@
       "root": "global",
       "rel": "pluto.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/pluto.lua"
+    },
+    {
+      "root": "global",
+      "rel": "require.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/require.lua"
     },
     {
       "root": "global",

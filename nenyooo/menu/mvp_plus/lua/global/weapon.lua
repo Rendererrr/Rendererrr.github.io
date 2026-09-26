@@ -14,3 +14,16 @@ function weapon.remove(ped, weap) nv.begin_call(); nv.push_arg_int(ped); nv.push
 function weapon.remove_all(ped) nv.begin_call(); nv.push_arg_int(ped); nv.push_arg_bool(true); nv.end_call("F25DF915FA38C5F3") end       -- REMOVE_ALL_PED_WEAPONS
 -- weapon.set_ammo(ped, weap, ammo)
 function weapon.set_ammo(ped, weap, ammo) nv.begin_call(); nv.push_arg_int(ped); nv.push_arg_int(h(weap)); nv.push_arg_int(ammo); nv.end_call("14E56BC5B5DB6A19") end  -- SET_PED_AMMO
+-- weapon.display_name(weap) -> string: the in-game name of a weapon (hash or name, e.g. "WEAPON_PISTOL"),
+-- from the weapon catalog. Returns the input as a string until the catalog is available.
+local display_names = nil
+function weapon.display_name(weap)
+    local hash = h(weap)
+    if not display_names or next(display_names) == nil then
+        display_names = {}
+        for _, e in ipairs(data.weapons()) do
+            if e.hash and e.name then display_names[e.hash] = e.name end
+        end
+    end
+    return display_names[hash] or tostring(weap)
+end

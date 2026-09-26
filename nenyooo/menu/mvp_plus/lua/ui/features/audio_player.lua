@@ -25,6 +25,7 @@ local sin, cos, pi         = math.sin, math.cos, math.pi
 
 local SCALE_LO, SCALE_HI = 0.7, 2.2
 local GRIP = 14
+local FOLD_SLOT = 16                -- right-hand strip slot owned by the fold chevron
 
 -- Pre-computed spectrum key names so we don't build 32 strings per frame.
 local SPEC_KEYS = {}
@@ -48,6 +49,7 @@ local last_vol = get_num("audio_hud_last_vol", 100) / 100
 
 local own = nil                     -- nil | "drag" | "resize"
 local drag_dx, drag_dy = 0, 0
+local tap_x, tap_y, tap_ok = 0, 0, false   -- a click on a round design's disc that never moved
 local rz_mx, rz_my, rz_s = 0, 0, 1
 local last_t = ctx.time and ctx.time() or 0
 
@@ -740,18 +742,18 @@ end
 
 -- ORDER MUST MATCH AUDIO_DESIGNS in theme.lua -- the setting stores an index.
 local DESIGNS = {
-    { n = "Vinyl Deck",   w = 300, h = 108, fw = 200, fh = 26, draw = L_vinyl },
-    { n = "Slim Bar",     w = 300, h = 36,  fw = 124, fh = 36, draw = L_slim },
-    { n = "Album Card",   w = 282, h = 72,  fw = 168, fh = 30, draw = L_album },
-    { n = "Portrait",     w = 150, h = 206, fw = 86,  fh = 100, draw = L_portrait },
-    { n = "Bare",         w = 246, h = 100, fw = 200, fh = 22, draw = L_bare, bare = true },
+    { n = "Vinyl Deck",   w = 300, h = 108, fw = 236, fh = 34, draw = L_vinyl },
+    { n = "Slim Bar",     w = 300, h = 36,  fw = 236, fh = 36, draw = L_slim },
+    { n = "Album Card",   w = 282, h = 72,  fw = 236, fh = 34, draw = L_album },
+    { n = "Portrait",     w = 150, h = 206, fw = 200, fh = 34, draw = L_portrait },
+    { n = "Bare",         w = 246, h = 100, fw = 236, fh = 30, draw = L_bare, bare = true },
     { n = "Waveform",     w = 292, h = 74,  fw = 292, fh = 22, draw = L_wave },
     { n = "Capsule",      w = 278, h = 44,  fw = 44,  fh = 44, draw = L_capsule, pill = true },
-    { n = "Ticker",       w = 252, h = 26,  fw = 100, fh = 26, draw = L_ticker },
-    { n = "Cassette",     w = 226, h = 132, fw = 150, fh = 32, draw = L_cassette },
-    { n = "Panel Native", w = 226, h = 126, fw = 226, fh = 28, draw = L_panel },
+    { n = "Ticker",       w = 252, h = 26,  fw = 236, fh = 28, draw = L_ticker },
+    { n = "Cassette",     w = 226, h = 132, fw = 226, fh = 34, draw = L_cassette },
+    { n = "Panel Native", w = 226, h = 126, fw = 226, fh = 34, draw = L_panel },
     { n = "Lower Third",  w = 400, h = 50,  fw = 400, fh = 10, draw = L_lower },
-    { n = "Orb",          w = 58,  h = 84,  fw = 38,  fh = 38, draw = L_orb, bare = true },
+    { n = "Orb",          w = 58,  h = 84,  fw = 38,  fh = 38, draw = L_orb, bare = true, pill = true },
 }
 
 -- Folded strip. One implementation for every design except the three whose fold IS their own shape
@@ -773,28 +775,67 @@ local function draw_folded(c, d)
         draw.rect(x, y, x + w * c.frac, y + h, c.ar, c.ag, c.ab, A(255), 0)
         return
     end
+    -- The right-hand FOLD_SLOT belongs to the fold chevron (drawn by the main pass); nothing else is
+    -- placed there, so the chevron never lands on top of a button.
+    local slot = FOLD_SLOT * u
     if d.n == "Waveform" then
         shell(c, x, y, w, h, true)
-        draw.push_clip(x, y, x + w, y + h)
-        spectrum(c, x, y, w, h, 40)
+        draw.push_clip(x, y, x + w - slot, y + h)
+        spectrum(c, x + 5 * u, y + 3 * u, w - slot - 8 * u, h - 6 * u, 40)
         draw.pop_clip()
         return
     end
     if not d.bare then shell(c, x, y, w, h, true) end
-    local pad = 5 * u
-    local a = h - pad * 2
-    art(c, x + pad + 3 * u, y + pad, a, a, 2 * u)
-    local bx = x + pad + 3 * u + a + 5 * u
-    local tstr = fmt_time(c.s.pos)
-    local tw = text.width(font.tiny, tstr)
-    btn(c, x + w - pad - 12 * u, y + (h - 12 * u) * 0.5, 12 * u, 12 * u, "pp")
-    local bw = (x + w - pad - 14 * u - tw - 5 * u) - bx
-    if bw > 10 then
-        text.draw(font.small, bx, y + (h - text.height(font.small)) * 0.5,
-                  c.txt[1], c.txt[2], c.txt[3], A(255), fit(c.s.title, font.small, bw))
+
+    local pad = 4 * u
+    local a = h - pad * 2 - 2 * u                 -- leave room for the progress line underneath
+    local ax = x + pad + 3 * u
+    art(c, ax, y + pad, a, a, 3 * u)
+
+    -- prev / play-pause / next, right-aligned against the chevron slot
+    local bs = clamp(h - 12 * u, 10 * u, 16 * u)
+    local by = y + (h - 2 * u - bs) * 0.5
+    local nx = x + w - slot - bs
+    local px = nx - bs - 3 * u
+    local vx = px - bs - 3 * u
+    btn(c, vx, by, bs, bs, "prev")
+    btn(c, px, by, bs, bs, "pp")
+    btn(c, nx, by, bs, bs, "next")
+    draw.line(x + w - slot + 1 * u, y + 7 * u, x + w - slot + 1 * u, y + h - 8 * u,
+              c.dim[1], c.dim[2], c.dim[3], A(60), 1)
+
+    -- title, then artist and time underneath when the strip is tall enough for two lines
+    local bx = ax + a + 6 * u
+    local bw = vx - 5 * u - bx
+    if bw > 12 then
+        local th, sh = text.height(font.small), text.height(font.tiny)
+        local tstr = fmt_time(c.s.pos)
+        if c.s.dur > 0.01 then tstr = tstr .. " / " .. fmt_time(c.s.dur) end
+        if h - 2 * u >= th + sh + 4 * u then
+            local ty = y + (h - 2 * u - th - sh - 1 * u) * 0.5
+            text.draw(font.small, bx, ty, c.txt[1], c.txt[2], c.txt[3], A(255), fit(c.s.title, font.small, bw))
+            local tw = text.width(font.tiny, tstr)
+            local line = c.s.artist
+            local lw = bw - tw - 6 * u
+            if line ~= "" and lw > 20 then
+                text.draw(font.tiny, bx, ty + th + 1 * u, c.dim[1], c.dim[2], c.dim[3], A(220), fit(line, font.tiny, lw))
+                text.draw(font.tiny, bx + bw - tw, ty + th + 1 * u, c.dim[1], c.dim[2], c.dim[3], A(200), tstr)
+            else
+                text.draw(font.tiny, bx, ty + th + 1 * u, c.dim[1], c.dim[2], c.dim[3], A(200), fit(tstr, font.tiny, bw))
+            end
+        else
+            text.draw(font.small, bx, y + (h - 2 * u - th) * 0.5,
+                      c.txt[1], c.txt[2], c.txt[3], A(255), fit(c.s.title, font.small, bw))
+        end
     end
-    text.draw(font.tiny, x + w - pad - 14 * u - tw, y + (h - text.height(font.tiny)) * 0.5,
-              c.dim[1], c.dim[2], c.dim[3], A(220), tstr)
+
+    -- progress line along the bottom edge
+    local lx0, lx1 = x + 7 * u, x + w - 7 * u
+    local ly = y + h - 3.5 * u
+    draw.rect(lx0, ly, lx1, ly + 1.5 * u, c.track[1], c.track[2], c.track[3], A(200), 1)
+    if c.frac > 0 then
+        draw.rect(lx0, ly, lx0 + (lx1 - lx0) * c.frac, ly + 1.5 * u, c.ar, c.ag, c.ab, A(255), 1)
+    end
 end
 
 -- Reused across frames: a fresh table per frame would be pure GC churn on the render thread.
@@ -858,17 +899,31 @@ features.on_draw("Audio Player", function(f)
 
     local grip = GRIP * u
     local gx, gy = pos_x + w - grip, pos_y + h - grip
-    local head_h = min(h, 20 * u)
+    -- folded, the whole strip is the drag handle (its buttons are excluded through the hot set)
+    local head_h = folded and h or min(h, 20 * u)
     local idle = live and own == nil
-    local hover_grip = live and (own == "resize" or (idle and inside(mx, my, gx, gy, grip, grip)))
+    local can_resize = not folded
+    local hover_grip = live and can_resize and (own == "resize" or (idle and inside(mx, my, gx, gy, grip, grip)))
+
+    -- Round designs (Capsule, Orb) have no room for a chevron: tapping the disc folds / unfolds.
+    local tx, ty, tw, th
+    if d.pill then
+        if folded or d.n == "Orb" then tx, ty, tw, th = pos_x, pos_y, w, w
+        else
+            local rad = (h - 5 * u) * 0.5
+            tx, ty, tw, th = pos_x + 3 * u, pos_y + h * 0.5 - rad, rad * 2, rad * 2
+        end
+    end
 
     if click and own == nil then
-        if inside(mx, my, gx, gy, grip, grip) then
+        local on_disc = tx and inside(mx, my, tx, ty, tw, th) and not over_hot(mx, my)
+        if can_resize and inside(mx, my, gx, gy, grip, grip) then
             own = "resize"
             rz_mx, rz_my, rz_s = mx, my, scale
-        elseif inside(mx, my, pos_x, pos_y, w, head_h) and not over_hot(mx, my) then
+        elseif on_disc or (inside(mx, my, pos_x, pos_y, w, head_h) and not over_hot(mx, my)) then
             own = "drag"
             drag_dx, drag_dy = mx - pos_x, my - pos_y
+            tap_x, tap_y, tap_ok = mx, my, on_disc and true or false
         end
     end
     if own == "resize" then
@@ -880,9 +935,17 @@ features.on_draw("Audio Player", function(f)
         else own = nil; save_rect() end
     elseif own == "drag" then
         if held then
+            if abs(mx - tap_x) + abs(my - tap_y) > 4 then tap_ok = false end
             pos_x = clamp(mx - drag_dx, 0, max(0, sw - w))
             pos_y = clamp(my - drag_dy, 0, max(0, sh - h))
-        else own = nil; save_rect() end
+        else
+            own = nil; save_rect()
+            if tap_ok then
+                folded = not folded
+                set_num("audio_hud_fold", folded and 1 or 0)
+            end
+            tap_ok = false
+        end
     end
 
     -- re-derive after this frame's input
@@ -912,8 +975,8 @@ features.on_draw("Audio Player", function(f)
 
     -- fold chevron, top-right of the header band; and the resize grip, bottom-right
     if not d.pill then
-        local cx = pos_x + w - 7 * u
-        local cy = pos_y + (folded and h * 0.5 or 8 * u)
+        local cx = folded and (pos_x + w - FOLD_SLOT * u * 0.5) or (pos_x + w - 7 * u)
+        local cy = pos_y + (folded and (h - (d.n == "Lower Third" and 0 or 2 * u)) * 0.5 or 8 * u)
         chevron(cx, cy, 4 * u, folded, C.txt[1], C.txt[2], C.txt[3], A(200))
         hot_add(cx - 8 * u, cy - 8 * u, 16 * u, 16 * u)
         -- a control row can reach the top-right corner in the short layouts, so the chevron only

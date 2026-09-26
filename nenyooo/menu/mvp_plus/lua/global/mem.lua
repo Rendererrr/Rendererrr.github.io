@@ -75,6 +75,40 @@ function address_methods:write_long(value, offset) memory.write_long(self.value 
 function address_methods:write_float(value, offset) memory.write_float(self.value + (offset or 0), value); return self end
 function address_methods:write_string(value, offset) memory.write_string(self.value + (offset or 0), value); return self end
 function address_methods:write_bytes(value, offset) memory.write_binary_string(self.value + (offset or 0), value); return self end
+-- set(value): repoint this address object in place (another address object or an integer)
+function address_methods:set(value) self.value = address_value(value); return self end
+-- read_vector4 / write_vector4: four consecutive floats as { x, y, z, w }
+function address_methods:read_vector4(offset)
+    local b = self.value + (offset or 0)
+    return { x = memory.read_float(b), y = memory.read_float(b + 4), z = memory.read_float(b + 8), w = memory.read_float(b + 12) }
+end
+function address_methods:write_vector4(v, offset)
+    local b = self.value + (offset or 0)
+    memory.write_float(b, v.x or v[1] or 0); memory.write_float(b + 4, v.y or v[2] or 0)
+    memory.write_float(b + 8, v.z or v[3] or 0); memory.write_float(b + 12, v.w or v[4] or 0)
+    return self
+end
+-- read_matrix44 / write_matrix44: 16 consecutive floats as a flat array m[1..16] (row-major, as stored)
+function address_methods:read_matrix44(offset)
+    local b, m = self.value + (offset or 0), {}
+    for i = 0, 15 do m[i + 1] = memory.read_float(b + i * 4) end
+    return m
+end
+function address_methods:write_matrix44(m, offset)
+    local b = self.value + (offset or 0)
+    for i = 0, 15 do memory.write_float(b + i * 4, m[i + 1] or 0) end
+    return self
+end
+-- write_fixed_string(str, size): write into a fixed char[size] buffer -- truncated to size - 1 bytes and
+-- zero-filled to the end, so a shorter string never leaves stale characters behind
+function address_methods:write_fixed_string(str, size, offset)
+    size = size or (#str + 1)
+    if size <= 0 then return self end
+    local s = tostring(str):sub(1, size - 1)
+    memory.write_binary_string(self.value + (offset or 0), s .. string.rep("\0", size - #s))
+    return self
+end
+
 function address_methods:patch(bytes, offset) return memory.patch(self.value + (offset or 0), bytes) end
 function address_methods:nop(count, offset) return memory.patch_nop(self.value + (offset or 0), count) end
 

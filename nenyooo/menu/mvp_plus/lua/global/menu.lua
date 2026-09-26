@@ -18,7 +18,7 @@ local function __wrap(id) if id == nil then return nil end return setmetatable({
 local function __rid(r) if type(r) == "table" then return r.id end return r end
 __stand_wrap = __wrap   -- exposed for dialect helpers / other layer files
 
-for _, name in ipairs({ "list", "action", "toggle", "slider", "slider_float", "click_slider", "readonly", "divider", "hyperlink" }) do
+for _, name in ipairs({ "list", "action", "toggle", "slider", "slider_float", "slider_float_toggle", "click_slider", "readonly", "divider", "hyperlink" }) do
     menu[name] = function(parent, ...) return __wrap(__smenu[name](__rid(parent), ...)) end
     __ref_methods[name] = function(self, ...) return menu[name](self, ...) end
 end
@@ -42,6 +42,8 @@ __ref_methods.color   = __ref_methods.colour
 __ref_methods.rainbow = function(self, ...) return menu.rainbow(self, ...) end
 
 function menu.my_root() return __wrap(__smenu.root()) end
+function __nenyoo_player_root(pid) return __wrap(__smenu.player_root(pid)) end
+function menu.player_root(pid) return __nenyoo_player_root(pid) end
 function menu.get_value(r) return __smenu.get_value(__rid(r)) end
 function menu.set_value(r, v) return __smenu.set_value(__rid(r), v) end
 function menu.is_ref_valid(r) return __smenu.is_ref_valid(__rid(r)) end
@@ -51,7 +53,8 @@ function menu.get_menu_name(r) return __smenu.get_menu_name(__rid(r)) end
 function menu.set_menu_name(r, n) __smenu.set_menu_name(__rid(r), n) end
 function menu.get_help_text(r) return __smenu.get_help_text(__rid(r)) end
 function menu.set_help_text(r, t) __smenu.set_help_text(__rid(r), tostring(t or "")) end
--- Tick state for an action row: render it as a selected_tick (button with a tick) when on.
+-- Tick state for action rows and combined slider/toggles. For slider_float_toggle, get_value/set_value
+-- address the number while get_ticked/set_ticked address the enabled checkbox.
 function menu.set_ticked(r, on) __smenu.set_ticked(__rid(r), on and true or false) end
 function menu.get_ticked(r) return __smenu.get_ticked(__rid(r)) end
 function menu.get_parent(r) return __wrap(__smenu.get_parent(__rid(r))) end
