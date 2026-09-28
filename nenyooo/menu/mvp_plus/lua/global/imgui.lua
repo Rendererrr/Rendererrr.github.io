@@ -612,11 +612,11 @@ local function r_circle(L, x, y, rad, c, filled, thick, amul)
     if a <= 0 then return end
     L[#L + 1] = { filled and OP_CIRCLE or OP_CIRCLE_OUT, x, y, rad, r, g, b, a, thick or 1 }
 end
-local function r_text(L, x, y, s, c, f, amul)
+local function r_text(L, x, y, s, c, f, amul, scale_override)
     if s == nil or s == "" then return end
     local r, g, b, a = rgba(c, amul)
     if a <= 0 then return end
-    L[#L + 1] = { OP_TEXT, f or font_body(), x, y, r, g, b, a, s, font_scale() }
+    L[#L + 1] = { OP_TEXT, f or font_body(), x, y, r, g, b, a, s, scale_override or font_scale() }
 end
 local function r_image(L, h, x1, y1, x2, y2, tint)
     local r, g, b, a = 255, 255, 255, floor(255 * style_alpha())
@@ -1547,18 +1547,26 @@ end
 
 -- ── registration (YimMenu gui.* surface) ─────────────────────────────────────
 
-local function is_user_script()
-    return script and script.loading_user_scripts and script.loading_user_scripts() or false
+local function current_owner()
+    if thread and thread.current_owner then
+        local owner = thread.current_owner()
+        if owner and owner ~= "" then return owner end
+    end
+    if script and script.current_owner then
+        local owner = script.current_owner()
+        if owner and owner ~= "" then return owner end
+    end
+    return nil
 end
 
 gui = gui or {}
 function gui.add_imgui(fn)
     if type(fn) ~= "function" then return end
-    S.cbs[#S.cbs + 1] = { fn = fn, always = false, user = is_user_script() }
+    S.cbs[#S.cbs + 1] = { fn = fn, always = false, owner = current_owner() }
 end
 function gui.add_always_draw_imgui(fn)
     if type(fn) ~= "function" then return end
-    S.cbs[#S.cbs + 1] = { fn = fn, always = true, user = is_user_script() }
+    S.cbs[#S.cbs + 1] = { fn = fn, always = true, owner = current_owner() }
 end
 gui.is_open = gui.is_open or function() return menu.is_visible() end
 gui.toggle = gui.toggle or function(v) if v == nil then v = not menu.is_visible() end menu.set_visible(v) end
@@ -1571,7 +1579,14 @@ gui.show_error = gui.show_error or function(title, msg) notify.push(tostring(tit
 __on_user_scripts_reload = __on_user_scripts_reload or {}
 __on_user_scripts_reload[#__on_user_scripts_reload + 1] = function()
     local keep = {}
-    for i = 1, #S.cbs do if not S.cbs[i].user then keep[#keep + 1] = S.cbs[i] end end
+    for i = 1, #S.cbs do if not S.cbs[i].owner then keep[#keep + 1] = S.cbs[i] end end
+    S.cbs = keep
+end
+
+__on_user_script_unload = __on_user_script_unload or {}
+__on_user_script_unload[#__on_user_script_unload + 1] = function(owner)
+    local keep = {}
+    for i = 1, #S.cbs do if S.cbs[i].owner ~= owner then keep[#keep + 1] = S.cbs[i] end end
     S.cbs = keep
 end
 
@@ -1617,7 +1632,12 @@ local function imgui_frame()
     for i = 1, #S.cbs do
         local cb = S.cbs[i]
         if cb.always or visible then
-            local ok, err = pcall(cb.fn)
+            local ok, err
+            if cb.owner and thread and thread.with_owner then
+                ok, err = pcall(thread.with_owner, cb.owner, cb.fn)
+            else
+                ok, err = pcall(cb.fn)
+            end
             if not ok then
                 unwind()
                 dead = dead or {}
@@ -5067,6 +5087,17 @@ DrawList.AddNgon, DrawList.AddNgonFilled = DrawList.AddCircle, DrawList.AddCircl
 -- AddText(pos, col, text) | AddText(x, y, col, text)
 function DrawList:AddText(...)
     local a = { ... }
+    -- sol_ImGui/Yim also exposes AddText(font_size, x, y, color, text).  SSV2 uses this
+    -- overload for its speedometer and notification headings.
+    if a[5] ~= nil and type(a[1]) == "number" and type(a[2]) == "number"
+        and type(a[3]) == "number" then
+        local base_h = text.height(font_body())
+        local scale = base_h > 0 and (a[1] / base_h) or 1
+        dl_draw(self, function(L)
+            r_text(L, a[2], a[3], tostring(a[5] or ""), dl_col(a[4]), nil, nil, scale)
+        end)
+        return
+    end
     local x, y, j = vec_args(a, 1)
     local c, str = a[j], a[j + 1]
     if type(c) == "string" then c, str = str, c end

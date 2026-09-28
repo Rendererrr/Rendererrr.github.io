@@ -6,7 +6,8 @@ vehicle = vehicle or {}
 function vehicle.spawn(model, pos, heading, networked) return entity.spawn_vehicle(model, pos, heading, networked) end
 -- vehicle.current(): the local player's current vehicle handle (0 if on foot).
 function vehicle.current()
-    nv.begin_call(); nv.push_arg_int(player.ped()); nv.push_arg_bool(false); nv.end_call("9A9112A0FE9A4713")   -- GET_VEHICLE_PED_IS_IN
+    local ped = player.ped()
+    nv.begin_call(); nv.push_arg_int(ped); nv.push_arg_bool(false); nv.end_call("9A9112A0FE9A4713")   -- GET_VEHICLE_PED_IS_IN
     return nv.get_return_value_int()
 end
 -- vehicle.repair(veh)

@@ -17,11 +17,13 @@ function player.exists(pid) return active(pid) end
 function player.name(pid) nv.begin_call(); nv.push_arg_int(pid); nv.end_call("6D0DE6A7B5DA71F8"); return nv.get_return_value_string() end   -- GET_PLAYER_NAME
 function player.coords(pid) return entity.coords(player.get_ped(pid)) end
 function player.in_vehicle(pid)
-    nv.begin_call(); nv.push_arg_int(player.get_ped(pid)); nv.push_arg_bool(false); nv.end_call("997ABD671D25CA0B")   -- IS_PED_IN_ANY_VEHICLE
+    local ped = player.get_ped(pid)
+    nv.begin_call(); nv.push_arg_int(ped); nv.push_arg_bool(false); nv.end_call("997ABD671D25CA0B")   -- IS_PED_IN_ANY_VEHICLE
     return nv.get_return_value_bool()
 end
 function player.vehicle(pid)
-    nv.begin_call(); nv.push_arg_int(player.get_ped(pid)); nv.push_arg_bool(false); nv.end_call("9A9112A0FE9A4713")   -- GET_VEHICLE_PED_IS_IN
+    local ped = player.get_ped(pid)
+    nv.begin_call(); nv.push_arg_int(ped); nv.push_arg_bool(false); nv.end_call("9A9112A0FE9A4713")   -- GET_VEHICLE_PED_IS_IN
     return nv.get_return_value_int()
 end
 -- player.set_wanted_level(level): self only.
