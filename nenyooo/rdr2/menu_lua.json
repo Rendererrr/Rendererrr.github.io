@@ -1,0 +1,174 @@
+{
+  "items": [
+    {
+      "root": "global",
+      "rel": "_boot.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/_boot.lua"
+    },
+    {
+      "root": "global",
+      "rel": "audio.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/audio.lua"
+    },
+    {
+      "root": "global",
+      "rel": "dx.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/dx.lua"
+    },
+    {
+      "root": "global",
+      "rel": "event.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/event.lua"
+    },
+    {
+      "root": "global",
+      "rel": "fs.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/fs.lua"
+    },
+    {
+      "root": "global",
+      "rel": "imgui.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/imgui.lua"
+    },
+    {
+      "root": "global",
+      "rel": "input.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/input.lua"
+    },
+    {
+      "root": "global",
+      "rel": "require.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/require.lua"
+    },
+    {
+      "root": "global",
+      "rel": "settings.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/settings.lua"
+    },
+    {
+      "root": "global",
+      "rel": "stdlib.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/stdlib.lua"
+    },
+    {
+      "root": "global",
+      "rel": "thread.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/thread.lua"
+    },
+    {
+      "root": "global",
+      "rel": "ui.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/ui.lua"
+    },
+    {
+      "root": "global",
+      "rel": "ui_skin.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/ui_skin.lua"
+    },
+    {
+      "root": "global",
+      "rel": "ui_widgets.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/ui_widgets.lua"
+    },
+    {
+      "root": "global",
+      "rel": "util.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/util.lua"
+    },
+    {
+      "root": "global",
+      "rel": "v3.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/global/v3.lua"
+    },
+    {
+      "root": "themes",
+      "rel": "theme.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/themes/theme.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/aimbot.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/aimbot.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/compass.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/compass.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/display_bones.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/display_bones.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/esp.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/esp.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/god_of_thunder.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/god_of_thunder.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/hash_gun.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/hash_gun.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/hunter_mode.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/hunter_mode.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/waypoint_marker.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/waypoint_marker.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/cursor.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/overlays/cursor.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/notifications.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/overlays/notifications.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/welcome_screen.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/overlays/welcome_screen.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/hotkeys_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/panels/hotkeys_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/info_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/panels/info_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/panel_kit.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/panels/panel_kit.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/shortcut_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/panels/shortcut_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/script_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/previews/script_preview.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/theme_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/previews/theme_preview.lua"
+    }
+  ]
+}
