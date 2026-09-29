@@ -91,9 +91,6 @@ local COL = {
 -- Status-tag badge colours (player list). Any hint token not listed keeps the purple keycap look.
 local TAG_COL = {
     Loaded      = { 62, 217, 138},
-    Nenyoo_Free = { 90, 220, 120},
-    Nenyoo_MVP  = {190, 120, 245},
-    Nenyoo_Dev  = {245, 190,  60},
     Me      = { 90, 170, 255},   -- you
     H       = {245, 190,  60},   -- session host
     SH      = {245, 140,  60},   -- freemode script host
@@ -1060,7 +1057,6 @@ end
 
 -- ════════════════════ MAIN DRAW ════════════════════
 function draw_menu()
-    local nenyoo_labels = str.nenyoo_tags and str.nenyoo_tags() or {}
     block_menu_mouse = cpick
     proc_onscreen_keyboard()
     reload_colors(); reload_fx()
@@ -1342,10 +1338,6 @@ function draw_menu()
                         local is_tag = (string.sub(tok, 1, 1) == "*")
                         if is_tag then tok = string.sub(tok, 2) end
                         local c = is_tag and TAG_COL[tok] or nil
-                        if is_tag and (tok == "Nenyoo_Free" or tok == "Nenyoo_MVP" or tok == "Nenyoo_Dev") then
-                            local label = nenyoo_labels[tok]
-                            tok = label and label ~= "" and label or string.gsub(tok, "_", " ")
-                        end
                         -- "+" only joins real key combos; status tags stand alone.
                         if not first and not is_tag then
                             local join = (is_sel or hov) and COL.sel_txt or COL.dim
