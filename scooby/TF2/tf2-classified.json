@@ -1,0 +1,17 @@
+{
+  "schema": 3,
+  "product": "tf2-classified",
+  "architecture": "x64",
+  "module": "ScoobyTF2Classified.dll",
+  "download": "tf2classified.dll",
+  "runtime_assets": "download",
+  "gameplay_certified": false,
+  "files": [
+    {
+      "path": "ScoobyTF2Classified.dll",
+      "size": 3653632,
+      "sha256": "af684e6a3d001e56d98bcfb813e6e0b836f193e6eebcde4ff7af49ba5b2144d5"
+    }
+  ],
+  "assets_sha256": "c67c2852c945b33f8eaa8962d0b2f2574f49cddf33bd9b859c19eb52c4ae85cd"
+}

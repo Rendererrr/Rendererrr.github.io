@@ -1,0 +1,2922 @@
+{
+  "version": 1,
+  "source": "Installed TF2 MDL skin families; diffuse model thumbnails, no inventory changes.",
+  "schema_sha256": "4d1f15b63e63e3e897552cfb8042cccb99d2e233a0c8d8afd8734a3ea49d08da",
+  "items": [
+    {
+      "name": "Backburner",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_0110522baa315c7c",
+      "model": "models/weapons/c_models/c_flamethrower/c_backburner.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_0110522baa315c7c_0.png",
+          "materials": [
+            "models/weapons/c_models/c_flamethrower/c_flamethrower",
+            "models/weapons/c_items/c_backburn"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_0110522baa315c7c_1.png",
+          "materials": [
+            "c_flamethrower_blue",
+            "c_backburn_blue"
+          ]
+        }
+      ],
+      "model_checksum": 1086441182,
+      "model_bytes": 4600
+    },
+    {
+      "name": "Blutsauger",
+      "classes": [
+        5
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_0b4af4b90ee25714",
+      "model": "models/weapons/c_models/c_leechgun/c_leechgun.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_0b4af4b90ee25714_0.png",
+          "materials": [
+            "models/weapons/c_items/c_leechgun"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_0b4af4b90ee25714_1.png",
+          "materials": [
+            "c_leechgun_blu"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Australium",
+          "image": "weapon_0b4af4b90ee25714_2.png",
+          "materials": [
+            "c_leechgun_gold"
+          ]
+        }
+      ],
+      "model_checksum": 2413156926,
+      "model_bytes": 3260
+    },
+    {
+      "name": "Dragon's Fury",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_0d0c565e5f1ed492",
+      "model": "models/weapons/c_models/c_flameball/c_flameball.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_0d0c565e5f1ed492_0.png",
+          "materials": [
+            "models/weapons/c_models/c_flameball/c_flameball"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_0d0c565e5f1ed492_1.png",
+          "materials": [
+            "c_flameball_blue"
+          ]
+        }
+      ],
+      "model_checksum": 1352476411,
+      "model_bytes": 5220
+    },
+    {
+      "name": "Festive Backburner",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_af67883c45e20646",
+      "model": "models/weapons/c_models/c_flamethrower/c_backburner_xmas.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_af67883c45e20646_0.png",
+          "materials": [
+            "models/weapons/c_models/c_flamethrower/c_flamethrower",
+            "models/weapons/c_items/c_backburn",
+            "models/weapons/c_items/festive_battery",
+            "models/weapons/c_items/c_xms_backburner_horns",
+            "models/weapons/c_items/c_xms_backburner_nose",
+            "models/weapons/c_items/festive_lights_red"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_af67883c45e20646_1.png",
+          "materials": [
+            "c_flamethrower_blue",
+            "c_backburn_blue",
+            "models/weapons/c_items/festive_battery",
+            "models/weapons/c_items/c_xms_backburner_horns",
+            "c_xms_backburner_nose_blue",
+            "festive_lights_blue"
+          ]
+        }
+      ],
+      "model_checksum": 1429600143,
+      "model_bytes": 5768
+    },
+    {
+      "name": "Festive Force-a-Nature",
+      "classes": [
+        1
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_5e4e93751b901fbf",
+      "model": "models/weapons/c_models/c_xms_double_barrel.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_5e4e93751b901fbf_0.png",
+          "materials": [
+            "models/player/items/heavy/xms_colored_lights",
+            "models/weapons/c_items/c_xms_double_barrel"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_5e4e93751b901fbf_1.png",
+          "materials": [
+            "xms_colored_lights_blu",
+            "c_xms_double_barrel_blue"
+          ]
+        }
+      ],
+      "model_checksum": 2055157663,
+      "model_bytes": 4268
+    },
+    {
+      "name": "Festive Frontier Justice",
+      "classes": [
+        9
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_bff7b6a20bf39c3d",
+      "model": "models/weapons/c_models/c_frontierjustice/c_frontierjustice_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_bff7b6a20bf39c3d_0.png",
+          "materials": [
+            "models/weapons/c_items/c_frontierjustice_xmas",
+            "models/weapons/c_items/c_frontierjustice_xmas_light",
+            "models/player/items/heavy/xms_colored_lights",
+            "models/weapons/c_items/c_frontierjustice"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_bff7b6a20bf39c3d_1.png",
+          "materials": [
+            "models/weapons/c_items/c_frontierjustice_xmas",
+            "models/weapons/c_items/c_frontierjustice_xmas_light",
+            "xms_colored_lights_blu",
+            "c_frontierjustice_blue"
+          ]
+        }
+      ],
+      "model_checksum": 1192759810,
+      "model_bytes": 4588
+    },
+    {
+      "name": "Festive Grenade Launcher",
+      "classes": [
+        4
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_4a556364ecd12f56",
+      "model": "models/weapons/c_models/c_grenadelauncher/c_grenadelauncher_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_4a556364ecd12f56_0.png",
+          "materials": [
+            "models/weapons/c_items/c_frontierjustice_xmas",
+            "models/player/items/heavy/xms_colored_lights",
+            "models/weapons/v_grenadelauncher/v_grenadelauncher"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_4a556364ecd12f56_1.png",
+          "materials": [
+            "models/weapons/c_items/c_frontierjustice_xmas",
+            "xms_colored_lights_blu",
+            "models/weapons/v_grenadelauncher/v_grenadelauncher"
+          ]
+        }
+      ],
+      "model_checksum": 2761864428,
+      "model_bytes": 6128
+    },
+    {
+      "name": "Festive Huntsman",
+      "classes": [
+        2
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_b3157a265f945d6b",
+      "model": "models/weapons/c_models/c_bow/c_bow_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_b3157a265f945d6b_0.png",
+          "materials": [
+            "models/weapons/c_items/c_arrow_xms",
+            "models/player/items/heavy/xms_colored_lights",
+            "models/weapons/c_items/c_bow",
+            "models/weapons/c_items/c_arrow"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_b3157a265f945d6b_1.png",
+          "materials": [
+            "models/weapons/c_items/c_arrow_xms",
+            "xms_colored_lights_blu",
+            "models/weapons/c_items/c_bow",
+            "models/weapons/c_items/c_arrow"
+          ]
+        }
+      ],
+      "model_checksum": 2242355698,
+      "model_bytes": 5660
+    },
+    {
+      "name": "Flame Thrower",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_a1888568d2b9bca3",
+      "model": "models/weapons/c_models/c_flamethrower/c_flamethrower.mdl",
+      "family_count": 10,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_a1888568d2b9bca3_0.png",
+          "materials": [
+            "models/weapons/c_models/c_flamethrower/c_flamethrower"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_a1888568d2b9bca3_1.png",
+          "materials": [
+            "c_flamethrower_blue"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Australium",
+          "image": "weapon_a1888568d2b9bca3_8.png",
+          "materials": [
+            "c_flamethrower_gold"
+          ]
+        }
+      ],
+      "model_checksum": 1578078797,
+      "model_bytes": 4452
+    },
+    {
+      "name": "Force-a-Nature",
+      "classes": [
+        1
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_2e2c9fbfa44b84cd",
+      "model": "models/weapons/c_models/c_double_barrel.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_2e2c9fbfa44b84cd_0.png",
+          "materials": [
+            "models/weapons/c_items/c_double_barrel"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Australium",
+          "image": "weapon_2e2c9fbfa44b84cd_2.png",
+          "materials": [
+            "c_double_barrel_gold"
+          ]
+        }
+      ],
+      "model_checksum": 4146218909,
+      "model_bytes": 4108
+    },
+    {
+      "name": "Frontier Justice",
+      "classes": [
+        9
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_7e80fb4a1bc82163",
+      "model": "models/weapons/c_models/c_frontierjustice/c_frontierjustice.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_7e80fb4a1bc82163_0.png",
+          "materials": [
+            "models/weapons/c_items/c_frontierjustice"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_7e80fb4a1bc82163_1.png",
+          "materials": [
+            "c_frontierjustice_blue"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Australium",
+          "image": "weapon_7e80fb4a1bc82163_2.png",
+          "materials": [
+            "c_frontierjustice_gold"
+          ]
+        }
+      ],
+      "model_checksum": 2297706490,
+      "model_bytes": 3504
+    },
+    {
+      "name": "Grenade Launcher",
+      "classes": [
+        4
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_aabe481f1b42a30f",
+      "model": "models/weapons/c_models/c_grenadelauncher/c_grenadelauncher.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_aabe481f1b42a30f_0.png",
+          "materials": [
+            "models/weapons/c_models/c_grenadelauncher/c_grenadelauncher"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Australium",
+          "image": "weapon_aabe481f1b42a30f_2.png",
+          "materials": [
+            "c_grenadelauncher_gold"
+          ]
+        }
+      ],
+      "model_checksum": 2148198324,
+      "model_bytes": 6028
+    },
+    {
+      "name": "Minigun",
+      "classes": [
+        6
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_efab9de28b1f53a8",
+      "model": "models/weapons/c_models/c_minigun/c_minigun.mdl",
+      "family_count": 10,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_efab9de28b1f53a8_0.png",
+          "materials": [
+            "models/weapons/c_models/c_minigun/c_minigun"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Australium",
+          "image": "weapon_efab9de28b1f53a8_8.png",
+          "materials": [
+            "c_minigun_gold"
+          ]
+        }
+      ],
+      "model_checksum": 1798327882,
+      "model_bytes": 5116
+    },
+    {
+      "name": "Overdose",
+      "classes": [
+        5
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_5c2ba9e67b48d053",
+      "model": "models/weapons/c_models/c_proto_syringegun/c_proto_syringegun.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_5c2ba9e67b48d053_0.png",
+          "materials": [
+            "models/weapons/c_items/c_proto_syringegun",
+            "models/weapons/v_syringegun/v_syringegun_glass"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_5c2ba9e67b48d053_1.png",
+          "materials": [
+            "c_proto_syringegun_blue",
+            "models/weapons/v_syringegun/v_syringegun_glass"
+          ]
+        }
+      ],
+      "model_checksum": 4078457185,
+      "model_bytes": 3424
+    },
+    {
+      "name": "Rainblower",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_42c2c8c6e98f987f",
+      "model": "models/weapons/c_models/c_rainblower/c_rainblower.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_42c2c8c6e98f987f_0.png",
+          "materials": [
+            "models/weapons/c_items/c_rainblower",
+            "models/weapons/c_items/c_rainblower_silver"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_42c2c8c6e98f987f_1.png",
+          "materials": [
+            "c_rainblower_blue",
+            "models/weapons/c_items/c_rainblower_silver"
+          ]
+        }
+      ],
+      "model_checksum": 2546893732,
+      "model_bytes": 2428
+    },
+    {
+      "name": "Rocket Launcher",
+      "classes": [
+        3
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_f0d2f6d0a8718711",
+      "model": "models/weapons/c_models/c_rocketlauncher/c_rocketlauncher.mdl",
+      "family_count": 10,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_f0d2f6d0a8718711_0.png",
+          "materials": [
+            "models/weapons/c_models/c_rocketlauncher/c_rocketlauncher"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Australium",
+          "image": "weapon_f0d2f6d0a8718711_8.png",
+          "materials": [
+            "c_rocketlauncher_gold"
+          ]
+        }
+      ],
+      "model_checksum": 3353683628,
+      "model_bytes": 4400
+    },
+    {
+      "name": "Scattergun",
+      "classes": [
+        1
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_945de597fa9ab8cc",
+      "model": "models/weapons/c_models/c_scattergun.mdl",
+      "family_count": 10,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_945de597fa9ab8cc_0.png",
+          "materials": [
+            "models/weapons/c_models/c_scattergun/c_scattergun"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Australium",
+          "image": "weapon_945de597fa9ab8cc_8.png",
+          "materials": [
+            "c_scattergun_gold"
+          ]
+        }
+      ],
+      "model_checksum": 4127930877,
+      "model_bytes": 3908
+    },
+    {
+      "name": "Sniper Rifle",
+      "classes": [
+        2
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_f0941d878ffd9a65",
+      "model": "models/weapons/c_models/c_sniperrifle/c_sniperrifle.mdl",
+      "family_count": 10,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_f0941d878ffd9a65_0.png",
+          "materials": [
+            "models/weapons/c_models/c_sniperrifle/c_sniperrifle"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Australium",
+          "image": "weapon_f0941d878ffd9a65_8.png",
+          "materials": [
+            "c_sniperrifle_gold"
+          ]
+        }
+      ],
+      "model_checksum": 2390798736,
+      "model_bytes": 5264
+    },
+    {
+      "name": "Syringe Gun",
+      "classes": [
+        5
+      ],
+      "player": false,
+      "slot": "primary",
+      "id": "weapon_76b02fc8638a2fac",
+      "model": "models/weapons/c_models/c_syringegun/c_syringegun.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_76b02fc8638a2fac_0.png",
+          "materials": [
+            "models/weapons/c_items/c_syringegun",
+            "models/weapons/c_items/c_syringegun_glass"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_76b02fc8638a2fac_1.png",
+          "materials": [
+            "c_syringegun_blue",
+            "models/weapons/c_items/c_syringegun_glass"
+          ]
+        }
+      ],
+      "model_checksum": 2491274671,
+      "model_bytes": 3828
+    },
+    {
+      "name": "Ambassador",
+      "classes": [
+        8
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_41144158ef5fb694",
+      "model": "models/weapons/c_models/c_ambassador/c_ambassador.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_41144158ef5fb694_0.png",
+          "materials": [
+            "models/weapons/c_models/c_ambassador/c_ambassador"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_41144158ef5fb694_1.png",
+          "materials": [
+            "c_ambassador_blue"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Australium",
+          "image": "weapon_41144158ef5fb694_2.png",
+          "materials": [
+            "c_ambassador_gold"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "Australium",
+          "image": "weapon_41144158ef5fb694_3.png",
+          "materials": [
+            "c_ambassador_blue_gold"
+          ]
+        }
+      ],
+      "model_checksum": 3027430965,
+      "model_bytes": 3536
+    },
+    {
+      "name": "Bonk! Atomic Punch",
+      "classes": [
+        1
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_73aaca77e78fafa4",
+      "model": "models/weapons/c_models/c_energy_drink/c_energy_drink.mdl",
+      "family_count": 3,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_73aaca77e78fafa4_0.png",
+          "materials": [
+            "models/weapons/c_items/c_energydrink"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_73aaca77e78fafa4_1.png",
+          "materials": [
+            "models/weapons/c_items/c_energydrink_blu"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Variant 3",
+          "image": "weapon_73aaca77e78fafa4_2.png",
+          "materials": [
+            "models/weapons/c_items/c_energydrink_purp"
+          ]
+        }
+      ],
+      "model_checksum": 1923234946,
+      "model_bytes": 2368
+    },
+    {
+      "name": "Festive Ambassador",
+      "classes": [
+        8
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_488ac894bf326371",
+      "model": "models/weapons/c_models/c_ambassador/c_ambassador_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_488ac894bf326371_0.png",
+          "materials": [
+            "models/weapons/c_items/c_ambassador_opt_xmas",
+            "models/player/items/heavy/xms_colored_lights"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_488ac894bf326371_1.png",
+          "materials": [
+            "c_ambassador_opt_blue_xmas",
+            "xms_colored_lights_blu"
+          ]
+        }
+      ],
+      "model_checksum": 1303938402,
+      "model_bytes": 3748
+    },
+    {
+      "name": "Festive Bonk! Atomic Punch",
+      "classes": [
+        1
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_de64beb2aa9b264a",
+      "model": "models/weapons/c_models/c_xms_energy_drink/c_xms_energy_drink.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_de64beb2aa9b264a_0.png",
+          "materials": [
+            "models/weapons/c_items/c_xms_energydrink_straw",
+            "models/weapons/c_items/c_xms_energydrink_bow",
+            "models/weapons/c_items/c_xms_energydrink"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_de64beb2aa9b264a_1.png",
+          "materials": [
+            "c_xms_energydrink_straw_blue",
+            "c_xms_energydrink_bow_blue",
+            "c_xms_energydrink_blu"
+          ]
+        }
+      ],
+      "model_checksum": 1613566772,
+      "model_bytes": 2888
+    },
+    {
+      "name": "Festive Chargin' Targe",
+      "classes": [
+        4
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_c5314cce10815abe",
+      "model": "models/weapons/c_models/c_targe/c_targe_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_c5314cce10815abe_0.png",
+          "materials": [
+            "c_targe_ice",
+            "c_targe_xmas",
+            "c_saxxy",
+            "c_targe_xmas_cables",
+            "festive_lights_red"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_c5314cce10815abe_1.png",
+          "materials": [
+            "c_targe_ice",
+            "c_targe_xmas_blue",
+            "c_saxxy",
+            "c_targe_xmas_cables",
+            "festive_lights_blue"
+          ]
+        }
+      ],
+      "model_checksum": 1374791099,
+      "model_bytes": 2972
+    },
+    {
+      "name": "Festive Flare Gun",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_113e3b688f49b871",
+      "model": "models/weapons/c_models/c_xms_flaregun/c_xms_flaregun.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_113e3b688f49b871_0.png",
+          "materials": [
+            "models/weapons/c_items/c_flaregun",
+            "models/weapons/c_items/c_xms_flaregun_festives",
+            "models/player/items/heavy/xms_colored_lights"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_113e3b688f49b871_1.png",
+          "materials": [
+            "c_flaregun_blue",
+            "c_xms_flaregun_festives_blue",
+            "xms_colored_lights_blu"
+          ]
+        }
+      ],
+      "model_checksum": 2427370535,
+      "model_bytes": 5124
+    },
+    {
+      "name": "Festive Jarate",
+      "classes": [
+        2
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_67905c16e3d10cc1",
+      "model": "models/weapons/c_models/c_xms_urinejar.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_67905c16e3d10cc1_0.png",
+          "materials": [
+            "models/weapons/c_items/c_xms_urinejar_glass",
+            "models/weapons/c_items/c_urinejar_urine",
+            "models/weapons/c_items/c_xms_urinejar"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_67905c16e3d10cc1_1.png",
+          "materials": [
+            "c_xms_urinejar_glass_blue",
+            "models/weapons/c_items/c_urinejar_urine",
+            "c_xms_urinejar_blue"
+          ]
+        }
+      ],
+      "model_checksum": 2061940324,
+      "model_bytes": 3744
+    },
+    {
+      "name": "Festive Revolver",
+      "classes": [
+        8
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_24488a651e220124",
+      "model": "models/weapons/c_models/c_revolver/c_revolver_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_24488a651e220124_0.png",
+          "materials": [
+            "models/weapons/c_items/festive_lights_red",
+            "models/weapons/c_items/festive_battery",
+            "models/weapons/c_models/c_revolver/c_revolver_xmas"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_24488a651e220124_1.png",
+          "materials": [
+            "festive_lights_blue",
+            "models/weapons/c_items/festive_battery",
+            "models/weapons/c_models/c_revolver/c_revolver_xmas"
+          ]
+        }
+      ],
+      "model_checksum": 1182232486,
+      "model_bytes": 5272
+    },
+    {
+      "name": "Festive Sandvich",
+      "classes": [
+        6
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_adbee87181cea12a",
+      "model": "models/weapons/c_models/c_sandwich/c_sandwich_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_adbee87181cea12a_0.png",
+          "materials": [
+            "models/weapons/c_items/c_sandwich_xmas",
+            "models/weapons/c_items/c_sandwich_xmas_light"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_adbee87181cea12a_1.png",
+          "materials": [
+            "c_sandwich_xmas_blue",
+            "models/weapons/c_items/c_sandwich_xmas_light"
+          ]
+        }
+      ],
+      "model_checksum": 2758897575,
+      "model_bytes": 4520
+    },
+    {
+      "name": "Festive Wrangler",
+      "classes": [
+        9
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_2f51d8be86bead95",
+      "model": "models/weapons/c_models/c_wrangler_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_2f51d8be86bead95_0.png",
+          "materials": [
+            "models/weapons/c_items/c_wrangler_xmas",
+            "models/player/items/heavy/xms_colored_lights"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_2f51d8be86bead95_1.png",
+          "materials": [
+            "c_wrangler_xmas_blue",
+            "xms_colored_lights_blu"
+          ]
+        }
+      ],
+      "model_checksum": 2257553125,
+      "model_bytes": 3460
+    },
+    {
+      "name": "Flare Gun",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_8592691fd7d18865",
+      "model": "models/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_8592691fd7d18865_0.png",
+          "materials": [
+            "models/weapons/c_items/c_flaregun"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_8592691fd7d18865_1.png",
+          "materials": [
+            "c_flaregun_blue"
+          ]
+        }
+      ],
+      "model_checksum": 2587039192,
+      "model_bytes": 4660
+    },
+    {
+      "name": "Gas Passer",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_2a562ada68e8aef7",
+      "model": "models/weapons/c_models/c_gascan/c_gascan.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_2a562ada68e8aef7_0.png",
+          "materials": [
+            "models/weapons/c_items/c_gascan"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_2a562ada68e8aef7_1.png",
+          "materials": [
+            "c_gascan_blu"
+          ]
+        }
+      ],
+      "model_checksum": 1308449594,
+      "model_bytes": 1884
+    },
+    {
+      "name": "Medi Gun",
+      "classes": [
+        5
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_e254dfe4762d080b",
+      "model": "models/weapons/c_models/c_medigun/c_medigun.mdl",
+      "family_count": 10,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_e254dfe4762d080b_0.png",
+          "materials": [
+            "models/weapons/c_models/c_medigun/c_medigun"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_e254dfe4762d080b_1.png",
+          "materials": [
+            "c_medigun_blue"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Australium",
+          "image": "weapon_e254dfe4762d080b_8.png",
+          "materials": [
+            "c_medigun_gold"
+          ]
+        }
+      ],
+      "model_checksum": 922244099,
+      "model_bytes": 6948
+    },
+    {
+      "name": "Quick-Fix",
+      "classes": [
+        5
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_bd217e47b4df1e63",
+      "model": "models/weapons/c_models/c_proto_medigun/c_proto_medigun.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_bd217e47b4df1e63_0.png",
+          "materials": [
+            "models/weapons/c_items/c_proto_medigun_glass",
+            "models/weapons/c_items/c_proto_medigun"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_bd217e47b4df1e63_1.png",
+          "materials": [
+            "models/weapons/c_items/c_proto_medigun_glass",
+            "c_proto_medigun_blue"
+          ]
+        }
+      ],
+      "model_checksum": 696172829,
+      "model_bytes": 5240
+    },
+    {
+      "name": "Robo-Sandvich",
+      "classes": [
+        6
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_ccd0a7f5a60554b5",
+      "model": "models/weapons/c_models/c_sandwich/c_robo_sandwich.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_ccd0a7f5a60554b5_0.png",
+          "materials": [
+            "models/weapons/c_items/c_robo_sandwich",
+            "models/weapons/c_items/c_robo_sandwich_light"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_ccd0a7f5a60554b5_1.png",
+          "materials": [
+            "c_robo_sandwich_blue",
+            "c_robo_sandwich_light_blue"
+          ]
+        }
+      ],
+      "model_checksum": 3364342279,
+      "model_bytes": 2812
+    },
+    {
+      "name": "SMG",
+      "classes": [
+        2
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_50eaeb19137d02bd",
+      "model": "models/weapons/c_models/c_smg/c_smg.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_50eaeb19137d02bd_0.png",
+          "materials": [
+            "models/weapons/c_models/c_smg/c_smg"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Australium",
+          "image": "weapon_50eaeb19137d02bd_2.png",
+          "materials": [
+            "c_smg_gold"
+          ]
+        }
+      ],
+      "model_checksum": 963620851,
+      "model_bytes": 4744
+    },
+    {
+      "name": "Stickybomb Launcher",
+      "classes": [
+        4
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_ed9626aa864b618b",
+      "model": "models/weapons/c_models/c_stickybomb_launcher/c_stickybomb_launcher.mdl",
+      "family_count": 10,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_ed9626aa864b618b_0.png",
+          "materials": [
+            "models/weapons/c_models/c_stickybomb_launcher/c_stickybomb_launcher"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Australium",
+          "image": "weapon_ed9626aa864b618b_8.png",
+          "materials": [
+            "c_stickybomb_launcher_gold"
+          ]
+        }
+      ],
+      "model_checksum": 1360354901,
+      "model_bytes": 4836
+    },
+    {
+      "name": "Thermal Thruster",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_8f68e73b04119dd6",
+      "model": "models/weapons/c_models/c_rocketpack/c_rocketpack.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_8f68e73b04119dd6_0.png",
+          "materials": [
+            "models/weapons/c_models/c_rocketpack/c_rocketpack_red"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_8f68e73b04119dd6_1.png",
+          "materials": [
+            "c_rocketpack_blue"
+          ]
+        }
+      ],
+      "model_checksum": 3799176481,
+      "model_bytes": 22580
+    },
+    {
+      "name": "Wrangler",
+      "classes": [
+        9
+      ],
+      "player": false,
+      "slot": "secondary",
+      "id": "weapon_043a2643d7bf5b6a",
+      "model": "models/weapons/c_models/c_wrangler.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_043a2643d7bf5b6a_0.png",
+          "materials": [
+            "models/weapons/c_items/c_wrangler"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_043a2643d7bf5b6a_1.png",
+          "materials": [
+            "c_wrangler_blue"
+          ]
+        }
+      ],
+      "model_checksum": 3995489376,
+      "model_bytes": 2828
+    },
+    {
+      "name": "Axtinguisher",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_510d77ff3b4448fc",
+      "model": "models/weapons/c_models/c_axtinguisher/c_axtinguisher_pyro.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_510d77ff3b4448fc_0.png",
+          "materials": [
+            "c_axtinguisher"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Australium",
+          "image": "weapon_510d77ff3b4448fc_2.png",
+          "materials": [
+            "c_axtinguisher_gold"
+          ]
+        }
+      ],
+      "model_checksum": 3534704648,
+      "model_bytes": 2108
+    },
+    {
+      "name": "Eyelander",
+      "classes": [
+        4
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_c2add70d9201d181",
+      "model": "models/weapons/c_models/c_claymore/c_claymore.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_c2add70d9201d181_0.png",
+          "materials": [
+            "models/weapons/c_items/c_claymore"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Australium",
+          "image": "weapon_c2add70d9201d181_2.png",
+          "materials": [
+            "c_claymore_gold"
+          ]
+        }
+      ],
+      "model_checksum": 285114332,
+      "model_bytes": 2100
+    },
+    {
+      "name": "Festive Axtinguisher",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_9258572a4a7943ae",
+      "model": "models/weapons/c_models/c_fireaxe_pyro/c_fireaxe_pyro_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_9258572a4a7943ae_0.png",
+          "materials": [
+            "models/player/items/heavy/xms_colored_lights",
+            "models/weapons/c_items/c_axtinguisher_xmas"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_9258572a4a7943ae_1.png",
+          "materials": [
+            "xms_colored_lights_blu",
+            "c_axtinguisher_xmas_blue"
+          ]
+        }
+      ],
+      "model_checksum": 4022097376,
+      "model_bytes": 4068
+    },
+    {
+      "name": "Festive Bonesaw",
+      "classes": [
+        5
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_bc803d5d498d30b9",
+      "model": "models/weapons/c_models/c_bonesaw/c_bonesaw_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_bc803d5d498d30b9_0.png",
+          "materials": [
+            "models/weapons/v_bonesaw/c_bonesaw_xmas",
+            "models/weapons/v_bonesaw/c_bonesaw_xmas_lights",
+            "models/player/items/heavy/xms_colored_lights"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_bc803d5d498d30b9_1.png",
+          "materials": [
+            "models/weapons/v_bonesaw/c_bonesaw_xmas",
+            "c_bonesaw_xmas_lights_blue",
+            "xms_colored_lights_blu"
+          ]
+        }
+      ],
+      "model_checksum": 3169218851,
+      "model_bytes": 2808
+    },
+    {
+      "name": "Festive Eyelander",
+      "classes": [
+        4
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_044bcd5e2f3eb0ed",
+      "model": "models/weapons/c_models/c_claymore/c_claymore_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_044bcd5e2f3eb0ed_0.png",
+          "materials": [
+            "models/player/items/heavy/xms_colored_lights",
+            "models/weapons/c_items/c_saxxy",
+            "models/weapons/c_items/c_claymore_ice",
+            "models/weapons/c_items/c_claymore_xmas"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_044bcd5e2f3eb0ed_1.png",
+          "materials": [
+            "xms_colored_lights_blu",
+            "models/weapons/c_items/c_saxxy",
+            "models/weapons/c_items/c_claymore_ice",
+            "c_claymore_xmas_blue"
+          ]
+        }
+      ],
+      "model_checksum": 2201614165,
+      "model_bytes": 3260
+    },
+    {
+      "name": "Festive Gloves of Running Urgently",
+      "classes": [
+        6
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_4481758980c6de4d",
+      "model": "models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_4481758980c6de4d_0.png",
+          "materials": [
+            "models/weapons/c_items/c_boxing_gloves_xmas",
+            "models/player/items/heavy/xms_colored_lights"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_4481758980c6de4d_1.png",
+          "materials": [
+            "c_boxing_gloves_xmas_blue",
+            "xms_colored_lights_blu"
+          ]
+        }
+      ],
+      "model_checksum": 1481284569,
+      "model_bytes": 5464
+    },
+    {
+      "name": "Festive \u00dcbersaw",
+      "classes": [
+        5
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_fdeaefb0879889d3",
+      "model": "models/weapons/c_models/c_ubersaw/c_ubersaw_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_fdeaefb0879889d3_0.png",
+          "materials": [
+            "models/weapons/c_items/c_ubersaw",
+            "models/player/items/heavy/xms_colored_lights",
+            "models/weapons/c_items/c_ubersaw_xms"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_fdeaefb0879889d3_1.png",
+          "materials": [
+            "c_ubersaw_blu",
+            "xms_colored_lights_blu",
+            "models/weapons/c_items/c_ubersaw_xms"
+          ]
+        }
+      ],
+      "model_checksum": 2112110215,
+      "model_bytes": 4276
+    },
+    {
+      "name": "Frying Pan",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_296a6c5e2b8021d1",
+      "model": "models/weapons/c_models/c_frying_pan/c_frying_pan.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_296a6c5e2b8021d1_0.png",
+          "materials": [
+            "models/weapons/c_items/c_frying_pan"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Australium",
+          "image": "weapon_296a6c5e2b8021d1_2.png",
+          "materials": [
+            "c_frying_pan_gold"
+          ]
+        }
+      ],
+      "model_checksum": 2983574534,
+      "model_bytes": 2212
+    },
+    {
+      "name": "Hot Hand",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_8b7727f0ab7e27a2",
+      "model": "models/weapons/c_models/c_slapping_glove/c_slapping_glove.mdl",
+      "family_count": 3,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_8b7727f0ab7e27a2_0.png",
+          "materials": [
+            "models/weapons/c_models/c_slapping_glove/c_slapping_glove"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Variant 2",
+          "image": "weapon_8b7727f0ab7e27a2_1.png",
+          "materials": [
+            "c_slapping_glove_level_01"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Variant 3",
+          "image": "weapon_8b7727f0ab7e27a2_2.png",
+          "materials": [
+            "c_slapping_glove_level_02"
+          ]
+        }
+      ],
+      "model_checksum": 2475001319,
+      "model_bytes": 9732
+    },
+    {
+      "name": "Killing Gloves of Boxing",
+      "classes": [
+        6
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_351d8fc050834f37",
+      "model": "models/weapons/c_models/c_boxing_gloves/c_boxing_gloves.mdl",
+      "family_count": 4,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_351d8fc050834f37_0.png",
+          "materials": [
+            "models/weapons/c_items/c_boxing_gloves"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_351d8fc050834f37_1.png",
+          "materials": [
+            "c_boxing_gloves_blue"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Variant 3",
+          "image": "weapon_351d8fc050834f37_2.png",
+          "materials": [
+            "c_boxing_gloves_flames"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU",
+          "image": "weapon_351d8fc050834f37_3.png",
+          "materials": [
+            "c_boxing_gloves_flames_blue"
+          ]
+        }
+      ],
+      "model_checksum": 3806548162,
+      "model_bytes": 7268
+    },
+    {
+      "name": "Knife",
+      "classes": [
+        8
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_8e6bbf832f8bc134",
+      "model": "models/weapons/c_models/c_knife/c_knife.mdl",
+      "family_count": 10,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_8e6bbf832f8bc134_0.png",
+          "materials": [
+            "models/weapons/c_models/c_knife/c_knife"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Australium",
+          "image": "weapon_8e6bbf832f8bc134_8.png",
+          "materials": [
+            "c_knife_gold"
+          ]
+        }
+      ],
+      "model_checksum": 3735682981,
+      "model_bytes": 4752
+    },
+    {
+      "name": "Lollichop",
+      "classes": [
+        7
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_3a755090f403859d",
+      "model": "models/weapons/c_models/c_lollichop/c_lollichop.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_3a755090f403859d_0.png",
+          "materials": [
+            "models/weapons/c_items/c_lollichop"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_3a755090f403859d_1.png",
+          "materials": [
+            "c_lollichop_blue"
+          ]
+        }
+      ],
+      "model_checksum": 625518287,
+      "model_bytes": 2104
+    },
+    {
+      "name": "Necro Smasher",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_76225a5721aae7a5",
+      "model": "models/weapons/c_models/c_carnival_mallet/c_carnival_mallet.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_76225a5721aae7a5_0.png",
+          "materials": [
+            "models/weapons/c_items/c_carnival_mallet"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_76225a5721aae7a5_1.png",
+          "materials": [
+            "c_carnival_mallet_blue"
+          ]
+        }
+      ],
+      "model_checksum": 2065533990,
+      "model_bytes": 2892
+    },
+    {
+      "name": "Wrench",
+      "classes": [
+        9
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_9ccd5f808cae46f1",
+      "model": "models/weapons/c_models/c_wrench/c_wrench.mdl",
+      "family_count": 10,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_9ccd5f808cae46f1_0.png",
+          "materials": [
+            "models/weapons/c_models/c_wrench/c_wrench"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Australium",
+          "image": "weapon_9ccd5f808cae46f1_8.png",
+          "materials": [
+            "c_wrench_gold"
+          ]
+        }
+      ],
+      "model_checksum": 1537628339,
+      "model_bytes": 3428
+    },
+    {
+      "name": "\u00dcbersaw",
+      "classes": [
+        5
+      ],
+      "player": false,
+      "slot": "melee",
+      "id": "weapon_162771642ca475a2",
+      "model": "models/weapons/c_models/c_ubersaw/c_ubersaw.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_162771642ca475a2_0.png",
+          "materials": [
+            "models/weapons/c_models/c_ubersaw/c_ubersaw"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_162771642ca475a2_1.png",
+          "materials": [
+            "c_ubersaw_blu"
+          ]
+        }
+      ],
+      "model_checksum": 4028386761,
+      "model_bytes": 4424
+    },
+    {
+      "name": "Cloak and Dagger",
+      "classes": [
+        8
+      ],
+      "player": false,
+      "slot": "pda2",
+      "id": "weapon_b51dd7324cf9d638",
+      "model": "models/weapons/v_models/v_watch_leather_spy.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_b51dd7324cf9d638_0.png",
+          "materials": [
+            "models/player/spy/spy_hands_red",
+            "models/weapons/c_items/c_leather_watch"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_b51dd7324cf9d638_1.png",
+          "materials": [
+            "spy_hands_blue",
+            "models/weapons/c_items/c_leather_watch"
+          ]
+        }
+      ],
+      "model_checksum": 1383069243,
+      "model_bytes": 16656
+    },
+    {
+      "name": "Dead Ringer",
+      "classes": [
+        8
+      ],
+      "player": false,
+      "slot": "pda2",
+      "id": "weapon_4a42014653c58f52",
+      "model": "models/weapons/v_models/v_watch_pocket_spy.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_4a42014653c58f52_0.png",
+          "materials": [
+            "models/player/spy/spy_hands_red",
+            "models/weapons/c_items/c_pocket_watch"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_4a42014653c58f52_1.png",
+          "materials": [
+            "spy_hands_blue",
+            "models/weapons/c_items/c_pocket_watch"
+          ]
+        }
+      ],
+      "model_checksum": 1375591789,
+      "model_bytes": 27384
+    },
+    {
+      "name": "Enthusiast's Timepiece",
+      "classes": [
+        8
+      ],
+      "player": false,
+      "slot": "pda2",
+      "id": "weapon_39822e19359b0181",
+      "model": "models/weapons/v_models/v_ttg_watch_spy.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_39822e19359b0181_0.png",
+          "materials": [
+            "models/player/spy/spy_hands_red",
+            "models/weapons/c_items/ttg_watch"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_39822e19359b0181_1.png",
+          "materials": [
+            "spy_hands_blue",
+            "models/weapons/c_items/ttg_watch"
+          ]
+        }
+      ],
+      "model_checksum": 979615346,
+      "model_bytes": 16940
+    },
+    {
+      "name": "Festive Sapper",
+      "classes": [
+        8
+      ],
+      "player": false,
+      "slot": "building",
+      "id": "weapon_09d05ddeca9b9cff",
+      "model": "models/weapons/c_models/c_sapper/c_sapper_xmas.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "Standard",
+          "image": "weapon_09d05ddeca9b9cff_0.png",
+          "materials": [
+            "models/weapons/c_items/c_sapper_xmas"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_09d05ddeca9b9cff_1.png",
+          "materials": [
+            "c_sapper_xmas_blue"
+          ]
+        }
+      ],
+      "model_checksum": 333942364,
+      "model_bytes": 2892
+    },
+    {
+      "name": "Invis Watch",
+      "classes": [
+        8
+      ],
+      "player": false,
+      "slot": "pda2",
+      "id": "weapon_55b5e2e554855b3e",
+      "model": "models/weapons/v_models/v_watch_spy.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_55b5e2e554855b3e_0.png",
+          "materials": [
+            "models/player/spy/spy_hands_red",
+            "models/weapons/v_watch/v_watch"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_55b5e2e554855b3e_1.png",
+          "materials": [
+            "spy_hands_blue",
+            "models/weapons/v_watch/v_watch"
+          ]
+        }
+      ],
+      "model_checksum": 1456447851,
+      "model_bytes": 15812
+    },
+    {
+      "name": "PDA",
+      "classes": [
+        9
+      ],
+      "player": false,
+      "slot": "building",
+      "id": "weapon_40070caab2a0d5ae",
+      "model": "models/weapons/c_models/c_toolbox/c_toolbox.mdl",
+      "family_count": 2,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "weapon_40070caab2a0d5ae_0.png",
+          "materials": [
+            "models/weapons/c_items/c_toolbox_red"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "weapon_40070caab2a0d5ae_1.png",
+          "materials": [
+            "c_toolbox_blue"
+          ]
+        }
+      ],
+      "model_checksum": 707576676,
+      "model_bytes": 2544
+    },
+    {
+      "name": "Demoman",
+      "classes": [
+        4
+      ],
+      "player": true,
+      "id": "player_626155aa53cbf923",
+      "model": "models/player/demo.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "player_626155aa53cbf923_0.png",
+          "materials": [
+            "models/player/demo/demoman_red",
+            "models/player/demo/demoman_head_red",
+            "models/player/demo/eyeball_r"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "player_626155aa53cbf923_1.png",
+          "materials": [
+            "demoman_blue",
+            "demoman_head_blue",
+            "models/player/demo/eyeball_r"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "RED / Invulnerable",
+          "image": "player_626155aa53cbf923_2.png",
+          "materials": [
+            "demoman_red_invun",
+            "demoman_head_red_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU / Invulnerable",
+          "image": "player_626155aa53cbf923_3.png",
+          "materials": [
+            "demoman_blue_invun",
+            "demoman_head_blue_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "RED / Zombie",
+          "image": "player_626155aa53cbf923_4.png",
+          "materials": [
+            "demoman_red_zombie_alphatest",
+            "demoman_head_zombie",
+            "eyeball_zombie"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "BLU / Zombie",
+          "image": "player_626155aa53cbf923_5.png",
+          "materials": [
+            "demoman_blue_zombie_alphatest",
+            "demoman_head_zombie",
+            "eyeball_zombie"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "RED / Zombie + invulnerable",
+          "image": "player_626155aa53cbf923_6.png",
+          "materials": [
+            "demoman_red_zombie_invun",
+            "demoman_head_red_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "BLU / Zombie + invulnerable",
+          "image": "player_626155aa53cbf923_7.png",
+          "materials": [
+            "demoman_blue_zombie_invun",
+            "demoman_head_blue_invun",
+            "eyeball_invun"
+          ]
+        }
+      ],
+      "model_checksum": 1505337062,
+      "model_bytes": 1244388
+    },
+    {
+      "name": "Engineer",
+      "classes": [
+        9
+      ],
+      "player": true,
+      "id": "player_6111c38a013f9e52",
+      "model": "models/player/engineer.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "player_6111c38a013f9e52_0.png",
+          "materials": [
+            "models/player/engineer/engineer_red",
+            "models/player/engineer/engineer_head_red"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "player_6111c38a013f9e52_1.png",
+          "materials": [
+            "engineer_blue",
+            "engineer_head_blue"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "RED / Invulnerable",
+          "image": "player_6111c38a013f9e52_2.png",
+          "materials": [
+            "engineer_red_invun",
+            "engineer_head_red_invun"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU / Invulnerable",
+          "image": "player_6111c38a013f9e52_3.png",
+          "materials": [
+            "engineer_blue_invun",
+            "engineer_head_blue_invun"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "RED / Zombie",
+          "image": "player_6111c38a013f9e52_4.png",
+          "materials": [
+            "engineer_red_zombie_alphatest",
+            "engineer_head_zombie"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "BLU / Zombie",
+          "image": "player_6111c38a013f9e52_5.png",
+          "materials": [
+            "engineer_blue_zombie_alphatest",
+            "engineer_head_zombie"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "RED / Zombie + invulnerable",
+          "image": "player_6111c38a013f9e52_6.png",
+          "materials": [
+            "engineer_red_zombie_invun",
+            "engineer_head_red_invun"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "BLU / Zombie + invulnerable",
+          "image": "player_6111c38a013f9e52_7.png",
+          "materials": [
+            "engineer_blue_zombie_invun",
+            "engineer_head_blue_invun"
+          ]
+        }
+      ],
+      "model_checksum": 1880291295,
+      "model_bytes": 922680
+    },
+    {
+      "name": "Heavy",
+      "classes": [
+        6
+      ],
+      "player": true,
+      "id": "player_122086c0b8fbee15",
+      "model": "models/player/heavy.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "player_122086c0b8fbee15_0.png",
+          "materials": [
+            "models/player/hvyweapon/heavy_head_red",
+            "models/player/hvyweapon/eyeball_r",
+            "models/player/hvyweapon/eyeball_l",
+            "models/player/hvyweapon/hvyweapon_red",
+            "models/player/hvyweapon/hvyweapon_red_sheen"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "player_122086c0b8fbee15_1.png",
+          "materials": [
+            "heavy_head_blue",
+            "models/player/hvyweapon/eyeball_r",
+            "models/player/hvyweapon/eyeball_l",
+            "hvyweapon_blue",
+            "hvyweapon_blue_sheen"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "RED / Invulnerable",
+          "image": "player_122086c0b8fbee15_2.png",
+          "materials": [
+            "heavy_head_red_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "hvyweapon_red_invun",
+            "hvyweapon_red_invun"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU / Invulnerable",
+          "image": "player_122086c0b8fbee15_3.png",
+          "materials": [
+            "heavy_head_blue_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "hvyweapon_blue_invun",
+            "hvyweapon_blue_invun"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "RED / Zombie",
+          "image": "player_122086c0b8fbee15_4.png",
+          "materials": [
+            "heavy_head_zombie",
+            "eyeball_zombie",
+            "eyeball_zombie",
+            "heavy_red_zombie_alphatest",
+            "heavy_red_zombie_alphatest_sheen"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "BLU / Zombie",
+          "image": "player_122086c0b8fbee15_5.png",
+          "materials": [
+            "heavy_head_zombie",
+            "eyeball_zombie",
+            "eyeball_zombie",
+            "heavy_blue_zombie_alphatest",
+            "heavy_blue_zombie_alphatest_sheen"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "RED / Zombie + invulnerable",
+          "image": "player_122086c0b8fbee15_6.png",
+          "materials": [
+            "heavy_head_red_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "hvyweapon_red_zombie_invun",
+            "hvyweapon_red_zombie_invun"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "BLU / Zombie + invulnerable",
+          "image": "player_122086c0b8fbee15_7.png",
+          "materials": [
+            "heavy_head_blue_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "hvyweapon_blue_zombie_invun",
+            "hvyweapon_blue_zombie_invun"
+          ]
+        }
+      ],
+      "model_checksum": 1641026357,
+      "model_bytes": 901264
+    },
+    {
+      "name": "Medic",
+      "classes": [
+        5
+      ],
+      "player": true,
+      "id": "player_96252d1ea1fbcd88",
+      "model": "models/player/medic.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "player_96252d1ea1fbcd88_0.png",
+          "materials": [
+            "medic_red",
+            "medic_head_red",
+            "eyeball_r",
+            "eyeball_l",
+            "medic_backpack_red"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "player_96252d1ea1fbcd88_1.png",
+          "materials": [
+            "medic_blue",
+            "medic_head_blue",
+            "eyeball_r",
+            "eyeball_l",
+            "medic_backpack_blue"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "RED / Invulnerable",
+          "image": "player_96252d1ea1fbcd88_2.png",
+          "materials": [
+            "medic_red_invun",
+            "medic_head_red_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "../../effects/invulnfx_red"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU / Invulnerable",
+          "image": "player_96252d1ea1fbcd88_3.png",
+          "materials": [
+            "medic_blue_invun",
+            "medic_head_blue_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "../../effects/invulnfx_blue"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "RED / Zombie",
+          "image": "player_96252d1ea1fbcd88_4.png",
+          "materials": [
+            "medic_red_zombie_alphatest",
+            "medic_head_zombie",
+            "eyeball_zombie",
+            "eyeball_zombie",
+            "medic_backpack_red"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "BLU / Zombie",
+          "image": "player_96252d1ea1fbcd88_5.png",
+          "materials": [
+            "medic_blue_zombie_alphatest",
+            "medic_head_zombie",
+            "eyeball_zombie",
+            "eyeball_zombie",
+            "medic_backpack_blue"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "RED / Zombie + invulnerable",
+          "image": "player_96252d1ea1fbcd88_6.png",
+          "materials": [
+            "medic_red_zombie_invun",
+            "medic_head_red_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "../../effects/invulnfx_red"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "BLU / Zombie + invulnerable",
+          "image": "player_96252d1ea1fbcd88_7.png",
+          "materials": [
+            "medic_blue_zombie_invun",
+            "medic_head_blue_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "../../effects/invulnfx_blue"
+          ]
+        }
+      ],
+      "model_checksum": 1029183977,
+      "model_bytes": 964852
+    },
+    {
+      "name": "Pyro",
+      "classes": [
+        7
+      ],
+      "player": true,
+      "id": "player_37ce2919caccd83b",
+      "model": "models/player/pyro.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "player_37ce2919caccd83b_0.png",
+          "materials": [
+            "models/player/pyro/pyro_red"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "player_37ce2919caccd83b_1.png",
+          "materials": [
+            "pyro_blue"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "RED / Invulnerable",
+          "image": "player_37ce2919caccd83b_2.png",
+          "materials": [
+            "pyro_red_invun"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU / Invulnerable",
+          "image": "player_37ce2919caccd83b_3.png",
+          "materials": [
+            "pyro_blue_invun"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "RED / Zombie",
+          "image": "player_37ce2919caccd83b_4.png",
+          "materials": [
+            "pyro_red_zombie_alphatest"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "BLU / Zombie",
+          "image": "player_37ce2919caccd83b_5.png",
+          "materials": [
+            "pyro_blue_zombie_alphatest"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "RED / Zombie + invulnerable",
+          "image": "player_37ce2919caccd83b_6.png",
+          "materials": [
+            "pyro_red_zombie_invun"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "BLU / Zombie + invulnerable",
+          "image": "player_37ce2919caccd83b_7.png",
+          "materials": [
+            "pyro_blue_zombie_invun"
+          ]
+        }
+      ],
+      "model_checksum": 3846592064,
+      "model_bytes": 102420
+    },
+    {
+      "name": "Scout",
+      "classes": [
+        1
+      ],
+      "player": true,
+      "id": "player_5fde1836188ea384",
+      "model": "models/player/scout.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "player_5fde1836188ea384_0.png",
+          "materials": [
+            "models/player/scout/scout_red",
+            "models/player/scout/scout_head_red",
+            "models/player/scout/eyeball_l",
+            "models/player/scout/eyeball_r"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "player_5fde1836188ea384_1.png",
+          "materials": [
+            "scout_blue",
+            "scout_head_blue",
+            "models/player/scout/eyeball_l",
+            "models/player/scout/eyeball_r"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "RED / Invulnerable",
+          "image": "player_5fde1836188ea384_2.png",
+          "materials": [
+            "scout_red_invun",
+            "scout_head_red_invun",
+            "eyeball_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU / Invulnerable",
+          "image": "player_5fde1836188ea384_3.png",
+          "materials": [
+            "scout_blue_invun",
+            "scout_head_blue_invun",
+            "eyeball_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "RED / Zombie",
+          "image": "player_5fde1836188ea384_4.png",
+          "materials": [
+            "scout_red_zombie_alphatest",
+            "scout_head_zombie",
+            "eyeball_zombie",
+            "eyeball_zombie"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "BLU / Zombie",
+          "image": "player_5fde1836188ea384_5.png",
+          "materials": [
+            "scout_blue_zombie_alphatest",
+            "scout_head_zombie",
+            "eyeball_zombie",
+            "eyeball_zombie"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "RED / Zombie + invulnerable",
+          "image": "player_5fde1836188ea384_6.png",
+          "materials": [
+            "scout_red_invun_zombie",
+            "scout_head_red_invun",
+            "eyeball_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "BLU / Zombie + invulnerable",
+          "image": "player_5fde1836188ea384_7.png",
+          "materials": [
+            "scout_blue_invun_zombie",
+            "scout_head_blue_invun",
+            "eyeball_invun",
+            "eyeball_invun"
+          ]
+        }
+      ],
+      "model_checksum": 1098120898,
+      "model_bytes": 611668
+    },
+    {
+      "name": "Sniper",
+      "classes": [
+        2
+      ],
+      "player": true,
+      "id": "player_1641196a8f9abf27",
+      "model": "models/player/sniper.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "player_1641196a8f9abf27_0.png",
+          "materials": [
+            "models/player/sniper/sniper_red",
+            "models/player/sniper/sniper_lens",
+            "models/player/sniper/eyeball_l",
+            "models/player/sniper/sniper_head_red",
+            "models/player/sniper/eyeball_r"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "player_1641196a8f9abf27_1.png",
+          "materials": [
+            "sniper_blue",
+            "models/player/sniper/sniper_lens",
+            "models/player/sniper/eyeball_l",
+            "sniper_head_blue",
+            "models/player/sniper/eyeball_r"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "RED / Invulnerable",
+          "image": "player_1641196a8f9abf27_2.png",
+          "materials": [
+            "sniper_red_invun",
+            "sniper_lens_invuln",
+            "eyeball_invun",
+            "sniper_head_red_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU / Invulnerable",
+          "image": "player_1641196a8f9abf27_3.png",
+          "materials": [
+            "sniper_blue_invun",
+            "sniper_lens_invuln",
+            "eyeball_invun",
+            "sniper_head_blue_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "RED / Zombie",
+          "image": "player_1641196a8f9abf27_4.png",
+          "materials": [
+            "sniper_red_zombie_alphatest",
+            "models/player/sniper/sniper_lens",
+            "eyeball_zombie",
+            "sniper_head_zombie_alphatest",
+            "eyeball_zombie"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "BLU / Zombie",
+          "image": "player_1641196a8f9abf27_5.png",
+          "materials": [
+            "sniper_blue_zombie_alphatest",
+            "models/player/sniper/sniper_lens",
+            "eyeball_zombie",
+            "sniper_head_zombie_alphatest",
+            "eyeball_zombie"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "RED / Zombie + invulnerable",
+          "image": "player_1641196a8f9abf27_6.png",
+          "materials": [
+            "sniper_red_zombie_invun",
+            "sniper_lens_invuln",
+            "eyeball_invun",
+            "sniper_head_red_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "BLU / Zombie + invulnerable",
+          "image": "player_1641196a8f9abf27_7.png",
+          "materials": [
+            "sniper_blue_zombie_invun",
+            "sniper_lens_invuln",
+            "eyeball_invun",
+            "sniper_head_blue_invun",
+            "eyeball_invun"
+          ]
+        }
+      ],
+      "model_checksum": 2890479924,
+      "model_bytes": 1193560
+    },
+    {
+      "name": "Soldier",
+      "classes": [
+        3
+      ],
+      "player": true,
+      "id": "player_1852f4ce9d20caae",
+      "model": "models/player/soldier.mdl",
+      "family_count": 8,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "player_1852f4ce9d20caae_0.png",
+          "materials": [
+            "models/player/soldier/soldier_red",
+            "models/player/soldier/eyeball_l",
+            "models/player/soldier/soldier_head_red",
+            "models/player/soldier/eyeball_r"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "player_1852f4ce9d20caae_1.png",
+          "materials": [
+            "soldier_blue",
+            "models/player/soldier/eyeball_l",
+            "soldier_head_blue",
+            "models/player/soldier/eyeball_r"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "RED / Invulnerable",
+          "image": "player_1852f4ce9d20caae_2.png",
+          "materials": [
+            "soldier_red_invun",
+            "eyeball_invun",
+            "soldier_head_red_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU / Invulnerable",
+          "image": "player_1852f4ce9d20caae_3.png",
+          "materials": [
+            "soldier_blue_invun",
+            "eyeball_invun",
+            "soldier_head_blue_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "RED / Zombie",
+          "image": "player_1852f4ce9d20caae_4.png",
+          "materials": [
+            "soldier_red_zombie_alphatest",
+            "eyeball_zombie",
+            "soldier_head_zombie",
+            "eyeball_zombie"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "BLU / Zombie",
+          "image": "player_1852f4ce9d20caae_5.png",
+          "materials": [
+            "soldier_blue_zombie_alphatest",
+            "eyeball_zombie",
+            "soldier_head_zombie",
+            "eyeball_zombie"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "RED / Zombie + invulnerable",
+          "image": "player_1852f4ce9d20caae_6.png",
+          "materials": [
+            "soldier_red_zombie_invun",
+            "eyeball_invun",
+            "soldier_head_red_invun",
+            "eyeball_invun"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "BLU / Zombie + invulnerable",
+          "image": "player_1852f4ce9d20caae_7.png",
+          "materials": [
+            "soldier_blue_zombie_invun",
+            "eyeball_invun",
+            "soldier_head_blue_invun",
+            "eyeball_invun"
+          ]
+        }
+      ],
+      "model_checksum": 3748736120,
+      "model_bytes": 1053984
+    },
+    {
+      "name": "Spy",
+      "classes": [
+        8
+      ],
+      "player": true,
+      "id": "player_b0afdd69b76930e1",
+      "model": "models/player/spy.mdl",
+      "family_count": 26,
+      "families": [
+        {
+          "index": 0,
+          "name": "RED",
+          "image": "player_b0afdd69b76930e1_0.png",
+          "materials": [
+            "models/player/spy/spy_head_red",
+            "models/player/spy/eyeball_l",
+            "models/player/spy/eyeball_r",
+            "models/player/spy/spy_red"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "BLU",
+          "image": "player_b0afdd69b76930e1_1.png",
+          "materials": [
+            "spy_head_blue",
+            "models/player/spy/eyeball_l",
+            "models/player/spy/eyeball_r",
+            "spy_blue"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "RED / Invulnerable",
+          "image": "player_b0afdd69b76930e1_2.png",
+          "materials": [
+            "spy_head_red_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "spy_red_invun"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "BLU / Invulnerable",
+          "image": "player_b0afdd69b76930e1_3.png",
+          "materials": [
+            "spy_head_blue_invun",
+            "eyeball_invun",
+            "eyeball_invun",
+            "spy_blue_invun"
+          ]
+        },
+        {
+          "index": 22,
+          "name": "RED / Zombie",
+          "image": "player_b0afdd69b76930e1_22.png",
+          "materials": [
+            "spy_head_red_zombie_alphatest",
+            "eyeball_zombie",
+            "eyeball_zombie",
+            "spy_red_zombie_alphatest"
+          ]
+        },
+        {
+          "index": 23,
+          "name": "BLU / Zombie",
+          "image": "player_b0afdd69b76930e1_23.png",
+          "materials": [
+            "spy_head_blue_zombie_alphatest",
+            "eyeball_zombie",
+            "eyeball_zombie",
+            "spy_blue_zombie_alphatest"
+          ]
+        },
+        {
+          "index": 24,
+          "name": "RED / Zombie + invulnerable",
+          "image": "player_b0afdd69b76930e1_24.png",
+          "materials": [
+            "spy_head_red_zombie_invun",
+            "eyeball_zombie",
+            "eyeball_zombie",
+            "spy_red_zombie_invun"
+          ]
+        },
+        {
+          "index": 25,
+          "name": "BLU / Zombie + invulnerable",
+          "image": "player_b0afdd69b76930e1_25.png",
+          "materials": [
+            "spy_head_blue_zombie_invun",
+            "eyeball_zombie",
+            "eyeball_zombie",
+            "spy_blue_zombie_invun"
+          ]
+        }
+      ],
+      "model_checksum": 4261541971,
+      "model_bytes": 977520
+    }
+  ],
+  "unsupported": []
+}

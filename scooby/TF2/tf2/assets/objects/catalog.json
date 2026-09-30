@@ -1,0 +1,1843 @@
+{
+  "version": 1,
+  "schema_sha256": "4d1f15b63e63e3e897552cfb8042cccb99d2e233a0c8d8afd8734a3ea49d08da",
+  "textures": {
+    "texture_019b2e91def600842b2e.png": "6d4a7dfb259ad8bd3a58b65aadecc84026582ba2d3030ceb111a300fdf9bec9b",
+    "texture_02ca2655dfa7e369b8b9.png": "e82e90145b357a324664b0a60817b7651d9099a0099eda1c365a8047ef022454",
+    "texture_042ac92cfe79d71c07da.png": "0132c8901fe6c962e2b3b15edc536465c26f5504e3ffab1831f649887428677e",
+    "texture_06b7aa186e5dbb5ef4b7.png": "6063e6c92fadd940951b02b2e603072b7ea7d8aa3d9df960ff2e937a97f3f99f",
+    "texture_06cd4db92db44669ab7c.png": "e907963a54583095165e20f7674c646995f8e0f8144537fc570be91edcc8db32",
+    "texture_0802c6f03e8ac971db1e.png": "d1585a91eee6c14e47c4831b0125c2368b5603d991507264313d91d2e36f6894",
+    "texture_08585247e4632a41f76e.png": "b8dc892b02b654f97cd325c7d46e947c9663e88321e6211e732afd3d06dece3c",
+    "texture_08636b692712c6e80ebe.png": "276bf349f89ae2e0e4a77b0fff7bd37f1f7fdc8643a1ad394e1d9dcca8c160db",
+    "texture_0a0d1adc3a0e18e78b76.png": "7943fc0d8aaf961c55de08c838c1e04a66f235f3d085fac5f3a4c377b1bba03d",
+    "texture_0a2c3f604070b42317a9.png": "eb3f80908f7337f5741a6df686b5f12fe765d7fcae8a0c65019ad228b414e0f2",
+    "texture_0a6b315ef06bbde718e3.png": "db978f5d1cc6c05377369684828b20fc772cc397422ea947267e6cfa67e6aa4d",
+    "texture_0bb1af2a9bc5a5fbb7a6.png": "e26dd595c05bed15c3763627f868c6693c6a8b9b3f760a40d596b79a4849a63b",
+    "texture_0c0ee74cd1d5543bc6f8.png": "c306f06be9a961a1b95c1ce51e7bbb59479ca0ccb07f1160183aa0ba6fd7e4e4",
+    "texture_1120478323b97608a105.png": "785ee53459719f95f34f67bdd9f3c19ea73dbf8cb32105fd48ee41dce49320ed",
+    "texture_12606f63f66f0173b83b.png": "a4f4d703f50e09390d24c0f6871a30529a06d9659e597745ea723350232056a7",
+    "texture_12d24603b42d9a9582b1.png": "1be709a974763db9182d6ea23bc558c9244d5d45f10a82f241ea253a46d68d2e",
+    "texture_15ab0185f0af07531dcc.png": "d57cdc259f697703292d1be2224e0503d0e0d1f1f59eac85bd466093586f70aa",
+    "texture_15ac21607cf0514164ae.png": "e26dd595c05bed15c3763627f868c6693c6a8b9b3f760a40d596b79a4849a63b",
+    "texture_15ca2897895afd51ba68.png": "25b91543a83a52ecd4251e883f5fb17a2ae8b9569fbbd917c3276edca896d290",
+    "texture_15ee8fa6609ec0931c2e.png": "7df69f70f7ba5a83ed98a7d0a574144f89d7e318770cba21504d325dd901869c",
+    "texture_16f7cae71d7d1daa249a.png": "f145b0cc0002871b51613ba4ac9c1c7c2f687d2664280fd93ac7126b9dd397d0",
+    "texture_182c039196132dced91b.png": "188505ff06367df3e893ac7552e9229b5488e1eede69d6f46f29a249c4727d9f",
+    "texture_185d0fd55038d959814a.png": "c6049b23767297afb8d7bc41957e7d13db9b3949dc5bdaa21c3776d7065f3c32",
+    "texture_1bcd9f22820980fa23d7.png": "613870a6685591e9042b82ab7d421de6e63f17b6079b92863e7fcb89bd630f32",
+    "texture_1c02a081e26bf9038ca1.png": "664d6fc0eabce14001867497c8ca1152732f0436ce775c43813f3d78b5e4917e",
+    "texture_1d46e633ae9ffdac6219.png": "247baf7a9e984e3399cc4b6389ff20cc02919913249c112d8af2bf56be8a4b9b",
+    "texture_1f16b4a6b32e39589c39.png": "4286d3dfc6d3b66bd2bd311171656467393a181492e663ca6825f14e2791ba9c",
+    "texture_2097ed480d2e54f547d4.png": "d668900f7eeb4a52e1d9044dddae65f40c00bee73b142af37c7ab377a40b6ce3",
+    "texture_22b4d0509a7defe76329.png": "0fecad877fe22d5849ff6f8629d1b2f032dabe61bd992d21247c20d9002455ee",
+    "texture_22c5253f9d23b3ebffe4.png": "373413a09dfba9578d4339bc7898f40b119a6c33132bae39b0b17ea47a622747",
+    "texture_23d155dabef4c5b0e98c.png": "8566753090ba10b349e9f25b6f422aa4479300507938afe1aaac02cd0941a233",
+    "texture_2474433dcb5e551a1384.png": "ee630ec0f7d2d45549c0a035cc4bf04671ab70b3aa4f721b4237b0abdd489b5f",
+    "texture_24a7dff05b60c5327f12.png": "3304595177c25077a158131220dd91a5af4531db5a192c69ff90c7e40cf4be67",
+    "texture_24a9a32cdc50b3010af4.png": "4a103001052b960a7d022a0120012749795dc81b2effad65066e1f067f438e21",
+    "texture_265b48300edfa82a3289.png": "76d6e5848a19e71fcf81b7bd45bb928e75f0397b21fe1a864d31d2b5056eaedc",
+    "texture_2756858d725ab1823e8f.png": "e258129ff9d505ed3df430f97553805f6f37ee6f97050f3da155ad8d000d5dfd",
+    "texture_2e20d826a994030956d4.png": "54131cc2ceefbf6f8032c466b3515a643b6b7a9b759da29eba58faf6b6bab136",
+    "texture_2f55350f4b20de1fe499.png": "906a136c4d2ab5fa64e2c4ca02b44979b2910b163cb08758d582a5455f22b3a3",
+    "texture_30b70e0a7b38979529c3.png": "8857046d969655294d59d40afe66d49165c403da96bb377f6c9be692ee058785",
+    "texture_3145bddb71188bfea6bf.png": "263c5919fb0a87702f7a8b6a2df3d4559232a26ccd4c87f7d91763f7374944af",
+    "texture_3177c95dcb618e2ab475.png": "756fb87a6b790c37f6706dc29c9e6f28b2c22946e94930fdb4e6640d0c2a8e70",
+    "texture_3220422d0e887585ee7c.png": "881acc5b5a9d21b733627d421a13c393591c80b563e29c0daf8d4d432933dbe1",
+    "texture_3335da4c593fcb4114b7.png": "f145b0cc0002871b51613ba4ac9c1c7c2f687d2664280fd93ac7126b9dd397d0",
+    "texture_34163193182d0b582edd.png": "a5516d1e90c8f5b415f73b4c95edeb452c3ebbe34a19f46c4075c91e0a44b542",
+    "texture_3445a8402d8b70c0d4a2.png": "f58a8d99b170b49fd5917892f38ef8742d7d14de6e3fde06d028d5ff9bad47e5",
+    "texture_3657c5fb197791bdf802.png": "3506b2e046f979d16d8f289e408b6d6285193cd9183ff140e15cf309982f0082",
+    "texture_385641944a8c788ad3a5.png": "cb593b525a7a730a28491cc4fd3f4aac456a74ea2c8c4d273b2468fc6cb0d06b",
+    "texture_388fe746ac3caf023a19.png": "fbb41aa91e6b5356d08848822adf5c976c2b56424851a814c728aabe634e88ce",
+    "texture_38dec524cab33f7660b1.png": "d2f715f05b39a4418601d65cc6425defa378f81b4e9168a835ba055c12ca40b9",
+    "texture_3bb073dd1a63c6a1023c.png": "745e66eea3e70b118974186cff527fd5af9c26a6fb86fe2312c97e28d00c31bc",
+    "texture_3cd4681e4c9bb410659d.png": "a0cf703add9f65455e51779cfde5330dc48eca08cbd3122c4efdfadf8989f2cd",
+    "texture_3cec00809d19d3725528.png": "ba9f2a07d0070f0de5cef6995f38088b9102f320e1e94c0e013e71882fe49ccb",
+    "texture_3f8bcdb6204eb1190eb1.png": "789f8a7370ecaf7a4d270d5e16333f5d85e8e0c61b53dc5a92d4d6af5eb1e94c",
+    "texture_3f8c1db2eec6ac091d30.png": "33cde8854eebe88fa859d5d44863f186e815cec3149916046ca5eb3bc5396218",
+    "texture_41d4ca112b468851edd7.png": "e87461240858f191f3253c5513cc55a82016a3899ce20fae1c94e6b3946ea754",
+    "texture_45399d3f228bd86c7efd.png": "e5932ce9c409310e0031e42c21cdb59687c1619bd2b4510ce46bf8c07a21e1c8",
+    "texture_49973a2afba0efbc9316.png": "ec66ac59a18964c92e92807d1362b19b1bac45d6143b5d7c03c872aea2d14c88",
+    "texture_4bbc8bb0df2e717e0379.png": "f20c947063bcc4c41488bae0fd0a15c2ed560d7f5c522cbcdf2cc145fcf1965e",
+    "texture_4d5e258ee86b357dca3b.png": "bd2bcbc9bbb8607cd019e9dd91191136d3846c1aaaa685a9fa7f2eb8eb80619b",
+    "texture_4ef6c36b21c39b1a423f.png": "d57a476828c2d149b872c4fbd775c26900bd2633f4a5c1061d33a2fb590df615",
+    "texture_4f3b684607054c0f9af6.png": "f4e57c7deb313bfd974a741c193d58e20186c75066ccc27bacfcafd39b0fd698",
+    "texture_5017f205a4f73e51bd43.png": "90b1ab27fcb588b6eed1d7ad3e64325744c6dfbd7d846aa1541a138ce40bd5a3",
+    "texture_5228ce844412687bcbb0.png": "769c18ec016df33369873229a891ea7e060eff4993125f00214da6289c8eb786",
+    "texture_539ac40827c4da72f6c5.png": "ea45fc1ab700fe671da9eb836fba4cec5a739d5cdfc3b38c7ed6d201c9ffdf30",
+    "texture_551c0db8fa4c9ac6f134.png": "e5b2d7b90dab0a5f43d6e961b34999366a8ce26338f02916e3fd2e5bcc559b9f",
+    "texture_558a3d6308b70204e308.png": "f4ddaa4804a1071cc08ac4148b8845b67143ec51fc34de0cde5dd921322e4567",
+    "texture_5cb782c8813078f22704.png": "5487c62a0a388718abfc938fd8eaf6485cb77ace5ccff0ee77b39e06d66ffe94",
+    "texture_5e2e96c034843b7812ee.png": "d748d516cfca8efb1cea44ced6f19967c57e8cb6113485afe741ce7c6a8c23c8",
+    "texture_6163a9fe340d9f10db8b.png": "d748d516cfca8efb1cea44ced6f19967c57e8cb6113485afe741ce7c6a8c23c8",
+    "texture_63073204991305ee5f55.png": "5a5a5dfaa6f857234c1fbb0563179afae05b6aa76772f3a0f5ebf6d52e97d938",
+    "texture_636d36496866b2895876.png": "b59fe9e36200aed82ae7621039aad0ba842955697d6a9c65c3a03a1e5f987716",
+    "texture_6387aae472e43e6b450e.png": "d112a9b4f6fa40e126db75444ef879f03ce2d4234a5f2c14a4e95ebf2dfa71aa",
+    "texture_64596ad8607b38befe63.png": "e364d5ad640096c5473d926378609b77d143973a76d6b29da76ecacfe016f92d",
+    "texture_6abab44de7e228a278e8.png": "a95fc3d069416542b0fb8de8e8211f6bdabbe4b7e36183bf52909215078ad860",
+    "texture_6d559f97d3df347f7698.png": "39e208c6a6d5f86ad51fa50bcca4dff4bd2ab35e50e45df0f5fa8215be7c1e44",
+    "texture_6df364d2792e139e0628.png": "d58d655a6120372d76ea34849aa6a1ed0127b3023ee3b16343244872c1497c53",
+    "texture_6f1f16091dc3b537648f.png": "b45adc7cb34b00794a107c13f00c094754f273fa83ddf5db9c9a9524a3023073",
+    "texture_6f4aa0d9abc61462b617.png": "39e208c6a6d5f86ad51fa50bcca4dff4bd2ab35e50e45df0f5fa8215be7c1e44",
+    "texture_7358ba6124bff46de021.png": "5d04b1ab3d4f2bd828a47b2078a8e782fd2d711d280bd34048580f816bc4e535",
+    "texture_73db870a617a768b5516.png": "c16d4c5496e2fc96110c8ed484a4a76f9e4d234a437237eac2eb4b3063c40429",
+    "texture_75825f1eae6e8cdf4892.png": "50bba53605d48a2c715cd6ceed0bb02ae0969c2fe3faa806c264f184958a16cb",
+    "texture_75afeef35fe809aab4d7.png": "2d0f79bbc6a7113589d484b11c01837f4a081a0d40324859f191775e4734482a",
+    "texture_7759c42be03da7d26930.png": "9b1ff3314da3f2e80b2366b02eae374dff4d9cb0895e72d6dc73c411cf2bacb0",
+    "texture_7a0277f820d121e5080f.png": "15a3658146642802de4182e82be91c77b30c32715c7a92412bd95cb2f91ba5f4",
+    "texture_7c3f1747f5deb684c337.png": "3842541b74914effd5ba494c74f3675e790b1b1ba9a8e2c172a9c75f2176e240",
+    "texture_7fe8a7446dab68524568.png": "33d1f531a0c535d583ae498bfbde8d67226b169ce4c2cb77685ed02dcd6fbb13",
+    "texture_8543140b5fedda59d8d1.png": "3be28cff5a426117d002b0af476ec0e627053bf7f7d29b14c7329d01130d1b58",
+    "texture_8634358c0d4d390a95bf.png": "1ff9102b7a37d19976d0274f9058d097b80333e68e4905148a26c10fc54bc009",
+    "texture_8ada95fa084e0a4e06c8.png": "838f3d0c39b19de01f19d069709717b66e51275d65cf5d20f3ee9a09e3156ce5",
+    "texture_8b47845a390041b14f71.png": "a482e3fa810388c6e140f77ac45554e108b4790ab9cee52e92af49bf896c8d0e",
+    "texture_8f3bedb16daba5bad00d.png": "a8aafc7c50061239967a2ef62b7b0de4edf39ab2b2c0bc33631a3f52a581e178",
+    "texture_9044531607404d2d4c0f.png": "805c2163fb38460526d718fdbac65bb8bf80c875692c7be52bdc34bc3b7e1d75",
+    "texture_9596e0262f1f86775b8e.png": "001717fe566927daba1e59f3008c7b8d52b0e6634477822b366832f98db01b24",
+    "texture_96409767940e4eeaa688.png": "41b0c34de3883ee77f7b2cf9630baa84b9da4315acb270a15cce2848588853c5",
+    "texture_966e5af9723b7197d646.png": "eaed07be5cd930595080b813d73bd14d2794025fff118789929445e8b876e8c7",
+    "texture_96da80e13cbe2107cf55.png": "0de7835ffa6a7b2cd7bd7ba62d41872b24a194cebcd2e4258ba07fe28f485902",
+    "texture_97537153ed518841d853.png": "fbb41aa91e6b5356d08848822adf5c976c2b56424851a814c728aabe634e88ce",
+    "texture_980d7a6710304a22b76a.png": "9f54ebc79b7b58f3f5be77b76cdbbed05385b8ac02d7d655a6683b1c79a6f2de",
+    "texture_98c88880cfaba4634079.png": "e82e90145b357a324664b0a60817b7651d9099a0099eda1c365a8047ef022454",
+    "texture_9a7a924f5aa74e900f22.png": "da08d0c8ad009fc9c49e435ce0f5568bb79327386729a19c15b646275f95c7f1",
+    "texture_9c67f3da7146fe321437.png": "0be0d74b062627e489bd1185ad86ec8f3e1984f7dc4eb469908095c0eedb780c",
+    "texture_9d3a4d539dcd5058e81c.png": "c26b2be8eb22560c95d31ce9228c31ac452701767473bd914994984d76730672",
+    "texture_9db5a5f6d11a6425db38.png": "7f6f460bb6282d7955826ae51b15ef5cdc2078ea7a4abb7362659dec1652a342",
+    "texture_9ff7dc808eb5ded823b4.png": "db01243dda7873765e0d5188408fd48b06bf43ebfd0083f132b9544c4e60edb1",
+    "texture_a139a2952eeeecc4c4bb.png": "b9c81e07516a8241e36d54cad3763880949d5b20308a059b812ff4895a966b99",
+    "texture_a1e64f27bc3dd5e77f75.png": "37b2621cdb71cd46bb2b54d318a39f48a1797290f3b7908d278615f41a7e59a5",
+    "texture_a83299626e1370c051d3.png": "fa5c6106b9e0025fea80838a7d1bf62cf364affe6a7793d7249af28bb8e9427f",
+    "texture_a840fd17bf59b8805882.png": "b88b8d8240b13728b5c5f19479edabce7c30d77c40aaf2ba53882460be249140",
+    "texture_a9426845dbb085656b32.png": "68b007420540c8a8e4f7b88a17e059133578118cca69cbdf93c537cb6cbe7150",
+    "texture_aa1d98217ad2ddb3f88e.png": "1156577c8d05faf19c898b0b87749053d8ef7728d3eec698d34470a3d2c8fd3c",
+    "texture_ab46d4a72e2a2fc92756.png": "ccb35131e423d0a37f5acf0706546726e8dcd89bd66772557626bdaa565d2b92",
+    "texture_abe3702455f2ac9f4026.png": "f9e93a8afc5faac7dbf0386c76a35ac10a7e3b9321d03a605236a84060ad59db",
+    "texture_adfa2afb7b4638571cbf.png": "e2c8549e61e61704da75d232da1c4d9474711eb068a8dc5a4fcac83f7099c322",
+    "texture_b0e5de51f001d13877bb.png": "b077e6effc991dcb4f6f165e4fc5e25b1ab46cf5727b5564c671499294eedd3b",
+    "texture_b12cd967b7e94c2e9431.png": "77de220a8e204f9bdfa824e66dc3727fd120f68ab8c3dd309a0bd785111e4b0d",
+    "texture_b1dbf83f3a616160da6c.png": "27d2bf2c98704e36931114c72bf155e10656d8d6236fb5da8823bebb804e9d6d",
+    "texture_b3162a7fe16df3dafcc6.png": "c3bf393e5067566082b08e36cdf6bff2e80565e9cdc160c3e0462ed932990fab",
+    "texture_b4d62bf3f10e668b296e.png": "7acd5c258918402bd279e898834e4cf872a25afde7c66b91f278b0f052885033",
+    "texture_b553aad221538bd2e6c8.png": "a8bc87555a16138d60b081f98d86268b710df473a138df3c0bd921eab994042a",
+    "texture_b6bb1b6b5767191aee61.png": "9689d51d001a9875197f6b97634ff777f15a372812ec5b58276fc8c3ece3ad3c",
+    "texture_b99126e8bfcbe17dd82d.png": "6f518f545440437010ace2c25909e4f71015eb3c9d5f08291573f211ee929f51",
+    "texture_bbae04cefbb98aa0f2ad.png": "7d61f71f745d1c388d3c15fb1776a08ae9fdbfdb9332366c8a177645c8665b49",
+    "texture_c1b99c114d88ebc6ea91.png": "4734b9aa2a9daff5951c8f0e2609484512243a0f91b75b2bc469601cdec76907",
+    "texture_c20be4495199370efef2.png": "fb6ed855411a43d00504923faef812eb6b90671a8f72f4061332a682152b4085",
+    "texture_c2419cefed255161a92a.png": "36b51e1bc29fecf7526b18728e985f6bd41e40a37d146b98cf24521df4050323",
+    "texture_c404d78304275fa7a7d3.png": "1b944e4ad08781ddd72b19260b32dbc78e26a964ead74ee51cefef9e510a273d",
+    "texture_c41c95419701800f4bcf.png": "2915385d954f8c76ddab7b64028d3a1ee64e61c81d9676cef3f0d51ed8831fae",
+    "texture_c96545bd7cbb80fe1923.png": "9a440431f1ca9ddd9c411bfc1dff475daf299529a3992e8234f80eda33d9f54b",
+    "texture_c9bfbcababb6c60279b4.png": "16167e2717525dd5f8ac67eed51cc0a33d9dca339057a9b58104896f50f84616",
+    "texture_c9e79088c93cd2343a82.png": "e295feaa185b064e1e0b42aeb3ef952c0a15b94f21c7f9e5db90e997c7d9988a",
+    "texture_cb8d6c474dba23dd893d.png": "9dbd665da3580525ca749b1550c5abb378df30e191cf1e8c16b39195f6df437b",
+    "texture_cbc00161358542bf8861.png": "456661099f85508df2739af19092c25262de53683dd3836d067b7251d259edc0",
+    "texture_cc0a006a00c949eabef0.png": "c52fd6ea2da88efb9904c1145ca2de0304df8f3d1be1d5aac88aceb14f5d0331",
+    "texture_cc923a5e7e7e4c878ba6.png": "763e37102366a53a16937da57ada08d7764e82e45add8c72cd3b1231c51a8083",
+    "texture_cfc020503b378067ab61.png": "69a5b62e73509ed481d30334e1ea4e5ab5d498d88708d19c477a90e46699fd17",
+    "texture_d3b9c4b2ccf2fcdb0d84.png": "1156577c8d05faf19c898b0b87749053d8ef7728d3eec698d34470a3d2c8fd3c",
+    "texture_d3e132e9512bfab541dd.png": "fa3c2ad93a9bcc8c0f659cd756e2d687067531bc1ebf45032d4f49220f27758b",
+    "texture_d501dfb09374f20a1c6c.png": "67d54051b471b0fcff50fb0e35334c3a9030664b81f2c59214865053dbc09cd5",
+    "texture_d83195764a928f00138c.png": "57faffcf0e7ec537fc79f5f2ddabd4bde5c8693bc30661b5b50e8ac7caead03f",
+    "texture_d859f9be9e7646fbc844.png": "2301fc31fd07f3301e02f1a713ad8438c9534e618e4e947668736f980c735fc7",
+    "texture_d8abb5a44407f0986bc5.png": "2d0adfbc6d75d980dbefe11c7df1f37dfa57e174dcc7e52bd28fc13a1a388b67",
+    "texture_da00836688d3d38d5ab1.png": "48fed3dca7e30806ab74d76c579e77b15dd7a35b5b36b671374be019f5b4557f",
+    "texture_daeaefc686c2a0835b38.png": "0604d9b9d698cf93589f54d12f5ec866653704f02af73612d9ad56fa35ad46f9",
+    "texture_dcaead30923a46bd03fc.png": "fc5095ef6955b365410d64542a92084273d978553a26d38a0b1c251eff58e1b3",
+    "texture_de437af9db26c8dbee4e.png": "65ff876906f57b652b1b514db260f16a9a7a60301166afaee8569088b8cab40a",
+    "texture_dfebf936809b73bb44d5.png": "89e9ebfe76eb373d368cf47ae67877b296300013f526a355e8862e60d50a6b38",
+    "texture_e16900619a8f0cd5813d.png": "33cde8854eebe88fa859d5d44863f186e815cec3149916046ca5eb3bc5396218",
+    "texture_e1ec8cd9281272b74c65.png": "b9c81e07516a8241e36d54cad3763880949d5b20308a059b812ff4895a966b99",
+    "texture_e3fce98b33e5c9350ab4.png": "70f2a8c633980d1a439ca1b9ae49908ba139c2b03f6dbb56f429fee6984e41aa",
+    "texture_e433c637a70502365231.png": "6bf3ea6b5c46c33daca4c1661bf7500a5a0c8760fe1df088de748663a061be73",
+    "texture_e4345763c4349c6d2419.png": "d98df77ee5a38480f19af3034476bcc495985eebe0fa9d804e41389cbf29d689",
+    "texture_e578c5583a0caabe9a65.png": "3df202afa879d6ecd09213d15f22f1d6a4248b41e63090bc516ccda94470f74a",
+    "texture_e8073a8d0934ac64b8b2.png": "e5b2d7b90dab0a5f43d6e961b34999366a8ce26338f02916e3fd2e5bcc559b9f",
+    "texture_e8e1baf260f5f4feb7dc.png": "2f8fdf6d14c1b16d359b761725467e532ce9e7889d580d9262c8c8a18707f706",
+    "texture_e9ab98c4250750efde8e.png": "f700e326ccb43a91909a259b052531bd157c53e9df2db42c6d1e6909449e670a",
+    "texture_e9c162aba0dc668ee457.png": "c16d4c5496e2fc96110c8ed484a4a76f9e4d234a437237eac2eb4b3063c40429",
+    "texture_ebe984b43cabdbe0d66d.png": "9f0bb18f0629cffd48d6a32762d0cfd7dafa6d02898ea9ca6c87090eda4a8757",
+    "texture_ec92450b96efcdba3a32.png": "d3269e52b795c9ecc1b6ce97e9872d777f72a4fc51a986dc82363723c25350ab",
+    "texture_ef9f6a5e39a4893fc0b2.png": "9727422fdb77e285ca08ac2f387c924867b05f1463b89c91d5a74f59a64c9070",
+    "texture_f0f3179d6e75cedf7895.png": "d69790c1169d8017cb91767b848dd048f32684878f53fc5e51c3bf8bb1333451",
+    "texture_f43fdf586ec8efdc7f99.png": "73f7b0263c078f1e005997e138ffc05fb3d377a82e7edb2b9959646fce43f9e1",
+    "texture_f576ad97990a42abff92.png": "2d0adfbc6d75d980dbefe11c7df1f37dfa57e174dcc7e52bd28fc13a1a388b67",
+    "texture_f9557843ff32b06f89a6.png": "3df202afa879d6ecd09213d15f22f1d6a4248b41e63090bc516ccda94470f74a",
+    "texture_fb1cced4ef75ebf97dc8.png": "e8218d39ce468befb4505467a8e1ed2db73358950af7708802298bbec5f3eb1a",
+    "texture_fbfbe8b9cadd841125d9.png": "1bf233376b9d070d4447a54948c14edb942f24b76c2e9481056b47c3f077786e",
+    "texture_fd6c3b5a751f02beee86.png": "de091ca6451da4a71d8563795b22d3a2fdf8959dda0be957f5aed1f8ffd1a327",
+    "texture_ff280b2d0f93c9aeb725.png": "0e90efd7bd2f3f366e40fe8ad283da2c99a45246e1a20a6c89e9b9464bc5df43",
+    "texture_ff29dbd1f1eadf522874.png": "aca2cd16300ac9a848b00adf8f2f8a81634c75f56b03ea75adbab4ef337d95dc",
+    "transparent.png": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f"
+  },
+  "items": [
+    {
+      "name": "Large ammo pack",
+      "category": "ammo",
+      "classes": [],
+      "id": "ammo_bfe7dbb329236e0c",
+      "mesh": "ammo_bfe7dbb329236e0c.tfmesh",
+      "source": "models/items/ammopack_large.mdl",
+      "triangles": 910,
+      "sha256": "77e25388b6174b80ba5a95f1aa977d91bd11e5b545711e8325d6b9ad9ff33fa1",
+      "sources": [
+        "f1588bc43d482b286ccce3383a2e99624a794efd4a4606f3599f2004af29971f",
+        "f121b1cc51ce40cd9f27bd74c1206c02c0ce6f3141b0dcef0ebec086092a29f9",
+        "4eb5dbdf3d0555072e6ae537eebfcdc4b1d37c8a1569f7387601e7d8a69c24af"
+      ]
+    },
+    {
+      "name": "Medium ammo pack",
+      "category": "ammo",
+      "classes": [],
+      "id": "ammo_ae55312afd7e6aa2",
+      "mesh": "ammo_ae55312afd7e6aa2.tfmesh",
+      "source": "models/items/ammopack_medium.mdl",
+      "triangles": 632,
+      "sha256": "6c427cf3238a67805b54f5c1928051741e487c1d5718baf899a7d4c8cda4170b",
+      "sources": [
+        "7d5abf3168d8f36b4b4973e2353a6a97b09da8bf4307d47820dec740a1c9208f",
+        "d21cf6de26a37800527349c7bf67b53e8dc3d8e26906c154e385fb552905a566",
+        "bcff0e006d0095121dd06c522441938bf2ce2cafc2cb70670a44fc39a79781b4"
+      ]
+    },
+    {
+      "name": "Small ammo pack",
+      "category": "ammo",
+      "classes": [],
+      "id": "ammo_ebf231fd9a2ef5b8",
+      "mesh": "ammo_ebf231fd9a2ef5b8.tfmesh",
+      "source": "models/items/ammopack_small.mdl",
+      "triangles": 476,
+      "sha256": "9868471a86ff1c35699badec1b9a372b25d1ea489157cd6469ba9e2a070ee290",
+      "sources": [
+        "e8af0ca4dbbf1edbe7acb8d2eb5e06c15e23727841186748e21ab10f00612c51",
+        "a39cf792844ffe6d7f7a0b1785eac585d95b94a13d5a7f12659e83da56152043",
+        "5a7eb283f9bbe194bf2711b55d3ee07154bdc090e84bf0cd17023d831b17870e"
+      ]
+    },
+    {
+      "name": "Large health pack",
+      "category": "health",
+      "classes": [],
+      "id": "health_c210191b9dda498d",
+      "mesh": "health_c210191b9dda498d.tfmesh",
+      "source": "models/items/medkit_large.mdl",
+      "triangles": 308,
+      "sha256": "500df698727094232f9e936d340289466ce864ab9e469cba0f0cd1486c29b71f",
+      "sources": [
+        "6e016544c5af6abc94a1b2a2376dff9fc2503ed2c45147c96b4b5353453207bd",
+        "92d08d3810b46f63b68ac38bad8ae90c32b202c8558713f60527ca6a44760a7e",
+        "969425bcb443af2646eff6b1c3f177b97e518b22dae2f9ae418ce53da7999cb8"
+      ]
+    },
+    {
+      "name": "Medium health pack",
+      "category": "health",
+      "classes": [],
+      "id": "health_2530af1060fa71b6",
+      "mesh": "health_2530af1060fa71b6.tfmesh",
+      "source": "models/items/medkit_medium.mdl",
+      "triangles": 536,
+      "sha256": "a958003c0f1047ab586535d1bf36695e2575da14f5d7100029d54a488dbb60da",
+      "sources": [
+        "48ddd82c229952bf6c7dc1d285acf4a9c881a795ebc652df73735ecd32a7777b",
+        "9b99980b4372517cdabaeed103efa6f920d68fc08495fba9033c975b19caca81",
+        "ac71d82c1caa135340f399e76881897fde6c0b3533e71888094e525be260f0f1"
+      ]
+    },
+    {
+      "name": "Small health pack",
+      "category": "health",
+      "classes": [],
+      "id": "health_842d5e64933eedf2",
+      "mesh": "health_842d5e64933eedf2.tfmesh",
+      "source": "models/items/medkit_small.mdl",
+      "triangles": 316,
+      "sha256": "b8f8d3a31ddf26b73846a1ce3484fca1fb6aa259f4bbde331213ce8e692354bb",
+      "sources": [
+        "e80c9872c8619e3ea3afa3ba488faaa3745974de879052b9132a2d24af564c4e",
+        "ec34d361da9f8a93bf6c372d441ead29b2a7217f120fa25d421ae4e6bcff30bc",
+        "1b260039c7153dcccc5d00b686e7c978f779ce6efbafa616a06b72887af4da7f"
+      ]
+    },
+    {
+      "name": "AWPer Hand",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_ecae1514f0a6bf72",
+      "mesh": "weapons_ecae1514f0a6bf72.tfmesh",
+      "source": "models/weapons/c_models/c_csgo_awp/c_csgo_awp.mdl",
+      "triangles": 3858,
+      "sha256": "0368d9e66403452f97ee2f7e0f5c7d0690127eff7afa580e60d0dac7d979b415",
+      "sources": [
+        "b066c0b9a4f0e8f5d06efec039bfb24884522cfe915254d42f7bc5052ebe6e1b",
+        "3a9f640cf2f1243155eb20f17bb1762e2c0e61680cbf228ada064051035f8b03",
+        "dd54434dd1641aa46c7078d784250337382962b6963ccefe55789a63e8f38ea4"
+      ]
+    },
+    {
+      "name": "Ambassador",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_41144158ef5fb694",
+      "mesh": "weapons_41144158ef5fb694.tfmesh",
+      "source": "models/weapons/c_models/c_ambassador/c_ambassador.mdl",
+      "triangles": 5302,
+      "sha256": "2a12233bf2dad8a369e4098511f369e3e1ab6d36e817083768ce55ebb66618dd",
+      "sources": [
+        "a1bfb3540bd2b680fe0fe6e615f386f33c451fc6b580d7bccd6e384a79739586",
+        "d6fc2d30fe7bed0eeb7aa6ac127cf9f8d70bd0ee4499c67684c14ac07f5dee39",
+        "730091efb32d8a5cafa7ee0279355761b763f874a0af213bd8b99d3a3531e5f6"
+      ]
+    },
+    {
+      "name": "Ap-Sap",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_87bf98c5ddd650d3",
+      "mesh": "weapons_87bf98c5ddd650d3.tfmesh",
+      "source": "models/weapons/c_models/c_p2rec/c_p2rec.mdl",
+      "triangles": 1994,
+      "sha256": "c2c56fc37a6e0c2b320cb940d513174e6220876af34aa4e719cbce5f49daa5e4",
+      "sources": [
+        "3f436c6578857d0bb313af274f4ed89c7bb1cfd8172b4208c183d23192037db0",
+        "889dc12e7a0c7db5c3f3125308c038967fdbe8034be49365dc3eab0f534d73f2",
+        "b02eefac2d6ba033b0a2b0838ae3c877b085db527e5fdd62a6a23d598a2eb0bf"
+      ]
+    },
+    {
+      "name": "Axtinguisher",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_510d77ff3b4448fc",
+      "mesh": "weapons_510d77ff3b4448fc.tfmesh",
+      "source": "models/weapons/c_models/c_axtinguisher/c_axtinguisher_pyro.mdl",
+      "triangles": 2887,
+      "sha256": "6d1d38555a602b590b66e91366443ee2af86bdbe618724e85a00e4dc4b1a0964",
+      "sources": [
+        "907af44e96fb41eb976f9b5806ef8761e8338f8348610399573b26e22524abf3",
+        "af8ea32c73b393fceb60b3cbf2b441c40fa3e86c8b4f8082de223103cdf6d044",
+        "31371047685318c246da50a2bcb8987eb8ca427b6d9d7cf94fd150bdc584d6b4"
+      ]
+    },
+    {
+      "name": "Backburner",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_0110522baa315c7c",
+      "mesh": "weapons_0110522baa315c7c.tfmesh",
+      "source": "models/weapons/c_models/c_flamethrower/c_backburner.mdl",
+      "triangles": 5878,
+      "sha256": "f92666e44f2e3e794850b656fc072f99bfe70363723e1fc20c511dc0ca83efb8",
+      "sources": [
+        "af71a9276374794335eb66a1b90467dae8f3aea05313038fbb4e069c894169ee",
+        "c2c95e8b8141162ee205cc4e0a4ae3270a20fe176b92721346e0ab9a34ac9f21",
+        "eb35714d9c52d27109836f9bcb2c1ba45fe17fd27089161d0d9237965883396c"
+      ]
+    },
+    {
+      "name": "Bat",
+      "category": "weapons",
+      "classes": [
+        1
+      ],
+      "id": "weapons_59c5efc0133032ac",
+      "mesh": "weapons_59c5efc0133032ac.tfmesh",
+      "source": "models/weapons/c_models/c_bat.mdl",
+      "triangles": 1552,
+      "sha256": "a072ec18c0de5c9ee5c56f0c6bba62f80e7cd8c9553f0020a89fb84c416587a7",
+      "sources": [
+        "2b49b70762541defc74018f2fb11d766a19994bca0b8a535dade88d246c31eb6",
+        "c364de41769196f49a72553f5fc930cdd52a82f11735fbaf135c42aaaa9905d8",
+        "cd74698527bc526e7d5538bc2edb1925cda586eff421805a179957dff5785b5d"
+      ]
+    },
+    {
+      "name": "Blutsauger",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_0b4af4b90ee25714",
+      "mesh": "weapons_0b4af4b90ee25714.tfmesh",
+      "source": "models/weapons/c_models/c_leechgun/c_leechgun.mdl",
+      "triangles": 2606,
+      "sha256": "05ef7d966c8ac65fc759204cd8ed6486b4a4048dc969b591fd42da9070c94d8e",
+      "sources": [
+        "e833245a35826a1ac1889f137faef4f3a98554324776e2134b535102d19544d1",
+        "590b48971e6a40749c345e482d836e4f7d7ae6d698fa3bde7d78b3addfb196c5",
+        "232a5b8a1ac303356eaf688d0f9d0c16d53a466c1b1619f5cd5e410a57042828"
+      ]
+    },
+    {
+      "name": "Bonesaw",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_aa126ae10b833fb8",
+      "mesh": "weapons_aa126ae10b833fb8.tfmesh",
+      "source": "models/weapons/c_models/c_bonesaw/c_bonesaw.mdl",
+      "triangles": 2402,
+      "sha256": "c48541afb2e7641a610781520e13edf9b66ad3b14df7a25f5336af603b83964f",
+      "sources": [
+        "d38c97e1fc708d20e233ae74f1ae998c4cbf81bc4ae572e93cb59733b3fde165",
+        "74cf0f0348c68c62d8d4f1404b08f15bef863a3b25617dc3f38c955910a3433f",
+        "eb2e11899b84e17bf7f5f3aca24c78d5675ccba9f83fe48e91f569b02332cc97"
+      ]
+    },
+    {
+      "name": "Bonk! Atomic Punch",
+      "category": "weapons",
+      "classes": [
+        1
+      ],
+      "id": "weapons_73aaca77e78fafa4",
+      "mesh": "weapons_73aaca77e78fafa4.tfmesh",
+      "source": "models/weapons/c_models/c_energy_drink/c_energy_drink.mdl",
+      "triangles": 854,
+      "sha256": "51a3101ce82b61a3d03ed502565d77d282ffb705a7f258ae519cf5616f39ec2d",
+      "sources": [
+        "e3126784e3d23a42619377989eff1e05e5afa3df160711a65d6f478f9afddf96",
+        "37bf93b1f13c4ae9e78443a65558fc25a73a82d22bc0d36e115dee57c1f63237",
+        "b3efd2682ab30937a4a2fa0a139ceac7d451ae4e971fa63390eb9d7b4c30012e"
+      ]
+    },
+    {
+      "name": "Bottle",
+      "category": "weapons",
+      "classes": [
+        4
+      ],
+      "id": "weapons_0e8ca926ea7ef24b",
+      "mesh": "weapons_0e8ca926ea7ef24b.tfmesh",
+      "source": "models/weapons/c_models/c_bottle/c_bottle.mdl",
+      "triangles": 3200,
+      "sha256": "87175d47e6492f8d4b123c06ea2100d0495afc850d3a2f4efedfe921573ac076",
+      "sources": [
+        "dfe7b97faf37ade8e0d3ad7bf08be9d79070185ddddbc098308fe843264139ec",
+        "6b8e528ac31a460420c11f5c424929c0652686dd81dcaabec1fc9779efb0f0c3",
+        "9752c6a6b57485c72c45fb54aede9360ecf5cb44254f1cb3c228c62666b44def"
+      ]
+    },
+    {
+      "name": "Bread Bite",
+      "category": "weapons",
+      "classes": [
+        6
+      ],
+      "id": "weapons_b9837510099c1160",
+      "mesh": "weapons_b9837510099c1160.tfmesh",
+      "source": "models/weapons/c_models/c_breadmonster_gloves/c_breadmonster_gloves.mdl",
+      "triangles": 5792,
+      "sha256": "b227bd4ac161a7ac6cf410bce4cddfa76ec2612885a47a11a73b72e92ddaaa0c",
+      "sources": [
+        "f00ebf8fda159d7af9abc7ad14052f9ac8dd4d1175113924ed1b7424d1745d2c",
+        "4e61ddc244156b2c02c4708713c9bc2b98c49fa903fb644bf5257b039e962503",
+        "ff6d9cf81b7536adf187a7fc6f9615118851bef3f6d171ade15003757bf0a86e"
+      ]
+    },
+    {
+      "name": "Buff Banner",
+      "category": "weapons",
+      "classes": [
+        3
+      ],
+      "id": "weapons_b3b269195cb89b98",
+      "mesh": "weapons_b3b269195cb89b98.tfmesh",
+      "source": "models/weapons/c_models/c_bugle/c_bugle.mdl",
+      "triangles": 3760,
+      "sha256": "737fe5877bd3ae82f9bb7acad23cad9c2091614db0862b4998d54d15206f6935",
+      "sources": [
+        "f20ceb0abd4d00cd579694b1f2be728c72eb4c79c73f1acee93141f7fd61c5c0",
+        "8caf9044e70e5c9121f4c98a236ef339ff2e048756ef33487adb0d7cdb5a033a",
+        "b6b97538e39cd81a0ded8c4ef29d339d2b62d98a74dd915ac3a58e17137099f1"
+      ]
+    },
+    {
+      "name": "Classic",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_a769b57c571fffd2",
+      "mesh": "weapons_a769b57c571fffd2.tfmesh",
+      "source": "models/weapons/c_models/c_tfc_sniperrifle/c_tfc_sniperrifle.mdl",
+      "triangles": 7087,
+      "sha256": "dfb78c189a01aeee4b420ff2fb743c3a736c5f91d008653a0620b78a50869de3",
+      "sources": [
+        "90ba0d7e62ba03cfb333bebe8fab2cc836e0bb428e1c27b3e103630d26df4e44",
+        "0732c6b5a01813d7f587affddba65ea40fad946ee971119b4428f36e5c43f8f8",
+        "c2191b042ca1410b7c7b7937cf004da98b726e71a15df334f9df531719d2c126"
+      ]
+    },
+    {
+      "name": "Cloak and Dagger",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_b51dd7324cf9d638",
+      "mesh": "weapons_b51dd7324cf9d638.tfmesh",
+      "source": "models/weapons/v_models/v_watch_leather_spy.mdl",
+      "triangles": 4434,
+      "sha256": "953d87c53dfea73b9471a2db396cb947c2fe94674c42aeaa2eee45a6bc496d0a",
+      "sources": [
+        "ad5fbcba711a93956224b7e5fd4c5a966a20fdfa64e3b0c24985d463c31d9ca7",
+        "d6deec46572aa24a3fc373b03d425bf1418dffcfcc10c9f08955ab1868852ff7",
+        "0096108f5819261a1cec79f2f088c7f2830b57e1d1ff8459696921df9ddcc64e"
+      ]
+    },
+    {
+      "name": "Construction PDA",
+      "category": "weapons",
+      "classes": [
+        9
+      ],
+      "id": "weapons_d92a7ad32fe267dd",
+      "mesh": "weapons_d92a7ad32fe267dd.tfmesh",
+      "source": "models/weapons/c_models/c_builder/c_builder.mdl",
+      "triangles": 1154,
+      "sha256": "853db86482f16fb5952745dc3667d2c6f4770d86562eb12769c41948fec30321",
+      "sources": [
+        "99ff8e7d4d06eaa93920d5d3565fb408fc1f5fc5d9697f5bd0203c19c42008fd",
+        "40228a4c79e54acf3f8d72f244cf3d2aefdae35639fb122d2ed86635a3e1d05e",
+        "97c84991dc113c0f7a3e23d05f3d975c568f60dfc2efd16eb54b557ab5ffb6b8"
+      ]
+    },
+    {
+      "name": "Dead Ringer",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_4a42014653c58f52",
+      "mesh": "weapons_4a42014653c58f52.tfmesh",
+      "source": "models/weapons/v_models/v_watch_pocket_spy.mdl",
+      "triangles": 9693,
+      "sha256": "4f895e8a8450782cfbc4756c400d18ca61f9c82433783f585f7404fd18b68209",
+      "sources": [
+        "cff620058d05f2c48f0c322aca7164ef0a726a06d9f6427d4842d5c3f0c744da",
+        "34a3481b1a57e0731952b85543d6755614c59913cf6a159b350b13a76a806e5f",
+        "4d13824b924feb4b843946cb1719fe320ba70fdd785efe8f545dd629b110785c"
+      ]
+    },
+    {
+      "name": "Destruction PDA",
+      "category": "weapons",
+      "classes": [
+        9
+      ],
+      "id": "weapons_d4d4caefd7d0c9d2",
+      "mesh": "weapons_d4d4caefd7d0c9d2.tfmesh",
+      "source": "models/weapons/c_models/c_pda_engineer/c_pda_engineer.mdl",
+      "triangles": 1746,
+      "sha256": "16ed19f77032659b8bf163fa2ab448e452c9e15f377cd6e65fdee6699f19e4c6",
+      "sources": [
+        "86540d5507c6aad008d7bfc8558fc3d15caad4d2570b913ce0f87d4188561bc9",
+        "a3f50569eaca77f918558bf17ca809a233d2d1eca84af69a54533f66af770e4e",
+        "ec91d17ecb0e3762ceaef5cd93b9cd877f9192a46aa4e74b7f52692a1a11c49d"
+      ]
+    },
+    {
+      "name": "Direct Hit",
+      "category": "weapons",
+      "classes": [
+        3
+      ],
+      "id": "weapons_7e37607b6b6da554",
+      "mesh": "weapons_7e37607b6b6da554.tfmesh",
+      "source": "models/weapons/c_models/c_directhit/c_directhit.mdl",
+      "triangles": 5381,
+      "sha256": "505f262d54f6b0b3c059d4404429386bedabf4c5ad73de5af4b0190e37e21639",
+      "sources": [
+        "143f7e484779a8f006a27aa67be2b162b64eb953b3c5c0a01cb903b6fac3a506",
+        "e81dd922bc989c2ba975e1989704cf93847e099d536d52321d9a4cd6ccaa3b60",
+        "b84ade885907812d15bcb818209840998ce86958ece1cd2a30c1abaadcecbd75"
+      ]
+    },
+    {
+      "name": "Disguise Kit",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_a69d5ba57e7ce000",
+      "mesh": "weapons_a69d5ba57e7ce000.tfmesh",
+      "source": "models/weapons/w_models/w_cigarette_case.mdl",
+      "triangles": 590,
+      "sha256": "2e8c6268750f9b5b59e4246f8af273dca80cc16f3dace52f51b059bd2b210ad7",
+      "sources": [
+        "f2332d30bf9a036869ecef8e7bb15c18269ad030c7bbaa9d6556555b1184b988",
+        "67b90183f9295685767b29081285fe47566e1426e56e246bd7e9819ee33e22b7",
+        "798862bf3394daa2d1c1aedeca1a402e0b58b06386ed773fbe7d0d6bebd60e0e"
+      ]
+    },
+    {
+      "name": "Dragon's Fury",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_0d0c565e5f1ed492",
+      "mesh": "weapons_0d0c565e5f1ed492.tfmesh",
+      "source": "models/weapons/c_models/c_flameball/c_flameball.mdl",
+      "triangles": 7668,
+      "sha256": "54bc5b3c8da18d40e990c083986ba7819edb79562c73ad4e744e3221a1de0e1c",
+      "sources": [
+        "6a025bff6cc16be46cb989fa7628cf1b3cca828fd411fcae858825292d33aa90",
+        "d87254583d65f55baefb593d62836e9f1e52273cc3afa3e5574f15d59bce5c99",
+        "e9ad28733742c9c20b1ba7430ff69a2ec8f5cb7bbe70a2715e2debf19121e1a0"
+      ]
+    },
+    {
+      "name": "Enthusiast's Timepiece",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_39822e19359b0181",
+      "mesh": "weapons_39822e19359b0181.tfmesh",
+      "source": "models/weapons/v_models/v_ttg_watch_spy.mdl",
+      "triangles": 4297,
+      "sha256": "330103f10a2ab13260c0c92133928c820e4cea10496df92b558bcf83fd7ab5da",
+      "sources": [
+        "267e896affd5ab19ad551c33c911e247567dced7f47f1c95a0f1a6278f1699f9",
+        "e9fb14d40ca5e21b42d31cc4798a8f3db5a272cf77b74d01c05d2bcb1cae7816",
+        "707fa1151c662ce658d28d922a1d082a69c88af7a76779dbd98740be0e2f755f"
+      ]
+    },
+    {
+      "name": "Equalizer",
+      "category": "weapons",
+      "classes": [
+        3
+      ],
+      "id": "weapons_9b9755bbf77b07a5",
+      "mesh": "weapons_9b9755bbf77b07a5.tfmesh",
+      "source": "models/weapons/c_models/c_pickaxe/c_pickaxe_s2.mdl",
+      "triangles": 3843,
+      "sha256": "6151024b92a44e1bd983930dca38c24d7a263269effba777ae37bf841d1de264",
+      "sources": [
+        "f6802c37472edcf70d44447394f132066f9adc78cc086a2516b96d5375ff6726",
+        "7462c7115c7d934acfddd8811eb162db56edd2f96df09b0ce4d3ea70baf3600c",
+        "68bffdb302d4553042f0953e93c46ba9cf87806f71359a6d8553fcaad0139964"
+      ]
+    },
+    {
+      "name": "Escape Plan",
+      "category": "weapons",
+      "classes": [
+        3
+      ],
+      "id": "weapons_1702e9e0f5d71615",
+      "mesh": "weapons_1702e9e0f5d71615.tfmesh",
+      "source": "models/weapons/c_models/c_pickaxe/c_pickaxe.mdl",
+      "triangles": 3843,
+      "sha256": "6151024b92a44e1bd983930dca38c24d7a263269effba777ae37bf841d1de264",
+      "sources": [
+        "fbd5c9ae36b8170b75e354b8de40127c3134814bdb2320857aa3dc2c31d2173e",
+        "8e025aca9135ad1197431d60166d69d66d7979f406dd4392980ad7aa716199f9",
+        "1797dab44e49a89156b4ef42a207455f7c9bc54456468be6c635151fee58a006"
+      ]
+    },
+    {
+      "name": "Eyelander",
+      "category": "weapons",
+      "classes": [
+        4
+      ],
+      "id": "weapons_c2add70d9201d181",
+      "mesh": "weapons_c2add70d9201d181.tfmesh",
+      "source": "models/weapons/c_models/c_claymore/c_claymore.mdl",
+      "triangles": 3893,
+      "sha256": "1caaeb7b930b026b5149a40192dc6329466372e5b4622499b9014f06585c35ab",
+      "sources": [
+        "122027c956d7dad7b526e92720d890af514a5d629886fc5b10d85796f963989e",
+        "bbb55e15473bb3a282cb375c72b9f96365aa2e52cc2d8c50ac78a5753dcfb773",
+        "ecc96b26958357b8fd53ba556063bd91eb666613708679c48d083c64fd4d545d"
+      ]
+    },
+    {
+      "name": "Festive Ambassador",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_488ac894bf326371",
+      "mesh": "weapons_488ac894bf326371.tfmesh",
+      "source": "models/weapons/c_models/c_ambassador/c_ambassador_xmas.mdl",
+      "triangles": 5825,
+      "sha256": "2e5249473ac0ba2f553d3fcea4189d2b490a4b2cd09d17ceb70129ca13ed1b48",
+      "sources": [
+        "d65c34386d520d24468b6ae5a5fc0632ec8858be6cb8f7bd7eec3f56e0ec33b6",
+        "b06ed24b16518d224dd358d954d24875cc124b430ca1165c720b130ec7be4f7d",
+        "711773707e186bc25b4657ed8640cf52a9fd9885be1d99acc30e5a6c9788b2f2"
+      ]
+    },
+    {
+      "name": "Festive Axtinguisher",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_9258572a4a7943ae",
+      "mesh": "weapons_9258572a4a7943ae.tfmesh",
+      "source": "models/weapons/c_models/c_fireaxe_pyro/c_fireaxe_pyro_xmas.mdl",
+      "triangles": 4227,
+      "sha256": "daa8c4e7f067149f5b3738d8700bf3ab06d950abdaf9f97b16dff8d538bad7f5",
+      "sources": [
+        "3bd8b786f093f178a1bba5f1b520aa60f20ac9c62333360b92bfe046910f4199",
+        "9e9e9cca6e80587190f05b6dceed3c7d3a8347be7c518d931a26837f5beec6a2",
+        "2aa8d3268c811147f1c7048125b3ee73bcaf16ccae0f9255e5bdf9fb5e167a42"
+      ]
+    },
+    {
+      "name": "Festive Backburner",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_af67883c45e20646",
+      "mesh": "weapons_af67883c45e20646.tfmesh",
+      "source": "models/weapons/c_models/c_flamethrower/c_backburner_xmas.mdl",
+      "triangles": 10142,
+      "sha256": "f0058277116989e3dd54c651997040aca7e5eee13fb38ae67ead401fa5e4c675",
+      "sources": [
+        "fea4743558384319bf443be7b9307b8752cfc71f06b89a8f1005cde98ca83102",
+        "7b8c25c4f48910f9b332d59468d49cde74b3c09ea9807d1992a6349a1cc323cf",
+        "a8d3b222578c622f7b8c4864b1c64a46327a30b0d766d87850710d2a13a9bf3e"
+      ]
+    },
+    {
+      "name": "Festive Bonesaw",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_bc803d5d498d30b9",
+      "mesh": "weapons_bc803d5d498d30b9.tfmesh",
+      "source": "models/weapons/c_models/c_bonesaw/c_bonesaw_xmas.mdl",
+      "triangles": 7713,
+      "sha256": "e2fea299a580cda75abfc9b2e9ea32740bf92cd425b4af9b003c9fe44fb6c8fd",
+      "sources": [
+        "0fa22fff4bfd2b86f16e3e729e0fa137bcfeb05d013b4d57b8170ae2224196bb",
+        "beb53a5ce3be5a8a4bd31987f3b0b5048e4c7938d06728dff37b77438ddbd39b",
+        "caa8aeb956c4e6e3f6cc889795ce2ec7427dfb6c5021929e3e5e87b66b487ecf"
+      ]
+    },
+    {
+      "name": "Festive Bonk! Atomic Punch",
+      "category": "weapons",
+      "classes": [
+        1
+      ],
+      "id": "weapons_de64beb2aa9b264a",
+      "mesh": "weapons_de64beb2aa9b264a.tfmesh",
+      "source": "models/weapons/c_models/c_xms_energy_drink/c_xms_energy_drink.mdl",
+      "triangles": 1846,
+      "sha256": "f9676fd89fa057f698602fbbbcbd64717c1827865f2694d1dc7e90a23f2f85aa",
+      "sources": [
+        "767e676a95cdd1dea76fedc58dfafa049da35d402605c5972a8b20ff378a531f",
+        "afb342b093f9520aef2273935bddc9c2eb7e54ecaa207aff35f4c006ddefd74f",
+        "9fd6a53bba09271cc72654c6df507c54c909d9299b10d397ae2b19e98bd0f6e5"
+      ]
+    },
+    {
+      "name": "Festive Eyelander",
+      "category": "weapons",
+      "classes": [
+        4
+      ],
+      "id": "weapons_044bcd5e2f3eb0ed",
+      "mesh": "weapons_044bcd5e2f3eb0ed.tfmesh",
+      "source": "models/weapons/c_models/c_claymore/c_claymore_xmas.mdl",
+      "triangles": 6855,
+      "sha256": "d47b1733693cd5705e50e0b5009f482c520c959a15be80cb7db40a739f0167be",
+      "sources": [
+        "14a6d6ec5747ffa0e596e46a0ee780a121eb44b1fce8f576c5ca73c2b9707216",
+        "ff188c3ab945e3741f321ce222e6295f4872fdd85e8a50e56dc8713e3453e468",
+        "6f0cda25fa17e66f72b489dd312324af8f1cac994c158c32791e8ae7be2b235a"
+      ]
+    },
+    {
+      "name": "Festive Flare Gun",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_113e3b688f49b871",
+      "mesh": "weapons_113e3b688f49b871.tfmesh",
+      "source": "models/weapons/c_models/c_xms_flaregun/c_xms_flaregun.mdl",
+      "triangles": 6324,
+      "sha256": "9d1656c0148b64fe702a560d33c994d0fd6b28105852f48f1fa8e24fa9cc446f",
+      "sources": [
+        "2180f8749a91560585e74d2fc4789b1bec04c1b79eed967b2d0d183227583030",
+        "0cf7a0c93d364a5719550178930a11bd0eeaa90873e0f1f413e2a8a2f05d08b1",
+        "84df14d5020ddb9eef9ed19dd6d09e7a659924dfc6e70a561b32c401d3bc07f8"
+      ]
+    },
+    {
+      "name": "Festive Force-a-Nature",
+      "category": "weapons",
+      "classes": [
+        1
+      ],
+      "id": "weapons_5e4e93751b901fbf",
+      "mesh": "weapons_5e4e93751b901fbf.tfmesh",
+      "source": "models/weapons/c_models/c_xms_double_barrel.mdl",
+      "triangles": 4332,
+      "sha256": "84d2fa3e3ba699580382b7b49b4a6fe33a89ebea8a356eec3d74edbc55a4f14a",
+      "sources": [
+        "0bbcfdb24cf4081a64325ba364455da695d2d8da2bb37c63e071d42d0e06fb43",
+        "f5041143cdccb71c5848b2cdd747bd8541b20a50b6a5d69e0c9c980c8927135c",
+        "175b2dda6787d2fb1638229af280c466671885099d97119aa2b5dae4b9afc5f8"
+      ]
+    },
+    {
+      "name": "Festive Frontier Justice",
+      "category": "weapons",
+      "classes": [
+        9
+      ],
+      "id": "weapons_bff7b6a20bf39c3d",
+      "mesh": "weapons_bff7b6a20bf39c3d.tfmesh",
+      "source": "models/weapons/c_models/c_frontierjustice/c_frontierjustice_xmas.mdl",
+      "triangles": 7881,
+      "sha256": "9de7c91d163a2661163f9e9ba049409a041bf31c20984c260ae99158d01977e9",
+      "sources": [
+        "b1da1b53e080da33baa4142619abcc0b42dc881a367863ad6d14ee8629025b83",
+        "78467c688ead4009b8c7979498c5ac960425f09f529a3a67f1b8b91a845f9e47",
+        "00d85428a5b5a35718c28745ebdab0db1b5355e46b5e09512b2a6027dd53e030"
+      ]
+    },
+    {
+      "name": "Festive Gloves of Running Urgently",
+      "category": "weapons",
+      "classes": [
+        6
+      ],
+      "id": "weapons_4481758980c6de4d",
+      "mesh": "weapons_4481758980c6de4d.tfmesh",
+      "source": "models/weapons/c_models/c_boxing_gloves/c_boxing_gloves_xmas.mdl",
+      "triangles": 8566,
+      "sha256": "3095ae8bd51f54e71d6a90b3ac7530d19225a3b7393228f3240413d55fb1ce9a",
+      "sources": [
+        "26c24617540b8cfa1efd85fd5fa77062f1434b6955cabfe9c1b75ceffe667dd2",
+        "e858f5b1bed7105b629ba6ed8c097fc99df79a11c378088e58f98956180d6836",
+        "72cf16bda503d8807b5626e6d061c9db2892c007e061a5c91e40c959d7820ed7"
+      ]
+    },
+    {
+      "name": "Festive Grenade Launcher",
+      "category": "weapons",
+      "classes": [
+        4
+      ],
+      "id": "weapons_4a556364ecd12f56",
+      "mesh": "weapons_4a556364ecd12f56.tfmesh",
+      "source": "models/weapons/c_models/c_grenadelauncher/c_grenadelauncher_xmas.mdl",
+      "triangles": 6791,
+      "sha256": "d32d6e447b965bf64252ea0df7a1218f2c18a5bcd58ccf77250aa63f49dcc773",
+      "sources": [
+        "bfec93ae696b26d3013290eddc709914776774c3249ede116632c62a404ca105",
+        "15f3f6aded35b759ee2d0c8d6fe66bd8b21d6d87ca44c5f7c283694e28efd13e",
+        "51185fd2df7dc8a7500ac7045d88bc14d5a869914a502d41184487ac715a4a8c"
+      ]
+    },
+    {
+      "name": "Festive Huntsman",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_b3157a265f945d6b",
+      "mesh": "weapons_b3157a265f945d6b.tfmesh",
+      "source": "models/weapons/c_models/c_bow/c_bow_xmas.mdl",
+      "triangles": 9506,
+      "sha256": "bd9e7e24304f3e596de297f0ec4df42e5bac0743c43e2874d247a69f65bbb0dd",
+      "sources": [
+        "21adb289a154e231e4728290901e22037e93d53eefa76053dfd4ca111f9d84f4",
+        "140dc257e218c559ee5dfd510da6eb74731e0ccdcf9699da0549550d180431a0",
+        "fcf3f5c6a837fc64a8528c7497cc0037559dc39b3b09757c7d186c5c54e3ff1b"
+      ]
+    },
+    {
+      "name": "Festive Jarate",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_67905c16e3d10cc1",
+      "mesh": "weapons_67905c16e3d10cc1.tfmesh",
+      "source": "models/weapons/c_models/c_xms_urinejar.mdl",
+      "triangles": 1928,
+      "sha256": "d8c0533b40148ac543b76e7880a8cbc96c980bb696bccb52226a83437792e207",
+      "sources": [
+        "b775adabf7d3b43deebefc15bee5d94a145e5bb89eff1902ec852990d3a148fa",
+        "f2e1251861836d2c776d85ac2d32d0318174ada0c6cb60f899a4711b39fbec0f",
+        "dbd94c17cd315a8c96f67f8af393478d5079a5c803c64a459188da225b8f600d"
+      ]
+    },
+    {
+      "name": "Festive Revolver",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_24488a651e220124",
+      "mesh": "weapons_24488a651e220124.tfmesh",
+      "source": "models/weapons/c_models/c_revolver/c_revolver_xmas.mdl",
+      "triangles": 9750,
+      "sha256": "02053f71fdeef2a48d88243e785a01500d31274a3e814b8ca5c0b05e750aabc3",
+      "sources": [
+        "8cfa6c9414b4b2d4436e1eab7a676e5c95e147014a2255bb5c6e5c27a5318e8e",
+        "8c5c468175becf9a9f6eddcd894347e91f21dfb4c8bd4bfa85ab09c7995135f7",
+        "e509980c900fe592675550abe77c3ed95b3c1801a5793a78f60b79361001e59c"
+      ]
+    },
+    {
+      "name": "Festive Sandvich",
+      "category": "weapons",
+      "classes": [
+        6
+      ],
+      "id": "weapons_adbee87181cea12a",
+      "mesh": "weapons_adbee87181cea12a.tfmesh",
+      "source": "models/weapons/c_models/c_sandwich/c_sandwich_xmas.mdl",
+      "triangles": 1179,
+      "sha256": "c7511a28e6646cb1d708fdbca2d8dd8984d6c5b1d5455d97e4a10826284a46da",
+      "sources": [
+        "ad2fc2b8bd04ae1c7957ca54a8ae6e43bc02994e0243166122c2900c4c8c76bf",
+        "a93023bcc23a0f0f59a6f1ea9d0590d52ea931248c57f9a8d2ae465b676f5043",
+        "eec686002991621178c7ccce9b360027472e09cfd4c2f9ea09fe50d67073d26a"
+      ]
+    },
+    {
+      "name": "Festive Sapper",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_09d05ddeca9b9cff",
+      "mesh": "weapons_09d05ddeca9b9cff.tfmesh",
+      "source": "models/weapons/c_models/c_sapper/c_sapper_xmas.mdl",
+      "triangles": 1952,
+      "sha256": "a2ecdf790f35800800ab1ef8650a4e185680c7d1683841f98e3ccfe1a36b43eb",
+      "sources": [
+        "1a0c547f232efee1fdf8fa751c0ed75e11aabd4689b8bde42f59d8195a05ec21",
+        "b55f83745c89409670771fb9f8634c22fb2cd66928e3f9214f9c1b1eec0131c7",
+        "3fdfa0129af51b745adfc067b1e48655c37bb77eafcc1bbecd15d3546731eb57"
+      ]
+    },
+    {
+      "name": "Festive Wrangler",
+      "category": "weapons",
+      "classes": [
+        9
+      ],
+      "id": "weapons_2f51d8be86bead95",
+      "mesh": "weapons_2f51d8be86bead95.tfmesh",
+      "source": "models/weapons/c_models/c_wrangler_xmas.mdl",
+      "triangles": 4508,
+      "sha256": "426e24a70534fa1dd82b122e2e14b30c49d2ccd09b7642d989a153acf12f9162",
+      "sources": [
+        "fab0ce1c3fc5b0f8ce95fcb00544aee5fc26edd4b7d93d8bdcac627f07e259ee",
+        "c7067fa8cf2244150e0f34f9e77dea300ab2f71535463771647e9ae0c1b81204",
+        "c59f8da790391d0065451bb3473722ce21b5763745e0d03477e70471fdb0fa5e"
+      ]
+    },
+    {
+      "name": "Festive Übersaw",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_fdeaefb0879889d3",
+      "mesh": "weapons_fdeaefb0879889d3.tfmesh",
+      "source": "models/weapons/c_models/c_ubersaw/c_ubersaw_xmas.mdl",
+      "triangles": 2972,
+      "sha256": "1b468df704f753bc71b4edf47b4317537200054e7a0ac084c8381300e4597d1f",
+      "sources": [
+        "28e85aa72ff10ddde7c9270635b20ebe088bef64d8636e55e6cd726bc91651b7",
+        "9379918ceda889163ce6e0eb570d57614a4bb6d04063e4a7df854366d63e743e",
+        "aff3024f84b7915a58abb8cbf34602e1b57869672922604dc60185138373d2b3"
+      ]
+    },
+    {
+      "name": "Fire Axe",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_1479f80914ab2415",
+      "mesh": "weapons_1479f80914ab2415.tfmesh",
+      "source": "models/weapons/c_models/c_fireaxe_pyro/c_fireaxe_pyro.mdl",
+      "triangles": 2916,
+      "sha256": "f120aeb69c6d806a51fa001839aadf72e755e77297384a13225048c2f9ef7a76",
+      "sources": [
+        "57948cc0fa2a5e75fca9860a00283dcf2635ca6fa70cd52dc33a103d4a7e9186",
+        "6e45ad047360ce22db54b6f8855346be588ef7e0e7d9e33126ffad0139b7f419",
+        "1b8f5e6c2ebd833495828c67651517302ae3a975c96f88522563237d73d6b63c"
+      ]
+    },
+    {
+      "name": "Flame Thrower",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_a1888568d2b9bca3",
+      "mesh": "weapons_a1888568d2b9bca3.tfmesh",
+      "source": "models/weapons/c_models/c_flamethrower/c_flamethrower.mdl",
+      "triangles": 4960,
+      "sha256": "0c0230684a491614c8d13cde2c0680d5cfb05d61e6a94fa954aa9e37086c54c8",
+      "sources": [
+        "e1c6ce36cb1ef80d0853e04b007a6bbb9997473a6ec5a1415ba76b5caf9ca126",
+        "796a10673e0f0245a4c5e9ee7ebaa93f12f55eb2953711f11e480925ae45ba27",
+        "227fb9b2b9caa3da0464378936b72ef97d6441ded49d6d9c05be4a9a81060716"
+      ]
+    },
+    {
+      "name": "Flare Gun",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_8592691fd7d18865",
+      "mesh": "weapons_8592691fd7d18865.tfmesh",
+      "source": "models/weapons/c_models/c_flaregun_pyro/c_flaregun_pyro.mdl",
+      "triangles": 3774,
+      "sha256": "05fdd534e370400e8b64e19b7bf4a634ea28d6daa5529f810c1c43c87e129182",
+      "sources": [
+        "dd0050884eecdbcc65a72a585e9e90f3e9da9168bb51e9932bde37797ec542a8",
+        "04bcd9e32f1f66f397967df77cf20cbbfee7b65ee67007c511eb13bc8457f3c0",
+        "78828f1ff5ad4f4d0954dffe14f937421e72268533232508bc1b0b3573afb29f"
+      ]
+    },
+    {
+      "name": "Force-a-Nature",
+      "category": "weapons",
+      "classes": [
+        1
+      ],
+      "id": "weapons_2e2c9fbfa44b84cd",
+      "mesh": "weapons_2e2c9fbfa44b84cd.tfmesh",
+      "source": "models/weapons/c_models/c_double_barrel.mdl",
+      "triangles": 2004,
+      "sha256": "a2d6558f9fbeb98261ae12d22f85c05650b80c62a4b773c0c681cc4811fb8103",
+      "sources": [
+        "62ca8c006cc206d324ecd378b26532dc796080a783f287301bb8172d637d1931",
+        "24ba7fb2229bbfed82f51d5c051bbb4981d75c23cd282988cfe018534a0dfdf7",
+        "90ebc272e057ceedacc05da98d22eb75784f5316b8cdc7fea5f797484ac602c0"
+      ]
+    },
+    {
+      "name": "Frontier Justice",
+      "category": "weapons",
+      "classes": [
+        9
+      ],
+      "id": "weapons_7e80fb4a1bc82163",
+      "mesh": "weapons_7e80fb4a1bc82163.tfmesh",
+      "source": "models/weapons/c_models/c_frontierjustice/c_frontierjustice.mdl",
+      "triangles": 4961,
+      "sha256": "3cd90f6eb9af33bb164d8d72a656b081d346a793880ae6932387100cbc476e13",
+      "sources": [
+        "b768f7aac1be8bed69dae7cbc8d197af4cf910d8a355ebba67e427cbb2bc7ffa",
+        "0d95a2aa3e0e1a4ed496e1e07c082a1a76ec699ca161fa1e01ed85cb3b36e66c",
+        "80b2c956186365f274d18680d775cac9abcc99f1ad54998c0991005a7eb8b385"
+      ]
+    },
+    {
+      "name": "Gas Passer",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_2a562ada68e8aef7",
+      "mesh": "weapons_2a562ada68e8aef7.tfmesh",
+      "source": "models/weapons/c_models/c_gascan/c_gascan.mdl",
+      "triangles": 3916,
+      "sha256": "b242ac8403865eda86cf0e18e2481edff1ee6d14f408aeb43c45b10c46ca4cb2",
+      "sources": [
+        "c9a62d8d819e88df589ac5259ccd3b27dbefeee678cfe1d907c8a7e68c53a90e",
+        "b84ebe3ca2be5a4362024745df8aa3dbf83dd1921f7499749d55e9ed412fd863",
+        "47de3011cb5dde1a0820a75a1f67091cf914628da80ecec32a11acbf1beb2244"
+      ]
+    },
+    {
+      "name": "Grappling Hook",
+      "category": "weapons",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "id": "weapons_4ae1d8bfd1d546ea",
+      "mesh": "weapons_4ae1d8bfd1d546ea.tfmesh",
+      "source": "models/weapons/c_models/c_grappling_hook/c_grappling_hook.mdl",
+      "triangles": 4254,
+      "sha256": "1c630d8348d51a98f48e1bbebd5fb9326b69ff9abce89583457774d8f00ec430",
+      "sources": [
+        "326465579698ab624fd1782c28fbb9f2789d08c5d15e158d654d49be76ce6433",
+        "cae5b9b8f83f85c73d8016edfd12cfaa618fda03bd8c56dc82234fd228fc5620",
+        "78a608b8c9a391f8f30b92eac65f0563f0508e3865add86fa0fe04ab140cdc99"
+      ]
+    },
+    {
+      "name": "Grenade Launcher",
+      "category": "weapons",
+      "classes": [
+        4
+      ],
+      "id": "weapons_aabe481f1b42a30f",
+      "mesh": "weapons_aabe481f1b42a30f.tfmesh",
+      "source": "models/weapons/c_models/c_grenadelauncher/c_grenadelauncher.mdl",
+      "triangles": 8184,
+      "sha256": "9929fa5591d79041fa15afd94a225cf918541b4b8499f5bc24e128da50858b58",
+      "sources": [
+        "8a954e63aaf82e54876ce5febcc2f72d019200b02611284e4811145c707321a9",
+        "fec8db50551479eaf70a1e26d81d438ec14b0a72886c1b172190b54b589651ac",
+        "1cc99fac701efd2b6b11bc49fb020c7b414a41caf847c04ec78c935a56678929"
+      ]
+    },
+    {
+      "name": "Horseless Headless Horsemann's Headtaker",
+      "category": "weapons",
+      "classes": [
+        4
+      ],
+      "id": "weapons_adff182922b4e4a0",
+      "mesh": "weapons_adff182922b4e4a0.tfmesh",
+      "source": "models/weapons/c_models/c_headtaker/c_headtaker.mdl",
+      "triangles": 800,
+      "sha256": "0e5a3c318e406ba75a746e4b476236f7fcbe56c1d2b01dfcb16f9c9334e9a32d",
+      "sources": [
+        "74d2ee358a656b56a0f38580ad5616a19a8841e9d0a9e8f6fbdbfa59585712d8",
+        "e4707cfdb76ae12609b6af5fc393cfd0e5d08596e79acd7b880a6b0923134aee",
+        "478c4b3d667367fa0e7974528c35c640b126d7e04ad96fa739ac2f9013ea1c39"
+      ]
+    },
+    {
+      "name": "Hot Hand",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_8b7727f0ab7e27a2",
+      "mesh": "weapons_8b7727f0ab7e27a2.tfmesh",
+      "source": "models/weapons/c_models/c_slapping_glove/c_slapping_glove.mdl",
+      "triangles": 1262,
+      "sha256": "cc9f06d4742382fef33eca5d0cdf6b3a2ae0945a3c3915e67ecc603b9e7432e1",
+      "sources": [
+        "208f0e3758aa6d5013c521f106c77015f75266cefafcd7f5ec38136054c3c31b",
+        "bc637055f3cae099e2bb5e3d7aa15d43193b27b42a0f6a6b951db0e3c3d256c7",
+        "e2ff966f3383061aa59e10dc67d0cec6ebd2ac38f4e6a2c8b092dc67b1204746"
+      ]
+    },
+    {
+      "name": "Huntsman",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_9bce8379460bce52",
+      "mesh": "weapons_9bce8379460bce52.tfmesh",
+      "source": "models/weapons/c_models/c_bow/c_bow.mdl",
+      "triangles": 6320,
+      "sha256": "77100c30dffe2228dd68f755d539abe88eb4bbf88ac55f013d2fb3cf2501d045",
+      "sources": [
+        "b721c03a6c8f6165033ed1cf43b5d6b2c03a7c9c05d3b08b5764c4595a02ec00",
+        "d986c47ab39dc3c180300dba8ee924654ed0240a546bc548abe5ddc390827d19",
+        "d893e2ff58614e56f5ecaee9e4f9850a60bc77c1c5788f79ea9687d5761f5913"
+      ]
+    },
+    {
+      "name": "Invis Watch",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_55b5e2e554855b3e",
+      "mesh": "weapons_55b5e2e554855b3e.tfmesh",
+      "source": "models/weapons/v_models/v_watch_spy.mdl",
+      "triangles": 3569,
+      "sha256": "ce45c555230132fe0be0bbc2ea434527b4157464eb8ecf1a3889e864681393fe",
+      "sources": [
+        "8848dc71a31d14c741b07b4109aafc6103b4fcdc8a3bb34c26d64774834c2850",
+        "e5c80d2abe49af043d049ba6c04fc8eeb14357033eaba69d6938127f296f9547",
+        "f021f8bd834106c8c383bc07ea9d8f9ba6145aa5a74021bef0d6e8d650e521ad"
+      ]
+    },
+    {
+      "name": "Jarate",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_b4f0116e1753a1e2",
+      "mesh": "weapons_b4f0116e1753a1e2.tfmesh",
+      "source": "models/weapons/c_models/urinejar.mdl",
+      "triangles": 2366,
+      "sha256": "d13ec29dd1482c553cf176708b4771b06a1ab52badd7eb246a83764a62dcf78e",
+      "sources": [
+        "4731c0b73bd9374e9e65055c104c40609db7a7fffef58ada0812fa8307d4a6a7",
+        "b4cd8a8dcb20506671c9ca5545c11df4fe674fb1cde72bcc4ef53f974e7a5162",
+        "1f225dff62e765a3ca7e7286ea8e121c67250d96f8e8e9533ebe28125cd1cd5d"
+      ]
+    },
+    {
+      "name": "Killing Gloves of Boxing",
+      "category": "weapons",
+      "classes": [
+        6
+      ],
+      "id": "weapons_351d8fc050834f37",
+      "mesh": "weapons_351d8fc050834f37.tfmesh",
+      "source": "models/weapons/c_models/c_boxing_gloves/c_boxing_gloves.mdl",
+      "triangles": 2692,
+      "sha256": "d71c632ba5108c284f431935f2785f6e9a2decf2a0f0f4c78edba03618151a79",
+      "sources": [
+        "b5d558c6895537aa6f38e9013c62a75057daa4c555e82aad20cf69d8ecc60a16",
+        "40365a654af1fe5efe73a0cae932355ed339fbc6f332cbf4dc4eb7a9d6963901",
+        "00ad7f7d0ca39b344130a82f399210fb259b0e60af832bddad484b6f904bbd40"
+      ]
+    },
+    {
+      "name": "Knife",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_8e6bbf832f8bc134",
+      "mesh": "weapons_8e6bbf832f8bc134.tfmesh",
+      "source": "models/weapons/c_models/c_knife/c_knife.mdl",
+      "triangles": 1936,
+      "sha256": "dcc51f7556cc4e7d9eab9ffc3c0b8f81a3de787f3508dee0e3585a5f9a99e63d",
+      "sources": [
+        "c808cddb551909dffab00bba28d71ddbcc8648b36d6bb2e07a58e983273bb7dd",
+        "13dcb3735845464fe602db79980dc4bb217da0a193d69a6eb888de470fdc1fed",
+        "b0352587fd3cfbcce103652e2304982f3149c453e73f379837ebf6bb9e0037cf"
+      ]
+    },
+    {
+      "name": "Kukri",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_25ab9e12b41204a1",
+      "mesh": "weapons_25ab9e12b41204a1.tfmesh",
+      "source": "models/weapons/c_models/c_machete/c_machete.mdl",
+      "triangles": 1135,
+      "sha256": "ecac31e622a1ef0bf96fa0d89fff4604c99b752c6cc39e9d0ec7a60325cc0c18",
+      "sources": [
+        "a259c0434f04f2c849309aba8677f02c239999368f148658b2dc793641409644",
+        "0615912c8872be705c849a013c9d7c5bebf2d6b2208d447208be225426c1e90a",
+        "1b3bc8a276ae1346c46b5e9a1588c0737a5296dd86ad4389b59237fbe941512c"
+      ]
+    },
+    {
+      "name": "Lollichop",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_3a755090f403859d",
+      "mesh": "weapons_3a755090f403859d.tfmesh",
+      "source": "models/weapons/c_models/c_lollichop/c_lollichop.mdl",
+      "triangles": 1084,
+      "sha256": "418c2c13f603e945391aa6f6376684f67bc80bdfdca52aeb0c60375580e0abbc",
+      "sources": [
+        "56b17e584c8e9bb35abce78200c6c6faff7a0f2090039c81c3204711f3146a4c",
+        "399b968ba5094da076b053e96c95644fd4378c9040b003f7400eed87828ad0e6",
+        "bccb656336fe6bc9586092ccdb8b15aa5d187814d3fe6ea84eb1f0375aed4ce4"
+      ]
+    },
+    {
+      "name": "Medi Gun",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_e254dfe4762d080b",
+      "mesh": "weapons_e254dfe4762d080b.tfmesh",
+      "source": "models/weapons/c_models/c_medigun/c_medigun.mdl",
+      "triangles": 6486,
+      "sha256": "473768759f3e4ecff6abc974af9e1f340939fe57a403d7f4ae9b3938c6e5a8ef",
+      "sources": [
+        "9111895fd1e9affd39e6ddbfae302a1eec73b21b7b18ca73d7a8f94581b403b2",
+        "fddc879833d5f05f0d541066fa39d40ac838ceaa6bb2c223364f4b82bc7d05bd",
+        "0e37dfc183bb8ee19d0ccecd1d6a92b187c439a6a43f7376cbece8c0d901e731"
+      ]
+    },
+    {
+      "name": "Minigun",
+      "category": "weapons",
+      "classes": [
+        6
+      ],
+      "id": "weapons_efab9de28b1f53a8",
+      "mesh": "weapons_efab9de28b1f53a8.tfmesh",
+      "source": "models/weapons/c_models/c_minigun/c_minigun.mdl",
+      "triangles": 8405,
+      "sha256": "c17b6496890d143b3d2e6795a8f0162f3a53d21b9669ca4e9d2cf16e9d03e54c",
+      "sources": [
+        "1a1ce5a541a5c2c94e066db3606f57857c558705363c23f0f71dfd21137fe3d2",
+        "551dba910156eb55cd3e26f9e72a84c2b9f27e7685b48974d65b8a2fd7380c94",
+        "24d155f05ee23f0095cf4e6e1a8f5095e28fba6d9397a0621e598e3cb8a30742"
+      ]
+    },
+    {
+      "name": "Mutated Milk",
+      "category": "weapons",
+      "classes": [
+        1
+      ],
+      "id": "weapons_e8af620063543ff6",
+      "mesh": "weapons_e8af620063543ff6.tfmesh",
+      "source": "models/weapons/c_models/c_breadmonster/c_breadmonster_milk.mdl",
+      "triangles": 5302,
+      "sha256": "b35513f39ebaeda1678373a9bbfcf664f71f9fe062c315911c43bb9007f4eb6a",
+      "sources": [
+        "510e7da512c890184636b2398340a6d67f124e5216bd0e84bca4dc16a7c6f8c7",
+        "1346d44d511c3ec619ea429ad6cebd8894e0382e7be9a056ef9f47d93c96ead3",
+        "47e2e7f92015b5199719f587a6ffbe41db364ae0f0d7a87bed3efd5865a39834"
+      ]
+    },
+    {
+      "name": "Natascha",
+      "category": "weapons",
+      "classes": [
+        6
+      ],
+      "id": "weapons_e53d3b9dff9e6852",
+      "mesh": "weapons_e53d3b9dff9e6852.tfmesh",
+      "source": "models/weapons/c_models/c_minigun/c_minigun_natascha.mdl",
+      "triangles": 9361,
+      "sha256": "5a8cffdec0456612b08e92614e0a2a943db44880335e9c9eb200a275c769a0c9",
+      "sources": [
+        "7fdccc48e66d3f8fe88a79ec8d876af7d71d5d4065b9be4d208899d7ccaf514f",
+        "d37c9964fcabd6a909305dfd97bc19d2589d1c94b4fe62a4483101a163e5fed4",
+        "234c3a410e26016a9ef8f340078dcf494b5f3dacfda07998d8dde12a29cf8961"
+      ]
+    },
+    {
+      "name": "Overdose",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_5c2ba9e67b48d053",
+      "mesh": "weapons_5c2ba9e67b48d053.tfmesh",
+      "source": "models/weapons/c_models/c_proto_syringegun/c_proto_syringegun.mdl",
+      "triangles": 5862,
+      "sha256": "97553bc22cc7eff75a909becf04372394a7b4179f1363181da00f7334d1ace86",
+      "sources": [
+        "058cf31c7150014d5afe42ba6d362a0564fb5158d47c2b648e74d93553e880ec",
+        "39e15cb2b587bed8351778e8416872081b4e835fc9328c0e99c1d09c8386c083",
+        "3f4e8fb7ac29999075912d02f9d041e029aa8b326560c73396e0b0d040630688"
+      ]
+    },
+    {
+      "name": "PDA",
+      "category": "weapons",
+      "classes": [
+        9
+      ],
+      "id": "weapons_40070caab2a0d5ae",
+      "mesh": "weapons_40070caab2a0d5ae.tfmesh",
+      "source": "models/weapons/c_models/c_toolbox/c_toolbox.mdl",
+      "triangles": 2246,
+      "sha256": "28220acc8355c9864ebacac850904d0f2707445859bb3f263c777ea73f4a1895",
+      "sources": [
+        "20a89108b6f1d9be87eece72347cc6118ce9dc197eed8e199162e44e71805093",
+        "ca128ad88721498a4dab0108655c6fe6f02c5805527baa0bd1cb01eb4e4b7139",
+        "1db462002c4aca6d332aa391afd7143be3798262c6dc8ca2cb6acfa1634020c4"
+      ]
+    },
+    {
+      "name": "Pistol",
+      "category": "weapons",
+      "classes": [
+        1,
+        9
+      ],
+      "id": "weapons_ce33dfc7ae9a4ede",
+      "mesh": "weapons_ce33dfc7ae9a4ede.tfmesh",
+      "source": "models/weapons/c_models/c_pistol/c_pistol.mdl",
+      "triangles": 2085,
+      "sha256": "27b092d3f12f15fed72f7c85381e1ef97f49f4ec374a38ad7a3700fd6ac18d3c",
+      "sources": [
+        "c564aff0c2f441e5f3bbbf3276b9e3f0a192db9e183b6274efe38c7442e1582a",
+        "f5e1265f246dc020914e3a074176adcc982da1b3161145b06165860180f60be0",
+        "06e497ad286b0a58bfbe840483b7b62b8b0ae025f58452a7a4f54ce1193bdcac"
+      ]
+    },
+    {
+      "name": "Quick-Fix",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_bd217e47b4df1e63",
+      "mesh": "weapons_bd217e47b4df1e63.tfmesh",
+      "source": "models/weapons/c_models/c_proto_medigun/c_proto_medigun.mdl",
+      "triangles": 5328,
+      "sha256": "da40f68a94469745112183c79edab24a4337c55e63f10e63a3a8d9a1e98f9618",
+      "sources": [
+        "a603db846200f17ad2fc1ad1cee50dc798fe3144d4e6f0620799dceb7a25ab5e",
+        "f1f9290b0a6b93232ecd46de7c037d951f922b36dc3534875119b1afae240851",
+        "5928cd040481c928fe7e57df98ab343e05fdaea7a3c3490f441f959d5c4f66af"
+      ]
+    },
+    {
+      "name": "Rainblower",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_42c2c8c6e98f987f",
+      "mesh": "weapons_42c2c8c6e98f987f.tfmesh",
+      "source": "models/weapons/c_models/c_rainblower/c_rainblower.mdl",
+      "triangles": 6305,
+      "sha256": "e81ba8f044adca7b3d781dd09246dff0aa62152d7a091b3fe7cc3641edbbe591",
+      "sources": [
+        "5463b810350ad6839ce503a0278d92628f35c058408fee0b416c5f9cd53bfe37",
+        "1574e21e4e9f6fd187c1dca40b832a39aa97b153b19cdd7a724fc99eb5269452",
+        "1059fd5c364792d7b202752f45e85cd4bd60d63ac7ef167ee56be78dea7047c0"
+      ]
+    },
+    {
+      "name": "Revolver",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_1dbbbbcfe37ebb92",
+      "mesh": "weapons_1dbbbbcfe37ebb92.tfmesh",
+      "source": "models/weapons/c_models/c_revolver/c_revolver.mdl",
+      "triangles": 5676,
+      "sha256": "e0ef9f7b2ac738aae3c69d06cc3009b5533d10f988e150ff50bbbb5d5bc2fe95",
+      "sources": [
+        "82bd39e815b585dcebedcf5ed4f9e4822a1dc949ea29fcca53ef0bb45a1de396",
+        "0e9b0dd10d1d9f5c5643d8cdb2a2d89654a9500a4b8a5f11aca6c53b7dc3a610",
+        "2c8accab2b48883888436eff2c2eec64da1893605a404b9c8bff8d5c8fad0ab4"
+      ]
+    },
+    {
+      "name": "Robo-Sandvich",
+      "category": "weapons",
+      "classes": [
+        6
+      ],
+      "id": "weapons_ccd0a7f5a60554b5",
+      "mesh": "weapons_ccd0a7f5a60554b5.tfmesh",
+      "source": "models/weapons/c_models/c_sandwich/c_robo_sandwich.mdl",
+      "triangles": 2257,
+      "sha256": "df16454c48690cd8a347e6b77dc8e8191ae10674a4e677ec7515c9e09b25c066",
+      "sources": [
+        "b4cbd9f241bcd239f4359181a66c4594c039adbc672dabbc9de6baeb8c389b06",
+        "bb03cf280e02df15d267bebdb2231893c1712571987df8436a6c2a5652516abf",
+        "7187c59761d0115e5745f8d0ae6dea5012d240d7283be5731afd51331871c00a"
+      ]
+    },
+    {
+      "name": "Rocket Jumper",
+      "category": "weapons",
+      "classes": [
+        3
+      ],
+      "id": "weapons_104f1672e08d027f",
+      "mesh": "weapons_104f1672e08d027f.tfmesh",
+      "source": "models/weapons/c_models/c_rocketjumper/c_rocketjumper.mdl",
+      "triangles": 6358,
+      "sha256": "860f160b53870d49b2c1b5a30b54b581794a894665d5954a7a06d39eff77e53a",
+      "sources": [
+        "27004146e7156d83fea6bfb0198dd2dcfbb50fb9ed16ffcfbe3f669ecbda7b70",
+        "13a680dacf881a5f08a0166e4343e8e905abb98aa805a9feaa5f769c7c46900f",
+        "a43e3ee4354ffb6de42278ecf0981c8086ce0e3221fdef717b87b05ebca9be65"
+      ]
+    },
+    {
+      "name": "Rocket Launcher",
+      "category": "weapons",
+      "classes": [
+        3
+      ],
+      "id": "weapons_f0d2f6d0a8718711",
+      "mesh": "weapons_f0d2f6d0a8718711.tfmesh",
+      "source": "models/weapons/c_models/c_rocketlauncher/c_rocketlauncher.mdl",
+      "triangles": 6916,
+      "sha256": "9d45fac9c5714c458fd0ea89d09b782f8303ea663f9c55e323d20a32e75d9be5",
+      "sources": [
+        "e962a3ab43ad731c6b65780c760c61a7d06676f5ca05fd112bcfc74944a605e0",
+        "32a9ca7b1c6a397a18a24dd208b465d49103a7b093182f36fddac35f90539fdb",
+        "b4a2ff72bd0f97c362749a534bc756220567dbbcde46db0b511bb6a528d8ed54"
+      ]
+    },
+    {
+      "name": "SMG",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_50eaeb19137d02bd",
+      "mesh": "weapons_50eaeb19137d02bd.tfmesh",
+      "source": "models/weapons/c_models/c_smg/c_smg.mdl",
+      "triangles": 4554,
+      "sha256": "db7425204d1fd908c428146a1fc84c09c14982de0624ed67bb76b40ebf29107a",
+      "sources": [
+        "eba282c313d88302b048bdfdd39790d9486683bfae611c58e065ed952fdaec0f",
+        "89ae2e83fcd4afe2a9eef1178b67006ea1732274e0c94ae3ef3eee0d0ad7bdfc",
+        "3ef078e34a5984f244a58b859ff58c823550031f55ce22b4ed9bcbc77cfa82c8"
+      ]
+    },
+    {
+      "name": "Sandman",
+      "category": "weapons",
+      "classes": [
+        1
+      ],
+      "id": "weapons_97c9f03d78a5c242",
+      "mesh": "weapons_97c9f03d78a5c242.tfmesh",
+      "source": "models/weapons/c_models/c_wooden_bat/c_wooden_bat.mdl",
+      "triangles": 1426,
+      "sha256": "d98fe86a6eae77b154f6cf905d0697c34494624fb8e75aaa9137d919b3ee1f91",
+      "sources": [
+        "2cd40c8f96807ad5f9cad4b68198dd70a0e0ee76cdb35100e3877c10623ac784",
+        "2420fd67428b39f0b7803648dea244289e26950a1387e4ab5bf6dd1cff9a0296",
+        "53589093d041f4c868dc9eea6fb77ac29e5825f29e35ef3b7e6cba9a6f8a0518"
+      ]
+    },
+    {
+      "name": "Sandvich",
+      "category": "weapons",
+      "classes": [
+        6
+      ],
+      "id": "weapons_3c63ab9a6f329dee",
+      "mesh": "weapons_3c63ab9a6f329dee.tfmesh",
+      "source": "models/weapons/c_models/c_sandwich/c_sandwich.mdl",
+      "triangles": 1584,
+      "sha256": "686c13d69847aa88d6c1f1083ca7e98c2a039ffb62fc202235cf403d97c4364b",
+      "sources": [
+        "acf15174442b8bdac4b0c6da5b75beabb868b98e5e4f49b9258b7d07c3339bd7",
+        "fea603f7a2c172a38f0f0d6f03bdada07734f2e1573559d6b5c766a183c89160",
+        "64341c7387eb2b0fa58f4e4efef89ee471282d9b80d2a065d681143202131b63"
+      ]
+    },
+    {
+      "name": "Sapper",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_8e08269384dab8e1",
+      "mesh": "weapons_8e08269384dab8e1.tfmesh",
+      "source": "models/weapons/c_models/c_sapper/c_sapper.mdl",
+      "triangles": 3593,
+      "sha256": "f545e2e954244b1c3de6af7d8dcada413f09f41e028c09b9a795bab9fdde4298",
+      "sources": [
+        "1a16045c31e6d50172a8a9e25e2c194d76072371d76d6894550057d83fa76bcb",
+        "3b31b94ac7b210c9fa16b54c7bd31d5c159df4a181ac83ab3653f601a348f10c",
+        "94b9edfac664d95c066395ba507b9026c6d76a3441288aed9433ea818073f197"
+      ]
+    },
+    {
+      "name": "Scattergun",
+      "category": "weapons",
+      "classes": [
+        1
+      ],
+      "id": "weapons_945de597fa9ab8cc",
+      "mesh": "weapons_945de597fa9ab8cc.tfmesh",
+      "source": "models/weapons/c_models/c_scattergun.mdl",
+      "triangles": 6118,
+      "sha256": "e26a349db5c3cbd332d5f6fab2794af13b9de7d000e2cb892fc7efa3d1ea4eed",
+      "sources": [
+        "cfba7ce0111694fdc793619f3fc5354a9a7a4e849e556f8317230cf44c2ccf32",
+        "914eece0bad3d2f10cbdd1420b2a8435b9f33c5c1e7b0f84e28222abfe4d6992",
+        "539ab4ee61aa243aad6a64a417f8665ab7abb47e87f721389fe0331e76807db8"
+      ]
+    },
+    {
+      "name": "Scottish Resistance",
+      "category": "weapons",
+      "classes": [
+        4
+      ],
+      "id": "weapons_02507f51896b114e",
+      "mesh": "weapons_02507f51896b114e.tfmesh",
+      "source": "models/weapons/c_models/c_scottish_resistance/c_scottish_resistance.mdl",
+      "triangles": 10048,
+      "sha256": "7d30a7191529268dcd5430c5936a4ad5519e11615f0b886eb9fdc719372c3127",
+      "sources": [
+        "222abddebb481387341b8c8839f3b3296eb142c1842f33211b3d7a2a826c6f73",
+        "ccb203c11bfaa2bf82073f9473973762c60c1354169dc8a109da6923ebf053f9",
+        "84669d752ee90bece835f66ee3296b23a02ee9a8c04a6df755a105ba06c27517"
+      ]
+    },
+    {
+      "name": "Second Banana",
+      "category": "weapons",
+      "classes": [
+        6
+      ],
+      "id": "weapons_033aca743648e097",
+      "mesh": "weapons_033aca743648e097.tfmesh",
+      "source": "models/weapons/c_models/c_banana/c_banana.mdl",
+      "triangles": 1446,
+      "sha256": "b504d5b371ce51ce6ea4ecb80890b55f7195313be9b18f65a2a5e34f060bc2d0",
+      "sources": [
+        "14fb890dbf525c9403136e15fea078ebf9a8192697970b9497398f6b49361a2a",
+        "e65bf40082df989aaa6367a65062c3625f74ff4a1623240a15e05aadcf4ef27f",
+        "13fe488e89f5c623f2dd9394688fe55622b691563b243b9e9e5279c2204ce3f2"
+      ]
+    },
+    {
+      "name": "Self-Aware Beauty Mark",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_1937c615ba557bfa",
+      "mesh": "weapons_1937c615ba557bfa.tfmesh",
+      "source": "models/weapons/c_models/c_breadmonster/c_breadmonster.mdl",
+      "triangles": 6184,
+      "sha256": "1ecf5b3bafe8e40eabb0130546856d6528658c617a0549e861da1811f7e0f351",
+      "sources": [
+        "cbb473fdadca9a1b08057a9d025b8d374051230c0b9eba5a15d6c634f2cc02cb",
+        "45f345ba44631c18aa356e2d70d2eb560b9df8fe03c21106309a27220c3923d1",
+        "3105561417cb910625829da01954e01caafc0219ab6567d76ecccccbfab2f2ac"
+      ]
+    },
+    {
+      "name": "Shotgun",
+      "category": "weapons",
+      "classes": [
+        3,
+        6,
+        7,
+        9
+      ],
+      "id": "weapons_5dde87ddc4b217d4",
+      "mesh": "weapons_5dde87ddc4b217d4.tfmesh",
+      "source": "models/weapons/c_models/c_shotgun/c_shotgun.mdl",
+      "triangles": 2990,
+      "sha256": "824f49732f7c0e59cf14495f304a5fabb0ef515dfb34f56d36a43e4c36574867",
+      "sources": [
+        "5bae365d7d02879ca99c27238684badeb219bb3bef8aec512f157ebe79c27a31",
+        "f329022b7ad13323af2081bb5e4bc4f412dbe83d8151463a7cdde01e460243c8",
+        "eea73777fe9b720dad02a67b87087dbe0afe1f1c534dbebe1e3ccbd7b07e4f43"
+      ]
+    },
+    {
+      "name": "Shovel",
+      "category": "weapons",
+      "classes": [
+        3
+      ],
+      "id": "weapons_0e9fe50f6074b757",
+      "mesh": "weapons_0e9fe50f6074b757.tfmesh",
+      "source": "models/weapons/c_models/c_shovel/c_shovel.mdl",
+      "triangles": 3553,
+      "sha256": "6342eed372c7749a33a34da76c46a39965f459a69661732838773f2f4d363031",
+      "sources": [
+        "495872c5d3cb691febf8c2303d16c51488b83317ac850d3bd60e0b1e36ea3527",
+        "c53a420a8f5c3e16475791d8d456ae0036b2e8cac2425c78546a3892842dce01",
+        "3ec7c4a3320bb2784da872069113082e96e0217d4acd57a69fc3e24aa6921dd9"
+      ]
+    },
+    {
+      "name": "Snack Attack",
+      "category": "weapons",
+      "classes": [
+        8
+      ],
+      "id": "weapons_e10737fb40e82e1a",
+      "mesh": "weapons_e10737fb40e82e1a.tfmesh",
+      "source": "models/weapons/c_models/c_breadmonster_sapper/c_breadmonster_sapper.mdl",
+      "triangles": 6840,
+      "sha256": "772dceecb2c28fd980825b81cde0efe7c26c880d9112685bda1063be0945dc47",
+      "sources": [
+        "0a545ab060f3ddee5de9fb1a73c7b387664fbb56f3711f4fdfbc9cb192cb17c5",
+        "764c588e5b4d771c6211cb7d624b3c123da8fc400977e8b9570484f38a7abfd8",
+        "fc83440580c23a2e034e2d5bff4bda6b434a0e1050def4c1020685c94ca6a1c0"
+      ]
+    },
+    {
+      "name": "Sniper Rifle",
+      "category": "weapons",
+      "classes": [
+        2
+      ],
+      "id": "weapons_f0941d878ffd9a65",
+      "mesh": "weapons_f0941d878ffd9a65.tfmesh",
+      "source": "models/weapons/c_models/c_sniperrifle/c_sniperrifle.mdl",
+      "triangles": 7687,
+      "sha256": "2ef97cad629243dc907b5e2a40429b3bb90a4a842c8aff91f9062abf07162fdc",
+      "sources": [
+        "ea15a0a0850262297b50d8e6dc312f39b4ffeb82ae4598d283d8457caf193200",
+        "8219907d0bb8cdc8fb522459f5a11dda2dd9d0dcc0866fbbff741f52cf1905b0",
+        "b1120b61d1ac8af36e516d103503a337313827e05dbed827636fab3c84d164b3"
+      ]
+    },
+    {
+      "name": "Solemn Vow",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_610cdf6112ee99b1",
+      "mesh": "weapons_610cdf6112ee99b1.tfmesh",
+      "source": "models/weapons/c_models/c_hippocrates_bust/c_hippocrates_bust.mdl",
+      "triangles": 1118,
+      "sha256": "6a67b93580fac73951466f0fedfb2dceb8a8005d85ac7ce8abb0bed70087535a",
+      "sources": [
+        "49336a7caf19a302d2a8b5653add12a0cf382d2c1c60cbe9ab554e63d4f11332",
+        "d8151c6965ad126a48e15d572d2a4f8c3d0f23c08c8fb7e1e090b0a259f8b290",
+        "4a1e94bce6028344286545d63e1097b06edd945a9b6b28d2c6fa38c6b7b4f9d0"
+      ]
+    },
+    {
+      "name": "Sticky Jumper",
+      "category": "weapons",
+      "classes": [
+        4
+      ],
+      "id": "weapons_9d8bba1757ad0573",
+      "mesh": "weapons_9d8bba1757ad0573.tfmesh",
+      "source": "models/weapons/c_models/c_sticky_jumper/c_sticky_jumper.mdl",
+      "triangles": 7143,
+      "sha256": "4bc81056388d397105d1f1159fe6dfca674e7b78379fa2ea09c30893c236c860",
+      "sources": [
+        "0346143f5c29ae361b0d6ce8e7067bedbb92481e31e4ce11fd28019fb986a2dc",
+        "9bca696150b5144d29244a22f447f4c9a06ba5a60cbd9872dd5d1dfbc2068c0a",
+        "5bcc87ee019c70237035024b33c6780b83a25d7ea3690b2f1632b337abb67d14"
+      ]
+    },
+    {
+      "name": "Stickybomb Launcher",
+      "category": "weapons",
+      "classes": [
+        4
+      ],
+      "id": "weapons_ed9626aa864b618b",
+      "mesh": "weapons_ed9626aa864b618b.tfmesh",
+      "source": "models/weapons/c_models/c_stickybomb_launcher/c_stickybomb_launcher.mdl",
+      "triangles": 6931,
+      "sha256": "ce11f4f83da5919a64eb550eee5904d5fa3a169eb94088b291b6f929cde3e333",
+      "sources": [
+        "bbdb99e9a836603b795c8851a16838aab37a5bcf178d2dd4a25fbc9c0fa72108",
+        "a57b5a881d95a4b10c5b1e72c8c75a60857dfe83338f63f529d3f3059028b864",
+        "906033b0446665f1de38130fdf6ea8322f52fe4647630e441ae7912bafabdcde"
+      ]
+    },
+    {
+      "name": "Syringe Gun",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_76b02fc8638a2fac",
+      "mesh": "weapons_76b02fc8638a2fac.tfmesh",
+      "source": "models/weapons/c_models/c_syringegun/c_syringegun.mdl",
+      "triangles": 8381,
+      "sha256": "d7a0bb057da258a48d2023f51ac9cd1f723c21714fa8f2c6529592c1fe511d61",
+      "sources": [
+        "06d205fcfff3185275ac1a6cd8b6e7dec75383f504f92fcc5b8ee4f86a8b2750",
+        "40b50d5a891f1df8a1af6eb751dbacea11114b4259fc36b393067fe3a319dc32",
+        "5074a6e1d97d6d7e70034e280fa5ee15773c9ef3047707aacf969fc44fb7e4e0"
+      ]
+    },
+    {
+      "name": "Thermal Thruster",
+      "category": "weapons",
+      "classes": [
+        7
+      ],
+      "id": "weapons_8f68e73b04119dd6",
+      "mesh": "weapons_8f68e73b04119dd6.tfmesh",
+      "source": "models/weapons/c_models/c_rocketpack/c_rocketpack.mdl",
+      "triangles": 8694,
+      "sha256": "07e2d9c4452594ecc312b3e0ed6c4dddb1616b87e455c3af4472d2c19cba918a",
+      "sources": [
+        "d5447c7e7b2fdd2b60c6011586977ac4f2df9374eea0e9fe3ea0324d7cfea171",
+        "92ffe98e8c1a3b1b27faa953e522aa426d1c860394339ad0ab1140077be7bbac",
+        "90b37025e7d7ea2f562a97a8791b68ee1653586e3ef886d93157a945699f7b67"
+      ]
+    },
+    {
+      "name": "Wrangler",
+      "category": "weapons",
+      "classes": [
+        9
+      ],
+      "id": "weapons_043a2643d7bf5b6a",
+      "mesh": "weapons_043a2643d7bf5b6a.tfmesh",
+      "source": "models/weapons/c_models/c_wrangler.mdl",
+      "triangles": 3030,
+      "sha256": "807a3d3e5f46f7b1f0daf103c4ee2e896f41afba0f298ee339b1f4b153fe0fbb",
+      "sources": [
+        "4b381808a68e96ad429caab8e36e7f344884edd78296de5ff9a0fb4d47783319",
+        "6348fec90caf59ee0bbe1e877feecdee95346193a282a7a9696600221501cd51",
+        "97b54f8c08f57a8a2b516f8b4838348313959ebef7b694ee28947b900c85dfc4"
+      ]
+    },
+    {
+      "name": "Wrench",
+      "category": "weapons",
+      "classes": [
+        9
+      ],
+      "id": "weapons_9ccd5f808cae46f1",
+      "mesh": "weapons_9ccd5f808cae46f1.tfmesh",
+      "source": "models/weapons/c_models/c_wrench/c_wrench.mdl",
+      "triangles": 5254,
+      "sha256": "4f233dcd5a75d1e977951a3c3f4b0b304c1de988fd40be06e0cce3bd6dd100ef",
+      "sources": [
+        "65523bfeb0e03f2aa5626facb0d836927f562bd79a0ea3f160757b933e72b421",
+        "a1f94a59eb4dbcbf055d31d2f0382c8ff7393e13ec0f13d3a2c793f282ebe292",
+        "1cc1482737a5e96756cc56707dd1a683997b2ee158b9e1db289a760318f3576b"
+      ]
+    },
+    {
+      "name": "Übersaw",
+      "category": "weapons",
+      "classes": [
+        5
+      ],
+      "id": "weapons_162771642ca475a2",
+      "mesh": "weapons_162771642ca475a2.tfmesh",
+      "source": "models/weapons/c_models/c_ubersaw/c_ubersaw.mdl",
+      "triangles": 1872,
+      "sha256": "5ed87856fb77f306730e89aae29d78e7cbc9faee4efdfbd2b25adeb8d5239927",
+      "sources": [
+        "6b6a96dd02a8b02f5c91f4a7f57f87923439017b1d85cf6d83f4e9bd743f30f8",
+        "e918a95e4cb4d4504f116edfde408037e5e3a6080545c64600f3b10301146cd1",
+        "7f44214e4d3333de5e2914c50403a0edb4263390cc2707ef8b21c69dbf660083"
+      ]
+    }
+  ]
+}

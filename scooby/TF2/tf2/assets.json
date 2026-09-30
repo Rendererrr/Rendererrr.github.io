@@ -1,0 +1,4141 @@
+{
+  "files": [
+    {
+      "path": "docs/ADDING_FEATURES.md",
+      "sha256": "ab9121cd9cca5b747737dfa5c43a457dc60dd7112d78a24614f879ed4d869981",
+      "size": 3538
+    },
+    {
+      "path": "docs/CONSOLE.md",
+      "sha256": "8201c6ac0fccca79e1f7b8ab275c839f7b38b9dd3e8e1be0790260740ecc93be",
+      "size": 2249
+    },
+    {
+      "path": "docs/CONSUMERS.md",
+      "sha256": "f2e847253bb96ecb6caae30748441d93c4ed8fc3c46bb15c82815bbfd7dbd4d7",
+      "size": 9063
+    },
+    {
+      "path": "docs/DATA_FORMAT.md",
+      "sha256": "b7c6183915c70d6562f13c703f79a9bdd3763453ac530ed7e58ac6dac6ee3ec7",
+      "size": 4854
+    },
+    {
+      "path": "docs/DOWNLOAD_PROGRESS.md",
+      "sha256": "d20d3892af62e6be649ed45bf5e5802ebbe99facf61a94de5687964182e6bc28",
+      "size": 3478
+    },
+    {
+      "path": "docs/EMBEDDED_RESOURCES.md",
+      "sha256": "3db97052af9ceaf215b25ab80f78ada66b32da909756da1df16fd20cd5bf57ca",
+      "size": 6285
+    },
+    {
+      "path": "docs/ENTITY_COLORS.md",
+      "sha256": "1350bda59f717c93983eec2faa4308c8c81dfe921772fcb2f1827f4cfaade089",
+      "size": 9079
+    },
+    {
+      "path": "docs/GAME_LUA_API.md",
+      "sha256": "aac375eebe6cca7ae18b9952780a0b4d529145583669765686d06cc2ca1ebe51",
+      "size": 13064
+    },
+    {
+      "path": "docs/GAME_SIDEBAR.md",
+      "sha256": "a092ec0b22144f546a26cf84dee626abd4fba014be7b1417fc1ad4b99951544e",
+      "size": 10213
+    },
+    {
+      "path": "docs/HEALTH_ESP.md",
+      "sha256": "7003cb29838aab94a246836b7760a95216d796c5d13485620023fd59f7bd6a50",
+      "size": 4635
+    },
+    {
+      "path": "docs/LANGUAGES.md",
+      "sha256": "6a2f9c80924adfa7c302c9a2e00cbcabbd567baaaf5f9cbac1c867702ae2d31c",
+      "size": 2425
+    },
+    {
+      "path": "docs/LINUX_COMPATIBILITY.md",
+      "sha256": "e486233f6dad8d29ad6eaab58f5a199d9e807478fd34a84e7e1dfa982c0dfae0",
+      "size": 6729
+    },
+    {
+      "path": "docs/LUA_API.md",
+      "sha256": "66003897648c8efc9b33bf4cc2cb90f379c3024ab3324bedd297a457e9939efd",
+      "size": 38871
+    },
+    {
+      "path": "docs/PORTING.md",
+      "sha256": "d477547429c260311f8a7a90913b9fd2deb472a2ea8967a5ad8347628c50cb04",
+      "size": 15747
+    },
+    {
+      "path": "docs/PORTING_EVERYTHING.md",
+      "sha256": "581ccd325b8d8e85a4cae40cc5a8d118d8206dd8905c9cdd3b09cde9850b6ec4",
+      "size": 67207
+    },
+    {
+      "path": "docs/TEAM_ESP.md",
+      "sha256": "8f6444308e9d271637e28e7c238076cc6ab9604dbbe8c6213ae690e42fc86bac",
+      "size": 1211
+    },
+    {
+      "path": "docs/TESTING.md",
+      "sha256": "e7fb89658a480610859312c6755e37f96898692936424b7ddb353432a8f4c69c",
+      "size": 11914
+    },
+    {
+      "path": "docs/UI_COMPONENTS.md",
+      "sha256": "138a5a58f58af23cfe26ac0af83bd6cd519f74b99aaae72a53d68d560dbc8ae1",
+      "size": 3957
+    },
+    {
+      "path": "docs/consumer-inventory.json",
+      "sha256": "bba79c16cce6b88da40f70f000cc112d95d92a868d3cede57245a512fd99a0d0",
+      "size": 126480
+    },
+    {
+      "path": "docs/sync-validation.json",
+      "sha256": "c0406fd91e90231f6e8da9a50a7dbc730ba6c3a2ddd66d80cc7e0085fef03bdd",
+      "size": 2687
+    },
+    {
+      "path": "docs/vendor-reconciliation.json",
+      "sha256": "3ec3d49a9530213a88f54b29f16e4ce55f3da03a72eb49c48e6b744ba95b1f74",
+      "size": 13378
+    },
+    {
+      "path": "fonts/LUCIDE-LICENSE.txt",
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "size": 3208
+    },
+    {
+      "path": "fonts/NotoSans.ttf",
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "size": 2049096
+    },
+    {
+      "path": "fonts/NotoSansArabic.ttf",
+      "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+      "size": 844676
+    },
+    {
+      "path": "fonts/NotoSansDevanagari.ttf",
+      "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7",
+      "size": 647144
+    },
+    {
+      "path": "fonts/NotoSansGeorgian.ttf",
+      "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9",
+      "size": 231988
+    },
+    {
+      "path": "fonts/NotoSansHebrew.ttf",
+      "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88",
+      "size": 112640
+    },
+    {
+      "path": "fonts/NotoSansJP.ttf",
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+      "size": 9589900
+    },
+    {
+      "path": "fonts/NotoSansKR.ttf",
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+      "size": 10414588
+    },
+    {
+      "path": "fonts/NotoSansMono.ttf",
+      "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081",
+      "size": 1708408
+    },
+    {
+      "path": "fonts/NotoSansSC.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "size": 17772300
+    },
+    {
+      "path": "fonts/NotoSansTC.ttf",
+      "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+      "size": 11941968
+    },
+    {
+      "path": "fonts/NotoSansThai.ttf",
+      "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+      "size": 218652
+    },
+    {
+      "path": "fonts/licenses/NotoSans-OFL.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
+    },
+    {
+      "path": "fonts/licenses/NotoSansArabic-OFL.txt",
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+      "size": 4382
+    },
+    {
+      "path": "fonts/licenses/NotoSansDevanagari-OFL.txt",
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+      "size": 4386
+    },
+    {
+      "path": "fonts/licenses/NotoSansGeorgian-OFL.txt",
+      "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df",
+      "size": 4384
+    },
+    {
+      "path": "fonts/licenses/NotoSansHebrew-OFL.txt",
+      "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+      "size": 4382
+    },
+    {
+      "path": "fonts/licenses/NotoSansJP-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    {
+      "path": "fonts/licenses/NotoSansKR-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    {
+      "path": "fonts/licenses/NotoSansMono-OFL.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
+    },
+    {
+      "path": "fonts/licenses/NotoSansSC-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    {
+      "path": "fonts/licenses/NotoSansTC-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
+    },
+    {
+      "path": "fonts/licenses/NotoSansThai-OFL.txt",
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0",
+      "size": 4380
+    },
+    {
+      "path": "fonts/lucide.ttf",
+      "sha256": "eaf30a2a0d2ec0cfbf7ab69ed6dc6e39b7e5e2f0255c17856dcb0b73a15584bb",
+      "size": 905580
+    },
+    {
+      "path": "fonts/manifest.json",
+      "sha256": "e53131b8048336c7d349c255afb7b0cb55b3004d04a4d95ac50ab1d565b0be25",
+      "size": 5346
+    },
+    {
+      "path": "game/materials/scooby_tf2/0.vmt",
+      "sha256": "a23bf034e1f5c5055094c7f3e44354035f747573bbd6a682df64a58d4e7169a5",
+      "size": 148
+    },
+    {
+      "path": "game/materials/scooby_tf2/1.vmt",
+      "sha256": "649c5cf194846190d13c10021b0131158cdac1eda6eae65d6015c3871c52fb21",
+      "size": 148
+    },
+    {
+      "path": "game/materials/scooby_tf2/2.vmt",
+      "sha256": "c1e0363ba2580ccfe2c5e2e4a3b1e6bfd9a1b1eb1f455020e16eb03a9744b8c3",
+      "size": 152
+    },
+    {
+      "path": "game/materials/scooby_tf2/3.vmt",
+      "sha256": "7d4df115c968928426f38d7fef0a5b6724f6684c928504a6a06fbb1fad4ab12a",
+      "size": 152
+    },
+    {
+      "path": "game/materials/scooby_tf2/4.vmt",
+      "sha256": "5263dcdfbee78a9ccfa940414b9a10c4870936e0640e28606c043d5e73d21d9a",
+      "size": 148
+    },
+    {
+      "path": "game/materials/scooby_tf2/5.vmt",
+      "sha256": "eefb8b2f3c007da5d0c1a1cc77aa53d73391e2a9ede223fcafbe10abb4f62d44",
+      "size": 148
+    },
+    {
+      "path": "licenses/Dear-ImGui-LICENSE.txt",
+      "sha256": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293",
+      "size": 1104
+    },
+    {
+      "path": "licenses/ImGuiColorTextEdit-LICENSE.txt",
+      "sha256": "38f4538cfadc4d3aaa90e8a9bf39b2ccf0761db5562442d5906e1e82708d40fb",
+      "size": 1066
+    },
+    {
+      "path": "licenses/Lua-LICENSE.txt",
+      "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32",
+      "size": 1086
+    },
+    {
+      "path": "licenses/nlohmann-json-LICENSE.txt",
+      "sha256": "e310b2928d3f83c6eba5f7523d84863845f9fb51a66a97c7ab8fdab832e28b54",
+      "size": 1327
+    },
+    {
+      "path": "models/demo.tfmaterials",
+      "sha256": "d6cbed3f850084e36da8b61e9b48eab6f4132f83dd22dc44c15afeb957bf908e",
+      "size": 415
+    },
+    {
+      "path": "models/demo.tfmesh",
+      "sha256": "bc22235d9b857d25c1808ec34ad2e0e1fccca9ff1b575c79bc9299050aa1e4d7",
+      "size": 341028
+    },
+    {
+      "path": "models/demo_0.png",
+      "sha256": "d9496c310a614ae0a38211d833c41f7edb47aadba9e487ca26e82f27b98eb3bc",
+      "size": 22597
+    },
+    {
+      "path": "models/demo_1.png",
+      "sha256": "97a62347f7bbf834b1cb33fd2bc59fe376b1e6a7ab3d368de3ce4d16c9f19f51",
+      "size": 34815
+    },
+    {
+      "path": "models/demo_10.png",
+      "sha256": "6c4bbd8a87eec67475b6f6d44ba6490b312ec1690370df27df438b2f9505cf37",
+      "size": 36313
+    },
+    {
+      "path": "models/demo_11.png",
+      "sha256": "da15532289b288802b66c4b90f243568c48890fa4477e5f3093aaa89c58d4124",
+      "size": 30852
+    },
+    {
+      "path": "models/demo_12.png",
+      "sha256": "033087911d835bd5f8ddf1dbfd01ab906bff15a8d60b9de62de6509b8c96a5ed",
+      "size": 33520
+    },
+    {
+      "path": "models/demo_13.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/demo_14.png",
+      "sha256": "de69d4608cc394223eb31a16e959e190eccb31fc62840d3de795ec475813845e",
+      "size": 30805
+    },
+    {
+      "path": "models/demo_15.png",
+      "sha256": "da15532289b288802b66c4b90f243568c48890fa4477e5f3093aaa89c58d4124",
+      "size": 30852
+    },
+    {
+      "path": "models/demo_16.png",
+      "sha256": "de69d4608cc394223eb31a16e959e190eccb31fc62840d3de795ec475813845e",
+      "size": 30805
+    },
+    {
+      "path": "models/demo_2.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/demo_3.png",
+      "sha256": "d7fc326056b9346d21802266469b158a7407b459d01fcf8ea8939ddd8d9e6a0f",
+      "size": 3477
+    },
+    {
+      "path": "models/demo_4.png",
+      "sha256": "b3d9a746e8bb602a1e336af8069d4a80d6fd83d77cfcfd3d8be2c76e60da8b39",
+      "size": 21816
+    },
+    {
+      "path": "models/demo_5.png",
+      "sha256": "97a62347f7bbf834b1cb33fd2bc59fe376b1e6a7ab3d368de3ce4d16c9f19f51",
+      "size": 34815
+    },
+    {
+      "path": "models/demo_6.png",
+      "sha256": "772e1e41be8ce63962e6d7f438d8728041e90f4ace1b3006814a1ed4acb21371",
+      "size": 41589
+    },
+    {
+      "path": "models/demo_7.png",
+      "sha256": "9016d172db6407426ed4bcee20c72960df8941286fb8a7be6dda730545d36885",
+      "size": 27094
+    },
+    {
+      "path": "models/demo_8.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/demo_9.png",
+      "sha256": "95a0fdfd11c052083329587bfcc023f8e270b268d4b63a17a52025d4b5d25422",
+      "size": 45145
+    },
+    {
+      "path": "models/engineer.tfmaterials",
+      "sha256": "e797a44423f5596140bff971f2b9d1751ec039dfc6d01357d825b0d5dce84dc1",
+      "size": 485
+    },
+    {
+      "path": "models/engineer.tfmesh",
+      "sha256": "49057b677493af3dfd8c9d7df5a6b3af097b62b4d0e96e5a5eee4cefec2c8db0",
+      "size": 299496
+    },
+    {
+      "path": "models/engineer_0.png",
+      "sha256": "acd8c0bf138041ecec79a0b54165274b4cc881b976728a0c34bae3471c1a9cb8",
+      "size": 25432
+    },
+    {
+      "path": "models/engineer_1.png",
+      "sha256": "aa525628df9e8afbb0f9be90f32d6b83269899b6bb7ea5d9066cbab89accb537",
+      "size": 42543
+    },
+    {
+      "path": "models/engineer_10.png",
+      "sha256": "cceec95a85b479e43f0eaa482cd6725400a929f54c9a8407400ae65f6d48b996",
+      "size": 26907
+    },
+    {
+      "path": "models/engineer_11.png",
+      "sha256": "10785233353d1f9a86bc235ffcaa2e4b4f406420dbec1519ad0c693993fb4375",
+      "size": 32477
+    },
+    {
+      "path": "models/engineer_12.png",
+      "sha256": "bc00cad3a3b4330dca4b740ded44082b6c55d260a5496d3ea842a2da8288075b",
+      "size": 28166
+    },
+    {
+      "path": "models/engineer_13.png",
+      "sha256": "cceec95a85b479e43f0eaa482cd6725400a929f54c9a8407400ae65f6d48b996",
+      "size": 26907
+    },
+    {
+      "path": "models/engineer_14.png",
+      "sha256": "bc00cad3a3b4330dca4b740ded44082b6c55d260a5496d3ea842a2da8288075b",
+      "size": 28166
+    },
+    {
+      "path": "models/engineer_2.png",
+      "sha256": "644428c2a74b29ca4449505a8665d6651bad139133c32b26bafb1717805bd71a",
+      "size": 48104
+    },
+    {
+      "path": "models/engineer_3.png",
+      "sha256": "f6df3597a992e876dd562bc6622d7bfa30071a8422cdad5a6cbb75b0f7a2e9ff",
+      "size": 26170
+    },
+    {
+      "path": "models/engineer_4.png",
+      "sha256": "aa525628df9e8afbb0f9be90f32d6b83269899b6bb7ea5d9066cbab89accb537",
+      "size": 42543
+    },
+    {
+      "path": "models/engineer_5.png",
+      "sha256": "6f16f116612161d4cd0eea17a468ded91b90ed849bb0d98fb3bce92a89fdda2b",
+      "size": 47989
+    },
+    {
+      "path": "models/engineer_6.png",
+      "sha256": "c950d5a3bfe7a7445a3d67ddbe15b8df6405770c3bc947bee109e2d6fcccb563",
+      "size": 42513
+    },
+    {
+      "path": "models/engineer_7.png",
+      "sha256": "83b1bd4c929f2795f846ff4c193b0520f564e5ac3f31dc0f0db2a3f62752bc48",
+      "size": 30451
+    },
+    {
+      "path": "models/engineer_8.png",
+      "sha256": "06691fa53ba16ec8e618f3993bf36050a3bf0cff393f9f2dddf5de39b8b65f14",
+      "size": 48424
+    },
+    {
+      "path": "models/engineer_9.png",
+      "sha256": "8f8673f4354cc79a290e62579ac6fc02fa0152da6ad3a01aa89f26a744e78c75",
+      "size": 35124
+    },
+    {
+      "path": "models/heavy.tfmaterials",
+      "sha256": "6ba0714da85ff5b182c7f9ad7e7d1fa946b8d88fc778d93f66db84877c74095c",
+      "size": 557
+    },
+    {
+      "path": "models/heavy.tfmesh",
+      "sha256": "83ffc1d6e5316074e77181acfdb4f4dc3d59d935cca7fe1a650e2be1089f4098",
+      "size": 279936
+    },
+    {
+      "path": "models/heavy_0.png",
+      "sha256": "69eeef7f430fa751cabbcdd14867ba0ae009a360296392f0e981d52dcbfc2ec0",
+      "size": 43884
+    },
+    {
+      "path": "models/heavy_1.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/heavy_10.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/heavy_11.png",
+      "sha256": "c5d4e552a6947fe513616cc407f00e538ae38218361e07e4bf0e0ba3285e42a8",
+      "size": 34933
+    },
+    {
+      "path": "models/heavy_12.png",
+      "sha256": "23dc5b07805e1606a99f5c6eb9e879c3efb4707fd10a93aa1f2b0420b0519ddd",
+      "size": 31514
+    },
+    {
+      "path": "models/heavy_13.png",
+      "sha256": "7ca6b1eb003d941d43238d5d6050c4eadd39ea455dfef57d1905b93bac115da8",
+      "size": 24134
+    },
+    {
+      "path": "models/heavy_14.png",
+      "sha256": "c4d381807cda3a87d5e8d8cc0e67314cef4728150522a584a361b18c0bfa3322",
+      "size": 40127
+    },
+    {
+      "path": "models/heavy_15.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/heavy_16.png",
+      "sha256": "7ca6b1eb003d941d43238d5d6050c4eadd39ea455dfef57d1905b93bac115da8",
+      "size": 24134
+    },
+    {
+      "path": "models/heavy_17.png",
+      "sha256": "b70f3eb758ccf264239e4e97730f2b21f6275b68e92f6aceff07bce1a965e6cb",
+      "size": 23617
+    },
+    {
+      "path": "models/heavy_18.png",
+      "sha256": "b70f3eb758ccf264239e4e97730f2b21f6275b68e92f6aceff07bce1a965e6cb",
+      "size": 23617
+    },
+    {
+      "path": "models/heavy_19.png",
+      "sha256": "7ca6b1eb003d941d43238d5d6050c4eadd39ea455dfef57d1905b93bac115da8",
+      "size": 24134
+    },
+    {
+      "path": "models/heavy_2.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/heavy_20.png",
+      "sha256": "b70f3eb758ccf264239e4e97730f2b21f6275b68e92f6aceff07bce1a965e6cb",
+      "size": 23617
+    },
+    {
+      "path": "models/heavy_3.png",
+      "sha256": "239994f6ec066f6d641974dfc7bcce0e2e1d4e4fffccfb648226b5ff90a8dd5b",
+      "size": 19030
+    },
+    {
+      "path": "models/heavy_4.png",
+      "sha256": "239994f6ec066f6d641974dfc7bcce0e2e1d4e4fffccfb648226b5ff90a8dd5b",
+      "size": 19030
+    },
+    {
+      "path": "models/heavy_5.png",
+      "sha256": "feccee724e9ef7f3349b891b124e590f274965c4d4dca9cdd440f70e0b0da9d9",
+      "size": 18914
+    },
+    {
+      "path": "models/heavy_6.png",
+      "sha256": "69eeef7f430fa751cabbcdd14867ba0ae009a360296392f0e981d52dcbfc2ec0",
+      "size": 43884
+    },
+    {
+      "path": "models/heavy_7.png",
+      "sha256": "feccee724e9ef7f3349b891b124e590f274965c4d4dca9cdd440f70e0b0da9d9",
+      "size": 18914
+    },
+    {
+      "path": "models/heavy_8.png",
+      "sha256": "f770593b928098178f210a97c58c82f79a7242ee5f1e0a8728d01a8488668784",
+      "size": 36498
+    },
+    {
+      "path": "models/heavy_9.png",
+      "sha256": "eb816303c396787ddab4b07d4a43e362171907b253196fd3dcf555c2ef7da634",
+      "size": 26190
+    },
+    {
+      "path": "models/manifest.json",
+      "sha256": "a2b1a9c3a779c5676cf9f7f8676ab14d1a6991355b206a3f4e80241fc27168bc",
+      "size": 6050
+    },
+    {
+      "path": "models/medic.tfmaterials",
+      "sha256": "f65858687a93a35daa3bfca95df5a290962e94e0a2238c870491f20dc00a5423",
+      "size": 557
+    },
+    {
+      "path": "models/medic.tfmesh",
+      "sha256": "94fa14688b6bca4f550208116e87d8cebd58fc6a88650910e409f681d5d600f8",
+      "size": 349796
+    },
+    {
+      "path": "models/medic_0.png",
+      "sha256": "805aab1cea0d14acdaa621dcfb34256725a9162953f8ebf0f71f18fc4a650753",
+      "size": 21777
+    },
+    {
+      "path": "models/medic_1.png",
+      "sha256": "e548d1e3d0430e80c7136bdd20d0e1e7e3f8f412cd07aae7187eac4176029bd4",
+      "size": 38730
+    },
+    {
+      "path": "models/medic_10.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/medic_11.png",
+      "sha256": "d80aa187cb55e9bcb8861a2e49af3bfcc3335e5e74490fb7faec3babdaf1014a",
+      "size": 358
+    },
+    {
+      "path": "models/medic_12.png",
+      "sha256": "9be29fabcca404b7849ebce681fef5268f0afad83757dcaf3bb78d958373e77d",
+      "size": 34800
+    },
+    {
+      "path": "models/medic_13.png",
+      "sha256": "1ec0f73fd1d48a7e86d1bd056606f6fd9acd2df2bd1aa1099fbf9097c51b1161",
+      "size": 28851
+    },
+    {
+      "path": "models/medic_14.png",
+      "sha256": "b8ddca5d0824678a25dfd714311de68b8e76fca98ea5bd80ce3b5de39edd1bf3",
+      "size": 335
+    },
+    {
+      "path": "models/medic_15.png",
+      "sha256": "93b352ff98ca56496b18e89b347595d28cc42273b4c257e66e0367aac5adf75a",
+      "size": 24840
+    },
+    {
+      "path": "models/medic_16.png",
+      "sha256": "c4529e40e8427cd220416ba9d6bfc7bfb9c28c15ae0e8f2b988d8893be366ea8",
+      "size": 30402
+    },
+    {
+      "path": "models/medic_17.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/medic_18.png",
+      "sha256": "a6feb86829e1fd31f85b072e1c8d379599af90d62b0dd0eaeacad4c6f2a18940",
+      "size": 24528
+    },
+    {
+      "path": "models/medic_19.png",
+      "sha256": "93b352ff98ca56496b18e89b347595d28cc42273b4c257e66e0367aac5adf75a",
+      "size": 24840
+    },
+    {
+      "path": "models/medic_2.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/medic_20.png",
+      "sha256": "a6feb86829e1fd31f85b072e1c8d379599af90d62b0dd0eaeacad4c6f2a18940",
+      "size": 24528
+    },
+    {
+      "path": "models/medic_3.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/medic_4.png",
+      "sha256": "a9f42b754e4ff069e764700e7a598b2496e2bbfc1247badf54cd7b7282558b31",
+      "size": 38368
+    },
+    {
+      "path": "models/medic_5.png",
+      "sha256": "4960e516dae715098626722f7a3e8c2d01cf3d10fa51f059cbd662e6348da816",
+      "size": 21179
+    },
+    {
+      "path": "models/medic_6.png",
+      "sha256": "e548d1e3d0430e80c7136bdd20d0e1e7e3f8f412cd07aae7187eac4176029bd4",
+      "size": 38730
+    },
+    {
+      "path": "models/medic_7.png",
+      "sha256": "f6637c5a12263570dd640ba9b0e94ae0a56f59b4c63cd08579babbda8dc73b63",
+      "size": 39704
+    },
+    {
+      "path": "models/medic_8.png",
+      "sha256": "d711b4215db15c4088309f968cd723b821be5f3b3277045cd8e831f3f473b5b0",
+      "size": 32037
+    },
+    {
+      "path": "models/medic_9.png",
+      "sha256": "fdd916bada42b31de8b3c6390cddd5fb48414ff5214e0a52eeace13b51325beb",
+      "size": 27074
+    },
+    {
+      "path": "models/pyro.tfmaterials",
+      "sha256": "5c3e770b38c28927c5080039e1de4555330c7c50e7094afa7d6e1442911b1280",
+      "size": 193
+    },
+    {
+      "path": "models/pyro.tfmesh",
+      "sha256": "85b177e8a0dba5cb6136c8872357c62facf69cc6e821146cec0b15d8ac5e4dd7",
+      "size": 190996
+    },
+    {
+      "path": "models/pyro_0.png",
+      "sha256": "2b83ae1a33228d2a626c5036f76cfb2f6f3821814b0f361f63118fae59ef3e64",
+      "size": 31136
+    },
+    {
+      "path": "models/pyro_1.png",
+      "sha256": "f8e6712c00cfbb2f60e1541001fcc6019393a21ae94ae40ba9b64b8f4de6ae49",
+      "size": 30523
+    },
+    {
+      "path": "models/pyro_2.png",
+      "sha256": "0dd0a418126c5ff419c289e5e3874429cb46c6ac2c6b67f516bc2416ef13e166",
+      "size": 43060
+    },
+    {
+      "path": "models/pyro_3.png",
+      "sha256": "4d64a452785d1ed5c03f17ee5ba9146d970d71ef09dd18be746764508a501a18",
+      "size": 42311
+    },
+    {
+      "path": "models/pyro_4.png",
+      "sha256": "5648e6e4f7a826c5923a73fd40c00a8af8c00108d6e681ca3e2f8dd69b01e7fd",
+      "size": 28270
+    },
+    {
+      "path": "models/pyro_5.png",
+      "sha256": "6fca57e53b9b0ddeb68e3087a35fe2db7c5b0d676b36256d1cb526289c889482",
+      "size": 27718
+    },
+    {
+      "path": "models/pyro_6.png",
+      "sha256": "5648e6e4f7a826c5923a73fd40c00a8af8c00108d6e681ca3e2f8dd69b01e7fd",
+      "size": 28270
+    },
+    {
+      "path": "models/pyro_7.png",
+      "sha256": "6fca57e53b9b0ddeb68e3087a35fe2db7c5b0d676b36256d1cb526289c889482",
+      "size": 27718
+    },
+    {
+      "path": "models/scout.tfmaterials",
+      "sha256": "1fd83b561b07e4ebe8aad48bcb74b5ff1c61e541122d3d5a98dda8fdeea47b76",
+      "size": 449
+    },
+    {
+      "path": "models/scout.tfmesh",
+      "sha256": "4307e76dda3e033a0e3475da29183bc72d45dc8219ede1099254a37e2315c033",
+      "size": 294316
+    },
+    {
+      "path": "models/scout_0.png",
+      "sha256": "fa8c36688b753a2b25810ef7728e6e46818b4b808a754d9e350cd5d2522d2e2b",
+      "size": 24146
+    },
+    {
+      "path": "models/scout_1.png",
+      "sha256": "8494fe9e48fc88668595aef600bbe3639f280ade9faa91c5b9e0f12d6f6e827f",
+      "size": 47597
+    },
+    {
+      "path": "models/scout_10.png",
+      "sha256": "f8601c82947d1f462f35f94936fec1a0997361282fe5b20670b7309cf01070f9",
+      "size": 41735
+    },
+    {
+      "path": "models/scout_11.png",
+      "sha256": "e227596bbe94af2643734d47adf0fafb5662780ebc0362f46b933f333b4eacc6",
+      "size": 32820
+    },
+    {
+      "path": "models/scout_12.png",
+      "sha256": "290e26f54e3ce381a11e45d86b44d1e1b5de26554b89aa550a0548d0532a5e43",
+      "size": 32826
+    },
+    {
+      "path": "models/scout_13.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/scout_14.png",
+      "sha256": "63eecc1c3085cc6edb7d640a99a30125dc8549ab5d832dd419855bc73fc02c64",
+      "size": 32760
+    },
+    {
+      "path": "models/scout_15.png",
+      "sha256": "e227596bbe94af2643734d47adf0fafb5662780ebc0362f46b933f333b4eacc6",
+      "size": 32820
+    },
+    {
+      "path": "models/scout_16.png",
+      "sha256": "63eecc1c3085cc6edb7d640a99a30125dc8549ab5d832dd419855bc73fc02c64",
+      "size": 32760
+    },
+    {
+      "path": "models/scout_2.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/scout_3.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/scout_4.png",
+      "sha256": "a308418e51800404fd47cd6c681db6c17c3bc043a9047634e72799e50f45c999",
+      "size": 24226
+    },
+    {
+      "path": "models/scout_5.png",
+      "sha256": "8494fe9e48fc88668595aef600bbe3639f280ade9faa91c5b9e0f12d6f6e827f",
+      "size": 47597
+    },
+    {
+      "path": "models/scout_6.png",
+      "sha256": "2d3ec7cd4d49cbd7e154474231bcd14c84dacd6060d5b5a0f78aa9f05e5052b9",
+      "size": 34052
+    },
+    {
+      "path": "models/scout_7.png",
+      "sha256": "34694003071196adf9168f302cdd1b3df7ec1a191731d07a646be8509b925152",
+      "size": 33535
+    },
+    {
+      "path": "models/scout_8.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/scout_9.png",
+      "sha256": "914509a839a0f38f46bbbd804d3441e5028c2abc8bc20822d71928b9514fdf7b",
+      "size": 36135
+    },
+    {
+      "path": "models/sniper.tfmaterials",
+      "sha256": "65e675a8d147cd4c1eb2de6e570101160228787b5aa2229b7b95ed7578225345",
+      "size": 570
+    },
+    {
+      "path": "models/sniper.tfmesh",
+      "sha256": "f01c2e545217786cb741545d03de14224e10dffcdcbdc62a6596fd711a6dff6c",
+      "size": 256988
+    },
+    {
+      "path": "models/sniper_0.png",
+      "sha256": "dad1b742ada71ce6e9ce7e4c69e28ea80aae6aa17dbc51c28f8e3dbe305add31",
+      "size": 23979
+    },
+    {
+      "path": "models/sniper_1.png",
+      "sha256": "786f148de260102d333e951b56138cae0b9aa99a656467389726418deeb6c1c7",
+      "size": 17970
+    },
+    {
+      "path": "models/sniper_10.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/sniper_11.png",
+      "sha256": "73a7173f5e7d22510e6142996c625dfd9fe517b0f963bd898559961497cb97af",
+      "size": 304
+    },
+    {
+      "path": "models/sniper_12.png",
+      "sha256": "9e5e432b2b138e6a50acad1e53d2c1c82d10dcd1820c3c2b474f7a373fe9cfe2",
+      "size": 35202
+    },
+    {
+      "path": "models/sniper_13.png",
+      "sha256": "34225ac501cd2c61cc0302b293c3891154d0f8c29385bf9943eb53bbcc41f83b",
+      "size": 28769
+    },
+    {
+      "path": "models/sniper_14.png",
+      "sha256": "5c94dd71cc04ca0a259284bbab24f0d6872f544d3b0ac31a4e6633133ef295aa",
+      "size": 23534
+    },
+    {
+      "path": "models/sniper_15.png",
+      "sha256": "e9caa224559fc8fca043bd1e02eaafddb2d6d77557173c491100319e3cefa331",
+      "size": 32081
+    },
+    {
+      "path": "models/sniper_16.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/sniper_17.png",
+      "sha256": "e2c47388bb603dd013d058d7ffc16692694f9fb8058c0abaffec59a0fbe8c944",
+      "size": 23209
+    },
+    {
+      "path": "models/sniper_18.png",
+      "sha256": "5c94dd71cc04ca0a259284bbab24f0d6872f544d3b0ac31a4e6633133ef295aa",
+      "size": 23534
+    },
+    {
+      "path": "models/sniper_19.png",
+      "sha256": "e2c47388bb603dd013d058d7ffc16692694f9fb8058c0abaffec59a0fbe8c944",
+      "size": 23209
+    },
+    {
+      "path": "models/sniper_2.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/sniper_3.png",
+      "sha256": "cf2ecbb6eff3f8639a86ce4a468f45e369e92d108b70d79c7df45f509fdbe25d",
+      "size": 42185
+    },
+    {
+      "path": "models/sniper_4.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/sniper_5.png",
+      "sha256": "78ad00c268e6d57945d1d3be783c7e24ad77a4c6d8a5e148639eddd6b60c3f34",
+      "size": 15784
+    },
+    {
+      "path": "models/sniper_6.png",
+      "sha256": "d744eeebc113ca2f5f253e4e0bf8938a8b195368672b46022f9e1a1354c7a419",
+      "size": 23995
+    },
+    {
+      "path": "models/sniper_7.png",
+      "sha256": "cf2ecbb6eff3f8639a86ce4a468f45e369e92d108b70d79c7df45f509fdbe25d",
+      "size": 42185
+    },
+    {
+      "path": "models/sniper_8.png",
+      "sha256": "f3fb6140c9b2a7f891815fc5753a7267258c69f18a44bf77ac1b93a737ef139d",
+      "size": 31726
+    },
+    {
+      "path": "models/sniper_9.png",
+      "sha256": "aaf3a3ee713ae1fdd20ba1104965e56d204c199bbf4e7d31688dead25f4c9f70",
+      "size": 24401
+    },
+    {
+      "path": "models/soldier.tfmaterials",
+      "sha256": "22012eb2017b613a8d5970555312baa485c298f61179bb0dd2fa615186e4ffb4",
+      "size": 610
+    },
+    {
+      "path": "models/soldier.tfmesh",
+      "sha256": "551ff1defd0cfb615e69350ae5442ad033e398a82d7ed93488f0635a618b1235",
+      "size": 321516
+    },
+    {
+      "path": "models/soldier_0.png",
+      "sha256": "f24be7ae6a1a636251aa36df2970db0e0eca32c2315bd94d6fec5ada4dcae65c",
+      "size": 21767
+    },
+    {
+      "path": "models/soldier_1.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/soldier_10.png",
+      "sha256": "9049c3f416c2c1c4b3dbb6fcad5e4b539486bdcf3256499f9ef07a44f8ff6a04",
+      "size": 25309
+    },
+    {
+      "path": "models/soldier_11.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/soldier_12.png",
+      "sha256": "4c071f2bc78bac801abee21894bf03f1bae13a2f3b935e7310d56d41501c3607",
+      "size": 36914
+    },
+    {
+      "path": "models/soldier_13.png",
+      "sha256": "acc198b2e9fcd1014c481eb5100732c7f4bdcdac9a5a0e31d3ba9b2fd2cf625b",
+      "size": 27842
+    },
+    {
+      "path": "models/soldier_14.png",
+      "sha256": "02df99c75185ea6970ae34cd8ef96ad9a8a39c899153c7cca30563c4f0f6d660",
+      "size": 26192
+    },
+    {
+      "path": "models/soldier_15.png",
+      "sha256": "42c43b5f02bb6bf0ed25bfa76584d436b8f05b3012f6d4edca502867ca4f0ab8",
+      "size": 38674
+    },
+    {
+      "path": "models/soldier_16.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "models/soldier_17.png",
+      "sha256": "698876c71fe6762e0082418dc141b7ebe28a9f86bca3b4bf34615e0578e2656f",
+      "size": 26293
+    },
+    {
+      "path": "models/soldier_18.png",
+      "sha256": "02df99c75185ea6970ae34cd8ef96ad9a8a39c899153c7cca30563c4f0f6d660",
+      "size": 26192
+    },
+    {
+      "path": "models/soldier_19.png",
+      "sha256": "698876c71fe6762e0082418dc141b7ebe28a9f86bca3b4bf34615e0578e2656f",
+      "size": 26293
+    },
+    {
+      "path": "models/soldier_2.png",
+      "sha256": "78e29a2cc00cd9e1cc9345098e028340a978cae6e311febef1c53d8f1b4f5904",
+      "size": 46101
+    },
+    {
+      "path": "models/soldier_3.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/soldier_4.png",
+      "sha256": "d1cb37a8dace628d161070b6a83793627e86ae355a123e7aad9b5c0ae8077dde",
+      "size": 33497
+    },
+    {
+      "path": "models/soldier_5.png",
+      "sha256": "55297c90629e783c63f55d5922ac6a5b2bb4b2b1a87108044cf94a2dcbe5de88",
+      "size": 37957
+    },
+    {
+      "path": "models/soldier_6.png",
+      "sha256": "0991de01efba524a30d5440bc56511e11d1d3eb34e29c301528d0b01a659b7a4",
+      "size": 23744
+    },
+    {
+      "path": "models/soldier_7.png",
+      "sha256": "78e29a2cc00cd9e1cc9345098e028340a978cae6e311febef1c53d8f1b4f5904",
+      "size": 46101
+    },
+    {
+      "path": "models/soldier_8.png",
+      "sha256": "a3883dc82de70eb979274cdee4b223a5a1067a920907a3605edd57c843b5dc6b",
+      "size": 39013
+    },
+    {
+      "path": "models/soldier_9.png",
+      "sha256": "a68d6a1274ac7a3eed3c7a552f1e31c9e96cf03be95a4a53c4ca6b2e75317373",
+      "size": 32745
+    },
+    {
+      "path": "models/spy.tfmaterials",
+      "sha256": "6643902fcfb3ac7b94992e165690132b81c75cdb8aff107d082737ca19d49a7b",
+      "size": 703
+    },
+    {
+      "path": "models/spy.tfmesh",
+      "sha256": "65d70e2d73a80cb69c9a0fc49088abd7b00721a76826cdf85c98c701537ba801",
+      "size": 199876
+    },
+    {
+      "path": "models/spy_0.png",
+      "sha256": "200eed018fcefae07670199827da31c6ac9b2c0ce7bddbaaf20405aa0d9888d3",
+      "size": 30819
+    },
+    {
+      "path": "models/spy_1.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/spy_10.png",
+      "sha256": "d80aa187cb55e9bcb8861a2e49af3bfcc3335e5e74490fb7faec3babdaf1014a",
+      "size": 358
+    },
+    {
+      "path": "models/spy_11.png",
+      "sha256": "5419dd7388d47588b456ae9aaf9f9ae5a9fd58a749709e1f4db8814a28551886",
+      "size": 29202
+    },
+    {
+      "path": "models/spy_12.png",
+      "sha256": "973f0f77ce7f7d0f7c7df4bb8ac3f1bec658c877cfab9e02e8863ebc7c3e7078",
+      "size": 22432
+    },
+    {
+      "path": "models/spy_13.png",
+      "sha256": "b8ddca5d0824678a25dfd714311de68b8e76fca98ea5bd80ce3b5de39edd1bf3",
+      "size": 335
+    },
+    {
+      "path": "models/spy_14.png",
+      "sha256": "c7527d5c69dbd329a095ac59ddb2ec1cd84e6e80e2a912d5db3c41bad0405f74",
+      "size": 38254
+    },
+    {
+      "path": "models/spy_15.png",
+      "sha256": "d2fc765b6cd363862b8943c6022e8355d5da3e53c9fe43df939b27d5e3e940a3",
+      "size": 33940
+    },
+    {
+      "path": "models/spy_16.png",
+      "sha256": "7178b5f1645cf96345183f31214c0a81a4a10c2a67d2d6665544915cdb4386d6",
+      "size": 29458
+    },
+    {
+      "path": "models/spy_17.png",
+      "sha256": "a1e60ce26cc39aa5e7c39ade11dd3578abdb6ce76a182c7b764822b95bf40b76",
+      "size": 37748
+    },
+    {
+      "path": "models/spy_18.png",
+      "sha256": "0fec90d81766d54b915d9168a975dd8f295074d10c8f5cce8e44507c0ec218c2",
+      "size": 40117
+    },
+    {
+      "path": "models/spy_19.png",
+      "sha256": "7677c199061321661eb829776ee1d5a0262ed40155658858cdf7a9fd83dd4225",
+      "size": 43886
+    },
+    {
+      "path": "models/spy_2.png",
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
+    },
+    {
+      "path": "models/spy_20.png",
+      "sha256": "9b4dfb5c0e1619bf4a661c478992c857e029bf4001b225ac3700ebee9ae68b06",
+      "size": 32406
+    },
+    {
+      "path": "models/spy_21.png",
+      "sha256": "3a639045bfcc20728667a107dba2e23f3cfdc0025bd38f7155d347ef613d3ffd",
+      "size": 31351
+    },
+    {
+      "path": "models/spy_22.png",
+      "sha256": "9a781cd5727fcaf3bfb3bfb3b0497fa82eb32f457c22609266845b4718899e9d",
+      "size": 19620
+    },
+    {
+      "path": "models/spy_23.png",
+      "sha256": "f886032355c9b21b1d540d8349513aebaed9a4d124ff9d9fcbefe97992c23842",
+      "size": 17273
+    },
+    {
+      "path": "models/spy_24.png",
+      "sha256": "3b2c1f88bb2997f58fcc8ad6f7579977d38d9c4701345f93dc7bbacfd945ee36",
+      "size": 225
+    },
+    {
+      "path": "models/spy_25.png",
+      "sha256": "30f5d3c4c2e3a7caee16637a249b8d3d678fc2d163eba5dce34e5637a942a373",
+      "size": 18981
+    },
+    {
+      "path": "models/spy_26.png",
+      "sha256": "cc10798816ad541cc288fbb4ef12a923acbdc7ab2236a663b0c121ae9257f37c",
+      "size": 20128
+    },
+    {
+      "path": "models/spy_27.png",
+      "sha256": "9a781cd5727fcaf3bfb3bfb3b0497fa82eb32f457c22609266845b4718899e9d",
+      "size": 19620
+    },
+    {
+      "path": "models/spy_28.png",
+      "sha256": "f886032355c9b21b1d540d8349513aebaed9a4d124ff9d9fcbefe97992c23842",
+      "size": 17273
+    },
+    {
+      "path": "models/spy_29.png",
+      "sha256": "30f5d3c4c2e3a7caee16637a249b8d3d678fc2d163eba5dce34e5637a942a373",
+      "size": 18981
+    },
+    {
+      "path": "models/spy_3.png",
+      "sha256": "f6433a4ff4b67e8d314113907c6ce96ad280570262c8f6e75cddd65bfeb96007",
+      "size": 17638
+    },
+    {
+      "path": "models/spy_30.png",
+      "sha256": "cc10798816ad541cc288fbb4ef12a923acbdc7ab2236a663b0c121ae9257f37c",
+      "size": 20128
+    },
+    {
+      "path": "models/spy_4.png",
+      "sha256": "f4aa1d08388294a5c8a4224c7947761668dc955db5a6d805fef33619e3e9f1a6",
+      "size": 35474
+    },
+    {
+      "path": "models/spy_5.png",
+      "sha256": "11edc77cb73019ad97b4dc3d4e859a1bb02c9f56b8a626039de42b36354c4c7d",
+      "size": 16993
+    },
+    {
+      "path": "models/spy_6.png",
+      "sha256": "1b1f26ba0a8ae9d29e2a0862ae704933461cf1ea1fe30a0269de959f727b7957",
+      "size": 31507
+    },
+    {
+      "path": "models/spy_7.png",
+      "sha256": "619ba1ea4967ba6be0d3faff64e7f7f59fdac79581ab69ef3d949a0c107629f8",
+      "size": 25484
+    },
+    {
+      "path": "models/spy_8.png",
+      "sha256": "4e421f3762804d565409711507d6e31087a9dcbd108f7a41eb26f313318f013b",
+      "size": 14129
+    },
+    {
+      "path": "models/spy_9.png",
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
+    },
+    {
+      "path": "objects/ammo_ae55312afd7e6aa2.tfmaterials",
+      "sha256": "e49559b9d95fbd26b154a7d634349b07eb130f2898e4b39c8b1cc61308f7198a",
+      "size": 76
+    },
+    {
+      "path": "objects/ammo_ae55312afd7e6aa2.tfmesh",
+      "sha256": "6c427cf3238a67805b54f5c1928051741e487c1d5718baf899a7d4c8cda4170b",
+      "size": 37652
+    },
+    {
+      "path": "objects/ammo_bfe7dbb329236e0c.tfmaterials",
+      "sha256": "11cd18eeb72c0d32b35cba195b2fd32eab09edde1c183cfee5362cf4fdf8ebb5",
+      "size": 76
+    },
+    {
+      "path": "objects/ammo_bfe7dbb329236e0c.tfmesh",
+      "sha256": "77e25388b6174b80ba5a95f1aa977d91bd11e5b545711e8325d6b9ad9ff33fa1",
+      "size": 55316
+    },
+    {
+      "path": "objects/ammo_ebf231fd9a2ef5b8.tfmaterials",
+      "sha256": "e49559b9d95fbd26b154a7d634349b07eb130f2898e4b39c8b1cc61308f7198a",
+      "size": 76
+    },
+    {
+      "path": "objects/ammo_ebf231fd9a2ef5b8.tfmesh",
+      "sha256": "9868471a86ff1c35699badec1b9a372b25d1ea489157cd6469ba9e2a070ee290",
+      "size": 29012
+    },
+    {
+      "path": "objects/catalog.json",
+      "sha256": "bad16cf102de45fa92de02146e030fe921bc35ef54c064f10e138c0f9efa5792",
+      "size": 82325
+    },
+    {
+      "path": "objects/health_2530af1060fa71b6.tfmaterials",
+      "sha256": "de6acb05a870660f5f257267b770c60768e9d1eb6f38f31cd5462eb3fd085d69",
+      "size": 76
+    },
+    {
+      "path": "objects/health_2530af1060fa71b6.tfmesh",
+      "sha256": "a958003c0f1047ab586535d1bf36695e2575da14f5d7100029d54a488dbb60da",
+      "size": 25748
+    },
+    {
+      "path": "objects/health_842d5e64933eedf2.tfmaterials",
+      "sha256": "de6acb05a870660f5f257267b770c60768e9d1eb6f38f31cd5462eb3fd085d69",
+      "size": 76
+    },
+    {
+      "path": "objects/health_842d5e64933eedf2.tfmesh",
+      "sha256": "b8f8d3a31ddf26b73846a1ce3484fca1fb6aa259f4bbde331213ce8e692354bb",
+      "size": 12756
+    },
+    {
+      "path": "objects/health_c210191b9dda498d.tfmaterials",
+      "sha256": "de6acb05a870660f5f257267b770c60768e9d1eb6f38f31cd5462eb3fd085d69",
+      "size": 76
+    },
+    {
+      "path": "objects/health_c210191b9dda498d.tfmesh",
+      "sha256": "500df698727094232f9e936d340289466ce864ab9e469cba0f0cd1486c29b71f",
+      "size": 19988
+    },
+    {
+      "path": "objects/texture_019b2e91def600842b2e.png",
+      "sha256": "6d4a7dfb259ad8bd3a58b65aadecc84026582ba2d3030ceb111a300fdf9bec9b",
+      "size": 14762
+    },
+    {
+      "path": "objects/texture_02ca2655dfa7e369b8b9.png",
+      "sha256": "e82e90145b357a324664b0a60817b7651d9099a0099eda1c365a8047ef022454",
+      "size": 71128
+    },
+    {
+      "path": "objects/texture_042ac92cfe79d71c07da.png",
+      "sha256": "0132c8901fe6c962e2b3b15edc536465c26f5504e3ffab1831f649887428677e",
+      "size": 46298
+    },
+    {
+      "path": "objects/texture_06b7aa186e5dbb5ef4b7.png",
+      "sha256": "6063e6c92fadd940951b02b2e603072b7ea7d8aa3d9df960ff2e937a97f3f99f",
+      "size": 41570
+    },
+    {
+      "path": "objects/texture_06cd4db92db44669ab7c.png",
+      "sha256": "e907963a54583095165e20f7674c646995f8e0f8144537fc570be91edcc8db32",
+      "size": 110
+    },
+    {
+      "path": "objects/texture_0802c6f03e8ac971db1e.png",
+      "sha256": "d1585a91eee6c14e47c4831b0125c2368b5603d991507264313d91d2e36f6894",
+      "size": 60323
+    },
+    {
+      "path": "objects/texture_08585247e4632a41f76e.png",
+      "sha256": "b8dc892b02b654f97cd325c7d46e947c9663e88321e6211e732afd3d06dece3c",
+      "size": 49880
+    },
+    {
+      "path": "objects/texture_08636b692712c6e80ebe.png",
+      "sha256": "276bf349f89ae2e0e4a77b0fff7bd37f1f7fdc8643a1ad394e1d9dcca8c160db",
+      "size": 61222
+    },
+    {
+      "path": "objects/texture_0a0d1adc3a0e18e78b76.png",
+      "sha256": "7943fc0d8aaf961c55de08c838c1e04a66f235f3d085fac5f3a4c377b1bba03d",
+      "size": 45613
+    },
+    {
+      "path": "objects/texture_0a2c3f604070b42317a9.png",
+      "sha256": "eb3f80908f7337f5741a6df686b5f12fe765d7fcae8a0c65019ad228b414e0f2",
+      "size": 67993
+    },
+    {
+      "path": "objects/texture_0a6b315ef06bbde718e3.png",
+      "sha256": "db978f5d1cc6c05377369684828b20fc772cc397422ea947267e6cfa67e6aa4d",
+      "size": 52884
+    },
+    {
+      "path": "objects/texture_0bb1af2a9bc5a5fbb7a6.png",
+      "sha256": "e26dd595c05bed15c3763627f868c6693c6a8b9b3f760a40d596b79a4849a63b",
+      "size": 49689
+    },
+    {
+      "path": "objects/texture_0c0ee74cd1d5543bc6f8.png",
+      "sha256": "c306f06be9a961a1b95c1ce51e7bbb59479ca0ccb07f1160183aa0ba6fd7e4e4",
+      "size": 111
+    },
+    {
+      "path": "objects/texture_1120478323b97608a105.png",
+      "sha256": "785ee53459719f95f34f67bdd9f3c19ea73dbf8cb32105fd48ee41dce49320ed",
+      "size": 64159
+    },
+    {
+      "path": "objects/texture_12606f63f66f0173b83b.png",
+      "sha256": "a4f4d703f50e09390d24c0f6871a30529a06d9659e597745ea723350232056a7",
+      "size": 43084
+    },
+    {
+      "path": "objects/texture_12d24603b42d9a9582b1.png",
+      "sha256": "1be709a974763db9182d6ea23bc558c9244d5d45f10a82f241ea253a46d68d2e",
+      "size": 56211
+    },
+    {
+      "path": "objects/texture_15ab0185f0af07531dcc.png",
+      "sha256": "d57cdc259f697703292d1be2224e0503d0e0d1f1f59eac85bd466093586f70aa",
+      "size": 41029
+    },
+    {
+      "path": "objects/texture_15ac21607cf0514164ae.png",
+      "sha256": "e26dd595c05bed15c3763627f868c6693c6a8b9b3f760a40d596b79a4849a63b",
+      "size": 49689
+    },
+    {
+      "path": "objects/texture_15ca2897895afd51ba68.png",
+      "sha256": "25b91543a83a52ecd4251e883f5fb17a2ae8b9569fbbd917c3276edca896d290",
+      "size": 60675
+    },
+    {
+      "path": "objects/texture_15ee8fa6609ec0931c2e.png",
+      "sha256": "7df69f70f7ba5a83ed98a7d0a574144f89d7e318770cba21504d325dd901869c",
+      "size": 38395
+    },
+    {
+      "path": "objects/texture_16f7cae71d7d1daa249a.png",
+      "sha256": "f145b0cc0002871b51613ba4ac9c1c7c2f687d2664280fd93ac7126b9dd397d0",
+      "size": 37515
+    },
+    {
+      "path": "objects/texture_182c039196132dced91b.png",
+      "sha256": "188505ff06367df3e893ac7552e9229b5488e1eede69d6f46f29a249c4727d9f",
+      "size": 395
+    },
+    {
+      "path": "objects/texture_185d0fd55038d959814a.png",
+      "sha256": "c6049b23767297afb8d7bc41957e7d13db9b3949dc5bdaa21c3776d7065f3c32",
+      "size": 27641
+    },
+    {
+      "path": "objects/texture_1bcd9f22820980fa23d7.png",
+      "sha256": "613870a6685591e9042b82ab7d421de6e63f17b6079b92863e7fcb89bd630f32",
+      "size": 35852
+    },
+    {
+      "path": "objects/texture_1c02a081e26bf9038ca1.png",
+      "sha256": "664d6fc0eabce14001867497c8ca1152732f0436ce775c43813f3d78b5e4917e",
+      "size": 39442
+    },
+    {
+      "path": "objects/texture_1d46e633ae9ffdac6219.png",
+      "sha256": "247baf7a9e984e3399cc4b6389ff20cc02919913249c112d8af2bf56be8a4b9b",
+      "size": 49450
+    },
+    {
+      "path": "objects/texture_1f16b4a6b32e39589c39.png",
+      "sha256": "4286d3dfc6d3b66bd2bd311171656467393a181492e663ca6825f14e2791ba9c",
+      "size": 54443
+    },
+    {
+      "path": "objects/texture_2097ed480d2e54f547d4.png",
+      "sha256": "d668900f7eeb4a52e1d9044dddae65f40c00bee73b142af37c7ab377a40b6ce3",
+      "size": 47481
+    },
+    {
+      "path": "objects/texture_22b4d0509a7defe76329.png",
+      "sha256": "0fecad877fe22d5849ff6f8629d1b2f032dabe61bd992d21247c20d9002455ee",
+      "size": 52998
+    },
+    {
+      "path": "objects/texture_22c5253f9d23b3ebffe4.png",
+      "sha256": "373413a09dfba9578d4339bc7898f40b119a6c33132bae39b0b17ea47a622747",
+      "size": 54039
+    },
+    {
+      "path": "objects/texture_23d155dabef4c5b0e98c.png",
+      "sha256": "8566753090ba10b349e9f25b6f422aa4479300507938afe1aaac02cd0941a233",
+      "size": 47509
+    },
+    {
+      "path": "objects/texture_2474433dcb5e551a1384.png",
+      "sha256": "ee630ec0f7d2d45549c0a035cc4bf04671ab70b3aa4f721b4237b0abdd489b5f",
+      "size": 54822
+    },
+    {
+      "path": "objects/texture_24a7dff05b60c5327f12.png",
+      "sha256": "3304595177c25077a158131220dd91a5af4531db5a192c69ff90c7e40cf4be67",
+      "size": 47857
+    },
+    {
+      "path": "objects/texture_24a9a32cdc50b3010af4.png",
+      "sha256": "4a103001052b960a7d022a0120012749795dc81b2effad65066e1f067f438e21",
+      "size": 3738
+    },
+    {
+      "path": "objects/texture_265b48300edfa82a3289.png",
+      "sha256": "76d6e5848a19e71fcf81b7bd45bb928e75f0397b21fe1a864d31d2b5056eaedc",
+      "size": 32150
+    },
+    {
+      "path": "objects/texture_2756858d725ab1823e8f.png",
+      "sha256": "e258129ff9d505ed3df430f97553805f6f37ee6f97050f3da155ad8d000d5dfd",
+      "size": 46267
+    },
+    {
+      "path": "objects/texture_2e20d826a994030956d4.png",
+      "sha256": "54131cc2ceefbf6f8032c466b3515a643b6b7a9b759da29eba58faf6b6bab136",
+      "size": 57457
+    },
+    {
+      "path": "objects/texture_2f55350f4b20de1fe499.png",
+      "sha256": "906a136c4d2ab5fa64e2c4ca02b44979b2910b163cb08758d582a5455f22b3a3",
+      "size": 49807
+    },
+    {
+      "path": "objects/texture_30b70e0a7b38979529c3.png",
+      "sha256": "8857046d969655294d59d40afe66d49165c403da96bb377f6c9be692ee058785",
+      "size": 51946
+    },
+    {
+      "path": "objects/texture_3145bddb71188bfea6bf.png",
+      "sha256": "263c5919fb0a87702f7a8b6a2df3d4559232a26ccd4c87f7d91763f7374944af",
+      "size": 53597
+    },
+    {
+      "path": "objects/texture_3177c95dcb618e2ab475.png",
+      "sha256": "756fb87a6b790c37f6706dc29c9e6f28b2c22946e94930fdb4e6640d0c2a8e70",
+      "size": 75928
+    },
+    {
+      "path": "objects/texture_3220422d0e887585ee7c.png",
+      "sha256": "881acc5b5a9d21b733627d421a13c393591c80b563e29c0daf8d4d432933dbe1",
+      "size": 57880
+    },
+    {
+      "path": "objects/texture_3335da4c593fcb4114b7.png",
+      "sha256": "f145b0cc0002871b51613ba4ac9c1c7c2f687d2664280fd93ac7126b9dd397d0",
+      "size": 37515
+    },
+    {
+      "path": "objects/texture_34163193182d0b582edd.png",
+      "sha256": "a5516d1e90c8f5b415f73b4c95edeb452c3ebbe34a19f46c4075c91e0a44b542",
+      "size": 59112
+    },
+    {
+      "path": "objects/texture_3445a8402d8b70c0d4a2.png",
+      "sha256": "f58a8d99b170b49fd5917892f38ef8742d7d14de6e3fde06d028d5ff9bad47e5",
+      "size": 45633
+    },
+    {
+      "path": "objects/texture_3657c5fb197791bdf802.png",
+      "sha256": "3506b2e046f979d16d8f289e408b6d6285193cd9183ff140e15cf309982f0082",
+      "size": 47417
+    },
+    {
+      "path": "objects/texture_385641944a8c788ad3a5.png",
+      "sha256": "cb593b525a7a730a28491cc4fd3f4aac456a74ea2c8c4d273b2468fc6cb0d06b",
+      "size": 38224
+    },
+    {
+      "path": "objects/texture_388fe746ac3caf023a19.png",
+      "sha256": "fbb41aa91e6b5356d08848822adf5c976c2b56424851a814c728aabe634e88ce",
+      "size": 41561
+    },
+    {
+      "path": "objects/texture_38dec524cab33f7660b1.png",
+      "sha256": "d2f715f05b39a4418601d65cc6425defa378f81b4e9168a835ba055c12ca40b9",
+      "size": 50872
+    },
+    {
+      "path": "objects/texture_3bb073dd1a63c6a1023c.png",
+      "sha256": "745e66eea3e70b118974186cff527fd5af9c26a6fb86fe2312c97e28d00c31bc",
+      "size": 52831
+    },
+    {
+      "path": "objects/texture_3cd4681e4c9bb410659d.png",
+      "sha256": "a0cf703add9f65455e51779cfde5330dc48eca08cbd3122c4efdfadf8989f2cd",
+      "size": 63948
+    },
+    {
+      "path": "objects/texture_3cec00809d19d3725528.png",
+      "sha256": "ba9f2a07d0070f0de5cef6995f38088b9102f320e1e94c0e013e71882fe49ccb",
+      "size": 47930
+    },
+    {
+      "path": "objects/texture_3f8bcdb6204eb1190eb1.png",
+      "sha256": "789f8a7370ecaf7a4d270d5e16333f5d85e8e0c61b53dc5a92d4d6af5eb1e94c",
+      "size": 34085
+    },
+    {
+      "path": "objects/texture_3f8c1db2eec6ac091d30.png",
+      "sha256": "33cde8854eebe88fa859d5d44863f186e815cec3149916046ca5eb3bc5396218",
+      "size": 44525
+    },
+    {
+      "path": "objects/texture_41d4ca112b468851edd7.png",
+      "sha256": "e87461240858f191f3253c5513cc55a82016a3899ce20fae1c94e6b3946ea754",
+      "size": 43107
+    },
+    {
+      "path": "objects/texture_45399d3f228bd86c7efd.png",
+      "sha256": "e5932ce9c409310e0031e42c21cdb59687c1619bd2b4510ce46bf8c07a21e1c8",
+      "size": 70838
+    },
+    {
+      "path": "objects/texture_49973a2afba0efbc9316.png",
+      "sha256": "ec66ac59a18964c92e92807d1362b19b1bac45d6143b5d7c03c872aea2d14c88",
+      "size": 12159
+    },
+    {
+      "path": "objects/texture_4bbc8bb0df2e717e0379.png",
+      "sha256": "f20c947063bcc4c41488bae0fd0a15c2ed560d7f5c522cbcdf2cc145fcf1965e",
+      "size": 22715
+    },
+    {
+      "path": "objects/texture_4d5e258ee86b357dca3b.png",
+      "sha256": "bd2bcbc9bbb8607cd019e9dd91191136d3846c1aaaa685a9fa7f2eb8eb80619b",
+      "size": 59840
+    },
+    {
+      "path": "objects/texture_4ef6c36b21c39b1a423f.png",
+      "sha256": "d57a476828c2d149b872c4fbd775c26900bd2633f4a5c1061d33a2fb590df615",
+      "size": 38261
+    },
+    {
+      "path": "objects/texture_4f3b684607054c0f9af6.png",
+      "sha256": "f4e57c7deb313bfd974a741c193d58e20186c75066ccc27bacfcafd39b0fd698",
+      "size": 47290
+    },
+    {
+      "path": "objects/texture_5017f205a4f73e51bd43.png",
+      "sha256": "90b1ab27fcb588b6eed1d7ad3e64325744c6dfbd7d846aa1541a138ce40bd5a3",
+      "size": 71411
+    },
+    {
+      "path": "objects/texture_5228ce844412687bcbb0.png",
+      "sha256": "769c18ec016df33369873229a891ea7e060eff4993125f00214da6289c8eb786",
+      "size": 37459
+    },
+    {
+      "path": "objects/texture_539ac40827c4da72f6c5.png",
+      "sha256": "ea45fc1ab700fe671da9eb836fba4cec5a739d5cdfc3b38c7ed6d201c9ffdf30",
+      "size": 44211
+    },
+    {
+      "path": "objects/texture_551c0db8fa4c9ac6f134.png",
+      "sha256": "e5b2d7b90dab0a5f43d6e961b34999366a8ce26338f02916e3fd2e5bcc559b9f",
+      "size": 65869
+    },
+    {
+      "path": "objects/texture_558a3d6308b70204e308.png",
+      "sha256": "f4ddaa4804a1071cc08ac4148b8845b67143ec51fc34de0cde5dd921322e4567",
+      "size": 53376
+    },
+    {
+      "path": "objects/texture_5cb782c8813078f22704.png",
+      "sha256": "5487c62a0a388718abfc938fd8eaf6485cb77ace5ccff0ee77b39e06d66ffe94",
+      "size": 2780
+    },
+    {
+      "path": "objects/texture_5e2e96c034843b7812ee.png",
+      "sha256": "d748d516cfca8efb1cea44ced6f19967c57e8cb6113485afe741ce7c6a8c23c8",
+      "size": 43326
+    },
+    {
+      "path": "objects/texture_6163a9fe340d9f10db8b.png",
+      "sha256": "d748d516cfca8efb1cea44ced6f19967c57e8cb6113485afe741ce7c6a8c23c8",
+      "size": 43326
+    },
+    {
+      "path": "objects/texture_63073204991305ee5f55.png",
+      "sha256": "5a5a5dfaa6f857234c1fbb0563179afae05b6aa76772f3a0f5ebf6d52e97d938",
+      "size": 67123
+    },
+    {
+      "path": "objects/texture_636d36496866b2895876.png",
+      "sha256": "b59fe9e36200aed82ae7621039aad0ba842955697d6a9c65c3a03a1e5f987716",
+      "size": 20463
+    },
+    {
+      "path": "objects/texture_6387aae472e43e6b450e.png",
+      "sha256": "d112a9b4f6fa40e126db75444ef879f03ce2d4234a5f2c14a4e95ebf2dfa71aa",
+      "size": 46149
+    },
+    {
+      "path": "objects/texture_64596ad8607b38befe63.png",
+      "sha256": "e364d5ad640096c5473d926378609b77d143973a76d6b29da76ecacfe016f92d",
+      "size": 15855
+    },
+    {
+      "path": "objects/texture_6abab44de7e228a278e8.png",
+      "sha256": "a95fc3d069416542b0fb8de8e8211f6bdabbe4b7e36183bf52909215078ad860",
+      "size": 55293
+    },
+    {
+      "path": "objects/texture_6d559f97d3df347f7698.png",
+      "sha256": "39e208c6a6d5f86ad51fa50bcca4dff4bd2ab35e50e45df0f5fa8215be7c1e44",
+      "size": 61001
+    },
+    {
+      "path": "objects/texture_6df364d2792e139e0628.png",
+      "sha256": "d58d655a6120372d76ea34849aa6a1ed0127b3023ee3b16343244872c1497c53",
+      "size": 43797
+    },
+    {
+      "path": "objects/texture_6f1f16091dc3b537648f.png",
+      "sha256": "b45adc7cb34b00794a107c13f00c094754f273fa83ddf5db9c9a9524a3023073",
+      "size": 48756
+    },
+    {
+      "path": "objects/texture_6f4aa0d9abc61462b617.png",
+      "sha256": "39e208c6a6d5f86ad51fa50bcca4dff4bd2ab35e50e45df0f5fa8215be7c1e44",
+      "size": 61001
+    },
+    {
+      "path": "objects/texture_7358ba6124bff46de021.png",
+      "sha256": "5d04b1ab3d4f2bd828a47b2078a8e782fd2d711d280bd34048580f816bc4e535",
+      "size": 43723
+    },
+    {
+      "path": "objects/texture_73db870a617a768b5516.png",
+      "sha256": "c16d4c5496e2fc96110c8ed484a4a76f9e4d234a437237eac2eb4b3063c40429",
+      "size": 63490
+    },
+    {
+      "path": "objects/texture_75825f1eae6e8cdf4892.png",
+      "sha256": "50bba53605d48a2c715cd6ceed0bb02ae0969c2fe3faa806c264f184958a16cb",
+      "size": 31960
+    },
+    {
+      "path": "objects/texture_75afeef35fe809aab4d7.png",
+      "sha256": "2d0f79bbc6a7113589d484b11c01837f4a081a0d40324859f191775e4734482a",
+      "size": 71380
+    },
+    {
+      "path": "objects/texture_7759c42be03da7d26930.png",
+      "sha256": "9b1ff3314da3f2e80b2366b02eae374dff4d9cb0895e72d6dc73c411cf2bacb0",
+      "size": 75241
+    },
+    {
+      "path": "objects/texture_7a0277f820d121e5080f.png",
+      "sha256": "15a3658146642802de4182e82be91c77b30c32715c7a92412bd95cb2f91ba5f4",
+      "size": 53373
+    },
+    {
+      "path": "objects/texture_7c3f1747f5deb684c337.png",
+      "sha256": "3842541b74914effd5ba494c74f3675e790b1b1ba9a8e2c172a9c75f2176e240",
+      "size": 71363
+    },
+    {
+      "path": "objects/texture_7fe8a7446dab68524568.png",
+      "sha256": "33d1f531a0c535d583ae498bfbde8d67226b169ce4c2cb77685ed02dcd6fbb13",
+      "size": 54522
+    },
+    {
+      "path": "objects/texture_8543140b5fedda59d8d1.png",
+      "sha256": "3be28cff5a426117d002b0af476ec0e627053bf7f7d29b14c7329d01130d1b58",
+      "size": 4551
+    },
+    {
+      "path": "objects/texture_8634358c0d4d390a95bf.png",
+      "sha256": "1ff9102b7a37d19976d0274f9058d097b80333e68e4905148a26c10fc54bc009",
+      "size": 77077
+    },
+    {
+      "path": "objects/texture_8ada95fa084e0a4e06c8.png",
+      "sha256": "838f3d0c39b19de01f19d069709717b66e51275d65cf5d20f3ee9a09e3156ce5",
+      "size": 41303
+    },
+    {
+      "path": "objects/texture_8b47845a390041b14f71.png",
+      "sha256": "a482e3fa810388c6e140f77ac45554e108b4790ab9cee52e92af49bf896c8d0e",
+      "size": 59282
+    },
+    {
+      "path": "objects/texture_8f3bedb16daba5bad00d.png",
+      "sha256": "a8aafc7c50061239967a2ef62b7b0de4edf39ab2b2c0bc33631a3f52a581e178",
+      "size": 59382
+    },
+    {
+      "path": "objects/texture_9044531607404d2d4c0f.png",
+      "sha256": "805c2163fb38460526d718fdbac65bb8bf80c875692c7be52bdc34bc3b7e1d75",
+      "size": 48140
+    },
+    {
+      "path": "objects/texture_9596e0262f1f86775b8e.png",
+      "sha256": "001717fe566927daba1e59f3008c7b8d52b0e6634477822b366832f98db01b24",
+      "size": 40432
+    },
+    {
+      "path": "objects/texture_96409767940e4eeaa688.png",
+      "sha256": "41b0c34de3883ee77f7b2cf9630baa84b9da4315acb270a15cce2848588853c5",
+      "size": 35347
+    },
+    {
+      "path": "objects/texture_966e5af9723b7197d646.png",
+      "sha256": "eaed07be5cd930595080b813d73bd14d2794025fff118789929445e8b876e8c7",
+      "size": 25296
+    },
+    {
+      "path": "objects/texture_96da80e13cbe2107cf55.png",
+      "sha256": "0de7835ffa6a7b2cd7bd7ba62d41872b24a194cebcd2e4258ba07fe28f485902",
+      "size": 9774
+    },
+    {
+      "path": "objects/texture_97537153ed518841d853.png",
+      "sha256": "fbb41aa91e6b5356d08848822adf5c976c2b56424851a814c728aabe634e88ce",
+      "size": 41561
+    },
+    {
+      "path": "objects/texture_980d7a6710304a22b76a.png",
+      "sha256": "9f54ebc79b7b58f3f5be77b76cdbbed05385b8ac02d7d655a6683b1c79a6f2de",
+      "size": 34965
+    },
+    {
+      "path": "objects/texture_98c88880cfaba4634079.png",
+      "sha256": "e82e90145b357a324664b0a60817b7651d9099a0099eda1c365a8047ef022454",
+      "size": 71128
+    },
+    {
+      "path": "objects/texture_9a7a924f5aa74e900f22.png",
+      "sha256": "da08d0c8ad009fc9c49e435ce0f5568bb79327386729a19c15b646275f95c7f1",
+      "size": 38251
+    },
+    {
+      "path": "objects/texture_9c67f3da7146fe321437.png",
+      "sha256": "0be0d74b062627e489bd1185ad86ec8f3e1984f7dc4eb469908095c0eedb780c",
+      "size": 24344
+    },
+    {
+      "path": "objects/texture_9d3a4d539dcd5058e81c.png",
+      "sha256": "c26b2be8eb22560c95d31ce9228c31ac452701767473bd914994984d76730672",
+      "size": 33215
+    },
+    {
+      "path": "objects/texture_9db5a5f6d11a6425db38.png",
+      "sha256": "7f6f460bb6282d7955826ae51b15ef5cdc2078ea7a4abb7362659dec1652a342",
+      "size": 54710
+    },
+    {
+      "path": "objects/texture_9ff7dc808eb5ded823b4.png",
+      "sha256": "db01243dda7873765e0d5188408fd48b06bf43ebfd0083f132b9544c4e60edb1",
+      "size": 54409
+    },
+    {
+      "path": "objects/texture_a139a2952eeeecc4c4bb.png",
+      "sha256": "b9c81e07516a8241e36d54cad3763880949d5b20308a059b812ff4895a966b99",
+      "size": 39206
+    },
+    {
+      "path": "objects/texture_a1e64f27bc3dd5e77f75.png",
+      "sha256": "37b2621cdb71cd46bb2b54d318a39f48a1797290f3b7908d278615f41a7e59a5",
+      "size": 60465
+    },
+    {
+      "path": "objects/texture_a83299626e1370c051d3.png",
+      "sha256": "fa5c6106b9e0025fea80838a7d1bf62cf364affe6a7793d7249af28bb8e9427f",
+      "size": 42129
+    },
+    {
+      "path": "objects/texture_a840fd17bf59b8805882.png",
+      "sha256": "b88b8d8240b13728b5c5f19479edabce7c30d77c40aaf2ba53882460be249140",
+      "size": 42259
+    },
+    {
+      "path": "objects/texture_a9426845dbb085656b32.png",
+      "sha256": "68b007420540c8a8e4f7b88a17e059133578118cca69cbdf93c537cb6cbe7150",
+      "size": 27939
+    },
+    {
+      "path": "objects/texture_aa1d98217ad2ddb3f88e.png",
+      "sha256": "1156577c8d05faf19c898b0b87749053d8ef7728d3eec698d34470a3d2c8fd3c",
+      "size": 65794
+    },
+    {
+      "path": "objects/texture_ab46d4a72e2a2fc92756.png",
+      "sha256": "ccb35131e423d0a37f5acf0706546726e8dcd89bd66772557626bdaa565d2b92",
+      "size": 59990
+    },
+    {
+      "path": "objects/texture_abe3702455f2ac9f4026.png",
+      "sha256": "f9e93a8afc5faac7dbf0386c76a35ac10a7e3b9321d03a605236a84060ad59db",
+      "size": 30398
+    },
+    {
+      "path": "objects/texture_adfa2afb7b4638571cbf.png",
+      "sha256": "e2c8549e61e61704da75d232da1c4d9474711eb068a8dc5a4fcac83f7099c322",
+      "size": 27071
+    },
+    {
+      "path": "objects/texture_b0e5de51f001d13877bb.png",
+      "sha256": "b077e6effc991dcb4f6f165e4fc5e25b1ab46cf5727b5564c671499294eedd3b",
+      "size": 82026
+    },
+    {
+      "path": "objects/texture_b12cd967b7e94c2e9431.png",
+      "sha256": "77de220a8e204f9bdfa824e66dc3727fd120f68ab8c3dd309a0bd785111e4b0d",
+      "size": 50908
+    },
+    {
+      "path": "objects/texture_b1dbf83f3a616160da6c.png",
+      "sha256": "27d2bf2c98704e36931114c72bf155e10656d8d6236fb5da8823bebb804e9d6d",
+      "size": 14101
+    },
+    {
+      "path": "objects/texture_b3162a7fe16df3dafcc6.png",
+      "sha256": "c3bf393e5067566082b08e36cdf6bff2e80565e9cdc160c3e0462ed932990fab",
+      "size": 53495
+    },
+    {
+      "path": "objects/texture_b4d62bf3f10e668b296e.png",
+      "sha256": "7acd5c258918402bd279e898834e4cf872a25afde7c66b91f278b0f052885033",
+      "size": 50243
+    },
+    {
+      "path": "objects/texture_b553aad221538bd2e6c8.png",
+      "sha256": "a8bc87555a16138d60b081f98d86268b710df473a138df3c0bd921eab994042a",
+      "size": 60611
+    },
+    {
+      "path": "objects/texture_b6bb1b6b5767191aee61.png",
+      "sha256": "9689d51d001a9875197f6b97634ff777f15a372812ec5b58276fc8c3ece3ad3c",
+      "size": 36346
+    },
+    {
+      "path": "objects/texture_b99126e8bfcbe17dd82d.png",
+      "sha256": "6f518f545440437010ace2c25909e4f71015eb3c9d5f08291573f211ee929f51",
+      "size": 45387
+    },
+    {
+      "path": "objects/texture_bbae04cefbb98aa0f2ad.png",
+      "sha256": "7d61f71f745d1c388d3c15fb1776a08ae9fdbfdb9332366c8a177645c8665b49",
+      "size": 40723
+    },
+    {
+      "path": "objects/texture_c1b99c114d88ebc6ea91.png",
+      "sha256": "4734b9aa2a9daff5951c8f0e2609484512243a0f91b75b2bc469601cdec76907",
+      "size": 2261
+    },
+    {
+      "path": "objects/texture_c20be4495199370efef2.png",
+      "sha256": "fb6ed855411a43d00504923faef812eb6b90671a8f72f4061332a682152b4085",
+      "size": 46030
+    },
+    {
+      "path": "objects/texture_c2419cefed255161a92a.png",
+      "sha256": "36b51e1bc29fecf7526b18728e985f6bd41e40a37d146b98cf24521df4050323",
+      "size": 38073
+    },
+    {
+      "path": "objects/texture_c404d78304275fa7a7d3.png",
+      "sha256": "1b944e4ad08781ddd72b19260b32dbc78e26a964ead74ee51cefef9e510a273d",
+      "size": 47766
+    },
+    {
+      "path": "objects/texture_c41c95419701800f4bcf.png",
+      "sha256": "2915385d954f8c76ddab7b64028d3a1ee64e61c81d9676cef3f0d51ed8831fae",
+      "size": 58843
+    },
+    {
+      "path": "objects/texture_c96545bd7cbb80fe1923.png",
+      "sha256": "9a440431f1ca9ddd9c411bfc1dff475daf299529a3992e8234f80eda33d9f54b",
+      "size": 45234
+    },
+    {
+      "path": "objects/texture_c9bfbcababb6c60279b4.png",
+      "sha256": "16167e2717525dd5f8ac67eed51cc0a33d9dca339057a9b58104896f50f84616",
+      "size": 68789
+    },
+    {
+      "path": "objects/texture_c9e79088c93cd2343a82.png",
+      "sha256": "e295feaa185b064e1e0b42aeb3ef952c0a15b94f21c7f9e5db90e997c7d9988a",
+      "size": 27891
+    },
+    {
+      "path": "objects/texture_cb8d6c474dba23dd893d.png",
+      "sha256": "9dbd665da3580525ca749b1550c5abb378df30e191cf1e8c16b39195f6df437b",
+      "size": 57954
+    },
+    {
+      "path": "objects/texture_cbc00161358542bf8861.png",
+      "sha256": "456661099f85508df2739af19092c25262de53683dd3836d067b7251d259edc0",
+      "size": 39482
+    },
+    {
+      "path": "objects/texture_cc0a006a00c949eabef0.png",
+      "sha256": "c52fd6ea2da88efb9904c1145ca2de0304df8f3d1be1d5aac88aceb14f5d0331",
+      "size": 56468
+    },
+    {
+      "path": "objects/texture_cc923a5e7e7e4c878ba6.png",
+      "sha256": "763e37102366a53a16937da57ada08d7764e82e45add8c72cd3b1231c51a8083",
+      "size": 46508
+    },
+    {
+      "path": "objects/texture_cfc020503b378067ab61.png",
+      "sha256": "69a5b62e73509ed481d30334e1ea4e5ab5d498d88708d19c477a90e46699fd17",
+      "size": 52259
+    },
+    {
+      "path": "objects/texture_d3b9c4b2ccf2fcdb0d84.png",
+      "sha256": "1156577c8d05faf19c898b0b87749053d8ef7728d3eec698d34470a3d2c8fd3c",
+      "size": 65794
+    },
+    {
+      "path": "objects/texture_d3e132e9512bfab541dd.png",
+      "sha256": "fa3c2ad93a9bcc8c0f659cd756e2d687067531bc1ebf45032d4f49220f27758b",
+      "size": 13772
+    },
+    {
+      "path": "objects/texture_d501dfb09374f20a1c6c.png",
+      "sha256": "67d54051b471b0fcff50fb0e35334c3a9030664b81f2c59214865053dbc09cd5",
+      "size": 42809
+    },
+    {
+      "path": "objects/texture_d83195764a928f00138c.png",
+      "sha256": "57faffcf0e7ec537fc79f5f2ddabd4bde5c8693bc30661b5b50e8ac7caead03f",
+      "size": 47391
+    },
+    {
+      "path": "objects/texture_d859f9be9e7646fbc844.png",
+      "sha256": "2301fc31fd07f3301e02f1a713ad8438c9534e618e4e947668736f980c735fc7",
+      "size": 26849
+    },
+    {
+      "path": "objects/texture_d8abb5a44407f0986bc5.png",
+      "sha256": "2d0adfbc6d75d980dbefe11c7df1f37dfa57e174dcc7e52bd28fc13a1a388b67",
+      "size": 80335
+    },
+    {
+      "path": "objects/texture_da00836688d3d38d5ab1.png",
+      "sha256": "48fed3dca7e30806ab74d76c579e77b15dd7a35b5b36b671374be019f5b4557f",
+      "size": 65502
+    },
+    {
+      "path": "objects/texture_daeaefc686c2a0835b38.png",
+      "sha256": "0604d9b9d698cf93589f54d12f5ec866653704f02af73612d9ad56fa35ad46f9",
+      "size": 34511
+    },
+    {
+      "path": "objects/texture_dcaead30923a46bd03fc.png",
+      "sha256": "fc5095ef6955b365410d64542a92084273d978553a26d38a0b1c251eff58e1b3",
+      "size": 54409
+    },
+    {
+      "path": "objects/texture_de437af9db26c8dbee4e.png",
+      "sha256": "65ff876906f57b652b1b514db260f16a9a7a60301166afaee8569088b8cab40a",
+      "size": 42290
+    },
+    {
+      "path": "objects/texture_dfebf936809b73bb44d5.png",
+      "sha256": "89e9ebfe76eb373d368cf47ae67877b296300013f526a355e8862e60d50a6b38",
+      "size": 39357
+    },
+    {
+      "path": "objects/texture_e16900619a8f0cd5813d.png",
+      "sha256": "33cde8854eebe88fa859d5d44863f186e815cec3149916046ca5eb3bc5396218",
+      "size": 44525
+    },
+    {
+      "path": "objects/texture_e1ec8cd9281272b74c65.png",
+      "sha256": "b9c81e07516a8241e36d54cad3763880949d5b20308a059b812ff4895a966b99",
+      "size": 39206
+    },
+    {
+      "path": "objects/texture_e3fce98b33e5c9350ab4.png",
+      "sha256": "70f2a8c633980d1a439ca1b9ae49908ba139c2b03f6dbb56f429fee6984e41aa",
+      "size": 70080
+    },
+    {
+      "path": "objects/texture_e433c637a70502365231.png",
+      "sha256": "6bf3ea6b5c46c33daca4c1661bf7500a5a0c8760fe1df088de748663a061be73",
+      "size": 30495
+    },
+    {
+      "path": "objects/texture_e4345763c4349c6d2419.png",
+      "sha256": "d98df77ee5a38480f19af3034476bcc495985eebe0fa9d804e41389cbf29d689",
+      "size": 41145
+    },
+    {
+      "path": "objects/texture_e578c5583a0caabe9a65.png",
+      "sha256": "3df202afa879d6ecd09213d15f22f1d6a4248b41e63090bc516ccda94470f74a",
+      "size": 19748
+    },
+    {
+      "path": "objects/texture_e8073a8d0934ac64b8b2.png",
+      "sha256": "e5b2d7b90dab0a5f43d6e961b34999366a8ce26338f02916e3fd2e5bcc559b9f",
+      "size": 65869
+    },
+    {
+      "path": "objects/texture_e8e1baf260f5f4feb7dc.png",
+      "sha256": "2f8fdf6d14c1b16d359b761725467e532ce9e7889d580d9262c8c8a18707f706",
+      "size": 35319
+    },
+    {
+      "path": "objects/texture_e9ab98c4250750efde8e.png",
+      "sha256": "f700e326ccb43a91909a259b052531bd157c53e9df2db42c6d1e6909449e670a",
+      "size": 978
+    },
+    {
+      "path": "objects/texture_e9c162aba0dc668ee457.png",
+      "sha256": "c16d4c5496e2fc96110c8ed484a4a76f9e4d234a437237eac2eb4b3063c40429",
+      "size": 63490
+    },
+    {
+      "path": "objects/texture_ebe984b43cabdbe0d66d.png",
+      "sha256": "9f0bb18f0629cffd48d6a32762d0cfd7dafa6d02898ea9ca6c87090eda4a8757",
+      "size": 54469
+    },
+    {
+      "path": "objects/texture_ec92450b96efcdba3a32.png",
+      "sha256": "d3269e52b795c9ecc1b6ce97e9872d777f72a4fc51a986dc82363723c25350ab",
+      "size": 2115
+    },
+    {
+      "path": "objects/texture_ef9f6a5e39a4893fc0b2.png",
+      "sha256": "9727422fdb77e285ca08ac2f387c924867b05f1463b89c91d5a74f59a64c9070",
+      "size": 23598
+    },
+    {
+      "path": "objects/texture_f0f3179d6e75cedf7895.png",
+      "sha256": "d69790c1169d8017cb91767b848dd048f32684878f53fc5e51c3bf8bb1333451",
+      "size": 59404
+    },
+    {
+      "path": "objects/texture_f43fdf586ec8efdc7f99.png",
+      "sha256": "73f7b0263c078f1e005997e138ffc05fb3d377a82e7edb2b9959646fce43f9e1",
+      "size": 27885
+    },
+    {
+      "path": "objects/texture_f576ad97990a42abff92.png",
+      "sha256": "2d0adfbc6d75d980dbefe11c7df1f37dfa57e174dcc7e52bd28fc13a1a388b67",
+      "size": 80335
+    },
+    {
+      "path": "objects/texture_f9557843ff32b06f89a6.png",
+      "sha256": "3df202afa879d6ecd09213d15f22f1d6a4248b41e63090bc516ccda94470f74a",
+      "size": 19748
+    },
+    {
+      "path": "objects/texture_fb1cced4ef75ebf97dc8.png",
+      "sha256": "e8218d39ce468befb4505467a8e1ed2db73358950af7708802298bbec5f3eb1a",
+      "size": 44136
+    },
+    {
+      "path": "objects/texture_fbfbe8b9cadd841125d9.png",
+      "sha256": "1bf233376b9d070d4447a54948c14edb942f24b76c2e9481056b47c3f077786e",
+      "size": 30479
+    },
+    {
+      "path": "objects/texture_fd6c3b5a751f02beee86.png",
+      "sha256": "de091ca6451da4a71d8563795b22d3a2fdf8959dda0be957f5aed1f8ffd1a327",
+      "size": 58709
+    },
+    {
+      "path": "objects/texture_ff280b2d0f93c9aeb725.png",
+      "sha256": "0e90efd7bd2f3f366e40fe8ad283da2c99a45246e1a20a6c89e9b9464bc5df43",
+      "size": 23966
+    },
+    {
+      "path": "objects/texture_ff29dbd1f1eadf522874.png",
+      "sha256": "aca2cd16300ac9a848b00adf8f2f8a81634c75f56b03ea75adbab4ef337d95dc",
+      "size": 50924
+    },
+    {
+      "path": "objects/transparent.png",
+      "sha256": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f",
+      "size": 70
+    },
+    {
+      "path": "objects/unsupported.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    {
+      "path": "objects/weapons_0110522baa315c7c.tfmaterials",
+      "sha256": "ea084eeedfd1030e0cb958e4b73a19c51a83ac5ec70ac463ff408704633a985e",
+      "size": 242
+    },
+    {
+      "path": "objects/weapons_0110522baa315c7c.tfmesh",
+      "sha256": "f92666e44f2e3e794850b656fc072f99bfe70363723e1fc20c511dc0ca83efb8",
+      "size": 299316
+    },
+    {
+      "path": "objects/weapons_02507f51896b114e.tfmaterials",
+      "sha256": "a7c7bf4871dadfaa524b307b225a302b313c1dd36ea649190889d66498cc5b34",
+      "size": 143
+    },
+    {
+      "path": "objects/weapons_02507f51896b114e.tfmesh",
+      "sha256": "7d30a7191529268dcd5430c5936a4ad5519e11615f0b886eb9fdc719372c3127",
+      "size": 474772
+    },
+    {
+      "path": "objects/weapons_033aca743648e097.tfmaterials",
+      "sha256": "1ada55824874be3b653f4a457086b135457afd1be44793dcf1f5f7ee4f442a5a",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_033aca743648e097.tfmesh",
+      "sha256": "b504d5b371ce51ce6ea4ecb80890b55f7195313be9b18f65a2a5e34f060bc2d0",
+      "size": 49652
+    },
+    {
+      "path": "objects/weapons_043a2643d7bf5b6a.tfmaterials",
+      "sha256": "a3e7eee07d46bd680f06ed86ddfb1e0a25292afcb453779e2620abfad8e06996",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_043a2643d7bf5b6a.tfmesh",
+      "sha256": "807a3d3e5f46f7b1f0daf103c4ee2e896f41afba0f298ee339b1f4b153fe0fbb",
+      "size": 131060
+    },
+    {
+      "path": "objects/weapons_044bcd5e2f3eb0ed.tfmaterials",
+      "sha256": "a22eb9afb64818419edf71fa35ccda76d8dcf305af4d3c6a5b496575bc5ba84b",
+      "size": 343
+    },
+    {
+      "path": "objects/weapons_044bcd5e2f3eb0ed.tfmesh",
+      "sha256": "d47b1733693cd5705e50e0b5009f482c520c959a15be80cb7db40a739f0167be",
+      "size": 291556
+    },
+    {
+      "path": "objects/weapons_09d05ddeca9b9cff.tfmaterials",
+      "sha256": "8952552ed0bbd17c9b1f7193886bb234204643d0fa5f7c6659d9b94ca0c6c59d",
+      "size": 175
+    },
+    {
+      "path": "objects/weapons_09d05ddeca9b9cff.tfmesh",
+      "sha256": "a2ecdf790f35800800ab1ef8650a4e185680c7d1683841f98e3ccfe1a36b43eb",
+      "size": 96660
+    },
+    {
+      "path": "objects/weapons_0b4af4b90ee25714.tfmaterials",
+      "sha256": "467d240a94113f1928cfcd45851e4dd7c4ac26aded2e06b55981ca6fe1a8169f",
+      "size": 142
+    },
+    {
+      "path": "objects/weapons_0b4af4b90ee25714.tfmesh",
+      "sha256": "05ef7d966c8ac65fc759204cd8ed6486b4a4048dc969b591fd42da9070c94d8e",
+      "size": 128724
+    },
+    {
+      "path": "objects/weapons_0d0c565e5f1ed492.tfmaterials",
+      "sha256": "b943f9e42b62a9dd46e600b8fcb01d236ca61f9056f5f432d7a500bc321757fe",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_0d0c565e5f1ed492.tfmesh",
+      "sha256": "54bc5b3c8da18d40e990c083986ba7819edb79562c73ad4e744e3221a1de0e1c",
+      "size": 349236
+    },
+    {
+      "path": "objects/weapons_0e8ca926ea7ef24b.tfmaterials",
+      "sha256": "83a3b37fded7351e0900e58022774d642511c81006d8d59259036e0734472193",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_0e8ca926ea7ef24b.tfmesh",
+      "sha256": "87175d47e6492f8d4b123c06ea2100d0495afc850d3a2f4efedfe921573ac076",
+      "size": 108788
+    },
+    {
+      "path": "objects/weapons_0e9fe50f6074b757.tfmaterials",
+      "sha256": "1d62a8d38710a8aba658dabd100a669be20a28f11cc5c044ad6e542ebdfbc1ca",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_0e9fe50f6074b757.tfmesh",
+      "sha256": "6342eed372c7749a33a34da76c46a39965f459a69661732838773f2f4d363031",
+      "size": 168068
+    },
+    {
+      "path": "objects/weapons_104f1672e08d027f.tfmaterials",
+      "sha256": "0259e88b4f8cddb693884847799dca6631e9cccba9842d7e3a82c195e96b8193",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_104f1672e08d027f.tfmesh",
+      "sha256": "860f160b53870d49b2c1b5a30b54b581794a894665d5954a7a06d39eff77e53a",
+      "size": 287732
+    },
+    {
+      "path": "objects/weapons_113e3b688f49b871.tfmaterials",
+      "sha256": "7ad429891527dcf3e0e5983d058ad5db34752c8875a56674ebf2f53b051f8cb3",
+      "size": 375
+    },
+    {
+      "path": "objects/weapons_113e3b688f49b871.tfmesh",
+      "sha256": "9d1656c0148b64fe702a560d33c994d0fd6b28105852f48f1fa8e24fa9cc446f",
+      "size": 285396
+    },
+    {
+      "path": "objects/weapons_1479f80914ab2415.tfmaterials",
+      "sha256": "91818d025c021317fb5613631f924b4df1b355b8397eab3e17c97c25de32a5d8",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_1479f80914ab2415.tfmesh",
+      "sha256": "f120aeb69c6d806a51fa001839aadf72e755e77297384a13225048c2f9ef7a76",
+      "size": 117524
+    },
+    {
+      "path": "objects/weapons_162771642ca475a2.tfmaterials",
+      "sha256": "f00fb4c0ad1cb14823df48f653ad5124fe18bff5160dea87ceb59869bd7168dd",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_162771642ca475a2.tfmesh",
+      "sha256": "5ed87856fb77f306730e89aae29d78e7cbc9faee4efdfbd2b25adeb8d5239927",
+      "size": 92468
+    },
+    {
+      "path": "objects/weapons_1702e9e0f5d71615.tfmaterials",
+      "sha256": "6c820f3c244cdf8dd6ea0b3531ec6ae8f9aa9df7aa12140cd935507eced6064c",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_1702e9e0f5d71615.tfmesh",
+      "sha256": "6151024b92a44e1bd983930dca38c24d7a263269effba777ae37bf841d1de264",
+      "size": 163236
+    },
+    {
+      "path": "objects/weapons_1937c615ba557bfa.tfmaterials",
+      "sha256": "f498e9442facd1c0c8a1f3669d763a867c0271de672a5208fee1827dfc06e2bb",
+      "size": 277
+    },
+    {
+      "path": "objects/weapons_1937c615ba557bfa.tfmesh",
+      "sha256": "1ecf5b3bafe8e40eabb0130546856d6528658c617a0549e861da1811f7e0f351",
+      "size": 243924
+    },
+    {
+      "path": "objects/weapons_1dbbbbcfe37ebb92.tfmaterials",
+      "sha256": "c4186574c32f81589b424eeddd8a8773c0f7a136f21da43466d0c32e326923bc",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_1dbbbbcfe37ebb92.tfmesh",
+      "sha256": "e0ef9f7b2ac738aae3c69d06cc3009b5533d10f988e150ff50bbbb5d5bc2fe95",
+      "size": 265332
+    },
+    {
+      "path": "objects/weapons_24488a651e220124.tfmaterials",
+      "sha256": "bfbba928d934efcfccc09024748317e13316c2204d06779f7c20849d464a28b7",
+      "size": 243
+    },
+    {
+      "path": "objects/weapons_24488a651e220124.tfmesh",
+      "sha256": "02053f71fdeef2a48d88243e785a01500d31274a3e814b8ca5c0b05e750aabc3",
+      "size": 439540
+    },
+    {
+      "path": "objects/weapons_25ab9e12b41204a1.tfmaterials",
+      "sha256": "a1e0c6f501684eb13882a1741ea57989f55f7aae8aef620e4177b154227ee8ba",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_25ab9e12b41204a1.tfmesh",
+      "sha256": "ecac31e622a1ef0bf96fa0d89fff4604c99b752c6cc39e9d0ec7a60325cc0c18",
+      "size": 51428
+    },
+    {
+      "path": "objects/weapons_2a562ada68e8aef7.tfmaterials",
+      "sha256": "fd2821fe42729e500399a57a4ba085c647d1749e6e0f07313e4a96e59cd003fc",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_2a562ada68e8aef7.tfmesh",
+      "sha256": "b242ac8403865eda86cf0e18e2481edff1ee6d14f408aeb43c45b10c46ca4cb2",
+      "size": 152276
+    },
+    {
+      "path": "objects/weapons_2e2c9fbfa44b84cd.tfmaterials",
+      "sha256": "eac999b00520c62e6b777b2a17f11d8775c89396c050301788182d379f58a9a8",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_2e2c9fbfa44b84cd.tfmesh",
+      "sha256": "a2d6558f9fbeb98261ae12d22f85c05650b80c62a4b773c0c681cc4811fb8103",
+      "size": 94740
+    },
+    {
+      "path": "objects/weapons_2f51d8be86bead95.tfmaterials",
+      "sha256": "c5be40abc46b82a842c71e2d29af261f998832662a2079019f5c49095e2a5f03",
+      "size": 242
+    },
+    {
+      "path": "objects/weapons_2f51d8be86bead95.tfmesh",
+      "sha256": "426e24a70534fa1dd82b122e2e14b30c49d2ccd09b7642d989a153acf12f9162",
+      "size": 202580
+    },
+    {
+      "path": "objects/weapons_351d8fc050834f37.tfmaterials",
+      "sha256": "49c02aac9ff739ea726a3916fc1f031bbfce3507d261b7e794994de7684818a9",
+      "size": 175
+    },
+    {
+      "path": "objects/weapons_351d8fc050834f37.tfmesh",
+      "sha256": "d71c632ba5108c284f431935f2785f6e9a2decf2a0f0f4c78edba03618151a79",
+      "size": 95380
+    },
+    {
+      "path": "objects/weapons_39822e19359b0181.tfmaterials",
+      "sha256": "b3b2da67651e68dc18fd025710d43072fca04b94abc61c9663188b6264085f97",
+      "size": 176
+    },
+    {
+      "path": "objects/weapons_39822e19359b0181.tfmesh",
+      "sha256": "330103f10a2ab13260c0c92133928c820e4cea10496df92b558bcf83fd7ab5da",
+      "size": 195972
+    },
+    {
+      "path": "objects/weapons_3a755090f403859d.tfmaterials",
+      "sha256": "23a033b2c97b1763ed8795245775813694379e2a9ed4866b6b54a1b325375e97",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_3a755090f403859d.tfmesh",
+      "sha256": "418c2c13f603e945391aa6f6376684f67bc80bdfdca52aeb0c60375580e0abbc",
+      "size": 38612
+    },
+    {
+      "path": "objects/weapons_3c63ab9a6f329dee.tfmaterials",
+      "sha256": "369b657c5b94c15c1f20b22e0b63d17723256dfff3252774da0a9b209229a044",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_3c63ab9a6f329dee.tfmesh",
+      "sha256": "686c13d69847aa88d6c1f1083ca7e98c2a039ffb62fc202235cf403d97c4364b",
+      "size": 70580
+    },
+    {
+      "path": "objects/weapons_40070caab2a0d5ae.tfmaterials",
+      "sha256": "75518310b82a2a9bcc74b07aa0772e4e6c1cdf7715e4cc3b9b85031f34da706e",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_40070caab2a0d5ae.tfmesh",
+      "sha256": "28220acc8355c9864ebacac850904d0f2707445859bb3f263c777ea73f4a1895",
+      "size": 99828
+    },
+    {
+      "path": "objects/weapons_41144158ef5fb694.tfmaterials",
+      "sha256": "74636f16f617e719c060017b08b244368ca00d1edc35240f79f1307669d270f6",
+      "size": 175
+    },
+    {
+      "path": "objects/weapons_41144158ef5fb694.tfmesh",
+      "sha256": "2a12233bf2dad8a369e4098511f369e3e1ab6d36e817083768ce55ebb66618dd",
+      "size": 254164
+    },
+    {
+      "path": "objects/weapons_42c2c8c6e98f987f.tfmaterials",
+      "sha256": "7e40dfaef3a1bc8807cdf5363be23e3dee280f097b3badaa862e8bdc664a4c65",
+      "size": 176
+    },
+    {
+      "path": "objects/weapons_42c2c8c6e98f987f.tfmesh",
+      "sha256": "e81ba8f044adca7b3d781dd09246dff0aa62152d7a091b3fe7cc3641edbbe591",
+      "size": 231204
+    },
+    {
+      "path": "objects/weapons_4481758980c6de4d.tfmaterials",
+      "sha256": "075c8576d575e41db9b30f136c2e09194b6ce9b850163eafa50571e43182c39c",
+      "size": 209
+    },
+    {
+      "path": "objects/weapons_4481758980c6de4d.tfmesh",
+      "sha256": "3095ae8bd51f54e71d6a90b3ac7530d19225a3b7393228f3240413d55fb1ce9a",
+      "size": 353972
+    },
+    {
+      "path": "objects/weapons_488ac894bf326371.tfmaterials",
+      "sha256": "8a9e31352e95b64ea0fbf3192c486196d0f243f68545b68d0f70df8160c866c0",
+      "size": 275
+    },
+    {
+      "path": "objects/weapons_488ac894bf326371.tfmesh",
+      "sha256": "2e5249473ac0ba2f553d3fcea4189d2b490a4b2cd09d17ceb70129ca13ed1b48",
+      "size": 282148
+    },
+    {
+      "path": "objects/weapons_4a42014653c58f52.tfmaterials",
+      "sha256": "6347c4a35a856f8f44ea80b36e6cc19f6d8db4073e4c31b911e0262dadcb0526",
+      "size": 176
+    },
+    {
+      "path": "objects/weapons_4a42014653c58f52.tfmesh",
+      "sha256": "4f895e8a8450782cfbc4756c400d18ca61f9c82433783f585f7404fd18b68209",
+      "size": 421508
+    },
+    {
+      "path": "objects/weapons_4a556364ecd12f56.tfmaterials",
+      "sha256": "ff313fb1ee7b974149b4a344544d7a893ac981fc145908669ca66cff33897774",
+      "size": 243
+    },
+    {
+      "path": "objects/weapons_4a556364ecd12f56.tfmesh",
+      "sha256": "d32d6e447b965bf64252ea0df7a1218f2c18a5bcd58ccf77250aa63f49dcc773",
+      "size": 310948
+    },
+    {
+      "path": "objects/weapons_4ae1d8bfd1d546ea.tfmaterials",
+      "sha256": "1c9cf6b0eb239b7ef4b81c8cc633fa97426e363b1411c35412a1bdd2607b6f78",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_4ae1d8bfd1d546ea.tfmesh",
+      "sha256": "1c630d8348d51a98f48e1bbebd5fb9326b69ff9abce89583457774d8f00ec430",
+      "size": 198164
+    },
+    {
+      "path": "objects/weapons_50eaeb19137d02bd.tfmaterials",
+      "sha256": "06a87e2adc7a6490c769aab01603dae3cf505b576db0907f7fe003d651c4a0c8",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_50eaeb19137d02bd.tfmesh",
+      "sha256": "db7425204d1fd908c428146a1fc84c09c14982de0624ed67bb76b40ebf29107a",
+      "size": 219764
+    },
+    {
+      "path": "objects/weapons_510d77ff3b4448fc.tfmaterials",
+      "sha256": "ff37b930aebf6f9bfbe859f862c51eba22a1b52c859593862cbd3aa94b0ec961",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_510d77ff3b4448fc.tfmesh",
+      "sha256": "6d1d38555a602b590b66e91366443ee2af86bdbe618724e85a00e4dc4b1a0964",
+      "size": 154628
+    },
+    {
+      "path": "objects/weapons_55b5e2e554855b3e.tfmaterials",
+      "sha256": "1cfbff3ee1c93bde78746f49989a38418a60eff3965e701df7d9e009f324aa55",
+      "size": 176
+    },
+    {
+      "path": "objects/weapons_55b5e2e554855b3e.tfmesh",
+      "sha256": "ce45c555230132fe0be0bbc2ea434527b4157464eb8ecf1a3889e864681393fe",
+      "size": 170756
+    },
+    {
+      "path": "objects/weapons_59c5efc0133032ac.tfmaterials",
+      "sha256": "fb0992f63abd199b9fe64cf6c0b4ed6e7c31f1dffc60e0c0a763d0a7878c70b9",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_59c5efc0133032ac.tfmesh",
+      "sha256": "a072ec18c0de5c9ee5c56f0c6bba62f80e7cd8c9553f0020a89fb84c416587a7",
+      "size": 60660
+    },
+    {
+      "path": "objects/weapons_5c2ba9e67b48d053.tfmaterials",
+      "sha256": "744b81d90156dfa6484f97c081a2d9b3bfc2715b0444573f4bde8d4781ec8865",
+      "size": 176
+    },
+    {
+      "path": "objects/weapons_5c2ba9e67b48d053.tfmesh",
+      "sha256": "97553bc22cc7eff75a909becf04372394a7b4179f1363181da00f7334d1ace86",
+      "size": 275796
+    },
+    {
+      "path": "objects/weapons_5dde87ddc4b217d4.tfmaterials",
+      "sha256": "9d1242358ac148be9a73b9bfe4f084c941c08a3368d32d01096ca249b9fdf369",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_5dde87ddc4b217d4.tfmesh",
+      "sha256": "824f49732f7c0e59cf14495f304a5fabb0ef515dfb34f56d36a43e4c36574867",
+      "size": 132628
+    },
+    {
+      "path": "objects/weapons_5e4e93751b901fbf.tfmaterials",
+      "sha256": "c51f34b2bf9f83a82332b9f43cd04a8a651b8b0296e86b1789b68f3b7a65cf37",
+      "size": 209
+    },
+    {
+      "path": "objects/weapons_5e4e93751b901fbf.tfmesh",
+      "sha256": "84d2fa3e3ba699580382b7b49b4a6fe33a89ebea8a356eec3d74edbc55a4f14a",
+      "size": 188148
+    },
+    {
+      "path": "objects/weapons_610cdf6112ee99b1.tfmaterials",
+      "sha256": "8f41a3f3f873df8ef846fc70f93339f1b89780f3c1f4846b9cd568c2e1d65e5c",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_610cdf6112ee99b1.tfmesh",
+      "sha256": "6a67b93580fac73951466f0fedfb2dceb8a8005d85ac7ce8abb0bed70087535a",
+      "size": 45524
+    },
+    {
+      "path": "objects/weapons_67905c16e3d10cc1.tfmaterials",
+      "sha256": "7c5db0261f6673da14b3be5acccbb23bfa3d41223b306de9285b739a4b8f814a",
+      "size": 276
+    },
+    {
+      "path": "objects/weapons_67905c16e3d10cc1.tfmesh",
+      "sha256": "d8c0533b40148ac543b76e7880a8cbc96c980bb696bccb52226a83437792e207",
+      "size": 78036
+    },
+    {
+      "path": "objects/weapons_73aaca77e78fafa4.tfmaterials",
+      "sha256": "de9eb4b76246beea3d58cd0b9f91756bfd1fac88b786247c93b2fe66fc365340",
+      "size": 142
+    },
+    {
+      "path": "objects/weapons_73aaca77e78fafa4.tfmesh",
+      "sha256": "51a3101ce82b61a3d03ed502565d77d282ffb705a7f258ae519cf5616f39ec2d",
+      "size": 37460
+    },
+    {
+      "path": "objects/weapons_76b02fc8638a2fac.tfmaterials",
+      "sha256": "26de1bcf38b9d75becea67591bddc1f1f2f40c2d77500c74c2beaad5e596376b",
+      "size": 176
+    },
+    {
+      "path": "objects/weapons_76b02fc8638a2fac.tfmesh",
+      "sha256": "d7a0bb057da258a48d2023f51ac9cd1f723c21714fa8f2c6529592c1fe511d61",
+      "size": 442884
+    },
+    {
+      "path": "objects/weapons_7e37607b6b6da554.tfmaterials",
+      "sha256": "eb6913fe9d15cdbe3d249e06b77dd6efa2962c48c6154c009051bb3b6798663d",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_7e37607b6b6da554.tfmesh",
+      "sha256": "505f262d54f6b0b3c059d4404429386bedabf4c5ad73de5af4b0190e37e21639",
+      "size": 268580
+    },
+    {
+      "path": "objects/weapons_7e80fb4a1bc82163.tfmaterials",
+      "sha256": "2182023854dbf97500a5099d2e69bcc63dc644c019b15318508a380e9dfd87a0",
+      "size": 142
+    },
+    {
+      "path": "objects/weapons_7e80fb4a1bc82163.tfmesh",
+      "sha256": "3cd90f6eb9af33bb164d8d72a656b081d346a793880ae6932387100cbc476e13",
+      "size": 242180
+    },
+    {
+      "path": "objects/weapons_8592691fd7d18865.tfmaterials",
+      "sha256": "3d942eebccc8bb02c6bd999ec37e8ee35a3104bd23b76981383ffaf873fcf6b1",
+      "size": 175
+    },
+    {
+      "path": "objects/weapons_8592691fd7d18865.tfmesh",
+      "sha256": "05fdd534e370400e8b64e19b7bf4a634ea28d6daa5529f810c1c43c87e129182",
+      "size": 185588
+    },
+    {
+      "path": "objects/weapons_87bf98c5ddd650d3.tfmaterials",
+      "sha256": "a3425c7cdebd16097250bbff9256d65f5968f1b592c7bf4b374b257f8f48af61",
+      "size": 143
+    },
+    {
+      "path": "objects/weapons_87bf98c5ddd650d3.tfmesh",
+      "sha256": "c2c56fc37a6e0c2b320cb940d513174e6220876af34aa4e719cbce5f49daa5e4",
+      "size": 114196
+    },
+    {
+      "path": "objects/weapons_8b7727f0ab7e27a2.tfmaterials",
+      "sha256": "03a9d3fb971483a6a42e71104f92d5aa5d89d5e612cf7225c8ad0c407e3ea021",
+      "size": 142
+    },
+    {
+      "path": "objects/weapons_8b7727f0ab7e27a2.tfmesh",
+      "sha256": "cc9f06d4742382fef33eca5d0cdf6b3a2ae0945a3c3915e67ecc603b9e7432e1",
+      "size": 45204
+    },
+    {
+      "path": "objects/weapons_8e08269384dab8e1.tfmaterials",
+      "sha256": "b99908dad119dcb39c45400634821bc7ce3dd9806545af8d47a6cf5575bbfb20",
+      "size": 143
+    },
+    {
+      "path": "objects/weapons_8e08269384dab8e1.tfmesh",
+      "sha256": "f545e2e954244b1c3de6af7d8dcada413f09f41e028c09b9a795bab9fdde4298",
+      "size": 171460
+    },
+    {
+      "path": "objects/weapons_8e6bbf832f8bc134.tfmaterials",
+      "sha256": "6b212616fe20ea9adf799e52d59a0da8ec59ed9b93c35515acfa9d581f6b1791",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_8e6bbf832f8bc134.tfmesh",
+      "sha256": "dcc51f7556cc4e7d9eab9ffc3c0b8f81a3de787f3508dee0e3585a5f9a99e63d",
+      "size": 107668
+    },
+    {
+      "path": "objects/weapons_8f68e73b04119dd6.tfmaterials",
+      "sha256": "65e60fc512ba7b696ef2f5ef08dae70fb990966980523128ce08e2edba653d24",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_8f68e73b04119dd6.tfmesh",
+      "sha256": "07e2d9c4452594ecc312b3e0ed6c4dddb1616b87e455c3af4472d2c19cba918a",
+      "size": 478420
+    },
+    {
+      "path": "objects/weapons_9258572a4a7943ae.tfmaterials",
+      "sha256": "db045884b5b37719b66657960507a263dee74ad917d7a90a312b6f0fd8bd2a0f",
+      "size": 209
+    },
+    {
+      "path": "objects/weapons_9258572a4a7943ae.tfmesh",
+      "sha256": "daa8c4e7f067149f5b3738d8700bf3ab06d950abdaf9f97b16dff8d538bad7f5",
+      "size": 200356
+    },
+    {
+      "path": "objects/weapons_945de597fa9ab8cc.tfmaterials",
+      "sha256": "67b40578788b1a98f6ad39e54ed329ee0224c4b01d964edb7f5a2d183a435a37",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_945de597fa9ab8cc.tfmesh",
+      "sha256": "e26a349db5c3cbd332d5f6fab2794af13b9de7d000e2cb892fc7efa3d1ea4eed",
+      "size": 294036
+    },
+    {
+      "path": "objects/weapons_97c9f03d78a5c242.tfmaterials",
+      "sha256": "5b006f4ecd7e5a667807632788ccc4402afcba09c7565d2f76bdf10d979f2cbe",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_97c9f03d78a5c242.tfmesh",
+      "sha256": "d98fe86a6eae77b154f6cf905d0697c34494624fb8e75aaa9137d919b3ee1f91",
+      "size": 53972
+    },
+    {
+      "path": "objects/weapons_9b9755bbf77b07a5.tfmaterials",
+      "sha256": "e8a9164891c1cb64942eda7dd75a45dfab45c42792b4c6c838c0f4926778ed2a",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_9b9755bbf77b07a5.tfmesh",
+      "sha256": "6151024b92a44e1bd983930dca38c24d7a263269effba777ae37bf841d1de264",
+      "size": 163236
+    },
+    {
+      "path": "objects/weapons_9bce8379460bce52.tfmaterials",
+      "sha256": "6cbe16b5e45ed7a25df227e245f28dad03224bf93da3f670f03a266339a1ad17",
+      "size": 143
+    },
+    {
+      "path": "objects/weapons_9bce8379460bce52.tfmesh",
+      "sha256": "77100c30dffe2228dd68f755d539abe88eb4bbf88ac55f013d2fb3cf2501d045",
+      "size": 296148
+    },
+    {
+      "path": "objects/weapons_9ccd5f808cae46f1.tfmaterials",
+      "sha256": "a58a6388c9a1711a2f86154e25ecb87368aa6171e46d008661434558cfc11ff7",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_9ccd5f808cae46f1.tfmesh",
+      "sha256": "4f233dcd5a75d1e977951a3c3f4b0b304c1de988fd40be06e0cce3bd6dd100ef",
+      "size": 255284
+    },
+    {
+      "path": "objects/weapons_9d8bba1757ad0573.tfmaterials",
+      "sha256": "0b31a53184d33e40267a1cc90e57226b8f20c2c56cca332d11620ff2097eda19",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_9d8bba1757ad0573.tfmesh",
+      "sha256": "4bc81056388d397105d1f1159fe6dfca674e7b78379fa2ea09c30893c236c860",
+      "size": 333220
+    },
+    {
+      "path": "objects/weapons_a1888568d2b9bca3.tfmaterials",
+      "sha256": "4ca1b65f846f5ef00cb2a1ecd2617129ba4d10989cd790ab5a8da6b44e90b492",
+      "size": 142
+    },
+    {
+      "path": "objects/weapons_a1888568d2b9bca3.tfmesh",
+      "sha256": "0c0230684a491614c8d13cde2c0680d5cfb05d61e6a94fa954aa9e37086c54c8",
+      "size": 249460
+    },
+    {
+      "path": "objects/weapons_a69d5ba57e7ce000.tfmaterials",
+      "sha256": "909591d47743b3bfbed7e2e4839e0f9f6c01e0b4e2061f81b35f0661140fbb90",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_a69d5ba57e7ce000.tfmesh",
+      "sha256": "2e8c6268750f9b5b59e4246f8af273dca80cc16f3dace52f51b059bd2b210ad7",
+      "size": 44212
+    },
+    {
+      "path": "objects/weapons_a769b57c571fffd2.tfmaterials",
+      "sha256": "b92de684c2627f857e5e1da13e8cadedcd129a16cdc3da4deb3a1d2e32c96af2",
+      "size": 143
+    },
+    {
+      "path": "objects/weapons_a769b57c571fffd2.tfmesh",
+      "sha256": "dfb78c189a01aeee4b420ff2fb743c3a736c5f91d008653a0620b78a50869de3",
+      "size": 365124
+    },
+    {
+      "path": "objects/weapons_aa126ae10b833fb8.tfmaterials",
+      "sha256": "fc99a3d6d3ca77203c40941149cb218132290249c9f608ded359d565a925591f",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_aa126ae10b833fb8.tfmesh",
+      "sha256": "c48541afb2e7641a610781520e13edf9b66ad3b14df7a25f5336af603b83964f",
+      "size": 119700
+    },
+    {
+      "path": "objects/weapons_aabe481f1b42a30f.tfmaterials",
+      "sha256": "2f4249c57d542af567d27c40c96595747eb30846b4454b56070c197ef57ac3ca",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_aabe481f1b42a30f.tfmesh",
+      "sha256": "9929fa5591d79041fa15afd94a225cf918541b4b8499f5bc24e128da50858b58",
+      "size": 398132
+    },
+    {
+      "path": "objects/weapons_adbee87181cea12a.tfmaterials",
+      "sha256": "40a1abcf5a20b1261ef05af56242cfb3f6bd01b893e3cfcf940aaa580c1b9c16",
+      "size": 209
+    },
+    {
+      "path": "objects/weapons_adbee87181cea12a.tfmesh",
+      "sha256": "c7511a28e6646cb1d708fdbca2d8dd8984d6c5b1d5455d97e4a10826284a46da",
+      "size": 60516
+    },
+    {
+      "path": "objects/weapons_adff182922b4e4a0.tfmaterials",
+      "sha256": "d9abf8289ea4aa5aee65c4990f402749acb28d14ec02d1aba159f7ed1a35c186",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_adff182922b4e4a0.tfmesh",
+      "sha256": "0e5a3c318e406ba75a746e4b476236f7fcbe56c1d2b01dfcb16f9c9334e9a32d",
+      "size": 41684
+    },
+    {
+      "path": "objects/weapons_af67883c45e20646.tfmaterials",
+      "sha256": "1c283586661961d0a5c83a7c53393ec7fa2e561db7d781a84f3b011e4e621625",
+      "size": 577
+    },
+    {
+      "path": "objects/weapons_af67883c45e20646.tfmesh",
+      "sha256": "f0058277116989e3dd54c651997040aca7e5eee13fb38ae67ead401fa5e4c675",
+      "size": 486260
+    },
+    {
+      "path": "objects/weapons_b3157a265f945d6b.tfmaterials",
+      "sha256": "97bc8c9a5b7ee721f1624cadddc17a06193e56d472e37ebcf098cef8f8e75971",
+      "size": 310
+    },
+    {
+      "path": "objects/weapons_b3157a265f945d6b.tfmesh",
+      "sha256": "bd9e7e24304f3e596de297f0ec4df42e5bac0743c43e2874d247a69f65bbb0dd",
+      "size": 428116
+    },
+    {
+      "path": "objects/weapons_b3b269195cb89b98.tfmaterials",
+      "sha256": "aa831e72c510b9564d5a341b619580917b20a598bc916869088860b79eed5dfa",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_b3b269195cb89b98.tfmesh",
+      "sha256": "737fe5877bd3ae82f9bb7acad23cad9c2091614db0862b4998d54d15206f6935",
+      "size": 150580
+    },
+    {
+      "path": "objects/weapons_b4f0116e1753a1e2.tfmaterials",
+      "sha256": "56b4a9ad0ae531e72d7a22d1daee50311b47aee2752fa09084fd749d5448bc0a",
+      "size": 210
+    },
+    {
+      "path": "objects/weapons_b4f0116e1753a1e2.tfmesh",
+      "sha256": "d13ec29dd1482c553cf176708b4771b06a1ab52badd7eb246a83764a62dcf78e",
+      "size": 90644
+    },
+    {
+      "path": "objects/weapons_b51dd7324cf9d638.tfmaterials",
+      "sha256": "5f6ecd78cd07438b47d41df47388c44cd342ebba17f139cfbf09176761fe87d9",
+      "size": 176
+    },
+    {
+      "path": "objects/weapons_b51dd7324cf9d638.tfmesh",
+      "sha256": "953d87c53dfea73b9471a2db396cb947c2fe94674c42aeaa2eee45a6bc496d0a",
+      "size": 245140
+    },
+    {
+      "path": "objects/weapons_b9837510099c1160.tfmaterials",
+      "sha256": "1cc5ceeddfd60c83275c08ae51b359c46f35fbb7e9070e2c98db089d85a8f409",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_b9837510099c1160.tfmesh",
+      "sha256": "b227bd4ac161a7ac6cf410bce4cddfa76ec2612885a47a11a73b72e92ddaaa0c",
+      "size": 221172
+    },
+    {
+      "path": "objects/weapons_bc803d5d498d30b9.tfmaterials",
+      "sha256": "ae61470eb8632639711e3a5db83113884de5a9b64dd76dd66488787ffa4dd1c9",
+      "size": 309
+    },
+    {
+      "path": "objects/weapons_bc803d5d498d30b9.tfmesh",
+      "sha256": "e2fea299a580cda75abfc9b2e9ea32740bf92cd425b4af9b003c9fe44fb6c8fd",
+      "size": 353860
+    },
+    {
+      "path": "objects/weapons_bd217e47b4df1e63.tfmaterials",
+      "sha256": "ca7a14af9785692338b729daba0e1991ddf5b57f6d40b6cab0b14aef28083acf",
+      "size": 176
+    },
+    {
+      "path": "objects/weapons_bd217e47b4df1e63.tfmesh",
+      "sha256": "da40f68a94469745112183c79edab24a4337c55e63f10e63a3a8d9a1e98f9618",
+      "size": 260276
+    },
+    {
+      "path": "objects/weapons_bff7b6a20bf39c3d.tfmaterials",
+      "sha256": "f9c4943712066e2138ced3153652a620401ffca48e5ce9cfaaf6dcc682e67d83",
+      "size": 343
+    },
+    {
+      "path": "objects/weapons_bff7b6a20bf39c3d.tfmesh",
+      "sha256": "9de7c91d163a2661163f9e9ba049409a041bf31c20984c260ae99158d01977e9",
+      "size": 362692
+    },
+    {
+      "path": "objects/weapons_c2add70d9201d181.tfmaterials",
+      "sha256": "84cec65af53043434fef0e00bf2b7f87ca14771c2114d93c499e5858a29bc505",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_c2add70d9201d181.tfmesh",
+      "sha256": "1caaeb7b930b026b5149a40192dc6329466372e5b4622499b9014f06585c35ab",
+      "size": 155460
+    },
+    {
+      "path": "objects/weapons_ccd0a7f5a60554b5.tfmaterials",
+      "sha256": "981721d46eeabbf2d484d188d4191b98a2462477da62acd566a43a1e80b20e00",
+      "size": 209
+    },
+    {
+      "path": "objects/weapons_ccd0a7f5a60554b5.tfmesh",
+      "sha256": "df16454c48690cd8a347e6b77dc8e8191ae10674a4e677ec7515c9e09b25c066",
+      "size": 111620
+    },
+    {
+      "path": "objects/weapons_ce33dfc7ae9a4ede.tfmaterials",
+      "sha256": "7045d514019effadde5ff09b36a67f02cf14e2a8f1b0fb055e222080419b8784",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_ce33dfc7ae9a4ede.tfmesh",
+      "sha256": "27b092d3f12f15fed72f7c85381e1ef97f49f4ec374a38ad7a3700fd6ac18d3c",
+      "size": 107268
+    },
+    {
+      "path": "objects/weapons_d4d4caefd7d0c9d2.tfmaterials",
+      "sha256": "996ea4dfae31a5f53e2878905d7714f0bb0f552e58a775dde98858862082203f",
+      "size": 143
+    },
+    {
+      "path": "objects/weapons_d4d4caefd7d0c9d2.tfmesh",
+      "sha256": "16ed19f77032659b8bf163fa2ab448e452c9e15f377cd6e65fdee6699f19e4c6",
+      "size": 75828
+    },
+    {
+      "path": "objects/weapons_d92a7ad32fe267dd.tfmaterials",
+      "sha256": "51dd51695977c05a5692df973a18db3b499ab784636003517f867a0e4dc888ad",
+      "size": 76
+    },
+    {
+      "path": "objects/weapons_d92a7ad32fe267dd.tfmesh",
+      "sha256": "853db86482f16fb5952745dc3667d2c6f4770d86562eb12769c41948fec30321",
+      "size": 53236
+    },
+    {
+      "path": "objects/weapons_de64beb2aa9b264a.tfmaterials",
+      "sha256": "44a8daa012e1b77f970d7a97f89787be903aa621f1759a9dfe17238f40110613",
+      "size": 309
+    },
+    {
+      "path": "objects/weapons_de64beb2aa9b264a.tfmesh",
+      "sha256": "f9676fd89fa057f698602fbbbcbd64717c1827865f2694d1dc7e90a23f2f85aa",
+      "size": 83892
+    },
+    {
+      "path": "objects/weapons_e10737fb40e82e1a.tfmaterials",
+      "sha256": "0d11324509faa8792fbd0d939d4cf98507c7eaf9d4833d247c7de17453beee85",
+      "size": 143
+    },
+    {
+      "path": "objects/weapons_e10737fb40e82e1a.tfmesh",
+      "sha256": "772dceecb2c28fd980825b81cde0efe7c26c880d9112685bda1063be0945dc47",
+      "size": 280532
+    },
+    {
+      "path": "objects/weapons_e254dfe4762d080b.tfmaterials",
+      "sha256": "260c1851c28b539087d269bdd2c7d4ce4eb1ca42820ac6f245166eb162efda54",
+      "size": 142
+    },
+    {
+      "path": "objects/weapons_e254dfe4762d080b.tfmesh",
+      "sha256": "473768759f3e4ecff6abc974af9e1f340939fe57a403d7f4ae9b3938c6e5a8ef",
+      "size": 320916
+    },
+    {
+      "path": "objects/weapons_e53d3b9dff9e6852.tfmaterials",
+      "sha256": "7c22955b5fb3ce524e4ab1daec9e10d465cc5bc319fdf4cf3c2071b00e0fa0d0",
+      "size": 143
+    },
+    {
+      "path": "objects/weapons_e53d3b9dff9e6852.tfmesh",
+      "sha256": "5a8cffdec0456612b08e92614e0a2a943db44880335e9c9eb200a275c769a0c9",
+      "size": 482180
+    },
+    {
+      "path": "objects/weapons_e8af620063543ff6.tfmaterials",
+      "sha256": "c888e4417dcffdf5414b689db3bdeca46ae67ea7e0522b03127b6f1fb1556a38",
+      "size": 243
+    },
+    {
+      "path": "objects/weapons_e8af620063543ff6.tfmesh",
+      "sha256": "b35513f39ebaeda1678373a9bbfcf664f71f9fe062c315911c43bb9007f4eb6a",
+      "size": 199924
+    },
+    {
+      "path": "objects/weapons_ecae1514f0a6bf72.tfmaterials",
+      "sha256": "72df0311f491e6761b00e56ae20beb47083375fc5b512f882f5556624f3e1862",
+      "size": 143
+    },
+    {
+      "path": "objects/weapons_ecae1514f0a6bf72.tfmesh",
+      "sha256": "0368d9e66403452f97ee2f7e0f5c7d0690127eff7afa580e60d0dac7d979b415",
+      "size": 184084
+    },
+    {
+      "path": "objects/weapons_ed9626aa864b618b.tfmaterials",
+      "sha256": "1aa146f5c8162b629824332ca5328e6da144711ca11e325f236a7beeafb27dc1",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_ed9626aa864b618b.tfmesh",
+      "sha256": "ce11f4f83da5919a64eb550eee5904d5fa3a169eb94088b291b6f929cde3e333",
+      "size": 324676
+    },
+    {
+      "path": "objects/weapons_efab9de28b1f53a8.tfmaterials",
+      "sha256": "ea06dbc1b00e951ef7f26bdb268995d0145d0e21815c04545bb7a15affabf88a",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_efab9de28b1f53a8.tfmesh",
+      "sha256": "c17b6496890d143b3d2e6795a8f0162f3a53d21b9669ca4e9d2cf16e9d03e54c",
+      "size": 418820
+    },
+    {
+      "path": "objects/weapons_f0941d878ffd9a65.tfmaterials",
+      "sha256": "b6507ffb853556eb39c70dde785bbf8193ea2199590cdd0d51a662f7e40aa362",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_f0941d878ffd9a65.tfmesh",
+      "sha256": "2ef97cad629243dc907b5e2a40429b3bb90a4a842c8aff91f9062abf07162fdc",
+      "size": 336804
+    },
+    {
+      "path": "objects/weapons_f0d2f6d0a8718711.tfmaterials",
+      "sha256": "ba205493cefbba6106120e659952d6226c7dcfde130033bf7755d75903ef0f7c",
+      "size": 109
+    },
+    {
+      "path": "objects/weapons_f0d2f6d0a8718711.tfmesh",
+      "sha256": "9d45fac9c5714c458fd0ea89d09b782f8303ea663f9c55e323d20a32e75d9be5",
+      "size": 325620
+    },
+    {
+      "path": "objects/weapons_fdeaefb0879889d3.tfmaterials",
+      "sha256": "cf19bc93b49403151d09fd0f08199e4a01742dd9928c50b23c8b6128c9bf8fcc",
+      "size": 276
+    },
+    {
+      "path": "objects/weapons_fdeaefb0879889d3.tfmesh",
+      "sha256": "1b468df704f753bc71b4edf47b4317537200054e7a0ac084c8381300e4597d1f",
+      "size": 134772
+    },
+    {
+      "path": "script_defaults_v0/Custom UI.lua",
+      "sha256": "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134",
+      "size": 2169
+    },
+    {
+      "path": "script_defaults_v0/Standalone Menu.lua",
+      "sha256": "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2",
+      "size": 1392
+    },
+    {
+      "path": "script_defaults_v0/Welcome.lua",
+      "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9",
+      "size": 231
+    },
+    {
+      "path": "script_defaults_v1/Custom UI.lua",
+      "sha256": "33d759179434adb7b274c664048a1ec96c3d41a665c260f4df35d434dbd94eaf",
+      "size": 1402
+    },
+    {
+      "path": "script_defaults_v1/Standalone Menu.lua",
+      "sha256": "e41e1ceb38b3c7c804175d3fff680d5ecdb3e7e96cab9da100f03d6b0b35afee",
+      "size": 1638
+    },
+    {
+      "path": "scripts/Custom UI.lua",
+      "sha256": "ac222aae4679cba205819a52b499d0f6848c4cbea7a2e0883d25e0c5fe9c28b5",
+      "size": 1564
+    },
+    {
+      "path": "scripts/ImGui Demo.lua",
+      "sha256": "a5530d6c26b90e7ceaae5df329cb671d1b45bead46723966f653170032dcca74",
+      "size": 13646
+    },
+    {
+      "path": "scripts/Standalone Menu.lua",
+      "sha256": "4b85f517214cd90d08122326036b80e481ca2a389049cf548470d547367309db",
+      "size": 2269
+    },
+    {
+      "path": "scripts/TF2 Player HUD.lua",
+      "sha256": "21b3d1b098482da83d8730bb49945506312de6cad6b4b197f5899213749b87a9",
+      "size": 277
+    },
+    {
+      "path": "scripts/TF2 Player Labels.lua",
+      "sha256": "e48125c7af8cc5ed9fad52f35caa9c2388af7b3e02433ac32f025512aa0c8cc2",
+      "size": 460
+    },
+    {
+      "path": "scripts/Welcome.lua",
+      "sha256": "34d39c1951e533a5ab7805b6c1979e7a3d840f25385f46a1e00b3c23c43792f9",
+      "size": 1465
+    },
+    {
+      "path": "skins/catalog.json",
+      "sha256": "3569af5a44d71f273a67835586aaae7e3ebc1e685fafe9d3aab780ee64935e74",
+      "size": 79617
+    },
+    {
+      "path": "skins/player_122086c0b8fbee15_0.png",
+      "sha256": "79cac15adbf854dd5a16f3614c7b218f32804dc6c32603bf2aacddc8ab220eed",
+      "size": 11643
+    },
+    {
+      "path": "skins/player_122086c0b8fbee15_1.png",
+      "sha256": "b3903b8e6e44cdcdeba518ba7e2e47f6e4511588b0131766d68de83339258c88",
+      "size": 11745
+    },
+    {
+      "path": "skins/player_122086c0b8fbee15_2.png",
+      "sha256": "a91fb5945ca7ecad3ad14dbba202e9bd2c3e00e79779d810e7104451b18afd37",
+      "size": 11697
+    },
+    {
+      "path": "skins/player_122086c0b8fbee15_3.png",
+      "sha256": "a827b8e2168e58e306cb8c8e7da853e5aea908af24edc0550bce8fb99e7dac1b",
+      "size": 11784
+    },
+    {
+      "path": "skins/player_122086c0b8fbee15_4.png",
+      "sha256": "d0768ae4ec0c3372ce3b7ec1fb02ade499127af8f73b345e92b7f7a7d5fb43d2",
+      "size": 9858
+    },
+    {
+      "path": "skins/player_122086c0b8fbee15_5.png",
+      "sha256": "512669096a3af0e6f9e0d067ef4662a7d904b3f826885bed31c48609dbf54cbc",
+      "size": 9844
+    },
+    {
+      "path": "skins/player_122086c0b8fbee15_6.png",
+      "sha256": "59df0954493f339f192187704ef3bba94e08175c1f483153c5a915e87b88d43d",
+      "size": 9709
+    },
+    {
+      "path": "skins/player_122086c0b8fbee15_7.png",
+      "sha256": "50bd0955b76aa7d5439a22c776ef3b0c1283e830e475c750de175a13d7314f2a",
+      "size": 9760
+    },
+    {
+      "path": "skins/player_1641196a8f9abf27_0.png",
+      "sha256": "d21f26fa12de9dfc8ba55cf95fb95803c224d8eb826f9deeb033b42ca0d88ac7",
+      "size": 9435
+    },
+    {
+      "path": "skins/player_1641196a8f9abf27_1.png",
+      "sha256": "22086a506feb8f3f6527c69b2602792f419586aa0f757556f419ed5cc6749dd9",
+      "size": 9476
+    },
+    {
+      "path": "skins/player_1641196a8f9abf27_2.png",
+      "sha256": "fcdcfdd3436b2de55cd39c120539ba2977c5b5aa9407e2aa8b2064f483e7dbd2",
+      "size": 8537
+    },
+    {
+      "path": "skins/player_1641196a8f9abf27_3.png",
+      "sha256": "108c502bd080ff927c3d963ef3539fc530daed0a9ad268aac35f0b4797fa568b",
+      "size": 8918
+    },
+    {
+      "path": "skins/player_1641196a8f9abf27_4.png",
+      "sha256": "ad5cc6a492e09d00b54612918bbb793417bab583d1243156128eb7dfac3e8f98",
+      "size": 6833
+    },
+    {
+      "path": "skins/player_1641196a8f9abf27_5.png",
+      "sha256": "a6d5a9e5b8b77c509baed0156996e90c2f0ff40a1b03ab0c3fe22ec92ca6fd36",
+      "size": 6787
+    },
+    {
+      "path": "skins/player_1641196a8f9abf27_6.png",
+      "sha256": "5ff3777cdbcca3685dc64d53ad9419fa22a5b05f8bf7cb9099d45fb74cbba9a0",
+      "size": 6712
+    },
+    {
+      "path": "skins/player_1641196a8f9abf27_7.png",
+      "sha256": "f7e7ec417f9d30d28a4836066b61c998980c13790f0e68d42bdc0e1e3cfcb45e",
+      "size": 6693
+    },
+    {
+      "path": "skins/player_1852f4ce9d20caae_0.png",
+      "sha256": "bac328e7bdb673759e9733c47466724e28b43abc3681992f8fad54b93c477e59",
+      "size": 9957
+    },
+    {
+      "path": "skins/player_1852f4ce9d20caae_1.png",
+      "sha256": "4e4cadd31216aae7d0a0fdb07c5a7f1ac960374778393bf4d2ab2b9642bc405c",
+      "size": 10323
+    },
+    {
+      "path": "skins/player_1852f4ce9d20caae_2.png",
+      "sha256": "e10e5d0a23029200447ec8a798368cbbd69813ceb461466e934153eca6a147e6",
+      "size": 9285
+    },
+    {
+      "path": "skins/player_1852f4ce9d20caae_3.png",
+      "sha256": "6b3ba02b34c9c2b64c40caa535485a5aa87ae72fb4cd66aa3b18ef0d8cc2ebc3",
+      "size": 9757
+    },
+    {
+      "path": "skins/player_1852f4ce9d20caae_4.png",
+      "sha256": "00655139af0976bcd512d2b56d45de8aa69b58f6636ff749bd1402b9800ce68e",
+      "size": 6387
+    },
+    {
+      "path": "skins/player_1852f4ce9d20caae_5.png",
+      "sha256": "665bfa8be97be0ac60f7edd5b512c6f3f8f261d504a987e0f1154221a1aa0bcd",
+      "size": 6355
+    },
+    {
+      "path": "skins/player_1852f4ce9d20caae_6.png",
+      "sha256": "c54a13a84a8a87b51c0a3e5887314ccbdc3724312a4b455df7545dc7e67b3fae",
+      "size": 6260
+    },
+    {
+      "path": "skins/player_1852f4ce9d20caae_7.png",
+      "sha256": "2437686ca7dbd798027c18bd3bc145eb4171244df2c1ad40a5ce13cccb2dacf7",
+      "size": 6306
+    },
+    {
+      "path": "skins/player_37ce2919caccd83b_0.png",
+      "sha256": "591c421f95c91a23cf694b2c06cc32c3211ec1f42d14f9ee7e0e256e6ad3fca2",
+      "size": 10301
+    },
+    {
+      "path": "skins/player_37ce2919caccd83b_1.png",
+      "sha256": "40df24822fe833635023245692b664129186907adb68f45df0cc494a11d5a14a",
+      "size": 10479
+    },
+    {
+      "path": "skins/player_37ce2919caccd83b_2.png",
+      "sha256": "1d152c9485339d00eee36dae64863a988519e4564689be873e47fb9ac47337f4",
+      "size": 10066
+    },
+    {
+      "path": "skins/player_37ce2919caccd83b_3.png",
+      "sha256": "9add41da02a5c4bb7262b06421826e47dbce96db18bf82565d4c2c7fa70e17f9",
+      "size": 10263
+    },
+    {
+      "path": "skins/player_37ce2919caccd83b_4.png",
+      "sha256": "9fc5b4185c8cffa853bdad9364b92228554ab4624fb96f34feeb120cb678ba8f",
+      "size": 8729
+    },
+    {
+      "path": "skins/player_37ce2919caccd83b_5.png",
+      "sha256": "99837a8201c77be73eef3c7b9b8864014ad3ccfdb5c96342a03b24ff2894435e",
+      "size": 8640
+    },
+    {
+      "path": "skins/player_37ce2919caccd83b_6.png",
+      "sha256": "9fc5b4185c8cffa853bdad9364b92228554ab4624fb96f34feeb120cb678ba8f",
+      "size": 8729
+    },
+    {
+      "path": "skins/player_37ce2919caccd83b_7.png",
+      "sha256": "99837a8201c77be73eef3c7b9b8864014ad3ccfdb5c96342a03b24ff2894435e",
+      "size": 8640
+    },
+    {
+      "path": "skins/player_5fde1836188ea384_0.png",
+      "sha256": "4c6a82d76ef8190c233bc4697ce786041d1cbc3809166b5be6a60316b7b218f9",
+      "size": 9443
+    },
+    {
+      "path": "skins/player_5fde1836188ea384_1.png",
+      "sha256": "b0621f2e74cd484ff5de414c1a164b76b9f939e4830eac360183ccbcdd2c843f",
+      "size": 9489
+    },
+    {
+      "path": "skins/player_5fde1836188ea384_2.png",
+      "sha256": "c36e63b18cca1e9770e3db3ea516e144aed9921ea48e51804186fb2904f0b81e",
+      "size": 8686
+    },
+    {
+      "path": "skins/player_5fde1836188ea384_3.png",
+      "sha256": "3fff489c9645c80952279664074ee7a682e751c46487c53cc246ce6a563a236e",
+      "size": 9179
+    },
+    {
+      "path": "skins/player_5fde1836188ea384_4.png",
+      "sha256": "5e876004ed9835d5a9586b8cc2abe6291f14bbc0c2bb8715785f22d8e2fa3216",
+      "size": 7848
+    },
+    {
+      "path": "skins/player_5fde1836188ea384_5.png",
+      "sha256": "3cbdabda23d4812468af2b312474e9dadc03a37b25b860dd8ab1441dd52482a9",
+      "size": 7837
+    },
+    {
+      "path": "skins/player_5fde1836188ea384_6.png",
+      "sha256": "85634dd93f4af9025720c3994108e673b059467d946356eb08531eb7071a5493",
+      "size": 7802
+    },
+    {
+      "path": "skins/player_5fde1836188ea384_7.png",
+      "sha256": "da7af418ce7e55cffddc2142e98f3f87328731cc5af4faaa93111d5f5aa216f6",
+      "size": 7862
+    },
+    {
+      "path": "skins/player_6111c38a013f9e52_0.png",
+      "sha256": "f8adc679360ff9182349d3986123c3e55ebccc47240c42b4ac5d81f1c3a8ce76",
+      "size": 10719
+    },
+    {
+      "path": "skins/player_6111c38a013f9e52_1.png",
+      "sha256": "a3add24fe82ef5e5caecd28f9ac0d3a7102709602fa2220b439dfd0c3098ae31",
+      "size": 11125
+    },
+    {
+      "path": "skins/player_6111c38a013f9e52_2.png",
+      "sha256": "352a4f51a89c92b424cdc0cea0bd6057d1365693620c6a7571cf2906855e7a10",
+      "size": 10329
+    },
+    {
+      "path": "skins/player_6111c38a013f9e52_3.png",
+      "sha256": "0f7c25b728bc5a25472617635c54389455dd197d524d34eee19cdbac9c1645fe",
+      "size": 11112
+    },
+    {
+      "path": "skins/player_6111c38a013f9e52_4.png",
+      "sha256": "645f96b5281c715c86e861a30f3e34473ae069d6504730cc98c6e0cd2cf7a6de",
+      "size": 8218
+    },
+    {
+      "path": "skins/player_6111c38a013f9e52_5.png",
+      "sha256": "80584a6941cc37b0cc6a1ee04b30aac3a68121a5c653d5d5efd4ef490c95d264",
+      "size": 8275
+    },
+    {
+      "path": "skins/player_6111c38a013f9e52_6.png",
+      "sha256": "a2f5970a299a264282d5fd4d5a5cd676deb6237c7b1507fe7b08649b590ed253",
+      "size": 8190
+    },
+    {
+      "path": "skins/player_6111c38a013f9e52_7.png",
+      "sha256": "2aff94c0cb8e6bc1fc88ca4e653a7a157dac198e4af02f5bb3615ab896afbfab",
+      "size": 8288
+    },
+    {
+      "path": "skins/player_626155aa53cbf923_0.png",
+      "sha256": "ea6125b0fb7f706962e7d5c267dccd5f70f3e8a6cc02ff56200e54609efc7b54",
+      "size": 9899
+    },
+    {
+      "path": "skins/player_626155aa53cbf923_1.png",
+      "sha256": "889e26239dc425c98b990a12f974c33af1feabeabf22f357d4bac7630beae245",
+      "size": 9809
+    },
+    {
+      "path": "skins/player_626155aa53cbf923_2.png",
+      "sha256": "420014ce9a01f216d5b93e59b7ec045635f9cfbc05e36e162708bd101333f14e",
+      "size": 9792
+    },
+    {
+      "path": "skins/player_626155aa53cbf923_3.png",
+      "sha256": "6e27eb413f40bdbef4d5c01a5c95515e5ff4bdb80f8ca99aa3d53d273f46ca1b",
+      "size": 10328
+    },
+    {
+      "path": "skins/player_626155aa53cbf923_4.png",
+      "sha256": "41b76bfd6267028102312587089684a001019e3b1b3e21cc27787cdd1e643357",
+      "size": 7741
+    },
+    {
+      "path": "skins/player_626155aa53cbf923_5.png",
+      "sha256": "cea69a1d2540e7a06d8d29c08a69d4ae625ab843ee6996b5cd0522268c4442ff",
+      "size": 7747
+    },
+    {
+      "path": "skins/player_626155aa53cbf923_6.png",
+      "sha256": "c711bbd5a64c52870015fc26e5181c9e8eebf27e82f2243b057a5fd2acb515da",
+      "size": 7629
+    },
+    {
+      "path": "skins/player_626155aa53cbf923_7.png",
+      "sha256": "10571040fbddfa2648a54763f756f2d9465a83f71234a0a53c4907f6700e031c",
+      "size": 7744
+    },
+    {
+      "path": "skins/player_96252d1ea1fbcd88_0.png",
+      "sha256": "c8ca36d6df505a07e07366f596f264c7899e379c8789857382b45ff3bacbd28a",
+      "size": 10428
+    },
+    {
+      "path": "skins/player_96252d1ea1fbcd88_1.png",
+      "sha256": "6b5432069b5542a42701e97627f7b8d1bf00d8ec86c4450f9b3784ffd68b8663",
+      "size": 10374
+    },
+    {
+      "path": "skins/player_96252d1ea1fbcd88_2.png",
+      "sha256": "b07107f31af766b0e931dd66cc2e5ed06f2a79d1167a5a2dff93d6d4d1472db8",
+      "size": 9644
+    },
+    {
+      "path": "skins/player_96252d1ea1fbcd88_3.png",
+      "sha256": "0cbc94b04034183da8371a87f286ef86c3aaa13a995517fb0149c94215773bd2",
+      "size": 9992
+    },
+    {
+      "path": "skins/player_96252d1ea1fbcd88_4.png",
+      "sha256": "1caae6d6e31faa9e1ab70711aec2a8b8d97795abe1a22ab0be0fa34c403b9c2f",
+      "size": 8824
+    },
+    {
+      "path": "skins/player_96252d1ea1fbcd88_5.png",
+      "sha256": "88c4709bdc745a8371b7ab8f2c678d01338f69857614513d783987597125f3c1",
+      "size": 8786
+    },
+    {
+      "path": "skins/player_96252d1ea1fbcd88_6.png",
+      "sha256": "ba4e41010229d59a98d6b800ef6f1f58df1a3327e046e8ca9499e4356b40ca1d",
+      "size": 8448
+    },
+    {
+      "path": "skins/player_96252d1ea1fbcd88_7.png",
+      "sha256": "3ee69aec9856a870e1fe2d0988953cc397ad3a3e99b81daa9e624dff059b6594",
+      "size": 8420
+    },
+    {
+      "path": "skins/player_b0afdd69b76930e1_0.png",
+      "sha256": "89c0c3bf56230af4df3c43f1c96b87e6ef438d96fefb054cbf8e71715b3cdabb",
+      "size": 7598
+    },
+    {
+      "path": "skins/player_b0afdd69b76930e1_1.png",
+      "sha256": "284eb3990bd46883a210da88e9b6a97315225a4a5abe163282029c02746cc01e",
+      "size": 7401
+    },
+    {
+      "path": "skins/player_b0afdd69b76930e1_2.png",
+      "sha256": "935964ff3d6e7078b0889218dad8ad894f8bb9d8eaaf2ccb49e5e099dc33dece",
+      "size": 6989
+    },
+    {
+      "path": "skins/player_b0afdd69b76930e1_22.png",
+      "sha256": "c4df9886f9a638bf2a53253accb007fcfd8bec170fda752419542bd8fc9e9b5e",
+      "size": 5760
+    },
+    {
+      "path": "skins/player_b0afdd69b76930e1_23.png",
+      "sha256": "d6b353921fcd0a9dc3fa4161077e3d307667ce69720b5d4990f95b3419458345",
+      "size": 5688
+    },
+    {
+      "path": "skins/player_b0afdd69b76930e1_24.png",
+      "sha256": "c4df9886f9a638bf2a53253accb007fcfd8bec170fda752419542bd8fc9e9b5e",
+      "size": 5760
+    },
+    {
+      "path": "skins/player_b0afdd69b76930e1_25.png",
+      "sha256": "d6b353921fcd0a9dc3fa4161077e3d307667ce69720b5d4990f95b3419458345",
+      "size": 5688
+    },
+    {
+      "path": "skins/player_b0afdd69b76930e1_3.png",
+      "sha256": "0b9190a1277d67b85e36f20ddcce838bc3f8b1c36dcf9eb86314e7d5964ff1a7",
+      "size": 7275
+    },
+    {
+      "path": "skins/unsupported.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size": 2
+    },
+    {
+      "path": "skins/weapon_0110522baa315c7c_0.png",
+      "sha256": "32667721f8f09e3d5ef7f749eeb132584677094037c9d278541bdeeba9149cc3",
+      "size": 9603
+    },
+    {
+      "path": "skins/weapon_0110522baa315c7c_1.png",
+      "sha256": "7e199c6c4377a6926ae726236b13ee4319d82aef9de33104858a4a72fdcd7303",
+      "size": 9561
+    },
+    {
+      "path": "skins/weapon_043a2643d7bf5b6a_0.png",
+      "sha256": "080beac7f5be284c92aadc9a9c4bc6ec7321eba130555cb3d0cb60566b5fa0a5",
+      "size": 8232
+    },
+    {
+      "path": "skins/weapon_043a2643d7bf5b6a_1.png",
+      "sha256": "2fe7029d8d437b5f2754346b383ab2ed17febfc116ff8714869d92ecdb2e7a9b",
+      "size": 8261
+    },
+    {
+      "path": "skins/weapon_044bcd5e2f3eb0ed_0.png",
+      "sha256": "5e6337d88d5cfb99491dbb286f0285f513235dc51196f9fc0858cf2c27c26932",
+      "size": 2896
+    },
+    {
+      "path": "skins/weapon_044bcd5e2f3eb0ed_1.png",
+      "sha256": "4283cf6f3518b28a95cad390264ea9a790b2b57bec805092a6163cdc5c5023d3",
+      "size": 2878
+    },
+    {
+      "path": "skins/weapon_09d05ddeca9b9cff_0.png",
+      "sha256": "8a5cb627cb149ecbc184bbe545be4acf6aafcacb385f2c70307c9f762482ecf6",
+      "size": 8421
+    },
+    {
+      "path": "skins/weapon_09d05ddeca9b9cff_1.png",
+      "sha256": "08efcacf469e407e5fff28d55519f219f94a29caa4fe2b188edca1f8e093f8d3",
+      "size": 8603
+    },
+    {
+      "path": "skins/weapon_0b4af4b90ee25714_0.png",
+      "sha256": "80cb63d4964e53045ee97eb214342e1cf34b6abd91314c14fdfefd27be92c209",
+      "size": 7849
+    },
+    {
+      "path": "skins/weapon_0b4af4b90ee25714_1.png",
+      "sha256": "6f7484dc40e99489f2f52c8829d49132f453cf5023eadfc5bfef723e8301a3c4",
+      "size": 7977
+    },
+    {
+      "path": "skins/weapon_0b4af4b90ee25714_2.png",
+      "sha256": "44e058a416557da1f84512c9366372562eda2b2ab54ed07bc2005361725a00ea",
+      "size": 7747
+    },
+    {
+      "path": "skins/weapon_0d0c565e5f1ed492_0.png",
+      "sha256": "45bb241929922214aca18d3ef4430ec8822d05267fac152b764739db479c6bb7",
+      "size": 9676
+    },
+    {
+      "path": "skins/weapon_0d0c565e5f1ed492_1.png",
+      "sha256": "1efff66d3602ab8a146b5576ff30978d368e7a9b1c3e36960fdbfefe9191d7e5",
+      "size": 9848
+    },
+    {
+      "path": "skins/weapon_113e3b688f49b871_0.png",
+      "sha256": "53af284a3f4cc1d4730aff9b8179ad7be61ef222ad194b8744a220793e3333ad",
+      "size": 11252
+    },
+    {
+      "path": "skins/weapon_113e3b688f49b871_1.png",
+      "sha256": "4c6ca3eb18faaf7a48a8065b5272b98a9122227712a5c3ab50092e9409d60ab9",
+      "size": 11343
+    },
+    {
+      "path": "skins/weapon_162771642ca475a2_0.png",
+      "sha256": "db8b1e28c8f56253890986b8273fca02936b1f5b0201c31517be6f7bf45c3ad9",
+      "size": 7405
+    },
+    {
+      "path": "skins/weapon_162771642ca475a2_1.png",
+      "sha256": "db8b1e28c8f56253890986b8273fca02936b1f5b0201c31517be6f7bf45c3ad9",
+      "size": 7405
+    },
+    {
+      "path": "skins/weapon_24488a651e220124_0.png",
+      "sha256": "495b604c15553e4db9b0ba78963ae18eae4b0f99235905685bf9d1d3c0da46c3",
+      "size": 9347
+    },
+    {
+      "path": "skins/weapon_24488a651e220124_1.png",
+      "sha256": "f4af186e81f180818f572e1080d2f5d6dbf6aeac109f48d6c508b9894b124dfd",
+      "size": 9370
+    },
+    {
+      "path": "skins/weapon_296a6c5e2b8021d1_0.png",
+      "sha256": "8a614ac0777319df405cce7c3c4fe0b0f5a6396b24b59a0a84aba1709954ebf4",
+      "size": 3744
+    },
+    {
+      "path": "skins/weapon_296a6c5e2b8021d1_2.png",
+      "sha256": "e27455fcc1f704bfbb57d26737023e915f46679242813e40f12ddc3e0e1324cb",
+      "size": 3385
+    },
+    {
+      "path": "skins/weapon_2a562ada68e8aef7_0.png",
+      "sha256": "1cd18339c65975e09ea97641d34cc860954df667d4e5b1f31a3ea3e54e39890e",
+      "size": 6801
+    },
+    {
+      "path": "skins/weapon_2a562ada68e8aef7_1.png",
+      "sha256": "4a940a5496f7dae25b09219788fbf054bf8e1f39f87ef480898bf326b1160a0d",
+      "size": 6994
+    },
+    {
+      "path": "skins/weapon_2e2c9fbfa44b84cd_0.png",
+      "sha256": "1f54eeba262e1c2a35a9525d9d7f97191b9e1fa9d6e467029d1621697b5ac008",
+      "size": 5561
+    },
+    {
+      "path": "skins/weapon_2e2c9fbfa44b84cd_2.png",
+      "sha256": "af648832d8b6a4893cd8813355e59079221723ca60af34dbe868bb11e414a955",
+      "size": 5349
+    },
+    {
+      "path": "skins/weapon_2f51d8be86bead95_0.png",
+      "sha256": "ec8a695f5304102e309022667a64f9ff135e19e3f892d0c0085f4cc185a5b72e",
+      "size": 9000
+    },
+    {
+      "path": "skins/weapon_2f51d8be86bead95_1.png",
+      "sha256": "024336c8f0e7f668db6a46a37837b68c44d270b88b4a10ea361ff8a6ab738227",
+      "size": 9095
+    },
+    {
+      "path": "skins/weapon_351d8fc050834f37_0.png",
+      "sha256": "3d9ac41e71da1579c56737dc4eb2530809e3614857225b8dc58b51e98d1bcba0",
+      "size": 9222
+    },
+    {
+      "path": "skins/weapon_351d8fc050834f37_1.png",
+      "sha256": "6f997bf859f0ed709160bf1f2b284c39d7b4d7c22a85a090f77114415570a115",
+      "size": 9542
+    },
+    {
+      "path": "skins/weapon_351d8fc050834f37_2.png",
+      "sha256": "220b5de885493540dcf1470d16c481d5b5dc11e474398e4dffc8ac3e4cc3fda5",
+      "size": 10779
+    },
+    {
+      "path": "skins/weapon_351d8fc050834f37_3.png",
+      "sha256": "779f6e4f7f48151feead95cfb20493e9fbb226af30f7c6951238611f0de6c75e",
+      "size": 11006
+    },
+    {
+      "path": "skins/weapon_39822e19359b0181_0.png",
+      "sha256": "146ca20c9b3fa4f57ac12e2bfb081e84b2665aa547ac8125f53aa55c48859e83",
+      "size": 5412
+    },
+    {
+      "path": "skins/weapon_39822e19359b0181_1.png",
+      "sha256": "95a9280ebb969b45f77cbe44ad4e6552b15afe6ce0e738ef45205f48f2f4d226",
+      "size": 5532
+    },
+    {
+      "path": "skins/weapon_3a755090f403859d_0.png",
+      "sha256": "0a335e8e5020ff2316497749be365de4c2d491cccac4237937f0cbb464d96d03",
+      "size": 2638
+    },
+    {
+      "path": "skins/weapon_3a755090f403859d_1.png",
+      "sha256": "0a335e8e5020ff2316497749be365de4c2d491cccac4237937f0cbb464d96d03",
+      "size": 2638
+    },
+    {
+      "path": "skins/weapon_40070caab2a0d5ae_0.png",
+      "sha256": "5da17a070d83db6589056c695417697b517e6fd779a271958dd6eae37d2ca5c4",
+      "size": 4724
+    },
+    {
+      "path": "skins/weapon_40070caab2a0d5ae_1.png",
+      "sha256": "ee562ddd78afb8825479a82bbf895687cbf584d36347bdec5ee872b86aecc316",
+      "size": 4727
+    },
+    {
+      "path": "skins/weapon_41144158ef5fb694_0.png",
+      "sha256": "745a36c600c458546e90e98702b087cacb3944cedae717804a1e79919441c229",
+      "size": 7566
+    },
+    {
+      "path": "skins/weapon_41144158ef5fb694_1.png",
+      "sha256": "72d532cb9e18550185a239adaeacd638d822a79cde4a4aba3c2097469adca5c9",
+      "size": 7558
+    },
+    {
+      "path": "skins/weapon_41144158ef5fb694_2.png",
+      "sha256": "234ab4d37d0e5a8c9fefb4b7443b5c8dbc1d74355ffdfdfd9d884c0ec782c72b",
+      "size": 6571
+    },
+    {
+      "path": "skins/weapon_41144158ef5fb694_3.png",
+      "sha256": "a4781de9d0d4a76e56117fde814df505bd19bd920d2a0b5ed2f9904bef2fd979",
+      "size": 6625
+    },
+    {
+      "path": "skins/weapon_42c2c8c6e98f987f_0.png",
+      "sha256": "9b1016f27792892db68eeca4c716c21da2835fa01746259813a7945424f423db",
+      "size": 11630
+    },
+    {
+      "path": "skins/weapon_42c2c8c6e98f987f_1.png",
+      "sha256": "843961e2b1183f0e07ef76d4ec155e741ed55d7634fa46b318f3c86229515f3f",
+      "size": 11636
+    },
+    {
+      "path": "skins/weapon_4481758980c6de4d_0.png",
+      "sha256": "ccd916eb303ebdbe067f6d2d51ba719850eeeb085c75097cccb12d9bbcd2f5c3",
+      "size": 14429
+    },
+    {
+      "path": "skins/weapon_4481758980c6de4d_1.png",
+      "sha256": "e698eaabea60bcc27f76dce3b1f9560936ba7757ce8ea2cd5e42981a370b941a",
+      "size": 14563
+    },
+    {
+      "path": "skins/weapon_488ac894bf326371_0.png",
+      "sha256": "51350da6958db44061c86a514b83a155bcfaa26a61d4eac626aa49fa1a82bb07",
+      "size": 7460
+    },
+    {
+      "path": "skins/weapon_488ac894bf326371_1.png",
+      "sha256": "e99fec87236cdabed7d04abf3216b3ebaa261b313175388735681532ad5093d0",
+      "size": 7439
+    },
+    {
+      "path": "skins/weapon_4a42014653c58f52_0.png",
+      "sha256": "02a78c7d56e0ecfe8ffc48f0ef6f72a54381a330021e281c0d482e36a9e54449",
+      "size": 6775
+    },
+    {
+      "path": "skins/weapon_4a42014653c58f52_1.png",
+      "sha256": "6cd6184c960070c8cda80b5b93026f66985d0f3577cfaef93d4e864f93d088f2",
+      "size": 6881
+    },
+    {
+      "path": "skins/weapon_4a556364ecd12f56_0.png",
+      "sha256": "f5f8f5b690b8fb7473f671ac88db2f1f5fa019ac5912cf9cf6ad48d64db03817",
+      "size": 11047
+    },
+    {
+      "path": "skins/weapon_4a556364ecd12f56_1.png",
+      "sha256": "1da48915fd6512a734bfb9587f93f195faa72c099a006aaf1a5e38c0dc69fdb0",
+      "size": 11101
+    },
+    {
+      "path": "skins/weapon_50eaeb19137d02bd_0.png",
+      "sha256": "71554e32b146ea22e49c1e8591003068199534bf78a2dd2afbbc34a1822bd14e",
+      "size": 5702
+    },
+    {
+      "path": "skins/weapon_50eaeb19137d02bd_2.png",
+      "sha256": "5c177bb12108cffe4b4244b25f1c9aceef87eb29b1f407ab46d6a500495539d4",
+      "size": 5398
+    },
+    {
+      "path": "skins/weapon_510d77ff3b4448fc_0.png",
+      "sha256": "9a21c83a999e93e11a91add43bcd2bcc55533849f72abbdd9a3b2dedc149b0d2",
+      "size": 4197
+    },
+    {
+      "path": "skins/weapon_510d77ff3b4448fc_2.png",
+      "sha256": "ad728c88c203434926a96e10b875837f49a035bee66dc35aa7c4103154659241",
+      "size": 4113
+    },
+    {
+      "path": "skins/weapon_55b5e2e554855b3e_0.png",
+      "sha256": "532a9de638fe5d06d15f7aa403be410653fcfc3f82f7f222790f64dd2539f8f0",
+      "size": 4977
+    },
+    {
+      "path": "skins/weapon_55b5e2e554855b3e_1.png",
+      "sha256": "d64f372fc27cffde73aadbfca888727442bba3b6ee4d2c73e2dc237a40f4462b",
+      "size": 5076
+    },
+    {
+      "path": "skins/weapon_5c2ba9e67b48d053_0.png",
+      "sha256": "d6bd5298851a7112628111c22a94a36d00e5ff16778a08cf93b1a3b5106337ac",
+      "size": 9838
+    },
+    {
+      "path": "skins/weapon_5c2ba9e67b48d053_1.png",
+      "sha256": "42af43338e044576cec157755b52c8529859e7470a754f70130a303cc0abeb9c",
+      "size": 9893
+    },
+    {
+      "path": "skins/weapon_5e4e93751b901fbf_0.png",
+      "sha256": "4c9fa038129daa8e1754a06a515f16367fecd237e6d3d546442965fb4271d648",
+      "size": 8509
+    },
+    {
+      "path": "skins/weapon_5e4e93751b901fbf_1.png",
+      "sha256": "f405dc36efeee79e923653c252751d3df4f052d21071104cdd442f0045594c9c",
+      "size": 8556
+    },
+    {
+      "path": "skins/weapon_67905c16e3d10cc1_0.png",
+      "sha256": "962a0857e3aed88ca4061dfa983c80626fb0936047bea6ed926b28f703eb33f7",
+      "size": 5906
+    },
+    {
+      "path": "skins/weapon_67905c16e3d10cc1_1.png",
+      "sha256": "0af7842bd127f8eedd4865b3eba84907b9ac0767002708980619a6aab82dad98",
+      "size": 5923
+    },
+    {
+      "path": "skins/weapon_73aaca77e78fafa4_0.png",
+      "sha256": "7a28bcd15bc6f82ea5962b46158136cc58b31b8ffe195c28a64db1e2ec8276c2",
+      "size": 3502
+    },
+    {
+      "path": "skins/weapon_73aaca77e78fafa4_1.png",
+      "sha256": "582188b6dfa0ec92d9938597d07546f3f2201cf98669fba41257790dd95cff97",
+      "size": 3709
+    },
+    {
+      "path": "skins/weapon_73aaca77e78fafa4_2.png",
+      "sha256": "cd5b4565e379c116cc12d697731cb98a6097904774e8b4edbfc2042b892a5bdd",
+      "size": 3722
+    },
+    {
+      "path": "skins/weapon_76225a5721aae7a5_0.png",
+      "sha256": "56e5c3aeb32fb7b9be849a8cbe0c1f21eb1bf9480eaddbe83729d08b5ebfbb8d",
+      "size": 5076
+    },
+    {
+      "path": "skins/weapon_76225a5721aae7a5_1.png",
+      "sha256": "91bd4af203b4d7c87be36d7f0aa999a6a41e4fd6dd1c83d1a6cde626a1413d76",
+      "size": 5015
+    },
+    {
+      "path": "skins/weapon_76b02fc8638a2fac_0.png",
+      "sha256": "3f1ca307e08f021ffed00e7072787a921970a78b1a2d040ef2409faec1cd1586",
+      "size": 8584
+    },
+    {
+      "path": "skins/weapon_76b02fc8638a2fac_1.png",
+      "sha256": "ff24aec1ee6e358a0097b7d6e3093c0a47878da04d9abc34503e9270518f9881",
+      "size": 8603
+    },
+    {
+      "path": "skins/weapon_7e80fb4a1bc82163_0.png",
+      "sha256": "5b3bc9015798a98c3ef9d6f31d7c280328d00bc015ec3f1de533a6db9f0d8067",
+      "size": 5680
+    },
+    {
+      "path": "skins/weapon_7e80fb4a1bc82163_1.png",
+      "sha256": "9fee5d72b75ec8bdbb4cee1638a3cc7e089d03d7f3d7a5cc739aa4d4383fd455",
+      "size": 5684
+    },
+    {
+      "path": "skins/weapon_7e80fb4a1bc82163_2.png",
+      "sha256": "81b349c930240f40ad11d530973fd49d7a84fd7d9ac446241c72da0c9cd23fb5",
+      "size": 5499
+    },
+    {
+      "path": "skins/weapon_8592691fd7d18865_0.png",
+      "sha256": "9f9f503b9fbaca579c3933ff081ffdc4e28ed2856b4d2a5780fc919fd7854425",
+      "size": 7983
+    },
+    {
+      "path": "skins/weapon_8592691fd7d18865_1.png",
+      "sha256": "84eaeabe72f9452afab3e079f26441e2f751bd16669d2f02d7786fae61b76cfc",
+      "size": 8016
+    },
+    {
+      "path": "skins/weapon_8b7727f0ab7e27a2_0.png",
+      "sha256": "a26bbe2b6b9ed9e4b15183c8b09983eb8f5a901d8ca6be5ff40d7b3fe3155655",
+      "size": 6868
+    },
+    {
+      "path": "skins/weapon_8b7727f0ab7e27a2_1.png",
+      "sha256": "a26bbe2b6b9ed9e4b15183c8b09983eb8f5a901d8ca6be5ff40d7b3fe3155655",
+      "size": 6868
+    },
+    {
+      "path": "skins/weapon_8b7727f0ab7e27a2_2.png",
+      "sha256": "a26bbe2b6b9ed9e4b15183c8b09983eb8f5a901d8ca6be5ff40d7b3fe3155655",
+      "size": 6868
+    },
+    {
+      "path": "skins/weapon_8e6bbf832f8bc134_0.png",
+      "sha256": "1a4c69377b3a818364200a65e4090165f903c9fd2b1c694dc7c7689a8933e9db",
+      "size": 1824
+    },
+    {
+      "path": "skins/weapon_8e6bbf832f8bc134_8.png",
+      "sha256": "794d22929abbf949a21c1d9326a75ac42d611efaa6d0284cf9944e704b7ccf36",
+      "size": 1803
+    },
+    {
+      "path": "skins/weapon_8f68e73b04119dd6_0.png",
+      "sha256": "b8a94351660757c0371a7e582c338417d62495d91a674ffb2cfa8084807b6481",
+      "size": 12095
+    },
+    {
+      "path": "skins/weapon_8f68e73b04119dd6_1.png",
+      "sha256": "7fcbeb8a4281708a2e4b4e23109f5d50f0edf7c4b1a8ccc2d02861f47e32bb76",
+      "size": 12156
+    },
+    {
+      "path": "skins/weapon_9258572a4a7943ae_0.png",
+      "sha256": "147f937b561ff242591daea247f4ae771141214aedf5b28bbc320a93eb5f725d",
+      "size": 5333
+    },
+    {
+      "path": "skins/weapon_9258572a4a7943ae_1.png",
+      "sha256": "ee72983f7db64afca727d7af7cb142c97a132ebb21b4bf7cc545fa2b39f2d1d7",
+      "size": 5340
+    },
+    {
+      "path": "skins/weapon_945de597fa9ab8cc_0.png",
+      "sha256": "ccaeb57a4594dde1f90357fb4f70d1c78ef7a0b042017effa48dd97b86d79452",
+      "size": 7711
+    },
+    {
+      "path": "skins/weapon_945de597fa9ab8cc_8.png",
+      "sha256": "94b0915906e6da6397ce4aa4a703dc2ec815c78444a17f9ba0b28476d4d12a94",
+      "size": 7646
+    },
+    {
+      "path": "skins/weapon_9ccd5f808cae46f1_0.png",
+      "sha256": "9baa50ec65b1a4f0390c53a0c296a818c49dd9107ba7a5f17768e7571ad3b383",
+      "size": 3155
+    },
+    {
+      "path": "skins/weapon_9ccd5f808cae46f1_8.png",
+      "sha256": "8ddcfa5918241c16cf945917fca34886b21e00b0ea24cf7e00297afb79618d2f",
+      "size": 3006
+    },
+    {
+      "path": "skins/weapon_a1888568d2b9bca3_0.png",
+      "sha256": "851f480eaa79c189712615b44c84832e03bd40f1283d7034562c98b79d2c4120",
+      "size": 9311
+    },
+    {
+      "path": "skins/weapon_a1888568d2b9bca3_1.png",
+      "sha256": "919fa5e9aef0c384ee0fea32e63a25d6565c1d64edacc66107caa2d87aece864",
+      "size": 9376
+    },
+    {
+      "path": "skins/weapon_a1888568d2b9bca3_8.png",
+      "sha256": "6c14082cb9077ca9558b10b09052cd5b233b9f9721c41397fbc0244b2284c78c",
+      "size": 8738
+    },
+    {
+      "path": "skins/weapon_aabe481f1b42a30f_0.png",
+      "sha256": "e31150687831d47cbe54daf102ea21ebb225fadec9d155015494c106b1f6f4a1",
+      "size": 10243
+    },
+    {
+      "path": "skins/weapon_aabe481f1b42a30f_2.png",
+      "sha256": "212535e95cb36276ce4cc2c8e29b1fc214ac4a51a776c34f93525a6421f8f684",
+      "size": 9278
+    },
+    {
+      "path": "skins/weapon_adbee87181cea12a_0.png",
+      "sha256": "182e54b26127b8b13d3a91d74945f71f640158b75977016c5c9609d9c17cfaf7",
+      "size": 5391
+    },
+    {
+      "path": "skins/weapon_adbee87181cea12a_1.png",
+      "sha256": "c95774cbc421bd67c5336569fd8964428d10d9c01cf454d8da7e589cbd273a7b",
+      "size": 5418
+    },
+    {
+      "path": "skins/weapon_af67883c45e20646_0.png",
+      "sha256": "410fb4145832b3a366fc174f1042561f83abefb46f9b08994050eb71dd928d93",
+      "size": 10576
+    },
+    {
+      "path": "skins/weapon_af67883c45e20646_1.png",
+      "sha256": "ac9823f15b6aae1e61558d8917347fca28da9d6cbf2c98f0847c78d3a7a6bb95",
+      "size": 10616
+    },
+    {
+      "path": "skins/weapon_b3157a265f945d6b_0.png",
+      "sha256": "8cd566f839ad160c355de8c9b7ebc459d4e8bc00abe067f6e6f71352494b125e",
+      "size": 4207
+    },
+    {
+      "path": "skins/weapon_b3157a265f945d6b_1.png",
+      "sha256": "a2e76bd6a82ccb628023a7206e94723bb5428bc6ec874dfecf5cec44cf4ee1ff",
+      "size": 4199
+    },
+    {
+      "path": "skins/weapon_b51dd7324cf9d638_0.png",
+      "sha256": "cebb72e1382c068f8a6f68d95a0ac3ff3d3723e717b2d00c530b751010fa24b8",
+      "size": 4999
+    },
+    {
+      "path": "skins/weapon_b51dd7324cf9d638_1.png",
+      "sha256": "afb22e463e295278db618fbfc24151f26b56687a83f97897a57a52af23113369",
+      "size": 5126
+    },
+    {
+      "path": "skins/weapon_bc803d5d498d30b9_0.png",
+      "sha256": "9cf6fd2070297b0e07cc4c174cd32ba3350a6bbc189db7239dbcc6100b692728",
+      "size": 12837
+    },
+    {
+      "path": "skins/weapon_bc803d5d498d30b9_1.png",
+      "sha256": "95e7f0bed5d33bc55eaefe19f5bc0d2d4b191cbdb70b775df685b8004a2abccf",
+      "size": 12834
+    },
+    {
+      "path": "skins/weapon_bd217e47b4df1e63_0.png",
+      "sha256": "17c3210ab05f33103be18c776e3236556c3625acfec002bc406d63f65f483e48",
+      "size": 6520
+    },
+    {
+      "path": "skins/weapon_bd217e47b4df1e63_1.png",
+      "sha256": "6d609ed8a8757bd7275a2b811508ee0a88483778d244f12f0b75f622933d732c",
+      "size": 6573
+    },
+    {
+      "path": "skins/weapon_bff7b6a20bf39c3d_0.png",
+      "sha256": "e746f701d7ae573f2173b81162acd7677a5f09bceac591ca2da44ee2ceff02ce",
+      "size": 7188
+    },
+    {
+      "path": "skins/weapon_bff7b6a20bf39c3d_1.png",
+      "sha256": "9020e706e99a261d2b02c59a985190994ca24ea9f2eab47b978e7a45735f4ed7",
+      "size": 7224
+    },
+    {
+      "path": "skins/weapon_c2add70d9201d181_0.png",
+      "sha256": "08c2f07e78334524e4cb51046e14ed1d40326f03ab5b71fec79834dd1059b173",
+      "size": 1946
+    },
+    {
+      "path": "skins/weapon_c2add70d9201d181_2.png",
+      "sha256": "ab97ae0c4d455c6d811b2488f7833d9c0ccf2a5d575fc0114a432a444a678879",
+      "size": 1806
+    },
+    {
+      "path": "skins/weapon_c5314cce10815abe_0.png",
+      "sha256": "2408fc2dc62eac0da975786ebed61af9bdbd25aa53d32d2824a6140462ceb645",
+      "size": 5663
+    },
+    {
+      "path": "skins/weapon_c5314cce10815abe_1.png",
+      "sha256": "fff39bf6fc5e8e7da739ec7377f54cf07e09ba76404936a762701fe3bc0fb379",
+      "size": 5712
+    },
+    {
+      "path": "skins/weapon_ccd0a7f5a60554b5_0.png",
+      "sha256": "3d681d8cb52182ca84848c6e1c767c16997e29c4edd5a0fa99d93d97376f7d92",
+      "size": 6832
+    },
+    {
+      "path": "skins/weapon_ccd0a7f5a60554b5_1.png",
+      "sha256": "fff8ecb5b156ddb3eadf1602ea794861687e96929d768ce8a584631340f06217",
+      "size": 6726
+    },
+    {
+      "path": "skins/weapon_de64beb2aa9b264a_0.png",
+      "sha256": "ebc43939e26f1a02c4ab9e4db8eaf3892963bbc8eb4392b47c149fc54f342593",
+      "size": 3937
+    },
+    {
+      "path": "skins/weapon_de64beb2aa9b264a_1.png",
+      "sha256": "b8b8367162fd40c70933500826eebb9dba55d04112392fb69e258267366d2a9e",
+      "size": 4059
+    },
+    {
+      "path": "skins/weapon_e254dfe4762d080b_0.png",
+      "sha256": "a13b4fea79d6263fb9587fa53ce490a71a52df93f5c49b7118b1e8022db40e9c",
+      "size": 5938
+    },
+    {
+      "path": "skins/weapon_e254dfe4762d080b_1.png",
+      "sha256": "0ac6b4a504c377b7838ad82023f16ee1e0fde7284342c07a427a337eb4ba8dc7",
+      "size": 5915
+    },
+    {
+      "path": "skins/weapon_e254dfe4762d080b_8.png",
+      "sha256": "5041cee6d1cc77a07411f2826b66660d2da9fa06fd38e3de0f3d1e66421e4acf",
+      "size": 5685
+    },
+    {
+      "path": "skins/weapon_ed9626aa864b618b_0.png",
+      "sha256": "5883aebae2b65548bf7a6733009e66b9ca5e9df1d6ccf4aba5a6d993c3510e20",
+      "size": 12378
+    },
+    {
+      "path": "skins/weapon_ed9626aa864b618b_8.png",
+      "sha256": "943bb906b4aad49d5ceb9e127674cd2aee3a7dfdec90727f238ed4087e4305f2",
+      "size": 11793
+    },
+    {
+      "path": "skins/weapon_efab9de28b1f53a8_0.png",
+      "sha256": "bfc613c5efe349b1978f80e58c4e4a2b6e95763f53590d70e90ae3f6c44cf712",
+      "size": 10500
+    },
+    {
+      "path": "skins/weapon_efab9de28b1f53a8_8.png",
+      "sha256": "bf3300a1e828d41afabe197c4e2ce14f0d6529cecf9444da44e4682bdaf6fc72",
+      "size": 10433
+    },
+    {
+      "path": "skins/weapon_f0941d878ffd9a65_0.png",
+      "sha256": "703da3bb43d89f14fb902b884e983a1b85f53a322218bbe319a9e5802d609a31",
+      "size": 8271
+    },
+    {
+      "path": "skins/weapon_f0941d878ffd9a65_8.png",
+      "sha256": "b7f0cb01859819c20a23133d55dbfd95235c3fd7bae140690c8a6280b161485a",
+      "size": 7987
+    },
+    {
+      "path": "skins/weapon_f0d2f6d0a8718711_0.png",
+      "sha256": "80b352a066d002be75bd004e92efae8425093fdac2bfb63119dd016b8747abc5",
+      "size": 7650
+    },
+    {
+      "path": "skins/weapon_f0d2f6d0a8718711_8.png",
+      "sha256": "60638ea1aa5240be8a6c942742da6586a0d5fefc987ced2aacdfcb71452548f3",
+      "size": 8441
+    },
+    {
+      "path": "skins/weapon_fdeaefb0879889d3_0.png",
+      "sha256": "a7d740a5d7170c2e3fa9bc1b94487ecc8e255ab182f41a24729cb27df1fd50fe",
+      "size": 9302
+    },
+    {
+      "path": "skins/weapon_fdeaefb0879889d3_1.png",
+      "sha256": "16776e4f0f6e850626175280ef9d2166d0b31baa28c7176335246d0b69465e3d",
+      "size": 9304
+    },
+    {
+      "path": "tf2_pages.lua",
+      "sha256": "1d849d2ba8d7901c715e7148dc3de50eabb866a0f302e2660e21c1e142b7ee95",
+      "size": 9990
+    },
+    {
+      "path": "weapons/catalog.json",
+      "sha256": "5142b506b429438d6b75aaf3b25ecb35338bd6702afa0e3fa3a1ba7c58673d7e",
+      "size": 85888
+    }
+  ],
+  "product": "tf2",
+  "schema": 1
+}
