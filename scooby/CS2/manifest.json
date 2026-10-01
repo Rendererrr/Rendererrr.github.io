@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "product": "CS2-v2",
+  "files": {
+    "sounds/[minecraft] XP gain.wav": {
+      "bytes": 17498,
+      "sha256": "e82b770e824ff9b17850ff798cf2796f6e2f2e7b28f7ce6573219d1182615eab"
+    },
+    "sounds/[minecraft] bow ding.wav": {
+      "bytes": 67674,
+      "sha256": "e6a4e17b1d1e639bcc8d9542b856f132aec68358ae4e6f1cccd6f5215fb0f478"
+    },
+    "sounds/[minecraft] button.wav": {
+      "bytes": 37978,
+      "sha256": "3298d878c9d04e51c9c900abfc057322a35b26fa4fd2aa56d27a9301293ede26"
+    },
+    "sounds/[minecraft] egg throw.wav": {
+      "bytes": 5210,
+      "sha256": "3f3e53eee1a7cc04d249be85ce6ec70c99cb6993c3699bf94c39b0f3c0dc7f48"
+    },
+    "sounds/[minecraft] hitsound.wav": {
+      "bytes": 23642,
+      "sha256": "07c943330a147af76718eb2a56fcb2c2191e4e735409cf35df884972afa0ecc4"
+    },
+    "sounds/[minecraft] old hitsound.wav": {
+      "bytes": 3162,
+      "sha256": "b40d06299d24c2ac72271c460a3700ccdb66a97c3ee6c1bc7a36c8454a3a5717"
+    },
+    "sounds/aimbooster.wav": {
+      "bytes": 6234,
+      "sha256": "293d4f3592ba99a5a68ca476dacc91b045436d9231d90f5098c78d0831c3ac9a"
+    },
+    "sounds/ben.wav": {
+      "bytes": 54362,
+      "sha256": "cdc626090b25c32fbca0910f81f7a05dd358424dc2e42fe69c6bf619fa50ef06"
+    },
+    "sounds/bonk.wav": {
+      "bytes": 28762,
+      "sha256": "c1f5ea226faa3403b75d0c6caf785b3d9d50bd67a98dc12815756a41d3c4950c"
+    },
+    "sounds/brotato.wav": {
+      "bytes": 15450,
+      "sha256": "a1ea65165e48791d506f33554d9baef12db3d7600a8baaf7d811655c7180665a"
+    },
+    "sounds/click.wav": {
+      "bytes": 11354,
+      "sha256": "a12dfae896e987b4972c3f21c09c6dbf3fa9e5dcef3c759245490da5488b0057"
+    },
+    "sounds/kick.wav": {
+      "bytes": 40026,
+      "sha256": "d21321e23df1f745a311c0d9e599b43d7c3ea682db3c86cddcc6b9db7bb09f62"
+    },
+    "sounds/money claim.wav": {
+      "bytes": 14426,
+      "sha256": "5c4066e023051a3b563936d3d583e0c7c4fde978035c4a79436247e58b9f41eb"
+    },
+    "sounds/mouthsound.wav": {
+      "bytes": 10330,
+      "sha256": "f5207c1b0023f5a3d104e73f20a6e50ed2c99a8340c932627bbce9e6181f362f"
+    },
+    "sounds/pop.wav": {
+      "bytes": 7258,
+      "sha256": "8bd0fb3843cfecb4b97ee82c36c36ce679ee317125dfc029e38861f0ae26bf20"
+    },
+    "sounds/quaver.wav": {
+      "bytes": 5210,
+      "sha256": "0ae5861eaeef3cec99605d8e721009fee19b8a8d1f27b279959c4f1df0548f25"
+    },
+    "sounds/regulus.wav": {
+      "bytes": 10330,
+      "sha256": "c42ea25b2d23a0d96cd409aeb3aabbb9d6634f8566298c08f8152a16ed69f9b3"
+    },
+    "sounds/satisfying click.wav": {
+      "bytes": 8282,
+      "sha256": "7629885b88d389f57534541f553fbac9279aa5315c7c713bd5591b833e9ad44d"
+    },
+    "sounds/spiral knight.wav": {
+      "bytes": 10330,
+      "sha256": "57b402e3a32532e36892329913dd7b499c2e77ef5017aabda1f0a426b5d20696"
+    },
+    "sounds/tavern misc1c.wav": {
+      "bytes": 9306,
+      "sha256": "528cf054889d5d1cb353ae3f32318f2dbbff27e9b276e392b9d4d47959e80ea5"
+    },
+    "sounds/ting.wav": {
+      "bytes": 8282,
+      "sha256": "9ad9a6ea6e5ceccc72ad1296dce4d2c76ce7c8bfa28ecbe1fa4df82249d16803"
+    },
+    "sounds/trident pierce.wav": {
+      "bytes": 11354,
+      "sha256": "93ee3ac78bea803b8f8d71f528842d1ee8cc45915282f154712db27db4dcac79"
+    },
+    "sounds/water drop.wav": {
+      "bytes": 11354,
+      "sha256": "fa5b3bd921aedbdae3eaefa85d1f9080b49eae688cf5498a6aa537c61c8dcaa4"
+    },
+    "sounds/zelda.wav": {
+      "bytes": 10330,
+      "sha256": "2b12a09cb08115797cd319da4b59639e6d9f6c43d0a42979aadce777f869dee4"
+    },
+    "sounds/manifest.json": {
+      "bytes": 7564,
+      "sha256": "a07e079fb6eaa8ea3893bb8f5000e7e7463931d7c6fef81b018478ed1b27d5ba"
+    },
+    "sounds/SOURCE.txt": {
+      "bytes": 418,
+      "sha256": "f9b12372f98b495801baab48cc44f3db750caf210b0ec92407e22a0b51de51a2"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/acid_cells/0.vtex_c": {
+      "bytes": 262216,
+      "sha256": "2022e868af01c3fc9c9647b04fcb8045abda60c3d7d7bc59470f564a16f1344c"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/acid_cells/1.vtex_c": {
+      "bytes": 262216,
+      "sha256": "342072d9e8885966edc1464a8c61c1903b38b43bbf425997e4f474c6f9b6b301"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/acid_cells/2.vtex_c": {
+      "bytes": 262216,
+      "sha256": "160a706ab117a8b3b2700971afd134eb0a6ff48281ae0cab05a7ce1484398d18"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/acid_cells/3.vtex_c": {
+      "bytes": 262216,
+      "sha256": "208d7f7a20a0c5ed3dd31f7734e18e90e38f46f67f2f93dd9238aa3974afb6c4"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/acid_cells/4.vtex_c": {
+      "bytes": 262216,
+      "sha256": "fadf6c8fc772d50bdb18c0d94ecf0b420166c5bbe35e6add37e1b2c89b54f332"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/acid_cells/5.vtex_c": {
+      "bytes": 262216,
+      "sha256": "5b4efde890a77ffb9bc87ba022356f5dbc552f6ecbc555137a7a52dc01755de2"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/acid_cells/6.vtex_c": {
+      "bytes": 262216,
+      "sha256": "341829d235b3d9e2d94f1cc00bcf484bafdec9720fd581a382311467bec4c5be"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/acid_cells/7.vtex_c": {
+      "bytes": 262216,
+      "sha256": "c3900ab2578d80a4fed9b231b3efa2fa0729a317725b06097db21e97dcfe75e8"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/dark_matter/0.vtex_c": {
+      "bytes": 262216,
+      "sha256": "37aa9cb512d72bde214e00947d60e96c924f365f681e21ec6b34264bf7443171"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/dark_matter/1.vtex_c": {
+      "bytes": 262216,
+      "sha256": "e2a4161207daaccf517361f20aa709d8fcbec5056ae84d6737923590198e292b"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/dark_matter/2.vtex_c": {
+      "bytes": 262216,
+      "sha256": "971bd51bc40b370b1d68a852ccd3f46feab063fcbfd2db0d3aa5f8b7f4b37502"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/dark_matter/3.vtex_c": {
+      "bytes": 262216,
+      "sha256": "80e699ee85ead580fc9226bd0a9943c5a8119e6f6cc7d7a119b5658870a1c81f"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/dark_matter/4.vtex_c": {
+      "bytes": 262216,
+      "sha256": "533c6f42c08c16752850d0c635d91fc6d5aca8d4f3c419d71e2bf1d433508afd"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/dark_matter/5.vtex_c": {
+      "bytes": 262216,
+      "sha256": "94035055953b1f023cf5a17dbc6fa04f03a68ac8ff4442b2cf27dff67c337f29"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/dark_matter/6.vtex_c": {
+      "bytes": 262216,
+      "sha256": "71ebc19a2d276131a08c79c7ac83c3be87d155c1f9c4af6fcad44c7229aa9c5f"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/dark_matter/7.vtex_c": {
+      "bytes": 262216,
+      "sha256": "6f88da0d7b05feeef7cbb3212056bfcca243e371ad78763e79a00aa4c0625bee"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/ion_plasma/0.vtex_c": {
+      "bytes": 262216,
+      "sha256": "2bd35085b06cf3f653610a411d84463ee3b4e840de22738149a11259dbd259b6"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/ion_plasma/1.vtex_c": {
+      "bytes": 262216,
+      "sha256": "23f0de1040a6b6422d30f676f62d50b4df28747158d4d1f021360e7517cab900"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/ion_plasma/2.vtex_c": {
+      "bytes": 262216,
+      "sha256": "d304ba12cdc7f21f30b712a1941d8f1bda2d61e65006abbeed037cc3e7af7e97"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/ion_plasma/3.vtex_c": {
+      "bytes": 262216,
+      "sha256": "83be4be96cad9a3383e837d562bfc95414bf24d3f1e78bbf7def5f4825d56167"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/ion_plasma/4.vtex_c": {
+      "bytes": 262216,
+      "sha256": "422851f206731cdb3e3f2546a351a40e064f516033c14ce1ef3c0e809166df08"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/ion_plasma/5.vtex_c": {
+      "bytes": 262216,
+      "sha256": "4711b3fd8bb2568b1ea4a3b86ea7a24ef4a25280081752f515e4d08603bd78f4"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/ion_plasma/6.vtex_c": {
+      "bytes": 262216,
+      "sha256": "cd1fe34f58903b5fff9a4bf8ae60bd4c6c0f71b0bd0adf1c396b5ea457a3517c"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/ion_plasma/7.vtex_c": {
+      "bytes": 262216,
+      "sha256": "bfeeeaa04dc34346312fa68b6ab86d7987046132d3768636dc845f295ec7ebeb"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/nebula_vortex/0.vtex_c": {
+      "bytes": 262216,
+      "sha256": "4cde0ad08faf0ec8412d9eb77fefa60d012f0920365d1375d3306457d632569a"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/nebula_vortex/1.vtex_c": {
+      "bytes": 262216,
+      "sha256": "3ab7efa141f3fafc5e50d208e6842437b73427ff6a480e5a5a4c3973f864d334"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/nebula_vortex/2.vtex_c": {
+      "bytes": 262216,
+      "sha256": "b217d6cb69b01fa017bcc13ac11d1c7275bd62ee86d5bbb25a8f7e5f354d9c4f"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/nebula_vortex/3.vtex_c": {
+      "bytes": 262216,
+      "sha256": "6f36bb017fa5eeb29ca13140979e3b93b1ec7cdfe6b6b89bab17f6e9d6a157e4"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/nebula_vortex/4.vtex_c": {
+      "bytes": 262216,
+      "sha256": "cfa465d2d9fc57c05d82135bfc13450455c11cb75e5bf31b049b70fa76760883"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/nebula_vortex/5.vtex_c": {
+      "bytes": 262216,
+      "sha256": "49370cba7aeda1f0ae0851be070a2200a5adb7f06549cbc2df12df6e3459b3c4"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/nebula_vortex/6.vtex_c": {
+      "bytes": 262216,
+      "sha256": "60ac02c8478f28d879e5f33a8673f0f38f40776e7ce07bfef6722ce5d3e62150"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/nebula_vortex/7.vtex_c": {
+      "bytes": 262216,
+      "sha256": "348e7e41e17d83bd87830b7ab7d7510858868ad55a24912b1f240319c1bffe69"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/prismatic_flow/0.vtex_c": {
+      "bytes": 262216,
+      "sha256": "9bb8d606566235f2922aec8b1e675c843b88bb24a23bed0934e839d5d3f8b4ef"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/prismatic_flow/1.vtex_c": {
+      "bytes": 262216,
+      "sha256": "f65f4dcf3ab2eb98cf5f9cf1565b1d853eb9ccaa59841617d8186ad6c3ab779f"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/prismatic_flow/2.vtex_c": {
+      "bytes": 262216,
+      "sha256": "e37b017dd45f7aa3d54772403e2f64b507551a831d413c2a47256e9da6f2326f"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/prismatic_flow/3.vtex_c": {
+      "bytes": 262216,
+      "sha256": "7bf88bbc23fc2dd838cd479346097b94120664346355d2d8e29ad5f9eb7218d0"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/prismatic_flow/4.vtex_c": {
+      "bytes": 262216,
+      "sha256": "b5583abe05f1bfb45a1b0ff183e2b40938d524eda45b5d64a714916987c41b7d"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/prismatic_flow/5.vtex_c": {
+      "bytes": 262216,
+      "sha256": "a9ee1d0083632177b0e4a1a4cf5cdaa7103e78197041b01acf7eec9e9c2f0755"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/prismatic_flow/6.vtex_c": {
+      "bytes": 262216,
+      "sha256": "5ea8c482a831739af081d9bc2279969b9a9dae3628600cef656b1faadbacf544"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/prismatic_flow/7.vtex_c": {
+      "bytes": 262216,
+      "sha256": "3368cf6422e987379dd40a87fb3554772e057fbace28a4078c7e83683dae363f"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/spiral_flux/0.vtex_c": {
+      "bytes": 262216,
+      "sha256": "592f100840af02671f1c0bdcc41f68dc8d83f23032aa99b5a24eee6dec07c62f"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/spiral_flux/1.vtex_c": {
+      "bytes": 262216,
+      "sha256": "9ec5b6d93ecd5a64f5dad6143fe29c9185da988c12b5f007e1a2396b85607775"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/spiral_flux/2.vtex_c": {
+      "bytes": 262216,
+      "sha256": "26aafb19a13345ae100ec669fbe34f2e333d8b05bdb4c8e6886a0f670f859658"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/spiral_flux/3.vtex_c": {
+      "bytes": 262216,
+      "sha256": "521b0056af6587dbd88d81c637230db85b004e489417f1da056dafac53d406b5"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/spiral_flux/4.vtex_c": {
+      "bytes": 262216,
+      "sha256": "95e1fe17bc0f6f6a2cc46cb5c7dc7e6b0abac1c8bb178fad8f6180a42a3f5c88"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/spiral_flux/5.vtex_c": {
+      "bytes": 262216,
+      "sha256": "d3cf90d32f6ad8889759997117faa62a6d687c79f9228de25dccf92c269daf80"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/spiral_flux/6.vtex_c": {
+      "bytes": 262216,
+      "sha256": "fd81dbf5b0c0ca07a16c2f6c7c2f9bb6c3c02fe050b3626a149d30b50c79b64d"
+    },
+    "assets/vfx/materials/scooby_vfx/animated/spiral_flux/7.vtex_c": {
+      "bytes": 262216,
+      "sha256": "4b84f596f443e09d946f7e418c681becd0bc63690cb36744182f9c9864176807"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/carbon.vtex_c": {
+      "bytes": 262216,
+      "sha256": "ec51f7f85a521d4199cac120774aca2d7d0cdb297a4c2a3db77e48fcf26b9329"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/cells.vtex_c": {
+      "bytes": 262216,
+      "sha256": "422cb0422f57b414c1c8b92e93e183a291daafc94d5204294686337bd5560efd"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/circuit.vtex_c": {
+      "bytes": 262216,
+      "sha256": "a1b1fe5222a178b59f9cc8f6390faeb2de97e3e2bece29dea61855de6a82aabe"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/marble.vtex_c": {
+      "bytes": 262216,
+      "sha256": "91b85e1b6c1edb7762fd965cae2bbaf35884c903e0e7407898b33352e9ef4021"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/molten.vtex_c": {
+      "bytes": 262216,
+      "sha256": "07aeeb0e9b58ecaf2f4d2c9d16f5c633ff75630d41de6f14f71e444378c948ca"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/neon_grid.vtex_c": {
+      "bytes": 262216,
+      "sha256": "90e032e9d402eb507d20017c5fc35bec09373addacc60e888ee74226c07cc578"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/scales.vtex_c": {
+      "bytes": 262216,
+      "sha256": "a6fdd1cbb0f70af73ba59b200662725696769b456116af4713143229545e6294"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/starfield.vtex_c": {
+      "bytes": 262216,
+      "sha256": "48aa66a7e2fb04248bb754f5065982f8a475a8ed25126e2e424b11b93b44b8a5"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/aurora.vmat_c": {
+      "bytes": 842,
+      "sha256": "09c1a688ad066bf0dcd34334d6605ae665aada49511427958b15f5fe6cae1921"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/aurora.vtex_c": {
+      "bytes": 1572936,
+      "sha256": "f3fdf04264b5c05b1489b3154744f0f2a6e3060c492d5da19de7d8edef014e84"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/copper_dusk.vmat_c": {
+      "bytes": 868,
+      "sha256": "49bdbe4df2e5fcd9b6e28cd30c12f5d9efe87df00825d95dd1e1839325fc2d4d"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/copper_dusk.vtex_c": {
+      "bytes": 1572936,
+      "sha256": "ed48a272c23b3cb052cb847f23e2462ed197ef506467b4b9df8a43c58e0a27c8"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/deep_space.vmat_c": {
+      "bytes": 866,
+      "sha256": "18b16630762fc59c7716741da64df1c4f1e31b9f7b45a32d88adfa0588e7013b"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/deep_space.vtex_c": {
+      "bytes": 1572936,
+      "sha256": "099822b282b04aa3e637692b1ea7db5de18becc9ad7a067640c8c40551c43252"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/ion_nebula.vmat_c": {
+      "bytes": 866,
+      "sha256": "1ce1b16e584ca873b777b3757e34c69bf6edb26a58d3e0340172058e58a46364"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/ion_nebula.vtex_c": {
+      "bytes": 1572936,
+      "sha256": "994fa61776014d262fd43c8d5afbf694d72e3b5b1a571d3b0e4144b7d97681c1"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/rose_dawn.vmat_c": {
+      "bytes": 848,
+      "sha256": "063422e0521b0d8fb0f447a5a633ae8235a5d2a0bdcde01fa1ca17d2f5c88b23"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/rose_dawn.vtex_c": {
+      "bytes": 1572936,
+      "sha256": "1e771feb508a4a0c69d5c0ad836c27187640cce2e6a8fcc50e74a32f89ee21b0"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/storm_bank.vmat_c": {
+      "bytes": 866,
+      "sha256": "72cdadbeefc2f1b3c90135ec258f83448375196c1f32212114e5af2c893de475"
+    },
+    "assets/vfx/materials/scooby_vfx/sky/storm_bank.vtex_c": {
+      "bytes": 1572936,
+      "sha256": "3620cfec50e43dd699608433b674ea919fa00e99d715c481d75d15cb74eea0dd"
+    },
+    "assets/vfx/materials/scooby_vfx/weather/soft_flake.vtex_c": {
+      "bytes": 4168,
+      "sha256": "a76cd8f9332ad91fd5c988bd750dc55f8d9d6505e565a01b1b59e75fbb0e3a9d"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/ash.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "3f4b8b5e1f9cc4343ec389f287cfbd02f22901f0f170e4568a884fbada8bca44"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/dust.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "1a077a897fe0b1c9e1928ce8ea6adf4089923cae795c91b52b7e53c2178b6f16"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/embers.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "6e8bed35021854e8b54cbfaaea368989ea7d911847663ee50e15518272bea764"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/fireflies.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "28a545fec0e017b1ed06cb648e8158983a65932438aed33752d22fcc8b90fe22"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/leaves.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "bb5b465849d68b90b19d8f5001dbbe85466939588ce945363f1eeb63c6d031a5"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/motes.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "d21fa56a5d5a91977e3a3d165a6131a500dc948897eb40f0bfb15ec674422f3f"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/petals.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "2b55e799f3a9b5e3ebb939a606330a483467c2429bc100fac7918250f51cf3e9"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/rain.vpcf_c": {
+      "bytes": 2850,
+      "sha256": "39b09ed4fa4c008192244e3410fe9fb40f2f9266ca865e483fccb84627355963"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/snow.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "b4fb73314b0282e6f2fdc091bed3517da633ed33192a3dea5b52b04d14984971"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/storm.vpcf_c": {
+      "bytes": 2850,
+      "sha256": "54d9ced010012f4756253b01074cfa387a84cea43849d70a860549416fcc063d"
+    },
+    "assets/vfx/manifest.json": {
+      "bytes": 9828,
+      "sha256": "6688e2c97f18ddc7b14f28d86cb3c34813759129de7d7ecb06a1676160381ec5"
+    },
+    "assets/vfx/README.md": {
+      "bytes": 1585,
+      "sha256": "5b08347754f3c1390b96b626d8c4f888bf3023f15eca9b48198351f0550b9466"
+    },
+    "Install-VfxAssets.ps1": {
+      "bytes": 2749,
+      "sha256": "2646a6a798dceb0c5af6cebb5e7e62c868ccf4ef29a4acfc87e02e285e29be3a"
+    },
+    "fonts/NotoSans.ttf": {
+      "bytes": 2049096,
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+    },
+    "fonts/licenses/NotoSans.ttf.txt": {
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    "fonts/NotoSansSC.ttf": {
+      "bytes": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    "fonts/licenses/NotoSansSC.ttf.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    "fonts/NotoSansTC.ttf": {
+      "bytes": 11941968,
+      "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+    },
+    "fonts/licenses/NotoSansTC.ttf.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    "fonts/NotoSansJP.ttf": {
+      "bytes": 9589900,
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f"
+    },
+    "fonts/licenses/NotoSansJP.ttf.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    "fonts/NotoSansKR.ttf": {
+      "bytes": 10414588,
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+    },
+    "fonts/licenses/NotoSansKR.ttf.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    "fonts/NotoSansThai.ttf": {
+      "bytes": 218652,
+      "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
+    },
+    "fonts/licenses/NotoSansThai.ttf.txt": {
+      "bytes": 4380,
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0"
+    },
+    "fonts/NotoSansDevanagari.ttf": {
+      "bytes": 647144,
+      "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7"
+    },
+    "fonts/licenses/NotoSansDevanagari.ttf.txt": {
+      "bytes": 4386,
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+    },
+    "fonts/NotoSansArabic.ttf": {
+      "bytes": 844676,
+      "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e"
+    },
+    "fonts/licenses/NotoSansArabic.ttf.txt": {
+      "bytes": 4382,
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96"
+    },
+    "fonts/NotoSansHebrew.ttf": {
+      "bytes": 112640,
+      "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88"
+    },
+    "fonts/licenses/NotoSansHebrew.ttf.txt": {
+      "bytes": 4382,
+      "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47"
+    },
+    "fonts/NotoSansGeorgian.ttf": {
+      "bytes": 231988,
+      "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9"
+    },
+    "fonts/licenses/NotoSansGeorgian.ttf.txt": {
+      "bytes": 4384,
+      "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+ "$basetexture" "scooby_tf2/crystal"
+ "$model" "1"
+ "$nofog" "1"
+ "$translucent" "1"
+ "$nodecal" "1"
+ "$bumpmap" "models/player/shared/shared_normal"
+ "$envmap" "env_cubemap"
+ "$envmaptint" "[0.25 0.25 0.25]"
+ "$phong" "1"
+ "$phongexponent" "24"
+ "$phongboost" "4"
+ "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+ "$ignorez" "0"
+}

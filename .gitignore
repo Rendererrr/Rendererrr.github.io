@@ -10,3 +10,7 @@ scooby/REDM/lua/encrypt-file.bat
 /encrypt 256
 # Required files in the pinned L4D runtime asset manifest.
 !scooby/L4D/assets/**
+
+# Required files pinned by the current TF2 and CS2 runtime manifests.
+!scooby/TF2/**
+!scooby/CS2/**
