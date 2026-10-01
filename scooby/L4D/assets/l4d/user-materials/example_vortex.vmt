@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "example_vortex"
+    "$model" "1"
+    "$selfillum" "1"
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$basetexturetransform"
+            "texturescrollrate" "0.04"
+            "texturescrollangle" "45"
+        }
+    }
+}
