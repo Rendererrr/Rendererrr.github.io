@@ -20,64 +20,86 @@ local function slider(label,id,field,low,high)
     if changed then l4d.setting(id,field,value) end
     end)
 end
-ui.subtab("visuals", "entities", "Entities", function()
-    ui.columns(2,function()
-        ui.group("Entity classes", function()
-            ui.feature("l4d.survivors"); ui.feature("l4d.infected"); ui.feature("l4d.items")
-        end)
-        ui.group("Actor boxes",function()
-            ui.feature("actor.fit")
-            if features.get("actor.fit") then
-                slider("Padding (%)","actor.box_padding","distance",0,10)
-                imgui.text("Fits the animated body, including head and feet. Works with Skeleton off.")
-            else
-                slider("Width (%)","actor.box_width","distance",25,100)
-                slider("Height (%)","actor.box_height","distance",50,100)
-                imgui.text("Legacy render bounds. Enable Fit to model for aligned body boxes.")
-            end
-            if ui.button("Reset box fit") then
-                features.set("actor.fit",true)
-                l4d.setting("actor.box_padding","distance",1.5)
-            end
-        end)
-        ui.next_column()
-        l4d.model_preview("players")
-    end)
-end)
 local infectedTypes={"Common infected","Uncommon infected","Witch","Smoker","Boomer","Hunter","Spitter","Jockey","Charger","Tank","Unknown special"}
 local infectedIds={"common","uncommon","witch","smoker","boomer","hunter","spitter","jockey","charger","tank","unknown"}
 local function toggle(label,id)
     l4d.protected_control(id,function()
-    local changed,value=ui.toggle(label,features.get(id))
-    if changed then features.set(id,value) end
+        local changed,value=ui.toggle(label,features.get(id))
+        if changed then features.set(id,value) end
     end)
 end
-ui.subtab("visuals","infected","Infected",function()
-    ui.columns(2,function()
-        ui.group("Infected ESP",function()
-            toggle("Enable infected", "l4d.infected")
-            toggle("Special infected (including Tank)", "infected.specials")
-            toggle("Use type colors", "infected.colors")
-            imgui.text("Choose a type to edit")
-            local changed,value=ui.combo("##infectedType",l4d.setting("infected.selector","style")+1,infectedTypes)
-            if changed then l4d.setting("infected.selector","style",value-1) end
-        end)
-        local selected=l4d.setting("infected.selector","style")+1
-        local id="infected."..infectedIds[selected]
-        ui.group(infectedTypes[selected],function()
-            toggle("Show this type",id)
-            slider("Maximum range (m)",id,"distance",1,300)
-            imgui.text("The main ESP range also applies.")
-        end)
-        ui.group("Type colors",function()
-            ui.feature(id..".box");ui.feature(id..".skeleton");ui.feature(id..".name")
-            ui.feature(id..".distance");ui.feature(id..".snaplines")
-            imgui.text("Untick a color to use the global ESP color.")
-        end)
-        ui.next_column()
-        l4d.model_preview("infected")
+local espTargets={"Players","Zombies","Special zombies"}
+local espPrefixes={"esp.","esp.zombies.","esp.specials."}
+local lastZombieType,lastSpecialType=1,3
+local function actorBoxes()
+    ui.group("Actor boxes",function()
+        ui.feature("actor.fit")
+        if features.get("actor.fit") then
+            slider("Padding (%)","actor.box_padding","distance",0,10)
+        else
+            slider("Width (%)","actor.box_width","distance",25,100)
+            slider("Height (%)","actor.box_height","distance",50,100)
+        end
+        if ui.button("Reset box fit") then
+            features.set("actor.fit",true)
+            l4d.setting("actor.box_padding","distance",1.5)
+        end
     end)
-end)
+end
+local function playersPage(legacyTarget)
+    local target=legacyTarget or l4d.setting("esp.target","style")+1
+    ui.columns(2,function()
+        ui.group("Target",function()
+            local changed,value=ui.combo("##espTarget",target,espTargets)
+            if changed then
+                target=value
+                l4d.setting("esp.target","style",target-1)
+                if target>1 then l4d.setting("infected.selector","style",(target==2 and lastZombieType or lastSpecialType)-1) end
+            end
+            if target==1 then ui.feature("l4d.survivors") end
+        end)
+        local prefix=espPrefixes[target]
+        ui.group(espTargets[target].." ESP",function()
+            ui.feature(prefix.."enabled")
+            slider("Range (m)",prefix.."enabled","distance",1,1000)
+            for _,part in ipairs({"box","skeleton","name","health","distance","snaplines"}) do ui.feature(prefix..part) end
+        end)
+        if target==1 then
+            actorBoxes()
+        else
+            local first,last=target==2 and 1 or 3,target==2 and 2 or #infectedTypes
+            local selected=math.max(first,math.min(last,l4d.setting("infected.selector","style")+1))
+            if selected~=l4d.setting("infected.selector","style")+1 then l4d.setting("infected.selector","style",selected-1) end
+            local types={}
+            for i=first,last do types[#types+1]=infectedTypes[i] end
+            ui.group("Type filters",function()
+                toggle("All zombies","l4d.infected")
+                if target==3 then ui.feature("infected.specials") end
+                local changed,value=ui.combo("##espInfectedType",selected-first+1,types)
+                if changed then selected=value+first-1;l4d.setting("infected.selector","style",selected-1) end
+                if target==2 then lastZombieType=selected else lastSpecialType=selected end
+                local id="infected."..infectedIds[selected]
+                toggle("Show this type",id)
+                slider("Maximum range (m)",id,"distance",1,300)
+            end)
+            ui.group("Type colors",function()
+                toggle("Use type colors","infected.colors")
+                if features.get("infected.colors") then
+                    local id="infected."..infectedIds[selected]
+                    for _,part in ipairs({"box","skeleton","name","distance","snaplines"}) do ui.feature(id.."."..part) end
+                end
+            end)
+        end
+        ui.next_column()
+        l4d.model_preview(target==1 and "players" or "infected")
+    end,false,true)
+end
+ui.override("visuals/esp",function() playersPage() end)
+-- Old routes remain callable for scripts; all visible actor controls live on Players.
+ui.subtab("visuals","entities","Entities",function() playersPage(1) end,{hidden=true})
+ui.subtab("visuals","infected","Infected",function()
+    playersPage(l4d.setting("infected.selector","style")<2 and 2 or 3)
+end,{hidden=true})
 local materials={"Lit","Flat","Chrome","Ghost","Additive","Wireframe","Glass","Glow","Fullbright","Chrome wireframe","Ghost wireframe","Neon wireframe","Galaxy","Galaxy flow","Lightning","Lightning overlay","Plasma flow","Aurora","Molten","Dark Matter","Acid","Vortex","Hologram","Frost","Inferno","Circuit","Pearl"}
 local function supportsAnimation(style) return style>=12 and style<#materials end
 local chamsTypes={"Players","Self","Common infected","Uncommon infected","Special infected","Witch","Arms","Weapon","Held weapon (world)","Dropped weapons","Items"}
@@ -115,12 +137,13 @@ local function chamsTargetDropdown()
     return selected
 end
 local chamsIds={"chams.survivors","chams.arms","chams.held","chams.weapons","chams.pickups","chams.self","chams.common","chams.uncommon","chams.witch","chams.smoker","chams.boomer","chams.hunter","chams.spitter","chams.jockey","chams.charger","chams.tank","chams.unknown","chams.world_weapon"}
+local chamsTargetNames={"Players","Arms","Weapon","Dropped weapons","Items","Self","Common infected","Uncommon infected","Witch","Smoker","Boomer","Hunter","Spitter","Jockey","Charger","Tank","Unknown special","Held weapon (world)"}
 local animationLayer=1
 ui.subtab("visuals", "chams", "Chams", function()
     ui.columns(2,function()
         protectedGroup("Chams","chams.enabled",function()
             toggle("Chams","chams.enabled")
-            local selected=l4d.setting("chams.selector","style")+1
+            local selected=chamsTargetDropdown()
             toggle("Enable target",chamsIds[selected])
             if selected>=10 and selected<=17 then toggle("Special infected","chams.special") end
             if selected~=2 and selected~=3 then slider("Range (m)","chams.enabled","distance",1,300) end
@@ -132,7 +155,7 @@ ui.subtab("visuals", "chams", "Chams", function()
         local overlay=id..".overlay"
         local animationSupported=supportsAnimation(l4d.setting(visible,"style")) or supportsAnimation(l4d.setting(invisible,"style")) or
             (features.get(overlay) and supportsAnimation(l4d.setting(overlay,"style")))
-        protectedGroup("Material","chams.enabled",function()
+        protectedGroup(chamsTargetNames[selected],"chams.enabled",function()
             ui.feature(visible)
             choice("Visible material",visible,"style",materials,true)
             ui.feature(invisible)
@@ -173,9 +196,8 @@ ui.subtab("visuals", "chams", "Chams", function()
         end)
 
         ui.next_column()
-        l4d.protected_control("chams.enabled",chamsTargetDropdown)
         l4d.model_preview("chams")
-    end)
+    end,false,true)
 end)
 ui.subtab("visuals","pickups","Pickups",function()
     ui.columns(2,function()
@@ -193,19 +215,26 @@ ui.subtab("visuals","pickups","Pickups",function()
         end)
         ui.next_column()
         l4d.model_preview("pickups")
-    end)
+    end,false,true)
 end)
-local function activationKey(label,id)
-    imgui.text(label)
+local function activationKey(label,id,compact)
+    if label then imgui.text(label);imgui.same_line(8) end
     local key,mode,capturing,waiting=l4d.keybind(id)
     local caption=waiting and "Wait 0.5s..." or capturing and "Press a key..." or "Set key"
-    if ui.button(ui.tr(caption).."###set_"..id) then l4d.keybind(id,"capture") end
+    local width=imgui.available()
+    local buttonLabel=key~="" and not capturing and not waiting and key or ui.tr(caption)
+    if ui.button(buttonLabel.."###set_"..id,math.min(160,width*.45)) then l4d.keybind(id,"capture") end
     if key~="" then
-        imgui.text(key)
+        if width>=240 then imgui.same_line(6) end
         if ui.button(ui.tr("Clear bind").."###clear_"..id) then l4d.keybind(id,"clear") end
     end
+    if compact and width>=(key=="" and 230 or 360) then imgui.same_line(6) end
     local changed,value=ui.combo("##"..id.."mode",mode+1,{"Always","Toggle","Hold","Hold to disable"})
     if changed then l4d.keybind(id,"mode",value-1) end
+end
+local function keyedFeature(id)
+    ui.feature(id)
+    activationKey("Key",id,true)
 end
 local targetLabels={"Common infected","Special infected","Witch","Survivors"}
 local targetIds={"common","special","witch","survivors"}
@@ -223,15 +252,12 @@ local hitboxes={"Upper body","Chest","Head","Stomach","Arms","Legs","All"}
 -- Persisted value 6 already scans every hitbox and ranks by crosshair angle.
 local aimHitboxes={"Upper body","Chest","Head","Stomach","Arms","Legs","Nearest"}
 local function aimPage(title,rage)
+    if rage==nil then rage=l4d.setting("aim.profile","style")==1;title=rage and "Rage" or "Legit" end
     local aim=rage and "aim.rage." or "aim."
     local weapon=rage and "weapon.rage." or "weapon."
     columns(function()
         ui.group(title.." aiming",function()
-            local selected=l4d.setting("aim.profile","style")==1
-            imgui.text(string.format(ui.tr("Selected profile: %s"),ui.tr(selected and "Rage" or "Legit")))
-            if selected~=rage and ui.button("Use "..title.." profile") then
-                l4d.setting("aim.profile","style",rage and 1 or 0)
-            end
+            choice("Profile","aim.profile","style",{"Legit","Rage"})
             ui.feature(aim.."enabled")
             activationKey("Aim key",aim.."key")
             choice("Aim mode",aim.."mode","style",{"Camera","Silent","pSilent"})
@@ -259,20 +285,19 @@ local function aimPage(title,rage)
         end)
     end)
 end
-local rage=ui.tab("rage","Rage",{section="Combat",icon=0xe0d2})
+local aimbot=ui.tab("aimbot","Aimbot",{section="Combat",icon=0xe180})
+ui.subtab(aimbot,"aimbot_aim","Aim",function() aimPage() end)
+local rage=ui.tab("rage","Rage",{hidden=true})
 ui.subtab(rage,"rage_aim","Ragebot",function() aimPage("Rage",true) end)
-local legit=ui.tab("legit","Legit",{section="Combat",icon=0xe180})
+local legit=ui.tab("legit","Legit",{hidden=true})
 ui.subtab(legit,"legit_aim","Legitbot",function() aimPage("Legit",false) end)
 local function triggerPage(title,rage)
+    if rage==nil then rage=l4d.setting("aim.profile","style")==1;title=rage and "Rage" or "Legit" end
     local trigger=rage and "trigger.rage." or "trigger."
     local weapon=rage and "weapon.rage." or "weapon."
     columns(function()
         ui.group("Triggerbot",function()
-            local selected=l4d.setting("aim.profile","style")==1
-            imgui.text(string.format(ui.tr("Selected profile: %s"),ui.tr(selected and "Rage" or "Legit")))
-            if selected~=rage and ui.button("Use "..title.." profile") then
-                l4d.setting("aim.profile","style",rage and 1 or 0)
-            end
+            choice("Profile","aim.profile","style",{"Legit","Rage"})
             ui.feature(trigger.."enabled")
             activationKey("Trigger key",trigger.."key")
             slider("Reaction delay (ms)",trigger.."delay","distance",0,500)
@@ -289,9 +314,10 @@ local function triggerPage(title,rage)
         end)
     end)
 end
+ui.subtab(aimbot,"aimbot_trigger","Triggerbot",function() triggerPage() end)
 ui.subtab(rage,"rage_triggerbot","Triggerbot",function() triggerPage("Rage",true) end)
 ui.subtab(legit,"triggerbot","Triggerbot",function() triggerPage("Legit",false) end)
-ui.subtab(rage,"anti_aim","Anti-Aim",function()
+local function antiAimPage()
     columns(function()
         ui.group("Anti-Aim",function()
             ui.feature("antiaim.enabled")
@@ -314,7 +340,9 @@ ui.subtab(rage,"anti_aim","Anti-Aim",function()
             end
         end)
     end)
-end)
+end
+ui.subtab(aimbot,"aimbot_anti_aim","Anti-Aim",antiAimPage)
+ui.subtab(rage,"anti_aim","Anti-Aim",antiAimPage)
 local function hostPage(draw)
     local status=l4d.host_status()
     if not status.ready then imgui.text_wrapped(ui.tr(status.reason)) end
@@ -412,33 +440,33 @@ ui.subtab(misc,"assistance","Movement",function()
     end)
 end)
 ui.subtab(misc,"exploits","Exploits",function()
-    columns(function()
+    ui.columns(2,function()
         ui.group("Speed hack",function()
-            ui.feature("exploits.speed")
+            keyedFeature("exploits.speed")
             slider("Extra movement ticks","exploits.speed_factor","distance",1,32)
         end)
         ui.group("Game",function()
-            ui.feature("exploits.anti_fall")
-            ui.feature("exploits.ping")
+            keyedFeature("exploits.anti_fall")
+            keyedFeature("exploits.ping")
             imgui.text_wrapped(ui.tr("Reduces interpolation delay, not network latency."))
-            ui.feature("exploits.anti_afk")
-            ui.feature("exploits.no_push")
-            ui.feature("exploits.pure")
+            keyedFeature("exploits.anti_afk")
+            keyedFeature("exploits.no_push")
+            keyedFeature("exploits.pure")
         end)
         ui.next_column()
         ui.group("Lag exploit",function()
-            ui.feature("exploits.lag")
+            keyedFeature("exploits.lag")
             slider("Sequence increment","exploits.lag_factor","distance",1,999)
         end)
         ui.group("Other movement exploits",function()
-            ui.feature("exploits.airstuck")
-            ui.feature("exploits.save_position")
-            ui.feature("exploits.teleport")
+            keyedFeature("exploits.airstuck")
+            keyedFeature("exploits.save_position")
+            keyedFeature("exploits.teleport")
             imgui.text_wrapped(ui.tr("Save a grounded position, then use Teleport."))
-            ui.feature("exploits.anti_smoker")
-            if l4d.info().game_id == "l4d2" then ui.feature("exploits.anti_jockey") end
+            keyedFeature("exploits.anti_smoker")
+            if l4d.info().game_id == "l4d2" then keyedFeature("exploits.anti_jockey") end
         end)
-    end)
+    end,false,true)
 end)
 ui.subtab("visuals","hud","HUD",function()
     columns(function()
