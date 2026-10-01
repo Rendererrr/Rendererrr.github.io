@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "project": "Megabonk",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "file": "en.json",
+      "size": 18871,
+      "sha256": "3022945a1be6316948920f6dde1b93aba566701e8546444978642991e14d0c9f",
+      "game_strings": 145,
+      "game_translated": 145,
+      "game_english_fallback": 0
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "file": "de.json",
+      "size": 19755,
+      "sha256": "0edaba6d75466d029233969b673c1bcdf8e895820c4481abc9b44e161e4de461",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "file": "fr.json",
+      "size": 20091,
+      "sha256": "8045b7101a0a7045ea9a12ea7f1796e53eb6aa1b92b17c0bc06e2ba2f20a690e",
+      "game_strings": 145,
+      "game_translated": 45,
+      "game_english_fallback": 100
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "file": "ru.json",
+      "size": 21905,
+      "sha256": "c2ea4e66ac4d9a65d973af7788d6bde15ba88c406d8aa567749db53eaaf8f9b3",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "file": "es.json",
+      "size": 19800,
+      "sha256": "061deeb72b68480957918c916454b320aa7028b3386ceb4e8841d0bd7b0e58f1",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "pt",
+      "name": "Português",
+      "file": "pt.json",
+      "size": 19836,
+      "sha256": "f1a7f5636bac97172e4fd7ccf32fcc5ccc0042003c0e798522be29732723accb",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "it",
+      "name": "Italiano",
+      "file": "it.json",
+      "size": 19739,
+      "sha256": "adecc655a9ea491aa382e93c6eff29e2120dbfc0cdfbf59c04c1a9919f77eea6",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "pl",
+      "name": "Polski",
+      "file": "pl.json",
+      "size": 19605,
+      "sha256": "62465c3bded6a7d56268f9e70b89b9b872d1062b81b0cdeb8bf39c83a5983aa4",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "tr",
+      "name": "Türkçe",
+      "file": "tr.json",
+      "size": 19441,
+      "sha256": "4e4e4aae3e2c0d1d5933774bca5550e9ea359e3a724b9d6ab96360a741bd1d3e",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "zh-CN",
+      "name": "简体中文",
+      "file": "zh-CN.json",
+      "size": 18973,
+      "sha256": "b3d9b171fd40895996d674a901863210bb7b25f3e0279674437d062fd2fe4d74",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "ja",
+      "name": "日本語",
+      "file": "ja.json",
+      "size": 19832,
+      "sha256": "e4c465c9325d278d5d1ed88b88689eff40641387868f93b06d551b2138163c74",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "ko",
+      "name": "한국어",
+      "file": "ko.json",
+      "size": 19443,
+      "sha256": "3f3e0f484cf06d3c25979c85f5030b3f759c6bddb86165d77ef07d78d02fc2fd",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "th",
+      "name": "ไทย",
+      "file": "th.json",
+      "size": 22736,
+      "sha256": "fcefc18c8078f5905bf0aaeae4643679f76979871378d1feaf54ae73eaeb782d",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "hi",
+      "name": "हिन्दी",
+      "file": "hi.json",
+      "size": 22789,
+      "sha256": "4ec8bb17e14009031cb22d0ab2b2971b7e3a3c8fdfa87b83c5274d42221b1569",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "nl",
+      "name": "Nederlands",
+      "file": "nl.json",
+      "size": 19660,
+      "sha256": "72452259d28758c3ceb93ea950c962d31a4bbc63a70e01cdfa29abec8e6ff227",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "ar",
+      "name": "العربية",
+      "file": "ar.json",
+      "size": 20675,
+      "sha256": "30d2c2d1786ff15923e106efb8c7e01f7c7ff8097e52c9f7d622c5beff0dd1fd",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "he",
+      "name": "עברית",
+      "file": "he.json",
+      "size": 20226,
+      "sha256": "52bab2d9d10336d73dc7c8cae10161298be1ebaa504597abb2f7575cc70b332e",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "sr",
+      "name": "Српски",
+      "file": "sr.json",
+      "size": 21391,
+      "sha256": "6f54dc1a423bba12165bcd7e1859e1df13ec80df5db2333a70373f6c82f6c3bf",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "ka",
+      "name": "ქართული",
+      "file": "ka.json",
+      "size": 24720,
+      "sha256": "70cffc64ba9d7671fd5d49a8442647200fcbf17730d42110c0d0c8fbdb66349c",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "vi",
+      "name": "Tiếng Việt",
+      "file": "vi.json",
+      "size": 19910,
+      "sha256": "5dc121813db5863f8671ae584211b22ed2160096ccd51441380adba4e1c9ab43",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "id",
+      "name": "Bahasa Indonesia",
+      "file": "id.json",
+      "size": 19147,
+      "sha256": "dd11c067faa2ccb5d2a9693aab43c90730a8da0a05315b3cb8140b17fada5c0d",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "zh-TW",
+      "name": "繁體中文",
+      "file": "zh-TW.json",
+      "size": 19000,
+      "sha256": "15604889821031d8e4963399d87b2890e4e5e5a609703444ae1458a87c688a0c",
+      "game_strings": 145,
+      "game_translated": 46,
+      "game_english_fallback": 99
+    },
+    {
+      "code": "pt-BR",
+      "name": "Português (Brasil)",
+      "file": "pt-BR.json",
+      "size": 19358,
+      "sha256": "df0821849aa6e0e7f4717a09bccf4b8b148c355a69378e11d49245b1b9f72045",
+      "game_strings": 145,
+      "game_translated": 45,
+      "game_english_fallback": 100
+    }
+  ]
+}
