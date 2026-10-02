@@ -1,4 +1,13 @@
 {
+  "archives": [
+    {
+      "count": 449,
+      "first": 0,
+      "path": "assets-bef6f5c5c8b5639adb3a81361d4d9301fc158fb6112ce94c7e744e8d3a08be7d.zip",
+      "sha256": "bef6f5c5c8b5639adb3a81361d4d9301fc158fb6112ce94c7e744e8d3a08be7d",
+      "size": 47889705
+    }
+  ],
   "files": [
     {
       "path": "fonts/LUCIDE-LICENSE.txt",
@@ -219,6 +228,11 @@
       "path": "licenses/Lua-LICENSE.txt",
       "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32",
       "size": 1086
+    },
+    {
+      "path": "licenses/miniz.txt",
+      "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3",
+      "size": 1184
     },
     {
       "path": "licenses/nlohmann-json-LICENSE.txt",
@@ -2242,5 +2256,5 @@
     }
   ],
   "product": "tf2-classified",
-  "schema": 1
+  "schema": 3
 }

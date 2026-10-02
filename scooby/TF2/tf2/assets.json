@@ -1,9 +1,25 @@
 {
+  "archives": [
+    {
+      "count": 2144,
+      "first": 0,
+      "path": "assets-74f5b4f98fddf9ae9018203dff26d45bc0511bf3933a2cb6d7f090fa5e727ef1.zip",
+      "sha256": "74f5b4f98fddf9ae9018203dff26d45bc0511bf3933a2cb6d7f090fa5e727ef1",
+      "size": 100643368
+    },
+    {
+      "count": 3330,
+      "first": 2144,
+      "path": "assets-e90ffdfc27b7d81461be33e1d613830c376badba96c3411b9c4a3bbfd50d7d97.zip",
+      "sha256": "e90ffdfc27b7d81461be33e1d613830c376badba96c3411b9c4a3bbfd50d7d97",
+      "size": 47371284
+    }
+  ],
   "files": [
     {
       "path": "fonts/LUCIDE-LICENSE.txt",
-      "sha256": "6fc5b7332939dd5c61af3a5f97450f7bc05d4a396dd0bc21ac341716b3b05096",
-      "size": 3251
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "size": 3208
     },
     {
       "path": "fonts/NotoSans.ttf",
@@ -62,58 +78,58 @@
     },
     {
       "path": "fonts/licenses/NotoSans-OFL.txt",
-      "sha256": "bf51547e7634b219e85d0391a5836850696497e0cef079857978f286b5d9377f",
-      "size": 4489
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
     },
     {
       "path": "fonts/licenses/NotoSansArabic-OFL.txt",
-      "sha256": "3b7e321615e412e5fbb9eab5bf1c0a4cb84c732d3d5a9e9e3822972d5fb70b97",
-      "size": 4475
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+      "size": 4382
     },
     {
       "path": "fonts/licenses/NotoSansDevanagari-OFL.txt",
-      "sha256": "41221cfdd268fa8e338829cccec0526e0200a0ce9e0bc3c627254c12a99d3a98",
-      "size": 4479
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+      "size": 4386
     },
     {
       "path": "fonts/licenses/NotoSansGeorgian-OFL.txt",
-      "sha256": "2c9d69cc13d29394783a99d12a823fd6bc4b2069e6ce795a5515ae187e858da7",
-      "size": 4477
+      "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df",
+      "size": 4384
     },
     {
       "path": "fonts/licenses/NotoSansHebrew-OFL.txt",
-      "sha256": "1acb8a4cf8e3d441eb573174faab52139071fee5cfa5e3e3f148becf90a54631",
-      "size": 4475
+      "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+      "size": 4382
     },
     {
       "path": "fonts/licenses/NotoSansJP-OFL.txt",
-      "sha256": "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15",
-      "size": 4481
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
     },
     {
       "path": "fonts/licenses/NotoSansKR-OFL.txt",
-      "sha256": "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15",
-      "size": 4481
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
     },
     {
       "path": "fonts/licenses/NotoSansMono-OFL.txt",
-      "sha256": "bf51547e7634b219e85d0391a5836850696497e0cef079857978f286b5d9377f",
-      "size": 4489
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "size": 4396
     },
     {
       "path": "fonts/licenses/NotoSansSC-OFL.txt",
-      "sha256": "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15",
-      "size": 4481
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
     },
     {
       "path": "fonts/licenses/NotoSansTC-OFL.txt",
-      "sha256": "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15",
-      "size": 4481
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "size": 4388
     },
     {
       "path": "fonts/licenses/NotoSansThai-OFL.txt",
-      "sha256": "0e4067898723c9acddf967edda99a5ed2088cd857a8e9949084f609358efe38a",
-      "size": 4473
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0",
+      "size": 4380
     },
     {
       "path": "fonts/lucide.ttf",
@@ -212,13 +228,18 @@
     },
     {
       "path": "licenses/ImGuiColorTextEdit-LICENSE.txt",
-      "sha256": "e2fee2603b1627f93bc1faf474f7c08bca47bf4f662616df1188304ebbfaba97",
-      "size": 1084
+      "sha256": "38f4538cfadc4d3aaa90e8a9bf39b2ccf0761db5562442d5906e1e82708d40fb",
+      "size": 1066
     },
     {
       "path": "licenses/Lua-LICENSE.txt",
       "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32",
       "size": 1086
+    },
+    {
+      "path": "licenses/miniz.txt",
+      "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3",
+      "size": 1184
     },
     {
       "path": "licenses/nlohmann-json-LICENSE.txt",
@@ -4712,8 +4733,8 @@
     },
     {
       "path": "script_defaults_v0/Welcome.lua",
-      "sha256": "b9c3fa4113d1e41fa8070e3165a3fc02147e81548bc11023a1af6e7a7144065f",
-      "size": 236
+      "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9",
+      "size": 231
     },
     {
       "path": "script_defaults_v1/Custom UI.lua",
@@ -27367,5 +27388,5 @@
     }
   ],
   "product": "tf2",
-  "schema": 1
+  "schema": 3
 }
