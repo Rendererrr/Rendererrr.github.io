@@ -1,9 +1,19 @@
 {
+  "archive": {
+    "path": "assets-82e45f18eea3634005a505d0679329c583eee129539a73e3e9e21fcac3782ed2.zip",
+    "sha256": "82e45f18eea3634005a505d0679329c583eee129539a73e3e9e21fcac3782ed2",
+    "size": 78944614
+  },
   "files": [
     {
       "path": "l4d/l4d_pages.lua",
       "sha256": "2e8f6aa0a218a075777044e99509b21687c02797f93ddda76587ec65503afc91",
       "size": 35695
+    },
+    {
+      "path": "l4d/licenses/miniz.txt",
+      "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3",
+      "size": 1184
     },
     {
       "path": "l4d/scripts/L4D Capture Protection.lua",
@@ -1922,5 +1932,5 @@
     }
   ],
   "product": "l4d",
-  "schema": 1
+  "schema": 2
 }

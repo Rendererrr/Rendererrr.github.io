@@ -1,2 +1,5 @@
 assets/** -text -filter -ident
 assets.json -text -filter -ident
+assets-*.zip -text -filter -ident
+.gitattributes -text -filter -ident
+lang/*.json -text -filter -ident
