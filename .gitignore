@@ -14,3 +14,7 @@ scooby/REDM/lua/encrypt-file.bat
 # Required files pinned by the current TF2 and CS2 runtime manifests.
 !scooby/TF2/**
 !scooby/CS2/**
+
+# Automatically downloaded GTA outfit name catalogs.
+!scooby/GTA5/names_male.txt
+!scooby/GTA5/names_female.txt
