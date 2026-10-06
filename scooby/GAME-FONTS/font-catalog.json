@@ -1,0 +1,649 @@
+{
+  "sources": [
+    {
+      "game": "GTA5",
+      "repository": "https://github.com/DrunkSonic/gta-v-fonts",
+      "revision": "cec3bcc09dca3f61c78fbecb31c1067241839c3f",
+      "fonts": 72
+    },
+    {
+      "game": "RDR2",
+      "repository": "https://github.com/ExpMero/rdr2_fonts",
+      "revision": "ec9728d424bb171bf410aec86391ce1eb5a832f0",
+      "fonts": 18
+    }
+  ],
+  "fonts": [
+    {
+      "family": "GTA5 - Redemption [Editor]",
+      "path": "GTA5/001.ttf",
+      "size": 300792,
+      "sha256": "cde4fa1c4a727b4c6ab254fa7605b03dc444851a10548eec437208a13dce6d79",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_editor/fonts/1_%24Redemption_Redemption.ttf"
+    },
+    {
+      "family": "GTA5 - Handstyle Heist [Editor]",
+      "path": "GTA5/002.ttf",
+      "size": 213940,
+      "sha256": "4346e17fe61f2dcde5bae7243ec24cfae0108a5699599258e22948feecaa86f5",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_editor/fonts/2_%24HandstyleHeist_Handstyle%20Heist.ttf"
+    },
+    {
+      "family": "GTA5 - Helvetica Neue LT Cyrillic 55 Roman [Editor]",
+      "path": "GTA5/003.ttf",
+      "size": 80940,
+      "sha256": "062d4dd219292d655d3dc2a4fe43d51dbec70074fe022a988173f451417571a8",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_editor/fonts/3_%24Helvetica55_Helvetica%20Neue%20LT%20Cyrillic%2055%20Roman.ttf"
+    },
+    {
+      "family": "GTA5 - DIN Mittelschrift Std [Editor]",
+      "path": "GTA5/004.ttf",
+      "size": 57028,
+      "sha256": "6d320620d22a5ac402860359fa194307eb30ff3b89a4ecb1fc8f6fbb3db9b823",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_editor/fonts/4_%24Din_DIN%20Mittelschrift%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - Arial [Editor]",
+      "path": "GTA5/005.ttf",
+      "size": 70660,
+      "sha256": "9e820fb04521d00d8eebefc0aa42f6d8d981f842b4e5e808512c1e36f17aa649",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_editor/fonts/5_%24Helvetica107_Arial.ttf"
+    },
+    {
+      "family": "GTA5 - ITC Machine Std [Editor]",
+      "path": "GTA5/006.ttf",
+      "size": 45052,
+      "sha256": "04ef7b60b95add876aa9fb736d5af63e5d3a75b87429a1dd351b821bbdd52c29",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_editor/fonts/6_%24Machine_ITC%20Machine%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - Linotype Univers 430 Regular [Editor]",
+      "path": "GTA5/007.ttf",
+      "size": 56312,
+      "sha256": "619f4de3f56c241903cfa120d8ee83678a958261603b8717386444fec0187c2d",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_editor/fonts/7_%24Univers_Linotype%20Univers%20430%20Regular.ttf"
+    },
+    {
+      "family": "GTA5 - GTAV Timer Fixed Cond (numbers) [HUD]",
+      "path": "GTA5/008.ttf",
+      "size": 15776,
+      "sha256": "306576f7539e83939ac8be8bfd734b28771d6bf8a9548ee79a500877c82b03a1",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs/fonts/1_%24Font2_cond_MPTimer_GTAV%20Timer%20Fixed%20Cond.ttf"
+    },
+    {
+      "family": "GTA5 - ChaletComprime CologneSixtyScale [HUD]",
+      "path": "GTA5/009.ttf",
+      "size": 61444,
+      "sha256": "d7c55aee395bc02805b315cbe6300df7ff2bbde4a4d187a1e5c8c20b552f0b2a",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs/fonts/2_%24Font2_cond_ChaletComprime%20CologneSixtyScale.ttf"
+    },
+    {
+      "family": "GTA5 - GTAV LeaderBoard (symbols) [HUD]",
+      "path": "GTA5/010.ttf",
+      "size": 9240,
+      "sha256": "a1676a1b27477222e9f9fea8be99a8a5c30210f5e7fa2fed6dafa7909d4e1a9a",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs/fonts/3_%24GTAVLeaderboard_GTAV%20LeaderBoard.ttf"
+    },
+    {
+      "family": "GTA5 - ChaletLondonNineteenSixtyNumb (numbers) [HUD]",
+      "path": "GTA5/011.ttf",
+      "size": 7752,
+      "sha256": "7878a9f29234b7a52c520b8f792d1a188c6fc5711b2fd6d4f1a3d9e4c4691efe",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs/fonts/4_%24FixedWidthNumbers_ChaletLondonNineteenSixtyNumb.ttf"
+    },
+    {
+      "family": "GTA5 - RockstarTAG [HUD]",
+      "path": "GTA5/012.ttf",
+      "size": 18668,
+      "sha256": "5c56a256d24a82f93d20221c31786a514da24966613d5b1649e4754aa52b791b",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs/fonts/5_%24RockstarTAG_RockstarTAG.ttf"
+    },
+    {
+      "family": "GTA5 - Arial [HUD]",
+      "path": "GTA5/013.ttf",
+      "size": 62088,
+      "sha256": "47844729555c548936da12f26022cfab67e15f00105df10d00442549468b5d85",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs/fonts/6_%24gtaCash_Arial.ttf"
+    },
+    {
+      "family": "GTA5 - Chalet-LondonNineteenSixty [HUD]",
+      "path": "GTA5/014.ttf",
+      "size": 61600,
+      "sha256": "ee5634f28022d00fb7b8fbc63bcbe21510d078194026ef3103532f77a24407d3",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs/fonts/7_%24Font2_Chalet-LondonNineteenSixty.ttf"
+    },
+    {
+      "family": "GTA5 - Arial (symbols) [PC HUD]",
+      "path": "GTA5/015.ttf",
+      "size": 2712,
+      "sha256": "279a1143511fa40cf5f909f350467facc3f0e6eb5a70445e96b4f6867f56ef42",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs_pc/fonts/1_RL_Arial.ttf"
+    },
+    {
+      "family": "GTA5 - ChaletLondonNineteenSixtyNumb (numbers) [PC HUD]",
+      "path": "GTA5/016.ttf",
+      "size": 20872,
+      "sha256": "5cf503251d40778552288d59a51893214f96bd1250234886a7df528297d224d5",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs_pc/fonts/2_%24FixedWidthNumbers_ChaletLondonNineteenSixtyNumb.ttf"
+    },
+    {
+      "family": "GTA5 - ChaletComprime-CologneSixty [PC HUD]",
+      "path": "GTA5/017.ttf",
+      "size": 74496,
+      "sha256": "4ed99f422b691cc9247ebc88788e87a0d6f7e2bbf8ed2b872f45cbc4bfa04636",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs_pc/fonts/3_%24Font2_cond_ChaletComprime-CologneSixty.ttf"
+    },
+    {
+      "family": "GTA5 - SignPainter-HouseScript [PC HUD]",
+      "path": "GTA5/018.ttf",
+      "size": 142584,
+      "sha256": "dcb9794baf8a87f71e735c70f14ce8ee9ac74a2c650932f735df0ea18fdde7ca",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs_pc/fonts/4_%24Font5_SignPainter-HouseScript.ttf"
+    },
+    {
+      "family": "GTA5 - GTAV LeaderBoard (symbols) [PC HUD]",
+      "path": "GTA5/019.ttf",
+      "size": 40632,
+      "sha256": "673ef1266cc4b9bb243d08f826960d97aa8aa9e8db917251976bed1136b6532e",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs_pc/fonts/5_%24GTAVLeaderboard_GTAV%20LeaderBoard.ttf"
+    },
+    {
+      "family": "GTA5 - PricedownGTAVInt [PC HUD]",
+      "path": "GTA5/020.ttf",
+      "size": 60604,
+      "sha256": "495268c13fcf4096d3c0dc7ba3c20e50ba8cbac664469c402feafe7ab41ce4ab",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs_pc/fonts/6_%24gtaCash_PricedownGTAVInt.ttf"
+    },
+    {
+      "family": "GTA5 - GTAV Timer Fixed Cond (numbers) [PC HUD]",
+      "path": "GTA5/021.ttf",
+      "size": 18568,
+      "sha256": "7056a3f33ca152889f1048d3d45661dd621d88af2517037c9d52851b5b45115a",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs_pc/fonts/7_%24Font2_cond_MPTimer_GTAV%20Timer%20Fixed%20Cond.ttf"
+    },
+    {
+      "family": "GTA5 - RockstarTAG [PC HUD]",
+      "path": "GTA5/022.ttf",
+      "size": 28728,
+      "sha256": "07cf8e4848485e010677db25a6856f85fb68de9f4ef9d0d472aa96c142b07b02",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs_pc/fonts/8_%24RockstarTAG_RockstarTAG.ttf"
+    },
+    {
+      "family": "GTA5 - Chalet-LondonNineteenSixty [PC HUD]",
+      "path": "GTA5/023.ttf",
+      "size": 76172,
+      "sha256": "20d4f18764f8c4ff374ad270d58e4ac8ee003c3ab77cedce7438598c7e88464d",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_efigs_pc/fonts/9_%24Font2_Chalet-LondonNineteenSixty.ttf"
+    },
+    {
+      "family": "GTA5 - GTA Subtract [Cayo Perico]",
+      "path": "GTA5/024.ttf",
+      "size": 73008,
+      "sha256": "d811c24736aeae9a5d7334919317c6d459a47f2297bfe48f1c54a67345435e10",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_heist4/fonts/1_%24Subtract_GTA%20Subtract.ttf"
+    },
+    {
+      "family": "GTA5 - Handstyle Heist [Heists]",
+      "path": "GTA5/025.ttf",
+      "size": 213596,
+      "sha256": "28d65039939d2eec7f6429970f21ec01ca87e5d40bb61e476877bc4feb01595c",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_heists/fonts/1_%24HandstyleHeist_Handstyle%20Heist.ttf"
+    },
+    {
+      "family": "GTA5 - Mistral Std [Organization]",
+      "path": "GTA5/026.ttf",
+      "size": 161460,
+      "sha256": "00424fd1e77f510334747945787d6437cbc392f789079af03345c9ea64f5c314",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/10_%24Mistral_Mistral%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - StenbergITC TT [Organization]",
+      "path": "GTA5/027.ttf",
+      "size": 36096,
+      "sha256": "1778aa097a9cd5b557b9d14db3f1d87af977f8a1793373b8fc79b0909c9097a4",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/11_%24Stenberg_StenbergITC%20TT.ttf"
+    },
+    {
+      "family": "GTA5 - Stencil Std [Organization]",
+      "path": "GTA5/028.ttf",
+      "size": 99804,
+      "sha256": "b7590bf0708610642f0d02555ca91a52917df28bf7fd8c4b2abda0a22d3fbb16",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/12_%24Stencil_Stencil%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - Times New Roman [Organization]",
+      "path": "GTA5/029.ttf",
+      "size": 727824,
+      "sha256": "8beed076a1598ee9f2b50ec739646d6928442d1a2cc240b3687dd43026dde0a5",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/13_%24Times_Times%20New%20Roman.ttf"
+    },
+    {
+      "family": "GTA5 - Courier Twelve MT Std [Organization]",
+      "path": "GTA5/030.ttf",
+      "size": 86416,
+      "sha256": "0e2c58313e2e37251331bf630e5b5dc5afc860f8a89cb2032f4f9bc3be2d9d2f",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/14_%24WebFont4_Courier_Courier%20Twelve%20MT%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeueLT W1G 55 Roman [Organization]",
+      "path": "GTA5/031.ttf",
+      "size": 65764,
+      "sha256": "f9c750cf79aff33cb15b8a8ea8c57d0f4c11697950db9f34ed10638cb3d8eda0",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/15_%24WebFont1_Hbold_HelveticaNeueLT%20W1G%2055%20Roman.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeueLT W1G 55 Roman [Organization] (16)",
+      "path": "GTA5/032.ttf",
+      "size": 66508,
+      "sha256": "0a861380964e3baa14c571cad77306060b7fe059640bd138fda89b7563b03cea",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/16_%24WebFont2_Hitalic_HelveticaNeueLT%20W1G%2055%20Roman.ttf"
+    },
+    {
+      "family": "GTA5 - Times New Roman CE [Organization]",
+      "path": "GTA5/033.ttf",
+      "size": 62332,
+      "sha256": "3ff66ed8c64790caebbf2cfd73ec86cdc01bfdb0fb3ae103f602142dad8f803d",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/17_%24WebFont3_Times_Times%20New%20Roman%20CE.ttf"
+    },
+    {
+      "family": "GTA5 - Bell Gothic Black [Organization]",
+      "path": "GTA5/034.ttf",
+      "size": 62308,
+      "sha256": "7e35e6fd1fea78551aade5436d340ff88ca91e8bab73a9798ab4a95473c164a7",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/18_%24WebFont5_BellGothic_Bell%20Gothic%20Black.ttf"
+    },
+    {
+      "family": "GTA5 - Trade Gothic LT Com Bold [Organization]",
+      "path": "GTA5/035.ttf",
+      "size": 108084,
+      "sha256": "0d057f33c7ccdbd2c4a33f48ac011d1ec20fe55bc7b996aed3cab52f1db82ee3",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/1_%24TradeGothic_Trade%20Gothic%20LT%20Com%20Bold.ttf"
+    },
+    {
+      "family": "GTA5 - Anna SC ITC TT [Organization]",
+      "path": "GTA5/036.ttf",
+      "size": 56848,
+      "sha256": "8481da13dc2862df110428c1ca151dcaeaeeff507d9eb025d55fa0b6feea403d",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/2_%24AnnaSC_Anna%20SC%20ITC%20TT.ttf"
+    },
+    {
+      "family": "GTA5 - BauhausITCTT [Organization]",
+      "path": "GTA5/037.ttf",
+      "size": 48544,
+      "sha256": "9c94e1974b11dbecb74f851f8f7afa182a55b4fd40aa18cf9d83e548e5656627",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/3_%24Bauhaus_BauhausITCTT.ttf"
+    },
+    {
+      "family": "GTA5 - BookmanMdITCTT [Organization]",
+      "path": "GTA5/038.ttf",
+      "size": 61020,
+      "sha256": "46022d5fa60a1fef8b9f86efdf1bdf2eb9611daccecc22bc66b53c31554b2e7d",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/4_%24Bookman_BookmanMdITCTT.ttf"
+    },
+    {
+      "family": "GTA5 - Engravers Old English MT Std [Organization]",
+      "path": "GTA5/039.ttf",
+      "size": 120556,
+      "sha256": "930f32b6a8fb5be241faed5e8a0f01482e5b14a408fd5d66504f7177c8d18961",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/5_%24EngraversOldEnglish_Engravers%20Old%20English%20MT%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeueLT Com 95 Blk [Organization]",
+      "path": "GTA5/040.ttf",
+      "size": 104072,
+      "sha256": "4b2ea47a49c9f3135e349466268cde9b0853e23311a47e18e9119ea47cb12df6",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/6_%24HelveticaBLK_HelveticaNeueLT%20Com%2095%20Blk.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeueLT Com 96 BlkIt [Organization]",
+      "path": "GTA5/041.ttf",
+      "size": 104832,
+      "sha256": "9361ef8736854700767ca09a313ae38b007b1f18b7b2b0ff64cd41d4175adc95",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/7_%24HelveticaBLKI_HelveticaNeueLT%20Com%2096%20BlkIt.ttf"
+    },
+    {
+      "family": "GTA5 - LubalinGraphMdITCTT [Organization]",
+      "path": "GTA5/042.ttf",
+      "size": 48512,
+      "sha256": "679cdb37ecc97165f6731a307b0d17773162125b7f314cde9f47849db74941e5",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/8_%24Lubalin_LubalinGraphMdITCTT.ttf"
+    },
+    {
+      "family": "GTA5 - ITC Machine Std [Organization]",
+      "path": "GTA5/043.ttf",
+      "size": 45840,
+      "sha256": "85dad52a88eb45df28aed08b0c7446dc79146b54b2e35cd2be5e20133da7b438",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_org/fonts/9_%24Machine_ITC%20Machine%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeue LT 47 LightCn [Social Club]",
+      "path": "GTA5/044.ttf",
+      "size": 85640,
+      "sha256": "7655362174aebd4102217dbb4709471dd5d5e3db95c3cb9c2e23d914379812ad",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_sc/font/1_%24SOCIAL_CLUB_COND_REG_HelveticaNeue%20LT%2047%20LightCn.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeue LT 67 MdCn [Social Club]",
+      "path": "GTA5/045.ttf",
+      "size": 90596,
+      "sha256": "a27a23802df764e3359de3202382af324c5d0149a837249a363269534edff578",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_sc/font/2_%24SOCIAL_CLUB_COND_BOLD_HelveticaNeue%20LT%2067%20MdCn.ttf"
+    },
+    {
+      "family": "GTA5 - GTAV Casino Dots [Casino]",
+      "path": "GTA5/046.ttf",
+      "size": 700404,
+      "sha256": "3ea1db6b6dc9bc273e8acac18dfbba17f59591b7e071f327cc7c8daee10641c9",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_slots/fonts/1_%24Font6_GTAV%20Casino%20Dots.ttf"
+    },
+    {
+      "family": "GTA5 - GTAVTaxiDigital [Taxi]",
+      "path": "GTA5/047.ttf",
+      "size": 32132,
+      "sha256": "02b679b82a70358d1044a071fa7525b1930084612661d1ea67e4e7a9d978e287",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_taxi/fonts/1_%24Taxi_font_GTAVTaxiDigital.ttf"
+    },
+    {
+      "family": "GTA5 - GTAV Courier [Typewriter]",
+      "path": "GTA5/048.ttf",
+      "size": 91080,
+      "sha256": "dcc3a519a8e175e46ce1d944753d763c33309fc388647f73cf9dc5a520946901",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_typewriter/fonts/1_%24Courier_GTAV%20Courier.ttf"
+    },
+    {
+      "family": "GTA5 - ITC Machine Std [Web]",
+      "path": "GTA5/049.ttf",
+      "size": 53024,
+      "sha256": "63f7f5271b6dce3aff1e50d0186fbea2c1b99f6aa8d1463c80916ca7d144ef6d",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/10_%24Machine_ITC%20Machine%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - LubalinGraphMdITCTT [Web]",
+      "path": "GTA5/050.ttf",
+      "size": 48388,
+      "sha256": "30439e9a3cf6cf2a5aecb48d384dc54b676c7e1d2b8c629985faa11dd83f17c5",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/11_%24Lubalin_LubalinGraphMdITCTT.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeueLT Com 96 BlkIt [Web]",
+      "path": "GTA5/051.ttf",
+      "size": 104824,
+      "sha256": "3a40f6a7f9293d7211725a4f2213b4afebc3a9bb64a792635a7c75c2e6f25a25",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/12_%24HelveticaBLKI_HelveticaNeueLT%20Com%2096%20BlkIt.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeueLT Com 95 Blk [Web]",
+      "path": "GTA5/052.ttf",
+      "size": 104064,
+      "sha256": "c11eb81dd73b41910a3b0ee91291443fe34ed79c06255bd7c56839ac16cde4d3",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/13_%24HelveticaBLK_HelveticaNeueLT%20Com%2095%20Blk.ttf"
+    },
+    {
+      "family": "GTA5 - Engravers Old English MT Std [Web]",
+      "path": "GTA5/053.ttf",
+      "size": 120432,
+      "sha256": "b911ce663f12b8d16a619861ff2d10fa87bfef5ae0042a22fa9e10c321a12ef0",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/14_%24EngraversOldEnglish_Engravers%20Old%20English%20MT%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - BookmanMdITCTT [Web]",
+      "path": "GTA5/054.ttf",
+      "size": 60896,
+      "sha256": "9202806d496b454e28aefb301875e18ed7c2dbc22285dc5fc1e1ec3ec2e0dff6",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/15_%24Bookman_BookmanMdITCTT.ttf"
+    },
+    {
+      "family": "GTA5 - BauhausITCTT [Web]",
+      "path": "GTA5/055.ttf",
+      "size": 48420,
+      "sha256": "ef2368a660673162aff5804e14814aabd800e4f3f9c400128a55876cd2689c66",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/16_%24Bauhaus_BauhausITCTT.ttf"
+    },
+    {
+      "family": "GTA5 - Anna SC ITC TT [Web]",
+      "path": "GTA5/056.ttf",
+      "size": 56840,
+      "sha256": "80a338b81bf694d288e4de643314f414e3be5b0e77828f3cd913497c1c1ad703",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/17_%24AnnaSC_Anna%20SC%20ITC%20TT.ttf"
+    },
+    {
+      "family": "GTA5 - Trade Gothic LT Com Bold [Web]",
+      "path": "GTA5/057.ttf",
+      "size": 108076,
+      "sha256": "d5dfd3de0362f07ea64f56ef9256c19af6f45587ebb79809b7728a1d6bcf0a67",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/18_%24TradeGothic_Trade%20Gothic%20LT%20Com%20Bold.ttf"
+    },
+    {
+      "family": "GTA5 - Bell Gothic Black [Web]",
+      "path": "GTA5/058.ttf",
+      "size": 62184,
+      "sha256": "cc5c802de97ff7d4c1957bf6095f0f1329f6bba8fe53ad62f2eefc9dfef7183a",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/1_%24WebFont5_BellGothic_Bell%20Gothic%20Black.ttf"
+    },
+    {
+      "family": "GTA5 - Times New Roman CE [Web]",
+      "path": "GTA5/059.ttf",
+      "size": 89052,
+      "sha256": "3fd65c815ab2b4c7bcd43fc651077216767b0303422d340e6045ff1c11349c6c",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/2_%24WebFont3_Times_Times%20New%20Roman%20CE.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeueLT W1G 55 Roman [Web]",
+      "path": "GTA5/060.ttf",
+      "size": 66384,
+      "sha256": "1b7c059e519ed8601c77135f6a5e32730ac34b4189393342cc3c2ee412f4ce4b",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/3_%24WebFont2_Hitalic_HelveticaNeueLT%20W1G%2055%20Roman.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeueLT W1G 55 Roman [Web] (4)",
+      "path": "GTA5/061.ttf",
+      "size": 65480,
+      "sha256": "f2c1c04b11f6e995f1cd3cc48ecae9d3b5d9852889971606852370198a8da091",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/4_%24WebFont1_Hbold_HelveticaNeueLT%20W1G%2055%20Roman.ttf"
+    },
+    {
+      "family": "GTA5 - Courier Twelve MT Std [Web]",
+      "path": "GTA5/062.ttf",
+      "size": 86292,
+      "sha256": "b86c22259e2499ca97aa8d68a381ccfdf316e5c42f33614a53308a2fc3dda7b9",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/5_%24WebFont4_Courier_Courier%20Twelve%20MT%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - Times New Roman [Web]",
+      "path": "GTA5/063.ttf",
+      "size": 727700,
+      "sha256": "175e50f0526d7aa21e1de45a99fcd452d1ae8dac716e94da6208b2e6e8a2467f",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/6_%24Times_Times%20New%20Roman.ttf"
+    },
+    {
+      "family": "GTA5 - Stencil Std [Web]",
+      "path": "GTA5/064.ttf",
+      "size": 99796,
+      "sha256": "f977ac396b89558f89c34b3b488ad3ac0c7e71a98f7367b895408f40203ac23b",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/7_%24Stencil_Stencil%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - StenbergITC TT [Web]",
+      "path": "GTA5/065.ttf",
+      "size": 36088,
+      "sha256": "87c59a67ce9ee437bb764a50940023548209a34b7c1ad017de006e812da30578",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/8_%24Stenberg_StenbergITC%20TT.ttf"
+    },
+    {
+      "family": "GTA5 - Mistral Std [Web]",
+      "path": "GTA5/066.ttf",
+      "size": 161452,
+      "sha256": "e6453814a275a1f51cbcd8a8185be1c7934b6741581aee25f96388737d740108",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/font_lib_web/fonts/9_%24Mistral_Mistral%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - Zeitgeist MT Std [Legacy]",
+      "path": "GTA5/067.ttf",
+      "size": 27088,
+      "sha256": "83c606b9472336aa00617adabc15a0d51dca2c5b39aba46ef21ce55e37afd3fb",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/gfxfontlib/fonts/1_%24Font4_Zeitgeist%20MT%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - Arial [Legacy]",
+      "path": "GTA5/068.ttf",
+      "size": 24372,
+      "sha256": "718c590b7a4bb2660f38bea3fc7730dcf4acb3ca83bc1da7540c2deccf85b899",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/gfxfontlib/fonts/2_%24Font1_Arial.ttf"
+    },
+    {
+      "family": "GTA5 - HelveticaNeue LT 65 Medium [Legacy]",
+      "path": "GTA5/069.ttf",
+      "size": 29440,
+      "sha256": "2bf7b2ada9c21caaa1b1145ea115d82629ee67f8874a8ecad35a8f12a64b5c4f",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/gfxfontlib/fonts/3_%24Font2_HelveticaNeue%20LT%2065%20Medium.ttf"
+    },
+    {
+      "family": "GTA5 - PricedownGTA [Legacy]",
+      "path": "GTA5/070.ttf",
+      "size": 14996,
+      "sha256": "a96a7e310a3ed42af50a7c3f5414f1504eb49bb025a98d02885dfadd31db9a95",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/gfxfontlib/fonts/4_%24gtaCash_PricedownGTA.ttf"
+    },
+    {
+      "family": "GTA5 - Andy Std [Legacy]",
+      "path": "GTA5/071.ttf",
+      "size": 61948,
+      "sha256": "124e51021226195293bfa40a89f3e310058eaa40823add4f02f941b7a759e56a",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/gfxfontlib/fonts/5_%24Font3_Andy%20Std.ttf"
+    },
+    {
+      "family": "GTA5 - SignPainter HouseScript [Legacy]",
+      "path": "GTA5/072.ttf",
+      "size": 46896,
+      "sha256": "abc4e15bbfdb86f12e5e844ac8a7aa53337bea0313ccb0cc06cb850ac77ce5c1",
+      "source": "https://raw.githubusercontent.com/DrunkSonic/gta-v-fonts/cec3bcc09dca3f61c78fbecb31c1067241839c3f/gfxfontlib/fonts/6_%24Font5_SignPainter%20HouseScript.ttf"
+    },
+    {
+      "family": "RDR2 - RDR Lino Numbers (numbers)",
+      "path": "RDR2/001.ttf",
+      "size": 188192,
+      "sha256": "0231ad55184b9ca08cb3b85bdbe87b5a24b342cea28a845e5aad7eeb6d025306",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/10_%24FixedWidthNumbers_RDR%20Lino%20Numbers.ttf"
+    },
+    {
+      "family": "RDR2 - Hapna Slab Serif  DemiBold",
+      "path": "RDR2/002.ttf",
+      "size": 413936,
+      "sha256": "f6e7b01ea83d5c3658ae212945f30eb0025e0bf4b85b1547072e9bc59f8b222b",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/11_%24body2_Hapna%20Slab%20Serif%20%20DemiBold.ttf"
+    },
+    {
+      "family": "RDR2 - 1871 Dreamer Script",
+      "path": "RDR2/003.ttf",
+      "size": 421644,
+      "sha256": "5d3af3650091983a04b5b3e8c80b34799be6cc554635b0a1396f86bac7067764",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/12_%24handwritten_1871%20Dreamer%20Script.ttf"
+    },
+    {
+      "family": "RDR2 - Cabrito Norm Demi",
+      "path": "RDR2/004.ttf",
+      "size": 364020,
+      "sha256": "a8f4acf84000621720e2dc6b6e7f15dcde4860a3fc2b5b9b05fc865ba50ca017",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/13_%24catalog5_Cabrito%20Norm%20Demi.ttf"
+    },
+    {
+      "family": "RDR2 - RDR Ledger Hand",
+      "path": "RDR2/005.ttf",
+      "size": 756268,
+      "sha256": "4930ad38b59cdb68a4311b5d02013ba4d760a903492c45c75317af04f65ac9ea",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/14_%24ledger_RDR%20Ledger%20Hand.ttf"
+    },
+    {
+      "family": "RDR2 - HelveticaNeue LT 47 LightCn",
+      "path": "RDR2/006.ttf",
+      "size": 281220,
+      "sha256": "9ddbdb34653d99c4bfcd8a9fac52728c3d94b8b8e748df1d95df16063a5030d2",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/15_%24Debug_REG_HelveticaNeue%20LT%2047%20LightCn.ttf"
+    },
+    {
+      "family": "RDR2 - RDR Lino",
+      "path": "RDR2/007.ttf",
+      "size": 816332,
+      "sha256": "57757d1487ac8e9bdbb21fa989bd5405fb91be32c95c8c902227a0076314c6b2",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/16_%24title1_RDR%20Lino.ttf"
+    },
+    {
+      "family": "RDR2 - Redemption",
+      "path": "RDR2/008.ttf",
+      "size": 597876,
+      "sha256": "17ef3de876bb5547f6692160b812b95374600629c7f401a23346065b1b07ba20",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/17_%24Font5_limited_Redemption.ttf"
+    },
+    {
+      "family": "RDR2 - Arial DEBUG",
+      "path": "RDR2/009.ttf",
+      "size": 634040,
+      "sha256": "ad3bab8fc132eeed996b04238bc54d3159f4ab2a23173faffafd810fe9d155b5",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/18_%24catalog3_Arial%20DEBUG.ttf"
+    },
+    {
+      "family": "RDR2 - RDR Chalk Hand",
+      "path": "RDR2/010.ttf",
+      "size": 1453276,
+      "sha256": "9491ca31ca1f9633f94190bd2ecbc0ac17d80f909d3cdc8d3bf66436b974dc56",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/1_%24chalk_RDR%20Chalk%20Hand.ttf"
+    },
+    {
+      "family": "RDR2 - RDR Turri",
+      "path": "RDR2/011.ttf",
+      "size": 331632,
+      "sha256": "1e36c6c9bdd2003fc4f3d96449fd8c6b6bd7cf40f00a8d12892210c2778a94c9",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/2_%24wantedPostersGeneric_RDR%20Turri.ttf"
+    },
+    {
+      "family": "RDR2 - RDR Catalogue Bold",
+      "path": "RDR2/012.ttf",
+      "size": 604652,
+      "sha256": "b458dd423ab3653c410d98373c7351606d44190064825505bb64deb7834495da",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/3_%24catalog4_RDR%20Catalogue%20Bold.ttf"
+    },
+    {
+      "family": "RDR2 - RDR Catalogue Numbers (numbers)",
+      "path": "RDR2/013.ttf",
+      "size": 222992,
+      "sha256": "874e99f48816aa4abe0f80ce42bb591279e3be014fd288322a4424d67fce41e2",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/4_%24catalog2_RDR%20Catalogue%20Numbers.ttf"
+    },
+    {
+      "family": "RDR2 - RDR Gothica",
+      "path": "RDR2/014.ttf",
+      "size": 419504,
+      "sha256": "01e6c79f94a32f7bc84bbd90f9a13c2fee0cc662024c4f036ec5d8149e7d7ec9",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/5_%24catalog1_RDR%20Gothica.ttf"
+    },
+    {
+      "family": "RDR2 - RockstarTAG",
+      "path": "RDR2/015.ttf",
+      "size": 223552,
+      "sha256": "5b6c17ffa873ffd190a9a2129f0dafe659ac4986189e96ff7f3476d27af229a2",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/6_%24RockstarTAG_RockstarTAG.ttf"
+    },
+    {
+      "family": "RDR2 - Arial",
+      "path": "RDR2/016.ttf",
+      "size": 281328,
+      "sha256": "bd16eeaf59344a20ce011018eaf327456e0eacf11582616f741a373a7c6d25c0",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/7_%24SOCIAL_CLUB_COND_REG_Arial.ttf"
+    },
+    {
+      "family": "RDR2 - Droid Serif Pro",
+      "path": "RDR2/017.ttf",
+      "size": 414772,
+      "sha256": "02b913ff60a720efc30f5d6af5bd50d9ac51e0fec6cddeadbeeb73f5a20ae911",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/8_%24body1_Droid%20Serif%20Pro.ttf"
+    },
+    {
+      "family": "RDR2 - Rockstar Gamertag Cond",
+      "path": "RDR2/018.ttf",
+      "size": 289360,
+      "sha256": "c07a34567af459cee0745a9c9eeb50be405b2c44c26023850ad9607389fa1ff2",
+      "source": "https://raw.githubusercontent.com/ExpMero/rdr2_fonts/ec9728d424bb171bf410aec86391ce1eb5a832f0/fonts/9_%24gamername_Rockstar%20Gamertag%20Cond.ttf"
+    }
+  ],
+  "scope": "All TTF files present in the pinned source collections. GTA source explicitly does not claim a complete game extraction. Original source notices apply; local staging does not grant redistribution rights."
+}

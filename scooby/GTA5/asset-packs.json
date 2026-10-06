@@ -37,5 +37,17 @@
       "files": 423
     }
   ],
-  "outfit_images": 27868
+  "outfit_images": 27868,
+  "clickui": {
+    "sha256": "0251e3db4efafc07487bbbd7eb6298427adae7cc9048958252995476ae6fb4ea",
+    "files": 1,
+    "bytes": 552166,
+    "file": "images/clickui/Wizard-ClickUI.zip"
+  },
+  "referenceThemes": {
+    "file": "images/themes/Reference-ListUI-Themes.zip",
+    "sha256": "ea091a8427e3857150aeb7eef2c176165e1def3bccaca88bdfae9dac2990b2ff",
+    "bytes": 66485,
+    "files": 18
+  }
 }
