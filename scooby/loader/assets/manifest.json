@@ -1,0 +1,567 @@
+{
+  "sha256": "05e0bad61fbef02fc60a7ca8dbd089648d27974bc4737fa38daede338592842d",
+  "bytes": 46198213,
+  "url": "https://rendererrr.github.io/scooby/loader/assets/assets-05e0bad61fbef02f.zip",
+  "files": [
+    {
+      "path": "assets/banners/gta5-wide.png",
+      "file": "banners/gta5-wide.png",
+      "offset": 51,
+      "size": 2013519,
+      "sha256": "46fb0b95e8f7cdca99b06e45b7a2cdc167e77bdf17eb91bef4f2fec492602efd"
+    },
+    {
+      "path": "assets/banners/tf2-wide.png",
+      "file": "banners/tf2-wide.png",
+      "offset": 2013620,
+      "size": 2136473,
+      "sha256": "cac6ce31d913d512b8d9107e9468648b510d266adf57d236d395ac267e4a2424"
+    },
+    {
+      "path": "assets/brand/scooby-logo.png",
+      "file": "brand/scooby-logo.png",
+      "offset": 4150144,
+      "size": 470512,
+      "sha256": "fc2a36163bfd5f160d02178fa3e89b5c970b5931b523388c84c6fd20b8e3598b"
+    },
+    {
+      "path": "assets/brand/scooby-mark.png",
+      "file": "brand/scooby-mark.png",
+      "offset": 4620707,
+      "size": 18012,
+      "sha256": "5cc91789829426df958b51e4ca002ee0f9d24c3c3f014734ee0d2c149e22e5f4"
+    },
+    {
+      "path": "assets/dashboards/cs2.png",
+      "file": "dashboards/cs2.png",
+      "offset": 4638767,
+      "size": 4900898,
+      "sha256": "e50f0d670760e660927cc29d5d5f9750df40566e60184a80269e75b85d7cdbcb"
+    },
+    {
+      "path": "assets/dashboards/fivem.jpg",
+      "file": "dashboards/fivem.jpg",
+      "offset": 9539715,
+      "size": 50213,
+      "sha256": "76dac6427dc74f7b2252fdcd15f6ac45bda40d83f1c0f054b175a2418cdaf91e"
+    },
+    {
+      "path": "assets/dashboards/gmod.jpg",
+      "file": "dashboards/gmod.jpg",
+      "offset": 9589977,
+      "size": 31478,
+      "sha256": "b47237d2e6bb45d275bfda7fc64ba5cd582ba897374a0559ac2dfc9d2d8e91a0"
+    },
+    {
+      "path": "assets/dashboards/gta5.webp",
+      "file": "dashboards/gta5.webp.png",
+      "offset": 9621509,
+      "size": 205880,
+      "sha256": "c1a402ddc442b78597b0c87eceed851ebec6efb8153a632256507ce85be37498"
+    },
+    {
+      "path": "assets/dashboards/l4d.jpg",
+      "file": "dashboards/l4d.jpg",
+      "offset": 9827437,
+      "size": 277085,
+      "sha256": "2f25be474c7e05b2d9317cda86377528cc1080c9c4eabb35befe8b3110e67af7"
+    },
+    {
+      "path": "assets/dashboards/sbox.png",
+      "file": "dashboards/sbox.png",
+      "offset": 10104571,
+      "size": 938601,
+      "sha256": "450b058be74d2bb82bd44e30ec74807cb2d9c81a787470be56fb32fdce2d5954"
+    },
+    {
+      "path": "assets/login/cs2-ancient.webp",
+      "file": "login/cs2-ancient.webp.png",
+      "offset": 11043228,
+      "size": 2941205,
+      "sha256": "f029f28a9a2296f1438e8907bc3e8b8f0d9c1080ab5782f12728984a1282143a"
+    },
+    {
+      "path": "assets/login/gmod-sandbox.webp",
+      "file": "login/gmod-sandbox.webp.png",
+      "offset": 13984490,
+      "size": 2501097,
+      "sha256": "250e8c105a9ff37f7e06d7ce66aa8cecd435d6c0916d13ca547057c5a4bfe646"
+    },
+    {
+      "path": "assets/login/gta-casino.webp",
+      "file": "login/gta-casino.webp.png",
+      "offset": 16485642,
+      "size": 2739982,
+      "sha256": "d013520387f1a0cedd5ffaa991379e09e7258593353ca27bc86ff681d48b76e6"
+    },
+    {
+      "path": "assets/login/gta-coast.webp",
+      "file": "login/gta-coast.webp.png",
+      "offset": 19225678,
+      "size": 2038840,
+      "sha256": "bae47e7f1efd66893a7a502a3434b3c660117bdb8e7b5049dcd1d5e818b58c06"
+    },
+    {
+      "path": "assets/login/gta-desert.webp",
+      "file": "login/gta-desert.webp.png",
+      "offset": 21264573,
+      "size": 2132025,
+      "sha256": "907a7f44f9dd6c31f17666be40c944efa8c46569e9de544e97e6a7936aac62ad"
+    },
+    {
+      "path": "assets/login/gta-hills.webp",
+      "file": "login/gta-hills.webp.png",
+      "offset": 23396652,
+      "size": 2608820,
+      "sha256": "c73ec1a265bb36d21941156381a34524b4b836f0c163392d364656b217c7272a"
+    },
+    {
+      "path": "assets/login/l4d-railyard.webp",
+      "file": "login/l4d-railyard.webp.png",
+      "offset": 26005529,
+      "size": 2280880,
+      "sha256": "4c06ad509f1fda586e9edfad5f68cc280867ca7cea6d8aff08e807d849cb552d"
+    },
+    {
+      "path": "assets/login/rdr-drifter.webp",
+      "file": "login/rdr-drifter.webp.png",
+      "offset": 28286465,
+      "size": 2342398,
+      "sha256": "27ede26215e78cd3af6f04863bf65ad8c778ae65f28c4d5cdb7d2138ea09017e"
+    },
+    {
+      "path": "assets/login/rdr-forest.webp",
+      "file": "login/rdr-forest.webp.png",
+      "offset": 30628918,
+      "size": 2936054,
+      "sha256": "12de7cb6d9fe8aa4afb6efbd76915174359b9b4b4cb46baea12ce2a356f9d0d7"
+    },
+    {
+      "path": "assets/login/rdr-heartlands.webp",
+      "file": "login/rdr-heartlands.webp.png",
+      "offset": 33565031,
+      "size": 2175936,
+      "sha256": "26f32492a586e06f3bbe937dd459c24c989411e5065fee7dc34d4d9275d9392f"
+    },
+    {
+      "path": "assets/login/rdr-overlook.webp",
+      "file": "login/rdr-overlook.webp.png",
+      "offset": 35741024,
+      "size": 2706956,
+      "sha256": "3006fe92fd271c7016b5ef4dbf7557967e55584480972ee1de2d119095e54eac"
+    },
+    {
+      "path": "assets/logos/account-cs2.png",
+      "file": "logos/account-cs2.png",
+      "offset": 38448031,
+      "size": 33285,
+      "sha256": "63d970f70c4ced08f3de51fc3223692edd6b8f5f5dee88e1d42b6ed07f062bf6"
+    },
+    {
+      "path": "assets/logos/account-sbox.webp",
+      "file": "logos/account-sbox.webp.png",
+      "offset": 38481373,
+      "size": 177594,
+      "sha256": "92f9b50ffa403ffc0e39f71874bf7c991ff27506ecb82def233c7459acac3698"
+    },
+    {
+      "path": "assets/logos/account-tf2.webp",
+      "file": "logos/account-tf2.webp.png",
+      "offset": 38659023,
+      "size": 26122,
+      "sha256": "fa6b57c1989cef875d19a4ddafbde5a44b785f35960beb52996364c78c206821"
+    },
+    {
+      "path": "assets/logos/account-tlou.png",
+      "file": "logos/account-tlou.png",
+      "offset": 38685197,
+      "size": 44238,
+      "sha256": "356c85bd766f2b1f6ad55e5c748cfc4fee7f1e1f145d2b1c2fc044ceff5861b7"
+    },
+    {
+      "path": "assets/logos/bodycam.png",
+      "file": "logos/bodycam.png",
+      "offset": 38729482,
+      "size": 404864,
+      "sha256": "a521ebee86312db9fe198863911d86e0e3f907d9f2c1780a9c577d4d6351b948"
+    },
+    {
+      "path": "assets/logos/l4d.png",
+      "file": "logos/l4d.png",
+      "offset": 39134389,
+      "size": 60738,
+      "sha256": "2a37be4fa7350c1d58e730766caf8334025dd8957cda3586f76b3aa8bb68c318"
+    },
+    {
+      "path": "assets/logos/product-cs2.png",
+      "file": "logos/product-cs2.png",
+      "offset": 39195178,
+      "size": 39166,
+      "sha256": "d2d328589893607bf4d97f6db90588e793589c5207c8a3eb8a52186504a3290e"
+    },
+    {
+      "path": "assets/logos/product-fivem.png",
+      "file": "logos/product-fivem.png",
+      "offset": 39234397,
+      "size": 24440,
+      "sha256": "fae14552879009394666efa76d5c1b31a9a7e393b6a3eeb2b5f48627a4f755dd"
+    },
+    {
+      "path": "assets/logos/product-gmod.png",
+      "file": "logos/product-gmod.png",
+      "offset": 39258889,
+      "size": 151691,
+      "sha256": "942002a1562e30639dde681552a6d9a53736ce2315519f5ae2eb8daf5d8dacba"
+    },
+    {
+      "path": "assets/logos/product-gta5.png",
+      "file": "logos/product-gta5.png",
+      "offset": 39410632,
+      "size": 294026,
+      "sha256": "6ac3a81de3ea5e992896512a76c216f0958598e91c7f463eaaf0ee329537c66c"
+    },
+    {
+      "path": "assets/logos/product-rdr2.png",
+      "file": "logos/product-rdr2.png",
+      "offset": 39704710,
+      "size": 191982,
+      "sha256": "937f61dd08f3bb8fbcbe2f417526639cdc668eb11c0c8e9e6942a7b87f71c8a6"
+    },
+    {
+      "path": "assets/logos/product-redm.png",
+      "file": "logos/product-redm.png",
+      "offset": 39896744,
+      "size": 20631,
+      "sha256": "55e5ad650506fcc10bc1e3e03491f3d4e058942c87d90f220747f604f6d73ee6"
+    },
+    {
+      "path": "assets/logos/product-sbox.png",
+      "file": "logos/product-sbox.png",
+      "offset": 39917427,
+      "size": 48370,
+      "sha256": "9608d2f202ea4ca34fae64f7ca7451f31801c383a73ac9ad9823382a4327b556"
+    },
+    {
+      "path": "assets/logos/product-spoofer.png",
+      "file": "logos/product-spoofer.png",
+      "offset": 39965852,
+      "size": 22001,
+      "sha256": "677994704cc8a730b99c41e62683599440d026e816e67628e5fe915129501636"
+    },
+    {
+      "path": "assets/logos/scooby-cleaner.png",
+      "file": "logos/scooby-cleaner.png",
+      "offset": 39987907,
+      "size": 530920,
+      "sha256": "70863f6fc0d9aa888eeccf84a28a5f86f85ca31267d9bdb9778b37d21cdf60e1"
+    },
+    {
+      "path": "assets/logos/scooby-spoofer.png",
+      "file": "logos/scooby-spoofer.png",
+      "offset": 40518881,
+      "size": 573940,
+      "sha256": "d55b6bbd770db28242f9e7501574cfee3313f385b42106e078b6bbf5cfead486"
+    },
+    {
+      "path": "assets/logos/source-games.png",
+      "file": "logos/source-games.png",
+      "offset": 41092873,
+      "size": 566403,
+      "sha256": "09f4ff895a0cf6fd8514bc2df565ce908928e42692955349f430d593cf33fd48"
+    },
+    {
+      "path": "assets/logos/source.jpg",
+      "file": "logos/source.jpg",
+      "offset": 41659322,
+      "size": 4537,
+      "sha256": "0f7cb2ca44bee0e190da1744070e66895807ea6670cbd38709b2a7fc6c76a21a"
+    },
+    {
+      "path": "assets/logos/tf2-classified.png",
+      "file": "logos/tf2-classified.png",
+      "offset": 41663913,
+      "size": 30244,
+      "sha256": "0049696210e2cbb08c7be58a0b57a3581544acb3ff2051db67b83e14429941d0"
+    },
+    {
+      "path": "assets/logos/tf2.png",
+      "file": "logos/tf2.png",
+      "offset": 41694200,
+      "size": 114847,
+      "sha256": "d5738e3636e95e0e05ade84926ac31d2d30c65fafca12d45fb89d43948819e13"
+    },
+    {
+      "path": "assets/logos/tlou.png",
+      "file": "logos/tlou.png",
+      "offset": 41809091,
+      "size": 17632,
+      "sha256": "2a02ef4f1b385fadac83d59b5b66450869f4064f7602e0e1fbb891e51bec4988"
+    },
+    {
+      "path": "assets/posters/bodycam.jpg",
+      "file": "posters/bodycam.jpg",
+      "offset": 41826772,
+      "size": 83503,
+      "sha256": "91f6298fa97ab04cef12db85ebfa008e12775773ff258c11a518fcad0d681409"
+    },
+    {
+      "path": "assets/posters/cs2.jpg",
+      "file": "posters/cs2.jpg",
+      "offset": 41910320,
+      "size": 35605,
+      "sha256": "3c0e5b29ca23be6d49299c6867ebe0105a38661a452a87ee209c8db003eadc97"
+    },
+    {
+      "path": "assets/posters/fivem.jpg",
+      "file": "posters/fivem.jpg",
+      "offset": 41945972,
+      "size": 58254,
+      "sha256": "b7f60c4765c623efd882b43a750fde2ea855199478b1bd84765b227878c68fc2"
+    },
+    {
+      "path": "assets/posters/gmod.jpg",
+      "file": "posters/gmod.jpg",
+      "offset": 42004272,
+      "size": 31478,
+      "sha256": "b47237d2e6bb45d275bfda7fc64ba5cd582ba897374a0559ac2dfc9d2d8e91a0"
+    },
+    {
+      "path": "assets/posters/gta5.jpg",
+      "file": "posters/gta5.jpg",
+      "offset": 42035796,
+      "size": 104882,
+      "sha256": "74d73b828f339b3e0b33069a9fce273a76fc6fbf0928e259f4370cb77b35ce68"
+    },
+    {
+      "path": "assets/posters/l4d.jpg",
+      "file": "posters/l4d.jpg",
+      "offset": 42140723,
+      "size": 277085,
+      "sha256": "2f25be474c7e05b2d9317cda86377528cc1080c9c4eabb35befe8b3110e67af7"
+    },
+    {
+      "path": "assets/posters/megabonk.jpg",
+      "file": "posters/megabonk.jpg",
+      "offset": 42417858,
+      "size": 70603,
+      "sha256": "5521431673a205cef5f46e8d92b6f1766f0e36c12fbf05ea50baf27213ff7958"
+    },
+    {
+      "path": "assets/posters/other.jpg",
+      "file": "posters/other.jpg",
+      "offset": 42488508,
+      "size": 190467,
+      "sha256": "481cf765845ede93359ecc1ad1453eff6d0227c8ca7c2e2ed99e3d8aa33b80ff"
+    },
+    {
+      "path": "assets/posters/pubg.jpg",
+      "file": "posters/pubg.jpg",
+      "offset": 42679021,
+      "size": 89811,
+      "sha256": "e282015a6570f70368b2bc525f3a901d73d5f39bf541027d843e9e2804e1d39e"
+    },
+    {
+      "path": "assets/posters/r6.jpg",
+      "file": "posters/r6.jpg",
+      "offset": 42768876,
+      "size": 89799,
+      "sha256": "e63890b79b650301344f5bcf5123d159e70b966c355ce4aa27f8924af0f424a7"
+    },
+    {
+      "path": "assets/posters/rdr2.jpg",
+      "file": "posters/rdr2.jpg",
+      "offset": 42858721,
+      "size": 49398,
+      "sha256": "5cd83b47e5f54bab0b37783f7ee169445fc5c9f6a07ad56abf7ab0483cf59527"
+    },
+    {
+      "path": "assets/posters/redm.jpg",
+      "file": "posters/redm.jpg",
+      "offset": 42908165,
+      "size": 9800,
+      "sha256": "4f79f0c7af46bd2a9cc47a218ab1fe808e4307c7db5bacde5283d59766ff2f13"
+    },
+    {
+      "path": "assets/posters/sbox.jpg",
+      "file": "posters/sbox.jpg",
+      "offset": 42918011,
+      "size": 36870,
+      "sha256": "a4ec507215de0ddb94c37a83cfce63087da178dbe03806c947b4bc8320d6d6b3"
+    },
+    {
+      "path": "assets/posters/sbox.png",
+      "file": "posters/sbox.png",
+      "offset": 42954927,
+      "size": 938601,
+      "sha256": "450b058be74d2bb82bd44e30ec74807cb2d9c81a787470be56fb32fdce2d5954"
+    },
+    {
+      "path": "assets/posters/source.jpg",
+      "file": "posters/source.jpg",
+      "offset": 43893576,
+      "size": 63883,
+      "sha256": "e186b7bdada34874726de8e5903ada12714f27410a0395472dfc1be26cdb820a"
+    },
+    {
+      "path": "assets/posters/spoofer.jpg",
+      "file": "posters/spoofer.jpg",
+      "offset": 43957508,
+      "size": 41969,
+      "sha256": "fd12afc17035c160ad88172cfb6caa0ed9527c81a7fee97533409dedff318cdc"
+    },
+    {
+      "path": "assets/posters/tf2.jpg",
+      "file": "posters/tf2.jpg",
+      "offset": 43999522,
+      "size": 80315,
+      "sha256": "669eb6c45c1bab46ce8fe86878d2f6e3366d67e0c1892941eca3f7b5c8bde921"
+    },
+    {
+      "path": "assets/scenes/cs2.jpg",
+      "file": "scenes/cs2.jpg",
+      "offset": 44079881,
+      "size": 57354,
+      "sha256": "0fed7ddd19a846f71cc19acfafbd9e37abcf537d45f70daaf32722238f5bb0e6"
+    },
+    {
+      "path": "assets/scenes/fivem.jpg",
+      "file": "scenes/fivem.jpg",
+      "offset": 44137281,
+      "size": 57384,
+      "sha256": "48d39fe0c1971fd3a05905a907936b4af4c983efa01171e1c34383465480ddc2"
+    },
+    {
+      "path": "assets/scenes/gmod.jpg",
+      "file": "scenes/gmod.jpg",
+      "offset": 44194710,
+      "size": 154211,
+      "sha256": "bcafe4f31800887d94fc8c4650079e97b688c600c74a45e10e6570f5aacacd91"
+    },
+    {
+      "path": "assets/scenes/grid.jpg",
+      "file": "scenes/grid.jpg",
+      "offset": 44348966,
+      "size": 34148,
+      "sha256": "efe1b01d6624662235472eac355203b8d26849e38dd875659f0c4c03f474beea"
+    },
+    {
+      "path": "assets/scenes/gta5.jpg",
+      "file": "scenes/gta5.jpg",
+      "offset": 44383159,
+      "size": 106785,
+      "sha256": "e4b94def681d2c97eb365728af0ffaf15a22ab4b4c5b8301441859142291f4ce"
+    },
+    {
+      "path": "assets/scenes/rdr2.jpg",
+      "file": "scenes/rdr2.jpg",
+      "offset": 44489989,
+      "size": 36474,
+      "sha256": "06797b30b06db6dd0f07dfee9b955c1a635f68565975beeb606f36ff207a0675"
+    },
+    {
+      "path": "assets/scenes/redm.jpg",
+      "file": "scenes/redm.jpg",
+      "offset": 44526508,
+      "size": 31517,
+      "sha256": "8433ad528b30bc1297ef57348df9841b6dfbd21361fd0ddf6a57326012db3b36"
+    },
+    {
+      "path": "assets/scenes/sbox.jpg",
+      "file": "scenes/sbox.jpg",
+      "offset": 44558070,
+      "size": 177736,
+      "sha256": "2132a5389614b7e1c68917c693929b60a036f91ac406412c25e855cac97a2d63"
+    },
+    {
+      "path": "assets/scenes/tlou.jpg",
+      "file": "scenes/tlou.jpg",
+      "offset": 44735851,
+      "size": 297510,
+      "sha256": "f3562c0818cc5700edfa6e62c799d331706375f3f7ced258ae127dc3bd229183"
+    },
+    {
+      "path": "assets/titles/blue-shift.jpg",
+      "file": "titles/blue-shift.jpg",
+      "offset": 45033412,
+      "size": 42679,
+      "sha256": "74287e9f5408def782871c4c8b61744f15d02d6a6b1d3970d99d2f8d93bf00ed"
+    },
+    {
+      "path": "assets/titles/half-life-2.jpg",
+      "file": "titles/half-life-2.jpg",
+      "offset": 45076143,
+      "size": 26567,
+      "sha256": "33b671e54e46195f4d4259d725883f890cb581fd025281ff9edbefc3345c3359"
+    },
+    {
+      "path": "assets/titles/half-life-source.jpg",
+      "file": "titles/half-life-source.jpg",
+      "offset": 45102767,
+      "size": 43238,
+      "sha256": "bd3521a698d582492f4d039a0a69e30a503e69903ab0a4719b89a7ab0dd63684"
+    },
+    {
+      "path": "assets/titles/half-life.jpg",
+      "file": "titles/half-life.jpg",
+      "offset": 45146055,
+      "size": 43238,
+      "sha256": "bd3521a698d582492f4d039a0a69e30a503e69903ab0a4719b89a7ab0dd63684"
+    },
+    {
+      "path": "assets/titles/hl2-deathmatch.jpg",
+      "file": "titles/hl2-deathmatch.jpg",
+      "offset": 45189348,
+      "size": 24425,
+      "sha256": "03b16b57963aa73a3e296baf0f39f3ee376d431fff89116940604763fb1471b6"
+    },
+    {
+      "path": "assets/titles/last-of-us-logo.png",
+      "file": "titles/last-of-us-logo.png",
+      "offset": 45213829,
+      "size": 53315,
+      "sha256": "101d87e7a6fe8132dd8463e141dd5922fdbf23979cdede1df230b430ce18f7cf"
+    },
+    {
+      "path": "assets/titles/last-of-us.jpg",
+      "file": "titles/last-of-us.jpg",
+      "offset": 45267195,
+      "size": 188104,
+      "sha256": "9c5bba84990f4f10faabab3dc2fa69ed63a12fae06d24f65745fede5f9e9c02e"
+    },
+    {
+      "path": "assets/titles/megabonk.jpg",
+      "file": "titles/megabonk.jpg",
+      "offset": 45455348,
+      "size": 70603,
+      "sha256": "5521431673a205cef5f46e8d92b6f1766f0e36c12fbf05ea50baf27213ff7958"
+    },
+    {
+      "path": "assets/titles/opposing-force.jpg",
+      "file": "titles/opposing-force.jpg",
+      "offset": 45526006,
+      "size": 41595,
+      "sha256": "a2acf4b2bebf2735603b57776bf9870788fdb454b6303030a0b629ec41d4e307"
+    },
+    {
+      "path": "assets/dialogs/scooby.png",
+      "file": "dialogs/scooby.png",
+      "offset": 45567649,
+      "size": 392423,
+      "sha256": "f3cae3c959c050bef77fd22a062b05989fe6c1c6ac5edc0833d64c89621814d3"
+    },
+    {
+      "path": "assets/dialogs/tf2.png",
+      "file": "dialogs/tf2.png",
+      "offset": 45960117,
+      "size": 203386,
+      "sha256": "e35ab4535e5162cbd73793e6acdedaa19a7eaa388f769b883594e61c340992e3"
+    },
+    {
+      "path": "assets/dialogs/tf2-classified.png",
+      "file": "dialogs/tf2-classified.png",
+      "offset": 46163559,
+      "size": 29343,
+      "sha256": "69e1fcecb5143badaf97d68b9361ed9dc0dfc12f1b3de97099c6ca77d2dbebb0"
+    }
+  ]
+}
