@@ -1,8 +1,8 @@
 {
   "archive": {
-    "path": "assets-db36d5db811557607192a4d496f080cba2e37c052ca4d1b283216453cc83852b.zip",
-    "sha256": "db36d5db811557607192a4d496f080cba2e37c052ca4d1b283216453cc83852b",
-    "size": 78945184
+    "path": "assets-4ba5a9649a7375813a1a21c83b981c4d470b56eafcd231ed53ba9054e338f934.zip",
+    "sha256": "4ba5a9649a7375813a1a21c83b981c4d470b56eafcd231ed53ba9054e338f934",
+    "size": 79047261
   },
   "files": [
     {
@@ -62,13 +62,13 @@
     },
     {
       "path": "l4d_models/inputs.sha256",
-      "sha256": "a01b048eba97ff07e1b8a4892f66c32e63e096e7f0945bc4c518c294f81adec6",
+      "sha256": "c9b816545499f721ba38c3afc46f09ad296ebf8c0b2549e8ae2a6ef67e24ac75",
       "size": 64
     },
     {
       "path": "l4d_models/l4d1-sources.json",
-      "sha256": "4a7bb09f4e548d4c762b587dfb1352e322d6937e85fc81aa5c8d56b413460ae2",
-      "size": 34867
+      "sha256": "30bd7b9901fe239a369e94dc3e3b3ddfee83d471ac10e3bb33ded5af588e93ff",
+      "size": 36446
     },
     {
       "path": "l4d_models/l4d1-unsupported.json",
@@ -646,14 +646,24 @@
       "size": 113572
     },
     {
+      "path": "l4d_models/l4d1/weapon-icons.json",
+      "sha256": "9e3c258fb50c13dbb845bad1cc216d2ff4eb1d8e58555eaab5d23a914aa4463e",
+      "size": 3769
+    },
+    {
+      "path": "l4d_models/l4d1/weapon-icons.png",
+      "sha256": "64ebe625e71d6d226d58163337aca5312ffe48ca2597bf0d7146d2269bcdd304",
+      "size": 8868
+    },
+    {
       "path": "l4d_models/l4d1/witch.mesh",
       "sha256": "f3b5d2334529d2fa1a549ff3280d369ca3b653e198690e1f3ca7a98eab34a051",
       "size": 215200
     },
     {
       "path": "l4d_models/l4d2-sources.json",
-      "sha256": "0d77eb8d1b8659767a2d53193506a589a8f4c013bc8abbfa03354ea3bc2f990f",
-      "size": 67204
+      "sha256": "080714e044912bfe1deb03170e6bca69d3676223b5b8aeaae5446dedeeb7c5f4",
+      "size": 81594
     },
     {
       "path": "l4d_models/l4d2-unsupported.json",
@@ -1724,6 +1734,16 @@
       "path": "l4d_models/l4d2/w_tonfa.mesh",
       "sha256": "77c85790f1d88615cdbfb3c335e3dce0a2db09cf78919928072b18df26186a28",
       "size": 19444
+    },
+    {
+      "path": "l4d_models/l4d2/weapon-icons.json",
+      "sha256": "46c060dcc10053bf4bf45fb0123e8c50dcaa2bff19c6797c68562c606486310f",
+      "size": 14284
+    },
+    {
+      "path": "l4d_models/l4d2/weapon-icons.png",
+      "sha256": "5cca1795427eee01a35ce639c4050abee2ee9d1e801a3625aa2f9a88b84556ef",
+      "size": 83212
     },
     {
       "path": "l4d_models/l4d2/witch.mesh",
