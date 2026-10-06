@@ -49,5 +49,41 @@
     "sha256": "ea091a8427e3857150aeb7eef2c176165e1def3bccaca88bdfae9dac2990b2ff",
     "bytes": 66485,
     "files": 18
-  }
+  },
+  "vehicles": [
+    {
+      "file": "images/vehicles/Vehicles1.zip",
+      "sha256": "a0d0eb8959022497813958c998587c1d0b91ee2427c401daead16d08b378c017",
+      "bytes": 49756037,
+      "files": 216
+    },
+    {
+      "file": "images/vehicles/Vehicles2.zip",
+      "sha256": "2661c45a2d6d068d2f8ffefb15906603bd910a7a58712508539b69fda789ec9c",
+      "bytes": 91662909,
+      "files": 398
+    },
+    {
+      "file": "images/vehicles/Vehicles3.zip",
+      "sha256": "49726e24a54fe7b605b29bedc09b46b01b3745c7951710330afb444b8742bbe1",
+      "bytes": 86109811,
+      "files": 330
+    }
+  ],
+  "weapons": [
+    {
+      "file": "images/weapons/weapons-images.zip",
+      "sha256": "0becb24c71fc881cc5aa1fc7fa9a276755a88d97268dab7a13977a8973f594ec",
+      "bytes": 8592242,
+      "files": 115
+    }
+  ],
+  "peds": [
+    {
+      "file": "images/peds/ped-images.zip",
+      "sha256": "fdd562846530dab51742458a3fa0f36cd141135ea449e663f7db1c8d7c487137",
+      "bytes": 54651739,
+      "files": 1103
+    }
+  ]
 }
