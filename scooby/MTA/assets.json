@@ -1,0 +1,326 @@
+{
+  "schema": 2,
+  "product": "MTA",
+  "archive": {
+    "path": "assets-41fe3302c88de1a44890c5071b9aea0117bcaa408e5840aab6b67531df15a7d6.zip",
+    "size": 33928318,
+    "sha256": "41fe3302c88de1a44890c5071b9aea0117bcaa408e5840aab6b67531df15a7d6"
+  },
+  "files": [
+    {
+      "path": "fonts/LUCIDE-LICENSE.txt",
+      "size": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "fonts/NotoSans.ttf",
+      "size": 2049096,
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+    },
+    {
+      "path": "fonts/NotoSansArabic.ttf",
+      "size": 844676,
+      "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e"
+    },
+    {
+      "path": "fonts/NotoSansDevanagari.ttf",
+      "size": 647144,
+      "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7"
+    },
+    {
+      "path": "fonts/NotoSansGeorgian.ttf",
+      "size": 231988,
+      "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9"
+    },
+    {
+      "path": "fonts/NotoSansHebrew.ttf",
+      "size": 112640,
+      "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88"
+    },
+    {
+      "path": "fonts/NotoSansJP.ttf",
+      "size": 9589900,
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f"
+    },
+    {
+      "path": "fonts/NotoSansKR.ttf",
+      "size": 10414588,
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+    },
+    {
+      "path": "fonts/NotoSansMono.ttf",
+      "size": 1708408,
+      "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081"
+    },
+    {
+      "path": "fonts/NotoSansSC.ttf",
+      "size": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "fonts/NotoSansTC.ttf",
+      "size": 11941968,
+      "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+    },
+    {
+      "path": "fonts/NotoSansThai.ttf",
+      "size": 218652,
+      "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
+    },
+    {
+      "path": "fonts/licenses/NotoSans-OFL.txt",
+      "size": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "fonts/licenses/NotoSansArabic-OFL.txt",
+      "size": 4382,
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96"
+    },
+    {
+      "path": "fonts/licenses/NotoSansDevanagari-OFL.txt",
+      "size": 4386,
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+    },
+    {
+      "path": "fonts/licenses/NotoSansGeorgian-OFL.txt",
+      "size": 4384,
+      "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df"
+    },
+    {
+      "path": "fonts/licenses/NotoSansHebrew-OFL.txt",
+      "size": 4382,
+      "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47"
+    },
+    {
+      "path": "fonts/licenses/NotoSansJP-OFL.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "fonts/licenses/NotoSansKR-OFL.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "fonts/licenses/NotoSansMono-OFL.txt",
+      "size": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "fonts/licenses/NotoSansSC-OFL.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "fonts/licenses/NotoSansTC-OFL.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "fonts/licenses/NotoSansThai-OFL.txt",
+      "size": 4380,
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0"
+    },
+    {
+      "path": "fonts/lucide.ttf",
+      "size": 905580,
+      "sha256": "eaf30a2a0d2ec0cfbf7ab69ed6dc6e39b7e5e2f0255c17856dcb0b73a15584bb"
+    },
+    {
+      "path": "fonts/manifest.json",
+      "size": 5346,
+      "sha256": "e53131b8048336c7d349c255afb7b0cb55b3004d04a4d95ac50ab1d565b0be25"
+    },
+    {
+      "path": "languages/ar.json",
+      "size": 10856,
+      "sha256": "65a3d2cd8e2e14711ef4aab6c535126a15b62db917c7db0840bb98b7f8471001"
+    },
+    {
+      "path": "languages/de.json",
+      "size": 10286,
+      "sha256": "5733e3cdbb27ca3ea9758adebe50d3b7e9614687bb22d35eee6758cac8798fdd"
+    },
+    {
+      "path": "languages/en.json",
+      "size": 9604,
+      "sha256": "1c2937b00486ba7dd0787d1c0c20f8b575815297824aa8ae711d369a581cb057"
+    },
+    {
+      "path": "languages/es.json",
+      "size": 10366,
+      "sha256": "5543781e960eb1deef96c1f245e530598526b7e861c12c77b98cd6a41bb556e8"
+    },
+    {
+      "path": "languages/fr.json",
+      "size": 10547,
+      "sha256": "df8401a5750a003c33a89d97ea7283ca3a8744902f43e12fe8b0f55b2df49f8c"
+    },
+    {
+      "path": "languages/he.json",
+      "size": 10483,
+      "sha256": "cf73c87a41af43f6248c70846673a542c914d9edb9024d901650c378e30175ad"
+    },
+    {
+      "path": "languages/hi.json",
+      "size": 12323,
+      "sha256": "18e831236a1bf74fd2939934bfc23b9e75c7e9550960fdfc648a7eaaf161d78a"
+    },
+    {
+      "path": "languages/id.json",
+      "size": 9763,
+      "sha256": "b73896195fec56a7a8acc98556cf139852ce81a4129e4b270e1cf87bbe7a2f56"
+    },
+    {
+      "path": "languages/it.json",
+      "size": 10344,
+      "sha256": "9191a26c3e1a41ed94ebe94af22b430373d671dfb2b850c642d7f3c2e2e90dcf"
+    },
+    {
+      "path": "languages/ja.json",
+      "size": 10242,
+      "sha256": "a428f8fb44c6e4f4fc01ddd444c29304ea4deeeba20376358c1fe3e806899912"
+    },
+    {
+      "path": "languages/ka.json",
+      "size": 13638,
+      "sha256": "233667bf6f9b5634acdeef441de02123fd930ed5f28b5d654f3c7061f8c4c45b"
+    },
+    {
+      "path": "languages/ko.json",
+      "size": 9950,
+      "sha256": "c31521de3dc3374d6eab75df81795ddcc8ad175f0e45a327c278c5abf131e24c"
+    },
+    {
+      "path": "languages/nl.json",
+      "size": 10203,
+      "sha256": "434aa815a5a819173d163762dd35486729bc9e987d76ccbf4f4baed7dd1adf55"
+    },
+    {
+      "path": "languages/pl.json",
+      "size": 10124,
+      "sha256": "5cec89ad8bc9baef9cc837129bfac3bbac39456e5e0e0c6e9e9f0a0a7618aaf5"
+    },
+    {
+      "path": "languages/pt-BR.json",
+      "size": 9944,
+      "sha256": "8d16ccfa65ec7bd1b95b6cd7c6d21742c2269060fe0b9905e1b99da9bf2f0efe"
+    },
+    {
+      "path": "languages/pt.json",
+      "size": 10405,
+      "sha256": "bb9612737bbedb3561b63b3b7dfd3e8e5742ec6afdad17d19bb3f2b6a0bf9f85"
+    },
+    {
+      "path": "languages/ru.json",
+      "size": 11642,
+      "sha256": "97a5c845030bf0ba8d690d6f4c03e9203572fce78cab5c0918cffcb502ba7a6f"
+    },
+    {
+      "path": "languages/sr.json",
+      "size": 11269,
+      "sha256": "901bb6adf5d825affc1fc9bcd456e97be382ce2eb381c1e7aa20bb1a8392ed16"
+    },
+    {
+      "path": "languages/th.json",
+      "size": 12365,
+      "sha256": "4a72d69c04c3df5bad8754f98882d495bb092b533c70f3148538097acfb60b2a"
+    },
+    {
+      "path": "languages/tr.json",
+      "size": 10024,
+      "sha256": "612e5fcd8310911853a4fe9293c5e6199f1472426c5834b1e04cc68fe14a2044"
+    },
+    {
+      "path": "languages/vi.json",
+      "size": 10324,
+      "sha256": "fe1139dcf7ee54eed1cd5d24130c2d33e5c684b079dd7dbb74000bc22e30d18a"
+    },
+    {
+      "path": "languages/zh-CN.json",
+      "size": 9659,
+      "sha256": "453ca3d44a5563d1323b9b772ee00ffaab3ab345dded3715d5684f96385d2820"
+    },
+    {
+      "path": "languages/zh-TW.json",
+      "size": 9686,
+      "sha256": "6e7e6abaae21f539cdc855044ee35778a1320d3da67e2a2be663110c72b365a0"
+    },
+    {
+      "path": "licenses/Dear-ImGui-LICENSE.txt",
+      "size": 1104,
+      "sha256": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293"
+    },
+    {
+      "path": "licenses/ImGuiColorTextEdit-LICENSE.txt",
+      "size": 1066,
+      "sha256": "38f4538cfadc4d3aaa90e8a9bf39b2ccf0761db5562442d5906e1e82708d40fb"
+    },
+    {
+      "path": "licenses/Lua-LICENSE.txt",
+      "size": 1086,
+      "sha256": "423e9039ddb44cf1694a51c4fa3fd66afe0ba9da537a99e2753085cd5726cf32"
+    },
+    {
+      "path": "licenses/miniz.txt",
+      "size": 1184,
+      "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3"
+    },
+    {
+      "path": "licenses/nlohmann-json-LICENSE.txt",
+      "size": 1327,
+      "sha256": "e310b2928d3f83c6eba5f7523d84863845f9fb51a66a97c7ab8fdab832e28b54"
+    },
+    {
+      "path": "script_defaults_v0/Custom UI.lua",
+      "size": 2169,
+      "sha256": "c92736dc23f80c477cec29583965e354dca1856f4e4a2a3de4d7f9572ff11134"
+    },
+    {
+      "path": "script_defaults_v0/Standalone Menu.lua",
+      "size": 1392,
+      "sha256": "29eb9b173dc8e3527f9d7869d779ff615975c8265f78f685a8c2e510e354a4b2"
+    },
+    {
+      "path": "script_defaults_v0/Welcome.lua",
+      "size": 231,
+      "sha256": "439d57e37f2eb58360d7d8ad2fd77cb2a9e8611a6ef41ceccb4adddd80205fe9"
+    },
+    {
+      "path": "script_defaults_v1/Custom UI.lua",
+      "size": 1402,
+      "sha256": "33d759179434adb7b274c664048a1ec96c3d41a665c260f4df35d434dbd94eaf"
+    },
+    {
+      "path": "script_defaults_v1/Standalone Menu.lua",
+      "size": 1638,
+      "sha256": "e41e1ceb38b3c7c804175d3fff680d5ecdb3e7e96cab9da100f03d6b0b35afee"
+    },
+    {
+      "path": "scripts/Capture Protection.lua",
+      "size": 1724,
+      "sha256": "09e56a3dbd50053f5e1144346dc745d76a7fcf0d4f2e818e5c39f3f38419a251"
+    },
+    {
+      "path": "scripts/Custom UI.lua",
+      "size": 1596,
+      "sha256": "4ad981b654b2bc5f047979b301a9ff765c9b37b8708a45f926179750dc8f7ce1"
+    },
+    {
+      "path": "scripts/ImGui Demo.lua",
+      "size": 13672,
+      "sha256": "ddc34c1b5ac389106d1976ad2f119392a16d077fd36cbb532790200bb7bcb8b4"
+    },
+    {
+      "path": "scripts/Standalone Menu.lua",
+      "size": 2333,
+      "sha256": "132e9219f3fd8727567aa8ce0ac590f0f153711148b7c216bf4e714ceec8cad8"
+    },
+    {
+      "path": "scripts/Welcome.lua",
+      "size": 1465,
+      "sha256": "34d39c1951e533a5ab7805b6c1979e7a3d840f25385f46a1e00b3c23c43792f9"
+    }
+  ]
+}
