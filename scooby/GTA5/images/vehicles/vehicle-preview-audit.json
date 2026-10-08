@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-08",
+  "publication": "local staging only",
+  "images": 1013,
+  "catalog_models": 933,
+  "missing_catalog_images": [],
+  "gxt_aliases": {
+    "ambulan": "ambulance",
+    "annihl": "annihilator",
+    "annihlator2": "annihilator2",
+    "astrope": "asterope",
+    "bfinject": "bfinjection",
+    "blazer03": "blazer3",
+    "buccanee": "buccaneer",
+    "buccanee2": "buccaneer2",
+    "buffalo02": "buffalo2",
+    "bulldoze": "bulldozer",
+    "carbon": "carbonrs",
+    "carboniz": "carbonizzare",
+    "cogcabri": "cogcabrio",
+    "cognosc": "cognoscenti",
+    "cognosc2": "cognoscenti2",
+    "dominato": "dominator",
+    "dominato2": "dominator2",
+    "driftchebu": "driftcheburek",
+    "driftjstr3": "driftjester3",
+    "driftsent": "driftsentinel",
+    "driftvorsch": "driftvorschlag",
+    "driftyosem": "driftyosemite",
+    "faggion": "faggio",
+    "feltzer": "feltzer2",
+    "fork": "forklift",
+    "furore": "furoregt",
+    "khamel": "khamelion",
+    "landstal": "landstalker",
+    "landstlkr2": "landstalker2",
+    "niteshad": "nightshade",
+    "polcaracar": "polcaracara",
+    "polcoqutt4": "polcoquette4",
+    "poldom10": "poldominator10",
+    "polfction2": "polfaction2",
+    "polgreenw": "polgreenwood",
+    "policeo1": "policeold1",
+    "policeo2": "policeold2",
+    "polterminu": "polterminus",
+    "rebel01": "rebel",
+    "rebel02": "rebel2",
+    "rentbus": "rentalbus",
+    "rloader": "ratloader",
+    "rloader2": "ratloader2",
+    "roosevelt": "btype",
+    "roosevelt2": "btype3",
+    "sanchez01": "sanchez",
+    "sanchez02": "sanchez2",
+    "sandkin2": "sandking2",
+    "schafter": "schafter2",
+    "schwarze": "schwarzer",
+    "sparrow": "seasparrow",
+    "sparrow2": "seasparrow2",
+    "sparrow3": "seasparrow3",
+    "stingerg": "stingergt",
+    "submers": "submersible",
+    "submers2": "submersible2",
+    "svolito": "supervolito",
+    "svolito2": "supervolito2",
+    "tailgate": "tailgater",
+    "trlarge": "trailerlarge",
+    "trophy": "trophytruck",
+    "trophy2": "trophytruck2",
+    "trsmall2": "trailersmall2",
+    "valkyri2": "valkyrie2",
+    "verlier": "verlierer2",
+    "vorschlag": "vorschlaghammer",
+    "washingt": "washington",
+    "wastlndr": "wastelander",
+    "yosemite4": "yosemite1500"
+  },
+  "ambiguous_gxt_labels_skipped": {
+    "cargopl": [
+      "cargoplane",
+      "cargoplane2"
+    ],
+    "cavcade": [
+      "cavalcade",
+      "cavalcade2"
+    ],
+    "dilettan": [
+      "dilettante",
+      "dilettante2"
+    ],
+    "rancherx": [
+      "rancherxl",
+      "rancherxl2"
+    ],
+    "trailer": [
+      "raketrailer",
+      "tanker",
+      "tr2",
+      "tr3",
+      "tr4",
+      "trailerlogs",
+      "trailers",
+      "trailers2",
+      "trailers4",
+      "trailers5",
+      "trailersmall",
+      "trflat",
+      "tvtrailer",
+      "tvtrailer2"
+    ],
+    "utiltruc": [
+      "utillitruck",
+      "utillitruck2",
+      "utillitruck3"
+    ]
+  },
+  "metadata_source": "https://github.com/DurtyFree/gta-v-data-dumps/blob/master/vehicles.json",
+  "metadata_sha256": "cbb3912a3fc3f97c452d5d51f06a78049151e91fe8597541a6f62ae4ea552911",
+  "packs": [
+    {
+      "file": "images/vehicles/Vehicles1.zip",
+      "bytes": 49756037,
+      "files": 216,
+      "sha256": "a0d0eb8959022497813958c998587c1d0b91ee2427c401daead16d08b378c017"
+    },
+    {
+      "file": "images/vehicles/Vehicles2.zip",
+      "bytes": 91662909,
+      "files": 398,
+      "sha256": "2661c45a2d6d068d2f8ffefb15906603bd910a7a58712508539b69fda789ec9c"
+    },
+    {
+      "file": "images/vehicles/Vehicles3.zip",
+      "bytes": 103543485,
+      "files": 399,
+      "sha256": "d20014779250ce16a6f390dfbf97d70d8d428bd53a2dc2c1d96f12230c4b2855"
+    }
+  ],
+  "installed_added_or_repaired": 69
+}
