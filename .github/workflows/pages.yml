@@ -1,0 +1,55 @@
+# Replaces GitHub's built-in "pages-build-deployment".
+# Faster for this repo because the site is mostly DLLs/zips: no Jekyll, no gzip of
+# already-compressed binaries, and a newer push cancels a deploy that is still running.
+name: Deploy Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          lfs: false
+
+      # Same tar layout as actions/upload-pages-artifact, minus the verbose file listing.
+      # Hidden files are kept (e.g. .simple-base-assets.json), matching the old branch deploy.
+      - name: Package site
+        run: |
+          tar --dereference --hard-dereference \
+            -cf "$RUNNER_TEMP/artifact.tar" \
+            --exclude=.git --exclude=.github \
+            .
+          ls -lh "$RUNNER_TEMP/artifact.tar"
+
+      # upload-pages-artifact always compresses; binaries don't shrink, so skip it.
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          compression-level: 0
+          retention-days: 1
+          if-no-files-found: error
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5
