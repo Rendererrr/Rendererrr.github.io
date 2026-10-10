@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "id": "gta-sa",
+  "edition": "classic",
+  "release": "2026.10.10-free-beta.5",
+  "access": "free",
+  "channel": "beta",
+  "runtimeAccepted": false,
+  "gameSha256": "15e3cfedba9a841df67d8194e7249afb493b0e10d6138fb8ebab2c136e543efb",
+  "files": [
+    {
+      "path": "assets/fonts/licenses/NotoSans-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansArabic-OFL.txt",
+      "bytes": 4382,
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansDevanagari-OFL.txt",
+      "bytes": 4386,
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansGeorgian-OFL.txt",
+      "bytes": 4384,
+      "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansHebrew-OFL.txt",
+      "bytes": 4382,
+      "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansJP-OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansKR-OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansMono-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansSC-OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansTC-OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/licenses/NotoSansThai-OFL.txt",
+      "bytes": 4380,
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0"
+    },
+    {
+      "path": "assets/fonts/LUCIDE-LICENSE.txt",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "assets/fonts/lucide.ttf",
+      "bytes": 905580,
+      "sha256": "eaf30a2a0d2ec0cfbf7ab69ed6dc6e39b7e5e2f0255c17856dcb0b73a15584bb"
+    },
+    {
+      "path": "assets/fonts/NotoSans.ttf",
+      "bytes": 2049096,
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+    },
+    {
+      "path": "assets/fonts/NotoSansArabic.ttf",
+      "bytes": 844676,
+      "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagari.ttf",
+      "bytes": 647144,
+      "sha256": "9ce7b04f60e363d8870e5997744cf85cf69d38a4d7d129d364d92a3b14b461d7"
+    },
+    {
+      "path": "assets/fonts/NotoSansGeorgian.ttf",
+      "bytes": 231988,
+      "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9"
+    },
+    {
+      "path": "assets/fonts/NotoSansHebrew.ttf",
+      "bytes": 112640,
+      "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88"
+    },
+    {
+      "path": "assets/fonts/NotoSansJP.ttf",
+      "bytes": 9589900,
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f"
+    },
+    {
+      "path": "assets/fonts/NotoSansKR.ttf",
+      "bytes": 10414588,
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+    },
+    {
+      "path": "assets/fonts/NotoSansMono.ttf",
+      "bytes": 1708408,
+      "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081"
+    },
+    {
+      "path": "assets/fonts/NotoSansSC.ttf",
+      "bytes": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "assets/fonts/NotoSansTC.ttf",
+      "bytes": 11941968,
+      "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai.ttf",
+      "bytes": 218652,
+      "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
+    },
+    {
+      "path": "assets/languages/ar.json",
+      "bytes": 10856,
+      "sha256": "65a3d2cd8e2e14711ef4aab6c535126a15b62db917c7db0840bb98b7f8471001"
+    },
+    {
+      "path": "assets/languages/de.json",
+      "bytes": 10286,
+      "sha256": "5733e3cdbb27ca3ea9758adebe50d3b7e9614687bb22d35eee6758cac8798fdd"
+    },
+    {
+      "path": "assets/languages/en.json",
+      "bytes": 9604,
+      "sha256": "1c2937b00486ba7dd0787d1c0c20f8b575815297824aa8ae711d369a581cb057"
+    },
+    {
+      "path": "assets/languages/es.json",
+      "bytes": 10366,
+      "sha256": "5543781e960eb1deef96c1f245e530598526b7e861c12c77b98cd6a41bb556e8"
+    },
+    {
+      "path": "assets/languages/fr.json",
+      "bytes": 10547,
+      "sha256": "df8401a5750a003c33a89d97ea7283ca3a8744902f43e12fe8b0f55b2df49f8c"
+    },
+    {
+      "path": "assets/languages/he.json",
+      "bytes": 10483,
+      "sha256": "cf73c87a41af43f6248c70846673a542c914d9edb9024d901650c378e30175ad"
+    },
+    {
+      "path": "assets/languages/hi.json",
+      "bytes": 12323,
+      "sha256": "18e831236a1bf74fd2939934bfc23b9e75c7e9550960fdfc648a7eaaf161d78a"
+    },
+    {
+      "path": "assets/languages/id.json",
+      "bytes": 9763,
+      "sha256": "b73896195fec56a7a8acc98556cf139852ce81a4129e4b270e1cf87bbe7a2f56"
+    },
+    {
+      "path": "assets/languages/it.json",
+      "bytes": 10344,
+      "sha256": "9191a26c3e1a41ed94ebe94af22b430373d671dfb2b850c642d7f3c2e2e90dcf"
+    },
+    {
+      "path": "assets/languages/ja.json",
+      "bytes": 10242,
+      "sha256": "a428f8fb44c6e4f4fc01ddd444c29304ea4deeeba20376358c1fe3e806899912"
+    },
+    {
+      "path": "assets/languages/ka.json",
+      "bytes": 13638,
+      "sha256": "233667bf6f9b5634acdeef441de02123fd930ed5f28b5d654f3c7061f8c4c45b"
+    },
+    {
+      "path": "assets/languages/ko.json",
+      "bytes": 9950,
+      "sha256": "c31521de3dc3374d6eab75df81795ddcc8ad175f0e45a327c278c5abf131e24c"
+    },
+    {
+      "path": "assets/languages/nl.json",
+      "bytes": 10203,
+      "sha256": "434aa815a5a819173d163762dd35486729bc9e987d76ccbf4f4baed7dd1adf55"
+    },
+    {
+      "path": "assets/languages/pl.json",
+      "bytes": 10124,
+      "sha256": "5cec89ad8bc9baef9cc837129bfac3bbac39456e5e0e0c6e9e9f0a0a7618aaf5"
+    },
+    {
+      "path": "assets/languages/pt-BR.json",
+      "bytes": 9944,
+      "sha256": "8d16ccfa65ec7bd1b95b6cd7c6d21742c2269060fe0b9905e1b99da9bf2f0efe"
+    },
+    {
+      "path": "assets/languages/pt.json",
+      "bytes": 10405,
+      "sha256": "bb9612737bbedb3561b63b3b7dfd3e8e5742ec6afdad17d19bb3f2b6a0bf9f85"
+    },
+    {
+      "path": "assets/languages/ru.json",
+      "bytes": 11642,
+      "sha256": "97a5c845030bf0ba8d690d6f4c03e9203572fce78cab5c0918cffcb502ba7a6f"
+    },
+    {
+      "path": "assets/languages/sr.json",
+      "bytes": 11269,
+      "sha256": "901bb6adf5d825affc1fc9bcd456e97be382ce2eb381c1e7aa20bb1a8392ed16"
+    },
+    {
+      "path": "assets/languages/th.json",
+      "bytes": 12365,
+      "sha256": "4a72d69c04c3df5bad8754f98882d495bb092b533c70f3148538097acfb60b2a"
+    },
+    {
+      "path": "assets/languages/tr.json",
+      "bytes": 10024,
+      "sha256": "612e5fcd8310911853a4fe9293c5e6199f1472426c5834b1e04cc68fe14a2044"
+    },
+    {
+      "path": "assets/languages/vi.json",
+      "bytes": 10324,
+      "sha256": "fe1139dcf7ee54eed1cd5d24130c2d33e5c684b079dd7dbb74000bc22e30d18a"
+    },
+    {
+      "path": "assets/languages/zh-CN.json",
+      "bytes": 9659,
+      "sha256": "453ca3d44a5563d1323b9b772ee00ffaab3ab345dded3715d5684f96385d2820"
+    },
+    {
+      "path": "assets/languages/zh-TW.json",
+      "bytes": 9686,
+      "sha256": "6e7e6abaae21f539cdc855044ee35778a1320d3da67e2a2be663110c72b365a0"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 1171,
+      "sha256": "dfb564c47a2d7d2a7a036c91a5ec460c5330000081c21ef4cbbd5c726ff444a4"
+    },
+    {
+      "path": "Scooby-SA.dll",
+      "bytes": 61863424,
+      "sha256": "712b7e4e399e433052e084e5da314b519f8f70b507ab79f4840b8dee2558d0cb"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 4813,
+      "sha256": "7c1195825028aaf250ec3bf7a4fa11f2f13196b955eb58c513277ed1894ee758"
+    }
+  ]
+}
