@@ -1,7 +1,7 @@
 {
-  "sha256": "85b13e98d22473511e0c9770df40b2cd137214ba33418ac9a159703114d55afc",
-  "bytes": 52637543,
-  "url": "https://rendererrr.github.io/scooby/loader/assets/assets-85b13e98d2247351.zip",
+  "sha256": "85db78741368985c62710c39ea4fafa278531d6effe635d15a880fe8cde65789",
+  "bytes": 57370425,
+  "url": "https://rendererrr.github.io/scooby/loader/assets/assets-85db78741368985c.zip",
   "files": [
     {
       "path": "assets/banners/gta5-wide.png",
@@ -466,149 +466,289 @@
       "sha256": "669eb6c45c1bab46ce8fe86878d2f6e3366d67e0c1892941eca3f7b5c8bde921"
     },
     {
+      "path": "assets/rockstar-classics/classics-banner-1920.jpg",
+      "file": "rockstar-classics/classics-banner-1920.jpg",
+      "offset": 50518765,
+      "size": 471775,
+      "sha256": "512806b0954e1c2a4ddd1cec4b939f6dd341a8c461f6fc696704e7cb47e62c6c"
+    },
+    {
+      "path": "assets/rockstar-classics/classics-banner-640.jpg",
+      "file": "rockstar-classics/classics-banner-640.jpg",
+      "offset": 50990611,
+      "size": 75673,
+      "sha256": "664331bc430e7f358bafa3bae5c824170ae257d363da62cd7101d7b81738f154"
+    },
+    {
+      "path": "assets/rockstar-classics/classics-banner-960.jpg",
+      "file": "rockstar-classics/classics-banner-960.jpg",
+      "offset": 51066355,
+      "size": 152968,
+      "sha256": "a11a45d0071a90cf79415d41d7eaa9977aef684550a3ab87188d9c57cd6070d6"
+    },
+    {
+      "path": "assets/rockstar-classics/gta-sa-background.jpg",
+      "file": "rockstar-classics/gta-sa-background.jpg",
+      "offset": 51219392,
+      "size": 22105,
+      "sha256": "350b482f39e243ced90850b067bb697933581b01e818e97afe7dbfea560b5079"
+    },
+    {
+      "path": "assets/rockstar-classics/gta-sa-logo.png",
+      "file": "rockstar-classics/gta-sa-logo.png",
+      "offset": 51241560,
+      "size": 33166,
+      "sha256": "01b845bab97d3f65f32641e7172b4abce04649622cd4635a212f2c8ce11126c2"
+    },
+    {
+      "path": "assets/rockstar-classics/gta-sa.jpg",
+      "file": "rockstar-classics/gta-sa.jpg",
+      "offset": 51274784,
+      "size": 33890,
+      "sha256": "2cecf62369807d6622d80da9785513dadac35b13e046f5953ac7173936492cf6"
+    },
+    {
+      "path": "assets/rockstar-classics/gta-vc-background.jpg",
+      "file": "rockstar-classics/gta-vc-background.jpg",
+      "offset": 51308743,
+      "size": 88683,
+      "sha256": "4bc51b77843fa4f2d6ddfe9844fd93114d724c021da55e2355e4ec90ab099b7a"
+    },
+    {
+      "path": "assets/rockstar-classics/gta-vc-logo.png",
+      "file": "rockstar-classics/gta-vc-logo.png",
+      "offset": 51397489,
+      "size": 40991,
+      "sha256": "46eeeb7688de5bbe696b7cfabf833dedf9ebd97f170d0624dcb42ad53cefdefa"
+    },
+    {
+      "path": "assets/rockstar-classics/gta-vc.jpg",
+      "file": "rockstar-classics/gta-vc.jpg",
+      "offset": 51438538,
+      "size": 105208,
+      "sha256": "e2f9e05b539417d4327b487b2e73eba9c6e71fb25567166042aa45351f9b5eb8"
+    },
+    {
+      "path": "assets/rockstar-classics/gta3-background.png",
+      "file": "rockstar-classics/gta3-background.png",
+      "offset": 51543813,
+      "size": 2913556,
+      "sha256": "e1ea2e0d7729d728b9ed5283022f25688ae1025d9bd087630969db1d10c73d90"
+    },
+    {
+      "path": "assets/rockstar-classics/gta3-logo.png",
+      "file": "rockstar-classics/gta3-logo.png",
+      "offset": 54457430,
+      "size": 9869,
+      "sha256": "dff2534d17969cb8108566b8fa6b2fcfdd371cfb76217816e7de2ea88b2e58f0"
+    },
+    {
+      "path": "assets/rockstar-classics/gta3.jpg",
+      "file": "rockstar-classics/gta3.jpg",
+      "offset": 54467355,
+      "size": 79692,
+      "sha256": "9341789b2f9eed3e12668b5218c597128de7be98346563b0e44a46adc1fb43e2"
+    },
+    {
+      "path": "assets/rockstar-classics/gta4-background.jpg",
+      "file": "rockstar-classics/gta4-background.jpg",
+      "offset": 54547114,
+      "size": 497891,
+      "sha256": "fb6e1a91f2e2b254ecc2ee823b726b90b6a537a889124c204a6f7301daf9ea81"
+    },
+    {
+      "path": "assets/rockstar-classics/gta4-logo.png",
+      "file": "rockstar-classics/gta4-logo.png",
+      "offset": 55045066,
+      "size": 25335,
+      "sha256": "a00bd3a94fed7c592a64f8b4daed9b0b04bdf71e6592e1877c468fca5f6a8463"
+    },
+    {
+      "path": "assets/rockstar-classics/gta4.jpg",
+      "file": "rockstar-classics/gta4.jpg",
+      "offset": 55070457,
+      "size": 33989,
+      "sha256": "fe6d75bf4955b7298d393e178b9d00cd8159e7089d69164e971d6f0f0e4e5a25"
+    },
+    {
+      "path": "assets/rockstar-classics/manhunt.jpg",
+      "file": "rockstar-classics/manhunt.jpg",
+      "offset": 55104505,
+      "size": 21433,
+      "sha256": "e4445985b75ae6f8fc5f4d2aca2db27812303b122df7abc9d7b32804099fb8b6"
+    },
+    {
+      "path": "assets/rockstar-classics/rdr1-background.jpg",
+      "file": "rockstar-classics/rdr1-background.jpg",
+      "offset": 55126005,
+      "size": 22807,
+      "sha256": "8b1a5c7abdf6f551519b16c6ac4ecc33a0b78645e4aaafc1924fa0ac8475ed0b"
+    },
+    {
+      "path": "assets/rockstar-classics/rdr1-logo.png",
+      "file": "rockstar-classics/rdr1-logo.png",
+      "offset": 55148873,
+      "size": 15898,
+      "sha256": "7c470384376d060916491e10fab8db1aec929080381cbeedfe722c8cde936567"
+    },
+    {
+      "path": "assets/rockstar-classics/rdr1.jpg",
+      "file": "rockstar-classics/rdr1.jpg",
+      "offset": 55164827,
+      "size": 26332,
+      "sha256": "73862c5663bc37ca5695b6ddf8e5c91469415f7273037a2a627eab66f5cff082"
+    },
+    {
+      "path": "assets/rockstar-classics/rockstar-logo.webp",
+      "file": "rockstar-classics/rockstar-logo.webp.png",
+      "offset": 55191229,
+      "size": 58751,
+      "sha256": "4f99dd38d2db16cd2bb3e8254d7a7234ba83a585ae5fa9335650d9e174b988ec"
+    },
+    {
       "path": "assets/scenes/cs2.jpg",
       "file": "scenes/cs2.jpg",
-      "offset": 50518737,
+      "offset": 55250024,
       "size": 57354,
       "sha256": "0fed7ddd19a846f71cc19acfafbd9e37abcf537d45f70daaf32722238f5bb0e6"
     },
     {
       "path": "assets/scenes/fivem.jpg",
       "file": "scenes/fivem.jpg",
-      "offset": 50576137,
+      "offset": 55307424,
       "size": 57384,
       "sha256": "48d39fe0c1971fd3a05905a907936b4af4c983efa01171e1c34383465480ddc2"
     },
     {
       "path": "assets/scenes/gmod.jpg",
       "file": "scenes/gmod.jpg",
-      "offset": 50633566,
+      "offset": 55364853,
       "size": 154211,
       "sha256": "bcafe4f31800887d94fc8c4650079e97b688c600c74a45e10e6570f5aacacd91"
     },
     {
       "path": "assets/scenes/grid.jpg",
       "file": "scenes/grid.jpg",
-      "offset": 50787822,
+      "offset": 55519109,
       "size": 34148,
       "sha256": "efe1b01d6624662235472eac355203b8d26849e38dd875659f0c4c03f474beea"
     },
     {
       "path": "assets/scenes/gta5.jpg",
       "file": "scenes/gta5.jpg",
-      "offset": 50822015,
+      "offset": 55553302,
       "size": 106785,
       "sha256": "e4b94def681d2c97eb365728af0ffaf15a22ab4b4c5b8301441859142291f4ce"
     },
     {
       "path": "assets/scenes/rdr2.jpg",
       "file": "scenes/rdr2.jpg",
-      "offset": 50928845,
+      "offset": 55660132,
       "size": 36474,
       "sha256": "06797b30b06db6dd0f07dfee9b955c1a635f68565975beeb606f36ff207a0675"
     },
     {
       "path": "assets/scenes/redm.jpg",
       "file": "scenes/redm.jpg",
-      "offset": 50965364,
+      "offset": 55696651,
       "size": 31517,
       "sha256": "8433ad528b30bc1297ef57348df9841b6dfbd21361fd0ddf6a57326012db3b36"
     },
     {
       "path": "assets/scenes/sbox.jpg",
       "file": "scenes/sbox.jpg",
-      "offset": 50996926,
+      "offset": 55728213,
       "size": 177736,
       "sha256": "2132a5389614b7e1c68917c693929b60a036f91ac406412c25e855cac97a2d63"
     },
     {
       "path": "assets/scenes/tlou.jpg",
       "file": "scenes/tlou.jpg",
-      "offset": 51174707,
+      "offset": 55905994,
       "size": 297510,
       "sha256": "f3562c0818cc5700edfa6e62c799d331706375f3f7ced258ae127dc3bd229183"
     },
     {
       "path": "assets/titles/blue-shift.jpg",
       "file": "titles/blue-shift.jpg",
-      "offset": 51472268,
+      "offset": 56203555,
       "size": 42679,
       "sha256": "74287e9f5408def782871c4c8b61744f15d02d6a6b1d3970d99d2f8d93bf00ed"
     },
     {
       "path": "assets/titles/half-life-2.jpg",
       "file": "titles/half-life-2.jpg",
-      "offset": 51514999,
+      "offset": 56246286,
       "size": 26567,
       "sha256": "33b671e54e46195f4d4259d725883f890cb581fd025281ff9edbefc3345c3359"
     },
     {
       "path": "assets/titles/half-life-source.jpg",
       "file": "titles/half-life-source.jpg",
-      "offset": 51541623,
+      "offset": 56272910,
       "size": 43238,
       "sha256": "bd3521a698d582492f4d039a0a69e30a503e69903ab0a4719b89a7ab0dd63684"
     },
     {
       "path": "assets/titles/half-life.jpg",
       "file": "titles/half-life.jpg",
-      "offset": 51584911,
+      "offset": 56316198,
       "size": 43238,
       "sha256": "bd3521a698d582492f4d039a0a69e30a503e69903ab0a4719b89a7ab0dd63684"
     },
     {
       "path": "assets/titles/hl2-deathmatch.jpg",
       "file": "titles/hl2-deathmatch.jpg",
-      "offset": 51628204,
+      "offset": 56359491,
       "size": 24425,
       "sha256": "03b16b57963aa73a3e296baf0f39f3ee376d431fff89116940604763fb1471b6"
     },
     {
       "path": "assets/titles/last-of-us-logo.png",
       "file": "titles/last-of-us-logo.png",
-      "offset": 51652685,
+      "offset": 56383972,
       "size": 53315,
       "sha256": "101d87e7a6fe8132dd8463e141dd5922fdbf23979cdede1df230b430ce18f7cf"
     },
     {
       "path": "assets/titles/last-of-us.jpg",
       "file": "titles/last-of-us.jpg",
-      "offset": 51706051,
+      "offset": 56437338,
       "size": 188104,
       "sha256": "9c5bba84990f4f10faabab3dc2fa69ed63a12fae06d24f65745fede5f9e9c02e"
     },
     {
       "path": "assets/titles/megabonk.jpg",
       "file": "titles/megabonk.jpg",
-      "offset": 51894204,
+      "offset": 56625491,
       "size": 70603,
       "sha256": "5521431673a205cef5f46e8d92b6f1766f0e36c12fbf05ea50baf27213ff7958"
     },
     {
       "path": "assets/titles/opposing-force.jpg",
       "file": "titles/opposing-force.jpg",
-      "offset": 51964862,
+      "offset": 56696149,
       "size": 41595,
       "sha256": "a2acf4b2bebf2735603b57776bf9870788fdb454b6303030a0b629ec41d4e307"
     },
     {
       "path": "assets/dialogs/scooby.png",
       "file": "dialogs/scooby.png",
-      "offset": 52006505,
+      "offset": 56737792,
       "size": 392423,
       "sha256": "f3cae3c959c050bef77fd22a062b05989fe6c1c6ac5edc0833d64c89621814d3"
     },
     {
       "path": "assets/dialogs/tf2.png",
       "file": "dialogs/tf2.png",
-      "offset": 52398973,
+      "offset": 57130260,
       "size": 203386,
       "sha256": "e35ab4535e5162cbd73793e6acdedaa19a7eaa388f769b883594e61c340992e3"
     },
     {
       "path": "assets/dialogs/tf2-classified.png",
       "file": "dialogs/tf2-classified.png",
-      "offset": 52602415,
+      "offset": 57333702,
       "size": 29343,
       "sha256": "69e1fcecb5143badaf97d68b9361ed9dc0dfc12f1b3de97099c6ca77d2dbebb0"
     }
