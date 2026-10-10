@@ -2,11 +2,13 @@
   "id": "gta-sa",
   "access": "free",
   "channel": "beta",
-  "version": "2026.10.10-free-beta.3",
+  "version": "2026.10.10-free-beta.4",
   "runtimeAccepted": false,
-  "url": "https://raw.githubusercontent.com/Rendererrr/Rendererrr.github.io/main/scooby/rockstar-classics/GTA/SA/Scooby-SA-2026.10.10-free-beta.3.zip",
-  "sha256": "799b045a2ace0b0af1e5af83a991005f433e78911fe9989d20a0ff2d64f66195",
-  "bytes": 71643030,
-  "manifest": "2026.10.10-free-beta.3/manifest.json",
-  "manifestSha256": "73e3d3b65eaaf1af8339fd2d0a9fe04f4e63da9125b90f01f85b37b4c2db09de"
+  "url": "https://raw.githubusercontent.com/Rendererrr/Rendererrr.github.io/main/scooby/rockstar-classics/GTA/SA/Classic/Scooby-SA-2026.10.10-free-beta.4.zip",
+  "sha256": "960aa92851bc5d0219bc5a662cba66823b0f7f9e2742f334e0e24b92b8b99c01",
+  "bytes": 71607212,
+  "manifest": "Classic/2026.10.10-free-beta.4/manifest.json",
+  "manifestSha256": "7decca90d48dd4330c061388fc9b19ae14d4edf9cf0a06e0eaf5fe6129b0d475",
+  "edition": "classic",
+  "minimumLoaderVersion": "4.72"
 }
