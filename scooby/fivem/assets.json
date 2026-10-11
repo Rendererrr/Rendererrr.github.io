@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "version": "b65a9ba4d5a0a7b91c59567af052ac852d4a3091489a89fad1d1904786a9260f",
+  "version": "5b0602a01e4834e7ec242063a80e34f7492cf1aa1a4d6940caf57b2a67af33af",
   "archive": {
-    "path": "assets-b65a9ba4d5a0a7b91c59567af052ac852d4a3091489a89fad1d1904786a9260f.zip",
-    "sha256": "b65a9ba4d5a0a7b91c59567af052ac852d4a3091489a89fad1d1904786a9260f",
-    "size": 39300592
+    "path": "assets-5b0602a01e4834e7ec242063a80e34f7492cf1aa1a4d6940caf57b2a67af33af.zip",
+    "sha256": "5b0602a01e4834e7ec242063a80e34f7492cf1aa1a4d6940caf57b2a67af33af",
+    "size": 38760452
   },
   "files": [
     {
@@ -138,574 +138,114 @@
       "sha256": "2b80164ea773d5d86822a6bc818cd4e82a7d985fa02e4d6372816b07934af1a1"
     },
     {
-      "path": "images/weapon-icons/01b79f17.rgba",
-      "bytes": 14600,
-      "sha256": "3399873de5efe3a4f0fee6160f67beb7e4a1ec2f2c4a38c2b433346bbe181a9a"
-    },
-    {
-      "path": "images/weapon-icons/05a96ba4.rgba",
-      "bytes": 17416,
-      "sha256": "18f57e8ce9ba0bad6974f81341f98ff781dcda1443f0ccfa51b46471d82cff94"
-    },
-    {
       "path": "images/weapon-icons/05fc3c11.rgba",
-      "bytes": 16648,
-      "sha256": "d586e329ec7c7881d988a8cdb8b0b6e2f344a1e965b3051467cc35f2d7dc52f5"
-    },
-    {
-      "path": "images/weapon-icons/060ec506.rgba",
-      "bytes": 15624,
-      "sha256": "d8006772ff7d5fccbf8be1545ad99a5b1c36d5303c1f34d44e2828082a00a7ec"
-    },
-    {
-      "path": "images/weapon-icons/0781fe4a.rgba",
-      "bytes": 14344,
-      "sha256": "2de75a5cb234005e85aee72b6e3d78b835e526fc37fbb39c0c96d0287a9cbf58"
-    },
-    {
-      "path": "images/weapon-icons/0787f0bb.rgba",
-      "bytes": 16392,
-      "sha256": "d004b608ab3419f3d496c1d8eb9249199996158f76f50c5f39e3c5a0f9fa2fca"
-    },
-    {
-      "path": "images/weapon-icons/083839c4.rgba",
-      "bytes": 16648,
-      "sha256": "8a62409f09b07a0f273e977bbff1ddab7d0dd5390ec5db15e59a957198f3c2dd"
-    },
-    {
-      "path": "images/weapon-icons/0a3d4d34.rgba",
-      "bytes": 18440,
-      "sha256": "2b1a667413e5856db17e320c809dcf776771c0941865997af9ea7237be19815f"
-    },
-    {
-      "path": "images/weapon-icons/0a914799.rgba",
-      "bytes": 18184,
-      "sha256": "e2e51968310deeec8966898611e5ac2d9955bdc7608b32463fb9cadd6ae22fba"
-    },
-    {
-      "path": "images/weapon-icons/0c472fe2.rgba",
-      "bytes": 18184,
-      "sha256": "87dd37f7f51af8e4db9ddd70823bbefbf3912df0146ef9b35ae36eba06c72e6e"
-    },
-    {
-      "path": "images/weapon-icons/12e82d3d.rgba",
-      "bytes": 16648,
-      "sha256": "f8505f74dda7b793867984c863c2c39957a8b504ba269981db038a517eca013c"
+      "bytes": 15368,
+      "sha256": "8a6adbbcb4a5c8b01c244f9b9c7f4be9f7789a91a1c1ba4cf0c86ee7220e8e33"
     },
     {
       "path": "images/weapon-icons/13532244.rgba",
-      "bytes": 16648,
-      "sha256": "774c6e1883c0e014326694a22138e2c9aad897c1990a0a094401e9473e3c69cb"
-    },
-    {
-      "path": "images/weapon-icons/14e5afd5.rgba",
-      "bytes": 17160,
-      "sha256": "cfdd62a578df5e0cff1bb6624384879f3f4a218489332cd8c91a1e4e2befaca7"
-    },
-    {
-      "path": "images/weapon-icons/184140a1.rgba",
-      "bytes": 12552,
-      "sha256": "02a5132fb675fe1616152e8d82f9a95d7acc174dd4aab6bb47c2521fbba50dfd"
-    },
-    {
-      "path": "images/weapon-icons/19044ee0.rgba",
-      "bytes": 16648,
-      "sha256": "7e2023275069b4325300bf818432cd429e35a3cff17ece2ec1c037ce8080d698"
+      "bytes": 23560,
+      "sha256": "1bc4124df47d2cbe929e999f25ddf55b63908bd57b216e09fb710c75959d62cc"
     },
     {
       "path": "images/weapon-icons/1b06d571.rgba",
-      "bytes": 15368,
-      "sha256": "a6982a2716cc9c8ae6894b994874fe83de4977b51bd1ee59837ac80c9288e6a0"
-    },
-    {
-      "path": "images/weapon-icons/1bc4fdb9.rgba",
-      "bytes": 15624,
-      "sha256": "b8fce0aaf4046019035c3a1361c920c572b11e05fdd856043d124ba8f9a84d9e"
+      "bytes": 32008,
+      "sha256": "9fad5fad6df54a50fe4cc817fc255c1157c5d1580fe2c323f0afa8697dbe3733"
     },
     {
       "path": "images/weapon-icons/1d073a89.rgba",
-      "bytes": 16904,
-      "sha256": "5e6fe4be000e94a5409fa54ceb3956220a0d0f71e8de7f7949f0a52d81b0bebb"
+      "bytes": 13832,
+      "sha256": "cd30a9dfc778883eabf83ec625b6b1108a39d0cb1fefcdfc219511e69138ee7b"
     },
     {
       "path": "images/weapon-icons/22d8fe39.rgba",
-      "bytes": 15624,
-      "sha256": "8b94df08ae870847ff43e30732b004074d3c39cf902f9c83638bc8a622b34312"
-    },
-    {
-      "path": "images/weapon-icons/23c9f95c.rgba",
-      "bytes": 16392,
-      "sha256": "a3db56f917794c8bced9132afbe0e47a1cf06acde2ccaf3256cd78a0e49615d4"
-    },
-    {
-      "path": "images/weapon-icons/24b17070.rgba",
-      "bytes": 14600,
-      "sha256": "ca6fa7e58e035acccab8cb36c303adf8d39719a6c46207e385ccb2e91a40487b"
-    },
-    {
-      "path": "images/weapon-icons/2b5ef5ec.rgba",
-      "bytes": 15112,
-      "sha256": "3ffafd170805ee1628756070f0c0ab9f0a439219967e49a464cecbc3020dd48d"
+      "bytes": 24584,
+      "sha256": "a5e00e840080f9e09bece8aaa20a99cc08247ea6dc29afd8aa9eeb3afc339397"
     },
     {
       "path": "images/weapon-icons/2be6766b.rgba",
-      "bytes": 17672,
-      "sha256": "9f967fc0e369cb8d917285217b3cea6a7e1bd1a807a3a5a8151c4e6bc1cbe972"
-    },
-    {
-      "path": "images/weapon-icons/2c3731d9.rgba",
-      "bytes": 16904,
-      "sha256": "1e26c66e9d1f4e9b828cf39ad5ffaeaf389e8143f2556c86de9f81c861c692bf"
+      "bytes": 22024,
+      "sha256": "bb4171c47c0993fe93b920f2f71b9fe395ad2853fb21f99b48e0a4d0726b0a73"
     },
     {
       "path": "images/weapon-icons/34a67b97.rgba",
-      "bytes": 12552,
-      "sha256": "c0acc7b43f26c7d41c469e6be3e71efdecd91eb18ff6a4c45672476f563179a2"
+      "bytes": 12808,
+      "sha256": "a2f25e7f7cc114c1dbfb0a22b4f3f498efaca0d969d575710084536c9040236e"
     },
     {
       "path": "images/weapon-icons/3656c8c1.rgba",
-      "bytes": 18696,
-      "sha256": "8be6323ee238457965c05d0a1c6d047707349848aa6a6538d02a6b493b4540bb"
-    },
-    {
-      "path": "images/weapon-icons/3813fc08.rgba",
-      "bytes": 16648,
-      "sha256": "592c240cb34249c576edef85f783846e0ba322daf38b24a279db1d98239a6dcd"
-    },
-    {
-      "path": "images/weapon-icons/394f415c.rgba",
-      "bytes": 16136,
-      "sha256": "86eb94189ca298530fba18c62c4103c12638933b42abbdb73be046f79ec7dde8"
-    },
-    {
-      "path": "images/weapon-icons/3aabbbaa.rgba",
-      "bytes": 17672,
-      "sha256": "3487ee53b8d3b27b274790778571020bbf8c99e5b3f836bfcfea90ed17a0e21b"
-    },
-    {
-      "path": "images/weapon-icons/42bf8a85.rgba",
-      "bytes": 16136,
-      "sha256": "79818148452e343c0771dea6d3c286ab3f817b05cacd375bd1523ac60238bb08"
+      "bytes": 25352,
+      "sha256": "b0a5f9a1cb32aa0a49011021606daba15a97d43a335ff5d3674a36e18ede95a5"
     },
     {
       "path": "images/weapon-icons/440e4788.rgba",
-      "bytes": 15624,
-      "sha256": "bdef4572b94a071b11e2cd67300be194681483b704e7b9cd36ba5634caf87834"
-    },
-    {
-      "path": "images/weapon-icons/476bf155.rgba",
-      "bytes": 19976,
-      "sha256": "0e9db41224afc46b1ee89375dcb1a6dc9b5c8c80b4cce5ab41fb565e4a9ed559"
-    },
-    {
-      "path": "images/weapon-icons/47757124.rgba",
-      "bytes": 15368,
-      "sha256": "5327af62d1e68cb77cb4b26628b0f8b4409fe6e857a7d4747ccbe97efeda9b16"
-    },
-    {
-      "path": "images/weapon-icons/497facc3.rgba",
-      "bytes": 16392,
-      "sha256": "a0a0876f22b7df39a7eb110d9a8fdbfbf172da8a7dc4a7c0dc15e001bb0cc71a"
-    },
-    {
-      "path": "images/weapon-icons/4dd2dc56.rgba",
-      "bytes": 16904,
-      "sha256": "b98169d153c7a70877dd4d3300b65b573ba1ce831e0f3829d4c746fa93936fd5"
-    },
-    {
-      "path": "images/weapon-icons/4e05fe68.rgba",
-      "bytes": 18440,
-      "sha256": "1ae62366b15394bea3783dac302e6faef5451fd26132ae233dc01f4a4e4aacde"
+      "bytes": 9736,
+      "sha256": "2c77d85086d66d930cca9e7e2d6812b39cb53f73b097e1697753d2c5a661c9ef"
     },
     {
       "path": "images/weapon-icons/4e875f73.rgba",
-      "bytes": 17160,
-      "sha256": "330a36fd454f889cb75f6e645f2d9af7148f1f1f35fb4795dedd618ef1fdc4d4"
-    },
-    {
-      "path": "images/weapon-icons/555af99a.rgba",
-      "bytes": 16648,
-      "sha256": "9a80c60025f3d17b650e9ebad63c3205ad50a495461a83d0f6db0a3ca837dbc3"
-    },
-    {
-      "path": "images/weapon-icons/57a4368c.rgba",
-      "bytes": 15880,
-      "sha256": "a31e4da9b3a0cb36291a0546e66057c310578137eeb7e3b229f5dcdb3befa631"
+      "bytes": 23560,
+      "sha256": "198ca3968f535a25bd4c5facdce944562ead33fd001498ffaa6216cb8e84e73f"
     },
     {
       "path": "images/weapon-icons/5ef9fec4.rgba",
-      "bytes": 14088,
-      "sha256": "55b56f769fe7528857f3ad338c0f04ec4549c02030007e4bb73c50e41b173f57"
-    },
-    {
-      "path": "images/weapon-icons/61012683.rgba",
-      "bytes": 16648,
-      "sha256": "8ac24118bbbea9c767e5934838d92d3e4ab1c2021f412cea498051e701bdd4eb"
-    },
-    {
-      "path": "images/weapon-icons/624fe830.rgba",
-      "bytes": 16136,
-      "sha256": "734dfa9eab5690f4f1b8f6bc43afce4b96ebef07b442bf37d92466179633805e"
-    },
-    {
-      "path": "images/weapon-icons/63ab0442.rgba",
-      "bytes": 16904,
-      "sha256": "5f1a24048501d6a7a2e9423aaefa068a415309ddcb3c710983872704f3deaebc"
-    },
-    {
-      "path": "images/weapon-icons/6589186a.rgba",
-      "bytes": 15880,
-      "sha256": "c003c6d8c0579ef2490d3cdb83e704668ce10184c0077af46fc4bcd97e2c8ff6"
-    },
-    {
-      "path": "images/weapon-icons/678b81b1.rgba",
-      "bytes": 14856,
-      "sha256": "f112527f72c92ee07ca5dd369679814eebebdb85262297f3834e26e4320ff502"
-    },
-    {
-      "path": "images/weapon-icons/6a6c02e0.rgba",
-      "bytes": 16392,
-      "sha256": "771eb28ad99e79aa78cdb9f2da01f98771bd326082ca709cb6f445f7aaf8f35a"
-    },
-    {
-      "path": "images/weapon-icons/6d544c99.rgba",
-      "bytes": 18184,
-      "sha256": "70fbbf7778f93054bf8144efed36b6073c81e5d548ae11c89ab30aaf11d0a100"
-    },
-    {
-      "path": "images/weapon-icons/6e7dddec.rgba",
-      "bytes": 17416,
-      "sha256": "6b658295754cf64f533422c00917a92aa9fbe7aa039ceff674172ab88ac68cd0"
+      "bytes": 26632,
+      "sha256": "9655ba53e81243bdb8fca10c66994ab67ba1a57c8d5b6c0c9e183e474f6ad6f0"
     },
     {
       "path": "images/weapon-icons/7846a318.rgba",
-      "bytes": 16392,
-      "sha256": "9801da8aed5b32febe7705adc1573e872a879ef93db175867ac7ecf914c36624"
-    },
-    {
-      "path": "images/weapon-icons/78a97cd0.rgba",
-      "bytes": 15624,
-      "sha256": "7c823c4b2257d524afc7ddfa6084be9ffbaf78fbf87169e970ab287fbd610775"
-    },
-    {
-      "path": "images/weapon-icons/7f229f94.rgba",
-      "bytes": 16904,
-      "sha256": "ea8c861c64ad491e38c14b94263304aefd4fca3bc6c817f3abd874cb4525f097"
-    },
-    {
-      "path": "images/weapon-icons/7f7497e5.rgba",
-      "bytes": 16904,
-      "sha256": "608d9fbf46c045572a2f56553b98a53cfd7f5dec1da28979a41286d5972e8678"
-    },
-    {
-      "path": "images/weapon-icons/7fd62962.rgba",
-      "bytes": 17672,
-      "sha256": "c3176275762d7432f3e344766abd69c70216ee99acab370ce38bd50337c912a4"
+      "bytes": 23560,
+      "sha256": "99f07562f285cbc6d258bae752661716f3644fb80348eb83d1d8812a788716d4"
     },
     {
       "path": "images/weapon-icons/83bf0278.rgba",
-      "bytes": 17160,
-      "sha256": "7a83294776d169eeda87d512e4a405e857a35da303b6254df968ea4a4615a793"
+      "bytes": 17416,
+      "sha256": "8f3f19ca13043c92afc9a3ade99e7ee00e0da857aac4f505defe9d7226368791"
     },
     {
       "path": "images/weapon-icons/84bd7bfd.rgba",
-      "bytes": 15368,
-      "sha256": "77c7a64330e40342877e4fa033886023db8f684d7b350b842c6378244e96f8cd"
-    },
-    {
-      "path": "images/weapon-icons/84d6fafd.rgba",
-      "bytes": 16136,
-      "sha256": "5e1a33640cf0411b057140c390d330e9e89421e06155b4d4acc17d322964fddc"
-    },
-    {
-      "path": "images/weapon-icons/88374054.rgba",
-      "bytes": 12808,
-      "sha256": "3338418a953c6ec3616bd81b34c95d79f0262b5f8638b84458776cb9b7975fe0"
-    },
-    {
-      "path": "images/weapon-icons/88c78eb7.rgba",
-      "bytes": 15112,
-      "sha256": "e7461484e15c071076de4ebe0802d051587fdbc60baf47dd134818f595d1d83a"
-    },
-    {
-      "path": "images/weapon-icons/8bb05fd7.rgba",
-      "bytes": 17672,
-      "sha256": "53b0811f774a3ef6ee78f86e5110411eb9f8fba2cd609956fa1599ef8a8c83d3"
-    },
-    {
-      "path": "images/weapon-icons/917f6c8c.rgba",
-      "bytes": 15368,
-      "sha256": "6cde829245efcc4ade79fb965aa8361957854da21783d9af0473a50a9b5f452b"
-    },
-    {
-      "path": "images/weapon-icons/92a27487.rgba",
-      "bytes": 14856,
-      "sha256": "80aa0b591e7555865093a1dbc55cb97d70cb73e4e581bec24a2feb29c002276d"
+      "bytes": 16392,
+      "sha256": "5e68fe1624a332f3738184a59b609ad67f6d0d2ee3cf6d894851c682bcd5c0cd"
     },
     {
       "path": "images/weapon-icons/93e220bd.rgba",
       "bytes": 14088,
-      "sha256": "358dc90436b927c07435a21e16509d107fe50afe30badb82352623968951a715"
-    },
-    {
-      "path": "images/weapon-icons/94117305.rgba",
-      "bytes": 16136,
-      "sha256": "0cb126896ea543a3d7d88782aef05b0bff71a4c13763d774b5471cdbd50de5a6"
+      "sha256": "4e583d078316ac2caf7a46e1e9f273df5a16e10b7571ec75ddc9cb2a53f4e7d3"
     },
     {
       "path": "images/weapon-icons/958a4a8f.rgba",
-      "bytes": 16392,
-      "sha256": "f4afac83585ddb34aa8cb364440700e04e74147066da247aba45e021f7d2f6e3"
-    },
-    {
-      "path": "images/weapon-icons/969c3d67.rgba",
-      "bytes": 17416,
-      "sha256": "c0ff65169a952100568829ec5d5e8ad02d231c5518a706361eb3b3770eff2fd1"
-    },
-    {
-      "path": "images/weapon-icons/97ea20b8.rgba",
-      "bytes": 15368,
-      "sha256": "23ab93f1baf7f2c364a051e55cd586ba3cb26eaff81ae0c709c2d14ec30f1e67"
+      "bytes": 7688,
+      "sha256": "a7112f6274acb45198f460376fdd661c5143ea3ed0a2b280ce4a8668d8928702"
     },
     {
       "path": "images/weapon-icons/99aeeb3b.rgba",
-      "bytes": 16136,
-      "sha256": "18bdafa6661d88f884d34a0e4d4bd000483341f6bcab60439c7640ca5e341544"
+      "bytes": 21512,
+      "sha256": "083a522e08a6c4e9514a5c5c93ac9a09dfe41cc4793df340fdc834d83cd450c5"
     },
     {
       "path": "images/weapon-icons/99b507ea.rgba",
-      "bytes": 13320,
-      "sha256": "85ed09b73b9e27eb7a4af6c4f15ff919a181fb8e7af917408256c381ff01fa75"
+      "bytes": 12808,
+      "sha256": "563c2708f061424d60a1950f4d65a3398115df40ea59c24803c168df53db95db"
     },
     {
-      "path": "images/weapon-icons/9d07f764.rgba",
-      "bytes": 17928,
-      "sha256": "dff3a0d40edb0a30c1ed15f881049d85a00e4257805f6a5391a39e82c5c8c9de"
-    },
-    {
-      "path": "images/weapon-icons/9d1f17e6.rgba",
-      "bytes": 17160,
-      "sha256": "9f0cf1d435d39f7fc8cf09b6fa028b3486ccc1c2f510843d3f370a8d0177b490"
-    },
-    {
-      "path": "images/weapon-icons/9d61e50f.rgba",
-      "bytes": 17160,
-      "sha256": "8605c458524b1dd22b76b698f50a228bad1182e3b8b52d91e06602658d96cbc7"
-    },
-    {
-      "path": "images/weapon-icons/a0973d5e.rgba",
-      "bytes": 14344,
-      "sha256": "278b1401639a8068e5bb8ba738156df32a08d4571ecd588cd3312cb6d8efb0b1"
+      "path": "images/weapon-icons/a2719263.rgba",
+      "bytes": 16648,
+      "sha256": "07c858a92eeaefbf1d2d1da088454ad8db95e3da437522aa10a043e7d22cf0f2"
     },
     {
       "path": "images/weapon-icons/a284510b.rgba",
-      "bytes": 16904,
-      "sha256": "b98169d153c7a70877dd4d3300b65b573ba1ce831e0f3829d4c746fa93936fd5"
-    },
-    {
-      "path": "images/weapon-icons/a89cb99e.rgba",
-      "bytes": 16648,
-      "sha256": "1df61bb2ff195a7ebd7fef49c8e05a11740e97b03cc61bf69892e56f1b3094a5"
-    },
-    {
-      "path": "images/weapon-icons/ab564b93.rgba",
-      "bytes": 16136,
-      "sha256": "d179fb540e76dbcc5c85dceed304b7e400f0a67e9277a7a7239fd7c7efc107b8"
-    },
-    {
-      "path": "images/weapon-icons/af113f99.rgba",
-      "bytes": 17672,
-      "sha256": "e7283c95bf009d112dbfe9725e1eee62585ae1844a1316938080dad869c570f5"
-    },
-    {
-      "path": "images/weapon-icons/af3696a1.rgba",
-      "bytes": 17160,
-      "sha256": "b7fc24e68d918249b0a3a2645b8cbbd45df2ba815990d545b2ec70ec8727fafa"
-    },
-    {
-      "path": "images/weapon-icons/b03c94d1.rgba",
-      "bytes": 14344,
-      "sha256": "71bbaa78448892deb38e21ed60eda4dcd62e7b36d03ba1ba601a8b016d5d83ba"
+      "bytes": 20488,
+      "sha256": "f74a0a820d8bc6789b1e3ed2985eed985eae1f5bd08c5470d3a15e97034e7250"
     },
     {
       "path": "images/weapon-icons/b1ca77b1.rgba",
-      "bytes": 17416,
-      "sha256": "69b2b55d436bda04b6ba1e0e4ce24921737d2f6c3cf538d8fb645c33460e2d44"
-    },
-    {
-      "path": "images/weapon-icons/b62d1f67.rgba",
-      "bytes": 16904,
-      "sha256": "99396c3409d11c76e8d10e7b5dcaada141579474b7f8eed37e69cbf8c5e4fe18"
-    },
-    {
-      "path": "images/weapon-icons/ba45e8b8.rgba",
-      "bytes": 15624,
-      "sha256": "535a318375661d3b84a0d338dda8b9b628e716cfcbfd8af20a3228b5e55f1029"
-    },
-    {
-      "path": "images/weapon-icons/ba536372.rgba",
-      "bytes": 12552,
-      "sha256": "2312087430ba31535f9076797a2017459a48d6ec6d8bc727eaabab2966612f27"
-    },
-    {
-      "path": "images/weapon-icons/bd248b55.rgba",
-      "bytes": 17416,
-      "sha256": "39b5eebef591b2169a42403f3e2e5f6d31e5f6ee794272b323d65a3fd3da62f4"
-    },
-    {
-      "path": "images/weapon-icons/bfd21232.rgba",
-      "bytes": 13576,
-      "sha256": "d6c649f7f47fb4bcfd4b6048a9a8e83249d0a19fdc9014110536ac34bee198cc"
-    },
-    {
-      "path": "images/weapon-icons/bfe256d4.rgba",
-      "bytes": 15624,
-      "sha256": "b15fdbbe5ade687f0d852cdad4c34f1871102921ebf4cc9a5e45047aa9bc64a9"
-    },
-    {
-      "path": "images/weapon-icons/bfefff6d.rgba",
-      "bytes": 16648,
-      "sha256": "3e75742355766e5ede4e159eaaf5d41cc0973bc41520dc5fa96bb1fffd6a3cd5"
-    },
-    {
-      "path": "images/weapon-icons/c0a3098d.rgba",
-      "bytes": 16648,
-      "sha256": "e74d59541783d4f117824e8fc98c6ebb9c262f248070ffed688b0abb48c1a11d"
-    },
-    {
-      "path": "images/weapon-icons/c1b3c3d1.rgba",
-      "bytes": 15368,
-      "sha256": "79a585445ae26fdec7cc81f79b88105ebf4fe3e55f20f5b42af0abe699fab21f"
-    },
-    {
-      "path": "images/weapon-icons/c734385a.rgba",
-      "bytes": 16904,
-      "sha256": "4bceb0a5481cdc30218823789f1d1c50cd1282fe12cd8b3ce8e6681eed58c766"
-    },
-    {
-      "path": "images/weapon-icons/c78d71b4.rgba",
-      "bytes": 16648,
-      "sha256": "61d9cf8b46eafed6d51482854ecb2e44ad355ed088d64456a56b659f15c4f75e"
-    },
-    {
-      "path": "images/weapon-icons/cb96392f.rgba",
-      "bytes": 15112,
-      "sha256": "e692bbf75b4b2bd2c286c30335c086e7138143dcf201d3ae81c392891b8afe0e"
-    },
-    {
-      "path": "images/weapon-icons/cd274149.rgba",
-      "bytes": 14856,
-      "sha256": "313e62456b115e62dacb18829550b8001bc4f3f1ea3c5658b59ad8e5bb393991"
-    },
-    {
-      "path": "images/weapon-icons/d04c944d.rgba",
-      "bytes": 22536,
-      "sha256": "d3c56d6037e8f47fc57aed0a6cf17246aabcadb0d952aa161d01cd74753b4a41"
-    },
-    {
-      "path": "images/weapon-icons/d205520e.rgba",
-      "bytes": 15880,
-      "sha256": "4ae27b34b9478034fb69c423db4340b8e410c5d24f2d21de76a52e1830c7d34a"
-    },
-    {
-      "path": "images/weapon-icons/d8df3c3c.rgba",
-      "bytes": 14600,
-      "sha256": "af0a7ec0f094892011d88b17a81a91339c72d21a6202835bb21028991cf070db"
-    },
-    {
-      "path": "images/weapon-icons/db1aa450.rgba",
-      "bytes": 16648,
-      "sha256": "f529f270b664257daa685dfbc8783fa5e5a824dff6d09a17581494057a99d13e"
-    },
-    {
-      "path": "images/weapon-icons/db26713a.rgba",
-      "bytes": 15368,
-      "sha256": "41425f95ebf7abd4911f90453602e209844ec863e09e6dd869d68bd0a64fba8d"
-    },
-    {
-      "path": "images/weapon-icons/dba2e809.rgba",
-      "bytes": 15112,
-      "sha256": "5b35833798a3b1fb2cb7724cee6001cbe3b2cfe4ca05f90fec99357f636022f1"
-    },
-    {
-      "path": "images/weapon-icons/dbbd7280.rgba",
-      "bytes": 17672,
-      "sha256": "a934ff9e185007e7dfe8bedfe365becfbc4a2a37c7f9192d8161e28bc7e65074"
-    },
-    {
-      "path": "images/weapon-icons/dc4db296.rgba",
-      "bytes": 16392,
-      "sha256": "0b4fdb850f52eccbc19ec1946dc54f3dd279349b746679f78f63b33284fb034c"
-    },
-    {
-      "path": "images/weapon-icons/dd5df8d9.rgba",
-      "bytes": 15112,
-      "sha256": "d148a20c604f387ad0bc2f394d43072fc1628d1925fc76e85b9f359781a13a2c"
-    },
-    {
-      "path": "images/weapon-icons/dfe37640.rgba",
-      "bytes": 18952,
-      "sha256": "1322aa3524942ce07cc4f9ca82d3f6e02c24d0ee51dcea792f97442d9a187452"
-    },
-    {
-      "path": "images/weapon-icons/e232c28c.rgba",
-      "bytes": 13064,
-      "sha256": "8cf05138b9f67a9950d4d457f96c98d8fc7f2eaaa3f7970671e9eda049a58ab1"
-    },
-    {
-      "path": "images/weapon-icons/e284c527.rgba",
-      "bytes": 18184,
-      "sha256": "ef248f7cede030e39e28ca8b939353af77c6b1311de05feaf0beccc054c5277b"
-    },
-    {
-      "path": "images/weapon-icons/ef951fbb.rgba",
-      "bytes": 14600,
-      "sha256": "2caef5469efab39b739e6d61f58013c853c7e20f16860283b3093bddbc1b949e"
-    },
-    {
-      "path": "images/weapon-icons/efe7e2df.rgba",
-      "bytes": 17160,
-      "sha256": "3d675ce70e62f02c5e2c8fd1f1e782b917074b33803cc3dfa9302de46352299c"
-    },
-    {
-      "path": "images/weapon-icons/f7f1e25e.rgba",
-      "bytes": 16648,
-      "sha256": "d84269b53f6e77659f0ef08218a81f442ffe3ea9316ff266105d455e1727557e"
-    },
-    {
-      "path": "images/weapon-icons/f9dcbf2d.rgba",
-      "bytes": 16648,
-      "sha256": "49f649092a0a50e2fa118f87426843437dbe90a585b1c1c5b134f6b63cba7dfd"
-    },
-    {
-      "path": "images/weapon-icons/f9e6aa4b.rgba",
-      "bytes": 17160,
-      "sha256": "f5f8f8de11d5a3607b62a38350bd81fd126e6c190e960e25d26f0c9dd0ffbe42"
-    },
-    {
-      "path": "images/weapon-icons/fad1f1c9.rgba",
-      "bytes": 17672,
-      "sha256": "ab7a66d075a6cd0846fa82f5b5eb19edf8a929ef6cee1fc53fc3aadfc50d88d1"
-    },
-    {
-      "path": "images/weapon-icons/fdbadced.rgba",
-      "bytes": 15880,
-      "sha256": "4dad7503d69ba917837abcd4e9b2de410dbac570198501c78a9e9a2032b8f2bc"
-    },
-    {
-      "path": "images/weapon-icons/fdbc8a50.rgba",
-      "bytes": 14344,
-      "sha256": "8dc4def688064b4917661c7dbcfda89a6f4618637616c4f4b98394a03af89e91"
-    },
-    {
-      "path": "images/weapon-icons/fea23564.rgba",
-      "bytes": 18184,
-      "sha256": "70fbbf7778f93054bf8144efed36b6073c81e5d548ae11c89ab30aaf11d0a100"
+      "bytes": 11784,
+      "sha256": "bd9ef4d7c1d2f383b6aff63013597827bf774b9c1cbcbb0d1e73f2ef289197be"
     },
     {
       "path": "images/weapon-icons/sources.json",
-      "bytes": 18951,
-      "sha256": "8aeeb8969cb0dd2a62d0c593a36c91bc376247414783cdd9b670b7fbba21fbe7"
+      "bytes": 5753,
+      "sha256": "fa0bfa3afd7e441e576e221d015b9df4f92abfc360eff0eea4e11e6c0815a5e9"
     },
     {
       "path": "languages/ar.json",
