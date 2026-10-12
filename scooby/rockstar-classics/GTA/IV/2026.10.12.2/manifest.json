@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "id": "gta4",
+  "release": "2026.10.12.2",
+  "channel": "stable",
+  "runtimeAccepted": false,
+  "gameplayAvailable": true,
+  "uiAssets": {
+    "version": "8465397b12e32fa78458",
+    "manifest": "../assets/8465397b12e32fa78458/manifest.json"
+  },
+  "gameSha256": "08759a5516f9837920ea504436236bbab89d0826a8e4d04ff106345177b5345d",
+  "files": [
+    {
+      "path": "ScoobyGTA4.dll",
+      "sha256": "2aacb398cd14657250ddd539a38bcd8eebd67f4ca4daf05fb6e8d904fe7b576d",
+      "bytes": 3184128
+    }
+  ]
+}
