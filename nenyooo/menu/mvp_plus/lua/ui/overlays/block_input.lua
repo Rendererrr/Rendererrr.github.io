@@ -1,0 +1,12 @@
+-- The game-control lockout now lives in C++ (src/menu/input_lock.cpp). It has to run on EVERY game
+-- frame -- a control disable only holds for the frame it is issued on, and the Lua tick only runs on
+-- the frames the fiber scheduler ticked. A single missed frame with a key HELD was enough for the
+-- game to see e.g. the phone key pressed and open the phone underneath the menu.
+--
+-- This file stays as the place to add YOUR own extra blocks. Anything here runs on top of the
+-- built-in list; it cannot switch the built-in list off.
+--
+-- script.on_tick(function()
+--     if not PAD or not menu.is_visible() then return end
+--     PAD.DISABLE_CONTROL_ACTION(0, 32, true)   -- example: freeze movement too
+-- end)

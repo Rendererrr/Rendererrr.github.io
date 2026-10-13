@@ -63,6 +63,12 @@ end
 -- it builds is cached until the next tick is due. The watermark is deliberately absent from this
 -- table -- its whole point is a live frame rate.
 __panelkit.RATE = {
+    pool_panel       = { "Pools Refresh",     30 },
+    render_panel     = { "Render Refresh",    30 },
+    coords_panel     = { "Coords Refresh",    30 },
+    session_panel    = { "Session Refresh",    5 },
+    protection_panel = { "Security Refresh",   5 },
+    modders_panel    = { "Modders Refresh",    5 },
     hotkeys_panel    = { "Hotkeys Refresh",    5 },
 }
 function __panelkit.rate(name)

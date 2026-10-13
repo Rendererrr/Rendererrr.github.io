@@ -77,7 +77,7 @@ features.on_draw("Script Preview", function(f)
         if f.state == "loading" or f.state == "ready" then
             ctext(font.item, C.loading, mx, my, 180, 180, 190)
         else
-            ctext(font.title, "?", mx, my - 8, 120, 120, 130)
+            ctext(font.display, "?", mx, my - 8, 120, 120, 130)
             ctext(font.small, L.no_preview, mx, iy2 - 16, 150, 150, 160)
         end
     end

@@ -1,7 +1,7 @@
 
 -- First-run onboarding wizard. Full-screen, shown once, and while it is up NOTHING else draws --
--- the renderer suppresses the theme menu, feature HUDs and every other overlay
--- (only the cursor overlay is kept).
+-- the renderer suppresses the theme menu, feature HUDs, Spooner, Stand and every other overlay
+-- (only the cursor overlay is kept), and input_lock (C++) locks out all game controls.
 --
 -- The state machine lives in C++ (src/widgets/welcome.*) and is exposed through `welcome`
 -- (src/lua/lua_welcome.cpp). This file owns nothing but the look -- edit it freely, you cannot
@@ -406,9 +406,9 @@ overlay.on_draw("welcome_screen", function()
 
     -- â”€â”€ brand block (persistent across every step) â”€â”€
     local brandy = sh * 0.19 + rise
-    text.draw_spaced(font.title, colx, brandy, 235, 237, 244, a255, "NENYOO", 6.0)
-    local wmw = text.width_spaced(font.title, "NENYOO", 6.0)
-    local uy  = brandy + text.height(font.title) + 4
+    text.draw_spaced(font.display, colx, brandy, 235, 237, 244, a255, "NENYOO", 6.0)
+    local wmw = text.width_spaced(font.display, "NENYOO", 6.0)
+    local uy  = brandy + text.height(font.display) + 4
     draw.rect(colx, uy, colx + wmw * ef, uy + 3, ar, ag, ab, a255, 2)
     text.draw(font.small, colx, uy + 15, 118, 121, 133, fl(a255 * 0.9),
         ctx.edition() .. "   /   v" .. str.version)
@@ -418,8 +418,8 @@ overlay.on_draw("welcome_screen", function()
     text.draw_spaced(font.label, colx, hy, ar, ag, ab, a255,
         string.format("%02d / %02d", idx + 1, #steps), 2.0)
     local ty = hy + 24
-    text.draw(font.title, colx, ty, 226, 228, 236, a255, cur.title)
-    local sy = ty + text.height(font.title) + 8
+    text.draw(font.display, colx, ty, 226, 228, 236, a255, cur.title)
+    local sy = ty + text.height(font.display) + 8
     text.draw(font.desc, colx, sy, 148, 151, 164, fl(a255 * 0.95), cur.subtitle)
 
     -- â”€â”€ body â”€â”€

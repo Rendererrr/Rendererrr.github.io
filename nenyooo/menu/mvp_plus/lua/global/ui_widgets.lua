@@ -59,7 +59,7 @@ end
 -- Activate a row exactly as pressing Enter on it does.
 --
 -- ONE path: items.activate(handle) -> menu::activate(item, page_index, hash) in C++, which is the
--- same function activate_item() calls. Named actions, edition guards, toggle side
+-- same function activate_item() calls. Named actions, Stand targets, edition guards, toggle side
 -- effects and the popups all come from there, for any row on any page.
 --
 -- Deliberately no Lua-side fallback: shimming this by hijacking the selection made behaviour depend
@@ -204,7 +204,7 @@ ui.widget("card", {
                                sk.col.txt[1], sk.col.txt[2], sk.col.txt[3], 255, n.title)
 
             -- A card expands a submenu inline, which otherwise makes that page unreachable: you can
-            -- never navigate INTO Load Theme or similar pages, and anything those pages
+            -- never navigate INTO Load Theme, a catalog, or a Stand tree, and anything those pages
             -- need on entry (their tick_fn, a rescan) never runs. The title bar doubles as the way in.
             -- The whole title bar is the way in. The chevron only appears while the card is hovered:
             -- drawn always, it puts a mark on every single card that the reference does not have.
@@ -654,8 +654,8 @@ function ui.cards_for_page(opts)
         card.kids = ui.bind_all(loose, opts)
         table.insert(cards, 1, card)
     end
-    -- Never hand back an empty list. Some pages are filled at runtime by their tick_fn, so the first
-    -- frames after navigating into one have no
+    -- Never hand back an empty list. Plenty of pages are filled at runtime by their tick_fn (the ped
+    -- and vehicle catalogs, Stand script trees), so the first frames after navigating into one have no
     -- rows at all -- and a card grid with nothing in it is an empty window the user cannot tell from a
     -- broken one.
     if #cards == 0 then
@@ -906,7 +906,8 @@ ui.widget("header", {
 })
 
 -- Back chevron + current page name, drawn at the header's left edge and shown only when there is
--- somewhere to go back to. Without this a card layout is a one-way trip: rows that navigate drop you on a page with no mouse route back, which reads as the
+-- somewhere to go back to. Without this a card layout is a one-way trip: rows that navigate (Model
+-- Changer, Wardrobe, any Stand tree) drop you on a page with no mouse route back, which reads as the
 -- click having broken the menu.
 function ui.back_button(x, y, h, sk)
     -- Nothing to go back to from a tab root, or from Home (which is the root even when the theme

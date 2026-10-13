@@ -91,9 +91,6 @@ local COL = {
 -- Status-tag badge colours (player list). Any hint token not listed keeps the purple keycap look.
 local TAG_COL = {
     Loaded      = { 62, 217, 138},
-    Nenyoo_Free = { 90, 220, 120},
-    Nenyoo_MVP  = {190, 120, 245},
-    Nenyoo_Dev  = {245, 190,  60},
     Me      = { 90, 170, 255},   -- you
     H       = {245, 190,  60},   -- session host
     SH      = {245, 140,  60},   -- freemode script host
@@ -207,8 +204,15 @@ local FX_DEFS = {
     {n="3-Color Banner",   d=false, fk="grad3",     ds="Blend the banner through Banner Middle instead of straight left-to-right"},
 }
 local PANEL_DEFS = {
-    {n="Show Shortcuts", label="Shortcut Guide", d=true, mode=0, ds="Menu keyboard/controller open-close keys"},
+    {n="Show Shortcuts", label="Shortcut Guide", d=true, mode=0, ds="Menu and Spooner keyboard/controller open-close keys"},
     {n="Show Watermark", label="Performance", d=true, mode=0, ds="FPS statistics, clock and graph"},
+    {n="Show Pools",   label="Game Pools",  d=true, mode=0, ds="Ped, vehicle and object pool usage"},
+    {n="Show Render",  label="Render Counts",d=true,mode=0, ds="Entities drawn during the current frame"},
+    {n="Show Coords",  label="Coordinates", d=false, mode=0, ds="Position, street, zone, heading and speed"},
+    {n="Show Session", label="Session",     d=true, mode=0, ds="Current session and network information"},
+    {n="Show Protections", label="Session Security", d=true, mode=0, ds="Session stability and live protection activity"},
+    {n="Show Modders", label="Detected Modders", d=true, mode=0, ds="Players flagged in the current session"},
+    {n="Show Player Info", label="Player Details", d=true, mode=1, ds="Selected-player details, stats, preview and map"},
     {n="Show Hotkeys", label="Keybinds", d=false, mode=0, ds="Assigned feature hotkeys and their live enabled state"},
 }
 local PANEL_OPTION_DEFS = {
@@ -221,6 +225,12 @@ local PANEL_OPTION_DEFS = {
 -- waste. The performance watermark is absent on purpose -- a throttled frame counter is a broken
 -- frame counter. 60 means "every frame", the old behaviour.
 local REFRESH_DEFS = {
+    {n="Pools Refresh",    d=30, ds="Game Pools: rebuilds per second"},
+    {n="Render Refresh",   d=30, ds="Render Counts: rebuilds per second"},
+    {n="Coords Refresh",   d=30, ds="Coordinates: rebuilds per second"},
+    {n="Session Refresh",  d=5,  ds="Session: rebuilds per second"},
+    {n="Security Refresh", d=5,  ds="Session Security: rebuilds per second"},
+    {n="Modders Refresh",  d=5,  ds="Detected Modders: rebuilds per second"},
     {n="Hotkeys Refresh",  d=5,  ds="Keybinds: rebuilds per second"},
 }
 
@@ -634,6 +644,7 @@ local list_indices, list_positions = {}, {}
 local search_open, search_query, search_last_query = false, "", nil
 local search_results, search_sel, search_last_revision = {}, 0, -1
 local search_saved_scroll, search_saved_scroll_t = 0, 0
+local controller_edit_idx, controller_edit_search = -1, false
 
 local NUM = {
     [item_type.slider]=true, [item_type.int_option]=true,
@@ -1021,12 +1032,33 @@ local function proc_feature_search()
     if input.key_pressed(VK.UP) then move_search_selection(-1) end
     if input.key_just_pressed(VK.RETURN) then open_search_result() end
     if input.key_just_pressed(VK.ESCAPE) then close_feature_search(true) end
+    if input.ui_just_pressed(UI.SEARCH) and not input.onscreen_active() then
+        controller_edit_search = true
+        input.onscreen_open(search_query, 127)
+    end
+end
+
+local function proc_onscreen_keyboard()
+    local status, value = input.onscreen_take()
+    if status == 0 then return end
+    if status == 1 then
+        if controller_edit_search then
+            if not search_open then open_feature_search() end
+            search_query, search_last_query, search_sel = value or "", nil, 0
+            rebuild_feature_search()
+        elseif controller_edit_idx >= 0 then
+            menu.set_selected(controller_edit_idx)
+            menu.set_input_buffer(value or "")
+            menu.confirm_input()
+        end
+    end
+    controller_edit_idx, controller_edit_search = -1, false
 end
 
 -- ════════════════════ MAIN DRAW ════════════════════
 function draw_menu()
-    local nenyoo_labels = str.nenyoo_tags and str.nenyoo_tags() or {}
     block_menu_mouse = cpick
+    proc_onscreen_keyboard()
     reload_colors(); reload_fx()
     theme.set_body_bg(COL.black[1], COL.black[2], COL.black[3], alpha(COL.black))
     theme.set_menu_bg(COL.black[1], COL.black[2], COL.black[3], alpha(COL.black))
@@ -1236,6 +1268,15 @@ function draw_menu()
                         draw.rect(mx0, my0, mx0+mug, my0+mug, COL.row_txt[1],COL.row_txt[2],COL.row_txt[3],40)
                     end
                     name_x = mx0 + mug + 8
+                elseif item.info_type == 6 or item.info_type == 7 or item.info_type == 8 or item.info_type == 9 then
+                    -- Friend / incoming / sent / blocked rows: draw the Social Club avatar portrait
+                    -- at the left (info_type selects the list), indent the name.
+                    local mug = ROW_H - 6
+                    local mx0, my0 = x+PAD_X, ry+3
+                    if not friends.draw_avatar(item.info_type, item.i_val or -1, mx0, my0, mx0+mug, my0+mug) then
+                        draw.rect(mx0, my0, mx0+mug, my0+mug, COL.row_txt[1],COL.row_txt[2],COL.row_txt[3],40)
+                    end
+                    name_x = mx0 + mug + 8
                 elseif item.info_type == 40 then
                     -- Language rows: colour-band flag at the left, name indented.
                     local fh = ROW_H - 14
@@ -1297,10 +1338,6 @@ function draw_menu()
                         local is_tag = (string.sub(tok, 1, 1) == "*")
                         if is_tag then tok = string.sub(tok, 2) end
                         local c = is_tag and TAG_COL[tok] or nil
-                        if is_tag and (tok == "Nenyoo_Free" or tok == "Nenyoo_MVP" or tok == "Nenyoo_Dev") then
-                            local label = nenyoo_labels[tok]
-                            tok = label and label ~= "" and label or string.gsub(tok, "_", " ")
-                        end
                         -- "+" only joins real key combos; status tags stand alone.
                         if not first and not is_tag then
                             local join = (is_sel or hov) and COL.sel_txt or COL.dim
@@ -1500,6 +1537,12 @@ function handle_input()
         return
     end
 
+    if input.ui_just_pressed(UI.SEARCH) then
+        controller_edit_search = true
+        input.onscreen_open("", 127)
+        return
+    end
+
     if input.key_pressed(VK.DOWN) then menu.move_selection(1) end
     if input.key_pressed(VK.UP)   then menu.move_selection(-1) end
 
@@ -1555,6 +1598,7 @@ function handle_input()
     end
 
     if input.key_just_pressed(VK.RETURN) then
+        local controller_accept = input.ui_just_pressed(UI.ACCEPT)
         if item and tp==item_type.color then
             cpick=true; cpick_idx=menu.selected_index(); cpick_frame=ctx.frame()
             cpick_v={item.r,item.g,item.b,item.a}
@@ -1564,8 +1608,13 @@ function handle_input()
             local initial = tp==item_type.input_int and tostring(item.i_val)
                 or tp==item_type.input_float and string.format("%.2f",item.f_val)
                 or ((tp==item_type.input_text or tp==item_type.search) and (item.text or "")) or ""
-            edit_on=true; edit_idx=menu.selected_index(); edit_type=tp; edit_start_frame=ctx.frame()
-            edit_buf = initial
+            if controller_accept then
+                controller_edit_idx=menu.selected_index(); controller_edit_search=false
+                input.onscreen_open(initial, 127)
+            else
+                edit_on=true; edit_idx=menu.selected_index(); edit_type=tp; edit_start_frame=ctx.frame()
+                edit_buf = initial
+            end
         else
             do_activate()
         end

@@ -12,8 +12,28 @@
     },
     {
       "root": "global",
+      "rel": "cam.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/cam.lua"
+    },
+    {
+      "root": "global",
+      "rel": "chat.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/chat.lua"
+    },
+    {
+      "root": "global",
+      "rel": "data.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/data.lua"
+    },
+    {
+      "root": "global",
       "rel": "dx.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/dx.lua"
+    },
+    {
+      "root": "global",
+      "rel": "entity.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/entity.lua"
     },
     {
       "root": "global",
@@ -27,6 +47,11 @@
     },
     {
       "root": "global",
+      "rel": "http.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/http.lua"
+    },
+    {
+      "root": "global",
       "rel": "imgui.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/imgui.lua"
     },
@@ -34,6 +59,41 @@
       "root": "global",
       "rel": "input.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/input.lua"
+    },
+    {
+      "root": "global",
+      "rel": "mem.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/mem.lua"
+    },
+    {
+      "root": "global",
+      "rel": "menu.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/menu.lua"
+    },
+    {
+      "root": "global",
+      "rel": "native.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/native.lua"
+    },
+    {
+      "root": "global",
+      "rel": "net.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/net.lua"
+    },
+    {
+      "root": "global",
+      "rel": "player.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/player.lua"
+    },
+    {
+      "root": "global",
+      "rel": "pluto.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/pluto.lua"
+    },
+    {
+      "root": "global",
+      "rel": "pools.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/pools.lua"
     },
     {
       "root": "global",
@@ -47,13 +107,18 @@
     },
     {
       "root": "global",
-      "rel": "stdlib.lua",
-      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/stdlib.lua"
+      "rel": "stats.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/stats.lua"
     },
     {
       "root": "global",
       "rel": "thread.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/thread.lua"
+    },
+    {
+      "root": "global",
+      "rel": "transactions.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/transactions.lua"
     },
     {
       "root": "global",
@@ -81,9 +146,379 @@
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/v3.lua"
     },
     {
+      "root": "global",
+      "rel": "vehicle.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/vehicle.lua"
+    },
+    {
+      "root": "global",
+      "rel": "weapon.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/weapon.lua"
+    },
+    {
+      "root": "global",
+      "rel": "world.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/global/world.lua"
+    },
+    {
       "root": "themes",
       "rel": "theme.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/themes/theme.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/aimbot.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/aimbot.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/air_time.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/air_time.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/altimeter.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/altimeter.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/ammo_counter.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/ammo_counter.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/area_banner.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/area_banner.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/audio_player.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/audio_player.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/car_bowling.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/car_bowling.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/catapult_launch.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/catapult_launch.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/chaos_timer.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/chaos_timer.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/charged_jump.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/charged_jump.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/chase_info.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/chase_info.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/cinematic_bars.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/cinematic_bars.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/clock.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/clock.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/compass.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/compass.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/composition_grid.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/composition_grid.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/crosshair.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/crosshair.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/damage_flash.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/damage_flash.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/damage_numbers.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/damage_numbers.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/dead_eye.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/dead_eye.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/death_recap.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/death_recap.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/disarm_shot.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/disarm_shot.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/drift_score.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/drift_score.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/drone_swarm.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/drone_swarm.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/easy_melee_attack.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/easy_melee_attack.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/ebony_maw.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/ebony_maw.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/explosion_flash.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/explosion_flash.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/film_look.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/film_look.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/fuel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/fuel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/gravity_gun.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/gravity_gun.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/hash_gun.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/hash_gun.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/hit_direction.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/hit_direction.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/hitmarkers.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/hitmarkers.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/human_slingshot.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/human_slingshot.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/iron_man.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/iron_man.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/kill_feed.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/kill_feed.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/lap_timer.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/lap_timer.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/last_stand.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/last_stand.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/launch_timer.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/launch_timer.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/magic_bullets.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/magic_bullets.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/minigames.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/minigames.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/near_miss.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/near_miss.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/news_wire.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/news_wire.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/no_clip.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/no_clip.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/nuclear_missile.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/nuclear_missile.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/oil_slick.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/oil_slick.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/parking_sensors.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/parking_sensors.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/player_esp.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/player_esp.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/portal_gun.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/portal_gun.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/ragdoller.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/ragdoller.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/sentry_gun.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/sentry_gun.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/silent_aim.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/silent_aim.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/skydive.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/skydive.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/snowball_fight.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/snowball_fight.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/speed_lines.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/speed_lines.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/speed_trap.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/speed_trap.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/speedometer_custom.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/speedometer_custom.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/spike_strip.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/spike_strip.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/spooner_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/spooner_hud.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/stunt_ramps.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/stunt_ramps.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/super_man.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/super_man.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/target_marking.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/target_marking.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/target_scanner.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/target_scanner.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/trip_meter.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/trip_meter.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/ufo_mode.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/ufo_mode.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/vehicle_card.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/vehicle_card.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/vitals.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/vitals.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/waypoint_guidance.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/waypoint_guidance.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/wep_vehicle_wheel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/wep_vehicle_wheel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/witch_mode.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/features/witch_mode.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/block_input.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/block_input.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/crew_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/crew_panel.lua"
     },
     {
       "root": "ui",
@@ -92,13 +527,58 @@
     },
     {
       "root": "ui",
+      "rel": "overlays/dlc_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/dlc_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/friend_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/friend_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/job_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/job_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/nav_sounds.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/nav_sounds.lua"
+    },
+    {
+      "root": "ui",
       "rel": "overlays/notifications.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/notifications.lua"
     },
     {
       "root": "ui",
+      "rel": "overlays/photo_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/photo_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/teleport_map.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/teleport_map.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/wardrobe_editor.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/wardrobe_editor.lua"
+    },
+    {
+      "root": "ui",
       "rel": "overlays/welcome_screen.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/welcome_screen.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "overlays/world_map.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/overlays/world_map.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/coords_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/coords_panel.lua"
     },
     {
       "root": "ui",
@@ -112,13 +592,73 @@
     },
     {
       "root": "ui",
+      "rel": "panels/modders_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/modders_panel.lua"
+    },
+    {
+      "root": "ui",
       "rel": "panels/panel_kit.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/panel_kit.lua"
     },
     {
       "root": "ui",
+      "rel": "panels/player_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/player_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/pool_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/pool_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/protection_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/protection_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/render_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/render_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "panels/session_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/session_panel.lua"
+    },
+    {
+      "root": "ui",
       "rel": "panels/shortcut_panel.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/panels/shortcut_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/air_gunship.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/air_gunship.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/dragon.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/dragon.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/giant_robot.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/giant_robot.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/outfit_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/outfit_preview.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/ped_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/ped_preview.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/replacement_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/replacement_preview.lua"
     },
     {
       "root": "ui",
@@ -129,6 +669,26 @@
       "root": "ui",
       "rel": "previews/theme_preview.lua",
       "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/theme_preview.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/vehicle_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/vehicle_preview.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/war_carrier.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/war_carrier.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/wardrobe_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/wardrobe_preview.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "previews/weapon_preview.lua",
+      "url": "https://rendererrr.github.io/nenyooo/menu/mvp_plus/lua/ui/previews/weapon_preview.lua"
     }
   ]
 }
