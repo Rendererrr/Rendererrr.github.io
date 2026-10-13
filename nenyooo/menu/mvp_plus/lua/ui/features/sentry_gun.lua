@@ -1,8 +1,8 @@
 -- Sentry Gun. Published by wep_sentry_gun::draw while any turret is deployed.
---   sentries  per turret: "type,state,kills,kill_age,distance,label_on,lx,ly,laser_on,mx,my,tx,ty|ring;"
+--   sentries  per turret: "type,state,kills,kill_age,distance,label_on,lx,ly,laser_on,mx,my,tx,ty;"
 --             type 0 Phalanx / 1 Missile Pod; state 0 scanning, 1 locking, 2 firing, 3 reloading
 --             (lx,ly) above the turret; (mx,my)->(tx,ty) muzzle to target; kill_age 0..1 after a kill
---             ring = "x y v," points of the range circle on the ground (absent when Show Range is off)
+-- The range ring is drawn in the world by the game (Show Range), not here.
 
 local NAMES = { [0] = "PHALANX", [1] = "MISSILE POD" }
 local STATES = { [0] = "SCANNING", [1] = "LOCKING", [2] = "FIRING", [3] = "RELOADING" }
@@ -16,35 +16,17 @@ local COLOURS = {
 local function parse(s)
     local out = {}
     for item in (s or ""):gmatch("([^;]+);") do
-        local head, ring = item:match("^([^|]*)|(.*)$")
-        if head then
-            local v = {}
-            for n in head:gmatch("([^,]+)") do v[#v + 1] = tonumber(n) end
-            if #v >= 13 then
-                local pts = {}
-                for xs, ys, vs in ring:gmatch("([^ ,]+) ([^ ,]+) ([01]),") do
-                    pts[#pts + 1] = { tonumber(xs), tonumber(ys), vs == "1" }
-                end
-                out[#out + 1] = {
-                    type = v[1], state = v[2], kills = v[3], kill_age = v[4], distance = v[5],
-                    label_on = v[6] == 1, lx = v[7], ly = v[8],
-                    laser_on = v[9] == 1, mx = v[10], my = v[11], tx = v[12], ty = v[13], ring = pts,
-                }
-            end
+        local v = {}
+        for n in item:gmatch("([^,]+)") do v[#v + 1] = tonumber(n) end
+        if #v >= 13 then
+            out[#out + 1] = {
+                type = v[1], state = v[2], kills = v[3], kill_age = v[4], distance = v[5],
+                label_on = v[6] == 1, lx = v[7], ly = v[8],
+                laser_on = v[9] == 1, mx = v[10], my = v[11], tx = v[12], ty = v[13],
+            }
         end
     end
     return out
-end
-
-local function ring(pts, sw, sh, r, g, b, a)
-    local n = #pts
-    for i = 1, n do
-        local p, q = pts[i], pts[(i % n) + 1]
-        if p[3] and q[3] then
-            draw.line(p[1] * sw, p[2] * sh, q[1] * sw, q[2] * sh, r, g, b, math.floor(a * 0.3), 7)
-            draw.line(p[1] * sw, p[2] * sh, q[1] * sw, q[2] * sh, r, g, b, a, 2)
-        end
-    end
 end
 
 local function laser(s, sw, sh, now, r, g, b)
@@ -92,7 +74,6 @@ features.on_draw("Sentry Gun", function(f)
     local now = ctx.time()
     for _, s in ipairs(parse(f.sentries)) do
         local c = COLOURS[s.state] or COLOURS[0]
-        if #s.ring > 2 then ring(s.ring, sw, sh, c[1], c[2], c[3], 150) end
         if s.laser_on then laser(s, sw, sh, now, c[1], c[2], c[3]) end
         if s.label_on then label(s, sw, sh, now, c[1], c[2], c[3]) end
     end
