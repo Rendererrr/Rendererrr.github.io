@@ -92,6 +92,16 @@
     },
     {
       "root": "ui",
+      "rel": "features/animation_history.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/animation_history.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/command_palette.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/command_palette.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/compass.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/compass.lua"
     },
@@ -107,6 +117,16 @@
     },
     {
       "root": "ui",
+      "rel": "features/favorites_panel.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/favorites_panel.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/fishing_tools.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/fishing_tools.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/god_of_thunder.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/god_of_thunder.lua"
     },
@@ -117,13 +137,78 @@
     },
     {
       "root": "ui",
+      "rel": "features/herb_finder.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/herb_finder.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/hunter_mode.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/hunter_mode.lua"
     },
     {
       "root": "ui",
+      "rel": "features/location_bookmarks.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/location_bookmarks.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/mission_bounds.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/mission_bounds.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/mission_lives.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/mission_lives.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/mission_standings.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/mission_standings.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/mission_timer.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/mission_timer.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/recipe_browser.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/recipe_browser.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/saddle_inventory.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/saddle_inventory.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/script_diagnostics.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/script_diagnostics.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/train_controller.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/train_controller.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/triggerbot.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/triggerbot.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/wagon_transport.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/wagon_transport.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/waypoint_marker.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/waypoint_marker.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/weapon_locker_tools.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/weapon_locker_tools.lua"
     },
     {
       "root": "ui",
