@@ -13,7 +13,6 @@ overlay.on_draw("shortcut_panel", function()
     local menu_pad = input.menu_controller_binding and input.menu_controller_binding() or "LB + D-pad Right"
     local lines = {
         "MENU  " .. menu_key .. " / " .. menu_pad,
-        "SPOONER  F9 / RB + D-pad Right",
     }
     local y = math.floor(ctx.screen_h() * 0.12)
     local line_h = text.height(fnt) + 3 * scale

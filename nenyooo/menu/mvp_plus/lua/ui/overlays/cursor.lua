@@ -55,7 +55,7 @@ local function draw_shape(kind, mx, my)
 end
 
 overlay.on_draw("cursor", function()
-    if not menu.is_visible() and not teleport.map_is_open()
+    if not menu.is_visible()
        and not (welcome and welcome.active())
        and not (ui.cursor_forced and ui.cursor_forced()) then return end
     local mx, my = input.mouse_x(), input.mouse_y()
