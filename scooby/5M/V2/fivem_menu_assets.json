@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "081fe965c7e1d5dd9d04",
+  "version": "6ed297cb45255c43c34b",
   "base": "https://rendererrr.github.io/scooby/5M/V2/",
   "files": [
     {
@@ -325,6 +325,138 @@
       "path": "models/self.textures",
       "bytes": 737332,
       "sha256": "d5d0e853fd04f978d9b780520256affaf9f3935a8ee776edc0664321ea4ed4d0",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/05fc3c11.rgba",
+      "bytes": 15368,
+      "sha256": "8a6adbbcb4a5c8b01c244f9b9c7f4be9f7789a91a1c1ba4cf0c86ee7220e8e33",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/13532244.rgba",
+      "bytes": 23560,
+      "sha256": "1bc4124df47d2cbe929e999f25ddf55b63908bd57b216e09fb710c75959d62cc",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/1b06d571.rgba",
+      "bytes": 32008,
+      "sha256": "9fad5fad6df54a50fe4cc817fc255c1157c5d1580fe2c323f0afa8697dbe3733",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/1d073a89.rgba",
+      "bytes": 13832,
+      "sha256": "cd30a9dfc778883eabf83ec625b6b1108a39d0cb1fefcdfc219511e69138ee7b",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/22d8fe39.rgba",
+      "bytes": 24584,
+      "sha256": "a5e00e840080f9e09bece8aaa20a99cc08247ea6dc29afd8aa9eeb3afc339397",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/2be6766b.rgba",
+      "bytes": 22024,
+      "sha256": "bb4171c47c0993fe93b920f2f71b9fe395ad2853fb21f99b48e0a4d0726b0a73",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/34a67b97.rgba",
+      "bytes": 12808,
+      "sha256": "a2f25e7f7cc114c1dbfb0a22b4f3f498efaca0d969d575710084536c9040236e",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/3656c8c1.rgba",
+      "bytes": 25352,
+      "sha256": "b0a5f9a1cb32aa0a49011021606daba15a97d43a335ff5d3674a36e18ede95a5",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/440e4788.rgba",
+      "bytes": 9736,
+      "sha256": "2c77d85086d66d930cca9e7e2d6812b39cb53f73b097e1697753d2c5a661c9ef",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/4e875f73.rgba",
+      "bytes": 23560,
+      "sha256": "198ca3968f535a25bd4c5facdce944562ead33fd001498ffaa6216cb8e84e73f",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/5ef9fec4.rgba",
+      "bytes": 26632,
+      "sha256": "9655ba53e81243bdb8fca10c66994ab67ba1a57c8d5b6c0c9e183e474f6ad6f0",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/7846a318.rgba",
+      "bytes": 23560,
+      "sha256": "99f07562f285cbc6d258bae752661716f3644fb80348eb83d1d8812a788716d4",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/83bf0278.rgba",
+      "bytes": 17416,
+      "sha256": "8f3f19ca13043c92afc9a3ade99e7ee00e0da857aac4f505defe9d7226368791",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/84bd7bfd.rgba",
+      "bytes": 16392,
+      "sha256": "5e68fe1624a332f3738184a59b609ad67f6d0d2ee3cf6d894851c682bcd5c0cd",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/93e220bd.rgba",
+      "bytes": 14088,
+      "sha256": "4e583d078316ac2caf7a46e1e9f273df5a16e10b7571ec75ddc9cb2a53f4e7d3",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/958a4a8f.rgba",
+      "bytes": 7688,
+      "sha256": "a7112f6274acb45198f460376fdd661c5143ea3ed0a2b280ce4a8668d8928702",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/99aeeb3b.rgba",
+      "bytes": 21512,
+      "sha256": "083a522e08a6c4e9514a5c5c93ac9a09dfe41cc4793df340fdc834d83cd450c5",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/99b507ea.rgba",
+      "bytes": 12808,
+      "sha256": "563c2708f061424d60a1950f4d65a3398115df40ea59c24803c168df53db95db",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/a2719263.rgba",
+      "bytes": 16648,
+      "sha256": "07c858a92eeaefbf1d2d1da088454ad8db95e3da437522aa10a043e7d22cf0f2",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/a284510b.rgba",
+      "bytes": 20488,
+      "sha256": "f74a0a820d8bc6789b1e3ed2985eed985eae1f5bd08c5470d3a15e97034e7250",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/b1ca77b1.rgba",
+      "bytes": 11784,
+      "sha256": "bd9ef4d7c1d2f383b6aff63013597827bf774b9c1cbcbb0d1e73f2ef289197be",
+      "editable": false
+    },
+    {
+      "path": "images/weapon-icons/sources.json",
+      "bytes": 5753,
+      "sha256": "fa0bfa3afd7e441e576e221d015b9df4f92abfc360eff0eea4e11e6c0815a5e9",
       "editable": false
     }
   ]

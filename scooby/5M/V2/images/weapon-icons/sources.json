@@ -1,0 +1,258 @@
+{
+  "source": "Installed GTA V Legacy: update/update.rpf/x64/data/cdimages/scaleform_generic.rpf/hud.ytd/weapons_all",
+  "atlas_sha256": "b4be76665341292ac4cff6b3c35d6787708eb833dc2204a6d524d2a0c431e637",
+  "images": [
+    {
+      "name": "WEAPON_PISTOL",
+      "hash": "1b06d571",
+      "rect": [
+        211,
+        8,
+        358,
+        83
+      ],
+      "rotation": 0,
+      "sha256": "9fad5fad6df54a50fe4cc817fc255c1157c5d1580fe2c323f0afa8697dbe3733"
+    },
+    {
+      "name": "WEAPON_COMBATPISTOL",
+      "hash": "5ef9fec4",
+      "rect": [
+        4,
+        9,
+        128,
+        85
+      ],
+      "rotation": 0,
+      "sha256": "9655ba53e81243bdb8fca10c66994ab67ba1a57c8d5b6c0c9e183e474f6ad6f0"
+    },
+    {
+      "name": "WEAPON_APPISTOL",
+      "hash": "22d8fe39",
+      "rect": [
+        69,
+        8,
+        211,
+        97
+      ],
+      "rotation": 180,
+      "sha256": "a5e00e840080f9e09bece8aaa20a99cc08247ea6dc29afd8aa9eeb3afc339397"
+    },
+    {
+      "name": "WEAPON_PISTOL50",
+      "hash": "99aeeb3b",
+      "rect": [
+        316,
+        10,
+        423,
+        95
+      ],
+      "rotation": 180,
+      "sha256": "083a522e08a6c4e9514a5c5c93ac9a09dfe41cc4793df340fdc834d83cd450c5"
+    },
+    {
+      "name": "WEAPON_STUNGUN",
+      "hash": "3656c8c1",
+      "rect": [
+        429,
+        12,
+        537,
+        82
+      ],
+      "rotation": 0,
+      "sha256": "b0a5f9a1cb32aa0a49011021606daba15a97d43a335ff5d3674a36e18ede95a5"
+    },
+    {
+      "name": "WEAPON_BAT",
+      "hash": "958a4a8f",
+      "rect": [
+        554,
+        13,
+        858,
+        52
+      ],
+      "rotation": 0,
+      "sha256": "a7112f6274acb45198f460376fdd661c5143ea3ed0a2b280ce4a8668d8928702"
+    },
+    {
+      "name": "WEAPON_CROWBAR",
+      "hash": "84bd7bfd",
+      "rect": [
+        573,
+        59,
+        859,
+        127
+      ],
+      "rotation": 0,
+      "sha256": "5e68fe1624a332f3738184a59b609ad67f6d0d2ee3cf6d894851c682bcd5c0cd"
+    },
+    {
+      "name": "WEAPON_HAMMER",
+      "hash": "4e875f73",
+      "rect": [
+        533,
+        73,
+        718,
+        140
+      ],
+      "rotation": 0,
+      "sha256": "198ca3968f535a25bd4c5facdce944562ead33fd001498ffaa6216cb8e84e73f"
+    },
+    {
+      "name": "WEAPON_KNIFE",
+      "hash": "99b507ea",
+      "rect": [
+        233,
+        176,
+        422,
+        212
+      ],
+      "rotation": 0,
+      "sha256": "563c2708f061424d60a1950f4d65a3398115df40ea59c24803c168df53db95db"
+    },
+    {
+      "name": "WEAPON_GOLFCLUB",
+      "hash": "440e4788",
+      "rect": [
+        228,
+        151,
+        517,
+        194
+      ],
+      "rotation": 0,
+      "sha256": "2c77d85086d66d930cca9e7e2d6812b39cb53f73b097e1697753d2c5a661c9ef"
+    },
+    {
+      "name": "WEAPON_PETROLCAN",
+      "hash": "34a67b97",
+      "rect": [
+        3,
+        99,
+        111,
+        240
+      ],
+      "rotation": 0,
+      "sha256": "a2f25e7f7cc114c1dbfb0a22b4f3f498efaca0d969d575710084536c9040236e"
+    },
+    {
+      "name": "WEAPON_SMG",
+      "hash": "2be6766b",
+      "rect": [
+        548,
+        128,
+        914,
+        252
+      ],
+      "rotation": 0,
+      "sha256": "bb4171c47c0993fe93b920f2f71b9fe395ad2853fb21f99b48e0a4d0726b0a73"
+    },
+    {
+      "name": "WEAPON_MICROSMG",
+      "hash": "13532244",
+      "rect": [
+        12,
+        398,
+        299,
+        505
+      ],
+      "rotation": 0,
+      "sha256": "1bc4124df47d2cbe929e999f25ddf55b63908bd57b216e09fb710c75959d62cc"
+    },
+    {
+      "name": "WEAPON_RPG",
+      "hash": "b1ca77b1",
+      "rect": [
+        14,
+        323,
+        594,
+        426
+      ],
+      "rotation": 0,
+      "sha256": "bd9ef4d7c1d2f383b6aff63013597827bf774b9c1cbcbb0d1e73f2ef289197be"
+    },
+    {
+      "name": "WEAPON_CARBINERIFLE",
+      "hash": "83bf0278",
+      "rect": [
+        118,
+        508,
+        530,
+        618
+      ],
+      "rotation": 0,
+      "sha256": "8f3f19ca13043c92afc9a3ade99e7ee00e0da857aac4f505defe9d7226368791"
+    },
+    {
+      "name": "WEAPON_SNIPERRIFLE",
+      "hash": "05fc3c11",
+      "rect": [
+        175,
+        603,
+        662,
+        718
+      ],
+      "rotation": 0,
+      "sha256": "8a6adbbcb4a5c8b01c244f9b9c7f4be9f7789a91a1c1ba4cf0c86ee7220e8e33"
+    },
+    {
+      "name": "WEAPON_PUMPSHOTGUN",
+      "hash": "1d073a89",
+      "rect": [
+        113,
+        793,
+        570,
+        888
+      ],
+      "rotation": 0,
+      "sha256": "cd30a9dfc778883eabf83ec625b6b1108a39d0cb1fefcdfc219511e69138ee7b"
+    },
+    {
+      "name": "WEAPON_SAWNOFFSHOTGUN",
+      "hash": "7846a318",
+      "rect": [
+        768,
+        854,
+        1019,
+        949
+      ],
+      "rotation": 0,
+      "sha256": "99f07562f285cbc6d258bae752661716f3644fb80348eb83d1d8812a788716d4"
+    },
+    {
+      "name": "WEAPON_GRENADELAUNCHER",
+      "hash": "a284510b",
+      "rect": [
+        4,
+        899,
+        386,
+        1023
+      ],
+      "rotation": 0,
+      "sha256": "f74a0a820d8bc6789b1e3ed2985eed985eae1f5bd08c5470d3a15e97034e7250"
+    },
+    {
+      "name": "WEAPON_GRENADE",
+      "hash": "93e220bd",
+      "rect": [
+        897,
+        716,
+        955,
+        787
+      ],
+      "rotation": 0,
+      "sha256": "4e583d078316ac2caf7a46e1e9f273df5a16e10b7571ec75ddc9cb2a53f4e7d3"
+    },
+    {
+      "name": "WEAPON_UNARMED",
+      "hash": "a2719263",
+      "rect": [
+        932,
+        8,
+        1019,
+        91
+      ],
+      "rotation": 0,
+      "sha256": "07c858a92eeaefbf1d2d1da088454ad8db95e3da437522aa10a043e7d22cf0f2"
+    }
+  ]
+}
