@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "version": "f788edb07725446cd69f4ef7cabcfc8adfa23bcd173b2648fe90d9eaf28a9002",
+  "version": "6256d3d55f8cae63f4f1175dc02cd119eff7dd55ecda3bdffd3f84b81687f584",
   "archive": {
-    "path": "assets-f788edb07725446cd69f4ef7cabcfc8adfa23bcd173b2648fe90d9eaf28a9002.zip",
-    "sha256": "f788edb07725446cd69f4ef7cabcfc8adfa23bcd173b2648fe90d9eaf28a9002",
-    "size": 37797456
+    "path": "assets-6256d3d55f8cae63f4f1175dc02cd119eff7dd55ecda3bdffd3f84b81687f584.zip",
+    "sha256": "6256d3d55f8cae63f4f1175dc02cd119eff7dd55ecda3bdffd3f84b81687f584",
+    "size": 35012793
   },
   "files": [
     {
@@ -389,33 +389,33 @@
     },
     {
       "path": "models/npc.mesh",
-      "bytes": 253892,
-      "sha256": "43133de9912217fa5320db9a67df5f6161fd5ab535b8782256189244b3462ad4"
+      "bytes": 92784,
+      "sha256": "e4d3c61ac6f467445f7415b226c06ded56097b8168d385a7b89390c295a2b93f"
     },
     {
       "path": "models/npc.textures",
-      "bytes": 4456500,
-      "sha256": "bfcd28733af832bbc65103c0d02bc660c6f4a64aba26ab2c1afdcec6092ed5fc"
+      "bytes": 737332,
+      "sha256": "d5d0e853fd04f978d9b780520256affaf9f3935a8ee776edc0664321ea4ed4d0"
     },
     {
       "path": "models/player.mesh",
-      "bytes": 860452,
-      "sha256": "b5c1084b72f00a3815e16c7cdb8510a583ccab2821b15cb5a730d72f801054de"
+      "bytes": 92784,
+      "sha256": "e4d3c61ac6f467445f7415b226c06ded56097b8168d385a7b89390c295a2b93f"
     },
     {
       "path": "models/player.textures",
-      "bytes": 7471212,
-      "sha256": "63489d6f27e0dabaec7a08dc355282211015e695f44547d9195d396dc5098164"
+      "bytes": 737332,
+      "sha256": "d5d0e853fd04f978d9b780520256affaf9f3935a8ee776edc0664321ea4ed4d0"
     },
     {
       "path": "models/self.mesh",
-      "bytes": 806404,
-      "sha256": "a874348e1d4436cc180c1afccf073a630312a37d18aa991ff9e8b88813a24aad"
+      "bytes": 92784,
+      "sha256": "e4d3c61ac6f467445f7415b226c06ded56097b8168d385a7b89390c295a2b93f"
     },
     {
       "path": "models/self.textures",
-      "bytes": 6111340,
-      "sha256": "6d4e4877948a83183900979139b33988cf3e0115e970f6c53bda9d5706c88bdd"
+      "bytes": 737332,
+      "sha256": "d5d0e853fd04f978d9b780520256affaf9f3935a8ee776edc0664321ea4ed4d0"
     },
     {
       "path": "script_defaults_v0/Custom UI.lua",
