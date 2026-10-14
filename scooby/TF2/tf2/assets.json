@@ -1,18 +1,18 @@
 {
   "archives": [
     {
-      "count": 4621,
+      "count": 4403,
       "first": 0,
-      "path": "assets-0e6eafea6c43f7c50dd3264c0130d423882af9ade3f36e5503d7927bc0d091cc.zip",
-      "sha256": "0e6eafea6c43f7c50dd3264c0130d423882af9ade3f36e5503d7927bc0d091cc",
-      "size": 100632282
+      "path": "assets-834eee65df68ff49a8ebff28a6fd52a5fa47bb479620fbb20942a89e3a0b45e8.zip",
+      "sha256": "834eee65df68ff49a8ebff28a6fd52a5fa47bb479620fbb20942a89e3a0b45e8",
+      "size": 88576573
     },
     {
-      "count": 130,
-      "first": 4621,
-      "path": "assets-25269d7e392160207f23a035b6bedfd5d8edeb92f69bd6c1a0294edd658671a8.zip",
-      "sha256": "25269d7e392160207f23a035b6bedfd5d8edeb92f69bd6c1a0294edd658671a8",
-      "size": 887161
+      "count": 384,
+      "first": 4403,
+      "path": "assets-e79f5e28e2b15cc903f06dd3a3a8b8e9a4a0f2eddad2dcf2577284cedc2a400c.zip",
+      "sha256": "e79f5e28e2b15cc903f06dd3a3a8b8e9a4a0f2eddad2dcf2577284cedc2a400c",
+      "size": 15281324
     }
   ],
   "files": [
@@ -213,13 +213,193 @@
     },
     {
       "path": "game/materials/scooby_tf2/crystal.vtf",
-      "sha256": "59b047829623cb74e084d773e672797c0657eeba5abf17d036366cf95172c1f4",
-      "size": 16464
+      "sha256": "48ac27d2e5b4f96f2ba19cd58b6e82a14cc25507da5fd86eae78ba0b1b6dea59",
+      "size": 5592484
     },
     {
       "path": "game/materials/scooby_tf2/scanline.vtf",
-      "sha256": "8b02ff8dae62c0bf3da5608e717b332e1ec215e4b9f39bb803697afea3654908",
-      "size": 16464
+      "sha256": "e3f3627930443d49ea40e1c3996cdebeca071cf7177e92d1197278fe9f4e1370",
+      "size": 5592484
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_aurorabk.vmt",
+      "sha256": "eebad116f29eae454723e652f8e325aef2c0d2ca2ebb765e5e272ae4a123f5fe",
+      "size": 59
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_aurorabk.vtf",
+      "sha256": "b9e9feedaeda83292dbaefb7fc589e473ac103ce3ccce549fa1660b84c4362e1",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_auroradn.vmt",
+      "sha256": "34dbb86d740b66119957a2e0df096eebf8dfef117469d1f8d43b35c884c60db6",
+      "size": 59
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_auroradn.vtf",
+      "sha256": "f76b18c9508fd5042c2ac13af20ebd2cc5acc54549392f8945858441d4e50ed5",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_auroraft.vmt",
+      "sha256": "9d55a6b1f7282abfa2b743089bd0a2a096efae9d609af32e334f02cde813d1d9",
+      "size": 59
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_auroraft.vtf",
+      "sha256": "5329c98ef90d935d68b39061482a23376de025fba94d624cdd937829bd393b8d",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_auroralf.vmt",
+      "sha256": "abcb4b552e152998b948d0111136a982d1efbffcaadef00877f5a1bbce3a36a4",
+      "size": 59
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_auroralf.vtf",
+      "sha256": "b32ef17518bbce9de93a148475c117cba71f7f179ea01ccbb3ad306cdf940d3a",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_aurorart.vmt",
+      "sha256": "77819869abe94da84161eab1046ad627c9c5bd857dcb769ff94fd982f22a069a",
+      "size": 59
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_aurorart.vtf",
+      "sha256": "2d6c5f7fd5ac58ed3ba54486966da60d47a229567e67203607750e08bd3988a4",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_auroraup.vmt",
+      "sha256": "58159136cd0ae9f882be92cc2829a8d8d8cb2ecd76723b16daf215992e17470c",
+      "size": 59
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_auroraup.vtf",
+      "sha256": "999bd7d7d65f922ad91d81460563d3eb999e0c90103c694d5282fd7bc32b205a",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnbk.vmt",
+      "sha256": "02f46e000487fcd2cfeb80525264bce8b66e3b7f43955c8c2bf544496cff2a41",
+      "size": 57
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnbk.vtf",
+      "sha256": "164c8bbf653948cd284f52c0652f10df2430e4715f53a9a506f2d94e35feb11d",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawndn.vmt",
+      "sha256": "ca1312f50f5fd26d29ab1852e3020392500b842e01a4704b0a337fa7e37f6252",
+      "size": 57
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawndn.vtf",
+      "sha256": "58321626e7ec3e6989b9140e55c3b06123ec19661b9db299f2a51794c316e0d6",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnft.vmt",
+      "sha256": "805d7c98d6f34e3a85ce3f519a21a563892489bc734c73f887ffb33545fa3d43",
+      "size": 57
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnft.vtf",
+      "sha256": "6f92ce57376bed6348d5485bed0f5774a9b1d9255580dfe1eae89d6d8ec520a8",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnlf.vmt",
+      "sha256": "0d459c859a7ce2fa921914058ecb743b9b92b03b6dbc9c96af600904a1c096c0",
+      "size": 57
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnlf.vtf",
+      "sha256": "53e897a3ad53b1cd21516f6e60ae6e041e15bca9d234c3875920a0a1ac30ab0d",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnrt.vmt",
+      "sha256": "42d126fc8c00fb2d93209849851a3ca991a5895ea35fd5c044e365f530c5ea53",
+      "size": 57
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnrt.vtf",
+      "sha256": "eca0149b572dc1eb63c139081811a7f2331bc09b256edb36f99fc2eb52645238",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnup.vmt",
+      "sha256": "0f25ff1aeaa60e6b86fbed547dcec413a3557a7d31a534654e23db551a2c0615",
+      "size": 57
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_dawnup.vtf",
+      "sha256": "b61afa939fa35cec3ac364d21c52775cb0366c000767e53221033c8550d9d33c",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormbk.vmt",
+      "sha256": "6453246087f5768ec5adc487da4926c09281776b1711a32a0afa583c0ea9171f",
+      "size": 58
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormbk.vtf",
+      "sha256": "31e764687828f289dcd16a29f6d1ad315fcce7607fe7a251692963bf9a2a54b9",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormdn.vmt",
+      "sha256": "ac077006b53c7b44e8c7d2f7af39270bba509fa0d9d40e4864553ffe63e46f4b",
+      "size": 58
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormdn.vtf",
+      "sha256": "a4360261704609d1c5851929d0270d63f3b2b10e1b78b68c65eb291e7a4f8300",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormft.vmt",
+      "sha256": "cd65f411fe366690eaf9030072888b65563cda7a7ce1a1a61bb3de50a7d24c21",
+      "size": 58
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormft.vtf",
+      "sha256": "42c54373d961267bd33de663e0f7764ddf7740ec430eff726854546b84d4742b",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormlf.vmt",
+      "sha256": "2bd004539c2cd22407077984319ef5b4f10961a98fd8fad6bb1f0a2ac80f811f",
+      "size": 58
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormlf.vtf",
+      "sha256": "3ce1bcfa4c757980031bb1509372bdb833012da47730463317260aea3683def0",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormrt.vmt",
+      "sha256": "ce90c356c9c328ee86334759d6e9883d977b6d5b3d1d344e33418da9215a2230",
+      "size": 58
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormrt.vtf",
+      "sha256": "30d8eb44072901e5d35bcdcbb27f581062cedb233a7aed488240f1af3c039791",
+      "size": 4194384
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormup.vmt",
+      "sha256": "2b5fae46593b813e8010c940dba4b6417f05ac43068f59b2486758b4ea207d30",
+      "size": 58
+    },
+    {
+      "path": "game/materials/scooby_tf2/sky_hd_stormup.vtf",
+      "sha256": "8a82b5ee17df8b4cde445111a2d9bdb0426605f61ccef3491de3806b93d4520a",
+      "size": 4194384
     },
     {
       "path": "licenses/Dear-ImGui-LICENSE.txt",
@@ -308,98 +488,98 @@
     },
     {
       "path": "models/scout_0.png",
-      "sha256": "5615f3d55daba7437752e744f9ea7daa0b2f6de290d486a8bdc9b17fdeb0d221",
-      "size": 81211
+      "sha256": "9244b2c37f1eb37427b5c4fa2fa63334200cdd184563bc734f9d5ba9d47d62a7",
+      "size": 81529
     },
     {
       "path": "models/scout_1.png",
-      "sha256": "5d614b919a498671de4cb496d3f4fdbb7ed1c55df90449095976fa9e7d96f05a",
-      "size": 188455
+      "sha256": "fbf14b80bb3af546bdb876bfe6c0da143c6f19cacc8f35a8a619a656f479d779",
+      "size": 189167
     },
     {
       "path": "models/scout_10.png",
-      "sha256": "db0640b85668bec7b1da2096bb89067176ee764612972b4c6e3441dc5d6b0b77",
-      "size": 41420
+      "sha256": "f8601c82947d1f462f35f94936fec1a0997361282fe5b20670b7309cf01070f9",
+      "size": 41735
     },
     {
       "path": "models/scout_11.png",
-      "sha256": "9b5fd98700f84fd6990e86b1a0af2b1a2ff6bc434a8f10e85e2ed016969c7b8f",
-      "size": 109905
+      "sha256": "d142b31fa276dcebe32ee41f34097bb7a8c301f64b6eb4b9cebb8df076614f53",
+      "size": 107961
     },
     {
       "path": "models/scout_12.png",
-      "sha256": "18199e07cc355294c30dd4bcf4b21b5d2563b680688a2b698a95fe96af531980",
-      "size": 120087
+      "sha256": "d630907e7349ec64f6934328a780d1e3796349e981cbb46b8fb4865958eb9bcd",
+      "size": 120878
     },
     {
       "path": "models/scout_13.png",
-      "sha256": "ab0ed956293cb5649d3826caa21d510bea966f570ef1e43d268f8307ebee08e2",
-      "size": 1067
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
     },
     {
       "path": "models/scout_14.png",
-      "sha256": "389c159f8da8518ee00a1371dc07a96f04f405ee4f679c6b38378c874c3583ff",
-      "size": 109353
+      "sha256": "a6f5a07c4ab1643af1e49ad2bfe8e620543f8f1a74029ed2d23b46266d552415",
+      "size": 107426
     },
     {
       "path": "models/scout_15.png",
-      "sha256": "9b5fd98700f84fd6990e86b1a0af2b1a2ff6bc434a8f10e85e2ed016969c7b8f",
-      "size": 109905
+      "sha256": "d142b31fa276dcebe32ee41f34097bb7a8c301f64b6eb4b9cebb8df076614f53",
+      "size": 107961
     },
     {
       "path": "models/scout_16.png",
-      "sha256": "389c159f8da8518ee00a1371dc07a96f04f405ee4f679c6b38378c874c3583ff",
-      "size": 109353
+      "sha256": "a6f5a07c4ab1643af1e49ad2bfe8e620543f8f1a74029ed2d23b46266d552415",
+      "size": 107426
     },
     {
       "path": "models/scout_2.png",
-      "sha256": "6a2f43ac9075896817d7946620c697e176e3d73f3a8f58a94bf18c91bbff2bd1",
-      "size": 151
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
     },
     {
       "path": "models/scout_3.png",
-      "sha256": "6a2f43ac9075896817d7946620c697e176e3d73f3a8f58a94bf18c91bbff2bd1",
-      "size": 151
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
     },
     {
       "path": "models/scout_4.png",
-      "sha256": "77bb215ce1d3afec90ec46ad7228b3017f54e4e2f9346672641a385883be8afb",
-      "size": 81199
+      "sha256": "dd4499ef66c30ed1414f39e9487e099e6249a7689cc158baaf246ac2d6a29fff",
+      "size": 81477
     },
     {
       "path": "models/scout_5.png",
-      "sha256": "5d614b919a498671de4cb496d3f4fdbb7ed1c55df90449095976fa9e7d96f05a",
-      "size": 188455
+      "sha256": "fbf14b80bb3af546bdb876bfe6c0da143c6f19cacc8f35a8a619a656f479d779",
+      "size": 189167
     },
     {
       "path": "models/scout_6.png",
-      "sha256": "f425147b815ff796cf41ec81f6549e2a78ab1db94493ed5d3f0bd30856ff2771",
-      "size": 33603
+      "sha256": "2d3ec7cd4d49cbd7e154474231bcd14c84dacd6060d5b5a0f78aa9f05e5052b9",
+      "size": 34052
     },
     {
       "path": "models/scout_7.png",
-      "sha256": "d300e2937bc79e28f0b2f53bf9757e4e3e296c3eac2a6b9bd8511fcd3d1b542f",
-      "size": 33403
+      "sha256": "34694003071196adf9168f302cdd1b3df7ec1a191731d07a646be8509b925152",
+      "size": 33535
     },
     {
       "path": "models/scout_8.png",
-      "sha256": "ab0ed956293cb5649d3826caa21d510bea966f570ef1e43d268f8307ebee08e2",
-      "size": 1067
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
     },
     {
       "path": "models/scout_9.png",
-      "sha256": "2741d9b2ae6fba68c616c8231cf16f8065ecb41393941b21ae96d0bf3dc8aa73",
-      "size": 35832
+      "sha256": "914509a839a0f38f46bbbd804d3441e5028c2abc8bc20822d71928b9514fdf7b",
+      "size": 36135
     },
     {
       "path": "models/scout_weapon_0.png",
-      "sha256": "21a3c577853df1d86066e238891706cbd8e6d96269164aefd6e70fb6c670995c",
-      "size": 65241
+      "sha256": "e7e05ea932101c2e630e03eeddbf4cbc96b1dc0f1eab7259de06597a25304817",
+      "size": 66545
     },
     {
       "path": "models/scout_weapon_1.png",
-      "sha256": "f1657550e543f0350bb42f0c4f3bf956123d26e9c9a5da23b86686ed74dacaa7",
-      "size": 80503
+      "sha256": "8a9dd8a85638c79c28483c0df2e1daf94d9d374ed788f0cbf1669b5a7baf8dc7",
+      "size": 82335
     },
     {
       "path": "models/sniper.atlas.png",
@@ -428,113 +608,113 @@
     },
     {
       "path": "models/sniper_0.png",
-      "sha256": "5cb72b0a5268548a508a75c6a8fcdcf4ea2667fe14186e0b60a82e00bfae0e60",
-      "size": 75668
+      "sha256": "4d3bb9060710e704a8acc98c1b87ff1f61b83836fb637c145f850b5c76e50600",
+      "size": 76312
     },
     {
       "path": "models/sniper_1.png",
-      "sha256": "6acbc0021c90b3916627ff2676066b1a29d0c7d0ae2d749993e6dde1821c1b70",
-      "size": 17777
+      "sha256": "786f148de260102d333e951b56138cae0b9aa99a656467389726418deeb6c1c7",
+      "size": 17970
     },
     {
       "path": "models/sniper_10.png",
-      "sha256": "ab0ed956293cb5649d3826caa21d510bea966f570ef1e43d268f8307ebee08e2",
-      "size": 1067
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
     },
     {
       "path": "models/sniper_11.png",
-      "sha256": "e923a93dd0de1cf96b6e3ca36f9fe3a3a9e69ccd6e84d7026140e3483f346585",
-      "size": 301
+      "sha256": "6daef494c04a8067e082469ae2afcb889f81e324955a3753c62d8726478cd4cc",
+      "size": 303
     },
     {
       "path": "models/sniper_12.png",
-      "sha256": "8557400253d18d720ab1539617c9fde5cbd7fa41a0b89d847e589a9f850faac5",
-      "size": 35034
+      "sha256": "9e5e432b2b138e6a50acad1e53d2c1c82d10dcd1820c3c2b474f7a373fe9cfe2",
+      "size": 35202
     },
     {
       "path": "models/sniper_13.png",
-      "sha256": "74b6b9ca4ebf3dd6d8f8ddda69c956570f9ad471bd57887269f49cd45d99a5f2",
-      "size": 28658
+      "sha256": "34225ac501cd2c61cc0302b293c3891154d0f8c29385bf9943eb53bbcc41f83b",
+      "size": 28769
     },
     {
       "path": "models/sniper_14.png",
-      "sha256": "8e5f9c0338b7a9680cac24fef5e29977021c3248800c32f96959249f5c5cb000",
-      "size": 73248
+      "sha256": "7acb581560fd01909145d91c0ab6944c3516253ac7f17bceab775e59099fe5ec",
+      "size": 72755
     },
     {
       "path": "models/sniper_15.png",
-      "sha256": "b1ccebd6fd9ed859a545be168c286e497644d1b97e2a83cc18417c4561381b85",
-      "size": 116146
+      "sha256": "32e5779a836eb7eedae901f7f4baad5501d90d6328713aca7e2a2c1187ddd13b",
+      "size": 117096
     },
     {
       "path": "models/sniper_16.png",
-      "sha256": "ab0ed956293cb5649d3826caa21d510bea966f570ef1e43d268f8307ebee08e2",
-      "size": 1067
+      "sha256": "af7acdbc70187ae3d28419ee80b68bc6ea96eda41c9f7e105470f63fb06f020a",
+      "size": 1080
     },
     {
       "path": "models/sniper_17.png",
-      "sha256": "32c582c885c6e1a0f0856bbb49263843462cad800039c9f8f103b0f9889f8173",
-      "size": 71866
+      "sha256": "899f3c6ab9a02e7651709d65186ccb5bf0ea1b324c57cd458243d429ee97a1d7",
+      "size": 71694
     },
     {
       "path": "models/sniper_18.png",
-      "sha256": "8e5f9c0338b7a9680cac24fef5e29977021c3248800c32f96959249f5c5cb000",
-      "size": 73248
+      "sha256": "7acb581560fd01909145d91c0ab6944c3516253ac7f17bceab775e59099fe5ec",
+      "size": 72755
     },
     {
       "path": "models/sniper_19.png",
-      "sha256": "32c582c885c6e1a0f0856bbb49263843462cad800039c9f8f103b0f9889f8173",
-      "size": 71866
+      "sha256": "899f3c6ab9a02e7651709d65186ccb5bf0ea1b324c57cd458243d429ee97a1d7",
+      "size": 71694
     },
     {
       "path": "models/sniper_2.png",
-      "sha256": "6a2f43ac9075896817d7946620c697e176e3d73f3a8f58a94bf18c91bbff2bd1",
-      "size": 151
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
     },
     {
       "path": "models/sniper_3.png",
-      "sha256": "970321f713a27c93136d7a06563aea740536fe26fd314e2c179b7ea1b2ac2788",
-      "size": 162960
+      "sha256": "58326a6ae1d27160f1e84bde7365a2dfba85ee7c59fb3462fca1cdaabc115969",
+      "size": 163681
     },
     {
       "path": "models/sniper_4.png",
-      "sha256": "6a2f43ac9075896817d7946620c697e176e3d73f3a8f58a94bf18c91bbff2bd1",
-      "size": 151
+      "sha256": "f92766719b80085cc18ef6834a96198a145d604b7956642c0ae04a015c022a86",
+      "size": 149
     },
     {
       "path": "models/sniper_5.png",
-      "sha256": "348bbca015a6fd805fba67d9288776d0b0506e230e7f9cb71bf634e0254ce1f5",
-      "size": 35278
+      "sha256": "9fe2cc7ac9e845dd0d9b7c7e48dd8d821130fa92f068f54970e108c141e6d802",
+      "size": 35589
     },
     {
       "path": "models/sniper_6.png",
-      "sha256": "96bfb16f8c7ba6b1555711737461e669601db59bfee913f10b216a54ec3f5270",
-      "size": 76510
+      "sha256": "729fb3d36176008dee68cea590d61a13128d0d553656e5ecaaa55ca19cb44bb3",
+      "size": 77049
     },
     {
       "path": "models/sniper_7.png",
-      "sha256": "970321f713a27c93136d7a06563aea740536fe26fd314e2c179b7ea1b2ac2788",
-      "size": 162960
+      "sha256": "58326a6ae1d27160f1e84bde7365a2dfba85ee7c59fb3462fca1cdaabc115969",
+      "size": 163681
     },
     {
       "path": "models/sniper_8.png",
-      "sha256": "2f5f10a232d3063901635d16078ada0aaeea00ed8fa7f6dd674809362ca88a4c",
-      "size": 31349
+      "sha256": "f3fb6140c9b2a7f891815fc5753a7267258c69f18a44bf77ac1b93a737ef139d",
+      "size": 31726
     },
     {
       "path": "models/sniper_9.png",
-      "sha256": "f3f698b1d308bf3961c395ec221dfa89fd7277313fb61077ec8692eb9ff92de8",
-      "size": 24175
+      "sha256": "aaf3a3ee713ae1fdd20ba1104965e56d204c199bbf4e7d31688dead25f4c9f70",
+      "size": 24401
     },
     {
       "path": "models/sniper_weapon_0.png",
-      "sha256": "c36574c19619e22c0ffb82201744ad5093fda01543c2dbb1cb8b88b7021ec304",
-      "size": 71719
+      "sha256": "8520ae43808585afaaff640cc382176c321aa8960fc60323323071eb694b525b",
+      "size": 72126
     },
     {
       "path": "models/sniper_weapon_1.png",
-      "sha256": "52ddd70dbd1cf273f32f40cf8b2bb7c56999b0950b99148251f82145e19f5686",
-      "size": 68111
+      "sha256": "8afaf66a9e08692de35283e43cc4bb888f6591db5065c7696408b41353067720",
+      "size": 68632
     },
     {
       "path": "models/soldier.tfpose",
@@ -23763,8 +23943,8 @@
     },
     {
       "path": "tf2_pages.lua",
-      "sha256": "48e72e976ca99ffcd155e4d0ec941576177e8d7379b2d92acd92e6645c4c2eb3",
-      "size": 20348
+      "sha256": "85282aa609fe85464676986a2a856e314fb6078609ff0ceba99daaa3f9c3951f",
+      "size": 20381
     },
     {
       "path": "weapons/catalog.json",
