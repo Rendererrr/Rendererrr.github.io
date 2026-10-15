@@ -318,6 +318,14 @@
       "bytes": 4194376,
       "sha256": "7fb88006e4e700b17d05c28e2d841aff13946dfebe7ddcd8ddebd8c80903b19d"
     },
+    "assets/vfx/materials/scooby_vfx/chams/ember_field.vtex_c": {
+      "bytes": 4194376,
+      "sha256": "a63e6e77dfb5eb1dffef29ed81206cb5e9359b56a1187004fff12febdb649762"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/frost_lattice.vtex_c": {
+      "bytes": 4194376,
+      "sha256": "176c6cac8d74301a58e737f0cdc65df1f0d7f78c95c037c850bc07e7236b2f6e"
+    },
     "assets/vfx/materials/scooby_vfx/chams/galaxy.vtex_c": {
       "bytes": 4194376,
       "sha256": "387db30d39b8bf7a1ea77e1b36f18f93c0baf27ad33207a0f554bdf77f33dbb5"
@@ -325,6 +333,10 @@
     "assets/vfx/materials/scooby_vfx/chams/heat.vtex_c": {
       "bytes": 4194376,
       "sha256": "e81faf663dd6fbfb97f88f9c7d412fa0e6d794571863414166325f8623af980f"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/magma_cracks.vtex_c": {
+      "bytes": 4194376,
+      "sha256": "5a0cadb23f71b67e51aa49ba6b4177fa18af54b45e24bad0441b8fd48b1c6a09"
     },
     "assets/vfx/materials/scooby_vfx/chams/marble.vtex_c": {
       "bytes": 4194376,
@@ -342,6 +354,18 @@
       "bytes": 4194376,
       "sha256": "a3127ab6a58ad137013da95177e69dc56951e7e999150047bb2fa037e22a8276"
     },
+    "assets/vfx/materials/scooby_vfx/chams/oil_slick.vtex_c": {
+      "bytes": 4194376,
+      "sha256": "fb3a8bd35eb7331dcf92cb3341d6e5bfc02af50f7cab4a997b2434c372bf1021"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/organic_mass.vtex_c": {
+      "bytes": 4194376,
+      "sha256": "f63bcaf887beca447820de7f20c6aad9137cd29f92cd3a642abdca58784c029f"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/plasma_coil.vtex_c": {
+      "bytes": 4194376,
+      "sha256": "fdb312ae922b265f1af9f295a1ea9d4eb492253a978e58dc19ac6ea26651a31e"
+    },
     "assets/vfx/materials/scooby_vfx/chams/scales.vtex_c": {
       "bytes": 4194376,
       "sha256": "97a0da10d8a13ebb512f7e2a2e407b918a2f64fdc4bc3b8782887373d4c9aca9"
@@ -349,6 +373,10 @@
     "assets/vfx/materials/scooby_vfx/chams/starfield.vtex_c": {
       "bytes": 4194376,
       "sha256": "f6a2d0ac331af498ea767badcb50eca5c27d08ffe0e0bc02a54998002be98b1b"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/weapon_carbon.vtex_c": {
+      "bytes": 4194376,
+      "sha256": "5db6617b7cb4f794bc4208a98056ec05cea293b09cd208632efc737bb60d5d40"
     },
     "assets/vfx/materials/scooby_vfx/sky/aurora.vmat_c": {
       "bytes": 842,
@@ -402,6 +430,18 @@
       "bytes": 262216,
       "sha256": "77299915358ed14dc2c786516b7c6b8660efdc6253e549d915238b1d9cf7a64f"
     },
+    "assets/vfx/particles/scooby_vfx/combat/crimson_burst.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "bd6bff24cc02f327d9a400a039e8ec6e89cee760c7bd2b9ad0baaecb845c7b36"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/frost_burst.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "0532b1b7abab4410869422c50726dc5185ed489fd2470c4381c417430a7bc917"
+    },
+    "assets/vfx/particles/scooby_vfx/lights/player.vpcf_c": {
+      "bytes": 1704,
+      "sha256": "89d6829dd4779658d201199ea3219a0b8f6d55d257462a493f7961e8c07012b1"
+    },
     "assets/vfx/particles/scooby_vfx/weather/ash.vpcf_c": {
       "bytes": 2815,
       "sha256": "3f4b8b5e1f9cc4343ec389f287cfbd02f22901f0f170e4568a884fbada8bca44"
@@ -443,8 +483,8 @@
       "sha256": "54d9ced010012f4756253b01074cfa387a84cea43849d70a860549416fcc063d"
     },
     "assets/vfx/manifest.json": {
-      "bytes": 10425,
-      "sha256": "5441b1ffafdc03944508f680920db86fb167c5b3b26263b2d5fbd391cd6cb12f"
+      "bytes": 11649,
+      "sha256": "b692689b2c83292d246e3c50fea980b54ab156cbcb79b371a3ca6d8ce658a302"
     },
     "assets/vfx/README.md": {
       "bytes": 1585,
