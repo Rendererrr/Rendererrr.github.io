@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "version": "6256d3d55f8cae63f4f1175dc02cd119eff7dd55ecda3bdffd3f84b81687f584",
+  "version": "b5ae04d47755237f419c267cf517bca943b73616c0161002c698648f378c7ab9",
   "archive": {
-    "path": "assets-6256d3d55f8cae63f4f1175dc02cd119eff7dd55ecda3bdffd3f84b81687f584.zip",
-    "sha256": "6256d3d55f8cae63f4f1175dc02cd119eff7dd55ecda3bdffd3f84b81687f584",
-    "size": 35012793
+    "path": "assets-b5ae04d47755237f419c267cf517bca943b73616c0161002c698648f378c7ab9.zip",
+    "sha256": "b5ae04d47755237f419c267cf517bca943b73616c0161002c698648f378c7ab9",
+    "size": 54996206
   },
   "files": [
     {
@@ -131,6 +131,16 @@
       "path": "fonts/manifest.json",
       "bytes": 5346,
       "sha256": "e53131b8048336c7d349c255afb7b0cb55b3004d04a4d95ac50ab1d565b0be25"
+    },
+    {
+      "path": "images/radar/gtav_atlas.png",
+      "bytes": 20126929,
+      "sha256": "ae02b182b6c7e96849c8165967942d11196027aba0ddf9fa7f3927ab15828832"
+    },
+    {
+      "path": "images/radar/source.json",
+      "bytes": 380,
+      "sha256": "6c8ac02ca8ddd3297fe97d1264092e932f3f6114b5bb4ca6379ff7cf6bf64d20"
     },
     {
       "path": "images/scooby-logo.png",
