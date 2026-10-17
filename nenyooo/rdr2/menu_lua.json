@@ -92,8 +92,18 @@
     },
     {
       "root": "ui",
+      "rel": "features/ammo_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/ammo_hud.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/animation_history.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/animation_history.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/cinematic_frame.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/cinematic_frame.lua"
     },
     {
       "root": "ui",
@@ -104,6 +114,11 @@
       "root": "ui",
       "rel": "features/compass.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/compass.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/crosshair_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/crosshair_hud.lua"
     },
     {
       "root": "ui",
@@ -127,6 +142,11 @@
     },
     {
       "root": "ui",
+      "rel": "features/g_force_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/g_force_hud.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/god_of_thunder.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/god_of_thunder.lua"
     },
@@ -144,6 +164,11 @@
       "root": "ui",
       "rel": "features/hunter_mode.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/hunter_mode.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/inclinometer_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/inclinometer_hud.lua"
     },
     {
       "root": "ui",
@@ -172,6 +197,21 @@
     },
     {
       "root": "ui",
+      "rel": "features/mount_vitals_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/mount_vitals_hud.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/position_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/position_hud.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/rangefinder_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/rangefinder_hud.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/recipe_browser.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/recipe_browser.lua"
     },
@@ -187,6 +227,16 @@
     },
     {
       "root": "ui",
+      "rel": "features/speedometer.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/speedometer.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/stopwatch.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/stopwatch.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/train_controller.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/train_controller.lua"
     },
@@ -194,6 +244,11 @@
       "root": "ui",
       "rel": "features/triggerbot.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/triggerbot.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/vitals_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/vitals_hud.lua"
     },
     {
       "root": "ui",
@@ -207,8 +262,18 @@
     },
     {
       "root": "ui",
+      "rel": "features/weapon_condition_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/weapon_condition_hud.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/weapon_locker_tools.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/weapon_locker_tools.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/world_clock.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/world_clock.lua"
     },
     {
       "root": "ui",
