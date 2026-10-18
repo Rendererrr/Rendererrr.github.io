@@ -1804,6 +1804,519 @@
           "sha256": "509c2a182e694850327b12ec944bf631fd302e284a96678dbe2a48866223830d"
         }
       ]
+    },
+    {
+      "theme": "Prism-LED",
+      "file": "Scooby-CustomTextures-Prism-LED-v1.zip",
+      "bytes": 4379548,
+      "sha256": "9042b269a99db3ca08c8c534d7b38031018f634e2428448fd3ad766ebae58543",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "prism-led",
+        "title": "Prism-LED",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "vehicle_shared_lights",
+          "exact_names": [
+            "vehicle_generic_light",
+            "vehicle_generic_lights"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Prism-LED/Prism-LED-2K-Motion.gif",
+          "jpg": "Original/Prism-LED/Prism-LED-4K.jpg",
+          "png": "Original/Prism-LED/Prism-LED-4K.png"
+        },
+        "preview": "Original/Prism-LED/Prism-LED-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Prism-LED/Prism-LED-2K-Motion.gif",
+          "size": 809137,
+          "sha256": "107f4ed60c5ad845f0584531aa961e9cd1e4d6d563bc5f77314e668d786ff726",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Prism-LED/Prism-LED-4K.jpg",
+          "size": 1102892,
+          "sha256": "08bf72a1eef4ae3b11d964845ce169ee0c80fdd97dd87a9921f42de1e9093f4a",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Prism-LED/Prism-LED-4K.png",
+          "size": 3290251,
+          "sha256": "66f789fde3063f41eff7926784b8d5be7cb38a5c47204a426129a9d0014bb9d7",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Prism-LED/texture-preset.json",
+          "size": 843,
+          "sha256": "e7811bb27f03847725d56d03f797e88db2f9725e16758392121ca5e6a497c441"
+        }
+      ]
+    },
+    {
+      "theme": "Scooby-Glow",
+      "file": "Scooby-CustomTextures-Scooby-Glow-v1.zip",
+      "bytes": 4071303,
+      "sha256": "53402b9ef50c3b6b3102e01ddfacbff5db9682f7d4bd2625d26accd7a74b41d9",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "scooby-glow",
+        "title": "Scooby-Glow",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "vehicle_shared_lights",
+          "exact_names": [
+            "vehicle_generic_light",
+            "vehicle_generic_lights"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Scooby-Glow/Scooby-Glow-2K-Motion.gif",
+          "jpg": "Original/Scooby-Glow/Scooby-Glow-4K.jpg",
+          "png": "Original/Scooby-Glow/Scooby-Glow-4K.png"
+        },
+        "preview": "Original/Scooby-Glow/Scooby-Glow-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Scooby-Glow/Scooby-Glow-2K-Motion.gif",
+          "size": 737855,
+          "sha256": "f3465fca6090955398883422928abe3429a679ad73d3114f890834b7c30cc76b",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Scooby-Glow/Scooby-Glow-4K.jpg",
+          "size": 1143887,
+          "sha256": "31a39136c98d42220220f776e47c4f040a20dc58330213b44dabdd41f1e35a6e",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Scooby-Glow/Scooby-Glow-4K.png",
+          "size": 3137154,
+          "sha256": "acb4ad21f820777bbdbe1dbc1e5ccea6a51bd5d6d1185ef5a99c16c015b38653",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Scooby-Glow/texture-preset.json",
+          "size": 863,
+          "sha256": "39734580e9577b326ccd132680ee33bdde2e73cf77aa775b12f48c0ac54934e0"
+        }
+      ]
+    },
+    {
+      "theme": "Crystal-Concrete",
+      "file": "Scooby-CustomTextures-Crystal-Concrete-v1.zip",
+      "bytes": 41478332,
+      "sha256": "c25a2b391d83b2377092bb1a81ef2914d185500e67b2d1b908d3deed1388877e",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "crystal-concrete",
+        "title": "Crystal-Concrete",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "surface_names",
+          "name_contains": [
+            "concrete",
+            "asphalt",
+            "brick"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "normal",
+            "spec",
+            "mask"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Crystal-Concrete/Crystal-Concrete-2K-Motion.gif",
+          "jpg": "Original/Crystal-Concrete/Crystal-Concrete-4K.jpg",
+          "png": "Original/Crystal-Concrete/Crystal-Concrete-4K.png"
+        },
+        "preview": "Original/Crystal-Concrete/Crystal-Concrete-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Crystal-Concrete/Crystal-Concrete-2K-Motion.gif",
+          "size": 7513143,
+          "sha256": "187b9465df01527a3b5e9867872b7e7f2215b57419f5dae13b9b3d9071efcbb1",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Crystal-Concrete/Crystal-Concrete-4K.jpg",
+          "size": 6321815,
+          "sha256": "3d0102eb6852951d95355cd5cbcdb76fd807f1a8120bbfc3f124e2ac27671b95",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Crystal-Concrete/Crystal-Concrete-4K.png",
+          "size": 28346476,
+          "sha256": "d738640b7d92520b8372cbee41d01b752fce924dd4d5b498a42a95c31fd1d06c",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Crystal-Concrete/texture-preset.json",
+          "size": 1038,
+          "sha256": "e341d12bd8ecb2573d0f56d5747d072a07b8cf76c9fcbf99e82fe59ab249549b"
+        }
+      ]
+    },
+    {
+      "theme": "Lava-Asphalt",
+      "file": "Scooby-CustomTextures-Lava-Asphalt-v1.zip",
+      "bytes": 25467177,
+      "sha256": "b8af3837ae7731f7ef06d1e5952c70189894824744218c607752d62213b2d6e0",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "lava-asphalt",
+        "title": "Lava-Asphalt",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "surface_names",
+          "name_contains": [
+            "concrete",
+            "asphalt",
+            "brick"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "normal",
+            "spec",
+            "mask"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Lava-Asphalt/Lava-Asphalt-2K-Motion.gif",
+          "jpg": "Original/Lava-Asphalt/Lava-Asphalt-4K.jpg",
+          "png": "Original/Lava-Asphalt/Lava-Asphalt-4K.png"
+        },
+        "preview": "Original/Lava-Asphalt/Lava-Asphalt-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Lava-Asphalt/Lava-Asphalt-2K-Motion.gif",
+          "size": 1346714,
+          "sha256": "06e0db3ba3a8c40a6a3cf1bbc0e8d509803cf0caeecfd4f83bdd99ec42e0e62c",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Lava-Asphalt/Lava-Asphalt-4K.jpg",
+          "size": 4541933,
+          "sha256": "6e5ea3721eb088e14eea404244f4db8a8fc9eb5d9e630509765a4a3dfc8921c7",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Lava-Asphalt/Lava-Asphalt-4K.png",
+          "size": 20020156,
+          "sha256": "39e88785ed645b1141f0d76c6754c3310f78f2349fdfa5a531c47595c5fe0278",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Lava-Asphalt/texture-preset.json",
+          "size": 998,
+          "sha256": "ad9a0f4540e40556e7987a3c1bc13b7147c5cf7c13c0fb47e93e9692392214c1"
+        }
+      ]
+    },
+    {
+      "theme": "Velvet-Interior",
+      "file": "Scooby-CustomTextures-Velvet-Interior-v1.zip",
+      "bytes": 1062656,
+      "sha256": "314b2a38a16261e69730c448ecdf6f1fdc764b99d1467050b796b2d1cfc3e482",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "velvet-interior",
+        "title": "Velvet-Interior",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "vehicle_shared_interiors",
+          "exact_names": [
+            "vehicle_generic_interior",
+            "vehicle_generic_interior2",
+            "vehicle_generic_truck_interior"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Velvet-Interior/Velvet-Interior-2K-Motion.gif",
+          "jpg": "Original/Velvet-Interior/Velvet-Interior-4K.jpg",
+          "png": "Original/Velvet-Interior/Velvet-Interior-4K.png"
+        },
+        "preview": "Original/Velvet-Interior/Velvet-Interior-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Velvet-Interior/Velvet-Interior-2K-Motion.gif",
+          "size": 372281,
+          "sha256": "5d8d3c424c40d6d5fc51e60e5785c2c7eb31770463b697181cf07d4fd1181c73",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Velvet-Interior/Velvet-Interior-4K.jpg",
+          "size": 10450934,
+          "sha256": "7de1318c500a9e6f76b9c3a66d13200a764865dea3d27c285fb2cd6e567e41ab",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Velvet-Interior/Velvet-Interior-4K.png",
+          "size": 899931,
+          "sha256": "82ff0bda68903ca703d227fbfccd496e5835e5f76c9b89cbd323d98e593162ad",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Velvet-Interior/texture-preset.json",
+          "size": 952,
+          "sha256": "a131879768c6bfef8677645adafefcedf5c8d10d7fb8bfc5a6f046160851bf4a"
+        }
+      ]
+    },
+    {
+      "theme": "Retro-Arcade",
+      "file": "Scooby-CustomTextures-Retro-Arcade-v1.zip",
+      "bytes": 4614706,
+      "sha256": "612c538b5f0d5a46b1f7bb9361afc1e70148ce93f7ccdc8a38ef26c7715d7d87",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "retro-arcade",
+        "title": "Retro-Arcade",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "vehicle_liveries",
+          "numbered_suffixes": [
+            "_sign_",
+            "_livery_"
+          ],
+          "examples": [
+            "policenew_sign_1"
+          ],
+          "require_digits_after_suffix": true
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Retro-Arcade/Retro-Arcade-2K-Motion.gif",
+          "jpg": "Original/Retro-Arcade/Retro-Arcade-4K.jpg",
+          "png": "Original/Retro-Arcade/Retro-Arcade-4K.png"
+        },
+        "preview": "Original/Retro-Arcade/Retro-Arcade-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Retro-Arcade/Retro-Arcade-2K-Motion.gif",
+          "size": 816191,
+          "sha256": "cac6debf66c98f855dbf7ecab4a58dca4e01832af51c13797078b1b4f31c4c1a",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Retro-Arcade/Retro-Arcade-4K.jpg",
+          "size": 3074431,
+          "sha256": "0fd08d94e442ee94adc41b66e58bcae954feeb1a74dafa22021feb1ceaad66d3",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Retro-Arcade/Retro-Arcade-4K.png",
+          "size": 1746557,
+          "sha256": "2f4370d8073fdc7b1cd07c5e78151c62c21af6f786cc681fcd597f50b2e703c1",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Retro-Arcade/texture-preset.json",
+          "size": 936,
+          "sha256": "99a1f50181d49ed596c554cc3df45615e1edf4879d03acc39e22da856b6750cc"
+        }
+      ]
     }
   ]
 }
