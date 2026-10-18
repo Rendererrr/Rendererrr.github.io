@@ -1,11 +1,11 @@
 {
   "archives": [
     {
-      "count": 152,
+      "count": 148,
       "first": 0,
-      "path": "assets-246da6c9d8d1c915e7835e9fac203dcc2b07388e51de260b27d8a1dc157f9a2d.zip",
-      "sha256": "246da6c9d8d1c915e7835e9fac203dcc2b07388e51de260b27d8a1dc157f9a2d",
-      "size": 35038331
+      "path": "assets-905f4fce4c922630cff8f2b73b736cfeb88d9797bf07131553c1d8968cef77a6.zip",
+      "sha256": "905f4fce4c922630cff8f2b73b736cfeb88d9797bf07131553c1d8968cef77a6",
+      "size": 35208739
     }
   ],
   "files": [
@@ -366,7 +366,7 @@
     },
     {
       "path": "objects/catalog.json",
-      "sha256": "f9b266461f782bf712cba015105ce27457c72491b9ecb93fbb39912a297c55c7",
+      "sha256": "649522f8c4ba390ade29d4a2fb5b693a589d9396522fda1bf2558ad08db90c27",
       "size": 1862
     },
     {
@@ -436,8 +436,8 @@
     },
     {
       "path": "radar/catalog.json",
-      "sha256": "7d7765c1ca32c08486278243332249e9759b36e24bb50b4a397be9fb1bc3898c",
-      "size": 23869
+      "sha256": "1327660f7eeb30bd845fa2a77a0045dfdcda4d34823592181e25d25e62a3f3f9",
+      "size": 22645
     },
     {
       "path": "radar/class_1.rgba",
@@ -540,43 +540,38 @@
       "size": 16400
     },
     {
-      "path": "radar/tf_weapon_bat.rgba",
-      "sha256": "2b3db2a0a5fb123e2deb3732846119e9ddaaf87e75cc7e16292dd9eb04511038",
-      "size": 16400
-    },
-    {
       "path": "radar/tf_weapon_bonesaw.rgba",
-      "sha256": "eac56d922a39f4288fa0ab2ca9e6a4e1cd1a86b395d414d5f5a0bc2802a33deb",
+      "sha256": "7e2467e20744c82d5f4d46da037f606757600175b9392cbaf55ede492f0cce97",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_bottle.rgba",
-      "sha256": "0c9e94dfdf2fd2e772c647e1eef87b8de97456a81b5048c60ee5c22f80c940d3",
+      "sha256": "06e46e69aeeb3b4da71aaf9dd90028b246121cb7b2110e0c4a8d5ff96f6725f4",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_builder.rgba",
-      "sha256": "5d77b1cef2f6ba05f228b9991fd946232031eaff6b724cadb1a065e9a9942710",
+      "sha256": "32bcf4fbf78dc4ca8ec6241a30bcbfebf8bdafd2e18dc814f017e921cbe9dcc4",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_club.rgba",
-      "sha256": "c0df9604c26faa6c6265f16f5b2e5826ae1ae15e53210b8100787f1d2d9582e9",
+      "sha256": "004f390781fed59f887746dd073710ac690ae4792dbdc3835a3615abc25e9c51",
+      "size": 16400
+    },
+    {
+      "path": "radar/tf_weapon_compound_bow.rgba",
+      "sha256": "285794b361e10985d443726849b431d485097e81235ffdb7adf4343906ed2e1b",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_fireaxe.rgba",
-      "sha256": "0074618388ee75e2cafff5d8d72ccec2e0569ef66b5d26012c697b73ceff3f59",
+      "sha256": "c188cadf9e1178e606ad01cc7fa992289cdd39b4e85adfc5ecf154c7f0935f4e",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_fists.rgba",
-      "sha256": "49ac8136630b40f2fadff67a2ea548e3149546f68eb2f4940e3934adf8d115f3",
-      "size": 16400
-    },
-    {
-      "path": "radar/tf_weapon_flamethrower.rgba",
-      "sha256": "6397fad7e8724a40aae5500ae80daa08d120ddccf031dc20fbf630b662b4a85d",
+      "sha256": "7f8daa080223dbd09400d80d8a97e78d1f70bcfaaddc380a8f12da406b579553",
       "size": 16400
     },
     {
@@ -586,27 +581,27 @@
     },
     {
       "path": "radar/tf_weapon_grenadelauncher.rgba",
-      "sha256": "055d8f2ba2bb81cbd017e1eae42d2194e91a1fab1357298f28a2e1c615eb11c9",
+      "sha256": "9437b205f06c0f652e4ca8c461ce91adef8c13e33c4227cb3ed03eb0539652e2",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_invis.rgba",
-      "sha256": "9200520d0314022badd63bd14a0751d75d12e308fa9e7adb4083bb7c85204abe",
+      "sha256": "6956a898d02ce8f72cbaa6540e0ca5e6cea746763452620ecfb481c074d68cd4",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_knife.rgba",
-      "sha256": "027900c9c92e718daee6c50fe96de0199a258913dcfd146de68d1ee7e56951c2",
+      "sha256": "cd80557f1d4934157b995083a4b1ff440ca1540116cbb018accef42cdc21a6c3",
       "size": 16400
     },
     {
-      "path": "radar/tf_weapon_medigun.rgba",
-      "sha256": "64227a8587067b3ef208f6be2b41d62d06ccdd26a6c78c27f56ddcc1ad9dba91",
+      "path": "radar/tf_weapon_lunchbox.rgba",
+      "sha256": "36fb4e4b8c5006be5ac9578e96685eeca5c985ea4187af7c7d527fb37f7035ac",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_minigun.rgba",
-      "sha256": "ffd84a7c2eda3e8dc49d939aa999529b9e48b4b48f9d64254b0c5580f8166fd7",
+      "sha256": "e15fe88ab3219c5953f39d2fef3ed5323b84f7d70295439136d87ad632dfc85a",
       "size": 16400
     },
     {
@@ -615,63 +610,53 @@
       "size": 16400
     },
     {
-      "path": "radar/tf_weapon_pda_engineer_build.rgba",
-      "sha256": "8dda92ccb6401c51b919b8ec0f72261d70912cde6c076350d5cdb1eeede478b0",
-      "size": 16400
-    },
-    {
       "path": "radar/tf_weapon_pda_engineer_destroy.rgba",
-      "sha256": "7ffae9d51a93ec40ce29cadbce354d354d9e5cdb3e1762bc993361b391dec741",
-      "size": 16400
-    },
-    {
-      "path": "radar/tf_weapon_pda_spy.rgba",
-      "sha256": "825130dafb2aaf2633bc6fa9489b20d6c6b7915ea9a10c77661ea0016d899b71",
+      "sha256": "e85bde07dad4f97789f60207d6fe555ad2a74a5df36da9d479c2886329ad4560",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_pipebomblauncher.rgba",
-      "sha256": "b38007b2cdc3860bf1b194564a1094375075b847ffe798de82c5944d2ebcdc96",
+      "sha256": "75d389418ceb4367f1712594dc880480534d369fa8186528ab4defac88391fb6",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_pistol.rgba",
-      "sha256": "11a556176892e792332b9ac50d70496cf6238724dc4fb1e2b827cfb7c27d77c9",
+      "sha256": "8e6ddbc61c24e91c598bca8669422662e517dfe595c95f6063ca667d73883915",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_revolver.rgba",
-      "sha256": "181dba38fd5dd2b47daba2a3ef5bab806f99cc2609600206ece6fddff64cef59",
+      "sha256": "a79df31576042cd7971ff483614e7794369451f4cf1e2d12788569c3f3a6d1c2",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_rocketlauncher.rgba",
-      "sha256": "b5fe3af668d26a4da30b4ec45300fa79a25e3067d8d8b087015ce90d13e15e54",
+      "sha256": "5df1ab316c5ba6cfae093779259085f5bac58f567807a851885321223a5da71e",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_scattergun.rgba",
-      "sha256": "815468075d0d67338b4d90ecad68120169e3e272a5a8307d6914e98cefa6a112",
+      "sha256": "bed9b718f64aff29e8439de147d8afb3bf03b781bc6c8812656326165e5f369c",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_shotgun.rgba",
-      "sha256": "75109ad0a4b17ebf6d8dec9443dc1a49f812a5f3b2d0245362a724f1c68c353c",
+      "sha256": "db91b79f8b105df048c94aebb9a570473bea14dc604ee7f1348466e92d01b75e",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_shovel.rgba",
-      "sha256": "7d83bcd0e33b0d6853685d9dbf78b5df688f7858f461330cf62c8487aeeb474d",
+      "sha256": "ec4f095dcdefcc785ba569380a93fad15b1174774c305a31179cda909989d65f",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_smg.rgba",
-      "sha256": "396724fa84811267cafc0e8653bee8d2f712b854065a05430582886e46027547",
+      "sha256": "f8b95cd1c84bf42d12e645ed2aef86bcc6b87923960e60e013ece7ef859dadd4",
       "size": 16400
     },
     {
       "path": "radar/tf_weapon_sniperrifle.rgba",
-      "sha256": "73d336c4051dc95b4b83bcec9ff2071e16d51f34d77d9fe19bdc4c81d87f030b",
+      "sha256": "1ebaa8e3c6d98ea110f53722fb1d5e1e94280154b7729643d1686450bf409f88",
       "size": 16400
     },
     {
@@ -680,13 +665,8 @@
       "size": 16400
     },
     {
-      "path": "radar/tf_weapon_syringegun_medic.rgba",
-      "sha256": "a43e891bf8a126edbc53bd940831bfb0e9aae840ede0dab25a15cbf22a0ed8a6",
-      "size": 16400
-    },
-    {
       "path": "radar/tf_weapon_wrench.rgba",
-      "sha256": "4ef414c5f68ed6febac247696d6a1d94d16c27c4f9ff5a48a5f1c5574036095f",
+      "sha256": "9ce748b4c10e38c838dedbb6a8e148918a1e2178fe90d68947afc343d26bfca5",
       "size": 16400
     },
     {
@@ -766,7 +746,7 @@
     },
     {
       "path": "weapons/catalog.json",
-      "sha256": "f76f5fa809b3a0cbf2812f0384e834b3cd3e91eb83a78425212e0b082e17f9b1",
+      "sha256": "1c996c3817df1e2d353b28ae9d9f681a3bff58674114cd33776fc856f9d2a4cc",
       "size": 4019
     }
   ],
