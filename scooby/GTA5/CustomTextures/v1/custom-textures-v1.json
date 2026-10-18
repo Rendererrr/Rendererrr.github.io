@@ -1,0 +1,1809 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "theme": "Galaxy",
+      "file": "Scooby-CustomTextures-Galaxy-v1.zip",
+      "bytes": 18667645,
+      "sha256": "88f9ad5e9bb0287a0ebb757f1429dfd4e8c4ebacd4f95bdee6035cc983c2b2bf",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "galaxy",
+        "title": "Galaxy",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Galaxy/Galaxy-2K-Motion.gif",
+          "jpg": "Original/Galaxy/Galaxy-4K.jpg",
+          "png": "Original/Galaxy/Galaxy-4K.png"
+        },
+        "preview": "Original/Galaxy/Galaxy-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Galaxy/Galaxy-2K-Motion.gif",
+          "size": 2880509,
+          "sha256": "3bb70d05cb1d587d093790942001a7be2f9fb6fdb2db8735a3d3e95216dea769",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Galaxy/Galaxy-4K.jpg",
+          "size": 3388351,
+          "sha256": "fcdae1af111f30f15486aba8e90eff278c1a90f6120425b2d21b07a7796d28c0",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Galaxy/Galaxy-4K.png",
+          "size": 12650642,
+          "sha256": "7c95aa9e2607a49584a2118154ef8f5b57d9a24e2b88ae6cceeb97eb767a8137",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Galaxy/texture-preset.json",
+          "size": 1032,
+          "sha256": "7ed1025f9c5a8f1849a2a9dd04b580329b2326cff34a26ebe234395b8f92f3fa"
+        }
+      ]
+    },
+    {
+      "theme": "Acid-Spectrum",
+      "file": "Scooby-CustomTextures-Acid-Spectrum-v1.zip",
+      "bytes": 43086127,
+      "sha256": "68336ccda5db86753dad65deaaf81b235cf2645bd4443ded64d9b73da377a590",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "acid-spectrum",
+        "title": "Acid-Spectrum",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Acid-Spectrum/Acid-Spectrum-2K-Motion.gif",
+          "jpg": "Original/Acid-Spectrum/Acid-Spectrum-4K.jpg",
+          "png": "Original/Acid-Spectrum/Acid-Spectrum-4K.png"
+        },
+        "preview": "Original/Acid-Spectrum/Acid-Spectrum-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Acid-Spectrum/Acid-Spectrum-2K-Motion.gif",
+          "size": 7907647,
+          "sha256": "81f3c4b9760168b52911f6d8f37617159eb1be27214a3e4ce7705941104937e1",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Acid-Spectrum/Acid-Spectrum-4K.jpg",
+          "size": 9749093,
+          "sha256": "c8503678a24b8cd699573ee1b709067a40cb1faace01f87e2fa09c4441813676",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Acid-Spectrum/Acid-Spectrum-4K.png",
+          "size": 26099695,
+          "sha256": "63b79a95a8f809e54c4da77aa38ead8a8cd44a4e695f3c2739c483fd64e3d5d3",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Acid-Spectrum/texture-preset.json",
+          "size": 1102,
+          "sha256": "71e6bf3c170ab0ab3bf2110b829e66e2faa5eab68ec4f3eca47be6fcf8bab5c7"
+        }
+      ]
+    },
+    {
+      "theme": "Prism-Trance",
+      "file": "Scooby-CustomTextures-Prism-Trance-v1.zip",
+      "bytes": 38838564,
+      "sha256": "75e0dc118f8b71dbb03f1130fdb2216ae11d38b10bbd61bdb55699083920bf97",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "prism-trance",
+        "title": "Prism-Trance",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Prism-Trance/Prism-Trance-2K-Motion.gif",
+          "jpg": "Original/Prism-Trance/Prism-Trance-4K.jpg",
+          "png": "Original/Prism-Trance/Prism-Trance-4K.png"
+        },
+        "preview": "Original/Prism-Trance/Prism-Trance-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Prism-Trance/Prism-Trance-2K-Motion.gif",
+          "size": 7056732,
+          "sha256": "a6666846f7a255fb201cb0739677803c399702fe46020be801f9bb2bcba870e4",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Prism-Trance/Prism-Trance-4K.jpg",
+          "size": 8417222,
+          "sha256": "77770d1420cb555d506c9b8c2a53a22e5a16980fce34c5cbddd3f47ccfa22269",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Prism-Trance/Prism-Trance-4K.png",
+          "size": 24009456,
+          "sha256": "4dbc5ae2d2044f28f3bd4eece0bcff9832599664523a46bfb6646d5c783f5da3",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Prism-Trance/texture-preset.json",
+          "size": 1092,
+          "sha256": "d86cee8797d21287c048d1c266ff0bfd81b9f0a33f5406595b529e58c489cad2"
+        }
+      ]
+    },
+    {
+      "theme": "Deep-Space",
+      "file": "Scooby-CustomTextures-Deep-Space-v1.zip",
+      "bytes": 16556086,
+      "sha256": "27d32a9f75f9f2970b9ccb6c606e75ee0422a23b5c88e2b5d04872788c6faddf",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "deep-space",
+        "title": "Deep-Space",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Deep-Space/Deep-Space-2K-Motion.gif",
+          "jpg": "Original/Deep-Space/Deep-Space-4K.jpg",
+          "png": "Original/Deep-Space/Deep-Space-4K.png"
+        },
+        "preview": "Original/Deep-Space/Deep-Space-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Deep-Space/Deep-Space-2K-Motion.gif",
+          "size": 2046718,
+          "sha256": "c4a670bc5ccb788d1fe7ba6985af198ee6512bd164eecb41f6193fa87fc9f947",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Deep-Space/Deep-Space-4K.jpg",
+          "size": 3552994,
+          "sha256": "90bc122404d1b715655c7d8867dd76f53a91e0c40f7f06207b7b265433e964b6",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Deep-Space/Deep-Space-4K.png",
+          "size": 11176395,
+          "sha256": "82b2e0898e28f6db889190c6f8a5f3e3194ca027761b64577b63a1d9b1d54352",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Deep-Space/texture-preset.json",
+          "size": 1072,
+          "sha256": "5e9254959a954b5332a7a66d772179824573bf8645042735460d94c017af98c5"
+        }
+      ]
+    },
+    {
+      "theme": "Scooby-Mystery",
+      "file": "Scooby-CustomTextures-Scooby-Mystery-v1.zip",
+      "bytes": 2647892,
+      "sha256": "6ced1648986250ee649bbe574b42880578d3ca7720a5e1c2b34e5e99336a7831",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "scooby-mystery",
+        "title": "Scooby-Mystery",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Scooby-Mystery/Scooby-Mystery-2K-Motion.gif",
+          "jpg": "Original/Scooby-Mystery/Scooby-Mystery-4K.jpg",
+          "png": "Original/Scooby-Mystery/Scooby-Mystery-4K.png"
+        },
+        "preview": "Original/Scooby-Mystery/Scooby-Mystery-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Scooby-Mystery/Scooby-Mystery-2K-Motion.gif",
+          "size": 541616,
+          "sha256": "0403b8270f2fa75342aa2a8b749db3a52467b20bc527d40e42b7c49473356a30",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Scooby-Mystery/Scooby-Mystery-4K.jpg",
+          "size": 2497041,
+          "sha256": "0f7ca9cace80b9fd9a9c49576f17d71b46dcb006f876083ca97a46647878df04",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Scooby-Mystery/Scooby-Mystery-4K.png",
+          "size": 782123,
+          "sha256": "b2ce027db90f538b12e8bf99af7ccd97539f88f5d2f5a8da962cc2de3c3dbe65",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Scooby-Mystery/texture-preset.json",
+          "size": 1112,
+          "sha256": "b2763eb880b4d86d36067405573fbf1bf7d1688c61d8eb401ef39e4d9ea196f2"
+        }
+      ]
+    },
+    {
+      "theme": "Lunar-Ice",
+      "file": "Scooby-CustomTextures-Lunar-Ice-v1.zip",
+      "bytes": 23700014,
+      "sha256": "42ed5a2806a756220c02f75263400ab10b5cfd4e6ccc38cdba19ed87fcccfedc",
+      "files": 3,
+      "images": 2,
+      "preset": {
+        "schema_version": 1,
+        "id": "lunar-ice",
+        "title": "Lunar-Ice",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "moon",
+          "exact_names": [
+            "moon",
+            "moon-new",
+            "moon_disc",
+            "moonfull"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Lunar-Ice/Lunar-Ice-2K-Motion.gif",
+          "png": "Original/Lunar-Ice/Lunar-Ice-4K.png"
+        },
+        "preview": "Original/Lunar-Ice/Lunar-Ice-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Lunar-Ice/Lunar-Ice-2K-Motion.gif",
+          "size": 3388114,
+          "sha256": "f818aac5953b35e7e79d020ef919daa46eb5a284ae8ecbe9c8f1e10127376361",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Lunar-Ice/Lunar-Ice-4K.png",
+          "size": 20790131,
+          "sha256": "cded77c13a68e636e83a1adb90ad6ce98519d3dfbdc2d005bfeaacaf236dac89",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Lunar-Ice/texture-preset.json",
+          "size": 782,
+          "sha256": "2728e011cf4fe0c212732a24f703a5e72ab47e19418c4afefbd828090d8530f1"
+        }
+      ]
+    },
+    {
+      "theme": "Solar-Flare",
+      "file": "Scooby-CustomTextures-Solar-Flare-v1.zip",
+      "bytes": 2648072,
+      "sha256": "83c60e77319d4020fc3ce697d4372ac55dadbde15cbab29e34fb8c6d83ebdddc",
+      "files": 3,
+      "images": 2,
+      "preset": {
+        "schema_version": 1,
+        "id": "solar-flare",
+        "title": "Solar-Flare",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "sun",
+          "exact_names": [
+            "sun",
+            "sundisc",
+            "sun_disc"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Solar-Flare/Solar-Flare-2K-Motion.gif",
+          "png": "Original/Solar-Flare/Solar-Flare-4K.png"
+        },
+        "preview": "Original/Solar-Flare/Solar-Flare-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Solar-Flare/Solar-Flare-2K-Motion.gif",
+          "size": 228560,
+          "sha256": "f98ebbbcc5dd4cd65e0af7b51eafd76c4f20395b7f57ce3248a5ea38ca94ef66",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Solar-Flare/Solar-Flare-4K.png",
+          "size": 2793580,
+          "sha256": "d9fbbb43fe44ca8a0836b0b51c22312e89d8ad59ebb0991f3af2c7e9a2c594b9",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Solar-Flare/texture-preset.json",
+          "size": 776,
+          "sha256": "749edc71f2d9136d77cf6084387b57c82d37a6c8588f4f4efec5d46de85c028c"
+        }
+      ]
+    },
+    {
+      "theme": "Nebula-Sky",
+      "file": "Scooby-CustomTextures-Nebula-Sky-v1.zip",
+      "bytes": 11082041,
+      "sha256": "38c9fe7340d064cd1d63115ccc13edf12e6ca2f4deb16032f67b075e4f20137f",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "nebula-sky",
+        "title": "Nebula-Sky",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "sky",
+          "name_patterns": [
+            "*sky*",
+            "starfield"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s"
+          ],
+          "exclude_contains": [
+            "normal"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Nebula-Sky/Nebula-Sky-2K-Motion.gif",
+          "jpg": "Original/Nebula-Sky/Nebula-Sky-4K.jpg",
+          "png": "Original/Nebula-Sky/Nebula-Sky-4K.png"
+        },
+        "preview": "Original/Nebula-Sky/Nebula-Sky-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Nebula-Sky/Nebula-Sky-2K-Motion.gif",
+          "size": 1776925,
+          "sha256": "73eee8af5ff5ce42a6693e4ed29e793102ca0480b163d97ed7c9768e49f99b9b",
+          "width": 2048,
+          "height": 1024,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Nebula-Sky/Nebula-Sky-4K.jpg",
+          "size": 2390111,
+          "sha256": "24db13fbd6f3843477be7c7a30f9efad9a02d79979110c951985b4fd5289a514",
+          "width": 4096,
+          "height": 2048,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Nebula-Sky/Nebula-Sky-4K.png",
+          "size": 7025816,
+          "sha256": "9a78e3fd5763789186a9b60586a5e8ba4d8f179b811cdea8701d9c800d203a4f",
+          "width": 4096,
+          "height": 2048,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Nebula-Sky/texture-preset.json",
+          "size": 912,
+          "sha256": "2efb143c5bf08109b028cae81655132fdc9e7726a924d2a79abfd41764364c38"
+        }
+      ]
+    },
+    {
+      "theme": "Starlight",
+      "file": "Scooby-CustomTextures-Starlight-v1.zip",
+      "bytes": 1757771,
+      "sha256": "83e3734cd19d67bf96d4bf5110ac62e012a03bc57ef2a656339c0b3063480687",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "starlight",
+        "title": "Starlight",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "stars",
+          "name_patterns": [
+            "*starfield*"
+          ],
+          "exact_names": [
+            "stars"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Starlight/Starlight-2K-Motion.gif",
+          "jpg": "Original/Starlight/Starlight-4K.jpg",
+          "png": "Original/Starlight/Starlight-4K.png"
+        },
+        "preview": "Original/Starlight/Starlight-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Starlight/Starlight-2K-Motion.gif",
+          "size": 379380,
+          "sha256": "ad81e9ab2fe45c2dc9779b53ce44726c667d2b33bc629bd3aef8727450000fed",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Starlight/Starlight-4K.jpg",
+          "size": 1122541,
+          "sha256": "06de62c5e4c0c7ae8277249153e2b53217c710c052adb000c6388478db430f7c",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Starlight/Starlight-4K.png",
+          "size": 1102852,
+          "sha256": "c6cba76c3f9c608ab8f01bf09ca7c3757a09a330436bc9655127969d212ca8f3",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Starlight/texture-preset.json",
+          "size": 829,
+          "sha256": "08670884f6099c3b898795978a6d5c3301a20a7b2f3b0888c824e1ca56ed2703"
+        }
+      ]
+    },
+    {
+      "theme": "Aurora",
+      "file": "Scooby-CustomTextures-Aurora-v1.zip",
+      "bytes": 15142963,
+      "sha256": "2108382f9dc4bf274ae63429ce9a42089393c598af860ee2259822d7f896b382",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "aurora",
+        "title": "Aurora",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "sky",
+          "name_patterns": [
+            "*sky*",
+            "starfield"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s"
+          ],
+          "exclude_contains": [
+            "normal"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Aurora/Aurora-2K-Motion.gif",
+          "jpg": "Original/Aurora/Aurora-4K.jpg",
+          "png": "Original/Aurora/Aurora-4K.png"
+        },
+        "preview": "Original/Aurora/Aurora-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Aurora/Aurora-2K-Motion.gif",
+          "size": 2025271,
+          "sha256": "0c2b02e7fef3bd496db7202442e0f1f90a085bec4bd5ccafb5261213b939642a",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Aurora/Aurora-4K.jpg",
+          "size": 2653382,
+          "sha256": "35270cb3ca345ad34e9400e06d400080da05bcb66b871a6f94634b14a0e8440c",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Aurora/Aurora-4K.png",
+          "size": 10964684,
+          "sha256": "1b891c3846056aa3d4f19e08261b0c9b2e2ad88e758dc90355ac4b7508fbee64",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Aurora/texture-preset.json",
+          "size": 872,
+          "sha256": "f8bf6d465df78f57b482ce1588552d27174571c76974b3570540f875c2902ab2"
+        }
+      ]
+    },
+    {
+      "theme": "Obsidian-Gold",
+      "file": "Scooby-CustomTextures-Obsidian-Gold-v1.zip",
+      "bytes": 21503097,
+      "sha256": "7babc9c44ba576d493f5d9da8895df9b97a9c49b46ef6fb1e0cef9b67d70ae62",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "obsidian-gold",
+        "title": "Obsidian-Gold",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Obsidian-Gold/Obsidian-Gold-2K-Motion.gif",
+          "jpg": "Original/Obsidian-Gold/Obsidian-Gold-4K.jpg",
+          "png": "Original/Obsidian-Gold/Obsidian-Gold-4K.png"
+        },
+        "preview": "Original/Obsidian-Gold/Obsidian-Gold-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Obsidian-Gold/Obsidian-Gold-2K-Motion.gif",
+          "size": 3656675,
+          "sha256": "28b94f2536e705a649517e69677afd0d44cfa227588188698632034c78151ddf",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Obsidian-Gold/Obsidian-Gold-4K.jpg",
+          "size": 4104876,
+          "sha256": "08923f386f83ea20ef17d90282175a9e865ec77aecb948f313b2fb9ba0502c46",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Obsidian-Gold/Obsidian-Gold-4K.png",
+          "size": 14180321,
+          "sha256": "4d6ed22f484af152074d5b9fb49bc397fdc19e0eb375f9babcd9c99145bf34a4",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Obsidian-Gold/texture-preset.json",
+          "size": 1102,
+          "sha256": "371fe3673b4d4627a393edd05d4268c7ee46a64f96345f3f4161c7ec42e7d25a"
+        }
+      ]
+    },
+    {
+      "theme": "Candy-Warp",
+      "file": "Scooby-CustomTextures-Candy-Warp-v1.zip",
+      "bytes": 25756330,
+      "sha256": "a4e38db986c17b79ffd0646d956ae17416bfb59dbed8708c22c3f6af14c9ecd1",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "candy-warp",
+        "title": "Candy-Warp",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Candy-Warp/Candy-Warp-2K-Motion.gif",
+          "jpg": "Original/Candy-Warp/Candy-Warp-4K.jpg",
+          "png": "Original/Candy-Warp/Candy-Warp-4K.png"
+        },
+        "preview": "Original/Candy-Warp/Candy-Warp-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Candy-Warp/Candy-Warp-2K-Motion.gif",
+          "size": 4185397,
+          "sha256": "8235fc025719900a50b5e9a4445cbf0a7a44b8e143e1cd6a5cee1a43a325b84b",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Candy-Warp/Candy-Warp-4K.jpg",
+          "size": 3668428,
+          "sha256": "ff1ac1ffdf777edf29257ba941f8c27686e44a54cd4622021ac2a4df0de14dc8",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Candy-Warp/Candy-Warp-4K.png",
+          "size": 18468430,
+          "sha256": "db9cce7aa97977c8e8f393e07f1a29bdaf68a68f5676b3182f2f2c852f408e7d",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Candy-Warp/texture-preset.json",
+          "size": 1072,
+          "sha256": "039e320b0d1163aab1a3974855d3b3c891d22f8dff7c10752a0119b5669007b9"
+        }
+      ]
+    },
+    {
+      "theme": "Neon-Circuit",
+      "file": "Scooby-CustomTextures-Neon-Circuit-v1.zip",
+      "bytes": 5754090,
+      "sha256": "71f06273b6986b2aa2e58ae516d6aad5365e1e6e83f2371da0bbe82b7abb6f7b",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "neon-circuit",
+        "title": "Neon-Circuit",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Neon-Circuit/Neon-Circuit-2K-Motion.gif",
+          "jpg": "Original/Neon-Circuit/Neon-Circuit-4K.jpg",
+          "png": "Original/Neon-Circuit/Neon-Circuit-4K.png"
+        },
+        "preview": "Original/Neon-Circuit/Neon-Circuit-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Neon-Circuit/Neon-Circuit-2K-Motion.gif",
+          "size": 1227974,
+          "sha256": "7ee05374f5cffcb3c2a59ac990a48ed106f0c39e53a870ee1f74d5610a35632b",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Neon-Circuit/Neon-Circuit-4K.jpg",
+          "size": 3076577,
+          "sha256": "81e5f91a085125d851f69c558d592052cd6ca353ec007753801c4bd983ae0fd6",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Neon-Circuit/Neon-Circuit-4K.png",
+          "size": 2505952,
+          "sha256": "df7acdd9e489b6c5e2ee97a6f999017df8e757a10c703fe2b647365a88c9d852",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Neon-Circuit/texture-preset.json",
+          "size": 1092,
+          "sha256": "94ac8f995c9e01b8e17c2f197aab11f15e82b264e9877aa01d9d64a6e1d18f5a"
+        }
+      ]
+    },
+    {
+      "theme": "Amethyst",
+      "file": "Scooby-CustomTextures-Amethyst-v1.zip",
+      "bytes": 4690863,
+      "sha256": "2acf49b35fd52478f6acc4df93135b1036763fb7b6c9ebcfa9709577aaef68f4",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "amethyst",
+        "title": "Amethyst",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Amethyst/Amethyst-2K-Motion.gif",
+          "jpg": "Original/Amethyst/Amethyst-4K.jpg",
+          "png": "Original/Amethyst/Amethyst-4K.png"
+        },
+        "preview": "Original/Amethyst/Amethyst-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Amethyst/Amethyst-2K-Motion.gif",
+          "size": 392654,
+          "sha256": "7d155c1b17c1a762e9a78f460196e570422bd078910b347df82cdd4f939a4065",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Amethyst/Amethyst-4K.jpg",
+          "size": 1052947,
+          "sha256": "62ecc23f71431e7341dfd985c796bd1f98149b349f99335c0b4e37a81b07c64e",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Amethyst/Amethyst-4K.png",
+          "size": 3401275,
+          "sha256": "7b6aefabd1b5437bc9c0b4c68292ab05e72c73444065d139ba9c4543fa2ad14e",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Amethyst/texture-preset.json",
+          "size": 1052,
+          "sha256": "19c2baf4a7f1c11c5c73fae3593c87e511b3cadce7c513bc08018f025488a769"
+        }
+      ]
+    },
+    {
+      "theme": "Ice-and-Fire",
+      "file": "Scooby-CustomTextures-Ice-and-Fire-v1.zip",
+      "bytes": 10104213,
+      "sha256": "00cbe82f9ae438e014f3276b660f4d29c8d54a0eb45973db2d3b12aa106f73f6",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "ice-and-fire",
+        "title": "Ice-and-Fire",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "weapons",
+          "name_patterns": [
+            "w_*"
+          ],
+          "exclude_suffixes": [
+            "_n",
+            "_s",
+            "_m"
+          ],
+          "exclude_contains": [
+            "_normal",
+            "_spec",
+            "_mask",
+            "_detail",
+            "_emissive"
+          ],
+          "examples": [
+            "w_pi_pistol",
+            "w_ar_carbinerifle",
+            "w_sr_heavysniper"
+          ]
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Ice-and-Fire/Ice-and-Fire-2K-Motion.gif",
+          "jpg": "Original/Ice-and-Fire/Ice-and-Fire-4K.jpg",
+          "png": "Original/Ice-and-Fire/Ice-and-Fire-4K.png"
+        },
+        "preview": "Original/Ice-and-Fire/Ice-and-Fire-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Ice-and-Fire/Ice-and-Fire-2K-Motion.gif",
+          "size": 1172657,
+          "sha256": "b35ae8d08b0b5c06902f776713d60379d45b91359c22a04f2ca15184f8efc67f",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Ice-and-Fire/Ice-and-Fire-4K.jpg",
+          "size": 1660668,
+          "sha256": "8e13714bf5f61dbb24462cae9589eb72ce3defe5c1a3ff689687f1e3da87f6d7",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Ice-and-Fire/Ice-and-Fire-4K.png",
+          "size": 7499227,
+          "sha256": "01187ac7de4a88d5c42eb9222ef135d576429a6ab165be5b38576f83f201269a",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Ice-and-Fire/texture-preset.json",
+          "size": 1092,
+          "sha256": "606a8d9617bdf6a49f050680a1413661ebde44d78db81dd355ecc12dba770575"
+        }
+      ]
+    },
+    {
+      "theme": "Scooby-Racing",
+      "file": "Scooby-CustomTextures-Scooby-Racing-v1.zip",
+      "bytes": 2729940,
+      "sha256": "69d9c756b63765b73c8e212d97eb998910940e3510e486ffdad461f5b200103b",
+      "files": 5,
+      "images": 4,
+      "preset": {
+        "schema_version": 1,
+        "id": "scooby-racing",
+        "title": "Scooby-Racing",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "vehicle_liveries",
+          "numbered_suffixes": [
+            "_sign_",
+            "_livery_"
+          ],
+          "examples": [
+            "policenew_sign_1"
+          ],
+          "require_digits_after_suffix": true
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Scooby-Racing/Scooby-Racing-2K-Motion.gif",
+          "jpg": "Original/Scooby-Racing/Scooby-Racing-4K.jpg",
+          "png": "Original/Scooby-Racing/Scooby-Racing-4K.png"
+        },
+        "preview": "Original/Scooby-Racing/Scooby-Racing-4K.png",
+        "logo_stamps": true,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Scooby-Racing/Scooby-Racing-2K-Motion.gif",
+          "size": 795872,
+          "sha256": "d5081ee19c4a870f026dc00708ae955b3490496ab0d46bff9c42ba42259a2c84",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Scooby-Racing/Scooby-Racing-4K.jpg",
+          "size": 3814186,
+          "sha256": "874fb89da63ed92706990b3d037b72194e764338729c38f3121b94fabb17f0ff",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Scooby-Racing/Scooby-Racing-4K.png",
+          "size": 784743,
+          "sha256": "811cefaee01a48d94d562829792d8b3aca8768c48258ff07ccc236a6cb930ad4",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Scooby-Racing/texture-preset.json",
+          "size": 945,
+          "sha256": "b7e81e41a7973a40e1bf1c3fb2b829318bb505bcbf4589df305cac925ac49b10"
+        },
+        {
+          "path": "Original/Scooby-Racing/ScoobyLogo.png",
+          "size": 392423,
+          "sha256": "f3cae3c959c050bef77fd22a062b05989fe6c1c6ac5edc0833d64c89621814d3",
+          "width": 1254,
+          "height": 1254,
+          "frames": 1,
+          "role": "Original native-resolution project logo, stamped without enlargement"
+        }
+      ]
+    },
+    {
+      "theme": "Carbon-Racing",
+      "file": "Scooby-CustomTextures-Carbon-Racing-v1.zip",
+      "bytes": 1661499,
+      "sha256": "e334f3a6714171aa732a032f4f709ce4ae71be93a570dd20a0058d27569d2015",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "carbon-racing",
+        "title": "Carbon-Racing",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "vehicle_liveries",
+          "numbered_suffixes": [
+            "_sign_",
+            "_livery_"
+          ],
+          "examples": [
+            "policenew_sign_1"
+          ],
+          "require_digits_after_suffix": true
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Carbon-Racing/Carbon-Racing-2K-Motion.gif",
+          "jpg": "Original/Carbon-Racing/Carbon-Racing-4K.jpg",
+          "png": "Original/Carbon-Racing/Carbon-Racing-4K.png"
+        },
+        "preview": "Original/Carbon-Racing/Carbon-Racing-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Carbon-Racing/Carbon-Racing-2K-Motion.gif",
+          "size": 557828,
+          "sha256": "88c7b97839ef7befcda501e01b1958c7314b522ccdb3b771b6ce68d62003bd96",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Carbon-Racing/Carbon-Racing-4K.jpg",
+          "size": 2434776,
+          "sha256": "15c2f10a77e0d950453b1be26c3329869ccfb3073efd9f3cd6a12da327022739",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Carbon-Racing/Carbon-Racing-4K.png",
+          "size": 748010,
+          "sha256": "5841a546ee83fffc90e3fbd8250bef711105905d70cebf1c4aa08d69fbf47e8f",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Carbon-Racing/texture-preset.json",
+          "size": 946,
+          "sha256": "a986cfdeec5b23d263091f4aba2004c63604cf24b443247c39d37cae23538ae3"
+        }
+      ]
+    },
+    {
+      "theme": "Neon-Drift",
+      "file": "Scooby-CustomTextures-Neon-Drift-v1.zip",
+      "bytes": 2197241,
+      "sha256": "dc06a4b318dede248ae85c7a9c0a840f51092fff93aff42e83e4d0275b9e69dc",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "neon-drift",
+        "title": "Neon-Drift",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "vehicle_liveries",
+          "numbered_suffixes": [
+            "_sign_",
+            "_livery_"
+          ],
+          "examples": [
+            "policenew_sign_1"
+          ],
+          "require_digits_after_suffix": true
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Neon-Drift/Neon-Drift-2K-Motion.gif",
+          "jpg": "Original/Neon-Drift/Neon-Drift-4K.jpg",
+          "png": "Original/Neon-Drift/Neon-Drift-4K.png"
+        },
+        "preview": "Original/Neon-Drift/Neon-Drift-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Neon-Drift/Neon-Drift-2K-Motion.gif",
+          "size": 670921,
+          "sha256": "bc162316f0b595da72574f7b4e1ae34f0e75f99de102648e900758541266fa26",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Neon-Drift/Neon-Drift-4K.jpg",
+          "size": 2779257,
+          "sha256": "c5ebade7fad81d057fc61d8306786800ee208edca85353c9d9fe86771c40ca4a",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Neon-Drift/Neon-Drift-4K.png",
+          "size": 772544,
+          "sha256": "7b8fc3a776a53ead6cae9370202295bd84928baf9bb9b293a17a7a6ef26fa43f",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Neon-Drift/texture-preset.json",
+          "size": 916,
+          "sha256": "af83df3b82dbf1ef8396232747315a661150086d5c13d91ce8a40a0761ccc29a"
+        }
+      ]
+    },
+    {
+      "theme": "Sunset-Rally",
+      "file": "Scooby-CustomTextures-Sunset-Rally-v1.zip",
+      "bytes": 858260,
+      "sha256": "a2448493ec48eb36fdac144788212f6d7d681e6de37c9ce666c89ad184ceb52c",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "sunset-rally",
+        "title": "Sunset-Rally",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "vehicle_liveries",
+          "numbered_suffixes": [
+            "_sign_",
+            "_livery_"
+          ],
+          "examples": [
+            "policenew_sign_1"
+          ],
+          "require_digits_after_suffix": true
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Sunset-Rally/Sunset-Rally-2K-Motion.gif",
+          "jpg": "Original/Sunset-Rally/Sunset-Rally-4K.jpg",
+          "png": "Original/Sunset-Rally/Sunset-Rally-4K.png"
+        },
+        "preview": "Original/Sunset-Rally/Sunset-Rally-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Sunset-Rally/Sunset-Rally-2K-Motion.gif",
+          "size": 393130,
+          "sha256": "c397977f6f1458b696d84cec415b0b55198355d23d9e39aa6c5d58309b855a36",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Sunset-Rally/Sunset-Rally-4K.jpg",
+          "size": 2022442,
+          "sha256": "39211a1192cd0528053aa87a5b6fb9216f500fb0c4788a882d95a606d432a05d",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Sunset-Rally/Sunset-Rally-4K.png",
+          "size": 692773,
+          "sha256": "a672fd6b561ccdfd01cc44d4daa0b31ef9f2449fc36dc2f11f70828177e8c70b",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Sunset-Rally/texture-preset.json",
+          "size": 936,
+          "sha256": "36cacdc7e92e4cd69fdd92fbfd48acff4fcf53e9e6b814344a4f7ae8cf916554"
+        }
+      ]
+    },
+    {
+      "theme": "Holographic",
+      "file": "Scooby-CustomTextures-Holographic-v1.zip",
+      "bytes": 18761321,
+      "sha256": "752db308c7435af37e5e139d9f2c223cf6846ea324afdce9bf90c3671cd70ed1",
+      "files": 4,
+      "images": 3,
+      "preset": {
+        "schema_version": 1,
+        "id": "holographic",
+        "title": "Holographic",
+        "editions": [
+          "Legacy",
+          "Enhanced"
+        ],
+        "target": {
+          "category": "vehicle_liveries",
+          "numbered_suffixes": [
+            "_sign_",
+            "_livery_"
+          ],
+          "examples": [
+            "policenew_sign_1"
+          ],
+          "require_digits_after_suffix": true
+        },
+        "dictionary": "resolve every matching loaded dictionary; preserve its exact hash",
+        "variants": {
+          "gif": "Original/Holographic/Holographic-2K-Motion.gif",
+          "jpg": "Original/Holographic/Holographic-4K.jpg",
+          "png": "Original/Holographic/Holographic-4K.png"
+        },
+        "preview": "Original/Holographic/Holographic-4K.png",
+        "logo_stamps": false,
+        "enhanced_resolution": "Exact source/stock dimensions by default. Optional fitting retains the stock resource size.",
+        "scope": "Local texture replacement; does not replace model geometry. Rules also follow later streamed targets."
+      },
+      "assets": [
+        {
+          "path": "Original/Holographic/Holographic-2K-Motion.gif",
+          "size": 3997349,
+          "sha256": "4af36832448d3d565e9e62e9a7c8b0d691ae161486b410618da115049756a01c",
+          "width": 2048,
+          "height": 2048,
+          "frames": 8,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        {
+          "path": "Original/Holographic/Holographic-4K.jpg",
+          "size": 6127566,
+          "sha256": "c6204dbe07582e40989dc0bc94b37001f191510e8aad5807f57424700bb01078",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Holographic/Holographic-4K.png",
+          "size": 9635191,
+          "sha256": "8600427712143d436aa3974e9731be817fa3975e8a981bde6f636023d6d71258",
+          "width": 4096,
+          "height": 4096,
+          "frames": 1,
+          "durations_ms": [
+            0
+          ]
+        },
+        {
+          "path": "Original/Holographic/texture-preset.json",
+          "size": 926,
+          "sha256": "509c2a182e694850327b12ec944bf631fd302e284a96678dbe2a48866223830d"
+        }
+      ]
+    }
+  ]
+}
