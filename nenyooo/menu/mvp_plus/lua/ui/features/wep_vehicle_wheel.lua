@@ -215,7 +215,9 @@ features.on_draw("Vehicle Weapon Wheel", function(f)
     local u = max(0.5, min(2.0, sh / 1080))
     local cx, cy = sw * 0.5, sh * 0.5
     ACC[1], ACC[2], ACC[3] = theme.accent()
-    draw.with_scale(cx, cy, u * (0.94 + 0.06 * ease), function()
+    -- with_scale returns a failure instead of raising it; re-raise so it is logged and shown.
+    local ok, err = draw.with_scale(cx, cy, u * (0.94 + 0.06 * ease), function()
         wheel(f, cx, cy, now, ease)
     end)
+    if not ok then error(err, 0) end
 end)

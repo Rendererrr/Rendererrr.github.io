@@ -26,6 +26,7 @@ end
 
 overlay.on_draw("dlc_panel", function()
     if not menu.is_visible() or not DLC_PAGES[menu.page_id()] then return end
+    if __gta5mods_panel_frame == ctx.frame() then return end   -- the GTA5-Mods browser preview owns the side this frame
     local data = dlc.info()
     if not data then return end
 
