@@ -172,6 +172,16 @@
     },
     {
       "root": "ui",
+      "rel": "features/kill_counter.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/kill_counter.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/law_status_hud.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/law_status_hud.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/location_bookmarks.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/location_bookmarks.lua"
     },
@@ -197,8 +207,18 @@
     },
     {
       "root": "ui",
+      "rel": "features/mount_locator.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/mount_locator.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/mount_vitals_hud.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/mount_vitals_hud.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/ped_trail_effect.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/ped_trail_effect.lua"
     },
     {
       "root": "ui",
@@ -247,6 +267,11 @@
     },
     {
       "root": "ui",
+      "rel": "features/trip_meter.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/trip_meter.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/vitals_hud.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/vitals_hud.lua"
     },
@@ -272,8 +297,18 @@
     },
     {
       "root": "ui",
+      "rel": "features/weather_monitor.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/weather_monitor.lua"
+    },
+    {
+      "root": "ui",
       "rel": "features/world_clock.lua",
       "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/world_clock.lua"
+    },
+    {
+      "root": "ui",
+      "rel": "features/world_scanner.lua",
+      "url": "https://rendererrr.github.io/nenyooo/rdr2/lua/ui/features/world_scanner.lua"
     },
     {
       "root": "ui",
