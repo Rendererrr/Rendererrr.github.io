@@ -6,6 +6,7 @@ upload.bat
 *.py
 *.lua
 !nenyooo/menu/mvp_plus/lua/**
+!nenyooo/rdr2/lua/**
 scooby/REDM/lua/encrypt-file.bat
 /encrypt 256
 # Required files in the pinned L4D runtime asset manifest.
