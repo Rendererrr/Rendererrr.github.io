@@ -11,6 +11,12 @@ are included. The sky materials use the game's installed `sky.vfx` shader.
 - Eight original chams textures, with PNG sources under `source-images/`.
 - Rain, snow, storm, ash, embers, dust, leaves, fireflies, motes and petals: native world-space particles
   using an original soft sprite and dedicated origin, RGB and opacity controls.
+- Hail, blizzard, sandstorm, bubbles, confetti and floating spores extend the weather
+  library to sixteen modes. Original ice, bubble, confetti and spore silhouettes
+  have separate native texture dependencies; existing mode IDs and assets remain.
+- All sixteen modes accept custom PNG/GIF textures and particle-designer tuning,
+  including gravity, vertical airflow and size variation. Re-select an older
+  imported image to prepare its additional mode definitions after updating.
 
 `manifest.json` covers all installable resources. `source/*.json` and the generator
 make the particle definitions and texture construction reviewable and reproducible.

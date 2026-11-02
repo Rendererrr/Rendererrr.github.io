@@ -310,6 +310,22 @@
       "bytes": 4194376,
       "sha256": "bd9f15f7326e73827eb31540cf43c938937edae3200ffff916af82942692e36b"
     },
+    "assets/vfx/materials/scooby_vfx/chams/core/matte_normal.vtex_c": {
+      "bytes": 136,
+      "sha256": "75219c3023d354039d98bbe574a843cadfb99aed04e5d6c51725e4d2aa3ed5a1"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/satin_normal.vtex_c": {
+      "bytes": 136,
+      "sha256": "fcb1dd1aee3b921f782fd51edd460850741dc67eb0f11975a3471a140e0d0da2"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/smooth_normal.vtex_c": {
+      "bytes": 136,
+      "sha256": "68832d7e27a256bbea597c7c6fecdd801994acc4ff341092047f6dcf9ae19037"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/solid_normal.vtex_c": {
+      "bytes": 136,
+      "sha256": "ea6131b72e281e7b07e3eab88415b76dd4006e953143fe1076ccf00e346406bc"
+    },
     "assets/vfx/materials/scooby_vfx/chams/electric_waves.vtex_c": {
       "bytes": 4194376,
       "sha256": "6ae12c71e2e5919e86beea19debf1695d5e9a970e1513a2b7f9d9a5159188e96"
@@ -430,9 +446,25 @@
       "bytes": 25165896,
       "sha256": "f89a05cc2a6905ae278018507e314f48bfc5070ef1895276c4633ea2659f89d1"
     },
+    "assets/vfx/materials/scooby_vfx/weather/bubble.vtex_c": {
+      "bytes": 16456,
+      "sha256": "eb1c943c2d5c2bcfde1dc4ba7d12bb85c72d0636f61efc5b662144e47082aa21"
+    },
+    "assets/vfx/materials/scooby_vfx/weather/confetti.vtex_c": {
+      "bytes": 16456,
+      "sha256": "f9cfaf7ec7baddc5a272f93af537ca9de6b820d1f82f116aaa1ac38157e25064"
+    },
+    "assets/vfx/materials/scooby_vfx/weather/ice_pellet.vtex_c": {
+      "bytes": 16456,
+      "sha256": "ec939b11983b479fda83270c74d02d6843823ee7de9d0fecfbdda75092236d75"
+    },
     "assets/vfx/materials/scooby_vfx/weather/soft_flake.vtex_c": {
       "bytes": 262216,
       "sha256": "77299915358ed14dc2c786516b7c6b8660efdc6253e549d915238b1d9cf7a64f"
+    },
+    "assets/vfx/materials/scooby_vfx/weather/spore.vtex_c": {
+      "bytes": 16456,
+      "sha256": "5c9de7d441596cf353d1fcd68578f6122b0e9f306198283bfbeb66220c957852"
     },
     "assets/vfx/particles/scooby_vfx/combat/crimson_burst.vpcf_c": {
       "bytes": 2815,
@@ -454,6 +486,18 @@
       "bytes": 2815,
       "sha256": "3f4b8b5e1f9cc4343ec389f287cfbd02f22901f0f170e4568a884fbada8bca44"
     },
+    "assets/vfx/particles/scooby_vfx/weather/blizzard.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "cae000016686c1a80dfc34eb42b496da0ef30b84909e9a406272a780d21bde0f"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/bubbles.vpcf_c": {
+      "bytes": 2811,
+      "sha256": "f712eb53531ea33c178ece025a2f63bdc3498411fa1ebc043091d2fb4fc6f82d"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/confetti.vpcf_c": {
+      "bytes": 2813,
+      "sha256": "5ee7d98ef9afac978146bfd7cd93efdf899423ceb8d8af30ff07bed4a1ed3dc4"
+    },
     "assets/vfx/particles/scooby_vfx/weather/dust.vpcf_c": {
       "bytes": 2815,
       "sha256": "1a077a897fe0b1c9e1928ce8ea6adf4089923cae795c91b52b7e53c2178b6f16"
@@ -465,6 +509,10 @@
     "assets/vfx/particles/scooby_vfx/weather/fireflies.vpcf_c": {
       "bytes": 2815,
       "sha256": "28a545fec0e017b1ed06cb648e8158983a65932438aed33752d22fcc8b90fe22"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/hail.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "670e05c8743635bd416f409a64ff9facaed62872cf1a94ebd4626aba45bcbe97"
     },
     "assets/vfx/particles/scooby_vfx/weather/leaves.vpcf_c": {
       "bytes": 2815,
@@ -482,21 +530,29 @@
       "bytes": 2850,
       "sha256": "39b09ed4fa4c008192244e3410fe9fb40f2f9266ca865e483fccb84627355963"
     },
+    "assets/vfx/particles/scooby_vfx/weather/sandstorm.vpcf_c": {
+      "bytes": 2815,
+      "sha256": "4ed88555eb4abad6243b7842ce69dad165f3e1eda8babe963a6b795a6b35be88"
+    },
     "assets/vfx/particles/scooby_vfx/weather/snow.vpcf_c": {
       "bytes": 2815,
       "sha256": "b4fb73314b0282e6f2fdc091bed3517da633ed33192a3dea5b52b04d14984971"
+    },
+    "assets/vfx/particles/scooby_vfx/weather/spores.vpcf_c": {
+      "bytes": 2794,
+      "sha256": "4a03a6552f1206b65d15a90becf4874802b8d0013595ee10c77a04b1b8c92faf"
     },
     "assets/vfx/particles/scooby_vfx/weather/storm.vpcf_c": {
       "bytes": 2850,
       "sha256": "54d9ced010012f4756253b01074cfa387a84cea43849d70a860549416fcc063d"
     },
     "assets/vfx/manifest.json": {
-      "bytes": 11903,
-      "sha256": "4ba2834a9a78983e114e1717d2ee20a87871750666133d3e4f6afb23579d2955"
+      "bytes": 13502,
+      "sha256": "c32a721bba2f40d2212c27e7145466993befde748244ffdc05278a8bfa39e2b0"
     },
     "assets/vfx/README.md": {
-      "bytes": 1585,
-      "sha256": "5b08347754f3c1390b96b626d8c4f888bf3023f15eca9b48198351f0550b9466"
+      "bytes": 2074,
+      "sha256": "d61847720e309d1c630afe02806ec057021d1240579c8c97869d3776dfe1853a"
     },
     "Install-VfxAssets.ps1": {
       "bytes": 2749,
