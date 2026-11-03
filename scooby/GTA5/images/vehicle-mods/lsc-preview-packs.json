@@ -1,7 +1,68 @@
 {
-  "images": 20489,
+  "images": 20562,
   "catalog_images": 20562,
-  "missing": [
+  "missing": [],
+  "affected_options": [],
+  "packs": [
+    {
+      "file": "LSC_Previews_Recovery_20261103_01d8e9c66f5e.zip",
+      "sha256": "01d8e9c66f5e2033f67274a479fc0f50096762f060389a3336de9142df9e25b7",
+      "bytes": 869078,
+      "files": 73
+    },
+    {
+      "file": "LSC_Previews_20261103_01_67a8485e6298.zip",
+      "sha256": "67a8485e6298c85a9b1386a786a02500ed39ce556df9c027346592c712781d51",
+      "bytes": 63363589,
+      "files": 2849
+    },
+    {
+      "file": "LSC_Previews_20261103_02_02b3a86a7f61.zip",
+      "sha256": "02b3a86a7f611740e6a6df6a4c0742b67218aa569881addadbbf6c1424f60b05",
+      "bytes": 63424701,
+      "files": 3034
+    },
+    {
+      "file": "LSC_Previews_20261103_03_5014b548fc64.zip",
+      "sha256": "5014b548fc6472a2405e5b98be56eef10a7dd98b734f0ff53dea9c0f48ca281d",
+      "bytes": 63409729,
+      "files": 2943
+    },
+    {
+      "file": "LSC_Previews_20261103_04_23d30f6f8dce.zip",
+      "sha256": "23d30f6f8dce19b439bda99af3c0d229b92d490b59c809a1d8b5eb6d381e7bde",
+      "bytes": 63400406,
+      "files": 2887
+    },
+    {
+      "file": "LSC_Previews_20261103_05_01d3bb55137a.zip",
+      "sha256": "01d3bb55137ab62ad18d496f4d1ae104b1c6d678fca697410d9a31d3f9c0adae",
+      "bytes": 63409487,
+      "files": 2967
+    },
+    {
+      "file": "LSC_Previews_20261103_06_1a170ae8ddbc.zip",
+      "sha256": "1a170ae8ddbc4863dd626dfc2dbfb3c73563e4432aa664dbf05fb8bb40deeb9f",
+      "bytes": 63410594,
+      "files": 3014
+    },
+    {
+      "file": "LSC_Previews_20261103_07_9699340dbbeb.zip",
+      "sha256": "9699340dbbebba638a8d38c59ee63e7e2677a8d932936028fd334453aaa9068c",
+      "bytes": 63153085,
+      "files": 1601
+    },
+    {
+      "file": "LSC_Previews_20261103_08_82ac1cf6399b.zip",
+      "sha256": "82ac1cf6399b76acaf3a842fa04c3c1be5df5e7041ac3244bacbd2ff521fc4ec",
+      "bytes": 25589292,
+      "files": 1194
+    }
+  ],
+  "catalog_sha256": "ab92720011a74b08daa8fd48989c4dfae45ad41ee740676f3ac32f70b7e403ab",
+  "base_url": "https://raw.githubusercontent.com/Rendererrr/Rendererrr.github.io/main/scooby/GTA5/images/vehicle-mods/",
+  "recovered_images": 73,
+  "original_cdn_missing": [
     {
       "name": "autarch_boot1",
       "url": "https://cdn.gtahash.com/vehicle-mods/thumbs/autarch_boot1.webp",
@@ -441,502 +502,1221 @@
       "error": "HTTP 404"
     }
   ],
-  "affected_options": [
-    {
-      "model_hash": 223258115,
-      "slot": 48,
-      "index": 0,
-      "name": "sab2_liv1"
-    },
-    {
-      "model_hash": 223258115,
-      "slot": 48,
-      "index": 1,
-      "name": "sab2_liv2"
-    },
-    {
-      "model_hash": 223258115,
-      "slot": 48,
-      "index": 2,
-      "name": "sab2_liv3"
-    },
-    {
-      "model_hash": 223258115,
-      "slot": 48,
-      "index": 3,
-      "name": "sab2_liv4"
-    },
-    {
-      "model_hash": 223258115,
-      "slot": 48,
-      "index": 4,
-      "name": "sab2_liv5"
-    },
-    {
-      "model_hash": 223258115,
-      "slot": 48,
-      "index": 5,
-      "name": "sab2_liv6"
-    },
-    {
-      "model_hash": 426742808,
-      "slot": 2,
-      "index": 2,
-      "name": "dom7_bumr4"
-    },
-    {
-      "model_hash": 970598228,
-      "slot": 2,
-      "index": 0,
-      "name": "sultan_bum_r"
-    },
-    {
-      "model_hash": 987469656,
-      "slot": 48,
-      "index": 0,
-      "name": "sugoi_liv1"
-    },
-    {
-      "model_hash": 987469656,
-      "slot": 48,
-      "index": 1,
-      "name": "sugoi_liv2"
-    },
-    {
-      "model_hash": 987469656,
-      "slot": 48,
-      "index": 2,
-      "name": "sugoi_liv3"
-    },
-    {
-      "model_hash": 987469656,
-      "slot": 48,
-      "index": 3,
-      "name": "sugoi_liv4"
-    },
-    {
-      "model_hash": 987469656,
-      "slot": 48,
-      "index": 4,
-      "name": "sugoi_liv5"
-    },
-    {
-      "model_hash": 987469656,
-      "slot": 48,
-      "index": 5,
-      "name": "sugoi_liv6"
-    },
-    {
-      "model_hash": 1349725314,
-      "slot": 48,
-      "index": 0,
-      "name": "sentinel_hswliv1"
-    },
-    {
-      "model_hash": 1349725314,
-      "slot": 48,
-      "index": 1,
-      "name": "sentinel_hswliv2"
-    },
-    {
-      "model_hash": 1416471345,
-      "slot": 32,
-      "index": 1,
-      "name": "prev_bucketa1_smod"
-    },
-    {
-      "model_hash": 1502869817,
-      "slot": 48,
-      "index": 4,
-      "name": "mocxmas_camo6"
-    },
-    {
-      "model_hash": 1502869817,
-      "slot": 48,
-      "index": 5,
-      "name": "mocxmas_camo7"
-    },
-    {
-      "model_hash": 1507916787,
-      "slot": 7,
-      "index": 0,
-      "name": "pica_hood_1"
-    },
-    {
-      "model_hash": 1507916787,
-      "slot": 7,
-      "index": 1,
-      "name": "pica_hood_2"
-    },
-    {
-      "model_hash": 1507916787,
-      "slot": 48,
-      "index": 0,
-      "name": "pica_liv1"
-    },
-    {
-      "model_hash": 1507916787,
-      "slot": 48,
-      "index": 1,
-      "name": "pica_liv2"
-    },
-    {
-      "model_hash": 1507916787,
-      "slot": 48,
-      "index": 2,
-      "name": "pica_liv3"
-    },
-    {
-      "model_hash": 1507916787,
-      "slot": 48,
-      "index": 3,
-      "name": "pica_liv4"
-    },
-    {
-      "model_hash": 1507916787,
-      "slot": 48,
-      "index": 4,
-      "name": "pica_liv5"
-    },
-    {
-      "model_hash": 1507916787,
-      "slot": 48,
-      "index": 5,
-      "name": "pica_liv6"
-    },
-    {
-      "model_hash": 2413121211,
-      "slot": 48,
-      "index": 0,
-      "name": "ts2_livery1"
-    },
-    {
-      "model_hash": 2413121211,
-      "slot": 48,
-      "index": 1,
-      "name": "ts2_livery2"
-    },
-    {
-      "model_hash": 2413121211,
-      "slot": 48,
-      "index": 2,
-      "name": "ts2_livery3"
-    },
-    {
-      "model_hash": 2413121211,
-      "slot": 48,
-      "index": 3,
-      "name": "ts2_livery4"
-    },
-    {
-      "model_hash": 2413121211,
-      "slot": 48,
-      "index": 4,
-      "name": "ts2_livery5"
-    },
-    {
-      "model_hash": 2413121211,
-      "slot": 48,
-      "index": 5,
-      "name": "ts2_livery6"
-    },
-    {
-      "model_hash": 2844316578,
-      "slot": 48,
-      "index": 0,
-      "name": "prairie_livery1"
-    },
-    {
-      "model_hash": 2844316578,
-      "slot": 48,
-      "index": 1,
-      "name": "prairie_livery2"
-    },
-    {
-      "model_hash": 2844316578,
-      "slot": 48,
-      "index": 2,
-      "name": "prairie_livery3"
-    },
-    {
-      "model_hash": 2844316578,
-      "slot": 48,
-      "index": 3,
-      "name": "prairie_livery4"
-    },
-    {
-      "model_hash": 2844316578,
-      "slot": 48,
-      "index": 4,
-      "name": "prairie_livery5"
-    },
-    {
-      "model_hash": 2844316578,
-      "slot": 48,
-      "index": 5,
-      "name": "prairie_livery6"
-    },
-    {
-      "model_hash": 3054795149,
-      "slot": 4,
-      "index": 3,
-      "name": "vorschlag_exhd"
-    },
-    {
-      "model_hash": 3253274834,
-      "slot": 48,
-      "index": 0,
-      "name": "banshee_livery1a"
-    },
-    {
-      "model_hash": 3253274834,
-      "slot": 48,
-      "index": 1,
-      "name": "banshee_livery2"
-    },
-    {
-      "model_hash": 3253274834,
-      "slot": 48,
-      "index": 2,
-      "name": "banshee_livery3"
-    },
-    {
-      "model_hash": 3253274834,
-      "slot": 48,
-      "index": 3,
-      "name": "banshee_livery4"
-    },
-    {
-      "model_hash": 3253274834,
-      "slot": 48,
-      "index": 4,
-      "name": "banshee_livery5"
-    },
-    {
-      "model_hash": 3253274834,
-      "slot": 48,
-      "index": 5,
-      "name": "banshee_livery6"
-    },
-    {
-      "model_hash": 3315674721,
-      "slot": 3,
-      "index": 4,
-      "name": "clique2_ornmte"
-    },
-    {
-      "model_hash": 3321950518,
-      "slot": 10,
-      "index": 1,
-      "name": "fire_strip3"
-    },
-    {
-      "model_hash": 3540279623,
-      "slot": 10,
-      "index": 3,
-      "name": "corsita_roof5"
-    },
-    {
-      "model_hash": 3548084598,
-      "slot": 48,
-      "index": 0,
-      "name": "schwarzer_livery9"
-    },
-    {
-      "model_hash": 3548084598,
-      "slot": 48,
-      "index": 1,
-      "name": "schwarzer_livery10"
-    },
-    {
-      "model_hash": 3548084598,
-      "slot": 48,
-      "index": 2,
-      "name": "schwarzer_livery1"
-    },
-    {
-      "model_hash": 3548084598,
-      "slot": 48,
-      "index": 3,
-      "name": "schwarzer_livery2"
-    },
-    {
-      "model_hash": 3548084598,
-      "slot": 48,
-      "index": 4,
-      "name": "schwarzer_livery3"
-    },
-    {
-      "model_hash": 3548084598,
-      "slot": 48,
-      "index": 5,
-      "name": "schwarzer_livery4"
-    },
-    {
-      "model_hash": 3917501776,
-      "slot": 48,
-      "index": 0,
-      "name": "penumbra_livery1"
-    },
-    {
-      "model_hash": 3917501776,
-      "slot": 48,
-      "index": 1,
-      "name": "penumbra_livery2"
-    },
-    {
-      "model_hash": 3917501776,
-      "slot": 48,
-      "index": 2,
-      "name": "penumbra_livery3"
-    },
-    {
-      "model_hash": 3917501776,
-      "slot": 48,
-      "index": 3,
-      "name": "penumbra_livery4"
-    },
-    {
-      "model_hash": 3917501776,
-      "slot": 48,
-      "index": 4,
-      "name": "penumbra_livery5"
-    },
-    {
-      "model_hash": 3917501776,
-      "slot": 48,
-      "index": 5,
-      "name": "penumbra_livery6"
-    },
-    {
-      "model_hash": 3981782132,
-      "slot": 7,
-      "index": 0,
-      "name": "autarch_boot1"
-    },
-    {
-      "model_hash": 3981782132,
-      "slot": 7,
-      "index": 1,
-      "name": "autarch_boot2"
-    },
-    {
-      "model_hash": 3981782132,
-      "slot": 7,
-      "index": 2,
-      "name": "autarch_boot3"
-    },
-    {
-      "model_hash": 3981782132,
-      "slot": 7,
-      "index": 4,
-      "name": "autarch_boot5"
-    },
-    {
-      "model_hash": 3981782132,
-      "slot": 7,
-      "index": 5,
-      "name": "autarch_boot6"
-    },
-    {
-      "model_hash": 4067225593,
-      "slot": 48,
-      "index": 0,
-      "name": "ruiner_livery1"
-    },
-    {
-      "model_hash": 4067225593,
-      "slot": 48,
-      "index": 1,
-      "name": "ruiner_livery2"
-    },
-    {
-      "model_hash": 4067225593,
-      "slot": 48,
-      "index": 2,
-      "name": "ruiner_livery3"
-    },
-    {
-      "model_hash": 4067225593,
-      "slot": 48,
-      "index": 3,
-      "name": "ruiner_livery4"
-    },
-    {
-      "model_hash": 4067225593,
-      "slot": 48,
-      "index": 4,
-      "name": "ruiner_livery5"
-    },
-    {
-      "model_hash": 4067225593,
-      "slot": 48,
-      "index": 5,
-      "name": "ruiner_livery6"
-    },
-    {
-      "model_hash": 4081974053,
-      "slot": 0,
-      "index": 0,
-      "name": "barr_rear_50cal_barrel"
-    },
-    {
-      "model_hash": 4151380270,
-      "slot": 4,
-      "index": 3,
-      "name": "vorschlag_exhd"
+  "recovery_artwork": [
+    {
+      "name": "autarch_boot1",
+      "sha256": "c9d9fe69c87d37b3dbb1d0fda360a152c2e1a51326778175e86fd91c007e1f12",
+      "bytes": 2382,
+      "kind": "native-part-mesh",
+      "resource": "autarch_boot1",
+      "resource_sha256": "0D61C5A5C97E5D1AECF840EC45DFCE5A767D00970D483DCFD77AA3658FB1627F",
+      "archive": "update/x64/dlcpacks/mpChristmas2017/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpchristmas2017\\vehiclemods\\autarch_mods.rpf\\autarch_boot1.yft",
+      "mesh_sha256": "108e76018f94f731fb256c467498bd9f792f6a2f064ae6735783e240203e05e8",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_doorshut.dds": "f7c8f4e071baa8b4e40c1b0d3e54cbb2173dadd972b3e2fedc08b69a97c35eea",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_carbon.dds": "caf1de89e48e1109d194bcc478b8f4ed0e82d794f6e2500f45be66e41f4bd1d3"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "autarch_boot2",
+      "sha256": "8bd8809541a65ada855451f8752967ac327b5b931cf46700f0997b3d60dd5a7b",
+      "bytes": 5648,
+      "kind": "native-part-mesh",
+      "resource": "autarch_boot2",
+      "resource_sha256": "B79127E0B0C42350852B1287500559BF8F13B329B679720BA9A05A217163A4A7",
+      "archive": "update/x64/dlcpacks/mpChristmas2017/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpchristmas2017\\vehiclemods\\autarch_mods.rpf\\autarch_boot2.yft",
+      "mesh_sha256": "5cd14b317d19836b275beb03dba51a97a1fc7008ce31ea2f4c1acd4cab2e3f34",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_doorshut.dds": "f7c8f4e071baa8b4e40c1b0d3e54cbb2173dadd972b3e2fedc08b69a97c35eea",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_carbon.dds": "caf1de89e48e1109d194bcc478b8f4ed0e82d794f6e2500f45be66e41f4bd1d3"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "autarch_boot3",
+      "sha256": "491bc6bc44a88cd86d3e9416378cf2c68498526a1ac89d1187a02752cfc8e211",
+      "bytes": 2850,
+      "kind": "native-part-mesh",
+      "resource": "autarch_boot3",
+      "resource_sha256": "A85C222C3A530155FFE0144E5B076C11DF0B3A94CCC6B2C45654DF8BCF17FB58",
+      "archive": "update/x64/dlcpacks/mpChristmas2017/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpchristmas2017\\vehiclemods\\autarch_mods.rpf\\autarch_boot3.yft",
+      "mesh_sha256": "5ce810c4638134f7aed0e949504123deb8aeb4fff52f275b10f321e01d63a136",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_doorshut.dds": "f7c8f4e071baa8b4e40c1b0d3e54cbb2173dadd972b3e2fedc08b69a97c35eea",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\autarch\\vehicle_generic_mesh3.dds": "e5f619b0f61f5719173f9d2232489c09f9139fba18a64168977068351e6ca2b4",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_carbon.dds": "caf1de89e48e1109d194bcc478b8f4ed0e82d794f6e2500f45be66e41f4bd1d3"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "autarch_boot5",
+      "sha256": "48538f431bf4308be409707303d48684e8257fd8fbb68ee5d342058616a748ac",
+      "bytes": 5612,
+      "kind": "native-part-mesh",
+      "resource": "autarch_boot5",
+      "resource_sha256": "03107C35A130F20DBE81C4B8488065021F436FE6C5DCA17370B6DD3B982ED795",
+      "archive": "update/x64/dlcpacks/mpChristmas2017/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpchristmas2017\\vehiclemods\\autarch_mods.rpf\\autarch_boot5.yft",
+      "mesh_sha256": "cce6ae009bb197664b2660db5550d5f65017f2c8df5c80c1dce60445280579d7",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_doorshut.dds": "f7c8f4e071baa8b4e40c1b0d3e54cbb2173dadd972b3e2fedc08b69a97c35eea",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\autarch\\vehicle_generic_mesh3.dds": "e5f619b0f61f5719173f9d2232489c09f9139fba18a64168977068351e6ca2b4",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_carbon.dds": "caf1de89e48e1109d194bcc478b8f4ed0e82d794f6e2500f45be66e41f4bd1d3"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "autarch_boot6",
+      "sha256": "6ddbad5c6c915778c3f2c97f9b3a51afa7c74e8269d68de74208d5a0a4e1a1c4",
+      "bytes": 2812,
+      "kind": "native-part-mesh",
+      "resource": "autarch_boot6",
+      "resource_sha256": "29A917DEEE5937670FBA89D7C5DEC9123A21E17C8370CDDAED41BD59A89E9ABC",
+      "archive": "update/x64/dlcpacks/mpChristmas2017/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpchristmas2017\\vehiclemods\\autarch_mods.rpf\\autarch_boot6.yft",
+      "mesh_sha256": "4dcabaf479783b7eb094c0acffa4291e00511469375d05a156cfba76754a7137",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_doorshut.dds": "f7c8f4e071baa8b4e40c1b0d3e54cbb2173dadd972b3e2fedc08b69a97c35eea",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\autarch\\vehicle_generic_mesh3.dds": "e5f619b0f61f5719173f9d2232489c09f9139fba18a64168977068351e6ca2b4",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_carbon.dds": "caf1de89e48e1109d194bcc478b8f4ed0e82d794f6e2500f45be66e41f4bd1d3"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "banshee_livery1a",
+      "sha256": "9d4ddfdb1bc09dfec27ac6e626ed02c46c54c1b2fc3ef8bbe0ede4025d210054",
+      "bytes": 1358,
+      "kind": "native-livery-pattern",
+      "resource": "banshee_livery1a",
+      "resource_sha256": "A6F146428B5FD436991BF47396474B1ED693A0EB25D486820E777587AF41C816",
+      "archive": "update/x64/dlcpacks/mpTuner/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mptuner\\vehiclemods\\vehlivery2_mods.rpf\\banshee_livery1a.yft",
+      "mesh_sha256": "67b2d5ca99e728525858239fc8a2e435bfbed4433c739c1332ff5e25645dee52",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\banshee_livery1a\\banshee_livery1.dds": "9d2fd9b07433e774b6528876917a9df965d484a713773641ad4af43528bad1a2"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "banshee_livery2",
+      "sha256": "88f08c649c6eade87dc9d5af9bcd24ea763b00179fef898e5ec22d9f67a1af1a",
+      "bytes": 1648,
+      "kind": "native-livery-pattern",
+      "resource": "banshee_livery2",
+      "resource_sha256": "00D061A68F9B84463EB961C03F41299FCC2B1E8151533EF6810BE46DA2510407",
+      "archive": "update/x64/dlcpacks/mpTuner/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mptuner\\vehiclemods\\vehlivery2_mods.rpf\\banshee_livery2.yft",
+      "mesh_sha256": "1e7c22df7c32ab5536b12bc3d2a28f72f95b3443f585063edbdb0dbde041a1f4",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\banshee_livery2\\banshee_livery2.dds": "4953fea576b3d3a569acbcfdd25192deca53285a207e29c49e4b0e6053fe9a2e"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "banshee_livery3",
+      "sha256": "202ff79b3473d20aae20cd45cbe1cb24497d168c1d19ac7902f00d3304138887",
+      "bytes": 1918,
+      "kind": "native-livery-pattern",
+      "resource": "banshee_livery3",
+      "resource_sha256": "D416FC51CB9FDEC872D26314E2188043D7254CD0B9B065B52D51A502526918AE",
+      "archive": "update/x64/dlcpacks/mpTuner/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mptuner\\vehiclemods\\vehlivery2_mods.rpf\\banshee_livery3.yft",
+      "mesh_sha256": "7cf5847100604a0e3d3e117fc21419457f768e337ed417737e858cc0d98ca354",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\banshee_livery3\\banshee_livery3.dds": "94fc52f898a2c5935fcaffa158c7025a6bfbfb48c0016e0974a77ecce6e6feb2"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "banshee_livery4",
+      "sha256": "5d68afa6885a974618790f05f7fc0e1a62866e0f164379a01c85888eacd10fc5",
+      "bytes": 2654,
+      "kind": "native-livery-pattern",
+      "resource": "banshee_livery4",
+      "resource_sha256": "5D6277FC51916E65D67EE9ED03B955CD8EF3D2AD9226DBFEEE7318F7D2312CE7",
+      "archive": "update/x64/dlcpacks/mpTuner/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mptuner\\vehiclemods\\vehlivery2_mods.rpf\\banshee_livery4.yft",
+      "mesh_sha256": "a67532ec79b3a9b5d9dad47d7dabf20ac576d49ee2257f05fd6c0ec757a22c63",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\banshee_livery4\\banshee_livery4.dds": "659704ee053cf35e07b067d413455f12e9ea05aa25128ba09ea737de77835d87"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "banshee_livery5",
+      "sha256": "41935c399f1603f8e0222c9ca0885b8db6be88976e693fd19285582f36289438",
+      "bytes": 2978,
+      "kind": "native-livery-pattern",
+      "resource": "banshee_livery5",
+      "resource_sha256": "D785AEBDD92A5C8D9E466D1A3912A85DCF333C1BE45BC8FC194E32172D1CCF6F",
+      "archive": "update/x64/dlcpacks/mpTuner/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mptuner\\vehiclemods\\vehlivery2_mods.rpf\\banshee_livery5.yft",
+      "mesh_sha256": "2473c2362436b8fff91b13174af84e42cc159b441a61e4692d6b01b4669e0019",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\banshee_livery5\\banshee_livery5.dds": "17e0e9f11877d3f7dcf473667d535876bc66d2aaf69e527d93156dd91f247fbf"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "banshee_livery6",
+      "sha256": "2a31e853c1be27c91fbfe80ee5eaa2e081fe1e48ab03d89b6e7f48d35e2d9f72",
+      "bytes": 3280,
+      "kind": "native-livery-pattern",
+      "resource": "banshee_livery6",
+      "resource_sha256": "F18D97F6749CFB0AB95E38FAFDFC82D2D31E110337599DEDF09C736D40734AF0",
+      "archive": "update/x64/dlcpacks/mpTuner/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mptuner\\vehiclemods\\vehlivery2_mods.rpf\\banshee_livery6.yft",
+      "mesh_sha256": "ec1e79d30d0d28ecd2d789c92a3dbe9dba65dc8f1e9b8203aa86d5a6182a8876",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\banshee_livery6\\banshee_livery6.dds": "9400de17598d0bf7a35f3c5284cc83d9f8f2528fda064886405e71d50c006aba"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "barr_rear_50cal_barrel",
+      "sha256": "0efb161e105f6bd60f155e03f95b34d30270c17cd50c330c5a4081602a382ce4",
+      "bytes": 19616,
+      "kind": "native-part-mesh",
+      "resource": "barr_rear_50cal_barrel",
+      "resource_sha256": "1D58DE3079200CACAEF25F64C41697766508C68C26159A39F5040986B612FA82",
+      "archive": "update/x64/dlcpacks/patchDay19NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday19ng\\vehiclemods\\barrage_mods.rpf\\barr_rear_50cal_barrel.yft",
+      "mesh_sha256": "46171c14bf6138da8b8de010d759845c14691366f6052a847bc00baaea7f8f5a",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\barrage\\barrage_lights.dds": "29ca5be8dbf2bcda5ee104523966e170b65072d708daf40810df07aad250913b",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\barrage\\barrage_guns.dds": "d9ec376967a2916bbca6370884d9a711b9ef41530f9dae712ef5884789e8d9de",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\barr_rear_50cal_barrel\\bullet_chain_d.dds": "15a92dbe36b4e53d43eec8133c02c6672302a3686eb6aa2f87531f8603eb04b7"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "clique2_ornmte",
+      "sha256": "e05c09d9539d5f084f190508a2fc64b56ee5f941ada5cdd5f7412ffaca54dad3",
+      "bytes": 1384,
+      "kind": "native-part-mesh",
+      "resource": "clique2_ornmte",
+      "resource_sha256": "AAF0C7F46BB7FE3098BDCF5229450C642D88307C8C5AEC43E7C1E77FA0ADB90B",
+      "archive": "update/x64/dlcpacks/mp2023_01/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mp2023_01\\vehiclemods\\clique2_mods.rpf\\clique2_ornmte.yft",
+      "mesh_sha256": "563c4b14f7356dadac0cbc9372de46b5f07fc50fb63854034787692a29a4dfb1",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\clique2_ornmte\\vtc_glass.dds": "b0f57d99b6fc224247d20ca94fea1b25046fd916fd2d3c167aa8c5f1ac2d7c8d",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "corsita_roof5",
+      "sha256": "52ff85219505703bcd16017bd4a0d06446aed471f6be65e9e67c72ddfb16bc63",
+      "bytes": 2530,
+      "kind": "native-part-mesh",
+      "resource": "corsita_roof5",
+      "resource_sha256": "FD292C0E03B146DD6A2920D1A005AAD1FBCE1C55CDE217F58B3EA83BEC7B787F",
+      "archive": "update/x64/dlcpacks/mpSum2/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpsum2\\vehiclemods\\corsita_mods.rpf\\corsita_roof5.yft",
+      "mesh_sha256": "c36c27d51f090fcf4acade97d73d6822ac086fd5384e7aa4747480b203378309",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\corsita\\blank.dds": "359f2cf9ed5b12a7d13cf4cba0b414d566b547504a486fcbb900c2084c0b6406"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "dom7_bumr4",
+      "sha256": "a51c21dd9413977efa52bdfd15ca7b5cf590558489a939adcec1b6439186f466",
+      "bytes": 7444,
+      "kind": "native-part-mesh",
+      "resource": "dom7_bumr4",
+      "resource_sha256": "CDADC04A3B6E01642D6488AED78E33A0B71822937AB494D21B5CEFF13C490D80",
+      "archive": "update/x64/dlcpacks/patchDay26NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday26ng\\vehiclemods\\dominator7_mods.rpf\\dom7_bumr4.yft",
+      "mesh_sha256": "99d48815661b10c3fcb995a138fb43dc4bb6fde31279f82eb747644f92e22ff8",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\dominator7\\blank.dds": "359f2cf9ed5b12a7d13cf4cba0b414d566b547504a486fcbb900c2084c0b6406",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "fire_strip3",
+      "sha256": "246d2c36cd5d2529363979862fb0f3c19eb07e44b14b60dd7c0fdf24cec855bc",
+      "bytes": 682,
+      "kind": "native-part-mesh",
+      "resource": "fire_strip3",
+      "resource_sha256": "49732108D1301E42762D31562B3681C592080F9DC344914934806F287BE8982A",
+      "archive": "update/x64/dlcpacks/patch2026_01/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patch2026_01\\vehiclemods\\firebolt_mods.rpf\\fire_strip3.yft",
+      "mesh_sha256": "2e2a324373b0d85ed5205dad916b178822a28480b85fb228ce7bfa8cb9c8c8b6",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\firebolt\\blank.dds": "359f2cf9ed5b12a7d13cf4cba0b414d566b547504a486fcbb900c2084c0b6406"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "mocxmas_camo6",
+      "sha256": "cef54043b1b899028eab2416e9ec1c721bc6826ffdd45417761ae4f2c7d3f8c4",
+      "bytes": 60246,
+      "kind": "native-livery-pattern",
+      "resource": "vehxmas_camo6",
+      "resource_sha256": "3FA2B4BF1CF556F0C6367C28AB494E033E20AF32AD75AE38C007EFB314765F07",
+      "archive": "update/x64/dlcpacks/patchDay19NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday19ng\\vehiclemods\\vehcamo_mods.rpf\\vehxmas_camo6.yft",
+      "mesh_sha256": "e342f25529456bafc4ffa8a81b09f1c30518dca505312c0d7216e167875e9589",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-shared-camo\\vehxmas_camo6\\xmas_camo_06.dds": "4a04679bf6ce8c54f7c93ab9e3e4fb6f4250dad302f967ba46aabbf83651b0f2"
+      },
+      "native_label_evidence": [
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        }
+      ]
+    },
+    {
+      "name": "mocxmas_camo7",
+      "sha256": "5fbce5f731dbc677c80ec23015635328048fdca0886b5ccd94b248cafef0c6e7",
+      "bytes": 29592,
+      "kind": "native-livery-pattern",
+      "resource": "vehxmas_camo7",
+      "resource_sha256": "BFA1CF031A76951B346D770DAD4C57F350270EFBBE6D46FC0B13F3B74114E53C",
+      "archive": "update/x64/dlcpacks/patchDay19NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday19ng\\vehiclemods\\vehcamo_mods.rpf\\vehxmas_camo7.yft",
+      "mesh_sha256": "50f69a4f54b348faaaf8a4e536a33c7eef9a781fd2c729af37147f9d78813c30",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-shared-camo\\vehxmas_camo7\\xmas_camo_07.dds": "2736d320b3460caa47d610fa8ba5538babf50fcf5dfa59351468433a96016a9a"
+      },
+      "native_label_evidence": [
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        },
+        {
+          "path": "build\\lsc-previews\\recovery\\native-enhanced-complete2\\carcols-00026.meta",
+          "sha256": "6ff16291d4be797cec943697245287079e1435a39ede8e163cc566bf063848e8"
+        }
+      ]
+    },
+    {
+      "name": "penumbra_livery1",
+      "sha256": "9b91d12217e27659155f93e4eb69fc80414576df18ab1d00c26542e7e38212e0",
+      "bytes": 1772,
+      "kind": "native-livery-pattern",
+      "resource": "penumbra_livery1",
+      "resource_sha256": "9DAB6CCC6DE7DD326E6F09DDF7FF6C54C8F467C1AFCE2B93477B010CE9E57CA1",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\penumbra_livery1.yft",
+      "mesh_sha256": "57cc4ab5b0e92da66ec553f591ff29a19a9c528ba9e8b67fbb062a884f73e01f",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\penumbra_livery1\\penumbra_livery1.dds": "90b2f7f13c692306d5d581d4396d20f8eaf82c2b45ad2afb85df23cd3cd67c2e"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "penumbra_livery2",
+      "sha256": "609b99ebd845aae97371db638517fe9e8b6cb365be04abf76359970073d6e4c4",
+      "bytes": 1390,
+      "kind": "native-livery-pattern",
+      "resource": "penumbra_livery2",
+      "resource_sha256": "F5120E5398E92369C1A51E80855EC4EBB4D81A8BF51DA9126955EAEE117AB918",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\penumbra_livery2.yft",
+      "mesh_sha256": "e72356f4fec41d1c87f6ab52a6e627cb9e3221ef7b527b9df404f80762c42b9a",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\penumbra_livery2\\penumbra_livery2.dds": "19fa1b24f43068efa0c48ef9c7f29338d020c7b4c49a8a4b319e1e5e21bb2d89"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "penumbra_livery3",
+      "sha256": "6eb956bca263edbc6042a22b7eaa923b5d88620748ede0cfec37a3db99667fae",
+      "bytes": 2196,
+      "kind": "native-livery-pattern",
+      "resource": "penumbra_livery3",
+      "resource_sha256": "4AA8C10B1F82EAB05A3449CE06569043C86EF9C9B125C6E1C8579E5681939E3E",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\penumbra_livery3.yft",
+      "mesh_sha256": "a599b08ac3ba79fb249c29a7c129728fe4b74fa1cdf46553c4b38144edffe639",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\penumbra_livery3\\penumbra_livery3.dds": "3890617e4069ca26631bbbd6668c5f8f79d132382ea18a89b7d0910c0b73ac4e"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "penumbra_livery4",
+      "sha256": "125906b9d1c9084e2885d8e5759580e0836bffedd892e5348317c8a2a3582868",
+      "bytes": 1606,
+      "kind": "native-livery-pattern",
+      "resource": "penumbra_livery4",
+      "resource_sha256": "38EBF65EF454705DA4EF48864055E533E65C2264B6E868C5EFB5D2D5B91832AE",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\penumbra_livery4.yft",
+      "mesh_sha256": "9d1c43777219f277f761bb9affb74a62dda6ff8f9b99320341bf05faeaec13d2",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\penumbra_livery4\\penumbra_livery4.dds": "06fed6589dad70e1c5eaa81be29ce324998dd6c9399d17af7dc300d93766feee"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "penumbra_livery5",
+      "sha256": "853c0af9ad1fb965fab5039d910c5788b28ed07716943914e30dd954cb174ffd",
+      "bytes": 2940,
+      "kind": "native-livery-pattern",
+      "resource": "penumbra_livery5",
+      "resource_sha256": "1C5E43004050EE113F0A3186DD6C44D8A9190EFBA2FE2D334F2E562601D0BF41",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\penumbra_livery5.yft",
+      "mesh_sha256": "dc8a899cdd02119b3d60295f5041565d7bb23539d0237b6dd846c9a9d6621684",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\penumbra_livery5\\penumbra_livery5.dds": "c43cc72f4be4a75453be2c0cfb650fc4dce7daef8700f30d1ac1611e5464701f"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "penumbra_livery6",
+      "sha256": "be260818225ba884675fb7fbab2580c21815b53f933c1043fc97f0ef26ae4254",
+      "bytes": 7732,
+      "kind": "native-livery-pattern",
+      "resource": "penumbra_livery6",
+      "resource_sha256": "4AB4EA46F103B654677258B17A2FBF766E5809E66050867217FF86FE991CE59D",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\penumbra_livery6.yft",
+      "mesh_sha256": "40be5aa607140592f180b748aee200b7cf0ec80fa4ead1ea3a3d2bebcd22ac52",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\penumbra_livery6\\penumbra_livery6.dds": "a63b2fa4c9beff4f3934531db1fad4ebe17a0570b84515a84dffe0bd8e8ee6a2"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "pica_hood_1",
+      "sha256": "b28a821efa409275179be76a91282bd150d83f9bf1d914f5d2ac5c49af2de356",
+      "bytes": 3762,
+      "kind": "native-part-mesh",
+      "resource": "pica_hood_1",
+      "resource_sha256": "5F82046965629A81AC1E66A825C245AEFA41A9A0CF0BB1DB53AB8271126E3EDE",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\picador_mods.rpf\\pica_hood_1.yft",
+      "mesh_sha256": "690b636caaf916859a43dcbb519fb97c90e0e6cb04b9d6fd742c4e75fd8bb55d",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\picador\\blank.dds": "359f2cf9ed5b12a7d13cf4cba0b414d566b547504a486fcbb900c2084c0b6406",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_doorshut.dds": "f7c8f4e071baa8b4e40c1b0d3e54cbb2173dadd972b3e2fedc08b69a97c35eea"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "pica_hood_2",
+      "sha256": "21d2c7189d555437f782cad2fd02f51a877d4a17e610eef0589ad085107f8dd9",
+      "bytes": 3452,
+      "kind": "native-part-mesh",
+      "resource": "pica_hood_2",
+      "resource_sha256": "594DB02FB6B66F05B4296028E6DDB95B117269C6D24FF8CE59C3BC060D6A9141",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\picador_mods.rpf\\pica_hood_2.yft",
+      "mesh_sha256": "eb5fb1a71940d996140c838749663617376930d765bf0f84624a39dd70cbe9d9",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\picador\\blank.dds": "359f2cf9ed5b12a7d13cf4cba0b414d566b547504a486fcbb900c2084c0b6406",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_doorshut.dds": "f7c8f4e071baa8b4e40c1b0d3e54cbb2173dadd972b3e2fedc08b69a97c35eea"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "pica_liv1",
+      "sha256": "3713e5e3afc5acfe6284992de4489e81439bf47a4edee59cf2d2df40cd30772c",
+      "bytes": 836,
+      "kind": "native-livery-pattern",
+      "resource": "pica_liv1",
+      "resource_sha256": "C9EDDCDF4EFB1C083CD99F00C0B0D204D576B034CAA6809F8B5C041911DC5DD6",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\picador_mods.rpf\\pica_liv1.yft",
+      "mesh_sha256": "c75586f1b87d18b26957c3710c39cb259bc927bc0be9dec33154311601543ed7",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\pica_liv1\\picador_livery_1.dds": "7b4a36741d188d1bfa3c2cd1ca3e21460715939b848a8cae3c3584ec1852bd58"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "pica_liv2",
+      "sha256": "746009b268bb5e127e1e3ffcca10f0c3e1424b01dccae2e63dd2ca281bc00363",
+      "bytes": 726,
+      "kind": "native-livery-pattern",
+      "resource": "pica_liv2",
+      "resource_sha256": "F0687DDCA93E8F21FB0F2D432631C1B58C7BD75620A46500E71BDE8F02E423E8",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\picador_mods.rpf\\pica_liv2.yft",
+      "mesh_sha256": "9ec067463dad6dd496cf8ca64f43b7d23d2108a251e16c429ff1cdc46f56261e",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\pica_liv2\\picador_livery_2.dds": "8c7f167e77547cb2b30cae76cb6de75d0bf72d4ead98a1b5d09cd8a22515a4c5"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "pica_liv3",
+      "sha256": "68f8a281f9bf76be92a3b0c47aa4d1080ac32c552ed6406f2bb52cfe373f3712",
+      "bytes": 6418,
+      "kind": "native-livery-pattern",
+      "resource": "pica_liv3",
+      "resource_sha256": "772C1B64B248A9151A097B10936B9E0EDB4E2EA116B11279AC7FEE949B109D46",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\picador_mods.rpf\\pica_liv3.yft",
+      "mesh_sha256": "3c7b01b60d1cc023232e0c0503115184351dd671f42afa5ed09f0d4452af30e7",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\pica_liv3\\picador_livery_3.dds": "ae5c7e368ccb649b246d27055bf130d7c2973560f9bb732b42665b9fc0d6acca"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "pica_liv4",
+      "sha256": "a215d0e0637a2bf97eb4dfba46bdcf1e4590022fa570d30ea941e502cc2aca42",
+      "bytes": 15074,
+      "kind": "native-livery-pattern",
+      "resource": "pica_liv4",
+      "resource_sha256": "BB3E75581BB6AA1F83A39D1D2AAAB87F21F79A4EB4562781C7E1D0E0043545F7",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\picador_mods.rpf\\pica_liv4.yft",
+      "mesh_sha256": "920aaadad101473e2c36ffe718ed97c0054fa503518338e0ec48868bd3438b32",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\pica_liv4\\picador_livery_4.dds": "87240796fd1fbdb14630df4bb250e61f0cd82747cc7cff8481b2e8cf2eec7075"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "pica_liv5",
+      "sha256": "7f2ddb017d385015d8173849dd820343720ebddc0ecfd01385bae1cbd1304306",
+      "bytes": 5914,
+      "kind": "native-livery-pattern",
+      "resource": "pica_liv5",
+      "resource_sha256": "16EDB146309667BAEB475EDB6E0AB99351E098FBD494FEC2F5739C0A7990B8F6",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\picador_mods.rpf\\pica_liv5.yft",
+      "mesh_sha256": "f1d9bcfd7476ca3b5212768c2e19bf7c6c7e98210246b21e9657059be9a02bb0",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\pica_liv5\\picador_livery_5.dds": "58f226dda1ce8830a6069cc6b0dc63f20b97ef89904c2b80db2d7cb62da8531b"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "pica_liv6",
+      "sha256": "26c34f7da652d779b24628235d969655ddef41a8dd6e6a770855bd990f1b51d3",
+      "bytes": 11298,
+      "kind": "native-livery-pattern",
+      "resource": "pica_liv6",
+      "resource_sha256": "E57435951B16BAB0A9F7B67A4B998F7F15CF8349C63BD916C39D0ABB5DF02FB0",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\picador_mods.rpf\\pica_liv6.yft",
+      "mesh_sha256": "fe26e2789cb272fda7f24fcf37a04bf4eade8e79e1a02fbd2a8c7b468a50e059",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\pica_liv6\\picador_livery_6.dds": "714540908eabe4b727ca5a70528ecc1f51a3ed469095f128b026132d893506c1"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "prairie_livery1",
+      "sha256": "80e32ec44e77dced53c911657e3e555f6fd5dca6e3bae251041e3af6384dc2b3",
+      "bytes": 2126,
+      "kind": "native-livery-pattern",
+      "resource": "prairie_livery1",
+      "resource_sha256": "70AF760812A35ED6DAF02DD953AF4311E2CD4D065415BA8C622937984C46C4AB",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\prairie_livery1.yft",
+      "mesh_sha256": "d3dc8bd5e17606cd782eeb90d8a6157ec86106ffecb84e15e105d635ff6ca874",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\prairie_livery1\\prairie_livery1.dds": "d03969795ec6a0fc3e3f177992025cae79482749c8437f6cc5e6f4f93ce30bf2"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "prairie_livery2",
+      "sha256": "cf0ef59cd295bb857a1837acd5b325df74d67c0db24bca7805fb1854a6d34f51",
+      "bytes": 3082,
+      "kind": "native-livery-pattern",
+      "resource": "prairie_livery2",
+      "resource_sha256": "A353A06200ED594671BF20BBD576977421C17D52F1D14E8CCE0406EFF89AE76E",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\prairie_livery2.yft",
+      "mesh_sha256": "2e4a86a2c3d2035a14fabbc3092d2b738e9a41fea04561e6c478af7307092628",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\prairie_livery2\\prairie_livery2.dds": "1c22344b5a34b32ebd5a282ddb388cbd05ca6f28fbd1c528c492fea6836f264e"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "prairie_livery3",
+      "sha256": "83de84b574786851661fc8244695905b49677ecf2a15f0dbef3748f351acf13c",
+      "bytes": 4878,
+      "kind": "native-livery-pattern",
+      "resource": "prairie_livery3",
+      "resource_sha256": "4C593303B83B10B7FCFB5AE88C1A8FD87BCC29B342B50493D138C8B75580FFC3",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\prairie_livery3.yft",
+      "mesh_sha256": "43b6a1d3bb49ed9760df4882422619e2f1194f05e730c0904e8a63619c63ccbb",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\prairie_livery3\\prairie_livery3.dds": "980c33bed8c9dcc413d17a4f44a5b3d027933faa58f7d838149bf4e859878b2b"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "prairie_livery4",
+      "sha256": "e2bc8de062976b519e90caf522aa3db7c7daf08f2a90eb231d88d1270eb09d37",
+      "bytes": 1210,
+      "kind": "native-livery-pattern",
+      "resource": "prairie_livery4",
+      "resource_sha256": "4C97CF08E5E51B172A71F5BF45FC4BD203968FA6B6A5E5AFFC2DC65EE75219A9",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\prairie_livery4.yft",
+      "mesh_sha256": "f59b7427277ea2de0cc0b2ac33dfeb75ddd0904f9e910d1950dfe3acace47925",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\prairie_livery4\\prairie_livery4.dds": "a3f584ef3018125ed64964696b8f9578fe735ef23f7dd820c34fb6ee9d2adbca"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "prairie_livery5",
+      "sha256": "2fcdfcec4fca3809bb0026f8e328af1526f08b7f124b3352452c841e16ee897e",
+      "bytes": 2826,
+      "kind": "native-livery-pattern",
+      "resource": "prairie_livery5",
+      "resource_sha256": "524713214493FFD69B3098DBF0A056D863CA1945578004EC5D8F45837492A702",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\prairie_livery5.yft",
+      "mesh_sha256": "3f7f05c6d23830c60ee7410f4f13870b477be9a0503333822cfa421695e76d1f",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\prairie_livery5\\prairie_livery5.dds": "1dc6bd33a3db239ac9817c8fd9b5d0c4da9be75166f86f6fefdc3d59f0d253c5"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "prairie_livery6",
+      "sha256": "823bed9865aa49ac28f97658cd6a59ab7e227a1c5d9d12d2b62c0421a8bca723",
+      "bytes": 3920,
+      "kind": "native-livery-pattern",
+      "resource": "prairie_livery6",
+      "resource_sha256": "2FBD6B17DB8C82773A35D4C5A8071C707F4F235AC397CC5B7060DE7297F76810",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\prairie_livery6.yft",
+      "mesh_sha256": "de9140c9f3cc934440677f33e2262227a278a00edc33608fbccabfced8296032",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\prairie_livery6\\prairie_livery6.dds": "3a91f866de194e9fc3ea8bc915be3dda4fa7bccd3050ec9a79fb6c616fb4b2fd"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "prev_bucketa1_smod",
+      "sha256": "ae2fd93a3d6f749cd60baab3239db6d39586175ff3080da3355efb617fb0016f",
+      "bytes": 7344,
+      "kind": "native-part-mesh-neutral",
+      "resource": "prev_bucketa1_smod",
+      "resource_sha256": "BE083305D7EFFDDB438CCA6B171F5595D590138713013E71DB6D27AD89F07369",
+      "archive": "update/x64/dlcpacks/mpTuner/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mptuner\\vehiclemods\\previon_mods.rpf\\prev_bucketa1_smod.yft",
+      "mesh_sha256": "629f27397cd1893d5a46ab67e1fadb7cf7e1981a808de29c9db04b87e6d3faab",
+      "textures": {},
+      "native_label_evidence": [],
+      "material_note": "Exact native seat geometry; neutral material because shared diffuse textures are unavailable"
+    },
+    {
+      "name": "ruiner_livery1",
+      "sha256": "8f25a0f83f8f6338baede69794618e58bdb8c67a97c016a9b205689e73fc63b8",
+      "bytes": 2708,
+      "kind": "native-livery-pattern",
+      "resource": "ruiner_livery1",
+      "resource_sha256": "971F6F12E16DDD7B1405D5B44AEAC4DFAEAE5BB50D89436FDA90B74D6A95051F",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\ruiner_livery1.yft",
+      "mesh_sha256": "685d3f621a63605942ad715f906514f283cf8cd47ae486899218391881e042e8",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ruiner_livery1\\ruiner_livery1.dds": "3bdfba6f98bd053c4f66c47db39bfca6329f63686f3a4717dd508959dd7ab8b8"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ruiner_livery2",
+      "sha256": "2a5663d3723798f48f04dd23422bcf4102ef2f6916ff4dea530a497b1faf0b84",
+      "bytes": 3602,
+      "kind": "native-livery-pattern",
+      "resource": "ruiner_livery2",
+      "resource_sha256": "27581E16A288536B63F2A65C554C80D52A16D47927E213F204C7173E1B73EA98",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\ruiner_livery2.yft",
+      "mesh_sha256": "3016c0901e9935a1bcaffcec1c80e835b5e307cb73265f8c1bf95fabfbc8c0b0",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ruiner_livery2\\ruiner_livery2.dds": "bc55579bdadf588bd6d99ea1f82f63f8d7ec032fd372ee984c2f34c8f672cb92"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ruiner_livery3",
+      "sha256": "a87f10896eeca518953d7826d078a755a90caa7f4000f6c344783bd006e835fa",
+      "bytes": 3556,
+      "kind": "native-livery-pattern",
+      "resource": "ruiner_livery3",
+      "resource_sha256": "DF6C47FE2D63C235ACD00F738C8218565ED5C6F34B8EA64AAC7F1EBB770991E4",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\ruiner_livery3.yft",
+      "mesh_sha256": "f812166b9eabda512582739a3a003a8ec1000eb190c328f6b3bfed79924a9877",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ruiner_livery3\\ruiner_livery3.dds": "596b163592925b169ec32827ff9ba16859862af579780b575dbea74399f07458"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ruiner_livery4",
+      "sha256": "596640c51c4ee9e2211eaf30b0a276315a8dd5197343aac3a9abfb4a72d34a77",
+      "bytes": 2828,
+      "kind": "native-livery-pattern",
+      "resource": "ruiner_livery4",
+      "resource_sha256": "FE60696BEFCA15640A7FFC99C6054D0000817F2A38F5FA53C357175C3E9DE585",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\ruiner_livery4.yft",
+      "mesh_sha256": "a07e732ad8e9ec0033678a7e70001032b8c2612adecc59f8faa3f7dba10f9e51",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ruiner_livery4\\ruiner_livery4.dds": "64adaa4aa08eaf5e659fc7bac945540cf2bf8bb55ac41c8107f21642eb45226f"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ruiner_livery5",
+      "sha256": "0b82783fd52740c81761088663752bc542c18a39a91f6c42174e4b4be904df9f",
+      "bytes": 3582,
+      "kind": "native-livery-pattern",
+      "resource": "ruiner_livery5",
+      "resource_sha256": "D63C8CA633BB89E78A47A0F0824D7873AB1C2C79214EC1B9EE3598C1459DD236",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\ruiner_livery5.yft",
+      "mesh_sha256": "de5240833639329f08cb0f0db2e758bb1b7e1282e679417f41c9769649f0012d",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ruiner_livery5\\ruiner_livery5.dds": "5fde8845e0045885d40d6dbb4e6c32e90b3e18657f795c7477b6b91c2a06cd65"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ruiner_livery6",
+      "sha256": "423a30d2a8ed2d2ed9f4a41a4291b18efc5bb48116932f4bf47d6f0e4194e19c",
+      "bytes": 3562,
+      "kind": "native-livery-pattern",
+      "resource": "ruiner_livery6",
+      "resource_sha256": "C33E9453CCB378176B918A9B656D978B762030140BFEBC57A2292D937075F8D5",
+      "archive": "update/x64/dlcpacks/mpBattle/dlc1.rpf",
+      "resource_path": "dlc1.rpf\\x64\\levels\\mpbattle\\vehiclemods\\vehlivery_mods.rpf\\ruiner_livery6.yft",
+      "mesh_sha256": "1ef6032170425778ed2ed413f97ed47d3e39c13963ed857a4bf6ab5529fcc9e4",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ruiner_livery6\\ruiner_livery6.dds": "4fe8d2af6d8bbf7c297e9f482166047f29a7b6474f8c0117d84123338ed27415"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sab2_liv1",
+      "sha256": "f4becd57264b0705ac4fee322e4c340b86f9edbd319f038c4699be525e62618c",
+      "bytes": 7854,
+      "kind": "native-livery-pattern",
+      "resource": "sab2_liv1",
+      "resource_sha256": "274398969695052DCDD46256E6AD1E16C6DD0536C718E662B372191BEFB4A77E",
+      "archive": "update/x64/dlcpacks/mpLowrider2/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mplowrider2\\vehiclemods\\sabregt2_mods.rpf\\sab2_liv1.yft",
+      "mesh_sha256": "f50451973cffa9011a86b2d94934ed5cbac0b6514313f4f93e840f6040da71b9",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sab2_liv1\\sabregt2_sign_9.dds": "3cd2261ae496ee88438e99464563f0ebee2a774e653f8eda06fb2834e2819a9a"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sab2_liv2",
+      "sha256": "791236e04ca39de3ce725bb07b8135c50287288c580c81b954836ccb34047dd7",
+      "bytes": 17172,
+      "kind": "native-livery-pattern",
+      "resource": "sab2_liv2",
+      "resource_sha256": "D09875B71CFD1B381EF79BC3EBAE0E950D181DFCED1ED72121AEA706B09C209B",
+      "archive": "update/x64/dlcpacks/mpLowrider2/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mplowrider2\\vehiclemods\\sabregt2_mods.rpf\\sab2_liv2.yft",
+      "mesh_sha256": "29363e25bae036b6ca4b32f62138382a3d89741664656709a01631cf7ad39568",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sab2_liv2\\sabregt2_sign_5.dds": "d84e92a19ed9d85a0cbc43b790edb3458cf2e64f108f02c8f45d8add67f517db"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sab2_liv3",
+      "sha256": "22a2588bdfcee18264209de7a5adf771f21feb8017e5cb7c033e12e8a680a635",
+      "bytes": 22822,
+      "kind": "native-livery-pattern",
+      "resource": "sab2_liv3",
+      "resource_sha256": "1C64CF9C1B52E39184BF6DC3672333E4AF8163187B226936CDA3E454FC5CFF56",
+      "archive": "update/x64/dlcpacks/mpLowrider2/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mplowrider2\\vehiclemods\\sabregt2_mods.rpf\\sab2_liv3.yft",
+      "mesh_sha256": "74d55eaf5ecf0e47a27283c87a92d85517b5739404b02342fc83bcd35de1f6b4",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sab2_liv3\\sabregt2_sign_6.dds": "d4ddbc9b41c5aaf6262257355fab38253cce8a3f2f45a6e072db68f5122888be"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sab2_liv4",
+      "sha256": "f56a17dbed8c00f180c8a9abbacb3f2f8882a4ddd18c54c71acc7be3a148b87c",
+      "bytes": 27328,
+      "kind": "native-livery-pattern",
+      "resource": "sab2_liv4",
+      "resource_sha256": "845FA6599A5AACDD1CB1AD86D642398ABA59455D1775308E1048477FBDF689D3",
+      "archive": "update/x64/dlcpacks/mpLowrider2/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mplowrider2\\vehiclemods\\sabregt2_mods.rpf\\sab2_liv4.yft",
+      "mesh_sha256": "a318e81fbe6e015d4656012371f4f48dbb41d2f88ec961b314d2ce001014d553",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sab2_liv4\\sabregt2_sign_1.dds": "6b9f22f17779cd28c800758b76f4c3daeadaa9911459c1a8a897cb1be110a1e5"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sab2_liv5",
+      "sha256": "56391414202e0e7f39e2a18a15b87fb93094c8e119c3406ca4f0dd1eb03b8de7",
+      "bytes": 13894,
+      "kind": "native-livery-pattern",
+      "resource": "sab2_liv5",
+      "resource_sha256": "EFCC7E7232AD5A1EF254329914BBF055AC5C2EE4778C0A155F7E12804735A1FE",
+      "archive": "update/x64/dlcpacks/mpLowrider2/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mplowrider2\\vehiclemods\\sabregt2_mods.rpf\\sab2_liv5.yft",
+      "mesh_sha256": "46460c7f9deed2694c9d0f7d8ee12e74e475e62176b32527dc266b6f404ab54d",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sab2_liv5\\sabregt2_sign_7.dds": "0a6bcb9d07f993e8007c9c6ebf6cd9007993dd9a3d0435b2ba8ea2592f68725e"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sab2_liv6",
+      "sha256": "6bf8d4ece3c679238571077e6b4c9edc8813c6104ddbf0e125b047bfd2ff04d0",
+      "bytes": 20560,
+      "kind": "native-livery-pattern",
+      "resource": "sab2_liv6",
+      "resource_sha256": "05296BFC759269051B96A0C77ADC9D2B2E5ACC99BC46DE7191CA98C57FF4B71B",
+      "archive": "update/x64/dlcpacks/mpLowrider2/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mplowrider2\\vehiclemods\\sabregt2_mods.rpf\\sab2_liv6.yft",
+      "mesh_sha256": "57a8e9eaaa01cf270d85b4170de071fe943f9ab66de88b4ca386de8cce856921",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sab2_liv6\\sabregt2_sign_8.dds": "736c555593b8027a7d9d9a4f0728cd1116f6d6b4f3de22cd2f07f7c8cc465c75"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "schwarzer_livery1",
+      "sha256": "c15f397038fb84bb86b60c703b46985e84d135719d9db1d2c3cd4b4d75b6ce1e",
+      "bytes": 17696,
+      "kind": "native-livery-pattern",
+      "resource": "schwarzer_livery1",
+      "resource_sha256": "D6F8474903F82BB75EF4BEFCBF5FBFA5E4D9F263D3706B3E0E40B5AA20B63675",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\schwarzer_mods.rpf\\schwarzer_livery1.yft",
+      "mesh_sha256": "d953e3fe159cf68197f6c5b918c2322a4eb8d6f624477b1ac0196bae5912e93a",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\schwarzer_livery1\\schwarzer_livery1.dds": "a28abe3f75e27f7a6e675929df4cdfc2a2a66467a314cde7cd1df7787b4bb25b"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "schwarzer_livery10",
+      "sha256": "04b14f0556ace1ea6eff025aec01b8ac9384b874540fb160c9b434c1b0bf1530",
+      "bytes": 674,
+      "kind": "native-livery-pattern",
+      "resource": "schwarzer_livery10",
+      "resource_sha256": "664784B793884A3426D530C85AEC54E4AA26E3C6782C70C6DDF6DAAE6E37307A",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\schwarzer_mods.rpf\\schwarzer_livery10.yft",
+      "mesh_sha256": "25a4766c1115382abbcc6175b41a339a4cab941ca7680415bade02357e31c3bf",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\schwarzer_livery10\\schwarzer_livery10.dds": "d1382edc7bb58d793b7c75a6ab6f79948ae66adb3b48815c9bf1fb10bf661b09"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "schwarzer_livery2",
+      "sha256": "a15950317f0f1c523f788541ade11c1287cf9c8d6f958e003e2446243bb927e1",
+      "bytes": 20326,
+      "kind": "native-livery-pattern",
+      "resource": "schwarzer_livery2",
+      "resource_sha256": "9A157EFE6495D3AB9A474EA78A93E8D41D83BC3940023919AF6E81A1FFCD2CC6",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\schwarzer_mods.rpf\\schwarzer_livery2.yft",
+      "mesh_sha256": "f0f3c7a1d41d9535574e5b47d2ca93eb9464f01dfbb68e0fc4ca9b6a35915eb5",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\schwarzer_livery2\\schwarzer_livery2.dds": "27d88752f5a50de8be3034a94f973c5b28434d33b38832b49f1c94399c6ded4f"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "schwarzer_livery3",
+      "sha256": "e4e5d87243a566285b89f1027d0ef6f65e52f1c779707524ff9bdc1cf0213a92",
+      "bytes": 13924,
+      "kind": "native-livery-pattern",
+      "resource": "schwarzer_livery3",
+      "resource_sha256": "E3EEF4245A5CE09390E96016C43748712D5937918908829A73F2ECE533C655E1",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\schwarzer_mods.rpf\\schwarzer_livery3.yft",
+      "mesh_sha256": "ed95d9872749764a7e687a7aa4d4d72f3cb74e7fb7d625cd0e621709c48913f8",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\schwarzer_livery3\\schwarzer_livery3.dds": "f165425a2be96ff97c87f68494185abafd8f7147f1b1872ed02d1cd0e3c4249d"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "schwarzer_livery4",
+      "sha256": "947447663d99ab3ef546e394b45f9027ebff649c5c6ee580d7ec8eb687810a2d",
+      "bytes": 9012,
+      "kind": "native-livery-pattern",
+      "resource": "schwarzer_livery4",
+      "resource_sha256": "F6B8C94AAAE16C6EFB6CD419E021829361C9CBBEFFA95231A5279C688FE108C5",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\schwarzer_mods.rpf\\schwarzer_livery4.yft",
+      "mesh_sha256": "685a6a60ae998aa408fbd2d5d781ae4e32b6595836829c17555e0be2594316c1",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\schwarzer_livery4\\schwarzer_livery4.dds": "353ce09ebf08b41f4045f91e59e38eb9149d5afe221c5358c5873e809b565ea9"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "schwarzer_livery9",
+      "sha256": "16821c2c3a74b018586886b64656ac530ea88317035514e956f6c8c4660a1211",
+      "bytes": 758,
+      "kind": "native-livery-pattern",
+      "resource": "schwarzer_livery9",
+      "resource_sha256": "BF53BC4257A7676E6D4683DB258B994C6C4B7DE9758B38582A71AEADC3C54930",
+      "archive": "update/x64/dlcpacks/patchDay27NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday27ng\\vehiclemods\\schwarzer_mods.rpf\\schwarzer_livery9.yft",
+      "mesh_sha256": "1962c9125806502aec964896808b6a32142335ca0270fa42587f2eefa96dcecd",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\schwarzer_livery9\\schwarzer_livery9.dds": "3154451a4de6a4b35bfb369c248462d6d4bb1708b2e5ed26c672d1264126d636"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sentinel_hswliv1",
+      "sha256": "55e4374682cf5e37bf4d6885998344c15861e9abbee2d0e46c2f10239813b608",
+      "bytes": 55624,
+      "kind": "native-livery-pattern",
+      "resource": "sentinel_hswliv1",
+      "resource_sha256": "417B3627A9F271A05AEDBC019EF4F9ECFD7CC8C0432C6AA1A90CE9DE781A588D",
+      "archive": "update/x64/dlcpacks/mpG9EC/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpg9ec\\vehiclemods\\vehlivery3_mods.rpf\\sentinel_hswliv1.yft",
+      "mesh_sha256": "0510f05c8bbc480c0407a42ae7d2c02a54e1b93bb11860a3406ea13dbe3a9082",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sentinel_hswliv1\\sentinel_hswliv1.dds": "31c8313c2c2c41b2102771b943fdb8d1563607ef2e15a13f5b106dad899eecd0"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sentinel_hswliv2",
+      "sha256": "f28ea3cb545cad977a83d27735ddfa0eb3449797b4f9794efe3476e17567a00c",
+      "bytes": 71490,
+      "kind": "native-livery-pattern",
+      "resource": "sentinel_hswliv2",
+      "resource_sha256": "CEC96516E6438F40C6544D896E7C33E7690506B226EE1EB9F629E993CE81A453",
+      "archive": "update/x64/dlcpacks/mpG9EC/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpg9ec\\vehiclemods\\vehlivery3_mods.rpf\\sentinel_hswliv2.yft",
+      "mesh_sha256": "79e5f5946bd79d4df4d5f20413d8c7ae5f99c3754465a7d761b87e291a8c7358",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sentinel_hswliv2\\sentinel_hswliv2.dds": "f35a979338e491d48df97507f233f04f8643c1d2ac6b2f14f5e66afc4310c1fe"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sugoi_liv1",
+      "sha256": "32317774b6e1e80e57fedaf0af5f10c2053bb0f6433cbe891c9e8a7a177afc72",
+      "bytes": 500,
+      "kind": "native-livery-pattern",
+      "resource": "sugoi_liv1",
+      "resource_sha256": "6033C18A07F196A43C87BA39ECBBAC17DB20FA363C42412EF8E79C4AF11B59D8",
+      "archive": "update/x64/dlcpacks/mpheist3/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpheist3\\vehiclemods\\sugoi_mods.rpf\\sugoi_liv1.yft",
+      "mesh_sha256": "0688d60c1321a5281a4a139c2fdf9bae426a2a2016fd21b65b964351bba299a4",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sugoi_liv1\\Sug_Liv_1.dds": "c719fae46b99dff12f51fa5bb58747d1d4ab7b822c3f8b917d2b15ef1a91373f"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sugoi_liv2",
+      "sha256": "d9dedd37b1415ac6ccf4612dcdbf5003923b046802d489789deb53ab7e1921bc",
+      "bytes": 2658,
+      "kind": "native-livery-pattern",
+      "resource": "sugoi_liv2",
+      "resource_sha256": "1193E53717D411F475C54DE03008FEC8CCBB5FE1FF6D421FC766733F9376C7C2",
+      "archive": "update/x64/dlcpacks/mpheist3/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpheist3\\vehiclemods\\sugoi_mods.rpf\\sugoi_liv2.yft",
+      "mesh_sha256": "88fa9b5ca32b263291138550ab1bbe24c4a94e2d184581f312c5f8748b4b0a2a",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sugoi_liv2\\Sug_Liv_2.dds": "db98b4012494cc3fc0978bfcdcb33243376fe21598b2c423881c3b33c2606138"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sugoi_liv3",
+      "sha256": "1dd995ac2dfcace46a8497b5bddce6e67913e71009ab03336f3bc5effab5e9e3",
+      "bytes": 7204,
+      "kind": "native-livery-pattern",
+      "resource": "sugoi_liv3",
+      "resource_sha256": "8718B9E162D56D9088818F1BA8005196041BB12F84D0290C0FFA3903E92E6471",
+      "archive": "update/x64/dlcpacks/mpheist3/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpheist3\\vehiclemods\\sugoi_mods.rpf\\sugoi_liv3.yft",
+      "mesh_sha256": "870850754b74961da7c7bb6cc6cb55c521f93a335508b1a3b3395a0dbe45cbbf",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sugoi_liv3\\Sug_Liv_3.dds": "6afa5053ba3714a6173f450a81d31c9937bdb4e0ee77ec986c67741b60498908"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sugoi_liv4",
+      "sha256": "9ac3027cd67f1ae8061f4b1b2c3da0e1297282cef7cecd5c6193c0f0e6c940ed",
+      "bytes": 13944,
+      "kind": "native-livery-pattern",
+      "resource": "sugoi_liv4",
+      "resource_sha256": "07F43D98F3E32BAE5ED4200CBCCADEA9F8EC80D6A0568440E405FE54CD820BB3",
+      "archive": "update/x64/dlcpacks/mpheist3/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpheist3\\vehiclemods\\sugoi_mods.rpf\\sugoi_liv4.yft",
+      "mesh_sha256": "c99917d966ffd5cc7cafaa83a900c96a2f6978102f9da1c7ae2679242f72c0f6",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sugoi_liv4\\Sug_Liv_4.dds": "2c479fdba23498c6286c005433a5b0ea2ca511aea9b708887a43be76d81ac747"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sugoi_liv5",
+      "sha256": "696c1f40cc89001f257b82c2476af647a0fd8229439d5c9bd59d2cea26678815",
+      "bytes": 15456,
+      "kind": "native-livery-pattern",
+      "resource": "sugoi_liv5",
+      "resource_sha256": "83D406740741764725FCF00CB781544035D95A6E7E7FFDD515C0E909F27BFD75",
+      "archive": "update/x64/dlcpacks/mpheist3/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpheist3\\vehiclemods\\sugoi_mods.rpf\\sugoi_liv5.yft",
+      "mesh_sha256": "4cc47462e0d33cce7afd1c89d2a41cb852d12e00a7952e5b7b12f2aecba9e62a",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sugoi_liv5\\Sug_Liv_5.dds": "5f52be51d596c93c43b0ec0a2efe63442b01b3e6e6b5d96cba98aa7d8484cfe0"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sugoi_liv6",
+      "sha256": "558e67b9f2cc777e259979da6e51a8337c1ff36d4c33296e584672488aa6692e",
+      "bytes": 24600,
+      "kind": "native-livery-pattern",
+      "resource": "sugoi_liv6",
+      "resource_sha256": "A32446920BEE4748D975411B42C0473BB00065F7BC725A73EB8985EBDA447E99",
+      "archive": "update/x64/dlcpacks/mpheist3/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpheist3\\vehiclemods\\sugoi_mods.rpf\\sugoi_liv6.yft",
+      "mesh_sha256": "d1868f393b7da8f576a5d33d1ac84ab3de6923231c29b1632c5ead87dba53df6",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\sugoi_liv6\\Sug_Liv_6.dds": "e8349160a2269c65c3b9a7faf6376c2a5d6bdeecc084c6e1f7caebebd38bd2b1"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "sultan_bum_r",
+      "sha256": "28c8600c98821b9eebf5d2a41e793ed78a9cf1536e96890b7684ac97d68343dd",
+      "bytes": 12498,
+      "kind": "native-part-mesh",
+      "resource": "sultan_bum_r",
+      "resource_sha256": "47CEE5FB873A3CC2CE38840E74BC86A56A4D69A65D6EA28E8D61D96C318FA3E3",
+      "archive": "update/x64/dlcpacks/patchDay10NG/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patchday10ng\\vehiclemods\\sultan_mods.rpf\\sultan_bum_r.yft",
+      "mesh_sha256": "c7281a0a20cd20b39d0e5dbaeec5a707d5ba092ce7f8e6fc5611f374c89b42ea",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_smallspecmap.dds": "3860afa00c25245d4a8dd0893089b7ba67d2bb16b8ca83cb96103617932abdef",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2",
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_carbon.dds": "caf1de89e48e1109d194bcc478b8f4ed0e82d794f6e2500f45be66e41f4bd1d3"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ts2_livery1",
+      "sha256": "78e66d390c1d93351170884161fb19b9ce3694dae535f9d78d30e535a1031b4b",
+      "bytes": 26906,
+      "kind": "native-livery-pattern",
+      "resource": "ts2_livery1",
+      "resource_sha256": "94FFF25B6C28CB87A6B9267DFE4628B11272510AE2555F0DC3FAA04E8AE4C2A1",
+      "archive": "update/x64/dlcpacks/mpGunrunning/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpgunrunning\\vehiclemods\\trailersmall2_mods.rpf\\ts2_livery1.yft",
+      "mesh_sha256": "b0bf0218f976e55401a43cb38cdbf4fd7f694e4790514530926a79a9fc88bb8d",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ts2_livery1\\apc_camo_01.dds": "8af1091943e416054394081e455f7756e9ff138de7d2ced65ce2c6588ae6f991"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ts2_livery2",
+      "sha256": "1cd19d130ad081b6854c79a711ef1f4a8817fa4861890d0b224c522e60c645f8",
+      "bytes": 38108,
+      "kind": "native-livery-pattern",
+      "resource": "ts2_livery2",
+      "resource_sha256": "2A21DFBE66397E3F82CD19D98C57101070534B4FEF20707594DF02F26A3C9A23",
+      "archive": "update/x64/dlcpacks/mpGunrunning/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpgunrunning\\vehiclemods\\trailersmall2_mods.rpf\\ts2_livery2.yft",
+      "mesh_sha256": "7e8865472ccb0366392e47e28da865fc564b4b67b2edd26291971e2ef70f9ac9",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ts2_livery2\\apc_camo_02.dds": "2856a9b25f59a358a4464493415e6dc6f608550b6bbf4f0e19de9d6c9c1414e3"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ts2_livery3",
+      "sha256": "e9aa30ecf590c48357f09ca42d4a4d48adfdb06c173bb9155ef3266f9dfcd511",
+      "bytes": 33930,
+      "kind": "native-livery-pattern",
+      "resource": "ts2_livery3",
+      "resource_sha256": "8AE2A16E62A8798B40CC250F6BD41B119A8397F348781330BF486FF0DF255608",
+      "archive": "update/x64/dlcpacks/mpGunrunning/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpgunrunning\\vehiclemods\\trailersmall2_mods.rpf\\ts2_livery3.yft",
+      "mesh_sha256": "574719f9e5a30c22b06bbe8413538d1d55adb5bb63fba3a73c18c261e7eb70ae",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ts2_livery3\\apc_camo_03.dds": "2491e6b6aeb92c070409c4b34fde37a78fbe20a750d116e7142317ed5a60f5ba"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ts2_livery4",
+      "sha256": "47d5472a80ab97cb1878492361eb0290f9ab4e25516aff7d0fdb117560bc7f4b",
+      "bytes": 35108,
+      "kind": "native-livery-pattern",
+      "resource": "ts2_livery4",
+      "resource_sha256": "C02A748E300BD22111EB71942CB83409832B2F5F476655F32BA531C67F64FE4D",
+      "archive": "update/x64/dlcpacks/mpGunrunning/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpgunrunning\\vehiclemods\\trailersmall2_mods.rpf\\ts2_livery4.yft",
+      "mesh_sha256": "7d9be5af18fb807644296079b9f6ba6760f5f540796dfe8caf87a301f884fbd4",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ts2_livery4\\apc_camo_04.dds": "2f301506ce638c0fab3c29273f16bf39395d44504f4d217022e916b6c3977621"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ts2_livery5",
+      "sha256": "a52d9580923bf839e2ea6c965e60014fa8d41f86bc6a54fc5aefd6df49c71723",
+      "bytes": 44244,
+      "kind": "native-livery-pattern",
+      "resource": "ts2_livery5",
+      "resource_sha256": "0A0DF9E10548596BBA120CFC917C99EB6D975B48284879D6B6541E177864D098",
+      "archive": "update/x64/dlcpacks/mpGunrunning/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpgunrunning\\vehiclemods\\trailersmall2_mods.rpf\\ts2_livery5.yft",
+      "mesh_sha256": "45f0722869ac3c9a07a68d21588501d949bc6cbe05cc9264ab2fc9d05996462b",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ts2_livery5\\apc_camo_05.dds": "7f8b20b3d4ec00e4d9f08fe97403066f50fc9ee7fb9c5c9d1285fc8292a23161"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "ts2_livery6",
+      "sha256": "7830c2a6bd6af3753ad7a83d4ce31db35fab817fb830c128dfa65ac7170a2949",
+      "bytes": 34504,
+      "kind": "native-livery-pattern",
+      "resource": "ts2_livery6",
+      "resource_sha256": "9F445726BD5E446E51C9FB0711FD05F95275815EC33793126B444F446E3009DA",
+      "archive": "update/x64/dlcpacks/mpGunrunning/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\mpgunrunning\\vehiclemods\\trailersmall2_mods.rpf\\ts2_livery6.yft",
+      "mesh_sha256": "c6cc7822b22ec2f83004279d9e36bb9cdc85aef5913912eef243026733d8b71f",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\ts2_livery6\\apc_camo_06.dds": "f0d502fd7bc1bc7d04f3e3d0173eddabbc3b4c99ec5b7f28206c535fe7018e76"
+      },
+      "native_label_evidence": []
+    },
+    {
+      "name": "vorschlag_exhd",
+      "sha256": "ac004421223f780f73a4655208ac0427861eb1f42334f3d5d59ae307fb83d8b9",
+      "bytes": 3622,
+      "kind": "native-part-mesh",
+      "resource": "vorschlag_exhd",
+      "resource_sha256": "B5D20D94A26A7842E1B6B0D20A199A268270CC36EFCAAF11D1094F11B02A3A00",
+      "archive": "update/x64/dlcpacks/patch2025_01/dlc.rpf",
+      "resource_path": "dlc.rpf\\x64\\levels\\patch2025_01\\vehiclemods\\vorschlaghammer_mods.rpf\\vorschlag_exhd.yft",
+      "mesh_sha256": "3a28f0795ac1be7a91185cd6bbfa7e9a8a965a366581d5af27514a034bb72525",
+      "textures": {
+        "build\\lsc-previews\\recovery\\native-enhanced-complete2\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2"
+      },
+      "native_label_evidence": []
     }
-  ],
-  "packs": [
-    {
-      "file": "LSC_Previews_20261103_01_67a8485e6298.zip",
-      "sha256": "67a8485e6298c85a9b1386a786a02500ed39ce556df9c027346592c712781d51",
-      "bytes": 63363589,
-      "files": 2849
-    },
-    {
-      "file": "LSC_Previews_20261103_02_02b3a86a7f61.zip",
-      "sha256": "02b3a86a7f611740e6a6df6a4c0742b67218aa569881addadbbf6c1424f60b05",
-      "bytes": 63424701,
-      "files": 3034
-    },
-    {
-      "file": "LSC_Previews_20261103_03_5014b548fc64.zip",
-      "sha256": "5014b548fc6472a2405e5b98be56eef10a7dd98b734f0ff53dea9c0f48ca281d",
-      "bytes": 63409729,
-      "files": 2943
-    },
-    {
-      "file": "LSC_Previews_20261103_04_23d30f6f8dce.zip",
-      "sha256": "23d30f6f8dce19b439bda99af3c0d229b92d490b59c809a1d8b5eb6d381e7bde",
-      "bytes": 63400406,
-      "files": 2887
-    },
-    {
-      "file": "LSC_Previews_20261103_05_01d3bb55137a.zip",
-      "sha256": "01d3bb55137ab62ad18d496f4d1ae104b1c6d678fca697410d9a31d3f9c0adae",
-      "bytes": 63409487,
-      "files": 2967
-    },
-    {
-      "file": "LSC_Previews_20261103_06_1a170ae8ddbc.zip",
-      "sha256": "1a170ae8ddbc4863dd626dfc2dbfb3c73563e4432aa664dbf05fb8bb40deeb9f",
-      "bytes": 63410594,
-      "files": 3014
-    },
-    {
-      "file": "LSC_Previews_20261103_07_9699340dbbeb.zip",
-      "sha256": "9699340dbbebba638a8d38c59ee63e7e2677a8d932936028fd334453aaa9068c",
-      "bytes": 63153085,
-      "files": 1601
-    },
-    {
-      "file": "LSC_Previews_20261103_08_82ac1cf6399b.zip",
-      "sha256": "82ac1cf6399b76acaf3a842fa04c3c1be5df5e7041ac3244bacbd2ff521fc4ec",
-      "bytes": 25589292,
-      "files": 1194
-    }
-  ],
-  "catalog_sha256": "ab92720011a74b08daa8fd48989c4dfae45ad41ee740676f3ac32f70b7e403ab",
-  "base_url": "https://raw.githubusercontent.com/Rendererrr/Rendererrr.github.io/main/scooby/GTA5/images/vehicle-mods/"
+  ]
 }
