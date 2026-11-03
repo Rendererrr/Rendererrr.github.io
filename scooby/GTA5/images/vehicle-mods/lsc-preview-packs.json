@@ -5,9 +5,9 @@
   "affected_options": [],
   "packs": [
     {
-      "file": "LSC_Previews_Recovery_20261103_01d8e9c66f5e.zip",
-      "sha256": "01d8e9c66f5e2033f67274a479fc0f50096762f060389a3336de9142df9e25b7",
-      "bytes": 869078,
+      "file": "LSC_Previews_Recovery_20261103_5a22473a6d77.zip",
+      "sha256": "5a22473a6d77b6288016723096ae1863341562e6dd72d441593533ca3dc3da97",
+      "bytes": 877473,
       "files": 73
     },
     {
@@ -1194,17 +1194,51 @@
     },
     {
       "name": "prev_bucketa1_smod",
-      "sha256": "ae2fd93a3d6f749cd60baab3239db6d39586175ff3080da3355efb617fb0016f",
-      "bytes": 7344,
-      "kind": "native-part-mesh-neutral",
+      "sha256": "2213fa4e5e33e0d4090b5779194703d20545b4eeb2d701ad3feb625dbf04f71f",
+      "bytes": 15738,
+      "kind": "native-part-mesh",
       "resource": "prev_bucketa1_smod",
       "resource_sha256": "BE083305D7EFFDDB438CCA6B171F5595D590138713013E71DB6D27AD89F07369",
       "archive": "update/x64/dlcpacks/mpTuner/dlc1.rpf",
       "resource_path": "dlc1.rpf\\x64\\levels\\mptuner\\vehiclemods\\previon_mods.rpf\\prev_bucketa1_smod.yft",
-      "mesh_sha256": "629f27397cd1893d5a46ab67e1fadb7cf7e1981a808de29c9db04b87e6d3faab",
-      "textures": {},
+      "mesh_sha256": "4eafd4a89ff57a5f6678f66f1e4b3131f1b567f8096ae347f726b6a6f5a65b57",
+      "textures": {
+        "build\\lsc-previews\\seat-textures\\smooth\\vehshare\\vehicle_generic_detail2.dds": "ac6cca19b3c19ed1ce5c4277719c6af9efb683c35e683a0f8b8401404be6d9d2",
+        "build\\lsc-previews\\seat-textures\\smooth\\vehshare\\vehicle_generic_doorshut.dds": "f7c8f4e071baa8b4e40c1b0d3e54cbb2173dadd972b3e2fedc08b69a97c35eea",
+        "build\\lsc-previews\\seat-textures\\smooth\\vehicles_race_interior\\smod_bucket_w_d.dds": "ff212324691c95c514c60bf600c075cea8df5fe9b5c7162aa59e1829386406d7",
+        "build\\lsc-previews\\seat-textures\\smooth\\vehicles_race_interior\\smod_bucket_d.dds": "ae3211172bf8223776051082d195880cfd43707cdf312b3de275a5cd95c9f4cc"
+      },
       "native_label_evidence": [],
-      "material_note": "Exact native seat geometry; neutral material because shared diffuse textures are unavailable"
+      "texture_parent_evidence": [
+        {
+          "child": "previon",
+          "parent": "vehicles_coquette_w1_interior",
+          "sourceArchive": "update/update.rpf",
+          "path": "update.rpf\\dlc_patch\\mptuner\\common\\data\\levels\\gta5\\vehicles.meta",
+          "sha256": "89E23DDBB59C56D8D7AADEFC4788286E561B5BA2EC9C28BC1A788016E23FECF4"
+        },
+        {
+          "child": "vehicles_coquette_w1_interior",
+          "parent": "vehicles_race_generic",
+          "sourceArchive": "update/update.rpf",
+          "path": "update.rpf\\dlc_patch\\mp2023_02\\common\\data\\levels\\gta5\\vehicles.meta",
+          "sha256": "FCCAA168FB4C22A1904FBD039D5E9FA877EE1394628A6DA9FAA17F3D727C3915"
+        },
+        {
+          "child": "vehicles_race_generic",
+          "parent": "vehicles_race_interior",
+          "sourceArchive": "update/update.rpf",
+          "path": "update.rpf\\dlc_patch\\mpstunt\\common\\data\\levels\\gta5\\vehicles.meta",
+          "sha256": "342AB28C3E2D6B68E9374382DAA909241F250A787BFB4645C7B9982B662BDF26"
+        },
+        {
+          "child": "vehicles_race_interior",
+          "parent": "vehshare",
+          "sourceArchive": "update/update.rpf",
+          "path": "update.rpf\\dlc_patch\\mpjanuary2016\\common\\data\\levels\\gta5\\vehicles.meta",
+          "sha256": "122D40A5B98B9975DD9B8C041A7B00D82E236187506CDF1712E9FB87D6244954"
+        }
+      ]
     },
     {
       "name": "ruiner_livery1",
