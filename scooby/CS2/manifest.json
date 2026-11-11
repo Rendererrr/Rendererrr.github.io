@@ -2,21 +2,25 @@
   "version": 1,
   "product": "CS2-v2",
   "files": {
+    "assets/vfx/packs/combat-effects-48055194101ee94f7c782357bcfedd258a965646f773f9d219e7a2e34605b52a.zip": {
+      "bytes": 363483,
+      "sha256": "48055194101ee94f7c782357bcfedd258a965646f773f9d219e7a2e34605b52a"
+    },
     "assets/weapon-sounds/classic-b490aebf1dca7626aaaaeeeba1bfae53af8a3439dca19647c24874b8439ed81f.zip": {
       "bytes": 9212820,
       "sha256": "b490aebf1dca7626aaaaeeeba1bfae53af8a3439dca19647c24874b8439ed81f"
     },
-    "assets/weapon-sounds/csgo2016-fa5a39a25630bf83a327d8f5bd1ae1d76a834b7b4817b72a2a81ecb5c7419668.zip": {
-      "bytes": 11073972,
-      "sha256": "fa5a39a25630bf83a327d8f5bd1ae1d76a834b7b4817b72a2a81ecb5c7419668"
+    "assets/weapon-sounds/css-d90eed78df877e384bad28342b23354220fcaaaca60ff1f9a7952c1d53a9d972.zip": {
+      "bytes": 8805040,
+      "sha256": "d90eed78df877e384bad28342b23354220fcaaaca60ff1f9a7952c1d53a9d972"
     },
-    "assets/weapon-sounds/css-9a7f893312db98546f56210adb217b4b9ab0cc6b47223fef2bf9ca1541479dc1.zip": {
-      "bytes": 4063792,
-      "sha256": "9a7f893312db98546f56210adb217b4b9ab0cc6b47223fef2bf9ca1541479dc1"
+    "assets/weapon-sounds/cs16-970d6fae42f62da4224d878267e5311f707bc95c8e69160914c33a584089a796.zip": {
+      "bytes": 4879112,
+      "sha256": "970d6fae42f62da4224d878267e5311f707bc95c8e69160914c33a584089a796"
     },
-    "assets/weapon-sounds/cs16-a250ca16ee622f57db10c010dbb19047c7952ff064ad3a61d87807c941836efe.zip": {
-      "bytes": 935816,
-      "sha256": "a250ca16ee622f57db10c010dbb19047c7952ff064ad3a61d87807c941836efe"
+    "assets/weapon-sounds/csgo2016-b5fd29e4c6390e58ba3738cd37d12c2c0ee4ffcc0c906d74018d7fd5a01ba502.zip": {
+      "bytes": 25917564,
+      "sha256": "b5fd29e4c6390e58ba3738cd37d12c2c0ee4ffcc0c906d74018d7fd5a01ba502"
     },
     "sounds/[minecraft] XP gain.wav": {
       "bytes": 17498,
@@ -326,9 +330,61 @@
       "bytes": 4194376,
       "sha256": "bd9f15f7326e73827eb31540cf43c938937edae3200ffff916af82942692e36b"
     },
+    "assets/vfx/materials/scooby_vfx/chams/core/chrome_aqua.vtex_c": {
+      "bytes": 65608,
+      "sha256": "f731e4bd15302b7ecae90f0a78951ec9a8d04198866d83350b0a4bae245c41b1"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/chrome_gold.vtex_c": {
+      "bytes": 65608,
+      "sha256": "19d5c122c024cf4911065b532b93d2d8d029aec275f6a50951054e9574e9b211"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/chrome_rose.vtex_c": {
+      "bytes": 65608,
+      "sha256": "704b38df1f59bd26c0bfe10bc254c06cdd9b5e33a20d0797913ce4850c408558"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/chrome_silver.vtex_c": {
+      "bytes": 65608,
+      "sha256": "0a303624e40dc9e32421fbcf97b3ca5ff60bc9fb08f9a6c7880cb1842c0e6a65"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/latex_aurora.vtex_c": {
+      "bytes": 65608,
+      "sha256": "18816fe53be82b9e7b282ffb38c251d773f9274815fa1ba088a2bcce71e4638e"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/latex_candy.vtex_c": {
+      "bytes": 65608,
+      "sha256": "c137bf220c30b2ecd1186c564433e10e0caecccac627167b0be628a30d27e2da"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/latex_fade.vtex_c": {
+      "bytes": 65608,
+      "sha256": "8002bd80362a0c04686af21a0c5ba4d9aa2ec45c67f47a542da26235f4d8f7af"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/latex_sunset.vtex_c": {
+      "bytes": 65608,
+      "sha256": "4dfe68a5b71d163fa375c8d538b5c789f2f698bea24ff151c2e5bd2aa85e9cd8"
+    },
     "assets/vfx/materials/scooby_vfx/chams/core/matte_normal.vtex_c": {
       "bytes": 136,
       "sha256": "75219c3023d354039d98bbe574a843cadfb99aed04e5d6c51725e4d2aa3ed5a1"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/opal_blue.vtex_c": {
+      "bytes": 65608,
+      "sha256": "236ce0142b57693953a6255ad145c9fd460dfc76bf3c9bd28afe4974670db7ca"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/opal_fire.vtex_c": {
+      "bytes": 65608,
+      "sha256": "51c99e83dc0ca7a0aad43ebd4ab9ab76f0b7a2a6f023fc1cdc4d2be31fdd8e02"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/opal_pink.vtex_c": {
+      "bytes": 65608,
+      "sha256": "ecdb33f70db98bafa4bc7e0218b5ee41cb34d61eb42935de2ee5584ce019fbcc"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/opal_thickness.vtex_c": {
+      "bytes": 65608,
+      "sha256": "7f16128f78d73e327fdcafd6ccd8c73cdb6e65b8fda9f16a1cf651c72987be7b"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/opal_white.vtex_c": {
+      "bytes": 65608,
+      "sha256": "3fb18e84fafe99ab0aa6bddb6989e1ef9491ddbf3cbb321b1be790346d1e20ee"
     },
     "assets/vfx/materials/scooby_vfx/chams/core/satin_normal.vtex_c": {
       "bytes": 136,
@@ -482,9 +538,21 @@
       "bytes": 4194376,
       "sha256": "5db6617b7cb4f794bc4208a98056ec05cea293b09cd208632efc737bb60d5d40"
     },
+    "assets/vfx/materials/scooby_vfx/combat/haze.vtex_c": {
+      "bytes": 16456,
+      "sha256": "34237277050387f458de3d5007a9add5e5751558bb598d52b73993e10a0d596c"
+    },
     "assets/vfx/materials/scooby_vfx/combat/lightning_beam.vtex_c": {
       "bytes": 4168,
       "sha256": "6224dde17328f52c57f5a2de7261f8459f6d12a3b14cfd0d527e5281d0fc8ffb"
+    },
+    "assets/vfx/materials/scooby_vfx/combat/shard.vtex_c": {
+      "bytes": 16456,
+      "sha256": "69caa40ce3b508a17838fd145d1c38ec6d935c692a3153ed1862973440af1a34"
+    },
+    "assets/vfx/materials/scooby_vfx/combat/star.vtex_c": {
+      "bytes": 16456,
+      "sha256": "5f7272cd2df2d645a273ef1c02df0ff3d5d1014ed0d8525d057470a1ab630b46"
     },
     "assets/vfx/materials/scooby_vfx/sky/aurora.vmat_c": {
       "bytes": 842,
@@ -554,17 +622,69 @@
       "bytes": 16456,
       "sha256": "5c9de7d441596cf353d1fcd68578f6122b0e9f306198283bfbeb66220c957852"
     },
+    "assets/vfx/particles/scooby_vfx/combat/confetti_burst.vpcf_c": {
+      "bytes": 2765,
+      "sha256": "10252e93652c290fcd3b2caf0c90fb7c412013d9b394c1eb6691a077b78c83f1"
+    },
     "assets/vfx/particles/scooby_vfx/combat/crimson_burst.vpcf_c": {
-      "bytes": 2815,
-      "sha256": "bd6bff24cc02f327d9a400a039e8ec6e89cee760c7bd2b9ad0baaecb845c7b36"
+      "bytes": 2787,
+      "sha256": "44c3fff9944f9f4ed7c771021f954580a123871132f4a5f2eb403c23adc73173"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/electrical_burst.vpcf_c": {
+      "bytes": 2787,
+      "sha256": "aedc62311e323896c5c86f8eb96d3014daddf41ebd2ac2a825873eef1396b500"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/ember_dissolve.vpcf_c": {
+      "bytes": 2787,
+      "sha256": "fa039175ae342ffa085118b9978543edf1a3ac1681aaee3398e4bf630c0f019f"
     },
     "assets/vfx/particles/scooby_vfx/combat/frost_burst.vpcf_c": {
-      "bytes": 2815,
-      "sha256": "0532b1b7abab4410869422c50726dc5185ed489fd2470c4381c417430a7bc917"
+      "bytes": 2787,
+      "sha256": "5102b482070201acb15359108c9ce17a6cc9ae99cd06eab10bcf3ba89ec7f026"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/implosion.vpcf_c": {
+      "bytes": 2787,
+      "sha256": "eb24f33333821654d4c1ac597a5abd954b9f58fdc231aa2c0d2f3ebb31dbae5f"
     },
     "assets/vfx/particles/scooby_vfx/combat/lightning_strike.vpcf_c": {
       "bytes": 2476,
       "sha256": "5e517436b4f6ec5a6b8f215ccb6cb11284a400a3ac339399cd71ee78dfd528db"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/meteor_spray.vpcf_c": {
+      "bytes": 2765,
+      "sha256": "0c3a6dfed7a3dd0dbb4b820536975324521def56cfa9a9ed35d24de99f3e7cf0"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/nova_ring.vpcf_c": {
+      "bytes": 2787,
+      "sha256": "2b01f043ea3b8ca72f1b925babc117d551caf90681a0b342d9759c32fc4de655"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/orbit_ring.vpcf_c": {
+      "bytes": 2787,
+      "sha256": "ea3d263f2544857da77187c372dce8b3d2448261ab3fcd71826fbc4758ff1e25"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/smoke_puff.vpcf_c": {
+      "bytes": 2766,
+      "sha256": "5ad3da59b34bd816693fb5ac5b39f0aaa14ae4079eb92e0cbe88eb60c5f39611"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/soul_rise.vpcf_c": {
+      "bytes": 2787,
+      "sha256": "d911685572c3c265b30b8f846f6cf492ea4f1bcd0361496f01ebd6e705376712"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/spark_burst.vpcf_c": {
+      "bytes": 2787,
+      "sha256": "3a9ab5a0a39a2a0c652aad6d1297352b5fffe771a4c06742a677dc18c9f2fdf1"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/spiral_rise.vpcf_c": {
+      "bytes": 2787,
+      "sha256": "df89551194a2cd1c0de267d5386f061ed350b35848c67a81ee1efa32ccc1e19e"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/starburst.vpcf_c": {
+      "bytes": 2764,
+      "sha256": "33c3639dd512d81ca2e8e2b356777490f38b7ea22fdd59438521b34770a8eb68"
+    },
+    "assets/vfx/particles/scooby_vfx/combat/void_collapse.vpcf_c": {
+      "bytes": 2787,
+      "sha256": "a8e3ba89de59c3a7eafdf1e6d721c8f38b7055b535fd8b26d2f6dfad3e91afde"
     },
     "assets/vfx/particles/scooby_vfx/lights/player.vpcf_c": {
       "bytes": 1704,
@@ -635,8 +755,8 @@
       "sha256": "54d9ced010012f4756253b01074cfa387a84cea43849d70a860549416fcc063d"
     },
     "assets/vfx/manifest.json": {
-      "bytes": 16001,
-      "sha256": "ff9aabf5be98848ba241b60a7299d0514da0feb1b7bb3aae8b484c896d4e9049"
+      "bytes": 19603,
+      "sha256": "8182d1b29286f18200ca96d79e6e00821428e9483a30381c96a2fb85fcda170c"
     },
     "assets/vfx/README.md": {
       "bytes": 2074,
