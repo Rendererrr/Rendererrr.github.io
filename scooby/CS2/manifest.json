@@ -6,21 +6,29 @@
       "bytes": 363483,
       "sha256": "48055194101ee94f7c782357bcfedd258a965646f773f9d219e7a2e34605b52a"
     },
-    "assets/weapon-sounds/classic-b490aebf1dca7626aaaaeeeba1bfae53af8a3439dca19647c24874b8439ed81f.zip": {
-      "bytes": 9212820,
-      "sha256": "b490aebf1dca7626aaaaeeeba1bfae53af8a3439dca19647c24874b8439ed81f"
+    "assets/weapon-sounds/classic-01a3df5ddd3eea54750f8b03757c3c645d52b620bc8ef99034761cf9f7c921a7.zip": {
+      "bytes": 10196020,
+      "sha256": "01a3df5ddd3eea54750f8b03757c3c645d52b620bc8ef99034761cf9f7c921a7"
     },
-    "assets/weapon-sounds/css-d90eed78df877e384bad28342b23354220fcaaaca60ff1f9a7952c1d53a9d972.zip": {
-      "bytes": 8805040,
-      "sha256": "d90eed78df877e384bad28342b23354220fcaaaca60ff1f9a7952c1d53a9d972"
+    "assets/weapon-sounds/css-23829fde53d1090968248cbbd64252873b8421a07e4320a842a81aca2619ab9a.zip": {
+      "bytes": 9052564,
+      "sha256": "23829fde53d1090968248cbbd64252873b8421a07e4320a842a81aca2619ab9a"
     },
-    "assets/weapon-sounds/cs16-970d6fae42f62da4224d878267e5311f707bc95c8e69160914c33a584089a796.zip": {
-      "bytes": 4879112,
-      "sha256": "970d6fae42f62da4224d878267e5311f707bc95c8e69160914c33a584089a796"
+    "assets/weapon-sounds/cs16-fdd29c146d7c2fbcb9f6e8973b267ce58adb7a56462712d7a9d39b6ddb78efaa.zip": {
+      "bytes": 4895534,
+      "sha256": "fdd29c146d7c2fbcb9f6e8973b267ce58adb7a56462712d7a9d39b6ddb78efaa"
     },
-    "assets/weapon-sounds/csgo2016-b5fd29e4c6390e58ba3738cd37d12c2c0ee4ffcc0c906d74018d7fd5a01ba502.zip": {
-      "bytes": 25917564,
-      "sha256": "b5fd29e4c6390e58ba3738cd37d12c2c0ee4ffcc0c906d74018d7fd5a01ba502"
+    "assets/weapon-sounds/csgo2016-59c9cd2046ce7b85bf814f8987c79eb26f2dc4fd261e129583bafcf3cf077542.zip": {
+      "bytes": 26900764,
+      "sha256": "59c9cd2046ce7b85bf814f8987c79eb26f2dc4fd261e129583bafcf3cf077542"
+    },
+    "sounds/music-kits/signal-grid.pack": {
+      "bytes": 536484,
+      "sha256": "b6ba6b62aec8b75861acbd36d85b63d92961bc28c891ede21ac06c0c581dc9e2"
+    },
+    "sounds/music-kits/glass-horizon.pack": {
+      "bytes": 750884,
+      "sha256": "2896db8238f373b6a09d49f6792e9c60295828d9e2f4a792d7b3a2f47535af71"
     },
     "sounds/[minecraft] XP gain.wav": {
       "bytes": 17498,
@@ -345,6 +353,54 @@
     "assets/vfx/materials/scooby_vfx/chams/core/chrome_silver.vtex_c": {
       "bytes": 65608,
       "sha256": "0a303624e40dc9e32421fbcf97b3ca5ff60bc9fb08f9a6c7880cb1842c0e6a65"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_aurora_gold.vtex_c": {
+      "bytes": 65608,
+      "sha256": "8b65a096a033d2c8aebc3cfba16e2b9fc0f72427d3fb5ffb40296702c692f92c"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_aurora_ice.vtex_c": {
+      "bytes": 65608,
+      "sha256": "783cca5c5e4778334cb7dd0dac03e6fb88b4c66343dec964f9471ffc7e09cd57"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_aurora_rose.vtex_c": {
+      "bytes": 65608,
+      "sha256": "94e93702c2f366f923bacff0e485b0faeb037af9ec30a0ff926120c2741bfd1d"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_aurora_signature.vtex_c": {
+      "bytes": 65608,
+      "sha256": "fe73f6e9c0e5285c305ed34fc4dc8fb1a76aadc683870c0014708a6930df729c"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_prism_gold.vtex_c": {
+      "bytes": 65608,
+      "sha256": "97f1d7d322ce829568bff9b0e8861133cf33e6b12f5438a156457b878a7bc505"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_prism_ice.vtex_c": {
+      "bytes": 65608,
+      "sha256": "9d520de3d72133b98b83f04b25bba42148e8d458bb70ef790bdc9f200c0d8207"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_prism_rose.vtex_c": {
+      "bytes": 65608,
+      "sha256": "b109836764306a4880f354ace79b3ac53fdf3819634813de87f97cb1b1ae8696"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_prism_signature.vtex_c": {
+      "bytes": 65608,
+      "sha256": "dadc344f92e13c3efe273ff584ddab41a1b81c4c6c24c13a3f723064e4978e3f"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_solar_gold.vtex_c": {
+      "bytes": 65608,
+      "sha256": "c6217bea21cd3da8c771530ffd43fc6ac96ef65d5c349f4e62a9fde0df825916"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_solar_ice.vtex_c": {
+      "bytes": 65608,
+      "sha256": "145de11aeed8003b4c191a2b63125bfa19be8e2e7d00129ce6b6a86a5ec0c96d"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_solar_rose.vtex_c": {
+      "bytes": 65608,
+      "sha256": "66c12f2a450652c8cedbfa2da92da225e5f4aabb31375cf6485ad31f55ef8c12"
+    },
+    "assets/vfx/materials/scooby_vfx/chams/core/film_solar_signature.vtex_c": {
+      "bytes": 65608,
+      "sha256": "8f9f066730f4c5368c5597e2b878a4325cddaea397b10b61e94489f2a5561f93"
     },
     "assets/vfx/materials/scooby_vfx/chams/core/latex_aurora.vtex_c": {
       "bytes": 65608,
@@ -755,8 +811,8 @@
       "sha256": "54d9ced010012f4756253b01074cfa387a84cea43849d70a860549416fcc063d"
     },
     "assets/vfx/manifest.json": {
-      "bytes": 19603,
-      "sha256": "8182d1b29286f18200ca96d79e6e00821428e9483a30381c96a2fb85fcda170c"
+      "bytes": 21017,
+      "sha256": "4ff29001fe585d2e0754225b69ccafcf36d7e1452dfa78efe09272c7841747ff"
     },
     "assets/vfx/README.md": {
       "bytes": 2074,
