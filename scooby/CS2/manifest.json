@@ -902,9 +902,29 @@
       "bytes": 4384,
       "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df"
     },
+    "fonts/ui/NotoSansHebrew.ttf": {
+      "bytes": 47756,
+      "sha256": "5fb2e1fc38c242d64f9fc5f77e026473f288b9791762d80df98a3ec762d5bbdf"
+    },
+    "fonts/ui/NotoSansJP.ttf": {
+      "bytes": 5766884,
+      "sha256": "57458d02bb14502d7ae98abe1e2f79b52783ceda9e4628df145faae23a3d31d2"
+    },
+    "fonts/ui/NotoSansKR.ttf": {
+      "bytes": 6224868,
+      "sha256": "4609a7b62a6da24cae3a8b73ecde7003581b8f60662d60cc8f55a3793de07763"
+    },
     "fonts/NotoSansMono.ttf": {
       "bytes": 1708408,
       "sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081"
+    },
+    "fonts/ui/NotoSansSC.ttf": {
+      "bytes": 10595932,
+      "sha256": "eeb06b8a64fd04a2744d95579db1571b51027cda61ed78c62e4b730791525461"
+    },
+    "fonts/ui/NotoSansTC.ttf": {
+      "bytes": 7149180,
+      "sha256": "82559d4a2ab69224de5cb6191ddf40b0027c4b519ff891e9342d354045285014"
     },
     "languages/ar.json": {
       "bytes": 12195,
@@ -943,8 +963,8 @@
       "sha256": "c13cb0d11cc4643b3cc6dacc0ebdf9632ec7861c5fbe95a115223fafd8e36556"
     },
     "languages/ja.json": {
-      "bytes": 11581,
-      "sha256": "d876394967c6681c7266eae0020dbdd2411c9c10889a5b7365dd077399659028"
+      "bytes": 11573,
+      "sha256": "928925bc5c97d1ab1a680bbcc302616a32b5533cfd2a26120eb7ba498a6a8cee"
     },
     "languages/ka.json": {
       "bytes": 14977,
